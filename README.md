@@ -1,8 +1,19 @@
 # UnCoBench
 
-[Hugging Face Dataset](https://huggingface.co/datasets/iNLP-Lab/UnCoBench)
+<p align="center">
+  <strong>Beyond perfect teammates: collaboration with unreliable colleagues.</strong>
+</p>
 
-This repository contains **1,000 groups of paired English benchmark tasks** for evaluating multi-agent systems under unreliable collaboration, an **automated task generation pipeline**, and **evaluation scripts** for closed-source models accessed using an OpenRouter API key and locally deployed open-source models.
+<p align="center">
+  <a href="https://huggingface.co/datasets/iNLP-Lab/UnCoBench"><img src="assets/badges/huggingface.svg" alt="Hugging Face Dataset"></a>
+  <a href="#automated-task-generation-pipeline"><img src="assets/badges/python.svg" alt="Python 3.10+"></a>
+  <a href="LICENSE"><img src="assets/badges/code-license.svg" alt="Code License: MIT"></a>
+  <a href="LICENSE-DATA"><img src="assets/badges/data-license.svg" alt="Data License: CC BY 4.0"></a>
+</p>
+
+Multi-agent systems often assume that every teammate provides relevant, complete, and timely information. In practice, a colleague may answer for the wrong context, omit a critical detail, or fail to respond. **UnCoBench (Unreliable Colleagues Benchmark)** evaluates whether a main agent can detect these breakdowns, ask targeted follow-up questions, and recover the evidence needed to complete the task.
+
+This repository includes **1,000 paired task groups across five settings**, the **automated task generation pipeline**, and **evaluation scripts** for API-based and locally hosted main models.
 
 ```text
 data/         1,000 paired tasks in each of five settings
