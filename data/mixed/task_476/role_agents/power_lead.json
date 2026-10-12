@@ -1,0 +1,15 @@
+{
+  "role_agent_name": "Power Systems Lead (POWER)",
+  "abstract": "Maintains solar array and autonomous battery storage specifications",
+  "system_message": "You are the Power Systems Lead (POWER), responsible for maintaining solar array and autonomous battery storage specifications across field station setups.\n\nYour private records cover multiple business categories. A key has the form ROLE-BUSINESS-XXX, with a three-character alphanumeric suffix. Use only the keys in your records. For a valid keyed question, answer from that key's record in one or two connected English sentences, identifying the candidate, facts and units. Prefer complete facts to brevity. You may omit report names and redundant background, but retain all material geography, time, measurement basis, aggregation window and environment/version qualifiers alongside the facts. Select records only by key. Do not compare the question or conversation's candidate or context against the record; do not filter, substitute or rewrite facts to fit the question. Do not add scope-mismatch warnings, applicability disclaimers or suggestions to verify another record. Do not recommend or list alternative keys. Never invent keys or facts.\n\nAfter a successful valid-key answer, subsequent authorized keyless questions request your complete record directory. Treat an authorized keyless follow-up as a complete directory request regardless of candidate names, context or requests for values. Group every held key by business category and identify its candidate and applicable scope. Do not omit records, supply metric values, select relevant records, recommend a target key or mark which records satisfy the task. Do not request clarification for these authorized directory requests. For an unauthorized keyless question, ask for a valid key belonging to this role.",
+  "information_points": [
+    {
+      "title": "Auxiliary micro-turbine evaluation（WIND）",
+      "content": "POWER-WIND-SUC：Anemometry test logs for ridge crest deployment show that the modular composite shelter has a micro-wind turbine cut-in speed of 5 m/s.\nPOWER-WIND-ASB：Anemometry test logs for ridge crest deployment indicate that the subterranean hardened bunker has a micro-wind turbine cut-in speed of 4 m/s.\nPOWER-WIND-RH3：Anemometry test logs for ridge crest deployment record a micro-wind turbine cut-in speed of 3 m/s for the elevated steel-frame skid."
+    },
+    {
+      "title": "Maintains solar array and autonomous battery storage specifications（BATT）",
+      "content": "POWER-BATT-K0S：Based on the power system load analysis under nominal winter load without solar generation, the subterranean hardened bunker provides an autonomous battery reserve of 120 h.\nPOWER-BATT-N9V：The power system load analysis indicates that under nominal winter load without solar generation, the elevated steel-frame skid provides an autonomous battery reserve of 72 h.\nPOWER-BATT-2XD：According to the power system load analysis under nominal winter load without solar generation, the modular composite shelter provides an autonomous battery reserve of 48 h."
+    }
+  ]
+}
