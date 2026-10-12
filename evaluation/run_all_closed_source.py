@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Evaluate paired tasks with closed-source main models via an OpenAI-compatible API."""
+"""Evaluate paired tasks with remote or locally hosted OpenAI-compatible main models."""
 from __future__ import annotations
 
 import argparse
@@ -123,6 +123,23 @@ def redact(text, keys):
     return text
 
 
+def configure_local_main(client, config):
+    """Adapt only the main client's requests for a locally hosted model."""
+    create = client.chat.completions.create
+
+    def local_create(**kwargs):
+        # Use the task's JSON instructions without forcing a decoding backend.
+        kwargs.pop("response_format", None)
+        extra_body = dict(kwargs.pop("extra_body", None) or {})
+        extra_body.pop("reasoning", None)
+        extra_body.update(config["main_extra_body"])
+        kwargs["extra_body"] = extra_body
+        kwargs.setdefault("max_tokens", config["main_max_tokens"])
+        return create(**kwargs)
+
+    client.chat.completions.create = local_create
+
+
 def run_job(job, config, output, keys):
     """Run one episode; retain failed attempts and never retry a wrong answer."""
     from openai import OpenAI
@@ -156,6 +173,8 @@ def run_job(job, config, output, keys):
                         base_url=config["main_base_url"], timeout=120, max_retries=2))
                     role_client = stack.enter_context(OpenAI(api_key=keys["role"],
                         base_url=config["role_base_url"], timeout=120, max_retries=2))
+                    if config.get("local_main"):
+                        configure_local_main(main_client, config)
                     roles = module.build_role_agents(role_client,
                         agent_dir=str(directory / "role_agents"), model=config["role_model"])
                     agent = module.MainAgent(main_client, roles, model=job["model"], max_turns=maximum)
@@ -255,10 +274,20 @@ def positive_int(value):
     return number
 
 
+def json_object(value):
+    try:
+        parsed = json.loads(value)
+    except ValueError as error:
+        raise argparse.ArgumentTypeError(str(error)) from error
+    if not isinstance(parsed, dict):
+        raise argparse.ArgumentTypeError("Must be a JSON object")
+    return parsed
+
+
 def main(argv=None):
     load_environment()
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--models", nargs="+", help="Closed-source main model IDs")
+    parser.add_argument("--models", nargs="+", help="Main model IDs exposed by the API")
     parser.add_argument("--role-model", help="Model ID shared by all role agents")
     parser.add_argument("--settings", nargs="+", choices=SETTINGS)
     parser.add_argument("--start", type=positive_int, help="First task number (inclusive)")
@@ -266,22 +295,35 @@ def main(argv=None):
     parser.add_argument("--workers", type=positive_int, default=20)
     parser.add_argument("--main-base-url")
     parser.add_argument("--role-base-url")
+    parser.add_argument("--local-main", action="store_true", default=None,
+                        help="Use a locally hosted main model; keep role agents on their API")
+    parser.add_argument("--main-max-tokens", type=positive_int,
+                        help="Maximum output tokens for a local main model (default: 8192)")
+    parser.add_argument("--main-extra-body", type=json_object,
+                        help="JSON request options for a local main model, such as chat_template_kwargs")
     parser.add_argument("--reasoning-effort")
     parser.add_argument("--role-reasoning-effort")
     parser.add_argument("--required-followups", type=positive_int)
     parser.add_argument("--resume", type=Path, help="Existing experiment directory")
     parser.add_argument("--dry-run", action="store_true", help="Check task inventory without API calls or output files")
     args = parser.parse_args(argv)
-    keys = {"main": os.getenv("MAIN_AGENT_API_KEY") or os.getenv("OPENROUTER_API_KEY", ""),
-            "role": os.getenv("ROLE_AGENT_API_KEY") or os.getenv("OPENROUTER_API_KEY", "")}
+    keys = {}
     try:
         saved = read_json(args.resume / "config.json") if args.resume else {}
+        local_main = args.local_main or saved.get("local_main", False)
+        keys = {"main": os.getenv("MAIN_AGENT_API_KEY") or
+                       ("local" if local_main else os.getenv("OPENROUTER_API_KEY", "")),
+                "role": os.getenv("ROLE_AGENT_API_KEY") or os.getenv("OPENROUTER_API_KEY", "")}
         defaults = {"models": [os.environ["MAIN_AGENT_MODEL_NAME"]] if os.getenv("MAIN_AGENT_MODEL_NAME") else [],
-                    "role_model": os.getenv("ROLE_AGENT_MODEL_NAME", ""),
+                    "role_model": os.getenv("ROLE_AGENT_MODEL_NAME",
+                                            "deepseek/deepseek-v4-flash-0731" if local_main else ""),
                     "settings": list(SETTINGS), "start": 1, "end": 1000,
-                    "main_base_url": os.getenv("MAIN_AGENT_BASE_URL", "https://openrouter.ai/api/v1"),
+                    "main_base_url": os.getenv("MAIN_AGENT_BASE_URL",
+                                              "http://127.0.0.1:8000/v1" if local_main else "https://openrouter.ai/api/v1"),
                     "role_base_url": os.getenv("ROLE_AGENT_BASE_URL", "https://openrouter.ai/api/v1"),
                     "reasoning_effort": "medium", "role_reasoning_effort": "low", "required_followups": 1}
+        if local_main:
+            defaults.update(local_main=True, main_max_tokens=8192, main_extra_body={})
         config = {key: getattr(args, key) if getattr(args, key) is not None else saved.get(key, default)
                   for key, default in defaults.items()}
         if config["start"] > config["end"]:
@@ -299,11 +341,13 @@ def main(argv=None):
         if not config["models"] or not config["role_model"]:
             raise ValueError("Specify --models and --role-model, or their model environment variables")
         if not all(keys.values()):
-            raise ValueError("Set OPENROUTER_API_KEY, or both MAIN_AGENT_API_KEY and ROLE_AGENT_API_KEY")
+            raise ValueError("Set ROLE_AGENT_API_KEY or OPENROUTER_API_KEY for role agents; "
+                             "remote main models also need MAIN_AGENT_API_KEY or OPENROUTER_API_KEY")
         output_root = ROOT / "outputs/evaluation"
         output_root.mkdir(parents=True, exist_ok=True)
         output = args.resume.resolve() if args.resume else Path(tempfile.mkdtemp(
-            prefix="closed_source_" + datetime.now().strftime("%Y%m%d_%H%M%S_"), dir=output_root))
+            prefix=("open_source_" if local_main else "closed_source_") +
+                   datetime.now().strftime("%Y%m%d_%H%M%S_"), dir=output_root))
         jobs = make_jobs(config)
         with (output / ".lock").open("a") as lock:
             fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)

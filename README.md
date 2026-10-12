@@ -51,6 +51,28 @@ python evaluation/run_all_closed_source.py \
 
 Supply multiple IDs after `--models` to evaluate several main models. Each model runs once per task instance. Use `--settings reliable misaligned incomplete missed` for the four primary settings, or `--settings mixed` for the additional stress test. Use `--start 1 --end 10` for a smaller task range.
 
+## Open-sourced Model Evaluation
+
+After installing the dependencies and [vLLM](https://docs.vllm.ai/en/latest/serving/online_serving/openai_compatible_server/) in your GPU environment, start a local main model:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 bash evaluation/serve_local_model.sh \
+  /path/to/model YOUR_MAIN_MODEL
+```
+
+In another terminal, configure `OPENROUTER_API_KEY` or `ROLE_AGENT_API_KEY` in `.env` and run all 1,000 task groups across all five settings, keeping DeepSeek as the role model:
+
+```bash
+python evaluation/run_all_closed_source.py \
+  --local-main \
+  --models YOUR_MAIN_MODEL \
+  --main-base-url http://127.0.0.1:8000/v1 \
+  --role-model deepseek/deepseek-v4-flash-0731 \
+  --workers 20
+```
+
+Use the same model name in both commands. Set `VLLM_PORT` and `VLLM_TP_SIZE` to change the serving port and tensor parallel size; additional vLLM options can follow the model name. For reasoning models, pass the model's `--reasoning-parser` when serving, or disable thinking with `--main-extra-body '{"chat_template_kwargs":{"enable_thinking":false}}'` when supported. Use `--main-max-tokens` to change the local output limit (default: 8192). The local main model uses a placeholder API key unless `MAIN_AGENT_API_KEY` is set; role credentials remain in the environment or `.env`. Task selection and result formats are shared with closed-source evaluation, with local results saved under `outputs/evaluation/open_source_*`.
+
 ## License
 
 Copyright (c) 2026 UnCoBench contributors.
