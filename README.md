@@ -5,6 +5,7 @@ This directory contains **1,000 groups of paired English benchmark tasks** for e
 ```text
 data/         1,000 paired tasks in each of five settings
 pipeline/     Generation code, runtime building blocks and prompts
+evaluation/   Batch evaluation with closed-source main models
 ```
 
 ## Data
@@ -36,6 +37,19 @@ python pipeline/generate_benchmark.py \
 ```
 
 Adjust `--count` to generate a different number of groups. Generated tasks are saved under `outputs/generated/generated_tasks/`.
+
+## Closed-Source Model Evaluation
+
+After installing the dependencies and configuring `.env`, run all 1,000 task groups across all five settings:
+
+```bash
+python evaluation/run_all_closed_source.py \
+  --models YOUR_MAIN_MODEL \
+  --role-model YOUR_ROLE_MODEL \
+  --workers 20
+```
+
+Supply multiple IDs after `--models` to evaluate several main models. Each model runs once per task instance. Use `--settings reliable misaligned incomplete missed` for the four primary settings, or `--settings mixed` for the additional stress test. Use `--start 1 --end 10` for a smaller task range.
 
 ## License
 
