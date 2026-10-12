@@ -1,11 +1,11 @@
 # UnCoBench
 
-This directory contains **1,000 groups of paired English benchmark tasks** for evaluating the performance of multi-agent systems under unreliable collaboration, along with the **automated pipeline** used to generate them.
+This repository contains **1,000 groups of paired English benchmark tasks** for evaluating multi-agent systems under unreliable collaboration, an **automated task generation pipeline**, and **evaluation scripts** for closed-source models accessed using an OpenRouter API key and locally deployed open-source models.
 
 ```text
 data/         1,000 paired tasks in each of five settings
 pipeline/     Generation code, runtime building blocks and prompts
-evaluation/   Batch evaluation with closed-source main models
+evaluation/   Batch evaluation
 ```
 
 ## Data
