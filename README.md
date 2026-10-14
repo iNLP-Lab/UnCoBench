@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2610.16117"><img src="assets/badges/arxiv.svg" alt="arXiv: 2610.16117"></a>
   <a href="https://huggingface.co/datasets/iNLP-Lab/UnCoBench"><img src="assets/badges/huggingface.svg" alt="Hugging Face Dataset"></a>
   <a href="#automated-task-generation-pipeline"><img src="assets/badges/python.svg" alt="Python 3.10+"></a>
   <a href="LICENSE"><img src="assets/badges/code-license.svg" alt="Code License: MIT"></a>
