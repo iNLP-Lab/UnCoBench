@@ -1,12 +1,6 @@
 # UnCoBench
 
 <p align="center">
-  <strong>Beyond perfect teammates: collaboration with unreliable colleagues.</strong>
-</p>
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2610.16117"><img src="assets/badges/arxiv.svg" alt="arXiv: 2610.16117"></a>
-  <a href="https://huggingface.co/datasets/iNLP-Lab/UnCoBench"><img src="assets/badges/huggingface.svg" alt="Hugging Face Dataset"></a>
   <a href="#automated-task-generation-pipeline"><img src="assets/badges/python.svg" alt="Python 3.10+"></a>
   <a href="LICENSE"><img src="assets/badges/code-license.svg" alt="Code License: MIT"></a>
   <a href="LICENSE-DATA"><img src="assets/badges/data-license.svg" alt="Data License: CC BY 4.0"></a>
@@ -91,21 +85,10 @@ python evaluation/run_evaluation.py \
 
 Use the same model name in both commands. Set `VLLM_PORT` and `VLLM_TP_SIZE` to change the serving port and tensor parallel size; additional vLLM options can follow the model name. For reasoning models, pass the model's `--reasoning-parser` when serving, or disable thinking with `--main-extra-body '{"chat_template_kwargs":{"enable_thinking":false}}'` when supported. Use `--main-max-tokens` to change the local output limit (default: 8192). The local main model uses a placeholder API key unless `MAIN_AGENT_API_KEY` is set; role credentials remain in the environment or `.env`. Task selection and result formats are shared with closed-source evaluation, with local results saved under `outputs/evaluation/open_source_*`.
 
-## Citation
-
-```bibtex
-@article{huang2026beyond,
-  title={Beyond Perfect Teammates: Multi-Agent Collaboration with Unreliable Colleagues},
-  author={Huang, Chen and Zhang, Yiyang and Wu, Yuhao and Deng, Yang and Zhang, Wenxuan},
-  journal={arXiv preprint arXiv:2610.16117},
-  year={2026}
-}
-```
-
 ## License
 
 Copyright (c) 2026 UnCoBench contributors.
 
 The code, including the generation pipeline and evaluation logic in `run_one.py`, and the accompanying documentation and generation prompts are licensed under the [MIT License](LICENSE).
 
-The benchmark data, including task text, role information and reference answers in `data/`, are licensed under [CC BY 4.0](LICENSE-DATA). This includes task content embedded in `run_one.py`. When sharing the data or adaptations, credit the UnCoBench contributors, link to [this repository](https://github.com/iNLP-Lab/UnCoBench) and the [license](https://creativecommons.org/licenses/by/4.0/), and indicate any changes.
+The benchmark data, including task text, role information and reference answers in `data/`, are licensed under [CC BY 4.0](LICENSE-DATA). This includes task content embedded in `run_one.py`. When sharing the data or adaptations, credit the UnCoBench contributors, link to [this repository](.) and the [license](https://creativecommons.org/licenses/by/4.0/), and indicate any changes.
