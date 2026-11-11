@@ -1516,7 +1516,7 @@ def save_single_run_result(
     return result_path
 
 
-def _run_single() -> None:
+def main() -> None:
     main_client = OpenAI(base_url=MAIN_AGENT_BASE_URL, api_key=MAIN_AGENT_API_KEY)
     role_client = OpenAI(base_url=ROLE_AGENT_BASE_URL, api_key=ROLE_AGENT_API_KEY)
     role_agents = build_role_agents(role_client)
@@ -1530,29 +1530,6 @@ def _run_single() -> None:
     summary_title = "MISALIGNED RECOVERY SUMMARY" if SETTING in {"misaligned", "mixed"} else "TASK SUMMARY"
     print_key_trace(summary_title, format_key_metrics(result["evaluation"]))
     print_key_trace("RESULT SAVED", result_path)
-
-
-def main() -> None:
-    if SETTING not in {"misaligned", "incomplete", "missed"}:
-        _run_single()
-        return
-    import argparse
-    import sys
-    parser = argparse.ArgumentParser(description="Evaluate one benchmark task")
-    parser.add_argument("--k", type=int, choices=(1, 2, 3),
-                        default=globals().get("ROLE_COUNT", 1))
-    args = parser.parse_args()
-    if args.k == 1 and globals().get("ROLE_COUNT", 1) == 1:
-        _run_single()
-        return
-    for parent in Path(__file__).resolve().parents:
-        if (parent / "pipeline/role_count_runtime.py").is_file():
-            sys.path.insert(0, str(parent / "pipeline"))
-            from role_count_runtime import run_single
-            run_single(Path(__file__), args.k)
-            return
-    raise FileNotFoundError("k=2/3 requires the repository's pipeline and data directories")
-
 
 
 if __name__ == "__main__":
