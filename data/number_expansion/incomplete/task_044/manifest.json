@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_044",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrographic_survey_lead",
+        "vessel_operations_superintendent"
+      ],
+      "role_names": [
+        "Hydrographic Survey Lead (HSL)",
+        "Vessel Operations Superintendent (VOS)"
+      ],
+      "directory": "incomplete/task_044",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_lead_A",
+          "role_id": "hydrographic_survey_lead",
+          "candidate_id": "A",
+          "key": "HSL-SURV-4G6",
+          "boolean_predicate_id": "A_acoustic_telemetry_active",
+          "boolean_label": "Acoustic seabed telemetry activation",
+          "hidden_predicate_id": "A_positioning_error_margin",
+          "threshold_label": "Acoustic signal positioning error",
+          "threshold_aliases": [
+            "Seabed positioning deviation",
+            "Acoustic fix error margin"
+          ],
+          "threshold_value": 1.6,
+          "threshold_unit": "m",
+          "partial_record_text": "HSL-SURV-4G6: Pelagic Horizon Support Platform.Pelagic Horizon Support Platform: Acoustic seabed telemetry activation = true .Source: Acoustic transponder test report; Scope: Ultra-short baseline positioning array; Measurement: Operational activation confirmation of subsea acoustic transponders.Pelagic Horizon Support Platform: Total subsea crane hoist capacity = 32 t.Source: Deck crane proof-load certification; Scope: Over-the-side deep-water recovery winch; Measurement: Maximum certified safe working load for submerged artifact retrieval.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "Acoustic signal positioning error is between 1 m and 4 m, inclusive.",
+          "role_name": "Hydrographic Survey Lead (HSL)",
+          "candidate_name": "Pelagic Horizon Support Platform",
+          "other_candidate_names": [
+            "Nautilus Deep Ocean Barge",
+            "Aegean Trench Explorer Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_operations_superintendent_A",
+          "role_id": "vessel_operations_superintendent",
+          "candidate_id": "A",
+          "key": "VOS-STAB-FAM",
+          "hidden_predicate_id": "A_tether_umbilical_ballast_weight",
+          "threshold_label": "Tether umbilical ballast weight",
+          "threshold_aliases": [
+            "ROV umbilical ballast load",
+            "Tether clump weight"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "t",
+          "partial_record_text": "VOS-STAB-FAM: Pelagic Horizon Support Platform.Pelagic Horizon Support Platform: Dynamic positioning class 2 certification = true .Source: Maritime classification society registry; Scope: Offshore vessel dynamic positioning equipment; Measurement: Attainment of verified DP Class 2 redundancy certification.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Tether umbilical ballast weight is between 0 t and 30 t, inclusive.",
+          "role_name": "Vessel Operations Superintendent (VOS)",
+          "candidate_name": "Pelagic Horizon Support Platform",
+          "other_candidate_names": [
+            "Nautilus Deep Ocean Barge",
+            "Aegean Trench Explorer Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrographic_survey_lead",
+        "vessel_operations_superintendent",
+        "maritime_regulatory_officer"
+      ],
+      "role_names": [
+        "Hydrographic Survey Lead (HSL)",
+        "Vessel Operations Superintendent (VOS)",
+        "Maritime Regulatory Officer (MRO)"
+      ],
+      "directory": "number_expansion/incomplete/task_044/k3",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_lead_A",
+          "role_id": "hydrographic_survey_lead",
+          "candidate_id": "A",
+          "key": "HSL-SURV-4G6",
+          "boolean_predicate_id": "A_acoustic_telemetry_active",
+          "boolean_label": "Acoustic seabed telemetry activation",
+          "hidden_predicate_id": "A_positioning_error_margin",
+          "threshold_label": "Acoustic signal positioning error",
+          "threshold_aliases": [
+            "Seabed positioning deviation",
+            "Acoustic fix error margin"
+          ],
+          "threshold_value": 1.6,
+          "threshold_unit": "m",
+          "partial_record_text": "HSL-SURV-4G6: Pelagic Horizon Support Platform.Pelagic Horizon Support Platform: Acoustic seabed telemetry activation = true .Source: Acoustic transponder test report; Scope: Ultra-short baseline positioning array; Measurement: Operational activation confirmation of subsea acoustic transponders.Pelagic Horizon Support Platform: Total subsea crane hoist capacity = 32 t.Source: Deck crane proof-load certification; Scope: Over-the-side deep-water recovery winch; Measurement: Maximum certified safe working load for submerged artifact retrieval.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "Acoustic signal positioning error is between 1 m and 4 m, inclusive.",
+          "role_name": "Hydrographic Survey Lead (HSL)",
+          "candidate_name": "Pelagic Horizon Support Platform",
+          "other_candidate_names": [
+            "Nautilus Deep Ocean Barge",
+            "Aegean Trench Explorer Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_operations_superintendent_A",
+          "role_id": "vessel_operations_superintendent",
+          "candidate_id": "A",
+          "key": "VOS-STAB-FAM",
+          "hidden_predicate_id": "A_tether_umbilical_ballast_weight",
+          "threshold_label": "Tether umbilical ballast weight",
+          "threshold_aliases": [
+            "ROV umbilical ballast load",
+            "Tether clump weight"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "t",
+          "partial_record_text": "VOS-STAB-FAM: Pelagic Horizon Support Platform.Pelagic Horizon Support Platform: Dynamic positioning class 2 certification = true .Source: Maritime classification society registry; Scope: Offshore vessel dynamic positioning equipment; Measurement: Attainment of verified DP Class 2 redundancy certification.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Tether umbilical ballast weight is between 0 t and 30 t, inclusive.",
+          "role_name": "Vessel Operations Superintendent (VOS)",
+          "candidate_name": "Pelagic Horizon Support Platform",
+          "other_candidate_names": [
+            "Nautilus Deep Ocean Barge",
+            "Aegean Trench Explorer Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_regulatory_officer_A_supplemental",
+          "role_id": "maritime_regulatory_officer",
+          "candidate_id": "A",
+          "key": "MRO-PORT-MR8",
+          "hidden_predicate_id": "A_supplemental_maritime_regulatory_officer",
+          "threshold_label": "Emergency harbor draft allowance",
+          "threshold_aliases": [],
+          "threshold_value": 8.5,
+          "threshold_unit": "m",
+          "partial_record_text": "MRO-PORT-MR8: Pelagic Horizon Support Platform. The record covers Emergency harbor draft allowance. Harbor master berthing log; Designated port of refuge; Maximum authorized vessel operating draft under low tide.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency harbor draft allowance is between 5 m and 30 m, inclusive.",
+          "role_name": "Maritime Regulatory Officer (MRO)",
+          "candidate_name": "Pelagic Horizon Support Platform",
+          "other_candidate_names": [
+            "Nautilus Deep Ocean Barge",
+            "Aegean Trench Explorer Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_maritime_regulatory_officer",
+        "topic_id": "supplemental_maritime_regulatory_officer",
+        "operator": "gte",
+        "threshold": 8.5,
+        "role_id": "maritime_regulatory_officer",
+        "metric": "Emergency harbor draft allowance",
+        "unit": "m",
+        "required_text": "To qualify, a candidate must also have Emergency harbor draft allowance of at least 8.5 m.",
+        "new_fault_record_key": "MRO-PORT-MR8",
+        "exact_value": 8.5,
+        "first_reply": "Emergency harbor draft allowance is between 5 m and 30 m, inclusive."
+      }
+    }
+  }
+}

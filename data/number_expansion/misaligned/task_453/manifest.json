@@ -1,0 +1,567 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_453",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_protection",
+        "conservation"
+      ],
+      "role_names": [
+        "Fire protection engineer (FIRE)",
+        "Chief conservator (CONS)"
+      ],
+      "directory": "number_expansion/misaligned/task_453/k2",
+      "error_profiles": [
+        {
+          "role_name": "Fire protection engineer (FIRE)",
+          "target_key": "FIRE-SUPP-JIN",
+          "alternate_key": "FIRE-SUPP-VLQ",
+          "target_context": "Specification Version 3",
+          "alternate_context": "Specification Version 2",
+          "candidate": "Cumberland Subterranean Archive",
+          "other_candidates": [
+            "Highland Granite Vault",
+            "Pennine Limestone Repository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "value": true,
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ]
+            },
+            {
+              "topic": "dehumidification_loop_installed",
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ]
+            },
+            {
+              "topic": "ambient_relative_humidity",
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic isolation rating approved",
+              "aliases": [
+                "Seismic base-isolation approval",
+                "Earthquake shock dampening certification"
+              ]
+            },
+            {
+              "topic": "biometric_access_cleared",
+              "label": "Dual-perimeter biometric security clearance",
+              "aliases": [
+                "Biometric security clearance",
+                "Dual-perimeter access compliance"
+              ]
+            },
+            {
+              "topic": "hvac_backup_generator_ready",
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ]
+            },
+            {
+              "topic": "primary_vault_space",
+              "label": "Primary vault floor space",
+              "aliases": [
+                "Primary storage floor area",
+                "Base archival vault space"
+              ]
+            },
+            {
+              "topic": "auxiliary_staging_space",
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ]
+            },
+            {
+              "topic": "environmental_buffer_space",
+              "label": "Designated environmental buffer space",
+              "aliases": [
+                "Environmental buffer floor area",
+                "Airlock barrier zone space"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Chief conservator (CONS)",
+          "target_key": "CONS-CLIM-DSZ",
+          "alternate_key": "CONS-CLIM-95J",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Cumberland Subterranean Archive",
+          "other_candidates": [
+            "Highland Granite Vault",
+            "Pennine Limestone Repository"
+          ],
+          "numeric": [
+            {
+              "topic": "ambient_relative_humidity",
+              "value": 38,
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dehumidification_loop_installed",
+              "value": true,
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ]
+            },
+            {
+              "topic": "dehumidification_loop_installed",
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ]
+            },
+            {
+              "topic": "ambient_relative_humidity",
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic isolation rating approved",
+              "aliases": [
+                "Seismic base-isolation approval",
+                "Earthquake shock dampening certification"
+              ]
+            },
+            {
+              "topic": "biometric_access_cleared",
+              "label": "Dual-perimeter biometric security clearance",
+              "aliases": [
+                "Biometric security clearance",
+                "Dual-perimeter access compliance"
+              ]
+            },
+            {
+              "topic": "hvac_backup_generator_ready",
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ]
+            },
+            {
+              "topic": "primary_vault_space",
+              "label": "Primary vault floor space",
+              "aliases": [
+                "Primary storage floor area",
+                "Base archival vault space"
+              ]
+            },
+            {
+              "topic": "auxiliary_staging_space",
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ]
+            },
+            {
+              "topic": "environmental_buffer_space",
+              "label": "Designated environmental buffer space",
+              "aliases": [
+                "Environmental buffer floor area",
+                "Airlock barrier zone space"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_protection",
+        "conservation",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Fire protection engineer (FIRE)",
+        "Chief conservator (CONS)",
+        "Logistics operations lead (OPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_453/k3",
+      "error_profiles": [
+        {
+          "role_name": "Fire protection engineer (FIRE)",
+          "target_key": "FIRE-SUPP-JIN",
+          "alternate_key": "FIRE-SUPP-VLQ",
+          "target_context": "Specification Version 3",
+          "alternate_context": "Specification Version 2",
+          "candidate": "Cumberland Subterranean Archive",
+          "other_candidates": [
+            "Highland Granite Vault",
+            "Pennine Limestone Repository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "value": true,
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ]
+            },
+            {
+              "topic": "dehumidification_loop_installed",
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ]
+            },
+            {
+              "topic": "ambient_relative_humidity",
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic isolation rating approved",
+              "aliases": [
+                "Seismic base-isolation approval",
+                "Earthquake shock dampening certification"
+              ]
+            },
+            {
+              "topic": "biometric_access_cleared",
+              "label": "Dual-perimeter biometric security clearance",
+              "aliases": [
+                "Biometric security clearance",
+                "Dual-perimeter access compliance"
+              ]
+            },
+            {
+              "topic": "hvac_backup_generator_ready",
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ]
+            },
+            {
+              "topic": "primary_vault_space",
+              "label": "Primary vault floor space",
+              "aliases": [
+                "Primary storage floor area",
+                "Base archival vault space"
+              ]
+            },
+            {
+              "topic": "auxiliary_staging_space",
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ]
+            },
+            {
+              "topic": "environmental_buffer_space",
+              "label": "Designated environmental buffer space",
+              "aliases": [
+                "Environmental buffer floor area",
+                "Airlock barrier zone space"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Chief conservator (CONS)",
+          "target_key": "CONS-CLIM-DSZ",
+          "alternate_key": "CONS-CLIM-95J",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Cumberland Subterranean Archive",
+          "other_candidates": [
+            "Highland Granite Vault",
+            "Pennine Limestone Repository"
+          ],
+          "numeric": [
+            {
+              "topic": "ambient_relative_humidity",
+              "value": 38,
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dehumidification_loop_installed",
+              "value": true,
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ]
+            },
+            {
+              "topic": "dehumidification_loop_installed",
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ]
+            },
+            {
+              "topic": "ambient_relative_humidity",
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic isolation rating approved",
+              "aliases": [
+                "Seismic base-isolation approval",
+                "Earthquake shock dampening certification"
+              ]
+            },
+            {
+              "topic": "biometric_access_cleared",
+              "label": "Dual-perimeter biometric security clearance",
+              "aliases": [
+                "Biometric security clearance",
+                "Dual-perimeter access compliance"
+              ]
+            },
+            {
+              "topic": "hvac_backup_generator_ready",
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ]
+            },
+            {
+              "topic": "primary_vault_space",
+              "label": "Primary vault floor space",
+              "aliases": [
+                "Primary storage floor area",
+                "Base archival vault space"
+              ]
+            },
+            {
+              "topic": "auxiliary_staging_space",
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ]
+            },
+            {
+              "topic": "environmental_buffer_space",
+              "label": "Designated environmental buffer space",
+              "aliases": [
+                "Environmental buffer floor area",
+                "Airlock barrier zone space"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Logistics operations lead (OPS)",
+          "target_key": "OPS-LOGIS-2MK",
+          "alternate_key": "OPS-LOGIS-UWY",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Cumberland Subterranean Archive",
+          "other_candidates": [
+            "Highland Granite Vault",
+            "Pennine Limestone Repository"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_staging_space",
+              "value": 450,
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ],
+              "unit": "m2"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "hvac_backup_generator_ready",
+              "value": true,
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_agent_fire_suppression",
+              "label": "Clean-agent fire suppression system certified",
+              "aliases": [
+                "Clean-agent suppression certification",
+                "Gaseous fire suppression approval"
+              ]
+            },
+            {
+              "topic": "dehumidification_loop_installed",
+              "label": "Dedicated dehumidification loop installed",
+              "aliases": [
+                "Dedicated dehumidification loop",
+                "Active desiccative humidity control"
+              ]
+            },
+            {
+              "topic": "ambient_relative_humidity",
+              "label": "Ambient relative humidity",
+              "aliases": [
+                "Preservation vault relative humidity",
+                "Chamber relative humidity"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic isolation rating approved",
+              "aliases": [
+                "Seismic base-isolation approval",
+                "Earthquake shock dampening certification"
+              ]
+            },
+            {
+              "topic": "biometric_access_cleared",
+              "label": "Dual-perimeter biometric security clearance",
+              "aliases": [
+                "Biometric security clearance",
+                "Dual-perimeter access compliance"
+              ]
+            },
+            {
+              "topic": "hvac_backup_generator_ready",
+              "label": "Emergency HVAC backup generator ready",
+              "aliases": [
+                "HVAC generator readiness",
+                "Emergency generator power verification"
+              ]
+            },
+            {
+              "topic": "primary_vault_space",
+              "label": "Primary vault floor space",
+              "aliases": [
+                "Primary storage floor area",
+                "Base archival vault space"
+              ]
+            },
+            {
+              "topic": "auxiliary_staging_space",
+              "label": "Auxiliary staging floor space",
+              "aliases": [
+                "Intake staging floor area",
+                "Auxiliary sorting space"
+              ]
+            },
+            {
+              "topic": "environmental_buffer_space",
+              "label": "Designated environmental buffer space",
+              "aliases": [
+                "Environmental buffer floor area",
+                "Airlock barrier zone space"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

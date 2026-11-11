@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_366",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_utilities",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Power and utilities supervisor (UTIL)",
+        "Structural engineering officer (STRUC)"
+      ],
+      "directory": "incomplete/task_366",
+      "profiles": [
+        {
+          "record_id": "rec_power_utilities_A",
+          "role_id": "power_utilities",
+          "candidate_id": "A",
+          "key": "UTIL-ELEC-74N",
+          "boolean_predicate_id": "A_generator_microgrid_enabled",
+          "boolean_label": "Back-up generator microgrid enabled",
+          "hidden_predicate_id": "A_generator_cutover_seconds",
+          "threshold_label": "Emergency generator cutover time",
+          "threshold_aliases": [
+            "Power transfer cutover duration",
+            "Generator startup delay"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "s",
+          "partial_record_text": "UTIL-ELEC-74N: Centennial Exhibition Pavilion.Centennial Exhibition Pavilion: Back-up generator microgrid enabled = true .Source: Emergency electrical system logbook; Scope: Facility microgrid switchgear; Measurement: Status of the automated microgrid synchronization switch.",
+          "role_name": "Power and utilities supervisor (UTIL)",
+          "candidate_name": "Centennial Exhibition Pavilion",
+          "other_candidate_names": [
+            "Northwestern Sports Arena",
+            "Riverside Logistics Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-SEIS-52C",
+          "hidden_predicate_id": "A_total_operational_area",
+          "threshold_label": "Total operational floor area",
+          "threshold_aliases": [
+            "Gross facility usable area",
+            "Total operational footprint"
+          ],
+          "threshold_value": 6000,
+          "threshold_unit": "m2",
+          "partial_record_text": "STRUC-SEIS-52C: Centennial Exhibition Pavilion.Centennial Exhibition Pavilion: Seismic structural integrity certified = true .Source: Municipal civil engineering safety register; Scope: Main structural frame of the shelter facility; Measurement: Verification of valid post-retrofit seismic resistance standard compliance.",
+          "role_name": "Structural engineering officer (STRUC)",
+          "candidate_name": "Centennial Exhibition Pavilion",
+          "other_candidate_names": [
+            "Northwestern Sports Arena",
+            "Riverside Logistics Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_utilities",
+        "structural_engineering",
+        "public_health"
+      ],
+      "role_names": [
+        "Power and utilities supervisor (UTIL)",
+        "Structural engineering officer (STRUC)",
+        "Public health inspector (HLTH)"
+      ],
+      "directory": "incomplete/task_366",
+      "profiles": [
+        {
+          "record_id": "rec_power_utilities_A",
+          "role_id": "power_utilities",
+          "candidate_id": "A",
+          "key": "UTIL-ELEC-74N",
+          "boolean_predicate_id": "A_generator_microgrid_enabled",
+          "boolean_label": "Back-up generator microgrid enabled",
+          "hidden_predicate_id": "A_generator_cutover_seconds",
+          "threshold_label": "Emergency generator cutover time",
+          "threshold_aliases": [
+            "Power transfer cutover duration",
+            "Generator startup delay"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "s",
+          "partial_record_text": "UTIL-ELEC-74N: Centennial Exhibition Pavilion.Centennial Exhibition Pavilion: Back-up generator microgrid enabled = true .Source: Emergency electrical system logbook; Scope: Facility microgrid switchgear; Measurement: Status of the automated microgrid synchronization switch.",
+          "role_name": "Power and utilities supervisor (UTIL)",
+          "candidate_name": "Centennial Exhibition Pavilion",
+          "other_candidate_names": [
+            "Northwestern Sports Arena",
+            "Riverside Logistics Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-SEIS-52C",
+          "hidden_predicate_id": "A_total_operational_area",
+          "threshold_label": "Total operational floor area",
+          "threshold_aliases": [
+            "Gross facility usable area",
+            "Total operational footprint"
+          ],
+          "threshold_value": 6000,
+          "threshold_unit": "m2",
+          "partial_record_text": "STRUC-SEIS-52C: Centennial Exhibition Pavilion.Centennial Exhibition Pavilion: Seismic structural integrity certified = true .Source: Municipal civil engineering safety register; Scope: Main structural frame of the shelter facility; Measurement: Verification of valid post-retrofit seismic resistance standard compliance.",
+          "role_name": "Structural engineering officer (STRUC)",
+          "candidate_name": "Centennial Exhibition Pavilion",
+          "other_candidate_names": [
+            "Northwestern Sports Arena",
+            "Riverside Logistics Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLTH-HYG-EIB",
+          "hidden_predicate_id": "A_dormitory_living_area",
+          "threshold_label": "Dormitory living area",
+          "threshold_aliases": [
+            "Net sleeping area",
+            "Shelter resident living space"
+          ],
+          "threshold_value": 3600,
+          "threshold_unit": "m2",
+          "partial_record_text": "HLTH-HYG-EIB: Centennial Exhibition Pavilion.Centennial Exhibition Pavilion: Public health sanitary protocol approved = true .Source: Public health inspection checklist; Scope: Entire communal sanitation and food-prep perimeter; Measurement: Formal approval under emergency congregant shelter hygiene standards.",
+          "role_name": "Public health inspector (HLTH)",
+          "candidate_name": "Centennial Exhibition Pavilion",
+          "other_candidate_names": [
+            "Northwestern Sports Arena",
+            "Riverside Logistics Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

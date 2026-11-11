@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_277",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservator",
+        "structural_engineer"
+      ],
+      "role_names": [
+        "Head of preventive conservation (CONS)",
+        "Structural resilience engineer (ENGN)"
+      ],
+      "directory": "incomplete/task_277",
+      "profiles": [
+        {
+          "record_id": "rec_conservator_A",
+          "role_id": "conservator",
+          "candidate_id": "A",
+          "key": "CONS-CLIM-864",
+          "boolean_predicate_id": "A_nitrogen_purge_active",
+          "boolean_label": "Active atmospheric nitrogen purge capability",
+          "hidden_predicate_id": "A_relative_humidity_variance",
+          "threshold_label": "Maximum relative humidity variance",
+          "threshold_aliases": [
+            "Humidity fluctuation",
+            "Vault RH variance"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-CLIM-864: Blackwood Subterranean Vault.Blackwood Subterranean Vault: Active atmospheric nitrogen purge capability = true .Source: Atmospheric systems commission log; Scope: Candidate primary storage vaults; Measurement: Operational availability of the closed-loop nitrogen flush system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum relative humidity variance is at most 9 %.",
+          "role_name": "Head of preventive conservation (CONS)",
+          "candidate_name": "Blackwood Subterranean Vault",
+          "other_candidate_names": [
+            "Highland Redoubt Storage Complex",
+            "Oakhaven Deep Archive Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "ENGN-SEIS-QYS",
+          "hidden_predicate_id": "A_gross_vault_area",
+          "threshold_label": "Gross secure vault area",
+          "threshold_aliases": [
+            "Total secure vault footprint",
+            "Gross archive floor area"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m2",
+          "partial_record_text": "ENGN-SEIS-QYS: Blackwood Subterranean Vault.Blackwood Subterranean Vault: Seismic isolation certified = true .Source: Structural engineering registry; Scope: Candidate primary subterranean structure; Measurement: Compliance with Category-IV seismic base isolation standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross secure vault area is at most 4000 m2.",
+          "role_name": "Structural resilience engineer (ENGN)",
+          "candidate_name": "Blackwood Subterranean Vault",
+          "other_candidate_names": [
+            "Highland Redoubt Storage Complex",
+            "Oakhaven Deep Archive Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservator",
+        "structural_engineer",
+        "curatorial_logistics"
+      ],
+      "role_names": [
+        "Head of preventive conservation (CONS)",
+        "Structural resilience engineer (ENGN)",
+        "Archival logistics registrar (REG)"
+      ],
+      "directory": "incomplete/task_277",
+      "profiles": [
+        {
+          "record_id": "rec_conservator_A",
+          "role_id": "conservator",
+          "candidate_id": "A",
+          "key": "CONS-CLIM-864",
+          "boolean_predicate_id": "A_nitrogen_purge_active",
+          "boolean_label": "Active atmospheric nitrogen purge capability",
+          "hidden_predicate_id": "A_relative_humidity_variance",
+          "threshold_label": "Maximum relative humidity variance",
+          "threshold_aliases": [
+            "Humidity fluctuation",
+            "Vault RH variance"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-CLIM-864: Blackwood Subterranean Vault.Blackwood Subterranean Vault: Active atmospheric nitrogen purge capability = true .Source: Atmospheric systems commission log; Scope: Candidate primary storage vaults; Measurement: Operational availability of the closed-loop nitrogen flush system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum relative humidity variance is at most 9 %.",
+          "role_name": "Head of preventive conservation (CONS)",
+          "candidate_name": "Blackwood Subterranean Vault",
+          "other_candidate_names": [
+            "Highland Redoubt Storage Complex",
+            "Oakhaven Deep Archive Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "ENGN-SEIS-QYS",
+          "hidden_predicate_id": "A_gross_vault_area",
+          "threshold_label": "Gross secure vault area",
+          "threshold_aliases": [
+            "Total secure vault footprint",
+            "Gross archive floor area"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m2",
+          "partial_record_text": "ENGN-SEIS-QYS: Blackwood Subterranean Vault.Blackwood Subterranean Vault: Seismic isolation certified = true .Source: Structural engineering registry; Scope: Candidate primary subterranean structure; Measurement: Compliance with Category-IV seismic base isolation standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross secure vault area is at most 4000 m2.",
+          "role_name": "Structural resilience engineer (ENGN)",
+          "candidate_name": "Blackwood Subterranean Vault",
+          "other_candidate_names": [
+            "Highland Redoubt Storage Complex",
+            "Oakhaven Deep Archive Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_curatorial_logistics_A",
+          "role_id": "curatorial_logistics",
+          "candidate_id": "A",
+          "key": "REG-QUAR-305",
+          "hidden_predicate_id": "A_quarantine_buffer_area",
+          "threshold_label": "Mandatory quarantine buffer area",
+          "threshold_aliases": [
+            "Biological quarantine space",
+            "Buffer intake zone footprint"
+          ],
+          "threshold_value": 280,
+          "threshold_unit": "m2",
+          "partial_record_text": "REG-QUAR-305: Blackwood Subterranean Vault. The record covers Mandatory quarantine buffer area. Record context: active production environment. Pest containment and quarantine register; Dedicated biosecurity intake airlock; Floor area strictly partitioned for isolation and fumigation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory quarantine buffer area is at most 600 m2.",
+          "role_name": "Archival logistics registrar (REG)",
+          "candidate_name": "Blackwood Subterranean Vault",
+          "other_candidate_names": [
+            "Highland Redoubt Storage Complex",
+            "Oakhaven Deep Archive Facility"
+          ],
+          "context_value": "active production environment",
+          "other_context_values": [
+            "simulation testing environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

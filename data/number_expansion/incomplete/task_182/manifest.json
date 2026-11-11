@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_182",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "field_hydrogeology",
+        "health_and_safety"
+      ],
+      "role_names": [
+        "Lead hydrogeologist (HYDRO)",
+        "Site health and safety coordinator (SAFE)"
+      ],
+      "directory": "incomplete/task_182",
+      "profiles": [
+        {
+          "record_id": "rec_field_hydrogeology_A",
+          "role_id": "field_hydrogeology",
+          "candidate_id": "A",
+          "key": "HYDRO-SUBGEO-FUA",
+          "boolean_predicate_id": "A_vapor_monitoring_ready",
+          "boolean_label": "Continuous soil vapor monitoring readiness",
+          "hidden_predicate_id": "A_max_refusal_depth",
+          "threshold_label": "Maximum boring refusal depth",
+          "threshold_aliases": [
+            "Penetration refusal depth",
+            "Target refusal depth"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "m",
+          "partial_record_text": "HYDRO-SUBGEO-FUA: High-resolution membrane interface probe surveying.High-resolution membrane interface probe surveying: Continuous soil vapor monitoring readiness = true .Source: Field instrument commissioning sheet; Scope: Downhole soil gas telemetry package; Measurement: Operational readiness confirmation for uninterrupted multi-port vapor sampling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum boring refusal depth is between 20 m and 60 m, inclusive.",
+          "role_name": "Lead hydrogeologist (HYDRO)",
+          "candidate_name": "High-resolution membrane interface probe surveying",
+          "other_candidate_names": [
+            "Continuous core sonic profiling with passive flux tracking",
+            "Direct-push cryogenic vapor extraction profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_health_and_safety_A",
+          "role_id": "health_and_safety",
+          "candidate_id": "A",
+          "key": "SAFE-HSEPLAN-4RB",
+          "hidden_predicate_id": "A_standby_hours",
+          "threshold_label": "Safety standby crew hours",
+          "threshold_aliases": [
+            "Hazardous vapor safety standby",
+            "Health and safety exclusion buffer hours"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "h",
+          "partial_record_text": "SAFE-HSEPLAN-4RB: High-resolution membrane interface probe surveying. The record covers Safety standby crew hours. Health and safety staging sheet; Mandatory respiratory wait times and vapor suppression standby shifts; Cumulative labor hours budgeted for safety standby and site exclusion holding.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Safety standby crew hours is between 10 h and 60 h, inclusive.",
+          "role_name": "Site health and safety coordinator (SAFE)",
+          "candidate_name": "High-resolution membrane interface probe surveying",
+          "other_candidate_names": [
+            "Continuous core sonic profiling with passive flux tracking",
+            "Direct-push cryogenic vapor extraction profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "field_hydrogeology",
+        "health_and_safety",
+        "analytical_chemistry"
+      ],
+      "role_names": [
+        "Lead hydrogeologist (HYDRO)",
+        "Site health and safety coordinator (SAFE)",
+        "Quality assurance chemist (CHEM)"
+      ],
+      "directory": "incomplete/task_182",
+      "profiles": [
+        {
+          "record_id": "rec_field_hydrogeology_A",
+          "role_id": "field_hydrogeology",
+          "candidate_id": "A",
+          "key": "HYDRO-SUBGEO-FUA",
+          "boolean_predicate_id": "A_vapor_monitoring_ready",
+          "boolean_label": "Continuous soil vapor monitoring readiness",
+          "hidden_predicate_id": "A_max_refusal_depth",
+          "threshold_label": "Maximum boring refusal depth",
+          "threshold_aliases": [
+            "Penetration refusal depth",
+            "Target refusal depth"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "m",
+          "partial_record_text": "HYDRO-SUBGEO-FUA: High-resolution membrane interface probe surveying.High-resolution membrane interface probe surveying: Continuous soil vapor monitoring readiness = true .Source: Field instrument commissioning sheet; Scope: Downhole soil gas telemetry package; Measurement: Operational readiness confirmation for uninterrupted multi-port vapor sampling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum boring refusal depth is between 20 m and 60 m, inclusive.",
+          "role_name": "Lead hydrogeologist (HYDRO)",
+          "candidate_name": "High-resolution membrane interface probe surveying",
+          "other_candidate_names": [
+            "Continuous core sonic profiling with passive flux tracking",
+            "Direct-push cryogenic vapor extraction profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_health_and_safety_A",
+          "role_id": "health_and_safety",
+          "candidate_id": "A",
+          "key": "SAFE-HSEPLAN-4RB",
+          "hidden_predicate_id": "A_standby_hours",
+          "threshold_label": "Safety standby crew hours",
+          "threshold_aliases": [
+            "Hazardous vapor safety standby",
+            "Health and safety exclusion buffer hours"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "h",
+          "partial_record_text": "SAFE-HSEPLAN-4RB: High-resolution membrane interface probe surveying. The record covers Safety standby crew hours. Health and safety staging sheet; Mandatory respiratory wait times and vapor suppression standby shifts; Cumulative labor hours budgeted for safety standby and site exclusion holding.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Safety standby crew hours is between 10 h and 60 h, inclusive.",
+          "role_name": "Site health and safety coordinator (SAFE)",
+          "candidate_name": "High-resolution membrane interface probe surveying",
+          "other_candidate_names": [
+            "Continuous core sonic profiling with passive flux tracking",
+            "Direct-push cryogenic vapor extraction profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_analytical_chemistry_A",
+          "role_id": "analytical_chemistry",
+          "candidate_id": "A",
+          "key": "CHEM-LABQA-HEF",
+          "hidden_predicate_id": "A_sampling_hours",
+          "threshold_label": "Exploratory sampling crew hours",
+          "threshold_aliases": [
+            "Soil and groundwater sampling labor",
+            "Direct sampling field labor"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "h",
+          "partial_record_text": "CHEM-LABQA-HEF: High-resolution membrane interface probe surveying.High-resolution membrane interface probe surveying: Verified laboratory chain of custody = true .Source: QA/QC compliance certification; Scope: Volatile organic compound sample preservation and courier logbooks; Measurement: Validation that all sample batch transfers adhere to EPA standard custody criteria.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Exploratory sampling crew hours is between 0 h and 400 h, inclusive.",
+          "role_name": "Quality assurance chemist (CHEM)",
+          "candidate_name": "High-resolution membrane interface probe surveying",
+          "other_candidate_names": [
+            "Continuous core sonic profiling with passive flux tracking",
+            "Direct-push cryogenic vapor extraction profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

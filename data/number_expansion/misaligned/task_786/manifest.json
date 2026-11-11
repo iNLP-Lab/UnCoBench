@@ -1,0 +1,556 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_786",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ground_logistics",
+        "base_infrastructure"
+      ],
+      "role_names": [
+        "Ground turnaround logistics manager (GNDLOG)",
+        "Airfield facilities engineering superintendent (BASEENG)"
+      ],
+      "directory": "number_expansion/misaligned/task_786/k2",
+      "error_profiles": [
+        {
+          "role_name": "Ground turnaround logistics manager (GNDLOG)",
+          "target_key": "GNDLOG-RETLOG-5F6",
+          "alternate_key": "GNDLOG-CREW-OO9",
+          "target_context": "May 2026",
+          "alternate_context": "June 2026",
+          "candidate": "Klamath Basin Airfield",
+          "other_candidates": [
+            "Deschutes Ridge Airstrip",
+            "Bitterroot Valley Aerodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "bulk_fuel_capacity",
+              "value": 140,
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "retardant_refill_bay_ready",
+              "value": true,
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_approach_certified",
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ]
+            },
+            {
+              "topic": "decision_height_minimum",
+              "label": "Instrument approach decision height",
+              "aliases": [
+                "Decision height",
+                "Minimum decision altitude"
+              ]
+            },
+            {
+              "topic": "retardant_refill_bay_ready",
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ]
+            },
+            {
+              "topic": "bulk_fuel_capacity",
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ]
+            },
+            {
+              "topic": "dispatch_turnaround_time",
+              "label": "Airborne dispatch turnaround response interval",
+              "aliases": [
+                "Turnaround response time",
+                "Scramble response interval"
+              ]
+            },
+            {
+              "topic": "interagency_radio_linked",
+              "label": "Interagency trunked radio network linked",
+              "aliases": [
+                "Radio network integration",
+                "Trunked radio link"
+              ]
+            },
+            {
+              "topic": "spill_containment_verified",
+              "label": "Hazardous material spill containment perimeter verified",
+              "aliases": [
+                "Spill berm verification",
+                "Containment perimeter status"
+              ]
+            },
+            {
+              "topic": "auxiliary_bowser_capacity",
+              "label": "Mobile refueler tanker surge fuel capacity",
+              "aliases": [
+                "Bowser surge capacity",
+                "Mobile tanker fuel volume"
+              ]
+            },
+            {
+              "topic": "generator_reserve_fuel",
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Airfield facilities engineering superintendent (BASEENG)",
+          "target_key": "BASEENG-PWRSYS-QG7",
+          "alternate_key": "BASEENG-PWRSYS-8P0",
+          "target_context": "May 2026",
+          "alternate_context": "April 2026",
+          "candidate": "Klamath Basin Airfield",
+          "other_candidates": [
+            "Deschutes Ridge Airstrip",
+            "Bitterroot Valley Aerodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "generator_reserve_fuel",
+              "value": 25,
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_approach_certified",
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ]
+            },
+            {
+              "topic": "decision_height_minimum",
+              "label": "Instrument approach decision height",
+              "aliases": [
+                "Decision height",
+                "Minimum decision altitude"
+              ]
+            },
+            {
+              "topic": "retardant_refill_bay_ready",
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ]
+            },
+            {
+              "topic": "bulk_fuel_capacity",
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ]
+            },
+            {
+              "topic": "dispatch_turnaround_time",
+              "label": "Airborne dispatch turnaround response interval",
+              "aliases": [
+                "Turnaround response time",
+                "Scramble response interval"
+              ]
+            },
+            {
+              "topic": "interagency_radio_linked",
+              "label": "Interagency trunked radio network linked",
+              "aliases": [
+                "Radio network integration",
+                "Trunked radio link"
+              ]
+            },
+            {
+              "topic": "spill_containment_verified",
+              "label": "Hazardous material spill containment perimeter verified",
+              "aliases": [
+                "Spill berm verification",
+                "Containment perimeter status"
+              ]
+            },
+            {
+              "topic": "auxiliary_bowser_capacity",
+              "label": "Mobile refueler tanker surge fuel capacity",
+              "aliases": [
+                "Bowser surge capacity",
+                "Mobile tanker fuel volume"
+              ]
+            },
+            {
+              "topic": "generator_reserve_fuel",
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ground_logistics",
+        "base_infrastructure",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Ground turnaround logistics manager (GNDLOG)",
+        "Airfield facilities engineering superintendent (BASEENG)",
+        "Aviation flight operations director (FLTOPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_786/k3",
+      "error_profiles": [
+        {
+          "role_name": "Ground turnaround logistics manager (GNDLOG)",
+          "target_key": "GNDLOG-RETLOG-5F6",
+          "alternate_key": "GNDLOG-CREW-OO9",
+          "target_context": "May 2026",
+          "alternate_context": "June 2026",
+          "candidate": "Klamath Basin Airfield",
+          "other_candidates": [
+            "Deschutes Ridge Airstrip",
+            "Bitterroot Valley Aerodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "bulk_fuel_capacity",
+              "value": 140,
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "retardant_refill_bay_ready",
+              "value": true,
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_approach_certified",
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ]
+            },
+            {
+              "topic": "decision_height_minimum",
+              "label": "Instrument approach decision height",
+              "aliases": [
+                "Decision height",
+                "Minimum decision altitude"
+              ]
+            },
+            {
+              "topic": "retardant_refill_bay_ready",
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ]
+            },
+            {
+              "topic": "bulk_fuel_capacity",
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ]
+            },
+            {
+              "topic": "dispatch_turnaround_time",
+              "label": "Airborne dispatch turnaround response interval",
+              "aliases": [
+                "Turnaround response time",
+                "Scramble response interval"
+              ]
+            },
+            {
+              "topic": "interagency_radio_linked",
+              "label": "Interagency trunked radio network linked",
+              "aliases": [
+                "Radio network integration",
+                "Trunked radio link"
+              ]
+            },
+            {
+              "topic": "spill_containment_verified",
+              "label": "Hazardous material spill containment perimeter verified",
+              "aliases": [
+                "Spill berm verification",
+                "Containment perimeter status"
+              ]
+            },
+            {
+              "topic": "auxiliary_bowser_capacity",
+              "label": "Mobile refueler tanker surge fuel capacity",
+              "aliases": [
+                "Bowser surge capacity",
+                "Mobile tanker fuel volume"
+              ]
+            },
+            {
+              "topic": "generator_reserve_fuel",
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Airfield facilities engineering superintendent (BASEENG)",
+          "target_key": "BASEENG-PWRSYS-QG7",
+          "alternate_key": "BASEENG-PWRSYS-8P0",
+          "target_context": "May 2026",
+          "alternate_context": "April 2026",
+          "candidate": "Klamath Basin Airfield",
+          "other_candidates": [
+            "Deschutes Ridge Airstrip",
+            "Bitterroot Valley Aerodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "generator_reserve_fuel",
+              "value": 25,
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_approach_certified",
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ]
+            },
+            {
+              "topic": "decision_height_minimum",
+              "label": "Instrument approach decision height",
+              "aliases": [
+                "Decision height",
+                "Minimum decision altitude"
+              ]
+            },
+            {
+              "topic": "retardant_refill_bay_ready",
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ]
+            },
+            {
+              "topic": "bulk_fuel_capacity",
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ]
+            },
+            {
+              "topic": "dispatch_turnaround_time",
+              "label": "Airborne dispatch turnaround response interval",
+              "aliases": [
+                "Turnaround response time",
+                "Scramble response interval"
+              ]
+            },
+            {
+              "topic": "interagency_radio_linked",
+              "label": "Interagency trunked radio network linked",
+              "aliases": [
+                "Radio network integration",
+                "Trunked radio link"
+              ]
+            },
+            {
+              "topic": "spill_containment_verified",
+              "label": "Hazardous material spill containment perimeter verified",
+              "aliases": [
+                "Spill berm verification",
+                "Containment perimeter status"
+              ]
+            },
+            {
+              "topic": "auxiliary_bowser_capacity",
+              "label": "Mobile refueler tanker surge fuel capacity",
+              "aliases": [
+                "Bowser surge capacity",
+                "Mobile tanker fuel volume"
+              ]
+            },
+            {
+              "topic": "generator_reserve_fuel",
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation flight operations director (FLTOPS)",
+          "target_key": "FLTOPS-AVCERT-VSR",
+          "alternate_key": "FLTOPS-AVCERT-14C",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Klamath Basin Airfield",
+          "other_candidates": [
+            "Deschutes Ridge Airstrip",
+            "Bitterroot Valley Aerodrome"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ifr_approach_certified",
+              "value": true,
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_approach_certified",
+              "label": "Instrument flight rules approach authorization",
+              "aliases": [
+                "IFR authorization",
+                "Instrument flight clearance"
+              ]
+            },
+            {
+              "topic": "decision_height_minimum",
+              "label": "Instrument approach decision height",
+              "aliases": [
+                "Decision height",
+                "Minimum decision altitude"
+              ]
+            },
+            {
+              "topic": "retardant_refill_bay_ready",
+              "label": "Dedicated retardant quick-fill bay commissioned",
+              "aliases": [
+                "Retardant bay readiness",
+                "Slurry pit commissioning"
+              ]
+            },
+            {
+              "topic": "bulk_fuel_capacity",
+              "label": "Fixed bulk Jet-A aviation fuel storage capacity",
+              "aliases": [
+                "Bulk fuel storage",
+                "Stationary tank capacity"
+              ]
+            },
+            {
+              "topic": "dispatch_turnaround_time",
+              "label": "Airborne dispatch turnaround response interval",
+              "aliases": [
+                "Turnaround response time",
+                "Scramble response interval"
+              ]
+            },
+            {
+              "topic": "interagency_radio_linked",
+              "label": "Interagency trunked radio network linked",
+              "aliases": [
+                "Radio network integration",
+                "Trunked radio link"
+              ]
+            },
+            {
+              "topic": "spill_containment_verified",
+              "label": "Hazardous material spill containment perimeter verified",
+              "aliases": [
+                "Spill berm verification",
+                "Containment perimeter status"
+              ]
+            },
+            {
+              "topic": "auxiliary_bowser_capacity",
+              "label": "Mobile refueler tanker surge fuel capacity",
+              "aliases": [
+                "Bowser surge capacity",
+                "Mobile tanker fuel volume"
+              ]
+            },
+            {
+              "topic": "generator_reserve_fuel",
+              "label": "Mandatory emergency runway generator reserve fuel",
+              "aliases": [
+                "Runway generator reserve",
+                "Emergency generator fuel retention"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

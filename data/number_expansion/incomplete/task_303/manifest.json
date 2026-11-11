@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_303",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "thermal_engineering",
+        "security_escort"
+      ],
+      "role_names": [
+        "Cryogenic thermal engineer (CTE)",
+        "Transit security supervisor (TSS)"
+      ],
+      "directory": "incomplete/task_303",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "CTE-THERM-S1F",
+          "boolean_predicate_id": "A_vapor_ln2_capable",
+          "boolean_label": "Validated vapor-phase LN2 capability",
+          "hidden_predicate_id": "A_max_temp_deviation",
+          "threshold_label": "Maximum transit temperature deviation",
+          "threshold_aliases": [
+            "Peak thermal drift",
+            "Temperature excursion margin"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "°C",
+          "partial_record_text": "CTE-THERM-S1F: CryoVault Global Logistics.CryoVault Global Logistics: Validated vapor-phase LN2 capability = true .Source: Dry shipper qualification report; Scope: Fleet cryogenic vapor dry shipper inventory; Measurement: Formal validation for zero liquid immersion sample containment below -150 °C.",
+          "role_name": "Cryogenic thermal engineer (CTE)",
+          "candidate_name": "CryoVault Global Logistics",
+          "other_candidate_names": [
+            "Polaris Biocold Transport",
+            "Aegis Thermal Biosystems"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_security_escort_A",
+          "role_id": "security_escort",
+          "candidate_id": "A",
+          "key": "TSS-SECURE-2NV",
+          "hidden_predicate_id": "A_backup_cryo_fleet",
+          "threshold_label": "Dedicated backup cryogenic transport units",
+          "threshold_aliases": [
+            "Reserve cryogenic vehicles",
+            "Backup LN2 transport units"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "units",
+          "partial_record_text": "TSS-SECURE-2NV: CryoVault Global Logistics.CryoVault Global Logistics: Dual-driver route security clearance = true .Source: Security personnel dossier; Scope: Designated specimen transport team drivers; Measurement: Confirmation of active background checks and tandem driving protocol clearance.",
+          "role_name": "Transit security supervisor (TSS)",
+          "candidate_name": "CryoVault Global Logistics",
+          "other_candidate_names": [
+            "Polaris Biocold Transport",
+            "Aegis Thermal Biosystems"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "thermal_engineering",
+        "security_escort",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Cryogenic thermal engineer (CTE)",
+        "Transit security supervisor (TSS)",
+        "Fleet logistics coordinator (FLC)"
+      ],
+      "directory": "incomplete/task_303",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "CTE-THERM-S1F",
+          "boolean_predicate_id": "A_vapor_ln2_capable",
+          "boolean_label": "Validated vapor-phase LN2 capability",
+          "hidden_predicate_id": "A_max_temp_deviation",
+          "threshold_label": "Maximum transit temperature deviation",
+          "threshold_aliases": [
+            "Peak thermal drift",
+            "Temperature excursion margin"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "°C",
+          "partial_record_text": "CTE-THERM-S1F: CryoVault Global Logistics.CryoVault Global Logistics: Validated vapor-phase LN2 capability = true .Source: Dry shipper qualification report; Scope: Fleet cryogenic vapor dry shipper inventory; Measurement: Formal validation for zero liquid immersion sample containment below -150 °C.",
+          "role_name": "Cryogenic thermal engineer (CTE)",
+          "candidate_name": "CryoVault Global Logistics",
+          "other_candidate_names": [
+            "Polaris Biocold Transport",
+            "Aegis Thermal Biosystems"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_security_escort_A",
+          "role_id": "security_escort",
+          "candidate_id": "A",
+          "key": "TSS-SECURE-2NV",
+          "hidden_predicate_id": "A_backup_cryo_fleet",
+          "threshold_label": "Dedicated backup cryogenic transport units",
+          "threshold_aliases": [
+            "Reserve cryogenic vehicles",
+            "Backup LN2 transport units"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "units",
+          "partial_record_text": "TSS-SECURE-2NV: CryoVault Global Logistics.CryoVault Global Logistics: Dual-driver route security clearance = true .Source: Security personnel dossier; Scope: Designated specimen transport team drivers; Measurement: Confirmation of active background checks and tandem driving protocol clearance.",
+          "role_name": "Transit security supervisor (TSS)",
+          "candidate_name": "CryoVault Global Logistics",
+          "other_candidate_names": [
+            "Polaris Biocold Transport",
+            "Aegis Thermal Biosystems"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLC-VEHIC-J4R",
+          "hidden_predicate_id": "A_primary_freezer_fleet",
+          "threshold_label": "Primary ultra-low temperature mobile freezer units",
+          "threshold_aliases": [
+            "Primary mobile freezer fleet",
+            "ULT mobile units"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "units",
+          "partial_record_text": "FLC-VEHIC-J4R: CryoVault Global Logistics. The record covers Primary ultra-low temperature mobile freezer units. Record context: after deducting emergency reserve units. Fleet asset registry; Active dedicated mobile refrigeration trailers; Number of operational multi-redundant -80 °C vehicle mounted mechanical freezers.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary ultra-low temperature mobile freezer units is at least 4 units.",
+          "role_name": "Fleet logistics coordinator (FLC)",
+          "candidate_name": "CryoVault Global Logistics",
+          "other_candidate_names": [
+            "Polaris Biocold Transport",
+            "Aegis Thermal Biosystems"
+          ],
+          "context_value": "after deducting emergency reserve units",
+          "other_context_values": [
+            "before deducting emergency reserve units"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

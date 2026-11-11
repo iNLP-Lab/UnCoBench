@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_907",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_electrical",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Facilities and Electrical Services Manager (FACEL)",
+        "Structural Engineering Lead (STRUC)"
+      ],
+      "directory": "incomplete/task_907",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_electrical_A",
+          "role_id": "facilities_electrical",
+          "candidate_id": "A",
+          "key": "FACEL-GRID-U0Z",
+          "boolean_predicate_id": "A_high_voltage_tie_installed",
+          "boolean_label": "High-voltage industrial grid tie installed",
+          "hidden_predicate_id": "A_switchgear_delivery_lead_time",
+          "threshold_label": "Transformer switchgear delivery lead time",
+          "threshold_aliases": [
+            "Switchgear commissioning lead time",
+            "Substation gear turnaround"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "d",
+          "partial_record_text": "FACEL-GRID-U0Z: Marina Waterfront Congress Center.Marina Waterfront Congress Center: High-voltage industrial grid tie installed = true .Source: Electrical utility connection ledger; Scope: Exhibition complex on-site utility substation; Measurement: Whether a dedicated high-voltage 22 kV intake transformer feeder is installed and commissioned.Marina Waterfront Congress Center: Gross indoor exhibition space = 42000 m2.Source: Venue architectural survey; Scope: Enclosed ground-floor main exhibition hall enclosure; Measurement: Total gross interior column-free floor area.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Transformer switchgear delivery lead time is at most 40 d.",
+          "role_name": "Facilities and Electrical Services Manager (FACEL)",
+          "candidate_name": "Marina Waterfront Congress Center",
+          "other_candidate_names": [
+            "Jurong Green Tech Expo Pavilion",
+            "Changi Aerotropolis Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-LOAD-ZP4",
+          "hidden_predicate_id": "A_floor_loading_capacity",
+          "threshold_label": "Ground-level floor loading capacity",
+          "threshold_aliases": [
+            "Floor load tolerance",
+            "Slab loading capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "STRUC-LOAD-ZP4: Marina Waterfront Congress Center. The record covers Ground-level floor loading capacity. Record context: after deducting dynamic impact safety allowance. Civil and structural engineering certification; Ground-floor primary exhibition slab; Maximum certified uniformly distributed static load limit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Ground-level floor loading capacity is at most 50 kN/m2.",
+          "role_name": "Structural Engineering Lead (STRUC)",
+          "candidate_name": "Marina Waterfront Congress Center",
+          "other_candidate_names": [
+            "Jurong Green Tech Expo Pavilion",
+            "Changi Aerotropolis Exhibition Hall"
+          ],
+          "context_value": "after deducting dynamic impact safety allowance",
+          "other_context_values": [
+            "before deducting dynamic impact safety allowance"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_electrical",
+        "structural_engineering",
+        "fire_safety"
+      ],
+      "role_names": [
+        "Facilities and Electrical Services Manager (FACEL)",
+        "Structural Engineering Lead (STRUC)",
+        "Fire and Life Safety Inspector (FIRE)"
+      ],
+      "directory": "incomplete/task_907",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_electrical_A",
+          "role_id": "facilities_electrical",
+          "candidate_id": "A",
+          "key": "FACEL-GRID-U0Z",
+          "boolean_predicate_id": "A_high_voltage_tie_installed",
+          "boolean_label": "High-voltage industrial grid tie installed",
+          "hidden_predicate_id": "A_switchgear_delivery_lead_time",
+          "threshold_label": "Transformer switchgear delivery lead time",
+          "threshold_aliases": [
+            "Switchgear commissioning lead time",
+            "Substation gear turnaround"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "d",
+          "partial_record_text": "FACEL-GRID-U0Z: Marina Waterfront Congress Center.Marina Waterfront Congress Center: High-voltage industrial grid tie installed = true .Source: Electrical utility connection ledger; Scope: Exhibition complex on-site utility substation; Measurement: Whether a dedicated high-voltage 22 kV intake transformer feeder is installed and commissioned.Marina Waterfront Congress Center: Gross indoor exhibition space = 42000 m2.Source: Venue architectural survey; Scope: Enclosed ground-floor main exhibition hall enclosure; Measurement: Total gross interior column-free floor area.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Transformer switchgear delivery lead time is at most 40 d.",
+          "role_name": "Facilities and Electrical Services Manager (FACEL)",
+          "candidate_name": "Marina Waterfront Congress Center",
+          "other_candidate_names": [
+            "Jurong Green Tech Expo Pavilion",
+            "Changi Aerotropolis Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-LOAD-ZP4",
+          "hidden_predicate_id": "A_floor_loading_capacity",
+          "threshold_label": "Ground-level floor loading capacity",
+          "threshold_aliases": [
+            "Floor load tolerance",
+            "Slab loading capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "STRUC-LOAD-ZP4: Marina Waterfront Congress Center. The record covers Ground-level floor loading capacity. Record context: after deducting dynamic impact safety allowance. Civil and structural engineering certification; Ground-floor primary exhibition slab; Maximum certified uniformly distributed static load limit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Ground-level floor loading capacity is at most 50 kN/m2.",
+          "role_name": "Structural Engineering Lead (STRUC)",
+          "candidate_name": "Marina Waterfront Congress Center",
+          "other_candidate_names": [
+            "Jurong Green Tech Expo Pavilion",
+            "Changi Aerotropolis Exhibition Hall"
+          ],
+          "context_value": "after deducting dynamic impact safety allowance",
+          "other_context_values": [
+            "before deducting dynamic impact safety allowance"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FIRE-EGRESS-GA2",
+          "hidden_predicate_id": "A_mandatory_egress_area",
+          "threshold_label": "Mandatory emergency egress setback area",
+          "threshold_aliases": [
+            "Life safety egress corridor space",
+            "Egress setback area"
+          ],
+          "threshold_value": 6000,
+          "threshold_unit": "m2",
+          "partial_record_text": "FIRE-EGRESS-GA2: Marina Waterfront Congress Center.Marina Waterfront Congress Center: Municipal event fire clearance pre-approval = true .Source: Municipal civil defense inspection certificate; Scope: Major industrial exhibition operational safety plan; Measurement: Formal granting of pre-event fire safety clearance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory emergency egress setback area is at most 9000 m2.",
+          "role_name": "Fire and Life Safety Inspector (FIRE)",
+          "candidate_name": "Marina Waterfront Congress Center",
+          "other_candidate_names": [
+            "Jurong Green Tech Expo Pavilion",
+            "Changi Aerotropolis Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

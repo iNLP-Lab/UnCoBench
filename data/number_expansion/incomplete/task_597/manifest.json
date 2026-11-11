@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_597",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_treatment_engineering",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Water treatment process lead (WTE)",
+        "Site civil works coordinator (CIV)"
+      ],
+      "directory": "incomplete/task_597",
+      "profiles": [
+        {
+          "record_id": "rec_water_treatment_engineering_A",
+          "role_id": "water_treatment_engineering",
+          "candidate_id": "A",
+          "key": "WTE-PROC-7VM",
+          "boolean_predicate_id": "A_intake_pretreatment_verified",
+          "boolean_label": "Intake pretreatment system verified",
+          "hidden_predicate_id": "A_maximum_dissolved_solids",
+          "threshold_label": "Product water total dissolved solids",
+          "threshold_aliases": [
+            "Total dissolved solids level",
+            "Effluent TDS concentration"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "WTE-PROC-7VM: High-pressure seawater reverse osmosis skid.High-pressure seawater reverse osmosis skid: Intake pretreatment system verified = true .Source: Commissioning pre-filter protocol; Scope: Raw seawater intake multi-media filtration skid; Measurement: Formal sign-off confirming intake multimedia pretreatment is fully operational.High-pressure seawater reverse osmosis skid: Gross daily treated water output = 4500 m3/d.Source: Desalination production performance projection; Scope: Continuous 24-hour production period at nominal intake salinity; Measurement: Total volumetric treated water produced by all operating skid units.",
+          "role_name": "Water treatment process lead (WTE)",
+          "candidate_name": "High-pressure seawater reverse osmosis skid",
+          "other_candidate_names": [
+            "Mechanical vapor compression trailer",
+            "Nanofiltration hybrid container system"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIV-SITE-5OW",
+          "hidden_predicate_id": "A_foundation_footprint_area",
+          "threshold_label": "Installation footprint area",
+          "threshold_aliases": [
+            "Facility layout footprint",
+            "Plant ground surface area"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "m2",
+          "partial_record_text": "CIV-SITE-5OW: High-pressure seawater reverse osmosis skid. The record covers Installation footprint area. Site engineering layout drawing; Deployment parcel designated at municipal emergency compound; Total enclosed ground area required for equipment skids and operational clearance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Installation footprint area is at most 600 m2.",
+          "role_name": "Site civil works coordinator (CIV)",
+          "candidate_name": "High-pressure seawater reverse osmosis skid",
+          "other_candidate_names": [
+            "Mechanical vapor compression trailer",
+            "Nanofiltration hybrid container system"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_treatment_engineering",
+        "civil_infrastructure",
+        "electrical_utility"
+      ],
+      "role_names": [
+        "Water treatment process lead (WTE)",
+        "Site civil works coordinator (CIV)",
+        "Power grid interconnect specialist (ELEC)"
+      ],
+      "directory": "incomplete/task_597",
+      "profiles": [
+        {
+          "record_id": "rec_water_treatment_engineering_A",
+          "role_id": "water_treatment_engineering",
+          "candidate_id": "A",
+          "key": "WTE-PROC-7VM",
+          "boolean_predicate_id": "A_intake_pretreatment_verified",
+          "boolean_label": "Intake pretreatment system verified",
+          "hidden_predicate_id": "A_maximum_dissolved_solids",
+          "threshold_label": "Product water total dissolved solids",
+          "threshold_aliases": [
+            "Total dissolved solids level",
+            "Effluent TDS concentration"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "WTE-PROC-7VM: High-pressure seawater reverse osmosis skid.High-pressure seawater reverse osmosis skid: Intake pretreatment system verified = true .Source: Commissioning pre-filter protocol; Scope: Raw seawater intake multi-media filtration skid; Measurement: Formal sign-off confirming intake multimedia pretreatment is fully operational.High-pressure seawater reverse osmosis skid: Gross daily treated water output = 4500 m3/d.Source: Desalination production performance projection; Scope: Continuous 24-hour production period at nominal intake salinity; Measurement: Total volumetric treated water produced by all operating skid units.",
+          "role_name": "Water treatment process lead (WTE)",
+          "candidate_name": "High-pressure seawater reverse osmosis skid",
+          "other_candidate_names": [
+            "Mechanical vapor compression trailer",
+            "Nanofiltration hybrid container system"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIV-SITE-5OW",
+          "hidden_predicate_id": "A_foundation_footprint_area",
+          "threshold_label": "Installation footprint area",
+          "threshold_aliases": [
+            "Facility layout footprint",
+            "Plant ground surface area"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "m2",
+          "partial_record_text": "CIV-SITE-5OW: High-pressure seawater reverse osmosis skid. The record covers Installation footprint area. Site engineering layout drawing; Deployment parcel designated at municipal emergency compound; Total enclosed ground area required for equipment skids and operational clearance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Installation footprint area is at most 600 m2.",
+          "role_name": "Site civil works coordinator (CIV)",
+          "candidate_name": "High-pressure seawater reverse osmosis skid",
+          "other_candidate_names": [
+            "Mechanical vapor compression trailer",
+            "Nanofiltration hybrid container system"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_electrical_utility_A",
+          "role_id": "electrical_utility",
+          "candidate_id": "A",
+          "key": "ELEC-GRID-HY7",
+          "hidden_predicate_id": "A_peak_power_draw",
+          "threshold_label": "Peak electrical demand",
+          "threshold_aliases": [
+            "Maximum electrical load",
+            "Peak interconnect power draw"
+          ],
+          "threshold_value": 950,
+          "threshold_unit": "kW",
+          "partial_record_text": "ELEC-GRID-HY7: High-pressure seawater reverse osmosis skid. The record covers Peak electrical demand. Electrical feeder telemetry datasheet; Temporary 11 kV grid connection during continuous full-capacity operation; Maximum instantaneous electrical power consumption.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 1500
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Peak electrical demand is at most 1500 kW.",
+          "role_name": "Power grid interconnect specialist (ELEC)",
+          "candidate_name": "High-pressure seawater reverse osmosis skid",
+          "other_candidate_names": [
+            "Mechanical vapor compression trailer",
+            "Nanofiltration hybrid container system"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_123",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "acoustic_engineering",
+        "festival_programming"
+      ],
+      "role_names": [
+        "Acoustic engineering coordinator (AEC)",
+        "Festival scheduling director (FSD)"
+      ],
+      "directory": "incomplete/task_123",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_engineering_A",
+          "role_id": "acoustic_engineering",
+          "candidate_id": "A",
+          "key": "AEC-SND-GCG",
+          "boolean_predicate_id": "A_acoustic_monitoring_deployed",
+          "boolean_label": "Crowd acoustic monitoring system deployment",
+          "hidden_predicate_id": "A_boundary_sound_leakage",
+          "threshold_label": "Maximum boundary sound leakage",
+          "threshold_aliases": [
+            "Perimeter sound pressure level",
+            "Boundary noise emission"
+          ],
+          "threshold_value": 62,
+          "threshold_unit": "dBA",
+          "partial_record_text": "AEC-SND-GCG: Olympic Riverbank Amphitheater.Olympic Riverbank Amphitheater: Environmental noise containment certification = true .Source: Environmental protection bureau compliance audit; Scope: Perimeter physical buffer zone and baffling barriers; Measurement: Formal validation of physical acoustic containment measures.Olympic Riverbank Amphitheater: Crowd acoustic monitoring system deployment = true .Source: Municipal sound telemetry sensor registry; Scope: Candidate venue perimeter sound monitoring network; Measurement: Active online connectivity status of automated perimeter SPL meters.Olympic Riverbank Amphitheater: Continuous stage audio power = 45 kW.Source: Main stage technical production power specification; Scope: Full-spectrum line array sound reinforcement amplification bank; Measurement: Continuous root-mean-square electrical power draw during performance.",
+          "role_name": "Acoustic engineering coordinator (AEC)",
+          "candidate_name": "Olympic Riverbank Amphitheater",
+          "other_candidate_names": [
+            "Highland Heritage Esplanade",
+            "Starlight Harbor Plaza"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_festival_programming_A",
+          "role_id": "festival_programming",
+          "candidate_id": "A",
+          "key": "FSD-PROG-Z3D",
+          "hidden_predicate_id": "A_scheduled_run_duration",
+          "threshold_label": "Scheduled performance run duration",
+          "threshold_aliases": [
+            "Headline performance runtime",
+            "Total continuous concert duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "FSD-PROG-Z3D: Olympic Riverbank Amphitheater. The record covers Scheduled performance run duration. Official festival master programming schedule; Main stage headline musical program window; Planned cumulative continuous live sound performance duration.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Scheduled performance run duration is at least 4 h.",
+          "role_name": "Festival scheduling director (FSD)",
+          "candidate_name": "Olympic Riverbank Amphitheater",
+          "other_candidate_names": [
+            "Highland Heritage Esplanade",
+            "Starlight Harbor Plaza"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "acoustic_engineering",
+        "festival_programming",
+        "transit_authority"
+      ],
+      "role_names": [
+        "Acoustic engineering coordinator (AEC)",
+        "Festival scheduling director (FSD)",
+        "Metropolitan transit coordinator (MTC)"
+      ],
+      "directory": "number_expansion/incomplete/task_123/k3",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_engineering_A",
+          "role_id": "acoustic_engineering",
+          "candidate_id": "A",
+          "key": "AEC-SND-GCG",
+          "boolean_predicate_id": "A_acoustic_monitoring_deployed",
+          "boolean_label": "Crowd acoustic monitoring system deployment",
+          "hidden_predicate_id": "A_boundary_sound_leakage",
+          "threshold_label": "Maximum boundary sound leakage",
+          "threshold_aliases": [
+            "Perimeter sound pressure level",
+            "Boundary noise emission"
+          ],
+          "threshold_value": 62,
+          "threshold_unit": "dBA",
+          "partial_record_text": "AEC-SND-GCG: Olympic Riverbank Amphitheater.Olympic Riverbank Amphitheater: Environmental noise containment certification = true .Source: Environmental protection bureau compliance audit; Scope: Perimeter physical buffer zone and baffling barriers; Measurement: Formal validation of physical acoustic containment measures.Olympic Riverbank Amphitheater: Crowd acoustic monitoring system deployment = true .Source: Municipal sound telemetry sensor registry; Scope: Candidate venue perimeter sound monitoring network; Measurement: Active online connectivity status of automated perimeter SPL meters.Olympic Riverbank Amphitheater: Continuous stage audio power = 45 kW.Source: Main stage technical production power specification; Scope: Full-spectrum line array sound reinforcement amplification bank; Measurement: Continuous root-mean-square electrical power draw during performance.",
+          "role_name": "Acoustic engineering coordinator (AEC)",
+          "candidate_name": "Olympic Riverbank Amphitheater",
+          "other_candidate_names": [
+            "Highland Heritage Esplanade",
+            "Starlight Harbor Plaza"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_festival_programming_A",
+          "role_id": "festival_programming",
+          "candidate_id": "A",
+          "key": "FSD-PROG-Z3D",
+          "hidden_predicate_id": "A_scheduled_run_duration",
+          "threshold_label": "Scheduled performance run duration",
+          "threshold_aliases": [
+            "Headline performance runtime",
+            "Total continuous concert duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "FSD-PROG-Z3D: Olympic Riverbank Amphitheater. The record covers Scheduled performance run duration. Official festival master programming schedule; Main stage headline musical program window; Planned cumulative continuous live sound performance duration.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Scheduled performance run duration is at least 4 h.",
+          "role_name": "Festival scheduling director (FSD)",
+          "candidate_name": "Olympic Riverbank Amphitheater",
+          "other_candidate_names": [
+            "Highland Heritage Esplanade",
+            "Starlight Harbor Plaza"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_authority_A_supplemental",
+          "role_id": "transit_authority",
+          "candidate_id": "A",
+          "key": "MTC-GATE-3OX",
+          "hidden_predicate_id": "A_supplemental_transit_authority",
+          "threshold_label": "Egress turnstile processing capacity",
+          "threshold_aliases": [],
+          "threshold_value": 3200,
+          "threshold_unit": "passengers/h",
+          "partial_record_text": "MTC-GATE-3OX: Olympic Riverbank Amphitheater. The record covers Egress turnstile processing capacity. Automated fare collection telemetry report; Primary connecting light rail station concourse; Sustained peak bi-directional passenger clearance rate per hour.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1600,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Egress turnstile processing capacity is at least 1600 passengers/h.",
+          "role_name": "Metropolitan transit coordinator (MTC)",
+          "candidate_name": "Olympic Riverbank Amphitheater",
+          "other_candidate_names": [
+            "Highland Heritage Esplanade",
+            "Starlight Harbor Plaza"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_transit_authority",
+        "topic_id": "supplemental_transit_authority",
+        "operator": "gte",
+        "threshold": 2400,
+        "role_id": "transit_authority",
+        "metric": "Egress turnstile processing capacity",
+        "unit": "passengers/h",
+        "required_text": "To qualify, a candidate must also have Egress turnstile processing capacity of at least 2400 passengers/h.",
+        "new_fault_record_key": "MTC-GATE-3OX",
+        "exact_value": 3200,
+        "first_reply": "Egress turnstile processing capacity is at least 1600 passengers/h."
+      }
+    }
+  }
+}

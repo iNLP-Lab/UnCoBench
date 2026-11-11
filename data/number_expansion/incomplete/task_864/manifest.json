@@ -1,0 +1,169 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_864",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "fermentation_engineering"
+      ],
+      "role_names": [
+        "Quality Assurance Director (QA)",
+        "Fermentation Engineering Lead (ENG)"
+      ],
+      "directory": "incomplete/task_864",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-STERIL-B57",
+          "boolean_predicate_id": "A_cip_validation_logged",
+          "boolean_label": "Automated clean-in-place validation logging",
+          "hidden_predicate_id": "A_contamination_detection_limit",
+          "threshold_label": "Cross-contamination detection limit",
+          "threshold_aliases": [
+            "Contamination assay limit",
+            "Cross-contamination limit"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "ppm",
+          "partial_record_text": "QA-STERIL-B57: Silesian Bioprocess Consortium.Silesian Bioprocess Consortium: Automated clean-in-place validation logging = true .Source: Batch validation audit log; Scope: Primary fermentation train harvest manifold; Measurement: Confirmation of electronic cycle logging for automated clean-in-place procedures.",
+          "role_name": "Quality Assurance Director (QA)",
+          "candidate_name": "Silesian Bioprocess Consortium",
+          "other_candidate_names": [
+            "Rhine Biofermentation Works",
+            "Flanders Microbial Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fermentation_engineering_A",
+          "role_id": "fermentation_engineering",
+          "candidate_id": "A",
+          "key": "ENG-REACTOR-5B2",
+          "hidden_predicate_id": "A_bioreactor_working_volume",
+          "threshold_label": "Working bioreactor vessel volume",
+          "threshold_aliases": [
+            "Bioreactor working capacity",
+            "Net fermenter volume"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m3",
+          "partial_record_text": "ENG-REACTOR-5B2: Silesian Bioprocess Consortium.Operating quarter: Q2 2025.Silesian Bioprocess Consortium: Thermal steam surcharge = 3200 EUR.Source: Utility cost allocation ledger; Scope: One full fermentation campaign cycle; Measurement: Fixed thermal boiler fuel and steam distribution fee billed per manufacturing batch.",
+          "role_name": "Fermentation Engineering Lead (ENG)",
+          "candidate_name": "Silesian Bioprocess Consortium",
+          "other_candidate_names": [
+            "Rhine Biofermentation Works",
+            "Flanders Microbial Solutions"
+          ],
+          "context_value": "Q2 2025",
+          "other_context_values": [
+            "Q3 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "fermentation_engineering",
+        "plant_scheduling"
+      ],
+      "role_names": [
+        "Quality Assurance Director (QA)",
+        "Fermentation Engineering Lead (ENG)",
+        "Production Scheduling Manager (SCHED)"
+      ],
+      "directory": "incomplete/task_864",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-STERIL-B57",
+          "boolean_predicate_id": "A_cip_validation_logged",
+          "boolean_label": "Automated clean-in-place validation logging",
+          "hidden_predicate_id": "A_contamination_detection_limit",
+          "threshold_label": "Cross-contamination detection limit",
+          "threshold_aliases": [
+            "Contamination assay limit",
+            "Cross-contamination limit"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "ppm",
+          "partial_record_text": "QA-STERIL-B57: Silesian Bioprocess Consortium.Silesian Bioprocess Consortium: Automated clean-in-place validation logging = true .Source: Batch validation audit log; Scope: Primary fermentation train harvest manifold; Measurement: Confirmation of electronic cycle logging for automated clean-in-place procedures.",
+          "role_name": "Quality Assurance Director (QA)",
+          "candidate_name": "Silesian Bioprocess Consortium",
+          "other_candidate_names": [
+            "Rhine Biofermentation Works",
+            "Flanders Microbial Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fermentation_engineering_A",
+          "role_id": "fermentation_engineering",
+          "candidate_id": "A",
+          "key": "ENG-REACTOR-5B2",
+          "hidden_predicate_id": "A_bioreactor_working_volume",
+          "threshold_label": "Working bioreactor vessel volume",
+          "threshold_aliases": [
+            "Bioreactor working capacity",
+            "Net fermenter volume"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m3",
+          "partial_record_text": "ENG-REACTOR-5B2: Silesian Bioprocess Consortium.Operating quarter: Q2 2025.Silesian Bioprocess Consortium: Thermal steam surcharge = 3200 EUR.Source: Utility cost allocation ledger; Scope: One full fermentation campaign cycle; Measurement: Fixed thermal boiler fuel and steam distribution fee billed per manufacturing batch.",
+          "role_name": "Fermentation Engineering Lead (ENG)",
+          "candidate_name": "Silesian Bioprocess Consortium",
+          "other_candidate_names": [
+            "Rhine Biofermentation Works",
+            "Flanders Microbial Solutions"
+          ],
+          "context_value": "Q2 2025",
+          "other_context_values": [
+            "Q3 2025"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_scheduling_A",
+          "role_id": "plant_scheduling",
+          "candidate_id": "A",
+          "key": "SCHED-TIMING-P3S",
+          "hidden_predicate_id": "A_changeover_lead_time",
+          "threshold_label": "Production line changeover lead time",
+          "threshold_aliases": [
+            "Line changeover duration",
+            "Changeover turnaround time"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "d",
+          "partial_record_text": "SCHED-TIMING-P3S: Silesian Bioprocess Consortium. The record covers Production line changeover lead time. Facility technical onboarding schedule; Candidate vessel line conversion to client organism; Calendar days required from contract execution to first pilot inoculation run.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 120
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Production line changeover lead time is at most 120 d.",
+          "role_name": "Production Scheduling Manager (SCHED)",
+          "candidate_name": "Silesian Bioprocess Consortium",
+          "other_candidate_names": [
+            "Rhine Biofermentation Works",
+            "Flanders Microbial Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

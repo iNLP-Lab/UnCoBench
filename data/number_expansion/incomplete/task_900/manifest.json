@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_900",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "scientific_facilities_coordinator",
+        "expedition_logistics_manager"
+      ],
+      "role_names": [
+        "Scientific Facilities Coordinator (SCIFAC)",
+        "Expedition Logistics Manager (EXPED)"
+      ],
+      "directory": "incomplete/task_900",
+      "profiles": [
+        {
+          "record_id": "rec_scientific_facilities_coordinator_A",
+          "role_id": "scientific_facilities_coordinator",
+          "candidate_id": "A",
+          "key": "SCIFAC-LABS-S2J",
+          "boolean_predicate_id": "A_wet_lab_installed",
+          "boolean_label": "Dedicated clean wet laboratory installation",
+          "hidden_predicate_id": "A_wet_lab_area",
+          "threshold_label": "Clean wet laboratory floor area",
+          "threshold_aliases": [
+            "Wet lab area",
+            "Scientific wet laboratory floor space"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "m2",
+          "partial_record_text": "SCIFAC-LABS-S2J: RV Svalbard Explorer.RV Svalbard Explorer: Dedicated clean wet laboratory installation = true .Source: General arrangement science deck drawing; Scope: Main deck enclosed scientific research spaces; Measurement: Operational presence of an enclosed clean wet laboratory equipped with running uncontaminated seawater.",
+          "role_name": "Scientific Facilities Coordinator (SCIFAC)",
+          "candidate_name": "RV Svalbard Explorer",
+          "other_candidate_names": [
+            "MS Polar Pioneer",
+            "RV Aurora Borealis II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_manager_A",
+          "role_id": "expedition_logistics_manager",
+          "candidate_id": "A",
+          "key": "EXPED-BERTH-PTP",
+          "hidden_predicate_id": "A_scientific_berths",
+          "threshold_label": "Onboard scientific berths",
+          "threshold_aliases": [
+            "Science accommodation berths",
+            "Dedicated scientific bunk count"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "berths",
+          "partial_record_text": "EXPED-BERTH-PTP: RV Svalbard Explorer. The record covers Onboard scientific berths. Accommodation berth allocation plan; Living quarters dedicated to scientific expedition party; Total number of dedicated scientist berths excluding ship operating crew cabins.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Onboard scientific berths is at least 18 berths.",
+          "role_name": "Expedition Logistics Manager (EXPED)",
+          "candidate_name": "RV Svalbard Explorer",
+          "other_candidate_names": [
+            "MS Polar Pioneer",
+            "RV Aurora Borealis II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "scientific_facilities_coordinator",
+        "expedition_logistics_manager",
+        "bunker_fuel_procurement_officer"
+      ],
+      "role_names": [
+        "Scientific Facilities Coordinator (SCIFAC)",
+        "Expedition Logistics Manager (EXPED)",
+        "Bunker Fuel Procurement Officer (BUNK)"
+      ],
+      "directory": "incomplete/task_900",
+      "profiles": [
+        {
+          "record_id": "rec_scientific_facilities_coordinator_A",
+          "role_id": "scientific_facilities_coordinator",
+          "candidate_id": "A",
+          "key": "SCIFAC-LABS-S2J",
+          "boolean_predicate_id": "A_wet_lab_installed",
+          "boolean_label": "Dedicated clean wet laboratory installation",
+          "hidden_predicate_id": "A_wet_lab_area",
+          "threshold_label": "Clean wet laboratory floor area",
+          "threshold_aliases": [
+            "Wet lab area",
+            "Scientific wet laboratory floor space"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "m2",
+          "partial_record_text": "SCIFAC-LABS-S2J: RV Svalbard Explorer.RV Svalbard Explorer: Dedicated clean wet laboratory installation = true .Source: General arrangement science deck drawing; Scope: Main deck enclosed scientific research spaces; Measurement: Operational presence of an enclosed clean wet laboratory equipped with running uncontaminated seawater.",
+          "role_name": "Scientific Facilities Coordinator (SCIFAC)",
+          "candidate_name": "RV Svalbard Explorer",
+          "other_candidate_names": [
+            "MS Polar Pioneer",
+            "RV Aurora Borealis II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_manager_A",
+          "role_id": "expedition_logistics_manager",
+          "candidate_id": "A",
+          "key": "EXPED-BERTH-PTP",
+          "hidden_predicate_id": "A_scientific_berths",
+          "threshold_label": "Onboard scientific berths",
+          "threshold_aliases": [
+            "Science accommodation berths",
+            "Dedicated scientific bunk count"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "berths",
+          "partial_record_text": "EXPED-BERTH-PTP: RV Svalbard Explorer. The record covers Onboard scientific berths. Accommodation berth allocation plan; Living quarters dedicated to scientific expedition party; Total number of dedicated scientist berths excluding ship operating crew cabins.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Onboard scientific berths is at least 18 berths.",
+          "role_name": "Expedition Logistics Manager (EXPED)",
+          "candidate_name": "RV Svalbard Explorer",
+          "other_candidate_names": [
+            "MS Polar Pioneer",
+            "RV Aurora Borealis II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_bunker_fuel_procurement_officer_A",
+          "role_id": "bunker_fuel_procurement_officer",
+          "candidate_id": "A",
+          "key": "BUNK-FUEL-323",
+          "hidden_predicate_id": "A_delivered_bunker_fuel_price",
+          "threshold_label": "Delivered bunker fuel price",
+          "threshold_aliases": [
+            "Bunker fuel unit rate",
+            "Arctic marine gas oil delivered price"
+          ],
+          "threshold_value": 980,
+          "threshold_unit": "USD/t",
+          "partial_record_text": "BUNK-FUEL-323: RV Svalbard Explorer. The record covers Delivered bunker fuel price. Longyearbyen bunker fuel supply agreement; Delivered ultra-low sulfur polar marine gas oil batch; Contracted purchase price per metric tonne including barge delivery and port bunkering fees.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 850,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Delivered bunker fuel price is at least 850 USD/t.",
+          "role_name": "Bunker Fuel Procurement Officer (BUNK)",
+          "candidate_name": "RV Svalbard Explorer",
+          "other_candidate_names": [
+            "MS Polar Pioneer",
+            "RV Aurora Borealis II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

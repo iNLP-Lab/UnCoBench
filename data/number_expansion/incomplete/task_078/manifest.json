@@ -1,0 +1,160 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_078",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_chemistry",
+        "acoustic_instrumentation"
+      ],
+      "role_names": [
+        "Environmental chemistry lead (CHEM)",
+        "Sonar instrumentation specialist (SON)"
+      ],
+      "directory": "incomplete/task_078",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_chemistry_A",
+          "role_id": "environmental_chemistry",
+          "candidate_id": "A",
+          "key": "CHEM-TOX-CWG",
+          "boolean_predicate_id": "A_mass_spectrometry_active",
+          "boolean_label": "Mass spectrometry module activated",
+          "hidden_predicate_id": "A_voc_detection_limit",
+          "threshold_label": "Volatile organic compound detection limit",
+          "threshold_aliases": [
+            "VOC quantification threshold",
+            "Analyte detection limit"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "CHEM-TOX-CWG: Autonomous benthic crawler swarm tracking.Autonomous benthic crawler swarm tracking: Mass spectrometry module activated = true .Source: Sensor bench pre-deployment log; Scope: Candidate chemical instrumentation rack; Measurement: Operational power and initialization status of the inline mass spectrometer.",
+          "role_name": "Environmental chemistry lead (CHEM)",
+          "candidate_name": "Autonomous benthic crawler swarm tracking",
+          "other_candidate_names": [
+            "Multi-depth acoustic Doppler profiling array",
+            "Towed undulating chemical sensor transect"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_instrumentation_A",
+          "role_id": "acoustic_instrumentation",
+          "candidate_id": "A",
+          "key": "SON-BATH-DXU",
+          "hidden_predicate_id": "A_sonar_transducer_frequency",
+          "threshold_label": "Multi-beam sonar transducer frequency",
+          "threshold_aliases": [
+            "Sonar acoustic frequency",
+            "Acoustic mapping frequency"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "kHz",
+          "partial_record_text": "SON-BATH-DXU: Autonomous benthic crawler swarm tracking.Autonomous benthic crawler swarm tracking: Scheduled acoustic scan duration = 30 h.Source: Cruise operational timeline; Scope: Dedicated active sonar transects in target estuary grid; Measurement: Total planned cumulative hours of acoustic swath data acquisition.",
+          "role_name": "Sonar instrumentation specialist (SON)",
+          "candidate_name": "Autonomous benthic crawler swarm tracking",
+          "other_candidate_names": [
+            "Multi-depth acoustic Doppler profiling array",
+            "Towed undulating chemical sensor transect"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_chemistry",
+        "acoustic_instrumentation",
+        "forensic_data_quality"
+      ],
+      "role_names": [
+        "Environmental chemistry lead (CHEM)",
+        "Sonar instrumentation specialist (SON)",
+        "Forensic data quality manager (FDQ)"
+      ],
+      "directory": "incomplete/task_078",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_chemistry_A",
+          "role_id": "environmental_chemistry",
+          "candidate_id": "A",
+          "key": "CHEM-TOX-CWG",
+          "boolean_predicate_id": "A_mass_spectrometry_active",
+          "boolean_label": "Mass spectrometry module activated",
+          "hidden_predicate_id": "A_voc_detection_limit",
+          "threshold_label": "Volatile organic compound detection limit",
+          "threshold_aliases": [
+            "VOC quantification threshold",
+            "Analyte detection limit"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "CHEM-TOX-CWG: Autonomous benthic crawler swarm tracking.Autonomous benthic crawler swarm tracking: Mass spectrometry module activated = true .Source: Sensor bench pre-deployment log; Scope: Candidate chemical instrumentation rack; Measurement: Operational power and initialization status of the inline mass spectrometer.",
+          "role_name": "Environmental chemistry lead (CHEM)",
+          "candidate_name": "Autonomous benthic crawler swarm tracking",
+          "other_candidate_names": [
+            "Multi-depth acoustic Doppler profiling array",
+            "Towed undulating chemical sensor transect"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_instrumentation_A",
+          "role_id": "acoustic_instrumentation",
+          "candidate_id": "A",
+          "key": "SON-BATH-DXU",
+          "hidden_predicate_id": "A_sonar_transducer_frequency",
+          "threshold_label": "Multi-beam sonar transducer frequency",
+          "threshold_aliases": [
+            "Sonar acoustic frequency",
+            "Acoustic mapping frequency"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "kHz",
+          "partial_record_text": "SON-BATH-DXU: Autonomous benthic crawler swarm tracking.Autonomous benthic crawler swarm tracking: Scheduled acoustic scan duration = 30 h.Source: Cruise operational timeline; Scope: Dedicated active sonar transects in target estuary grid; Measurement: Total planned cumulative hours of acoustic swath data acquisition.",
+          "role_name": "Sonar instrumentation specialist (SON)",
+          "candidate_name": "Autonomous benthic crawler swarm tracking",
+          "other_candidate_names": [
+            "Multi-depth acoustic Doppler profiling array",
+            "Towed undulating chemical sensor transect"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_forensic_data_quality_A",
+          "role_id": "forensic_data_quality",
+          "candidate_id": "A",
+          "key": "FDQ-EVID-O9L",
+          "hidden_predicate_id": "A_sample_preservation_endurance",
+          "threshold_label": "Refrigerated sample preservation endurance",
+          "threshold_aliases": [
+            "Cold-storage sample endurance",
+            "Sample preservation duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "FDQ-EVID-O9L: Autonomous benthic crawler swarm tracking.Reserve accounting basis: after deducting emergency reserve margins.Autonomous benthic crawler swarm tracking: Cryptographic chain-of-custody logging enabled = true .Source: Forensic software configuration record; Scope: Real-time telemetry and specimen metadata capture; Measurement: Automated cryptographic SHA-256 timestamping and immutability lock status.",
+          "role_name": "Forensic data quality manager (FDQ)",
+          "candidate_name": "Autonomous benthic crawler swarm tracking",
+          "other_candidate_names": [
+            "Multi-depth acoustic Doppler profiling array",
+            "Towed undulating chemical sensor transect"
+          ],
+          "context_value": "after deducting emergency reserve margins",
+          "other_context_values": [
+            "before deducting emergency reserve margins"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

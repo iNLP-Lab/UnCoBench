@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_928",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_qa",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Clinical Quality Assurance Director (CQA)",
+        "Fleet Logistics Coordinator (FLOG)"
+      ],
+      "directory": "incomplete/task_928",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_qa_A",
+          "role_id": "clinical_qa",
+          "candidate_id": "A",
+          "key": "CQA-QUAL-X7V",
+          "boolean_predicate_id": "A_excursion_logging_system_enabled",
+          "boolean_label": "Temperature excursion logging system enabled",
+          "hidden_predicate_id": "A_excursion_investigation_lead_time",
+          "threshold_label": "Excursion root-cause investigation lead time",
+          "threshold_aliases": [
+            "Investigation resolution turnaround",
+            "CAPA investigation days"
+          ],
+          "threshold_value": 9,
+          "threshold_unit": "days",
+          "partial_record_text": "CQA-QUAL-X7V: TheraFreeze Logistics Consortium.TheraFreeze Logistics Consortium: Temperature excursion logging system enabled = true .Source: Quality management software registry; Scope: Candidate cold-chain electronic tracking platform; Measurement: Whether an automated logging system for temperature breaches is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Excursion root-cause investigation lead time is at most 30 days.",
+          "role_name": "Clinical Quality Assurance Director (CQA)",
+          "candidate_name": "TheraFreeze Logistics Consortium",
+          "other_candidate_names": [
+            "Vanguard BioChain Solutions",
+            "AuraTemp Global Couriers"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLOG-VEH-2TU",
+          "hidden_predicate_id": "A_fleet_dual_cooling_unit_ratio",
+          "threshold_label": "Fleet dual refrigeration unit ratio",
+          "threshold_aliases": [
+            "Dual-compressor fleet proportion",
+            "Dual refrigeration backup percentage"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "FLOG-VEH-2TU: TheraFreeze Logistics Consortium.TheraFreeze Logistics Consortium: Active reefer staging pallet capacity = 130 pallet.Source: Cross-dock handling manifest; Scope: Climate-controlled cross-dock zone (+2 °C to +8 °C); Measurement: Staging pallet spaces reserved for pre-conditioned dispatch containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet dual refrigeration unit ratio is at most 100 %.",
+          "role_name": "Fleet Logistics Coordinator (FLOG)",
+          "candidate_name": "TheraFreeze Logistics Consortium",
+          "other_candidate_names": [
+            "Vanguard BioChain Solutions",
+            "AuraTemp Global Couriers"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_qa",
+        "fleet_logistics",
+        "cold_chain_tech"
+      ],
+      "role_names": [
+        "Clinical Quality Assurance Director (CQA)",
+        "Fleet Logistics Coordinator (FLOG)",
+        "Cold-Chain Systems Engineer (CENG)"
+      ],
+      "directory": "incomplete/task_928",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_qa_A",
+          "role_id": "clinical_qa",
+          "candidate_id": "A",
+          "key": "CQA-QUAL-X7V",
+          "boolean_predicate_id": "A_excursion_logging_system_enabled",
+          "boolean_label": "Temperature excursion logging system enabled",
+          "hidden_predicate_id": "A_excursion_investigation_lead_time",
+          "threshold_label": "Excursion root-cause investigation lead time",
+          "threshold_aliases": [
+            "Investigation resolution turnaround",
+            "CAPA investigation days"
+          ],
+          "threshold_value": 9,
+          "threshold_unit": "days",
+          "partial_record_text": "CQA-QUAL-X7V: TheraFreeze Logistics Consortium.TheraFreeze Logistics Consortium: Temperature excursion logging system enabled = true .Source: Quality management software registry; Scope: Candidate cold-chain electronic tracking platform; Measurement: Whether an automated logging system for temperature breaches is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Excursion root-cause investigation lead time is at most 30 days.",
+          "role_name": "Clinical Quality Assurance Director (CQA)",
+          "candidate_name": "TheraFreeze Logistics Consortium",
+          "other_candidate_names": [
+            "Vanguard BioChain Solutions",
+            "AuraTemp Global Couriers"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLOG-VEH-2TU",
+          "hidden_predicate_id": "A_fleet_dual_cooling_unit_ratio",
+          "threshold_label": "Fleet dual refrigeration unit ratio",
+          "threshold_aliases": [
+            "Dual-compressor fleet proportion",
+            "Dual refrigeration backup percentage"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "FLOG-VEH-2TU: TheraFreeze Logistics Consortium.TheraFreeze Logistics Consortium: Active reefer staging pallet capacity = 130 pallet.Source: Cross-dock handling manifest; Scope: Climate-controlled cross-dock zone (+2 °C to +8 °C); Measurement: Staging pallet spaces reserved for pre-conditioned dispatch containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet dual refrigeration unit ratio is at most 100 %.",
+          "role_name": "Fleet Logistics Coordinator (FLOG)",
+          "candidate_name": "TheraFreeze Logistics Consortium",
+          "other_candidate_names": [
+            "Vanguard BioChain Solutions",
+            "AuraTemp Global Couriers"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cold_chain_tech_A",
+          "role_id": "cold_chain_tech",
+          "candidate_id": "A",
+          "key": "CENG-SENS-FEP",
+          "hidden_predicate_id": "A_cryo_pallet_capacity",
+          "threshold_label": "Dedicated cryo pallet capacity",
+          "threshold_aliases": [
+            "Ultra-cold pallet spaces",
+            "Minus eighty storage capacity"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "pallet",
+          "partial_record_text": "CENG-SENS-FEP: TheraFreeze Logistics Consortium.Operational quarter: Q3 2025.TheraFreeze Logistics Consortium: Continuous telemetry dual-sensor redundancy = true .Source: Thermal packaging validation dossier; Scope: All ultra-cold shipping containers earmarked for the trial; Measurement: Whether shippers feature twin independent live-transmitting temperature sensors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated cryo pallet capacity is at most 300 pallet.",
+          "role_name": "Cold-Chain Systems Engineer (CENG)",
+          "candidate_name": "TheraFreeze Logistics Consortium",
+          "other_candidate_names": [
+            "Vanguard BioChain Solutions",
+            "AuraTemp Global Couriers"
+          ],
+          "context_value": "Q3 2025",
+          "other_context_values": [
+            "Q4 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

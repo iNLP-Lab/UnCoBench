@@ -1,0 +1,160 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_048",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_monitoring_lead",
+        "treasury_controller"
+      ],
+      "role_names": [
+        "Environmental monitoring supervisor (EMS)",
+        "Commercial treasury controller (CTC)"
+      ],
+      "directory": "incomplete/task_048",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_monitoring_lead_A",
+          "role_id": "environmental_monitoring_lead",
+          "candidate_id": "A",
+          "key": "EMS-EMIS-R1K",
+          "boolean_predicate_id": "A_scrubber_telemetry_active",
+          "boolean_label": "Real-time scrubber emission telemetry activation",
+          "hidden_predicate_id": "A_max_flue_so2_concentration",
+          "threshold_label": "Maximum flue-gas sulfur dioxide concentration",
+          "threshold_aliases": [
+            "Flue gas SO2 concentration",
+            "Stack SO2 emission level"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "EMS-EMIS-R1K: Rhine Valley Catalytic Synthesis GmbH.Rhine Valley Catalytic Synthesis GmbH: Real-time scrubber emission telemetry activation = true .Source: SCADA environmental gateway configuration register; Scope: Main wet scrubber and thermal oxidizer stacks; Measurement: Verification of active continuous automated telemetry broadcast to municipal monitoring authorities.",
+          "role_name": "Environmental monitoring supervisor (EMS)",
+          "candidate_name": "Rhine Valley Catalytic Synthesis GmbH",
+          "other_candidate_names": [
+            "Flanders Polymer Recycling Consortium",
+            "Bavarian Speciality Solvents AG"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_treasury_controller_A",
+          "role_id": "treasury_controller",
+          "candidate_id": "A",
+          "key": "CTC-TREAS-21I",
+          "hidden_predicate_id": "A_distillation_residue_volume",
+          "threshold_label": "Secondary distillation residue volume",
+          "threshold_aliases": [
+            "Distillation bottom sludge volume",
+            "Secondary hazardous residue weight"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "t",
+          "partial_record_text": "CTC-TREAS-21I: Rhine Valley Catalytic Synthesis GmbH.Rhine Valley Catalytic Synthesis GmbH: Approved commercial escrow deposit = true .Source: Institutional trustee compliance certificate; Scope: Dedicated hazardous materials liability escrow account; Measurement: Confirmation of irrevocable environmental clean-up cash bond deposited with lead bank.",
+          "role_name": "Commercial treasury controller (CTC)",
+          "candidate_name": "Rhine Valley Catalytic Synthesis GmbH",
+          "other_candidate_names": [
+            "Flanders Polymer Recycling Consortium",
+            "Bavarian Speciality Solvents AG"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_monitoring_lead",
+        "treasury_controller",
+        "chemical_operations_lead"
+      ],
+      "role_names": [
+        "Environmental monitoring supervisor (EMS)",
+        "Commercial treasury controller (CTC)",
+        "Chemical plant operations manager (COM)"
+      ],
+      "directory": "incomplete/task_048",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_monitoring_lead_A",
+          "role_id": "environmental_monitoring_lead",
+          "candidate_id": "A",
+          "key": "EMS-EMIS-R1K",
+          "boolean_predicate_id": "A_scrubber_telemetry_active",
+          "boolean_label": "Real-time scrubber emission telemetry activation",
+          "hidden_predicate_id": "A_max_flue_so2_concentration",
+          "threshold_label": "Maximum flue-gas sulfur dioxide concentration",
+          "threshold_aliases": [
+            "Flue gas SO2 concentration",
+            "Stack SO2 emission level"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "EMS-EMIS-R1K: Rhine Valley Catalytic Synthesis GmbH.Rhine Valley Catalytic Synthesis GmbH: Real-time scrubber emission telemetry activation = true .Source: SCADA environmental gateway configuration register; Scope: Main wet scrubber and thermal oxidizer stacks; Measurement: Verification of active continuous automated telemetry broadcast to municipal monitoring authorities.",
+          "role_name": "Environmental monitoring supervisor (EMS)",
+          "candidate_name": "Rhine Valley Catalytic Synthesis GmbH",
+          "other_candidate_names": [
+            "Flanders Polymer Recycling Consortium",
+            "Bavarian Speciality Solvents AG"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_treasury_controller_A",
+          "role_id": "treasury_controller",
+          "candidate_id": "A",
+          "key": "CTC-TREAS-21I",
+          "hidden_predicate_id": "A_distillation_residue_volume",
+          "threshold_label": "Secondary distillation residue volume",
+          "threshold_aliases": [
+            "Distillation bottom sludge volume",
+            "Secondary hazardous residue weight"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "t",
+          "partial_record_text": "CTC-TREAS-21I: Rhine Valley Catalytic Synthesis GmbH.Rhine Valley Catalytic Synthesis GmbH: Approved commercial escrow deposit = true .Source: Institutional trustee compliance certificate; Scope: Dedicated hazardous materials liability escrow account; Measurement: Confirmation of irrevocable environmental clean-up cash bond deposited with lead bank.",
+          "role_name": "Commercial treasury controller (CTC)",
+          "candidate_name": "Rhine Valley Catalytic Synthesis GmbH",
+          "other_candidate_names": [
+            "Flanders Polymer Recycling Consortium",
+            "Bavarian Speciality Solvents AG"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_chemical_operations_lead_A",
+          "role_id": "chemical_operations_lead",
+          "candidate_id": "A",
+          "key": "COM-PLANT-XLJ",
+          "hidden_predicate_id": "A_neutralization_effluent_volume",
+          "threshold_label": "Primary neutralization effluent volume",
+          "threshold_aliases": [
+            "Neutralized liquid discharge volume",
+            "Primary wastewater effluent volume"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "t",
+          "partial_record_text": "COM-PLANT-XLJ: Rhine Valley Catalytic Synthesis GmbH.Effluent measurement basis: gross volume prior to on-site filter press dewatering.Rhine Valley Catalytic Synthesis GmbH: Solvent recycling capability clearance = true .Source: Technical toll manufacturing commissioning audit; Scope: Dedicated volatile organic compound fractionation and condensation system; Measurement: Operational sign-off confirming closed-loop solvent recovery throughput capacity.",
+          "role_name": "Chemical plant operations manager (COM)",
+          "candidate_name": "Rhine Valley Catalytic Synthesis GmbH",
+          "other_candidate_names": [
+            "Flanders Polymer Recycling Consortium",
+            "Bavarian Speciality Solvents AG"
+          ],
+          "context_value": "gross volume prior to on-site filter press dewatering",
+          "other_context_values": [
+            "net volume after on-site filter press dewatering"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

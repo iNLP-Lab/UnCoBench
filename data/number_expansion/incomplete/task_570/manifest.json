@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_570",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_fire_safety",
+        "medical_command"
+      ],
+      "role_names": [
+        "Structural fire safety authority (SFSA)",
+        "Emergency medical services command (EMSC)"
+      ],
+      "directory": "incomplete/task_570",
+      "profiles": [
+        {
+          "record_id": "rec_structural_fire_safety_A",
+          "role_id": "structural_fire_safety",
+          "candidate_id": "A",
+          "key": "SFSA-VENT-WZS",
+          "boolean_predicate_id": "A_smoke_extraction_certified",
+          "boolean_label": "Emergency smoke extraction certified",
+          "hidden_predicate_id": "A_smoke_clearance_time",
+          "threshold_label": "Maximum smoke clearance time",
+          "threshold_aliases": [
+            "Smoke evacuation duration",
+            "Toxic smoke purge time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "SFSA-VENT-WZS: Cross-bore pressurized portal evacuation scheme.Cross-bore pressurized portal evacuation scheme: Emergency smoke extraction certified = true .Source: Tunnel ventilation safety audit certificate; Scope: Reversible transverse jet fan array across the entire bore; Measurement: Confirmation of valid operational safety clearance for emergency smoke extraction.",
+          "role_name": "Structural fire safety authority (SFSA)",
+          "candidate_name": "Cross-bore pressurized portal evacuation scheme",
+          "other_candidate_names": [
+            "Subterranean cavern shelter-in-place and airlock extraction scheme",
+            "Parallel service gallery electric shuttle evacuation scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_command_A",
+          "role_id": "medical_command",
+          "candidate_id": "A",
+          "key": "EMSC-TRIAGE-EBM",
+          "hidden_predicate_id": "A_gross_evacuation_capacity",
+          "threshold_label": "Gross portal evacuation capacity",
+          "threshold_aliases": [
+            "Gross evacuation throughput",
+            "Gross civilian extraction rate"
+          ],
+          "threshold_value": 950,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "EMSC-TRIAGE-EBM: Cross-bore pressurized portal evacuation scheme.Assessment period: April 2026.Cross-bore pressurized portal evacuation scheme: Advanced life support triage staging confirmed = true .Source: Pre-hospital emergency deployment protocol register; Scope: Portal portal reception and decontamination apron; Measurement: Formal sign-off of advanced life support casualty sorting infrastructure deployment.",
+          "role_name": "Emergency medical services command (EMSC)",
+          "candidate_name": "Cross-bore pressurized portal evacuation scheme",
+          "other_candidate_names": [
+            "Subterranean cavern shelter-in-place and airlock extraction scheme",
+            "Parallel service gallery electric shuttle evacuation scheme"
+          ],
+          "context_value": "April 2026",
+          "other_context_values": [
+            "May 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_fire_safety",
+        "medical_command",
+        "traffic_control"
+      ],
+      "role_names": [
+        "Structural fire safety authority (SFSA)",
+        "Emergency medical services command (EMSC)",
+        "National road traffic management center (NRTA)"
+      ],
+      "directory": "incomplete/task_570",
+      "profiles": [
+        {
+          "record_id": "rec_structural_fire_safety_A",
+          "role_id": "structural_fire_safety",
+          "candidate_id": "A",
+          "key": "SFSA-VENT-WZS",
+          "boolean_predicate_id": "A_smoke_extraction_certified",
+          "boolean_label": "Emergency smoke extraction certified",
+          "hidden_predicate_id": "A_smoke_clearance_time",
+          "threshold_label": "Maximum smoke clearance time",
+          "threshold_aliases": [
+            "Smoke evacuation duration",
+            "Toxic smoke purge time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "SFSA-VENT-WZS: Cross-bore pressurized portal evacuation scheme.Cross-bore pressurized portal evacuation scheme: Emergency smoke extraction certified = true .Source: Tunnel ventilation safety audit certificate; Scope: Reversible transverse jet fan array across the entire bore; Measurement: Confirmation of valid operational safety clearance for emergency smoke extraction.",
+          "role_name": "Structural fire safety authority (SFSA)",
+          "candidate_name": "Cross-bore pressurized portal evacuation scheme",
+          "other_candidate_names": [
+            "Subterranean cavern shelter-in-place and airlock extraction scheme",
+            "Parallel service gallery electric shuttle evacuation scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_command_A",
+          "role_id": "medical_command",
+          "candidate_id": "A",
+          "key": "EMSC-TRIAGE-EBM",
+          "hidden_predicate_id": "A_gross_evacuation_capacity",
+          "threshold_label": "Gross portal evacuation capacity",
+          "threshold_aliases": [
+            "Gross evacuation throughput",
+            "Gross civilian extraction rate"
+          ],
+          "threshold_value": 950,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "EMSC-TRIAGE-EBM: Cross-bore pressurized portal evacuation scheme.Assessment period: April 2026.Cross-bore pressurized portal evacuation scheme: Advanced life support triage staging confirmed = true .Source: Pre-hospital emergency deployment protocol register; Scope: Portal portal reception and decontamination apron; Measurement: Formal sign-off of advanced life support casualty sorting infrastructure deployment.",
+          "role_name": "Emergency medical services command (EMSC)",
+          "candidate_name": "Cross-bore pressurized portal evacuation scheme",
+          "other_candidate_names": [
+            "Subterranean cavern shelter-in-place and airlock extraction scheme",
+            "Parallel service gallery electric shuttle evacuation scheme"
+          ],
+          "context_value": "April 2026",
+          "other_context_values": [
+            "May 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_traffic_control_A",
+          "role_id": "traffic_control",
+          "candidate_id": "A",
+          "key": "NRTA-TRAFFIC-FN9",
+          "hidden_predicate_id": "A_reserved_responder_capacity",
+          "threshold_label": "Reserved emergency responder transit capacity",
+          "threshold_aliases": [
+            "Emergency responder reservation",
+            "Tactical intervention capacity deduction"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "NRTA-TRAFFIC-FN9: Cross-bore pressurized portal evacuation scheme.Cross-bore pressurized portal evacuation scheme: Automated portal barrier interlock verified = true .Source: Traffic signal and mechanical barrier commissioning review; Scope: Both tunnel portals and upstream slip roads; Measurement: Automated physical closure of inbound traffic gates upon incident confirmation.",
+          "role_name": "National road traffic management center (NRTA)",
+          "candidate_name": "Cross-bore pressurized portal evacuation scheme",
+          "other_candidate_names": [
+            "Subterranean cavern shelter-in-place and airlock extraction scheme",
+            "Parallel service gallery electric shuttle evacuation scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

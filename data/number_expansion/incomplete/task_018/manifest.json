@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_018",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "winch_rescue",
+        "medical_trauma"
+      ],
+      "role_names": [
+        "Hoist and rescue systems specialist (TWO)",
+        "Maritime emergency medical officer (MEM)"
+      ],
+      "directory": "incomplete/task_018",
+      "profiles": [
+        {
+          "record_id": "rec_winch_rescue_A",
+          "role_id": "winch_rescue",
+          "candidate_id": "A",
+          "key": "TWO-HOIST-J92",
+          "boolean_predicate_id": "A_winch_hoist_ready",
+          "boolean_label": "Certified winch hoist deployment readiness",
+          "hidden_predicate_id": "A_casualty_winch_time",
+          "threshold_label": "Maximum casualty winch extraction time",
+          "threshold_aliases": [
+            "Winch extraction duration",
+            "Casualty hoist time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "TWO-HOIST-J92: Heavy-Lift Tandem Rotor Plan.Heavy-Lift Tandem Rotor Plan: Certified winch hoist deployment readiness = true .Source: Emergency equipment inspection ledger; Scope: Candidate aircraft dual-winch recovery installation; Measurement: Active deployment clearance verification for high-seas rescue winches.",
+          "role_name": "Hoist and rescue systems specialist (TWO)",
+          "candidate_name": "Heavy-Lift Tandem Rotor Plan",
+          "other_candidate_names": [
+            "Extended-Range Turboprop Flying-Boat Plan",
+            "Maritime Vectored Tiltrotor Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_trauma_A",
+          "role_id": "medical_trauma",
+          "candidate_id": "A",
+          "key": "MEM-MED-4UW",
+          "hidden_predicate_id": "A_life_support_payload",
+          "threshold_label": "Required medical life-support payload",
+          "threshold_aliases": [
+            "Medical gear tare weight",
+            "Mandatory life-support equipment mass"
+          ],
+          "threshold_value": 1700,
+          "threshold_unit": "kg",
+          "partial_record_text": "MEM-MED-4UW: Heavy-Lift Tandem Rotor Plan.Operational environment: Production operational environment.Heavy-Lift Tandem Rotor Plan: Maritime trauma staging clearance = true .Source: Maritime aeromedical accreditation audit; Scope: Internal cabin medical staging and electrical isolation; Measurement: Whether onboard critical trauma and resuscitation equipment passed staging certification.",
+          "role_name": "Maritime emergency medical officer (MEM)",
+          "candidate_name": "Heavy-Lift Tandem Rotor Plan",
+          "other_candidate_names": [
+            "Extended-Range Turboprop Flying-Boat Plan",
+            "Maritime Vectored Tiltrotor Plan"
+          ],
+          "context_value": "Production operational environment",
+          "other_context_values": [
+            "Field test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "winch_rescue",
+        "medical_trauma",
+        "aviation_safety"
+      ],
+      "role_names": [
+        "Hoist and rescue systems specialist (TWO)",
+        "Maritime emergency medical officer (MEM)",
+        "Flight operations superintendent (FOA)"
+      ],
+      "directory": "incomplete/task_018",
+      "profiles": [
+        {
+          "record_id": "rec_winch_rescue_A",
+          "role_id": "winch_rescue",
+          "candidate_id": "A",
+          "key": "TWO-HOIST-J92",
+          "boolean_predicate_id": "A_winch_hoist_ready",
+          "boolean_label": "Certified winch hoist deployment readiness",
+          "hidden_predicate_id": "A_casualty_winch_time",
+          "threshold_label": "Maximum casualty winch extraction time",
+          "threshold_aliases": [
+            "Winch extraction duration",
+            "Casualty hoist time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "TWO-HOIST-J92: Heavy-Lift Tandem Rotor Plan.Heavy-Lift Tandem Rotor Plan: Certified winch hoist deployment readiness = true .Source: Emergency equipment inspection ledger; Scope: Candidate aircraft dual-winch recovery installation; Measurement: Active deployment clearance verification for high-seas rescue winches.",
+          "role_name": "Hoist and rescue systems specialist (TWO)",
+          "candidate_name": "Heavy-Lift Tandem Rotor Plan",
+          "other_candidate_names": [
+            "Extended-Range Turboprop Flying-Boat Plan",
+            "Maritime Vectored Tiltrotor Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_trauma_A",
+          "role_id": "medical_trauma",
+          "candidate_id": "A",
+          "key": "MEM-MED-4UW",
+          "hidden_predicate_id": "A_life_support_payload",
+          "threshold_label": "Required medical life-support payload",
+          "threshold_aliases": [
+            "Medical gear tare weight",
+            "Mandatory life-support equipment mass"
+          ],
+          "threshold_value": 1700,
+          "threshold_unit": "kg",
+          "partial_record_text": "MEM-MED-4UW: Heavy-Lift Tandem Rotor Plan.Operational environment: Production operational environment.Heavy-Lift Tandem Rotor Plan: Maritime trauma staging clearance = true .Source: Maritime aeromedical accreditation audit; Scope: Internal cabin medical staging and electrical isolation; Measurement: Whether onboard critical trauma and resuscitation equipment passed staging certification.",
+          "role_name": "Maritime emergency medical officer (MEM)",
+          "candidate_name": "Heavy-Lift Tandem Rotor Plan",
+          "other_candidate_names": [
+            "Extended-Range Turboprop Flying-Boat Plan",
+            "Maritime Vectored Tiltrotor Plan"
+          ],
+          "context_value": "Production operational environment",
+          "other_context_values": [
+            "Field test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "FOA-AIR-3MR",
+          "hidden_predicate_id": "A_gross_lift_payload",
+          "threshold_label": "Rated gross lift payload",
+          "threshold_aliases": [
+            "Gross useful payload",
+            "Maximum lift payload"
+          ],
+          "threshold_value": 4200,
+          "threshold_unit": "kg",
+          "partial_record_text": "FOA-AIR-3MR: Heavy-Lift Tandem Rotor Plan.Heavy-Lift Tandem Rotor Plan: Flight corridor deconfliction clearance = true .Source: Aviation authority airspace coordination register; Scope: Designated emergency offshore rescue transit corridors; Measurement: Whether formal civilian and military deconfliction clearance has been granted.",
+          "role_name": "Flight operations superintendent (FOA)",
+          "candidate_name": "Heavy-Lift Tandem Rotor Plan",
+          "other_candidate_names": [
+            "Extended-Range Turboprop Flying-Boat Plan",
+            "Maritime Vectored Tiltrotor Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

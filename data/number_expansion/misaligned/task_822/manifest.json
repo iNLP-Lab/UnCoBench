@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_822",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "regulatory_compliance",
+        "environmental_chemistry"
+      ],
+      "role_names": [
+        "Environmental Protection Agency Liaison (REGL)",
+        "Forensic Analytical Chemist (CHEM)"
+      ],
+      "directory": "number_expansion/misaligned/task_822/k2",
+      "error_profiles": [
+        {
+          "role_name": "Environmental Protection Agency Liaison (REGL)",
+          "target_key": "REGL-PERM-RX0",
+          "alternate_key": "REGL-AUDIT-DK3",
+          "target_context": "including ancillary groundwater extraction waivers",
+          "alternate_context": "excluding ancillary groundwater extraction waivers",
+          "candidate": "Cross-Borehole Hydrogeophysical Tomography Plan",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling Plan",
+            "Discrete Multi-Level Tracer Test Plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "value": true,
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "plume_boundary_spatial_resolution",
+              "label": "Plume boundary spatial resolution",
+              "aliases": [
+                "Spatial grid resolution",
+                "Hydrogeological mapping resolution"
+              ]
+            },
+            {
+              "topic": "aquifer_cross_contamination_containment",
+              "label": "Aquifer cross-contamination containment verified",
+              "aliases": [
+                "Cross-contamination barrier verification",
+                "Vertical containment compliance"
+              ]
+            },
+            {
+              "topic": "borehole_deviation_tolerance",
+              "label": "Maximum borehole trajectory deviation",
+              "aliases": [
+                "Borehole inclination drift",
+                "Drilling trajectory deviation"
+              ]
+            },
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ]
+            },
+            {
+              "topic": "chromatography_quantitation_limit",
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ]
+            },
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ]
+            },
+            {
+              "topic": "primary_rotary_drilling_depth",
+              "label": "Primary rotary drilling depth",
+              "aliases": [
+                "Rotary borehole footage",
+                "Mud-rotary investigation depth"
+              ]
+            },
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forensic Analytical Chemist (CHEM)",
+          "target_key": "CHEM-TOXIC-TUW",
+          "alternate_key": "CHEM-TOXIC-4LD",
+          "target_context": "including sample pre-concentration",
+          "alternate_context": "excluding sample pre-concentration",
+          "candidate": "Cross-Borehole Hydrogeophysical Tomography Plan",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling Plan",
+            "Discrete Multi-Level Tracer Test Plan"
+          ],
+          "numeric": [
+            {
+              "topic": "chromatography_quantitation_limit",
+              "value": 0.2,
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ],
+              "unit": "ug/L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "value": true,
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "plume_boundary_spatial_resolution",
+              "label": "Plume boundary spatial resolution",
+              "aliases": [
+                "Spatial grid resolution",
+                "Hydrogeological mapping resolution"
+              ]
+            },
+            {
+              "topic": "aquifer_cross_contamination_containment",
+              "label": "Aquifer cross-contamination containment verified",
+              "aliases": [
+                "Cross-contamination barrier verification",
+                "Vertical containment compliance"
+              ]
+            },
+            {
+              "topic": "borehole_deviation_tolerance",
+              "label": "Maximum borehole trajectory deviation",
+              "aliases": [
+                "Borehole inclination drift",
+                "Drilling trajectory deviation"
+              ]
+            },
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ]
+            },
+            {
+              "topic": "chromatography_quantitation_limit",
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ]
+            },
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ]
+            },
+            {
+              "topic": "primary_rotary_drilling_depth",
+              "label": "Primary rotary drilling depth",
+              "aliases": [
+                "Rotary borehole footage",
+                "Mud-rotary investigation depth"
+              ]
+            },
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "regulatory_compliance",
+        "environmental_chemistry",
+        "specialist_coring"
+      ],
+      "role_names": [
+        "Environmental Protection Agency Liaison (REGL)",
+        "Forensic Analytical Chemist (CHEM)",
+        "Sonic Coring and Logging Specialist (CORE)"
+      ],
+      "directory": "number_expansion/misaligned/task_822/k3",
+      "error_profiles": [
+        {
+          "role_name": "Environmental Protection Agency Liaison (REGL)",
+          "target_key": "REGL-PERM-RX0",
+          "alternate_key": "REGL-AUDIT-DK3",
+          "target_context": "including ancillary groundwater extraction waivers",
+          "alternate_context": "excluding ancillary groundwater extraction waivers",
+          "candidate": "Cross-Borehole Hydrogeophysical Tomography Plan",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling Plan",
+            "Discrete Multi-Level Tracer Test Plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "value": true,
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "plume_boundary_spatial_resolution",
+              "label": "Plume boundary spatial resolution",
+              "aliases": [
+                "Spatial grid resolution",
+                "Hydrogeological mapping resolution"
+              ]
+            },
+            {
+              "topic": "aquifer_cross_contamination_containment",
+              "label": "Aquifer cross-contamination containment verified",
+              "aliases": [
+                "Cross-contamination barrier verification",
+                "Vertical containment compliance"
+              ]
+            },
+            {
+              "topic": "borehole_deviation_tolerance",
+              "label": "Maximum borehole trajectory deviation",
+              "aliases": [
+                "Borehole inclination drift",
+                "Drilling trajectory deviation"
+              ]
+            },
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ]
+            },
+            {
+              "topic": "chromatography_quantitation_limit",
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ]
+            },
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ]
+            },
+            {
+              "topic": "primary_rotary_drilling_depth",
+              "label": "Primary rotary drilling depth",
+              "aliases": [
+                "Rotary borehole footage",
+                "Mud-rotary investigation depth"
+              ]
+            },
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forensic Analytical Chemist (CHEM)",
+          "target_key": "CHEM-TOXIC-TUW",
+          "alternate_key": "CHEM-TOXIC-4LD",
+          "target_context": "including sample pre-concentration",
+          "alternate_context": "excluding sample pre-concentration",
+          "candidate": "Cross-Borehole Hydrogeophysical Tomography Plan",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling Plan",
+            "Discrete Multi-Level Tracer Test Plan"
+          ],
+          "numeric": [
+            {
+              "topic": "chromatography_quantitation_limit",
+              "value": 0.2,
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ],
+              "unit": "ug/L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "value": true,
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "plume_boundary_spatial_resolution",
+              "label": "Plume boundary spatial resolution",
+              "aliases": [
+                "Spatial grid resolution",
+                "Hydrogeological mapping resolution"
+              ]
+            },
+            {
+              "topic": "aquifer_cross_contamination_containment",
+              "label": "Aquifer cross-contamination containment verified",
+              "aliases": [
+                "Cross-contamination barrier verification",
+                "Vertical containment compliance"
+              ]
+            },
+            {
+              "topic": "borehole_deviation_tolerance",
+              "label": "Maximum borehole trajectory deviation",
+              "aliases": [
+                "Borehole inclination drift",
+                "Drilling trajectory deviation"
+              ]
+            },
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ]
+            },
+            {
+              "topic": "chromatography_quantitation_limit",
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ]
+            },
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ]
+            },
+            {
+              "topic": "primary_rotary_drilling_depth",
+              "label": "Primary rotary drilling depth",
+              "aliases": [
+                "Rotary borehole footage",
+                "Mud-rotary investigation depth"
+              ]
+            },
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Sonic Coring and Logging Specialist (CORE)",
+          "target_key": "CORE-SONIC-CBB",
+          "alternate_key": "CORE-SONIC-REN",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Cross-Borehole Hydrogeophysical Tomography Plan",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling Plan",
+            "Discrete Multi-Level Tracer Test Plan"
+          ],
+          "numeric": [
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "value": 70,
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "plume_boundary_spatial_resolution",
+              "label": "Plume boundary spatial resolution",
+              "aliases": [
+                "Spatial grid resolution",
+                "Hydrogeological mapping resolution"
+              ]
+            },
+            {
+              "topic": "aquifer_cross_contamination_containment",
+              "label": "Aquifer cross-contamination containment verified",
+              "aliases": [
+                "Cross-contamination barrier verification",
+                "Vertical containment compliance"
+              ]
+            },
+            {
+              "topic": "borehole_deviation_tolerance",
+              "label": "Maximum borehole trajectory deviation",
+              "aliases": [
+                "Borehole inclination drift",
+                "Drilling trajectory deviation"
+              ]
+            },
+            {
+              "topic": "volatile_organic_screening_enabled",
+              "label": "Accredited volatile organic screening enabled",
+              "aliases": [
+                "VOC screening enablement",
+                "On-site organic vapor screening status"
+              ]
+            },
+            {
+              "topic": "chromatography_quantitation_limit",
+              "label": "Gas chromatography quantitation limit",
+              "aliases": [
+                "Tetrachloroethene quantitation threshold",
+                "GC-MS limit of quantitation"
+              ]
+            },
+            {
+              "topic": "statutory_drilling_permit_approved",
+              "label": "Statutory environmental drilling permit approved",
+              "aliases": [
+                "Drilling authorization permit",
+                "State environmental permit approval"
+              ]
+            },
+            {
+              "topic": "primary_rotary_drilling_depth",
+              "label": "Primary rotary drilling depth",
+              "aliases": [
+                "Rotary borehole footage",
+                "Mud-rotary investigation depth"
+              ]
+            },
+            {
+              "topic": "secondary_sonic_coring_depth",
+              "label": "Secondary sonic coring depth",
+              "aliases": [
+                "Continuous sonic coring footage",
+                "Sonic core profile depth"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

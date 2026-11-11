@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_285",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hazard_monitoring",
+        "auxiliary_fleet_control"
+      ],
+      "role_names": [
+        "Coastal hazard telemetry officer (CHT)",
+        "Auxiliary escort flotilla lead (AFC)"
+      ],
+      "directory": "incomplete/task_285",
+      "profiles": [
+        {
+          "record_id": "rec_hazard_monitoring_A",
+          "role_id": "hazard_monitoring",
+          "candidate_id": "A",
+          "key": "CHT-SONAR-NG8",
+          "boolean_predicate_id": "A_acoustic_monitoring_enabled",
+          "boolean_label": "Active acoustic beacon monitoring enabled",
+          "hidden_predicate_id": "A_transit_cycle_time",
+          "threshold_label": "Embarkation transit cycle time",
+          "threshold_aliases": [
+            "Transit cycle duration",
+            "Round-trip embarkation interval"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "min",
+          "partial_record_text": "CHT-SONAR-NG8: High-speed catamaran direct evacuation fleet.High-speed catamaran direct evacuation fleet: Active acoustic beacon monitoring enabled = true .Source: Hydroacoustic sensor array log; Scope: Designated evacuation sea lane; Measurement: Telemetry system state verifying active ping reception from subsea obstacle markers.",
+          "role_name": "Coastal hazard telemetry officer (CHT)",
+          "candidate_name": "High-speed catamaran direct evacuation fleet",
+          "other_candidate_names": [
+            "Roll-on roll-off ferry and utility tender convoy",
+            "Deep-draft passenger vessel shuttle corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_auxiliary_fleet_control_A",
+          "role_id": "auxiliary_fleet_control",
+          "candidate_id": "A",
+          "key": "AFC-ESCORT-11X",
+          "hidden_predicate_id": "A_auxiliary_fuel_allocation",
+          "threshold_label": "Auxiliary escort craft fuel allocation",
+          "threshold_aliases": [
+            "Auxiliary flotilla fuel allocation",
+            "Tender escort fuel quantity"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "t",
+          "partial_record_text": "AFC-ESCORT-11X: High-speed catamaran direct evacuation fleet. The record covers Auxiliary escort craft fuel allocation. Auxiliary craft refueling log; Support cutters and firefighting escort tenders; Dedicated diesel fuel bunker volume allocated for emergency towing and escort.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 10.0
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Auxiliary escort craft fuel allocation is at most 10.0 t.",
+          "role_name": "Auxiliary escort flotilla lead (AFC)",
+          "candidate_name": "High-speed catamaran direct evacuation fleet",
+          "other_candidate_names": [
+            "Roll-on roll-off ferry and utility tender convoy",
+            "Deep-draft passenger vessel shuttle corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hazard_monitoring",
+        "auxiliary_fleet_control",
+        "maritime_operations"
+      ],
+      "role_names": [
+        "Coastal hazard telemetry officer (CHT)",
+        "Auxiliary escort flotilla lead (AFC)",
+        "Maritime operations commander (MOP)"
+      ],
+      "directory": "incomplete/task_285",
+      "profiles": [
+        {
+          "record_id": "rec_hazard_monitoring_A",
+          "role_id": "hazard_monitoring",
+          "candidate_id": "A",
+          "key": "CHT-SONAR-NG8",
+          "boolean_predicate_id": "A_acoustic_monitoring_enabled",
+          "boolean_label": "Active acoustic beacon monitoring enabled",
+          "hidden_predicate_id": "A_transit_cycle_time",
+          "threshold_label": "Embarkation transit cycle time",
+          "threshold_aliases": [
+            "Transit cycle duration",
+            "Round-trip embarkation interval"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "min",
+          "partial_record_text": "CHT-SONAR-NG8: High-speed catamaran direct evacuation fleet.High-speed catamaran direct evacuation fleet: Active acoustic beacon monitoring enabled = true .Source: Hydroacoustic sensor array log; Scope: Designated evacuation sea lane; Measurement: Telemetry system state verifying active ping reception from subsea obstacle markers.",
+          "role_name": "Coastal hazard telemetry officer (CHT)",
+          "candidate_name": "High-speed catamaran direct evacuation fleet",
+          "other_candidate_names": [
+            "Roll-on roll-off ferry and utility tender convoy",
+            "Deep-draft passenger vessel shuttle corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_auxiliary_fleet_control_A",
+          "role_id": "auxiliary_fleet_control",
+          "candidate_id": "A",
+          "key": "AFC-ESCORT-11X",
+          "hidden_predicate_id": "A_auxiliary_fuel_allocation",
+          "threshold_label": "Auxiliary escort craft fuel allocation",
+          "threshold_aliases": [
+            "Auxiliary flotilla fuel allocation",
+            "Tender escort fuel quantity"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "t",
+          "partial_record_text": "AFC-ESCORT-11X: High-speed catamaran direct evacuation fleet. The record covers Auxiliary escort craft fuel allocation. Auxiliary craft refueling log; Support cutters and firefighting escort tenders; Dedicated diesel fuel bunker volume allocated for emergency towing and escort.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 10.0
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Auxiliary escort craft fuel allocation is at most 10.0 t.",
+          "role_name": "Auxiliary escort flotilla lead (AFC)",
+          "candidate_name": "High-speed catamaran direct evacuation fleet",
+          "other_candidate_names": [
+            "Roll-on roll-off ferry and utility tender convoy",
+            "Deep-draft passenger vessel shuttle corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_operations_A",
+          "role_id": "maritime_operations",
+          "candidate_id": "A",
+          "key": "MOP-NAV-Z1M",
+          "hidden_predicate_id": "A_primary_fuel_reserve",
+          "threshold_label": "Primary vessel fuel reserve",
+          "threshold_aliases": [
+            "Primary fleet bunker fuel",
+            "Main evacuation vessel fuel"
+          ],
+          "threshold_value": 18.0,
+          "threshold_unit": "t",
+          "partial_record_text": "MOP-NAV-Z1M: High-speed catamaran direct evacuation fleet.High-speed catamaran direct evacuation fleet: Offshore navigational clearance certified = true .Source: Maritime safety dispatch record; Scope: Candidate fleet passage through shoaled coastal waters; Measurement: Official hydrographic verification of vessel draft compatibility.",
+          "role_name": "Maritime operations commander (MOP)",
+          "candidate_name": "High-speed catamaran direct evacuation fleet",
+          "other_candidate_names": [
+            "Roll-on roll-off ferry and utility tender convoy",
+            "Deep-draft passenger vessel shuttle corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

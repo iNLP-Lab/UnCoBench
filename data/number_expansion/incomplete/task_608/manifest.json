@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_608",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "sterile_quality_assurance",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Sterile quality assurance lead (SQA)",
+        "Commercial procurement lead (CPR)"
+      ],
+      "directory": "incomplete/task_608",
+      "profiles": [
+        {
+          "record_id": "rec_sterile_quality_assurance_A",
+          "role_id": "sterile_quality_assurance",
+          "candidate_id": "A",
+          "key": "SQA-STER-9JT",
+          "boolean_predicate_id": "A_sterilization_validation_active",
+          "boolean_label": "Sterilization validation protocol active",
+          "hidden_predicate_id": "A_cleanroom_particulate_recovery_time",
+          "threshold_label": "Cleanroom particulate recovery time",
+          "threshold_aliases": [
+            "Particulate recovery duration",
+            "Class A cleanroom recovery time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "SQA-STER-9JT: Valenciennes Sterile Solutions.Valenciennes Sterile Solutions: Sterilization validation protocol active = true .Source: Sterility assurance master file; Scope: Current commercial fill-finish lines; Measurement: Whether validated vaporized hydrogen peroxide and moist-heat sterilization protocols are active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Cleanroom particulate recovery time is between 5 min and 40 min, inclusive.",
+          "role_name": "Sterile quality assurance lead (SQA)",
+          "candidate_name": "Valenciennes Sterile Solutions",
+          "other_candidate_names": [
+            "Bavaria BioPharma Infusions",
+            "Cork Parenteral Tech"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "CPR-COMM-A8A",
+          "hidden_predicate_id": "A_annual_cleanroom_reservation_fee",
+          "threshold_label": "Annual cleanroom reservation fee",
+          "threshold_aliases": [
+            "Reservation retainer",
+            "Annual cleanroom holding cost"
+          ],
+          "threshold_value": 1500000,
+          "threshold_unit": "EUR",
+          "partial_record_text": "CPR-COMM-A8A: Valenciennes Sterile Solutions.Contract operating year: Contract Year 2025.Valenciennes Sterile Solutions: Liability indemnity agreement executed = true .Source: Master services agreement draft; Scope: Commercial supply agreement terms; Measurement: Whether the prospective partner executed the standard product liability indemnification agreement.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual cleanroom reservation fee is between 0 EUR and 3e+06 EUR, inclusive.",
+          "role_name": "Commercial procurement lead (CPR)",
+          "candidate_name": "Valenciennes Sterile Solutions",
+          "other_candidate_names": [
+            "Bavaria BioPharma Infusions",
+            "Cork Parenteral Tech"
+          ],
+          "context_value": "Contract Year 2025",
+          "other_context_values": [
+            "Contract Year 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "sterile_quality_assurance",
+        "commercial_procurement",
+        "manufacturing_engineering"
+      ],
+      "role_names": [
+        "Sterile quality assurance lead (SQA)",
+        "Commercial procurement lead (CPR)",
+        "Manufacturing engineering lead (MFE)"
+      ],
+      "directory": "incomplete/task_608",
+      "profiles": [
+        {
+          "record_id": "rec_sterile_quality_assurance_A",
+          "role_id": "sterile_quality_assurance",
+          "candidate_id": "A",
+          "key": "SQA-STER-9JT",
+          "boolean_predicate_id": "A_sterilization_validation_active",
+          "boolean_label": "Sterilization validation protocol active",
+          "hidden_predicate_id": "A_cleanroom_particulate_recovery_time",
+          "threshold_label": "Cleanroom particulate recovery time",
+          "threshold_aliases": [
+            "Particulate recovery duration",
+            "Class A cleanroom recovery time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "SQA-STER-9JT: Valenciennes Sterile Solutions.Valenciennes Sterile Solutions: Sterilization validation protocol active = true .Source: Sterility assurance master file; Scope: Current commercial fill-finish lines; Measurement: Whether validated vaporized hydrogen peroxide and moist-heat sterilization protocols are active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Cleanroom particulate recovery time is between 5 min and 40 min, inclusive.",
+          "role_name": "Sterile quality assurance lead (SQA)",
+          "candidate_name": "Valenciennes Sterile Solutions",
+          "other_candidate_names": [
+            "Bavaria BioPharma Infusions",
+            "Cork Parenteral Tech"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "CPR-COMM-A8A",
+          "hidden_predicate_id": "A_annual_cleanroom_reservation_fee",
+          "threshold_label": "Annual cleanroom reservation fee",
+          "threshold_aliases": [
+            "Reservation retainer",
+            "Annual cleanroom holding cost"
+          ],
+          "threshold_value": 1500000,
+          "threshold_unit": "EUR",
+          "partial_record_text": "CPR-COMM-A8A: Valenciennes Sterile Solutions.Contract operating year: Contract Year 2025.Valenciennes Sterile Solutions: Liability indemnity agreement executed = true .Source: Master services agreement draft; Scope: Commercial supply agreement terms; Measurement: Whether the prospective partner executed the standard product liability indemnification agreement.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual cleanroom reservation fee is between 0 EUR and 3e+06 EUR, inclusive.",
+          "role_name": "Commercial procurement lead (CPR)",
+          "candidate_name": "Valenciennes Sterile Solutions",
+          "other_candidate_names": [
+            "Bavaria BioPharma Infusions",
+            "Cork Parenteral Tech"
+          ],
+          "context_value": "Contract Year 2025",
+          "other_context_values": [
+            "Contract Year 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_manufacturing_engineering_A",
+          "role_id": "manufacturing_engineering",
+          "candidate_id": "A",
+          "key": "MFE-FILL-IT6",
+          "hidden_predicate_id": "A_committed_annual_batch_capacity",
+          "threshold_label": "Committed annual batch capacity",
+          "threshold_aliases": [
+            "Annual batch allotment",
+            "Committed production runs"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "batch",
+          "partial_record_text": "MFE-FILL-IT6: Valenciennes Sterile Solutions.Valenciennes Sterile Solutions: Single-use manifold compatibility = true .Source: Fill line technical specifications; Scope: Commercial sterile dosing line; Measurement: Whether the filling line supports pre-sterilized single-use disposable fluid manifolds and peristaltic assemblies.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Committed annual batch capacity is between 10 batch and 40 batch, inclusive.",
+          "role_name": "Manufacturing engineering lead (MFE)",
+          "candidate_name": "Valenciennes Sterile Solutions",
+          "other_candidate_names": [
+            "Bavaria BioPharma Infusions",
+            "Cork Parenteral Tech"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

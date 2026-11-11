@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_808",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_regulator",
+        "port_infrastructure"
+      ],
+      "role_names": [
+        "Port Environmental and Air Quality Officer (EAQ)",
+        "Berth and Marine Infrastructure Superintendent (INFRA)"
+      ],
+      "directory": "incomplete/task_808",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_regulator_A",
+          "role_id": "environmental_regulator",
+          "candidate_id": "A",
+          "key": "EAQ-DUST-URJ",
+          "boolean_predicate_id": "A_continuous_dust_suppression_active",
+          "boolean_label": "Continuous dust suppression system enabled",
+          "hidden_predicate_id": "A_fugitive_pm10_emission_level",
+          "threshold_label": "Fugitive PM10 particulate emission level",
+          "threshold_aliases": [
+            "PM10 dust concentration",
+            "Terminal boundary particulate level"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "EAQ-DUST-URJ: Pacific AgriBulk Terminals.Pacific AgriBulk Terminals: Continuous dust suppression system enabled = true .Source: Air quality permit verification ledger; Scope: Enclosed conveyor transfer towers and shiploader spout chutes; Measurement: Operational status confirmation of continuous negative-pressure dust extraction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Fugitive PM10 particulate emission level is at most 70 ug/m3.",
+          "role_name": "Port Environmental and Air Quality Officer (EAQ)",
+          "candidate_name": "Pacific AgriBulk Terminals",
+          "other_candidate_names": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_infrastructure_A",
+          "role_id": "port_infrastructure",
+          "candidate_id": "A",
+          "key": "INFRA-BERTH-OB5",
+          "hidden_predicate_id": "A_max_capesize_draft_clearance",
+          "threshold_label": "Maximum allowable vessel draft clearance",
+          "threshold_aliases": [
+            "Deep-draft berth clearance",
+            "Wharf dredged depth allowance"
+          ],
+          "threshold_value": 18.0,
+          "threshold_unit": "m",
+          "partial_record_text": "INFRA-BERTH-OB5: Pacific AgriBulk Terminals.Pacific AgriBulk Terminals: Certified shiploader operational transfer rate = 3500 t/h.Source: Marine terminal equipment commissioning certificate; Scope: Twin quadrant gantry grain shiploaders servicing Berth 4; Measurement: Sustained effective bulk grain vessel hold loading rate under full load conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum allowable vessel draft clearance is at most 30 m.",
+          "role_name": "Berth and Marine Infrastructure Superintendent (INFRA)",
+          "candidate_name": "Pacific AgriBulk Terminals",
+          "other_candidate_names": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_regulator",
+        "port_infrastructure",
+        "commercial_finance"
+      ],
+      "role_names": [
+        "Port Environmental and Air Quality Officer (EAQ)",
+        "Berth and Marine Infrastructure Superintendent (INFRA)",
+        "Concession Commercial and Finance Director (CFIN)"
+      ],
+      "directory": "incomplete/task_808",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_regulator_A",
+          "role_id": "environmental_regulator",
+          "candidate_id": "A",
+          "key": "EAQ-DUST-URJ",
+          "boolean_predicate_id": "A_continuous_dust_suppression_active",
+          "boolean_label": "Continuous dust suppression system enabled",
+          "hidden_predicate_id": "A_fugitive_pm10_emission_level",
+          "threshold_label": "Fugitive PM10 particulate emission level",
+          "threshold_aliases": [
+            "PM10 dust concentration",
+            "Terminal boundary particulate level"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "EAQ-DUST-URJ: Pacific AgriBulk Terminals.Pacific AgriBulk Terminals: Continuous dust suppression system enabled = true .Source: Air quality permit verification ledger; Scope: Enclosed conveyor transfer towers and shiploader spout chutes; Measurement: Operational status confirmation of continuous negative-pressure dust extraction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Fugitive PM10 particulate emission level is at most 70 ug/m3.",
+          "role_name": "Port Environmental and Air Quality Officer (EAQ)",
+          "candidate_name": "Pacific AgriBulk Terminals",
+          "other_candidate_names": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_infrastructure_A",
+          "role_id": "port_infrastructure",
+          "candidate_id": "A",
+          "key": "INFRA-BERTH-OB5",
+          "hidden_predicate_id": "A_max_capesize_draft_clearance",
+          "threshold_label": "Maximum allowable vessel draft clearance",
+          "threshold_aliases": [
+            "Deep-draft berth clearance",
+            "Wharf dredged depth allowance"
+          ],
+          "threshold_value": 18.0,
+          "threshold_unit": "m",
+          "partial_record_text": "INFRA-BERTH-OB5: Pacific AgriBulk Terminals.Pacific AgriBulk Terminals: Certified shiploader operational transfer rate = 3500 t/h.Source: Marine terminal equipment commissioning certificate; Scope: Twin quadrant gantry grain shiploaders servicing Berth 4; Measurement: Sustained effective bulk grain vessel hold loading rate under full load conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum allowable vessel draft clearance is at most 30 m.",
+          "role_name": "Berth and Marine Infrastructure Superintendent (INFRA)",
+          "candidate_name": "Pacific AgriBulk Terminals",
+          "other_candidate_names": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_finance_A",
+          "role_id": "commercial_finance",
+          "candidate_id": "A",
+          "key": "CFIN-FIN-JHF",
+          "hidden_predicate_id": "A_contracted_berth_loading_window",
+          "threshold_label": "Contracted annual berth loading window",
+          "threshold_aliases": [
+            "Annual vessel loading availability",
+            "Concession operational loading hours"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "h",
+          "partial_record_text": "CFIN-FIN-JHF: Pacific AgriBulk Terminals.Pacific AgriBulk Terminals: Concession performance bond underwritten = true .Source: Concession treasury custody register; Scope: Consortium concession performance guarantee for the full initial lease term; Measurement: Confirmation of an irrevocable letter of credit or underwritten surety bond.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted annual berth loading window is at most 5000 h.",
+          "role_name": "Concession Commercial and Finance Director (CFIN)",
+          "candidate_name": "Pacific AgriBulk Terminals",
+          "other_candidate_names": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

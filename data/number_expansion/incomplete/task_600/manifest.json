@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_600",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "technical_services",
+        "regulatory_compliance"
+      ],
+      "role_names": [
+        "Technical Services Superintendent (TECHSRV)",
+        "Regulatory Compliance Manager (REGCOMP)"
+      ],
+      "directory": "incomplete/task_600",
+      "profiles": [
+        {
+          "record_id": "rec_technical_services_A",
+          "role_id": "technical_services",
+          "candidate_id": "A",
+          "key": "TECHSRV-TECHASS-BD4",
+          "boolean_predicate_id": "A_automated_telematics_monitoring_active",
+          "boolean_label": "Active automated telematics monitoring",
+          "hidden_predicate_id": "A_roadside_breakdown_response_time",
+          "threshold_label": "Roadside breakdown response time",
+          "threshold_aliases": [
+            "Field service response window",
+            "Emergency recovery arrival duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "TECHSRV-TECHASS-BD4: Trillium Clean Transit Consortium.Trillium Clean Transit Consortium: Active automated telematics monitoring = true .Source: Vehicle telematics integration register; Scope: Continuous onboard state-of-charge and fault diagnostics stream; Measurement: Confirmation of continuous real-time API telemetry linkage with depot dispatch.",
+          "role_name": "Technical Services Superintendent (TECHSRV)",
+          "candidate_name": "Trillium Clean Transit Consortium",
+          "other_candidate_names": [
+            "Pacifica eMobility Partners",
+            "Laurentian Zero-Emission Mobility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_compliance_A",
+          "role_id": "regulatory_compliance",
+          "candidate_id": "A",
+          "key": "REGCOMP-COMPLAUD-ZUI",
+          "hidden_predicate_id": "A_cold_weather_range_retention_rate",
+          "threshold_label": "Cold-weather range retention rate",
+          "threshold_aliases": [
+            "Low-temperature range retention",
+            "Sub-zero operational range factor"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "REGCOMP-COMPLAUD-ZUI: Trillium Clean Transit Consortium.Trillium Clean Transit Consortium: Transport Canada safety clearance = true .Source: Transport Canada compliance registry; Scope: Candidate battery-electric heavy bus platform; Measurement: Active Canadian Motor Vehicle Safety Standards certification clearance.",
+          "role_name": "Regulatory Compliance Manager (REGCOMP)",
+          "candidate_name": "Trillium Clean Transit Consortium",
+          "other_candidate_names": [
+            "Pacifica eMobility Partners",
+            "Laurentian Zero-Emission Mobility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "technical_services",
+        "regulatory_compliance",
+        "capital_infrastructure"
+      ],
+      "role_names": [
+        "Technical Services Superintendent (TECHSRV)",
+        "Regulatory Compliance Manager (REGCOMP)",
+        "Capital Infrastructure Program Manager (CAPINFRA)"
+      ],
+      "directory": "incomplete/task_600",
+      "profiles": [
+        {
+          "record_id": "rec_technical_services_A",
+          "role_id": "technical_services",
+          "candidate_id": "A",
+          "key": "TECHSRV-TECHASS-BD4",
+          "boolean_predicate_id": "A_automated_telematics_monitoring_active",
+          "boolean_label": "Active automated telematics monitoring",
+          "hidden_predicate_id": "A_roadside_breakdown_response_time",
+          "threshold_label": "Roadside breakdown response time",
+          "threshold_aliases": [
+            "Field service response window",
+            "Emergency recovery arrival duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "TECHSRV-TECHASS-BD4: Trillium Clean Transit Consortium.Trillium Clean Transit Consortium: Active automated telematics monitoring = true .Source: Vehicle telematics integration register; Scope: Continuous onboard state-of-charge and fault diagnostics stream; Measurement: Confirmation of continuous real-time API telemetry linkage with depot dispatch.",
+          "role_name": "Technical Services Superintendent (TECHSRV)",
+          "candidate_name": "Trillium Clean Transit Consortium",
+          "other_candidate_names": [
+            "Pacifica eMobility Partners",
+            "Laurentian Zero-Emission Mobility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_compliance_A",
+          "role_id": "regulatory_compliance",
+          "candidate_id": "A",
+          "key": "REGCOMP-COMPLAUD-ZUI",
+          "hidden_predicate_id": "A_cold_weather_range_retention_rate",
+          "threshold_label": "Cold-weather range retention rate",
+          "threshold_aliases": [
+            "Low-temperature range retention",
+            "Sub-zero operational range factor"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "REGCOMP-COMPLAUD-ZUI: Trillium Clean Transit Consortium.Trillium Clean Transit Consortium: Transport Canada safety clearance = true .Source: Transport Canada compliance registry; Scope: Candidate battery-electric heavy bus platform; Measurement: Active Canadian Motor Vehicle Safety Standards certification clearance.",
+          "role_name": "Regulatory Compliance Manager (REGCOMP)",
+          "candidate_name": "Trillium Clean Transit Consortium",
+          "other_candidate_names": [
+            "Pacifica eMobility Partners",
+            "Laurentian Zero-Emission Mobility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_capital_infrastructure_A",
+          "role_id": "capital_infrastructure",
+          "candidate_id": "A",
+          "key": "CAPINFRA-INFRAPLN-PZJ",
+          "hidden_predicate_id": "A_charging_hardware_capital_contribution",
+          "threshold_label": "Charging hardware capital contribution",
+          "threshold_aliases": [
+            "Depot electrification grant",
+            "Charger procurement subsidy"
+          ],
+          "threshold_value": 320000,
+          "threshold_unit": "CAD",
+          "partial_record_text": "CAPINFRA-INFRAPLN-PZJ: Trillium Clean Transit Consortium. The record covers Charging hardware capital contribution. Depot capital co-funding agreement; Candidate fleet depot charging infrastructure cost-share; Total capital expenditure subsidy committed by the proposal for depot fast-charger installation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 240000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Charging hardware capital contribution is at least 240000 CAD.",
+          "role_name": "Capital Infrastructure Program Manager (CAPINFRA)",
+          "candidate_name": "Trillium Clean Transit Consortium",
+          "other_candidate_names": [
+            "Pacifica eMobility Partners",
+            "Laurentian Zero-Emission Mobility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

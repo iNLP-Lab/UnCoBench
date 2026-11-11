@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_801",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "air_filtration",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Atmospheric Life Support Lead (AIRS)",
+        "Structural Envelope Safety Lead (STRUC)"
+      ],
+      "directory": "incomplete/task_801",
+      "profiles": [
+        {
+          "record_id": "rec_air_filtration_A",
+          "role_id": "air_filtration",
+          "candidate_id": "A",
+          "key": "AIRS-AIR-BIH",
+          "boolean_predicate_id": "A_vapor_scrubbing_enabled",
+          "boolean_label": "Chemical vapor scrubbing train enabled",
+          "hidden_predicate_id": "A_scrubbed_ventilation_rate",
+          "threshold_label": "Scrubbed ventilation airflow rate",
+          "threshold_aliases": [
+            "Fresh air scrubber airflow",
+            "Ventilation exchange capacity"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "AIRS-AIR-BIH: Tindall Point Blast-Resistant Shelter.Tindall Point Blast-Resistant Shelter: Chemical vapor scrubbing train enabled = true .Source: Air filtration control console log; Scope: Activated carbon and chemisorbent deep-bed filter bank; Measurement: Whether the automated toxic vapor adsorption sequence is activated and ready for intake diversion.Tindall Point Blast-Resistant Shelter: Primary oxygen supply endurance = 96 h.Source: Compressed gas manifold audit; Scope: Shelter high-pressure medical-grade breathing oxygen bank; Measurement: Continuous breathing air delivery time under maximum design occupant load without replenishment.",
+          "role_name": "Atmospheric Life Support Lead (AIRS)",
+          "candidate_name": "Tindall Point Blast-Resistant Shelter",
+          "other_candidate_names": [
+            "Kestrel Ridge Pressurized Community Bunker",
+            "Vanguard Industrial Civil Haven"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "STRUC-SEAL-VSQ",
+          "hidden_predicate_id": "A_overpressure_blast_rating",
+          "threshold_label": "External overpressure blast tolerance",
+          "threshold_aliases": [
+            "Blast resistance rating",
+            "Overpressure tolerance"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "kPa",
+          "partial_record_text": "STRUC-SEAL-VSQ: Tindall Point Blast-Resistant Shelter.Safety margin basis: evaluated after safety margin deduction.Tindall Point Blast-Resistant Shelter: Envelope hermetic seal verified = true .Source: Blower door pressurization report; Scope: External perimeter envelope and airlock gaskets; Measurement: Whether building air leakage remains below 0.05 air changes per hour under 50 Pa test pressure.",
+          "role_name": "Structural Envelope Safety Lead (STRUC)",
+          "candidate_name": "Tindall Point Blast-Resistant Shelter",
+          "other_candidate_names": [
+            "Kestrel Ridge Pressurized Community Bunker",
+            "Vanguard Industrial Civil Haven"
+          ],
+          "context_value": "evaluated after safety margin deduction",
+          "other_context_values": [
+            "evaluated before safety margin deduction"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "air_filtration",
+        "structural_safety",
+        "power_systems"
+      ],
+      "role_names": [
+        "Atmospheric Life Support Lead (AIRS)",
+        "Structural Envelope Safety Lead (STRUC)",
+        "Auxiliary Power Systems Lead (POWR)"
+      ],
+      "directory": "incomplete/task_801",
+      "profiles": [
+        {
+          "record_id": "rec_air_filtration_A",
+          "role_id": "air_filtration",
+          "candidate_id": "A",
+          "key": "AIRS-AIR-BIH",
+          "boolean_predicate_id": "A_vapor_scrubbing_enabled",
+          "boolean_label": "Chemical vapor scrubbing train enabled",
+          "hidden_predicate_id": "A_scrubbed_ventilation_rate",
+          "threshold_label": "Scrubbed ventilation airflow rate",
+          "threshold_aliases": [
+            "Fresh air scrubber airflow",
+            "Ventilation exchange capacity"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "AIRS-AIR-BIH: Tindall Point Blast-Resistant Shelter.Tindall Point Blast-Resistant Shelter: Chemical vapor scrubbing train enabled = true .Source: Air filtration control console log; Scope: Activated carbon and chemisorbent deep-bed filter bank; Measurement: Whether the automated toxic vapor adsorption sequence is activated and ready for intake diversion.Tindall Point Blast-Resistant Shelter: Primary oxygen supply endurance = 96 h.Source: Compressed gas manifold audit; Scope: Shelter high-pressure medical-grade breathing oxygen bank; Measurement: Continuous breathing air delivery time under maximum design occupant load without replenishment.",
+          "role_name": "Atmospheric Life Support Lead (AIRS)",
+          "candidate_name": "Tindall Point Blast-Resistant Shelter",
+          "other_candidate_names": [
+            "Kestrel Ridge Pressurized Community Bunker",
+            "Vanguard Industrial Civil Haven"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "STRUC-SEAL-VSQ",
+          "hidden_predicate_id": "A_overpressure_blast_rating",
+          "threshold_label": "External overpressure blast tolerance",
+          "threshold_aliases": [
+            "Blast resistance rating",
+            "Overpressure tolerance"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "kPa",
+          "partial_record_text": "STRUC-SEAL-VSQ: Tindall Point Blast-Resistant Shelter.Safety margin basis: evaluated after safety margin deduction.Tindall Point Blast-Resistant Shelter: Envelope hermetic seal verified = true .Source: Blower door pressurization report; Scope: External perimeter envelope and airlock gaskets; Measurement: Whether building air leakage remains below 0.05 air changes per hour under 50 Pa test pressure.",
+          "role_name": "Structural Envelope Safety Lead (STRUC)",
+          "candidate_name": "Tindall Point Blast-Resistant Shelter",
+          "other_candidate_names": [
+            "Kestrel Ridge Pressurized Community Bunker",
+            "Vanguard Industrial Civil Haven"
+          ],
+          "context_value": "evaluated after safety margin deduction",
+          "other_context_values": [
+            "evaluated before safety margin deduction"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "POWR-ELEC-HYN",
+          "hidden_predicate_id": "A_standby_generator_endurance",
+          "threshold_label": "Standby generator fuel endurance",
+          "threshold_aliases": [
+            "Emergency diesel runtime",
+            "Generator continuous fuel supply"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "POWR-ELEC-HYN: Tindall Point Blast-Resistant Shelter.Tindall Point Blast-Resistant Shelter: Automatic transfer switch certified = true .Source: Electrical safety inspection certificate; Scope: Main emergency bus and backup generator transfer switch; Measurement: Whether automatic load shedding and transfer from grid to generator completed within 10 seconds.",
+          "role_name": "Auxiliary Power Systems Lead (POWR)",
+          "candidate_name": "Tindall Point Blast-Resistant Shelter",
+          "other_candidate_names": [
+            "Kestrel Ridge Pressurized Community Bunker",
+            "Vanguard Industrial Civil Haven"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

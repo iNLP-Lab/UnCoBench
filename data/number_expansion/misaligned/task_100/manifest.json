@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_100",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "station_infrastructure_lead",
+        "geophysics_monitoring_lead"
+      ],
+      "role_names": [
+        "Station infrastructure lead (INFRA)",
+        "Geophysics monitoring lead (GEOPHYS)"
+      ],
+      "directory": "number_expansion/misaligned/task_100/k2",
+      "error_profiles": [
+        {
+          "role_name": "Station infrastructure lead (INFRA)",
+          "target_key": "INFRA-GRID-XKD",
+          "alternate_key": "INFRA-HEAT-C0J",
+          "target_context": "including redundant battery storage backup",
+          "alternate_context": "excluding redundant battery storage backup",
+          "candidate": "Kohnen Ridge Sector C",
+          "other_candidates": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cleanroom_grid_integration",
+              "value": true,
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "skiway_landing_clearance",
+              "label": "All-weather skiway landing clearance",
+              "aliases": [
+                "Skiway landing clearance",
+                "Runway ice certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_grid_integration",
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ]
+            },
+            {
+              "topic": "core_barrel_diameter",
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ]
+            },
+            {
+              "topic": "telemetry_system_enabled",
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Environmental protocol adherence clearance",
+              "aliases": [
+                "Environmental protocol clearance",
+                "Antarctic environmental clearance"
+              ]
+            },
+            {
+              "topic": "thermal_drill_payload",
+              "label": "Thermal melt-head rig payload",
+              "aliases": [
+                "Thermal drill payload weight",
+                "Melt rig payload"
+              ]
+            },
+            {
+              "topic": "electromechanical_drill_payload",
+              "label": "Electromechanical drill payload",
+              "aliases": [
+                "Mechanical drill payload weight",
+                "Coring drill rig payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geophysics monitoring lead (GEOPHYS)",
+          "target_key": "GEOPHYS-SEIS-TCP",
+          "alternate_key": "GEOPHYS-SEIS-U3E",
+          "target_context": "after forward error correction",
+          "alternate_context": "before forward error correction",
+          "candidate": "Kohnen Ridge Sector C",
+          "other_candidates": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_packet_loss",
+              "value": 2,
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_system_enabled",
+              "value": true,
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "skiway_landing_clearance",
+              "label": "All-weather skiway landing clearance",
+              "aliases": [
+                "Skiway landing clearance",
+                "Runway ice certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_grid_integration",
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ]
+            },
+            {
+              "topic": "core_barrel_diameter",
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ]
+            },
+            {
+              "topic": "telemetry_system_enabled",
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Environmental protocol adherence clearance",
+              "aliases": [
+                "Environmental protocol clearance",
+                "Antarctic environmental clearance"
+              ]
+            },
+            {
+              "topic": "thermal_drill_payload",
+              "label": "Thermal melt-head rig payload",
+              "aliases": [
+                "Thermal drill payload weight",
+                "Melt rig payload"
+              ]
+            },
+            {
+              "topic": "electromechanical_drill_payload",
+              "label": "Electromechanical drill payload",
+              "aliases": [
+                "Mechanical drill payload weight",
+                "Coring drill rig payload"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "station_infrastructure_lead",
+        "geophysics_monitoring_lead",
+        "drilling_engineering_lead"
+      ],
+      "role_names": [
+        "Station infrastructure lead (INFRA)",
+        "Geophysics monitoring lead (GEOPHYS)",
+        "Drilling engineering lead (DRILL)"
+      ],
+      "directory": "number_expansion/misaligned/task_100/k3",
+      "error_profiles": [
+        {
+          "role_name": "Station infrastructure lead (INFRA)",
+          "target_key": "INFRA-GRID-XKD",
+          "alternate_key": "INFRA-HEAT-C0J",
+          "target_context": "including redundant battery storage backup",
+          "alternate_context": "excluding redundant battery storage backup",
+          "candidate": "Kohnen Ridge Sector C",
+          "other_candidates": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cleanroom_grid_integration",
+              "value": true,
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "skiway_landing_clearance",
+              "label": "All-weather skiway landing clearance",
+              "aliases": [
+                "Skiway landing clearance",
+                "Runway ice certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_grid_integration",
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ]
+            },
+            {
+              "topic": "core_barrel_diameter",
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ]
+            },
+            {
+              "topic": "telemetry_system_enabled",
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Environmental protocol adherence clearance",
+              "aliases": [
+                "Environmental protocol clearance",
+                "Antarctic environmental clearance"
+              ]
+            },
+            {
+              "topic": "thermal_drill_payload",
+              "label": "Thermal melt-head rig payload",
+              "aliases": [
+                "Thermal drill payload weight",
+                "Melt rig payload"
+              ]
+            },
+            {
+              "topic": "electromechanical_drill_payload",
+              "label": "Electromechanical drill payload",
+              "aliases": [
+                "Mechanical drill payload weight",
+                "Coring drill rig payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geophysics monitoring lead (GEOPHYS)",
+          "target_key": "GEOPHYS-SEIS-TCP",
+          "alternate_key": "GEOPHYS-SEIS-U3E",
+          "target_context": "after forward error correction",
+          "alternate_context": "before forward error correction",
+          "candidate": "Kohnen Ridge Sector C",
+          "other_candidates": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_packet_loss",
+              "value": 2,
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_system_enabled",
+              "value": true,
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "skiway_landing_clearance",
+              "label": "All-weather skiway landing clearance",
+              "aliases": [
+                "Skiway landing clearance",
+                "Runway ice certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_grid_integration",
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ]
+            },
+            {
+              "topic": "core_barrel_diameter",
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ]
+            },
+            {
+              "topic": "telemetry_system_enabled",
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Environmental protocol adherence clearance",
+              "aliases": [
+                "Environmental protocol clearance",
+                "Antarctic environmental clearance"
+              ]
+            },
+            {
+              "topic": "thermal_drill_payload",
+              "label": "Thermal melt-head rig payload",
+              "aliases": [
+                "Thermal drill payload weight",
+                "Melt rig payload"
+              ]
+            },
+            {
+              "topic": "electromechanical_drill_payload",
+              "label": "Electromechanical drill payload",
+              "aliases": [
+                "Mechanical drill payload weight",
+                "Coring drill rig payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Drilling engineering lead (DRILL)",
+          "target_key": "DRILL-RIG-0QR",
+          "alternate_key": "DRILL-RIG-ZL5",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Kohnen Ridge Sector C",
+          "other_candidates": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "numeric": [
+            {
+              "topic": "core_barrel_diameter",
+              "value": 122,
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ],
+              "unit": "mm"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "skiway_landing_clearance",
+              "label": "All-weather skiway landing clearance",
+              "aliases": [
+                "Skiway landing clearance",
+                "Runway ice certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_grid_integration",
+              "label": "Continuous cleanroom power grid integration",
+              "aliases": [
+                "Cleanroom power integration",
+                "Grid microgrid connection"
+              ]
+            },
+            {
+              "topic": "core_barrel_diameter",
+              "label": "Ice-core extraction core barrel diameter",
+              "aliases": [
+                "Drill barrel diameter",
+                "Extracted core diameter"
+              ]
+            },
+            {
+              "topic": "telemetry_system_enabled",
+              "label": "Bedrock seismic monitoring telemetry enablement",
+              "aliases": [
+                "Seismic telemetry enablement",
+                "Sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry data transmission packet loss",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Environmental protocol adherence clearance",
+              "aliases": [
+                "Environmental protocol clearance",
+                "Antarctic environmental clearance"
+              ]
+            },
+            {
+              "topic": "thermal_drill_payload",
+              "label": "Thermal melt-head rig payload",
+              "aliases": [
+                "Thermal drill payload weight",
+                "Melt rig payload"
+              ]
+            },
+            {
+              "topic": "electromechanical_drill_payload",
+              "label": "Electromechanical drill payload",
+              "aliases": [
+                "Mechanical drill payload weight",
+                "Coring drill rig payload"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

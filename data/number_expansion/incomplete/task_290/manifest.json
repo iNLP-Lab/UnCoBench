@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_290",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_intervention_director",
+        "marine_operations_superintendent"
+      ],
+      "role_names": [
+        "Subsea Intervention Director (ROVDIR)",
+        "Marine Operations Superintendent (MAROPS)"
+      ],
+      "directory": "incomplete/task_290",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_intervention_director_A",
+          "role_id": "subsea_intervention_director",
+          "candidate_id": "A",
+          "key": "ROVDIR-DEEPTECH-05O",
+          "boolean_predicate_id": "A_rov_ready",
+          "boolean_label": "Deepwater ROV intervention readiness",
+          "hidden_predicate_id": "A_mobilization_time",
+          "threshold_label": "Maximum mobilizable deployment time",
+          "threshold_aliases": [
+            "Mobilization notice time",
+            "Dockside deployment transit initiation window"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "ROVDIR-DEEPTECH-05O: Oceaneering Marine Intervention Taskforce.Oceaneering Marine Intervention Taskforce: Deepwater ROV intervention readiness = true .Source: Robotics mobilization sign-off document; Scope: Dual 200-hp work-class remote operated vehicle spreads; Measurement: Affirmative verification that subsea manipulator systems and tooling suites are fully operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum mobilizable deployment time is between 10 h and 50 h, inclusive.",
+          "role_name": "Subsea Intervention Director (ROVDIR)",
+          "candidate_name": "Oceaneering Marine Intervention Taskforce",
+          "other_candidate_names": [
+            "Subsea7 Rapid Emergency Response Consortium",
+            "Helix Well Containment Strike Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_superintendent_A",
+          "role_id": "marine_operations_superintendent",
+          "candidate_id": "A",
+          "key": "MAROPS-NAVCLASS-LC5",
+          "hidden_predicate_id": "A_transport_displacement",
+          "threshold_label": "Deadweight transport displacement",
+          "threshold_aliases": [
+            "Vessel deadweight tonnage",
+            "Operational transport deadweight"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "t",
+          "partial_record_text": "MAROPS-NAVCLASS-LC5: Oceaneering Marine Intervention Taskforce.Oceaneering Marine Intervention Taskforce: Dynamic positioning Class 3 certification = true .Source: Classification society vessel certificate; Scope: Primary offshore intervention vessel; Measurement: Current class notation confirming fully redundant triple-system dynamic positioning.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 3000,
+            "upper": 7000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Deadweight transport displacement is between 3000 t and 7000 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MAROPS)",
+          "candidate_name": "Oceaneering Marine Intervention Taskforce",
+          "other_candidate_names": [
+            "Subsea7 Rapid Emergency Response Consortium",
+            "Helix Well Containment Strike Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_intervention_director",
+        "marine_operations_superintendent",
+        "logistics_deck_manager"
+      ],
+      "role_names": [
+        "Subsea Intervention Director (ROVDIR)",
+        "Marine Operations Superintendent (MAROPS)",
+        "Logistics Deck Operations Manager (DECKMGR)"
+      ],
+      "directory": "incomplete/task_290",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_intervention_director_A",
+          "role_id": "subsea_intervention_director",
+          "candidate_id": "A",
+          "key": "ROVDIR-DEEPTECH-05O",
+          "boolean_predicate_id": "A_rov_ready",
+          "boolean_label": "Deepwater ROV intervention readiness",
+          "hidden_predicate_id": "A_mobilization_time",
+          "threshold_label": "Maximum mobilizable deployment time",
+          "threshold_aliases": [
+            "Mobilization notice time",
+            "Dockside deployment transit initiation window"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "ROVDIR-DEEPTECH-05O: Oceaneering Marine Intervention Taskforce.Oceaneering Marine Intervention Taskforce: Deepwater ROV intervention readiness = true .Source: Robotics mobilization sign-off document; Scope: Dual 200-hp work-class remote operated vehicle spreads; Measurement: Affirmative verification that subsea manipulator systems and tooling suites are fully operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum mobilizable deployment time is between 10 h and 50 h, inclusive.",
+          "role_name": "Subsea Intervention Director (ROVDIR)",
+          "candidate_name": "Oceaneering Marine Intervention Taskforce",
+          "other_candidate_names": [
+            "Subsea7 Rapid Emergency Response Consortium",
+            "Helix Well Containment Strike Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_superintendent_A",
+          "role_id": "marine_operations_superintendent",
+          "candidate_id": "A",
+          "key": "MAROPS-NAVCLASS-LC5",
+          "hidden_predicate_id": "A_transport_displacement",
+          "threshold_label": "Deadweight transport displacement",
+          "threshold_aliases": [
+            "Vessel deadweight tonnage",
+            "Operational transport deadweight"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "t",
+          "partial_record_text": "MAROPS-NAVCLASS-LC5: Oceaneering Marine Intervention Taskforce.Oceaneering Marine Intervention Taskforce: Dynamic positioning Class 3 certification = true .Source: Classification society vessel certificate; Scope: Primary offshore intervention vessel; Measurement: Current class notation confirming fully redundant triple-system dynamic positioning.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 3000,
+            "upper": 7000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Deadweight transport displacement is between 3000 t and 7000 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MAROPS)",
+          "candidate_name": "Oceaneering Marine Intervention Taskforce",
+          "other_candidate_names": [
+            "Subsea7 Rapid Emergency Response Consortium",
+            "Helix Well Containment Strike Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_deck_manager_A",
+          "role_id": "logistics_deck_manager",
+          "candidate_id": "A",
+          "key": "DECKMGR-RIGLOAD-7XT",
+          "hidden_predicate_id": "A_deck_payload",
+          "threshold_label": "Total mobilizable deck payload",
+          "threshold_aliases": [
+            "Mobilizable deck payload capacity",
+            "Usable deck cargo payload"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "t",
+          "partial_record_text": "DECKMGR-RIGLOAD-7XT: Oceaneering Marine Intervention Taskforce. The record covers Total mobilizable deck payload. Vessel stability and cargo manifest analysis; Open aft main deck cargo area; Maximum certified payload tonnage of emergency containment hardware stowed on deck.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total mobilizable deck payload is between 0 t and 4000 t, inclusive.",
+          "role_name": "Logistics Deck Operations Manager (DECKMGR)",
+          "candidate_name": "Oceaneering Marine Intervention Taskforce",
+          "other_candidate_names": [
+            "Subsea7 Rapid Emergency Response Consortium",
+            "Helix Well Containment Strike Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

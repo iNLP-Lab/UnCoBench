@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_041",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "energy_infrastructure_officer",
+        "medical_logistics_manager"
+      ],
+      "role_names": [
+        "Energy Infrastructure Officer (ENG)",
+        "Medical Logistics Manager (MED)"
+      ],
+      "directory": "incomplete/task_041",
+      "profiles": [
+        {
+          "record_id": "rec_energy_infrastructure_officer_A",
+          "role_id": "energy_infrastructure_officer",
+          "candidate_id": "A",
+          "key": "ENG-PWR-3WP",
+          "boolean_predicate_id": "A_generator_backup_active",
+          "boolean_label": "Emergency power backup activation",
+          "hidden_predicate_id": "A_power_endurance_hours",
+          "threshold_label": "Backup power endurance",
+          "threshold_aliases": [
+            "Continuous generator endurance",
+            "Generator fuel autonomy"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "ENG-PWR-3WP: Highland Valley Civic Arena.Highland Valley Civic Arena: Emergency power backup activation = true .Source: Emergency infrastructure inspection record; Scope: On-site industrial diesel generator unit; Measurement: Operational readiness switch and governor control status.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup power endurance is between 20 h and 300 h, inclusive.",
+          "role_name": "Energy Infrastructure Officer (ENG)",
+          "candidate_name": "Highland Valley Civic Arena",
+          "other_candidate_names": [
+            "Pinecrest Regional High Campus",
+            "Canyon Ridge Multipurpose Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_logistics_manager_A",
+          "role_id": "medical_logistics_manager",
+          "candidate_id": "A",
+          "key": "MED-CLIN-HXF",
+          "hidden_predicate_id": "A_medical_supply_capacity",
+          "threshold_label": "Medical supply intake capacity",
+          "threshold_aliases": [
+            "Clinical supply throughput",
+            "Medical aid intake volume"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "crates/d",
+          "partial_record_text": "MED-CLIN-HXF: Highland Valley Civic Arena. The record covers Medical supply intake capacity. Clinical intake logistics assessment; Dedicated shelter emergency medical triage station; Standardized medical emergency crates processed and inventoried per day.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Medical supply intake capacity is between 30 crates/d and 80 crates/d, inclusive.",
+          "role_name": "Medical Logistics Manager (MED)",
+          "candidate_name": "Highland Valley Civic Arena",
+          "other_candidate_names": [
+            "Pinecrest Regional High Campus",
+            "Canyon Ridge Multipurpose Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "energy_infrastructure_officer",
+        "medical_logistics_manager",
+        "relief_ration_quartermaster"
+      ],
+      "role_names": [
+        "Energy Infrastructure Officer (ENG)",
+        "Medical Logistics Manager (MED)",
+        "Relief Ration Quartermaster (RAT)"
+      ],
+      "directory": "incomplete/task_041",
+      "profiles": [
+        {
+          "record_id": "rec_energy_infrastructure_officer_A",
+          "role_id": "energy_infrastructure_officer",
+          "candidate_id": "A",
+          "key": "ENG-PWR-3WP",
+          "boolean_predicate_id": "A_generator_backup_active",
+          "boolean_label": "Emergency power backup activation",
+          "hidden_predicate_id": "A_power_endurance_hours",
+          "threshold_label": "Backup power endurance",
+          "threshold_aliases": [
+            "Continuous generator endurance",
+            "Generator fuel autonomy"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "ENG-PWR-3WP: Highland Valley Civic Arena.Highland Valley Civic Arena: Emergency power backup activation = true .Source: Emergency infrastructure inspection record; Scope: On-site industrial diesel generator unit; Measurement: Operational readiness switch and governor control status.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup power endurance is between 20 h and 300 h, inclusive.",
+          "role_name": "Energy Infrastructure Officer (ENG)",
+          "candidate_name": "Highland Valley Civic Arena",
+          "other_candidate_names": [
+            "Pinecrest Regional High Campus",
+            "Canyon Ridge Multipurpose Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_logistics_manager_A",
+          "role_id": "medical_logistics_manager",
+          "candidate_id": "A",
+          "key": "MED-CLIN-HXF",
+          "hidden_predicate_id": "A_medical_supply_capacity",
+          "threshold_label": "Medical supply intake capacity",
+          "threshold_aliases": [
+            "Clinical supply throughput",
+            "Medical aid intake volume"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "crates/d",
+          "partial_record_text": "MED-CLIN-HXF: Highland Valley Civic Arena. The record covers Medical supply intake capacity. Clinical intake logistics assessment; Dedicated shelter emergency medical triage station; Standardized medical emergency crates processed and inventoried per day.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Medical supply intake capacity is between 30 crates/d and 80 crates/d, inclusive.",
+          "role_name": "Medical Logistics Manager (MED)",
+          "candidate_name": "Highland Valley Civic Arena",
+          "other_candidate_names": [
+            "Pinecrest Regional High Campus",
+            "Canyon Ridge Multipurpose Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_relief_ration_quartermaster_A",
+          "role_id": "relief_ration_quartermaster",
+          "candidate_id": "A",
+          "key": "RAT-DIST-NC5",
+          "hidden_predicate_id": "A_dry_ration_capacity",
+          "threshold_label": "Dry ration intake capacity",
+          "threshold_aliases": [
+            "Ration intake volume",
+            "Dry meal intake capacity"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "crates/d",
+          "partial_record_text": "RAT-DIST-NC5: Highland Valley Civic Arena. The record covers Dry ration intake capacity. Quartermaster relief logistics report; Shelter bulk food storage and distribution dock; Standardized humanitarian food ration crates staged and distributed per day.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dry ration intake capacity is between 0 crates/d and 300 crates/d, inclusive.",
+          "role_name": "Relief Ration Quartermaster (RAT)",
+          "candidate_name": "Highland Valley Civic Arena",
+          "other_candidate_names": [
+            "Pinecrest Regional High Campus",
+            "Canyon Ridge Multipurpose Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

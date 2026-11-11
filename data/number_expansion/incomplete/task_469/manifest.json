@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_469",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryo_engineering",
+        "electrical_infrastructure"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CRYO)",
+        "Substation infrastructure coordinator (ELEC)"
+      ],
+      "directory": "incomplete/task_469",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-CRYOSYS-ILW",
+          "boolean_predicate_id": "A_ln2_backup_enabled",
+          "boolean_label": "Liquid nitrogen backup system enabled",
+          "hidden_predicate_id": "A_cryo_autonomy_hours",
+          "threshold_label": "Emergency cryogenic autonomy",
+          "threshold_aliases": [
+            "Unpowered hold duration",
+            "Cryogenic thermal buffer"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-CRYOSYS-ILW: Cascade Vault Biospecimen Depot.Cascade Vault Biospecimen Depot: Liquid nitrogen backup system enabled = true .Source: Cryogenic automation control register; Scope: Emergency cryogenic storage manifolds; Measurement: System status flag confirming automatic valve injection failover is armed.Cascade Vault Biospecimen Depot: Vapor-phase LN2 storage pull-down duration = 95 min.Source: Cryogenic storage commissioning log; Scope: Primary vault vapor-phase freezer banks; Measurement: Duration required to cool freezer interior from -80 °C to stable -150 °C storage temperature.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency cryogenic autonomy is at most 300 h.",
+          "role_name": "Cryogenic systems lead (CRYO)",
+          "candidate_name": "Cascade Vault Biospecimen Depot",
+          "other_candidate_names": [
+            "Highland Cryogenic Preservation Center",
+            "Keystone Subterranean Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_electrical_infrastructure_A",
+          "role_id": "electrical_infrastructure",
+          "candidate_id": "A",
+          "key": "ELEC-GRIDFEED-U3C",
+          "hidden_predicate_id": "A_ult_staging_chill_time",
+          "threshold_label": "Ultra-low temperature staging chill-down duration",
+          "threshold_aliases": [
+            "ULT chamber chill time",
+            "Pre-freeze pull-down duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "ELEC-GRIDFEED-U3C: Cascade Vault Biospecimen Depot.Cascade Vault Biospecimen Depot: Dual-grid power interconnect operational = true .Source: Regional utility interconnection agreement; Scope: Main facility medium-voltage switchgear; Measurement: Active verification of dual independent substation line feeds with automatic throw-over.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Ultra-low temperature staging chill-down duration is at most 90 min.",
+          "role_name": "Substation infrastructure coordinator (ELEC)",
+          "candidate_name": "Cascade Vault Biospecimen Depot",
+          "other_candidate_names": [
+            "Highland Cryogenic Preservation Center",
+            "Keystone Subterranean Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryo_engineering",
+        "electrical_infrastructure",
+        "cleanroom_quality"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CRYO)",
+        "Substation infrastructure coordinator (ELEC)",
+        "Cleanroom validation engineer (CLNR)"
+      ],
+      "directory": "number_expansion/incomplete/task_469/k3",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-CRYOSYS-ILW",
+          "boolean_predicate_id": "A_ln2_backup_enabled",
+          "boolean_label": "Liquid nitrogen backup system enabled",
+          "hidden_predicate_id": "A_cryo_autonomy_hours",
+          "threshold_label": "Emergency cryogenic autonomy",
+          "threshold_aliases": [
+            "Unpowered hold duration",
+            "Cryogenic thermal buffer"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-CRYOSYS-ILW: Cascade Vault Biospecimen Depot.Cascade Vault Biospecimen Depot: Liquid nitrogen backup system enabled = true .Source: Cryogenic automation control register; Scope: Emergency cryogenic storage manifolds; Measurement: System status flag confirming automatic valve injection failover is armed.Cascade Vault Biospecimen Depot: Vapor-phase LN2 storage pull-down duration = 95 min.Source: Cryogenic storage commissioning log; Scope: Primary vault vapor-phase freezer banks; Measurement: Duration required to cool freezer interior from -80 °C to stable -150 °C storage temperature.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency cryogenic autonomy is at most 300 h.",
+          "role_name": "Cryogenic systems lead (CRYO)",
+          "candidate_name": "Cascade Vault Biospecimen Depot",
+          "other_candidate_names": [
+            "Highland Cryogenic Preservation Center",
+            "Keystone Subterranean Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_electrical_infrastructure_A",
+          "role_id": "electrical_infrastructure",
+          "candidate_id": "A",
+          "key": "ELEC-GRIDFEED-U3C",
+          "hidden_predicate_id": "A_ult_staging_chill_time",
+          "threshold_label": "Ultra-low temperature staging chill-down duration",
+          "threshold_aliases": [
+            "ULT chamber chill time",
+            "Pre-freeze pull-down duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "ELEC-GRIDFEED-U3C: Cascade Vault Biospecimen Depot.Cascade Vault Biospecimen Depot: Dual-grid power interconnect operational = true .Source: Regional utility interconnection agreement; Scope: Main facility medium-voltage switchgear; Measurement: Active verification of dual independent substation line feeds with automatic throw-over.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Ultra-low temperature staging chill-down duration is at most 90 min.",
+          "role_name": "Substation infrastructure coordinator (ELEC)",
+          "candidate_name": "Cascade Vault Biospecimen Depot",
+          "other_candidate_names": [
+            "Highland Cryogenic Preservation Center",
+            "Keystone Subterranean Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cleanroom_quality_A_supplemental",
+          "role_id": "cleanroom_quality",
+          "candidate_id": "A",
+          "key": "CLNR-AIRCHG-35P",
+          "hidden_predicate_id": "A_supplemental_cleanroom_quality",
+          "threshold_label": "Hourly air changes",
+          "threshold_aliases": [],
+          "threshold_value": 45,
+          "threshold_unit": "ACH",
+          "partial_record_text": "CLNR-AIRCHG-35P: Cascade Vault Biospecimen Depot. The record covers Hourly air changes. HVAC airflow balance log; Aseptic packaging ante-rooms; Volumetric cleanroom room volumes exchanged per hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Hourly air changes is at most 90 ACH.",
+          "role_name": "Cleanroom validation engineer (CLNR)",
+          "candidate_name": "Cascade Vault Biospecimen Depot",
+          "other_candidate_names": [
+            "Highland Cryogenic Preservation Center",
+            "Keystone Subterranean Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_cleanroom_quality",
+        "topic_id": "supplemental_cleanroom_quality",
+        "operator": "gte",
+        "threshold": 45,
+        "role_id": "cleanroom_quality",
+        "metric": "Hourly air changes",
+        "unit": "ACH",
+        "required_text": "To qualify, a candidate must also have Hourly air changes of at least 45 ACH.",
+        "new_fault_record_key": "CLNR-AIRCHG-35P",
+        "exact_value": 45,
+        "first_reply": "Hourly air changes is at most 90 ACH."
+      }
+    }
+  }
+}

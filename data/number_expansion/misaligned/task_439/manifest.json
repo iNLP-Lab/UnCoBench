@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_439",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "transport_infrastructure",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Fleet and freight infrastructure lead (TRN)",
+        "Facilities and structural engineering lead (ENG)"
+      ],
+      "directory": "number_expansion/misaligned/task_439/k2",
+      "error_profiles": [
+        {
+          "role_name": "Fleet and freight infrastructure lead (TRN)",
+          "target_key": "TRN-ACCESS-P41",
+          "alternate_key": "TRN-DOCK-PYI",
+          "target_context": "including vehicle turning-radius safety buffers",
+          "alternate_context": "excluding vehicle turning-radius safety buffers",
+          "candidate": "Metro Gateway Logistics Park",
+          "other_candidates": [
+            "Riverside Intermodal Terminal",
+            "Highland Distribution Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "heavy_vehicle_access",
+              "value": true,
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hazmat_certified",
+              "label": "Hazardous materials handling certification",
+              "aliases": [
+                "Hazmat certification status",
+                "Dangerous goods handling license"
+              ]
+            },
+            {
+              "topic": "cold_backup_active",
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ]
+            },
+            {
+              "topic": "cold_holding_temp",
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ]
+            },
+            {
+              "topic": "heavy_vehicle_access",
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ]
+            },
+            {
+              "topic": "seismic_rating_compliant",
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ]
+            },
+            {
+              "topic": "zoning_endorsed",
+              "label": "Municipal zoning endorsement",
+              "aliases": [
+                "Local government zoning approval",
+                "Emergency logistics land-use designation"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_surcharge",
+              "label": "Annual hazardous materials containment surcharge",
+              "aliases": [
+                "Hazmat environmental surcharge",
+                "Annual dangerous goods containment fee"
+              ]
+            },
+            {
+              "topic": "perimeter_security_surcharge",
+              "label": "Annual security perimeter monitoring surcharge",
+              "aliases": [
+                "Perimeter monitoring fee",
+                "Annual security operations fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Facilities and structural engineering lead (ENG)",
+          "target_key": "ENG-STRUCT-GLH",
+          "alternate_key": "ENG-STRUCT-K62",
+          "target_context": "Seismic Code Version 3",
+          "alternate_context": "Seismic Code Version 2",
+          "candidate": "Metro Gateway Logistics Park",
+          "other_candidates": [
+            "Riverside Intermodal Terminal",
+            "Highland Distribution Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_rating_compliant",
+              "value": true,
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hazmat_certified",
+              "label": "Hazardous materials handling certification",
+              "aliases": [
+                "Hazmat certification status",
+                "Dangerous goods handling license"
+              ]
+            },
+            {
+              "topic": "cold_backup_active",
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ]
+            },
+            {
+              "topic": "cold_holding_temp",
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ]
+            },
+            {
+              "topic": "heavy_vehicle_access",
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ]
+            },
+            {
+              "topic": "seismic_rating_compliant",
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ]
+            },
+            {
+              "topic": "zoning_endorsed",
+              "label": "Municipal zoning endorsement",
+              "aliases": [
+                "Local government zoning approval",
+                "Emergency logistics land-use designation"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_surcharge",
+              "label": "Annual hazardous materials containment surcharge",
+              "aliases": [
+                "Hazmat environmental surcharge",
+                "Annual dangerous goods containment fee"
+              ]
+            },
+            {
+              "topic": "perimeter_security_surcharge",
+              "label": "Annual security perimeter monitoring surcharge",
+              "aliases": [
+                "Perimeter monitoring fee",
+                "Annual security operations fee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "transport_infrastructure",
+        "structural_engineering",
+        "cold_chain_ops"
+      ],
+      "role_names": [
+        "Fleet and freight infrastructure lead (TRN)",
+        "Facilities and structural engineering lead (ENG)",
+        "Thermal logistics and cold-chain lead (COLD)"
+      ],
+      "directory": "number_expansion/misaligned/task_439/k3",
+      "error_profiles": [
+        {
+          "role_name": "Fleet and freight infrastructure lead (TRN)",
+          "target_key": "TRN-ACCESS-P41",
+          "alternate_key": "TRN-DOCK-PYI",
+          "target_context": "including vehicle turning-radius safety buffers",
+          "alternate_context": "excluding vehicle turning-radius safety buffers",
+          "candidate": "Metro Gateway Logistics Park",
+          "other_candidates": [
+            "Riverside Intermodal Terminal",
+            "Highland Distribution Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "heavy_vehicle_access",
+              "value": true,
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hazmat_certified",
+              "label": "Hazardous materials handling certification",
+              "aliases": [
+                "Hazmat certification status",
+                "Dangerous goods handling license"
+              ]
+            },
+            {
+              "topic": "cold_backup_active",
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ]
+            },
+            {
+              "topic": "cold_holding_temp",
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ]
+            },
+            {
+              "topic": "heavy_vehicle_access",
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ]
+            },
+            {
+              "topic": "seismic_rating_compliant",
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ]
+            },
+            {
+              "topic": "zoning_endorsed",
+              "label": "Municipal zoning endorsement",
+              "aliases": [
+                "Local government zoning approval",
+                "Emergency logistics land-use designation"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_surcharge",
+              "label": "Annual hazardous materials containment surcharge",
+              "aliases": [
+                "Hazmat environmental surcharge",
+                "Annual dangerous goods containment fee"
+              ]
+            },
+            {
+              "topic": "perimeter_security_surcharge",
+              "label": "Annual security perimeter monitoring surcharge",
+              "aliases": [
+                "Perimeter monitoring fee",
+                "Annual security operations fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Facilities and structural engineering lead (ENG)",
+          "target_key": "ENG-STRUCT-GLH",
+          "alternate_key": "ENG-STRUCT-K62",
+          "target_context": "Seismic Code Version 3",
+          "alternate_context": "Seismic Code Version 2",
+          "candidate": "Metro Gateway Logistics Park",
+          "other_candidates": [
+            "Riverside Intermodal Terminal",
+            "Highland Distribution Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_rating_compliant",
+              "value": true,
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hazmat_certified",
+              "label": "Hazardous materials handling certification",
+              "aliases": [
+                "Hazmat certification status",
+                "Dangerous goods handling license"
+              ]
+            },
+            {
+              "topic": "cold_backup_active",
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ]
+            },
+            {
+              "topic": "cold_holding_temp",
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ]
+            },
+            {
+              "topic": "heavy_vehicle_access",
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ]
+            },
+            {
+              "topic": "seismic_rating_compliant",
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ]
+            },
+            {
+              "topic": "zoning_endorsed",
+              "label": "Municipal zoning endorsement",
+              "aliases": [
+                "Local government zoning approval",
+                "Emergency logistics land-use designation"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_surcharge",
+              "label": "Annual hazardous materials containment surcharge",
+              "aliases": [
+                "Hazmat environmental surcharge",
+                "Annual dangerous goods containment fee"
+              ]
+            },
+            {
+              "topic": "perimeter_security_surcharge",
+              "label": "Annual security perimeter monitoring surcharge",
+              "aliases": [
+                "Perimeter monitoring fee",
+                "Annual security operations fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Thermal logistics and cold-chain lead (COLD)",
+          "target_key": "COLD-THERM-CQ2",
+          "alternate_key": "COLD-THERM-3N7",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Metro Gateway Logistics Park",
+          "other_candidates": [
+            "Riverside Intermodal Terminal",
+            "Highland Distribution Center"
+          ],
+          "numeric": [
+            {
+              "topic": "cold_holding_temp",
+              "value": -20,
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ],
+              "unit": "degC"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cold_backup_active",
+              "value": true,
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hazmat_certified",
+              "label": "Hazardous materials handling certification",
+              "aliases": [
+                "Hazmat certification status",
+                "Dangerous goods handling license"
+              ]
+            },
+            {
+              "topic": "cold_backup_active",
+              "label": "Dedicated cold-storage contingency backup",
+              "aliases": [
+                "Cold-chain redundancy activation",
+                "Auxiliary refrigeration backup status"
+              ]
+            },
+            {
+              "topic": "cold_holding_temp",
+              "label": "Cold-storage backup holding temperature",
+              "aliases": [
+                "Refrigerated backup sustained temperature",
+                "Auxiliary cold-room setpoint limit"
+              ]
+            },
+            {
+              "topic": "heavy_vehicle_access",
+              "label": "Heavy vehicle direct access clearance",
+              "aliases": [
+                "Class 8 articulated truck access approval",
+                "Intermodal freight vehicle routing clearance"
+              ]
+            },
+            {
+              "topic": "seismic_rating_compliant",
+              "label": "Seismic structural rating compliance",
+              "aliases": [
+                "Earthquake resilience compliance",
+                "Seismic design category compliance"
+              ]
+            },
+            {
+              "topic": "zoning_endorsed",
+              "label": "Municipal zoning endorsement",
+              "aliases": [
+                "Local government zoning approval",
+                "Emergency logistics land-use designation"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_surcharge",
+              "label": "Annual hazardous materials containment surcharge",
+              "aliases": [
+                "Hazmat environmental surcharge",
+                "Annual dangerous goods containment fee"
+              ]
+            },
+            {
+              "topic": "perimeter_security_surcharge",
+              "label": "Annual security perimeter monitoring surcharge",
+              "aliases": [
+                "Perimeter monitoring fee",
+                "Annual security operations fee"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

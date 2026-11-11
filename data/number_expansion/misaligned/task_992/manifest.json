@@ -1,0 +1,536 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_992",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "vessel_engineering",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Vessel engineering director (ENG)",
+        "Commercial procurement manager (COM)"
+      ],
+      "directory": "number_expansion/misaligned/task_992/k2",
+      "error_profiles": [
+        {
+          "role_name": "Vessel engineering director (ENG)",
+          "target_key": "ENG-STRUCT-DDP",
+          "alternate_key": "ENG-STRUCT-C72",
+          "target_context": "June 2026",
+          "alternate_context": "July 2026",
+          "candidate": "Boreas Heavy Marine",
+          "other_candidates": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "numeric": [
+            {
+              "topic": "deck_load_capacity",
+              "value": 20,
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ],
+              "unit": "t/m2"
+            },
+            {
+              "topic": "mobilization_duration",
+              "value": 18,
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ],
+              "unit": "day"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp_redundancy_active",
+              "label": "Dynamic positioning redundancy certification",
+              "aliases": [
+                "DP3 redundancy validation",
+                "Dynamic positioning class status"
+              ]
+            },
+            {
+              "topic": "current_holding_limit",
+              "label": "Station-keeping current tolerance",
+              "aliases": [
+                "Maximum cross-current holding capability",
+                "Station-keeping current limit"
+              ]
+            },
+            {
+              "topic": "deck_load_capacity",
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ]
+            },
+            {
+              "topic": "mws_endorsement_confirmed",
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ]
+            },
+            {
+              "topic": "noise_mitigation_compliant",
+              "label": "Underwater radiated noise mitigation compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Underwater noise abatement verification"
+              ]
+            },
+            {
+              "topic": "certified_riggers_count",
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ]
+            },
+            {
+              "topic": "daily_mobilization_rate",
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ]
+            },
+            {
+              "topic": "mobilization_duration",
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial procurement manager (COM)",
+          "target_key": "COM-CHARTER-CC8",
+          "alternate_key": "COM-CHARTER-EQU",
+          "target_context": "June 2026 installation campaign window",
+          "alternate_context": "July 2026 installation campaign window",
+          "candidate": "Boreas Heavy Marine",
+          "other_candidates": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_mobilization_rate",
+              "value": 45000,
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ],
+              "unit": "EUR/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "mws_endorsement_confirmed",
+              "value": true,
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp_redundancy_active",
+              "label": "Dynamic positioning redundancy certification",
+              "aliases": [
+                "DP3 redundancy validation",
+                "Dynamic positioning class status"
+              ]
+            },
+            {
+              "topic": "current_holding_limit",
+              "label": "Station-keeping current tolerance",
+              "aliases": [
+                "Maximum cross-current holding capability",
+                "Station-keeping current limit"
+              ]
+            },
+            {
+              "topic": "deck_load_capacity",
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ]
+            },
+            {
+              "topic": "mws_endorsement_confirmed",
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ]
+            },
+            {
+              "topic": "noise_mitigation_compliant",
+              "label": "Underwater radiated noise mitigation compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Underwater noise abatement verification"
+              ]
+            },
+            {
+              "topic": "certified_riggers_count",
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ]
+            },
+            {
+              "topic": "daily_mobilization_rate",
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ]
+            },
+            {
+              "topic": "mobilization_duration",
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "vessel_engineering",
+        "commercial_procurement",
+        "crewing_logistics"
+      ],
+      "role_names": [
+        "Vessel engineering director (ENG)",
+        "Commercial procurement manager (COM)",
+        "Offshore crewing and logistics manager (CREW)"
+      ],
+      "directory": "number_expansion/misaligned/task_992/k3",
+      "error_profiles": [
+        {
+          "role_name": "Vessel engineering director (ENG)",
+          "target_key": "ENG-STRUCT-DDP",
+          "alternate_key": "ENG-STRUCT-C72",
+          "target_context": "June 2026",
+          "alternate_context": "July 2026",
+          "candidate": "Boreas Heavy Marine",
+          "other_candidates": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "numeric": [
+            {
+              "topic": "deck_load_capacity",
+              "value": 20,
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ],
+              "unit": "t/m2"
+            },
+            {
+              "topic": "mobilization_duration",
+              "value": 18,
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ],
+              "unit": "day"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp_redundancy_active",
+              "label": "Dynamic positioning redundancy certification",
+              "aliases": [
+                "DP3 redundancy validation",
+                "Dynamic positioning class status"
+              ]
+            },
+            {
+              "topic": "current_holding_limit",
+              "label": "Station-keeping current tolerance",
+              "aliases": [
+                "Maximum cross-current holding capability",
+                "Station-keeping current limit"
+              ]
+            },
+            {
+              "topic": "deck_load_capacity",
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ]
+            },
+            {
+              "topic": "mws_endorsement_confirmed",
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ]
+            },
+            {
+              "topic": "noise_mitigation_compliant",
+              "label": "Underwater radiated noise mitigation compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Underwater noise abatement verification"
+              ]
+            },
+            {
+              "topic": "certified_riggers_count",
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ]
+            },
+            {
+              "topic": "daily_mobilization_rate",
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ]
+            },
+            {
+              "topic": "mobilization_duration",
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial procurement manager (COM)",
+          "target_key": "COM-CHARTER-CC8",
+          "alternate_key": "COM-CHARTER-EQU",
+          "target_context": "June 2026 installation campaign window",
+          "alternate_context": "July 2026 installation campaign window",
+          "candidate": "Boreas Heavy Marine",
+          "other_candidates": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_mobilization_rate",
+              "value": 45000,
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ],
+              "unit": "EUR/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "mws_endorsement_confirmed",
+              "value": true,
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp_redundancy_active",
+              "label": "Dynamic positioning redundancy certification",
+              "aliases": [
+                "DP3 redundancy validation",
+                "Dynamic positioning class status"
+              ]
+            },
+            {
+              "topic": "current_holding_limit",
+              "label": "Station-keeping current tolerance",
+              "aliases": [
+                "Maximum cross-current holding capability",
+                "Station-keeping current limit"
+              ]
+            },
+            {
+              "topic": "deck_load_capacity",
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ]
+            },
+            {
+              "topic": "mws_endorsement_confirmed",
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ]
+            },
+            {
+              "topic": "noise_mitigation_compliant",
+              "label": "Underwater radiated noise mitigation compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Underwater noise abatement verification"
+              ]
+            },
+            {
+              "topic": "certified_riggers_count",
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ]
+            },
+            {
+              "topic": "daily_mobilization_rate",
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ]
+            },
+            {
+              "topic": "mobilization_duration",
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Offshore crewing and logistics manager (CREW)",
+          "target_key": "CREW-CREWING-WUV",
+          "alternate_key": "CREW-CREWING-D3G",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Boreas Heavy Marine",
+          "other_candidates": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "numeric": [
+            {
+              "topic": "certified_riggers_count",
+              "value": 16,
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ],
+              "unit": "riggers"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp_redundancy_active",
+              "label": "Dynamic positioning redundancy certification",
+              "aliases": [
+                "DP3 redundancy validation",
+                "Dynamic positioning class status"
+              ]
+            },
+            {
+              "topic": "current_holding_limit",
+              "label": "Station-keeping current tolerance",
+              "aliases": [
+                "Maximum cross-current holding capability",
+                "Station-keeping current limit"
+              ]
+            },
+            {
+              "topic": "deck_load_capacity",
+              "label": "Deck load bearing capacity",
+              "aliases": [
+                "Main deck uniform load limit",
+                "Deck structural strength"
+              ]
+            },
+            {
+              "topic": "mws_endorsement_confirmed",
+              "label": "Marine warranty survey endorsement",
+              "aliases": [
+                "MWS technical approval",
+                "Warranty survey compliance letter"
+              ]
+            },
+            {
+              "topic": "noise_mitigation_compliant",
+              "label": "Underwater radiated noise mitigation compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Underwater noise abatement verification"
+              ]
+            },
+            {
+              "topic": "certified_riggers_count",
+              "label": "Certified offshore rigger compliment",
+              "aliases": [
+                "Qualified rigger crew size",
+                "Heavy-lift rigging crew staffing"
+              ]
+            },
+            {
+              "topic": "daily_mobilization_rate",
+              "label": "Daily mobilization rate",
+              "aliases": [
+                "Charter mobilization day rate",
+                "Vessel transit day rate"
+              ]
+            },
+            {
+              "topic": "mobilization_duration",
+              "label": "Contracted mobilization duration",
+              "aliases": [
+                "Mobilization schedule duration",
+                "Vessel positioning duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

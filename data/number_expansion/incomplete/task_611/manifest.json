@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_611",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_curation",
+        "mechanical_systems"
+      ],
+      "role_names": [
+        "Environmental conservation specialist (ENV)",
+        "HVAC systems engineer (MECH)"
+      ],
+      "directory": "incomplete/task_611",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_curation_A",
+          "role_id": "environmental_curation",
+          "candidate_id": "A",
+          "key": "ENV-CLIM-5JI",
+          "boolean_predicate_id": "A_climate_buffer_installed",
+          "boolean_label": "Active climate buffer installation",
+          "hidden_predicate_id": "A_humidity_stability_duration",
+          "threshold_label": "Continuous relative humidity stability",
+          "threshold_aliases": [
+            "RH stability duration",
+            "Microclimate holding duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CLIM-5JI: Higashiyama Heritage Atrium.Higashiyama Heritage Atrium: Active climate buffer installation = true .Source: Facility commissioning register; Scope: Primary rare-specimen display hall; Measurement: Presence of an active dual-airlock climate buffer vestibule.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous relative humidity stability is between 20 h and 300 h, inclusive.",
+          "role_name": "Environmental conservation specialist (ENV)",
+          "candidate_name": "Higashiyama Heritage Atrium",
+          "other_candidate_names": [
+            "Kamogawa Waterfront Pavilion",
+            "Uji Biome Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_systems_A",
+          "role_id": "mechanical_systems",
+          "candidate_id": "A",
+          "key": "MECH-AIRFLOW-N2I",
+          "hidden_predicate_id": "A_hvac_volumetric_rate",
+          "threshold_label": "Certified HVAC volumetric delivery rate",
+          "threshold_aliases": [
+            "HVAC delivery throughput",
+            "Air-handling volumetric capacity"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "MECH-AIRFLOW-N2I: Higashiyama Heritage Atrium. The record covers Certified HVAC volumetric delivery rate. Record context: after deducting high-efficiency filtration resistance. Mechanical engineering balancing report; Main botanical gallery dedicated air-handling units; Certified constant volumetric airflow delivered across all supply diffusers.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified HVAC volumetric delivery rate is between 1000 m3/h and 5000 m3/h, inclusive.",
+          "role_name": "HVAC systems engineer (MECH)",
+          "candidate_name": "Higashiyama Heritage Atrium",
+          "other_candidate_names": [
+            "Kamogawa Waterfront Pavilion",
+            "Uji Biome Exhibition Complex"
+          ],
+          "context_value": "after deducting high-efficiency filtration resistance",
+          "other_context_values": [
+            "before deducting high-efficiency filtration resistance"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_curation",
+        "mechanical_systems",
+        "curatorial_board"
+      ],
+      "role_names": [
+        "Environmental conservation specialist (ENV)",
+        "HVAC systems engineer (MECH)",
+        "Curatorial operations director (CURAT)"
+      ],
+      "directory": "incomplete/task_611",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_curation_A",
+          "role_id": "environmental_curation",
+          "candidate_id": "A",
+          "key": "ENV-CLIM-5JI",
+          "boolean_predicate_id": "A_climate_buffer_installed",
+          "boolean_label": "Active climate buffer installation",
+          "hidden_predicate_id": "A_humidity_stability_duration",
+          "threshold_label": "Continuous relative humidity stability",
+          "threshold_aliases": [
+            "RH stability duration",
+            "Microclimate holding duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CLIM-5JI: Higashiyama Heritage Atrium.Higashiyama Heritage Atrium: Active climate buffer installation = true .Source: Facility commissioning register; Scope: Primary rare-specimen display hall; Measurement: Presence of an active dual-airlock climate buffer vestibule.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous relative humidity stability is between 20 h and 300 h, inclusive.",
+          "role_name": "Environmental conservation specialist (ENV)",
+          "candidate_name": "Higashiyama Heritage Atrium",
+          "other_candidate_names": [
+            "Kamogawa Waterfront Pavilion",
+            "Uji Biome Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_systems_A",
+          "role_id": "mechanical_systems",
+          "candidate_id": "A",
+          "key": "MECH-AIRFLOW-N2I",
+          "hidden_predicate_id": "A_hvac_volumetric_rate",
+          "threshold_label": "Certified HVAC volumetric delivery rate",
+          "threshold_aliases": [
+            "HVAC delivery throughput",
+            "Air-handling volumetric capacity"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "MECH-AIRFLOW-N2I: Higashiyama Heritage Atrium. The record covers Certified HVAC volumetric delivery rate. Record context: after deducting high-efficiency filtration resistance. Mechanical engineering balancing report; Main botanical gallery dedicated air-handling units; Certified constant volumetric airflow delivered across all supply diffusers.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified HVAC volumetric delivery rate is between 1000 m3/h and 5000 m3/h, inclusive.",
+          "role_name": "HVAC systems engineer (MECH)",
+          "candidate_name": "Higashiyama Heritage Atrium",
+          "other_candidate_names": [
+            "Kamogawa Waterfront Pavilion",
+            "Uji Biome Exhibition Complex"
+          ],
+          "context_value": "after deducting high-efficiency filtration resistance",
+          "other_context_values": [
+            "before deducting high-efficiency filtration resistance"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_curatorial_board_A",
+          "role_id": "curatorial_board",
+          "candidate_id": "A",
+          "key": "CURAT-ARCHIVE-I2U",
+          "hidden_predicate_id": "A_active_cycle_duration",
+          "threshold_label": "Daily active climate cycle duration",
+          "threshold_aliases": [
+            "Active HVAC cycling hours",
+            "Daily active preservation duration"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "CURAT-ARCHIVE-I2U: Higashiyama Heritage Atrium.Higashiyama Heritage Atrium: Historical artifact curator approval = true .Source: Exhibition curatorial board checklist; Scope: Rare botanical specimen and dried herbarium showcase rooms; Measurement: Unanimous formal endorsement by the cultural preservation panel.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Daily active climate cycle duration is between 0 h and 30 h, inclusive.",
+          "role_name": "Curatorial operations director (CURAT)",
+          "candidate_name": "Higashiyama Heritage Atrium",
+          "other_candidate_names": [
+            "Kamogawa Waterfront Pavilion",
+            "Uji Biome Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

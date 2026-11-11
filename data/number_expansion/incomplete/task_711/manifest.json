@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_711",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "maritime_licensing",
+        "operations_mobilization"
+      ],
+      "role_names": [
+        "Maritime Licensing Officer (MLO)",
+        "Emergency Operations Director (EOD)"
+      ],
+      "directory": "incomplete/task_711",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_licensing_A",
+          "role_id": "maritime_licensing",
+          "candidate_id": "A",
+          "key": "MLO-LIC-TPA",
+          "boolean_predicate_id": "A_unlimited_salvage_endorsement",
+          "boolean_label": "Unlimited salvage master endorsement held",
+          "hidden_predicate_id": "A_command_experience_years",
+          "threshold_label": "Offshore emergency command experience",
+          "threshold_aliases": [
+            "Emergency command duration",
+            "Salvage command years"
+          ],
+          "threshold_value": 9,
+          "threshold_unit": "years",
+          "partial_record_text": "MLO-LIC-TPA: Captain Joshua Vance.Captain Joshua Vance: Unlimited salvage master endorsement held = true .Source: Maritime master qualification register; Scope: Candidate current statutory license; Measurement: Confirmation of valid unlimited commercial salvage command endorsement.",
+          "role_name": "Maritime Licensing Officer (MLO)",
+          "candidate_name": "Captain Joshua Vance",
+          "other_candidate_names": [
+            "Captain Elena Rostova",
+            "Captain Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_mobilization_A",
+          "role_id": "operations_mobilization",
+          "candidate_id": "A",
+          "key": "EOD-MOB-90V",
+          "hidden_predicate_id": "A_mobilization_readiness_hours",
+          "threshold_label": "Emergency mobilization readiness time",
+          "threshold_aliases": [
+            "Mobilization response time",
+            "Call-out response delay"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "h",
+          "partial_record_text": "EOD-MOB-90V: Captain Joshua Vance. The record covers Emergency mobilization readiness time. Emergency dispatch readiness assessment; North Sea high-readiness alert sector; Maximum verified elapsed time from emergency pager notice to bridge readiness.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Emergency mobilization readiness time is at most 8 h.",
+          "role_name": "Emergency Operations Director (EOD)",
+          "candidate_name": "Captain Joshua Vance",
+          "other_candidate_names": [
+            "Captain Elena Rostova",
+            "Captain Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "maritime_licensing",
+        "operations_mobilization",
+        "manning_finance"
+      ],
+      "role_names": [
+        "Maritime Licensing Officer (MLO)",
+        "Emergency Operations Director (EOD)",
+        "Crew Remuneration Manager (CRM)"
+      ],
+      "directory": "incomplete/task_711",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_licensing_A",
+          "role_id": "maritime_licensing",
+          "candidate_id": "A",
+          "key": "MLO-LIC-TPA",
+          "boolean_predicate_id": "A_unlimited_salvage_endorsement",
+          "boolean_label": "Unlimited salvage master endorsement held",
+          "hidden_predicate_id": "A_command_experience_years",
+          "threshold_label": "Offshore emergency command experience",
+          "threshold_aliases": [
+            "Emergency command duration",
+            "Salvage command years"
+          ],
+          "threshold_value": 9,
+          "threshold_unit": "years",
+          "partial_record_text": "MLO-LIC-TPA: Captain Joshua Vance.Captain Joshua Vance: Unlimited salvage master endorsement held = true .Source: Maritime master qualification register; Scope: Candidate current statutory license; Measurement: Confirmation of valid unlimited commercial salvage command endorsement.",
+          "role_name": "Maritime Licensing Officer (MLO)",
+          "candidate_name": "Captain Joshua Vance",
+          "other_candidate_names": [
+            "Captain Elena Rostova",
+            "Captain Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_mobilization_A",
+          "role_id": "operations_mobilization",
+          "candidate_id": "A",
+          "key": "EOD-MOB-90V",
+          "hidden_predicate_id": "A_mobilization_readiness_hours",
+          "threshold_label": "Emergency mobilization readiness time",
+          "threshold_aliases": [
+            "Mobilization response time",
+            "Call-out response delay"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "h",
+          "partial_record_text": "EOD-MOB-90V: Captain Joshua Vance. The record covers Emergency mobilization readiness time. Emergency dispatch readiness assessment; North Sea high-readiness alert sector; Maximum verified elapsed time from emergency pager notice to bridge readiness.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Emergency mobilization readiness time is at most 8 h.",
+          "role_name": "Emergency Operations Director (EOD)",
+          "candidate_name": "Captain Joshua Vance",
+          "other_candidate_names": [
+            "Captain Elena Rostova",
+            "Captain Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_manning_finance_A",
+          "role_id": "manning_finance",
+          "candidate_id": "A",
+          "key": "CRM-CREW-CZL",
+          "hidden_predicate_id": "A_baseline_crew_allowance",
+          "threshold_label": "Baseline vessel crew allowance",
+          "threshold_aliases": [
+            "Standard crew allowance",
+            "Baseline crew compensation"
+          ],
+          "threshold_value": 62000,
+          "threshold_unit": "GBP",
+          "partial_record_text": "CRM-CREW-CZL: Captain Joshua Vance. The record covers Baseline vessel crew allowance. Command staffing budget ledger; Candidate assigned 90-day deployment tour; Approved baseline crew salary and operational allowance allocation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 55000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Baseline vessel crew allowance is at least 55000 GBP.",
+          "role_name": "Crew Remuneration Manager (CRM)",
+          "candidate_name": "Captain Joshua Vance",
+          "other_candidate_names": [
+            "Captain Elena Rostova",
+            "Captain Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

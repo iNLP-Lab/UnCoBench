@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_838",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "acoustic_search",
+        "port_logistics"
+      ],
+      "role_names": [
+        "Acoustic search coordinator (ACOUS)",
+        "Bunker and port logistics agent (BUNK)"
+      ],
+      "directory": "incomplete/task_838",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_search_A",
+          "role_id": "acoustic_search",
+          "candidate_id": "A",
+          "key": "ACOUS-PING-01Q",
+          "boolean_predicate_id": "A_ping_locator_enabled",
+          "boolean_label": "Acoustic ping locator system enabled",
+          "hidden_predicate_id": "A_towed_array_search_speed",
+          "threshold_label": "Towed array search speed",
+          "threshold_aliases": [
+            "Acoustic sweep speed",
+            "Towed hydrophone transit speed"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "kn",
+          "partial_record_text": "ACOUS-PING-01Q: Towed Pinger Array Deep Tow Plan.Towed Pinger Array Deep Tow Plan: Acoustic ping locator system enabled = true .Source: Acoustic systems pre-deployment checklist; Scope: Flight recorder acoustic locator detection payload; Measurement: Whether the 37.5 kHz acoustic pinger listening array is fully operational and enabled.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Towed array search speed is at most 5 kn.",
+          "role_name": "Acoustic search coordinator (ACOUS)",
+          "candidate_name": "Towed Pinger Array Deep Tow Plan",
+          "other_candidate_names": [
+            "Autonomous Underwater Vehicle Swarm Plan",
+            "Tethered Work-Class ROV Search Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "BUNK-RESERV-N11",
+          "hidden_predicate_id": "A_harbor_reserve_endurance",
+          "threshold_label": "Mandatory harbor reserve endurance",
+          "threshold_aliases": [
+            "Harbor safety reserve",
+            "Port approach fuel reserve"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "BUNK-RESERV-N11: Towed Pinger Array Deep Tow Plan. The record covers Mandatory harbor reserve endurance. Maritime port safety regulations; Emergency transit and harbor maneuvering allocation; Mandatory non-burnable fuel allowance expressed in equivalent engine operating hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory harbor reserve endurance is at most 300 h.",
+          "role_name": "Bunker and port logistics agent (BUNK)",
+          "candidate_name": "Towed Pinger Array Deep Tow Plan",
+          "other_candidate_names": [
+            "Autonomous Underwater Vehicle Swarm Plan",
+            "Tethered Work-Class ROV Search Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "acoustic_search",
+        "port_logistics",
+        "vessel_operations"
+      ],
+      "role_names": [
+        "Acoustic search coordinator (ACOUS)",
+        "Bunker and port logistics agent (BUNK)",
+        "Vessel operations master (VESSEL)"
+      ],
+      "directory": "incomplete/task_838",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_search_A",
+          "role_id": "acoustic_search",
+          "candidate_id": "A",
+          "key": "ACOUS-PING-01Q",
+          "boolean_predicate_id": "A_ping_locator_enabled",
+          "boolean_label": "Acoustic ping locator system enabled",
+          "hidden_predicate_id": "A_towed_array_search_speed",
+          "threshold_label": "Towed array search speed",
+          "threshold_aliases": [
+            "Acoustic sweep speed",
+            "Towed hydrophone transit speed"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "kn",
+          "partial_record_text": "ACOUS-PING-01Q: Towed Pinger Array Deep Tow Plan.Towed Pinger Array Deep Tow Plan: Acoustic ping locator system enabled = true .Source: Acoustic systems pre-deployment checklist; Scope: Flight recorder acoustic locator detection payload; Measurement: Whether the 37.5 kHz acoustic pinger listening array is fully operational and enabled.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Towed array search speed is at most 5 kn.",
+          "role_name": "Acoustic search coordinator (ACOUS)",
+          "candidate_name": "Towed Pinger Array Deep Tow Plan",
+          "other_candidate_names": [
+            "Autonomous Underwater Vehicle Swarm Plan",
+            "Tethered Work-Class ROV Search Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "BUNK-RESERV-N11",
+          "hidden_predicate_id": "A_harbor_reserve_endurance",
+          "threshold_label": "Mandatory harbor reserve endurance",
+          "threshold_aliases": [
+            "Harbor safety reserve",
+            "Port approach fuel reserve"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "BUNK-RESERV-N11: Towed Pinger Array Deep Tow Plan. The record covers Mandatory harbor reserve endurance. Maritime port safety regulations; Emergency transit and harbor maneuvering allocation; Mandatory non-burnable fuel allowance expressed in equivalent engine operating hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory harbor reserve endurance is at most 300 h.",
+          "role_name": "Bunker and port logistics agent (BUNK)",
+          "candidate_name": "Towed Pinger Array Deep Tow Plan",
+          "other_candidate_names": [
+            "Autonomous Underwater Vehicle Swarm Plan",
+            "Tethered Work-Class ROV Search Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_operations_A",
+          "role_id": "vessel_operations",
+          "candidate_id": "A",
+          "key": "VESSEL-ENDUR-9U0",
+          "hidden_predicate_id": "A_total_mission_endurance",
+          "threshold_label": "Total mission fuel endurance",
+          "threshold_aliases": [
+            "Gross fuel endurance",
+            "Total bunker endurance"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "h",
+          "partial_record_text": "VESSEL-ENDUR-9U0: Towed Pinger Array Deep Tow Plan. The record covers Total mission fuel endurance. Vessel propulsion and bunkering plan; Entire offshore mission duration at search cruising speed; Total gross engine operating hours supported by onboard bunker fuel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total mission fuel endurance is at most 900 h.",
+          "role_name": "Vessel operations master (VESSEL)",
+          "candidate_name": "Towed Pinger Array Deep Tow Plan",
+          "other_candidate_names": [
+            "Autonomous Underwater Vehicle Swarm Plan",
+            "Tethered Work-Class ROV Search Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_200",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_diving_technical_lead",
+        "marine_warranty_surveyor"
+      ],
+      "role_names": [
+        "Subsea diving technical lead (SDTL)",
+        "Marine warranty surveyor (MWS)"
+      ],
+      "directory": "incomplete/task_200",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_diving_technical_lead_A",
+          "role_id": "subsea_diving_technical_lead",
+          "candidate_id": "A",
+          "key": "SDTL-DIVE-QY5",
+          "boolean_predicate_id": "A_decompression_facility_active",
+          "boolean_label": "Statutory decompression facility active",
+          "hidden_predicate_id": "A_mobilization_lead_time",
+          "threshold_label": "Mobilization lead time",
+          "threshold_aliases": [
+            "Emergency turnout duration",
+            "Port departure response time"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "SDTL-DIVE-QY5: Nordic Trench Marine Alliance.Nordic Trench Marine Alliance: Statutory decompression facility active = true .Source: Diving safety executive annual inspection log; Scope: Twin-lock saturation hyperbaric chamber on primary support vessel; Measurement: Verification that emergency decompression chamber systems are fully certified and ready for deployment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Mobilization lead time is between 20 h and 110 h, inclusive.",
+          "role_name": "Subsea diving technical lead (SDTL)",
+          "candidate_name": "Nordic Trench Marine Alliance",
+          "other_candidate_names": [
+            "Caledonian Subsea Solutions",
+            "Zeeland Dynamic Interconnector Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_warranty_surveyor_A",
+          "role_id": "marine_warranty_surveyor",
+          "candidate_id": "A",
+          "key": "MWS-WARR-A24",
+          "hidden_predicate_id": "A_inspection_depth_rating",
+          "threshold_label": "Inspection depth rating",
+          "threshold_aliases": [
+            "Certified ROV operating depth",
+            "Maximum trench inspection depth"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m",
+          "partial_record_text": "MWS-WARR-A24: Nordic Trench Marine Alliance.Nordic Trench Marine Alliance: Marine warranty surveyor certification = true .Source: Marine Warranty Survey compliance register; Scope: Offshore HVDC cable handling and jointing apparatus; Measurement: Formal validation of third-party warranty surveyor endorsement for cable repair operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Inspection depth rating is between 0 m and 300 m, inclusive.",
+          "role_name": "Marine warranty surveyor (MWS)",
+          "candidate_name": "Nordic Trench Marine Alliance",
+          "other_candidate_names": [
+            "Caledonian Subsea Solutions",
+            "Zeeland Dynamic Interconnector Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_diving_technical_lead",
+        "marine_warranty_surveyor",
+        "marine_operations_superintendent"
+      ],
+      "role_names": [
+        "Subsea diving technical lead (SDTL)",
+        "Marine warranty surveyor (MWS)",
+        "Marine operations superintendent (MOS)"
+      ],
+      "directory": "incomplete/task_200",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_diving_technical_lead_A",
+          "role_id": "subsea_diving_technical_lead",
+          "candidate_id": "A",
+          "key": "SDTL-DIVE-QY5",
+          "boolean_predicate_id": "A_decompression_facility_active",
+          "boolean_label": "Statutory decompression facility active",
+          "hidden_predicate_id": "A_mobilization_lead_time",
+          "threshold_label": "Mobilization lead time",
+          "threshold_aliases": [
+            "Emergency turnout duration",
+            "Port departure response time"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "SDTL-DIVE-QY5: Nordic Trench Marine Alliance.Nordic Trench Marine Alliance: Statutory decompression facility active = true .Source: Diving safety executive annual inspection log; Scope: Twin-lock saturation hyperbaric chamber on primary support vessel; Measurement: Verification that emergency decompression chamber systems are fully certified and ready for deployment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Mobilization lead time is between 20 h and 110 h, inclusive.",
+          "role_name": "Subsea diving technical lead (SDTL)",
+          "candidate_name": "Nordic Trench Marine Alliance",
+          "other_candidate_names": [
+            "Caledonian Subsea Solutions",
+            "Zeeland Dynamic Interconnector Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_warranty_surveyor_A",
+          "role_id": "marine_warranty_surveyor",
+          "candidate_id": "A",
+          "key": "MWS-WARR-A24",
+          "hidden_predicate_id": "A_inspection_depth_rating",
+          "threshold_label": "Inspection depth rating",
+          "threshold_aliases": [
+            "Certified ROV operating depth",
+            "Maximum trench inspection depth"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m",
+          "partial_record_text": "MWS-WARR-A24: Nordic Trench Marine Alliance.Nordic Trench Marine Alliance: Marine warranty surveyor certification = true .Source: Marine Warranty Survey compliance register; Scope: Offshore HVDC cable handling and jointing apparatus; Measurement: Formal validation of third-party warranty surveyor endorsement for cable repair operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Inspection depth rating is between 0 m and 300 m, inclusive.",
+          "role_name": "Marine warranty surveyor (MWS)",
+          "candidate_name": "Nordic Trench Marine Alliance",
+          "other_candidate_names": [
+            "Caledonian Subsea Solutions",
+            "Zeeland Dynamic Interconnector Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_superintendent_A",
+          "role_id": "marine_operations_superintendent",
+          "candidate_id": "A",
+          "key": "MOS-MOB-X5Z",
+          "hidden_predicate_id": "A_vessel_operating_draft",
+          "threshold_label": "Vessel dynamic positioning operating draft",
+          "threshold_aliases": [
+            "Primary vessel DP draft",
+            "Operational station-keeping draft"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "m",
+          "partial_record_text": "MOS-MOB-X5Z: Nordic Trench Marine Alliance. The record covers Vessel dynamic positioning operating draft. Record context: June 2025. Marine vessel hydrodynamic certificate; Primary intervention vessel in full dynamic positioning mode; Vertical distance between the water line and lowest hull protrusion during station-keeping operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 20
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Vessel dynamic positioning operating draft is between 0 m and 20 m, inclusive.",
+          "role_name": "Marine operations superintendent (MOS)",
+          "candidate_name": "Nordic Trench Marine Alliance",
+          "other_candidate_names": [
+            "Caledonian Subsea Solutions",
+            "Zeeland Dynamic Interconnector Group"
+          ],
+          "context_value": "June 2025",
+          "other_context_values": [
+            "July 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

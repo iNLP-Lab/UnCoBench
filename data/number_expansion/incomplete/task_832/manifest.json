@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_832",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "packaging_technology",
+        "commercial_pricing"
+      ],
+      "role_names": [
+        "Packaging technology lead (PTECH)",
+        "Commercial pricing lead (CPRIC)"
+      ],
+      "directory": "incomplete/task_832",
+      "profiles": [
+        {
+          "record_id": "rec_packaging_technology_A",
+          "role_id": "packaging_technology",
+          "candidate_id": "A",
+          "key": "PTECH-TECH-WDA",
+          "boolean_predicate_id": "A_nitrogen_purge_enabled",
+          "boolean_label": "Active nitrogen purge packaging enablement",
+          "hidden_predicate_id": "A_thermal_cycling_defect_rate",
+          "threshold_label": "Maximum thermal cycling defect rate",
+          "threshold_aliases": [
+            "Thermal stress defect rate",
+            "Thermal cycling failure rate"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ppm",
+          "partial_record_text": "PTECH-TECH-WDA: Silicon Advanced Interposer Consortium.Silicon Advanced Interposer Consortium: Active nitrogen purge packaging enablement = true .Source: Atmospheric packaging line checklist; Scope: Hermetic seal encapsulation chambers; Measurement: Whether the continuous nitrogen blanket purge line is active and verified.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum thermal cycling defect rate is at most 40 ppm.",
+          "role_name": "Packaging technology lead (PTECH)",
+          "candidate_name": "Silicon Advanced Interposer Consortium",
+          "other_candidate_names": [
+            "Pacific Microelectronics Assembly Group",
+            "Nordic Heterogeneous Packaging Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_pricing_A",
+          "role_id": "commercial_pricing",
+          "candidate_id": "A",
+          "key": "CPRIC-TOLL-V8B",
+          "hidden_predicate_id": "A_unit_processing_fee",
+          "threshold_label": "Per-unit packaging processing fee",
+          "threshold_aliases": [
+            "Unit toll fee",
+            "Unit packaging charge"
+          ],
+          "threshold_value": 0.45,
+          "threshold_unit": "USD/unit",
+          "partial_record_text": "CPRIC-TOLL-V8B: Silicon Advanced Interposer Consortium. The record covers Per-unit packaging processing fee. Toll fee schedule addendum; Encapsulation and ball-grid array assembly operations; Contracted processing fee per packaged microchip unit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Per-unit packaging processing fee is at most 2 USD/unit.",
+          "role_name": "Commercial pricing lead (CPRIC)",
+          "candidate_name": "Silicon Advanced Interposer Consortium",
+          "other_candidate_names": [
+            "Pacific Microelectronics Assembly Group",
+            "Nordic Heterogeneous Packaging Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "packaging_technology",
+        "commercial_pricing",
+        "facility_engineering"
+      ],
+      "role_names": [
+        "Packaging technology lead (PTECH)",
+        "Commercial pricing lead (CPRIC)",
+        "Facility engineering lead (FENG)"
+      ],
+      "directory": "incomplete/task_832",
+      "profiles": [
+        {
+          "record_id": "rec_packaging_technology_A",
+          "role_id": "packaging_technology",
+          "candidate_id": "A",
+          "key": "PTECH-TECH-WDA",
+          "boolean_predicate_id": "A_nitrogen_purge_enabled",
+          "boolean_label": "Active nitrogen purge packaging enablement",
+          "hidden_predicate_id": "A_thermal_cycling_defect_rate",
+          "threshold_label": "Maximum thermal cycling defect rate",
+          "threshold_aliases": [
+            "Thermal stress defect rate",
+            "Thermal cycling failure rate"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ppm",
+          "partial_record_text": "PTECH-TECH-WDA: Silicon Advanced Interposer Consortium.Silicon Advanced Interposer Consortium: Active nitrogen purge packaging enablement = true .Source: Atmospheric packaging line checklist; Scope: Hermetic seal encapsulation chambers; Measurement: Whether the continuous nitrogen blanket purge line is active and verified.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum thermal cycling defect rate is at most 40 ppm.",
+          "role_name": "Packaging technology lead (PTECH)",
+          "candidate_name": "Silicon Advanced Interposer Consortium",
+          "other_candidate_names": [
+            "Pacific Microelectronics Assembly Group",
+            "Nordic Heterogeneous Packaging Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_pricing_A",
+          "role_id": "commercial_pricing",
+          "candidate_id": "A",
+          "key": "CPRIC-TOLL-V8B",
+          "hidden_predicate_id": "A_unit_processing_fee",
+          "threshold_label": "Per-unit packaging processing fee",
+          "threshold_aliases": [
+            "Unit toll fee",
+            "Unit packaging charge"
+          ],
+          "threshold_value": 0.45,
+          "threshold_unit": "USD/unit",
+          "partial_record_text": "CPRIC-TOLL-V8B: Silicon Advanced Interposer Consortium. The record covers Per-unit packaging processing fee. Toll fee schedule addendum; Encapsulation and ball-grid array assembly operations; Contracted processing fee per packaged microchip unit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Per-unit packaging processing fee is at most 2 USD/unit.",
+          "role_name": "Commercial pricing lead (CPRIC)",
+          "candidate_name": "Silicon Advanced Interposer Consortium",
+          "other_candidate_names": [
+            "Pacific Microelectronics Assembly Group",
+            "Nordic Heterogeneous Packaging Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "FENG-CLEAN-YBW",
+          "hidden_predicate_id": "A_contracted_batch_volume",
+          "threshold_label": "Contracted batch volume",
+          "threshold_aliases": [
+            "Batch unit volume",
+            "Scheduled packaging run volume"
+          ],
+          "threshold_value": 80000,
+          "threshold_unit": "unit",
+          "partial_record_text": "FENG-CLEAN-YBW: Silicon Advanced Interposer Consortium.Silicon Advanced Interposer Consortium: ISO Class 5 cleanroom certification = true .Source: Facility environmental audit log; Scope: Primary wafer bumping and dicing bays; Measurement: Whether airborne particulate counts conform to ISO 14644-1 Class 5 standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted batch volume is at most 90000 unit.",
+          "role_name": "Facility engineering lead (FENG)",
+          "candidate_name": "Silicon Advanced Interposer Consortium",
+          "other_candidate_names": [
+            "Pacific Microelectronics Assembly Group",
+            "Nordic Heterogeneous Packaging Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

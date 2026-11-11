@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_650",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ground_controller",
+        "fire_analyst"
+      ],
+      "role_names": [
+        "Ground operations division lead (GIOL)",
+        "Fire behaviour and weather analyst (FBAN)"
+      ],
+      "directory": "number_expansion/misaligned/task_650/k2",
+      "error_profiles": [
+        {
+          "role_name": "Ground operations division lead (GIOL)",
+          "target_key": "GIOL-SECT-FLV",
+          "alternate_key": "GIOL-COMM-DHK",
+          "target_context": "inclusive of perimeter support vehicle units",
+          "alternate_context": "exclusive of perimeter support vehicle units",
+          "candidate": "Heavy twin-rotor bucket package",
+          "other_candidates": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "value": true,
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "airspace_deconfliction_approved",
+              "label": "Airspace deconfliction approved",
+              "aliases": [
+                "Deconfliction clearance",
+                "Tactical airspace authorization"
+              ]
+            },
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ]
+            },
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ]
+            },
+            {
+              "topic": "certified_phosphate_retardant",
+              "label": "Certified phosphate retardant loaded",
+              "aliases": [
+                "Phosphate retardant compliance",
+                "Approved chemical retardant formulation"
+              ]
+            },
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ]
+            },
+            {
+              "topic": "spotting_containment_response_time",
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ]
+            },
+            {
+              "topic": "gross_drop_payload",
+              "label": "Gross drop payload volume",
+              "aliases": [
+                "Total drop volume",
+                "Single-sortie payload capacity"
+              ]
+            },
+            {
+              "topic": "mission_cycle_time",
+              "label": "Mission cycle duration",
+              "aliases": [
+                "Turnaround cycle time",
+                "Total sortie turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Fire behaviour and weather analyst (FBAN)",
+          "target_key": "FBAN-MET-ME1",
+          "alternate_key": "FBAN-MET-9Z7",
+          "target_context": "initial spot-fire detection",
+          "alternate_context": "tactical dispatch authorization",
+          "candidate": "Heavy twin-rotor bucket package",
+          "other_candidates": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "numeric": [
+            {
+              "topic": "spotting_containment_response_time",
+              "value": 20,
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "airspace_deconfliction_approved",
+              "label": "Airspace deconfliction approved",
+              "aliases": [
+                "Deconfliction clearance",
+                "Tactical airspace authorization"
+              ]
+            },
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ]
+            },
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ]
+            },
+            {
+              "topic": "certified_phosphate_retardant",
+              "label": "Certified phosphate retardant loaded",
+              "aliases": [
+                "Phosphate retardant compliance",
+                "Approved chemical retardant formulation"
+              ]
+            },
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ]
+            },
+            {
+              "topic": "spotting_containment_response_time",
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ]
+            },
+            {
+              "topic": "gross_drop_payload",
+              "label": "Gross drop payload volume",
+              "aliases": [
+                "Total drop volume",
+                "Single-sortie payload capacity"
+              ]
+            },
+            {
+              "topic": "mission_cycle_time",
+              "label": "Mission cycle duration",
+              "aliases": [
+                "Turnaround cycle time",
+                "Total sortie turnaround duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ground_controller",
+        "fire_analyst",
+        "safety_officer"
+      ],
+      "role_names": [
+        "Ground operations division lead (GIOL)",
+        "Fire behaviour and weather analyst (FBAN)",
+        "Incident aviation safety officer (INSO)"
+      ],
+      "directory": "number_expansion/misaligned/task_650/k3",
+      "error_profiles": [
+        {
+          "role_name": "Ground operations division lead (GIOL)",
+          "target_key": "GIOL-SECT-FLV",
+          "alternate_key": "GIOL-COMM-DHK",
+          "target_context": "inclusive of perimeter support vehicle units",
+          "alternate_context": "exclusive of perimeter support vehicle units",
+          "candidate": "Heavy twin-rotor bucket package",
+          "other_candidates": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "value": true,
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "airspace_deconfliction_approved",
+              "label": "Airspace deconfliction approved",
+              "aliases": [
+                "Deconfliction clearance",
+                "Tactical airspace authorization"
+              ]
+            },
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ]
+            },
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ]
+            },
+            {
+              "topic": "certified_phosphate_retardant",
+              "label": "Certified phosphate retardant loaded",
+              "aliases": [
+                "Phosphate retardant compliance",
+                "Approved chemical retardant formulation"
+              ]
+            },
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ]
+            },
+            {
+              "topic": "spotting_containment_response_time",
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ]
+            },
+            {
+              "topic": "gross_drop_payload",
+              "label": "Gross drop payload volume",
+              "aliases": [
+                "Total drop volume",
+                "Single-sortie payload capacity"
+              ]
+            },
+            {
+              "topic": "mission_cycle_time",
+              "label": "Mission cycle duration",
+              "aliases": [
+                "Turnaround cycle time",
+                "Total sortie turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Fire behaviour and weather analyst (FBAN)",
+          "target_key": "FBAN-MET-ME1",
+          "alternate_key": "FBAN-MET-9Z7",
+          "target_context": "initial spot-fire detection",
+          "alternate_context": "tactical dispatch authorization",
+          "candidate": "Heavy twin-rotor bucket package",
+          "other_candidates": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "numeric": [
+            {
+              "topic": "spotting_containment_response_time",
+              "value": 20,
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "airspace_deconfliction_approved",
+              "label": "Airspace deconfliction approved",
+              "aliases": [
+                "Deconfliction clearance",
+                "Tactical airspace authorization"
+              ]
+            },
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ]
+            },
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ]
+            },
+            {
+              "topic": "certified_phosphate_retardant",
+              "label": "Certified phosphate retardant loaded",
+              "aliases": [
+                "Phosphate retardant compliance",
+                "Approved chemical retardant formulation"
+              ]
+            },
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ]
+            },
+            {
+              "topic": "spotting_containment_response_time",
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ]
+            },
+            {
+              "topic": "gross_drop_payload",
+              "label": "Gross drop payload volume",
+              "aliases": [
+                "Total drop volume",
+                "Single-sortie payload capacity"
+              ]
+            },
+            {
+              "topic": "mission_cycle_time",
+              "label": "Mission cycle duration",
+              "aliases": [
+                "Turnaround cycle time",
+                "Total sortie turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Incident aviation safety officer (INSO)",
+          "target_key": "INSO-SAFE-TNT",
+          "alternate_key": "INSO-SAFE-YXD",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Heavy twin-rotor bucket package",
+          "other_candidates": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "numeric": [
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "value": 90,
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "value": true,
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "airspace_deconfliction_approved",
+              "label": "Airspace deconfliction approved",
+              "aliases": [
+                "Deconfliction clearance",
+                "Tactical airspace authorization"
+              ]
+            },
+            {
+              "topic": "emergency_breakaway_telemetry_enabled",
+              "label": "Emergency breakaway telemetry enabled",
+              "aliases": [
+                "Breakaway telemetry status",
+                "Breakaway telemetry enablement"
+              ]
+            },
+            {
+              "topic": "minimum_terrain_separation_altitude",
+              "label": "Minimum terrain separation altitude",
+              "aliases": [
+                "Terrain clearance altitude",
+                "Gorge floor separation"
+              ]
+            },
+            {
+              "topic": "certified_phosphate_retardant",
+              "label": "Certified phosphate retardant loaded",
+              "aliases": [
+                "Phosphate retardant compliance",
+                "Approved chemical retardant formulation"
+              ]
+            },
+            {
+              "topic": "ground_crew_drop_clearance_ready",
+              "label": "Ground crew drop clearance ready",
+              "aliases": [
+                "Sector ground clearance",
+                "Ground personnel safety buffer status"
+              ]
+            },
+            {
+              "topic": "spotting_containment_response_time",
+              "label": "Spotting containment response time",
+              "aliases": [
+                "Spot fire attack delay",
+                "Initial spotting response duration"
+              ]
+            },
+            {
+              "topic": "gross_drop_payload",
+              "label": "Gross drop payload volume",
+              "aliases": [
+                "Total drop volume",
+                "Single-sortie payload capacity"
+              ]
+            },
+            {
+              "topic": "mission_cycle_time",
+              "label": "Mission cycle duration",
+              "aliases": [
+                "Turnaround cycle time",
+                "Total sortie turnaround duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_129",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "supply_chain",
+        "ehs_oversight"
+      ],
+      "role_names": [
+        "Materials and rotables manager (SCM)",
+        "Environmental health and safety coordinator (EHS)"
+      ],
+      "directory": "number_expansion/misaligned/task_129/k2",
+      "error_profiles": [
+        {
+          "role_name": "Materials and rotables manager (SCM)",
+          "target_key": "SCM-STORES-C67",
+          "alternate_key": "SCM-STORES-X37",
+          "target_context": "including quality verification buy-off hours",
+          "alternate_context": "excluding quality verification buy-off hours",
+          "candidate": "Shannon Airpark Hangar 4",
+          "other_candidates": [
+            "Chateauroux Aviation Bay 7",
+            "Leipzig-Halle Overhaul Hall 2"
+          ],
+          "numeric": [
+            {
+              "topic": "reskinning_labor_hours",
+              "value": 80,
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "bonded_inventory_compliance",
+              "value": true,
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bay_clearance",
+              "label": "Widebody paint bay clearance",
+              "aliases": [
+                "Hangar vertical clearance",
+                "Tail height clearance"
+              ]
+            },
+            {
+              "topic": "easa_accreditation",
+              "label": "Active EASA Part-145 base maintenance accreditation",
+              "aliases": [
+                "EASA Part-145 approval",
+                "Regulatory maintenance certificate"
+              ]
+            },
+            {
+              "topic": "inspection_turnaround_days",
+              "label": "Structural inspection turn-around time",
+              "aliases": [
+                "Primary structure check duration",
+                "Heavy airframe inspection span"
+              ]
+            },
+            {
+              "topic": "bonded_inventory_compliance",
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ]
+            },
+            {
+              "topic": "chemical_containment_clearance",
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ]
+            },
+            {
+              "topic": "ground_support_power_ready",
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ]
+            },
+            {
+              "topic": "ndt_labor_hours",
+              "label": "Airframe non-destructive testing labor hours",
+              "aliases": [
+                "NDT technician hours",
+                "Ultrasonic testing work hours"
+              ]
+            },
+            {
+              "topic": "reskinning_labor_hours",
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental health and safety coordinator (EHS)",
+          "target_key": "EHS-HAZMAT-TUW",
+          "alternate_key": "EHS-HAZMAT-K25",
+          "target_context": "including chemical paint stripper runoff",
+          "alternate_context": "excluding chemical paint stripper runoff",
+          "candidate": "Shannon Airpark Hangar 4",
+          "other_candidates": [
+            "Chateauroux Aviation Bay 7",
+            "Leipzig-Halle Overhaul Hall 2"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "chemical_containment_clearance",
+              "value": true,
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bay_clearance",
+              "label": "Widebody paint bay clearance",
+              "aliases": [
+                "Hangar vertical clearance",
+                "Tail height clearance"
+              ]
+            },
+            {
+              "topic": "easa_accreditation",
+              "label": "Active EASA Part-145 base maintenance accreditation",
+              "aliases": [
+                "EASA Part-145 approval",
+                "Regulatory maintenance certificate"
+              ]
+            },
+            {
+              "topic": "inspection_turnaround_days",
+              "label": "Structural inspection turn-around time",
+              "aliases": [
+                "Primary structure check duration",
+                "Heavy airframe inspection span"
+              ]
+            },
+            {
+              "topic": "bonded_inventory_compliance",
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ]
+            },
+            {
+              "topic": "chemical_containment_clearance",
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ]
+            },
+            {
+              "topic": "ground_support_power_ready",
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ]
+            },
+            {
+              "topic": "ndt_labor_hours",
+              "label": "Airframe non-destructive testing labor hours",
+              "aliases": [
+                "NDT technician hours",
+                "Ultrasonic testing work hours"
+              ]
+            },
+            {
+              "topic": "reskinning_labor_hours",
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "supply_chain",
+        "ehs_oversight",
+        "fleet_planning"
+      ],
+      "role_names": [
+        "Materials and rotables manager (SCM)",
+        "Environmental health and safety coordinator (EHS)",
+        "Fleet maintenance planner (PLN)"
+      ],
+      "directory": "number_expansion/misaligned/task_129/k3",
+      "error_profiles": [
+        {
+          "role_name": "Materials and rotables manager (SCM)",
+          "target_key": "SCM-STORES-C67",
+          "alternate_key": "SCM-STORES-X37",
+          "target_context": "including quality verification buy-off hours",
+          "alternate_context": "excluding quality verification buy-off hours",
+          "candidate": "Shannon Airpark Hangar 4",
+          "other_candidates": [
+            "Chateauroux Aviation Bay 7",
+            "Leipzig-Halle Overhaul Hall 2"
+          ],
+          "numeric": [
+            {
+              "topic": "reskinning_labor_hours",
+              "value": 80,
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "bonded_inventory_compliance",
+              "value": true,
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bay_clearance",
+              "label": "Widebody paint bay clearance",
+              "aliases": [
+                "Hangar vertical clearance",
+                "Tail height clearance"
+              ]
+            },
+            {
+              "topic": "easa_accreditation",
+              "label": "Active EASA Part-145 base maintenance accreditation",
+              "aliases": [
+                "EASA Part-145 approval",
+                "Regulatory maintenance certificate"
+              ]
+            },
+            {
+              "topic": "inspection_turnaround_days",
+              "label": "Structural inspection turn-around time",
+              "aliases": [
+                "Primary structure check duration",
+                "Heavy airframe inspection span"
+              ]
+            },
+            {
+              "topic": "bonded_inventory_compliance",
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ]
+            },
+            {
+              "topic": "chemical_containment_clearance",
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ]
+            },
+            {
+              "topic": "ground_support_power_ready",
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ]
+            },
+            {
+              "topic": "ndt_labor_hours",
+              "label": "Airframe non-destructive testing labor hours",
+              "aliases": [
+                "NDT technician hours",
+                "Ultrasonic testing work hours"
+              ]
+            },
+            {
+              "topic": "reskinning_labor_hours",
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental health and safety coordinator (EHS)",
+          "target_key": "EHS-HAZMAT-TUW",
+          "alternate_key": "EHS-HAZMAT-K25",
+          "target_context": "including chemical paint stripper runoff",
+          "alternate_context": "excluding chemical paint stripper runoff",
+          "candidate": "Shannon Airpark Hangar 4",
+          "other_candidates": [
+            "Chateauroux Aviation Bay 7",
+            "Leipzig-Halle Overhaul Hall 2"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "chemical_containment_clearance",
+              "value": true,
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bay_clearance",
+              "label": "Widebody paint bay clearance",
+              "aliases": [
+                "Hangar vertical clearance",
+                "Tail height clearance"
+              ]
+            },
+            {
+              "topic": "easa_accreditation",
+              "label": "Active EASA Part-145 base maintenance accreditation",
+              "aliases": [
+                "EASA Part-145 approval",
+                "Regulatory maintenance certificate"
+              ]
+            },
+            {
+              "topic": "inspection_turnaround_days",
+              "label": "Structural inspection turn-around time",
+              "aliases": [
+                "Primary structure check duration",
+                "Heavy airframe inspection span"
+              ]
+            },
+            {
+              "topic": "bonded_inventory_compliance",
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ]
+            },
+            {
+              "topic": "chemical_containment_clearance",
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ]
+            },
+            {
+              "topic": "ground_support_power_ready",
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ]
+            },
+            {
+              "topic": "ndt_labor_hours",
+              "label": "Airframe non-destructive testing labor hours",
+              "aliases": [
+                "NDT technician hours",
+                "Ultrasonic testing work hours"
+              ]
+            },
+            {
+              "topic": "reskinning_labor_hours",
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Fleet maintenance planner (PLN)",
+          "target_key": "PLN-GROUND-NEM",
+          "alternate_key": "PLN-GROUND-9U3",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Shannon Airpark Hangar 4",
+          "other_candidates": [
+            "Chateauroux Aviation Bay 7",
+            "Leipzig-Halle Overhaul Hall 2"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ground_support_power_ready",
+              "value": true,
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bay_clearance",
+              "label": "Widebody paint bay clearance",
+              "aliases": [
+                "Hangar vertical clearance",
+                "Tail height clearance"
+              ]
+            },
+            {
+              "topic": "easa_accreditation",
+              "label": "Active EASA Part-145 base maintenance accreditation",
+              "aliases": [
+                "EASA Part-145 approval",
+                "Regulatory maintenance certificate"
+              ]
+            },
+            {
+              "topic": "inspection_turnaround_days",
+              "label": "Structural inspection turn-around time",
+              "aliases": [
+                "Primary structure check duration",
+                "Heavy airframe inspection span"
+              ]
+            },
+            {
+              "topic": "bonded_inventory_compliance",
+              "label": "Bonded parts inventory control compliance",
+              "aliases": [
+                "Bonded stores compliance",
+                "Material segregation approval"
+              ]
+            },
+            {
+              "topic": "chemical_containment_clearance",
+              "label": "Environmental chemical containment clearance",
+              "aliases": [
+                "Chemical washdown clearance",
+                "Hazmat drainage containment"
+              ]
+            },
+            {
+              "topic": "ground_support_power_ready",
+              "label": "Dedicated 400 Hz ground power readiness",
+              "aliases": [
+                "Ground power unit availability",
+                "Apron 400 Hz electrical readiness"
+              ]
+            },
+            {
+              "topic": "ndt_labor_hours",
+              "label": "Airframe non-destructive testing labor hours",
+              "aliases": [
+                "NDT technician hours",
+                "Ultrasonic testing work hours"
+              ]
+            },
+            {
+              "topic": "reskinning_labor_hours",
+              "label": "Structural re-skinning labor hours",
+              "aliases": [
+                "Fuselage re-skinning hours",
+                "Sheet metal modification labor"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

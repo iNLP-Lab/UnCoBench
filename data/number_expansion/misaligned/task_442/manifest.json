@@ -1,0 +1,476 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_442",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_flight_safety",
+        "clinical_intake_coordination"
+      ],
+      "role_names": [
+        "Aviation flight safety controller (AVSEC)",
+        "Trauma hospital intake coordinator (MEDINT)"
+      ],
+      "directory": "number_expansion/misaligned/task_442/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aviation flight safety controller (AVSEC)",
+          "target_key": "AVSEC-DECONF-S6V",
+          "alternate_key": "AVSEC-DECONF-2JY",
+          "target_context": "airborne flight duration starting from wheels-up liftoff",
+          "alternate_context": "total block duration starting from engine startup",
+          "candidate": "Gotthard High-Pass Vector",
+          "other_candidates": [
+            "Oberalp Valley Transit Corridor",
+            "Furka Ridgeway Emergency Lane"
+          ],
+          "numeric": [
+            {
+              "topic": "inbound_sector_duration",
+              "value": 36,
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "flight_path_deconflicted",
+              "value": true,
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flight_path_deconflicted",
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ]
+            },
+            {
+              "topic": "forward_refueling_ready",
+              "label": "Forward refueling station operational readiness",
+              "aliases": [
+                "Refueling station operational status",
+                "Forward fuel depot readiness"
+              ]
+            },
+            {
+              "topic": "fuel_pumping_rate",
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_cleared",
+              "label": "Ground avalanche clearance",
+              "aliases": [
+                "Avalanche clearance",
+                "Slope stability authorization"
+              ]
+            },
+            {
+              "topic": "trauma_intake_confirmed",
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ]
+            },
+            {
+              "topic": "inbound_sector_duration",
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ]
+            },
+            {
+              "topic": "outbound_sector_duration",
+              "label": "Outbound sector duration",
+              "aliases": [
+                "Outbound flight leg duration",
+                "Outbound medical transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Trauma hospital intake coordinator (MEDINT)",
+          "target_key": "MEDINT-TRAUMA-NLO",
+          "alternate_key": "MEDINT-TRAUMA-HRP",
+          "target_context": "including neurotrauma surgical team reservation",
+          "alternate_context": "excluding neurotrauma surgical team reservation",
+          "candidate": "Gotthard High-Pass Vector",
+          "other_candidates": [
+            "Oberalp Valley Transit Corridor",
+            "Furka Ridgeway Emergency Lane"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trauma_intake_confirmed",
+              "value": true,
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flight_path_deconflicted",
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ]
+            },
+            {
+              "topic": "forward_refueling_ready",
+              "label": "Forward refueling station operational readiness",
+              "aliases": [
+                "Refueling station operational status",
+                "Forward fuel depot readiness"
+              ]
+            },
+            {
+              "topic": "fuel_pumping_rate",
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_cleared",
+              "label": "Ground avalanche clearance",
+              "aliases": [
+                "Avalanche clearance",
+                "Slope stability authorization"
+              ]
+            },
+            {
+              "topic": "trauma_intake_confirmed",
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ]
+            },
+            {
+              "topic": "inbound_sector_duration",
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ]
+            },
+            {
+              "topic": "outbound_sector_duration",
+              "label": "Outbound sector duration",
+              "aliases": [
+                "Outbound flight leg duration",
+                "Outbound medical transit time"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_flight_safety",
+        "clinical_intake_coordination",
+        "forward_refueling_logistics"
+      ],
+      "role_names": [
+        "Aviation flight safety controller (AVSEC)",
+        "Trauma hospital intake coordinator (MEDINT)",
+        "Forward refueling operations supervisor (REOPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_442/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aviation flight safety controller (AVSEC)",
+          "target_key": "AVSEC-DECONF-S6V",
+          "alternate_key": "AVSEC-DECONF-2JY",
+          "target_context": "airborne flight duration starting from wheels-up liftoff",
+          "alternate_context": "total block duration starting from engine startup",
+          "candidate": "Gotthard High-Pass Vector",
+          "other_candidates": [
+            "Oberalp Valley Transit Corridor",
+            "Furka Ridgeway Emergency Lane"
+          ],
+          "numeric": [
+            {
+              "topic": "inbound_sector_duration",
+              "value": 36,
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "flight_path_deconflicted",
+              "value": true,
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flight_path_deconflicted",
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ]
+            },
+            {
+              "topic": "forward_refueling_ready",
+              "label": "Forward refueling station operational readiness",
+              "aliases": [
+                "Refueling station operational status",
+                "Forward fuel depot readiness"
+              ]
+            },
+            {
+              "topic": "fuel_pumping_rate",
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_cleared",
+              "label": "Ground avalanche clearance",
+              "aliases": [
+                "Avalanche clearance",
+                "Slope stability authorization"
+              ]
+            },
+            {
+              "topic": "trauma_intake_confirmed",
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ]
+            },
+            {
+              "topic": "inbound_sector_duration",
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ]
+            },
+            {
+              "topic": "outbound_sector_duration",
+              "label": "Outbound sector duration",
+              "aliases": [
+                "Outbound flight leg duration",
+                "Outbound medical transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Trauma hospital intake coordinator (MEDINT)",
+          "target_key": "MEDINT-TRAUMA-NLO",
+          "alternate_key": "MEDINT-TRAUMA-HRP",
+          "target_context": "including neurotrauma surgical team reservation",
+          "alternate_context": "excluding neurotrauma surgical team reservation",
+          "candidate": "Gotthard High-Pass Vector",
+          "other_candidates": [
+            "Oberalp Valley Transit Corridor",
+            "Furka Ridgeway Emergency Lane"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trauma_intake_confirmed",
+              "value": true,
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flight_path_deconflicted",
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ]
+            },
+            {
+              "topic": "forward_refueling_ready",
+              "label": "Forward refueling station operational readiness",
+              "aliases": [
+                "Refueling station operational status",
+                "Forward fuel depot readiness"
+              ]
+            },
+            {
+              "topic": "fuel_pumping_rate",
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_cleared",
+              "label": "Ground avalanche clearance",
+              "aliases": [
+                "Avalanche clearance",
+                "Slope stability authorization"
+              ]
+            },
+            {
+              "topic": "trauma_intake_confirmed",
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ]
+            },
+            {
+              "topic": "inbound_sector_duration",
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ]
+            },
+            {
+              "topic": "outbound_sector_duration",
+              "label": "Outbound sector duration",
+              "aliases": [
+                "Outbound flight leg duration",
+                "Outbound medical transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forward refueling operations supervisor (REOPS)",
+          "target_key": "REOPS-FSTN-MQB",
+          "alternate_key": "REOPS-FSTN-L82",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Gotthard High-Pass Vector",
+          "other_candidates": [
+            "Oberalp Valley Transit Corridor",
+            "Furka Ridgeway Emergency Lane"
+          ],
+          "numeric": [
+            {
+              "topic": "fuel_pumping_rate",
+              "value": 180,
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ],
+              "unit": "L/min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flight_path_deconflicted",
+              "label": "Flight path deconfliction authorized",
+              "aliases": [
+                "Airspace deconfliction authorization",
+                "Corridor flight deconfliction"
+              ]
+            },
+            {
+              "topic": "forward_refueling_ready",
+              "label": "Forward refueling station operational readiness",
+              "aliases": [
+                "Refueling station operational status",
+                "Forward fuel depot readiness"
+              ]
+            },
+            {
+              "topic": "fuel_pumping_rate",
+              "label": "Minimum fuel transfer pumping rate",
+              "aliases": [
+                "Pumping delivery rate",
+                "Fuel transfer throughput"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_cleared",
+              "label": "Ground avalanche clearance",
+              "aliases": [
+                "Avalanche clearance",
+                "Slope stability authorization"
+              ]
+            },
+            {
+              "topic": "trauma_intake_confirmed",
+              "label": "Trauma receiving facility capacity confirmation",
+              "aliases": [
+                "Trauma facility intake confirmation",
+                "Hospital trauma capacity approval"
+              ]
+            },
+            {
+              "topic": "inbound_sector_duration",
+              "label": "Inbound sector duration",
+              "aliases": [
+                "Inbound flight leg duration",
+                "Inbound transit time"
+              ]
+            },
+            {
+              "topic": "outbound_sector_duration",
+              "label": "Outbound sector duration",
+              "aliases": [
+                "Outbound flight leg duration",
+                "Outbound medical transit time"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

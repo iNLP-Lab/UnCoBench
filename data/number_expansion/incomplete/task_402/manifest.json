@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_402",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flood_hydrology",
+        "traffic_management"
+      ],
+      "role_names": [
+        "Hydrological Forecaster (HYDRO)",
+        "Regional Traffic Operations Director (TOC)"
+      ],
+      "directory": "incomplete/task_402",
+      "profiles": [
+        {
+          "record_id": "rec_flood_hydrology_A",
+          "role_id": "flood_hydrology",
+          "candidate_id": "A",
+          "key": "HYDRO-FLOOD-7GU",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Flood gauge telemetry link active",
+          "hidden_predicate_id": "A_flood_crest_clearance",
+          "threshold_label": "Minimum projected flood crest clearance",
+          "threshold_aliases": [
+            "Projected flood freeboard",
+            "Flood crest vertical clearance"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "m",
+          "partial_record_text": "HYDRO-FLOOD-7GU: Northern Radial Arterial Corridor.Northern Radial Arterial Corridor: Flood gauge telemetry link active = true .Source: River basin telemetry status log; Scope: Automated river monitoring stations adjacent to the corridor; Measurement: Active real-time transmission of river stage and discharge measurements.",
+          "role_name": "Hydrological Forecaster (HYDRO)",
+          "candidate_name": "Northern Radial Arterial Corridor",
+          "other_candidate_names": [
+            "South Bank Intermodal Expressway",
+            "Western Bypass Elevated Parkway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_traffic_management_A",
+          "role_id": "traffic_management",
+          "candidate_id": "A",
+          "key": "TOC-LANE-3TJ",
+          "hidden_predicate_id": "A_unobstructed_lanes",
+          "threshold_label": "Unobstructed continuous lane capacity",
+          "threshold_aliases": [
+            "Continuous lane count",
+            "Unobstructed lane capacity"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "lanes",
+          "partial_record_text": "TOC-LANE-3TJ: Northern Radial Arterial Corridor. The record covers Unobstructed continuous lane capacity. Highway patrol aerial survey report; Entire linear roadway segment between cordon line and terminus; Minimum count of physically open, debris-free lanes available simultaneously.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Unobstructed continuous lane capacity is at least 2 lanes.",
+          "role_name": "Regional Traffic Operations Director (TOC)",
+          "candidate_name": "Northern Radial Arterial Corridor",
+          "other_candidate_names": [
+            "South Bank Intermodal Expressway",
+            "Western Bypass Elevated Parkway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flood_hydrology",
+        "traffic_management",
+        "relief_depot"
+      ],
+      "role_names": [
+        "Hydrological Forecaster (HYDRO)",
+        "Regional Traffic Operations Director (TOC)",
+        "Emergency Reception Depot Superintendent (DEP)"
+      ],
+      "directory": "incomplete/task_402",
+      "profiles": [
+        {
+          "record_id": "rec_flood_hydrology_A",
+          "role_id": "flood_hydrology",
+          "candidate_id": "A",
+          "key": "HYDRO-FLOOD-7GU",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Flood gauge telemetry link active",
+          "hidden_predicate_id": "A_flood_crest_clearance",
+          "threshold_label": "Minimum projected flood crest clearance",
+          "threshold_aliases": [
+            "Projected flood freeboard",
+            "Flood crest vertical clearance"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "m",
+          "partial_record_text": "HYDRO-FLOOD-7GU: Northern Radial Arterial Corridor.Northern Radial Arterial Corridor: Flood gauge telemetry link active = true .Source: River basin telemetry status log; Scope: Automated river monitoring stations adjacent to the corridor; Measurement: Active real-time transmission of river stage and discharge measurements.",
+          "role_name": "Hydrological Forecaster (HYDRO)",
+          "candidate_name": "Northern Radial Arterial Corridor",
+          "other_candidate_names": [
+            "South Bank Intermodal Expressway",
+            "Western Bypass Elevated Parkway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_traffic_management_A",
+          "role_id": "traffic_management",
+          "candidate_id": "A",
+          "key": "TOC-LANE-3TJ",
+          "hidden_predicate_id": "A_unobstructed_lanes",
+          "threshold_label": "Unobstructed continuous lane capacity",
+          "threshold_aliases": [
+            "Continuous lane count",
+            "Unobstructed lane capacity"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "lanes",
+          "partial_record_text": "TOC-LANE-3TJ: Northern Radial Arterial Corridor. The record covers Unobstructed continuous lane capacity. Highway patrol aerial survey report; Entire linear roadway segment between cordon line and terminus; Minimum count of physically open, debris-free lanes available simultaneously.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Unobstructed continuous lane capacity is at least 2 lanes.",
+          "role_name": "Regional Traffic Operations Director (TOC)",
+          "candidate_name": "Northern Radial Arterial Corridor",
+          "other_candidate_names": [
+            "South Bank Intermodal Expressway",
+            "Western Bypass Elevated Parkway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_relief_depot_A",
+          "role_id": "relief_depot",
+          "candidate_id": "A",
+          "key": "DEP-DISCH-QQS",
+          "hidden_predicate_id": "A_terminal_discharge_throughput",
+          "threshold_label": "Terminal discharge throughput",
+          "threshold_aliases": [
+            "Reception depot throughput",
+            "Terminal offloading capacity"
+          ],
+          "threshold_value": 130,
+          "threshold_unit": "tonnes/h",
+          "partial_record_text": "DEP-DISCH-QQS: Northern Radial Arterial Corridor. The record covers Terminal discharge throughput. Terminal logistics offloading audit; Corridor receiving depot unloading aprons and distribution ramps; Maximum sustained relief cargo mass unloaded and processed per hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 220
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Terminal discharge throughput is at most 220 tonnes/h.",
+          "role_name": "Emergency Reception Depot Superintendent (DEP)",
+          "candidate_name": "Northern Radial Arterial Corridor",
+          "other_candidate_names": [
+            "South Bank Intermodal Expressway",
+            "Western Bypass Elevated Parkway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

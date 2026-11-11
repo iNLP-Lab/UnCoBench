@@ -1,0 +1,160 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_939",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_engineering",
+        "venue_operations"
+      ],
+      "role_names": [
+        "Director of Facilities Engineering (FAC)",
+        "Head of Venue Operations (OPS)"
+      ],
+      "directory": "incomplete/task_939",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-PWR-7KI",
+          "boolean_predicate_id": "A_dual_power_backup",
+          "boolean_label": "Secondary power grid feed presence",
+          "hidden_predicate_id": "A_generator_switchover_time",
+          "threshold_label": "Emergency generator switchover duration",
+          "threshold_aliases": [
+            "Automatic transfer switch duration",
+            "Backup generator start-to-load time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "FAC-PWR-7KI: Bayside International Exhibition Centre.Bayside International Exhibition Centre: Secondary power grid feed presence = true .Source: Electrical single-line diagram; Scope: Primary and secondary medium-voltage substations; Measurement: Presence of an active independent dual-utility substation feed.",
+          "role_name": "Director of Facilities Engineering (FAC)",
+          "candidate_name": "Bayside International Exhibition Centre",
+          "other_candidate_names": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_operations_A",
+          "role_id": "venue_operations",
+          "candidate_id": "A",
+          "key": "OPS-PLEN-KO0",
+          "hidden_predicate_id": "A_plenary_seating_capacity",
+          "threshold_label": "Plenary hall seating capacity",
+          "threshold_aliases": [
+            "Auditorium attendee capacity",
+            "Main hall seating"
+          ],
+          "threshold_value": 5000,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-PLEN-KO0: Bayside International Exhibition Centre.Bayside International Exhibition Centre: Plenary hall base daily tariff = 95.0 kEUR.Source: Venue commercial rate sheet; Scope: Plenary hall occupancy per calendar day; Measurement: Standard contracted base daily rental charge excluding optional packages.",
+          "role_name": "Head of Venue Operations (OPS)",
+          "candidate_name": "Bayside International Exhibition Centre",
+          "other_candidate_names": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_engineering",
+        "venue_operations",
+        "freight_logistics"
+      ],
+      "role_names": [
+        "Director of Facilities Engineering (FAC)",
+        "Head of Venue Operations (OPS)",
+        "Exhibition Freight and Logistics Manager (LOG)"
+      ],
+      "directory": "incomplete/task_939",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-PWR-7KI",
+          "boolean_predicate_id": "A_dual_power_backup",
+          "boolean_label": "Secondary power grid feed presence",
+          "hidden_predicate_id": "A_generator_switchover_time",
+          "threshold_label": "Emergency generator switchover duration",
+          "threshold_aliases": [
+            "Automatic transfer switch duration",
+            "Backup generator start-to-load time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "FAC-PWR-7KI: Bayside International Exhibition Centre.Bayside International Exhibition Centre: Secondary power grid feed presence = true .Source: Electrical single-line diagram; Scope: Primary and secondary medium-voltage substations; Measurement: Presence of an active independent dual-utility substation feed.",
+          "role_name": "Director of Facilities Engineering (FAC)",
+          "candidate_name": "Bayside International Exhibition Centre",
+          "other_candidate_names": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_operations_A",
+          "role_id": "venue_operations",
+          "candidate_id": "A",
+          "key": "OPS-PLEN-KO0",
+          "hidden_predicate_id": "A_plenary_seating_capacity",
+          "threshold_label": "Plenary hall seating capacity",
+          "threshold_aliases": [
+            "Auditorium attendee capacity",
+            "Main hall seating"
+          ],
+          "threshold_value": 5000,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-PLEN-KO0: Bayside International Exhibition Centre.Bayside International Exhibition Centre: Plenary hall base daily tariff = 95.0 kEUR.Source: Venue commercial rate sheet; Scope: Plenary hall occupancy per calendar day; Measurement: Standard contracted base daily rental charge excluding optional packages.",
+          "role_name": "Head of Venue Operations (OPS)",
+          "candidate_name": "Bayside International Exhibition Centre",
+          "other_candidate_names": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_freight_logistics_A",
+          "role_id": "freight_logistics",
+          "candidate_id": "A",
+          "key": "LOG-DOCK-XYO",
+          "hidden_predicate_id": "A_freight_dock_count",
+          "threshold_label": "Dedicated freight loading dock count",
+          "threshold_aliases": [
+            "Loading dock bays",
+            "Freight intake berths"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "docks",
+          "partial_record_text": "LOG-DOCK-XYO: Bayside International Exhibition Centre.Aggregation window: current month.Bayside International Exhibition Centre: Concourse daily service fee = 50.0 kEUR.Source: Exhibition services pricing schedule; Scope: Main exhibition concourse logistics and utility operations per calendar day; Measurement: Standard daily technical facility fee for concourse marshaling and utility hookups.",
+          "role_name": "Exhibition Freight and Logistics Manager (LOG)",
+          "candidate_name": "Bayside International Exhibition Centre",
+          "other_candidate_names": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "context_value": "current month",
+          "other_context_values": [
+            "year to date"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

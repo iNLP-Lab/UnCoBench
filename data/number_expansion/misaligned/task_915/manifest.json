@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_915",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "grid_interconnection",
+        "cable_landfall"
+      ],
+      "role_names": [
+        "Grid Interconnection Lead (GRID)",
+        "Marine Cable Landfall Lead (LAND)"
+      ],
+      "directory": "number_expansion/misaligned/task_915/k2",
+      "error_profiles": [
+        {
+          "role_name": "Grid Interconnection Lead (GRID)",
+          "target_key": "GRID-TXCAP-ZTL",
+          "alternate_key": "GRID-HARM-XT2",
+          "target_context": "24-hour continuous window",
+          "alternate_context": "1-hour peak window",
+          "candidate": "Pembroke Industrial Brownfield",
+          "other_candidates": [
+            "Castlemartin Coastal Parcel",
+            "Angle Bay Terminal Reserve"
+          ],
+          "numeric": [
+            {
+              "topic": "nominal_converter_capacity",
+              "value": 1200,
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "grid_code_certified",
+              "value": true,
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "grid_code_certified",
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ]
+            },
+            {
+              "topic": "buffer_corridor_established",
+              "label": "Wildlife buffer corridor established",
+              "aliases": [
+                "Buffer corridor establishment",
+                "Conservation setback demarcation"
+              ]
+            },
+            {
+              "topic": "shoreline_setback_distance",
+              "label": "Minimum shoreline setback distance",
+              "aliases": [
+                "Coastal setback distance",
+                "Shoreline buffer distance"
+              ]
+            },
+            {
+              "topic": "trenching_stability_verified",
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ]
+            },
+            {
+              "topic": "boundary_acoustic_noise",
+              "label": "Maximum boundary acoustic noise",
+              "aliases": [
+                "Property boundary sound level",
+                "Fence-line acoustic rating"
+              ]
+            },
+            {
+              "topic": "soil_bearing_capacity",
+              "label": "Foundation soil bearing capacity",
+              "aliases": [
+                "Ultimate bearing capacity",
+                "Geotechnical soil bearing limit"
+              ]
+            },
+            {
+              "topic": "nominal_converter_capacity",
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ]
+            },
+            {
+              "topic": "station_auxiliary_power_demand",
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine Cable Landfall Lead (LAND)",
+          "target_key": "LAND-TRENCH-V7O",
+          "alternate_key": "LAND-TRENCH-BKG",
+          "target_context": "Route Design Version 2",
+          "alternate_context": "Route Design Version 3",
+          "candidate": "Pembroke Industrial Brownfield",
+          "other_candidates": [
+            "Castlemartin Coastal Parcel",
+            "Angle Bay Terminal Reserve"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trenching_stability_verified",
+              "value": true,
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "grid_code_certified",
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ]
+            },
+            {
+              "topic": "buffer_corridor_established",
+              "label": "Wildlife buffer corridor established",
+              "aliases": [
+                "Buffer corridor establishment",
+                "Conservation setback demarcation"
+              ]
+            },
+            {
+              "topic": "shoreline_setback_distance",
+              "label": "Minimum shoreline setback distance",
+              "aliases": [
+                "Coastal setback distance",
+                "Shoreline buffer distance"
+              ]
+            },
+            {
+              "topic": "trenching_stability_verified",
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ]
+            },
+            {
+              "topic": "boundary_acoustic_noise",
+              "label": "Maximum boundary acoustic noise",
+              "aliases": [
+                "Property boundary sound level",
+                "Fence-line acoustic rating"
+              ]
+            },
+            {
+              "topic": "soil_bearing_capacity",
+              "label": "Foundation soil bearing capacity",
+              "aliases": [
+                "Ultimate bearing capacity",
+                "Geotechnical soil bearing limit"
+              ]
+            },
+            {
+              "topic": "nominal_converter_capacity",
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ]
+            },
+            {
+              "topic": "station_auxiliary_power_demand",
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "grid_interconnection",
+        "cable_landfall",
+        "auxiliary_systems"
+      ],
+      "role_names": [
+        "Grid Interconnection Lead (GRID)",
+        "Marine Cable Landfall Lead (LAND)",
+        "Auxiliary Systems Lead (AUX)"
+      ],
+      "directory": "number_expansion/misaligned/task_915/k3",
+      "error_profiles": [
+        {
+          "role_name": "Grid Interconnection Lead (GRID)",
+          "target_key": "GRID-TXCAP-ZTL",
+          "alternate_key": "GRID-HARM-XT2",
+          "target_context": "24-hour continuous window",
+          "alternate_context": "1-hour peak window",
+          "candidate": "Pembroke Industrial Brownfield",
+          "other_candidates": [
+            "Castlemartin Coastal Parcel",
+            "Angle Bay Terminal Reserve"
+          ],
+          "numeric": [
+            {
+              "topic": "nominal_converter_capacity",
+              "value": 1200,
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "grid_code_certified",
+              "value": true,
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "grid_code_certified",
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ]
+            },
+            {
+              "topic": "buffer_corridor_established",
+              "label": "Wildlife buffer corridor established",
+              "aliases": [
+                "Buffer corridor establishment",
+                "Conservation setback demarcation"
+              ]
+            },
+            {
+              "topic": "shoreline_setback_distance",
+              "label": "Minimum shoreline setback distance",
+              "aliases": [
+                "Coastal setback distance",
+                "Shoreline buffer distance"
+              ]
+            },
+            {
+              "topic": "trenching_stability_verified",
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ]
+            },
+            {
+              "topic": "boundary_acoustic_noise",
+              "label": "Maximum boundary acoustic noise",
+              "aliases": [
+                "Property boundary sound level",
+                "Fence-line acoustic rating"
+              ]
+            },
+            {
+              "topic": "soil_bearing_capacity",
+              "label": "Foundation soil bearing capacity",
+              "aliases": [
+                "Ultimate bearing capacity",
+                "Geotechnical soil bearing limit"
+              ]
+            },
+            {
+              "topic": "nominal_converter_capacity",
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ]
+            },
+            {
+              "topic": "station_auxiliary_power_demand",
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine Cable Landfall Lead (LAND)",
+          "target_key": "LAND-TRENCH-V7O",
+          "alternate_key": "LAND-TRENCH-BKG",
+          "target_context": "Route Design Version 2",
+          "alternate_context": "Route Design Version 3",
+          "candidate": "Pembroke Industrial Brownfield",
+          "other_candidates": [
+            "Castlemartin Coastal Parcel",
+            "Angle Bay Terminal Reserve"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trenching_stability_verified",
+              "value": true,
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "grid_code_certified",
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ]
+            },
+            {
+              "topic": "buffer_corridor_established",
+              "label": "Wildlife buffer corridor established",
+              "aliases": [
+                "Buffer corridor establishment",
+                "Conservation setback demarcation"
+              ]
+            },
+            {
+              "topic": "shoreline_setback_distance",
+              "label": "Minimum shoreline setback distance",
+              "aliases": [
+                "Coastal setback distance",
+                "Shoreline buffer distance"
+              ]
+            },
+            {
+              "topic": "trenching_stability_verified",
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ]
+            },
+            {
+              "topic": "boundary_acoustic_noise",
+              "label": "Maximum boundary acoustic noise",
+              "aliases": [
+                "Property boundary sound level",
+                "Fence-line acoustic rating"
+              ]
+            },
+            {
+              "topic": "soil_bearing_capacity",
+              "label": "Foundation soil bearing capacity",
+              "aliases": [
+                "Ultimate bearing capacity",
+                "Geotechnical soil bearing limit"
+              ]
+            },
+            {
+              "topic": "nominal_converter_capacity",
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ]
+            },
+            {
+              "topic": "station_auxiliary_power_demand",
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Auxiliary Systems Lead (AUX)",
+          "target_key": "AUX-STATION-WJT",
+          "alternate_key": "AUX-STATION-SRP",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Pembroke Industrial Brownfield",
+          "other_candidates": [
+            "Castlemartin Coastal Parcel",
+            "Angle Bay Terminal Reserve"
+          ],
+          "numeric": [
+            {
+              "topic": "station_auxiliary_power_demand",
+              "value": 55,
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "grid_code_certified",
+              "label": "Grid code compliance certified",
+              "aliases": [
+                "Grid compliance certification",
+                "Interconnection code compliance"
+              ]
+            },
+            {
+              "topic": "buffer_corridor_established",
+              "label": "Wildlife buffer corridor established",
+              "aliases": [
+                "Buffer corridor establishment",
+                "Conservation setback demarcation"
+              ]
+            },
+            {
+              "topic": "shoreline_setback_distance",
+              "label": "Minimum shoreline setback distance",
+              "aliases": [
+                "Coastal setback distance",
+                "Shoreline buffer distance"
+              ]
+            },
+            {
+              "topic": "trenching_stability_verified",
+              "label": "Subsea trenching stability verified",
+              "aliases": [
+                "Cable landfall trenching stability",
+                "Trenching geomorphology clearance"
+              ]
+            },
+            {
+              "topic": "boundary_acoustic_noise",
+              "label": "Maximum boundary acoustic noise",
+              "aliases": [
+                "Property boundary sound level",
+                "Fence-line acoustic rating"
+              ]
+            },
+            {
+              "topic": "soil_bearing_capacity",
+              "label": "Foundation soil bearing capacity",
+              "aliases": [
+                "Ultimate bearing capacity",
+                "Geotechnical soil bearing limit"
+              ]
+            },
+            {
+              "topic": "nominal_converter_capacity",
+              "label": "Nominal converter capacity",
+              "aliases": [
+                "Nameplate converter rating",
+                "Gross converter throughput"
+              ]
+            },
+            {
+              "topic": "station_auxiliary_power_demand",
+              "label": "Station auxiliary power demand",
+              "aliases": [
+                "Auxiliary station service load",
+                "Parasitic station electrical demand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

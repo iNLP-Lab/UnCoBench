@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_314",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_control",
+        "meteorology"
+      ],
+      "role_names": [
+        "Aeromedical clinical director (MED)",
+        "Aviation meteorologist (MET)"
+      ],
+      "directory": "incomplete/task_314",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_control_A",
+          "role_id": "clinical_control",
+          "candidate_id": "A",
+          "key": "MED-ICU-AWW",
+          "boolean_predicate_id": "A_in_flight_icu_telemetry_enabled",
+          "boolean_label": "In-flight intensive care telemetry active",
+          "hidden_predicate_id": "A_transit_cabin_altitude_ceiling",
+          "threshold_label": "Maximum cabin pressure altitude",
+          "threshold_aliases": [
+            "Cabin altitude ceiling",
+            "Peak cabin pressure altitude"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "m",
+          "partial_record_text": "MED-ICU-AWW: Nahanni Canyon Low-Level Vector.Nahanni Canyon Low-Level Vector: In-flight intensive care telemetry active = true .Source: Biomedical telemetry audit sheet; Scope: Corridor continuous patient monitoring datalink; Measurement: Confirmation that real-time multiparameter vital sign telemetry stream is activated.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 4000
+          },
+          "coarse_statement": "Maximum cabin pressure altitude is between 1000 m and 4000 m, inclusive.",
+          "role_name": "Aeromedical clinical director (MED)",
+          "candidate_name": "Nahanni Canyon Low-Level Vector",
+          "other_candidate_names": [
+            "Fort Simpson Ridge Transit",
+            "Liard Basin High-Altitude Direct"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_meteorology_A",
+          "role_id": "meteorology",
+          "candidate_id": "A",
+          "key": "MET-WX-5ZL",
+          "hidden_predicate_id": "A_mountain_pass_visibility",
+          "threshold_label": "Mountain pass flight visibility",
+          "threshold_aliases": [
+            "Corridor flight visibility",
+            "Minimum route pass visibility"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "km",
+          "partial_record_text": "MET-WX-5ZL: Nahanni Canyon Low-Level Vector. The record covers Mountain pass flight visibility. Aviation automated meteorological observation report; Critical alpine crossing waypoints along the flight path; Lowest horizontal meteorological optical visibility recorded across pass checkpoints.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Mountain pass flight visibility is between 2 km and 20 km, inclusive.",
+          "role_name": "Aviation meteorologist (MET)",
+          "candidate_name": "Nahanni Canyon Low-Level Vector",
+          "other_candidate_names": [
+            "Fort Simpson Ridge Transit",
+            "Liard Basin High-Altitude Direct"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_control",
+        "meteorology",
+        "flight_ops"
+      ],
+      "role_names": [
+        "Aeromedical clinical director (MED)",
+        "Aviation meteorologist (MET)",
+        "Flight operations superintendent (DISP)"
+      ],
+      "directory": "incomplete/task_314",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_control_A",
+          "role_id": "clinical_control",
+          "candidate_id": "A",
+          "key": "MED-ICU-AWW",
+          "boolean_predicate_id": "A_in_flight_icu_telemetry_enabled",
+          "boolean_label": "In-flight intensive care telemetry active",
+          "hidden_predicate_id": "A_transit_cabin_altitude_ceiling",
+          "threshold_label": "Maximum cabin pressure altitude",
+          "threshold_aliases": [
+            "Cabin altitude ceiling",
+            "Peak cabin pressure altitude"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "m",
+          "partial_record_text": "MED-ICU-AWW: Nahanni Canyon Low-Level Vector.Nahanni Canyon Low-Level Vector: In-flight intensive care telemetry active = true .Source: Biomedical telemetry audit sheet; Scope: Corridor continuous patient monitoring datalink; Measurement: Confirmation that real-time multiparameter vital sign telemetry stream is activated.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 4000
+          },
+          "coarse_statement": "Maximum cabin pressure altitude is between 1000 m and 4000 m, inclusive.",
+          "role_name": "Aeromedical clinical director (MED)",
+          "candidate_name": "Nahanni Canyon Low-Level Vector",
+          "other_candidate_names": [
+            "Fort Simpson Ridge Transit",
+            "Liard Basin High-Altitude Direct"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_meteorology_A",
+          "role_id": "meteorology",
+          "candidate_id": "A",
+          "key": "MET-WX-5ZL",
+          "hidden_predicate_id": "A_mountain_pass_visibility",
+          "threshold_label": "Mountain pass flight visibility",
+          "threshold_aliases": [
+            "Corridor flight visibility",
+            "Minimum route pass visibility"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "km",
+          "partial_record_text": "MET-WX-5ZL: Nahanni Canyon Low-Level Vector. The record covers Mountain pass flight visibility. Aviation automated meteorological observation report; Critical alpine crossing waypoints along the flight path; Lowest horizontal meteorological optical visibility recorded across pass checkpoints.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Mountain pass flight visibility is between 2 km and 20 km, inclusive.",
+          "role_name": "Aviation meteorologist (MET)",
+          "candidate_name": "Nahanni Canyon Low-Level Vector",
+          "other_candidate_names": [
+            "Fort Simpson Ridge Transit",
+            "Liard Basin High-Altitude Direct"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_ops_A",
+          "role_id": "flight_ops",
+          "candidate_id": "A",
+          "key": "DISP-DIST-KOR",
+          "hidden_predicate_id": "A_total_flight_distance",
+          "threshold_label": "Total flight distance",
+          "threshold_aliases": [
+            "Corridor flight distance",
+            "Route nautical distance"
+          ],
+          "threshold_value": 460,
+          "threshold_unit": "km",
+          "partial_record_text": "DISP-DIST-KOR: Nahanni Canyon Low-Level Vector.Execution environment: Live operational dispatch.Nahanni Canyon Low-Level Vector: Divert airfield runway lighting operational = true .Source: Airfield operational status bulletin; Scope: Designated emergency alternate landing strips along corridor; Measurement: Operational status of pilot-controlled medium-intensity runway edge lighting.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total flight distance is between 200 km and 600 km, inclusive.",
+          "role_name": "Flight operations superintendent (DISP)",
+          "candidate_name": "Nahanni Canyon Low-Level Vector",
+          "other_candidate_names": [
+            "Fort Simpson Ridge Transit",
+            "Liard Basin High-Altitude Direct"
+          ],
+          "context_value": "Live operational dispatch",
+          "other_context_values": [
+            "Contingency exercise simulation"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

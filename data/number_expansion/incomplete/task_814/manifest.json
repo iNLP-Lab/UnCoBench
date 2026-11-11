@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_814",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "metallurgical_forensics",
+        "ndt_lead"
+      ],
+      "role_names": [
+        "Forensic metallurgy lead (MET)",
+        "Non-destructive testing specialist (NDT)"
+      ],
+      "directory": "incomplete/task_814",
+      "profiles": [
+        {
+          "record_id": "rec_metallurgical_forensics_A",
+          "role_id": "metallurgical_forensics",
+          "candidate_id": "A",
+          "key": "MET-MECH-4MT",
+          "boolean_predicate_id": "A_in_situ_tensile_stage_equipped",
+          "boolean_label": "In-situ tensile stage equipped",
+          "hidden_predicate_id": "A_tensile_load_capacity",
+          "threshold_label": "Tensile load capacity",
+          "threshold_aliases": [
+            "Maximum tensile frame load",
+            "Tensile frame rating"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "kN",
+          "partial_record_text": "MET-MECH-4MT: St. Andrews Materials Forensics Institute.St. Andrews Materials Forensics Institute: In-situ tensile stage equipped = true .Source: Laboratory instrument inventory audit; Scope: Candidate main fracture testing rig; Measurement: Physical installation of dedicated dynamic tensile stage with environmental chamber.St. Andrews Materials Forensics Institute: Certified daily specimen processing rate = 8 specimens/d.Source: Specimen preparation workshop throughput log; Scope: Precision electrical discharge machining and surface polishing cell; Measurement: Number of standardized test coupons fully prepared per operating day.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "coarse_statement": "Tensile load capacity is at most 900 kN.",
+          "role_name": "Forensic metallurgy lead (MET)",
+          "candidate_name": "St. Andrews Materials Forensics Institute",
+          "other_candidate_names": [
+            "Nordic Failure Analysis Laboratory",
+            "Caledonian Advanced Metallurgy Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ndt_lead_A",
+          "role_id": "ndt_lead",
+          "candidate_id": "A",
+          "key": "NDT-VOL-5TN",
+          "hidden_predicate_id": "A_computed_tomography_scan_depth",
+          "threshold_label": "Computed tomography penetration depth",
+          "threshold_aliases": [
+            "CT penetration depth",
+            "Volumetric scanning penetration"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "mm",
+          "partial_record_text": "NDT-VOL-5TN: St. Andrews Materials Forensics Institute. The record covers Computed tomography penetration depth. Radiographic penetration test sheet; Candidate high-voltage micro-CT scanner; Maximum solid alloy penetration thickness yielding discernible volumetric void reconstruction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Computed tomography penetration depth is at most 400 mm.",
+          "role_name": "Non-destructive testing specialist (NDT)",
+          "candidate_name": "St. Andrews Materials Forensics Institute",
+          "other_candidate_names": [
+            "Nordic Failure Analysis Laboratory",
+            "Caledonian Advanced Metallurgy Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "metallurgical_forensics",
+        "ndt_lead",
+        "microscopy_lead"
+      ],
+      "role_names": [
+        "Forensic metallurgy lead (MET)",
+        "Non-destructive testing specialist (NDT)",
+        "Electron microscopy director (MIC)"
+      ],
+      "directory": "incomplete/task_814",
+      "profiles": [
+        {
+          "record_id": "rec_metallurgical_forensics_A",
+          "role_id": "metallurgical_forensics",
+          "candidate_id": "A",
+          "key": "MET-MECH-4MT",
+          "boolean_predicate_id": "A_in_situ_tensile_stage_equipped",
+          "boolean_label": "In-situ tensile stage equipped",
+          "hidden_predicate_id": "A_tensile_load_capacity",
+          "threshold_label": "Tensile load capacity",
+          "threshold_aliases": [
+            "Maximum tensile frame load",
+            "Tensile frame rating"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "kN",
+          "partial_record_text": "MET-MECH-4MT: St. Andrews Materials Forensics Institute.St. Andrews Materials Forensics Institute: In-situ tensile stage equipped = true .Source: Laboratory instrument inventory audit; Scope: Candidate main fracture testing rig; Measurement: Physical installation of dedicated dynamic tensile stage with environmental chamber.St. Andrews Materials Forensics Institute: Certified daily specimen processing rate = 8 specimens/d.Source: Specimen preparation workshop throughput log; Scope: Precision electrical discharge machining and surface polishing cell; Measurement: Number of standardized test coupons fully prepared per operating day.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "coarse_statement": "Tensile load capacity is at most 900 kN.",
+          "role_name": "Forensic metallurgy lead (MET)",
+          "candidate_name": "St. Andrews Materials Forensics Institute",
+          "other_candidate_names": [
+            "Nordic Failure Analysis Laboratory",
+            "Caledonian Advanced Metallurgy Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ndt_lead_A",
+          "role_id": "ndt_lead",
+          "candidate_id": "A",
+          "key": "NDT-VOL-5TN",
+          "hidden_predicate_id": "A_computed_tomography_scan_depth",
+          "threshold_label": "Computed tomography penetration depth",
+          "threshold_aliases": [
+            "CT penetration depth",
+            "Volumetric scanning penetration"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "mm",
+          "partial_record_text": "NDT-VOL-5TN: St. Andrews Materials Forensics Institute. The record covers Computed tomography penetration depth. Radiographic penetration test sheet; Candidate high-voltage micro-CT scanner; Maximum solid alloy penetration thickness yielding discernible volumetric void reconstruction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Computed tomography penetration depth is at most 400 mm.",
+          "role_name": "Non-destructive testing specialist (NDT)",
+          "candidate_name": "St. Andrews Materials Forensics Institute",
+          "other_candidate_names": [
+            "Nordic Failure Analysis Laboratory",
+            "Caledonian Advanced Metallurgy Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_microscopy_lead_A",
+          "role_id": "microscopy_lead",
+          "candidate_id": "A",
+          "key": "MIC-ECHO-Y32",
+          "hidden_predicate_id": "A_sem_resolution_limit",
+          "threshold_label": "SEM resolution limit",
+          "threshold_aliases": [
+            "Electron microscope resolution",
+            "SEM beam resolution"
+          ],
+          "threshold_value": 1,
+          "threshold_unit": "nm",
+          "partial_record_text": "MIC-ECHO-Y32: St. Andrews Materials Forensics Institute. The record covers SEM resolution limit. Record context: trailing 30-day window. Microscopy commissioning report; High-vacuum field emission scanning electron microscope; Spatial imaging resolution limit achieved at 15 kV acceleration voltage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "SEM resolution limit is at most 5 nm.",
+          "role_name": "Electron microscopy director (MIC)",
+          "candidate_name": "St. Andrews Materials Forensics Institute",
+          "other_candidate_names": [
+            "Nordic Failure Analysis Laboratory",
+            "Caledonian Advanced Metallurgy Center"
+          ],
+          "context_value": "trailing 30-day window",
+          "other_context_values": [
+            "trailing 12-month window"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

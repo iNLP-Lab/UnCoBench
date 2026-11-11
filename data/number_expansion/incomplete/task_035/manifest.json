@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_035",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telecommunications",
+        "grid_operations"
+      ],
+      "role_names": [
+        "Diplomatic telecommunications coordinator (TEL)",
+        "High-voltage grid connection manager (POW)"
+      ],
+      "directory": "incomplete/task_035",
+      "profiles": [
+        {
+          "record_id": "rec_telecommunications_A",
+          "role_id": "telecommunications",
+          "candidate_id": "A",
+          "key": "TEL-NETW-TCR",
+          "boolean_predicate_id": "A_fiber_redundancy_active",
+          "boolean_label": "Secondary fiber redundancy active",
+          "hidden_predicate_id": "A_terminal_setup_latency",
+          "threshold_label": "Per-terminal network setup latency",
+          "threshold_aliases": [
+            "Delegate station setup time",
+            "Terminal provisioning duration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "TEL-NETW-TCR: Palais des Congrès de Genève.Palais des Congrès de Genève: Secondary fiber redundancy active = true .Source: Network operations center connectivity log; Scope: Summit core transmission circuits; Measurement: Verification of physically diverse, active dark fiber paths from separate telecommunications exchanges.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Per-terminal network setup latency is between 10 min and 40 min, inclusive.",
+          "role_name": "Diplomatic telecommunications coordinator (TEL)",
+          "candidate_name": "Palais des Congrès de Genève",
+          "other_candidate_names": [
+            "Bavaria International Expo Center",
+            "Nordic Waterfront Congress Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_operations_A",
+          "role_id": "grid_operations",
+          "candidate_id": "A",
+          "key": "POW-GRID-XAK",
+          "hidden_predicate_id": "A_plenary_power_allocation",
+          "threshold_label": "Primary plenary power allocation",
+          "threshold_aliases": [
+            "Plenary hall substation load",
+            "Main auditorium electrical allocation"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "kW",
+          "partial_record_text": "POW-GRID-XAK: Palais des Congrès de Genève. The record covers Primary plenary power allocation. Electrical grid feeder distribution schedule; Plenary hall primary distribution transformers; Dedicated peak continuous real power allocated for plenary audio-visual, broadcast lighting, and climate controls.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary plenary power allocation is between 300 kW and 900 kW, inclusive.",
+          "role_name": "High-voltage grid connection manager (POW)",
+          "candidate_name": "Palais des Congrès de Genève",
+          "other_candidate_names": [
+            "Bavaria International Expo Center",
+            "Nordic Waterfront Congress Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telecommunications",
+        "grid_operations",
+        "venue_engineering"
+      ],
+      "role_names": [
+        "Diplomatic telecommunications coordinator (TEL)",
+        "High-voltage grid connection manager (POW)",
+        "Structural and rigging engineer (RIG)"
+      ],
+      "directory": "incomplete/task_035",
+      "profiles": [
+        {
+          "record_id": "rec_telecommunications_A",
+          "role_id": "telecommunications",
+          "candidate_id": "A",
+          "key": "TEL-NETW-TCR",
+          "boolean_predicate_id": "A_fiber_redundancy_active",
+          "boolean_label": "Secondary fiber redundancy active",
+          "hidden_predicate_id": "A_terminal_setup_latency",
+          "threshold_label": "Per-terminal network setup latency",
+          "threshold_aliases": [
+            "Delegate station setup time",
+            "Terminal provisioning duration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "TEL-NETW-TCR: Palais des Congrès de Genève.Palais des Congrès de Genève: Secondary fiber redundancy active = true .Source: Network operations center connectivity log; Scope: Summit core transmission circuits; Measurement: Verification of physically diverse, active dark fiber paths from separate telecommunications exchanges.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Per-terminal network setup latency is between 10 min and 40 min, inclusive.",
+          "role_name": "Diplomatic telecommunications coordinator (TEL)",
+          "candidate_name": "Palais des Congrès de Genève",
+          "other_candidate_names": [
+            "Bavaria International Expo Center",
+            "Nordic Waterfront Congress Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_operations_A",
+          "role_id": "grid_operations",
+          "candidate_id": "A",
+          "key": "POW-GRID-XAK",
+          "hidden_predicate_id": "A_plenary_power_allocation",
+          "threshold_label": "Primary plenary power allocation",
+          "threshold_aliases": [
+            "Plenary hall substation load",
+            "Main auditorium electrical allocation"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "kW",
+          "partial_record_text": "POW-GRID-XAK: Palais des Congrès de Genève. The record covers Primary plenary power allocation. Electrical grid feeder distribution schedule; Plenary hall primary distribution transformers; Dedicated peak continuous real power allocated for plenary audio-visual, broadcast lighting, and climate controls.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary plenary power allocation is between 300 kW and 900 kW, inclusive.",
+          "role_name": "High-voltage grid connection manager (POW)",
+          "candidate_name": "Palais des Congrès de Genève",
+          "other_candidate_names": [
+            "Bavaria International Expo Center",
+            "Nordic Waterfront Congress Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_engineering_A",
+          "role_id": "venue_engineering",
+          "candidate_id": "A",
+          "key": "RIG-LOAD-DXC",
+          "hidden_predicate_id": "A_pavilion_power_allocation",
+          "threshold_label": "Peripheral pavilion power allocation",
+          "threshold_aliases": [
+            "Bilateral pavilion electrical supply",
+            "Exhibition booth feeder load"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "kW",
+          "partial_record_text": "RIG-LOAD-DXC: Palais des Congrès de Genève.Palais des Congrès de Genève: Structural heavy-rigging certification = true .Source: Structural safety inspection certificate; Scope: Plenary ceiling truss network; Measurement: Confirmation that overhead trusses withstand point loads exceeding 50 kN without structural deflection.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Peripheral pavilion power allocation is between 100 kW and 600 kW, inclusive.",
+          "role_name": "Structural and rigging engineer (RIG)",
+          "candidate_name": "Palais des Congrès de Genève",
+          "other_candidate_names": [
+            "Bavaria International Expo Center",
+            "Nordic Waterfront Congress Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

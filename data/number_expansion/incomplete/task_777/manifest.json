@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_777",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_health_lead",
+        "emergency_medical_director"
+      ],
+      "role_names": [
+        "Environmental Health Lead (ENV)",
+        "Emergency Medical Director (MED)"
+      ],
+      "directory": "incomplete/task_777",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_lead_A",
+          "role_id": "environmental_health_lead",
+          "candidate_id": "A",
+          "key": "ENV-AIR-LM7",
+          "boolean_predicate_id": "A_hvac_filtration_active",
+          "boolean_label": "Continuous HVAC air filtration active",
+          "hidden_predicate_id": "A_air_exchange_rate",
+          "threshold_label": "Minimum continuous air exchange rate",
+          "threshold_aliases": [
+            "Shelter air exchange rate",
+            "Continuous ventilation exchange rate"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "1/h",
+          "partial_record_text": "ENV-AIR-LM7: Acadiana Regional Exposition Center.Acadiana Regional Exposition Center: Continuous HVAC air filtration active = true .Source: Air handling unit telemetry status log; Scope: Central shelter air handling systems; Measurement: Binary operational verification of continuous MERV-14 or higher air filtration.",
+          "role_name": "Environmental Health Lead (ENV)",
+          "candidate_name": "Acadiana Regional Exposition Center",
+          "other_candidate_names": [
+            "Bayou Pines Sports Complex",
+            "Pelican State Event Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_director_A",
+          "role_id": "emergency_medical_director",
+          "candidate_id": "A",
+          "key": "MED-CLIN-UIM",
+          "hidden_predicate_id": "A_medical_cot_capacity",
+          "threshold_label": "Dedicated emergency medical cot capacity",
+          "threshold_aliases": [
+            "Medical cot reserve",
+            "Emergency shelter medical beds"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "cots",
+          "partial_record_text": "MED-CLIN-UIM: Acadiana Regional Exposition Center.Acadiana Regional Exposition Center: Field clinic triage intake rate = 40 persons/h.Source: Medical triage staffing and flow assessment; Scope: Primary shelter medical intake pavilion; Measurement: Maximum sustainable rate of arriving evacuees undergoing clinical acuity triage.",
+          "role_name": "Emergency Medical Director (MED)",
+          "candidate_name": "Acadiana Regional Exposition Center",
+          "other_candidate_names": [
+            "Bayou Pines Sports Complex",
+            "Pelican State Event Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_health_lead",
+        "emergency_medical_director",
+        "structural_engineering_lead"
+      ],
+      "role_names": [
+        "Environmental Health Lead (ENV)",
+        "Emergency Medical Director (MED)",
+        "Structural Engineering Lead (ENG)"
+      ],
+      "directory": "incomplete/task_777",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_lead_A",
+          "role_id": "environmental_health_lead",
+          "candidate_id": "A",
+          "key": "ENV-AIR-LM7",
+          "boolean_predicate_id": "A_hvac_filtration_active",
+          "boolean_label": "Continuous HVAC air filtration active",
+          "hidden_predicate_id": "A_air_exchange_rate",
+          "threshold_label": "Minimum continuous air exchange rate",
+          "threshold_aliases": [
+            "Shelter air exchange rate",
+            "Continuous ventilation exchange rate"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "1/h",
+          "partial_record_text": "ENV-AIR-LM7: Acadiana Regional Exposition Center.Acadiana Regional Exposition Center: Continuous HVAC air filtration active = true .Source: Air handling unit telemetry status log; Scope: Central shelter air handling systems; Measurement: Binary operational verification of continuous MERV-14 or higher air filtration.",
+          "role_name": "Environmental Health Lead (ENV)",
+          "candidate_name": "Acadiana Regional Exposition Center",
+          "other_candidate_names": [
+            "Bayou Pines Sports Complex",
+            "Pelican State Event Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_director_A",
+          "role_id": "emergency_medical_director",
+          "candidate_id": "A",
+          "key": "MED-CLIN-UIM",
+          "hidden_predicate_id": "A_medical_cot_capacity",
+          "threshold_label": "Dedicated emergency medical cot capacity",
+          "threshold_aliases": [
+            "Medical cot reserve",
+            "Emergency shelter medical beds"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "cots",
+          "partial_record_text": "MED-CLIN-UIM: Acadiana Regional Exposition Center.Acadiana Regional Exposition Center: Field clinic triage intake rate = 40 persons/h.Source: Medical triage staffing and flow assessment; Scope: Primary shelter medical intake pavilion; Measurement: Maximum sustainable rate of arriving evacuees undergoing clinical acuity triage.",
+          "role_name": "Emergency Medical Director (MED)",
+          "candidate_name": "Acadiana Regional Exposition Center",
+          "other_candidate_names": [
+            "Bayou Pines Sports Complex",
+            "Pelican State Event Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_lead_A",
+          "role_id": "structural_engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-STRUC-1AI",
+          "hidden_predicate_id": "A_design_wind_speed",
+          "threshold_label": "Design structural wind resistance rating",
+          "threshold_aliases": [
+            "Wind resistance speed",
+            "Structural wind rating"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "mph",
+          "partial_record_text": "ENG-STRUC-1AI: Acadiana Regional Exposition Center. The record covers Design structural wind resistance rating. Structural engineering evaluation certificate; Candidate main facility structural frame and building envelope; Three-second gust design wind speed certified under ASCE 7 hazard standards.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 130,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Design structural wind resistance rating is at least 130 mph.",
+          "role_name": "Structural Engineering Lead (ENG)",
+          "candidate_name": "Acadiana Regional Exposition Center",
+          "other_candidate_names": [
+            "Bayou Pines Sports Complex",
+            "Pelican State Event Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_311",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cargo_logistics",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Cargo and cold-chain logistics directorate (CARGO)",
+        "Flight operations directorate (FLTOPS)"
+      ],
+      "directory": "incomplete/task_311",
+      "profiles": [
+        {
+          "record_id": "rec_cargo_logistics_A",
+          "role_id": "cargo_logistics",
+          "candidate_id": "A",
+          "key": "CARGO-THERM-P46",
+          "boolean_predicate_id": "A_cold_chain_telemetry_enabled",
+          "boolean_label": "Real-time cold-chain telemetry enabled",
+          "hidden_predicate_id": "A_temp_excursion_resolution_mins",
+          "threshold_label": "Maximum cargo temperature excursion resolution time",
+          "threshold_aliases": [
+            "Thermal excursion recovery time",
+            "Cold-chain breach restoration duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "CARGO-THERM-P46: AeroRelief Global Charters.AeroRelief Global Charters: Real-time cold-chain telemetry enabled = true .Source: Cargo telemetry commissioning certificate; Scope: Main cargo deck thermal monitoring systems; Measurement: Presence of active in-flight satellite telemetry transceivers for vaccine storage bays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Maximum cargo temperature excursion resolution time is between 20 min and 100 min, inclusive.",
+          "role_name": "Cargo and cold-chain logistics directorate (CARGO)",
+          "candidate_name": "AeroRelief Global Charters",
+          "other_candidate_names": [
+            "Trans-Equatorial Heavy Lift",
+            "Atlas Humanitarian Air Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-CREW-M6G",
+          "hidden_predicate_id": "A_adverse_weather_hours",
+          "threshold_label": "Pilot adverse-weather command flight hours",
+          "threshold_aliases": [
+            "Extreme-weather pilot hours",
+            "Adverse-condition PIC flight experience"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "h",
+          "partial_record_text": "FLTOPS-CREW-M6G: AeroRelief Global Charters.AeroRelief Global Charters: Core fleet scramble time = 2 h.Source: Operational readiness assessment; Scope: Ready-standby aircraft and core aircrew; Measurement: Time from initial mobilization order to wheels-up departure for standard medical cargo.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 500,
+            "upper": 3000
+          },
+          "coarse_statement": "Pilot adverse-weather command flight hours is between 500 h and 3000 h, inclusive.",
+          "role_name": "Flight operations directorate (FLTOPS)",
+          "candidate_name": "AeroRelief Global Charters",
+          "other_candidate_names": [
+            "Trans-Equatorial Heavy Lift",
+            "Atlas Humanitarian Air Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cargo_logistics",
+        "flight_operations",
+        "airfield_handling"
+      ],
+      "role_names": [
+        "Cargo and cold-chain logistics directorate (CARGO)",
+        "Flight operations directorate (FLTOPS)",
+        "Airfield operations and ground handling liaison (APRON)"
+      ],
+      "directory": "incomplete/task_311",
+      "profiles": [
+        {
+          "record_id": "rec_cargo_logistics_A",
+          "role_id": "cargo_logistics",
+          "candidate_id": "A",
+          "key": "CARGO-THERM-P46",
+          "boolean_predicate_id": "A_cold_chain_telemetry_enabled",
+          "boolean_label": "Real-time cold-chain telemetry enabled",
+          "hidden_predicate_id": "A_temp_excursion_resolution_mins",
+          "threshold_label": "Maximum cargo temperature excursion resolution time",
+          "threshold_aliases": [
+            "Thermal excursion recovery time",
+            "Cold-chain breach restoration duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "CARGO-THERM-P46: AeroRelief Global Charters.AeroRelief Global Charters: Real-time cold-chain telemetry enabled = true .Source: Cargo telemetry commissioning certificate; Scope: Main cargo deck thermal monitoring systems; Measurement: Presence of active in-flight satellite telemetry transceivers for vaccine storage bays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Maximum cargo temperature excursion resolution time is between 20 min and 100 min, inclusive.",
+          "role_name": "Cargo and cold-chain logistics directorate (CARGO)",
+          "candidate_name": "AeroRelief Global Charters",
+          "other_candidate_names": [
+            "Trans-Equatorial Heavy Lift",
+            "Atlas Humanitarian Air Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-CREW-M6G",
+          "hidden_predicate_id": "A_adverse_weather_hours",
+          "threshold_label": "Pilot adverse-weather command flight hours",
+          "threshold_aliases": [
+            "Extreme-weather pilot hours",
+            "Adverse-condition PIC flight experience"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "h",
+          "partial_record_text": "FLTOPS-CREW-M6G: AeroRelief Global Charters.AeroRelief Global Charters: Core fleet scramble time = 2 h.Source: Operational readiness assessment; Scope: Ready-standby aircraft and core aircrew; Measurement: Time from initial mobilization order to wheels-up departure for standard medical cargo.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 500,
+            "upper": 3000
+          },
+          "coarse_statement": "Pilot adverse-weather command flight hours is between 500 h and 3000 h, inclusive.",
+          "role_name": "Flight operations directorate (FLTOPS)",
+          "candidate_name": "AeroRelief Global Charters",
+          "other_candidate_names": [
+            "Trans-Equatorial Heavy Lift",
+            "Atlas Humanitarian Air Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airfield_handling_A",
+          "role_id": "airfield_handling",
+          "candidate_id": "A",
+          "key": "APRON-RAMP-72R",
+          "hidden_predicate_id": "A_heavy_cargo_mobilization_time",
+          "threshold_label": "Heavy-cargo mobilization time",
+          "threshold_aliases": [
+            "Heavy airlift staging duration",
+            "Outsize cargo ramp loading time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "h",
+          "partial_record_text": "APRON-RAMP-72R: AeroRelief Global Charters.AeroRelief Global Charters: Forward airfield apron access clearance = true .Source: Regional airport authority clearance register; Scope: Primary crisis hub staging airfields; Measurement: Validated gate and apron operations clearance for humanitarian widebody operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 20
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Heavy-cargo mobilization time is between 0 h and 20 h, inclusive.",
+          "role_name": "Airfield operations and ground handling liaison (APRON)",
+          "candidate_name": "AeroRelief Global Charters",
+          "other_candidate_names": [
+            "Trans-Equatorial Heavy Lift",
+            "Atlas Humanitarian Air Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

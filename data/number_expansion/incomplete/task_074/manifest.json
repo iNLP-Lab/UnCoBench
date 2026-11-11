@@ -1,0 +1,206 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_074",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "diving_operations",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Subsea intervention manager (DIV)",
+        "Vessel towing and salvage engineer (ENG)"
+      ],
+      "directory": "incomplete/task_074",
+      "profiles": [
+        {
+          "record_id": "rec_diving_operations_A",
+          "role_id": "diving_operations",
+          "candidate_id": "A",
+          "key": "DIV-DIVE-K39",
+          "boolean_predicate_id": "A_diver_habitat_staged",
+          "boolean_label": "Diver saturation habitat staging",
+          "hidden_predicate_id": "A_seabed_drift_velocity",
+          "threshold_label": "Seabed sediment drift velocity",
+          "threshold_aliases": [
+            "Bottom current velocity",
+            "Benthic drift rate"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "m/s",
+          "partial_record_text": "DIV-DIVE-K39: Dogger Bank Deepwater Trench Route.Dogger Bank Deepwater Trench Route: Diver saturation habitat staging = true .Source: Subsea contractor mobilization manifest; Scope: Emergency dive support support vessel; Measurement: Operational staging and gas tie-in of the saturation habitat.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "Seabed sediment drift velocity is between 1 m/s and 4 m/s, inclusive.",
+          "role_name": "Subsea intervention manager (DIV)",
+          "candidate_name": "Dogger Bank Deepwater Trench Route",
+          "other_candidate_names": [
+            "Firth of Forth Southern Approach",
+            "Silver Pit Subsea Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PULL-A1V",
+          "hidden_predicate_id": "A_bollard_pull_rating",
+          "threshold_label": "Tugboat bollard pull rating",
+          "threshold_aliases": [
+            "Certified bollard pull",
+            "Emergency salvage pull"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-PULL-A1V: Dogger Bank Deepwater Trench Route.Dogger Bank Deepwater Trench Route: Heavy equipment transit time = 6 h.Source: Marine routing voyage calculation; Scope: From Aberdeen mobilization base to the subsea tie-in site; Measurement: Estimated transit duration at nominal service towing speed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Tugboat bollard pull rating is between 100 t and 400 t, inclusive.",
+          "role_name": "Vessel towing and salvage engineer (ENG)",
+          "candidate_name": "Dogger Bank Deepwater Trench Route",
+          "other_candidate_names": [
+            "Firth of Forth Southern Approach",
+            "Silver Pit Subsea Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "diving_operations",
+        "marine_engineering",
+        "maritime_authority"
+      ],
+      "role_names": [
+        "Subsea intervention manager (DIV)",
+        "Vessel towing and salvage engineer (ENG)",
+        "Navigational safety superintendent (NAV)"
+      ],
+      "directory": "number_expansion/incomplete/task_074/k3",
+      "profiles": [
+        {
+          "record_id": "rec_diving_operations_A",
+          "role_id": "diving_operations",
+          "candidate_id": "A",
+          "key": "DIV-DIVE-K39",
+          "boolean_predicate_id": "A_diver_habitat_staged",
+          "boolean_label": "Diver saturation habitat staging",
+          "hidden_predicate_id": "A_seabed_drift_velocity",
+          "threshold_label": "Seabed sediment drift velocity",
+          "threshold_aliases": [
+            "Bottom current velocity",
+            "Benthic drift rate"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "m/s",
+          "partial_record_text": "DIV-DIVE-K39: Dogger Bank Deepwater Trench Route.Dogger Bank Deepwater Trench Route: Diver saturation habitat staging = true .Source: Subsea contractor mobilization manifest; Scope: Emergency dive support support vessel; Measurement: Operational staging and gas tie-in of the saturation habitat.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "Seabed sediment drift velocity is between 1 m/s and 4 m/s, inclusive.",
+          "role_name": "Subsea intervention manager (DIV)",
+          "candidate_name": "Dogger Bank Deepwater Trench Route",
+          "other_candidate_names": [
+            "Firth of Forth Southern Approach",
+            "Silver Pit Subsea Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PULL-A1V",
+          "hidden_predicate_id": "A_bollard_pull_rating",
+          "threshold_label": "Tugboat bollard pull rating",
+          "threshold_aliases": [
+            "Certified bollard pull",
+            "Emergency salvage pull"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-PULL-A1V: Dogger Bank Deepwater Trench Route.Dogger Bank Deepwater Trench Route: Heavy equipment transit time = 6 h.Source: Marine routing voyage calculation; Scope: From Aberdeen mobilization base to the subsea tie-in site; Measurement: Estimated transit duration at nominal service towing speed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Tugboat bollard pull rating is between 100 t and 400 t, inclusive.",
+          "role_name": "Vessel towing and salvage engineer (ENG)",
+          "candidate_name": "Dogger Bank Deepwater Trench Route",
+          "other_candidate_names": [
+            "Firth of Forth Southern Approach",
+            "Silver Pit Subsea Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_authority_A_supplemental",
+          "role_id": "maritime_authority",
+          "candidate_id": "A",
+          "key": "NAV-BUOY-YUU",
+          "hidden_predicate_id": "A_supplemental_maritime_authority",
+          "threshold_label": "Emergency buoy battery autonomy",
+          "threshold_aliases": [],
+          "threshold_value": 30,
+          "threshold_unit": "d",
+          "partial_record_text": "NAV-BUOY-YUU: Dogger Bank Deepwater Trench Route. The record covers Emergency buoy battery autonomy. Navigational buoy telemetry log; Corridor boundary marker buoys; Verified continuous operating life of reserve power cells.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency buoy battery autonomy is between 10 d and 70 d, inclusive.",
+          "role_name": "Navigational safety superintendent (NAV)",
+          "candidate_name": "Dogger Bank Deepwater Trench Route",
+          "other_candidate_names": [
+            "Firth of Forth Southern Approach",
+            "Silver Pit Subsea Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [
+            "November 2024",
+            "October 2024"
+          ],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_maritime_authority",
+        "topic_id": "supplemental_maritime_authority",
+        "operator": "gte",
+        "threshold": 30,
+        "role_id": "maritime_authority",
+        "metric": "Emergency buoy battery autonomy",
+        "unit": "d",
+        "required_text": "To qualify, a candidate must also have Emergency buoy battery autonomy of at least 30 d.",
+        "new_fault_record_key": "NAV-BUOY-YUU",
+        "exact_value": 30,
+        "first_reply": "Emergency buoy battery autonomy is between 10 d and 70 d, inclusive."
+      }
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_593",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_safety",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Fire and Life Safety Inspector (FSI)",
+        "Transit Fleet Operations Supervisor (FOS)"
+      ],
+      "directory": "incomplete/task_593",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FSI-SAFE-TX0",
+          "boolean_predicate_id": "A_thermal_suppression_installed",
+          "boolean_label": "Automated thermal runaway suppression installed",
+          "hidden_predicate_id": "A_suppression_response_seconds",
+          "threshold_label": "Thermal suppression system response time",
+          "threshold_aliases": [
+            "Fire suppression activation latency",
+            "Suppression system response duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "s",
+          "partial_record_text": "FSI-SAFE-TX0: Pinecrest Express Bus Depot.Pinecrest Express Bus Depot: Automated thermal runaway suppression installed = true .Source: Fire safety systems commissioning log; Scope: Depot electric bus charging lanes and storage bays; Measurement: Whether an automated aerosol or water-mist thermal runaway suppression system is fully installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Thermal suppression system response time is between 20 s and 80 s, inclusive.",
+          "role_name": "Fire and Life Safety Inspector (FSI)",
+          "candidate_name": "Pinecrest Express Bus Depot",
+          "other_candidate_names": [
+            "Riverside Central Fleet Yard",
+            "Eastside Intermodal Maintenance Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FOS-OPS-FTT",
+          "hidden_predicate_id": "A_charger_availability_rate",
+          "threshold_label": "Overnight charger availability rate",
+          "threshold_aliases": [
+            "Charger operational uptime percentage",
+            "Charging dispenser availability rate"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "%",
+          "partial_record_text": "FOS-OPS-FTT: Pinecrest Express Bus Depot.Pinecrest Express Bus Depot: Midday opportunity charging capacity = 6000 kWh.Source: Depot midday schedule turn-around analysis; Scope: Depot inter-peak layover charging window between 11:00 and 14:00; Measurement: Total aggregate fast-charging energy available during midday route turn-arounds.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Overnight charger availability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Transit Fleet Operations Supervisor (FOS)",
+          "candidate_name": "Pinecrest Express Bus Depot",
+          "other_candidate_names": [
+            "Riverside Central Fleet Yard",
+            "Eastside Intermodal Maintenance Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_safety",
+        "fleet_operations",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Fire and Life Safety Inspector (FSI)",
+        "Transit Fleet Operations Supervisor (FOS)",
+        "Environmental and Acoustic Compliance Officer (ECO)"
+      ],
+      "directory": "incomplete/task_593",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FSI-SAFE-TX0",
+          "boolean_predicate_id": "A_thermal_suppression_installed",
+          "boolean_label": "Automated thermal runaway suppression installed",
+          "hidden_predicate_id": "A_suppression_response_seconds",
+          "threshold_label": "Thermal suppression system response time",
+          "threshold_aliases": [
+            "Fire suppression activation latency",
+            "Suppression system response duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "s",
+          "partial_record_text": "FSI-SAFE-TX0: Pinecrest Express Bus Depot.Pinecrest Express Bus Depot: Automated thermal runaway suppression installed = true .Source: Fire safety systems commissioning log; Scope: Depot electric bus charging lanes and storage bays; Measurement: Whether an automated aerosol or water-mist thermal runaway suppression system is fully installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Thermal suppression system response time is between 20 s and 80 s, inclusive.",
+          "role_name": "Fire and Life Safety Inspector (FSI)",
+          "candidate_name": "Pinecrest Express Bus Depot",
+          "other_candidate_names": [
+            "Riverside Central Fleet Yard",
+            "Eastside Intermodal Maintenance Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FOS-OPS-FTT",
+          "hidden_predicate_id": "A_charger_availability_rate",
+          "threshold_label": "Overnight charger availability rate",
+          "threshold_aliases": [
+            "Charger operational uptime percentage",
+            "Charging dispenser availability rate"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "%",
+          "partial_record_text": "FOS-OPS-FTT: Pinecrest Express Bus Depot.Pinecrest Express Bus Depot: Midday opportunity charging capacity = 6000 kWh.Source: Depot midday schedule turn-around analysis; Scope: Depot inter-peak layover charging window between 11:00 and 14:00; Measurement: Total aggregate fast-charging energy available during midday route turn-arounds.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Overnight charger availability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Transit Fleet Operations Supervisor (FOS)",
+          "candidate_name": "Pinecrest Express Bus Depot",
+          "other_candidate_names": [
+            "Riverside Central Fleet Yard",
+            "Eastside Intermodal Maintenance Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ECO-ENV-IIV",
+          "hidden_predicate_id": "A_boundary_noise_level",
+          "threshold_label": "Property boundary acoustic noise level",
+          "threshold_aliases": [
+            "Depot perimeter sound pressure level",
+            "Boundary ambient noise emission"
+          ],
+          "threshold_value": 58,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ECO-ENV-IIV: Pinecrest Express Bus Depot. The record covers Property boundary acoustic noise level. Record context: Version 2.0 equipment configuration. Environmental acoustics baseline survey; Depot exterior fence line adjacent to public right-of-way; Equivalent continuous A-weighted sound pressure level recorded during continuous full-power charger cooling operation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 80
+          },
+          "coarse_statement": "Property boundary acoustic noise level is between 50 dBA and 80 dBA, inclusive.",
+          "role_name": "Environmental and Acoustic Compliance Officer (ECO)",
+          "candidate_name": "Pinecrest Express Bus Depot",
+          "other_candidate_names": [
+            "Riverside Central Fleet Yard",
+            "Eastside Intermodal Maintenance Base"
+          ],
+          "context_value": "Version 2.0 equipment configuration",
+          "other_context_values": [
+            "Version 1.0 equipment configuration"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

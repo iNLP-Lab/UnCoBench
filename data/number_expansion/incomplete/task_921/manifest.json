@@ -1,0 +1,183 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_921",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_infrastructure",
+        "power_and_utilities"
+      ],
+      "role_names": [
+        "Marine infrastructure lead (MIL)",
+        "Utilities and energy lead (UEL)"
+      ],
+      "directory": "incomplete/task_921",
+      "profiles": [
+        {
+          "record_id": "rec_marine_infrastructure_A",
+          "role_id": "marine_infrastructure",
+          "candidate_id": "A",
+          "key": "MIL-MARI-L6H",
+          "boolean_predicate_id": "A_storm_surge_barrier_active",
+          "boolean_label": "Storm-surge tidal barrier operational",
+          "hidden_predicate_id": "A_barrier_freeboard_height",
+          "threshold_label": "Barrier crest freeboard height",
+          "threshold_aliases": [
+            "Storm barrier freeboard",
+            "Crest elevation above high-water spring"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "m",
+          "partial_record_text": "MIL-MARI-L6H: Airlie Point Maritime Complex.Airlie Point Maritime Complex: Storm-surge tidal barrier operational = true .Source: Coastal defense operational register; Scope: Seaward perimeter flood gates and seawalls; Measurement: Confirmed functional deployment readiness of mechanical tidal gates.",
+          "role_name": "Marine infrastructure lead (MIL)",
+          "candidate_name": "Airlie Point Maritime Complex",
+          "other_candidate_names": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_and_utilities_A",
+          "role_id": "power_and_utilities",
+          "candidate_id": "A",
+          "key": "UEL-UTIL-FMN",
+          "hidden_predicate_id": "A_potable_water_daily_output",
+          "threshold_label": "Potable water daily output",
+          "threshold_aliases": [
+            "Desalination water output",
+            "Daily drinking water production"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "kL/d",
+          "partial_record_text": "UEL-UTIL-FMN: Airlie Point Maritime Complex. The record covers Potable water daily output. Record context: after deducting emergency operational reserves. Facility water treatment telemetry; On-site reverse-osmosis desalination plant; Net certified potable freshwater volume produced per 24-hour cycle.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Potable water daily output is at least 30 kL/d.",
+          "role_name": "Utilities and energy lead (UEL)",
+          "candidate_name": "Airlie Point Maritime Complex",
+          "other_candidate_names": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "context_value": "after deducting emergency operational reserves",
+          "other_context_values": [
+            "before deducting emergency operational reserves"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_infrastructure",
+        "power_and_utilities",
+        "shelter_operations"
+      ],
+      "role_names": [
+        "Marine infrastructure lead (MIL)",
+        "Utilities and energy lead (UEL)",
+        "Shelter operations lead (SOL)"
+      ],
+      "directory": "incomplete/task_921",
+      "profiles": [
+        {
+          "record_id": "rec_marine_infrastructure_A",
+          "role_id": "marine_infrastructure",
+          "candidate_id": "A",
+          "key": "MIL-MARI-L6H",
+          "boolean_predicate_id": "A_storm_surge_barrier_active",
+          "boolean_label": "Storm-surge tidal barrier operational",
+          "hidden_predicate_id": "A_barrier_freeboard_height",
+          "threshold_label": "Barrier crest freeboard height",
+          "threshold_aliases": [
+            "Storm barrier freeboard",
+            "Crest elevation above high-water spring"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "m",
+          "partial_record_text": "MIL-MARI-L6H: Airlie Point Maritime Complex.Airlie Point Maritime Complex: Storm-surge tidal barrier operational = true .Source: Coastal defense operational register; Scope: Seaward perimeter flood gates and seawalls; Measurement: Confirmed functional deployment readiness of mechanical tidal gates.",
+          "role_name": "Marine infrastructure lead (MIL)",
+          "candidate_name": "Airlie Point Maritime Complex",
+          "other_candidate_names": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_and_utilities_A",
+          "role_id": "power_and_utilities",
+          "candidate_id": "A",
+          "key": "UEL-UTIL-FMN",
+          "hidden_predicate_id": "A_potable_water_daily_output",
+          "threshold_label": "Potable water daily output",
+          "threshold_aliases": [
+            "Desalination water output",
+            "Daily drinking water production"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "kL/d",
+          "partial_record_text": "UEL-UTIL-FMN: Airlie Point Maritime Complex. The record covers Potable water daily output. Record context: after deducting emergency operational reserves. Facility water treatment telemetry; On-site reverse-osmosis desalination plant; Net certified potable freshwater volume produced per 24-hour cycle.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Potable water daily output is at least 30 kL/d.",
+          "role_name": "Utilities and energy lead (UEL)",
+          "candidate_name": "Airlie Point Maritime Complex",
+          "other_candidate_names": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "context_value": "after deducting emergency operational reserves",
+          "other_context_values": [
+            "before deducting emergency operational reserves"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_operations_A",
+          "role_id": "shelter_operations",
+          "candidate_id": "A",
+          "key": "SOL-SHEL-VOC",
+          "hidden_predicate_id": "A_sheltered_evacuee_capacity",
+          "threshold_label": "Sheltered evacuee capacity",
+          "threshold_aliases": [
+            "Bunkered shelter capacity",
+            "Certified evacuee head count"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "person",
+          "partial_record_text": "SOL-SHEL-VOC: Airlie Point Maritime Complex. The record covers Sheltered evacuee capacity. Civil defense occupancy certification; Hardened cyclone-rated indoor quarters; Maximum number of individuals permitted for safe multi-day sheltering.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 800
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Sheltered evacuee capacity is at most 800 person.",
+          "role_name": "Shelter operations lead (SOL)",
+          "candidate_name": "Airlie Point Maritime Complex",
+          "other_candidate_names": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_964",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics",
+        "regulatory_safety"
+      ],
+      "role_names": [
+        "Geophysical surveillance lead (GEOP)",
+        "Offshore regulatory safety liaison (SAFE)"
+      ],
+      "directory": "incomplete/task_964",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_A",
+          "role_id": "geophysics",
+          "candidate_id": "A",
+          "key": "GEOP-SEIS-Z2A",
+          "boolean_predicate_id": "A_seismic_monitoring_active",
+          "boolean_label": "Active seismic baseline monitoring",
+          "hidden_predicate_id": "A_max_microseismic_magnitude",
+          "threshold_label": "Maximum microseismic event magnitude",
+          "threshold_aliases": [
+            "Induced seismicity peak magnitude",
+            "Baseline tremor intensity"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "M_L",
+          "partial_record_text": "GEOP-SEIS-Z2A: Basalt mineralization supercritical injection.Basalt mineralization supercritical injection: Active seismic baseline monitoring = true .Source: Seismograph network readiness audit; Scope: Downhole fiber-optic and seabed ocean bottom node telemetry; Measurement: Operational status of real-time multi-station acoustic baseline monitoring network.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum microseismic event magnitude is at most 4 M_L.",
+          "role_name": "Geophysical surveillance lead (GEOP)",
+          "candidate_name": "Basalt mineralization supercritical injection",
+          "other_candidate_names": [
+            "Deep saline sandstone aquifer displacement",
+            "Depleted offshore reservoir containment cycle"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_safety_A",
+          "role_id": "regulatory_safety",
+          "candidate_id": "A",
+          "key": "SAFE-REG-IKM",
+          "hidden_predicate_id": "A_barrier_redundancy_count",
+          "threshold_label": "Containment barrier redundancy",
+          "threshold_aliases": [
+            "Well control barriers",
+            "Independent containment barrier count"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "barriers",
+          "partial_record_text": "SAFE-REG-IKM: Basalt mineralization supercritical injection. The record covers Containment barrier redundancy. Safety case barrier certificate; Wellhead and subsurface safety valve assembly; Number of qualified, independently tested mechanical barriers isolating the reservoir.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Containment barrier redundancy is at most 4 barriers.",
+          "role_name": "Offshore regulatory safety liaison (SAFE)",
+          "candidate_name": "Basalt mineralization supercritical injection",
+          "other_candidate_names": [
+            "Deep saline sandstone aquifer displacement",
+            "Depleted offshore reservoir containment cycle"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics",
+        "regulatory_safety",
+        "waste_management"
+      ],
+      "role_names": [
+        "Geophysical surveillance lead (GEOP)",
+        "Offshore regulatory safety liaison (SAFE)",
+        "Drilling waste supervisor (WAST)"
+      ],
+      "directory": "incomplete/task_964",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_A",
+          "role_id": "geophysics",
+          "candidate_id": "A",
+          "key": "GEOP-SEIS-Z2A",
+          "boolean_predicate_id": "A_seismic_monitoring_active",
+          "boolean_label": "Active seismic baseline monitoring",
+          "hidden_predicate_id": "A_max_microseismic_magnitude",
+          "threshold_label": "Maximum microseismic event magnitude",
+          "threshold_aliases": [
+            "Induced seismicity peak magnitude",
+            "Baseline tremor intensity"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "M_L",
+          "partial_record_text": "GEOP-SEIS-Z2A: Basalt mineralization supercritical injection.Basalt mineralization supercritical injection: Active seismic baseline monitoring = true .Source: Seismograph network readiness audit; Scope: Downhole fiber-optic and seabed ocean bottom node telemetry; Measurement: Operational status of real-time multi-station acoustic baseline monitoring network.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum microseismic event magnitude is at most 4 M_L.",
+          "role_name": "Geophysical surveillance lead (GEOP)",
+          "candidate_name": "Basalt mineralization supercritical injection",
+          "other_candidate_names": [
+            "Deep saline sandstone aquifer displacement",
+            "Depleted offshore reservoir containment cycle"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_safety_A",
+          "role_id": "regulatory_safety",
+          "candidate_id": "A",
+          "key": "SAFE-REG-IKM",
+          "hidden_predicate_id": "A_barrier_redundancy_count",
+          "threshold_label": "Containment barrier redundancy",
+          "threshold_aliases": [
+            "Well control barriers",
+            "Independent containment barrier count"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "barriers",
+          "partial_record_text": "SAFE-REG-IKM: Basalt mineralization supercritical injection. The record covers Containment barrier redundancy. Safety case barrier certificate; Wellhead and subsurface safety valve assembly; Number of qualified, independently tested mechanical barriers isolating the reservoir.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Containment barrier redundancy is at most 4 barriers.",
+          "role_name": "Offshore regulatory safety liaison (SAFE)",
+          "candidate_name": "Basalt mineralization supercritical injection",
+          "other_candidate_names": [
+            "Deep saline sandstone aquifer displacement",
+            "Depleted offshore reservoir containment cycle"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_waste_management_A",
+          "role_id": "waste_management",
+          "candidate_id": "A",
+          "key": "WAST-ENV-QMM",
+          "hidden_predicate_id": "A_mud_pit_discharge_mass",
+          "threshold_label": "Mud pit discharge sediment mass",
+          "threshold_aliases": [
+            "Spent drilling mud mass",
+            "Pit discharge waste tonnage"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "t",
+          "partial_record_text": "WAST-ENV-QMM: Basalt mineralization supercritical injection.Basalt mineralization supercritical injection: Offshore environmental response readiness = true .Source: Maritime pollution readiness inspection; Scope: Drilling rig chemical containment and hazardous fluid recovery assets; Measurement: Verification that containment skimmers and emergency capping manifolds are operational on-station.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mud pit discharge sediment mass is at most 100 t.",
+          "role_name": "Drilling waste supervisor (WAST)",
+          "candidate_name": "Basalt mineralization supercritical injection",
+          "other_candidate_names": [
+            "Deep saline sandstone aquifer displacement",
+            "Depleted offshore reservoir containment cycle"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

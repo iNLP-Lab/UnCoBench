@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_480",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_audit",
+        "cryogenic_engineering"
+      ],
+      "role_names": [
+        "Environmental Compliance Assessor (ENVIRO)",
+        "Cryogenic Systems Specialist (CRYO)"
+      ],
+      "directory": "incomplete/task_480",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_audit_A",
+          "role_id": "environmental_audit",
+          "candidate_id": "A",
+          "key": "ENVIRO-ECO-KVT",
+          "boolean_predicate_id": "A_emissions_monitoring_active",
+          "boolean_label": "Emissions monitoring enablement",
+          "hidden_predicate_id": "A_hydrogen_carbon_intensity",
+          "threshold_label": "Hydrogen lifecycle carbon intensity",
+          "threshold_aliases": [
+            "Carbon footprint of hydrogen production",
+            "GHG intensity index"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "kg/kg",
+          "partial_record_text": "ENVIRO-ECO-KVT: North Sea Clean Fuels Consortium.North Sea Clean Fuels Consortium: Emissions monitoring enablement = true .Source: Emissions telemetry instrumentation ledger; Scope: Candidate hydrogen production facilities; Measurement: Confirmation of operational real-time continuous stack and grid carbon telemetry.",
+          "role_name": "Environmental Compliance Assessor (ENVIRO)",
+          "candidate_name": "North Sea Clean Fuels Consortium",
+          "other_candidate_names": [
+            "Celtic Marine Hydrogen Alliance",
+            "Baltic Zero-Carbon Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryogenic_engineering_A",
+          "role_id": "cryogenic_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-SPEC-V6L",
+          "hidden_predicate_id": "A_dedicated_buffer_reserve",
+          "threshold_label": "Dedicated buffer reserve",
+          "threshold_aliases": [
+            "Cryogenic storage buffer",
+            "Dedicated tank contingency volume"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "t",
+          "partial_record_text": "CRYO-SPEC-V6L: North Sea Clean Fuels Consortium.North Sea Clean Fuels Consortium: Cryogenic containment integrity certification = true .Source: Classification society technical dossier; Scope: Bunkering transfer skids and double-walled insulated tanks; Measurement: Formal compliance approval under international cryogenic pressure vessel standards.",
+          "role_name": "Cryogenic Systems Specialist (CRYO)",
+          "candidate_name": "North Sea Clean Fuels Consortium",
+          "other_candidate_names": [
+            "Celtic Marine Hydrogen Alliance",
+            "Baltic Zero-Carbon Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_audit",
+        "cryogenic_engineering",
+        "port_authority"
+      ],
+      "role_names": [
+        "Environmental Compliance Assessor (ENVIRO)",
+        "Cryogenic Systems Specialist (CRYO)",
+        "Port Operations Officer (PORT)"
+      ],
+      "directory": "incomplete/task_480",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_audit_A",
+          "role_id": "environmental_audit",
+          "candidate_id": "A",
+          "key": "ENVIRO-ECO-KVT",
+          "boolean_predicate_id": "A_emissions_monitoring_active",
+          "boolean_label": "Emissions monitoring enablement",
+          "hidden_predicate_id": "A_hydrogen_carbon_intensity",
+          "threshold_label": "Hydrogen lifecycle carbon intensity",
+          "threshold_aliases": [
+            "Carbon footprint of hydrogen production",
+            "GHG intensity index"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "kg/kg",
+          "partial_record_text": "ENVIRO-ECO-KVT: North Sea Clean Fuels Consortium.North Sea Clean Fuels Consortium: Emissions monitoring enablement = true .Source: Emissions telemetry instrumentation ledger; Scope: Candidate hydrogen production facilities; Measurement: Confirmation of operational real-time continuous stack and grid carbon telemetry.",
+          "role_name": "Environmental Compliance Assessor (ENVIRO)",
+          "candidate_name": "North Sea Clean Fuels Consortium",
+          "other_candidate_names": [
+            "Celtic Marine Hydrogen Alliance",
+            "Baltic Zero-Carbon Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryogenic_engineering_A",
+          "role_id": "cryogenic_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-SPEC-V6L",
+          "hidden_predicate_id": "A_dedicated_buffer_reserve",
+          "threshold_label": "Dedicated buffer reserve",
+          "threshold_aliases": [
+            "Cryogenic storage buffer",
+            "Dedicated tank contingency volume"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "t",
+          "partial_record_text": "CRYO-SPEC-V6L: North Sea Clean Fuels Consortium.North Sea Clean Fuels Consortium: Cryogenic containment integrity certification = true .Source: Classification society technical dossier; Scope: Bunkering transfer skids and double-walled insulated tanks; Measurement: Formal compliance approval under international cryogenic pressure vessel standards.",
+          "role_name": "Cryogenic Systems Specialist (CRYO)",
+          "candidate_name": "North Sea Clean Fuels Consortium",
+          "other_candidate_names": [
+            "Celtic Marine Hydrogen Alliance",
+            "Baltic Zero-Carbon Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_authority_A",
+          "role_id": "port_authority",
+          "candidate_id": "A",
+          "key": "PORT-BUNK-G6U",
+          "hidden_predicate_id": "A_daily_baseline_throughput",
+          "threshold_label": "Daily baseline bunkering throughput",
+          "threshold_aliases": [
+            "Baseline bunkering capacity",
+            "Guaranteed daily fuel flow"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "t",
+          "partial_record_text": "PORT-BUNK-G6U: North Sea Clean Fuels Consortium.North Sea Clean Fuels Consortium: Port bunkering safety clearance = true .Source: Port maritime safety assessment register; Scope: Designated harbor bunkering zones for 2026; Measurement: Whether the consortium holds an unqualified safety authorization from the port captain.",
+          "role_name": "Port Operations Officer (PORT)",
+          "candidate_name": "North Sea Clean Fuels Consortium",
+          "other_candidate_names": [
+            "Celtic Marine Hydrogen Alliance",
+            "Baltic Zero-Carbon Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

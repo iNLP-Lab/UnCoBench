@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_051",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_safety",
+        "logistics_coordination"
+      ],
+      "role_names": [
+        "Life safety and fire inspector (SAFE)",
+        "Logistics and freight coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_051",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SMOKE-O74",
+          "boolean_predicate_id": "A_smoke_exhaust_active",
+          "boolean_label": "Active emergency smoke exhaust verification",
+          "hidden_predicate_id": "A_hall_smoke_clearance_time",
+          "threshold_label": "Average hall smoke clearance time",
+          "threshold_aliases": [
+            "Smoke evacuation duration",
+            "Smoke purging interval"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-SMOKE-O74: Northbank Maritime Expo Centre.Northbank Maritime Expo Centre: Active emergency smoke exhaust verification = true .Source: Commissioning safety report; Scope: Mechanical smoke extraction ducting across exhibition bays; Measurement: Operational readiness confirmation of automatic louvre and fan actuators.",
+          "role_name": "Life safety and fire inspector (SAFE)",
+          "candidate_name": "Northbank Maritime Expo Centre",
+          "other_candidate_names": [
+            "Highland Valley Convention Hub",
+            "Solent Gateway Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordination_A",
+          "role_id": "logistics_coordination",
+          "candidate_id": "A",
+          "key": "LOG-DOCK-UA4",
+          "hidden_predicate_id": "A_peak_freight_intake",
+          "threshold_label": "Peak freight intake capacity",
+          "threshold_aliases": [
+            "Freight intake volume",
+            "Inbound cargo intake capacity"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-DOCK-UA4: Northbank Maritime Expo Centre.Logistics operating environment: Production environment.Northbank Maritime Expo Centre: Dedicated freight marshalling yard clearance = true .Source: Logistics security and access audit; Scope: Exterior freight check-in and queuing apron; Measurement: Clearance confirming dedicated off-street marshalling yard availability.",
+          "role_name": "Logistics and freight coordinator (LOG)",
+          "candidate_name": "Northbank Maritime Expo Centre",
+          "other_candidate_names": [
+            "Highland Valley Convention Hub",
+            "Solent Gateway Exhibition Pavilion"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Simulation staging environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_safety",
+        "logistics_coordination",
+        "facilities_infrastructure"
+      ],
+      "role_names": [
+        "Life safety and fire inspector (SAFE)",
+        "Logistics and freight coordinator (LOG)",
+        "Facilities and utilities superintendent (FACIL)"
+      ],
+      "directory": "incomplete/task_051",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SMOKE-O74",
+          "boolean_predicate_id": "A_smoke_exhaust_active",
+          "boolean_label": "Active emergency smoke exhaust verification",
+          "hidden_predicate_id": "A_hall_smoke_clearance_time",
+          "threshold_label": "Average hall smoke clearance time",
+          "threshold_aliases": [
+            "Smoke evacuation duration",
+            "Smoke purging interval"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-SMOKE-O74: Northbank Maritime Expo Centre.Northbank Maritime Expo Centre: Active emergency smoke exhaust verification = true .Source: Commissioning safety report; Scope: Mechanical smoke extraction ducting across exhibition bays; Measurement: Operational readiness confirmation of automatic louvre and fan actuators.",
+          "role_name": "Life safety and fire inspector (SAFE)",
+          "candidate_name": "Northbank Maritime Expo Centre",
+          "other_candidate_names": [
+            "Highland Valley Convention Hub",
+            "Solent Gateway Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordination_A",
+          "role_id": "logistics_coordination",
+          "candidate_id": "A",
+          "key": "LOG-DOCK-UA4",
+          "hidden_predicate_id": "A_peak_freight_intake",
+          "threshold_label": "Peak freight intake capacity",
+          "threshold_aliases": [
+            "Freight intake volume",
+            "Inbound cargo intake capacity"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-DOCK-UA4: Northbank Maritime Expo Centre.Logistics operating environment: Production environment.Northbank Maritime Expo Centre: Dedicated freight marshalling yard clearance = true .Source: Logistics security and access audit; Scope: Exterior freight check-in and queuing apron; Measurement: Clearance confirming dedicated off-street marshalling yard availability.",
+          "role_name": "Logistics and freight coordinator (LOG)",
+          "candidate_name": "Northbank Maritime Expo Centre",
+          "other_candidate_names": [
+            "Highland Valley Convention Hub",
+            "Solent Gateway Exhibition Pavilion"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Simulation staging environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_infrastructure_A",
+          "role_id": "facilities_infrastructure",
+          "candidate_id": "A",
+          "key": "FACIL-UTIL-M1O",
+          "hidden_predicate_id": "A_dedicated_dock_door_count",
+          "threshold_label": "Dedicated dock door count",
+          "threshold_aliases": [
+            "Dock doors",
+            "Loading bay doors"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "doors",
+          "partial_record_text": "FACIL-UTIL-M1O: Northbank Maritime Expo Centre.Northbank Maritime Expo Centre: Dual-feed utility grid redundancy = true .Source: Electrical supply resilience certificate; Scope: Primary medium-voltage power feeder lines to venue substations; Measurement: Verification of two physically independent electrical grid feeds with automatic transfer switching.",
+          "role_name": "Facilities and utilities superintendent (FACIL)",
+          "candidate_name": "Northbank Maritime Expo Centre",
+          "other_candidate_names": [
+            "Highland Valley Convention Hub",
+            "Solent Gateway Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

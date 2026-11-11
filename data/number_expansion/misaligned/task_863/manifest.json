@@ -1,0 +1,606 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_863",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_safety",
+        "training_standards"
+      ],
+      "role_names": [
+        "Aviation safety manager (SAFE)",
+        "Aviation training academy lead (TRN)"
+      ],
+      "directory": "number_expansion/misaligned/task_863/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aviation safety manager (SAFE)",
+          "target_key": "SAFE-SMS-4MT",
+          "alternate_key": "SAFE-AUDT-2M6",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Dual-flight-nurse intensive care crew",
+          "other_candidates": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "numeric": [
+            {
+              "topic": "fatigue_risk_index",
+              "value": 35,
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ],
+              "unit": "pt"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "adverse_incident_free",
+              "value": true,
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "high_altitude_clearance",
+              "label": "High-altitude mountain airway clearance",
+              "aliases": [
+                "High-altitude clearance",
+                "Mountain sector flight clearance"
+              ]
+            },
+            {
+              "topic": "pediatric_transport_certified",
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ]
+            },
+            {
+              "topic": "pediatric_mission_experience",
+              "label": "Annual pediatric transport mission volume",
+              "aliases": [
+                "Pediatric mission count",
+                "Annual pediatric volume"
+              ]
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ]
+            },
+            {
+              "topic": "fatigue_risk_index",
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ]
+            },
+            {
+              "topic": "adverse_incident_free",
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ]
+            },
+            {
+              "topic": "minimum_rest_buffer_approved",
+              "label": "Minimum mandatory rest buffer compliance approved",
+              "aliases": [
+                "Rest buffer compliance",
+                "Mandatory crew rest approval"
+              ]
+            },
+            {
+              "topic": "base_duty_flight_allowance",
+              "label": "Base monthly flight duty allowance",
+              "aliases": [
+                "Base flight allowance",
+                "Nominal duty flight hours"
+              ]
+            },
+            {
+              "topic": "standby_reserve_credit",
+              "label": "Monthly standby reserve credit hours",
+              "aliases": [
+                "Standby reserve credit",
+                "Reserve flight credit hours"
+              ]
+            },
+            {
+              "topic": "mandatory_simulator_hours",
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation training academy lead (TRN)",
+          "target_key": "TRN-SIMU-8MS",
+          "alternate_key": "TRN-SIMU-F1I",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Dual-flight-nurse intensive care crew",
+          "other_candidates": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_simulator_hours",
+              "value": 12,
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "high_altitude_clearance",
+              "label": "High-altitude mountain airway clearance",
+              "aliases": [
+                "High-altitude clearance",
+                "Mountain sector flight clearance"
+              ]
+            },
+            {
+              "topic": "pediatric_transport_certified",
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ]
+            },
+            {
+              "topic": "pediatric_mission_experience",
+              "label": "Annual pediatric transport mission volume",
+              "aliases": [
+                "Pediatric mission count",
+                "Annual pediatric volume"
+              ]
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ]
+            },
+            {
+              "topic": "fatigue_risk_index",
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ]
+            },
+            {
+              "topic": "adverse_incident_free",
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ]
+            },
+            {
+              "topic": "minimum_rest_buffer_approved",
+              "label": "Minimum mandatory rest buffer compliance approved",
+              "aliases": [
+                "Rest buffer compliance",
+                "Mandatory crew rest approval"
+              ]
+            },
+            {
+              "topic": "base_duty_flight_allowance",
+              "label": "Base monthly flight duty allowance",
+              "aliases": [
+                "Base flight allowance",
+                "Nominal duty flight hours"
+              ]
+            },
+            {
+              "topic": "standby_reserve_credit",
+              "label": "Monthly standby reserve credit hours",
+              "aliases": [
+                "Standby reserve credit",
+                "Reserve flight credit hours"
+              ]
+            },
+            {
+              "topic": "mandatory_simulator_hours",
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_safety",
+        "training_standards",
+        "clinical_governance"
+      ],
+      "role_names": [
+        "Aviation safety manager (SAFE)",
+        "Aviation training academy lead (TRN)",
+        "Clinical governance lead (MED)"
+      ],
+      "directory": "number_expansion/misaligned/task_863/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aviation safety manager (SAFE)",
+          "target_key": "SAFE-SMS-4MT",
+          "alternate_key": "SAFE-AUDT-2M6",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Dual-flight-nurse intensive care crew",
+          "other_candidates": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "numeric": [
+            {
+              "topic": "fatigue_risk_index",
+              "value": 35,
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ],
+              "unit": "pt"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "adverse_incident_free",
+              "value": true,
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "high_altitude_clearance",
+              "label": "High-altitude mountain airway clearance",
+              "aliases": [
+                "High-altitude clearance",
+                "Mountain sector flight clearance"
+              ]
+            },
+            {
+              "topic": "pediatric_transport_certified",
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ]
+            },
+            {
+              "topic": "pediatric_mission_experience",
+              "label": "Annual pediatric transport mission volume",
+              "aliases": [
+                "Pediatric mission count",
+                "Annual pediatric volume"
+              ]
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ]
+            },
+            {
+              "topic": "fatigue_risk_index",
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ]
+            },
+            {
+              "topic": "adverse_incident_free",
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ]
+            },
+            {
+              "topic": "minimum_rest_buffer_approved",
+              "label": "Minimum mandatory rest buffer compliance approved",
+              "aliases": [
+                "Rest buffer compliance",
+                "Mandatory crew rest approval"
+              ]
+            },
+            {
+              "topic": "base_duty_flight_allowance",
+              "label": "Base monthly flight duty allowance",
+              "aliases": [
+                "Base flight allowance",
+                "Nominal duty flight hours"
+              ]
+            },
+            {
+              "topic": "standby_reserve_credit",
+              "label": "Monthly standby reserve credit hours",
+              "aliases": [
+                "Standby reserve credit",
+                "Reserve flight credit hours"
+              ]
+            },
+            {
+              "topic": "mandatory_simulator_hours",
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation training academy lead (TRN)",
+          "target_key": "TRN-SIMU-8MS",
+          "alternate_key": "TRN-SIMU-F1I",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Dual-flight-nurse intensive care crew",
+          "other_candidates": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_simulator_hours",
+              "value": 12,
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "high_altitude_clearance",
+              "label": "High-altitude mountain airway clearance",
+              "aliases": [
+                "High-altitude clearance",
+                "Mountain sector flight clearance"
+              ]
+            },
+            {
+              "topic": "pediatric_transport_certified",
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ]
+            },
+            {
+              "topic": "pediatric_mission_experience",
+              "label": "Annual pediatric transport mission volume",
+              "aliases": [
+                "Pediatric mission count",
+                "Annual pediatric volume"
+              ]
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ]
+            },
+            {
+              "topic": "fatigue_risk_index",
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ]
+            },
+            {
+              "topic": "adverse_incident_free",
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ]
+            },
+            {
+              "topic": "minimum_rest_buffer_approved",
+              "label": "Minimum mandatory rest buffer compliance approved",
+              "aliases": [
+                "Rest buffer compliance",
+                "Mandatory crew rest approval"
+              ]
+            },
+            {
+              "topic": "base_duty_flight_allowance",
+              "label": "Base monthly flight duty allowance",
+              "aliases": [
+                "Base flight allowance",
+                "Nominal duty flight hours"
+              ]
+            },
+            {
+              "topic": "standby_reserve_credit",
+              "label": "Monthly standby reserve credit hours",
+              "aliases": [
+                "Standby reserve credit",
+                "Reserve flight credit hours"
+              ]
+            },
+            {
+              "topic": "mandatory_simulator_hours",
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Clinical governance lead (MED)",
+          "target_key": "MED-CLIN-7MN",
+          "alternate_key": "MED-CLIN-FLK",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Dual-flight-nurse intensive care crew",
+          "other_candidates": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "pediatric_transport_certified",
+              "value": true,
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ],
+              "unit": ""
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "value": true,
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "high_altitude_clearance",
+              "label": "High-altitude mountain airway clearance",
+              "aliases": [
+                "High-altitude clearance",
+                "Mountain sector flight clearance"
+              ]
+            },
+            {
+              "topic": "pediatric_transport_certified",
+              "label": "Pediatric critical care transport protocol certified",
+              "aliases": [
+                "Pediatric transport certification",
+                "Pediatric protocol approval"
+              ]
+            },
+            {
+              "topic": "pediatric_mission_experience",
+              "label": "Annual pediatric transport mission volume",
+              "aliases": [
+                "Pediatric mission count",
+                "Annual pediatric volume"
+              ]
+            },
+            {
+              "topic": "trauma_resuscitation_credential",
+              "label": "Level 1 trauma resuscitation credential valid",
+              "aliases": [
+                "Trauma credential status",
+                "Advanced trauma resuscitation currency"
+              ]
+            },
+            {
+              "topic": "fatigue_risk_index",
+              "label": "Predicted crew fatigue risk score",
+              "aliases": [
+                "Fatigue risk index",
+                "Bio-mathematical fatigue score"
+              ]
+            },
+            {
+              "topic": "adverse_incident_free",
+              "label": "Zero Class-A flight safety occurrence record",
+              "aliases": [
+                "Clean safety incident record",
+                "Class-A occurrence freedom"
+              ]
+            },
+            {
+              "topic": "minimum_rest_buffer_approved",
+              "label": "Minimum mandatory rest buffer compliance approved",
+              "aliases": [
+                "Rest buffer compliance",
+                "Mandatory crew rest approval"
+              ]
+            },
+            {
+              "topic": "base_duty_flight_allowance",
+              "label": "Base monthly flight duty allowance",
+              "aliases": [
+                "Base flight allowance",
+                "Nominal duty flight hours"
+              ]
+            },
+            {
+              "topic": "standby_reserve_credit",
+              "label": "Monthly standby reserve credit hours",
+              "aliases": [
+                "Standby reserve credit",
+                "Reserve flight credit hours"
+              ]
+            },
+            {
+              "topic": "mandatory_simulator_hours",
+              "label": "Mandatory recurrent simulator training hours",
+              "aliases": [
+                "Simulator training hours",
+                "Recurrent flight simulation requirement"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

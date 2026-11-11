@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_863",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_governance",
+        "aviation_safety"
+      ],
+      "role_names": [
+        "Clinical governance lead (MED)",
+        "Aviation safety manager (SAFE)"
+      ],
+      "directory": "incomplete/task_863",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_governance_A",
+          "role_id": "clinical_governance",
+          "candidate_id": "A",
+          "key": "MED-CLIN-7MN",
+          "boolean_predicate_id": "A_pediatric_transport_certified",
+          "boolean_label": "Pediatric critical care transport protocol certified",
+          "hidden_predicate_id": "A_pediatric_mission_experience",
+          "threshold_label": "Annual pediatric transport mission volume",
+          "threshold_aliases": [
+            "Pediatric mission count",
+            "Annual pediatric volume"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "missions",
+          "partial_record_text": "MED-CLIN-7MN: Dual-flight-nurse intensive care crew.Dual-flight-nurse intensive care crew: Pediatric critical care transport protocol certified = true .Source: Clinical practice accreditation register; Scope: Regional pediatric emergency transport protocols; Measurement: Active protocol certification for specialized pediatric and neonatal transport.Dual-flight-nurse intensive care crew: Level 1 trauma resuscitation credential valid = true .Source: Medical staff credentialing database; Scope: Current operational roster period; Measurement: Verification that all roster members hold active Level 1 trauma resuscitation currency.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Annual pediatric transport mission volume is between 20 missions and 80 missions, inclusive.",
+          "role_name": "Clinical governance lead (MED)",
+          "candidate_name": "Dual-flight-nurse intensive care crew",
+          "other_candidate_names": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SMS-4MT",
+          "hidden_predicate_id": "A_fatigue_risk_index",
+          "threshold_label": "Predicted crew fatigue risk score",
+          "threshold_aliases": [
+            "Fatigue risk index",
+            "Bio-mathematical fatigue score"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "pt",
+          "partial_record_text": "SAFE-SMS-4MT: Dual-flight-nurse intensive care crew.Roster deployment period: June 2024.Dual-flight-nurse intensive care crew: Zero Class-A flight safety occurrence record = true .Source: Aviation safety occurrence register; Scope: Preceding 24 months of operational flight; Measurement: Absence of any Class-A flight or ground safety incidents.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Predicted crew fatigue risk score is between 20 pt and 60 pt, inclusive.",
+          "role_name": "Aviation safety manager (SAFE)",
+          "candidate_name": "Dual-flight-nurse intensive care crew",
+          "other_candidate_names": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "context_value": "June 2024",
+          "other_context_values": [
+            "July 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_governance",
+        "aviation_safety",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Clinical governance lead (MED)",
+        "Aviation safety manager (SAFE)",
+        "Flight operations lead (OPS)"
+      ],
+      "directory": "incomplete/task_863",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_governance_A",
+          "role_id": "clinical_governance",
+          "candidate_id": "A",
+          "key": "MED-CLIN-7MN",
+          "boolean_predicate_id": "A_pediatric_transport_certified",
+          "boolean_label": "Pediatric critical care transport protocol certified",
+          "hidden_predicate_id": "A_pediatric_mission_experience",
+          "threshold_label": "Annual pediatric transport mission volume",
+          "threshold_aliases": [
+            "Pediatric mission count",
+            "Annual pediatric volume"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "missions",
+          "partial_record_text": "MED-CLIN-7MN: Dual-flight-nurse intensive care crew.Dual-flight-nurse intensive care crew: Pediatric critical care transport protocol certified = true .Source: Clinical practice accreditation register; Scope: Regional pediatric emergency transport protocols; Measurement: Active protocol certification for specialized pediatric and neonatal transport.Dual-flight-nurse intensive care crew: Level 1 trauma resuscitation credential valid = true .Source: Medical staff credentialing database; Scope: Current operational roster period; Measurement: Verification that all roster members hold active Level 1 trauma resuscitation currency.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Annual pediatric transport mission volume is between 20 missions and 80 missions, inclusive.",
+          "role_name": "Clinical governance lead (MED)",
+          "candidate_name": "Dual-flight-nurse intensive care crew",
+          "other_candidate_names": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SMS-4MT",
+          "hidden_predicate_id": "A_fatigue_risk_index",
+          "threshold_label": "Predicted crew fatigue risk score",
+          "threshold_aliases": [
+            "Fatigue risk index",
+            "Bio-mathematical fatigue score"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "pt",
+          "partial_record_text": "SAFE-SMS-4MT: Dual-flight-nurse intensive care crew.Roster deployment period: June 2024.Dual-flight-nurse intensive care crew: Zero Class-A flight safety occurrence record = true .Source: Aviation safety occurrence register; Scope: Preceding 24 months of operational flight; Measurement: Absence of any Class-A flight or ground safety incidents.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Predicted crew fatigue risk score is between 20 pt and 60 pt, inclusive.",
+          "role_name": "Aviation safety manager (SAFE)",
+          "candidate_name": "Dual-flight-nurse intensive care crew",
+          "other_candidate_names": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "context_value": "June 2024",
+          "other_context_values": [
+            "July 2024"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "OPS-AIR-2IA",
+          "hidden_predicate_id": "A_base_duty_flight_allowance",
+          "threshold_label": "Base monthly flight duty allowance",
+          "threshold_aliases": [
+            "Base flight allowance",
+            "Nominal duty flight hours"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-AIR-2IA: Dual-flight-nurse intensive care crew.Dual-flight-nurse intensive care crew: High-altitude mountain airway clearance = true .Source: Airway operational qualification ledger; Scope: Designated alpine emergency helicopter sectors; Measurement: Whether all assigned pilots on the roster possess verified high-altitude mountain flight authorization.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base monthly flight duty allowance is between 0 h and 300 h, inclusive.",
+          "role_name": "Flight operations lead (OPS)",
+          "candidate_name": "Dual-flight-nurse intensive care crew",
+          "other_candidate_names": [
+            "Flight physician and critical care paramedic pair",
+            "Advanced practice paramedic and respiratory specialist team"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

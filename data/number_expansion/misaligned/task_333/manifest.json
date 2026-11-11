@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_333",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "civil_defense",
+        "utility_dispatch"
+      ],
+      "role_names": [
+        "Civil defense liaison officer (DEF)",
+        "Utility dispatch planning lead (DSP)"
+      ],
+      "directory": "number_expansion/misaligned/task_333/k2",
+      "error_profiles": [
+        {
+          "role_name": "Civil defense liaison officer (DEF)",
+          "target_key": "DEF-CDL-RXP",
+          "alternate_key": "DEF-CDL-L74",
+          "target_context": "Chengdu",
+          "alternate_context": "Wuhan",
+          "candidate": "Highland gravity trunkline",
+          "other_candidates": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_defense_signoff",
+              "value": true,
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hydraulic_integrity",
+              "label": "Hydraulic pressure integrity",
+              "aliases": [
+                "Pressure integrity",
+                "Hydraulic pressure certification"
+              ]
+            },
+            {
+              "topic": "chlorination_enabled",
+              "label": "Automated chlorination dosing enabled",
+              "aliases": [
+                "Automated chlorination status",
+                "Disinfection dosing enablement"
+              ]
+            },
+            {
+              "topic": "microbiological_assay_hours",
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ]
+            },
+            {
+              "topic": "depot_power_ready",
+              "label": "Staging depot auxiliary power readiness",
+              "aliases": [
+                "Depot power readiness",
+                "Auxiliary power standby certification"
+              ]
+            },
+            {
+              "topic": "civil_defense_signoff",
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ]
+            },
+            {
+              "topic": "dispatch_route_approved",
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ]
+            },
+            {
+              "topic": "allocated_water_volume",
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ]
+            },
+            {
+              "topic": "corridor_operating_duration",
+              "label": "Corridor operating duration",
+              "aliases": [
+                "Operating duration",
+                "Pumping window duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Utility dispatch planning lead (DSP)",
+          "target_key": "DSP-VOL-AGY",
+          "alternate_key": "DSP-VOL-732",
+          "target_context": "net of emergency reserve buffer",
+          "alternate_context": "inclusive of emergency reserve buffer",
+          "candidate": "Highland gravity trunkline",
+          "other_candidates": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "allocated_water_volume",
+              "value": 1200,
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ],
+              "unit": "m3"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dispatch_route_approved",
+              "value": true,
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hydraulic_integrity",
+              "label": "Hydraulic pressure integrity",
+              "aliases": [
+                "Pressure integrity",
+                "Hydraulic pressure certification"
+              ]
+            },
+            {
+              "topic": "chlorination_enabled",
+              "label": "Automated chlorination dosing enabled",
+              "aliases": [
+                "Automated chlorination status",
+                "Disinfection dosing enablement"
+              ]
+            },
+            {
+              "topic": "microbiological_assay_hours",
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ]
+            },
+            {
+              "topic": "depot_power_ready",
+              "label": "Staging depot auxiliary power readiness",
+              "aliases": [
+                "Depot power readiness",
+                "Auxiliary power standby certification"
+              ]
+            },
+            {
+              "topic": "civil_defense_signoff",
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ]
+            },
+            {
+              "topic": "dispatch_route_approved",
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ]
+            },
+            {
+              "topic": "allocated_water_volume",
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ]
+            },
+            {
+              "topic": "corridor_operating_duration",
+              "label": "Corridor operating duration",
+              "aliases": [
+                "Operating duration",
+                "Pumping window duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "civil_defense",
+        "utility_dispatch",
+        "water_quality"
+      ],
+      "role_names": [
+        "Civil defense liaison officer (DEF)",
+        "Utility dispatch planning lead (DSP)",
+        "Water quality and laboratory lead (WQL)"
+      ],
+      "directory": "number_expansion/misaligned/task_333/k3",
+      "error_profiles": [
+        {
+          "role_name": "Civil defense liaison officer (DEF)",
+          "target_key": "DEF-CDL-RXP",
+          "alternate_key": "DEF-CDL-L74",
+          "target_context": "Chengdu",
+          "alternate_context": "Wuhan",
+          "candidate": "Highland gravity trunkline",
+          "other_candidates": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_defense_signoff",
+              "value": true,
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hydraulic_integrity",
+              "label": "Hydraulic pressure integrity",
+              "aliases": [
+                "Pressure integrity",
+                "Hydraulic pressure certification"
+              ]
+            },
+            {
+              "topic": "chlorination_enabled",
+              "label": "Automated chlorination dosing enabled",
+              "aliases": [
+                "Automated chlorination status",
+                "Disinfection dosing enablement"
+              ]
+            },
+            {
+              "topic": "microbiological_assay_hours",
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ]
+            },
+            {
+              "topic": "depot_power_ready",
+              "label": "Staging depot auxiliary power readiness",
+              "aliases": [
+                "Depot power readiness",
+                "Auxiliary power standby certification"
+              ]
+            },
+            {
+              "topic": "civil_defense_signoff",
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ]
+            },
+            {
+              "topic": "dispatch_route_approved",
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ]
+            },
+            {
+              "topic": "allocated_water_volume",
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ]
+            },
+            {
+              "topic": "corridor_operating_duration",
+              "label": "Corridor operating duration",
+              "aliases": [
+                "Operating duration",
+                "Pumping window duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Utility dispatch planning lead (DSP)",
+          "target_key": "DSP-VOL-AGY",
+          "alternate_key": "DSP-VOL-732",
+          "target_context": "net of emergency reserve buffer",
+          "alternate_context": "inclusive of emergency reserve buffer",
+          "candidate": "Highland gravity trunkline",
+          "other_candidates": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "allocated_water_volume",
+              "value": 1200,
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ],
+              "unit": "m3"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dispatch_route_approved",
+              "value": true,
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hydraulic_integrity",
+              "label": "Hydraulic pressure integrity",
+              "aliases": [
+                "Pressure integrity",
+                "Hydraulic pressure certification"
+              ]
+            },
+            {
+              "topic": "chlorination_enabled",
+              "label": "Automated chlorination dosing enabled",
+              "aliases": [
+                "Automated chlorination status",
+                "Disinfection dosing enablement"
+              ]
+            },
+            {
+              "topic": "microbiological_assay_hours",
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ]
+            },
+            {
+              "topic": "depot_power_ready",
+              "label": "Staging depot auxiliary power readiness",
+              "aliases": [
+                "Depot power readiness",
+                "Auxiliary power standby certification"
+              ]
+            },
+            {
+              "topic": "civil_defense_signoff",
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ]
+            },
+            {
+              "topic": "dispatch_route_approved",
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ]
+            },
+            {
+              "topic": "allocated_water_volume",
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ]
+            },
+            {
+              "topic": "corridor_operating_duration",
+              "label": "Corridor operating duration",
+              "aliases": [
+                "Operating duration",
+                "Pumping window duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Water quality and laboratory lead (WQL)",
+          "target_key": "WQL-QUAL-V4Z",
+          "alternate_key": "WQL-QUAL-RAJ",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Highland gravity trunkline",
+          "other_candidates": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "microbiological_assay_hours",
+              "value": 6,
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "hydraulic_integrity",
+              "label": "Hydraulic pressure integrity",
+              "aliases": [
+                "Pressure integrity",
+                "Hydraulic pressure certification"
+              ]
+            },
+            {
+              "topic": "chlorination_enabled",
+              "label": "Automated chlorination dosing enabled",
+              "aliases": [
+                "Automated chlorination status",
+                "Disinfection dosing enablement"
+              ]
+            },
+            {
+              "topic": "microbiological_assay_hours",
+              "label": "Microbiological assay turnaround time",
+              "aliases": [
+                "Microbial assay duration",
+                "Pathogen clearance testing time"
+              ]
+            },
+            {
+              "topic": "depot_power_ready",
+              "label": "Staging depot auxiliary power readiness",
+              "aliases": [
+                "Depot power readiness",
+                "Auxiliary power standby certification"
+              ]
+            },
+            {
+              "topic": "civil_defense_signoff",
+              "label": "Civil defense route signoff",
+              "aliases": [
+                "Civil defense clearance",
+                "Emergency security escort signoff"
+              ]
+            },
+            {
+              "topic": "dispatch_route_approved",
+              "label": "Utility dispatch route approval",
+              "aliases": [
+                "Dispatch approval",
+                "Corridor dispatch authorization"
+              ]
+            },
+            {
+              "topic": "allocated_water_volume",
+              "label": "Allocated bulk water volume",
+              "aliases": [
+                "Bulk water volume",
+                "Allocated delivery volume"
+              ]
+            },
+            {
+              "topic": "corridor_operating_duration",
+              "label": "Corridor operating duration",
+              "aliases": [
+                "Operating duration",
+                "Pumping window duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_448",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrographic_survey",
+        "commercial_risk"
+      ],
+      "role_names": [
+        "Hydrographic survey manager (HYSM)",
+        "Maritime legal and insurance counsel (MLIC)"
+      ],
+      "directory": "incomplete/task_448",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "HYSM-ACOU-HTI",
+          "boolean_predicate_id": "A_acoustic_tracking_active",
+          "boolean_label": "Underwater acoustic positioning system active",
+          "hidden_predicate_id": "A_beacon_tracking_drift",
+          "threshold_label": "Acoustic beacon positioning drift",
+          "threshold_aliases": [
+            "Transponder positioning drift",
+            "Subsea beacon drift"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m",
+          "partial_record_text": "HYSM-ACOU-HTI: Nordic Subsea Recovery Alliance.Nordic Subsea Recovery Alliance: Underwater acoustic positioning system active = true .Source: Hydrographic instrumentation readiness manifest; Scope: Ultra-short baseline transceiver arrays on recovery vessel; Measurement: Active operational status of subsea acoustic tracking system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Acoustic beacon positioning drift is at most 50 m.",
+          "role_name": "Hydrographic survey manager (HYSM)",
+          "candidate_name": "Nordic Subsea Recovery Alliance",
+          "other_candidate_names": [
+            "Oceanic Heavy Marine Consortium",
+            "Pelagic Offshore Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_risk_A",
+          "role_id": "commercial_risk",
+          "candidate_id": "A",
+          "key": "MLIC-RISK-V6S",
+          "hidden_predicate_id": "A_indemnity_insurance_coverage",
+          "threshold_label": "Marine salvage indemnity liability coverage",
+          "threshold_aliases": [
+            "Salvage indemnity coverage",
+            "Liability policy limit"
+          ],
+          "threshold_value": 85000000,
+          "threshold_unit": "USD",
+          "partial_record_text": "MLIC-RISK-V6S: Nordic Subsea Recovery Alliance. The record covers Marine salvage indemnity liability coverage. Record context: Specification Version 3.0. Maritime syndicate liability binder; Concession recovery operations and wreck removal liabilities; Total primary and umbrella third-party indemnity limit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 200000000
+          },
+          "coarse_statement": "Marine salvage indemnity liability coverage is at most 2e+08 USD.",
+          "role_name": "Maritime legal and insurance counsel (MLIC)",
+          "candidate_name": "Nordic Subsea Recovery Alliance",
+          "other_candidate_names": [
+            "Oceanic Heavy Marine Consortium",
+            "Pelagic Offshore Technical Services"
+          ],
+          "context_value": "Specification Version 3.0",
+          "other_context_values": [
+            "Specification Version 2.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrographic_survey",
+        "commercial_risk",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Hydrographic survey manager (HYSM)",
+        "Maritime legal and insurance counsel (MLIC)",
+        "Marine environmental compliance officer (MECO)"
+      ],
+      "directory": "incomplete/task_448",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "HYSM-ACOU-HTI",
+          "boolean_predicate_id": "A_acoustic_tracking_active",
+          "boolean_label": "Underwater acoustic positioning system active",
+          "hidden_predicate_id": "A_beacon_tracking_drift",
+          "threshold_label": "Acoustic beacon positioning drift",
+          "threshold_aliases": [
+            "Transponder positioning drift",
+            "Subsea beacon drift"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m",
+          "partial_record_text": "HYSM-ACOU-HTI: Nordic Subsea Recovery Alliance.Nordic Subsea Recovery Alliance: Underwater acoustic positioning system active = true .Source: Hydrographic instrumentation readiness manifest; Scope: Ultra-short baseline transceiver arrays on recovery vessel; Measurement: Active operational status of subsea acoustic tracking system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Acoustic beacon positioning drift is at most 50 m.",
+          "role_name": "Hydrographic survey manager (HYSM)",
+          "candidate_name": "Nordic Subsea Recovery Alliance",
+          "other_candidate_names": [
+            "Oceanic Heavy Marine Consortium",
+            "Pelagic Offshore Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_risk_A",
+          "role_id": "commercial_risk",
+          "candidate_id": "A",
+          "key": "MLIC-RISK-V6S",
+          "hidden_predicate_id": "A_indemnity_insurance_coverage",
+          "threshold_label": "Marine salvage indemnity liability coverage",
+          "threshold_aliases": [
+            "Salvage indemnity coverage",
+            "Liability policy limit"
+          ],
+          "threshold_value": 85000000,
+          "threshold_unit": "USD",
+          "partial_record_text": "MLIC-RISK-V6S: Nordic Subsea Recovery Alliance. The record covers Marine salvage indemnity liability coverage. Record context: Specification Version 3.0. Maritime syndicate liability binder; Concession recovery operations and wreck removal liabilities; Total primary and umbrella third-party indemnity limit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 200000000
+          },
+          "coarse_statement": "Marine salvage indemnity liability coverage is at most 2e+08 USD.",
+          "role_name": "Maritime legal and insurance counsel (MLIC)",
+          "candidate_name": "Nordic Subsea Recovery Alliance",
+          "other_candidate_names": [
+            "Oceanic Heavy Marine Consortium",
+            "Pelagic Offshore Technical Services"
+          ],
+          "context_value": "Specification Version 3.0",
+          "other_context_values": [
+            "Specification Version 2.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "MECO-ECO-BBD",
+          "hidden_predicate_id": "A_containment_charter_fee",
+          "threshold_label": "Environmental containment vessel charter fee",
+          "threshold_aliases": [
+            "Standby containment vessel fee",
+            "Pollution control charter cost"
+          ],
+          "threshold_value": 180000,
+          "threshold_unit": "USD",
+          "partial_record_text": "MECO-ECO-BBD: Nordic Subsea Recovery Alliance.Nordic Subsea Recovery Alliance: Subsea benthic environmental mitigation approved = true .Source: Maritime environmental impact endorsement; Scope: Deep-water sensitive coral and seabed disturbance protocol; Measurement: Formal regulatory sign-off on seafloor benthic mitigation plan.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Environmental containment vessel charter fee is at most 500000 USD.",
+          "role_name": "Marine environmental compliance officer (MECO)",
+          "candidate_name": "Nordic Subsea Recovery Alliance",
+          "other_candidate_names": [
+            "Oceanic Heavy Marine Consortium",
+            "Pelagic Offshore Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

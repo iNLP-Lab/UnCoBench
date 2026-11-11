@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_434",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "meteorological_flight_watch",
+        "flight_operations_navigation"
+      ],
+      "role_names": [
+        "Alpine flight meteorologist (MET)",
+        "Helicopter flight operations navigator (NAV)"
+      ],
+      "directory": "incomplete/task_434",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_flight_watch_A",
+          "role_id": "meteorological_flight_watch",
+          "candidate_id": "A",
+          "key": "MET-WTHR-3ZN",
+          "boolean_predicate_id": "A_mountain_radar_active",
+          "boolean_label": "Mountain weather radar coverage active",
+          "hidden_predicate_id": "A_transit_headwind_speed",
+          "threshold_label": "Maximum transit headwind component",
+          "threshold_aliases": [
+            "Headwind component",
+            "Transit headwind velocity"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "km/h",
+          "partial_record_text": "MET-WTHR-3ZN: Gotthard Northern Traverse Corridor.Gotthard Northern Traverse Corridor: Mountain weather radar coverage active = true .Source: Alpine meteorological sensor network log; Scope: Flight corridor ridgelines and summit passes; Measurement: Confirmation that continuous Doppler weather radar scan coverage is operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum transit headwind component is between 20 km/h and 80 km/h, inclusive.",
+          "role_name": "Alpine flight meteorologist (MET)",
+          "candidate_name": "Gotthard Northern Traverse Corridor",
+          "other_candidate_names": [
+            "Bernese High Ridge Passage",
+            "Engadin Valley Direct Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_navigation_A",
+          "role_id": "flight_operations_navigation",
+          "candidate_id": "A",
+          "key": "NAV-SECT-AKR",
+          "hidden_predicate_id": "A_alpine_approach_transit_time",
+          "threshold_label": "Alpine approach sector transit time",
+          "threshold_aliases": [
+            "High-altitude mountain sector transit time",
+            "Approach segment flight duration"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "min",
+          "partial_record_text": "NAV-SECT-AKR: Gotthard Northern Traverse Corridor. The record covers Alpine approach sector transit time. Flight navigation profile calculation; High-altitude mountain pass ingress to descent waypoint; Estimated en-route helicopter flight duration across the alpine crest sector.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Alpine approach sector transit time is between 0 min and 40 min, inclusive.",
+          "role_name": "Helicopter flight operations navigator (NAV)",
+          "candidate_name": "Gotthard Northern Traverse Corridor",
+          "other_candidate_names": [
+            "Bernese High Ridge Passage",
+            "Engadin Valley Direct Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "meteorological_flight_watch",
+        "flight_operations_navigation",
+        "aeromedical_trauma_director"
+      ],
+      "role_names": [
+        "Alpine flight meteorologist (MET)",
+        "Helicopter flight operations navigator (NAV)",
+        "Trauma hospital liaison officer (MED)"
+      ],
+      "directory": "incomplete/task_434",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_flight_watch_A",
+          "role_id": "meteorological_flight_watch",
+          "candidate_id": "A",
+          "key": "MET-WTHR-3ZN",
+          "boolean_predicate_id": "A_mountain_radar_active",
+          "boolean_label": "Mountain weather radar coverage active",
+          "hidden_predicate_id": "A_transit_headwind_speed",
+          "threshold_label": "Maximum transit headwind component",
+          "threshold_aliases": [
+            "Headwind component",
+            "Transit headwind velocity"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "km/h",
+          "partial_record_text": "MET-WTHR-3ZN: Gotthard Northern Traverse Corridor.Gotthard Northern Traverse Corridor: Mountain weather radar coverage active = true .Source: Alpine meteorological sensor network log; Scope: Flight corridor ridgelines and summit passes; Measurement: Confirmation that continuous Doppler weather radar scan coverage is operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum transit headwind component is between 20 km/h and 80 km/h, inclusive.",
+          "role_name": "Alpine flight meteorologist (MET)",
+          "candidate_name": "Gotthard Northern Traverse Corridor",
+          "other_candidate_names": [
+            "Bernese High Ridge Passage",
+            "Engadin Valley Direct Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_navigation_A",
+          "role_id": "flight_operations_navigation",
+          "candidate_id": "A",
+          "key": "NAV-SECT-AKR",
+          "hidden_predicate_id": "A_alpine_approach_transit_time",
+          "threshold_label": "Alpine approach sector transit time",
+          "threshold_aliases": [
+            "High-altitude mountain sector transit time",
+            "Approach segment flight duration"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "min",
+          "partial_record_text": "NAV-SECT-AKR: Gotthard Northern Traverse Corridor. The record covers Alpine approach sector transit time. Flight navigation profile calculation; High-altitude mountain pass ingress to descent waypoint; Estimated en-route helicopter flight duration across the alpine crest sector.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Alpine approach sector transit time is between 0 min and 40 min, inclusive.",
+          "role_name": "Helicopter flight operations navigator (NAV)",
+          "candidate_name": "Gotthard Northern Traverse Corridor",
+          "other_candidate_names": [
+            "Bernese High Ridge Passage",
+            "Engadin Valley Direct Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aeromedical_trauma_director_A",
+          "role_id": "aeromedical_trauma_director",
+          "candidate_id": "A",
+          "key": "MED-TRAUMA-UCW",
+          "hidden_predicate_id": "A_valley_arrival_transit_time",
+          "threshold_label": "Valley arrival sector transit time",
+          "threshold_aliases": [
+            "Hospital approach sector transit time",
+            "Valley descent segment flight duration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-TRAUMA-UCW: Gotthard Northern Traverse Corridor.Transit timing basis: including terminal hospital approach.Gotthard Northern Traverse Corridor: Trauma hospital receiving bypass protocol ratification = true .Source: Regional hospital emergency council agreement; Scope: Corridor destination level-one medical trauma center; Measurement: Executed inter-facility direct triage bypass authorization for severe hypothermia cases.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Valley arrival sector transit time is between 0 min and 40 min, inclusive.",
+          "role_name": "Trauma hospital liaison officer (MED)",
+          "candidate_name": "Gotthard Northern Traverse Corridor",
+          "other_candidate_names": [
+            "Bernese High Ridge Passage",
+            "Engadin Valley Direct Airway"
+          ],
+          "context_value": "including terminal hospital approach",
+          "other_context_values": [
+            "excluding terminal hospital approach"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

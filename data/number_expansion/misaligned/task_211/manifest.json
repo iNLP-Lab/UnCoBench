@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_211",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "civil_protection",
+        "relief_warehousing"
+      ],
+      "role_names": [
+        "Regional civil protection liaison (CIV)",
+        "Relief warehousing manager (WARE)"
+      ],
+      "directory": "number_expansion/misaligned/task_211/k2",
+      "error_profiles": [
+        {
+          "role_name": "Regional civil protection liaison (CIV)",
+          "target_key": "CIV-COMMS-311",
+          "alternate_key": "CIV-BILLET-ZDX",
+          "target_context": "production environment",
+          "alternate_context": "test environment",
+          "candidate": "Port Castries Multimodal Relief Depot",
+          "other_candidates": [
+            "Bridgetown Deepwater Transshipment Hub",
+            "Point Lisas Industrial Logistics Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "value": true,
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deepwater_berth_access",
+              "label": "24-hour deepwater berth accessibility",
+              "aliases": [
+                "All-tide deepwater berth access",
+                "Deepwater berth availability"
+              ]
+            },
+            {
+              "topic": "runway_bearing_capacity",
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ]
+            },
+            {
+              "topic": "active_cold_chain_monitoring_enabled",
+              "label": "Active cold-chain telemetry enabled",
+              "aliases": [
+                "Cold-chain monitoring enablement",
+                "Active cold-chain monitoring status"
+              ]
+            },
+            {
+              "topic": "medical_quarantine_clearance_duration",
+              "label": "Medical quarantine clearance duration",
+              "aliases": [
+                "Emergency medical customs processing duration",
+                "Medical clearance turnaround time"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_certified",
+              "label": "Hazardous materials containment certification",
+              "aliases": [
+                "Hazmat containment compliance",
+                "Hazmat safety certification"
+              ]
+            },
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ]
+            },
+            {
+              "topic": "daily_rations_cargo_volume",
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ]
+            },
+            {
+              "topic": "daily_medical_cargo_volume",
+              "label": "Daily emergency medical cargo volume",
+              "aliases": [
+                "Daily medical aid cargo throughput",
+                "Emergency medical cargo handling volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Relief warehousing manager (WARE)",
+          "target_key": "WARE-STOW-EZN",
+          "alternate_key": "WARE-STOW-QLN",
+          "target_context": "live production environment",
+          "alternate_context": "simulation test environment",
+          "candidate": "Port Castries Multimodal Relief Depot",
+          "other_candidates": [
+            "Bridgetown Deepwater Transshipment Hub",
+            "Point Lisas Industrial Logistics Center"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_rations_cargo_volume",
+              "value": 120,
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ],
+              "unit": "tonne"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deepwater_berth_access",
+              "label": "24-hour deepwater berth accessibility",
+              "aliases": [
+                "All-tide deepwater berth access",
+                "Deepwater berth availability"
+              ]
+            },
+            {
+              "topic": "runway_bearing_capacity",
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ]
+            },
+            {
+              "topic": "active_cold_chain_monitoring_enabled",
+              "label": "Active cold-chain telemetry enabled",
+              "aliases": [
+                "Cold-chain monitoring enablement",
+                "Active cold-chain monitoring status"
+              ]
+            },
+            {
+              "topic": "medical_quarantine_clearance_duration",
+              "label": "Medical quarantine clearance duration",
+              "aliases": [
+                "Emergency medical customs processing duration",
+                "Medical clearance turnaround time"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_certified",
+              "label": "Hazardous materials containment certification",
+              "aliases": [
+                "Hazmat containment compliance",
+                "Hazmat safety certification"
+              ]
+            },
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ]
+            },
+            {
+              "topic": "daily_rations_cargo_volume",
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ]
+            },
+            {
+              "topic": "daily_medical_cargo_volume",
+              "label": "Daily emergency medical cargo volume",
+              "aliases": [
+                "Daily medical aid cargo throughput",
+                "Emergency medical cargo handling volume"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "civil_protection",
+        "relief_warehousing",
+        "airfield_logistics"
+      ],
+      "role_names": [
+        "Regional civil protection liaison (CIV)",
+        "Relief warehousing manager (WARE)",
+        "Airfield operations director (AIR)"
+      ],
+      "directory": "number_expansion/misaligned/task_211/k3",
+      "error_profiles": [
+        {
+          "role_name": "Regional civil protection liaison (CIV)",
+          "target_key": "CIV-COMMS-311",
+          "alternate_key": "CIV-BILLET-ZDX",
+          "target_context": "production environment",
+          "alternate_context": "test environment",
+          "candidate": "Port Castries Multimodal Relief Depot",
+          "other_candidates": [
+            "Bridgetown Deepwater Transshipment Hub",
+            "Point Lisas Industrial Logistics Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "value": true,
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deepwater_berth_access",
+              "label": "24-hour deepwater berth accessibility",
+              "aliases": [
+                "All-tide deepwater berth access",
+                "Deepwater berth availability"
+              ]
+            },
+            {
+              "topic": "runway_bearing_capacity",
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ]
+            },
+            {
+              "topic": "active_cold_chain_monitoring_enabled",
+              "label": "Active cold-chain telemetry enabled",
+              "aliases": [
+                "Cold-chain monitoring enablement",
+                "Active cold-chain monitoring status"
+              ]
+            },
+            {
+              "topic": "medical_quarantine_clearance_duration",
+              "label": "Medical quarantine clearance duration",
+              "aliases": [
+                "Emergency medical customs processing duration",
+                "Medical clearance turnaround time"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_certified",
+              "label": "Hazardous materials containment certification",
+              "aliases": [
+                "Hazmat containment compliance",
+                "Hazmat safety certification"
+              ]
+            },
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ]
+            },
+            {
+              "topic": "daily_rations_cargo_volume",
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ]
+            },
+            {
+              "topic": "daily_medical_cargo_volume",
+              "label": "Daily emergency medical cargo volume",
+              "aliases": [
+                "Daily medical aid cargo throughput",
+                "Emergency medical cargo handling volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Relief warehousing manager (WARE)",
+          "target_key": "WARE-STOW-EZN",
+          "alternate_key": "WARE-STOW-QLN",
+          "target_context": "live production environment",
+          "alternate_context": "simulation test environment",
+          "candidate": "Port Castries Multimodal Relief Depot",
+          "other_candidates": [
+            "Bridgetown Deepwater Transshipment Hub",
+            "Point Lisas Industrial Logistics Center"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_rations_cargo_volume",
+              "value": 120,
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ],
+              "unit": "tonne"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deepwater_berth_access",
+              "label": "24-hour deepwater berth accessibility",
+              "aliases": [
+                "All-tide deepwater berth access",
+                "Deepwater berth availability"
+              ]
+            },
+            {
+              "topic": "runway_bearing_capacity",
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ]
+            },
+            {
+              "topic": "active_cold_chain_monitoring_enabled",
+              "label": "Active cold-chain telemetry enabled",
+              "aliases": [
+                "Cold-chain monitoring enablement",
+                "Active cold-chain monitoring status"
+              ]
+            },
+            {
+              "topic": "medical_quarantine_clearance_duration",
+              "label": "Medical quarantine clearance duration",
+              "aliases": [
+                "Emergency medical customs processing duration",
+                "Medical clearance turnaround time"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_certified",
+              "label": "Hazardous materials containment certification",
+              "aliases": [
+                "Hazmat containment compliance",
+                "Hazmat safety certification"
+              ]
+            },
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ]
+            },
+            {
+              "topic": "daily_rations_cargo_volume",
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ]
+            },
+            {
+              "topic": "daily_medical_cargo_volume",
+              "label": "Daily emergency medical cargo volume",
+              "aliases": [
+                "Daily medical aid cargo throughput",
+                "Emergency medical cargo handling volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Airfield operations director (AIR)",
+          "target_key": "AIR-PAVE-58H",
+          "alternate_key": "AIR-PAVE-ZOA",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "Port Castries Multimodal Relief Depot",
+          "other_candidates": [
+            "Bridgetown Deepwater Transshipment Hub",
+            "Point Lisas Industrial Logistics Center"
+          ],
+          "numeric": [
+            {
+              "topic": "runway_bearing_capacity",
+              "value": 85,
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ],
+              "unit": "PCN"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deepwater_berth_access",
+              "label": "24-hour deepwater berth accessibility",
+              "aliases": [
+                "All-tide deepwater berth access",
+                "Deepwater berth availability"
+              ]
+            },
+            {
+              "topic": "runway_bearing_capacity",
+              "label": "Runway pavement bearing strength",
+              "aliases": [
+                "Runway pavement classification rating",
+                "Runway PCN rating"
+              ]
+            },
+            {
+              "topic": "active_cold_chain_monitoring_enabled",
+              "label": "Active cold-chain telemetry enabled",
+              "aliases": [
+                "Cold-chain monitoring enablement",
+                "Active cold-chain monitoring status"
+              ]
+            },
+            {
+              "topic": "medical_quarantine_clearance_duration",
+              "label": "Medical quarantine clearance duration",
+              "aliases": [
+                "Emergency medical customs processing duration",
+                "Medical clearance turnaround time"
+              ]
+            },
+            {
+              "topic": "hazmat_containment_certified",
+              "label": "Hazardous materials containment certification",
+              "aliases": [
+                "Hazmat containment compliance",
+                "Hazmat safety certification"
+              ]
+            },
+            {
+              "topic": "satellite_emergency_telecom_operational",
+              "label": "Operational satellite emergency telecommunications",
+              "aliases": [
+                "Satellite backup telecommunications readiness",
+                "Satellite emergency telecom operational status"
+              ]
+            },
+            {
+              "topic": "daily_rations_cargo_volume",
+              "label": "Daily palletized rations cargo volume",
+              "aliases": [
+                "Daily food rations throughput",
+                "Palletized rations handling volume"
+              ]
+            },
+            {
+              "topic": "daily_medical_cargo_volume",
+              "label": "Daily emergency medical cargo volume",
+              "aliases": [
+                "Daily medical aid cargo throughput",
+                "Emergency medical cargo handling volume"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

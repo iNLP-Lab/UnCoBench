@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_267",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_compliance",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Safety and Fire Compliance Lead (SAFE)",
+        "Facilities and HVAC Operations Lead (HVAC)"
+      ],
+      "directory": "incomplete/task_267",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-EMERG-AMF",
+          "boolean_predicate_id": "A_fire_safety_certified",
+          "boolean_label": "Fire safety certification granted",
+          "hidden_predicate_id": "A_evacuation_clearance_time",
+          "threshold_label": "Maximum emergency evacuation clearance time",
+          "threshold_aliases": [
+            "Evacuation time",
+            "Emergency egress clearance duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-EMERG-AMF: Northgate International Exposition Center.Northgate International Exposition Center: Fire safety certification granted = true .Source: Regional fire rescue service compliance certificate; Scope: Entire venue perimeter, halls, and subterranean levels; Measurement: Affirmative formal sign-off confirming adherence to statutory life-safety codes.",
+          "role_name": "Safety and Fire Compliance Lead (SAFE)",
+          "candidate_name": "Northgate International Exposition Center",
+          "other_candidate_names": [
+            "Riverside Waterfront Convention Complex",
+            "Harborside Congress and Exhibition Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "HVAC-PLANT-GBP",
+          "hidden_predicate_id": "A_main_hall_cooling_energy",
+          "threshold_label": "Main exhibition hall peak cooling energy",
+          "threshold_aliases": [
+            "Main hall thermal energy demand",
+            "Exhibition hall peak HVAC consumption"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "MWh",
+          "partial_record_text": "HVAC-PLANT-GBP: Northgate International Exposition Center. The record covers Main exhibition hall peak cooling energy. HVAC central chiller metering projection; Main exhibition hall during peak conference operational hours; Projected aggregate thermal cooling energy consumption across the summit duration.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Main exhibition hall peak cooling energy is at least 40 MWh.",
+          "role_name": "Facilities and HVAC Operations Lead (HVAC)",
+          "candidate_name": "Northgate International Exposition Center",
+          "other_candidate_names": [
+            "Riverside Waterfront Convention Complex",
+            "Harborside Congress and Exhibition Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_compliance",
+        "facilities_engineering",
+        "production_logistics"
+      ],
+      "role_names": [
+        "Safety and Fire Compliance Lead (SAFE)",
+        "Facilities and HVAC Operations Lead (HVAC)",
+        "Event Production and Technical Services Lead (PROD)"
+      ],
+      "directory": "incomplete/task_267",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-EMERG-AMF",
+          "boolean_predicate_id": "A_fire_safety_certified",
+          "boolean_label": "Fire safety certification granted",
+          "hidden_predicate_id": "A_evacuation_clearance_time",
+          "threshold_label": "Maximum emergency evacuation clearance time",
+          "threshold_aliases": [
+            "Evacuation time",
+            "Emergency egress clearance duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-EMERG-AMF: Northgate International Exposition Center.Northgate International Exposition Center: Fire safety certification granted = true .Source: Regional fire rescue service compliance certificate; Scope: Entire venue perimeter, halls, and subterranean levels; Measurement: Affirmative formal sign-off confirming adherence to statutory life-safety codes.",
+          "role_name": "Safety and Fire Compliance Lead (SAFE)",
+          "candidate_name": "Northgate International Exposition Center",
+          "other_candidate_names": [
+            "Riverside Waterfront Convention Complex",
+            "Harborside Congress and Exhibition Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "HVAC-PLANT-GBP",
+          "hidden_predicate_id": "A_main_hall_cooling_energy",
+          "threshold_label": "Main exhibition hall peak cooling energy",
+          "threshold_aliases": [
+            "Main hall thermal energy demand",
+            "Exhibition hall peak HVAC consumption"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "MWh",
+          "partial_record_text": "HVAC-PLANT-GBP: Northgate International Exposition Center. The record covers Main exhibition hall peak cooling energy. HVAC central chiller metering projection; Main exhibition hall during peak conference operational hours; Projected aggregate thermal cooling energy consumption across the summit duration.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Main exhibition hall peak cooling energy is at least 40 MWh.",
+          "role_name": "Facilities and HVAC Operations Lead (HVAC)",
+          "candidate_name": "Northgate International Exposition Center",
+          "other_candidate_names": [
+            "Riverside Waterfront Convention Complex",
+            "Harborside Congress and Exhibition Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_production_logistics_A",
+          "role_id": "production_logistics",
+          "candidate_id": "A",
+          "key": "PROD-STAGE-D7C",
+          "hidden_predicate_id": "A_auxiliary_cooling_energy",
+          "threshold_label": "Auxiliary keynote pavilion peak cooling energy",
+          "threshold_aliases": [
+            "Auxiliary pavilion cooling load",
+            "Keynote pavilion thermal energy demand"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "MWh",
+          "partial_record_text": "PROD-STAGE-D7C: Northgate International Exposition Center. The record covers Auxiliary keynote pavilion peak cooling energy. Temporary structures energy allocation audit; Auxiliary media center and keynote breakout pavilions; Projected aggregate thermal cooling energy consumption across the summit duration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Auxiliary keynote pavilion peak cooling energy is at most 40 MWh.",
+          "role_name": "Event Production and Technical Services Lead (PROD)",
+          "candidate_name": "Northgate International Exposition Center",
+          "other_candidate_names": [
+            "Riverside Waterfront Convention Complex",
+            "Harborside Congress and Exhibition Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

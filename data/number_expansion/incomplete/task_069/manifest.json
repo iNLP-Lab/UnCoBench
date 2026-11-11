@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_069",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "curatorial_conservation",
+        "intake_operations"
+      ],
+      "role_names": [
+        "Chief Conservator (CCON)",
+        "Vault Logistics Manager (VLOG)"
+      ],
+      "directory": "incomplete/task_069",
+      "profiles": [
+        {
+          "record_id": "rec_curatorial_conservation_A",
+          "role_id": "curatorial_conservation",
+          "candidate_id": "A",
+          "key": "CCON-ENV-J10",
+          "boolean_predicate_id": "A_climate_vault_enabled",
+          "boolean_label": "Active climate-controlled preservation vault status",
+          "hidden_predicate_id": "A_rh_variance_limit",
+          "threshold_label": "Ambient relative humidity variation",
+          "threshold_aliases": [
+            "Relative humidity variance",
+            "Hygrometric excursion amplitude"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "CCON-ENV-J10: Pine Ridge Subterranean Archive.Pine Ridge Subterranean Archive: Active climate-controlled preservation vault status = true .Source: HVAC commissioning register; Scope: Subterranean preservation chambers; Measurement: Operational readiness status of primary and redundant environmental chillers.",
+          "role_name": "Chief Conservator (CCON)",
+          "candidate_name": "Pine Ridge Subterranean Archive",
+          "other_candidate_names": [
+            "Highland Caverns Heritage Repository",
+            "Ironwood Mountain Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_intake_operations_A",
+          "role_id": "intake_operations",
+          "candidate_id": "A",
+          "key": "VLOG-DOCK-0WW",
+          "hidden_predicate_id": "A_staging_intake_duration",
+          "threshold_label": "Vault intake staging duration",
+          "threshold_aliases": [
+            "Intake processing time",
+            "Accession staging duration"
+          ],
+          "threshold_value": 1.0,
+          "threshold_unit": "h",
+          "partial_record_text": "VLOG-DOCK-0WW: Pine Ridge Subterranean Archive. The record covers Vault intake staging duration. Facility receiving dock protocol manual; Batch unloading, barcode verification, and thermal equilibrium chamber placement; Standard operational hours required to transfer convoy cargo into secure vault slots.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2.5
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Vault intake staging duration is at most 2.5 h.",
+          "role_name": "Vault Logistics Manager (VLOG)",
+          "candidate_name": "Pine Ridge Subterranean Archive",
+          "other_candidate_names": [
+            "Highland Caverns Heritage Repository",
+            "Ironwood Mountain Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "curatorial_conservation",
+        "intake_operations",
+        "security_convoy_operations"
+      ],
+      "role_names": [
+        "Chief Conservator (CCON)",
+        "Vault Logistics Manager (VLOG)",
+        "Convoy and Physical Security Coordinator (PSEC)"
+      ],
+      "directory": "incomplete/task_069",
+      "profiles": [
+        {
+          "record_id": "rec_curatorial_conservation_A",
+          "role_id": "curatorial_conservation",
+          "candidate_id": "A",
+          "key": "CCON-ENV-J10",
+          "boolean_predicate_id": "A_climate_vault_enabled",
+          "boolean_label": "Active climate-controlled preservation vault status",
+          "hidden_predicate_id": "A_rh_variance_limit",
+          "threshold_label": "Ambient relative humidity variation",
+          "threshold_aliases": [
+            "Relative humidity variance",
+            "Hygrometric excursion amplitude"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "CCON-ENV-J10: Pine Ridge Subterranean Archive.Pine Ridge Subterranean Archive: Active climate-controlled preservation vault status = true .Source: HVAC commissioning register; Scope: Subterranean preservation chambers; Measurement: Operational readiness status of primary and redundant environmental chillers.",
+          "role_name": "Chief Conservator (CCON)",
+          "candidate_name": "Pine Ridge Subterranean Archive",
+          "other_candidate_names": [
+            "Highland Caverns Heritage Repository",
+            "Ironwood Mountain Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_intake_operations_A",
+          "role_id": "intake_operations",
+          "candidate_id": "A",
+          "key": "VLOG-DOCK-0WW",
+          "hidden_predicate_id": "A_staging_intake_duration",
+          "threshold_label": "Vault intake staging duration",
+          "threshold_aliases": [
+            "Intake processing time",
+            "Accession staging duration"
+          ],
+          "threshold_value": 1.0,
+          "threshold_unit": "h",
+          "partial_record_text": "VLOG-DOCK-0WW: Pine Ridge Subterranean Archive. The record covers Vault intake staging duration. Facility receiving dock protocol manual; Batch unloading, barcode verification, and thermal equilibrium chamber placement; Standard operational hours required to transfer convoy cargo into secure vault slots.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2.5
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Vault intake staging duration is at most 2.5 h.",
+          "role_name": "Vault Logistics Manager (VLOG)",
+          "candidate_name": "Pine Ridge Subterranean Archive",
+          "other_candidate_names": [
+            "Highland Caverns Heritage Repository",
+            "Ironwood Mountain Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_security_convoy_operations_A",
+          "role_id": "security_convoy_operations",
+          "candidate_id": "A",
+          "key": "PSEC-TACT-02B",
+          "hidden_predicate_id": "A_convoy_transit_duration",
+          "threshold_label": "Secure convoy transit time",
+          "threshold_aliases": [
+            "Convoy travel duration",
+            "Armored transport transit time"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "h",
+          "partial_record_text": "PSEC-TACT-02B: Pine Ridge Subterranean Archive.Pine Ridge Subterranean Archive: Dedicated perimeter armed security convoy escort readiness = true .Source: Tactical transport deployment manifest; Scope: Designated evacuation transit corridors and convoy team staffing; Measurement: Formal readiness authorization of armed motorized escort units.",
+          "role_name": "Convoy and Physical Security Coordinator (PSEC)",
+          "candidate_name": "Pine Ridge Subterranean Archive",
+          "other_candidate_names": [
+            "Highland Caverns Heritage Repository",
+            "Ironwood Mountain Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

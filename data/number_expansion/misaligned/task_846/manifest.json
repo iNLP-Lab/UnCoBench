@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_846",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "regional_reliability",
+        "forensic_analytics"
+      ],
+      "role_names": [
+        "Regional reliability coordinator (RELI)",
+        "Forensic power systems analyst (DATA)"
+      ],
+      "directory": "number_expansion/misaligned/task_846/k2",
+      "error_profiles": [
+        {
+          "role_name": "Regional reliability coordinator (RELI)",
+          "target_key": "RELI-BESCOM-ARS",
+          "alternate_key": "RELI-BESCOM-Y9E",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidates": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "value": true,
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "synchrophasor_stream_enabled",
+              "label": "Synchrophasor streaming interface enabled",
+              "aliases": [
+                "Synchrophasor stream active",
+                "Phasor measurement unit streaming status"
+              ]
+            },
+            {
+              "topic": "max_tripping_sequence_latency",
+              "label": "Maximum tripping sequence recording latency",
+              "aliases": [
+                "Trip sequence latency",
+                "Breaker event recording delay"
+              ]
+            },
+            {
+              "topic": "telemetry_bandwidth_certified",
+              "label": "Telemetry bandwidth capacity certified",
+              "aliases": [
+                "OT network bandwidth certification",
+                "WAN channel throughput clearance"
+              ]
+            },
+            {
+              "topic": "substation_buffer_interval",
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ]
+            },
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ]
+            },
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ]
+            },
+            {
+              "topic": "historian_recording_granularity",
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ]
+            },
+            {
+              "topic": "field_crew_lockout_certified",
+              "label": "Field crew lockout procedures certified",
+              "aliases": [
+                "Isolation lockout certification",
+                "Field switching safety sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forensic power systems analyst (DATA)",
+          "target_key": "DATA-ANALYT-U8C",
+          "alternate_key": "DATA-ANALYT-Q6R",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidates": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "numeric": [
+            {
+              "topic": "historian_recording_granularity",
+              "value": 60,
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "value": true,
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "synchrophasor_stream_enabled",
+              "label": "Synchrophasor streaming interface enabled",
+              "aliases": [
+                "Synchrophasor stream active",
+                "Phasor measurement unit streaming status"
+              ]
+            },
+            {
+              "topic": "max_tripping_sequence_latency",
+              "label": "Maximum tripping sequence recording latency",
+              "aliases": [
+                "Trip sequence latency",
+                "Breaker event recording delay"
+              ]
+            },
+            {
+              "topic": "telemetry_bandwidth_certified",
+              "label": "Telemetry bandwidth capacity certified",
+              "aliases": [
+                "OT network bandwidth certification",
+                "WAN channel throughput clearance"
+              ]
+            },
+            {
+              "topic": "substation_buffer_interval",
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ]
+            },
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ]
+            },
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ]
+            },
+            {
+              "topic": "historian_recording_granularity",
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ]
+            },
+            {
+              "topic": "field_crew_lockout_certified",
+              "label": "Field crew lockout procedures certified",
+              "aliases": [
+                "Isolation lockout certification",
+                "Field switching safety sign-off"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "regional_reliability",
+        "forensic_analytics",
+        "cyber_telemetry"
+      ],
+      "role_names": [
+        "Regional reliability coordinator (RELI)",
+        "Forensic power systems analyst (DATA)",
+        "Operational technology network architect (NETW)"
+      ],
+      "directory": "number_expansion/misaligned/task_846/k3",
+      "error_profiles": [
+        {
+          "role_name": "Regional reliability coordinator (RELI)",
+          "target_key": "RELI-BESCOM-ARS",
+          "alternate_key": "RELI-BESCOM-Y9E",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidates": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "value": true,
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "synchrophasor_stream_enabled",
+              "label": "Synchrophasor streaming interface enabled",
+              "aliases": [
+                "Synchrophasor stream active",
+                "Phasor measurement unit streaming status"
+              ]
+            },
+            {
+              "topic": "max_tripping_sequence_latency",
+              "label": "Maximum tripping sequence recording latency",
+              "aliases": [
+                "Trip sequence latency",
+                "Breaker event recording delay"
+              ]
+            },
+            {
+              "topic": "telemetry_bandwidth_certified",
+              "label": "Telemetry bandwidth capacity certified",
+              "aliases": [
+                "OT network bandwidth certification",
+                "WAN channel throughput clearance"
+              ]
+            },
+            {
+              "topic": "substation_buffer_interval",
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ]
+            },
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ]
+            },
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ]
+            },
+            {
+              "topic": "historian_recording_granularity",
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ]
+            },
+            {
+              "topic": "field_crew_lockout_certified",
+              "label": "Field crew lockout procedures certified",
+              "aliases": [
+                "Isolation lockout certification",
+                "Field switching safety sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forensic power systems analyst (DATA)",
+          "target_key": "DATA-ANALYT-U8C",
+          "alternate_key": "DATA-ANALYT-Q6R",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidates": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "numeric": [
+            {
+              "topic": "historian_recording_granularity",
+              "value": 60,
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "value": true,
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "synchrophasor_stream_enabled",
+              "label": "Synchrophasor streaming interface enabled",
+              "aliases": [
+                "Synchrophasor stream active",
+                "Phasor measurement unit streaming status"
+              ]
+            },
+            {
+              "topic": "max_tripping_sequence_latency",
+              "label": "Maximum tripping sequence recording latency",
+              "aliases": [
+                "Trip sequence latency",
+                "Breaker event recording delay"
+              ]
+            },
+            {
+              "topic": "telemetry_bandwidth_certified",
+              "label": "Telemetry bandwidth capacity certified",
+              "aliases": [
+                "OT network bandwidth certification",
+                "WAN channel throughput clearance"
+              ]
+            },
+            {
+              "topic": "substation_buffer_interval",
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ]
+            },
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ]
+            },
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ]
+            },
+            {
+              "topic": "historian_recording_granularity",
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ]
+            },
+            {
+              "topic": "field_crew_lockout_certified",
+              "label": "Field crew lockout procedures certified",
+              "aliases": [
+                "Isolation lockout certification",
+                "Field switching safety sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Operational technology network architect (NETW)",
+          "target_key": "NETW-OTNET-HJQ",
+          "alternate_key": "NETW-OTNET-HJI",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidates": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "numeric": [
+            {
+              "topic": "substation_buffer_interval",
+              "value": 10,
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "synchrophasor_stream_enabled",
+              "label": "Synchrophasor streaming interface enabled",
+              "aliases": [
+                "Synchrophasor stream active",
+                "Phasor measurement unit streaming status"
+              ]
+            },
+            {
+              "topic": "max_tripping_sequence_latency",
+              "label": "Maximum tripping sequence recording latency",
+              "aliases": [
+                "Trip sequence latency",
+                "Breaker event recording delay"
+              ]
+            },
+            {
+              "topic": "telemetry_bandwidth_certified",
+              "label": "Telemetry bandwidth capacity certified",
+              "aliases": [
+                "OT network bandwidth certification",
+                "WAN channel throughput clearance"
+              ]
+            },
+            {
+              "topic": "substation_buffer_interval",
+              "label": "Substation recording buffer interval",
+              "aliases": [
+                "Substation transient buffer window",
+                "Local recorder sampling step"
+              ]
+            },
+            {
+              "topic": "disturbance_monitoring_standard_compliant",
+              "label": "Disturbance monitoring standard compliant",
+              "aliases": [
+                "NERC PRC-002 compliance",
+                "Reliability disturbance recording conformity"
+              ]
+            },
+            {
+              "topic": "dynamic_state_estimation_supported",
+              "label": "Dynamic state estimation supported",
+              "aliases": [
+                "Dynamic state estimator integration",
+                "Kalman filter telemetry support"
+              ]
+            },
+            {
+              "topic": "historian_recording_granularity",
+              "label": "Control center historian recording granularity",
+              "aliases": [
+                "Historian logging interval",
+                "SCADA archive sampling interval"
+              ]
+            },
+            {
+              "topic": "field_crew_lockout_certified",
+              "label": "Field crew lockout procedures certified",
+              "aliases": [
+                "Isolation lockout certification",
+                "Field switching safety sign-off"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

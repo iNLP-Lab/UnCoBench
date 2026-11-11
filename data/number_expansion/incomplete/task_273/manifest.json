@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_273",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "avionics_systems",
+        "airframe_engineering"
+      ],
+      "role_names": [
+        "Avionics systems integration lead (AVN)",
+        "Airframe maintenance engineering lead (AME)"
+      ],
+      "directory": "incomplete/task_273",
+      "profiles": [
+        {
+          "record_id": "rec_avionics_systems_A",
+          "role_id": "avionics_systems",
+          "candidate_id": "A",
+          "key": "AVN-AVION-UZE",
+          "boolean_predicate_id": "A_avionics_bench_ready",
+          "boolean_label": "Avionics test bench operational status",
+          "hidden_predicate_id": "A_avionics_calibration_time",
+          "threshold_label": "Avionics calibration turnaround duration",
+          "threshold_aliases": [
+            "Calibration cycle duration",
+            "Instrument calibration latency"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "AVN-AVION-UZE: Shannon Aerospace Maintenance Centre.Shannon Aerospace Maintenance Centre: Avionics test bench operational status = true .Source: Avionics shop operational status log; Scope: Automated test equipment suites for digital flight guidance systems; Measurement: Full operational readiness confirmation for heavy flight-deck retrofit.Shannon Aerospace Maintenance Centre: Avionics retrofit labor capacity = 1200 worker-h.Source: Avionics shop staffing allocation roster; Scope: Scheduled avionics modernization team; Measurement: Total certified electrical and avionics technician labor hours available per check.",
+          "role_name": "Avionics systems integration lead (AVN)",
+          "candidate_name": "Shannon Aerospace Maintenance Centre",
+          "other_candidate_names": [
+            "Dresden Aviation Engineering Base",
+            "Getafe Airframe Overhaul Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "AME-STRUC-888",
+          "hidden_predicate_id": "A_bay_door_clearance",
+          "threshold_label": "Hangar bay door clearance width",
+          "threshold_aliases": [
+            "Bay entrance width",
+            "Clearance width"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m",
+          "partial_record_text": "AME-STRUC-888: Shannon Aerospace Maintenance Centre.Shannon Aerospace Maintenance Centre: Base airframe structural labor capacity = 5400 worker-h.Source: Engineering workforce capacity plan; Scope: Scheduled heavy structural inspection bay; Measurement: Total dedicated mechanical and sheet-metal labor hours available per check.",
+          "role_name": "Airframe maintenance engineering lead (AME)",
+          "candidate_name": "Shannon Aerospace Maintenance Centre",
+          "other_candidate_names": [
+            "Dresden Aviation Engineering Base",
+            "Getafe Airframe Overhaul Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "avionics_systems",
+        "airframe_engineering",
+        "logistics_procurement"
+      ],
+      "role_names": [
+        "Avionics systems integration lead (AVN)",
+        "Airframe maintenance engineering lead (AME)",
+        "Rotable supply chain specialist (LOG)"
+      ],
+      "directory": "incomplete/task_273",
+      "profiles": [
+        {
+          "record_id": "rec_avionics_systems_A",
+          "role_id": "avionics_systems",
+          "candidate_id": "A",
+          "key": "AVN-AVION-UZE",
+          "boolean_predicate_id": "A_avionics_bench_ready",
+          "boolean_label": "Avionics test bench operational status",
+          "hidden_predicate_id": "A_avionics_calibration_time",
+          "threshold_label": "Avionics calibration turnaround duration",
+          "threshold_aliases": [
+            "Calibration cycle duration",
+            "Instrument calibration latency"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "AVN-AVION-UZE: Shannon Aerospace Maintenance Centre.Shannon Aerospace Maintenance Centre: Avionics test bench operational status = true .Source: Avionics shop operational status log; Scope: Automated test equipment suites for digital flight guidance systems; Measurement: Full operational readiness confirmation for heavy flight-deck retrofit.Shannon Aerospace Maintenance Centre: Avionics retrofit labor capacity = 1200 worker-h.Source: Avionics shop staffing allocation roster; Scope: Scheduled avionics modernization team; Measurement: Total certified electrical and avionics technician labor hours available per check.",
+          "role_name": "Avionics systems integration lead (AVN)",
+          "candidate_name": "Shannon Aerospace Maintenance Centre",
+          "other_candidate_names": [
+            "Dresden Aviation Engineering Base",
+            "Getafe Airframe Overhaul Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "AME-STRUC-888",
+          "hidden_predicate_id": "A_bay_door_clearance",
+          "threshold_label": "Hangar bay door clearance width",
+          "threshold_aliases": [
+            "Bay entrance width",
+            "Clearance width"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m",
+          "partial_record_text": "AME-STRUC-888: Shannon Aerospace Maintenance Centre.Shannon Aerospace Maintenance Centre: Base airframe structural labor capacity = 5400 worker-h.Source: Engineering workforce capacity plan; Scope: Scheduled heavy structural inspection bay; Measurement: Total dedicated mechanical and sheet-metal labor hours available per check.",
+          "role_name": "Airframe maintenance engineering lead (AME)",
+          "candidate_name": "Shannon Aerospace Maintenance Centre",
+          "other_candidate_names": [
+            "Dresden Aviation Engineering Base",
+            "Getafe Airframe Overhaul Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_procurement_A",
+          "role_id": "logistics_procurement",
+          "candidate_id": "A",
+          "key": "LOG-SUPP-976",
+          "hidden_predicate_id": "A_rotable_lead_time",
+          "threshold_label": "Critical rotable spare delivery lead time",
+          "threshold_aliases": [
+            "Rotable component lead time",
+            "Spare parts transit window"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "d",
+          "partial_record_text": "LOG-SUPP-976: Shannon Aerospace Maintenance Centre. The record covers Critical rotable spare delivery lead time. Rotables pool service-level commitment; Landing gear actuators and flap transmission assemblies; Maximum door-to-door delivery transit time from regional pool hub.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 6,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Critical rotable spare delivery lead time is at least 6 d.",
+          "role_name": "Rotable supply chain specialist (LOG)",
+          "candidate_name": "Shannon Aerospace Maintenance Centre",
+          "other_candidate_names": [
+            "Dresden Aviation Engineering Base",
+            "Getafe Airframe Overhaul Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

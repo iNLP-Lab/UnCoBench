@@ -1,0 +1,175 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_180",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telecommunications_officer",
+        "power_systems_engineer"
+      ],
+      "role_names": [
+        "Geophysical Telemetry Officer (GTO)",
+        "Field Power Systems Engineer (PSE)"
+      ],
+      "directory": "incomplete/task_180",
+      "profiles": [
+        {
+          "record_id": "rec_telecommunications_officer_A",
+          "role_id": "telecommunications_officer",
+          "candidate_id": "A",
+          "key": "GTO-COMS-1P9",
+          "boolean_predicate_id": "A_telemetry_integrated",
+          "boolean_label": "Seismic telemetry integration verified",
+          "hidden_predicate_id": "A_transmission_interval_min",
+          "threshold_label": "Telemetry transmission interval",
+          "threshold_aliases": [
+            "Burst transmission cadence",
+            "Data relay interval"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "GTO-COMS-1P9: Hekla Flank Ridge.Hekla Flank Ridge: Seismic telemetry integration verified = true .Source: Seismology network integration log; Scope: Candidate station data packet feed to central array; Measurement: Whether seismic data handshake and checksum protocols are verified.Hekla Flank Ridge: Primary transmitter power draw = 120 W.Source: Transceiver bench test bench; Scope: Primary directional antenna during active broadcast; Measurement: Active electrical power draw of primary transmitter.",
+          "role_name": "Geophysical Telemetry Officer (GTO)",
+          "candidate_name": "Hekla Flank Ridge",
+          "other_candidate_names": [
+            "Katla Icefield Nunatak",
+            "Askja Caldera Rim"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_engineer_A",
+          "role_id": "power_systems_engineer",
+          "candidate_id": "A",
+          "key": "PSE-POWR-02Z",
+          "hidden_predicate_id": "A_aux_uplink_power",
+          "threshold_label": "Auxiliary uplink power draw",
+          "threshold_aliases": [
+            "Satellite backup uplink power",
+            "Auxiliary transceiver wattage"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "W",
+          "partial_record_text": "PSE-POWR-02Z: Hekla Flank Ridge.Hekla Flank Ridge: Autonomous winter power readiness = true .Source: Field power system certification; Scope: Methanol fuel cell and wind turbine hybrid plant; Measurement: Formal commissioning and cold-start verification for subzero operation.",
+          "role_name": "Field Power Systems Engineer (PSE)",
+          "candidate_name": "Hekla Flank Ridge",
+          "other_candidate_names": [
+            "Katla Icefield Nunatak",
+            "Askja Caldera Rim"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telecommunications_officer",
+        "power_systems_engineer",
+        "environmental_liaison"
+      ],
+      "role_names": [
+        "Geophysical Telemetry Officer (GTO)",
+        "Field Power Systems Engineer (PSE)",
+        "Protected Lands Environmental Liaison (PLE)"
+      ],
+      "directory": "number_expansion/incomplete/task_180/k3",
+      "profiles": [
+        {
+          "record_id": "rec_telecommunications_officer_A",
+          "role_id": "telecommunications_officer",
+          "candidate_id": "A",
+          "key": "GTO-COMS-1P9",
+          "boolean_predicate_id": "A_telemetry_integrated",
+          "boolean_label": "Seismic telemetry integration verified",
+          "hidden_predicate_id": "A_transmission_interval_min",
+          "threshold_label": "Telemetry transmission interval",
+          "threshold_aliases": [
+            "Burst transmission cadence",
+            "Data relay interval"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "GTO-COMS-1P9: Hekla Flank Ridge.Hekla Flank Ridge: Seismic telemetry integration verified = true .Source: Seismology network integration log; Scope: Candidate station data packet feed to central array; Measurement: Whether seismic data handshake and checksum protocols are verified.Hekla Flank Ridge: Primary transmitter power draw = 120 W.Source: Transceiver bench test bench; Scope: Primary directional antenna during active broadcast; Measurement: Active electrical power draw of primary transmitter.",
+          "role_name": "Geophysical Telemetry Officer (GTO)",
+          "candidate_name": "Hekla Flank Ridge",
+          "other_candidate_names": [
+            "Katla Icefield Nunatak",
+            "Askja Caldera Rim"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_engineer_A",
+          "role_id": "power_systems_engineer",
+          "candidate_id": "A",
+          "key": "PSE-POWR-02Z",
+          "hidden_predicate_id": "A_aux_uplink_power",
+          "threshold_label": "Auxiliary uplink power draw",
+          "threshold_aliases": [
+            "Satellite backup uplink power",
+            "Auxiliary transceiver wattage"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "W",
+          "partial_record_text": "PSE-POWR-02Z: Hekla Flank Ridge.Hekla Flank Ridge: Autonomous winter power readiness = true .Source: Field power system certification; Scope: Methanol fuel cell and wind turbine hybrid plant; Measurement: Formal commissioning and cold-start verification for subzero operation.",
+          "role_name": "Field Power Systems Engineer (PSE)",
+          "candidate_name": "Hekla Flank Ridge",
+          "other_candidate_names": [
+            "Katla Icefield Nunatak",
+            "Askja Caldera Rim"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_liaison_A_supplemental",
+          "role_id": "environmental_liaison",
+          "candidate_id": "A",
+          "key": "PLE-FOOT-GR5",
+          "hidden_predicate_id": "A_supplemental_environmental_liaison",
+          "threshold_label": "Surface ground disturbance footprint",
+          "threshold_aliases": [],
+          "threshold_value": 120,
+          "threshold_unit": "m^2",
+          "partial_record_text": "PLE-FOOT-GR5: Hekla Flank Ridge. The record covers Surface ground disturbance footprint. Environmental impact mitigation dossier; Station mast and fuel cell pad area; Total ground area disturbed by equipment foundations.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Surface ground disturbance footprint is at least 40 m^2.",
+          "role_name": "Protected Lands Environmental Liaison (PLE)",
+          "candidate_name": "Hekla Flank Ridge",
+          "other_candidate_names": [
+            "Katla Icefield Nunatak",
+            "Askja Caldera Rim"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_environmental_liaison",
+        "topic_id": "supplemental_environmental_liaison",
+        "operator": "gte",
+        "threshold": 80,
+        "role_id": "environmental_liaison",
+        "metric": "Surface ground disturbance footprint",
+        "unit": "m^2",
+        "required_text": "To qualify, a candidate must also have Surface ground disturbance footprint of at least 80 m^2.",
+        "new_fault_record_key": "PLE-FOOT-GR5",
+        "exact_value": 120,
+        "first_reply": "Surface ground disturbance footprint is at least 40 m^2."
+      }
+    }
+  }
+}

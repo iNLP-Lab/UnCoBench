@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_400",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "risk_and_insurance_officer",
+        "regulatory_affairs_specialist"
+      ],
+      "role_names": [
+        "Risk and insurance officer (RISK)",
+        "Regulatory affairs counsel (REG)"
+      ],
+      "directory": "number_expansion/misaligned/task_400/k2",
+      "error_profiles": [
+        {
+          "role_name": "Risk and insurance officer (RISK)",
+          "target_key": "RISK-INSUR-9AO",
+          "alternate_key": "RISK-SETTLE-HW2",
+          "target_context": "month-end snapshot",
+          "alternate_context": "trailing 30-day daily average",
+          "candidate": "Vanguard Biologics Freight",
+          "other_candidates": [
+            "Polaris Pharma Transit",
+            "ThermaCore Supply Logistics"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "liability_insurance_coverage",
+              "value": true,
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification",
+              "aliases": [
+                "GDP accreditation",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "continuous_telemetry_active",
+              "label": "Continuous cold-chain telemetry active",
+              "aliases": [
+                "Live temperature telemetry enablement",
+                "IoT telemetry active status"
+              ]
+            },
+            {
+              "topic": "temperature_excursion_duration",
+              "label": "Mean transit temperature excursion duration",
+              "aliases": [
+                "Average excursion window",
+                "Mean out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_fast_track",
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ]
+            },
+            {
+              "topic": "liability_insurance_coverage",
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ]
+            },
+            {
+              "topic": "dual_temp_certified",
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ]
+            },
+            {
+              "topic": "dedicated_refrigerated_fleet",
+              "label": "Total dedicated refrigerated transport fleet",
+              "aliases": [
+                "Dedicated fleet count",
+                "Active refrigerated vehicles"
+              ]
+            },
+            {
+              "topic": "quarantined_maintenance_units",
+              "label": "Quarantined maintenance units",
+              "aliases": [
+                "Out-of-service maintenance vehicles",
+                "Quarantined repair fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Regulatory affairs counsel (REG)",
+          "target_key": "REG-CUSTOMS-ZJG",
+          "alternate_key": "REG-CUSTOMS-E7Y",
+          "target_context": "Production customs portal",
+          "alternate_context": "Testing sandbox portal",
+          "candidate": "Vanguard Biologics Freight",
+          "other_candidates": [
+            "Polaris Pharma Transit",
+            "ThermaCore Supply Logistics"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "customs_fast_track",
+              "value": true,
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification",
+              "aliases": [
+                "GDP accreditation",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "continuous_telemetry_active",
+              "label": "Continuous cold-chain telemetry active",
+              "aliases": [
+                "Live temperature telemetry enablement",
+                "IoT telemetry active status"
+              ]
+            },
+            {
+              "topic": "temperature_excursion_duration",
+              "label": "Mean transit temperature excursion duration",
+              "aliases": [
+                "Average excursion window",
+                "Mean out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_fast_track",
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ]
+            },
+            {
+              "topic": "liability_insurance_coverage",
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ]
+            },
+            {
+              "topic": "dual_temp_certified",
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ]
+            },
+            {
+              "topic": "dedicated_refrigerated_fleet",
+              "label": "Total dedicated refrigerated transport fleet",
+              "aliases": [
+                "Dedicated fleet count",
+                "Active refrigerated vehicles"
+              ]
+            },
+            {
+              "topic": "quarantined_maintenance_units",
+              "label": "Quarantined maintenance units",
+              "aliases": [
+                "Out-of-service maintenance vehicles",
+                "Quarantined repair fleet"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "risk_and_insurance_officer",
+        "regulatory_affairs_specialist",
+        "fleet_operations_manager"
+      ],
+      "role_names": [
+        "Risk and insurance officer (RISK)",
+        "Regulatory affairs counsel (REG)",
+        "Fleet operations manager (OPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_400/k3",
+      "error_profiles": [
+        {
+          "role_name": "Risk and insurance officer (RISK)",
+          "target_key": "RISK-INSUR-9AO",
+          "alternate_key": "RISK-SETTLE-HW2",
+          "target_context": "month-end snapshot",
+          "alternate_context": "trailing 30-day daily average",
+          "candidate": "Vanguard Biologics Freight",
+          "other_candidates": [
+            "Polaris Pharma Transit",
+            "ThermaCore Supply Logistics"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "liability_insurance_coverage",
+              "value": true,
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification",
+              "aliases": [
+                "GDP accreditation",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "continuous_telemetry_active",
+              "label": "Continuous cold-chain telemetry active",
+              "aliases": [
+                "Live temperature telemetry enablement",
+                "IoT telemetry active status"
+              ]
+            },
+            {
+              "topic": "temperature_excursion_duration",
+              "label": "Mean transit temperature excursion duration",
+              "aliases": [
+                "Average excursion window",
+                "Mean out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_fast_track",
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ]
+            },
+            {
+              "topic": "liability_insurance_coverage",
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ]
+            },
+            {
+              "topic": "dual_temp_certified",
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ]
+            },
+            {
+              "topic": "dedicated_refrigerated_fleet",
+              "label": "Total dedicated refrigerated transport fleet",
+              "aliases": [
+                "Dedicated fleet count",
+                "Active refrigerated vehicles"
+              ]
+            },
+            {
+              "topic": "quarantined_maintenance_units",
+              "label": "Quarantined maintenance units",
+              "aliases": [
+                "Out-of-service maintenance vehicles",
+                "Quarantined repair fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Regulatory affairs counsel (REG)",
+          "target_key": "REG-CUSTOMS-ZJG",
+          "alternate_key": "REG-CUSTOMS-E7Y",
+          "target_context": "Production customs portal",
+          "alternate_context": "Testing sandbox portal",
+          "candidate": "Vanguard Biologics Freight",
+          "other_candidates": [
+            "Polaris Pharma Transit",
+            "ThermaCore Supply Logistics"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "customs_fast_track",
+              "value": true,
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification",
+              "aliases": [
+                "GDP accreditation",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "continuous_telemetry_active",
+              "label": "Continuous cold-chain telemetry active",
+              "aliases": [
+                "Live temperature telemetry enablement",
+                "IoT telemetry active status"
+              ]
+            },
+            {
+              "topic": "temperature_excursion_duration",
+              "label": "Mean transit temperature excursion duration",
+              "aliases": [
+                "Average excursion window",
+                "Mean out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_fast_track",
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ]
+            },
+            {
+              "topic": "liability_insurance_coverage",
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ]
+            },
+            {
+              "topic": "dual_temp_certified",
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ]
+            },
+            {
+              "topic": "dedicated_refrigerated_fleet",
+              "label": "Total dedicated refrigerated transport fleet",
+              "aliases": [
+                "Dedicated fleet count",
+                "Active refrigerated vehicles"
+              ]
+            },
+            {
+              "topic": "quarantined_maintenance_units",
+              "label": "Quarantined maintenance units",
+              "aliases": [
+                "Out-of-service maintenance vehicles",
+                "Quarantined repair fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Fleet operations manager (OPS)",
+          "target_key": "OPS-FLEET-AFC",
+          "alternate_key": "OPS-FLEET-BUW",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Vanguard Biologics Freight",
+          "other_candidates": [
+            "Polaris Pharma Transit",
+            "ThermaCore Supply Logistics"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dual_temp_certified",
+              "value": true,
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification",
+              "aliases": [
+                "GDP accreditation",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "continuous_telemetry_active",
+              "label": "Continuous cold-chain telemetry active",
+              "aliases": [
+                "Live temperature telemetry enablement",
+                "IoT telemetry active status"
+              ]
+            },
+            {
+              "topic": "temperature_excursion_duration",
+              "label": "Mean transit temperature excursion duration",
+              "aliases": [
+                "Average excursion window",
+                "Mean out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_fast_track",
+              "label": "Customs fast-track clearance authorization",
+              "aliases": [
+                "AEO customs authorization",
+                "Expedited border clearance status"
+              ]
+            },
+            {
+              "topic": "liability_insurance_coverage",
+              "label": "Mandatory transit liability insurance coverage",
+              "aliases": [
+                "Cargo liability coverage",
+                "Insurance policy compliance"
+              ]
+            },
+            {
+              "topic": "dual_temp_certified",
+              "label": "Dual-temperature multi-zone fleet certification",
+              "aliases": [
+                "Multi-temperature zone readiness",
+                "Dual-temp vehicle compartment verification"
+              ]
+            },
+            {
+              "topic": "dedicated_refrigerated_fleet",
+              "label": "Total dedicated refrigerated transport fleet",
+              "aliases": [
+                "Dedicated fleet count",
+                "Active refrigerated vehicles"
+              ]
+            },
+            {
+              "topic": "quarantined_maintenance_units",
+              "label": "Quarantined maintenance units",
+              "aliases": [
+                "Out-of-service maintenance vehicles",
+                "Quarantined repair fleet"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

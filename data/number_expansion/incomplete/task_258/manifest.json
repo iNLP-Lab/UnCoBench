@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_258",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydraulics_engineer",
+        "highway_authority"
+      ],
+      "role_names": [
+        "Emergency water distribution engineer (EWDE)",
+        "Department of transportation corridor inspector (DTCI)"
+      ],
+      "directory": "incomplete/task_258",
+      "profiles": [
+        {
+          "record_id": "rec_hydraulics_engineer_A",
+          "role_id": "hydraulics_engineer",
+          "candidate_id": "A",
+          "key": "EWDE-FLOWENG-B1Y",
+          "boolean_predicate_id": "A_automated_metering_active",
+          "boolean_label": "Automated flow metering active",
+          "hidden_predicate_id": "A_continuous_bulk_throughput",
+          "threshold_label": "Continuous bulk throughput",
+          "threshold_aliases": [
+            "Pumping throughput capacity",
+            "Continuous delivery throughput"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "EWDE-FLOWENG-B1Y: Northern Valley Highway Express Route.Northern Valley Highway Express Route: Automated flow metering active = true .Source: Hydraulic telemetry dashboard; Scope: Distribution transfer node telemetry equipment; Measurement: Operational status of automated real-time volume recording and pressure telemetry.",
+          "role_name": "Emergency water distribution engineer (EWDE)",
+          "candidate_name": "Northern Valley Highway Express Route",
+          "other_candidate_names": [
+            "River Crossing Industrial Bypass Route",
+            "Southern Foothills Ridge Conduit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_highway_authority_A",
+          "role_id": "highway_authority",
+          "candidate_id": "A",
+          "key": "DTCI-ROADCERT-XPP",
+          "hidden_predicate_id": "A_tanker_unit_volume",
+          "threshold_label": "Tanker unit volume",
+          "threshold_aliases": [
+            "Individual tanker payload capacity",
+            "Tanker carrier payload volume"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "m3/run",
+          "partial_record_text": "DTCI-ROADCERT-XPP: Northern Valley Highway Express Route.Northern Valley Highway Express Route: Road transit weight clearance = true .Source: Department of Transportation bridge engineering bulletin; Scope: All highway spans and culverts across the designated route; Measurement: Formal validation that route structures safely accommodate class-8 loaded bulk liquid carriers.",
+          "role_name": "Department of transportation corridor inspector (DTCI)",
+          "candidate_name": "Northern Valley Highway Express Route",
+          "other_candidate_names": [
+            "River Crossing Industrial Bypass Route",
+            "Southern Foothills Ridge Conduit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydraulics_engineer",
+        "highway_authority",
+        "fleet_dispatch"
+      ],
+      "role_names": [
+        "Emergency water distribution engineer (EWDE)",
+        "Department of transportation corridor inspector (DTCI)",
+        "Bulk tanker dispatch planner (BTDP)"
+      ],
+      "directory": "incomplete/task_258",
+      "profiles": [
+        {
+          "record_id": "rec_hydraulics_engineer_A",
+          "role_id": "hydraulics_engineer",
+          "candidate_id": "A",
+          "key": "EWDE-FLOWENG-B1Y",
+          "boolean_predicate_id": "A_automated_metering_active",
+          "boolean_label": "Automated flow metering active",
+          "hidden_predicate_id": "A_continuous_bulk_throughput",
+          "threshold_label": "Continuous bulk throughput",
+          "threshold_aliases": [
+            "Pumping throughput capacity",
+            "Continuous delivery throughput"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "EWDE-FLOWENG-B1Y: Northern Valley Highway Express Route.Northern Valley Highway Express Route: Automated flow metering active = true .Source: Hydraulic telemetry dashboard; Scope: Distribution transfer node telemetry equipment; Measurement: Operational status of automated real-time volume recording and pressure telemetry.",
+          "role_name": "Emergency water distribution engineer (EWDE)",
+          "candidate_name": "Northern Valley Highway Express Route",
+          "other_candidate_names": [
+            "River Crossing Industrial Bypass Route",
+            "Southern Foothills Ridge Conduit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_highway_authority_A",
+          "role_id": "highway_authority",
+          "candidate_id": "A",
+          "key": "DTCI-ROADCERT-XPP",
+          "hidden_predicate_id": "A_tanker_unit_volume",
+          "threshold_label": "Tanker unit volume",
+          "threshold_aliases": [
+            "Individual tanker payload capacity",
+            "Tanker carrier payload volume"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "m3/run",
+          "partial_record_text": "DTCI-ROADCERT-XPP: Northern Valley Highway Express Route.Northern Valley Highway Express Route: Road transit weight clearance = true .Source: Department of Transportation bridge engineering bulletin; Scope: All highway spans and culverts across the designated route; Measurement: Formal validation that route structures safely accommodate class-8 loaded bulk liquid carriers.",
+          "role_name": "Department of transportation corridor inspector (DTCI)",
+          "candidate_name": "Northern Valley Highway Express Route",
+          "other_candidate_names": [
+            "River Crossing Industrial Bypass Route",
+            "Southern Foothills Ridge Conduit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_dispatch_A",
+          "role_id": "fleet_dispatch",
+          "candidate_id": "A",
+          "key": "BTDP-FLTDISP-G9L",
+          "hidden_predicate_id": "A_daily_transit_runs",
+          "threshold_label": "Allocated daily transit run count",
+          "threshold_aliases": [
+            "Daily tanker rotation count",
+            "Daily route round trips"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "run",
+          "partial_record_text": "BTDP-FLTDISP-G9L: Northern Valley Highway Express Route. The record covers Allocated daily transit run count. Fleet rotation manifest; Designated 24-hour emergency delivery timetable; Number of scheduled return shuttle cycles allocated to the candidate route.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 6,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Allocated daily transit run count is at least 6 run.",
+          "role_name": "Bulk tanker dispatch planner (BTDP)",
+          "candidate_name": "Northern Valley Highway Express Route",
+          "other_candidate_names": [
+            "River Crossing Industrial Bypass Route",
+            "Southern Foothills Ridge Conduit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

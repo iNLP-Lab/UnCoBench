@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_107",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_security",
+        "infrastructure"
+      ],
+      "role_names": [
+        "Harbor Safety and Navigation Authority (SAFE)",
+        "Event Infrastructure Director (INFR)"
+      ],
+      "directory": "incomplete/task_107",
+      "profiles": [
+        {
+          "record_id": "rec_safety_security_A",
+          "role_id": "safety_security",
+          "candidate_id": "A",
+          "key": "SAFE-PROT-9ZR",
+          "boolean_predicate_id": "A_security_zone_certified",
+          "boolean_label": "Harbor facility security zone certified",
+          "hidden_predicate_id": "A_evacuation_time",
+          "threshold_label": "Maximum shoreline evacuation egress duration",
+          "threshold_aliases": [
+            "Emergency egress clearing time",
+            "Shore evacuation duration"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-PROT-9ZR: Port of Ijmuiden Regatta Basin.Port of Ijmuiden Regatta Basin: Harbor facility security zone certified = true .Source: Maritime security compliance ledger; Scope: Restricted racing team paddock and pontoon perimeter; Measurement: Active formal International Ship and Port Facility Security certification.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum shoreline evacuation egress duration is between 10 min and 50 min, inclusive.",
+          "role_name": "Harbor Safety and Navigation Authority (SAFE)",
+          "candidate_name": "Port of Ijmuiden Regatta Basin",
+          "other_candidate_names": [
+            "Oostende Royal Yacht Harbor",
+            "Esbjerg Outer Harbor Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_A",
+          "role_id": "infrastructure",
+          "candidate_id": "A",
+          "key": "INFR-CIVIL-2LY",
+          "hidden_predicate_id": "A_grandstand_seats",
+          "threshold_label": "Quayside grandstand spectator capacity",
+          "threshold_aliases": [
+            "Temporary seating capacity",
+            "Bleacher seat count"
+          ],
+          "threshold_value": 6500,
+          "threshold_unit": "seats",
+          "partial_record_text": "INFR-CIVIL-2LY: Port of Ijmuiden Regatta Basin.Port of Ijmuiden Regatta Basin: Race village hospitality electricity demand = 60 MWh.Source: Event village electrical distribution schematic; Scope: Sponsor lounges, media broadcasting center, and public catering zones; Measurement: Total estimated grid electricity consumed by temporary event facilities.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 8000
+          },
+          "coarse_statement": "Quayside grandstand spectator capacity is between 2000 seats and 8000 seats, inclusive.",
+          "role_name": "Event Infrastructure Director (INFR)",
+          "candidate_name": "Port of Ijmuiden Regatta Basin",
+          "other_candidate_names": [
+            "Oostende Royal Yacht Harbor",
+            "Esbjerg Outer Harbor Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_security",
+        "infrastructure",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Harbor Safety and Navigation Authority (SAFE)",
+        "Event Infrastructure Director (INFR)",
+        "Fleet Technical Logistics Lead (FLEET)"
+      ],
+      "directory": "incomplete/task_107",
+      "profiles": [
+        {
+          "record_id": "rec_safety_security_A",
+          "role_id": "safety_security",
+          "candidate_id": "A",
+          "key": "SAFE-PROT-9ZR",
+          "boolean_predicate_id": "A_security_zone_certified",
+          "boolean_label": "Harbor facility security zone certified",
+          "hidden_predicate_id": "A_evacuation_time",
+          "threshold_label": "Maximum shoreline evacuation egress duration",
+          "threshold_aliases": [
+            "Emergency egress clearing time",
+            "Shore evacuation duration"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "SAFE-PROT-9ZR: Port of Ijmuiden Regatta Basin.Port of Ijmuiden Regatta Basin: Harbor facility security zone certified = true .Source: Maritime security compliance ledger; Scope: Restricted racing team paddock and pontoon perimeter; Measurement: Active formal International Ship and Port Facility Security certification.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum shoreline evacuation egress duration is between 10 min and 50 min, inclusive.",
+          "role_name": "Harbor Safety and Navigation Authority (SAFE)",
+          "candidate_name": "Port of Ijmuiden Regatta Basin",
+          "other_candidate_names": [
+            "Oostende Royal Yacht Harbor",
+            "Esbjerg Outer Harbor Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_A",
+          "role_id": "infrastructure",
+          "candidate_id": "A",
+          "key": "INFR-CIVIL-2LY",
+          "hidden_predicate_id": "A_grandstand_seats",
+          "threshold_label": "Quayside grandstand spectator capacity",
+          "threshold_aliases": [
+            "Temporary seating capacity",
+            "Bleacher seat count"
+          ],
+          "threshold_value": 6500,
+          "threshold_unit": "seats",
+          "partial_record_text": "INFR-CIVIL-2LY: Port of Ijmuiden Regatta Basin.Port of Ijmuiden Regatta Basin: Race village hospitality electricity demand = 60 MWh.Source: Event village electrical distribution schematic; Scope: Sponsor lounges, media broadcasting center, and public catering zones; Measurement: Total estimated grid electricity consumed by temporary event facilities.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 8000
+          },
+          "coarse_statement": "Quayside grandstand spectator capacity is between 2000 seats and 8000 seats, inclusive.",
+          "role_name": "Event Infrastructure Director (INFR)",
+          "candidate_name": "Port of Ijmuiden Regatta Basin",
+          "other_candidate_names": [
+            "Oostende Royal Yacht Harbor",
+            "Esbjerg Outer Harbor Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLEET-HYDRO-FZV",
+          "hidden_predicate_id": "A_channel_depth",
+          "threshold_label": "Approach channel water depth",
+          "threshold_aliases": [
+            "Navigation channel draft",
+            "Dredged fairway draft"
+          ],
+          "threshold_value": 9.0,
+          "threshold_unit": "m",
+          "partial_record_text": "FLEET-HYDRO-FZV: Port of Ijmuiden Regatta Basin.Operating environment: Production environment.Port of Ijmuiden Regatta Basin: Technical fleet shore electricity demand = 70 MWh.Source: Fleet technical services utility forecast; Scope: Official racing fleet maintenance sheds and battery charging stations during stopover; Measurement: Total estimated grid electricity drawn by fleet technical systems.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 10
+          },
+          "coarse_statement": "Approach channel water depth is between 5 m and 10 m, inclusive.",
+          "role_name": "Fleet Technical Logistics Lead (FLEET)",
+          "candidate_name": "Port of Ijmuiden Regatta Basin",
+          "other_candidate_names": [
+            "Oostende Royal Yacht Harbor",
+            "Esbjerg Outer Harbor Terminal"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Simulation testbed environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

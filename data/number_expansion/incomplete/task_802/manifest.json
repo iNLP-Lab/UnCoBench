@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_802",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hazmat_safety",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Environmental hazmat safety director (HAZ)",
+        "Civil infrastructure engineer (CIVIL)"
+      ],
+      "directory": "incomplete/task_802",
+      "profiles": [
+        {
+          "record_id": "rec_hazmat_safety_A",
+          "role_id": "hazmat_safety",
+          "candidate_id": "A",
+          "key": "HAZ-SPILL-6XW",
+          "boolean_predicate_id": "A_spill_containment_installed",
+          "boolean_label": "Rapid spill containment installed",
+          "hidden_predicate_id": "A_emergency_isolation_seconds",
+          "threshold_label": "Emergency isolation valve response time",
+          "threshold_aliases": [
+            "Isolation shutoff speed",
+            "Drainage gate closure duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "s",
+          "partial_record_text": "HAZ-SPILL-6XW: Northern Perimeter Bypass Corridor.Northern Perimeter Bypass Corridor: Rapid spill containment installed = true .Source: Environmental hazard infrastructure audit; Scope: Culverts and water-adjacent rail sections; Measurement: Physical installation and commissioning of automatic catchment basins and diversion drainage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency isolation valve response time is at most 300 s.",
+          "role_name": "Environmental hazmat safety director (HAZ)",
+          "candidate_name": "Northern Perimeter Bypass Corridor",
+          "other_candidate_names": [
+            "Western Ridge Freight Beltway",
+            "Southern Industrial Connector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIVIL-TRACK-4ML",
+          "hidden_predicate_id": "A_maximum_track_gradient",
+          "threshold_label": "Maximum track gradient",
+          "threshold_aliases": [
+            "Ruling track gradient",
+            "Steepest corridor slope"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "permille",
+          "partial_record_text": "CIVIL-TRACK-4ML: Northern Perimeter Bypass Corridor.Alignment configuration version: Configuration version 2.Northern Perimeter Bypass Corridor: Subgrade geotechnical stability certified = true .Source: Geotechnical trackbed inspection certificate; Scope: Corridor main-line foundation; Measurement: Formal sign-off confirming track subgrade bears maximum dynamic axle loads without ground subsidence.Northern Perimeter Bypass Corridor: Total corridor length = 40 km.Source: Rail infrastructure asset register; Scope: Continuous bypass alignment from entry turnout to terminus yard; Measurement: Total centerline track distance of the evaluated bypass corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum track gradient is at most 40 permille.",
+          "role_name": "Civil infrastructure engineer (CIVIL)",
+          "candidate_name": "Northern Perimeter Bypass Corridor",
+          "other_candidate_names": [
+            "Western Ridge Freight Beltway",
+            "Southern Industrial Connector"
+          ],
+          "context_value": "Configuration version 2",
+          "other_context_values": [
+            "Configuration version 3"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hazmat_safety",
+        "civil_infrastructure",
+        "urban_planning"
+      ],
+      "role_names": [
+        "Environmental hazmat safety director (HAZ)",
+        "Civil infrastructure engineer (CIVIL)",
+        "Urban zoning liaison (ZONE)"
+      ],
+      "directory": "incomplete/task_802",
+      "profiles": [
+        {
+          "record_id": "rec_hazmat_safety_A",
+          "role_id": "hazmat_safety",
+          "candidate_id": "A",
+          "key": "HAZ-SPILL-6XW",
+          "boolean_predicate_id": "A_spill_containment_installed",
+          "boolean_label": "Rapid spill containment installed",
+          "hidden_predicate_id": "A_emergency_isolation_seconds",
+          "threshold_label": "Emergency isolation valve response time",
+          "threshold_aliases": [
+            "Isolation shutoff speed",
+            "Drainage gate closure duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "s",
+          "partial_record_text": "HAZ-SPILL-6XW: Northern Perimeter Bypass Corridor.Northern Perimeter Bypass Corridor: Rapid spill containment installed = true .Source: Environmental hazard infrastructure audit; Scope: Culverts and water-adjacent rail sections; Measurement: Physical installation and commissioning of automatic catchment basins and diversion drainage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency isolation valve response time is at most 300 s.",
+          "role_name": "Environmental hazmat safety director (HAZ)",
+          "candidate_name": "Northern Perimeter Bypass Corridor",
+          "other_candidate_names": [
+            "Western Ridge Freight Beltway",
+            "Southern Industrial Connector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIVIL-TRACK-4ML",
+          "hidden_predicate_id": "A_maximum_track_gradient",
+          "threshold_label": "Maximum track gradient",
+          "threshold_aliases": [
+            "Ruling track gradient",
+            "Steepest corridor slope"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "permille",
+          "partial_record_text": "CIVIL-TRACK-4ML: Northern Perimeter Bypass Corridor.Alignment configuration version: Configuration version 2.Northern Perimeter Bypass Corridor: Subgrade geotechnical stability certified = true .Source: Geotechnical trackbed inspection certificate; Scope: Corridor main-line foundation; Measurement: Formal sign-off confirming track subgrade bears maximum dynamic axle loads without ground subsidence.Northern Perimeter Bypass Corridor: Total corridor length = 40 km.Source: Rail infrastructure asset register; Scope: Continuous bypass alignment from entry turnout to terminus yard; Measurement: Total centerline track distance of the evaluated bypass corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum track gradient is at most 40 permille.",
+          "role_name": "Civil infrastructure engineer (CIVIL)",
+          "candidate_name": "Northern Perimeter Bypass Corridor",
+          "other_candidate_names": [
+            "Western Ridge Freight Beltway",
+            "Southern Industrial Connector"
+          ],
+          "context_value": "Configuration version 2",
+          "other_context_values": [
+            "Configuration version 3"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_urban_planning_A",
+          "role_id": "urban_planning",
+          "candidate_id": "A",
+          "key": "ZONE-BUFF-USD",
+          "hidden_predicate_id": "A_minimum_residential_setback",
+          "threshold_label": "Minimum residential setback",
+          "threshold_aliases": [
+            "Buffer distance to residential structures",
+            "Residential separation distance"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "m",
+          "partial_record_text": "ZONE-BUFF-USD: Northern Perimeter Bypass Corridor. The record covers Minimum residential setback. Municipal zoning setback compliance audit; Occupied housing adjacent to track centerline; Shortest measured straight-line distance between track center and nearest residential structure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Minimum residential setback is at most 400 m.",
+          "role_name": "Urban zoning liaison (ZONE)",
+          "candidate_name": "Northern Perimeter Bypass Corridor",
+          "other_candidate_names": [
+            "Western Ridge Freight Beltway",
+            "Southern Industrial Connector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

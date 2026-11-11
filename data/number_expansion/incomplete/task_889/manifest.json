@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_889",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "preventive_conservation",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Chief conservator (CONSERV)",
+        "Plant and structural engineer (FACIL)"
+      ],
+      "directory": "incomplete/task_889",
+      "profiles": [
+        {
+          "record_id": "rec_preventive_conservation_A",
+          "role_id": "preventive_conservation",
+          "candidate_id": "A",
+          "key": "CONSERV-CLIM-NQZ",
+          "boolean_predicate_id": "A_nitrogen_purge_installed",
+          "boolean_label": "Active nitrogen purge system installed",
+          "hidden_predicate_id": "A_daily_rh_drift",
+          "threshold_label": "Maximum daily relative humidity fluctuation",
+          "threshold_aliases": [
+            "Daily RH fluctuation",
+            "RH drift rate"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "%",
+          "partial_record_text": "CONSERV-CLIM-NQZ: Palazzo Ducale East Wing Gallery.Palazzo Ducale East Wing Gallery: Active nitrogen purge system installed = true .Source: Conservation equipment checklist; Scope: Exhibition showcase infrastructure; Measurement: Operational status of sealed inert nitrogen gas delivery piping.Palazzo Ducale East Wing Gallery: Gallery thermal buffer duration = 24.0 h.Source: Thermal envelope test report; Scope: Main bronze sculpture gallery; Measurement: Time elapsed before room temperature shifts by 2 degrees Celsius upon HVAC shutdown.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Maximum daily relative humidity fluctuation is at most 6 %.",
+          "role_name": "Chief conservator (CONSERV)",
+          "candidate_name": "Palazzo Ducale East Wing Gallery",
+          "other_candidate_names": [
+            "Bavarian State Antiquities Pavilion",
+            "Rhone Heritage Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FACIL-STRUCT-9GW",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Gallery floor load rating",
+          "threshold_aliases": [
+            "Structural slab load capacity",
+            "Floor bearing capacity"
+          ],
+          "threshold_value": 850,
+          "threshold_unit": "kg/m^2",
+          "partial_record_text": "FACIL-STRUCT-9GW: Palazzo Ducale East Wing Gallery.Palazzo Ducale East Wing Gallery: Intake airlock thermal buffer duration = 22.0 h.Source: Airlock climate telemetry; Scope: Crate acclimation vestibule; Measurement: Time elapsed before airlock temperature shifts by 2 degrees Celsius upon door seal.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Gallery floor load rating is at most 3000 kg/m^2.",
+          "role_name": "Plant and structural engineer (FACIL)",
+          "candidate_name": "Palazzo Ducale East Wing Gallery",
+          "other_candidate_names": [
+            "Bavarian State Antiquities Pavilion",
+            "Rhone Heritage Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "preventive_conservation",
+        "facilities_engineering",
+        "art_transport_logistics"
+      ],
+      "role_names": [
+        "Chief conservator (CONSERV)",
+        "Plant and structural engineer (FACIL)",
+        "Fine art transit coordinator (LOGIS)"
+      ],
+      "directory": "incomplete/task_889",
+      "profiles": [
+        {
+          "record_id": "rec_preventive_conservation_A",
+          "role_id": "preventive_conservation",
+          "candidate_id": "A",
+          "key": "CONSERV-CLIM-NQZ",
+          "boolean_predicate_id": "A_nitrogen_purge_installed",
+          "boolean_label": "Active nitrogen purge system installed",
+          "hidden_predicate_id": "A_daily_rh_drift",
+          "threshold_label": "Maximum daily relative humidity fluctuation",
+          "threshold_aliases": [
+            "Daily RH fluctuation",
+            "RH drift rate"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "%",
+          "partial_record_text": "CONSERV-CLIM-NQZ: Palazzo Ducale East Wing Gallery.Palazzo Ducale East Wing Gallery: Active nitrogen purge system installed = true .Source: Conservation equipment checklist; Scope: Exhibition showcase infrastructure; Measurement: Operational status of sealed inert nitrogen gas delivery piping.Palazzo Ducale East Wing Gallery: Gallery thermal buffer duration = 24.0 h.Source: Thermal envelope test report; Scope: Main bronze sculpture gallery; Measurement: Time elapsed before room temperature shifts by 2 degrees Celsius upon HVAC shutdown.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Maximum daily relative humidity fluctuation is at most 6 %.",
+          "role_name": "Chief conservator (CONSERV)",
+          "candidate_name": "Palazzo Ducale East Wing Gallery",
+          "other_candidate_names": [
+            "Bavarian State Antiquities Pavilion",
+            "Rhone Heritage Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FACIL-STRUCT-9GW",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Gallery floor load rating",
+          "threshold_aliases": [
+            "Structural slab load capacity",
+            "Floor bearing capacity"
+          ],
+          "threshold_value": 850,
+          "threshold_unit": "kg/m^2",
+          "partial_record_text": "FACIL-STRUCT-9GW: Palazzo Ducale East Wing Gallery.Palazzo Ducale East Wing Gallery: Intake airlock thermal buffer duration = 22.0 h.Source: Airlock climate telemetry; Scope: Crate acclimation vestibule; Measurement: Time elapsed before airlock temperature shifts by 2 degrees Celsius upon door seal.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Gallery floor load rating is at most 3000 kg/m^2.",
+          "role_name": "Plant and structural engineer (FACIL)",
+          "candidate_name": "Palazzo Ducale East Wing Gallery",
+          "other_candidate_names": [
+            "Bavarian State Antiquities Pavilion",
+            "Rhone Heritage Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_art_transport_logistics_A",
+          "role_id": "art_transport_logistics",
+          "candidate_id": "A",
+          "key": "LOGIS-FREIGHT-GNF",
+          "hidden_predicate_id": "A_dock_clearance_height",
+          "threshold_label": "Transport dock overhead clearance",
+          "threshold_aliases": [
+            "Loading bay vertical clearance",
+            "Dock door height"
+          ],
+          "threshold_value": 4.8,
+          "threshold_unit": "m",
+          "partial_record_text": "LOGIS-FREIGHT-GNF: Palazzo Ducale East Wing Gallery. The record covers Transport dock overhead clearance. Facility logistics survey; Enclosed secure loading portal; Minimum vertical clearance from roadbed to roll-up door lintel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Transport dock overhead clearance is at most 6 m.",
+          "role_name": "Fine art transit coordinator (LOGIS)",
+          "candidate_name": "Palazzo Ducale East Wing Gallery",
+          "other_candidate_names": [
+            "Bavarian State Antiquities Pavilion",
+            "Rhone Heritage Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_328",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "battery_storage_operations",
+        "transmission_commercial_settlements"
+      ],
+      "role_names": [
+        "Storage operations lead (STOR)",
+        "Commercial settlements manager (COMM)"
+      ],
+      "directory": "incomplete/task_328",
+      "profiles": [
+        {
+          "record_id": "rec_battery_storage_operations_A",
+          "role_id": "battery_storage_operations",
+          "candidate_id": "A",
+          "key": "STOR-BESS-LX2",
+          "boolean_predicate_id": "A_bess_storage_integrated",
+          "boolean_label": "Battery energy storage system integration status",
+          "hidden_predicate_id": "A_storage_response_time",
+          "threshold_label": "Peak discharge response time",
+          "threshold_aliases": [
+            "BESS ramp response duration",
+            "Peak storage response latency"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "STOR-BESS-LX2: Highland Basin Bifacial Array Project.Highland Basin Bifacial Array Project: Battery energy storage system integration status = true .Source: Storage commissioning readiness report; Scope: On-site battery storage facility; Measurement: Affirmation that four-hour lithium iron phosphate storage facility is fully integrated with site energy management system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Peak discharge response time is at most 40 min.",
+          "role_name": "Storage operations lead (STOR)",
+          "candidate_name": "Highland Basin Bifacial Array Project",
+          "other_candidate_names": [
+            "Solaria Mesa Photovoltaic Storage Venture",
+            "Crestview Valley Utility Hybrid Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transmission_commercial_settlements_A",
+          "role_id": "transmission_commercial_settlements",
+          "candidate_id": "A",
+          "key": "COMM-TRAR-KP8",
+          "hidden_predicate_id": "A_secondary_feeder_wheeling_tariff",
+          "threshold_label": "Secondary feeder wheeling tariff",
+          "threshold_aliases": [
+            "Secondary corridor wheeling rate",
+            "Auxiliary line wheeling charge"
+          ],
+          "threshold_value": 5.4,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "COMM-TRAR-KP8: Highland Basin Bifacial Array Project. The record covers Secondary feeder wheeling tariff. Record context: Tariff Schedule v2.0. Secondary distribution wheeling schedule; Backup 34.5 kV regional distribution bypass corridor; Contractual unit transmission fee assessed per megawatt-hour transmitted along secondary off-take corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Secondary feeder wheeling tariff is at most 7 USD/MWh.",
+          "role_name": "Commercial settlements manager (COMM)",
+          "candidate_name": "Highland Basin Bifacial Array Project",
+          "other_candidate_names": [
+            "Solaria Mesa Photovoltaic Storage Venture",
+            "Crestview Valley Utility Hybrid Consortium"
+          ],
+          "context_value": "Tariff Schedule v2.0",
+          "other_context_values": [
+            "Tariff Schedule v3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "battery_storage_operations",
+        "transmission_commercial_settlements",
+        "grid_interconnection_engineering"
+      ],
+      "role_names": [
+        "Storage operations lead (STOR)",
+        "Commercial settlements manager (COMM)",
+        "Interconnection engineering lead (GRID)"
+      ],
+      "directory": "incomplete/task_328",
+      "profiles": [
+        {
+          "record_id": "rec_battery_storage_operations_A",
+          "role_id": "battery_storage_operations",
+          "candidate_id": "A",
+          "key": "STOR-BESS-LX2",
+          "boolean_predicate_id": "A_bess_storage_integrated",
+          "boolean_label": "Battery energy storage system integration status",
+          "hidden_predicate_id": "A_storage_response_time",
+          "threshold_label": "Peak discharge response time",
+          "threshold_aliases": [
+            "BESS ramp response duration",
+            "Peak storage response latency"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "STOR-BESS-LX2: Highland Basin Bifacial Array Project.Highland Basin Bifacial Array Project: Battery energy storage system integration status = true .Source: Storage commissioning readiness report; Scope: On-site battery storage facility; Measurement: Affirmation that four-hour lithium iron phosphate storage facility is fully integrated with site energy management system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Peak discharge response time is at most 40 min.",
+          "role_name": "Storage operations lead (STOR)",
+          "candidate_name": "Highland Basin Bifacial Array Project",
+          "other_candidate_names": [
+            "Solaria Mesa Photovoltaic Storage Venture",
+            "Crestview Valley Utility Hybrid Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transmission_commercial_settlements_A",
+          "role_id": "transmission_commercial_settlements",
+          "candidate_id": "A",
+          "key": "COMM-TRAR-KP8",
+          "hidden_predicate_id": "A_secondary_feeder_wheeling_tariff",
+          "threshold_label": "Secondary feeder wheeling tariff",
+          "threshold_aliases": [
+            "Secondary corridor wheeling rate",
+            "Auxiliary line wheeling charge"
+          ],
+          "threshold_value": 5.4,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "COMM-TRAR-KP8: Highland Basin Bifacial Array Project. The record covers Secondary feeder wheeling tariff. Record context: Tariff Schedule v2.0. Secondary distribution wheeling schedule; Backup 34.5 kV regional distribution bypass corridor; Contractual unit transmission fee assessed per megawatt-hour transmitted along secondary off-take corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Secondary feeder wheeling tariff is at most 7 USD/MWh.",
+          "role_name": "Commercial settlements manager (COMM)",
+          "candidate_name": "Highland Basin Bifacial Array Project",
+          "other_candidate_names": [
+            "Solaria Mesa Photovoltaic Storage Venture",
+            "Crestview Valley Utility Hybrid Consortium"
+          ],
+          "context_value": "Tariff Schedule v2.0",
+          "other_context_values": [
+            "Tariff Schedule v3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_interconnection_engineering_A",
+          "role_id": "grid_interconnection_engineering",
+          "candidate_id": "A",
+          "key": "GRID-XFMR-D81",
+          "hidden_predicate_id": "A_primary_feeder_wheeling_tariff",
+          "threshold_label": "Primary feeder wheeling tariff",
+          "threshold_aliases": [
+            "Primary line wheeling charge",
+            "Interconnection feeder wheeling rate"
+          ],
+          "threshold_value": 7.2,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "GRID-XFMR-D81: Highland Basin Bifacial Array Project.Highland Basin Bifacial Array Project: Interconnection voltage compliance = true .Source: Regional utility interconnection study; Scope: 115 kV high-voltage interconnection tie-in point; Measurement: Whether proposed point of common coupling complies with utility steady-state voltage variance rules.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary feeder wheeling tariff is at most 9 USD/MWh.",
+          "role_name": "Interconnection engineering lead (GRID)",
+          "candidate_name": "Highland Basin Bifacial Array Project",
+          "other_candidate_names": [
+            "Solaria Mesa Photovoltaic Storage Venture",
+            "Crestview Valley Utility Hybrid Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

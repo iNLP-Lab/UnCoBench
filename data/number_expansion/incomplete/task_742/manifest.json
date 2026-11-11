@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_742",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "microbiology_lead",
+        "instrumentation_lead"
+      ],
+      "role_names": [
+        "Microbiology quality lead (MICRO)",
+        "Analytical instrumentation lead (INST)"
+      ],
+      "directory": "incomplete/task_742",
+      "profiles": [
+        {
+          "record_id": "rec_microbiology_lead_A",
+          "role_id": "microbiology_lead",
+          "candidate_id": "A",
+          "key": "MICRO-PATH-326",
+          "boolean_predicate_id": "A_pathogen_identification_validated",
+          "boolean_label": "Pathogen identification protocol validated",
+          "hidden_predicate_id": "A_limit_of_detection",
+          "threshold_label": "Limit of detection",
+          "threshold_aliases": [
+            "Microbial detection sensitivity",
+            "Analytical limit of detection"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "CFU/mL",
+          "partial_record_text": "MICRO-PATH-326: Laser-induced fluorescence flow cytometry.Laser-induced fluorescence flow cytometry: Pathogen identification protocol validated = true .Source: Microbiological analytical method validation dossier; Scope: Candidate microbial fingerprinting procedure; Measurement: Formal validation status confirming specificity for target bacterial contaminant species.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Limit of detection is at most 30 CFU/mL.",
+          "role_name": "Microbiology quality lead (MICRO)",
+          "candidate_name": "Laser-induced fluorescence flow cytometry",
+          "other_candidate_names": [
+            "Surface-enhanced Raman micro-spectroscopy",
+            "Multiplex droplet digital microfluidics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_instrumentation_lead_A",
+          "role_id": "instrumentation_lead",
+          "candidate_id": "A",
+          "key": "INST-SPECT-VT8",
+          "hidden_predicate_id": "A_spectral_signal_to_noise_ratio",
+          "threshold_label": "Spectral signal-to-noise ratio",
+          "threshold_aliases": [
+            "Signal-to-noise ratio",
+            "Spectroscopic SNR"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "dB",
+          "partial_record_text": "INST-SPECT-VT8: Laser-induced fluorescence flow cytometry.Laser-induced fluorescence flow cytometry: Optical detection rate = 200 particle/s.Source: Flow cell optical characterization report; Scope: Focal excitation volume during active fluid flow; Measurement: Verified count of individual biological particles interrogated per second.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Spectral signal-to-noise ratio is at most 50 dB.",
+          "role_name": "Analytical instrumentation lead (INST)",
+          "candidate_name": "Laser-induced fluorescence flow cytometry",
+          "other_candidate_names": [
+            "Surface-enhanced Raman micro-spectroscopy",
+            "Multiplex droplet digital microfluidics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "microbiology_lead",
+        "instrumentation_lead",
+        "facility_lead"
+      ],
+      "role_names": [
+        "Microbiology quality lead (MICRO)",
+        "Analytical instrumentation lead (INST)",
+        "Facility engineering lead (FAC)"
+      ],
+      "directory": "incomplete/task_742",
+      "profiles": [
+        {
+          "record_id": "rec_microbiology_lead_A",
+          "role_id": "microbiology_lead",
+          "candidate_id": "A",
+          "key": "MICRO-PATH-326",
+          "boolean_predicate_id": "A_pathogen_identification_validated",
+          "boolean_label": "Pathogen identification protocol validated",
+          "hidden_predicate_id": "A_limit_of_detection",
+          "threshold_label": "Limit of detection",
+          "threshold_aliases": [
+            "Microbial detection sensitivity",
+            "Analytical limit of detection"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "CFU/mL",
+          "partial_record_text": "MICRO-PATH-326: Laser-induced fluorescence flow cytometry.Laser-induced fluorescence flow cytometry: Pathogen identification protocol validated = true .Source: Microbiological analytical method validation dossier; Scope: Candidate microbial fingerprinting procedure; Measurement: Formal validation status confirming specificity for target bacterial contaminant species.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Limit of detection is at most 30 CFU/mL.",
+          "role_name": "Microbiology quality lead (MICRO)",
+          "candidate_name": "Laser-induced fluorescence flow cytometry",
+          "other_candidate_names": [
+            "Surface-enhanced Raman micro-spectroscopy",
+            "Multiplex droplet digital microfluidics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_instrumentation_lead_A",
+          "role_id": "instrumentation_lead",
+          "candidate_id": "A",
+          "key": "INST-SPECT-VT8",
+          "hidden_predicate_id": "A_spectral_signal_to_noise_ratio",
+          "threshold_label": "Spectral signal-to-noise ratio",
+          "threshold_aliases": [
+            "Signal-to-noise ratio",
+            "Spectroscopic SNR"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "dB",
+          "partial_record_text": "INST-SPECT-VT8: Laser-induced fluorescence flow cytometry.Laser-induced fluorescence flow cytometry: Optical detection rate = 200 particle/s.Source: Flow cell optical characterization report; Scope: Focal excitation volume during active fluid flow; Measurement: Verified count of individual biological particles interrogated per second.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Spectral signal-to-noise ratio is at most 50 dB.",
+          "role_name": "Analytical instrumentation lead (INST)",
+          "candidate_name": "Laser-induced fluorescence flow cytometry",
+          "other_candidate_names": [
+            "Surface-enhanced Raman micro-spectroscopy",
+            "Multiplex droplet digital microfluidics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_lead_A",
+          "role_id": "facility_lead",
+          "candidate_id": "A",
+          "key": "FAC-UTIL-G9A",
+          "hidden_predicate_id": "A_continuous_acquisition_duration",
+          "threshold_label": "Continuous valid acquisition duration",
+          "threshold_aliases": [
+            "Sustained run time",
+            "Continuous acquisition window"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "s",
+          "partial_record_text": "FAC-UTIL-G9A: Laser-induced fluorescence flow cytometry.Laser-induced fluorescence flow cytometry: Sterile containment barrier active = true .Source: Facility engineering interlock status report; Scope: Sampling interface glovebox and airlock; Measurement: Active positive pressure isolation barrier preventing ambient cross-contamination.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Continuous valid acquisition duration is at most 400 s.",
+          "role_name": "Facility engineering lead (FAC)",
+          "candidate_name": "Laser-induced fluorescence flow cytometry",
+          "other_candidate_names": [
+            "Surface-enhanced Raman micro-spectroscopy",
+            "Multiplex droplet digital microfluidics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

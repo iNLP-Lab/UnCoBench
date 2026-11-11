@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_256",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "thermal_systems",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Thermal systems manager (TSM)",
+        "Clinical quality assurance lead (CQA)"
+      ],
+      "directory": "incomplete/task_256",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_systems_A",
+          "role_id": "thermal_systems",
+          "candidate_id": "A",
+          "key": "TSM-THRMVAL-DNX",
+          "boolean_predicate_id": "A_temperature_logging_validated",
+          "boolean_label": "Continuous temperature logging validated",
+          "hidden_predicate_id": "A_logging_interval_min",
+          "threshold_label": "Continuous logging interval",
+          "threshold_aliases": [
+            "Thermal sensor sampling interval",
+            "Data logger reading frequency"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "min",
+          "partial_record_text": "TSM-THRMVAL-DNX: AeroMed Global Coldchain.AeroMed Global Coldchain: Continuous temperature logging validated = true .Source: Validation master plan qualification dossier; Scope: Consignment active sensor arrays; Measurement: Documented validation status of onboard independent thermal data acquisition.AeroMed Global Coldchain: Validated refrigerated core payload = 1100 kg.Source: Chamber qualification certificate; Scope: Primary sub-zero active cooling compartment; Measurement: Maximum payload weight verified under continuous thermal hold.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Continuous logging interval is at most 30 min.",
+          "role_name": "Thermal systems manager (TSM)",
+          "candidate_name": "AeroMed Global Coldchain",
+          "other_candidate_names": [
+            "Vanguard BioLogistics Network",
+            "Polaris CryoLogistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "CQA-CLINQA-197",
+          "hidden_predicate_id": "A_shipment_deviation_rate",
+          "threshold_label": "Shipment deviation rate",
+          "threshold_aliases": [
+            "Clinical consignment excursion rate",
+            "Transport deviation frequency"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "per thousand shipments",
+          "partial_record_text": "CQA-CLINQA-197: AeroMed Global Coldchain. The record covers Shipment deviation rate. Annual clinical trial quality review; All biological product dispatches over prior 12 months; Total documented cold-chain excursions or delivery breaches per one thousand shipments.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Shipment deviation rate is at most 9 per thousand shipments.",
+          "role_name": "Clinical quality assurance lead (CQA)",
+          "candidate_name": "AeroMed Global Coldchain",
+          "other_candidate_names": [
+            "Vanguard BioLogistics Network",
+            "Polaris CryoLogistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "thermal_systems",
+        "quality_assurance",
+        "regulatory_compliance"
+      ],
+      "role_names": [
+        "Thermal systems manager (TSM)",
+        "Clinical quality assurance lead (CQA)",
+        "Regulatory affairs auditor (RAA)"
+      ],
+      "directory": "incomplete/task_256",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_systems_A",
+          "role_id": "thermal_systems",
+          "candidate_id": "A",
+          "key": "TSM-THRMVAL-DNX",
+          "boolean_predicate_id": "A_temperature_logging_validated",
+          "boolean_label": "Continuous temperature logging validated",
+          "hidden_predicate_id": "A_logging_interval_min",
+          "threshold_label": "Continuous logging interval",
+          "threshold_aliases": [
+            "Thermal sensor sampling interval",
+            "Data logger reading frequency"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "min",
+          "partial_record_text": "TSM-THRMVAL-DNX: AeroMed Global Coldchain.AeroMed Global Coldchain: Continuous temperature logging validated = true .Source: Validation master plan qualification dossier; Scope: Consignment active sensor arrays; Measurement: Documented validation status of onboard independent thermal data acquisition.AeroMed Global Coldchain: Validated refrigerated core payload = 1100 kg.Source: Chamber qualification certificate; Scope: Primary sub-zero active cooling compartment; Measurement: Maximum payload weight verified under continuous thermal hold.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Continuous logging interval is at most 30 min.",
+          "role_name": "Thermal systems manager (TSM)",
+          "candidate_name": "AeroMed Global Coldchain",
+          "other_candidate_names": [
+            "Vanguard BioLogistics Network",
+            "Polaris CryoLogistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "CQA-CLINQA-197",
+          "hidden_predicate_id": "A_shipment_deviation_rate",
+          "threshold_label": "Shipment deviation rate",
+          "threshold_aliases": [
+            "Clinical consignment excursion rate",
+            "Transport deviation frequency"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "per thousand shipments",
+          "partial_record_text": "CQA-CLINQA-197: AeroMed Global Coldchain. The record covers Shipment deviation rate. Annual clinical trial quality review; All biological product dispatches over prior 12 months; Total documented cold-chain excursions or delivery breaches per one thousand shipments.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Shipment deviation rate is at most 9 per thousand shipments.",
+          "role_name": "Clinical quality assurance lead (CQA)",
+          "candidate_name": "AeroMed Global Coldchain",
+          "other_candidate_names": [
+            "Vanguard BioLogistics Network",
+            "Polaris CryoLogistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_compliance_A",
+          "role_id": "regulatory_compliance",
+          "candidate_id": "A",
+          "key": "RAA-REGGDP-126",
+          "hidden_predicate_id": "A_gdp_compliance_score",
+          "threshold_label": "Good Distribution Practice compliance score",
+          "threshold_aliases": [
+            "GDP audit score",
+            "GDP inspection rating"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "%",
+          "partial_record_text": "RAA-REGGDP-126: AeroMed Global Coldchain. The record covers Good Distribution Practice compliance score. Record context: Version 4.0. External biopharma compliance audit report; Global clinical distribution operating centers; Weighted percentage score achieved during the triennial GDP evaluation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Good Distribution Practice compliance score is at most 100 %.",
+          "role_name": "Regulatory affairs auditor (RAA)",
+          "candidate_name": "AeroMed Global Coldchain",
+          "other_candidate_names": [
+            "Vanguard BioLogistics Network",
+            "Polaris CryoLogistics Alliance"
+          ],
+          "context_value": "Version 4.0",
+          "other_context_values": [
+            "Version 3.2"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_717",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryo_engineering",
+        "facility_power"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CSL)",
+        "Critical power infrastructure lead (CPL)"
+      ],
+      "directory": "incomplete/task_717",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CSL-CRYO-319",
+          "boolean_predicate_id": "A_nitrogen_manifold_installed",
+          "boolean_label": "Dual-redundant nitrogen manifold installed",
+          "hidden_predicate_id": "A_boil_off_rate",
+          "threshold_label": "Daily nitrogen boil-off rate",
+          "threshold_aliases": [
+            "Passive nitrogen boil-off rate",
+            "Dewar evaporative loss rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%/d",
+          "partial_record_text": "CSL-CRYO-319: Granite Ridge Subterranean Vault.Granite Ridge Subterranean Vault: Dual-redundant nitrogen manifold installed = true .Source: Cryogenic piping inspection report; Scope: Main biological storage hall; Measurement: Verification that dual independent vacuum-insulated liquid nitrogen feed manifolds are installed and active.Granite Ridge Subterranean Vault: Standard daily liquid nitrogen vaporization rate = 210 L/d.Source: Cryogenic mass balance engineering report; Scope: Master cell bank storage sector; Measurement: Daily volumetric consumption of liquid nitrogen under active thermal equilibrium.",
+          "role_name": "Cryogenic systems lead (CSL)",
+          "candidate_name": "Granite Ridge Subterranean Vault",
+          "other_candidate_names": [
+            "Nordic Permafrost Cryobank",
+            "Alpine Shield Deep Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_power_A",
+          "role_id": "facility_power",
+          "candidate_id": "A",
+          "key": "CPL-POW-B1U",
+          "hidden_predicate_id": "A_uninterruptible_power_endurance",
+          "threshold_label": "Uninterruptible backup power endurance",
+          "threshold_aliases": [
+            "Emergency power endurance",
+            "Backup generator endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "CPL-POW-B1U: Granite Ridge Subterranean Vault. The record covers Uninterruptible backup power endurance. Emergency electrical power readiness assessment; Onsite dual diesel generator and UPS system; Continuous autonomous operating duration under full critical refrigeration load.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 48,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Uninterruptible backup power endurance is at least 48 h.",
+          "role_name": "Critical power infrastructure lead (CPL)",
+          "candidate_name": "Granite Ridge Subterranean Vault",
+          "other_candidate_names": [
+            "Nordic Permafrost Cryobank",
+            "Alpine Shield Deep Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryo_engineering",
+        "facility_power",
+        "vault_logistics"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CSL)",
+        "Critical power infrastructure lead (CPL)",
+        "Cryo-vault logistics coordinator (VLC)"
+      ],
+      "directory": "incomplete/task_717",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CSL-CRYO-319",
+          "boolean_predicate_id": "A_nitrogen_manifold_installed",
+          "boolean_label": "Dual-redundant nitrogen manifold installed",
+          "hidden_predicate_id": "A_boil_off_rate",
+          "threshold_label": "Daily nitrogen boil-off rate",
+          "threshold_aliases": [
+            "Passive nitrogen boil-off rate",
+            "Dewar evaporative loss rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%/d",
+          "partial_record_text": "CSL-CRYO-319: Granite Ridge Subterranean Vault.Granite Ridge Subterranean Vault: Dual-redundant nitrogen manifold installed = true .Source: Cryogenic piping inspection report; Scope: Main biological storage hall; Measurement: Verification that dual independent vacuum-insulated liquid nitrogen feed manifolds are installed and active.Granite Ridge Subterranean Vault: Standard daily liquid nitrogen vaporization rate = 210 L/d.Source: Cryogenic mass balance engineering report; Scope: Master cell bank storage sector; Measurement: Daily volumetric consumption of liquid nitrogen under active thermal equilibrium.",
+          "role_name": "Cryogenic systems lead (CSL)",
+          "candidate_name": "Granite Ridge Subterranean Vault",
+          "other_candidate_names": [
+            "Nordic Permafrost Cryobank",
+            "Alpine Shield Deep Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_power_A",
+          "role_id": "facility_power",
+          "candidate_id": "A",
+          "key": "CPL-POW-B1U",
+          "hidden_predicate_id": "A_uninterruptible_power_endurance",
+          "threshold_label": "Uninterruptible backup power endurance",
+          "threshold_aliases": [
+            "Emergency power endurance",
+            "Backup generator endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "CPL-POW-B1U: Granite Ridge Subterranean Vault. The record covers Uninterruptible backup power endurance. Emergency electrical power readiness assessment; Onsite dual diesel generator and UPS system; Continuous autonomous operating duration under full critical refrigeration load.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 48,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Uninterruptible backup power endurance is at least 48 h.",
+          "role_name": "Critical power infrastructure lead (CPL)",
+          "candidate_name": "Granite Ridge Subterranean Vault",
+          "other_candidate_names": [
+            "Nordic Permafrost Cryobank",
+            "Alpine Shield Deep Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vault_logistics_A",
+          "role_id": "vault_logistics",
+          "candidate_id": "A",
+          "key": "VLC-LOG-HR1",
+          "hidden_predicate_id": "A_autonomous_standby_days",
+          "threshold_label": "Autonomous standby duration",
+          "threshold_aliases": [
+            "Designated autonomous standby duration",
+            "Off-grid standby duration"
+          ],
+          "threshold_value": 28,
+          "threshold_unit": "d",
+          "partial_record_text": "VLC-LOG-HR1: Granite Ridge Subterranean Vault. The record covers Autonomous standby duration. Emergency continuity operations protocol; Catastrophic grid disconnection scenario; Mandated minimum operational duration without external resupply deliveries.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 14,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Autonomous standby duration is at least 14 d.",
+          "role_name": "Cryo-vault logistics coordinator (VLC)",
+          "candidate_name": "Granite Ridge Subterranean Vault",
+          "other_candidate_names": [
+            "Nordic Permafrost Cryobank",
+            "Alpine Shield Deep Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

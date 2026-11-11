@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_747",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_safety",
+        "facility_infrastructure"
+      ],
+      "role_names": [
+        "Public Safety & Emergency Liaison (PSE)",
+        "Facilities & Infrastructure Director (FID)"
+      ],
+      "directory": "incomplete/task_747",
+      "profiles": [
+        {
+          "record_id": "rec_medical_safety_A",
+          "role_id": "medical_safety",
+          "candidate_id": "A",
+          "key": "PSE-EMERG-LQP",
+          "boolean_predicate_id": "A_medical_station_active",
+          "boolean_label": "Emergency medical station active status",
+          "hidden_predicate_id": "A_ambulance_dispatch_time",
+          "threshold_label": "Municipal ambulance transit dispatch time",
+          "threshold_aliases": [
+            "Ambulance response transit time",
+            "Emergency dispatch time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "PSE-EMERG-LQP: Danube Riverside Congress Center.Danube Riverside Congress Center: Emergency medical station active status = true .Source: Municipal emergency services operational registry; Scope: Venue on-site emergency treatment clinic; Measurement: Whether an on-site paramedic station is fully certified and staffed.",
+          "role_name": "Public Safety & Emergency Liaison (PSE)",
+          "candidate_name": "Danube Riverside Congress Center",
+          "other_candidate_names": [
+            "Metropolitan Expo Park",
+            "Belvedere International Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_infrastructure_A",
+          "role_id": "facility_infrastructure",
+          "candidate_id": "A",
+          "key": "FID-FAC-UG5",
+          "hidden_predicate_id": "A_dock_clearance",
+          "threshold_label": "Heavy freight loading dock clearance",
+          "threshold_aliases": [
+            "Loading dock overhead clearance",
+            "Freight dock height"
+          ],
+          "threshold_value": 5.0,
+          "threshold_unit": "m",
+          "partial_record_text": "FID-FAC-UG5: Danube Riverside Congress Center.Danube Riverside Congress Center: Main plenary hall seating capacity = 5500 seats.Source: Venue fire safety certificate; Scope: Main auditorium in keynote theater configuration; Measurement: Maximum certified occupant capacity for theatrical fixed seating.",
+          "role_name": "Facilities & Infrastructure Director (FID)",
+          "candidate_name": "Danube Riverside Congress Center",
+          "other_candidate_names": [
+            "Metropolitan Expo Park",
+            "Belvedere International Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_safety",
+        "facility_infrastructure",
+        "crowd_logistics"
+      ],
+      "role_names": [
+        "Public Safety & Emergency Liaison (PSE)",
+        "Facilities & Infrastructure Director (FID)",
+        "Crowd Logistics & Access Manager (CLA)"
+      ],
+      "directory": "incomplete/task_747",
+      "profiles": [
+        {
+          "record_id": "rec_medical_safety_A",
+          "role_id": "medical_safety",
+          "candidate_id": "A",
+          "key": "PSE-EMERG-LQP",
+          "boolean_predicate_id": "A_medical_station_active",
+          "boolean_label": "Emergency medical station active status",
+          "hidden_predicate_id": "A_ambulance_dispatch_time",
+          "threshold_label": "Municipal ambulance transit dispatch time",
+          "threshold_aliases": [
+            "Ambulance response transit time",
+            "Emergency dispatch time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "PSE-EMERG-LQP: Danube Riverside Congress Center.Danube Riverside Congress Center: Emergency medical station active status = true .Source: Municipal emergency services operational registry; Scope: Venue on-site emergency treatment clinic; Measurement: Whether an on-site paramedic station is fully certified and staffed.",
+          "role_name": "Public Safety & Emergency Liaison (PSE)",
+          "candidate_name": "Danube Riverside Congress Center",
+          "other_candidate_names": [
+            "Metropolitan Expo Park",
+            "Belvedere International Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_infrastructure_A",
+          "role_id": "facility_infrastructure",
+          "candidate_id": "A",
+          "key": "FID-FAC-UG5",
+          "hidden_predicate_id": "A_dock_clearance",
+          "threshold_label": "Heavy freight loading dock clearance",
+          "threshold_aliases": [
+            "Loading dock overhead clearance",
+            "Freight dock height"
+          ],
+          "threshold_value": 5.0,
+          "threshold_unit": "m",
+          "partial_record_text": "FID-FAC-UG5: Danube Riverside Congress Center.Danube Riverside Congress Center: Main plenary hall seating capacity = 5500 seats.Source: Venue fire safety certificate; Scope: Main auditorium in keynote theater configuration; Measurement: Maximum certified occupant capacity for theatrical fixed seating.",
+          "role_name": "Facilities & Infrastructure Director (FID)",
+          "candidate_name": "Danube Riverside Congress Center",
+          "other_candidate_names": [
+            "Metropolitan Expo Park",
+            "Belvedere International Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crowd_logistics_A",
+          "role_id": "crowd_logistics",
+          "candidate_id": "A",
+          "key": "CLA-CROWD-ECN",
+          "hidden_predicate_id": "A_south_plaza_throughput",
+          "threshold_label": "South Plaza security screening throughput",
+          "threshold_aliases": [
+            "South gate screening capacity",
+            "South entrance ingress rate"
+          ],
+          "threshold_value": 1600,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "CLA-CROWD-ECN: Danube Riverside Congress Center. The record covers South Plaza security screening throughput. Record context: October 2024. Plaza perimeter screening station operational audit; South Plaza outdoor turnstiles and security lanes; Maximum steady-state sustained attendee processing volume per hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2400
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "South Plaza security screening throughput is at most 2400 persons/h.",
+          "role_name": "Crowd Logistics & Access Manager (CLA)",
+          "candidate_name": "Danube Riverside Congress Center",
+          "other_candidate_names": [
+            "Metropolitan Expo Park",
+            "Belvedere International Pavilion"
+          ],
+          "context_value": "October 2024",
+          "other_context_values": [
+            "November 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

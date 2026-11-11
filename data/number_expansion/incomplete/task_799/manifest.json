@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_799",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "process_engineering",
+        "operations_reliability"
+      ],
+      "role_names": [
+        "Process engineering lead (ENG)",
+        "Plant operations superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_799",
+      "profiles": [
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PROC-NXI",
+          "boolean_predicate_id": "A_antiscalant_fouling_mitigation_active",
+          "boolean_label": "Antiscalant fouling mitigation active",
+          "hidden_predicate_id": "A_membrane_permeate_recovery_rate",
+          "threshold_label": "Membrane permeate recovery rate",
+          "threshold_aliases": [
+            "Permeate recovery percentage",
+            "RO water recovery rate"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "ENG-PROC-NXI: Aquatech Infrastructure Partners.Aquatech Infrastructure Partners: Antiscalant fouling mitigation active = true .Source: Process flow diagram and dosing specification; Scope: Candidate primary reverse osmosis rack; Measurement: Presence and active operational status of the automated antiscalant dosing system.Aquatech Infrastructure Partners: Validated membrane permeate flux rate = 350 m3/h.Source: Hydraulic flux verification certificate; Scope: First-pass reverse osmosis train at nominal transmembrane pressure; Measurement: Net hourly permeate water production rate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Membrane permeate recovery rate is at most 100 %.",
+          "role_name": "Process engineering lead (ENG)",
+          "candidate_name": "Aquatech Infrastructure Partners",
+          "other_candidate_names": [
+            "HydroVentures Engineering Group",
+            "Pacific Desalination Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_reliability_A",
+          "role_id": "operations_reliability",
+          "candidate_id": "A",
+          "key": "OPS-REL-9GY",
+          "hidden_predicate_id": "A_chemical_cleaning_interval",
+          "threshold_label": "Chemical cleaning interval",
+          "threshold_aliases": [
+            "CIP cleaning interval",
+            "Clean-in-place service period"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "d",
+          "partial_record_text": "OPS-REL-9GY: Aquatech Infrastructure Partners.Aquatech Infrastructure Partners: Membrane service warranty = 5 y.Source: Manufacturer equipment warranty schedule; Scope: Reverse osmosis spiral-wound element replacement coverage; Measurement: Contractual duration of manufacturer full performance warranty.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Chemical cleaning interval is at most 400 d.",
+          "role_name": "Plant operations superintendent (OPS)",
+          "candidate_name": "Aquatech Infrastructure Partners",
+          "other_candidate_names": [
+            "HydroVentures Engineering Group",
+            "Pacific Desalination Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "process_engineering",
+        "operations_reliability",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Process engineering lead (ENG)",
+        "Plant operations superintendent (OPS)",
+        "Environmental compliance officer (ENV)"
+      ],
+      "directory": "incomplete/task_799",
+      "profiles": [
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PROC-NXI",
+          "boolean_predicate_id": "A_antiscalant_fouling_mitigation_active",
+          "boolean_label": "Antiscalant fouling mitigation active",
+          "hidden_predicate_id": "A_membrane_permeate_recovery_rate",
+          "threshold_label": "Membrane permeate recovery rate",
+          "threshold_aliases": [
+            "Permeate recovery percentage",
+            "RO water recovery rate"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "ENG-PROC-NXI: Aquatech Infrastructure Partners.Aquatech Infrastructure Partners: Antiscalant fouling mitigation active = true .Source: Process flow diagram and dosing specification; Scope: Candidate primary reverse osmosis rack; Measurement: Presence and active operational status of the automated antiscalant dosing system.Aquatech Infrastructure Partners: Validated membrane permeate flux rate = 350 m3/h.Source: Hydraulic flux verification certificate; Scope: First-pass reverse osmosis train at nominal transmembrane pressure; Measurement: Net hourly permeate water production rate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Membrane permeate recovery rate is at most 100 %.",
+          "role_name": "Process engineering lead (ENG)",
+          "candidate_name": "Aquatech Infrastructure Partners",
+          "other_candidate_names": [
+            "HydroVentures Engineering Group",
+            "Pacific Desalination Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_reliability_A",
+          "role_id": "operations_reliability",
+          "candidate_id": "A",
+          "key": "OPS-REL-9GY",
+          "hidden_predicate_id": "A_chemical_cleaning_interval",
+          "threshold_label": "Chemical cleaning interval",
+          "threshold_aliases": [
+            "CIP cleaning interval",
+            "Clean-in-place service period"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "d",
+          "partial_record_text": "OPS-REL-9GY: Aquatech Infrastructure Partners.Aquatech Infrastructure Partners: Membrane service warranty = 5 y.Source: Manufacturer equipment warranty schedule; Scope: Reverse osmosis spiral-wound element replacement coverage; Measurement: Contractual duration of manufacturer full performance warranty.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Chemical cleaning interval is at most 400 d.",
+          "role_name": "Plant operations superintendent (OPS)",
+          "candidate_name": "Aquatech Infrastructure Partners",
+          "other_candidate_names": [
+            "HydroVentures Engineering Group",
+            "Pacific Desalination Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ECOL-7BH",
+          "hidden_predicate_id": "A_brine_discharge_salinity",
+          "threshold_label": "Brine discharge salinity",
+          "threshold_aliases": [
+            "Concentrate effluent salinity",
+            "Reject stream TDS"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "g/L",
+          "partial_record_text": "ENV-ECOL-7BH: Aquatech Infrastructure Partners. The record covers Brine discharge salinity. Brine effluent discharge simulation report; Outfall mixing zone at rated peak production; Total dissolved solids concentration of the reject brine concentrate stream.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Brine discharge salinity is at most 70 g/L.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Aquatech Infrastructure Partners",
+          "other_candidate_names": [
+            "HydroVentures Engineering Group",
+            "Pacific Desalination Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

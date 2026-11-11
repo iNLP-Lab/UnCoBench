@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_852",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_geochemistry",
+        "camp_logistics"
+      ],
+      "role_names": [
+        "Geochemical hazard analyst (GEO)",
+        "Camp logistics lead (LOG)"
+      ],
+      "directory": "incomplete/task_852",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_geochemistry_A",
+          "role_id": "environmental_geochemistry",
+          "candidate_id": "A",
+          "key": "GEO-SOIL-7AL",
+          "boolean_predicate_id": "A_tephra_containment_ready",
+          "boolean_label": "Baseline tephra containment readiness",
+          "hidden_predicate_id": "A_soil_radon_concentration",
+          "threshold_label": "Soil radon gas concentration",
+          "threshold_aliases": [
+            "Subsurface radon level",
+            "Soil gas radioactivity"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "Bq/m3",
+          "partial_record_text": "GEO-SOIL-7AL: Cerro Pabellon High Plateau Setup.Cerro Pabellon High Plateau Setup: Baseline tephra containment readiness = true .Source: Geological hazards mitigation checklist; Scope: Candidate camp structure air intake and filter enclosures; Measurement: Verification that primary fine-ash containment barriers are certified and deployable.",
+          "role_name": "Geochemical hazard analyst (GEO)",
+          "candidate_name": "Cerro Pabellon High Plateau Setup",
+          "other_candidate_names": [
+            "Paso Jama Ridge Installation",
+            "Salar de Tara Caldera Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_camp_logistics_A",
+          "role_id": "camp_logistics",
+          "candidate_id": "A",
+          "key": "LOG-BASE-3GT",
+          "hidden_predicate_id": "A_base_camp_water_demand",
+          "threshold_label": "Base camp personnel water demand",
+          "threshold_aliases": [
+            "Camp domestic water consumption",
+            "Crew potable water requirement"
+          ],
+          "threshold_value": 520,
+          "threshold_unit": "L/d",
+          "partial_record_text": "LOG-BASE-3GT: Cerro Pabellon High Plateau Setup. The record covers Base camp personnel water demand. Camp life-support allocation audit; Full operational crew of researchers and logistics technicians; Allocated daily volume of potable water for drinking, food preparation, and personal hygiene.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 450,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Base camp personnel water demand is at least 450 L/d.",
+          "role_name": "Camp logistics lead (LOG)",
+          "candidate_name": "Cerro Pabellon High Plateau Setup",
+          "other_candidate_names": [
+            "Paso Jama Ridge Installation",
+            "Salar de Tara Caldera Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_geochemistry",
+        "camp_logistics",
+        "scientific_instrumentation"
+      ],
+      "role_names": [
+        "Geochemical hazard analyst (GEO)",
+        "Camp logistics lead (LOG)",
+        "Instrumentation engineer (SCI)"
+      ],
+      "directory": "incomplete/task_852",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_geochemistry_A",
+          "role_id": "environmental_geochemistry",
+          "candidate_id": "A",
+          "key": "GEO-SOIL-7AL",
+          "boolean_predicate_id": "A_tephra_containment_ready",
+          "boolean_label": "Baseline tephra containment readiness",
+          "hidden_predicate_id": "A_soil_radon_concentration",
+          "threshold_label": "Soil radon gas concentration",
+          "threshold_aliases": [
+            "Subsurface radon level",
+            "Soil gas radioactivity"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "Bq/m3",
+          "partial_record_text": "GEO-SOIL-7AL: Cerro Pabellon High Plateau Setup.Cerro Pabellon High Plateau Setup: Baseline tephra containment readiness = true .Source: Geological hazards mitigation checklist; Scope: Candidate camp structure air intake and filter enclosures; Measurement: Verification that primary fine-ash containment barriers are certified and deployable.",
+          "role_name": "Geochemical hazard analyst (GEO)",
+          "candidate_name": "Cerro Pabellon High Plateau Setup",
+          "other_candidate_names": [
+            "Paso Jama Ridge Installation",
+            "Salar de Tara Caldera Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_camp_logistics_A",
+          "role_id": "camp_logistics",
+          "candidate_id": "A",
+          "key": "LOG-BASE-3GT",
+          "hidden_predicate_id": "A_base_camp_water_demand",
+          "threshold_label": "Base camp personnel water demand",
+          "threshold_aliases": [
+            "Camp domestic water consumption",
+            "Crew potable water requirement"
+          ],
+          "threshold_value": 520,
+          "threshold_unit": "L/d",
+          "partial_record_text": "LOG-BASE-3GT: Cerro Pabellon High Plateau Setup. The record covers Base camp personnel water demand. Camp life-support allocation audit; Full operational crew of researchers and logistics technicians; Allocated daily volume of potable water for drinking, food preparation, and personal hygiene.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 450,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Base camp personnel water demand is at least 450 L/d.",
+          "role_name": "Camp logistics lead (LOG)",
+          "candidate_name": "Cerro Pabellon High Plateau Setup",
+          "other_candidate_names": [
+            "Paso Jama Ridge Installation",
+            "Salar de Tara Caldera Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_instrumentation_A",
+          "role_id": "scientific_instrumentation",
+          "candidate_id": "A",
+          "key": "SCI-SENS-98W",
+          "hidden_predicate_id": "A_lab_wash_water_demand",
+          "threshold_label": "Laboratory wash water demand",
+          "threshold_aliases": [
+            "Instrument decontamination water consumption",
+            "Analytical lab water requirement"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "L/d",
+          "partial_record_text": "SCI-SENS-98W: Cerro Pabellon High Plateau Setup.Cerro Pabellon High Plateau Setup: Satellite telemetry downlink verification = true .Source: Telecommunications test registry; Scope: Primary geostationary data terminal at candidate site; Measurement: Successful transmission of test seismic telemetry packet stream with zero dropped frames.",
+          "role_name": "Instrumentation engineer (SCI)",
+          "candidate_name": "Cerro Pabellon High Plateau Setup",
+          "other_candidate_names": [
+            "Paso Jama Ridge Installation",
+            "Salar de Tara Caldera Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

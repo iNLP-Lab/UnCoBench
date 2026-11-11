@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_410",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "maritime_hydrographer",
+        "harbor_master"
+      ],
+      "role_names": [
+        "Hydrographic survey superintendent (HSS)",
+        "Regional harbor master (RHM)"
+      ],
+      "directory": "incomplete/task_410",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_hydrographer_A",
+          "role_id": "maritime_hydrographer",
+          "candidate_id": "A",
+          "key": "HSS-HYDRO-2RV",
+          "boolean_predicate_id": "A_sea_state_telemetry_active",
+          "boolean_label": "Dynamic sea-state telemetry active",
+          "hidden_predicate_id": "A_significant_wave_height",
+          "threshold_label": "Maximum significant wave height",
+          "threshold_aliases": [
+            "Significant wave height threshold",
+            "Peak channel wave height"
+          ],
+          "threshold_value": 2.6,
+          "threshold_unit": "m",
+          "partial_record_text": "HSS-HYDRO-2RV: North Shoal Deepwater Trench Passage.North Shoal Deepwater Trench Passage: Dynamic sea-state telemetry active = true .Source: Buoy network status console; Scope: Corridor entrance and fairway wave monitoring buoys; Measurement: Confirmation that real-time acoustic Doppler and wave sensor telemetry feed is online.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 5
+          },
+          "coarse_statement": "Maximum significant wave height is between 2 m and 5 m, inclusive.",
+          "role_name": "Hydrographic survey superintendent (HSS)",
+          "candidate_name": "North Shoal Deepwater Trench Passage",
+          "other_candidate_names": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_master_A",
+          "role_id": "harbor_master",
+          "candidate_id": "A",
+          "key": "RHM-HARB-0LO",
+          "hidden_predicate_id": "A_transit_cycle_duration",
+          "threshold_label": "Transit turnaround cycle duration",
+          "threshold_aliases": [
+            "Turnaround cycle hours",
+            "Round-trip evacuation transit time"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "h",
+          "partial_record_text": "RHM-HARB-0LO: North Shoal Deepwater Trench Passage.North Shoal Deepwater Trench Passage: Fuel bunkering tender availability = true .Source: Harbor vessel assignment board; Scope: Designated corridor offshore refueling rendezvous point; Measurement: Dedicated low-sulfur marine gasoil bunkering barge actively on station.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Transit turnaround cycle duration is between 2 h and 6 h, inclusive.",
+          "role_name": "Regional harbor master (RHM)",
+          "candidate_name": "North Shoal Deepwater Trench Passage",
+          "other_candidate_names": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "maritime_hydrographer",
+        "harbor_master",
+        "fleet_dispatcher"
+      ],
+      "role_names": [
+        "Hydrographic survey superintendent (HSS)",
+        "Regional harbor master (RHM)",
+        "Surface fleet logistics dispatcher (FLD)"
+      ],
+      "directory": "incomplete/task_410",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_hydrographer_A",
+          "role_id": "maritime_hydrographer",
+          "candidate_id": "A",
+          "key": "HSS-HYDRO-2RV",
+          "boolean_predicate_id": "A_sea_state_telemetry_active",
+          "boolean_label": "Dynamic sea-state telemetry active",
+          "hidden_predicate_id": "A_significant_wave_height",
+          "threshold_label": "Maximum significant wave height",
+          "threshold_aliases": [
+            "Significant wave height threshold",
+            "Peak channel wave height"
+          ],
+          "threshold_value": 2.6,
+          "threshold_unit": "m",
+          "partial_record_text": "HSS-HYDRO-2RV: North Shoal Deepwater Trench Passage.North Shoal Deepwater Trench Passage: Dynamic sea-state telemetry active = true .Source: Buoy network status console; Scope: Corridor entrance and fairway wave monitoring buoys; Measurement: Confirmation that real-time acoustic Doppler and wave sensor telemetry feed is online.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 5
+          },
+          "coarse_statement": "Maximum significant wave height is between 2 m and 5 m, inclusive.",
+          "role_name": "Hydrographic survey superintendent (HSS)",
+          "candidate_name": "North Shoal Deepwater Trench Passage",
+          "other_candidate_names": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_master_A",
+          "role_id": "harbor_master",
+          "candidate_id": "A",
+          "key": "RHM-HARB-0LO",
+          "hidden_predicate_id": "A_transit_cycle_duration",
+          "threshold_label": "Transit turnaround cycle duration",
+          "threshold_aliases": [
+            "Turnaround cycle hours",
+            "Round-trip evacuation transit time"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "h",
+          "partial_record_text": "RHM-HARB-0LO: North Shoal Deepwater Trench Passage.North Shoal Deepwater Trench Passage: Fuel bunkering tender availability = true .Source: Harbor vessel assignment board; Scope: Designated corridor offshore refueling rendezvous point; Measurement: Dedicated low-sulfur marine gasoil bunkering barge actively on station.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Transit turnaround cycle duration is between 2 h and 6 h, inclusive.",
+          "role_name": "Regional harbor master (RHM)",
+          "candidate_name": "North Shoal Deepwater Trench Passage",
+          "other_candidate_names": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_dispatcher_A",
+          "role_id": "fleet_dispatcher",
+          "candidate_id": "A",
+          "key": "FLD-DISP-F4M",
+          "hidden_predicate_id": "A_passenger_rescue_capacity",
+          "threshold_label": "Certified passenger rescue capacity",
+          "threshold_aliases": [
+            "Total rescue seating capacity",
+            "Surface evacuee lift capacity"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "passengers",
+          "partial_record_text": "FLD-DISP-F4M: North Shoal Deepwater Trench Passage. The record covers Certified passenger rescue capacity. Vessel safety management audit; Primary assigned high-speed surface rescue craft fleet; Total certified SOLAS passenger transport capacity per sortie.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified passenger rescue capacity is between 200 passengers and 700 passengers, inclusive.",
+          "role_name": "Surface fleet logistics dispatcher (FLD)",
+          "candidate_name": "North Shoal Deepwater Trench Passage",
+          "other_candidate_names": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

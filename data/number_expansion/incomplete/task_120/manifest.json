@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_120",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cold_chain_quality",
+        "customs_brokerage"
+      ],
+      "role_names": [
+        "Cold-chain quality assurance lead (CCQA)",
+        "Customs brokerage and regulatory compliance manager (CBRC)"
+      ],
+      "directory": "incomplete/task_120",
+      "profiles": [
+        {
+          "record_id": "rec_cold_chain_quality_A",
+          "role_id": "cold_chain_quality",
+          "candidate_id": "A",
+          "key": "CCQA-TEMPAUD-3JU",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous reefer telemetry monitoring enabled",
+          "hidden_predicate_id": "A_excursion_duration",
+          "threshold_label": "Average thermal excursion duration",
+          "threshold_aliases": [
+            "Mean temperature excursion window",
+            "Thermal deviation recovery time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "CCQA-TEMPAUD-3JU: Nordic Rail-Sea Logistics Alliance.Nordic Rail-Sea Logistics Alliance: Continuous reefer telemetry monitoring enabled = true .Source: Cold chain IoT certification report; Scope: Candidate fleet reefer container telemetry systems; Measurement: Verification that real-time two-way temperature and humidity telemetry is activated across all transit units.",
+          "role_name": "Cold-chain quality assurance lead (CCQA)",
+          "candidate_name": "Nordic Rail-Sea Logistics Alliance",
+          "other_candidate_names": [
+            "Trans-Baltic Reefer Express Consortium",
+            "Vanguard Intermodal Coldway Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_customs_brokerage_A",
+          "role_id": "customs_brokerage",
+          "candidate_id": "A",
+          "key": "CBRC-BONDCLR-A68",
+          "hidden_predicate_id": "A_customs_processing_time",
+          "threshold_label": "Average customs clearance processing duration",
+          "threshold_aliases": [
+            "Customs clearance turnaround",
+            "Documentary clearance dwell time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "CBRC-BONDCLR-A68: Nordic Rail-Sea Logistics Alliance.Nordic Rail-Sea Logistics Alliance: Bonded customs transit pre-clearance status = true .Source: National customs authority registry; Scope: Cross-border intermodal transit lanes; Measurement: Active authorization for electronic bonded carriage without border gate physical sealing stops.",
+          "role_name": "Customs brokerage and regulatory compliance manager (CBRC)",
+          "candidate_name": "Nordic Rail-Sea Logistics Alliance",
+          "other_candidate_names": [
+            "Trans-Baltic Reefer Express Consortium",
+            "Vanguard Intermodal Coldway Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cold_chain_quality",
+        "customs_brokerage",
+        "maritime_drayage"
+      ],
+      "role_names": [
+        "Cold-chain quality assurance lead (CCQA)",
+        "Customs brokerage and regulatory compliance manager (CBRC)",
+        "Maritime terminal drayage coordinator (MTDC)"
+      ],
+      "directory": "incomplete/task_120",
+      "profiles": [
+        {
+          "record_id": "rec_cold_chain_quality_A",
+          "role_id": "cold_chain_quality",
+          "candidate_id": "A",
+          "key": "CCQA-TEMPAUD-3JU",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous reefer telemetry monitoring enabled",
+          "hidden_predicate_id": "A_excursion_duration",
+          "threshold_label": "Average thermal excursion duration",
+          "threshold_aliases": [
+            "Mean temperature excursion window",
+            "Thermal deviation recovery time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "CCQA-TEMPAUD-3JU: Nordic Rail-Sea Logistics Alliance.Nordic Rail-Sea Logistics Alliance: Continuous reefer telemetry monitoring enabled = true .Source: Cold chain IoT certification report; Scope: Candidate fleet reefer container telemetry systems; Measurement: Verification that real-time two-way temperature and humidity telemetry is activated across all transit units.",
+          "role_name": "Cold-chain quality assurance lead (CCQA)",
+          "candidate_name": "Nordic Rail-Sea Logistics Alliance",
+          "other_candidate_names": [
+            "Trans-Baltic Reefer Express Consortium",
+            "Vanguard Intermodal Coldway Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_customs_brokerage_A",
+          "role_id": "customs_brokerage",
+          "candidate_id": "A",
+          "key": "CBRC-BONDCLR-A68",
+          "hidden_predicate_id": "A_customs_processing_time",
+          "threshold_label": "Average customs clearance processing duration",
+          "threshold_aliases": [
+            "Customs clearance turnaround",
+            "Documentary clearance dwell time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "CBRC-BONDCLR-A68: Nordic Rail-Sea Logistics Alliance.Nordic Rail-Sea Logistics Alliance: Bonded customs transit pre-clearance status = true .Source: National customs authority registry; Scope: Cross-border intermodal transit lanes; Measurement: Active authorization for electronic bonded carriage without border gate physical sealing stops.",
+          "role_name": "Customs brokerage and regulatory compliance manager (CBRC)",
+          "candidate_name": "Nordic Rail-Sea Logistics Alliance",
+          "other_candidate_names": [
+            "Trans-Baltic Reefer Express Consortium",
+            "Vanguard Intermodal Coldway Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_drayage_A",
+          "role_id": "maritime_drayage",
+          "candidate_id": "A",
+          "key": "MTDC-PORTDRY-G6Z",
+          "hidden_predicate_id": "A_port_drayage_volume",
+          "threshold_label": "Monthly port drayage container transfer capacity",
+          "threshold_aliases": [
+            "Port drayage throughput",
+            "Drayage transfer container allocation"
+          ],
+          "threshold_value": 280,
+          "threshold_unit": "container",
+          "partial_record_text": "MTDC-PORTDRY-G6Z: Nordic Rail-Sea Logistics Alliance. The record covers Monthly port drayage container transfer capacity. Harbor drayage dispatch roster; Monthly dedicated terminal-to-ramp drayage runs; Total contracted reefer container transfers performed between marine berths and inland intermodal yard.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 160,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Monthly port drayage container transfer capacity is at least 160 container.",
+          "role_name": "Maritime terminal drayage coordinator (MTDC)",
+          "candidate_name": "Nordic Rail-Sea Logistics Alliance",
+          "other_candidate_names": [
+            "Trans-Baltic Reefer Express Consortium",
+            "Vanguard Intermodal Coldway Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

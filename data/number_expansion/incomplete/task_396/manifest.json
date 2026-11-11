@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_396",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_systems_specialist",
+        "telecom_rigging_lead"
+      ],
+      "role_names": [
+        "Remote power specialist (POW)",
+        "Telecommunications rigging lead (RIG)"
+      ],
+      "directory": "incomplete/task_396",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_specialist_A",
+          "role_id": "power_systems_specialist",
+          "candidate_id": "A",
+          "key": "POW-BATT-6O7",
+          "boolean_predicate_id": "A_solar_microgrid_installed",
+          "boolean_label": "Solar microgrid system installed",
+          "hidden_predicate_id": "A_battery_autonomy_duration",
+          "threshold_label": "Autonomous battery reserve duration",
+          "threshold_aliases": [
+            "Battery autonomy span",
+            "Reserve battery operating time"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "POW-BATT-6O7: Mount Adams Ridge Outpost.Mount Adams Ridge Outpost: Solar microgrid system installed = true .Source: Station power installation register; Scope: On-site roof and ground photovoltaic racking; Measurement: Physical mounting and electrical interconnect status of candidate microgrid equipment.",
+          "role_name": "Remote power specialist (POW)",
+          "candidate_name": "Mount Adams Ridge Outpost",
+          "other_candidate_names": [
+            "Glacier Peak Saddle Station",
+            "Goat Rocks Plateau Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecom_rigging_lead_A",
+          "role_id": "telecom_rigging_lead",
+          "candidate_id": "A",
+          "key": "RIG-MAST-UFI",
+          "hidden_predicate_id": "A_gross_mast_capacity",
+          "threshold_label": "Gross mast payload capacity",
+          "threshold_aliases": [
+            "Mast structural capacity",
+            "Total mast rated payload"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "kg",
+          "partial_record_text": "RIG-MAST-UFI: Mount Adams Ridge Outpost.Deployment environment: Production deployment.Mount Adams Ridge Outpost: Satellite uplink transceiver certified = true .Source: Telecommunications commissioning certificate; Scope: Primary low-Earth-orbit broadband earth station; Measurement: Official telecommunications commission verification of redundant satellite transceiver link.",
+          "role_name": "Telecommunications rigging lead (RIG)",
+          "candidate_name": "Mount Adams Ridge Outpost",
+          "other_candidate_names": [
+            "Glacier Peak Saddle Station",
+            "Goat Rocks Plateau Facility"
+          ],
+          "context_value": "Production deployment",
+          "other_context_values": [
+            "Staging deployment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_systems_specialist",
+        "telecom_rigging_lead",
+        "geotechnical_lead"
+      ],
+      "role_names": [
+        "Remote power specialist (POW)",
+        "Telecommunications rigging lead (RIG)",
+        "Geotechnical engineer (GEO)"
+      ],
+      "directory": "incomplete/task_396",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_specialist_A",
+          "role_id": "power_systems_specialist",
+          "candidate_id": "A",
+          "key": "POW-BATT-6O7",
+          "boolean_predicate_id": "A_solar_microgrid_installed",
+          "boolean_label": "Solar microgrid system installed",
+          "hidden_predicate_id": "A_battery_autonomy_duration",
+          "threshold_label": "Autonomous battery reserve duration",
+          "threshold_aliases": [
+            "Battery autonomy span",
+            "Reserve battery operating time"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "POW-BATT-6O7: Mount Adams Ridge Outpost.Mount Adams Ridge Outpost: Solar microgrid system installed = true .Source: Station power installation register; Scope: On-site roof and ground photovoltaic racking; Measurement: Physical mounting and electrical interconnect status of candidate microgrid equipment.",
+          "role_name": "Remote power specialist (POW)",
+          "candidate_name": "Mount Adams Ridge Outpost",
+          "other_candidate_names": [
+            "Glacier Peak Saddle Station",
+            "Goat Rocks Plateau Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecom_rigging_lead_A",
+          "role_id": "telecom_rigging_lead",
+          "candidate_id": "A",
+          "key": "RIG-MAST-UFI",
+          "hidden_predicate_id": "A_gross_mast_capacity",
+          "threshold_label": "Gross mast payload capacity",
+          "threshold_aliases": [
+            "Mast structural capacity",
+            "Total mast rated payload"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "kg",
+          "partial_record_text": "RIG-MAST-UFI: Mount Adams Ridge Outpost.Deployment environment: Production deployment.Mount Adams Ridge Outpost: Satellite uplink transceiver certified = true .Source: Telecommunications commissioning certificate; Scope: Primary low-Earth-orbit broadband earth station; Measurement: Official telecommunications commission verification of redundant satellite transceiver link.",
+          "role_name": "Telecommunications rigging lead (RIG)",
+          "candidate_name": "Mount Adams Ridge Outpost",
+          "other_candidate_names": [
+            "Glacier Peak Saddle Station",
+            "Goat Rocks Plateau Facility"
+          ],
+          "context_value": "Production deployment",
+          "other_context_values": [
+            "Staging deployment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_lead_A",
+          "role_id": "geotechnical_lead",
+          "candidate_id": "A",
+          "key": "GEO-FOUND-FV9",
+          "hidden_predicate_id": "A_sensor_mount_weight",
+          "threshold_label": "Structural sensor mount weight",
+          "threshold_aliases": [
+            "Mount hardware mass",
+            "Dedicated bracket deadweight"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "kg",
+          "partial_record_text": "GEO-FOUND-FV9: Mount Adams Ridge Outpost.Mount Adams Ridge Outpost: Structural foundation stability certified = true .Source: Geotechnical anchor inspection docket; Scope: Subsurface concrete footing and rock anchor array; Measurement: Formal engineer sign-off confirming seismic shear resistance meets code.",
+          "role_name": "Geotechnical engineer (GEO)",
+          "candidate_name": "Mount Adams Ridge Outpost",
+          "other_candidate_names": [
+            "Glacier Peak Saddle Station",
+            "Goat Rocks Plateau Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

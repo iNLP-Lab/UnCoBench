@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_308",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "laboratory_ops",
+        "facility_utilities"
+      ],
+      "role_names": [
+        "Laboratory Operations Manager (LOM)",
+        "Station Facilities Superintendent (SFS)"
+      ],
+      "directory": "number_expansion/misaligned/task_308/k2",
+      "error_profiles": [
+        {
+          "role_name": "Laboratory Operations Manager (LOM)",
+          "target_key": "LOM-LAB-AV5",
+          "alternate_key": "LOM-CENT-HPL",
+          "target_context": "including waste neutralization systems",
+          "alternate_context": "excluding waste neutralization systems",
+          "candidate": "Val Roseg Biosphere Observatory",
+          "other_candidates": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "biosafety_containment_ready",
+              "value": true,
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_gear_access",
+              "label": "Heavy gear transport access cleared",
+              "aliases": [
+                "Heavy transport access",
+                "Access road clearance"
+              ]
+            },
+            {
+              "topic": "bunkhouse_capacity",
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ]
+            },
+            {
+              "topic": "sensor_telemetry_active",
+              "label": "Sensor telemetry network enabled",
+              "aliases": [
+                "Continuous telemetry status",
+                "Sensor network activation"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss_pct",
+              "label": "Sensor telemetry packet loss rate",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "habitat_permit_cleared",
+              "label": "Special habitat research clearance issued",
+              "aliases": [
+                "Ecological research permit",
+                "Habitat access permit"
+              ]
+            },
+            {
+              "topic": "biosafety_containment_ready",
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ]
+            },
+            {
+              "topic": "gross_freeze_volume",
+              "label": "Gross deep-freeze sample storage volume",
+              "aliases": [
+                "Gross freezer capacity",
+                "Total deep-freeze volume"
+              ]
+            },
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Station Facilities Superintendent (SFS)",
+          "target_key": "SFS-UTIL-EO7",
+          "alternate_key": "SFS-UTIL-Z0L",
+          "target_context": "net usable storage volume excluding racking fixtures",
+          "alternate_context": "gross chamber volume including racking fixtures",
+          "candidate": "Val Roseg Biosphere Observatory",
+          "other_candidates": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "value": 150,
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_gear_access",
+              "label": "Heavy gear transport access cleared",
+              "aliases": [
+                "Heavy transport access",
+                "Access road clearance"
+              ]
+            },
+            {
+              "topic": "bunkhouse_capacity",
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ]
+            },
+            {
+              "topic": "sensor_telemetry_active",
+              "label": "Sensor telemetry network enabled",
+              "aliases": [
+                "Continuous telemetry status",
+                "Sensor network activation"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss_pct",
+              "label": "Sensor telemetry packet loss rate",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "habitat_permit_cleared",
+              "label": "Special habitat research clearance issued",
+              "aliases": [
+                "Ecological research permit",
+                "Habitat access permit"
+              ]
+            },
+            {
+              "topic": "biosafety_containment_ready",
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ]
+            },
+            {
+              "topic": "gross_freeze_volume",
+              "label": "Gross deep-freeze sample storage volume",
+              "aliases": [
+                "Gross freezer capacity",
+                "Total deep-freeze volume"
+              ]
+            },
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "laboratory_ops",
+        "facility_utilities",
+        "field_logistics"
+      ],
+      "role_names": [
+        "Laboratory Operations Manager (LOM)",
+        "Station Facilities Superintendent (SFS)",
+        "Field Logistics Coordinator (FLC)"
+      ],
+      "directory": "number_expansion/misaligned/task_308/k3",
+      "error_profiles": [
+        {
+          "role_name": "Laboratory Operations Manager (LOM)",
+          "target_key": "LOM-LAB-AV5",
+          "alternate_key": "LOM-CENT-HPL",
+          "target_context": "including waste neutralization systems",
+          "alternate_context": "excluding waste neutralization systems",
+          "candidate": "Val Roseg Biosphere Observatory",
+          "other_candidates": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "biosafety_containment_ready",
+              "value": true,
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_gear_access",
+              "label": "Heavy gear transport access cleared",
+              "aliases": [
+                "Heavy transport access",
+                "Access road clearance"
+              ]
+            },
+            {
+              "topic": "bunkhouse_capacity",
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ]
+            },
+            {
+              "topic": "sensor_telemetry_active",
+              "label": "Sensor telemetry network enabled",
+              "aliases": [
+                "Continuous telemetry status",
+                "Sensor network activation"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss_pct",
+              "label": "Sensor telemetry packet loss rate",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "habitat_permit_cleared",
+              "label": "Special habitat research clearance issued",
+              "aliases": [
+                "Ecological research permit",
+                "Habitat access permit"
+              ]
+            },
+            {
+              "topic": "biosafety_containment_ready",
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ]
+            },
+            {
+              "topic": "gross_freeze_volume",
+              "label": "Gross deep-freeze sample storage volume",
+              "aliases": [
+                "Gross freezer capacity",
+                "Total deep-freeze volume"
+              ]
+            },
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Station Facilities Superintendent (SFS)",
+          "target_key": "SFS-UTIL-EO7",
+          "alternate_key": "SFS-UTIL-Z0L",
+          "target_context": "net usable storage volume excluding racking fixtures",
+          "alternate_context": "gross chamber volume including racking fixtures",
+          "candidate": "Val Roseg Biosphere Observatory",
+          "other_candidates": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "value": 150,
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_gear_access",
+              "label": "Heavy gear transport access cleared",
+              "aliases": [
+                "Heavy transport access",
+                "Access road clearance"
+              ]
+            },
+            {
+              "topic": "bunkhouse_capacity",
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ]
+            },
+            {
+              "topic": "sensor_telemetry_active",
+              "label": "Sensor telemetry network enabled",
+              "aliases": [
+                "Continuous telemetry status",
+                "Sensor network activation"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss_pct",
+              "label": "Sensor telemetry packet loss rate",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "habitat_permit_cleared",
+              "label": "Special habitat research clearance issued",
+              "aliases": [
+                "Ecological research permit",
+                "Habitat access permit"
+              ]
+            },
+            {
+              "topic": "biosafety_containment_ready",
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ]
+            },
+            {
+              "topic": "gross_freeze_volume",
+              "label": "Gross deep-freeze sample storage volume",
+              "aliases": [
+                "Gross freezer capacity",
+                "Total deep-freeze volume"
+              ]
+            },
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Field Logistics Coordinator (FLC)",
+          "target_key": "FLC-LOG-3WF",
+          "alternate_key": "FLC-LOG-XN0",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Val Roseg Biosphere Observatory",
+          "other_candidates": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "bunkhouse_capacity",
+              "value": 20,
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ],
+              "unit": "beds"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_gear_access",
+              "label": "Heavy gear transport access cleared",
+              "aliases": [
+                "Heavy transport access",
+                "Access road clearance"
+              ]
+            },
+            {
+              "topic": "bunkhouse_capacity",
+              "label": "Residential bunkhouse capacity",
+              "aliases": [
+                "Bunkhouse beds",
+                "Crew lodging capacity"
+              ]
+            },
+            {
+              "topic": "sensor_telemetry_active",
+              "label": "Sensor telemetry network enabled",
+              "aliases": [
+                "Continuous telemetry status",
+                "Sensor network activation"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss_pct",
+              "label": "Sensor telemetry packet loss rate",
+              "aliases": [
+                "Telemetry packet loss",
+                "Data transmission error rate"
+              ]
+            },
+            {
+              "topic": "habitat_permit_cleared",
+              "label": "Special habitat research clearance issued",
+              "aliases": [
+                "Ecological research permit",
+                "Habitat access permit"
+              ]
+            },
+            {
+              "topic": "biosafety_containment_ready",
+              "label": "Biosafety containment certified",
+              "aliases": [
+                "Biosafety level certification",
+                "Wet lab containment readiness"
+              ]
+            },
+            {
+              "topic": "gross_freeze_volume",
+              "label": "Gross deep-freeze sample storage volume",
+              "aliases": [
+                "Gross freezer capacity",
+                "Total deep-freeze volume"
+              ]
+            },
+            {
+              "topic": "reserved_buffer_freeze_volume",
+              "label": "Reserved emergency freezer buffer volume",
+              "aliases": [
+                "Reserved emergency freeze volume",
+                "Freezer contingency buffer"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

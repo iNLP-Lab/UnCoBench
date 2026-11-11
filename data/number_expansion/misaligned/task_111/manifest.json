@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_111",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "port_operations",
+        "subsea_operations"
+      ],
+      "role_names": [
+        "Port mobilization coordinator (PORT)",
+        "Subsea tooling supervisor (SUBS)"
+      ],
+      "directory": "number_expansion/misaligned/task_111/k2",
+      "error_profiles": [
+        {
+          "role_name": "Port mobilization coordinator (PORT)",
+          "target_key": "PORT-MOBL-GPT",
+          "alternate_key": "PORT-BERTH-ML7",
+          "target_context": "trailing 30-day window",
+          "alternate_context": "trailing 12-month window",
+          "candidate": "Dedicated high-endurance cable maintenance ship",
+          "other_candidates": [
+            "Converted heavy subsea construction vessel",
+            "Modular rapid-mobilization utility vessel"
+          ],
+          "numeric": [
+            {
+              "topic": "mobilization_lead_time",
+              "value": 72,
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class DP2 certified",
+              "aliases": [
+                "DP2 certification",
+                "Class 2 dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "auv_protocol_validated",
+              "label": "AUV inspection protocol validated",
+              "aliases": [
+                "Autonomous underwater vehicle inspection protocol",
+                "AUV survey validation"
+              ]
+            },
+            {
+              "topic": "max_grapple_depth",
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ]
+            },
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ]
+            },
+            {
+              "topic": "mobilization_lead_time",
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ]
+            },
+            {
+              "topic": "jointing_cleanroom_certified",
+              "label": "Fibre-optic jointing cleanroom certified",
+              "aliases": [
+                "Jointing cleanroom certification",
+                "Splice cleanroom compliance"
+              ]
+            },
+            {
+              "topic": "gross_carousel_capacity",
+              "label": "Gross cable carousel payload capacity",
+              "aliases": [
+                "Gross carousel capacity",
+                "Total carousel cable payload"
+              ]
+            },
+            {
+              "topic": "ballast_spool_retention_weight",
+              "label": "Ballast spool retention weight",
+              "aliases": [
+                "Mandatory ballast retention weight",
+                "Ballast cable spool weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea tooling supervisor (SUBS)",
+          "target_key": "SUBS-TOOL-BM4",
+          "alternate_key": "SUBS-TOOL-28S",
+          "target_context": "production deployment",
+          "alternate_context": "sea trial testing",
+          "candidate": "Dedicated high-endurance cable maintenance ship",
+          "other_candidates": [
+            "Converted heavy subsea construction vessel",
+            "Modular rapid-mobilization utility vessel"
+          ],
+          "numeric": [
+            {
+              "topic": "max_grapple_depth",
+              "value": 3500,
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class DP2 certified",
+              "aliases": [
+                "DP2 certification",
+                "Class 2 dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "auv_protocol_validated",
+              "label": "AUV inspection protocol validated",
+              "aliases": [
+                "Autonomous underwater vehicle inspection protocol",
+                "AUV survey validation"
+              ]
+            },
+            {
+              "topic": "max_grapple_depth",
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ]
+            },
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ]
+            },
+            {
+              "topic": "mobilization_lead_time",
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ]
+            },
+            {
+              "topic": "jointing_cleanroom_certified",
+              "label": "Fibre-optic jointing cleanroom certified",
+              "aliases": [
+                "Jointing cleanroom certification",
+                "Splice cleanroom compliance"
+              ]
+            },
+            {
+              "topic": "gross_carousel_capacity",
+              "label": "Gross cable carousel payload capacity",
+              "aliases": [
+                "Gross carousel capacity",
+                "Total carousel cable payload"
+              ]
+            },
+            {
+              "topic": "ballast_spool_retention_weight",
+              "label": "Ballast spool retention weight",
+              "aliases": [
+                "Mandatory ballast retention weight",
+                "Ballast cable spool weight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "port_operations",
+        "subsea_operations",
+        "maritime_safety"
+      ],
+      "role_names": [
+        "Port mobilization coordinator (PORT)",
+        "Subsea tooling supervisor (SUBS)",
+        "Marine safety and seaworthiness auditor (SAFE)"
+      ],
+      "directory": "number_expansion/misaligned/task_111/k3",
+      "error_profiles": [
+        {
+          "role_name": "Port mobilization coordinator (PORT)",
+          "target_key": "PORT-MOBL-GPT",
+          "alternate_key": "PORT-BERTH-ML7",
+          "target_context": "trailing 30-day window",
+          "alternate_context": "trailing 12-month window",
+          "candidate": "Dedicated high-endurance cable maintenance ship",
+          "other_candidates": [
+            "Converted heavy subsea construction vessel",
+            "Modular rapid-mobilization utility vessel"
+          ],
+          "numeric": [
+            {
+              "topic": "mobilization_lead_time",
+              "value": 72,
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class DP2 certified",
+              "aliases": [
+                "DP2 certification",
+                "Class 2 dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "auv_protocol_validated",
+              "label": "AUV inspection protocol validated",
+              "aliases": [
+                "Autonomous underwater vehicle inspection protocol",
+                "AUV survey validation"
+              ]
+            },
+            {
+              "topic": "max_grapple_depth",
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ]
+            },
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ]
+            },
+            {
+              "topic": "mobilization_lead_time",
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ]
+            },
+            {
+              "topic": "jointing_cleanroom_certified",
+              "label": "Fibre-optic jointing cleanroom certified",
+              "aliases": [
+                "Jointing cleanroom certification",
+                "Splice cleanroom compliance"
+              ]
+            },
+            {
+              "topic": "gross_carousel_capacity",
+              "label": "Gross cable carousel payload capacity",
+              "aliases": [
+                "Gross carousel capacity",
+                "Total carousel cable payload"
+              ]
+            },
+            {
+              "topic": "ballast_spool_retention_weight",
+              "label": "Ballast spool retention weight",
+              "aliases": [
+                "Mandatory ballast retention weight",
+                "Ballast cable spool weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea tooling supervisor (SUBS)",
+          "target_key": "SUBS-TOOL-BM4",
+          "alternate_key": "SUBS-TOOL-28S",
+          "target_context": "production deployment",
+          "alternate_context": "sea trial testing",
+          "candidate": "Dedicated high-endurance cable maintenance ship",
+          "other_candidates": [
+            "Converted heavy subsea construction vessel",
+            "Modular rapid-mobilization utility vessel"
+          ],
+          "numeric": [
+            {
+              "topic": "max_grapple_depth",
+              "value": 3500,
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class DP2 certified",
+              "aliases": [
+                "DP2 certification",
+                "Class 2 dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "auv_protocol_validated",
+              "label": "AUV inspection protocol validated",
+              "aliases": [
+                "Autonomous underwater vehicle inspection protocol",
+                "AUV survey validation"
+              ]
+            },
+            {
+              "topic": "max_grapple_depth",
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ]
+            },
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ]
+            },
+            {
+              "topic": "mobilization_lead_time",
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ]
+            },
+            {
+              "topic": "jointing_cleanroom_certified",
+              "label": "Fibre-optic jointing cleanroom certified",
+              "aliases": [
+                "Jointing cleanroom certification",
+                "Splice cleanroom compliance"
+              ]
+            },
+            {
+              "topic": "gross_carousel_capacity",
+              "label": "Gross cable carousel payload capacity",
+              "aliases": [
+                "Gross carousel capacity",
+                "Total carousel cable payload"
+              ]
+            },
+            {
+              "topic": "ballast_spool_retention_weight",
+              "label": "Ballast spool retention weight",
+              "aliases": [
+                "Mandatory ballast retention weight",
+                "Ballast cable spool weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine safety and seaworthiness auditor (SAFE)",
+          "target_key": "SAFE-STAT-MRZ",
+          "alternate_key": "SAFE-STAT-CW8",
+          "target_context": "March 2025",
+          "alternate_context": "April 2025",
+          "candidate": "Dedicated high-endurance cable maintenance ship",
+          "other_candidates": [
+            "Converted heavy subsea construction vessel",
+            "Modular rapid-mobilization utility vessel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "value": true,
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class DP2 certified",
+              "aliases": [
+                "DP2 certification",
+                "Class 2 dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "auv_protocol_validated",
+              "label": "AUV inspection protocol validated",
+              "aliases": [
+                "Autonomous underwater vehicle inspection protocol",
+                "AUV survey validation"
+              ]
+            },
+            {
+              "topic": "max_grapple_depth",
+              "label": "Maximum deep-water grapple deployment depth",
+              "aliases": [
+                "Maximum grapple working depth",
+                "Grapple recovery depth rating"
+              ]
+            },
+            {
+              "topic": "stationkeeping_sea_state_verified",
+              "label": "Continuous sea-state 6 station-keeping verified",
+              "aliases": [
+                "Sea-state 6 station-keeping",
+                "Heavy-weather station-keeping verification"
+              ]
+            },
+            {
+              "topic": "mobilization_lead_time",
+              "label": "Port mobilization lead time",
+              "aliases": [
+                "Mobilization lead duration",
+                "Port dispatch turnaround time"
+              ]
+            },
+            {
+              "topic": "jointing_cleanroom_certified",
+              "label": "Fibre-optic jointing cleanroom certified",
+              "aliases": [
+                "Jointing cleanroom certification",
+                "Splice cleanroom compliance"
+              ]
+            },
+            {
+              "topic": "gross_carousel_capacity",
+              "label": "Gross cable carousel payload capacity",
+              "aliases": [
+                "Gross carousel capacity",
+                "Total carousel cable payload"
+              ]
+            },
+            {
+              "topic": "ballast_spool_retention_weight",
+              "label": "Ballast spool retention weight",
+              "aliases": [
+                "Mandatory ballast retention weight",
+                "Ballast cable spool weight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

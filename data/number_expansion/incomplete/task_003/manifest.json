@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_003",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_commissioner",
+        "logistics_director"
+      ],
+      "role_names": [
+        "Safety commissioner (SAF)",
+        "Logistics director (LOG)"
+      ],
+      "directory": "incomplete/task_003",
+      "profiles": [
+        {
+          "record_id": "rec_safety_commissioner_A",
+          "role_id": "safety_commissioner",
+          "candidate_id": "A",
+          "key": "SAF-EGRESS-XGT",
+          "boolean_predicate_id": "A_health_station_available",
+          "boolean_label": "Registered on-site health station availability",
+          "hidden_predicate_id": "A_emergency_response_time",
+          "threshold_label": "Emergency paramedic response time",
+          "threshold_aliases": [
+            "First aid arrival time",
+            "Medical incident response duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "SAF-EGRESS-XGT: Meridian Waterfront Expo Center.Meridian Waterfront Expo Center: Registered on-site health station availability = true .Source: Municipal health authority registry; Scope: Designated on-site medical treatment post; Measurement: Formal registration status of permanent first aid clinic facility.Meridian Waterfront Expo Center: Fire evacuation clearance approval = true .Source: Fire safety bureau certificate; Scope: Entire indoor exhibition pavilion complex; Measurement: Formal compliance approval for maximum occupancy emergency egress pathways.",
+          "role_name": "Safety commissioner (SAF)",
+          "candidate_name": "Meridian Waterfront Expo Center",
+          "other_candidate_names": [
+            "Highland Summit Exhibition Hall",
+            "Starlight Gateway Convention Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_director_A",
+          "role_id": "logistics_director",
+          "candidate_id": "A",
+          "key": "LOG-DOCK-APS",
+          "hidden_predicate_id": "A_freight_bay_clearance",
+          "threshold_label": "Freight bay vertical clearance",
+          "threshold_aliases": [
+            "Loading bay clearance",
+            "Cargo door height"
+          ],
+          "threshold_value": 5.2,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-DOCK-APS: Meridian Waterfront Expo Center. The record covers Freight bay vertical clearance. Dock architectural inspection record; Primary articulated vehicle unloading portal; Lowest overhead unobstructed height clearance at bay entry threshold.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4.2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Freight bay vertical clearance is at least 4.2 m.",
+          "role_name": "Logistics director (LOG)",
+          "candidate_name": "Meridian Waterfront Expo Center",
+          "other_candidate_names": [
+            "Highland Summit Exhibition Hall",
+            "Starlight Gateway Convention Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_commissioner",
+        "logistics_director",
+        "facility_engineer"
+      ],
+      "role_names": [
+        "Safety commissioner (SAF)",
+        "Logistics director (LOG)",
+        "Facility engineer (ENG)"
+      ],
+      "directory": "incomplete/task_003",
+      "profiles": [
+        {
+          "record_id": "rec_safety_commissioner_A",
+          "role_id": "safety_commissioner",
+          "candidate_id": "A",
+          "key": "SAF-EGRESS-XGT",
+          "boolean_predicate_id": "A_health_station_available",
+          "boolean_label": "Registered on-site health station availability",
+          "hidden_predicate_id": "A_emergency_response_time",
+          "threshold_label": "Emergency paramedic response time",
+          "threshold_aliases": [
+            "First aid arrival time",
+            "Medical incident response duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "SAF-EGRESS-XGT: Meridian Waterfront Expo Center.Meridian Waterfront Expo Center: Registered on-site health station availability = true .Source: Municipal health authority registry; Scope: Designated on-site medical treatment post; Measurement: Formal registration status of permanent first aid clinic facility.Meridian Waterfront Expo Center: Fire evacuation clearance approval = true .Source: Fire safety bureau certificate; Scope: Entire indoor exhibition pavilion complex; Measurement: Formal compliance approval for maximum occupancy emergency egress pathways.",
+          "role_name": "Safety commissioner (SAF)",
+          "candidate_name": "Meridian Waterfront Expo Center",
+          "other_candidate_names": [
+            "Highland Summit Exhibition Hall",
+            "Starlight Gateway Convention Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_director_A",
+          "role_id": "logistics_director",
+          "candidate_id": "A",
+          "key": "LOG-DOCK-APS",
+          "hidden_predicate_id": "A_freight_bay_clearance",
+          "threshold_label": "Freight bay vertical clearance",
+          "threshold_aliases": [
+            "Loading bay clearance",
+            "Cargo door height"
+          ],
+          "threshold_value": 5.2,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-DOCK-APS: Meridian Waterfront Expo Center. The record covers Freight bay vertical clearance. Dock architectural inspection record; Primary articulated vehicle unloading portal; Lowest overhead unobstructed height clearance at bay entry threshold.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4.2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Freight bay vertical clearance is at least 4.2 m.",
+          "role_name": "Logistics director (LOG)",
+          "candidate_name": "Meridian Waterfront Expo Center",
+          "other_candidate_names": [
+            "Highland Summit Exhibition Hall",
+            "Starlight Gateway Convention Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_engineer_A",
+          "role_id": "facility_engineer",
+          "candidate_id": "A",
+          "key": "ENG-POWER-8YV",
+          "hidden_predicate_id": "A_electrical_grid_load",
+          "threshold_label": "Certified electrical grid load capacity",
+          "threshold_aliases": [
+            "Exhibition grid power",
+            "Continuous electrical capacity"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "kW",
+          "partial_record_text": "ENG-POWER-8YV: Meridian Waterfront Expo Center.Meridian Waterfront Expo Center: Billable exhibit hall space = 7500 m2.Source: Official venue floor plan cadastre; Scope: Net lettable indoor floor space excluding egress corridors; Measurement: Total usable surface area demarcated for commercial trade booths.",
+          "role_name": "Facility engineer (ENG)",
+          "candidate_name": "Meridian Waterfront Expo Center",
+          "other_candidate_names": [
+            "Highland Summit Exhibition Hall",
+            "Starlight Gateway Convention Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

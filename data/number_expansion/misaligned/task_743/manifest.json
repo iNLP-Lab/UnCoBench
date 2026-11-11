@@ -1,0 +1,556 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_743",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_operations",
+        "security_vetting"
+      ],
+      "role_names": [
+        "Medical Operations Director (MED)",
+        "Civil Protection Security Liaison (SEC)"
+      ],
+      "directory": "number_expansion/misaligned/task_743/k2",
+      "error_profiles": [
+        {
+          "role_name": "Medical Operations Director (MED)",
+          "target_key": "MED-CLIN-UZS",
+          "alternate_key": "MED-CLIN-BHX",
+          "target_context": "Sichuan",
+          "alternate_context": "Yunnan",
+          "candidate": "Rapid Deployment Critical Care Team",
+          "other_candidates": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_shift_hours",
+              "value": 108,
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "clinical_credential_certified",
+              "value": true,
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rapid_deployment_protocol_active",
+              "label": "Rapid deployment protocol active",
+              "aliases": [
+                "Rapid dispatch protocol status",
+                "Emergency mobilization activation"
+              ]
+            },
+            {
+              "topic": "mobilization_departure_latency",
+              "label": "Mobilization departure latency",
+              "aliases": [
+                "Dispatch departure time",
+                "Mobilization latency"
+              ]
+            },
+            {
+              "topic": "clinical_credential_certified",
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ]
+            },
+            {
+              "topic": "field_decontamination_ready",
+              "label": "Field decontamination ready",
+              "aliases": [
+                "Field decontamination protocol compliance",
+                "Decontamination capability validation"
+              ]
+            },
+            {
+              "topic": "austere_zone_security_cleared",
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ]
+            },
+            {
+              "topic": "deployable_clinician_count",
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ]
+            },
+            {
+              "topic": "primary_shift_hours",
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ]
+            },
+            {
+              "topic": "reserve_coverage_hours",
+              "label": "Reserve coverage deployment duration",
+              "aliases": [
+                "Reserve coverage hours",
+                "Secondary standby coverage duration"
+              ]
+            },
+            {
+              "topic": "mandatory_rest_hours",
+              "label": "Mandatory post-rotation rest duration",
+              "aliases": [
+                "Mandatory rest hours",
+                "Required demobilization rest period"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil Protection Security Liaison (SEC)",
+          "target_key": "SEC-VET-YU7",
+          "alternate_key": "SEC-VET-QA7",
+          "target_context": "Sichuan",
+          "alternate_context": "Yunnan",
+          "candidate": "Rapid Deployment Critical Care Team",
+          "other_candidates": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "austere_zone_security_cleared",
+              "value": true,
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rapid_deployment_protocol_active",
+              "label": "Rapid deployment protocol active",
+              "aliases": [
+                "Rapid dispatch protocol status",
+                "Emergency mobilization activation"
+              ]
+            },
+            {
+              "topic": "mobilization_departure_latency",
+              "label": "Mobilization departure latency",
+              "aliases": [
+                "Dispatch departure time",
+                "Mobilization latency"
+              ]
+            },
+            {
+              "topic": "clinical_credential_certified",
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ]
+            },
+            {
+              "topic": "field_decontamination_ready",
+              "label": "Field decontamination ready",
+              "aliases": [
+                "Field decontamination protocol compliance",
+                "Decontamination capability validation"
+              ]
+            },
+            {
+              "topic": "austere_zone_security_cleared",
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ]
+            },
+            {
+              "topic": "deployable_clinician_count",
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ]
+            },
+            {
+              "topic": "primary_shift_hours",
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ]
+            },
+            {
+              "topic": "reserve_coverage_hours",
+              "label": "Reserve coverage deployment duration",
+              "aliases": [
+                "Reserve coverage hours",
+                "Secondary standby coverage duration"
+              ]
+            },
+            {
+              "topic": "mandatory_rest_hours",
+              "label": "Mandatory post-rotation rest duration",
+              "aliases": [
+                "Mandatory rest hours",
+                "Required demobilization rest period"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_operations",
+        "security_vetting",
+        "workforce_registry"
+      ],
+      "role_names": [
+        "Medical Operations Director (MED)",
+        "Civil Protection Security Liaison (SEC)",
+        "Clinical Workforce Coordinator (ROST)"
+      ],
+      "directory": "number_expansion/misaligned/task_743/k3",
+      "error_profiles": [
+        {
+          "role_name": "Medical Operations Director (MED)",
+          "target_key": "MED-CLIN-UZS",
+          "alternate_key": "MED-CLIN-BHX",
+          "target_context": "Sichuan",
+          "alternate_context": "Yunnan",
+          "candidate": "Rapid Deployment Critical Care Team",
+          "other_candidates": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_shift_hours",
+              "value": 108,
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "clinical_credential_certified",
+              "value": true,
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rapid_deployment_protocol_active",
+              "label": "Rapid deployment protocol active",
+              "aliases": [
+                "Rapid dispatch protocol status",
+                "Emergency mobilization activation"
+              ]
+            },
+            {
+              "topic": "mobilization_departure_latency",
+              "label": "Mobilization departure latency",
+              "aliases": [
+                "Dispatch departure time",
+                "Mobilization latency"
+              ]
+            },
+            {
+              "topic": "clinical_credential_certified",
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ]
+            },
+            {
+              "topic": "field_decontamination_ready",
+              "label": "Field decontamination ready",
+              "aliases": [
+                "Field decontamination protocol compliance",
+                "Decontamination capability validation"
+              ]
+            },
+            {
+              "topic": "austere_zone_security_cleared",
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ]
+            },
+            {
+              "topic": "deployable_clinician_count",
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ]
+            },
+            {
+              "topic": "primary_shift_hours",
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ]
+            },
+            {
+              "topic": "reserve_coverage_hours",
+              "label": "Reserve coverage deployment duration",
+              "aliases": [
+                "Reserve coverage hours",
+                "Secondary standby coverage duration"
+              ]
+            },
+            {
+              "topic": "mandatory_rest_hours",
+              "label": "Mandatory post-rotation rest duration",
+              "aliases": [
+                "Mandatory rest hours",
+                "Required demobilization rest period"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil Protection Security Liaison (SEC)",
+          "target_key": "SEC-VET-YU7",
+          "alternate_key": "SEC-VET-QA7",
+          "target_context": "Sichuan",
+          "alternate_context": "Yunnan",
+          "candidate": "Rapid Deployment Critical Care Team",
+          "other_candidates": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "austere_zone_security_cleared",
+              "value": true,
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rapid_deployment_protocol_active",
+              "label": "Rapid deployment protocol active",
+              "aliases": [
+                "Rapid dispatch protocol status",
+                "Emergency mobilization activation"
+              ]
+            },
+            {
+              "topic": "mobilization_departure_latency",
+              "label": "Mobilization departure latency",
+              "aliases": [
+                "Dispatch departure time",
+                "Mobilization latency"
+              ]
+            },
+            {
+              "topic": "clinical_credential_certified",
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ]
+            },
+            {
+              "topic": "field_decontamination_ready",
+              "label": "Field decontamination ready",
+              "aliases": [
+                "Field decontamination protocol compliance",
+                "Decontamination capability validation"
+              ]
+            },
+            {
+              "topic": "austere_zone_security_cleared",
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ]
+            },
+            {
+              "topic": "deployable_clinician_count",
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ]
+            },
+            {
+              "topic": "primary_shift_hours",
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ]
+            },
+            {
+              "topic": "reserve_coverage_hours",
+              "label": "Reserve coverage deployment duration",
+              "aliases": [
+                "Reserve coverage hours",
+                "Secondary standby coverage duration"
+              ]
+            },
+            {
+              "topic": "mandatory_rest_hours",
+              "label": "Mandatory post-rotation rest duration",
+              "aliases": [
+                "Mandatory rest hours",
+                "Required demobilization rest period"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Clinical Workforce Coordinator (ROST)",
+          "target_key": "ROST-PERS-0D3",
+          "alternate_key": "ROST-PERS-ANX",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "Rapid Deployment Critical Care Team",
+          "other_candidates": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "numeric": [
+            {
+              "topic": "deployable_clinician_count",
+              "value": 20,
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ],
+              "unit": "clinicians"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rapid_deployment_protocol_active",
+              "label": "Rapid deployment protocol active",
+              "aliases": [
+                "Rapid dispatch protocol status",
+                "Emergency mobilization activation"
+              ]
+            },
+            {
+              "topic": "mobilization_departure_latency",
+              "label": "Mobilization departure latency",
+              "aliases": [
+                "Dispatch departure time",
+                "Mobilization latency"
+              ]
+            },
+            {
+              "topic": "clinical_credential_certified",
+              "label": "Clinical credentials certified",
+              "aliases": [
+                "Specialist physician and nursing credential status",
+                "Clinical credential compliance"
+              ]
+            },
+            {
+              "topic": "field_decontamination_ready",
+              "label": "Field decontamination ready",
+              "aliases": [
+                "Field decontamination protocol compliance",
+                "Decontamination capability validation"
+              ]
+            },
+            {
+              "topic": "austere_zone_security_cleared",
+              "label": "Austere zone security clearance",
+              "aliases": [
+                "Security vetting clearance",
+                "High-risk perimeter access clearance"
+              ]
+            },
+            {
+              "topic": "deployable_clinician_count",
+              "label": "Deployable clinician count",
+              "aliases": [
+                "Active clinician roster size",
+                "Deployable medical staffing headcount"
+              ]
+            },
+            {
+              "topic": "primary_shift_hours",
+              "label": "Primary shift deployment duration",
+              "aliases": [
+                "Primary shift hours",
+                "Core rotation operational hours"
+              ]
+            },
+            {
+              "topic": "reserve_coverage_hours",
+              "label": "Reserve coverage deployment duration",
+              "aliases": [
+                "Reserve coverage hours",
+                "Secondary standby coverage duration"
+              ]
+            },
+            {
+              "topic": "mandatory_rest_hours",
+              "label": "Mandatory post-rotation rest duration",
+              "aliases": [
+                "Mandatory rest hours",
+                "Required demobilization rest period"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

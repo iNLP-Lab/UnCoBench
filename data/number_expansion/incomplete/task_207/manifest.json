@@ -1,0 +1,169 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_207",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_compliance",
+        "academic_affairs"
+      ],
+      "role_names": [
+        "Clinical Research Compliance Officer (CRCO)",
+        "Academic Affairs and Mentorship Dean (AAMD)"
+      ],
+      "directory": "incomplete/task_207",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_compliance_A",
+          "role_id": "clinical_compliance",
+          "candidate_id": "A",
+          "key": "CRCO-GCP-422",
+          "boolean_predicate_id": "A_gcp_accreditation_valid",
+          "boolean_label": "Active GCP accreditation verified",
+          "hidden_predicate_id": "A_oncology_phase3_completed",
+          "threshold_label": "Recent oncology phase III clinical trial completions",
+          "threshold_aliases": [
+            "Completed phase III trials",
+            "Phase III oncology trial count"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "trials",
+          "partial_record_text": "CRCO-GCP-422: Dr. Aris Thorne.Dr. Aris Thorne: Active GCP accreditation verified = true .Source: International clinical training consortium database; Scope: Current investigator standing; Measurement: Confirmation that candidate holds a verified active GCP certificate.",
+          "role_name": "Clinical Research Compliance Officer (CRCO)",
+          "candidate_name": "Dr. Aris Thorne",
+          "other_candidate_names": [
+            "Dr. Elena Vasquez",
+            "Dr. Marcus Sterling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_academic_affairs_A",
+          "role_id": "academic_affairs",
+          "candidate_id": "A",
+          "key": "AAMD-FACULTY-PNL",
+          "hidden_predicate_id": "A_admin_overhead_commitment",
+          "threshold_label": "Institutional administrative overhead commitment",
+          "threshold_aliases": [
+            "Administrative commitment percentage",
+            "Committee overhead allocation"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "%",
+          "partial_record_text": "AAMD-FACULTY-PNL: Dr. Aris Thorne.Fiscal year: Fiscal Year 2025.Dr. Aris Thorne: Sponsored mentorship allocation = 6 h/week.Source: Postdoctoral research training grant agreement; Scope: Accredited investigator fellowship support program; Measurement: Sponsored weekly hours allocated specifically for supervising clinical research fellows.",
+          "role_name": "Academic Affairs and Mentorship Dean (AAMD)",
+          "candidate_name": "Dr. Aris Thorne",
+          "other_candidate_names": [
+            "Dr. Elena Vasquez",
+            "Dr. Marcus Sterling"
+          ],
+          "context_value": "Fiscal Year 2025",
+          "other_context_values": [
+            "Fiscal Year 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_compliance",
+        "academic_affairs",
+        "research_operations"
+      ],
+      "role_names": [
+        "Clinical Research Compliance Officer (CRCO)",
+        "Academic Affairs and Mentorship Dean (AAMD)",
+        "Clinical Trials Operations Director (CTOD)"
+      ],
+      "directory": "incomplete/task_207",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_compliance_A",
+          "role_id": "clinical_compliance",
+          "candidate_id": "A",
+          "key": "CRCO-GCP-422",
+          "boolean_predicate_id": "A_gcp_accreditation_valid",
+          "boolean_label": "Active GCP accreditation verified",
+          "hidden_predicate_id": "A_oncology_phase3_completed",
+          "threshold_label": "Recent oncology phase III clinical trial completions",
+          "threshold_aliases": [
+            "Completed phase III trials",
+            "Phase III oncology trial count"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "trials",
+          "partial_record_text": "CRCO-GCP-422: Dr. Aris Thorne.Dr. Aris Thorne: Active GCP accreditation verified = true .Source: International clinical training consortium database; Scope: Current investigator standing; Measurement: Confirmation that candidate holds a verified active GCP certificate.",
+          "role_name": "Clinical Research Compliance Officer (CRCO)",
+          "candidate_name": "Dr. Aris Thorne",
+          "other_candidate_names": [
+            "Dr. Elena Vasquez",
+            "Dr. Marcus Sterling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_academic_affairs_A",
+          "role_id": "academic_affairs",
+          "candidate_id": "A",
+          "key": "AAMD-FACULTY-PNL",
+          "hidden_predicate_id": "A_admin_overhead_commitment",
+          "threshold_label": "Institutional administrative overhead commitment",
+          "threshold_aliases": [
+            "Administrative commitment percentage",
+            "Committee overhead allocation"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "%",
+          "partial_record_text": "AAMD-FACULTY-PNL: Dr. Aris Thorne.Fiscal year: Fiscal Year 2025.Dr. Aris Thorne: Sponsored mentorship allocation = 6 h/week.Source: Postdoctoral research training grant agreement; Scope: Accredited investigator fellowship support program; Measurement: Sponsored weekly hours allocated specifically for supervising clinical research fellows.",
+          "role_name": "Academic Affairs and Mentorship Dean (AAMD)",
+          "candidate_name": "Dr. Aris Thorne",
+          "other_candidate_names": [
+            "Dr. Elena Vasquez",
+            "Dr. Marcus Sterling"
+          ],
+          "context_value": "Fiscal Year 2025",
+          "other_context_values": [
+            "Fiscal Year 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_research_operations_A",
+          "role_id": "research_operations",
+          "candidate_id": "A",
+          "key": "CTOD-TRIAL-WU2",
+          "hidden_predicate_id": "A_primary_protected_time",
+          "threshold_label": "Primary protected research time",
+          "threshold_aliases": [
+            "Protected research allocation",
+            "Core research effort"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h/week",
+          "partial_record_text": "CTOD-TRIAL-WU2: Dr. Aris Thorne. The record covers Primary protected research time. Clinical research center resource allocation contract; Appointed investigator contract term; Dedicated clinical research effort guaranteed free from routine hospital patient care.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary protected research time is at most 30 h/week.",
+          "role_name": "Clinical Trials Operations Director (CTOD)",
+          "candidate_name": "Dr. Aris Thorne",
+          "other_candidate_names": [
+            "Dr. Elena Vasquez",
+            "Dr. Marcus Sterling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

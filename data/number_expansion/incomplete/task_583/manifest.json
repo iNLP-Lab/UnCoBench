@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_583",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "survival_training",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Aviation survival training officer (SURV)",
+        "Offshore flight operations director (FLT)"
+      ],
+      "directory": "incomplete/task_583",
+      "profiles": [
+        {
+          "record_id": "rec_survival_training_A",
+          "role_id": "survival_training",
+          "candidate_id": "A",
+          "key": "SURV-HUET-UCJ",
+          "boolean_predicate_id": "A_underwater_egress_certified",
+          "boolean_label": "Helicopter underwater egress training certified",
+          "hidden_predicate_id": "A_egress_training_recency_months",
+          "threshold_label": "Underwater egress training completion recency",
+          "threshold_aliases": [
+            "HUET currency interval",
+            "Egress recency"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "months",
+          "partial_record_text": "SURV-HUET-UCJ: Rotary-wing austere trauma cadre.Rotary-wing austere trauma cadre: Helicopter underwater egress training certified = true .Source: Offshore safety training accreditation registry; Scope: Cadre collective personnel files; Measurement: Verification that cadre members hold certified underwater egress qualification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Underwater egress training completion recency is at most 50 months.",
+          "role_name": "Aviation survival training officer (SURV)",
+          "candidate_name": "Rotary-wing austere trauma cadre",
+          "other_candidate_names": [
+            "Fixed-wing critical transport cadre",
+            "Tactical maritime resuscitation cadre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-HOURS-OVK",
+          "hidden_predicate_id": "A_certified_offshore_flight_hours",
+          "threshold_label": "Certified offshore flight experience",
+          "threshold_aliases": [
+            "Offshore flight hours",
+            "Maritime flight experience"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "h",
+          "partial_record_text": "FLT-HOURS-OVK: Rotary-wing austere trauma cadre.Rotary-wing austere trauma cadre: Base flight readiness stipend = 32000 GBP.Source: Aviation service level agreement schedule; Scope: Annual baseline contracted flight readiness; Measurement: Guaranteed annual base stipend for 24-hour rapid rotary-wing standby.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Certified offshore flight experience is at most 700 h.",
+          "role_name": "Offshore flight operations director (FLT)",
+          "candidate_name": "Rotary-wing austere trauma cadre",
+          "other_candidate_names": [
+            "Fixed-wing critical transport cadre",
+            "Tactical maritime resuscitation cadre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "survival_training",
+        "flight_operations",
+        "human_resources"
+      ],
+      "role_names": [
+        "Aviation survival training officer (SURV)",
+        "Offshore flight operations director (FLT)",
+        "Personnel compensation administrator (HR)"
+      ],
+      "directory": "incomplete/task_583",
+      "profiles": [
+        {
+          "record_id": "rec_survival_training_A",
+          "role_id": "survival_training",
+          "candidate_id": "A",
+          "key": "SURV-HUET-UCJ",
+          "boolean_predicate_id": "A_underwater_egress_certified",
+          "boolean_label": "Helicopter underwater egress training certified",
+          "hidden_predicate_id": "A_egress_training_recency_months",
+          "threshold_label": "Underwater egress training completion recency",
+          "threshold_aliases": [
+            "HUET currency interval",
+            "Egress recency"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "months",
+          "partial_record_text": "SURV-HUET-UCJ: Rotary-wing austere trauma cadre.Rotary-wing austere trauma cadre: Helicopter underwater egress training certified = true .Source: Offshore safety training accreditation registry; Scope: Cadre collective personnel files; Measurement: Verification that cadre members hold certified underwater egress qualification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Underwater egress training completion recency is at most 50 months.",
+          "role_name": "Aviation survival training officer (SURV)",
+          "candidate_name": "Rotary-wing austere trauma cadre",
+          "other_candidate_names": [
+            "Fixed-wing critical transport cadre",
+            "Tactical maritime resuscitation cadre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-HOURS-OVK",
+          "hidden_predicate_id": "A_certified_offshore_flight_hours",
+          "threshold_label": "Certified offshore flight experience",
+          "threshold_aliases": [
+            "Offshore flight hours",
+            "Maritime flight experience"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "h",
+          "partial_record_text": "FLT-HOURS-OVK: Rotary-wing austere trauma cadre.Rotary-wing austere trauma cadre: Base flight readiness stipend = 32000 GBP.Source: Aviation service level agreement schedule; Scope: Annual baseline contracted flight readiness; Measurement: Guaranteed annual base stipend for 24-hour rapid rotary-wing standby.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Certified offshore flight experience is at most 700 h.",
+          "role_name": "Offshore flight operations director (FLT)",
+          "candidate_name": "Rotary-wing austere trauma cadre",
+          "other_candidate_names": [
+            "Fixed-wing critical transport cadre",
+            "Tactical maritime resuscitation cadre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_human_resources_A",
+          "role_id": "human_resources",
+          "candidate_id": "A",
+          "key": "HR-DISP-FOF",
+          "hidden_predicate_id": "A_offshore_displacement_allowance",
+          "threshold_label": "Offshore displacement allowance",
+          "threshold_aliases": [
+            "Maritime deployment hardship allowance",
+            "Displacement compensation"
+          ],
+          "threshold_value": 14000,
+          "threshold_unit": "GBP",
+          "partial_record_text": "HR-DISP-FOF: Rotary-wing austere trauma cadre. The record covers Offshore displacement allowance. North Sea deployment remuneration tariff; Annual offshore platform and maritime staging deployment; Annual cadre compensation for extended hostile environment offshore staging.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Offshore displacement allowance is at most 40000 GBP.",
+          "role_name": "Personnel compensation administrator (HR)",
+          "candidate_name": "Rotary-wing austere trauma cadre",
+          "other_candidate_names": [
+            "Fixed-wing critical transport cadre",
+            "Tactical maritime resuscitation cadre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_779",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "network_infrastructure",
+        "crowd_safety"
+      ],
+      "role_names": [
+        "Network infrastructure lead (NIL)",
+        "Municipal fire and safety marshal (FSM)"
+      ],
+      "directory": "incomplete/task_779",
+      "profiles": [
+        {
+          "record_id": "rec_network_infrastructure_A",
+          "role_id": "network_infrastructure",
+          "candidate_id": "A",
+          "key": "NIL-NETW-NDT",
+          "boolean_predicate_id": "A_dual_fiber_redundancy_active",
+          "boolean_label": "Dual-path fiber redundancy active",
+          "hidden_predicate_id": "A_dedicated_peak_bandwidth",
+          "threshold_label": "Peak network throughput bandwidth",
+          "threshold_aliases": [
+            "Symmetric uplink bandwidth",
+            "Dedicated pipe capacity"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "Gbps",
+          "partial_record_text": "NIL-NETW-NDT: Pacific Point Convention Centre.Pacific Point Convention Centre: Dual-path fiber redundancy active = true .Source: Telecommunications service level agreement; Scope: Facility main distribution frame to metropolitan core nodes; Measurement: Verification that physically separated, diverse-path active fiber links are operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Peak network throughput bandwidth is between 2 Gbps and 30 Gbps, inclusive.",
+          "role_name": "Network infrastructure lead (NIL)",
+          "candidate_name": "Pacific Point Convention Centre",
+          "other_candidate_names": [
+            "Granville Sound Exhibition Pavilion",
+            "Fraser Inlet Congress Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crowd_safety_A",
+          "role_id": "crowd_safety",
+          "candidate_id": "A",
+          "key": "FSM-SAFE-LPZ",
+          "hidden_predicate_id": "A_emergency_egress_time",
+          "threshold_label": "Plenary emergency egress clearance time",
+          "threshold_aliases": [
+            "Evacuation egress duration",
+            "Auditorium clearance time"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "min",
+          "partial_record_text": "FSM-SAFE-LPZ: Pacific Point Convention Centre.Pacific Point Convention Centre: Certified plenary seating capacity = 1500 person.Source: Municipal assembly occupancy certificate; Scope: Main plenary auditorium theatre-style layout configuration; Measurement: Maximum permitted seated audience headcount under current local fire code.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "coarse_statement": "Plenary emergency egress clearance time is between 2 min and 6 min, inclusive.",
+          "role_name": "Municipal fire and safety marshal (FSM)",
+          "candidate_name": "Pacific Point Convention Centre",
+          "other_candidate_names": [
+            "Granville Sound Exhibition Pavilion",
+            "Fraser Inlet Congress Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "network_infrastructure",
+        "crowd_safety",
+        "venue_facilities"
+      ],
+      "role_names": [
+        "Network infrastructure lead (NIL)",
+        "Municipal fire and safety marshal (FSM)",
+        "Venue facilities director (VFD)"
+      ],
+      "directory": "incomplete/task_779",
+      "profiles": [
+        {
+          "record_id": "rec_network_infrastructure_A",
+          "role_id": "network_infrastructure",
+          "candidate_id": "A",
+          "key": "NIL-NETW-NDT",
+          "boolean_predicate_id": "A_dual_fiber_redundancy_active",
+          "boolean_label": "Dual-path fiber redundancy active",
+          "hidden_predicate_id": "A_dedicated_peak_bandwidth",
+          "threshold_label": "Peak network throughput bandwidth",
+          "threshold_aliases": [
+            "Symmetric uplink bandwidth",
+            "Dedicated pipe capacity"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "Gbps",
+          "partial_record_text": "NIL-NETW-NDT: Pacific Point Convention Centre.Pacific Point Convention Centre: Dual-path fiber redundancy active = true .Source: Telecommunications service level agreement; Scope: Facility main distribution frame to metropolitan core nodes; Measurement: Verification that physically separated, diverse-path active fiber links are operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Peak network throughput bandwidth is between 2 Gbps and 30 Gbps, inclusive.",
+          "role_name": "Network infrastructure lead (NIL)",
+          "candidate_name": "Pacific Point Convention Centre",
+          "other_candidate_names": [
+            "Granville Sound Exhibition Pavilion",
+            "Fraser Inlet Congress Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crowd_safety_A",
+          "role_id": "crowd_safety",
+          "candidate_id": "A",
+          "key": "FSM-SAFE-LPZ",
+          "hidden_predicate_id": "A_emergency_egress_time",
+          "threshold_label": "Plenary emergency egress clearance time",
+          "threshold_aliases": [
+            "Evacuation egress duration",
+            "Auditorium clearance time"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "min",
+          "partial_record_text": "FSM-SAFE-LPZ: Pacific Point Convention Centre.Pacific Point Convention Centre: Certified plenary seating capacity = 1500 person.Source: Municipal assembly occupancy certificate; Scope: Main plenary auditorium theatre-style layout configuration; Measurement: Maximum permitted seated audience headcount under current local fire code.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "coarse_statement": "Plenary emergency egress clearance time is between 2 min and 6 min, inclusive.",
+          "role_name": "Municipal fire and safety marshal (FSM)",
+          "candidate_name": "Pacific Point Convention Centre",
+          "other_candidate_names": [
+            "Granville Sound Exhibition Pavilion",
+            "Fraser Inlet Congress Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_facilities_A",
+          "role_id": "venue_facilities",
+          "candidate_id": "A",
+          "key": "VFD-ARCH-J4N",
+          "hidden_predicate_id": "A_acoustic_isolation_rating",
+          "threshold_label": "Acoustic partition sound attenuation",
+          "threshold_aliases": [
+            "Acoustic isolation class",
+            "Sound transmission loss"
+          ],
+          "threshold_value": 54,
+          "threshold_unit": "dB",
+          "partial_record_text": "VFD-ARCH-J4N: Pacific Point Convention Centre.Pacific Point Convention Centre: Plenary hall usable floor area = 3600 m2.Source: Architectural floor space assessment; Scope: Main auditorium excluding permanent backstage utility zones; Measurement: Clear unobstructed floor area available for delegate plenary seating and staging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Acoustic partition sound attenuation is between 20 dB and 70 dB, inclusive.",
+          "role_name": "Venue facilities director (VFD)",
+          "candidate_name": "Pacific Point Convention Centre",
+          "other_candidate_names": [
+            "Granville Sound Exhibition Pavilion",
+            "Fraser Inlet Congress Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

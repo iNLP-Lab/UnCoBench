@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_025",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "utilities_coordinator",
+        "responder_operations"
+      ],
+      "role_names": [
+        "Emergency utilities coordinator (ENG)",
+        "First responder operations liaison (OPS)"
+      ],
+      "directory": "incomplete/task_025",
+      "profiles": [
+        {
+          "record_id": "rec_utilities_coordinator_A",
+          "role_id": "utilities_coordinator",
+          "candidate_id": "A",
+          "key": "ENG-POW-ZRS",
+          "boolean_predicate_id": "A_generator_present",
+          "boolean_label": "Auxiliary power generator presence",
+          "hidden_predicate_id": "A_generator_endurance",
+          "threshold_label": "Auxiliary power operating endurance",
+          "threshold_aliases": [
+            "Backup power run-time",
+            "Generator fuel endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "ENG-POW-ZRS: Cascade Civic Pavilion.Cascade Civic Pavilion: Auxiliary power generator presence = true .Source: Emergency electrical equipment registry; Scope: Shelter central distribution plant; Measurement: Physical presence of an installed and connected backup diesel generator system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Auxiliary power operating endurance is at most 300 h.",
+          "role_name": "Emergency utilities coordinator (ENG)",
+          "candidate_name": "Cascade Civic Pavilion",
+          "other_candidate_names": [
+            "Oakhaven Regional Sports Complex",
+            "Highland Valley Community College"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_responder_operations_A",
+          "role_id": "responder_operations",
+          "candidate_id": "A",
+          "key": "OPS-CREW-X7B",
+          "hidden_predicate_id": "A_responder_reserved_capacity",
+          "threshold_label": "Emergency responder reserved capacity",
+          "threshold_aliases": [
+            "First responder cot reservation",
+            "Emergency staff reserved space"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "persons",
+          "partial_record_text": "OPS-CREW-X7B: Cascade Civic Pavilion. The record covers Emergency responder reserved capacity. Incident management quartering directive; Allocated response team secure rest zones; Number of dormitory bed spaces legally quarantined for active response personnel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency responder reserved capacity is at most 400 persons.",
+          "role_name": "First responder operations liaison (OPS)",
+          "candidate_name": "Cascade Civic Pavilion",
+          "other_candidate_names": [
+            "Oakhaven Regional Sports Complex",
+            "Highland Valley Community College"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "utilities_coordinator",
+        "responder_operations",
+        "shelter_logistics"
+      ],
+      "role_names": [
+        "Emergency utilities coordinator (ENG)",
+        "First responder operations liaison (OPS)",
+        "Shelter logistics director (LOG)"
+      ],
+      "directory": "incomplete/task_025",
+      "profiles": [
+        {
+          "record_id": "rec_utilities_coordinator_A",
+          "role_id": "utilities_coordinator",
+          "candidate_id": "A",
+          "key": "ENG-POW-ZRS",
+          "boolean_predicate_id": "A_generator_present",
+          "boolean_label": "Auxiliary power generator presence",
+          "hidden_predicate_id": "A_generator_endurance",
+          "threshold_label": "Auxiliary power operating endurance",
+          "threshold_aliases": [
+            "Backup power run-time",
+            "Generator fuel endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "ENG-POW-ZRS: Cascade Civic Pavilion.Cascade Civic Pavilion: Auxiliary power generator presence = true .Source: Emergency electrical equipment registry; Scope: Shelter central distribution plant; Measurement: Physical presence of an installed and connected backup diesel generator system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Auxiliary power operating endurance is at most 300 h.",
+          "role_name": "Emergency utilities coordinator (ENG)",
+          "candidate_name": "Cascade Civic Pavilion",
+          "other_candidate_names": [
+            "Oakhaven Regional Sports Complex",
+            "Highland Valley Community College"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_responder_operations_A",
+          "role_id": "responder_operations",
+          "candidate_id": "A",
+          "key": "OPS-CREW-X7B",
+          "hidden_predicate_id": "A_responder_reserved_capacity",
+          "threshold_label": "Emergency responder reserved capacity",
+          "threshold_aliases": [
+            "First responder cot reservation",
+            "Emergency staff reserved space"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "persons",
+          "partial_record_text": "OPS-CREW-X7B: Cascade Civic Pavilion. The record covers Emergency responder reserved capacity. Incident management quartering directive; Allocated response team secure rest zones; Number of dormitory bed spaces legally quarantined for active response personnel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency responder reserved capacity is at most 400 persons.",
+          "role_name": "First responder operations liaison (OPS)",
+          "candidate_name": "Cascade Civic Pavilion",
+          "other_candidate_names": [
+            "Oakhaven Regional Sports Complex",
+            "Highland Valley Community College"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_logistics_A",
+          "role_id": "shelter_logistics",
+          "candidate_id": "A",
+          "key": "LOG-CAP-22N",
+          "hidden_predicate_id": "A_gross_dormitory_capacity",
+          "threshold_label": "Gross dormitory capacity",
+          "threshold_aliases": [
+            "Gross shelter bed capacity",
+            "Total dormitory accommodation"
+          ],
+          "threshold_value": 1400,
+          "threshold_unit": "persons",
+          "partial_record_text": "LOG-CAP-22N: Cascade Civic Pavilion. The record covers Gross dormitory capacity. Shelter floor plan ledger; Total usable interior hall floorspace; Total rated cot accommodation headcount under standard social spacing rules.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross dormitory capacity is at most 3000 persons.",
+          "role_name": "Shelter logistics director (LOG)",
+          "candidate_name": "Cascade Civic Pavilion",
+          "other_candidate_names": [
+            "Oakhaven Regional Sports Complex",
+            "Highland Valley Community College"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

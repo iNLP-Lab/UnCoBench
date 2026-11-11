@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_341",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "crane_operations",
+        "power_resilience"
+      ],
+      "role_names": [
+        "Heavy handling and crane superintendent (CRN)",
+        "Electrical systems and power resilience engineer (PWR)"
+      ],
+      "directory": "incomplete/task_341",
+      "profiles": [
+        {
+          "record_id": "rec_crane_operations_A",
+          "role_id": "crane_operations",
+          "candidate_id": "A",
+          "key": "CRN-LIFT-0ZF",
+          "boolean_predicate_id": "A_crane_certification_active",
+          "boolean_label": "Certified overhead crane lifting capability",
+          "hidden_predicate_id": "A_crane_hook_approach_time",
+          "threshold_label": "Maximum crane hook approach transit time",
+          "threshold_aliases": [
+            "Crane approach transit duration",
+            "Hook repositioning transit time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "CRN-LIFT-0ZF: Vandenberg South High-Bay Processing Facility.Vandenberg South High-Bay Processing Facility: Certified overhead crane lifting capability = true .Source: Overhead gantry annual compliance placard; Scope: Candidate facility high-bay main crane hook; Measurement: Active flight-hardware rated lifting certification signoff.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum crane hook approach transit time is between 5 min and 30 min, inclusive.",
+          "role_name": "Heavy handling and crane superintendent (CRN)",
+          "candidate_name": "Vandenberg South High-Bay Processing Facility",
+          "other_candidate_names": [
+            "Cape Canaveral Orbital Integration Hangar",
+            "Wallops Island Commercial Encapsulation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-5ED",
+          "hidden_predicate_id": "A_backup_generator_endurance",
+          "threshold_label": "Backup emergency power endurance",
+          "threshold_aliases": [
+            "Emergency generator run duration",
+            "Onsite diesel power runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-5ED: Vandenberg South High-Bay Processing Facility. The record covers Backup emergency power endurance. Diesel generator fuel store endurance test; Dedicated facility emergency generator set and onsite fuel storage; Continuous hours of full-load electrical output supported by certified dedicated fuel reserves.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup emergency power endurance is between 20 h and 300 h, inclusive.",
+          "role_name": "Electrical systems and power resilience engineer (PWR)",
+          "candidate_name": "Vandenberg South High-Bay Processing Facility",
+          "other_candidate_names": [
+            "Cape Canaveral Orbital Integration Hangar",
+            "Wallops Island Commercial Encapsulation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "crane_operations",
+        "power_resilience",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Heavy handling and crane superintendent (CRN)",
+        "Electrical systems and power resilience engineer (PWR)",
+        "Cleanroom and facilities engineering lead (FAC)"
+      ],
+      "directory": "incomplete/task_341",
+      "profiles": [
+        {
+          "record_id": "rec_crane_operations_A",
+          "role_id": "crane_operations",
+          "candidate_id": "A",
+          "key": "CRN-LIFT-0ZF",
+          "boolean_predicate_id": "A_crane_certification_active",
+          "boolean_label": "Certified overhead crane lifting capability",
+          "hidden_predicate_id": "A_crane_hook_approach_time",
+          "threshold_label": "Maximum crane hook approach transit time",
+          "threshold_aliases": [
+            "Crane approach transit duration",
+            "Hook repositioning transit time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "CRN-LIFT-0ZF: Vandenberg South High-Bay Processing Facility.Vandenberg South High-Bay Processing Facility: Certified overhead crane lifting capability = true .Source: Overhead gantry annual compliance placard; Scope: Candidate facility high-bay main crane hook; Measurement: Active flight-hardware rated lifting certification signoff.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum crane hook approach transit time is between 5 min and 30 min, inclusive.",
+          "role_name": "Heavy handling and crane superintendent (CRN)",
+          "candidate_name": "Vandenberg South High-Bay Processing Facility",
+          "other_candidate_names": [
+            "Cape Canaveral Orbital Integration Hangar",
+            "Wallops Island Commercial Encapsulation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-5ED",
+          "hidden_predicate_id": "A_backup_generator_endurance",
+          "threshold_label": "Backup emergency power endurance",
+          "threshold_aliases": [
+            "Emergency generator run duration",
+            "Onsite diesel power runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-5ED: Vandenberg South High-Bay Processing Facility. The record covers Backup emergency power endurance. Diesel generator fuel store endurance test; Dedicated facility emergency generator set and onsite fuel storage; Continuous hours of full-load electrical output supported by certified dedicated fuel reserves.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup emergency power endurance is between 20 h and 300 h, inclusive.",
+          "role_name": "Electrical systems and power resilience engineer (PWR)",
+          "candidate_name": "Vandenberg South High-Bay Processing Facility",
+          "other_candidate_names": [
+            "Cape Canaveral Orbital Integration Hangar",
+            "Wallops Island Commercial Encapsulation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-CLEAN-6SL",
+          "hidden_predicate_id": "A_primary_encapsulation_bay_area",
+          "threshold_label": "Primary payload encapsulation bay area",
+          "threshold_aliases": [
+            "Encapsulation high-bay footprint",
+            "Cleanroom primary floor area"
+          ],
+          "threshold_value": 1400,
+          "threshold_unit": "m2",
+          "partial_record_text": "FAC-CLEAN-6SL: Vandenberg South High-Bay Processing Facility.Configuration baseline environment: Production operations baseline.Vandenberg South High-Bay Processing Facility: Cleanroom ISO 14644 compliance = true .Source: Cleanroom particle counter inspection certificate; Scope: Candidate primary integration high bay; Measurement: Formal validation that airborne particulate counts meet ISO 14644-1 Class 8 standards.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary payload encapsulation bay area is between 0 m2 and 3000 m2, inclusive.",
+          "role_name": "Cleanroom and facilities engineering lead (FAC)",
+          "candidate_name": "Vandenberg South High-Bay Processing Facility",
+          "other_candidate_names": [
+            "Cape Canaveral Orbital Integration Hangar",
+            "Wallops Island Commercial Encapsulation Complex"
+          ],
+          "context_value": "Production operations baseline",
+          "other_context_values": [
+            "Test and commissioning baseline"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

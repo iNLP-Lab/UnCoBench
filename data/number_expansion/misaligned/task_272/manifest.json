@@ -1,0 +1,527 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_272",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fleet_operations",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Ground operations lead (GOL)",
+        "Quality assurance director (QAD)"
+      ],
+      "directory": "number_expansion/misaligned/task_272/k2",
+      "error_profiles": [
+        {
+          "role_name": "Ground operations lead (GOL)",
+          "target_key": "GOL-RAMP-XJW",
+          "alternate_key": "GOL-TRUCK-5P2",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "CryoTrans Logistics International",
+          "other_candidates": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "numeric": [
+            {
+              "topic": "dedicated_handling_crew",
+              "value": 35,
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ],
+              "unit": "personnel"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ]
+            },
+            {
+              "topic": "excursion_incident_rate",
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ]
+            },
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification status",
+              "aliases": [
+                "GDP accreditation",
+                "Pharma GDP compliance approval"
+              ]
+            },
+            {
+              "topic": "dedicated_handling_crew",
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ]
+            },
+            {
+              "topic": "bonded_clearance_authorized",
+              "label": "Bonded customs clearance authorization",
+              "aliases": [
+                "Bonded transit status",
+                "Customs bonded carrier approval"
+              ]
+            },
+            {
+              "topic": "liability_coverage_confirmed",
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ]
+            },
+            {
+              "topic": "quarterly_charter_fee",
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ]
+            },
+            {
+              "topic": "guaranteed_reefer_volume",
+              "label": "Guaranteed reefer container volume",
+              "aliases": [
+                "Contracted container capacity",
+                "Guaranteed refrigerated container slots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance director (QAD)",
+          "target_key": "QAD-MON-O7C",
+          "alternate_key": "QAD-MON-HEY",
+          "target_context": "Production telemetry environment",
+          "alternate_context": "Staging telemetry environment",
+          "candidate": "CryoTrans Logistics International",
+          "other_candidates": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "numeric": [
+            {
+              "topic": "excursion_incident_rate",
+              "value": 1.5,
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ],
+              "unit": "incidents/1000 shipments"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "value": true,
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ]
+            },
+            {
+              "topic": "excursion_incident_rate",
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ]
+            },
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification status",
+              "aliases": [
+                "GDP accreditation",
+                "Pharma GDP compliance approval"
+              ]
+            },
+            {
+              "topic": "dedicated_handling_crew",
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ]
+            },
+            {
+              "topic": "bonded_clearance_authorized",
+              "label": "Bonded customs clearance authorization",
+              "aliases": [
+                "Bonded transit status",
+                "Customs bonded carrier approval"
+              ]
+            },
+            {
+              "topic": "liability_coverage_confirmed",
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ]
+            },
+            {
+              "topic": "quarterly_charter_fee",
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ]
+            },
+            {
+              "topic": "guaranteed_reefer_volume",
+              "label": "Guaranteed reefer container volume",
+              "aliases": [
+                "Contracted container capacity",
+                "Guaranteed refrigerated container slots"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fleet_operations",
+        "quality_assurance",
+        "procurement_commercial"
+      ],
+      "role_names": [
+        "Ground operations lead (GOL)",
+        "Quality assurance director (QAD)",
+        "Commercial procurement manager (CPM)"
+      ],
+      "directory": "number_expansion/misaligned/task_272/k3",
+      "error_profiles": [
+        {
+          "role_name": "Ground operations lead (GOL)",
+          "target_key": "GOL-RAMP-XJW",
+          "alternate_key": "GOL-TRUCK-5P2",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "CryoTrans Logistics International",
+          "other_candidates": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "numeric": [
+            {
+              "topic": "dedicated_handling_crew",
+              "value": 35,
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ],
+              "unit": "personnel"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ]
+            },
+            {
+              "topic": "excursion_incident_rate",
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ]
+            },
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification status",
+              "aliases": [
+                "GDP accreditation",
+                "Pharma GDP compliance approval"
+              ]
+            },
+            {
+              "topic": "dedicated_handling_crew",
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ]
+            },
+            {
+              "topic": "bonded_clearance_authorized",
+              "label": "Bonded customs clearance authorization",
+              "aliases": [
+                "Bonded transit status",
+                "Customs bonded carrier approval"
+              ]
+            },
+            {
+              "topic": "liability_coverage_confirmed",
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ]
+            },
+            {
+              "topic": "quarterly_charter_fee",
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ]
+            },
+            {
+              "topic": "guaranteed_reefer_volume",
+              "label": "Guaranteed reefer container volume",
+              "aliases": [
+                "Contracted container capacity",
+                "Guaranteed refrigerated container slots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance director (QAD)",
+          "target_key": "QAD-MON-O7C",
+          "alternate_key": "QAD-MON-HEY",
+          "target_context": "Production telemetry environment",
+          "alternate_context": "Staging telemetry environment",
+          "candidate": "CryoTrans Logistics International",
+          "other_candidates": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "numeric": [
+            {
+              "topic": "excursion_incident_rate",
+              "value": 1.5,
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ],
+              "unit": "incidents/1000 shipments"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "value": true,
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ]
+            },
+            {
+              "topic": "excursion_incident_rate",
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ]
+            },
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification status",
+              "aliases": [
+                "GDP accreditation",
+                "Pharma GDP compliance approval"
+              ]
+            },
+            {
+              "topic": "dedicated_handling_crew",
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ]
+            },
+            {
+              "topic": "bonded_clearance_authorized",
+              "label": "Bonded customs clearance authorization",
+              "aliases": [
+                "Bonded transit status",
+                "Customs bonded carrier approval"
+              ]
+            },
+            {
+              "topic": "liability_coverage_confirmed",
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ]
+            },
+            {
+              "topic": "quarterly_charter_fee",
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ]
+            },
+            {
+              "topic": "guaranteed_reefer_volume",
+              "label": "Guaranteed reefer container volume",
+              "aliases": [
+                "Contracted container capacity",
+                "Guaranteed refrigerated container slots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial procurement manager (CPM)",
+          "target_key": "CPM-FIN-1CR",
+          "alternate_key": "CPM-FIN-WPD",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "CryoTrans Logistics International",
+          "other_candidates": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "numeric": [
+            {
+              "topic": "quarterly_charter_fee",
+              "value": 360000,
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ],
+              "unit": "USD"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "liability_coverage_confirmed",
+              "value": true,
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "temp_monitoring_enabled",
+              "label": "Continuous temperature monitoring enabled",
+              "aliases": [
+                "Continuous thermal telemetry",
+                "Real-time temperature logging enablement"
+              ]
+            },
+            {
+              "topic": "excursion_incident_rate",
+              "label": "Temperature excursion incident rate",
+              "aliases": [
+                "Thermal excursion frequency",
+                "Out-of-range temperature breach rate"
+              ]
+            },
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice certification status",
+              "aliases": [
+                "GDP accreditation",
+                "Pharma GDP compliance approval"
+              ]
+            },
+            {
+              "topic": "dedicated_handling_crew",
+              "label": "Audited dedicated handling crew",
+              "aliases": [
+                "Dedicated ramp personnel count",
+                "Certified tarmac cold-chain crew"
+              ]
+            },
+            {
+              "topic": "bonded_clearance_authorized",
+              "label": "Bonded customs clearance authorization",
+              "aliases": [
+                "Bonded transit status",
+                "Customs bonded carrier approval"
+              ]
+            },
+            {
+              "topic": "liability_coverage_confirmed",
+              "label": "Freight liability underwriting confirmed",
+              "aliases": [
+                "Cargo liability insurance verification",
+                "Underwriter policy endorsement"
+              ]
+            },
+            {
+              "topic": "quarterly_charter_fee",
+              "label": "Total quarterly charter fee",
+              "aliases": [
+                "Charter base expenditure",
+                "Quarterly air cargo fee"
+              ]
+            },
+            {
+              "topic": "guaranteed_reefer_volume",
+              "label": "Guaranteed reefer container volume",
+              "aliases": [
+                "Contracted container capacity",
+                "Guaranteed refrigerated container slots"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

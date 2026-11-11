@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_971",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ento_ops",
+        "production_plan"
+      ],
+      "role_names": [
+        "Entomological rearing operations lead (ENTO)",
+        "Production scheduling coordinator (PLAN)"
+      ],
+      "directory": "incomplete/task_971",
+      "profiles": [
+        {
+          "record_id": "rec_ento_ops_A",
+          "role_id": "ento_ops",
+          "candidate_id": "A",
+          "key": "ENTO-REAR-RJS",
+          "boolean_predicate_id": "A_climate_control_active",
+          "boolean_label": "Active climate control operational",
+          "hidden_predicate_id": "A_rearing_temperature_variance",
+          "threshold_label": "Rearing temperature variance",
+          "threshold_aliases": [
+            "Chamber temperature deviation",
+            "Incubation thermal fluctuation"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "degC",
+          "partial_record_text": "ENTO-REAR-RJS: Yakima Valley Biocontrol Station.Yakima Valley Biocontrol Station: Active climate control operational = true .Source: Environmental chamber telemetry audit; Scope: Mass-rearing incubator chambers; Measurement: Whether continuous automated temperature and humidity controls are active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Rearing temperature variance is between 0.5 degC and 4 degC, inclusive.",
+          "role_name": "Entomological rearing operations lead (ENTO)",
+          "candidate_name": "Yakima Valley Biocontrol Station",
+          "other_candidate_names": [
+            "Mid-Columbia Arthropod Facility",
+            "Snake River Entomological Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_production_plan_A",
+          "role_id": "production_plan",
+          "candidate_id": "A",
+          "key": "PLAN-YIELD-APF",
+          "hidden_predicate_id": "A_batch_viability_rate",
+          "threshold_label": "Batch viability rate",
+          "threshold_aliases": [
+            "Post-emergence viability",
+            "Adult mite survival percentage"
+          ],
+          "threshold_value": 88,
+          "threshold_unit": "%",
+          "partial_record_text": "PLAN-YIELD-APF: Yakima Valley Biocontrol Station.Yakima Valley Biocontrol Station: Baseline weekly rearing yield = 160 cartons.Source: Primary rearing schedule; Scope: Standard continuous cultivation lines; Measurement: Projected baseline weekly production volume of mature predatory mites in cartons.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Batch viability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Production scheduling coordinator (PLAN)",
+          "candidate_name": "Yakima Valley Biocontrol Station",
+          "other_candidate_names": [
+            "Mid-Columbia Arthropod Facility",
+            "Snake River Entomological Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ento_ops",
+        "production_plan",
+        "cold_chain_lead"
+      ],
+      "role_names": [
+        "Entomological rearing operations lead (ENTO)",
+        "Production scheduling coordinator (PLAN)",
+        "Cold-chain and logistics supervisor (LOG)"
+      ],
+      "directory": "incomplete/task_971",
+      "profiles": [
+        {
+          "record_id": "rec_ento_ops_A",
+          "role_id": "ento_ops",
+          "candidate_id": "A",
+          "key": "ENTO-REAR-RJS",
+          "boolean_predicate_id": "A_climate_control_active",
+          "boolean_label": "Active climate control operational",
+          "hidden_predicate_id": "A_rearing_temperature_variance",
+          "threshold_label": "Rearing temperature variance",
+          "threshold_aliases": [
+            "Chamber temperature deviation",
+            "Incubation thermal fluctuation"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "degC",
+          "partial_record_text": "ENTO-REAR-RJS: Yakima Valley Biocontrol Station.Yakima Valley Biocontrol Station: Active climate control operational = true .Source: Environmental chamber telemetry audit; Scope: Mass-rearing incubator chambers; Measurement: Whether continuous automated temperature and humidity controls are active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Rearing temperature variance is between 0.5 degC and 4 degC, inclusive.",
+          "role_name": "Entomological rearing operations lead (ENTO)",
+          "candidate_name": "Yakima Valley Biocontrol Station",
+          "other_candidate_names": [
+            "Mid-Columbia Arthropod Facility",
+            "Snake River Entomological Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_production_plan_A",
+          "role_id": "production_plan",
+          "candidate_id": "A",
+          "key": "PLAN-YIELD-APF",
+          "hidden_predicate_id": "A_batch_viability_rate",
+          "threshold_label": "Batch viability rate",
+          "threshold_aliases": [
+            "Post-emergence viability",
+            "Adult mite survival percentage"
+          ],
+          "threshold_value": 88,
+          "threshold_unit": "%",
+          "partial_record_text": "PLAN-YIELD-APF: Yakima Valley Biocontrol Station.Yakima Valley Biocontrol Station: Baseline weekly rearing yield = 160 cartons.Source: Primary rearing schedule; Scope: Standard continuous cultivation lines; Measurement: Projected baseline weekly production volume of mature predatory mites in cartons.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Batch viability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Production scheduling coordinator (PLAN)",
+          "candidate_name": "Yakima Valley Biocontrol Station",
+          "other_candidate_names": [
+            "Mid-Columbia Arthropod Facility",
+            "Snake River Entomological Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cold_chain_lead_A",
+          "role_id": "cold_chain_lead",
+          "candidate_id": "A",
+          "key": "LOG-DIST-AK0",
+          "hidden_predicate_id": "A_supplemental_surge_output",
+          "threshold_label": "Supplemental surge culture output",
+          "threshold_aliases": [
+            "Surge rearing output",
+            "Supplemental weekly release capacity"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "cartons",
+          "partial_record_text": "LOG-DIST-AK0: Yakima Valley Biocontrol Station.Country of operation: United States.Yakima Valley Biocontrol Station: Pre-shipment cooling protocol approved = true .Source: Cold-chain validation manual; Scope: Pre-packaging thermal conditioning line; Measurement: Formal signoff of the gradual temperature ramp-down protocol prior to packing.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Supplemental surge culture output is between 20 cartons and 70 cartons, inclusive.",
+          "role_name": "Cold-chain and logistics supervisor (LOG)",
+          "candidate_name": "Yakima Valley Biocontrol Station",
+          "other_candidate_names": [
+            "Mid-Columbia Arthropod Facility",
+            "Snake River Entomological Hub"
+          ],
+          "context_value": "United States",
+          "other_context_values": [
+            "Canada"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

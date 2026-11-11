@@ -1,0 +1,566 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_909",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "grid_integration_lead",
+        "network_hydraulics_lead"
+      ],
+      "role_names": [
+        "Electrical grid integration lead (GRID)",
+        "Network hydraulics lead (NETH)"
+      ],
+      "directory": "number_expansion/misaligned/task_909/k2",
+      "error_profiles": [
+        {
+          "role_name": "Electrical grid integration lead (GRID)",
+          "target_key": "GRID-ELEC-OOX",
+          "alternate_key": "GRID-ELEC-S7W",
+          "target_context": "Production environment",
+          "alternate_context": "Testing environment",
+          "candidate": "Deep geothermal doublet and heat recovery scheme",
+          "other_candidates": [
+            "Open-loop aquifer thermal storage and heat pump scheme",
+            "Co-located hydrothermal extraction and absorption scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "grid_interconnection_executed",
+              "value": true,
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "wellhead_telemetry_enabled",
+              "label": "Geothermal wellhead telemetry enabled",
+              "aliases": [
+                "Wellhead telemetry status",
+                "Telemetry transmission active"
+              ]
+            },
+            {
+              "topic": "aquifer_production_rate",
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ]
+            },
+            {
+              "topic": "backup_fuel_reserve_duration",
+              "label": "Backup fuel reserve duration",
+              "aliases": [
+                "Auxiliary fuel autonomy duration",
+                "Backup fuel storage duration"
+              ]
+            },
+            {
+              "topic": "distribution_isolation_certified",
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ]
+            },
+            {
+              "topic": "environmental_impact_cleared",
+              "label": "Environmental impact clearance granted",
+              "aliases": [
+                "Environmental regulatory clearance",
+                "Environmental permit approval"
+              ]
+            },
+            {
+              "topic": "grid_interconnection_executed",
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ]
+            },
+            {
+              "topic": "base_thermal_output",
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ]
+            },
+            {
+              "topic": "auxiliary_boiler_output",
+              "label": "Auxiliary boiler thermal output",
+              "aliases": [
+                "Auxiliary thermal output",
+                "Peaking boiler capacity"
+              ]
+            },
+            {
+              "topic": "parasitic_pumping_loss",
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Network hydraulics lead (NETH)",
+          "target_key": "NETH-PIPE-BTK",
+          "alternate_key": "NETH-PIPE-PWV",
+          "target_context": "production environment",
+          "alternate_context": "simulation testbed environment",
+          "candidate": "Deep geothermal doublet and heat recovery scheme",
+          "other_candidates": [
+            "Open-loop aquifer thermal storage and heat pump scheme",
+            "Co-located hydrothermal extraction and absorption scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "parasitic_pumping_loss",
+              "value": 6,
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "distribution_isolation_certified",
+              "value": true,
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "wellhead_telemetry_enabled",
+              "label": "Geothermal wellhead telemetry enabled",
+              "aliases": [
+                "Wellhead telemetry status",
+                "Telemetry transmission active"
+              ]
+            },
+            {
+              "topic": "aquifer_production_rate",
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ]
+            },
+            {
+              "topic": "backup_fuel_reserve_duration",
+              "label": "Backup fuel reserve duration",
+              "aliases": [
+                "Auxiliary fuel autonomy duration",
+                "Backup fuel storage duration"
+              ]
+            },
+            {
+              "topic": "distribution_isolation_certified",
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ]
+            },
+            {
+              "topic": "environmental_impact_cleared",
+              "label": "Environmental impact clearance granted",
+              "aliases": [
+                "Environmental regulatory clearance",
+                "Environmental permit approval"
+              ]
+            },
+            {
+              "topic": "grid_interconnection_executed",
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ]
+            },
+            {
+              "topic": "base_thermal_output",
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ]
+            },
+            {
+              "topic": "auxiliary_boiler_output",
+              "label": "Auxiliary boiler thermal output",
+              "aliases": [
+                "Auxiliary thermal output",
+                "Peaking boiler capacity"
+              ]
+            },
+            {
+              "topic": "parasitic_pumping_loss",
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "grid_integration_lead",
+        "network_hydraulics_lead",
+        "thermal_generation_lead"
+      ],
+      "role_names": [
+        "Electrical grid integration lead (GRID)",
+        "Network hydraulics lead (NETH)",
+        "Thermal generation lead (TGEN)"
+      ],
+      "directory": "number_expansion/misaligned/task_909/k3",
+      "error_profiles": [
+        {
+          "role_name": "Electrical grid integration lead (GRID)",
+          "target_key": "GRID-ELEC-OOX",
+          "alternate_key": "GRID-ELEC-S7W",
+          "target_context": "Production environment",
+          "alternate_context": "Testing environment",
+          "candidate": "Deep geothermal doublet and heat recovery scheme",
+          "other_candidates": [
+            "Open-loop aquifer thermal storage and heat pump scheme",
+            "Co-located hydrothermal extraction and absorption scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "grid_interconnection_executed",
+              "value": true,
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "wellhead_telemetry_enabled",
+              "label": "Geothermal wellhead telemetry enabled",
+              "aliases": [
+                "Wellhead telemetry status",
+                "Telemetry transmission active"
+              ]
+            },
+            {
+              "topic": "aquifer_production_rate",
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ]
+            },
+            {
+              "topic": "backup_fuel_reserve_duration",
+              "label": "Backup fuel reserve duration",
+              "aliases": [
+                "Auxiliary fuel autonomy duration",
+                "Backup fuel storage duration"
+              ]
+            },
+            {
+              "topic": "distribution_isolation_certified",
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ]
+            },
+            {
+              "topic": "environmental_impact_cleared",
+              "label": "Environmental impact clearance granted",
+              "aliases": [
+                "Environmental regulatory clearance",
+                "Environmental permit approval"
+              ]
+            },
+            {
+              "topic": "grid_interconnection_executed",
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ]
+            },
+            {
+              "topic": "base_thermal_output",
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ]
+            },
+            {
+              "topic": "auxiliary_boiler_output",
+              "label": "Auxiliary boiler thermal output",
+              "aliases": [
+                "Auxiliary thermal output",
+                "Peaking boiler capacity"
+              ]
+            },
+            {
+              "topic": "parasitic_pumping_loss",
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Network hydraulics lead (NETH)",
+          "target_key": "NETH-PIPE-BTK",
+          "alternate_key": "NETH-PIPE-PWV",
+          "target_context": "production environment",
+          "alternate_context": "simulation testbed environment",
+          "candidate": "Deep geothermal doublet and heat recovery scheme",
+          "other_candidates": [
+            "Open-loop aquifer thermal storage and heat pump scheme",
+            "Co-located hydrothermal extraction and absorption scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "parasitic_pumping_loss",
+              "value": 6,
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "distribution_isolation_certified",
+              "value": true,
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "wellhead_telemetry_enabled",
+              "label": "Geothermal wellhead telemetry enabled",
+              "aliases": [
+                "Wellhead telemetry status",
+                "Telemetry transmission active"
+              ]
+            },
+            {
+              "topic": "aquifer_production_rate",
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ]
+            },
+            {
+              "topic": "backup_fuel_reserve_duration",
+              "label": "Backup fuel reserve duration",
+              "aliases": [
+                "Auxiliary fuel autonomy duration",
+                "Backup fuel storage duration"
+              ]
+            },
+            {
+              "topic": "distribution_isolation_certified",
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ]
+            },
+            {
+              "topic": "environmental_impact_cleared",
+              "label": "Environmental impact clearance granted",
+              "aliases": [
+                "Environmental regulatory clearance",
+                "Environmental permit approval"
+              ]
+            },
+            {
+              "topic": "grid_interconnection_executed",
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ]
+            },
+            {
+              "topic": "base_thermal_output",
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ]
+            },
+            {
+              "topic": "auxiliary_boiler_output",
+              "label": "Auxiliary boiler thermal output",
+              "aliases": [
+                "Auxiliary thermal output",
+                "Peaking boiler capacity"
+              ]
+            },
+            {
+              "topic": "parasitic_pumping_loss",
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Thermal generation lead (TGEN)",
+          "target_key": "TGEN-WELL-W38",
+          "alternate_key": "TGEN-WELL-QVI",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Deep geothermal doublet and heat recovery scheme",
+          "other_candidates": [
+            "Open-loop aquifer thermal storage and heat pump scheme",
+            "Co-located hydrothermal extraction and absorption scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "aquifer_production_rate",
+              "value": 160,
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ],
+              "unit": "m3/h"
+            },
+            {
+              "topic": "base_thermal_output",
+              "value": 56,
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "wellhead_telemetry_enabled",
+              "label": "Geothermal wellhead telemetry enabled",
+              "aliases": [
+                "Wellhead telemetry status",
+                "Telemetry transmission active"
+              ]
+            },
+            {
+              "topic": "aquifer_production_rate",
+              "label": "Deep aquifer production rate",
+              "aliases": [
+                "Hydrothermal fluid extraction rate",
+                "Geothermal production flow rate"
+              ]
+            },
+            {
+              "topic": "backup_fuel_reserve_duration",
+              "label": "Backup fuel reserve duration",
+              "aliases": [
+                "Auxiliary fuel autonomy duration",
+                "Backup fuel storage duration"
+              ]
+            },
+            {
+              "topic": "distribution_isolation_certified",
+              "label": "Distribution loop isolation valve certified",
+              "aliases": [
+                "Network hydraulic isolation certification",
+                "Rapid isolation valve compliance"
+              ]
+            },
+            {
+              "topic": "environmental_impact_cleared",
+              "label": "Environmental impact clearance granted",
+              "aliases": [
+                "Environmental regulatory clearance",
+                "Environmental permit approval"
+              ]
+            },
+            {
+              "topic": "grid_interconnection_executed",
+              "label": "Electrical interconnection agreement executed",
+              "aliases": [
+                "Grid connection contract status",
+                "Dual-feeder interconnection approval"
+              ]
+            },
+            {
+              "topic": "base_thermal_output",
+              "label": "Base geothermal thermal output",
+              "aliases": [
+                "Base geothermal output",
+                "Primary heat exchanger output"
+              ]
+            },
+            {
+              "topic": "auxiliary_boiler_output",
+              "label": "Auxiliary boiler thermal output",
+              "aliases": [
+                "Auxiliary thermal output",
+                "Peaking boiler capacity"
+              ]
+            },
+            {
+              "topic": "parasitic_pumping_loss",
+              "label": "Parasitic distribution pumping heat loss",
+              "aliases": [
+                "Pumping thermal dissipation loss",
+                "Network parasitic thermal loss"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

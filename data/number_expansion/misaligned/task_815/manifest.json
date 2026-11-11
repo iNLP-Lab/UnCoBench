@@ -1,0 +1,524 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_815",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "occupational_health",
+        "clinical_operations"
+      ],
+      "role_names": [
+        "Hospital Occupational Health and Readiness Service (HOHR)",
+        "Trauma Clinical Operations Directorate (TCOD)"
+      ],
+      "directory": "number_expansion/misaligned/task_815/k2",
+      "error_profiles": [
+        {
+          "role_name": "Hospital Occupational Health and Readiness Service (HOHR)",
+          "target_key": "HOHR-CERT-HJD",
+          "alternate_key": "HOHR-CERT-IXW",
+          "target_context": "Production environment",
+          "alternate_context": "Staging environment",
+          "candidate": "Dedicated nocturnal hospitalist cohort",
+          "other_candidates": [
+            "Regional academic faculty rotation",
+            "Integrated critical care locum consortium"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "value": true,
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "advanced_trauma_credentialing_active",
+              "label": "Active advanced trauma credentialing verification",
+              "aliases": [
+                "Trauma credentialing verification",
+                "Advanced surgical credentialing status"
+              ]
+            },
+            {
+              "topic": "trauma_call_experience_years",
+              "label": "Minimum attending trauma call experience",
+              "aliases": [
+                "Attending trauma call experience",
+                "Post-fellowship acute trauma experience"
+              ]
+            },
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ]
+            },
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ]
+            },
+            {
+              "topic": "credentialing_lead_time_days",
+              "label": "Credentialing onboarding lead time",
+              "aliases": [
+                "Onboarding lead time",
+                "Staffing mobilization duration"
+              ]
+            },
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ]
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ]
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Trauma Clinical Operations Directorate (TCOD)",
+          "target_key": "TCOD-OPS-V15",
+          "alternate_key": "TCOD-OPS-XR5",
+          "target_context": "Production environment",
+          "alternate_context": "Simulation environment",
+          "candidate": "Dedicated nocturnal hospitalist cohort",
+          "other_candidates": [
+            "Regional academic faculty rotation",
+            "Integrated critical care locum consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "value": 10,
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ],
+              "unit": "min"
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "value": 184,
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ],
+              "unit": "h/week"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "advanced_trauma_credentialing_active",
+              "label": "Active advanced trauma credentialing verification",
+              "aliases": [
+                "Trauma credentialing verification",
+                "Advanced surgical credentialing status"
+              ]
+            },
+            {
+              "topic": "trauma_call_experience_years",
+              "label": "Minimum attending trauma call experience",
+              "aliases": [
+                "Attending trauma call experience",
+                "Post-fellowship acute trauma experience"
+              ]
+            },
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ]
+            },
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ]
+            },
+            {
+              "topic": "credentialing_lead_time_days",
+              "label": "Credentialing onboarding lead time",
+              "aliases": [
+                "Onboarding lead time",
+                "Staffing mobilization duration"
+              ]
+            },
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ]
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ]
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "occupational_health",
+        "clinical_operations",
+        "quality_governance"
+      ],
+      "role_names": [
+        "Hospital Occupational Health and Readiness Service (HOHR)",
+        "Trauma Clinical Operations Directorate (TCOD)",
+        "Clinical Governance and Patient Safety Bureau (CGPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_815/k3",
+      "error_profiles": [
+        {
+          "role_name": "Hospital Occupational Health and Readiness Service (HOHR)",
+          "target_key": "HOHR-CERT-HJD",
+          "alternate_key": "HOHR-CERT-IXW",
+          "target_context": "Production environment",
+          "alternate_context": "Staging environment",
+          "candidate": "Dedicated nocturnal hospitalist cohort",
+          "other_candidates": [
+            "Regional academic faculty rotation",
+            "Integrated critical care locum consortium"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "value": true,
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "advanced_trauma_credentialing_active",
+              "label": "Active advanced trauma credentialing verification",
+              "aliases": [
+                "Trauma credentialing verification",
+                "Advanced surgical credentialing status"
+              ]
+            },
+            {
+              "topic": "trauma_call_experience_years",
+              "label": "Minimum attending trauma call experience",
+              "aliases": [
+                "Attending trauma call experience",
+                "Post-fellowship acute trauma experience"
+              ]
+            },
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ]
+            },
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ]
+            },
+            {
+              "topic": "credentialing_lead_time_days",
+              "label": "Credentialing onboarding lead time",
+              "aliases": [
+                "Onboarding lead time",
+                "Staffing mobilization duration"
+              ]
+            },
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ]
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ]
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Trauma Clinical Operations Directorate (TCOD)",
+          "target_key": "TCOD-OPS-V15",
+          "alternate_key": "TCOD-OPS-XR5",
+          "target_context": "Production environment",
+          "alternate_context": "Simulation environment",
+          "candidate": "Dedicated nocturnal hospitalist cohort",
+          "other_candidates": [
+            "Regional academic faculty rotation",
+            "Integrated critical care locum consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "value": 10,
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ],
+              "unit": "min"
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "value": 184,
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ],
+              "unit": "h/week"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "advanced_trauma_credentialing_active",
+              "label": "Active advanced trauma credentialing verification",
+              "aliases": [
+                "Trauma credentialing verification",
+                "Advanced surgical credentialing status"
+              ]
+            },
+            {
+              "topic": "trauma_call_experience_years",
+              "label": "Minimum attending trauma call experience",
+              "aliases": [
+                "Attending trauma call experience",
+                "Post-fellowship acute trauma experience"
+              ]
+            },
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ]
+            },
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ]
+            },
+            {
+              "topic": "credentialing_lead_time_days",
+              "label": "Credentialing onboarding lead time",
+              "aliases": [
+                "Onboarding lead time",
+                "Staffing mobilization duration"
+              ]
+            },
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ]
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ]
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Clinical Governance and Patient Safety Bureau (CGPS)",
+          "target_key": "CGPS-AUDIT-UIY",
+          "alternate_key": "CGPS-AUDIT-LT0",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Dedicated nocturnal hospitalist cohort",
+          "other_candidates": [
+            "Regional academic faculty rotation",
+            "Integrated critical care locum consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "value": 95,
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ],
+              "unit": "%"
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "value": 32,
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ],
+              "unit": "h/week"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "advanced_trauma_credentialing_active",
+              "label": "Active advanced trauma credentialing verification",
+              "aliases": [
+                "Trauma credentialing verification",
+                "Advanced surgical credentialing status"
+              ]
+            },
+            {
+              "topic": "trauma_call_experience_years",
+              "label": "Minimum attending trauma call experience",
+              "aliases": [
+                "Attending trauma call experience",
+                "Post-fellowship acute trauma experience"
+              ]
+            },
+            {
+              "topic": "rapid_bedside_arrival_minutes",
+              "label": "Nocturnal bedside arrival time",
+              "aliases": [
+                "Bedside response time",
+                "Trauma resuscitation arrival latency"
+              ]
+            },
+            {
+              "topic": "peer_review_audit_pass_rate",
+              "label": "Clinical peer-review audit pass rate",
+              "aliases": [
+                "Peer-review pass rate",
+                "Clinical quality audit compliance"
+              ]
+            },
+            {
+              "topic": "credentialing_lead_time_days",
+              "label": "Credentialing onboarding lead time",
+              "aliases": [
+                "Onboarding lead time",
+                "Staffing mobilization duration"
+              ]
+            },
+            {
+              "topic": "mandatory_bls_acls_currency",
+              "label": "Verified BLS and ACLS certification currency",
+              "aliases": [
+                "Life-support certification currency",
+                "ACLS and BLS currency verification"
+              ]
+            },
+            {
+              "topic": "scheduled_coverage_hours",
+              "label": "Scheduled clinical coverage hours",
+              "aliases": [
+                "Scheduled coverage hours",
+                "Total gross weekly coverage hours"
+              ]
+            },
+            {
+              "topic": "administrative_reserve_hours",
+              "label": "Mandatory administrative reserve hours",
+              "aliases": [
+                "Administrative reserve hours",
+                "Non-clinical administrative allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

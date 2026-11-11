@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_569",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_safety",
+        "operations_readiness"
+      ],
+      "role_names": [
+        "Safety and fire protection lead (SAF)",
+        "Offshore operations and habitat lead (OPS)"
+      ],
+      "directory": "incomplete/task_569",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "SAF-PROT-0PC",
+          "boolean_predicate_id": "A_deluge_system_enabled",
+          "boolean_label": "Active deluge fire suppression enabled",
+          "hidden_predicate_id": "A_deluge_delivery_rate",
+          "threshold_label": "Deluge water delivery discharge rate",
+          "threshold_aliases": [
+            "Deluge discharge rate",
+            "Water deluge flux"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "L/min/m2",
+          "partial_record_text": "SAF-PROT-0PC: Monopod Jack-up Truss Layout.Monopod Jack-up Truss Layout: Active deluge fire suppression enabled = true .Source: Fire safety system commissioning log; Scope: High-voltage transformer bay and valve hall deluge networks; Measurement: Operational ready status of automatic valve actuation circuitry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Deluge water delivery discharge rate is between 5 L/min/m2 and 30 L/min/m2, inclusive.",
+          "role_name": "Safety and fire protection lead (SAF)",
+          "candidate_name": "Monopod Jack-up Truss Layout",
+          "other_candidate_names": [
+            "Modular Four-Legged Jacket Layout",
+            "Deep-Draft Floating Spar Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_readiness_A",
+          "role_id": "operations_readiness",
+          "candidate_id": "A",
+          "key": "OPS-HAB-IXX",
+          "hidden_predicate_id": "A_refuge_endurance_hours",
+          "threshold_label": "Emergency crew refuge endurance",
+          "threshold_aliases": [
+            "Crew refuge endurance",
+            "Temporary refuge duration"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-HAB-IXX: Monopod Jack-up Truss Layout. The record covers Emergency crew refuge endurance. Platform living quarters safety dossier; Hermetically sealed emergency refuge shelter module; Autonomous life-support breathable air and water supply duration for full crew compliment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency crew refuge endurance is between 20 h and 70 h, inclusive.",
+          "role_name": "Offshore operations and habitat lead (OPS)",
+          "candidate_name": "Monopod Jack-up Truss Layout",
+          "other_candidate_names": [
+            "Modular Four-Legged Jacket Layout",
+            "Deep-Draft Floating Spar Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_safety",
+        "operations_readiness",
+        "marine_logistics"
+      ],
+      "role_names": [
+        "Safety and fire protection lead (SAF)",
+        "Offshore operations and habitat lead (OPS)",
+        "Marine logistics and navigation lead (NAV)"
+      ],
+      "directory": "incomplete/task_569",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "SAF-PROT-0PC",
+          "boolean_predicate_id": "A_deluge_system_enabled",
+          "boolean_label": "Active deluge fire suppression enabled",
+          "hidden_predicate_id": "A_deluge_delivery_rate",
+          "threshold_label": "Deluge water delivery discharge rate",
+          "threshold_aliases": [
+            "Deluge discharge rate",
+            "Water deluge flux"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "L/min/m2",
+          "partial_record_text": "SAF-PROT-0PC: Monopod Jack-up Truss Layout.Monopod Jack-up Truss Layout: Active deluge fire suppression enabled = true .Source: Fire safety system commissioning log; Scope: High-voltage transformer bay and valve hall deluge networks; Measurement: Operational ready status of automatic valve actuation circuitry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Deluge water delivery discharge rate is between 5 L/min/m2 and 30 L/min/m2, inclusive.",
+          "role_name": "Safety and fire protection lead (SAF)",
+          "candidate_name": "Monopod Jack-up Truss Layout",
+          "other_candidate_names": [
+            "Modular Four-Legged Jacket Layout",
+            "Deep-Draft Floating Spar Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_readiness_A",
+          "role_id": "operations_readiness",
+          "candidate_id": "A",
+          "key": "OPS-HAB-IXX",
+          "hidden_predicate_id": "A_refuge_endurance_hours",
+          "threshold_label": "Emergency crew refuge endurance",
+          "threshold_aliases": [
+            "Crew refuge endurance",
+            "Temporary refuge duration"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-HAB-IXX: Monopod Jack-up Truss Layout. The record covers Emergency crew refuge endurance. Platform living quarters safety dossier; Hermetically sealed emergency refuge shelter module; Autonomous life-support breathable air and water supply duration for full crew compliment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency crew refuge endurance is between 20 h and 70 h, inclusive.",
+          "role_name": "Offshore operations and habitat lead (OPS)",
+          "candidate_name": "Monopod Jack-up Truss Layout",
+          "other_candidate_names": [
+            "Modular Four-Legged Jacket Layout",
+            "Deep-Draft Floating Spar Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_logistics_A",
+          "role_id": "marine_logistics",
+          "candidate_id": "A",
+          "key": "NAV-BERTH-NH3",
+          "hidden_predicate_id": "A_dp_vessel_clearance",
+          "threshold_label": "Dynamic positioning vessel approach clearance",
+          "threshold_aliases": [
+            "Vessel approach clearance",
+            "DP standoff distance"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "m",
+          "partial_record_text": "NAV-BERTH-NH3: Monopod Jack-up Truss Layout. The record covers Dynamic positioning vessel approach clearance. Offshore vessel access and maritime collision analysis; Candidate platform boat landing and crane laydown quadrant; Minimum safe separation distance between DP-2 service vessels and platform structural members.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Dynamic positioning vessel approach clearance is between 20 m and 100 m, inclusive.",
+          "role_name": "Marine logistics and navigation lead (NAV)",
+          "candidate_name": "Monopod Jack-up Truss Layout",
+          "other_candidate_names": [
+            "Modular Four-Legged Jacket Layout",
+            "Deep-Draft Floating Spar Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

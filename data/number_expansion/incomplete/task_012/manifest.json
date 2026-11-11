@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_012",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "glaciology_lead",
+        "logistics_coordinator"
+      ],
+      "role_names": [
+        "Field glaciology lead (GLAC)",
+        "Polar logistics coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_012",
+      "profiles": [
+        {
+          "record_id": "rec_glaciology_lead_A",
+          "role_id": "glaciology_lead",
+          "candidate_id": "A",
+          "key": "GLAC-DRILL-ODN",
+          "boolean_predicate_id": "A_clean_snow_protocol_enabled",
+          "boolean_label": "Clean-snow sampling protocol enabled",
+          "hidden_predicate_id": "A_daily_core_drilling_yield",
+          "threshold_label": "Daily core drilling yield",
+          "threshold_aliases": [
+            "Core extraction rate",
+            "Daily drilling advance rate"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "m/day",
+          "partial_record_text": "GLAC-DRILL-ODN: Dome Concordia West Outpost.Dome Concordia West Outpost: Clean-snow sampling protocol enabled = true .Source: Drilling operational protocol register; Scope: Proposed camp extraction trench; Measurement: Confirmation of zero-emission upwind sampling perimeter procedures.",
+          "role_name": "Field glaciology lead (GLAC)",
+          "candidate_name": "Dome Concordia West Outpost",
+          "other_candidate_names": [
+            "Ridge B Ice Divide Camp",
+            "Amundsen Trench Traverse Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordinator_A",
+          "role_id": "logistics_coordinator",
+          "candidate_id": "A",
+          "key": "LOG-TRAV-2DK",
+          "hidden_predicate_id": "A_maximum_traverse_distance",
+          "threshold_label": "Maximum traverse resupply distance",
+          "threshold_aliases": [
+            "Overland traverse distance",
+            "Resupply route distance"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "km",
+          "partial_record_text": "LOG-TRAV-2DK: Dome Concordia West Outpost. The record covers Maximum traverse resupply distance. Traverse routing and glaciological crevasse radar survey; From coastal unloading ice shelf to field camp site; Total mapped overland distance following surveyed safe transit corridors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 620
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Maximum traverse resupply distance is at most 620 km.",
+          "role_name": "Polar logistics coordinator (LOG)",
+          "candidate_name": "Dome Concordia West Outpost",
+          "other_candidate_names": [
+            "Ridge B Ice Divide Camp",
+            "Amundsen Trench Traverse Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "glaciology_lead",
+        "logistics_coordinator",
+        "cryo_infrastructure_engineer"
+      ],
+      "role_names": [
+        "Field glaciology lead (GLAC)",
+        "Polar logistics coordinator (LOG)",
+        "Cryo-infrastructure engineer (CRYO)"
+      ],
+      "directory": "incomplete/task_012",
+      "profiles": [
+        {
+          "record_id": "rec_glaciology_lead_A",
+          "role_id": "glaciology_lead",
+          "candidate_id": "A",
+          "key": "GLAC-DRILL-ODN",
+          "boolean_predicate_id": "A_clean_snow_protocol_enabled",
+          "boolean_label": "Clean-snow sampling protocol enabled",
+          "hidden_predicate_id": "A_daily_core_drilling_yield",
+          "threshold_label": "Daily core drilling yield",
+          "threshold_aliases": [
+            "Core extraction rate",
+            "Daily drilling advance rate"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "m/day",
+          "partial_record_text": "GLAC-DRILL-ODN: Dome Concordia West Outpost.Dome Concordia West Outpost: Clean-snow sampling protocol enabled = true .Source: Drilling operational protocol register; Scope: Proposed camp extraction trench; Measurement: Confirmation of zero-emission upwind sampling perimeter procedures.",
+          "role_name": "Field glaciology lead (GLAC)",
+          "candidate_name": "Dome Concordia West Outpost",
+          "other_candidate_names": [
+            "Ridge B Ice Divide Camp",
+            "Amundsen Trench Traverse Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordinator_A",
+          "role_id": "logistics_coordinator",
+          "candidate_id": "A",
+          "key": "LOG-TRAV-2DK",
+          "hidden_predicate_id": "A_maximum_traverse_distance",
+          "threshold_label": "Maximum traverse resupply distance",
+          "threshold_aliases": [
+            "Overland traverse distance",
+            "Resupply route distance"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "km",
+          "partial_record_text": "LOG-TRAV-2DK: Dome Concordia West Outpost. The record covers Maximum traverse resupply distance. Traverse routing and glaciological crevasse radar survey; From coastal unloading ice shelf to field camp site; Total mapped overland distance following surveyed safe transit corridors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 620
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Maximum traverse resupply distance is at most 620 km.",
+          "role_name": "Polar logistics coordinator (LOG)",
+          "candidate_name": "Dome Concordia West Outpost",
+          "other_candidate_names": [
+            "Ridge B Ice Divide Camp",
+            "Amundsen Trench Traverse Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_infrastructure_engineer_A",
+          "role_id": "cryo_infrastructure_engineer",
+          "candidate_id": "A",
+          "key": "CRYO-VAULT-IL0",
+          "hidden_predicate_id": "A_primary_core_storage_capacity",
+          "threshold_label": "Primary core storage capacity",
+          "threshold_aliases": [
+            "Core processing trench storage capacity",
+            "Primary cold storage volume"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "boxes",
+          "partial_record_text": "CRYO-VAULT-IL0: Dome Concordia West Outpost. The record covers Primary core storage capacity. Record context: Layout Version 2.0. Subsurface trench architectural engineering schematic; Dedicated thermal-controlled core staging gallery; Maximum volume of standardized 1 m insulated core boxes accommodated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary core storage capacity is at most 700 boxes.",
+          "role_name": "Cryo-infrastructure engineer (CRYO)",
+          "candidate_name": "Dome Concordia West Outpost",
+          "other_candidate_names": [
+            "Ridge B Ice Divide Camp",
+            "Amundsen Trench Traverse Station"
+          ],
+          "context_value": "Layout Version 2.0",
+          "other_context_values": [
+            "Layout Version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

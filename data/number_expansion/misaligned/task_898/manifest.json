@@ -1,0 +1,658 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_898",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aeromedical_control",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Aeromedical clinical director (MEDDIR)",
+        "Flight operations superintendent (FLTOPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_898/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aeromedical clinical director (MEDDIR)",
+          "target_key": "MEDDIR-CLINIC-IPX",
+          "alternate_key": "MEDDIR-CLINIC-NFN",
+          "target_context": "October 2024",
+          "alternate_context": "November 2024",
+          "candidate": "Karratha Coastal Aeromedical Corridor",
+          "other_candidates": [
+            "Port Hedland Inland Staging Track",
+            "Newman Central Plateau Airway"
+          ],
+          "numeric": [
+            {
+              "topic": "transit_patient_capacity",
+              "value": 3,
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ],
+              "unit": "patients"
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "value": 600,
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "value": true,
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ]
+            },
+            {
+              "topic": "datalink_latency_time",
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ]
+            },
+            {
+              "topic": "transit_patient_capacity",
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ]
+            },
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ]
+            },
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ]
+            },
+            {
+              "topic": "jet_a1_refueling_available",
+              "label": "Dedicated Jet A-1 pressurized refueling availability",
+              "aliases": [
+                "Pressurized turbine fuel availability",
+                "Jet A-1 refueling readiness"
+              ]
+            },
+            {
+              "topic": "triage_helipad_direct_linkage",
+              "label": "Direct triage helipad linkage",
+              "aliases": [
+                "Mine helipad emergency corridor connection",
+                "Direct triage pad access"
+              ]
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ]
+            },
+            {
+              "topic": "auxiliary_cargo_allowance",
+              "label": "Auxiliary cargo allowance",
+              "aliases": [
+                "Secondary baggage bay payload",
+                "Auxiliary freight capacity"
+              ]
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "target_key": "FLTOPS-AVRUN-GLQ",
+          "alternate_key": "FLTOPS-AVRUN-FRB",
+          "target_context": "October 2024 operational cycle",
+          "alternate_context": "November 2024 operational cycle",
+          "candidate": "Karratha Coastal Aeromedical Corridor",
+          "other_candidates": [
+            "Port Hedland Inland Staging Track",
+            "Newman Central Plateau Airway"
+          ],
+          "numeric": [
+            {
+              "topic": "datalink_latency_time",
+              "value": 90,
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ],
+              "unit": "ms"
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "value": 2050,
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "value": true,
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ]
+            },
+            {
+              "topic": "datalink_latency_time",
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ]
+            },
+            {
+              "topic": "transit_patient_capacity",
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ]
+            },
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ]
+            },
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ]
+            },
+            {
+              "topic": "jet_a1_refueling_available",
+              "label": "Dedicated Jet A-1 pressurized refueling availability",
+              "aliases": [
+                "Pressurized turbine fuel availability",
+                "Jet A-1 refueling readiness"
+              ]
+            },
+            {
+              "topic": "triage_helipad_direct_linkage",
+              "label": "Direct triage helipad linkage",
+              "aliases": [
+                "Mine helipad emergency corridor connection",
+                "Direct triage pad access"
+              ]
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ]
+            },
+            {
+              "topic": "auxiliary_cargo_allowance",
+              "label": "Auxiliary cargo allowance",
+              "aliases": [
+                "Secondary baggage bay payload",
+                "Auxiliary freight capacity"
+              ]
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aeromedical_control",
+        "flight_operations",
+        "airspace_safety"
+      ],
+      "role_names": [
+        "Aeromedical clinical director (MEDDIR)",
+        "Flight operations superintendent (FLTOPS)",
+        "Civil airspace coordination officer (AIRSAF)"
+      ],
+      "directory": "number_expansion/misaligned/task_898/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aeromedical clinical director (MEDDIR)",
+          "target_key": "MEDDIR-CLINIC-IPX",
+          "alternate_key": "MEDDIR-CLINIC-NFN",
+          "target_context": "October 2024",
+          "alternate_context": "November 2024",
+          "candidate": "Karratha Coastal Aeromedical Corridor",
+          "other_candidates": [
+            "Port Hedland Inland Staging Track",
+            "Newman Central Plateau Airway"
+          ],
+          "numeric": [
+            {
+              "topic": "transit_patient_capacity",
+              "value": 3,
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ],
+              "unit": "patients"
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "value": 600,
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "value": true,
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ]
+            },
+            {
+              "topic": "datalink_latency_time",
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ]
+            },
+            {
+              "topic": "transit_patient_capacity",
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ]
+            },
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ]
+            },
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ]
+            },
+            {
+              "topic": "jet_a1_refueling_available",
+              "label": "Dedicated Jet A-1 pressurized refueling availability",
+              "aliases": [
+                "Pressurized turbine fuel availability",
+                "Jet A-1 refueling readiness"
+              ]
+            },
+            {
+              "topic": "triage_helipad_direct_linkage",
+              "label": "Direct triage helipad linkage",
+              "aliases": [
+                "Mine helipad emergency corridor connection",
+                "Direct triage pad access"
+              ]
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ]
+            },
+            {
+              "topic": "auxiliary_cargo_allowance",
+              "label": "Auxiliary cargo allowance",
+              "aliases": [
+                "Secondary baggage bay payload",
+                "Auxiliary freight capacity"
+              ]
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "target_key": "FLTOPS-AVRUN-GLQ",
+          "alternate_key": "FLTOPS-AVRUN-FRB",
+          "target_context": "October 2024 operational cycle",
+          "alternate_context": "November 2024 operational cycle",
+          "candidate": "Karratha Coastal Aeromedical Corridor",
+          "other_candidates": [
+            "Port Hedland Inland Staging Track",
+            "Newman Central Plateau Airway"
+          ],
+          "numeric": [
+            {
+              "topic": "datalink_latency_time",
+              "value": 90,
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ],
+              "unit": "ms"
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "value": 2050,
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "value": true,
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ]
+            },
+            {
+              "topic": "datalink_latency_time",
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ]
+            },
+            {
+              "topic": "transit_patient_capacity",
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ]
+            },
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ]
+            },
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ]
+            },
+            {
+              "topic": "jet_a1_refueling_available",
+              "label": "Dedicated Jet A-1 pressurized refueling availability",
+              "aliases": [
+                "Pressurized turbine fuel availability",
+                "Jet A-1 refueling readiness"
+              ]
+            },
+            {
+              "topic": "triage_helipad_direct_linkage",
+              "label": "Direct triage helipad linkage",
+              "aliases": [
+                "Mine helipad emergency corridor connection",
+                "Direct triage pad access"
+              ]
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ]
+            },
+            {
+              "topic": "auxiliary_cargo_allowance",
+              "label": "Auxiliary cargo allowance",
+              "aliases": [
+                "Secondary baggage bay payload",
+                "Auxiliary freight capacity"
+              ]
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil airspace coordination officer (AIRSAF)",
+          "target_key": "AIRSAF-CASAR-4UB",
+          "alternate_key": "AIRSAF-CASAR-XHN",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "Karratha Coastal Aeromedical Corridor",
+          "other_candidates": [
+            "Port Hedland Inland Staging Track",
+            "Newman Central Plateau Airway"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "value": true,
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "satellite_datalink_equipped",
+              "label": "Satellite datalink equipment installed",
+              "aliases": [
+                "Satellite datalink provision",
+                "Satcom datalink readiness"
+              ]
+            },
+            {
+              "topic": "datalink_latency_time",
+              "label": "Datalink transmission latency",
+              "aliases": [
+                "Telemetry latency",
+                "Datalink propagation delay"
+              ]
+            },
+            {
+              "topic": "transit_patient_capacity",
+              "label": "Transit patient capacity",
+              "aliases": [
+                "Litter patient positions",
+                "Stretcher carrying capacity"
+              ]
+            },
+            {
+              "topic": "advanced_trauma_team_accredited",
+              "label": "Advanced trauma resuscitation team accreditation",
+              "aliases": [
+                "Trauma team clinical credentialing",
+                "Critical care resuscitation staffing certification"
+              ]
+            },
+            {
+              "topic": "corridor_airspace_waiver_granted",
+              "label": "Civil corridor airspace waiver approval",
+              "aliases": [
+                "Airspace deconfliction waiver",
+                "Aviation regulator corridor clearance"
+              ]
+            },
+            {
+              "topic": "jet_a1_refueling_available",
+              "label": "Dedicated Jet A-1 pressurized refueling availability",
+              "aliases": [
+                "Pressurized turbine fuel availability",
+                "Jet A-1 refueling readiness"
+              ]
+            },
+            {
+              "topic": "triage_helipad_direct_linkage",
+              "label": "Direct triage helipad linkage",
+              "aliases": [
+                "Mine helipad emergency corridor connection",
+                "Direct triage pad access"
+              ]
+            },
+            {
+              "topic": "primary_cabin_payload",
+              "label": "Primary cabin payload capacity",
+              "aliases": [
+                "Gross cabin payload",
+                "Rated cabin payload allowance"
+              ]
+            },
+            {
+              "topic": "auxiliary_cargo_allowance",
+              "label": "Auxiliary cargo allowance",
+              "aliases": [
+                "Secondary baggage bay payload",
+                "Auxiliary freight capacity"
+              ]
+            },
+            {
+              "topic": "intensive_care_tare_weight",
+              "label": "Intensive care life-support equipment tare weight",
+              "aliases": [
+                "ICU sled tare weight",
+                "Fixed medical life-support equipment weight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

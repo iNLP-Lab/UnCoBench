@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_260",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "seismology_monitoring",
+        "civil_engineering"
+      ],
+      "role_names": [
+        "Field seismology lead (SEIS)",
+        "Geotechnical infrastructure engineer (CIVL)"
+      ],
+      "directory": "incomplete/task_260",
+      "profiles": [
+        {
+          "record_id": "rec_seismology_monitoring_A",
+          "role_id": "seismology_monitoring",
+          "candidate_id": "A",
+          "key": "SEIS-INDSEIS-HKK",
+          "boolean_predicate_id": "A_seismic_monitoring_validated",
+          "boolean_label": "Baseline seismic monitoring validated",
+          "hidden_predicate_id": "A_telemetry_latency",
+          "threshold_label": "Continuous seismic data transmission latency",
+          "threshold_aliases": [
+            "Seismic telemetry latency",
+            "Data transmission latency"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "s",
+          "partial_record_text": "SEIS-INDSEIS-HKK: Caldron Crest Caldera.Caldron Crest Caldera: Baseline seismic monitoring validated = true .Source: Microseismic commissioning certificate; Scope: Candidate surface and shallow borehole geophone array; Measurement: Formal validation that five-station array achieves 360-degree azimuthal coverage.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Continuous seismic data transmission latency is between 50 s and 400 s, inclusive.",
+          "role_name": "Field seismology lead (SEIS)",
+          "candidate_name": "Caldron Crest Caldera",
+          "other_candidate_names": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_engineering_A",
+          "role_id": "civil_engineering",
+          "candidate_id": "A",
+          "key": "CIVL-FOUND-IB2",
+          "hidden_predicate_id": "A_pad_bearing_capacity",
+          "threshold_label": "Drilling rig pad bearing capacity",
+          "threshold_aliases": [
+            "Subgrade allowable bearing capacity",
+            "Pad foundation strength"
+          ],
+          "threshold_value": 260,
+          "threshold_unit": "kPa",
+          "partial_record_text": "CIVL-FOUND-IB2: Caldron Crest Caldera. The record covers Drilling rig pad bearing capacity. Plate load test report; Compacted gravel drill rig substructure pad; Allowable soil bearing capacity calculated under maximum mast operational loading.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 400
+          },
+          "coarse_statement": "Drilling rig pad bearing capacity is between 200 kPa and 400 kPa, inclusive.",
+          "role_name": "Geotechnical infrastructure engineer (CIVL)",
+          "candidate_name": "Caldron Crest Caldera",
+          "other_candidate_names": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "seismology_monitoring",
+        "civil_engineering",
+        "geothermal_reservoir"
+      ],
+      "role_names": [
+        "Field seismology lead (SEIS)",
+        "Geotechnical infrastructure engineer (CIVL)",
+        "Reservoir geology lead (GEOL)"
+      ],
+      "directory": "incomplete/task_260",
+      "profiles": [
+        {
+          "record_id": "rec_seismology_monitoring_A",
+          "role_id": "seismology_monitoring",
+          "candidate_id": "A",
+          "key": "SEIS-INDSEIS-HKK",
+          "boolean_predicate_id": "A_seismic_monitoring_validated",
+          "boolean_label": "Baseline seismic monitoring validated",
+          "hidden_predicate_id": "A_telemetry_latency",
+          "threshold_label": "Continuous seismic data transmission latency",
+          "threshold_aliases": [
+            "Seismic telemetry latency",
+            "Data transmission latency"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "s",
+          "partial_record_text": "SEIS-INDSEIS-HKK: Caldron Crest Caldera.Caldron Crest Caldera: Baseline seismic monitoring validated = true .Source: Microseismic commissioning certificate; Scope: Candidate surface and shallow borehole geophone array; Measurement: Formal validation that five-station array achieves 360-degree azimuthal coverage.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Continuous seismic data transmission latency is between 50 s and 400 s, inclusive.",
+          "role_name": "Field seismology lead (SEIS)",
+          "candidate_name": "Caldron Crest Caldera",
+          "other_candidate_names": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_engineering_A",
+          "role_id": "civil_engineering",
+          "candidate_id": "A",
+          "key": "CIVL-FOUND-IB2",
+          "hidden_predicate_id": "A_pad_bearing_capacity",
+          "threshold_label": "Drilling rig pad bearing capacity",
+          "threshold_aliases": [
+            "Subgrade allowable bearing capacity",
+            "Pad foundation strength"
+          ],
+          "threshold_value": 260,
+          "threshold_unit": "kPa",
+          "partial_record_text": "CIVL-FOUND-IB2: Caldron Crest Caldera. The record covers Drilling rig pad bearing capacity. Plate load test report; Compacted gravel drill rig substructure pad; Allowable soil bearing capacity calculated under maximum mast operational loading.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 400
+          },
+          "coarse_statement": "Drilling rig pad bearing capacity is between 200 kPa and 400 kPa, inclusive.",
+          "role_name": "Geotechnical infrastructure engineer (CIVL)",
+          "candidate_name": "Caldron Crest Caldera",
+          "other_candidate_names": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geothermal_reservoir_A",
+          "role_id": "geothermal_reservoir",
+          "candidate_id": "A",
+          "key": "GEOL-THERM-GIE",
+          "hidden_predicate_id": "A_borehole_temperature",
+          "threshold_label": "Subsurface borehole temperature",
+          "threshold_aliases": [
+            "Bottom-hole temperature",
+            "Thermal gradient equilibrium temperature"
+          ],
+          "threshold_value": 245,
+          "threshold_unit": "°C",
+          "partial_record_text": "GEOL-THERM-GIE: Caldron Crest Caldera. The record covers Subsurface borehole temperature. Equilibrium wireline temperature log; Pilot slim-hole at 2500 m measured depth; Stabilized bottom-hole fluid temperature recorded 48 hours post-circulation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Subsurface borehole temperature is between 100 °C and 400 °C, inclusive.",
+          "role_name": "Reservoir geology lead (GEOL)",
+          "candidate_name": "Caldron Crest Caldera",
+          "other_candidate_names": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

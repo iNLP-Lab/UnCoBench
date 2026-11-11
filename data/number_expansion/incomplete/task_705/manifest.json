@@ -1,0 +1,189 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_705",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryo_specialist",
+        "freezer_logistics_lead"
+      ],
+      "role_names": [
+        "Cryogenic systems engineer (CRY)",
+        "Ultra-low-temperature mechanical storage lead (STR)"
+      ],
+      "directory": "incomplete/task_705",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_specialist_A",
+          "role_id": "cryo_specialist",
+          "candidate_id": "A",
+          "key": "CRY-CRYO-R3I",
+          "boolean_predicate_id": "A_boil_off_mitigation_installed",
+          "boolean_label": "Active liquid nitrogen boil-off mitigation system installation",
+          "hidden_predicate_id": "A_ln2_autonomy_hours",
+          "threshold_label": "Liquid nitrogen continuous autonomy duration",
+          "threshold_aliases": [
+            "Cryogenic passive hold duration",
+            "Unassisted LN2 storage autonomy"
+          ],
+          "threshold_value": 840,
+          "threshold_unit": "h",
+          "partial_record_text": "CRY-CRYO-R3I: Boreal Bedrock Cryo-Vault.Boreal Bedrock Cryo-Vault: Active liquid nitrogen boil-off mitigation system installation = true .Source: Cryogenic commissioning validation protocol; Scope: Central bulk liquid nitrogen storage manifold; Measurement: Presence and operational commissioning of an active closed-cycle helium reliquefaction system.Boreal Bedrock Cryo-Vault: Liquid nitrogen vapor freezer intake capacity = 18000 sample-vials/week.Source: Cryogenic storage intake register; Scope: Automated vapor-phase liquid nitrogen storage carousels; Measurement: Maximum weekly specimen vial capacity processed through controlled-rate freezing into vapor LN2 dewars.",
+          "role_name": "Cryogenic systems engineer (CRY)",
+          "candidate_name": "Boreal Bedrock Cryo-Vault",
+          "other_candidate_names": [
+            "Sub-Alpine Cavern Biorepository",
+            "Permafrost Deep-Strata Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_freezer_logistics_lead_A",
+          "role_id": "freezer_logistics_lead",
+          "candidate_id": "A",
+          "key": "STR-MECH-OWJ",
+          "hidden_predicate_id": "A_ult_mechanical_intake",
+          "threshold_label": "Mechanical ultra-low-temperature freezer intake capacity",
+          "threshold_aliases": [
+            "Mechanical ULT intake rate",
+            "-80C freezer intake capacity"
+          ],
+          "threshold_value": 16000,
+          "threshold_unit": "sample-vials/week",
+          "partial_record_text": "STR-MECH-OWJ: Boreal Bedrock Cryo-Vault. The record covers Mechanical ultra-low-temperature freezer intake capacity. Specimen intake operational catalog; Dedicated mechanical ultra-low-temperature blast-freezing chambers; Maximum weekly specimen volume that can be indexed, logged, and staged down to -80 deg C.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mechanical ultra-low-temperature freezer intake capacity is at least 12000 sample-vials/week.",
+          "role_name": "Ultra-low-temperature mechanical storage lead (STR)",
+          "candidate_name": "Boreal Bedrock Cryo-Vault",
+          "other_candidate_names": [
+            "Sub-Alpine Cavern Biorepository",
+            "Permafrost Deep-Strata Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryo_specialist",
+        "freezer_logistics_lead",
+        "fire_safety_officer"
+      ],
+      "role_names": [
+        "Cryogenic systems engineer (CRY)",
+        "Ultra-low-temperature mechanical storage lead (STR)",
+        "Fire safety and life protection inspector (FSO)"
+      ],
+      "directory": "number_expansion/incomplete/task_705/k3",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_specialist_A",
+          "role_id": "cryo_specialist",
+          "candidate_id": "A",
+          "key": "CRY-CRYO-R3I",
+          "boolean_predicate_id": "A_boil_off_mitigation_installed",
+          "boolean_label": "Active liquid nitrogen boil-off mitigation system installation",
+          "hidden_predicate_id": "A_ln2_autonomy_hours",
+          "threshold_label": "Liquid nitrogen continuous autonomy duration",
+          "threshold_aliases": [
+            "Cryogenic passive hold duration",
+            "Unassisted LN2 storage autonomy"
+          ],
+          "threshold_value": 840,
+          "threshold_unit": "h",
+          "partial_record_text": "CRY-CRYO-R3I: Boreal Bedrock Cryo-Vault.Boreal Bedrock Cryo-Vault: Active liquid nitrogen boil-off mitigation system installation = true .Source: Cryogenic commissioning validation protocol; Scope: Central bulk liquid nitrogen storage manifold; Measurement: Presence and operational commissioning of an active closed-cycle helium reliquefaction system.Boreal Bedrock Cryo-Vault: Liquid nitrogen vapor freezer intake capacity = 18000 sample-vials/week.Source: Cryogenic storage intake register; Scope: Automated vapor-phase liquid nitrogen storage carousels; Measurement: Maximum weekly specimen vial capacity processed through controlled-rate freezing into vapor LN2 dewars.",
+          "role_name": "Cryogenic systems engineer (CRY)",
+          "candidate_name": "Boreal Bedrock Cryo-Vault",
+          "other_candidate_names": [
+            "Sub-Alpine Cavern Biorepository",
+            "Permafrost Deep-Strata Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_freezer_logistics_lead_A",
+          "role_id": "freezer_logistics_lead",
+          "candidate_id": "A",
+          "key": "STR-MECH-OWJ",
+          "hidden_predicate_id": "A_ult_mechanical_intake",
+          "threshold_label": "Mechanical ultra-low-temperature freezer intake capacity",
+          "threshold_aliases": [
+            "Mechanical ULT intake rate",
+            "-80C freezer intake capacity"
+          ],
+          "threshold_value": 16000,
+          "threshold_unit": "sample-vials/week",
+          "partial_record_text": "STR-MECH-OWJ: Boreal Bedrock Cryo-Vault. The record covers Mechanical ultra-low-temperature freezer intake capacity. Specimen intake operational catalog; Dedicated mechanical ultra-low-temperature blast-freezing chambers; Maximum weekly specimen volume that can be indexed, logged, and staged down to -80 deg C.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mechanical ultra-low-temperature freezer intake capacity is at least 12000 sample-vials/week.",
+          "role_name": "Ultra-low-temperature mechanical storage lead (STR)",
+          "candidate_name": "Boreal Bedrock Cryo-Vault",
+          "other_candidate_names": [
+            "Sub-Alpine Cavern Biorepository",
+            "Permafrost Deep-Strata Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_safety_officer_A_supplemental",
+          "role_id": "fire_safety_officer",
+          "candidate_id": "A",
+          "key": "FSO-VENT-LDS",
+          "hidden_predicate_id": "A_supplemental_fire_safety_officer",
+          "threshold_label": "Post-discharge exhaust fan airflow rate",
+          "threshold_aliases": [],
+          "threshold_value": 6200,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "FSO-VENT-LDS: Boreal Bedrock Cryo-Vault. The record covers Post-discharge exhaust fan airflow rate. Pneumatic ventilation test log; Vault exhaust dampers during controlled emergency purge drill; Measured volumetric air displacement rate across main air extraction louvers.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 2200,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Post-discharge exhaust fan airflow rate is at least 2200 m3/h.",
+          "role_name": "Fire safety and life protection inspector (FSO)",
+          "candidate_name": "Boreal Bedrock Cryo-Vault",
+          "other_candidate_names": [
+            "Sub-Alpine Cavern Biorepository",
+            "Permafrost Deep-Strata Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_fire_safety_officer",
+        "topic_id": "supplemental_fire_safety_officer",
+        "operator": "gte",
+        "threshold": 3500,
+        "role_id": "fire_safety_officer",
+        "metric": "Post-discharge exhaust fan airflow rate",
+        "unit": "m3/h",
+        "required_text": "To qualify, a candidate must also have Post-discharge exhaust fan airflow rate of at least 3500 m3/h.",
+        "new_fault_record_key": "FSO-VENT-LDS",
+        "exact_value": 6200,
+        "first_reply": "Post-discharge exhaust fan airflow rate is at least 2200 m3/h."
+      }
+    }
+  }
+}

@@ -1,0 +1,587 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_548",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "renewable_systems",
+        "polar_aviation"
+      ],
+      "role_names": [
+        "Microgrid and Energy Storage Lead (RENEW)",
+        "Aviation Logistics Manager (AVLOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_548/k2",
+      "error_profiles": [
+        {
+          "role_name": "Microgrid and Energy Storage Lead (RENEW)",
+          "target_key": "RENEW-STORAGE-I7W",
+          "alternate_key": "RENEW-STORAGE-0TF",
+          "target_context": "trailing 7-day window",
+          "alternate_context": "trailing 30-day window",
+          "candidate": "Kobbefjord Tundra Station",
+          "other_candidates": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "storage_autonomy_hours",
+              "value": 72,
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "value": 60,
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "winterization_certified",
+              "label": "Building envelope winterization certified",
+              "aliases": [
+                "Winterization certification",
+                "Sub-zero thermal envelope status"
+              ]
+            },
+            {
+              "topic": "storage_autonomy_hours",
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ]
+            },
+            {
+              "topic": "medical_isolation_equipped",
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ]
+            },
+            {
+              "topic": "skiway_landing_approved",
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ]
+            },
+            {
+              "topic": "crosswind_clearance_knots",
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Dedicated satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Satellite uplink bandwidth",
+                "Telemetry bandwidth"
+              ]
+            },
+            {
+              "topic": "prime_generation_capacity",
+              "label": "Prime diesel-hybrid generation capacity",
+              "aliases": [
+                "Prime power capacity",
+                "Primary electrical generator rating"
+              ]
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ]
+            },
+            {
+              "topic": "life_support_base_load",
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation Logistics Manager (AVLOG)",
+          "target_key": "AVLOG-AIRSTRIP-FZ6",
+          "alternate_key": "AVLOG-AIRSTRIP-U4A",
+          "target_context": "Specification Version 2.0",
+          "alternate_context": "Specification Version 1.0",
+          "candidate": "Kobbefjord Tundra Station",
+          "other_candidates": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "crosswind_clearance_knots",
+              "value": 30,
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ],
+              "unit": "knots"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "skiway_landing_approved",
+              "value": true,
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "winterization_certified",
+              "label": "Building envelope winterization certified",
+              "aliases": [
+                "Winterization certification",
+                "Sub-zero thermal envelope status"
+              ]
+            },
+            {
+              "topic": "storage_autonomy_hours",
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ]
+            },
+            {
+              "topic": "medical_isolation_equipped",
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ]
+            },
+            {
+              "topic": "skiway_landing_approved",
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ]
+            },
+            {
+              "topic": "crosswind_clearance_knots",
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Dedicated satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Satellite uplink bandwidth",
+                "Telemetry bandwidth"
+              ]
+            },
+            {
+              "topic": "prime_generation_capacity",
+              "label": "Prime diesel-hybrid generation capacity",
+              "aliases": [
+                "Prime power capacity",
+                "Primary electrical generator rating"
+              ]
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ]
+            },
+            {
+              "topic": "life_support_base_load",
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "renewable_systems",
+        "polar_aviation",
+        "life_support_operations"
+      ],
+      "role_names": [
+        "Microgrid and Energy Storage Lead (RENEW)",
+        "Aviation Logistics Manager (AVLOG)",
+        "Life Support and Safety Coordinator (LIFESUP)"
+      ],
+      "directory": "number_expansion/misaligned/task_548/k3",
+      "error_profiles": [
+        {
+          "role_name": "Microgrid and Energy Storage Lead (RENEW)",
+          "target_key": "RENEW-STORAGE-I7W",
+          "alternate_key": "RENEW-STORAGE-0TF",
+          "target_context": "trailing 7-day window",
+          "alternate_context": "trailing 30-day window",
+          "candidate": "Kobbefjord Tundra Station",
+          "other_candidates": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "storage_autonomy_hours",
+              "value": 72,
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "value": 60,
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "winterization_certified",
+              "label": "Building envelope winterization certified",
+              "aliases": [
+                "Winterization certification",
+                "Sub-zero thermal envelope status"
+              ]
+            },
+            {
+              "topic": "storage_autonomy_hours",
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ]
+            },
+            {
+              "topic": "medical_isolation_equipped",
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ]
+            },
+            {
+              "topic": "skiway_landing_approved",
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ]
+            },
+            {
+              "topic": "crosswind_clearance_knots",
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Dedicated satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Satellite uplink bandwidth",
+                "Telemetry bandwidth"
+              ]
+            },
+            {
+              "topic": "prime_generation_capacity",
+              "label": "Prime diesel-hybrid generation capacity",
+              "aliases": [
+                "Prime power capacity",
+                "Primary electrical generator rating"
+              ]
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ]
+            },
+            {
+              "topic": "life_support_base_load",
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation Logistics Manager (AVLOG)",
+          "target_key": "AVLOG-AIRSTRIP-FZ6",
+          "alternate_key": "AVLOG-AIRSTRIP-U4A",
+          "target_context": "Specification Version 2.0",
+          "alternate_context": "Specification Version 1.0",
+          "candidate": "Kobbefjord Tundra Station",
+          "other_candidates": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "crosswind_clearance_knots",
+              "value": 30,
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ],
+              "unit": "knots"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "skiway_landing_approved",
+              "value": true,
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "winterization_certified",
+              "label": "Building envelope winterization certified",
+              "aliases": [
+                "Winterization certification",
+                "Sub-zero thermal envelope status"
+              ]
+            },
+            {
+              "topic": "storage_autonomy_hours",
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ]
+            },
+            {
+              "topic": "medical_isolation_equipped",
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ]
+            },
+            {
+              "topic": "skiway_landing_approved",
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ]
+            },
+            {
+              "topic": "crosswind_clearance_knots",
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Dedicated satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Satellite uplink bandwidth",
+                "Telemetry bandwidth"
+              ]
+            },
+            {
+              "topic": "prime_generation_capacity",
+              "label": "Prime diesel-hybrid generation capacity",
+              "aliases": [
+                "Prime power capacity",
+                "Primary electrical generator rating"
+              ]
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ]
+            },
+            {
+              "topic": "life_support_base_load",
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Life Support and Safety Coordinator (LIFESUP)",
+          "target_key": "LIFESUP-HABSAFE-0C5",
+          "alternate_key": "LIFESUP-HABSAFE-VCS",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Kobbefjord Tundra Station",
+          "other_candidates": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "life_support_base_load",
+              "value": 80,
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "medical_isolation_equipped",
+              "value": true,
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "winterization_certified",
+              "label": "Building envelope winterization certified",
+              "aliases": [
+                "Winterization certification",
+                "Sub-zero thermal envelope status"
+              ]
+            },
+            {
+              "topic": "storage_autonomy_hours",
+              "label": "Battery energy storage autonomy",
+              "aliases": [
+                "Battery backup duration",
+                "Microgrid storage autonomy"
+              ]
+            },
+            {
+              "topic": "medical_isolation_equipped",
+              "label": "Medical isolation unit operational readiness",
+              "aliases": [
+                "Medical isolation readiness",
+                "Field infirmary quarantine readiness"
+              ]
+            },
+            {
+              "topic": "skiway_landing_approved",
+              "label": "Skiway landing strip operational approval",
+              "aliases": [
+                "Skiway landing approval",
+                "Glacial runway approval"
+              ]
+            },
+            {
+              "topic": "crosswind_clearance_knots",
+              "label": "Maximum crosswind operational tolerance",
+              "aliases": [
+                "Crosswind operational threshold",
+                "Runway crosswind limit"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Dedicated satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Satellite uplink bandwidth",
+                "Telemetry bandwidth"
+              ]
+            },
+            {
+              "topic": "prime_generation_capacity",
+              "label": "Prime diesel-hybrid generation capacity",
+              "aliases": [
+                "Prime power capacity",
+                "Primary electrical generator rating"
+              ]
+            },
+            {
+              "topic": "microgrid_generation_capacity",
+              "label": "Supplemental wind-solar microgrid capacity",
+              "aliases": [
+                "Supplemental renewable generation",
+                "Renewable microgrid rating"
+              ]
+            },
+            {
+              "topic": "life_support_base_load",
+              "label": "Baseline life-support and heating power load",
+              "aliases": [
+                "Life-support power load",
+                "Essential habitat thermal-electric demand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

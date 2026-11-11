@@ -1,0 +1,176 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_789",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_engineering",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Facilities engineering lead (FAC)",
+        "Logistics and fleet lead (LOG)"
+      ],
+      "directory": "incomplete/task_789",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-HVAC-J0A",
+          "boolean_predicate_id": "A_backup_generator_installed",
+          "boolean_label": "Emergency backup generator installed",
+          "hidden_predicate_id": "A_generator_switchover_time",
+          "threshold_label": "Emergency power switchover latency",
+          "threshold_aliases": [
+            "Automatic transfer switch latency",
+            "Generator power restoration duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "FAC-HVAC-J0A: Piedmont Regional Distribution Center.Piedmont Regional Distribution Center: Emergency backup generator installed = true .Source: Facility engineering inspection log; Scope: On-site standby emergency electrical generation plant; Measurement: Whether an on-site diesel emergency generator system is permanently installed and operational.Piedmont Regional Distribution Center: Cold-chain refrigerated pallet storage capacity = 3000 pallets.Source: Cold room commissioning certificate; Scope: Continuous 2°C to 8°C refrigerated biologicals warehouse zones; Measurement: Total calibrated and temperature-mapped pallet storage positions within refrigerated rooms.",
+          "role_name": "Facilities engineering lead (FAC)",
+          "candidate_name": "Piedmont Regional Distribution Center",
+          "other_candidate_names": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "LOG-TRANS-M3J",
+          "hidden_predicate_id": "A_highway_access_time",
+          "threshold_label": "Interstate highway arterial travel time",
+          "threshold_aliases": [
+            "Highway transit duration",
+            "Interstate ramp travel time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-TRANS-M3J: Piedmont Regional Distribution Center. The record covers Interstate highway arterial travel time. Record context: production routing environment. Commercial freight navigation telemetry report; Route from depot departure gate to the nearest primary interstate highway ramp; Standard transport transit duration for loaded semi-trailer trucks during non-congested hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 24
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Interstate highway arterial travel time is at most 24 min.",
+          "role_name": "Logistics and fleet lead (LOG)",
+          "candidate_name": "Piedmont Regional Distribution Center",
+          "other_candidate_names": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "context_value": "production routing environment",
+          "other_context_values": [
+            "staging routing environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_engineering",
+        "fleet_logistics",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Facilities engineering lead (FAC)",
+        "Logistics and fleet lead (LOG)",
+        "Quality assurance lead (QA)"
+      ],
+      "directory": "incomplete/task_789",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-HVAC-J0A",
+          "boolean_predicate_id": "A_backup_generator_installed",
+          "boolean_label": "Emergency backup generator installed",
+          "hidden_predicate_id": "A_generator_switchover_time",
+          "threshold_label": "Emergency power switchover latency",
+          "threshold_aliases": [
+            "Automatic transfer switch latency",
+            "Generator power restoration duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "FAC-HVAC-J0A: Piedmont Regional Distribution Center.Piedmont Regional Distribution Center: Emergency backup generator installed = true .Source: Facility engineering inspection log; Scope: On-site standby emergency electrical generation plant; Measurement: Whether an on-site diesel emergency generator system is permanently installed and operational.Piedmont Regional Distribution Center: Cold-chain refrigerated pallet storage capacity = 3000 pallets.Source: Cold room commissioning certificate; Scope: Continuous 2°C to 8°C refrigerated biologicals warehouse zones; Measurement: Total calibrated and temperature-mapped pallet storage positions within refrigerated rooms.",
+          "role_name": "Facilities engineering lead (FAC)",
+          "candidate_name": "Piedmont Regional Distribution Center",
+          "other_candidate_names": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "LOG-TRANS-M3J",
+          "hidden_predicate_id": "A_highway_access_time",
+          "threshold_label": "Interstate highway arterial travel time",
+          "threshold_aliases": [
+            "Highway transit duration",
+            "Interstate ramp travel time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-TRANS-M3J: Piedmont Regional Distribution Center. The record covers Interstate highway arterial travel time. Record context: production routing environment. Commercial freight navigation telemetry report; Route from depot departure gate to the nearest primary interstate highway ramp; Standard transport transit duration for loaded semi-trailer trucks during non-congested hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 24
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Interstate highway arterial travel time is at most 24 min.",
+          "role_name": "Logistics and fleet lead (LOG)",
+          "candidate_name": "Piedmont Regional Distribution Center",
+          "other_candidate_names": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "context_value": "production routing environment",
+          "other_context_values": [
+            "staging routing environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-GSDP-GF7",
+          "hidden_predicate_id": "A_gsdp_compliance_score",
+          "threshold_label": "Good storage and distribution practices audit score",
+          "threshold_aliases": [
+            "GSDP quality audit score",
+            "Pharmaceutical distribution compliance rating"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "pts",
+          "partial_record_text": "QA-GSDP-GF7: Piedmont Regional Distribution Center.Piedmont Regional Distribution Center: Mandatory regulatory quarantine pallet reserve = 800 pallets.Source: Quality compliance space allocation directive; Scope: Dedicated fenced quarantine and physical inspection enclosure; Measurement: Pallet storage positions legally restricted for non-conforming, returned, or quality-hold stock.",
+          "role_name": "Quality assurance lead (QA)",
+          "candidate_name": "Piedmont Regional Distribution Center",
+          "other_candidate_names": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

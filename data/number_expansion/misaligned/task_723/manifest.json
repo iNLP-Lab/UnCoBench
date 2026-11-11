@@ -1,0 +1,476 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_723",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_regulatory",
+        "airspace_telemetry"
+      ],
+      "role_names": [
+        "Aviation regulatory officer (REG)",
+        "Airspace telemetry lead (TEL)"
+      ],
+      "directory": "number_expansion/misaligned/task_723/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aviation regulatory officer (REG)",
+          "target_key": "REG-AUTH-AC1",
+          "alternate_key": "REG-NOTAM-5OM",
+          "target_context": "Live Operational Airspace",
+          "alternate_context": "Controlled Simulation Testbed",
+          "candidate": "Highland Mesa Aerial Proving Ground",
+          "other_candidates": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "airspace_waiver_approved",
+              "value": true,
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ]
+            },
+            {
+              "topic": "airspace_waiver_approved",
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ]
+            },
+            {
+              "topic": "wildlife_buffer_distance",
+              "label": "Avian sanctuary buffer distance",
+              "aliases": [
+                "Wildlife reserve separation distance",
+                "Ecological setback buffer"
+              ]
+            },
+            {
+              "topic": "rapid_intervention_crews_certified",
+              "label": "Rapid intervention crash-rescue crews certified",
+              "aliases": [
+                "Crash-rescue crew certification",
+                "Emergency response team readiness"
+              ]
+            },
+            {
+              "topic": "monthly_base_operating_fee",
+              "label": "Monthly base facility operating fee",
+              "aliases": [
+                "Base facility charge",
+                "Monthly range overhead fee"
+              ]
+            },
+            {
+              "topic": "monthly_flight_test_hours",
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Airspace telemetry lead (TEL)",
+          "target_key": "TEL-COMM-M64",
+          "alternate_key": "TEL-COMM-A1L",
+          "target_context": "trailing 30 days",
+          "alternate_context": "calendar year to date",
+          "candidate": "Highland Mesa Aerial Proving Ground",
+          "other_candidates": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_latency",
+              "value": 35,
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "value": true,
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ]
+            },
+            {
+              "topic": "airspace_waiver_approved",
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ]
+            },
+            {
+              "topic": "wildlife_buffer_distance",
+              "label": "Avian sanctuary buffer distance",
+              "aliases": [
+                "Wildlife reserve separation distance",
+                "Ecological setback buffer"
+              ]
+            },
+            {
+              "topic": "rapid_intervention_crews_certified",
+              "label": "Rapid intervention crash-rescue crews certified",
+              "aliases": [
+                "Crash-rescue crew certification",
+                "Emergency response team readiness"
+              ]
+            },
+            {
+              "topic": "monthly_base_operating_fee",
+              "label": "Monthly base facility operating fee",
+              "aliases": [
+                "Base facility charge",
+                "Monthly range overhead fee"
+              ]
+            },
+            {
+              "topic": "monthly_flight_test_hours",
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_regulatory",
+        "airspace_telemetry",
+        "range_operations"
+      ],
+      "role_names": [
+        "Aviation regulatory officer (REG)",
+        "Airspace telemetry lead (TEL)",
+        "Range operations coordinator (OPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_723/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aviation regulatory officer (REG)",
+          "target_key": "REG-AUTH-AC1",
+          "alternate_key": "REG-NOTAM-5OM",
+          "target_context": "Live Operational Airspace",
+          "alternate_context": "Controlled Simulation Testbed",
+          "candidate": "Highland Mesa Aerial Proving Ground",
+          "other_candidates": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "airspace_waiver_approved",
+              "value": true,
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ]
+            },
+            {
+              "topic": "airspace_waiver_approved",
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ]
+            },
+            {
+              "topic": "wildlife_buffer_distance",
+              "label": "Avian sanctuary buffer distance",
+              "aliases": [
+                "Wildlife reserve separation distance",
+                "Ecological setback buffer"
+              ]
+            },
+            {
+              "topic": "rapid_intervention_crews_certified",
+              "label": "Rapid intervention crash-rescue crews certified",
+              "aliases": [
+                "Crash-rescue crew certification",
+                "Emergency response team readiness"
+              ]
+            },
+            {
+              "topic": "monthly_base_operating_fee",
+              "label": "Monthly base facility operating fee",
+              "aliases": [
+                "Base facility charge",
+                "Monthly range overhead fee"
+              ]
+            },
+            {
+              "topic": "monthly_flight_test_hours",
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Airspace telemetry lead (TEL)",
+          "target_key": "TEL-COMM-M64",
+          "alternate_key": "TEL-COMM-A1L",
+          "target_context": "trailing 30 days",
+          "alternate_context": "calendar year to date",
+          "candidate": "Highland Mesa Aerial Proving Ground",
+          "other_candidates": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_latency",
+              "value": 35,
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "value": true,
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ]
+            },
+            {
+              "topic": "airspace_waiver_approved",
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ]
+            },
+            {
+              "topic": "wildlife_buffer_distance",
+              "label": "Avian sanctuary buffer distance",
+              "aliases": [
+                "Wildlife reserve separation distance",
+                "Ecological setback buffer"
+              ]
+            },
+            {
+              "topic": "rapid_intervention_crews_certified",
+              "label": "Rapid intervention crash-rescue crews certified",
+              "aliases": [
+                "Crash-rescue crew certification",
+                "Emergency response team readiness"
+              ]
+            },
+            {
+              "topic": "monthly_base_operating_fee",
+              "label": "Monthly base facility operating fee",
+              "aliases": [
+                "Base facility charge",
+                "Monthly range overhead fee"
+              ]
+            },
+            {
+              "topic": "monthly_flight_test_hours",
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Range operations coordinator (OPS)",
+          "target_key": "OPS-SCHED-O67",
+          "alternate_key": "OPS-SCHED-7ZP",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Highland Mesa Aerial Proving Ground",
+          "other_candidates": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "numeric": [
+            {
+              "topic": "monthly_flight_test_hours",
+              "value": 100,
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_telemetry_active",
+              "label": "Active BVLOS telemetry network",
+              "aliases": [
+                "BVLOS telemetry status",
+                "Beyond visual line of sight telemetry enablement"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Round-trip telemetry latency",
+              "aliases": [
+                "Telemetry ping latency",
+                "Command link latency"
+              ]
+            },
+            {
+              "topic": "airspace_waiver_approved",
+              "label": "Air traffic corridor waiver approved",
+              "aliases": [
+                "Airspace waiver clearance",
+                "Special flight corridor authorization"
+              ]
+            },
+            {
+              "topic": "wildlife_buffer_distance",
+              "label": "Avian sanctuary buffer distance",
+              "aliases": [
+                "Wildlife reserve separation distance",
+                "Ecological setback buffer"
+              ]
+            },
+            {
+              "topic": "rapid_intervention_crews_certified",
+              "label": "Rapid intervention crash-rescue crews certified",
+              "aliases": [
+                "Crash-rescue crew certification",
+                "Emergency response team readiness"
+              ]
+            },
+            {
+              "topic": "monthly_base_operating_fee",
+              "label": "Monthly base facility operating fee",
+              "aliases": [
+                "Base facility charge",
+                "Monthly range overhead fee"
+              ]
+            },
+            {
+              "topic": "monthly_flight_test_hours",
+              "label": "Baseline monthly flight test capacity",
+              "aliases": [
+                "Allocated flight test hours",
+                "Monthly available flight testing time"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

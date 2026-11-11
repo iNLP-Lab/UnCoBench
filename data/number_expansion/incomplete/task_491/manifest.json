@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_491",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_safety",
+        "crane_operations"
+      ],
+      "role_names": [
+        "Environmental safety officer (ENV)",
+        "Crane operations superintendent (CRN)"
+      ],
+      "directory": "incomplete/task_491",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-BOOM-0KW",
+          "boolean_predicate_id": "A_spill_containment_ready",
+          "boolean_label": "Active rapid-spill containment deployment",
+          "hidden_predicate_id": "A_containment_deploy_time",
+          "threshold_label": "Average containment deployment time",
+          "threshold_aliases": [
+            "Spill boom deployment duration",
+            "Containment mobilization latency"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "min",
+          "partial_record_text": "ENV-BOOM-0KW: North Head Terminal.North Head Terminal: Active rapid-spill containment deployment = true .Source: Emergency response roster; Scope: Terminal marine spill intervention unit; Measurement: Whether certified offshore containment response equipment and skimmer crew are actively commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Average containment deployment time is between 20 min and 80 min, inclusive.",
+          "role_name": "Environmental safety officer (ENV)",
+          "candidate_name": "North Head Terminal",
+          "other_candidate_names": [
+            "Point Wilson Anchorage",
+            "East Gate Marine Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crane_operations_A",
+          "role_id": "crane_operations",
+          "candidate_id": "A",
+          "key": "CRN-LIFT-MWK",
+          "hidden_predicate_id": "A_certified_hook_capacity",
+          "threshold_label": "Certified hook capacity",
+          "threshold_aliases": [
+            "Gross crane hook capacity",
+            "Rated crane lift limit"
+          ],
+          "threshold_value": 260,
+          "threshold_unit": "t",
+          "partial_record_text": "CRN-LIFT-MWK: North Head Terminal.North Head Terminal: Heavy crane lift certification = true .Source: Classification society registry; Scope: Quayside rail-mounted gantry crane; Measurement: Whether crane possesses an unexpired Class A statutory heavy-lift operational certificate.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified hook capacity is between 100 t and 400 t, inclusive.",
+          "role_name": "Crane operations superintendent (CRN)",
+          "candidate_name": "North Head Terminal",
+          "other_candidate_names": [
+            "Point Wilson Anchorage",
+            "East Gate Marine Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_safety",
+        "crane_operations",
+        "port_logistics"
+      ],
+      "role_names": [
+        "Environmental safety officer (ENV)",
+        "Crane operations superintendent (CRN)",
+        "Port logistics director (LOG)"
+      ],
+      "directory": "incomplete/task_491",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-BOOM-0KW",
+          "boolean_predicate_id": "A_spill_containment_ready",
+          "boolean_label": "Active rapid-spill containment deployment",
+          "hidden_predicate_id": "A_containment_deploy_time",
+          "threshold_label": "Average containment deployment time",
+          "threshold_aliases": [
+            "Spill boom deployment duration",
+            "Containment mobilization latency"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "min",
+          "partial_record_text": "ENV-BOOM-0KW: North Head Terminal.North Head Terminal: Active rapid-spill containment deployment = true .Source: Emergency response roster; Scope: Terminal marine spill intervention unit; Measurement: Whether certified offshore containment response equipment and skimmer crew are actively commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Average containment deployment time is between 20 min and 80 min, inclusive.",
+          "role_name": "Environmental safety officer (ENV)",
+          "candidate_name": "North Head Terminal",
+          "other_candidate_names": [
+            "Point Wilson Anchorage",
+            "East Gate Marine Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crane_operations_A",
+          "role_id": "crane_operations",
+          "candidate_id": "A",
+          "key": "CRN-LIFT-MWK",
+          "hidden_predicate_id": "A_certified_hook_capacity",
+          "threshold_label": "Certified hook capacity",
+          "threshold_aliases": [
+            "Gross crane hook capacity",
+            "Rated crane lift limit"
+          ],
+          "threshold_value": 260,
+          "threshold_unit": "t",
+          "partial_record_text": "CRN-LIFT-MWK: North Head Terminal.North Head Terminal: Heavy crane lift certification = true .Source: Classification society registry; Scope: Quayside rail-mounted gantry crane; Measurement: Whether crane possesses an unexpired Class A statutory heavy-lift operational certificate.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified hook capacity is between 100 t and 400 t, inclusive.",
+          "role_name": "Crane operations superintendent (CRN)",
+          "candidate_name": "North Head Terminal",
+          "other_candidate_names": [
+            "Point Wilson Anchorage",
+            "East Gate Marine Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "LOG-RESV-BB9",
+          "hidden_predicate_id": "A_base_crane_reserve",
+          "threshold_label": "Base emergency crane reserve",
+          "threshold_aliases": [
+            "Mandatory crane capacity reserve",
+            "Quayside crane standby reservation"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-RESV-BB9: North Head Terminal. The record covers Base emergency crane reserve. Port authority master allocation plan; Candidate base salvage quayside crane; Hook capacity reserved exclusively for municipal civil defense and coast guard priority operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base emergency crane reserve is between 30 t and 90 t, inclusive.",
+          "role_name": "Port logistics director (LOG)",
+          "candidate_name": "North Head Terminal",
+          "other_candidate_names": [
+            "Point Wilson Anchorage",
+            "East Gate Marine Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_021",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "preventive_curator",
+        "financial_controller"
+      ],
+      "role_names": [
+        "Preventive conservation curator (PCC)",
+        "Preservation finance controller (PFC)"
+      ],
+      "directory": "incomplete/task_021",
+      "profiles": [
+        {
+          "record_id": "rec_preventive_curator_A",
+          "role_id": "preventive_curator",
+          "candidate_id": "A",
+          "key": "PCC-CLIM-MEE",
+          "boolean_predicate_id": "A_climate_control_installed",
+          "boolean_label": "Active climate microenvironment control installation",
+          "hidden_predicate_id": "A_humidity_variance_pct",
+          "threshold_label": "Mean baseline relative humidity variance",
+          "threshold_aliases": [
+            "Relative humidity fluctuation",
+            "Baseline RH variance"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "%",
+          "partial_record_text": "PCC-CLIM-MEE: Alpine Subterranean Vault.Alpine Subterranean Vault: Active climate microenvironment control installation = true .Source: Environmental engineering commissioning register; Scope: Target preservation chamber; Measurement: Operational status of active continuous precision climate regulation equipment.",
+          "role_name": "Preventive conservation curator (PCC)",
+          "candidate_name": "Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Jura Highlands Archive Depot",
+            "Rhine Valley Deep Storage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_financial_controller_A",
+          "role_id": "financial_controller",
+          "candidate_id": "A",
+          "key": "PFC-LEAS-273",
+          "hidden_predicate_id": "A_annual_unit_lease_rate",
+          "threshold_label": "Annual unit vault lease rate",
+          "threshold_aliases": [
+            "Unit vault rental rate",
+            "Lease cost per square meter"
+          ],
+          "threshold_value": 580,
+          "threshold_unit": "CHF/m2",
+          "partial_record_text": "PFC-LEAS-273: Alpine Subterranean Vault. The record covers Annual unit vault lease rate. Standard preservation commercial schedule; Contractual twelve-month holding period; Base annual lease fee charged per square meter of secured vault floor.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 320,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Annual unit vault lease rate is at least 320 CHF/m2.",
+          "role_name": "Preservation finance controller (PFC)",
+          "candidate_name": "Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Jura Highlands Archive Depot",
+            "Rhine Valley Deep Storage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "preventive_curator",
+        "financial_controller",
+        "structural_conservation"
+      ],
+      "role_names": [
+        "Preventive conservation curator (PCC)",
+        "Preservation finance controller (PFC)",
+        "Structural conservation engineer (SCE)"
+      ],
+      "directory": "incomplete/task_021",
+      "profiles": [
+        {
+          "record_id": "rec_preventive_curator_A",
+          "role_id": "preventive_curator",
+          "candidate_id": "A",
+          "key": "PCC-CLIM-MEE",
+          "boolean_predicate_id": "A_climate_control_installed",
+          "boolean_label": "Active climate microenvironment control installation",
+          "hidden_predicate_id": "A_humidity_variance_pct",
+          "threshold_label": "Mean baseline relative humidity variance",
+          "threshold_aliases": [
+            "Relative humidity fluctuation",
+            "Baseline RH variance"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "%",
+          "partial_record_text": "PCC-CLIM-MEE: Alpine Subterranean Vault.Alpine Subterranean Vault: Active climate microenvironment control installation = true .Source: Environmental engineering commissioning register; Scope: Target preservation chamber; Measurement: Operational status of active continuous precision climate regulation equipment.",
+          "role_name": "Preventive conservation curator (PCC)",
+          "candidate_name": "Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Jura Highlands Archive Depot",
+            "Rhine Valley Deep Storage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_financial_controller_A",
+          "role_id": "financial_controller",
+          "candidate_id": "A",
+          "key": "PFC-LEAS-273",
+          "hidden_predicate_id": "A_annual_unit_lease_rate",
+          "threshold_label": "Annual unit vault lease rate",
+          "threshold_aliases": [
+            "Unit vault rental rate",
+            "Lease cost per square meter"
+          ],
+          "threshold_value": 580,
+          "threshold_unit": "CHF/m2",
+          "partial_record_text": "PFC-LEAS-273: Alpine Subterranean Vault. The record covers Annual unit vault lease rate. Standard preservation commercial schedule; Contractual twelve-month holding period; Base annual lease fee charged per square meter of secured vault floor.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 320,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Annual unit vault lease rate is at least 320 CHF/m2.",
+          "role_name": "Preservation finance controller (PFC)",
+          "candidate_name": "Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Jura Highlands Archive Depot",
+            "Rhine Valley Deep Storage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_conservation_A",
+          "role_id": "structural_conservation",
+          "candidate_id": "A",
+          "key": "SCE-SEIS-5TY",
+          "hidden_predicate_id": "A_allocated_storage_area",
+          "threshold_label": "Allocated specialized preservation area",
+          "threshold_aliases": [
+            "Dedicated vault area",
+            "Usable preservation floor space"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "m2",
+          "partial_record_text": "SCE-SEIS-5TY: Alpine Subterranean Vault.Alpine Subterranean Vault: Seismic structural isolation clearance = true .Source: Seismic resilience evaluation register; Scope: Candidate vault building substructure; Measurement: Whether elastomeric or sliding base isolation meets peak ground acceleration criteria.",
+          "role_name": "Structural conservation engineer (SCE)",
+          "candidate_name": "Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Jura Highlands Archive Depot",
+            "Rhine Valley Deep Storage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

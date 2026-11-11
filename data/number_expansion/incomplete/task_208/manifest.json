@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_208",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "logistics_operations"
+      ],
+      "role_names": [
+        "Quality assurance director (QA)",
+        "Logistics operations director (OPS)"
+      ],
+      "directory": "incomplete/task_208",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-GDP-ZRC",
+          "boolean_predicate_id": "A_telemetry_logging_enabled",
+          "boolean_label": "Continuous telemetry logging enabled",
+          "hidden_predicate_id": "A_max_excursion_duration",
+          "threshold_label": "Maximum allowable temperature excursion duration",
+          "threshold_aliases": [
+            "Excursion window limit",
+            "Out-of-range thermal duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "QA-GDP-ZRC: AeroCryo Global Express.AeroCryo Global Express: Good Distribution Practice compliance certification = true .Source: European Medicines Agency compliance registry; Scope: Active candidate facilities and cold-storage hubs; Measurement: Current valid Good Distribution Practice compliance certificate held without critical audit observations.AeroCryo Global Express: Continuous telemetry logging enabled = true .Source: IoT platform configuration register; Scope: Candidate primary multi-sensor transit data loggers; Measurement: Operational status of live cloud telemetry uplink during transit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum allowable temperature excursion duration is at most 40 min.",
+          "role_name": "Quality assurance director (QA)",
+          "candidate_name": "AeroCryo Global Express",
+          "other_candidate_names": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_operations_A",
+          "role_id": "logistics_operations",
+          "candidate_id": "A",
+          "key": "OPS-CRYO-YNS",
+          "hidden_predicate_id": "A_dedicated_cryo_capacity",
+          "threshold_label": "Dedicated ultra-low cryo storage capacity",
+          "threshold_aliases": [
+            "Cryogenic storage capacity",
+            "Dedicated minus 80 pallet slots"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "pallet",
+          "partial_record_text": "OPS-CRYO-YNS: AeroCryo Global Express.Capacity aggregation window: month-end snapshot.AeroCryo Global Express: Monthly cryo volume = 600 pallet.Source: Service level agreement draft; Scope: Contracted monthly operational throughput; Measurement: Total scheduled monthly throughput volume reserved for biologic materials.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Dedicated ultra-low cryo storage capacity is at most 300 pallet.",
+          "role_name": "Logistics operations director (OPS)",
+          "candidate_name": "AeroCryo Global Express",
+          "other_candidate_names": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "context_value": "month-end snapshot",
+          "other_context_values": [
+            "monthly average"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "logistics_operations",
+        "commercial_finance"
+      ],
+      "role_names": [
+        "Quality assurance director (QA)",
+        "Logistics operations director (OPS)",
+        "Commercial contracts and finance manager (FIN)"
+      ],
+      "directory": "incomplete/task_208",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-GDP-ZRC",
+          "boolean_predicate_id": "A_telemetry_logging_enabled",
+          "boolean_label": "Continuous telemetry logging enabled",
+          "hidden_predicate_id": "A_max_excursion_duration",
+          "threshold_label": "Maximum allowable temperature excursion duration",
+          "threshold_aliases": [
+            "Excursion window limit",
+            "Out-of-range thermal duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "QA-GDP-ZRC: AeroCryo Global Express.AeroCryo Global Express: Good Distribution Practice compliance certification = true .Source: European Medicines Agency compliance registry; Scope: Active candidate facilities and cold-storage hubs; Measurement: Current valid Good Distribution Practice compliance certificate held without critical audit observations.AeroCryo Global Express: Continuous telemetry logging enabled = true .Source: IoT platform configuration register; Scope: Candidate primary multi-sensor transit data loggers; Measurement: Operational status of live cloud telemetry uplink during transit.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum allowable temperature excursion duration is at most 40 min.",
+          "role_name": "Quality assurance director (QA)",
+          "candidate_name": "AeroCryo Global Express",
+          "other_candidate_names": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_operations_A",
+          "role_id": "logistics_operations",
+          "candidate_id": "A",
+          "key": "OPS-CRYO-YNS",
+          "hidden_predicate_id": "A_dedicated_cryo_capacity",
+          "threshold_label": "Dedicated ultra-low cryo storage capacity",
+          "threshold_aliases": [
+            "Cryogenic storage capacity",
+            "Dedicated minus 80 pallet slots"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "pallet",
+          "partial_record_text": "OPS-CRYO-YNS: AeroCryo Global Express.Capacity aggregation window: month-end snapshot.AeroCryo Global Express: Monthly cryo volume = 600 pallet.Source: Service level agreement draft; Scope: Contracted monthly operational throughput; Measurement: Total scheduled monthly throughput volume reserved for biologic materials.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Dedicated ultra-low cryo storage capacity is at most 300 pallet.",
+          "role_name": "Logistics operations director (OPS)",
+          "candidate_name": "AeroCryo Global Express",
+          "other_candidate_names": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "context_value": "month-end snapshot",
+          "other_context_values": [
+            "monthly average"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_finance_A",
+          "role_id": "commercial_finance",
+          "candidate_id": "A",
+          "key": "FIN-ESCROW-9NT",
+          "hidden_predicate_id": "A_cryo_pallet_tariff",
+          "threshold_label": "Cryo pallet tariff",
+          "threshold_aliases": [
+            "Per-pallet cryo storage rate",
+            "Unit pallet handling fee"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "EUR/pallet",
+          "partial_record_text": "FIN-ESCROW-9NT: AeroCryo Global Express.AeroCryo Global Express: Financial escrow guarantee secured = true .Source: Commercial banking escrow confirmation; Scope: Partnership default and temperature breach indemnity reserve; Measurement: Confirmation of fully funded third-party bank indemnity escrow account.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Cryo pallet tariff is at most 110 EUR/pallet.",
+          "role_name": "Commercial contracts and finance manager (FIN)",
+          "candidate_name": "AeroCryo Global Express",
+          "other_candidate_names": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

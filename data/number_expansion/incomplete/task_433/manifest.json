@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_433",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_power",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Emergency Energy Coordinator (EEC)",
+        "Structural Safety Inspector (SSI)"
+      ],
+      "directory": "incomplete/task_433",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_A",
+          "role_id": "emergency_power",
+          "candidate_id": "A",
+          "key": "EEC-POWR-BYH",
+          "boolean_predicate_id": "A_backup_power_active",
+          "boolean_label": "Active backup diesel power generation",
+          "hidden_predicate_id": "A_cutover_latency_seconds",
+          "threshold_label": "Maximum generator cutover latency",
+          "threshold_aliases": [
+            "Automatic transfer switch cutover time",
+            "Power switchover duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "s",
+          "partial_record_text": "EEC-POWR-BYH: Crestview Regional Exhibition Complex.Crestview Regional Exhibition Complex: Active backup diesel power generation = true .Source: Emergency energy commission audit; Scope: Auxiliary diesel generator sets; Measurement: Whether an on-site diesel power system is operational and connected to essential circuits.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Maximum generator cutover latency is at most 100 s.",
+          "role_name": "Emergency Energy Coordinator (EEC)",
+          "candidate_name": "Crestview Regional Exhibition Complex",
+          "other_candidate_names": [
+            "Pine Valley Civic Arena",
+            "Redwood Community Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "SSI-SEIS-ACG",
+          "hidden_predicate_id": "A_intake_staging_area",
+          "threshold_label": "Intake staging floor area",
+          "threshold_aliases": [
+            "Evacuee intake area",
+            "Triage and reception floor space"
+          ],
+          "threshold_value": 2100,
+          "threshold_unit": "m2",
+          "partial_record_text": "SSI-SEIS-ACG: Crestview Regional Exhibition Complex.Crestview Regional Exhibition Complex: Seismic structural integrity certification = true .Source: Civil structural engineering report; Scope: Candidate shelter primary structures; Measurement: Formal validation of compliance with seismic resilience post-disaster standard.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Intake staging floor area is at most 4000 m2.",
+          "role_name": "Structural Safety Inspector (SSI)",
+          "candidate_name": "Crestview Regional Exhibition Complex",
+          "other_candidate_names": [
+            "Pine Valley Civic Arena",
+            "Redwood Community Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_power",
+        "structural_safety",
+        "public_health"
+      ],
+      "role_names": [
+        "Emergency Energy Coordinator (EEC)",
+        "Structural Safety Inspector (SSI)",
+        "Public Health Shelter Officer (PHO)"
+      ],
+      "directory": "incomplete/task_433",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_A",
+          "role_id": "emergency_power",
+          "candidate_id": "A",
+          "key": "EEC-POWR-BYH",
+          "boolean_predicate_id": "A_backup_power_active",
+          "boolean_label": "Active backup diesel power generation",
+          "hidden_predicate_id": "A_cutover_latency_seconds",
+          "threshold_label": "Maximum generator cutover latency",
+          "threshold_aliases": [
+            "Automatic transfer switch cutover time",
+            "Power switchover duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "s",
+          "partial_record_text": "EEC-POWR-BYH: Crestview Regional Exhibition Complex.Crestview Regional Exhibition Complex: Active backup diesel power generation = true .Source: Emergency energy commission audit; Scope: Auxiliary diesel generator sets; Measurement: Whether an on-site diesel power system is operational and connected to essential circuits.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Maximum generator cutover latency is at most 100 s.",
+          "role_name": "Emergency Energy Coordinator (EEC)",
+          "candidate_name": "Crestview Regional Exhibition Complex",
+          "other_candidate_names": [
+            "Pine Valley Civic Arena",
+            "Redwood Community Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "SSI-SEIS-ACG",
+          "hidden_predicate_id": "A_intake_staging_area",
+          "threshold_label": "Intake staging floor area",
+          "threshold_aliases": [
+            "Evacuee intake area",
+            "Triage and reception floor space"
+          ],
+          "threshold_value": 2100,
+          "threshold_unit": "m2",
+          "partial_record_text": "SSI-SEIS-ACG: Crestview Regional Exhibition Complex.Crestview Regional Exhibition Complex: Seismic structural integrity certification = true .Source: Civil structural engineering report; Scope: Candidate shelter primary structures; Measurement: Formal validation of compliance with seismic resilience post-disaster standard.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Intake staging floor area is at most 4000 m2.",
+          "role_name": "Structural Safety Inspector (SSI)",
+          "candidate_name": "Crestview Regional Exhibition Complex",
+          "other_candidate_names": [
+            "Pine Valley Civic Arena",
+            "Redwood Community Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHO-HLTH-MAV",
+          "hidden_predicate_id": "A_dorm_lodging_area",
+          "threshold_label": "Dormitory lodging floor area",
+          "threshold_aliases": [
+            "Dormitory sleeping space",
+            "Shelter cot placement area"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "m2",
+          "partial_record_text": "PHO-HLTH-MAV: Crestview Regional Exhibition Complex.Municipal jurisdiction: Chengdu.Crestview Regional Exhibition Complex: Negative pressure isolation ward availability = true .Source: Public health sanitation audit; Scope: Shelter medical clinic annex; Measurement: Presence of certified operational negative air pressure medical holding space.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dormitory lodging floor area is at most 4000 m2.",
+          "role_name": "Public Health Shelter Officer (PHO)",
+          "candidate_name": "Crestview Regional Exhibition Complex",
+          "other_candidate_names": [
+            "Pine Valley Civic Arena",
+            "Redwood Community Sports Pavilion"
+          ],
+          "context_value": "Chengdu",
+          "other_context_values": [
+            "Wuhan"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

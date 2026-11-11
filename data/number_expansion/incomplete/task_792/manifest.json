@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_792",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_airworthiness",
+        "supply_logistics"
+      ],
+      "role_names": [
+        "Quality Assurance and Airworthiness Inspectorate (QAIR)",
+        "MRO Supply Chain and Rotable Inventory Office (SPLY)"
+      ],
+      "directory": "incomplete/task_792",
+      "profiles": [
+        {
+          "record_id": "rec_quality_airworthiness_A",
+          "role_id": "quality_airworthiness",
+          "candidate_id": "A",
+          "key": "QAIR-AUDT-3WV",
+          "boolean_predicate_id": "A_dual_airworthiness_certified",
+          "boolean_label": "Dual FAA and EASA Part 145 certification active",
+          "hidden_predicate_id": "A_major_audit_findings",
+          "threshold_label": "Major quality audit non-conformance findings",
+          "threshold_aliases": [
+            "Quality audit findings",
+            "Major audit non-conformances"
+          ],
+          "threshold_value": 0,
+          "threshold_unit": "findings",
+          "partial_record_text": "QAIR-AUDT-3WV: Shannon Commercial Aerospace Works.Shannon Commercial Aerospace Works: Dual FAA and EASA Part 145 certification active = true .Source: Civil aviation authority maintenance certificate registry; Scope: Designated overhaul facility premises; Measurement: Verification that active Part 145 repair station certificates are concurrently held from both FAA and EASA.",
+          "role_name": "Quality Assurance and Airworthiness Inspectorate (QAIR)",
+          "candidate_name": "Shannon Commercial Aerospace Works",
+          "other_candidate_names": [
+            "Querétaro Airframe Overhaul Center",
+            "Singapore Changi Heavy Maintenance Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_supply_logistics_A",
+          "role_id": "supply_logistics",
+          "candidate_id": "A",
+          "key": "SPLY-PART-20Y",
+          "hidden_predicate_id": "A_aog_spares_dispatch_hours",
+          "threshold_label": "AOG critical spares dispatch window",
+          "threshold_aliases": [
+            "Critical spare lead time",
+            "AOG parts delivery time"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "SPLY-PART-20Y: Shannon Commercial Aerospace Works.Shannon Commercial Aerospace Works: On-site customs bonded spare warehouse active = true .Source: National customs authority licensing register; Scope: Facility bonded storage area; Measurement: Whether an authorized duty-free aircraft parts consignment warehouse is operational on site.",
+          "role_name": "MRO Supply Chain and Rotable Inventory Office (SPLY)",
+          "candidate_name": "Shannon Commercial Aerospace Works",
+          "other_candidate_names": [
+            "Querétaro Airframe Overhaul Center",
+            "Singapore Changi Heavy Maintenance Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_airworthiness",
+        "supply_logistics",
+        "fleet_engineering"
+      ],
+      "role_names": [
+        "Quality Assurance and Airworthiness Inspectorate (QAIR)",
+        "MRO Supply Chain and Rotable Inventory Office (SPLY)",
+        "Fleet Engineering Director (FENG)"
+      ],
+      "directory": "incomplete/task_792",
+      "profiles": [
+        {
+          "record_id": "rec_quality_airworthiness_A",
+          "role_id": "quality_airworthiness",
+          "candidate_id": "A",
+          "key": "QAIR-AUDT-3WV",
+          "boolean_predicate_id": "A_dual_airworthiness_certified",
+          "boolean_label": "Dual FAA and EASA Part 145 certification active",
+          "hidden_predicate_id": "A_major_audit_findings",
+          "threshold_label": "Major quality audit non-conformance findings",
+          "threshold_aliases": [
+            "Quality audit findings",
+            "Major audit non-conformances"
+          ],
+          "threshold_value": 0,
+          "threshold_unit": "findings",
+          "partial_record_text": "QAIR-AUDT-3WV: Shannon Commercial Aerospace Works.Shannon Commercial Aerospace Works: Dual FAA and EASA Part 145 certification active = true .Source: Civil aviation authority maintenance certificate registry; Scope: Designated overhaul facility premises; Measurement: Verification that active Part 145 repair station certificates are concurrently held from both FAA and EASA.",
+          "role_name": "Quality Assurance and Airworthiness Inspectorate (QAIR)",
+          "candidate_name": "Shannon Commercial Aerospace Works",
+          "other_candidate_names": [
+            "Querétaro Airframe Overhaul Center",
+            "Singapore Changi Heavy Maintenance Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_supply_logistics_A",
+          "role_id": "supply_logistics",
+          "candidate_id": "A",
+          "key": "SPLY-PART-20Y",
+          "hidden_predicate_id": "A_aog_spares_dispatch_hours",
+          "threshold_label": "AOG critical spares dispatch window",
+          "threshold_aliases": [
+            "Critical spare lead time",
+            "AOG parts delivery time"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "SPLY-PART-20Y: Shannon Commercial Aerospace Works.Shannon Commercial Aerospace Works: On-site customs bonded spare warehouse active = true .Source: National customs authority licensing register; Scope: Facility bonded storage area; Measurement: Whether an authorized duty-free aircraft parts consignment warehouse is operational on site.",
+          "role_name": "MRO Supply Chain and Rotable Inventory Office (SPLY)",
+          "candidate_name": "Shannon Commercial Aerospace Works",
+          "other_candidate_names": [
+            "Querétaro Airframe Overhaul Center",
+            "Singapore Changi Heavy Maintenance Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_engineering_A",
+          "role_id": "fleet_engineering",
+          "candidate_id": "A",
+          "key": "FENG-STRUC-77N",
+          "hidden_predicate_id": "A_base_structural_hours",
+          "threshold_label": "Base structural inspection labor hours",
+          "threshold_aliases": [
+            "Structural overhaul hours",
+            "Airframe inspection hours"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "h",
+          "partial_record_text": "FENG-STRUC-77N: Shannon Commercial Aerospace Works.Shannon Commercial Aerospace Works: Airframe docking and jig tooling compatibility = true .Source: Hangar capability assessment report; Scope: Target narrowbody aircraft model structural jigs; Measurement: Whether provider maintains approved docking stations and fuselage cradles compatible with the airframe.",
+          "role_name": "Fleet Engineering Director (FENG)",
+          "candidate_name": "Shannon Commercial Aerospace Works",
+          "other_candidate_names": [
+            "Querétaro Airframe Overhaul Center",
+            "Singapore Changi Heavy Maintenance Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

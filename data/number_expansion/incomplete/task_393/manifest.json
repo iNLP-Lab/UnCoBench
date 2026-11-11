@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_393",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_infrastructure_lead",
+        "public_health_officer"
+      ],
+      "role_names": [
+        "Facilities Infrastructure Lead (FACIL)",
+        "Public Health Officer (HEALTH)"
+      ],
+      "directory": "incomplete/task_393",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_infrastructure_lead_A",
+          "role_id": "facilities_infrastructure_lead",
+          "candidate_id": "A",
+          "key": "FACIL-POWER-0ST",
+          "boolean_predicate_id": "A_backup_power_ready",
+          "boolean_label": "Emergency auxiliary power readiness",
+          "hidden_predicate_id": "A_generator_transfer_latency",
+          "threshold_label": "Generator full-load transfer latency",
+          "threshold_aliases": [
+            "Emergency power cutover time",
+            "Generator transfer delay"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "s",
+          "partial_record_text": "FACIL-POWER-0ST: Sonoma County Fairgrounds Pavilion.Sonoma County Fairgrounds Pavilion: Emergency auxiliary power readiness = true .Source: Emergency electrical inspection checklist; Scope: On-site auxiliary diesel generation plant; Measurement: Verification that emergency automatic transfer switchgear and primary auxiliary generation units are operational.",
+          "role_name": "Facilities Infrastructure Lead (FACIL)",
+          "candidate_name": "Sonoma County Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Santa Rosa Veterans Memorial Auditorium",
+            "Petaluma Community Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_officer_A",
+          "role_id": "public_health_officer",
+          "candidate_id": "A",
+          "key": "HEALTH-SANIT-2U4",
+          "hidden_predicate_id": "A_medical_isolation_cot_count",
+          "threshold_label": "Medical isolation cots",
+          "threshold_aliases": [
+            "Inpatient medical cots",
+            "Medical quarantine cot capacity"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "cots",
+          "partial_record_text": "HEALTH-SANIT-2U4: Sonoma County Fairgrounds Pavilion.Inspection cycle: July 2024.Sonoma County Fairgrounds Pavilion: Public health infection-control sanitation clearance = true .Source: County Department of Health sanitation certificate; Scope: Shelter hygiene and waste management facilities; Measurement: Verification that shower, restroom, and greywater management systems meet infectious disease prevention protocols.",
+          "role_name": "Public Health Officer (HEALTH)",
+          "candidate_name": "Sonoma County Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Santa Rosa Veterans Memorial Auditorium",
+            "Petaluma Community Recreation Complex"
+          ],
+          "context_value": "July 2024",
+          "other_context_values": [
+            "August 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_infrastructure_lead",
+        "public_health_officer",
+        "structural_safety_engineer"
+      ],
+      "role_names": [
+        "Facilities Infrastructure Lead (FACIL)",
+        "Public Health Officer (HEALTH)",
+        "Structural Safety Engineer (STRUCT)"
+      ],
+      "directory": "incomplete/task_393",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_infrastructure_lead_A",
+          "role_id": "facilities_infrastructure_lead",
+          "candidate_id": "A",
+          "key": "FACIL-POWER-0ST",
+          "boolean_predicate_id": "A_backup_power_ready",
+          "boolean_label": "Emergency auxiliary power readiness",
+          "hidden_predicate_id": "A_generator_transfer_latency",
+          "threshold_label": "Generator full-load transfer latency",
+          "threshold_aliases": [
+            "Emergency power cutover time",
+            "Generator transfer delay"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "s",
+          "partial_record_text": "FACIL-POWER-0ST: Sonoma County Fairgrounds Pavilion.Sonoma County Fairgrounds Pavilion: Emergency auxiliary power readiness = true .Source: Emergency electrical inspection checklist; Scope: On-site auxiliary diesel generation plant; Measurement: Verification that emergency automatic transfer switchgear and primary auxiliary generation units are operational.",
+          "role_name": "Facilities Infrastructure Lead (FACIL)",
+          "candidate_name": "Sonoma County Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Santa Rosa Veterans Memorial Auditorium",
+            "Petaluma Community Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_officer_A",
+          "role_id": "public_health_officer",
+          "candidate_id": "A",
+          "key": "HEALTH-SANIT-2U4",
+          "hidden_predicate_id": "A_medical_isolation_cot_count",
+          "threshold_label": "Medical isolation cots",
+          "threshold_aliases": [
+            "Inpatient medical cots",
+            "Medical quarantine cot capacity"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "cots",
+          "partial_record_text": "HEALTH-SANIT-2U4: Sonoma County Fairgrounds Pavilion.Inspection cycle: July 2024.Sonoma County Fairgrounds Pavilion: Public health infection-control sanitation clearance = true .Source: County Department of Health sanitation certificate; Scope: Shelter hygiene and waste management facilities; Measurement: Verification that shower, restroom, and greywater management systems meet infectious disease prevention protocols.",
+          "role_name": "Public Health Officer (HEALTH)",
+          "candidate_name": "Sonoma County Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Santa Rosa Veterans Memorial Auditorium",
+            "Petaluma Community Recreation Complex"
+          ],
+          "context_value": "July 2024",
+          "other_context_values": [
+            "August 2024"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_engineer_A",
+          "role_id": "structural_safety_engineer",
+          "candidate_id": "A",
+          "key": "STRUCT-SEIS-4P3",
+          "hidden_predicate_id": "A_dormitory_cot_count",
+          "threshold_label": "Indoor dormitory cots",
+          "threshold_aliases": [
+            "General congregate dormitory capacity",
+            "Indoor general cots"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "cots",
+          "partial_record_text": "STRUCT-SEIS-4P3: Sonoma County Fairgrounds Pavilion.Sonoma County Fairgrounds Pavilion: Structural seismic safety certification = true .Source: County structural safety evaluation register; Scope: Primary building structural envelope; Measurement: Affirmative sign-off from licensed structural engineers affirming compliance with regional emergency occupancy codes.",
+          "role_name": "Structural Safety Engineer (STRUCT)",
+          "candidate_name": "Sonoma County Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Santa Rosa Veterans Memorial Auditorium",
+            "Petaluma Community Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

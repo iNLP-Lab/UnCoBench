@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_168",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "infection_control",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Infection Control and Sterilization Assurance Lead (INFECT)",
+        "Environmental and Sustainability Lead (ENVCOM)"
+      ],
+      "directory": "incomplete/task_168",
+      "profiles": [
+        {
+          "record_id": "rec_infection_control_A",
+          "role_id": "infection_control",
+          "candidate_id": "A",
+          "key": "INFECT-STERIL-W8W",
+          "boolean_predicate_id": "A_biological_monitoring_protocol_active",
+          "boolean_label": "Biological indicator monitoring protocol active",
+          "hidden_predicate_id": "A_indicator_incubation_clearance_hours",
+          "threshold_label": "Biological indicator incubation clearance duration",
+          "threshold_aliases": [
+            "Indicator incubation clearance time",
+            "Spore test clearance turnaround"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "h",
+          "partial_record_text": "INFECT-STERIL-W8W: MedTex Sterile Logistics Consortium.MedTex Sterile Logistics Consortium: Biological indicator monitoring protocol active = true .Source: Quality management operational manual; Scope: Candidate decontamination and packaging lines; Measurement: Confirmation that continuous spore-strip testing protocols are active across all sterilization cycles.",
+          "role_name": "Infection Control and Sterilization Assurance Lead (INFECT)",
+          "candidate_name": "MedTex Sterile Logistics Consortium",
+          "other_candidate_names": [
+            "Healthcare Linen Solutions Partnership",
+            "SterileCare Regional Services Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVCOM-WATREC-BY7",
+          "hidden_predicate_id": "A_water_recycling_efficiency",
+          "threshold_label": "Water recycling efficiency",
+          "threshold_aliases": [
+            "Process water recovery rate",
+            "Water reclamation efficiency"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "ENVCOM-WATREC-BY7: MedTex Sterile Logistics Consortium. The record covers Water recycling efficiency. Environmental engineering audit certificate; Continuous tunnel washer reclamation loop; Percentage of rinse and wash water reclaimed and sanitized for reuse in initial wash stages.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 60,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Water recycling efficiency is at least 60 %.",
+          "role_name": "Environmental and Sustainability Lead (ENVCOM)",
+          "candidate_name": "MedTex Sterile Logistics Consortium",
+          "other_candidate_names": [
+            "Healthcare Linen Solutions Partnership",
+            "SterileCare Regional Services Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "infection_control",
+        "environmental_compliance",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Infection Control and Sterilization Assurance Lead (INFECT)",
+        "Environmental and Sustainability Lead (ENVCOM)",
+        "Central Processing Facility Operations Lead (OPSENG)"
+      ],
+      "directory": "incomplete/task_168",
+      "profiles": [
+        {
+          "record_id": "rec_infection_control_A",
+          "role_id": "infection_control",
+          "candidate_id": "A",
+          "key": "INFECT-STERIL-W8W",
+          "boolean_predicate_id": "A_biological_monitoring_protocol_active",
+          "boolean_label": "Biological indicator monitoring protocol active",
+          "hidden_predicate_id": "A_indicator_incubation_clearance_hours",
+          "threshold_label": "Biological indicator incubation clearance duration",
+          "threshold_aliases": [
+            "Indicator incubation clearance time",
+            "Spore test clearance turnaround"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "h",
+          "partial_record_text": "INFECT-STERIL-W8W: MedTex Sterile Logistics Consortium.MedTex Sterile Logistics Consortium: Biological indicator monitoring protocol active = true .Source: Quality management operational manual; Scope: Candidate decontamination and packaging lines; Measurement: Confirmation that continuous spore-strip testing protocols are active across all sterilization cycles.",
+          "role_name": "Infection Control and Sterilization Assurance Lead (INFECT)",
+          "candidate_name": "MedTex Sterile Logistics Consortium",
+          "other_candidate_names": [
+            "Healthcare Linen Solutions Partnership",
+            "SterileCare Regional Services Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVCOM-WATREC-BY7",
+          "hidden_predicate_id": "A_water_recycling_efficiency",
+          "threshold_label": "Water recycling efficiency",
+          "threshold_aliases": [
+            "Process water recovery rate",
+            "Water reclamation efficiency"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "ENVCOM-WATREC-BY7: MedTex Sterile Logistics Consortium. The record covers Water recycling efficiency. Environmental engineering audit certificate; Continuous tunnel washer reclamation loop; Percentage of rinse and wash water reclaimed and sanitized for reuse in initial wash stages.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 60,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Water recycling efficiency is at least 60 %.",
+          "role_name": "Environmental and Sustainability Lead (ENVCOM)",
+          "candidate_name": "MedTex Sterile Logistics Consortium",
+          "other_candidate_names": [
+            "Healthcare Linen Solutions Partnership",
+            "SterileCare Regional Services Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "OPSENG-FABOPS-398",
+          "hidden_predicate_id": "A_central_decontamination_turnaround",
+          "threshold_label": "Central decontamination turnaround time",
+          "threshold_aliases": [
+            "Central plant turnaround duration",
+            "Processing facility cycle time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "OPSENG-FABOPS-398: MedTex Sterile Logistics Consortium.MedTex Sterile Logistics Consortium: Validated steam autoclaving compliance = true .Source: Sterilization autoclave validation certificate; Scope: Primary surgical pack steam processing chambers; Measurement: Whether processing chambers passed full EN 285 temperature and vacuum qualification tests.",
+          "role_name": "Central Processing Facility Operations Lead (OPSENG)",
+          "candidate_name": "MedTex Sterile Logistics Consortium",
+          "other_candidate_names": [
+            "Healthcare Linen Solutions Partnership",
+            "SterileCare Regional Services Joint Venture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

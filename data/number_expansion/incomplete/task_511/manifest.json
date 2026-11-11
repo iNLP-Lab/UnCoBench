@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_511",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "biorepository_management",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Biorepository operations lead (BIO)",
+        "Clinical quality assurance auditor (QA)"
+      ],
+      "directory": "incomplete/task_511",
+      "profiles": [
+        {
+          "record_id": "rec_biorepository_management_A",
+          "role_id": "biorepository_management",
+          "candidate_id": "A",
+          "key": "BIO-COLD-TN3",
+          "boolean_predicate_id": "A_ultralow_biobank_protocol_enabled",
+          "boolean_label": "Active ultra-low temperature biobank protocol",
+          "hidden_predicate_id": "A_biobank_unpowered_thermal_endurance",
+          "threshold_label": "Biobank unpowered thermal endurance",
+          "threshold_aliases": [
+            "Cryogenic thermal holdover duration",
+            "Biobank power loss temperature stability"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "BIO-COLD-TN3: Northsea Translational Medicine Institute.Northsea Translational Medicine Institute: Active ultra-low temperature biobank protocol = true .Source: Biorepository operational logbook; Scope: Candidate facility cryogenic storage wing; Measurement: Verification that an approved ultra-low temperature biobank management protocol is actively in force.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Biobank unpowered thermal endurance is at most 70 h.",
+          "role_name": "Biorepository operations lead (BIO)",
+          "candidate_name": "Northsea Translational Medicine Institute",
+          "other_candidate_names": [
+            "Rhine-Danube Genomic Therapeutics Center",
+            "Baltic Biomedical Clinical Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-AUDIT-5A1",
+          "hidden_predicate_id": "A_gcp_compliance_audit_score",
+          "threshold_label": "Good Clinical Practice audit score",
+          "threshold_aliases": [
+            "GCP inspection score",
+            "Clinical quality audit rating"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "points",
+          "partial_record_text": "QA-AUDIT-5A1: Northsea Translational Medicine Institute. The record covers Good Clinical Practice audit score. Record context: Q1 2025. Independent GCP audit scorecard; Most recent comprehensive site quality and clinical documentation audit; Evaluated compliance score out of a standardized 100-point GCP scale.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Good Clinical Practice audit score is at most 110 points.",
+          "role_name": "Clinical quality assurance auditor (QA)",
+          "candidate_name": "Northsea Translational Medicine Institute",
+          "other_candidate_names": [
+            "Rhine-Danube Genomic Therapeutics Center",
+            "Baltic Biomedical Clinical Network"
+          ],
+          "context_value": "Q1 2025",
+          "other_context_values": [
+            "Q2 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "biorepository_management",
+        "quality_assurance",
+        "clinical_nursing_operations"
+      ],
+      "role_names": [
+        "Biorepository operations lead (BIO)",
+        "Clinical quality assurance auditor (QA)",
+        "Clinical research nursing supervisor (NURS)"
+      ],
+      "directory": "incomplete/task_511",
+      "profiles": [
+        {
+          "record_id": "rec_biorepository_management_A",
+          "role_id": "biorepository_management",
+          "candidate_id": "A",
+          "key": "BIO-COLD-TN3",
+          "boolean_predicate_id": "A_ultralow_biobank_protocol_enabled",
+          "boolean_label": "Active ultra-low temperature biobank protocol",
+          "hidden_predicate_id": "A_biobank_unpowered_thermal_endurance",
+          "threshold_label": "Biobank unpowered thermal endurance",
+          "threshold_aliases": [
+            "Cryogenic thermal holdover duration",
+            "Biobank power loss temperature stability"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "BIO-COLD-TN3: Northsea Translational Medicine Institute.Northsea Translational Medicine Institute: Active ultra-low temperature biobank protocol = true .Source: Biorepository operational logbook; Scope: Candidate facility cryogenic storage wing; Measurement: Verification that an approved ultra-low temperature biobank management protocol is actively in force.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Biobank unpowered thermal endurance is at most 70 h.",
+          "role_name": "Biorepository operations lead (BIO)",
+          "candidate_name": "Northsea Translational Medicine Institute",
+          "other_candidate_names": [
+            "Rhine-Danube Genomic Therapeutics Center",
+            "Baltic Biomedical Clinical Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-AUDIT-5A1",
+          "hidden_predicate_id": "A_gcp_compliance_audit_score",
+          "threshold_label": "Good Clinical Practice audit score",
+          "threshold_aliases": [
+            "GCP inspection score",
+            "Clinical quality audit rating"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "points",
+          "partial_record_text": "QA-AUDIT-5A1: Northsea Translational Medicine Institute. The record covers Good Clinical Practice audit score. Record context: Q1 2025. Independent GCP audit scorecard; Most recent comprehensive site quality and clinical documentation audit; Evaluated compliance score out of a standardized 100-point GCP scale.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Good Clinical Practice audit score is at most 110 points.",
+          "role_name": "Clinical quality assurance auditor (QA)",
+          "candidate_name": "Northsea Translational Medicine Institute",
+          "other_candidate_names": [
+            "Rhine-Danube Genomic Therapeutics Center",
+            "Baltic Biomedical Clinical Network"
+          ],
+          "context_value": "Q1 2025",
+          "other_context_values": [
+            "Q2 2025"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_nursing_operations_A",
+          "role_id": "clinical_nursing_operations",
+          "candidate_id": "A",
+          "key": "NURS-CARE-S0N",
+          "hidden_predicate_id": "A_dedicated_trial_nurse_staffing",
+          "threshold_label": "Dedicated clinical trial nurse staffing",
+          "threshold_aliases": [
+            "Trial nurse staffing allocation",
+            "Research nursing full-time equivalent"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "FTE",
+          "partial_record_text": "NURS-CARE-S0N: Northsea Translational Medicine Institute.Northsea Translational Medicine Institute: Emergency resuscitation readiness clearance = true .Source: Emergency medical response drill checklist; Scope: Candidate outpatient clinical trial facility; Measurement: Verified availability of immediate resuscitation equipment and certified crash-team coverage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated clinical trial nurse staffing is at most 30 FTE.",
+          "role_name": "Clinical research nursing supervisor (NURS)",
+          "candidate_name": "Northsea Translational Medicine Institute",
+          "other_candidate_names": [
+            "Rhine-Danube Genomic Therapeutics Center",
+            "Baltic Biomedical Clinical Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

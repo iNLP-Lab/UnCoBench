@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_443",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_engineering",
+        "apron_operations"
+      ],
+      "role_names": [
+        "Facility engineering lead (ENG)",
+        "Airside apron operations lead (APR)"
+      ],
+      "directory": "incomplete/task_443",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PWRSYS-TNB",
+          "boolean_predicate_id": "A_backup_generator_active",
+          "boolean_label": "Emergency backup generation active",
+          "hidden_predicate_id": "A_switchover_latency_seconds",
+          "threshold_label": "Emergency power switchover time",
+          "threshold_aliases": [
+            "Generator cut-in duration",
+            "Automatic transfer switch latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "s",
+          "partial_record_text": "ENG-PWRSYS-TNB: Liege CargoPort Life Sciences.Liege CargoPort Life Sciences: Emergency backup generation active = true .Source: Electrical safety inspection certificate; Scope: Facility auxiliary diesel generator bank; Measurement: Active online status and functional readiness of automatic standby power.Liege CargoPort Life Sciences: Baseline chilled intake throughput = 260 pallets/d.Source: Logistics engineering throughput assessment; Scope: Standard +2 °C to +8 °C high-density pallet intake positions; Measurement: Maximum daily intake handling capacity under continuous cooling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency power switchover time is between 5 s and 40 s, inclusive.",
+          "role_name": "Facility engineering lead (ENG)",
+          "candidate_name": "Liege CargoPort Life Sciences",
+          "other_candidate_names": [
+            "Rotterdam BioLogistics Center",
+            "Frankfurt South Pharma Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_apron_operations_A",
+          "role_id": "apron_operations",
+          "candidate_id": "A",
+          "key": "APR-AIRSIDE-FPQ",
+          "hidden_predicate_id": "A_frozen_throughput",
+          "threshold_label": "Frozen intake throughput",
+          "threshold_aliases": [
+            "Deep freeze intake volume",
+            "Sub-zero intake rate"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "pallets/d",
+          "partial_record_text": "APR-AIRSIDE-FPQ: Liege CargoPort Life Sciences.Aggregation window: trailing 30-day average.Liege CargoPort Life Sciences: Airside tarmac access cleared = true .Source: Airport security and airside access permit; Scope: Direct transit corridor from cargo ramp to hub receiving doors; Measurement: Unrestricted security authorization for direct airside tug transit.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Frozen intake throughput is between 0 pallets/d and 300 pallets/d, inclusive.",
+          "role_name": "Airside apron operations lead (APR)",
+          "candidate_name": "Liege CargoPort Life Sciences",
+          "other_candidate_names": [
+            "Rotterdam BioLogistics Center",
+            "Frankfurt South Pharma Hub"
+          ],
+          "context_value": "trailing 30-day average",
+          "other_context_values": [
+            "trailing 12-month average"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_engineering",
+        "apron_operations",
+        "regulatory_assurance"
+      ],
+      "role_names": [
+        "Facility engineering lead (ENG)",
+        "Airside apron operations lead (APR)",
+        "Biomedical regulatory assurance officer (REG)"
+      ],
+      "directory": "incomplete/task_443",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PWRSYS-TNB",
+          "boolean_predicate_id": "A_backup_generator_active",
+          "boolean_label": "Emergency backup generation active",
+          "hidden_predicate_id": "A_switchover_latency_seconds",
+          "threshold_label": "Emergency power switchover time",
+          "threshold_aliases": [
+            "Generator cut-in duration",
+            "Automatic transfer switch latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "s",
+          "partial_record_text": "ENG-PWRSYS-TNB: Liege CargoPort Life Sciences.Liege CargoPort Life Sciences: Emergency backup generation active = true .Source: Electrical safety inspection certificate; Scope: Facility auxiliary diesel generator bank; Measurement: Active online status and functional readiness of automatic standby power.Liege CargoPort Life Sciences: Baseline chilled intake throughput = 260 pallets/d.Source: Logistics engineering throughput assessment; Scope: Standard +2 °C to +8 °C high-density pallet intake positions; Measurement: Maximum daily intake handling capacity under continuous cooling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency power switchover time is between 5 s and 40 s, inclusive.",
+          "role_name": "Facility engineering lead (ENG)",
+          "candidate_name": "Liege CargoPort Life Sciences",
+          "other_candidate_names": [
+            "Rotterdam BioLogistics Center",
+            "Frankfurt South Pharma Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_apron_operations_A",
+          "role_id": "apron_operations",
+          "candidate_id": "A",
+          "key": "APR-AIRSIDE-FPQ",
+          "hidden_predicate_id": "A_frozen_throughput",
+          "threshold_label": "Frozen intake throughput",
+          "threshold_aliases": [
+            "Deep freeze intake volume",
+            "Sub-zero intake rate"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "pallets/d",
+          "partial_record_text": "APR-AIRSIDE-FPQ: Liege CargoPort Life Sciences.Aggregation window: trailing 30-day average.Liege CargoPort Life Sciences: Airside tarmac access cleared = true .Source: Airport security and airside access permit; Scope: Direct transit corridor from cargo ramp to hub receiving doors; Measurement: Unrestricted security authorization for direct airside tug transit.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Frozen intake throughput is between 0 pallets/d and 300 pallets/d, inclusive.",
+          "role_name": "Airside apron operations lead (APR)",
+          "candidate_name": "Liege CargoPort Life Sciences",
+          "other_candidate_names": [
+            "Rotterdam BioLogistics Center",
+            "Frankfurt South Pharma Hub"
+          ],
+          "context_value": "trailing 30-day average",
+          "other_context_values": [
+            "trailing 12-month average"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_assurance_A",
+          "role_id": "regulatory_assurance",
+          "candidate_id": "A",
+          "key": "REG-BIOSAFE-OQD",
+          "hidden_predicate_id": "A_quarantine_hold_throughput",
+          "threshold_label": "Quarantine inspection pallet throughput",
+          "threshold_aliases": [
+            "Mandatory regulatory inspection allocation",
+            "Quarantine isolation capacity"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "pallets/d",
+          "partial_record_text": "REG-BIOSAFE-OQD: Liege CargoPort Life Sciences.Liege CargoPort Life Sciences: Biosafety handling certified = true .Source: National public health biosecurity registry; Scope: Facility cold-storage biological containment areas; Measurement: Active certification for handling regulated biological therapeutics and antigens.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Quarantine inspection pallet throughput is between 10 pallets/d and 70 pallets/d, inclusive.",
+          "role_name": "Biomedical regulatory assurance officer (REG)",
+          "candidate_name": "Liege CargoPort Life Sciences",
+          "other_candidate_names": [
+            "Rotterdam BioLogistics Center",
+            "Frankfurt South Pharma Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_601",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_infrastructure",
+        "security_hazard"
+      ],
+      "role_names": [
+        "Aviation infrastructure lead (AIR)",
+        "Security and hazard management lead (SEC)"
+      ],
+      "directory": "incomplete/task_601",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_infrastructure_A",
+          "role_id": "aviation_infrastructure",
+          "candidate_id": "A",
+          "key": "AIR-RWY-GKL",
+          "boolean_predicate_id": "A_runway_heavy_cargo_certified",
+          "boolean_label": "Runway heavy-cargo certification verified",
+          "hidden_predicate_id": "A_runway_pcn",
+          "threshold_label": "Runway pavement classification number",
+          "threshold_aliases": [
+            "Runway PCN",
+            "Pavement structural bearing number"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "PCN",
+          "partial_record_text": "AIR-RWY-GKL: Akrotiri Air Logistics Center.Akrotiri Air Logistics Center: Runway heavy-cargo certification verified = true .Source: Civil aviation authority aerodrome certificate; Scope: Main operational runway strip; Measurement: Formal regulatory certification authorizing wide-body intercontinental freighter operations.Akrotiri Air Logistics Center: Paved apron marshalling area = 15000 m2.Source: Aerodrome civil works layout; Scope: Airside heavy-rated concrete flightline apron; Measurement: Total reinforced paved surface area available for air cargo pallet marshalling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Runway pavement classification number is at most 100 PCN.",
+          "role_name": "Aviation infrastructure lead (AIR)",
+          "candidate_name": "Akrotiri Air Logistics Center",
+          "other_candidate_names": [
+            "Heraklion Intermodal Port Terminal",
+            "Larnaca Airport Support Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_security_hazard_A",
+          "role_id": "security_hazard",
+          "candidate_id": "A",
+          "key": "SEC-RISK-XGX",
+          "hidden_predicate_id": "A_hazard_vulnerability_index",
+          "threshold_label": "Base hazard vulnerability index",
+          "threshold_aliases": [
+            "Compound hazard vulnerability score",
+            "Multi-hazard risk rating"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "points",
+          "partial_record_text": "SEC-RISK-XGX: Akrotiri Air Logistics Center.Perimeter clearance measurement basis: including perimeter patrol road setbacks.Akrotiri Air Logistics Center: Mandatory security perimeter clearance buffer = 3000 m2.Source: Perimeter physical security standard plan; Scope: Staging base boundary clear zone; Measurement: Unusable ground surface mandated as a sterile standoff buffer along the secure fence line.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Base hazard vulnerability index is at most 60 points.",
+          "role_name": "Security and hazard management lead (SEC)",
+          "candidate_name": "Akrotiri Air Logistics Center",
+          "other_candidate_names": [
+            "Heraklion Intermodal Port Terminal",
+            "Larnaca Airport Support Base"
+          ],
+          "context_value": "including perimeter patrol road setbacks",
+          "other_context_values": [
+            "excluding perimeter patrol road setbacks"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_infrastructure",
+        "security_hazard",
+        "logistics_warehousing"
+      ],
+      "role_names": [
+        "Aviation infrastructure lead (AIR)",
+        "Security and hazard management lead (SEC)",
+        "Logistics and warehousing lead (LOG)"
+      ],
+      "directory": "incomplete/task_601",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_infrastructure_A",
+          "role_id": "aviation_infrastructure",
+          "candidate_id": "A",
+          "key": "AIR-RWY-GKL",
+          "boolean_predicate_id": "A_runway_heavy_cargo_certified",
+          "boolean_label": "Runway heavy-cargo certification verified",
+          "hidden_predicate_id": "A_runway_pcn",
+          "threshold_label": "Runway pavement classification number",
+          "threshold_aliases": [
+            "Runway PCN",
+            "Pavement structural bearing number"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "PCN",
+          "partial_record_text": "AIR-RWY-GKL: Akrotiri Air Logistics Center.Akrotiri Air Logistics Center: Runway heavy-cargo certification verified = true .Source: Civil aviation authority aerodrome certificate; Scope: Main operational runway strip; Measurement: Formal regulatory certification authorizing wide-body intercontinental freighter operations.Akrotiri Air Logistics Center: Paved apron marshalling area = 15000 m2.Source: Aerodrome civil works layout; Scope: Airside heavy-rated concrete flightline apron; Measurement: Total reinforced paved surface area available for air cargo pallet marshalling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Runway pavement classification number is at most 100 PCN.",
+          "role_name": "Aviation infrastructure lead (AIR)",
+          "candidate_name": "Akrotiri Air Logistics Center",
+          "other_candidate_names": [
+            "Heraklion Intermodal Port Terminal",
+            "Larnaca Airport Support Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_security_hazard_A",
+          "role_id": "security_hazard",
+          "candidate_id": "A",
+          "key": "SEC-RISK-XGX",
+          "hidden_predicate_id": "A_hazard_vulnerability_index",
+          "threshold_label": "Base hazard vulnerability index",
+          "threshold_aliases": [
+            "Compound hazard vulnerability score",
+            "Multi-hazard risk rating"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "points",
+          "partial_record_text": "SEC-RISK-XGX: Akrotiri Air Logistics Center.Perimeter clearance measurement basis: including perimeter patrol road setbacks.Akrotiri Air Logistics Center: Mandatory security perimeter clearance buffer = 3000 m2.Source: Perimeter physical security standard plan; Scope: Staging base boundary clear zone; Measurement: Unusable ground surface mandated as a sterile standoff buffer along the secure fence line.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Base hazard vulnerability index is at most 60 points.",
+          "role_name": "Security and hazard management lead (SEC)",
+          "candidate_name": "Akrotiri Air Logistics Center",
+          "other_candidate_names": [
+            "Heraklion Intermodal Port Terminal",
+            "Larnaca Airport Support Base"
+          ],
+          "context_value": "including perimeter patrol road setbacks",
+          "other_context_values": [
+            "excluding perimeter patrol road setbacks"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_warehousing_A",
+          "role_id": "logistics_warehousing",
+          "candidate_id": "A",
+          "key": "LOG-WHSE-T81",
+          "hidden_predicate_id": "A_covered_warehouse_area",
+          "threshold_label": "Covered warehouse staging area",
+          "threshold_aliases": [
+            "Covered warehouse floor area",
+            "Enclosed pallet staging space"
+          ],
+          "threshold_value": 20000,
+          "threshold_unit": "m2",
+          "partial_record_text": "LOG-WHSE-T81: Akrotiri Air Logistics Center.Akrotiri Air Logistics Center: Automated temperature-controlled pharmaceutical storage operational = true .Source: Good distribution practice validation register; Scope: Active climate-controlled depot chambers; Measurement: Operational status of verified 2 to 8 degrees Celsius medical inventory storage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Covered warehouse staging area is at most 40000 m2.",
+          "role_name": "Logistics and warehousing lead (LOG)",
+          "candidate_name": "Akrotiri Air Logistics Center",
+          "other_candidate_names": [
+            "Heraklion Intermodal Port Terminal",
+            "Larnaca Airport Support Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

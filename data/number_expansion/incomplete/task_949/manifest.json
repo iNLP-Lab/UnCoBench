@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_949",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_compliance",
+        "test_operations"
+      ],
+      "role_names": [
+        "Safety and environmental compliance officer (SAFE)",
+        "Test operations lead (TOPS)"
+      ],
+      "directory": "incomplete/task_949",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-DELUGE-0AK",
+          "boolean_predicate_id": "A_deluge_system_installed",
+          "boolean_label": "Acoustic water deluge system installed",
+          "hidden_predicate_id": "A_deluge_flow_rate",
+          "threshold_label": "Water deluge discharge flow rate",
+          "threshold_aliases": [
+            "Deluge water flow",
+            "Suppression water delivery rate"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "L/s",
+          "partial_record_text": "SAFE-DELUGE-0AK: Mojave High-Altitude Test Complex.Mojave High-Altitude Test Complex: Acoustic water deluge system installed = true .Source: Facility infrastructure audit; Scope: Active test pad manifold; Measurement: Whether a permanent acoustic sound suppression water deluge system is installed and operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Water deluge discharge flow rate is at most 3000 L/s.",
+          "role_name": "Safety and environmental compliance officer (SAFE)",
+          "candidate_name": "Mojave High-Altitude Test Complex",
+          "other_candidate_names": [
+            "Stennis Space Corridor Pad B",
+            "Spaceport America Propulsion Test Stand"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_test_operations_A",
+          "role_id": "test_operations",
+          "candidate_id": "A",
+          "key": "TOPS-PROP-YJ1",
+          "hidden_predicate_id": "A_max_thrust_capacity",
+          "threshold_label": "Maximum thrust load cell capacity",
+          "threshold_aliases": [
+            "Test stand thrust rating",
+            "Load cell rated thrust limit"
+          ],
+          "threshold_value": 3200,
+          "threshold_unit": "kN",
+          "partial_record_text": "TOPS-PROP-YJ1: Mojave High-Altitude Test Complex.Mojave High-Altitude Test Complex: Cryogenic LOX loading skid certified = true .Source: Cryogenic equipment certification log; Scope: Pad liquid oxygen supply system; Measurement: Whether the liquid oxygen loading skid holds valid mechanical integrity and cleaning certification.Mojave High-Altitude Test Complex: Allocated hot-fire test time = 30 h.Source: Campaign master schedule; Scope: Upper-stage qualification test campaign; Measurement: Total test stand occupancy hours allocated exclusively for hot-fire engine runs.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "Maximum thrust load cell capacity is at most 5000 kN.",
+          "role_name": "Test operations lead (TOPS)",
+          "candidate_name": "Mojave High-Altitude Test Complex",
+          "other_candidate_names": [
+            "Stennis Space Corridor Pad B",
+            "Spaceport America Propulsion Test Stand"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_compliance",
+        "test_operations",
+        "instrumentation"
+      ],
+      "role_names": [
+        "Safety and environmental compliance officer (SAFE)",
+        "Test operations lead (TOPS)",
+        "Instrumentation and data lead (INST)"
+      ],
+      "directory": "incomplete/task_949",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-DELUGE-0AK",
+          "boolean_predicate_id": "A_deluge_system_installed",
+          "boolean_label": "Acoustic water deluge system installed",
+          "hidden_predicate_id": "A_deluge_flow_rate",
+          "threshold_label": "Water deluge discharge flow rate",
+          "threshold_aliases": [
+            "Deluge water flow",
+            "Suppression water delivery rate"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "L/s",
+          "partial_record_text": "SAFE-DELUGE-0AK: Mojave High-Altitude Test Complex.Mojave High-Altitude Test Complex: Acoustic water deluge system installed = true .Source: Facility infrastructure audit; Scope: Active test pad manifold; Measurement: Whether a permanent acoustic sound suppression water deluge system is installed and operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Water deluge discharge flow rate is at most 3000 L/s.",
+          "role_name": "Safety and environmental compliance officer (SAFE)",
+          "candidate_name": "Mojave High-Altitude Test Complex",
+          "other_candidate_names": [
+            "Stennis Space Corridor Pad B",
+            "Spaceport America Propulsion Test Stand"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_test_operations_A",
+          "role_id": "test_operations",
+          "candidate_id": "A",
+          "key": "TOPS-PROP-YJ1",
+          "hidden_predicate_id": "A_max_thrust_capacity",
+          "threshold_label": "Maximum thrust load cell capacity",
+          "threshold_aliases": [
+            "Test stand thrust rating",
+            "Load cell rated thrust limit"
+          ],
+          "threshold_value": 3200,
+          "threshold_unit": "kN",
+          "partial_record_text": "TOPS-PROP-YJ1: Mojave High-Altitude Test Complex.Mojave High-Altitude Test Complex: Cryogenic LOX loading skid certified = true .Source: Cryogenic equipment certification log; Scope: Pad liquid oxygen supply system; Measurement: Whether the liquid oxygen loading skid holds valid mechanical integrity and cleaning certification.Mojave High-Altitude Test Complex: Allocated hot-fire test time = 30 h.Source: Campaign master schedule; Scope: Upper-stage qualification test campaign; Measurement: Total test stand occupancy hours allocated exclusively for hot-fire engine runs.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "Maximum thrust load cell capacity is at most 5000 kN.",
+          "role_name": "Test operations lead (TOPS)",
+          "candidate_name": "Mojave High-Altitude Test Complex",
+          "other_candidate_names": [
+            "Stennis Space Corridor Pad B",
+            "Spaceport America Propulsion Test Stand"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_instrumentation_A",
+          "role_id": "instrumentation",
+          "candidate_id": "A",
+          "key": "INST-TELEM-J98",
+          "hidden_predicate_id": "A_high_speed_sensor_channels",
+          "threshold_label": "High-speed sensor channel count",
+          "threshold_aliases": [
+            "Sensor channel capacity",
+            "Data acquisition channel count"
+          ],
+          "threshold_value": 768,
+          "threshold_unit": "channels",
+          "partial_record_text": "INST-TELEM-J98: Mojave High-Altitude Test Complex. The record covers High-speed sensor channel count. Record context: March 2026. Instrumentation inventory report; Pad data acquisition shelter; Number of isolated simultaneous 100 kHz dynamic analog sensor channels available.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "coarse_statement": "High-speed sensor channel count is at most 900 channels.",
+          "role_name": "Instrumentation and data lead (INST)",
+          "candidate_name": "Mojave High-Altitude Test Complex",
+          "other_candidate_names": [
+            "Stennis Space Corridor Pad B",
+            "Spaceport America Propulsion Test Stand"
+          ],
+          "context_value": "March 2026",
+          "other_context_values": [
+            "April 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

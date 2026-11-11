@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_735",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_monitoring",
+        "clinical_operations"
+      ],
+      "role_names": [
+        "Medical safety lead (SAFE)",
+        "Clinical operations lead (CLIN)"
+      ],
+      "directory": "incomplete/task_735",
+      "profiles": [
+        {
+          "record_id": "rec_safety_monitoring_A",
+          "role_id": "safety_monitoring",
+          "candidate_id": "A",
+          "key": "SAFE-PHARMA-05U",
+          "boolean_predicate_id": "A_pediatric_pv_enabled",
+          "boolean_label": "Pediatric pharmacovigilance workflow activated",
+          "hidden_predicate_id": "A_sae_reporting_turnaround",
+          "threshold_label": "Serious adverse event notification turnaround",
+          "threshold_aliases": [
+            "SAE notification duration",
+            "Adverse event reporting latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "SAFE-PHARMA-05U: Aegis BioPharma Services.Aegis BioPharma Services: Pediatric pharmacovigilance workflow activated = true .Source: Pharmacovigilance system configuration log; Scope: Safety database module designated for the pediatric trial protocol; Measurement: System status flag confirming activation of the pediatric-specific adverse event intake workflow.",
+          "role_name": "Medical safety lead (SAFE)",
+          "candidate_name": "Aegis BioPharma Services",
+          "other_candidate_names": [
+            "Meridian Clinical Alliance",
+            "Vanguard Oncology Research Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_operations_A",
+          "role_id": "clinical_operations",
+          "candidate_id": "A",
+          "key": "CLIN-OPS-WO5",
+          "hidden_predicate_id": "A_cra_retention_rate",
+          "threshold_label": "Clinical research associate retention rate",
+          "threshold_aliases": [
+            "CRA retention rate",
+            "Monitor retention rate"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "CLIN-OPS-WO5: Aegis BioPharma Services.Aegis BioPharma Services: Baseline monitoring fee per site = 18000 USD/site.Source: Site monitoring commercial tariff; Scope: Standard monitoring lifecycle per study site for the trial duration; Measurement: Fixed professional monitoring fee charged per contracted trial site.",
+          "role_name": "Clinical operations lead (CLIN)",
+          "candidate_name": "Aegis BioPharma Services",
+          "other_candidate_names": [
+            "Meridian Clinical Alliance",
+            "Vanguard Oncology Research Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_monitoring",
+        "clinical_operations",
+        "site_contracts"
+      ],
+      "role_names": [
+        "Medical safety lead (SAFE)",
+        "Clinical operations lead (CLIN)",
+        "Site contracting lead (COMM)"
+      ],
+      "directory": "incomplete/task_735",
+      "profiles": [
+        {
+          "record_id": "rec_safety_monitoring_A",
+          "role_id": "safety_monitoring",
+          "candidate_id": "A",
+          "key": "SAFE-PHARMA-05U",
+          "boolean_predicate_id": "A_pediatric_pv_enabled",
+          "boolean_label": "Pediatric pharmacovigilance workflow activated",
+          "hidden_predicate_id": "A_sae_reporting_turnaround",
+          "threshold_label": "Serious adverse event notification turnaround",
+          "threshold_aliases": [
+            "SAE notification duration",
+            "Adverse event reporting latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "SAFE-PHARMA-05U: Aegis BioPharma Services.Aegis BioPharma Services: Pediatric pharmacovigilance workflow activated = true .Source: Pharmacovigilance system configuration log; Scope: Safety database module designated for the pediatric trial protocol; Measurement: System status flag confirming activation of the pediatric-specific adverse event intake workflow.",
+          "role_name": "Medical safety lead (SAFE)",
+          "candidate_name": "Aegis BioPharma Services",
+          "other_candidate_names": [
+            "Meridian Clinical Alliance",
+            "Vanguard Oncology Research Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_operations_A",
+          "role_id": "clinical_operations",
+          "candidate_id": "A",
+          "key": "CLIN-OPS-WO5",
+          "hidden_predicate_id": "A_cra_retention_rate",
+          "threshold_label": "Clinical research associate retention rate",
+          "threshold_aliases": [
+            "CRA retention rate",
+            "Monitor retention rate"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "CLIN-OPS-WO5: Aegis BioPharma Services.Aegis BioPharma Services: Baseline monitoring fee per site = 18000 USD/site.Source: Site monitoring commercial tariff; Scope: Standard monitoring lifecycle per study site for the trial duration; Measurement: Fixed professional monitoring fee charged per contracted trial site.",
+          "role_name": "Clinical operations lead (CLIN)",
+          "candidate_name": "Aegis BioPharma Services",
+          "other_candidate_names": [
+            "Meridian Clinical Alliance",
+            "Vanguard Oncology Research Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_site_contracts_A",
+          "role_id": "site_contracts",
+          "candidate_id": "A",
+          "key": "COMM-BUDG-IKS",
+          "hidden_predicate_id": "A_contracted_site_count",
+          "threshold_label": "Contracted trial site count",
+          "threshold_aliases": [
+            "Participating site count",
+            "Contracted sites"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "site",
+          "partial_record_text": "COMM-BUDG-IKS: Aegis BioPharma Services. The record covers Contracted trial site count. Record context: cumulative program to date. Clinical trial agreement schedule; Active clinical trial sites finalized under standard master services agreement; Total count of fully contracted medical research institutions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Contracted trial site count is at least 12 site.",
+          "role_name": "Site contracting lead (COMM)",
+          "candidate_name": "Aegis BioPharma Services",
+          "other_candidate_names": [
+            "Meridian Clinical Alliance",
+            "Vanguard Oncology Research Group"
+          ],
+          "context_value": "cumulative program to date",
+          "other_context_values": [
+            "current calendar year to date"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

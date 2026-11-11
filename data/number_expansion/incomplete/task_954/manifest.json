@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_954",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_hydrology",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Hydrological compliance officer (ENV)",
+        "Quality inspection auditor (QA)"
+      ],
+      "directory": "incomplete/task_954",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_hydrology_A",
+          "role_id": "environmental_hydrology",
+          "candidate_id": "A",
+          "key": "ENV-HYDRO-JXY",
+          "boolean_predicate_id": "A_drainage_permit_approved",
+          "boolean_label": "Environmental drainage permit approved",
+          "hidden_predicate_id": "A_max_dewatering_discharge_rate",
+          "threshold_label": "Maximum dewatering discharge rate",
+          "threshold_aliases": [
+            "Peak dewatering rate",
+            "Discharge pumping rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m3/min",
+          "partial_record_text": "ENV-HYDRO-JXY: Full-circumference spiral sleeve liner.Full-circumference spiral sleeve liner: Environmental drainage permit approved = true .Source: Regional water board authorization register; Scope: Overhaul dewatering discharge channel; Measurement: Confirmation that the active environmental drainage discharge permit has been formally executed.",
+          "role_name": "Hydrological compliance officer (ENV)",
+          "candidate_name": "Full-circumference spiral sleeve liner",
+          "other_candidate_names": [
+            "Segmental carbon-composite jacketing",
+            "Robotic weld-overlay cladding"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-AUDIT-O65",
+          "hidden_predicate_id": "A_mandatory_quality_hold_hours",
+          "threshold_label": "Mandatory quality hold duration",
+          "threshold_aliases": [
+            "Quality audit hold time",
+            "Inspection pause duration"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "QA-AUDIT-O65: Full-circumference spiral sleeve liner. The record covers Mandatory quality hold duration. Quality control surveillance plan; Penstock relining inspection milestones; Total scheduled standstill hours required for independent non-destructive weld inspection and third-party sign-off.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mandatory quality hold duration is at least 12 h.",
+          "role_name": "Quality inspection auditor (QA)",
+          "candidate_name": "Full-circumference spiral sleeve liner",
+          "other_candidate_names": [
+            "Segmental carbon-composite jacketing",
+            "Robotic weld-overlay cladding"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_hydrology",
+        "quality_assurance",
+        "plant_operations"
+      ],
+      "role_names": [
+        "Hydrological compliance officer (ENV)",
+        "Quality inspection auditor (QA)",
+        "Generation dispatch coordinator (OPS)"
+      ],
+      "directory": "incomplete/task_954",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_hydrology_A",
+          "role_id": "environmental_hydrology",
+          "candidate_id": "A",
+          "key": "ENV-HYDRO-JXY",
+          "boolean_predicate_id": "A_drainage_permit_approved",
+          "boolean_label": "Environmental drainage permit approved",
+          "hidden_predicate_id": "A_max_dewatering_discharge_rate",
+          "threshold_label": "Maximum dewatering discharge rate",
+          "threshold_aliases": [
+            "Peak dewatering rate",
+            "Discharge pumping rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m3/min",
+          "partial_record_text": "ENV-HYDRO-JXY: Full-circumference spiral sleeve liner.Full-circumference spiral sleeve liner: Environmental drainage permit approved = true .Source: Regional water board authorization register; Scope: Overhaul dewatering discharge channel; Measurement: Confirmation that the active environmental drainage discharge permit has been formally executed.",
+          "role_name": "Hydrological compliance officer (ENV)",
+          "candidate_name": "Full-circumference spiral sleeve liner",
+          "other_candidate_names": [
+            "Segmental carbon-composite jacketing",
+            "Robotic weld-overlay cladding"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-AUDIT-O65",
+          "hidden_predicate_id": "A_mandatory_quality_hold_hours",
+          "threshold_label": "Mandatory quality hold duration",
+          "threshold_aliases": [
+            "Quality audit hold time",
+            "Inspection pause duration"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "QA-AUDIT-O65: Full-circumference spiral sleeve liner. The record covers Mandatory quality hold duration. Quality control surveillance plan; Penstock relining inspection milestones; Total scheduled standstill hours required for independent non-destructive weld inspection and third-party sign-off.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mandatory quality hold duration is at least 12 h.",
+          "role_name": "Quality inspection auditor (QA)",
+          "candidate_name": "Full-circumference spiral sleeve liner",
+          "other_candidate_names": [
+            "Segmental carbon-composite jacketing",
+            "Robotic weld-overlay cladding"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_operations_A",
+          "role_id": "plant_operations",
+          "candidate_id": "A",
+          "key": "OPS-DISP-D57",
+          "hidden_predicate_id": "A_tailrace_isolation_hours",
+          "threshold_label": "Tailrace isolation duration",
+          "threshold_aliases": [
+            "Tailrace dewatering window",
+            "Draft tube isolation allowance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-DISP-D57: Full-circumference spiral sleeve liner. The record covers Tailrace isolation duration. Record context: October 2025. Grid outage and station dispatch register; Lower reservoir tailrace gate closure; Coordinated duration granted by grid dispatch for full tailrace isolation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 36,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Tailrace isolation duration is at least 36 h.",
+          "role_name": "Generation dispatch coordinator (OPS)",
+          "candidate_name": "Full-circumference spiral sleeve liner",
+          "other_candidate_names": [
+            "Segmental carbon-composite jacketing",
+            "Robotic weld-overlay cladding"
+          ],
+          "context_value": "October 2025",
+          "other_context_values": [
+            "November 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,454 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_744",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "customs_regulatory"
+      ],
+      "role_names": [
+        "Quality assurance manager (QAM)",
+        "Customs regulatory officer (CRO)"
+      ],
+      "directory": "number_expansion/misaligned/task_744/k2",
+      "error_profiles": [
+        {
+          "role_name": "Quality assurance manager (QAM)",
+          "target_key": "QAM-GDP-IMV",
+          "alternate_key": "QAM-RECALL-MGC",
+          "target_context": "production environment",
+          "alternate_context": "test environment",
+          "candidate": "Dedicated active-temperature refrigerated container model",
+          "other_candidates": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "gdp_certified",
+              "value": true,
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ]
+            },
+            {
+              "topic": "telemetry_active",
+              "label": "Continuous temperature telemetry active",
+              "aliases": [
+                "Telemetry monitoring enabled",
+                "Active thermal tracking"
+              ]
+            },
+            {
+              "topic": "excursion_alert_time",
+              "label": "Transit excursion notification time",
+              "aliases": [
+                "Temperature breach alert latency",
+                "Excursion notification latency"
+              ]
+            },
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ]
+            },
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ]
+            },
+            {
+              "topic": "deep_freeze_pallet_capacity",
+              "label": "Deep-freeze pallet capacity",
+              "aliases": [
+                "Ultra-low temperature pallet capacity",
+                "Deep-freeze storage positions"
+              ]
+            },
+            {
+              "topic": "staging_buffer_pallet_capacity",
+              "label": "Staging buffer pallet capacity",
+              "aliases": [
+                "Cold staging pallet capacity",
+                "Buffer depot storage positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Customs regulatory officer (CRO)",
+          "target_key": "CRO-BOND-681",
+          "alternate_key": "CRO-BOND-0U9",
+          "target_context": "production environment",
+          "alternate_context": "sandbox test environment",
+          "candidate": "Dedicated active-temperature refrigerated container model",
+          "other_candidates": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "customs_bonded_authorized",
+              "value": true,
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ]
+            },
+            {
+              "topic": "telemetry_active",
+              "label": "Continuous temperature telemetry active",
+              "aliases": [
+                "Telemetry monitoring enabled",
+                "Active thermal tracking"
+              ]
+            },
+            {
+              "topic": "excursion_alert_time",
+              "label": "Transit excursion notification time",
+              "aliases": [
+                "Temperature breach alert latency",
+                "Excursion notification latency"
+              ]
+            },
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ]
+            },
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ]
+            },
+            {
+              "topic": "deep_freeze_pallet_capacity",
+              "label": "Deep-freeze pallet capacity",
+              "aliases": [
+                "Ultra-low temperature pallet capacity",
+                "Deep-freeze storage positions"
+              ]
+            },
+            {
+              "topic": "staging_buffer_pallet_capacity",
+              "label": "Staging buffer pallet capacity",
+              "aliases": [
+                "Cold staging pallet capacity",
+                "Buffer depot storage positions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "customs_regulatory",
+        "field_monitoring"
+      ],
+      "role_names": [
+        "Quality assurance manager (QAM)",
+        "Customs regulatory officer (CRO)",
+        "Field monitoring supervisor (FMS)"
+      ],
+      "directory": "number_expansion/misaligned/task_744/k3",
+      "error_profiles": [
+        {
+          "role_name": "Quality assurance manager (QAM)",
+          "target_key": "QAM-GDP-IMV",
+          "alternate_key": "QAM-RECALL-MGC",
+          "target_context": "production environment",
+          "alternate_context": "test environment",
+          "candidate": "Dedicated active-temperature refrigerated container model",
+          "other_candidates": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "gdp_certified",
+              "value": true,
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ]
+            },
+            {
+              "topic": "telemetry_active",
+              "label": "Continuous temperature telemetry active",
+              "aliases": [
+                "Telemetry monitoring enabled",
+                "Active thermal tracking"
+              ]
+            },
+            {
+              "topic": "excursion_alert_time",
+              "label": "Transit excursion notification time",
+              "aliases": [
+                "Temperature breach alert latency",
+                "Excursion notification latency"
+              ]
+            },
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ]
+            },
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ]
+            },
+            {
+              "topic": "deep_freeze_pallet_capacity",
+              "label": "Deep-freeze pallet capacity",
+              "aliases": [
+                "Ultra-low temperature pallet capacity",
+                "Deep-freeze storage positions"
+              ]
+            },
+            {
+              "topic": "staging_buffer_pallet_capacity",
+              "label": "Staging buffer pallet capacity",
+              "aliases": [
+                "Cold staging pallet capacity",
+                "Buffer depot storage positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Customs regulatory officer (CRO)",
+          "target_key": "CRO-BOND-681",
+          "alternate_key": "CRO-BOND-0U9",
+          "target_context": "production environment",
+          "alternate_context": "sandbox test environment",
+          "candidate": "Dedicated active-temperature refrigerated container model",
+          "other_candidates": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "customs_bonded_authorized",
+              "value": true,
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ]
+            },
+            {
+              "topic": "telemetry_active",
+              "label": "Continuous temperature telemetry active",
+              "aliases": [
+                "Telemetry monitoring enabled",
+                "Active thermal tracking"
+              ]
+            },
+            {
+              "topic": "excursion_alert_time",
+              "label": "Transit excursion notification time",
+              "aliases": [
+                "Temperature breach alert latency",
+                "Excursion notification latency"
+              ]
+            },
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ]
+            },
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ]
+            },
+            {
+              "topic": "deep_freeze_pallet_capacity",
+              "label": "Deep-freeze pallet capacity",
+              "aliases": [
+                "Ultra-low temperature pallet capacity",
+                "Deep-freeze storage positions"
+              ]
+            },
+            {
+              "topic": "staging_buffer_pallet_capacity",
+              "label": "Staging buffer pallet capacity",
+              "aliases": [
+                "Cold staging pallet capacity",
+                "Buffer depot storage positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Field monitoring supervisor (FMS)",
+          "target_key": "FMS-SHIP-WKF",
+          "alternate_key": "FMS-SHIP-LGE",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Dedicated active-temperature refrigerated container model",
+          "other_candidates": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "value": true,
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good distribution practice certification",
+              "aliases": [
+                "GDP compliance certification",
+                "Good distribution practice status"
+              ]
+            },
+            {
+              "topic": "telemetry_active",
+              "label": "Continuous temperature telemetry active",
+              "aliases": [
+                "Telemetry monitoring enabled",
+                "Active thermal tracking"
+              ]
+            },
+            {
+              "topic": "excursion_alert_time",
+              "label": "Transit excursion notification time",
+              "aliases": [
+                "Temperature breach alert latency",
+                "Excursion notification latency"
+              ]
+            },
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded carrier status",
+                "Customs bonded transit permit"
+              ]
+            },
+            {
+              "topic": "dry_ice_replenishment_ready",
+              "label": "Validated dry-ice replenishment capability",
+              "aliases": [
+                "Dry-ice re-icing verification",
+                "Intermediate re-icing protocol clearance"
+              ]
+            },
+            {
+              "topic": "deep_freeze_pallet_capacity",
+              "label": "Deep-freeze pallet capacity",
+              "aliases": [
+                "Ultra-low temperature pallet capacity",
+                "Deep-freeze storage positions"
+              ]
+            },
+            {
+              "topic": "staging_buffer_pallet_capacity",
+              "label": "Staging buffer pallet capacity",
+              "aliases": [
+                "Cold staging pallet capacity",
+                "Buffer depot storage positions"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

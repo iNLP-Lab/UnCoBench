@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_339",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "site_security",
+        "environmental_health"
+      ],
+      "role_names": [
+        "Protective security director (SEC)",
+        "Environmental safety inspector (ENV)"
+      ],
+      "directory": "number_expansion/misaligned/task_339/k2",
+      "error_profiles": [
+        {
+          "role_name": "Protective security director (SEC)",
+          "target_key": "SEC-PRT-GHM",
+          "alternate_key": "SEC-PRT-CFU",
+          "target_context": "after deducting perimeter safety setback zones",
+          "alternate_context": "before deducting perimeter safety setback zones",
+          "candidate": "Northgate Regional Distribution Depot",
+          "other_candidates": [
+            "Silverstone Industrial Airpark",
+            "Cascade River Logistics Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "outdoor_laydown_area",
+              "value": 20000,
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ],
+              "unit": "m2"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_transporter_clearance",
+              "label": "Heavy transporter road clearance",
+              "aliases": [
+                "Transporter road access",
+                "Heavy vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "aux_power_plant_installed",
+              "label": "Auxiliary emergency power plant presence",
+              "aliases": [
+                "Emergency auxiliary power station",
+                "Backup generator plant installation"
+              ]
+            },
+            {
+              "topic": "generator_sync_delay_min",
+              "label": "Cold-start generator synchronization time",
+              "aliases": [
+                "Generator synchronization latency",
+                "Emergency generator start-to-bus duration"
+              ]
+            },
+            {
+              "topic": "biohazard_clearance",
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ]
+            },
+            {
+              "topic": "perimeter_security_clearance",
+              "label": "Round-the-clock security perimeter clearance",
+              "aliases": [
+                "Perimeter security certification",
+                "Enclosed boundary security clearance"
+              ]
+            },
+            {
+              "topic": "covered_staging_area",
+              "label": "Primary covered staging area",
+              "aliases": [
+                "Covered warehouse floor area",
+                "Indoor shelter staging space"
+              ]
+            },
+            {
+              "topic": "outdoor_laydown_area",
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ]
+            },
+            {
+              "topic": "sovereign_reserve_area",
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental safety inspector (ENV)",
+          "target_key": "ENV-HAZ-SPD",
+          "alternate_key": "ENV-HAZ-DBC",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Northgate Regional Distribution Depot",
+          "other_candidates": [
+            "Silverstone Industrial Airpark",
+            "Cascade River Logistics Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "biohazard_clearance",
+              "value": true,
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_transporter_clearance",
+              "label": "Heavy transporter road clearance",
+              "aliases": [
+                "Transporter road access",
+                "Heavy vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "aux_power_plant_installed",
+              "label": "Auxiliary emergency power plant presence",
+              "aliases": [
+                "Emergency auxiliary power station",
+                "Backup generator plant installation"
+              ]
+            },
+            {
+              "topic": "generator_sync_delay_min",
+              "label": "Cold-start generator synchronization time",
+              "aliases": [
+                "Generator synchronization latency",
+                "Emergency generator start-to-bus duration"
+              ]
+            },
+            {
+              "topic": "biohazard_clearance",
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ]
+            },
+            {
+              "topic": "perimeter_security_clearance",
+              "label": "Round-the-clock security perimeter clearance",
+              "aliases": [
+                "Perimeter security certification",
+                "Enclosed boundary security clearance"
+              ]
+            },
+            {
+              "topic": "covered_staging_area",
+              "label": "Primary covered staging area",
+              "aliases": [
+                "Covered warehouse floor area",
+                "Indoor shelter staging space"
+              ]
+            },
+            {
+              "topic": "outdoor_laydown_area",
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ]
+            },
+            {
+              "topic": "sovereign_reserve_area",
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "site_security",
+        "environmental_health",
+        "strategic_reserves"
+      ],
+      "role_names": [
+        "Protective security director (SEC)",
+        "Environmental safety inspector (ENV)",
+        "State emergency asset custodian (STR)"
+      ],
+      "directory": "number_expansion/misaligned/task_339/k3",
+      "error_profiles": [
+        {
+          "role_name": "Protective security director (SEC)",
+          "target_key": "SEC-PRT-GHM",
+          "alternate_key": "SEC-PRT-CFU",
+          "target_context": "after deducting perimeter safety setback zones",
+          "alternate_context": "before deducting perimeter safety setback zones",
+          "candidate": "Northgate Regional Distribution Depot",
+          "other_candidates": [
+            "Silverstone Industrial Airpark",
+            "Cascade River Logistics Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "outdoor_laydown_area",
+              "value": 20000,
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ],
+              "unit": "m2"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_transporter_clearance",
+              "label": "Heavy transporter road clearance",
+              "aliases": [
+                "Transporter road access",
+                "Heavy vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "aux_power_plant_installed",
+              "label": "Auxiliary emergency power plant presence",
+              "aliases": [
+                "Emergency auxiliary power station",
+                "Backup generator plant installation"
+              ]
+            },
+            {
+              "topic": "generator_sync_delay_min",
+              "label": "Cold-start generator synchronization time",
+              "aliases": [
+                "Generator synchronization latency",
+                "Emergency generator start-to-bus duration"
+              ]
+            },
+            {
+              "topic": "biohazard_clearance",
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ]
+            },
+            {
+              "topic": "perimeter_security_clearance",
+              "label": "Round-the-clock security perimeter clearance",
+              "aliases": [
+                "Perimeter security certification",
+                "Enclosed boundary security clearance"
+              ]
+            },
+            {
+              "topic": "covered_staging_area",
+              "label": "Primary covered staging area",
+              "aliases": [
+                "Covered warehouse floor area",
+                "Indoor shelter staging space"
+              ]
+            },
+            {
+              "topic": "outdoor_laydown_area",
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ]
+            },
+            {
+              "topic": "sovereign_reserve_area",
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental safety inspector (ENV)",
+          "target_key": "ENV-HAZ-SPD",
+          "alternate_key": "ENV-HAZ-DBC",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Northgate Regional Distribution Depot",
+          "other_candidates": [
+            "Silverstone Industrial Airpark",
+            "Cascade River Logistics Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "biohazard_clearance",
+              "value": true,
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_transporter_clearance",
+              "label": "Heavy transporter road clearance",
+              "aliases": [
+                "Transporter road access",
+                "Heavy vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "aux_power_plant_installed",
+              "label": "Auxiliary emergency power plant presence",
+              "aliases": [
+                "Emergency auxiliary power station",
+                "Backup generator plant installation"
+              ]
+            },
+            {
+              "topic": "generator_sync_delay_min",
+              "label": "Cold-start generator synchronization time",
+              "aliases": [
+                "Generator synchronization latency",
+                "Emergency generator start-to-bus duration"
+              ]
+            },
+            {
+              "topic": "biohazard_clearance",
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ]
+            },
+            {
+              "topic": "perimeter_security_clearance",
+              "label": "Round-the-clock security perimeter clearance",
+              "aliases": [
+                "Perimeter security certification",
+                "Enclosed boundary security clearance"
+              ]
+            },
+            {
+              "topic": "covered_staging_area",
+              "label": "Primary covered staging area",
+              "aliases": [
+                "Covered warehouse floor area",
+                "Indoor shelter staging space"
+              ]
+            },
+            {
+              "topic": "outdoor_laydown_area",
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ]
+            },
+            {
+              "topic": "sovereign_reserve_area",
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "State emergency asset custodian (STR)",
+          "target_key": "STR-RSV-77N",
+          "alternate_key": "STR-RSV-ZSD",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Northgate Regional Distribution Depot",
+          "other_candidates": [
+            "Silverstone Industrial Airpark",
+            "Cascade River Logistics Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "sovereign_reserve_area",
+              "value": 6000,
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ],
+              "unit": "m2"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_transporter_clearance",
+              "label": "Heavy transporter road clearance",
+              "aliases": [
+                "Transporter road access",
+                "Heavy vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "aux_power_plant_installed",
+              "label": "Auxiliary emergency power plant presence",
+              "aliases": [
+                "Emergency auxiliary power station",
+                "Backup generator plant installation"
+              ]
+            },
+            {
+              "topic": "generator_sync_delay_min",
+              "label": "Cold-start generator synchronization time",
+              "aliases": [
+                "Generator synchronization latency",
+                "Emergency generator start-to-bus duration"
+              ]
+            },
+            {
+              "topic": "biohazard_clearance",
+              "label": "Municipal biohazard containment clearance",
+              "aliases": [
+                "Biohazard safety clearance",
+                "Sanitary environmental approval"
+              ]
+            },
+            {
+              "topic": "perimeter_security_clearance",
+              "label": "Round-the-clock security perimeter clearance",
+              "aliases": [
+                "Perimeter security certification",
+                "Enclosed boundary security clearance"
+              ]
+            },
+            {
+              "topic": "covered_staging_area",
+              "label": "Primary covered staging area",
+              "aliases": [
+                "Covered warehouse floor area",
+                "Indoor shelter staging space"
+              ]
+            },
+            {
+              "topic": "outdoor_laydown_area",
+              "label": "Outdoor equipment laydown area",
+              "aliases": [
+                "Outdoor open marshalling apron",
+                "Exterior vehicle staging area"
+              ]
+            },
+            {
+              "topic": "sovereign_reserve_area",
+              "label": "Sovereign logistics reserve area",
+              "aliases": [
+                "Mandatory government reserve space",
+                "Statutory logistics buffer allotment"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

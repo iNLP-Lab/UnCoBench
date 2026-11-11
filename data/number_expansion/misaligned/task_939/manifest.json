@@ -1,0 +1,525 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_939",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "freight_logistics",
+        "municipal_liaison"
+      ],
+      "role_names": [
+        "Exhibition Freight and Logistics Manager (LOG)",
+        "Municipal Transport and Civic Affairs Officer (MUN)"
+      ],
+      "directory": "number_expansion/misaligned/task_939/k2",
+      "error_profiles": [
+        {
+          "role_name": "Exhibition Freight and Logistics Manager (LOG)",
+          "target_key": "LOG-DOCK-XYO",
+          "alternate_key": "LOG-RIG-CJE",
+          "target_context": "current month",
+          "alternate_context": "year to date",
+          "candidate": "Bayside International Exhibition Centre",
+          "other_candidates": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "freight_dock_count",
+              "value": 16,
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ],
+              "unit": "docks"
+            },
+            {
+              "topic": "concourse_service_fee",
+              "value": 50.0,
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ],
+              "unit": "kEUR"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dual_power_backup",
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ]
+            },
+            {
+              "topic": "plenary_seating_capacity",
+              "label": "Plenary hall seating capacity",
+              "aliases": [
+                "Auditorium attendee capacity",
+                "Main hall seating"
+              ]
+            },
+            {
+              "topic": "biosecurity_protocol_certified",
+              "label": "Accredited biosecurity waste protocol compliance",
+              "aliases": [
+                "Clinical waste protocol certification",
+                "Biomedical waste management compliance"
+              ]
+            },
+            {
+              "topic": "freight_dock_count",
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ]
+            },
+            {
+              "topic": "transit_connection_approved",
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ]
+            },
+            {
+              "topic": "plenary_base_tariff",
+              "label": "Plenary hall base daily tariff",
+              "aliases": [
+                "Auditorium standard daily rate",
+                "Plenary hall base rent"
+              ]
+            },
+            {
+              "topic": "concourse_service_fee",
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal Transport and Civic Affairs Officer (MUN)",
+          "target_key": "MUN-TRANS-DPQ",
+          "alternate_key": "MUN-TRANS-ECE",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Bayside International Exhibition Centre",
+          "other_candidates": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "transit_connection_approved",
+              "value": true,
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dual_power_backup",
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ]
+            },
+            {
+              "topic": "plenary_seating_capacity",
+              "label": "Plenary hall seating capacity",
+              "aliases": [
+                "Auditorium attendee capacity",
+                "Main hall seating"
+              ]
+            },
+            {
+              "topic": "biosecurity_protocol_certified",
+              "label": "Accredited biosecurity waste protocol compliance",
+              "aliases": [
+                "Clinical waste protocol certification",
+                "Biomedical waste management compliance"
+              ]
+            },
+            {
+              "topic": "freight_dock_count",
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ]
+            },
+            {
+              "topic": "transit_connection_approved",
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ]
+            },
+            {
+              "topic": "plenary_base_tariff",
+              "label": "Plenary hall base daily tariff",
+              "aliases": [
+                "Auditorium standard daily rate",
+                "Plenary hall base rent"
+              ]
+            },
+            {
+              "topic": "concourse_service_fee",
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "freight_logistics",
+        "municipal_liaison",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Exhibition Freight and Logistics Manager (LOG)",
+        "Municipal Transport and Civic Affairs Officer (MUN)",
+        "Director of Facilities Engineering (FAC)"
+      ],
+      "directory": "number_expansion/misaligned/task_939/k3",
+      "error_profiles": [
+        {
+          "role_name": "Exhibition Freight and Logistics Manager (LOG)",
+          "target_key": "LOG-DOCK-XYO",
+          "alternate_key": "LOG-RIG-CJE",
+          "target_context": "current month",
+          "alternate_context": "year to date",
+          "candidate": "Bayside International Exhibition Centre",
+          "other_candidates": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "freight_dock_count",
+              "value": 16,
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ],
+              "unit": "docks"
+            },
+            {
+              "topic": "concourse_service_fee",
+              "value": 50.0,
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ],
+              "unit": "kEUR"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dual_power_backup",
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ]
+            },
+            {
+              "topic": "plenary_seating_capacity",
+              "label": "Plenary hall seating capacity",
+              "aliases": [
+                "Auditorium attendee capacity",
+                "Main hall seating"
+              ]
+            },
+            {
+              "topic": "biosecurity_protocol_certified",
+              "label": "Accredited biosecurity waste protocol compliance",
+              "aliases": [
+                "Clinical waste protocol certification",
+                "Biomedical waste management compliance"
+              ]
+            },
+            {
+              "topic": "freight_dock_count",
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ]
+            },
+            {
+              "topic": "transit_connection_approved",
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ]
+            },
+            {
+              "topic": "plenary_base_tariff",
+              "label": "Plenary hall base daily tariff",
+              "aliases": [
+                "Auditorium standard daily rate",
+                "Plenary hall base rent"
+              ]
+            },
+            {
+              "topic": "concourse_service_fee",
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal Transport and Civic Affairs Officer (MUN)",
+          "target_key": "MUN-TRANS-DPQ",
+          "alternate_key": "MUN-TRANS-ECE",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Bayside International Exhibition Centre",
+          "other_candidates": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "transit_connection_approved",
+              "value": true,
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dual_power_backup",
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ]
+            },
+            {
+              "topic": "plenary_seating_capacity",
+              "label": "Plenary hall seating capacity",
+              "aliases": [
+                "Auditorium attendee capacity",
+                "Main hall seating"
+              ]
+            },
+            {
+              "topic": "biosecurity_protocol_certified",
+              "label": "Accredited biosecurity waste protocol compliance",
+              "aliases": [
+                "Clinical waste protocol certification",
+                "Biomedical waste management compliance"
+              ]
+            },
+            {
+              "topic": "freight_dock_count",
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ]
+            },
+            {
+              "topic": "transit_connection_approved",
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ]
+            },
+            {
+              "topic": "plenary_base_tariff",
+              "label": "Plenary hall base daily tariff",
+              "aliases": [
+                "Auditorium standard daily rate",
+                "Plenary hall base rent"
+              ]
+            },
+            {
+              "topic": "concourse_service_fee",
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Director of Facilities Engineering (FAC)",
+          "target_key": "FAC-PWR-7KI",
+          "alternate_key": "FAC-PWR-8N8",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Bayside International Exhibition Centre",
+          "other_candidates": [
+            "Metropolitan Expo and Conference Park",
+            "Cascade Pavilion and Arena Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "generator_switchover_time",
+              "value": 15,
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ],
+              "unit": "s"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dual_power_backup",
+              "value": true,
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dual_power_backup",
+              "label": "Secondary power grid feed presence",
+              "aliases": [
+                "Dual utility feed installation",
+                "Grid redundancy connection"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency generator switchover duration",
+              "aliases": [
+                "Automatic transfer switch duration",
+                "Backup generator start-to-load time"
+              ]
+            },
+            {
+              "topic": "plenary_seating_capacity",
+              "label": "Plenary hall seating capacity",
+              "aliases": [
+                "Auditorium attendee capacity",
+                "Main hall seating"
+              ]
+            },
+            {
+              "topic": "biosecurity_protocol_certified",
+              "label": "Accredited biosecurity waste protocol compliance",
+              "aliases": [
+                "Clinical waste protocol certification",
+                "Biomedical waste management compliance"
+              ]
+            },
+            {
+              "topic": "freight_dock_count",
+              "label": "Dedicated freight loading dock count",
+              "aliases": [
+                "Loading dock bays",
+                "Freight intake berths"
+              ]
+            },
+            {
+              "topic": "transit_connection_approved",
+              "label": "Municipal transit connection approval",
+              "aliases": [
+                "Public transport link permit",
+                "Metro and bus corridor authorization"
+              ]
+            },
+            {
+              "topic": "plenary_base_tariff",
+              "label": "Plenary hall base daily tariff",
+              "aliases": [
+                "Auditorium standard daily rate",
+                "Plenary hall base rent"
+              ]
+            },
+            {
+              "topic": "concourse_service_fee",
+              "label": "Concourse daily service fee",
+              "aliases": [
+                "Exhibition concourse operational charge",
+                "Daily technical concourse fee"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

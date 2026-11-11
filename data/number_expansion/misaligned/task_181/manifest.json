@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_181",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "operations_superintendent",
+        "emergency_liaison"
+      ],
+      "role_names": [
+        "Site operations superintendent (OPS)",
+        "Emergency services liaison (LIAIS)"
+      ],
+      "directory": "number_expansion/misaligned/task_181/k2",
+      "error_profiles": [
+        {
+          "role_name": "Site operations superintendent (OPS)",
+          "target_key": "OPS-PUMP-BJ1",
+          "alternate_key": "OPS-PUMP-NTX",
+          "target_context": "including standby relief personnel",
+          "alternate_context": "excluding standby relief personnel",
+          "candidate": "Pneumatic crest barrier and retention swale scheme",
+          "other_candidates": [
+            "Modular steel stoplog and sluice gate scheme",
+            "Demountable floodwall and tidal flap valve scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "pumping_monitoring_crew",
+              "value": 12,
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ],
+              "unit": "personnel"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "closure_rating_verified",
+              "label": "Structural barrier closure rating verified",
+              "aliases": [
+                "Closure certification status",
+                "Structural seal verification"
+              ]
+            },
+            {
+              "topic": "crest_freeboard_margin",
+              "label": "Minimum crest freeboard margin",
+              "aliases": [
+                "Barrier crest freeboard",
+                "Design surge freeboard height"
+              ]
+            },
+            {
+              "topic": "telemetry_protocol_enabled",
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_seconds",
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ]
+            },
+            {
+              "topic": "discharge_permit_active",
+              "label": "Statutory environmental water discharge permit active",
+              "aliases": [
+                "Discharge permit status",
+                "Environmental agency drainage consent"
+              ]
+            },
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ]
+            },
+            {
+              "topic": "barrier_deployment_crew",
+              "label": "Barrier deployment crew",
+              "aliases": [
+                "Frontline defense installation staffing",
+                "Barrier erection personnel"
+              ]
+            },
+            {
+              "topic": "pumping_monitoring_crew",
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency services liaison (LIAIS)",
+          "target_key": "LIAIS-AID-VUQ",
+          "alternate_key": "LIAIS-AID-ZNB",
+          "target_context": "elapsed time starting at formal multi-agency dispatch request",
+          "alternate_context": "elapsed time starting at initial storm warning issuance",
+          "candidate": "Pneumatic crest barrier and retention swale scheme",
+          "other_candidates": [
+            "Modular steel stoplog and sluice gate scheme",
+            "Demountable floodwall and tidal flap valve scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "value": true,
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "closure_rating_verified",
+              "label": "Structural barrier closure rating verified",
+              "aliases": [
+                "Closure certification status",
+                "Structural seal verification"
+              ]
+            },
+            {
+              "topic": "crest_freeboard_margin",
+              "label": "Minimum crest freeboard margin",
+              "aliases": [
+                "Barrier crest freeboard",
+                "Design surge freeboard height"
+              ]
+            },
+            {
+              "topic": "telemetry_protocol_enabled",
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_seconds",
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ]
+            },
+            {
+              "topic": "discharge_permit_active",
+              "label": "Statutory environmental water discharge permit active",
+              "aliases": [
+                "Discharge permit status",
+                "Environmental agency drainage consent"
+              ]
+            },
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ]
+            },
+            {
+              "topic": "barrier_deployment_crew",
+              "label": "Barrier deployment crew",
+              "aliases": [
+                "Frontline defense installation staffing",
+                "Barrier erection personnel"
+              ]
+            },
+            {
+              "topic": "pumping_monitoring_crew",
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "operations_superintendent",
+        "emergency_liaison",
+        "hydrometric_telemetry"
+      ],
+      "role_names": [
+        "Site operations superintendent (OPS)",
+        "Emergency services liaison (LIAIS)",
+        "Hydrometric telemetry officer (HYDRO)"
+      ],
+      "directory": "number_expansion/misaligned/task_181/k3",
+      "error_profiles": [
+        {
+          "role_name": "Site operations superintendent (OPS)",
+          "target_key": "OPS-PUMP-BJ1",
+          "alternate_key": "OPS-PUMP-NTX",
+          "target_context": "including standby relief personnel",
+          "alternate_context": "excluding standby relief personnel",
+          "candidate": "Pneumatic crest barrier and retention swale scheme",
+          "other_candidates": [
+            "Modular steel stoplog and sluice gate scheme",
+            "Demountable floodwall and tidal flap valve scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "pumping_monitoring_crew",
+              "value": 12,
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ],
+              "unit": "personnel"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "closure_rating_verified",
+              "label": "Structural barrier closure rating verified",
+              "aliases": [
+                "Closure certification status",
+                "Structural seal verification"
+              ]
+            },
+            {
+              "topic": "crest_freeboard_margin",
+              "label": "Minimum crest freeboard margin",
+              "aliases": [
+                "Barrier crest freeboard",
+                "Design surge freeboard height"
+              ]
+            },
+            {
+              "topic": "telemetry_protocol_enabled",
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_seconds",
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ]
+            },
+            {
+              "topic": "discharge_permit_active",
+              "label": "Statutory environmental water discharge permit active",
+              "aliases": [
+                "Discharge permit status",
+                "Environmental agency drainage consent"
+              ]
+            },
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ]
+            },
+            {
+              "topic": "barrier_deployment_crew",
+              "label": "Barrier deployment crew",
+              "aliases": [
+                "Frontline defense installation staffing",
+                "Barrier erection personnel"
+              ]
+            },
+            {
+              "topic": "pumping_monitoring_crew",
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency services liaison (LIAIS)",
+          "target_key": "LIAIS-AID-VUQ",
+          "alternate_key": "LIAIS-AID-ZNB",
+          "target_context": "elapsed time starting at formal multi-agency dispatch request",
+          "alternate_context": "elapsed time starting at initial storm warning issuance",
+          "candidate": "Pneumatic crest barrier and retention swale scheme",
+          "other_candidates": [
+            "Modular steel stoplog and sluice gate scheme",
+            "Demountable floodwall and tidal flap valve scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "value": true,
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "closure_rating_verified",
+              "label": "Structural barrier closure rating verified",
+              "aliases": [
+                "Closure certification status",
+                "Structural seal verification"
+              ]
+            },
+            {
+              "topic": "crest_freeboard_margin",
+              "label": "Minimum crest freeboard margin",
+              "aliases": [
+                "Barrier crest freeboard",
+                "Design surge freeboard height"
+              ]
+            },
+            {
+              "topic": "telemetry_protocol_enabled",
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_seconds",
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ]
+            },
+            {
+              "topic": "discharge_permit_active",
+              "label": "Statutory environmental water discharge permit active",
+              "aliases": [
+                "Discharge permit status",
+                "Environmental agency drainage consent"
+              ]
+            },
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ]
+            },
+            {
+              "topic": "barrier_deployment_crew",
+              "label": "Barrier deployment crew",
+              "aliases": [
+                "Frontline defense installation staffing",
+                "Barrier erection personnel"
+              ]
+            },
+            {
+              "topic": "pumping_monitoring_crew",
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Hydrometric telemetry officer (HYDRO)",
+          "target_key": "HYDRO-TELEM-5HG",
+          "alternate_key": "HYDRO-TELEM-CT6",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Pneumatic crest barrier and retention swale scheme",
+          "other_candidates": [
+            "Modular steel stoplog and sluice gate scheme",
+            "Demountable floodwall and tidal flap valve scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_latency_seconds",
+              "value": 15,
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ],
+              "unit": "s"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_protocol_enabled",
+              "value": true,
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "closure_rating_verified",
+              "label": "Structural barrier closure rating verified",
+              "aliases": [
+                "Closure certification status",
+                "Structural seal verification"
+              ]
+            },
+            {
+              "topic": "crest_freeboard_margin",
+              "label": "Minimum crest freeboard margin",
+              "aliases": [
+                "Barrier crest freeboard",
+                "Design surge freeboard height"
+              ]
+            },
+            {
+              "topic": "telemetry_protocol_enabled",
+              "label": "Active perimeter telemetry protocol enabled",
+              "aliases": [
+                "Telemetry protocol enablement",
+                "Real-time sensor link activation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_seconds",
+              "label": "Telemetry sensor reporting latency",
+              "aliases": [
+                "Sensor telemetry latency",
+                "Data polling delay"
+              ]
+            },
+            {
+              "topic": "discharge_permit_active",
+              "label": "Statutory environmental water discharge permit active",
+              "aliases": [
+                "Discharge permit status",
+                "Environmental agency drainage consent"
+              ]
+            },
+            {
+              "topic": "mutual_aid_agreement_confirmed",
+              "label": "Mutual aid dispatch agreement confirmed",
+              "aliases": [
+                "Emergency mutual aid pact status",
+                "Fire and rescue assistance covenant"
+              ]
+            },
+            {
+              "topic": "barrier_deployment_crew",
+              "label": "Barrier deployment crew",
+              "aliases": [
+                "Frontline defense installation staffing",
+                "Barrier erection personnel"
+              ]
+            },
+            {
+              "topic": "pumping_monitoring_crew",
+              "label": "Pumping monitoring crew",
+              "aliases": [
+                "Hydraulic pumping station staff",
+                "Storm sluice watch technicians"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

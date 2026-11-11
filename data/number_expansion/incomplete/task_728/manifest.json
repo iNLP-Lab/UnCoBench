@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_728",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "fleet_engineering"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Fleet fueling integration engineer (FLT)"
+      ],
+      "directory": "incomplete/task_728",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-EMIS-QI5",
+          "boolean_predicate_id": "A_fugitive_monitoring_active",
+          "boolean_label": "Active fugitive emissions monitoring",
+          "hidden_predicate_id": "A_fugitive_loss_rate",
+          "threshold_label": "Fugitive gas loss rate",
+          "threshold_aliases": [
+            "Fugitive venting rate",
+            "Uncontrolled leakage rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-EMIS-QI5: On-site proton exchange membrane electrolysis.On-site proton exchange membrane electrolysis: Active fugitive emissions monitoring = true .Source: Environmental management inspection log; Scope: Candidate synthesis and compression facility; Measurement: Continuous operational status of automated fugitive gas detection arrays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Fugitive gas loss rate is between 0.5 % and 4 %, inclusive.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "On-site proton exchange membrane electrolysis",
+          "other_candidate_names": [
+            "Centralized alkaline electrolysis with cryogenic tube trailers",
+            "Biomethane catalytic steam reforming with carbon capture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_engineering_A",
+          "role_id": "fleet_engineering",
+          "candidate_id": "A",
+          "key": "FLT-DISP-ZCM",
+          "hidden_predicate_id": "A_hydrogen_purity_level",
+          "threshold_label": "Hydrogen fuel purity",
+          "threshold_aliases": [
+            "Hydrogen gas purity level",
+            "Fuel cell grade purity"
+          ],
+          "threshold_value": 99.99,
+          "threshold_unit": "%",
+          "partial_record_text": "FLT-DISP-ZCM: On-site proton exchange membrane electrolysis.On-site proton exchange membrane electrolysis: Dispensing pressure compliance = true .Source: Fleet engineering validation audit; Scope: Depot fast-fill interface systems; Measurement: Verification of 350-bar heavy-duty vehicle dispensing compatibility.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Hydrogen fuel purity is between 50 % and 100 %, inclusive.",
+          "role_name": "Fleet fueling integration engineer (FLT)",
+          "candidate_name": "On-site proton exchange membrane electrolysis",
+          "other_candidate_names": [
+            "Centralized alkaline electrolysis with cryogenic tube trailers",
+            "Biomethane catalytic steam reforming with carbon capture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "fleet_engineering",
+        "logistics_management"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Fleet fueling integration engineer (FLT)",
+        "Supply chain and storage coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_728",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-EMIS-QI5",
+          "boolean_predicate_id": "A_fugitive_monitoring_active",
+          "boolean_label": "Active fugitive emissions monitoring",
+          "hidden_predicate_id": "A_fugitive_loss_rate",
+          "threshold_label": "Fugitive gas loss rate",
+          "threshold_aliases": [
+            "Fugitive venting rate",
+            "Uncontrolled leakage rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-EMIS-QI5: On-site proton exchange membrane electrolysis.On-site proton exchange membrane electrolysis: Active fugitive emissions monitoring = true .Source: Environmental management inspection log; Scope: Candidate synthesis and compression facility; Measurement: Continuous operational status of automated fugitive gas detection arrays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Fugitive gas loss rate is between 0.5 % and 4 %, inclusive.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "On-site proton exchange membrane electrolysis",
+          "other_candidate_names": [
+            "Centralized alkaline electrolysis with cryogenic tube trailers",
+            "Biomethane catalytic steam reforming with carbon capture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_engineering_A",
+          "role_id": "fleet_engineering",
+          "candidate_id": "A",
+          "key": "FLT-DISP-ZCM",
+          "hidden_predicate_id": "A_hydrogen_purity_level",
+          "threshold_label": "Hydrogen fuel purity",
+          "threshold_aliases": [
+            "Hydrogen gas purity level",
+            "Fuel cell grade purity"
+          ],
+          "threshold_value": 99.99,
+          "threshold_unit": "%",
+          "partial_record_text": "FLT-DISP-ZCM: On-site proton exchange membrane electrolysis.On-site proton exchange membrane electrolysis: Dispensing pressure compliance = true .Source: Fleet engineering validation audit; Scope: Depot fast-fill interface systems; Measurement: Verification of 350-bar heavy-duty vehicle dispensing compatibility.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Hydrogen fuel purity is between 50 % and 100 %, inclusive.",
+          "role_name": "Fleet fueling integration engineer (FLT)",
+          "candidate_name": "On-site proton exchange membrane electrolysis",
+          "other_candidate_names": [
+            "Centralized alkaline electrolysis with cryogenic tube trailers",
+            "Biomethane catalytic steam reforming with carbon capture"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_management_A",
+          "role_id": "logistics_management",
+          "candidate_id": "A",
+          "key": "LOG-STOR-MSY",
+          "hidden_predicate_id": "A_buffer_storage_volume",
+          "threshold_label": "Buffer storage allocation volume",
+          "threshold_aliases": [
+            "Reserve storage volume",
+            "Dedicated buffer capacity"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-STOR-MSY: On-site proton exchange membrane electrolysis.Buffer volume accounting basis: net usable volume after deducting emergency heel cushion.On-site proton exchange membrane electrolysis: Distribution safety certification = true .Source: National transport safety agency register; Scope: Candidate distribution logistics corridor and equipment; Measurement: Formal certification for pressurized road distribution.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Buffer storage allocation volume is between 0 t and 500 t, inclusive.",
+          "role_name": "Supply chain and storage coordinator (LOG)",
+          "candidate_name": "On-site proton exchange membrane electrolysis",
+          "other_candidate_names": [
+            "Centralized alkaline electrolysis with cryogenic tube trailers",
+            "Biomethane catalytic steam reforming with carbon capture"
+          ],
+          "context_value": "net usable volume after deducting emergency heel cushion",
+          "other_context_values": [
+            "gross reserved volume before deducting emergency heel cushion"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

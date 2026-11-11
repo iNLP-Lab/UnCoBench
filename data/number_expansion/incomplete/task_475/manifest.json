@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_475",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "health_safety",
+        "facilities_management"
+      ],
+      "role_names": [
+        "Health and environmental safety inspector (HSE)",
+        "Venue facilities director (FAC)"
+      ],
+      "directory": "incomplete/task_475",
+      "profiles": [
+        {
+          "record_id": "rec_health_safety_A",
+          "role_id": "health_safety",
+          "candidate_id": "A",
+          "key": "HSE-VENT-D3R",
+          "boolean_predicate_id": "A_air_filtration_certified",
+          "boolean_label": "Central air filtration system certified",
+          "hidden_predicate_id": "A_fresh_air_exchange_rate",
+          "threshold_label": "Outdoor fresh air ventilation rate",
+          "threshold_aliases": [
+            "Air change exchange rate",
+            "Fresh air intake per person"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "m3/h/person",
+          "partial_record_text": "HSE-VENT-D3R: Praterstern Expo Congress Center.Praterstern Expo Congress Center: Central air filtration system certified = true .Source: HVAC compliance audit certificate; Scope: All public gathering auditoria and exhibition halls; Measurement: Valid ISO 16890 / EN 1822 particulate filtration certification status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Outdoor fresh air ventilation rate is at most 50 m3/h/person.",
+          "role_name": "Health and environmental safety inspector (HSE)",
+          "candidate_name": "Praterstern Expo Congress Center",
+          "other_candidate_names": [
+            "Danube Waterfront Exhibition Palace",
+            "Belvedere Grand International Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_management_A",
+          "role_id": "facilities_management",
+          "candidate_id": "A",
+          "key": "FAC-HALL-XKB",
+          "hidden_predicate_id": "A_plenary_hall_capacity",
+          "threshold_label": "Plenary hall tiered seating capacity",
+          "threshold_aliases": [
+            "Auditorium seating capacity",
+            "Main plenary capacity"
+          ],
+          "threshold_value": 4400,
+          "threshold_unit": "seats",
+          "partial_record_text": "FAC-HALL-XKB: Praterstern Expo Congress Center.Aggregation window: full 4-day summit cumulative window.Praterstern Expo Congress Center: Baseline exhibition hall electricity demand = 280 MWh.Source: Municipal electrical utility meter forecast; Scope: All exhibition halls, concourses, and climate systems across the 4-day summit; Measurement: Cumulative base facility electrical energy consumption.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6000
+          },
+          "coarse_statement": "Plenary hall tiered seating capacity is at most 6000 seats.",
+          "role_name": "Venue facilities director (FAC)",
+          "candidate_name": "Praterstern Expo Congress Center",
+          "other_candidate_names": [
+            "Danube Waterfront Exhibition Palace",
+            "Belvedere Grand International Forum"
+          ],
+          "context_value": "full 4-day summit cumulative window",
+          "other_context_values": [
+            "daily average summit window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "health_safety",
+        "facilities_management",
+        "transit_logistics"
+      ],
+      "role_names": [
+        "Health and environmental safety inspector (HSE)",
+        "Venue facilities director (FAC)",
+        "Municipal transit and crowd liaison (LOG)"
+      ],
+      "directory": "incomplete/task_475",
+      "profiles": [
+        {
+          "record_id": "rec_health_safety_A",
+          "role_id": "health_safety",
+          "candidate_id": "A",
+          "key": "HSE-VENT-D3R",
+          "boolean_predicate_id": "A_air_filtration_certified",
+          "boolean_label": "Central air filtration system certified",
+          "hidden_predicate_id": "A_fresh_air_exchange_rate",
+          "threshold_label": "Outdoor fresh air ventilation rate",
+          "threshold_aliases": [
+            "Air change exchange rate",
+            "Fresh air intake per person"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "m3/h/person",
+          "partial_record_text": "HSE-VENT-D3R: Praterstern Expo Congress Center.Praterstern Expo Congress Center: Central air filtration system certified = true .Source: HVAC compliance audit certificate; Scope: All public gathering auditoria and exhibition halls; Measurement: Valid ISO 16890 / EN 1822 particulate filtration certification status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Outdoor fresh air ventilation rate is at most 50 m3/h/person.",
+          "role_name": "Health and environmental safety inspector (HSE)",
+          "candidate_name": "Praterstern Expo Congress Center",
+          "other_candidate_names": [
+            "Danube Waterfront Exhibition Palace",
+            "Belvedere Grand International Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_management_A",
+          "role_id": "facilities_management",
+          "candidate_id": "A",
+          "key": "FAC-HALL-XKB",
+          "hidden_predicate_id": "A_plenary_hall_capacity",
+          "threshold_label": "Plenary hall tiered seating capacity",
+          "threshold_aliases": [
+            "Auditorium seating capacity",
+            "Main plenary capacity"
+          ],
+          "threshold_value": 4400,
+          "threshold_unit": "seats",
+          "partial_record_text": "FAC-HALL-XKB: Praterstern Expo Congress Center.Aggregation window: full 4-day summit cumulative window.Praterstern Expo Congress Center: Baseline exhibition hall electricity demand = 280 MWh.Source: Municipal electrical utility meter forecast; Scope: All exhibition halls, concourses, and climate systems across the 4-day summit; Measurement: Cumulative base facility electrical energy consumption.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6000
+          },
+          "coarse_statement": "Plenary hall tiered seating capacity is at most 6000 seats.",
+          "role_name": "Venue facilities director (FAC)",
+          "candidate_name": "Praterstern Expo Congress Center",
+          "other_candidate_names": [
+            "Danube Waterfront Exhibition Palace",
+            "Belvedere Grand International Forum"
+          ],
+          "context_value": "full 4-day summit cumulative window",
+          "other_context_values": [
+            "daily average summit window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_logistics_A",
+          "role_id": "transit_logistics",
+          "candidate_id": "A",
+          "key": "LOG-MOB-TA3",
+          "hidden_predicate_id": "A_rail_transit_headway",
+          "threshold_label": "Rapid rail peak service headway",
+          "threshold_aliases": [
+            "Subway connection frequency",
+            "Rail interval"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-MOB-TA3: Praterstern Expo Congress Center. The record covers Rapid rail peak service headway. Metropolitan transit authority timetable; Direct station adjoining the primary venue concourse during peak morning rush; Scheduled interval between successive high-capacity rapid transit trains.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Rapid rail peak service headway is at most 30 min.",
+          "role_name": "Municipal transit and crowd liaison (LOG)",
+          "candidate_name": "Praterstern Expo Congress Center",
+          "other_candidate_names": [
+            "Danube Waterfront Exhibition Palace",
+            "Belvedere Grand International Forum"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_842",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "radiation_safety_officer",
+        "flight_operations_manager"
+      ],
+      "role_names": [
+        "Radiation safety director (RSO)",
+        "Aviation flight operations manager (FLT)"
+      ],
+      "directory": "incomplete/task_842",
+      "profiles": [
+        {
+          "record_id": "rec_radiation_safety_officer_A",
+          "role_id": "radiation_safety_officer",
+          "candidate_id": "A",
+          "key": "RSO-RADS-850",
+          "boolean_predicate_id": "A_escort_certified",
+          "boolean_label": "Active isotope transport escort certified",
+          "hidden_predicate_id": "A_transit_radiation_exposure",
+          "threshold_label": "Maximum cumulative transit radiation exposure",
+          "threshold_aliases": [
+            "Cumulative transit dosimeter reading",
+            "Peak package transit radiation dose"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "mSv",
+          "partial_record_text": "RSO-RADS-850: Direct transatlantic widebody freighter routing.Direct transatlantic widebody freighter routing: Active isotope transport escort certified = true .Source: Radiation protection credential log; Scope: Designated medical escort personnel traveling aboard cargo legs; Measurement: Whether assigned personnel hold an active Class 7 radioactive material courier certification.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum cumulative transit radiation exposure is between 10 mSv and 60 mSv, inclusive.",
+          "role_name": "Radiation safety director (RSO)",
+          "candidate_name": "Direct transatlantic widebody freighter routing",
+          "other_candidate_names": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_manager_A",
+          "role_id": "flight_operations_manager",
+          "candidate_id": "A",
+          "key": "FLT-AVOPS-6I3",
+          "hidden_predicate_id": "A_tarmac_dwell_minutes",
+          "threshold_label": "Maximum tarmac transshipment dwell time",
+          "threshold_aliases": [
+            "Apron transfer dwell duration",
+            "Ground transshipment layover time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-AVOPS-6I3: Direct transatlantic widebody freighter routing.Direct transatlantic widebody freighter routing: Primary airframe flight charter tariff = 18000 USD.Source: Air charter commercial contract rate table; Scope: Dedicated cargo airframe flight legs; Measurement: Flat base charter rate for priority dangerous goods air transport.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum tarmac transshipment dwell time is between 20 min and 90 min, inclusive.",
+          "role_name": "Aviation flight operations manager (FLT)",
+          "candidate_name": "Direct transatlantic widebody freighter routing",
+          "other_candidate_names": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "radiation_safety_officer",
+        "flight_operations_manager",
+        "ramp_handling_coordinator"
+      ],
+      "role_names": [
+        "Radiation safety director (RSO)",
+        "Aviation flight operations manager (FLT)",
+        "Dangerous goods ramp logistics coordinator (RAMP)"
+      ],
+      "directory": "incomplete/task_842",
+      "profiles": [
+        {
+          "record_id": "rec_radiation_safety_officer_A",
+          "role_id": "radiation_safety_officer",
+          "candidate_id": "A",
+          "key": "RSO-RADS-850",
+          "boolean_predicate_id": "A_escort_certified",
+          "boolean_label": "Active isotope transport escort certified",
+          "hidden_predicate_id": "A_transit_radiation_exposure",
+          "threshold_label": "Maximum cumulative transit radiation exposure",
+          "threshold_aliases": [
+            "Cumulative transit dosimeter reading",
+            "Peak package transit radiation dose"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "mSv",
+          "partial_record_text": "RSO-RADS-850: Direct transatlantic widebody freighter routing.Direct transatlantic widebody freighter routing: Active isotope transport escort certified = true .Source: Radiation protection credential log; Scope: Designated medical escort personnel traveling aboard cargo legs; Measurement: Whether assigned personnel hold an active Class 7 radioactive material courier certification.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum cumulative transit radiation exposure is between 10 mSv and 60 mSv, inclusive.",
+          "role_name": "Radiation safety director (RSO)",
+          "candidate_name": "Direct transatlantic widebody freighter routing",
+          "other_candidate_names": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_manager_A",
+          "role_id": "flight_operations_manager",
+          "candidate_id": "A",
+          "key": "FLT-AVOPS-6I3",
+          "hidden_predicate_id": "A_tarmac_dwell_minutes",
+          "threshold_label": "Maximum tarmac transshipment dwell time",
+          "threshold_aliases": [
+            "Apron transfer dwell duration",
+            "Ground transshipment layover time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-AVOPS-6I3: Direct transatlantic widebody freighter routing.Direct transatlantic widebody freighter routing: Primary airframe flight charter tariff = 18000 USD.Source: Air charter commercial contract rate table; Scope: Dedicated cargo airframe flight legs; Measurement: Flat base charter rate for priority dangerous goods air transport.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum tarmac transshipment dwell time is between 20 min and 90 min, inclusive.",
+          "role_name": "Aviation flight operations manager (FLT)",
+          "candidate_name": "Direct transatlantic widebody freighter routing",
+          "other_candidate_names": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ramp_handling_coordinator_A",
+          "role_id": "ramp_handling_coordinator",
+          "candidate_id": "A",
+          "key": "RAMP-GNDLOG-VDR",
+          "hidden_predicate_id": "A_ground_handling_tariff",
+          "threshold_label": "Specialized radioactive ground handling tariff",
+          "threshold_aliases": [
+            "Ramp hazmat handling fee",
+            "Radioactive cargo ground tariff"
+          ],
+          "threshold_value": 10000,
+          "threshold_unit": "USD",
+          "partial_record_text": "RAMP-GNDLOG-VDR: Direct transatlantic widebody freighter routing.Direct transatlantic widebody freighter routing: Border customs pre-clearance protocol validated = true .Source: National border agency expedited cargo registry; Scope: Arrival port of entry hazardous medical imports; Measurement: Whether advance electronic manifest pre-clearance permits bypass of physical customs holding warehouses.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 20000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Specialized radioactive ground handling tariff is between 0 USD and 20000 USD, inclusive.",
+          "role_name": "Dangerous goods ramp logistics coordinator (RAMP)",
+          "candidate_name": "Direct transatlantic widebody freighter routing",
+          "other_candidate_names": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

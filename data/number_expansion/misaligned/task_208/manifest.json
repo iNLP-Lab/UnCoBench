@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_208",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_operations",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Logistics operations director (OPS)",
+        "Quality assurance director (QA)"
+      ],
+      "directory": "number_expansion/misaligned/task_208/k2",
+      "error_profiles": [
+        {
+          "role_name": "Logistics operations director (OPS)",
+          "target_key": "OPS-CRYO-YNS",
+          "alternate_key": "OPS-CRYO-UBC",
+          "target_context": "month-end snapshot",
+          "alternate_context": "monthly average",
+          "candidate": "AeroCryo Global Express",
+          "other_candidates": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "dedicated_cryo_capacity",
+              "value": 180,
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ],
+              "unit": "pallet"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice compliance certification",
+              "aliases": [
+                "GDP compliance",
+                "GDP certification"
+              ]
+            },
+            {
+              "topic": "telemetry_logging_enabled",
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_transit_authorized",
+              "label": "Bonded customs transit authorization",
+              "aliases": [
+                "Bonded customs clearance",
+                "Authorized Economic Operator transit status"
+              ]
+            },
+            {
+              "topic": "dedicated_cryo_capacity",
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ]
+            },
+            {
+              "topic": "escrow_deposit_secured",
+              "label": "Financial escrow guarantee secured",
+              "aliases": [
+                "Escrow performance deposit",
+                "Commercial bond guarantee"
+              ]
+            },
+            {
+              "topic": "monthly_cryo_volume",
+              "label": "Monthly cryo volume",
+              "aliases": [
+                "Contracted monthly throughput",
+                "Monthly cryo pallet throughput"
+              ]
+            },
+            {
+              "topic": "cryo_pallet_tariff",
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance director (QA)",
+          "target_key": "QA-GDP-ZRC",
+          "alternate_key": "QA-GDP-52H",
+          "target_context": "trailing 30-day window",
+          "alternate_context": "trailing 12-month window",
+          "candidate": "AeroCryo Global Express",
+          "other_candidates": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "max_excursion_duration",
+              "value": 15,
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_logging_enabled",
+              "value": true,
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice compliance certification",
+              "aliases": [
+                "GDP compliance",
+                "GDP certification"
+              ]
+            },
+            {
+              "topic": "telemetry_logging_enabled",
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_transit_authorized",
+              "label": "Bonded customs transit authorization",
+              "aliases": [
+                "Bonded customs clearance",
+                "Authorized Economic Operator transit status"
+              ]
+            },
+            {
+              "topic": "dedicated_cryo_capacity",
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ]
+            },
+            {
+              "topic": "escrow_deposit_secured",
+              "label": "Financial escrow guarantee secured",
+              "aliases": [
+                "Escrow performance deposit",
+                "Commercial bond guarantee"
+              ]
+            },
+            {
+              "topic": "monthly_cryo_volume",
+              "label": "Monthly cryo volume",
+              "aliases": [
+                "Contracted monthly throughput",
+                "Monthly cryo pallet throughput"
+              ]
+            },
+            {
+              "topic": "cryo_pallet_tariff",
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_operations",
+        "quality_assurance",
+        "commercial_finance"
+      ],
+      "role_names": [
+        "Logistics operations director (OPS)",
+        "Quality assurance director (QA)",
+        "Commercial contracts and finance manager (FIN)"
+      ],
+      "directory": "number_expansion/misaligned/task_208/k3",
+      "error_profiles": [
+        {
+          "role_name": "Logistics operations director (OPS)",
+          "target_key": "OPS-CRYO-YNS",
+          "alternate_key": "OPS-CRYO-UBC",
+          "target_context": "month-end snapshot",
+          "alternate_context": "monthly average",
+          "candidate": "AeroCryo Global Express",
+          "other_candidates": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "dedicated_cryo_capacity",
+              "value": 180,
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ],
+              "unit": "pallet"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice compliance certification",
+              "aliases": [
+                "GDP compliance",
+                "GDP certification"
+              ]
+            },
+            {
+              "topic": "telemetry_logging_enabled",
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_transit_authorized",
+              "label": "Bonded customs transit authorization",
+              "aliases": [
+                "Bonded customs clearance",
+                "Authorized Economic Operator transit status"
+              ]
+            },
+            {
+              "topic": "dedicated_cryo_capacity",
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ]
+            },
+            {
+              "topic": "escrow_deposit_secured",
+              "label": "Financial escrow guarantee secured",
+              "aliases": [
+                "Escrow performance deposit",
+                "Commercial bond guarantee"
+              ]
+            },
+            {
+              "topic": "monthly_cryo_volume",
+              "label": "Monthly cryo volume",
+              "aliases": [
+                "Contracted monthly throughput",
+                "Monthly cryo pallet throughput"
+              ]
+            },
+            {
+              "topic": "cryo_pallet_tariff",
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance director (QA)",
+          "target_key": "QA-GDP-ZRC",
+          "alternate_key": "QA-GDP-52H",
+          "target_context": "trailing 30-day window",
+          "alternate_context": "trailing 12-month window",
+          "candidate": "AeroCryo Global Express",
+          "other_candidates": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "max_excursion_duration",
+              "value": 15,
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_logging_enabled",
+              "value": true,
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice compliance certification",
+              "aliases": [
+                "GDP compliance",
+                "GDP certification"
+              ]
+            },
+            {
+              "topic": "telemetry_logging_enabled",
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_transit_authorized",
+              "label": "Bonded customs transit authorization",
+              "aliases": [
+                "Bonded customs clearance",
+                "Authorized Economic Operator transit status"
+              ]
+            },
+            {
+              "topic": "dedicated_cryo_capacity",
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ]
+            },
+            {
+              "topic": "escrow_deposit_secured",
+              "label": "Financial escrow guarantee secured",
+              "aliases": [
+                "Escrow performance deposit",
+                "Commercial bond guarantee"
+              ]
+            },
+            {
+              "topic": "monthly_cryo_volume",
+              "label": "Monthly cryo volume",
+              "aliases": [
+                "Contracted monthly throughput",
+                "Monthly cryo pallet throughput"
+              ]
+            },
+            {
+              "topic": "cryo_pallet_tariff",
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial contracts and finance manager (FIN)",
+          "target_key": "FIN-ESCROW-9NT",
+          "alternate_key": "FIN-ESCROW-ON9",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "AeroCryo Global Express",
+          "other_candidates": [
+            "Vanguard BioPharma Logistics",
+            "Nordic Cold Chain Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "cryo_pallet_tariff",
+              "value": 80,
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ],
+              "unit": "EUR/pallet"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "Good Distribution Practice compliance certification",
+              "aliases": [
+                "GDP compliance",
+                "GDP certification"
+              ]
+            },
+            {
+              "topic": "telemetry_logging_enabled",
+              "label": "Continuous telemetry logging enabled",
+              "aliases": [
+                "Telemetry logging activation",
+                "Real-time sensor feed"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum allowable temperature excursion duration",
+              "aliases": [
+                "Excursion window limit",
+                "Out-of-range thermal duration"
+              ]
+            },
+            {
+              "topic": "customs_transit_authorized",
+              "label": "Bonded customs transit authorization",
+              "aliases": [
+                "Bonded customs clearance",
+                "Authorized Economic Operator transit status"
+              ]
+            },
+            {
+              "topic": "dedicated_cryo_capacity",
+              "label": "Dedicated ultra-low cryo storage capacity",
+              "aliases": [
+                "Cryogenic storage capacity",
+                "Dedicated minus 80 pallet slots"
+              ]
+            },
+            {
+              "topic": "escrow_deposit_secured",
+              "label": "Financial escrow guarantee secured",
+              "aliases": [
+                "Escrow performance deposit",
+                "Commercial bond guarantee"
+              ]
+            },
+            {
+              "topic": "monthly_cryo_volume",
+              "label": "Monthly cryo volume",
+              "aliases": [
+                "Contracted monthly throughput",
+                "Monthly cryo pallet throughput"
+              ]
+            },
+            {
+              "topic": "cryo_pallet_tariff",
+              "label": "Cryo pallet tariff",
+              "aliases": [
+                "Per-pallet cryo storage rate",
+                "Unit pallet handling fee"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

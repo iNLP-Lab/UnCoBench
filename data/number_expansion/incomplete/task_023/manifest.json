@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_023",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "biocontainment_safety",
+        "occupational_medicine"
+      ],
+      "role_names": [
+        "Biocontainment ergonomics lead (SAFE)",
+        "Occupational health specialist (OCC)"
+      ],
+      "directory": "incomplete/task_023",
+      "profiles": [
+        {
+          "record_id": "rec_biocontainment_safety_A",
+          "role_id": "biocontainment_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SUIT-718",
+          "boolean_predicate_id": "A_ppe_endurance_tested",
+          "boolean_label": "Level-4 PPE endurance testing clearance",
+          "hidden_predicate_id": "A_peak_gear_heart_rate",
+          "threshold_label": "Peak containment gear heart rate",
+          "threshold_aliases": [
+            "Maximum encapsulated exertion heart rate",
+            "Peak suit exertion heart rate"
+          ],
+          "threshold_value": 128,
+          "threshold_unit": "bpm",
+          "partial_record_text": "SAFE-SUIT-718: Dr. Fiona Gallagher.Dr. Fiona Gallagher: Level-4 PPE endurance testing clearance = true .Source: Biocontainment human factors testing log; Scope: Four-hour continuous positive-pressure suit simulation trial; Measurement: Formal sign-off confirming full completion of physical tasks in encapsulated gear.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Peak containment gear heart rate is between 100 bpm and 300 bpm, inclusive.",
+          "role_name": "Biocontainment ergonomics lead (SAFE)",
+          "candidate_name": "Dr. Fiona Gallagher",
+          "other_candidate_names": [
+            "Dr. Julian Mercer",
+            "Dr. Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_occupational_medicine_A",
+          "role_id": "occupational_medicine",
+          "candidate_id": "A",
+          "key": "OCC-MEDCLR-KBE",
+          "hidden_predicate_id": "A_decon_downtime_offset",
+          "threshold_label": "Mandatory decontamination downtime offset",
+          "threshold_aliases": [
+            "Required chemical airlock recovery deduction",
+            "Annual post-entry decontamination reserve"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "h",
+          "partial_record_text": "OCC-MEDCLR-KBE: Dr. Fiona Gallagher.Dr. Fiona Gallagher: Chemical vapor decontamination medical clearance = true .Source: Occupational health surveillance file; Scope: Chemical shower and vaporized sterilant exposure medical evaluation; Measurement: Medical clearance indicating absence of respiratory hypersensitivity to sterilizing vapors.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory decontamination downtime offset is between 20 h and 80 h, inclusive.",
+          "role_name": "Occupational health specialist (OCC)",
+          "candidate_name": "Dr. Fiona Gallagher",
+          "other_candidate_names": [
+            "Dr. Julian Mercer",
+            "Dr. Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "biocontainment_safety",
+        "occupational_medicine",
+        "isolation_operations"
+      ],
+      "role_names": [
+        "Biocontainment ergonomics lead (SAFE)",
+        "Occupational health specialist (OCC)",
+        "Isolation ward operations director (OPS)"
+      ],
+      "directory": "incomplete/task_023",
+      "profiles": [
+        {
+          "record_id": "rec_biocontainment_safety_A",
+          "role_id": "biocontainment_safety",
+          "candidate_id": "A",
+          "key": "SAFE-SUIT-718",
+          "boolean_predicate_id": "A_ppe_endurance_tested",
+          "boolean_label": "Level-4 PPE endurance testing clearance",
+          "hidden_predicate_id": "A_peak_gear_heart_rate",
+          "threshold_label": "Peak containment gear heart rate",
+          "threshold_aliases": [
+            "Maximum encapsulated exertion heart rate",
+            "Peak suit exertion heart rate"
+          ],
+          "threshold_value": 128,
+          "threshold_unit": "bpm",
+          "partial_record_text": "SAFE-SUIT-718: Dr. Fiona Gallagher.Dr. Fiona Gallagher: Level-4 PPE endurance testing clearance = true .Source: Biocontainment human factors testing log; Scope: Four-hour continuous positive-pressure suit simulation trial; Measurement: Formal sign-off confirming full completion of physical tasks in encapsulated gear.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Peak containment gear heart rate is between 100 bpm and 300 bpm, inclusive.",
+          "role_name": "Biocontainment ergonomics lead (SAFE)",
+          "candidate_name": "Dr. Fiona Gallagher",
+          "other_candidate_names": [
+            "Dr. Julian Mercer",
+            "Dr. Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_occupational_medicine_A",
+          "role_id": "occupational_medicine",
+          "candidate_id": "A",
+          "key": "OCC-MEDCLR-KBE",
+          "hidden_predicate_id": "A_decon_downtime_offset",
+          "threshold_label": "Mandatory decontamination downtime offset",
+          "threshold_aliases": [
+            "Required chemical airlock recovery deduction",
+            "Annual post-entry decontamination reserve"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "h",
+          "partial_record_text": "OCC-MEDCLR-KBE: Dr. Fiona Gallagher.Dr. Fiona Gallagher: Chemical vapor decontamination medical clearance = true .Source: Occupational health surveillance file; Scope: Chemical shower and vaporized sterilant exposure medical evaluation; Measurement: Medical clearance indicating absence of respiratory hypersensitivity to sterilizing vapors.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory decontamination downtime offset is between 20 h and 80 h, inclusive.",
+          "role_name": "Occupational health specialist (OCC)",
+          "candidate_name": "Dr. Fiona Gallagher",
+          "other_candidate_names": [
+            "Dr. Julian Mercer",
+            "Dr. Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_isolation_operations_A",
+          "role_id": "isolation_operations",
+          "candidate_id": "A",
+          "key": "OPS-CLIN-VJ6",
+          "hidden_predicate_id": "A_primary_isolation_allowance",
+          "threshold_label": "Primary isolation coverage allowance",
+          "threshold_aliases": [
+            "Scheduled containment shift hours",
+            "Base isolation clinical allocation"
+          ],
+          "threshold_value": 260,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-CLIN-VJ6: Dr. Fiona Gallagher.Isolation coverage calculation basis: excluding pre-entry airlock staging time.Dr. Fiona Gallagher: Biocontainment protocol audit sign-off = true .Source: High-level isolation unit operational readiness checklist; Scope: Candidate clinical governance inspection completed for the 2026 operational cycle; Measurement: Formal sign-off confirming full compliance with airborne and contact biocontainment standards.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary isolation coverage allowance is between 100 h and 500 h, inclusive.",
+          "role_name": "Isolation ward operations director (OPS)",
+          "candidate_name": "Dr. Fiona Gallagher",
+          "other_candidate_names": [
+            "Dr. Julian Mercer",
+            "Dr. Tariq Al-Mansoor"
+          ],
+          "context_value": "excluding pre-entry airlock staging time",
+          "other_context_values": [
+            "including pre-entry airlock staging time"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

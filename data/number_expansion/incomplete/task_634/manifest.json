@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_634",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "salvage_ops",
+        "harbor_master"
+      ],
+      "role_names": [
+        "Salvage operations lead (SALV)",
+        "Harbor master navigation coordinator (PORT)"
+      ],
+      "directory": "incomplete/task_634",
+      "profiles": [
+        {
+          "record_id": "rec_salvage_ops_A",
+          "role_id": "salvage_ops",
+          "candidate_id": "A",
+          "key": "SALV-POW-DNV",
+          "boolean_predicate_id": "A_dp_certified",
+          "boolean_label": "Dynamic positioning system certification",
+          "hidden_predicate_id": "A_tow_pull_rating",
+          "threshold_label": "Emergency tow wire pull test rating",
+          "threshold_aliases": [
+            "Bollard pull proof rating",
+            "Towing winch pull capacity"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "t",
+          "partial_record_text": "SALV-POW-DNV: Deep Ocean Heavy Lift & Containment Taskforce.Deep Ocean Heavy Lift & Containment Taskforce: Dynamic positioning system certification = true .Source: Vessel Classification Society Survey; Scope: Primary salvage tug dynamic positioning system; Measurement: Whether the vessel holds valid class notation certification for DP-2 redundancy.Deep Ocean Heavy Lift & Containment Taskforce: Primary salvage pumping throughput = 500 m3/h.Source: Offloading Pump Bench Test Audit; Scope: High-viscosity fuel offloading salvage pump set; Measurement: Continuous volumetric fuel transfer delivery rate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Emergency tow wire pull test rating is at most 400 t.",
+          "role_name": "Salvage operations lead (SALV)",
+          "candidate_name": "Deep Ocean Heavy Lift & Containment Taskforce",
+          "other_candidate_names": [
+            "Integrated Coastal Response & Tug Flotilla",
+            "Rapid Deployment Subsea Pumping Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_master_A",
+          "role_id": "harbor_master",
+          "candidate_id": "A",
+          "key": "PORT-NAV-MMR",
+          "hidden_predicate_id": "A_maximum_vessel_draft",
+          "threshold_label": "Maximum vessel operating draft",
+          "threshold_aliases": [
+            "Vessel operating draft limit",
+            "Navigational channel draft"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "m",
+          "partial_record_text": "PORT-NAV-MMR: Deep Ocean Heavy Lift & Containment Taskforce. The record covers Maximum vessel operating draft. Bathymetric Ingress Feasibility Assessment; Port Hedland coastal shoal navigation channel; Deepest static seawater draft among all mobilized consortium vessels under full ballast.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum vessel operating draft is at most 30 m.",
+          "role_name": "Harbor master navigation coordinator (PORT)",
+          "candidate_name": "Deep Ocean Heavy Lift & Containment Taskforce",
+          "other_candidate_names": [
+            "Integrated Coastal Response & Tug Flotilla",
+            "Rapid Deployment Subsea Pumping Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "salvage_ops",
+        "harbor_master",
+        "naval_arch"
+      ],
+      "role_names": [
+        "Salvage operations lead (SALV)",
+        "Harbor master navigation coordinator (PORT)",
+        "Naval architecture lead (ARCH)"
+      ],
+      "directory": "incomplete/task_634",
+      "profiles": [
+        {
+          "record_id": "rec_salvage_ops_A",
+          "role_id": "salvage_ops",
+          "candidate_id": "A",
+          "key": "SALV-POW-DNV",
+          "boolean_predicate_id": "A_dp_certified",
+          "boolean_label": "Dynamic positioning system certification",
+          "hidden_predicate_id": "A_tow_pull_rating",
+          "threshold_label": "Emergency tow wire pull test rating",
+          "threshold_aliases": [
+            "Bollard pull proof rating",
+            "Towing winch pull capacity"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "t",
+          "partial_record_text": "SALV-POW-DNV: Deep Ocean Heavy Lift & Containment Taskforce.Deep Ocean Heavy Lift & Containment Taskforce: Dynamic positioning system certification = true .Source: Vessel Classification Society Survey; Scope: Primary salvage tug dynamic positioning system; Measurement: Whether the vessel holds valid class notation certification for DP-2 redundancy.Deep Ocean Heavy Lift & Containment Taskforce: Primary salvage pumping throughput = 500 m3/h.Source: Offloading Pump Bench Test Audit; Scope: High-viscosity fuel offloading salvage pump set; Measurement: Continuous volumetric fuel transfer delivery rate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Emergency tow wire pull test rating is at most 400 t.",
+          "role_name": "Salvage operations lead (SALV)",
+          "candidate_name": "Deep Ocean Heavy Lift & Containment Taskforce",
+          "other_candidate_names": [
+            "Integrated Coastal Response & Tug Flotilla",
+            "Rapid Deployment Subsea Pumping Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_master_A",
+          "role_id": "harbor_master",
+          "candidate_id": "A",
+          "key": "PORT-NAV-MMR",
+          "hidden_predicate_id": "A_maximum_vessel_draft",
+          "threshold_label": "Maximum vessel operating draft",
+          "threshold_aliases": [
+            "Vessel operating draft limit",
+            "Navigational channel draft"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "m",
+          "partial_record_text": "PORT-NAV-MMR: Deep Ocean Heavy Lift & Containment Taskforce. The record covers Maximum vessel operating draft. Bathymetric Ingress Feasibility Assessment; Port Hedland coastal shoal navigation channel; Deepest static seawater draft among all mobilized consortium vessels under full ballast.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum vessel operating draft is at most 30 m.",
+          "role_name": "Harbor master navigation coordinator (PORT)",
+          "candidate_name": "Deep Ocean Heavy Lift & Containment Taskforce",
+          "other_candidate_names": [
+            "Integrated Coastal Response & Tug Flotilla",
+            "Rapid Deployment Subsea Pumping Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_arch_A",
+          "role_id": "naval_arch",
+          "candidate_id": "A",
+          "key": "ARCH-STAB-8O4",
+          "hidden_predicate_id": "A_reserve_buoyancy_margin",
+          "threshold_label": "Damaged hull reserve buoyancy margin",
+          "threshold_aliases": [
+            "Reserve buoyancy margin",
+            "Compensatory buoyancy ratio"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "%",
+          "partial_record_text": "ARCH-STAB-8O4: Deep Ocean Heavy Lift & Containment Taskforce. The record covers Damaged hull reserve buoyancy margin. Damage Stability Calculation Dossier; Target casualty vessel post-grounding state; Calculated intact reserve waterplane displacement volume after simulated two-compartment flooding.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Damaged hull reserve buoyancy margin is at most 50 %.",
+          "role_name": "Naval architecture lead (ARCH)",
+          "candidate_name": "Deep Ocean Heavy Lift & Containment Taskforce",
+          "other_candidate_names": [
+            "Integrated Coastal Response & Tug Flotilla",
+            "Rapid Deployment Subsea Pumping Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

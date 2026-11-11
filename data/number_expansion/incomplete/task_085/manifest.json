@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_085",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "biorepository_storage",
+        "thermal_engineering"
+      ],
+      "role_names": [
+        "Biorepository cryo-operations lead (CRYO)",
+        "Cold-chain thermal engineering lead (THRM)"
+      ],
+      "directory": "incomplete/task_085",
+      "profiles": [
+        {
+          "record_id": "rec_biorepository_storage_A",
+          "role_id": "biorepository_storage",
+          "candidate_id": "A",
+          "key": "CRYO-TELE-NVD",
+          "boolean_predicate_id": "A_vapor_telemetry_enabled",
+          "boolean_label": "Active vapor-phase nitrogen telemetry enabled",
+          "hidden_predicate_id": "A_max_vapor_loss_rate",
+          "threshold_label": "Maximum nitrogen vapor loss rate",
+          "threshold_aliases": [
+            "Daily nitrogen boil-off rate",
+            "Static evaporation rate"
+          ],
+          "threshold_value": 1,
+          "threshold_unit": "L/d",
+          "partial_record_text": "CRYO-TELE-NVD: Specialized heavy articulated cryo-transporter.Specialized heavy articulated cryo-transporter: Active vapor-phase nitrogen telemetry enabled = true .Source: Cryogenic pod instrumentation audit; Scope: Primary and backup vacuum-insulated dry shippers; Measurement: Continuous electronic transmission of vapor temperatures to the mobile operations center.Specialized heavy articulated cryo-transporter: Secondary cryogenic dewar capacity = 1200 L.Source: Cryogenic dewar inventory manifest; Scope: Secondary mobile staging dewars secured within climate pod; Measurement: Gross liquid nitrogen cold-retention capacity of rack-mounted containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Maximum nitrogen vapor loss rate is at most 5 L/d.",
+          "role_name": "Biorepository cryo-operations lead (CRYO)",
+          "candidate_name": "Specialized heavy articulated cryo-transporter",
+          "other_candidate_names": [
+            "Containerized modular all-terrain mobile bio-repository",
+            "High-redundancy twin rigid cryo-transit unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "THRM-ENDUR-B4L",
+          "hidden_predicate_id": "A_backup_cooling_endurance",
+          "threshold_label": "Autonomous backup cooling endurance",
+          "threshold_aliases": [
+            "Mechanical chiller runtime",
+            "Auxiliary cooling duration"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "THRM-ENDUR-B4L: Specialized heavy articulated cryo-transporter.Specialized heavy articulated cryo-transporter: Mandatory stabilizer ullage volume = 450 L.Source: Dynamic transit hydraulic safety calculations; Scope: Combined primary and secondary cryogenic storage systems; Measurement: Non-fillable vessel volume reserved for vapor expansion and anti-slosh baffles.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Autonomous backup cooling endurance is at most 90 h.",
+          "role_name": "Cold-chain thermal engineering lead (THRM)",
+          "candidate_name": "Specialized heavy articulated cryo-transporter",
+          "other_candidate_names": [
+            "Containerized modular all-terrain mobile bio-repository",
+            "High-redundancy twin rigid cryo-transit unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "biorepository_storage",
+        "thermal_engineering",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Biorepository cryo-operations lead (CRYO)",
+        "Cold-chain thermal engineering lead (THRM)",
+        "Heavy fleet logistics lead (FLOG)"
+      ],
+      "directory": "incomplete/task_085",
+      "profiles": [
+        {
+          "record_id": "rec_biorepository_storage_A",
+          "role_id": "biorepository_storage",
+          "candidate_id": "A",
+          "key": "CRYO-TELE-NVD",
+          "boolean_predicate_id": "A_vapor_telemetry_enabled",
+          "boolean_label": "Active vapor-phase nitrogen telemetry enabled",
+          "hidden_predicate_id": "A_max_vapor_loss_rate",
+          "threshold_label": "Maximum nitrogen vapor loss rate",
+          "threshold_aliases": [
+            "Daily nitrogen boil-off rate",
+            "Static evaporation rate"
+          ],
+          "threshold_value": 1,
+          "threshold_unit": "L/d",
+          "partial_record_text": "CRYO-TELE-NVD: Specialized heavy articulated cryo-transporter.Specialized heavy articulated cryo-transporter: Active vapor-phase nitrogen telemetry enabled = true .Source: Cryogenic pod instrumentation audit; Scope: Primary and backup vacuum-insulated dry shippers; Measurement: Continuous electronic transmission of vapor temperatures to the mobile operations center.Specialized heavy articulated cryo-transporter: Secondary cryogenic dewar capacity = 1200 L.Source: Cryogenic dewar inventory manifest; Scope: Secondary mobile staging dewars secured within climate pod; Measurement: Gross liquid nitrogen cold-retention capacity of rack-mounted containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Maximum nitrogen vapor loss rate is at most 5 L/d.",
+          "role_name": "Biorepository cryo-operations lead (CRYO)",
+          "candidate_name": "Specialized heavy articulated cryo-transporter",
+          "other_candidate_names": [
+            "Containerized modular all-terrain mobile bio-repository",
+            "High-redundancy twin rigid cryo-transit unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "THRM-ENDUR-B4L",
+          "hidden_predicate_id": "A_backup_cooling_endurance",
+          "threshold_label": "Autonomous backup cooling endurance",
+          "threshold_aliases": [
+            "Mechanical chiller runtime",
+            "Auxiliary cooling duration"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "THRM-ENDUR-B4L: Specialized heavy articulated cryo-transporter.Specialized heavy articulated cryo-transporter: Mandatory stabilizer ullage volume = 450 L.Source: Dynamic transit hydraulic safety calculations; Scope: Combined primary and secondary cryogenic storage systems; Measurement: Non-fillable vessel volume reserved for vapor expansion and anti-slosh baffles.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Autonomous backup cooling endurance is at most 90 h.",
+          "role_name": "Cold-chain thermal engineering lead (THRM)",
+          "candidate_name": "Specialized heavy articulated cryo-transporter",
+          "other_candidate_names": [
+            "Containerized modular all-terrain mobile bio-repository",
+            "High-redundancy twin rigid cryo-transit unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLOG-PERM-O6A",
+          "hidden_predicate_id": "A_primary_shipper_capacity",
+          "threshold_label": "Primary dry-shipper capacity",
+          "threshold_aliases": [
+            "Main cryo-pod volume",
+            "Primary liquid nitrogen capacity"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "L",
+          "partial_record_text": "FLOG-PERM-O6A: Specialized heavy articulated cryo-transporter.Permit jurisdiction: United Kingdom.Specialized heavy articulated cryo-transporter: Abnormal road transport permit authorized = true .Source: National abnormal loads movement notification database; Scope: Specified prime mover and trailer configuration; Measurement: Pre-approved statutory movement order for wide and heavy cryogenic vessels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary dry-shipper capacity is at most 5000 L.",
+          "role_name": "Heavy fleet logistics lead (FLOG)",
+          "candidate_name": "Specialized heavy articulated cryo-transporter",
+          "other_candidate_names": [
+            "Containerized modular all-terrain mobile bio-repository",
+            "High-redundancy twin rigid cryo-transit unit"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

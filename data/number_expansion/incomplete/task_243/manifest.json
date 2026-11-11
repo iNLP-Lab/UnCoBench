@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_243",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "payload_environment",
+        "mechanical_systems"
+      ],
+      "role_names": [
+        "Payload structural and dynamic environment engineer (PDE)",
+        "Payload adapter and dispenser systems lead (PAD)"
+      ],
+      "directory": "incomplete/task_243",
+      "profiles": [
+        {
+          "record_id": "rec_payload_environment_A",
+          "role_id": "payload_environment",
+          "candidate_id": "A",
+          "key": "PDE-ENV-NSX",
+          "boolean_predicate_id": "A_acoustic_attenuation_verified",
+          "boolean_label": "Payload fairing acoustic attenuation verification",
+          "hidden_predicate_id": "A_lateral_vibration_acceleration",
+          "threshold_label": "Maximum lateral vibration acceleration",
+          "threshold_aliases": [
+            "Peak lateral flight acceleration",
+            "Transverse vibration limit"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "g",
+          "partial_record_text": "PDE-ENV-NSX: Astraea-6 Polar Expendable Launch Vehicle.Astraea-6 Polar Expendable Launch Vehicle: Payload fairing acoustic attenuation verification = true .Source: Acoustic qualification test log; Scope: 5-meter diameter payload fairing internal acoustic blanket assembly; Measurement: Whether internal acoustic sound damping validation testing is complete.",
+          "role_name": "Payload structural and dynamic environment engineer (PDE)",
+          "candidate_name": "Astraea-6 Polar Expendable Launch Vehicle",
+          "other_candidate_names": [
+            "Hyperion Medium-Class Orbital Carrier",
+            "Zephyr Commercial Heavy-Lift Booster"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_systems_A",
+          "role_id": "mechanical_systems",
+          "candidate_id": "A",
+          "key": "PAD-MECH-H3L",
+          "hidden_predicate_id": "A_dual_manifest_adapter_mass",
+          "threshold_label": "Dual-payload adapter mass",
+          "threshold_aliases": [
+            "Secondary payload adapter tare weight",
+            "Dedicated dispenser dry mass"
+          ],
+          "threshold_value": 650,
+          "threshold_unit": "kg",
+          "partial_record_text": "PAD-MECH-H3L: Astraea-6 Polar Expendable Launch Vehicle. The record covers Dual-payload adapter mass. Mechanical adapter assembly mass declaration; Structural dual-manifest carrier truss and separation hardware; Measured dry tare mass of the dedicated intermediate dual-payload adapter structure.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 350,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Dual-payload adapter mass is at least 350 kg.",
+          "role_name": "Payload adapter and dispenser systems lead (PAD)",
+          "candidate_name": "Astraea-6 Polar Expendable Launch Vehicle",
+          "other_candidate_names": [
+            "Hyperion Medium-Class Orbital Carrier",
+            "Zephyr Commercial Heavy-Lift Booster"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "payload_environment",
+        "mechanical_systems",
+        "flight_dynamics"
+      ],
+      "role_names": [
+        "Payload structural and dynamic environment engineer (PDE)",
+        "Payload adapter and dispenser systems lead (PAD)",
+        "Orbital flight dynamics lead (OFD)"
+      ],
+      "directory": "incomplete/task_243",
+      "profiles": [
+        {
+          "record_id": "rec_payload_environment_A",
+          "role_id": "payload_environment",
+          "candidate_id": "A",
+          "key": "PDE-ENV-NSX",
+          "boolean_predicate_id": "A_acoustic_attenuation_verified",
+          "boolean_label": "Payload fairing acoustic attenuation verification",
+          "hidden_predicate_id": "A_lateral_vibration_acceleration",
+          "threshold_label": "Maximum lateral vibration acceleration",
+          "threshold_aliases": [
+            "Peak lateral flight acceleration",
+            "Transverse vibration limit"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "g",
+          "partial_record_text": "PDE-ENV-NSX: Astraea-6 Polar Expendable Launch Vehicle.Astraea-6 Polar Expendable Launch Vehicle: Payload fairing acoustic attenuation verification = true .Source: Acoustic qualification test log; Scope: 5-meter diameter payload fairing internal acoustic blanket assembly; Measurement: Whether internal acoustic sound damping validation testing is complete.",
+          "role_name": "Payload structural and dynamic environment engineer (PDE)",
+          "candidate_name": "Astraea-6 Polar Expendable Launch Vehicle",
+          "other_candidate_names": [
+            "Hyperion Medium-Class Orbital Carrier",
+            "Zephyr Commercial Heavy-Lift Booster"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_systems_A",
+          "role_id": "mechanical_systems",
+          "candidate_id": "A",
+          "key": "PAD-MECH-H3L",
+          "hidden_predicate_id": "A_dual_manifest_adapter_mass",
+          "threshold_label": "Dual-payload adapter mass",
+          "threshold_aliases": [
+            "Secondary payload adapter tare weight",
+            "Dedicated dispenser dry mass"
+          ],
+          "threshold_value": 650,
+          "threshold_unit": "kg",
+          "partial_record_text": "PAD-MECH-H3L: Astraea-6 Polar Expendable Launch Vehicle. The record covers Dual-payload adapter mass. Mechanical adapter assembly mass declaration; Structural dual-manifest carrier truss and separation hardware; Measured dry tare mass of the dedicated intermediate dual-payload adapter structure.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 350,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Dual-payload adapter mass is at least 350 kg.",
+          "role_name": "Payload adapter and dispenser systems lead (PAD)",
+          "candidate_name": "Astraea-6 Polar Expendable Launch Vehicle",
+          "other_candidate_names": [
+            "Hyperion Medium-Class Orbital Carrier",
+            "Zephyr Commercial Heavy-Lift Booster"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_dynamics_A",
+          "role_id": "flight_dynamics",
+          "candidate_id": "A",
+          "key": "OFD-TRAJ-6EO",
+          "hidden_predicate_id": "A_sso_lift_capacity",
+          "threshold_label": "Maximum Sun-synchronous orbit lift capacity",
+          "threshold_aliases": [
+            "Nominal polar lift capability",
+            "Gross SSO orbital throw weight"
+          ],
+          "threshold_value": 7100,
+          "threshold_unit": "kg",
+          "partial_record_text": "OFD-TRAJ-6EO: Astraea-6 Polar Expendable Launch Vehicle. The record covers Maximum Sun-synchronous orbit lift capacity. Orbital payload user manual and flight performance budget; 700 km circular Sun-synchronous orbit with 98.2 degree inclination; Gross insertion payload mass capability before deducting structural mission adapters.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4800,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Maximum Sun-synchronous orbit lift capacity is at least 4800 kg.",
+          "role_name": "Orbital flight dynamics lead (OFD)",
+          "candidate_name": "Astraea-6 Polar Expendable Launch Vehicle",
+          "other_candidate_names": [
+            "Hyperion Medium-Class Orbital Carrier",
+            "Zephyr Commercial Heavy-Lift Booster"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

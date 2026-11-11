@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_966",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "field_surveillance",
+        "incident_finance"
+      ],
+      "role_names": [
+        "Field operations coordinator (SURV)",
+        "Emergency finance manager (FIN)"
+      ],
+      "directory": "incomplete/task_966",
+      "profiles": [
+        {
+          "record_id": "rec_field_surveillance_A",
+          "role_id": "field_surveillance",
+          "candidate_id": "A",
+          "key": "SURV-FIELD-MNM",
+          "boolean_predicate_id": "A_mobile_pcr_enabled",
+          "boolean_label": "On-site mobile PCR capability operational",
+          "hidden_predicate_id": "A_sample_turnaround_hours",
+          "threshold_label": "Diagnostic sample turnaround time",
+          "threshold_aliases": [
+            "Specimen turnaround duration",
+            "Laboratory turnaround time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "SURV-FIELD-MNM: Spatial grid polymerase screening protocol.Spatial grid polymerase screening protocol: On-site mobile PCR capability operational = true .Source: Rapid diagnostic van deployment log; Scope: Candidate field investigation unit; Measurement: Whether on-site field mobile thermal cycler platforms are fully operational and staffed.",
+          "role_name": "Field operations coordinator (SURV)",
+          "candidate_name": "Spatial grid polymerase screening protocol",
+          "other_candidate_names": [
+            "Genomic epidemiology lineage tracing protocol",
+            "Sentinel vector serology survey protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_incident_finance_A",
+          "role_id": "incident_finance",
+          "candidate_id": "A",
+          "key": "FIN-BUDG-9D8",
+          "hidden_predicate_id": "A_laboratory_operating_expenditure",
+          "threshold_label": "Allocated mobile laboratory operating expenditure",
+          "threshold_aliases": [
+            "Mobile laboratory operating budget",
+            "Diagnostic operating cost allocation"
+          ],
+          "threshold_value": 72000,
+          "threshold_unit": "AUD",
+          "partial_record_text": "FIN-BUDG-9D8: Spatial grid polymerase screening protocol. The record covers Allocated mobile laboratory operating expenditure. Emergency containment expenditure authorization; Investigation execution campaign duration; Total approved operational funding for diagnostic van consumables, reagents, and analyst wages.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 48000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Allocated mobile laboratory operating expenditure is at least 48000 AUD.",
+          "role_name": "Emergency finance manager (FIN)",
+          "candidate_name": "Spatial grid polymerase screening protocol",
+          "other_candidate_names": [
+            "Genomic epidemiology lineage tracing protocol",
+            "Sentinel vector serology survey protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "field_surveillance",
+        "incident_finance",
+        "molecular_pathology"
+      ],
+      "role_names": [
+        "Field operations coordinator (SURV)",
+        "Emergency finance manager (FIN)",
+        "Pathology laboratory director (PATH)"
+      ],
+      "directory": "incomplete/task_966",
+      "profiles": [
+        {
+          "record_id": "rec_field_surveillance_A",
+          "role_id": "field_surveillance",
+          "candidate_id": "A",
+          "key": "SURV-FIELD-MNM",
+          "boolean_predicate_id": "A_mobile_pcr_enabled",
+          "boolean_label": "On-site mobile PCR capability operational",
+          "hidden_predicate_id": "A_sample_turnaround_hours",
+          "threshold_label": "Diagnostic sample turnaround time",
+          "threshold_aliases": [
+            "Specimen turnaround duration",
+            "Laboratory turnaround time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "SURV-FIELD-MNM: Spatial grid polymerase screening protocol.Spatial grid polymerase screening protocol: On-site mobile PCR capability operational = true .Source: Rapid diagnostic van deployment log; Scope: Candidate field investigation unit; Measurement: Whether on-site field mobile thermal cycler platforms are fully operational and staffed.",
+          "role_name": "Field operations coordinator (SURV)",
+          "candidate_name": "Spatial grid polymerase screening protocol",
+          "other_candidate_names": [
+            "Genomic epidemiology lineage tracing protocol",
+            "Sentinel vector serology survey protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_incident_finance_A",
+          "role_id": "incident_finance",
+          "candidate_id": "A",
+          "key": "FIN-BUDG-9D8",
+          "hidden_predicate_id": "A_laboratory_operating_expenditure",
+          "threshold_label": "Allocated mobile laboratory operating expenditure",
+          "threshold_aliases": [
+            "Mobile laboratory operating budget",
+            "Diagnostic operating cost allocation"
+          ],
+          "threshold_value": 72000,
+          "threshold_unit": "AUD",
+          "partial_record_text": "FIN-BUDG-9D8: Spatial grid polymerase screening protocol. The record covers Allocated mobile laboratory operating expenditure. Emergency containment expenditure authorization; Investigation execution campaign duration; Total approved operational funding for diagnostic van consumables, reagents, and analyst wages.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 48000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Allocated mobile laboratory operating expenditure is at least 48000 AUD.",
+          "role_name": "Emergency finance manager (FIN)",
+          "candidate_name": "Spatial grid polymerase screening protocol",
+          "other_candidate_names": [
+            "Genomic epidemiology lineage tracing protocol",
+            "Sentinel vector serology survey protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_molecular_pathology_A",
+          "role_id": "molecular_pathology",
+          "candidate_id": "A",
+          "key": "PATH-ASSAY-LCB",
+          "hidden_predicate_id": "A_target_sample_volume",
+          "threshold_label": "Target analytical sample volume",
+          "threshold_aliases": [
+            "Target laboratory sample throughput",
+            "Diagnostic sample processing quota"
+          ],
+          "threshold_value": 1000,
+          "threshold_unit": "sample",
+          "partial_record_text": "PATH-ASSAY-LCB: Spatial grid polymerase screening protocol.Spatial grid polymerase screening protocol: Molecular assay validated = true .Source: National diagnostic protocol register; Scope: Citrus canker specific qPCR assay primer sets; Measurement: Whether the specific diagnostic assay has completed peer-reviewed specificity and sensitivity validation.",
+          "role_name": "Pathology laboratory director (PATH)",
+          "candidate_name": "Spatial grid polymerase screening protocol",
+          "other_candidate_names": [
+            "Genomic epidemiology lineage tracing protocol",
+            "Sentinel vector serology survey protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

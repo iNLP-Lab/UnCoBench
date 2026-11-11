@@ -1,0 +1,183 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_360",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "iot_monitoring",
+        "ambient_fleet"
+      ],
+      "role_names": [
+        "Cold-chain telematics lead (IOT)",
+        "Ambient fleet logistics manager (AMB)"
+      ],
+      "directory": "incomplete/task_360",
+      "profiles": [
+        {
+          "record_id": "rec_iot_monitoring_A",
+          "role_id": "iot_monitoring",
+          "candidate_id": "A",
+          "key": "IOT-TELEM-BNO",
+          "boolean_predicate_id": "A_temp_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring system active",
+          "hidden_predicate_id": "A_excursion_resolution_mins",
+          "threshold_label": "Maximum excursion resolution time",
+          "threshold_aliases": [
+            "Thermal excursion response duration",
+            "Excursion resolution time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "IOT-TELEM-BNO: AeroMed Global Logistics.AeroMed Global Logistics: Continuous temperature monitoring system active = true .Source: Telematics integration sign-off; Scope: Active transit monitoring architecture; Measurement: Whether automated real-time temperature telemetry is enabled across all cargo bays.",
+          "role_name": "Cold-chain telematics lead (IOT)",
+          "candidate_name": "AeroMed Global Logistics",
+          "other_candidate_names": [
+            "ThermaCore Supply Partners",
+            "Vanguard BioPharma Freight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ambient_fleet_A",
+          "role_id": "ambient_fleet",
+          "candidate_id": "A",
+          "key": "AMB-FLEET-5SP",
+          "hidden_predicate_id": "A_ambient_capacity",
+          "threshold_label": "Ambient temperature-controlled capacity",
+          "threshold_aliases": [
+            "Controlled room temperature capacity",
+            "CRT pallet allocation"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "pallets",
+          "partial_record_text": "AMB-FLEET-5SP: AeroMed Global Logistics. The record covers Ambient temperature-controlled capacity. Record context: Germany. Fleet commitment schedule; Contracted monthly 15C to 25C shipping runs; Guaranteed pallet slots available per rolling monthly cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 450
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Ambient temperature-controlled capacity is at most 450 pallets.",
+          "role_name": "Ambient fleet logistics manager (AMB)",
+          "candidate_name": "AeroMed Global Logistics",
+          "other_candidate_names": [
+            "ThermaCore Supply Partners",
+            "Vanguard BioPharma Freight"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "iot_monitoring",
+        "ambient_fleet",
+        "cryo_fleet"
+      ],
+      "role_names": [
+        "Cold-chain telematics lead (IOT)",
+        "Ambient fleet logistics manager (AMB)",
+        "Cryogenic and deep-freeze logistics manager (CRYO)"
+      ],
+      "directory": "incomplete/task_360",
+      "profiles": [
+        {
+          "record_id": "rec_iot_monitoring_A",
+          "role_id": "iot_monitoring",
+          "candidate_id": "A",
+          "key": "IOT-TELEM-BNO",
+          "boolean_predicate_id": "A_temp_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring system active",
+          "hidden_predicate_id": "A_excursion_resolution_mins",
+          "threshold_label": "Maximum excursion resolution time",
+          "threshold_aliases": [
+            "Thermal excursion response duration",
+            "Excursion resolution time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "IOT-TELEM-BNO: AeroMed Global Logistics.AeroMed Global Logistics: Continuous temperature monitoring system active = true .Source: Telematics integration sign-off; Scope: Active transit monitoring architecture; Measurement: Whether automated real-time temperature telemetry is enabled across all cargo bays.",
+          "role_name": "Cold-chain telematics lead (IOT)",
+          "candidate_name": "AeroMed Global Logistics",
+          "other_candidate_names": [
+            "ThermaCore Supply Partners",
+            "Vanguard BioPharma Freight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ambient_fleet_A",
+          "role_id": "ambient_fleet",
+          "candidate_id": "A",
+          "key": "AMB-FLEET-5SP",
+          "hidden_predicate_id": "A_ambient_capacity",
+          "threshold_label": "Ambient temperature-controlled capacity",
+          "threshold_aliases": [
+            "Controlled room temperature capacity",
+            "CRT pallet allocation"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "pallets",
+          "partial_record_text": "AMB-FLEET-5SP: AeroMed Global Logistics. The record covers Ambient temperature-controlled capacity. Record context: Germany. Fleet commitment schedule; Contracted monthly 15C to 25C shipping runs; Guaranteed pallet slots available per rolling monthly cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 450
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Ambient temperature-controlled capacity is at most 450 pallets.",
+          "role_name": "Ambient fleet logistics manager (AMB)",
+          "candidate_name": "AeroMed Global Logistics",
+          "other_candidate_names": [
+            "ThermaCore Supply Partners",
+            "Vanguard BioPharma Freight"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_fleet_A",
+          "role_id": "cryo_fleet",
+          "candidate_id": "A",
+          "key": "CRYO-DEEP-OJE",
+          "hidden_predicate_id": "A_cryo_capacity",
+          "threshold_label": "Deep-freeze dedicated capacity",
+          "threshold_aliases": [
+            "Ultra-low temperature capacity",
+            "ULT pallet capacity"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "pallets",
+          "partial_record_text": "CRYO-DEEP-OJE: AeroMed Global Logistics. The record covers Deep-freeze dedicated capacity. Cryogenic fleet asset register; Contracted monthly minus 80C to minus 20C shipments; Guaranteed active deep-freeze pallet positions available per rolling monthly cycle.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 80,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Deep-freeze dedicated capacity is at least 80 pallets.",
+          "role_name": "Cryogenic and deep-freeze logistics manager (CRYO)",
+          "candidate_name": "AeroMed Global Logistics",
+          "other_candidate_names": [
+            "ThermaCore Supply Partners",
+            "Vanguard BioPharma Freight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

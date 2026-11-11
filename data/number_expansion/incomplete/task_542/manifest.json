@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_542",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics",
+        "hydrogeology"
+      ],
+      "role_names": [
+        "Geophysical logging lead (GEOPH)",
+        "Hydrogeology lead (HYD)"
+      ],
+      "directory": "incomplete/task_542",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_A",
+          "role_id": "geophysics",
+          "candidate_id": "A",
+          "key": "GEOPH-LOG-J1C",
+          "boolean_predicate_id": "A_borehole_logging_tool_calibrated",
+          "boolean_label": "Borehole logging tool calibrated",
+          "hidden_predicate_id": "A_sensor_drift_rate",
+          "threshold_label": "Maximum sensor drift rate",
+          "threshold_aliases": [
+            "Probe drift rate",
+            "Downhole measurement drift"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%/h",
+          "partial_record_text": "GEOPH-LOG-J1C: High-resolution multi-level piezometer profiling plan.High-resolution multi-level piezometer profiling plan: Borehole logging tool calibrated = true .Source: Geophysical sonde maintenance certificate; Scope: Multi-parameter downhole logging probe; Measurement: Verification of pre-deployment two-point zero and span calibration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum sensor drift rate is between 0.5 %/h and 4 %/h, inclusive.",
+          "role_name": "Geophysical logging lead (GEOPH)",
+          "candidate_name": "High-resolution multi-level piezometer profiling plan",
+          "other_candidate_names": [
+            "Continuous membrane interface probe transect plan",
+            "Compound-specific isotope diffusion sampling plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrogeology_A",
+          "role_id": "hydrogeology",
+          "candidate_id": "A",
+          "key": "HYD-AQUIF-PGU",
+          "hidden_predicate_id": "A_field_sample_quota",
+          "threshold_label": "Field sample extraction quota",
+          "threshold_aliases": [
+            "Gross field sample count",
+            "Planned core and water sample count"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "samples",
+          "partial_record_text": "HYD-AQUIF-PGU: High-resolution multi-level piezometer profiling plan.High-resolution multi-level piezometer profiling plan: Confining layer penetration cleared = true .Source: Geological engineering assessment report; Scope: Borehole cross-sections penetrating the regional aquitard; Measurement: Formal determination that sealing protocols protect underlying pristine aquifer units.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Field sample extraction quota is between 0 samples and 400 samples, inclusive.",
+          "role_name": "Hydrogeology lead (HYD)",
+          "candidate_name": "High-resolution multi-level piezometer profiling plan",
+          "other_candidate_names": [
+            "Continuous membrane interface probe transect plan",
+            "Compound-specific isotope diffusion sampling plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics",
+        "hydrogeology",
+        "forensics"
+      ],
+      "role_names": [
+        "Geophysical logging lead (GEOPH)",
+        "Hydrogeology lead (HYD)",
+        "Forensic laboratory quality lead (LAB)"
+      ],
+      "directory": "incomplete/task_542",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_A",
+          "role_id": "geophysics",
+          "candidate_id": "A",
+          "key": "GEOPH-LOG-J1C",
+          "boolean_predicate_id": "A_borehole_logging_tool_calibrated",
+          "boolean_label": "Borehole logging tool calibrated",
+          "hidden_predicate_id": "A_sensor_drift_rate",
+          "threshold_label": "Maximum sensor drift rate",
+          "threshold_aliases": [
+            "Probe drift rate",
+            "Downhole measurement drift"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "%/h",
+          "partial_record_text": "GEOPH-LOG-J1C: High-resolution multi-level piezometer profiling plan.High-resolution multi-level piezometer profiling plan: Borehole logging tool calibrated = true .Source: Geophysical sonde maintenance certificate; Scope: Multi-parameter downhole logging probe; Measurement: Verification of pre-deployment two-point zero and span calibration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum sensor drift rate is between 0.5 %/h and 4 %/h, inclusive.",
+          "role_name": "Geophysical logging lead (GEOPH)",
+          "candidate_name": "High-resolution multi-level piezometer profiling plan",
+          "other_candidate_names": [
+            "Continuous membrane interface probe transect plan",
+            "Compound-specific isotope diffusion sampling plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrogeology_A",
+          "role_id": "hydrogeology",
+          "candidate_id": "A",
+          "key": "HYD-AQUIF-PGU",
+          "hidden_predicate_id": "A_field_sample_quota",
+          "threshold_label": "Field sample extraction quota",
+          "threshold_aliases": [
+            "Gross field sample count",
+            "Planned core and water sample count"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "samples",
+          "partial_record_text": "HYD-AQUIF-PGU: High-resolution multi-level piezometer profiling plan.High-resolution multi-level piezometer profiling plan: Confining layer penetration cleared = true .Source: Geological engineering assessment report; Scope: Borehole cross-sections penetrating the regional aquitard; Measurement: Formal determination that sealing protocols protect underlying pristine aquifer units.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Field sample extraction quota is between 0 samples and 400 samples, inclusive.",
+          "role_name": "Hydrogeology lead (HYD)",
+          "candidate_name": "High-resolution multi-level piezometer profiling plan",
+          "other_candidate_names": [
+            "Continuous membrane interface probe transect plan",
+            "Compound-specific isotope diffusion sampling plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_forensics_A",
+          "role_id": "forensics",
+          "candidate_id": "A",
+          "key": "LAB-ANAL-ACM",
+          "hidden_predicate_id": "A_quality_control_allocation",
+          "threshold_label": "Blind quality-control sample allocation",
+          "threshold_aliases": [
+            "Mandatory QC duplicate allocation",
+            "Blank and trip spike quota"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "samples",
+          "partial_record_text": "LAB-ANAL-ACM: High-resolution multi-level piezometer profiling plan.High-resolution multi-level piezometer profiling plan: Forensic chain-of-custody compliant = true .Source: Forensic quality assurance audit report; Scope: All planned soil, vapor, and groundwater sample handling pipelines; Measurement: Compliance with legal admissibility standards for evidentiary sample tracking.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Blind quality-control sample allocation is between 20 samples and 70 samples, inclusive.",
+          "role_name": "Forensic laboratory quality lead (LAB)",
+          "candidate_name": "High-resolution multi-level piezometer profiling plan",
+          "other_candidate_names": [
+            "Continuous membrane interface probe transect plan",
+            "Compound-specific isotope diffusion sampling plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

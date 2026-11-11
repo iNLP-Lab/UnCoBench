@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_640",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "terminal_operations",
+        "marine_infrastructure"
+      ],
+      "role_names": [
+        "Terminal Rail Operations Lead (TROL)",
+        "Marine Infrastructure Engineer (MIE)"
+      ],
+      "directory": "incomplete/task_640",
+      "profiles": [
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TROL-RAIL-ZB9",
+          "boolean_predicate_id": "A_intake_system_active",
+          "boolean_label": "Automated rail intake system active",
+          "hidden_predicate_id": "A_intake_turnover_minutes",
+          "threshold_label": "Automated rail car turnover time",
+          "threshold_aliases": [
+            "Rail wagon turnaround duration",
+            "Intake turnover duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "TROL-RAIL-ZB9: Scheldt Gateway Grain Terminal Consortium.Scheldt Gateway Grain Terminal Consortium: Automated rail intake system active = true .Source: Terminal engineering commissioning log; Scope: Rail intake hopper system; Measurement: Operational status verification of the automated hopper intake line.Scheldt Gateway Grain Terminal Consortium: Baseline silo throughput = 18000 t/d.Source: Grain elevator nameplate rating certificate; Scope: Primary elevator conveyor manifolds; Measurement: Nominal sustained continuous grain throughput over 24 hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Automated rail car turnover time is at most 70 min.",
+          "role_name": "Terminal Rail Operations Lead (TROL)",
+          "candidate_name": "Scheldt Gateway Grain Terminal Consortium",
+          "other_candidate_names": [
+            "North Sea Agri-Logistics Partnership",
+            "Weser-Elbe Bulk Transshipment Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_infrastructure_A",
+          "role_id": "marine_infrastructure",
+          "candidate_id": "A",
+          "key": "MIE-BERTH-Y8R",
+          "hidden_predicate_id": "A_auxiliary_barge_throughput",
+          "threshold_label": "Auxiliary barge throughput",
+          "threshold_aliases": [
+            "Barge loading capacity",
+            "Secondary barge throughput"
+          ],
+          "threshold_value": 4500,
+          "threshold_unit": "t/d",
+          "partial_record_text": "MIE-BERTH-Y8R: Scheldt Gateway Grain Terminal Consortium.Assessment period: Q1 2025.Scheldt Gateway Grain Terminal Consortium: Quayside berthing draft clearance certified = true .Source: Hydrographic bathymetric survey report; Scope: Main export quay berths 1 and 2; Measurement: Confirmation of certified 16.5-meter minimum draft at lowest astronomical tide.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary barge throughput is at most 7000 t/d.",
+          "role_name": "Marine Infrastructure Engineer (MIE)",
+          "candidate_name": "Scheldt Gateway Grain Terminal Consortium",
+          "other_candidate_names": [
+            "North Sea Agri-Logistics Partnership",
+            "Weser-Elbe Bulk Transshipment Alliance"
+          ],
+          "context_value": "Q1 2025",
+          "other_context_values": [
+            "Q2 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "terminal_operations",
+        "marine_infrastructure",
+        "trade_customs"
+      ],
+      "role_names": [
+        "Terminal Rail Operations Lead (TROL)",
+        "Marine Infrastructure Engineer (MIE)",
+        "Customs and Trade Compliance Manager (CTCM)"
+      ],
+      "directory": "incomplete/task_640",
+      "profiles": [
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TROL-RAIL-ZB9",
+          "boolean_predicate_id": "A_intake_system_active",
+          "boolean_label": "Automated rail intake system active",
+          "hidden_predicate_id": "A_intake_turnover_minutes",
+          "threshold_label": "Automated rail car turnover time",
+          "threshold_aliases": [
+            "Rail wagon turnaround duration",
+            "Intake turnover duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "TROL-RAIL-ZB9: Scheldt Gateway Grain Terminal Consortium.Scheldt Gateway Grain Terminal Consortium: Automated rail intake system active = true .Source: Terminal engineering commissioning log; Scope: Rail intake hopper system; Measurement: Operational status verification of the automated hopper intake line.Scheldt Gateway Grain Terminal Consortium: Baseline silo throughput = 18000 t/d.Source: Grain elevator nameplate rating certificate; Scope: Primary elevator conveyor manifolds; Measurement: Nominal sustained continuous grain throughput over 24 hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Automated rail car turnover time is at most 70 min.",
+          "role_name": "Terminal Rail Operations Lead (TROL)",
+          "candidate_name": "Scheldt Gateway Grain Terminal Consortium",
+          "other_candidate_names": [
+            "North Sea Agri-Logistics Partnership",
+            "Weser-Elbe Bulk Transshipment Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_infrastructure_A",
+          "role_id": "marine_infrastructure",
+          "candidate_id": "A",
+          "key": "MIE-BERTH-Y8R",
+          "hidden_predicate_id": "A_auxiliary_barge_throughput",
+          "threshold_label": "Auxiliary barge throughput",
+          "threshold_aliases": [
+            "Barge loading capacity",
+            "Secondary barge throughput"
+          ],
+          "threshold_value": 4500,
+          "threshold_unit": "t/d",
+          "partial_record_text": "MIE-BERTH-Y8R: Scheldt Gateway Grain Terminal Consortium.Assessment period: Q1 2025.Scheldt Gateway Grain Terminal Consortium: Quayside berthing draft clearance certified = true .Source: Hydrographic bathymetric survey report; Scope: Main export quay berths 1 and 2; Measurement: Confirmation of certified 16.5-meter minimum draft at lowest astronomical tide.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary barge throughput is at most 7000 t/d.",
+          "role_name": "Marine Infrastructure Engineer (MIE)",
+          "candidate_name": "Scheldt Gateway Grain Terminal Consortium",
+          "other_candidate_names": [
+            "North Sea Agri-Logistics Partnership",
+            "Weser-Elbe Bulk Transshipment Alliance"
+          ],
+          "context_value": "Q1 2025",
+          "other_context_values": [
+            "Q2 2025"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_trade_customs_A",
+          "role_id": "trade_customs",
+          "candidate_id": "A",
+          "key": "CTCM-CUSTOMS-KW5",
+          "hidden_predicate_id": "A_domestic_reserve_quota",
+          "threshold_label": "Domestic reserve quota throughput",
+          "threshold_aliases": [
+            "Domestic milling allocation",
+            "Mandatory domestic quota"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "t/d",
+          "partial_record_text": "CTCM-CUSTOMS-KW5: Scheldt Gateway Grain Terminal Consortium.Scheldt Gateway Grain Terminal Consortium: Customs bonded clearance authorized = true .Source: National customs administration gazette; Scope: Terminal grain elevator silos and transit storage; Measurement: Issuance of formal Type-II customs bonded transshipment license.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Domestic reserve quota throughput is at most 4000 t/d.",
+          "role_name": "Customs and Trade Compliance Manager (CTCM)",
+          "candidate_name": "Scheldt Gateway Grain Terminal Consortium",
+          "other_candidate_names": [
+            "North Sea Agri-Logistics Partnership",
+            "Weser-Elbe Bulk Transshipment Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

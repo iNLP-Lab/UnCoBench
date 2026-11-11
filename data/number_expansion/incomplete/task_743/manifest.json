@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_743",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_command",
+        "workforce_registry"
+      ],
+      "role_names": [
+        "Mobilization Logistics Lead (LOG)",
+        "Clinical Workforce Coordinator (ROST)"
+      ],
+      "directory": "incomplete/task_743",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_command_A",
+          "role_id": "logistics_command",
+          "candidate_id": "A",
+          "key": "LOG-DISP-ZOA",
+          "boolean_predicate_id": "A_rapid_deployment_protocol_active",
+          "boolean_label": "Rapid deployment protocol active",
+          "hidden_predicate_id": "A_mobilization_departure_latency",
+          "threshold_label": "Mobilization departure latency",
+          "threshold_aliases": [
+            "Dispatch departure time",
+            "Mobilization latency"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-DISP-ZOA: Rapid Deployment Critical Care Team.Rapid Deployment Critical Care Team: Rapid deployment protocol active = true .Source: Emergency response coordination register; Scope: Candidate medical team operating charter; Measurement: Formal standing authorization for rapid deployment status.Rapid Deployment Critical Care Team: Reserve coverage deployment duration = 48 h.Source: Contingency surge operational schedule; Scope: Secondary surge relief echelon; Measurement: Committed on-site patient-care standby and back-to-back relief hours.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Mobilization departure latency is between 50 min and 300 min, inclusive.",
+          "role_name": "Mobilization Logistics Lead (LOG)",
+          "candidate_name": "Rapid Deployment Critical Care Team",
+          "other_candidate_names": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_workforce_registry_A",
+          "role_id": "workforce_registry",
+          "candidate_id": "A",
+          "key": "ROST-PERS-0D3",
+          "hidden_predicate_id": "A_deployable_clinician_count",
+          "threshold_label": "Deployable clinician count",
+          "threshold_aliases": [
+            "Active clinician roster size",
+            "Deployable medical staffing headcount"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "clinicians",
+          "partial_record_text": "ROST-PERS-0D3: Rapid Deployment Critical Care Team. The record covers Deployable clinician count. Disaster medical registry roster; Confirmed available physicians, surgeons, and critical care nurses; Headcount of qualified clinicians committed to immediate field rotation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Deployable clinician count is between 10 clinicians and 40 clinicians, inclusive.",
+          "role_name": "Clinical Workforce Coordinator (ROST)",
+          "candidate_name": "Rapid Deployment Critical Care Team",
+          "other_candidate_names": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_command",
+        "workforce_registry",
+        "medical_operations"
+      ],
+      "role_names": [
+        "Mobilization Logistics Lead (LOG)",
+        "Clinical Workforce Coordinator (ROST)",
+        "Medical Operations Director (MED)"
+      ],
+      "directory": "incomplete/task_743",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_command_A",
+          "role_id": "logistics_command",
+          "candidate_id": "A",
+          "key": "LOG-DISP-ZOA",
+          "boolean_predicate_id": "A_rapid_deployment_protocol_active",
+          "boolean_label": "Rapid deployment protocol active",
+          "hidden_predicate_id": "A_mobilization_departure_latency",
+          "threshold_label": "Mobilization departure latency",
+          "threshold_aliases": [
+            "Dispatch departure time",
+            "Mobilization latency"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-DISP-ZOA: Rapid Deployment Critical Care Team.Rapid Deployment Critical Care Team: Rapid deployment protocol active = true .Source: Emergency response coordination register; Scope: Candidate medical team operating charter; Measurement: Formal standing authorization for rapid deployment status.Rapid Deployment Critical Care Team: Reserve coverage deployment duration = 48 h.Source: Contingency surge operational schedule; Scope: Secondary surge relief echelon; Measurement: Committed on-site patient-care standby and back-to-back relief hours.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Mobilization departure latency is between 50 min and 300 min, inclusive.",
+          "role_name": "Mobilization Logistics Lead (LOG)",
+          "candidate_name": "Rapid Deployment Critical Care Team",
+          "other_candidate_names": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_workforce_registry_A",
+          "role_id": "workforce_registry",
+          "candidate_id": "A",
+          "key": "ROST-PERS-0D3",
+          "hidden_predicate_id": "A_deployable_clinician_count",
+          "threshold_label": "Deployable clinician count",
+          "threshold_aliases": [
+            "Active clinician roster size",
+            "Deployable medical staffing headcount"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "clinicians",
+          "partial_record_text": "ROST-PERS-0D3: Rapid Deployment Critical Care Team. The record covers Deployable clinician count. Disaster medical registry roster; Confirmed available physicians, surgeons, and critical care nurses; Headcount of qualified clinicians committed to immediate field rotation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Deployable clinician count is between 10 clinicians and 40 clinicians, inclusive.",
+          "role_name": "Clinical Workforce Coordinator (ROST)",
+          "candidate_name": "Rapid Deployment Critical Care Team",
+          "other_candidate_names": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_operations_A",
+          "role_id": "medical_operations",
+          "candidate_id": "A",
+          "key": "MED-CLIN-UZS",
+          "hidden_predicate_id": "A_primary_shift_hours",
+          "threshold_label": "Primary shift deployment duration",
+          "threshold_aliases": [
+            "Primary shift hours",
+            "Core rotation operational hours"
+          ],
+          "threshold_value": 108,
+          "threshold_unit": "h",
+          "partial_record_text": "MED-CLIN-UZS: Rapid Deployment Critical Care Team.Operational jurisdiction: Sichuan.Rapid Deployment Critical Care Team: Clinical credentials certified = true .Source: Medical board accreditation docket; Scope: Primary surgical, critical care, and emergency nursing personnel; Measurement: Confirmation of valid unrestricted national disaster clinical credentials.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary shift deployment duration is between 0 h and 300 h, inclusive.",
+          "role_name": "Medical Operations Director (MED)",
+          "candidate_name": "Rapid Deployment Critical Care Team",
+          "other_candidate_names": [
+            "Mobile Intensive Resuscitation Unit",
+            "Expeditionary Trauma Support Group"
+          ],
+          "context_value": "Sichuan",
+          "other_context_values": [
+            "Yunnan"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

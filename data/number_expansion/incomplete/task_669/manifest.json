@@ -1,0 +1,160 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_669",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservation_science",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Conservation Science Lead (CONSV)",
+        "Structural Engineering Lead (STRUCT)"
+      ],
+      "directory": "incomplete/task_669",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CONSV-ENVSTAB-LP6",
+          "boolean_predicate_id": "A_desiccant_cycling_active",
+          "boolean_label": "Active desiccant cycling operational",
+          "hidden_predicate_id": "A_relative_humidity_variance_pct",
+          "threshold_label": "Diurnal relative humidity variance",
+          "threshold_aliases": [
+            "Humidity fluctuation range",
+            "RH diurnal drift"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CONSV-ENVSTAB-LP6: Tyne Valley Subterranean Vault.Tyne Valley Subterranean Vault: Active desiccant cycling operational = true .Source: HVAC automation supervisory console; Scope: Candidate primary air-handling loop; Measurement: Verification of autonomous dual-bed desiccant wheel switching.",
+          "role_name": "Conservation Science Lead (CONSV)",
+          "candidate_name": "Tyne Valley Subterranean Vault",
+          "other_candidate_names": [
+            "Cheviot Heritage Repository",
+            "Hadrian Limestone Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-VIBISO-4F5",
+          "hidden_predicate_id": "A_vibration_attenuation_db",
+          "threshold_label": "Foundation vibration attenuation",
+          "threshold_aliases": [
+            "Seismic vibration isolation",
+            "Ground motion damping ratio"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "dB",
+          "partial_record_text": "STRUCT-VIBISO-4F5: Tyne Valley Subterranean Vault.Tyne Valley Subterranean Vault: Climate-vault floor area = 800 m2.Source: Structural floorplan certification; Scope: Hermetically sealed Class-1 microclimate chamber; Measurement: Usable net internal floor surface area excluding plant partitions.",
+          "role_name": "Structural Engineering Lead (STRUCT)",
+          "candidate_name": "Tyne Valley Subterranean Vault",
+          "other_candidate_names": [
+            "Cheviot Heritage Repository",
+            "Hadrian Limestone Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservation_science",
+        "structural_engineering",
+        "heritage_logistics"
+      ],
+      "role_names": [
+        "Conservation Science Lead (CONSV)",
+        "Structural Engineering Lead (STRUCT)",
+        "Heritage Logistics Lead (LOGIST)"
+      ],
+      "directory": "incomplete/task_669",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CONSV-ENVSTAB-LP6",
+          "boolean_predicate_id": "A_desiccant_cycling_active",
+          "boolean_label": "Active desiccant cycling operational",
+          "hidden_predicate_id": "A_relative_humidity_variance_pct",
+          "threshold_label": "Diurnal relative humidity variance",
+          "threshold_aliases": [
+            "Humidity fluctuation range",
+            "RH diurnal drift"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CONSV-ENVSTAB-LP6: Tyne Valley Subterranean Vault.Tyne Valley Subterranean Vault: Active desiccant cycling operational = true .Source: HVAC automation supervisory console; Scope: Candidate primary air-handling loop; Measurement: Verification of autonomous dual-bed desiccant wheel switching.",
+          "role_name": "Conservation Science Lead (CONSV)",
+          "candidate_name": "Tyne Valley Subterranean Vault",
+          "other_candidate_names": [
+            "Cheviot Heritage Repository",
+            "Hadrian Limestone Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-VIBISO-4F5",
+          "hidden_predicate_id": "A_vibration_attenuation_db",
+          "threshold_label": "Foundation vibration attenuation",
+          "threshold_aliases": [
+            "Seismic vibration isolation",
+            "Ground motion damping ratio"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "dB",
+          "partial_record_text": "STRUCT-VIBISO-4F5: Tyne Valley Subterranean Vault.Tyne Valley Subterranean Vault: Climate-vault floor area = 800 m2.Source: Structural floorplan certification; Scope: Hermetically sealed Class-1 microclimate chamber; Measurement: Usable net internal floor surface area excluding plant partitions.",
+          "role_name": "Structural Engineering Lead (STRUCT)",
+          "candidate_name": "Tyne Valley Subterranean Vault",
+          "other_candidate_names": [
+            "Cheviot Heritage Repository",
+            "Hadrian Limestone Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_heritage_logistics_A",
+          "role_id": "heritage_logistics",
+          "candidate_id": "A",
+          "key": "LOGIST-HOIST-FY9",
+          "hidden_predicate_id": "A_quarantine_staging_floor_area",
+          "threshold_label": "Quarantine staging floor area",
+          "threshold_aliases": [
+            "Staging area size",
+            "Acclimatization floor space"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "m2",
+          "partial_record_text": "LOGIST-HOIST-FY9: Tyne Valley Subterranean Vault.Facility configuration baseline: Baseline Configuration v3.0.Tyne Valley Subterranean Vault: High-capacity cargo lift certification cleared = true .Source: Statutory lift inspection register; Scope: Heavy conservation crate freight hoist mechanism; Measurement: Certification for unassisted handling of 5-tonne transfer crates.",
+          "role_name": "Heritage Logistics Lead (LOGIST)",
+          "candidate_name": "Tyne Valley Subterranean Vault",
+          "other_candidate_names": [
+            "Cheviot Heritage Repository",
+            "Hadrian Limestone Archive"
+          ],
+          "context_value": "Baseline Configuration v3.0",
+          "other_context_values": [
+            "Baseline Configuration v2.0"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

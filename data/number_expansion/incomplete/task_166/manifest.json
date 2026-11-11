@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_166",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_geophysics",
+        "subsea_operations"
+      ],
+      "role_names": [
+        "Marine geophysics lead (GEOPHYS)",
+        "Subsea robotics superintendent (SUBOPS)"
+      ],
+      "directory": "incomplete/task_166",
+      "profiles": [
+        {
+          "record_id": "rec_marine_geophysics_A",
+          "role_id": "marine_geophysics",
+          "candidate_id": "A",
+          "key": "GEOPHYS-ACOUST-K84",
+          "boolean_predicate_id": "A_acoustic_transponder_certified",
+          "boolean_label": "Acoustic transponder certified",
+          "hidden_predicate_id": "A_pinpoint_localization_margin",
+          "threshold_label": "Pinpoint localization resolution",
+          "threshold_aliases": [
+            "Fault localization margin",
+            "Pinpointing accuracy"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOPHYS-ACOUST-K84: DeepScan Remotely Operated Acoustic Profiling.DeepScan Remotely Operated Acoustic Profiling: Acoustic transponder certified = true .Source: Subsea positioning readiness log; Scope: Ultra-short baseline acoustic positioning spread; Measurement: Whether seabed acoustic transponders are verified and certified active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Pinpoint localization resolution is at most 4 m.",
+          "role_name": "Marine geophysics lead (GEOPHYS)",
+          "candidate_name": "DeepScan Remotely Operated Acoustic Profiling",
+          "other_candidate_names": [
+            "Autonomous Magnetometric Towfish Survey",
+            "Optical Time-Domain Reflectometry with Subsea ROV Tracking"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUBOPS-ROBOT-TVI",
+          "hidden_predicate_id": "A_continuous_operating_endurance",
+          "threshold_label": "Continuous operating endurance",
+          "threshold_aliases": [
+            "Mission endurance",
+            "Subsea operational endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "SUBOPS-ROBOT-TVI: DeepScan Remotely Operated Acoustic Profiling.Maritime jurisdiction: United Kingdom.DeepScan Remotely Operated Acoustic Profiling: Active seabed scanning duration = 45 h.Source: Mission survey protocol specification; Scope: Detailed acoustic, magnetometric, and optical scan tracklines; Measurement: Planned submerged on-station surveying hours along the anomaly corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Continuous operating endurance is at most 110 h.",
+          "role_name": "Subsea robotics superintendent (SUBOPS)",
+          "candidate_name": "DeepScan Remotely Operated Acoustic Profiling",
+          "other_candidate_names": [
+            "Autonomous Magnetometric Towfish Survey",
+            "Optical Time-Domain Reflectometry with Subsea ROV Tracking"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_geophysics",
+        "subsea_operations",
+        "vessel_logistics"
+      ],
+      "role_names": [
+        "Marine geophysics lead (GEOPHYS)",
+        "Subsea robotics superintendent (SUBOPS)",
+        "Offshore fleet logistics coordinator (FLEET)"
+      ],
+      "directory": "incomplete/task_166",
+      "profiles": [
+        {
+          "record_id": "rec_marine_geophysics_A",
+          "role_id": "marine_geophysics",
+          "candidate_id": "A",
+          "key": "GEOPHYS-ACOUST-K84",
+          "boolean_predicate_id": "A_acoustic_transponder_certified",
+          "boolean_label": "Acoustic transponder certified",
+          "hidden_predicate_id": "A_pinpoint_localization_margin",
+          "threshold_label": "Pinpoint localization resolution",
+          "threshold_aliases": [
+            "Fault localization margin",
+            "Pinpointing accuracy"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOPHYS-ACOUST-K84: DeepScan Remotely Operated Acoustic Profiling.DeepScan Remotely Operated Acoustic Profiling: Acoustic transponder certified = true .Source: Subsea positioning readiness log; Scope: Ultra-short baseline acoustic positioning spread; Measurement: Whether seabed acoustic transponders are verified and certified active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Pinpoint localization resolution is at most 4 m.",
+          "role_name": "Marine geophysics lead (GEOPHYS)",
+          "candidate_name": "DeepScan Remotely Operated Acoustic Profiling",
+          "other_candidate_names": [
+            "Autonomous Magnetometric Towfish Survey",
+            "Optical Time-Domain Reflectometry with Subsea ROV Tracking"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUBOPS-ROBOT-TVI",
+          "hidden_predicate_id": "A_continuous_operating_endurance",
+          "threshold_label": "Continuous operating endurance",
+          "threshold_aliases": [
+            "Mission endurance",
+            "Subsea operational endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "SUBOPS-ROBOT-TVI: DeepScan Remotely Operated Acoustic Profiling.Maritime jurisdiction: United Kingdom.DeepScan Remotely Operated Acoustic Profiling: Active seabed scanning duration = 45 h.Source: Mission survey protocol specification; Scope: Detailed acoustic, magnetometric, and optical scan tracklines; Measurement: Planned submerged on-station surveying hours along the anomaly corridor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Continuous operating endurance is at most 110 h.",
+          "role_name": "Subsea robotics superintendent (SUBOPS)",
+          "candidate_name": "DeepScan Remotely Operated Acoustic Profiling",
+          "other_candidate_names": [
+            "Autonomous Magnetometric Towfish Survey",
+            "Optical Time-Domain Reflectometry with Subsea ROV Tracking"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_logistics_A",
+          "role_id": "vessel_logistics",
+          "candidate_id": "A",
+          "key": "FLEET-TRANSIT-OKA",
+          "hidden_predicate_id": "A_survey_transit_hours",
+          "threshold_label": "Survey transit duration",
+          "threshold_aliases": [
+            "Vessel transit time",
+            "Corridor transit hours"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "h",
+          "partial_record_text": "FLEET-TRANSIT-OKA: DeepScan Remotely Operated Acoustic Profiling. The record covers Survey transit duration. Vessel passage plan and voyage schedule; Transit between staging port and cable fault sector coordinates; Total round-trip maritime transit operational hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Survey transit duration is at most 60 h.",
+          "role_name": "Offshore fleet logistics coordinator (FLEET)",
+          "candidate_name": "DeepScan Remotely Operated Acoustic Profiling",
+          "other_candidate_names": [
+            "Autonomous Magnetometric Towfish Survey",
+            "Optical Time-Domain Reflectometry with Subsea ROV Tracking"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

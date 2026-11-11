@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_630",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_survey_lead",
+        "offshore_safety_lead"
+      ],
+      "role_names": [
+        "Marine survey operations manager (SURVOPS)",
+        "Offshore vessel safety superintendent (MARSAFE)"
+      ],
+      "directory": "number_expansion/misaligned/task_630/k2",
+      "error_profiles": [
+        {
+          "role_name": "Marine survey operations manager (SURVOPS)",
+          "target_key": "SURVOPS-HYDRO-3GZ",
+          "alternate_key": "SURVOPS-MOBIL-YBP",
+          "target_context": "United Kingdom",
+          "alternate_context": "France",
+          "candidate": "Deep-tow synthetic aperture sonar transect",
+          "other_candidates": [
+            "Autonomous underwater vehicle bathymetric grid",
+            "Work-class ROV continuous acoustic tracker"
+          ],
+          "numeric": [
+            {
+              "topic": "acoustic_inspection_duration",
+              "value": 45,
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ]
+            },
+            {
+              "topic": "positional_accuracy_error",
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ]
+            },
+            {
+              "topic": "benthic_special_area_permit",
+              "label": "Benthic special conservation area permit",
+              "aliases": [
+                "Marine protected area consent",
+                "Benthic habitat survey license"
+              ]
+            },
+            {
+              "topic": "cetacean_acoustic_exclusion_radius",
+              "label": "Cetacean acoustic mitigation exclusion radius",
+              "aliases": [
+                "Marine mammal observation safety buffer",
+                "Acoustic mitigation zone radius"
+              ]
+            },
+            {
+              "topic": "dp2_redundancy_certified",
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ]
+            },
+            {
+              "topic": "seabed_current_operability_limit",
+              "label": "Seabed bottom-current operability threshold",
+              "aliases": [
+                "Hydrodynamic current operating limit",
+                "Tidal current endurance threshold"
+              ]
+            },
+            {
+              "topic": "acoustic_inspection_duration",
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ]
+            },
+            {
+              "topic": "hourly_sonar_spread_charge",
+              "label": "Contractual hourly sonar-spread operating charge",
+              "aliases": [
+                "Acoustic spread hourly tariff",
+                "Hourly survey spread fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Offshore vessel safety superintendent (MARSAFE)",
+          "target_key": "MARSAFE-DPSTAT-PAE",
+          "alternate_key": "MARSAFE-DPSTAT-I7L",
+          "target_context": "production operating environment",
+          "alternate_context": "sea-trials test environment",
+          "candidate": "Deep-tow synthetic aperture sonar transect",
+          "other_candidates": [
+            "Autonomous underwater vehicle bathymetric grid",
+            "Work-class ROV continuous acoustic tracker"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dp2_redundancy_certified",
+              "value": true,
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ]
+            },
+            {
+              "topic": "positional_accuracy_error",
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ]
+            },
+            {
+              "topic": "benthic_special_area_permit",
+              "label": "Benthic special conservation area permit",
+              "aliases": [
+                "Marine protected area consent",
+                "Benthic habitat survey license"
+              ]
+            },
+            {
+              "topic": "cetacean_acoustic_exclusion_radius",
+              "label": "Cetacean acoustic mitigation exclusion radius",
+              "aliases": [
+                "Marine mammal observation safety buffer",
+                "Acoustic mitigation zone radius"
+              ]
+            },
+            {
+              "topic": "dp2_redundancy_certified",
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ]
+            },
+            {
+              "topic": "seabed_current_operability_limit",
+              "label": "Seabed bottom-current operability threshold",
+              "aliases": [
+                "Hydrodynamic current operating limit",
+                "Tidal current endurance threshold"
+              ]
+            },
+            {
+              "topic": "acoustic_inspection_duration",
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ]
+            },
+            {
+              "topic": "hourly_sonar_spread_charge",
+              "label": "Contractual hourly sonar-spread operating charge",
+              "aliases": [
+                "Acoustic spread hourly tariff",
+                "Hourly survey spread fee"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_survey_lead",
+        "offshore_safety_lead",
+        "geophysical_geotech_lead"
+      ],
+      "role_names": [
+        "Marine survey operations manager (SURVOPS)",
+        "Offshore vessel safety superintendent (MARSAFE)",
+        "Geophysical survey superintendent (GEOPHYS)"
+      ],
+      "directory": "number_expansion/misaligned/task_630/k3",
+      "error_profiles": [
+        {
+          "role_name": "Marine survey operations manager (SURVOPS)",
+          "target_key": "SURVOPS-HYDRO-3GZ",
+          "alternate_key": "SURVOPS-MOBIL-YBP",
+          "target_context": "United Kingdom",
+          "alternate_context": "France",
+          "candidate": "Deep-tow synthetic aperture sonar transect",
+          "other_candidates": [
+            "Autonomous underwater vehicle bathymetric grid",
+            "Work-class ROV continuous acoustic tracker"
+          ],
+          "numeric": [
+            {
+              "topic": "acoustic_inspection_duration",
+              "value": 45,
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ]
+            },
+            {
+              "topic": "positional_accuracy_error",
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ]
+            },
+            {
+              "topic": "benthic_special_area_permit",
+              "label": "Benthic special conservation area permit",
+              "aliases": [
+                "Marine protected area consent",
+                "Benthic habitat survey license"
+              ]
+            },
+            {
+              "topic": "cetacean_acoustic_exclusion_radius",
+              "label": "Cetacean acoustic mitigation exclusion radius",
+              "aliases": [
+                "Marine mammal observation safety buffer",
+                "Acoustic mitigation zone radius"
+              ]
+            },
+            {
+              "topic": "dp2_redundancy_certified",
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ]
+            },
+            {
+              "topic": "seabed_current_operability_limit",
+              "label": "Seabed bottom-current operability threshold",
+              "aliases": [
+                "Hydrodynamic current operating limit",
+                "Tidal current endurance threshold"
+              ]
+            },
+            {
+              "topic": "acoustic_inspection_duration",
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ]
+            },
+            {
+              "topic": "hourly_sonar_spread_charge",
+              "label": "Contractual hourly sonar-spread operating charge",
+              "aliases": [
+                "Acoustic spread hourly tariff",
+                "Hourly survey spread fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Offshore vessel safety superintendent (MARSAFE)",
+          "target_key": "MARSAFE-DPSTAT-PAE",
+          "alternate_key": "MARSAFE-DPSTAT-I7L",
+          "target_context": "production operating environment",
+          "alternate_context": "sea-trials test environment",
+          "candidate": "Deep-tow synthetic aperture sonar transect",
+          "other_candidates": [
+            "Autonomous underwater vehicle bathymetric grid",
+            "Work-class ROV continuous acoustic tracker"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dp2_redundancy_certified",
+              "value": true,
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ]
+            },
+            {
+              "topic": "positional_accuracy_error",
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ]
+            },
+            {
+              "topic": "benthic_special_area_permit",
+              "label": "Benthic special conservation area permit",
+              "aliases": [
+                "Marine protected area consent",
+                "Benthic habitat survey license"
+              ]
+            },
+            {
+              "topic": "cetacean_acoustic_exclusion_radius",
+              "label": "Cetacean acoustic mitigation exclusion radius",
+              "aliases": [
+                "Marine mammal observation safety buffer",
+                "Acoustic mitigation zone radius"
+              ]
+            },
+            {
+              "topic": "dp2_redundancy_certified",
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ]
+            },
+            {
+              "topic": "seabed_current_operability_limit",
+              "label": "Seabed bottom-current operability threshold",
+              "aliases": [
+                "Hydrodynamic current operating limit",
+                "Tidal current endurance threshold"
+              ]
+            },
+            {
+              "topic": "acoustic_inspection_duration",
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ]
+            },
+            {
+              "topic": "hourly_sonar_spread_charge",
+              "label": "Contractual hourly sonar-spread operating charge",
+              "aliases": [
+                "Acoustic spread hourly tariff",
+                "Hourly survey spread fee"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geophysical survey superintendent (GEOPHYS)",
+          "target_key": "GEOPHYS-GEOMAP-5FG",
+          "alternate_key": "GEOPHYS-GEOMAP-EQ6",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Deep-tow synthetic aperture sonar transect",
+          "other_candidates": [
+            "Autonomous underwater vehicle bathymetric grid",
+            "Work-class ROV continuous acoustic tracker"
+          ],
+          "numeric": [
+            {
+              "topic": "positional_accuracy_error",
+              "value": 1.2,
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "value": true,
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "magnetometer_calibration_active",
+              "label": "Magnetometer calibration active",
+              "aliases": [
+                "Magnetic gradiometer calibration status",
+                "Active magnetometer status"
+              ]
+            },
+            {
+              "topic": "positional_accuracy_error",
+              "label": "Subsea positional accuracy error",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic tracking positional uncertainty"
+              ]
+            },
+            {
+              "topic": "benthic_special_area_permit",
+              "label": "Benthic special conservation area permit",
+              "aliases": [
+                "Marine protected area consent",
+                "Benthic habitat survey license"
+              ]
+            },
+            {
+              "topic": "cetacean_acoustic_exclusion_radius",
+              "label": "Cetacean acoustic mitigation exclusion radius",
+              "aliases": [
+                "Marine mammal observation safety buffer",
+                "Acoustic mitigation zone radius"
+              ]
+            },
+            {
+              "topic": "dp2_redundancy_certified",
+              "label": "DP2 dynamic positioning vessel redundancy certified",
+              "aliases": [
+                "IMO DP Class 2 certification",
+                "Dynamic positioning redundancy compliance"
+              ]
+            },
+            {
+              "topic": "seabed_current_operability_limit",
+              "label": "Seabed bottom-current operability threshold",
+              "aliases": [
+                "Hydrodynamic current operating limit",
+                "Tidal current endurance threshold"
+              ]
+            },
+            {
+              "topic": "acoustic_inspection_duration",
+              "label": "Planned offshore acoustic inspection duration",
+              "aliases": [
+                "Sonar trenching survey duration",
+                "Acoustic survey time"
+              ]
+            },
+            {
+              "topic": "hourly_sonar_spread_charge",
+              "label": "Contractual hourly sonar-spread operating charge",
+              "aliases": [
+                "Acoustic spread hourly tariff",
+                "Hourly survey spread fee"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

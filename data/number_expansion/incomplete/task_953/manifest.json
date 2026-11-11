@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_953",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "thermal_systems"
+      ],
+      "role_names": [
+        "Environmental compliance lead (ENVR)",
+        "Thermal energy systems lead (THERM)"
+      ],
+      "directory": "incomplete/task_953",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVR-EMIS-FFX",
+          "boolean_predicate_id": "A_odor_abatement_enabled",
+          "boolean_label": "Multi-stage odor abatement system enabled",
+          "hidden_predicate_id": "A_exhaust_ammonia_concentration",
+          "threshold_label": "Stack exhaust ammonia concentration",
+          "threshold_aliases": [
+            "Exhaust ammonia level",
+            "Stack NH3 concentration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "ENVR-EMIS-FFX: Continuous thermal hydrolysis with vacuum flash scheme.Continuous thermal hydrolysis with vacuum flash scheme: Multi-stage odor abatement system enabled = true .Source: Odor containment commissioning dossier; Scope: Sludge reception, cake dewatering, and hydrolysis off-gas collection lines; Measurement: Whether the multi-stage chemical scrubbing and biofiltration train is activated and interlocked.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Stack exhaust ammonia concentration is between 5 mg/m3 and 30 mg/m3, inclusive.",
+          "role_name": "Environmental compliance lead (ENVR)",
+          "candidate_name": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidate_names": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_thermal_systems_A",
+          "role_id": "thermal_systems",
+          "candidate_id": "A",
+          "key": "THERM-COGEN-3DH",
+          "hidden_predicate_id": "A_parasitic_steam_fraction",
+          "threshold_label": "Parasitic steam consumption fraction",
+          "threshold_aliases": [
+            "Parasitic steam ratio",
+            "Internal steam demand share"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "%",
+          "partial_record_text": "THERM-COGEN-3DH: Continuous thermal hydrolysis with vacuum flash scheme.Simulation model version: Version 2.0.Continuous thermal hydrolysis with vacuum flash scheme: Digestion loop thermal export capacity = 1.8 MW.Source: Anaerobic digester thermal integration ledger; Scope: Secondary heat export jacket loop; Measurement: Maximum continuous thermal power transferred from the hydrolysis flash stream to maintain mesophilic digester temperatures.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Parasitic steam consumption fraction is between 10 % and 40 %, inclusive.",
+          "role_name": "Thermal energy systems lead (THERM)",
+          "candidate_name": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidate_names": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "context_value": "Version 2.0",
+          "other_context_values": [
+            "Version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "thermal_systems",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Environmental compliance lead (ENVR)",
+        "Thermal energy systems lead (THERM)",
+        "Process engineering lead (PROC)"
+      ],
+      "directory": "incomplete/task_953",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVR-EMIS-FFX",
+          "boolean_predicate_id": "A_odor_abatement_enabled",
+          "boolean_label": "Multi-stage odor abatement system enabled",
+          "hidden_predicate_id": "A_exhaust_ammonia_concentration",
+          "threshold_label": "Stack exhaust ammonia concentration",
+          "threshold_aliases": [
+            "Exhaust ammonia level",
+            "Stack NH3 concentration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "ENVR-EMIS-FFX: Continuous thermal hydrolysis with vacuum flash scheme.Continuous thermal hydrolysis with vacuum flash scheme: Multi-stage odor abatement system enabled = true .Source: Odor containment commissioning dossier; Scope: Sludge reception, cake dewatering, and hydrolysis off-gas collection lines; Measurement: Whether the multi-stage chemical scrubbing and biofiltration train is activated and interlocked.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Stack exhaust ammonia concentration is between 5 mg/m3 and 30 mg/m3, inclusive.",
+          "role_name": "Environmental compliance lead (ENVR)",
+          "candidate_name": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidate_names": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_thermal_systems_A",
+          "role_id": "thermal_systems",
+          "candidate_id": "A",
+          "key": "THERM-COGEN-3DH",
+          "hidden_predicate_id": "A_parasitic_steam_fraction",
+          "threshold_label": "Parasitic steam consumption fraction",
+          "threshold_aliases": [
+            "Parasitic steam ratio",
+            "Internal steam demand share"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "%",
+          "partial_record_text": "THERM-COGEN-3DH: Continuous thermal hydrolysis with vacuum flash scheme.Simulation model version: Version 2.0.Continuous thermal hydrolysis with vacuum flash scheme: Digestion loop thermal export capacity = 1.8 MW.Source: Anaerobic digester thermal integration ledger; Scope: Secondary heat export jacket loop; Measurement: Maximum continuous thermal power transferred from the hydrolysis flash stream to maintain mesophilic digester temperatures.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Parasitic steam consumption fraction is between 10 % and 40 %, inclusive.",
+          "role_name": "Thermal energy systems lead (THERM)",
+          "candidate_name": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidate_names": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "context_value": "Version 2.0",
+          "other_context_values": [
+            "Version 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PROC-HYDR-43H",
+          "hidden_predicate_id": "A_preheating_thermal_capacity",
+          "threshold_label": "Raw sludge preheating thermal capacity",
+          "threshold_aliases": [
+            "Sludge preheating rating",
+            "Preheating thermal output"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "MW",
+          "partial_record_text": "PROC-HYDR-43H: Continuous thermal hydrolysis with vacuum flash scheme.Continuous thermal hydrolysis with vacuum flash scheme: Continuous reactor configuration certification = true .Source: Process engineering design certification; Scope: Primary thermal hydrolysis reaction train; Measurement: Whether the reactor design is certified for uninterrupted continuous pressurized operation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 5
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Raw sludge preheating thermal capacity is between 1 MW and 5 MW, inclusive.",
+          "role_name": "Process engineering lead (PROC)",
+          "candidate_name": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidate_names": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

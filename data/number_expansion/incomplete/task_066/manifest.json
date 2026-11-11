@@ -1,0 +1,174 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_066",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "mountain_meteorology",
+        "airspace_safety"
+      ],
+      "role_names": [
+        "Mountain Aviation Meteorology Officer (MET)",
+        "Civil Aviation Safety Inspector (SAFE)"
+      ],
+      "directory": "incomplete/task_066",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_meteorology_A",
+          "role_id": "mountain_meteorology",
+          "candidate_id": "A",
+          "key": "MET-WXR-CDS",
+          "boolean_predicate_id": "A_telemetry_feed_active",
+          "boolean_label": "Active automated mountain weather telemetry feed",
+          "hidden_predicate_id": "A_max_wind_shear",
+          "threshold_label": "Maximum en-route wind shear speed",
+          "threshold_aliases": [
+            "Peak wind shear velocity",
+            "Corridor maximum wind shear"
+          ],
+          "threshold_value": 22,
+          "threshold_unit": "kn",
+          "partial_record_text": "MET-WXR-CDS: Haast Pass Trans-Alpine Corridor.Haast Pass Trans-Alpine Corridor: Active automated mountain weather telemetry feed = true .Source: Aviation meteorological telemetry console; Scope: Automated ridge-top weather stations along the corridor; Measurement: Operational status of real-time digital weather data stream ingestion.",
+          "role_name": "Mountain Aviation Meteorology Officer (MET)",
+          "candidate_name": "Haast Pass Trans-Alpine Corridor",
+          "other_candidate_names": [
+            "Arthur's Pass Ridgeline Route",
+            "Lindis Pass Low-Level Vector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airspace_safety_A",
+          "role_id": "airspace_safety",
+          "candidate_id": "A",
+          "key": "SAFE-NAV-9F2",
+          "hidden_predicate_id": "A_min_instrument_altitude",
+          "threshold_label": "Minimum instrument approach altitude",
+          "threshold_aliases": [
+            "Approach procedure altitude ceiling",
+            "Minimum safe instrument descent altitude"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "m",
+          "partial_record_text": "SAFE-NAV-9F2: Haast Pass Trans-Alpine Corridor. The record covers Minimum instrument approach altitude. Standard instrument departure and arrival chart; Designated mountain pass initial approach fix; Lowest permissible instrument flight altitude above mean sea level during descent.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2200
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Minimum instrument approach altitude is at most 2200 m.",
+          "role_name": "Civil Aviation Safety Inspector (SAFE)",
+          "candidate_name": "Haast Pass Trans-Alpine Corridor",
+          "other_candidate_names": [
+            "Arthur's Pass Ridgeline Route",
+            "Lindis Pass Low-Level Vector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "mountain_meteorology",
+        "airspace_safety",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Mountain Aviation Meteorology Officer (MET)",
+        "Civil Aviation Safety Inspector (SAFE)",
+        "Flight Operations Specialist (FLTOPS)"
+      ],
+      "directory": "incomplete/task_066",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_meteorology_A",
+          "role_id": "mountain_meteorology",
+          "candidate_id": "A",
+          "key": "MET-WXR-CDS",
+          "boolean_predicate_id": "A_telemetry_feed_active",
+          "boolean_label": "Active automated mountain weather telemetry feed",
+          "hidden_predicate_id": "A_max_wind_shear",
+          "threshold_label": "Maximum en-route wind shear speed",
+          "threshold_aliases": [
+            "Peak wind shear velocity",
+            "Corridor maximum wind shear"
+          ],
+          "threshold_value": 22,
+          "threshold_unit": "kn",
+          "partial_record_text": "MET-WXR-CDS: Haast Pass Trans-Alpine Corridor.Haast Pass Trans-Alpine Corridor: Active automated mountain weather telemetry feed = true .Source: Aviation meteorological telemetry console; Scope: Automated ridge-top weather stations along the corridor; Measurement: Operational status of real-time digital weather data stream ingestion.",
+          "role_name": "Mountain Aviation Meteorology Officer (MET)",
+          "candidate_name": "Haast Pass Trans-Alpine Corridor",
+          "other_candidate_names": [
+            "Arthur's Pass Ridgeline Route",
+            "Lindis Pass Low-Level Vector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airspace_safety_A",
+          "role_id": "airspace_safety",
+          "candidate_id": "A",
+          "key": "SAFE-NAV-9F2",
+          "hidden_predicate_id": "A_min_instrument_altitude",
+          "threshold_label": "Minimum instrument approach altitude",
+          "threshold_aliases": [
+            "Approach procedure altitude ceiling",
+            "Minimum safe instrument descent altitude"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "m",
+          "partial_record_text": "SAFE-NAV-9F2: Haast Pass Trans-Alpine Corridor. The record covers Minimum instrument approach altitude. Standard instrument departure and arrival chart; Designated mountain pass initial approach fix; Lowest permissible instrument flight altitude above mean sea level during descent.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2200
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Minimum instrument approach altitude is at most 2200 m.",
+          "role_name": "Civil Aviation Safety Inspector (SAFE)",
+          "candidate_name": "Haast Pass Trans-Alpine Corridor",
+          "other_candidate_names": [
+            "Arthur's Pass Ridgeline Route",
+            "Lindis Pass Low-Level Vector"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-CLEAR-R3H",
+          "hidden_predicate_id": "A_outbound_transit_duration",
+          "threshold_label": "Outbound transit flight duration",
+          "threshold_aliases": [
+            "Outbound flight time",
+            "Ingress transit duration"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "min",
+          "partial_record_text": "FLTOPS-CLEAR-R3H: Haast Pass Trans-Alpine Corridor.Operational evaluation period: April 2026.Haast Pass Trans-Alpine Corridor: Certified terrain obstacle clearance = true .Source: Flight corridor terrain mapping survey; Scope: Corridor vertical and lateral safety envelopes; Measurement: Formal validation that terrain and obstacle margins meet emergency flight criteria.",
+          "role_name": "Flight Operations Specialist (FLTOPS)",
+          "candidate_name": "Haast Pass Trans-Alpine Corridor",
+          "other_candidate_names": [
+            "Arthur's Pass Ridgeline Route",
+            "Lindis Pass Low-Level Vector"
+          ],
+          "context_value": "April 2026",
+          "other_context_values": [
+            "May 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

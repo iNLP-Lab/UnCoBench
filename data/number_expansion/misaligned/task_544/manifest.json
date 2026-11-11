@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_544",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "operations_dispatch",
+        "safety_compliance"
+      ],
+      "role_names": [
+        "Yard dispatch and logistics lead (DISP)",
+        "Rail safety and compliance lead (SAFE)"
+      ],
+      "directory": "number_expansion/misaligned/task_544/k2",
+      "error_profiles": [
+        {
+          "role_name": "Yard dispatch and logistics lead (DISP)",
+          "target_key": "DISP-YARD-JUX",
+          "alternate_key": "DISP-YARD-H02",
+          "target_context": "Germany",
+          "alternate_context": "France",
+          "candidate": "Direct Rail-Mounted Gantry Operating Model",
+          "other_candidates": [
+            "Hybrid Reach-Stacker Shuttle Model",
+            "Automated Straddle Carrier Operating Model"
+          ],
+          "numeric": [
+            {
+              "topic": "turnaround_slot_capacity",
+              "value": 24,
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ],
+              "unit": "trains"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "axle_load_certified",
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ]
+            },
+            {
+              "topic": "substation_redundancy",
+              "label": "Dual substation feed redundancy",
+              "aliases": [
+                "Substation redundancy",
+                "Traction power feed redundancy"
+              ]
+            },
+            {
+              "topic": "dangerous_goods_authorization",
+              "label": "Dangerous goods handling authorization",
+              "aliases": [
+                "Hazardous freight permit",
+                "RID hazmat authorization"
+              ]
+            },
+            {
+              "topic": "emergency_shunting_time",
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ]
+            },
+            {
+              "topic": "turnaround_slot_capacity",
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ]
+            },
+            {
+              "topic": "acoustic_barrier_compliance",
+              "label": "Acoustic barrier mitigation compliance",
+              "aliases": [
+                "Noise mitigation compliance",
+                "Acoustic barrier verification"
+              ]
+            },
+            {
+              "topic": "trackbed_renewal_allocation",
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ]
+            },
+            {
+              "topic": "catenary_grid_buffer_allocation",
+              "label": "Catenary grid buffer allocation",
+              "aliases": [
+                "Catenary reserve fund",
+                "Traction power buffer budget"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Rail safety and compliance lead (SAFE)",
+          "target_key": "SAFE-REG-E94",
+          "alternate_key": "SAFE-REG-Q54",
+          "target_context": "measured from initial alert broadcast",
+          "alternate_context": "measured from shunting locomotive attachment",
+          "candidate": "Direct Rail-Mounted Gantry Operating Model",
+          "other_candidates": [
+            "Hybrid Reach-Stacker Shuttle Model",
+            "Automated Straddle Carrier Operating Model"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_shunting_time",
+              "value": 20,
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "axle_load_certified",
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ]
+            },
+            {
+              "topic": "substation_redundancy",
+              "label": "Dual substation feed redundancy",
+              "aliases": [
+                "Substation redundancy",
+                "Traction power feed redundancy"
+              ]
+            },
+            {
+              "topic": "dangerous_goods_authorization",
+              "label": "Dangerous goods handling authorization",
+              "aliases": [
+                "Hazardous freight permit",
+                "RID hazmat authorization"
+              ]
+            },
+            {
+              "topic": "emergency_shunting_time",
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ]
+            },
+            {
+              "topic": "turnaround_slot_capacity",
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ]
+            },
+            {
+              "topic": "acoustic_barrier_compliance",
+              "label": "Acoustic barrier mitigation compliance",
+              "aliases": [
+                "Noise mitigation compliance",
+                "Acoustic barrier verification"
+              ]
+            },
+            {
+              "topic": "trackbed_renewal_allocation",
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ]
+            },
+            {
+              "topic": "catenary_grid_buffer_allocation",
+              "label": "Catenary grid buffer allocation",
+              "aliases": [
+                "Catenary reserve fund",
+                "Traction power buffer budget"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "operations_dispatch",
+        "safety_compliance",
+        "rail_infrastructure"
+      ],
+      "role_names": [
+        "Yard dispatch and logistics lead (DISP)",
+        "Rail safety and compliance lead (SAFE)",
+        "Civil rail infrastructure lead (INFRA)"
+      ],
+      "directory": "number_expansion/misaligned/task_544/k3",
+      "error_profiles": [
+        {
+          "role_name": "Yard dispatch and logistics lead (DISP)",
+          "target_key": "DISP-YARD-JUX",
+          "alternate_key": "DISP-YARD-H02",
+          "target_context": "Germany",
+          "alternate_context": "France",
+          "candidate": "Direct Rail-Mounted Gantry Operating Model",
+          "other_candidates": [
+            "Hybrid Reach-Stacker Shuttle Model",
+            "Automated Straddle Carrier Operating Model"
+          ],
+          "numeric": [
+            {
+              "topic": "turnaround_slot_capacity",
+              "value": 24,
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ],
+              "unit": "trains"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "axle_load_certified",
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ]
+            },
+            {
+              "topic": "substation_redundancy",
+              "label": "Dual substation feed redundancy",
+              "aliases": [
+                "Substation redundancy",
+                "Traction power feed redundancy"
+              ]
+            },
+            {
+              "topic": "dangerous_goods_authorization",
+              "label": "Dangerous goods handling authorization",
+              "aliases": [
+                "Hazardous freight permit",
+                "RID hazmat authorization"
+              ]
+            },
+            {
+              "topic": "emergency_shunting_time",
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ]
+            },
+            {
+              "topic": "turnaround_slot_capacity",
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ]
+            },
+            {
+              "topic": "acoustic_barrier_compliance",
+              "label": "Acoustic barrier mitigation compliance",
+              "aliases": [
+                "Noise mitigation compliance",
+                "Acoustic barrier verification"
+              ]
+            },
+            {
+              "topic": "trackbed_renewal_allocation",
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ]
+            },
+            {
+              "topic": "catenary_grid_buffer_allocation",
+              "label": "Catenary grid buffer allocation",
+              "aliases": [
+                "Catenary reserve fund",
+                "Traction power buffer budget"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Rail safety and compliance lead (SAFE)",
+          "target_key": "SAFE-REG-E94",
+          "alternate_key": "SAFE-REG-Q54",
+          "target_context": "measured from initial alert broadcast",
+          "alternate_context": "measured from shunting locomotive attachment",
+          "candidate": "Direct Rail-Mounted Gantry Operating Model",
+          "other_candidates": [
+            "Hybrid Reach-Stacker Shuttle Model",
+            "Automated Straddle Carrier Operating Model"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_shunting_time",
+              "value": 20,
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "axle_load_certified",
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ]
+            },
+            {
+              "topic": "substation_redundancy",
+              "label": "Dual substation feed redundancy",
+              "aliases": [
+                "Substation redundancy",
+                "Traction power feed redundancy"
+              ]
+            },
+            {
+              "topic": "dangerous_goods_authorization",
+              "label": "Dangerous goods handling authorization",
+              "aliases": [
+                "Hazardous freight permit",
+                "RID hazmat authorization"
+              ]
+            },
+            {
+              "topic": "emergency_shunting_time",
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ]
+            },
+            {
+              "topic": "turnaround_slot_capacity",
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ]
+            },
+            {
+              "topic": "acoustic_barrier_compliance",
+              "label": "Acoustic barrier mitigation compliance",
+              "aliases": [
+                "Noise mitigation compliance",
+                "Acoustic barrier verification"
+              ]
+            },
+            {
+              "topic": "trackbed_renewal_allocation",
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ]
+            },
+            {
+              "topic": "catenary_grid_buffer_allocation",
+              "label": "Catenary grid buffer allocation",
+              "aliases": [
+                "Catenary reserve fund",
+                "Traction power buffer budget"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil rail infrastructure lead (INFRA)",
+          "target_key": "INFRA-CIVIL-FGD",
+          "alternate_key": "INFRA-CIVIL-DQD",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Direct Rail-Mounted Gantry Operating Model",
+          "other_candidates": [
+            "Hybrid Reach-Stacker Shuttle Model",
+            "Automated Straddle Carrier Operating Model"
+          ],
+          "numeric": [
+            {
+              "topic": "trackbed_renewal_allocation",
+              "value": 210,
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ],
+              "unit": "kEUR"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "axle_load_certified",
+              "value": true,
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "axle_load_certified",
+              "label": "Heavy axle load certification",
+              "aliases": [
+                "Axle load certification",
+                "Category D4 track loading compliance"
+              ]
+            },
+            {
+              "topic": "substation_redundancy",
+              "label": "Dual substation feed redundancy",
+              "aliases": [
+                "Substation redundancy",
+                "Traction power feed redundancy"
+              ]
+            },
+            {
+              "topic": "dangerous_goods_authorization",
+              "label": "Dangerous goods handling authorization",
+              "aliases": [
+                "Hazardous freight permit",
+                "RID hazmat authorization"
+              ]
+            },
+            {
+              "topic": "emergency_shunting_time",
+              "label": "Emergency shunting clearance time",
+              "aliases": [
+                "Hazmat isolation time",
+                "Emergency track clearance duration"
+              ]
+            },
+            {
+              "topic": "turnaround_slot_capacity",
+              "label": "Daily train turnaround slot capacity",
+              "aliases": [
+                "Train throughput slots",
+                "Daily turnaround capacity"
+              ]
+            },
+            {
+              "topic": "acoustic_barrier_compliance",
+              "label": "Acoustic barrier mitigation compliance",
+              "aliases": [
+                "Noise mitigation compliance",
+                "Acoustic barrier verification"
+              ]
+            },
+            {
+              "topic": "trackbed_renewal_allocation",
+              "label": "Trackbed renewal allocation",
+              "aliases": [
+                "Trackbed renewal budget",
+                "Annual ballast and rail fund"
+              ]
+            },
+            {
+              "topic": "catenary_grid_buffer_allocation",
+              "label": "Catenary grid buffer allocation",
+              "aliases": [
+                "Catenary reserve fund",
+                "Traction power buffer budget"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

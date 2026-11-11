@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_532",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "polar_safety_officer",
+        "power_engineer"
+      ],
+      "role_names": [
+        "Polar safety officer (PSO)",
+        "Submersible power systems engineer (PWR)"
+      ],
+      "directory": "incomplete/task_532",
+      "profiles": [
+        {
+          "record_id": "rec_polar_safety_officer_A",
+          "role_id": "polar_safety_officer",
+          "candidate_id": "A",
+          "key": "PSO-ICERISK-G2J",
+          "boolean_predicate_id": "A_pack_ice_avoidance_enabled",
+          "boolean_label": "Pack-ice avoidance system enabled",
+          "hidden_predicate_id": "A_ice_keel_clearance",
+          "threshold_label": "Minimum ice keel clearance",
+          "threshold_aliases": [
+            "Ice draft standoff margin",
+            "Overhead ice clearance"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "m",
+          "partial_record_text": "PSO-ICERISK-G2J: Abyssal Trench Profiler.Abyssal Trench Profiler: Pack-ice avoidance system enabled = true .Source: Avionics configuration register; Scope: Under-ice operational profile; Measurement: Whether the upward-looking collision avoidance altimeter system is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Minimum ice keel clearance is at most 70 m.",
+          "role_name": "Polar safety officer (PSO)",
+          "candidate_name": "Abyssal Trench Profiler",
+          "other_candidate_names": [
+            "Seamount Geophysical Array",
+            "Hydrothermal Vent Cartographer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_engineer_A",
+          "role_id": "power_engineer",
+          "candidate_id": "A",
+          "key": "PWR-ENERGY-28R",
+          "hidden_predicate_id": "A_autonomous_endurance_hours",
+          "threshold_label": "Continuous autonomous endurance",
+          "threshold_aliases": [
+            "Submerged mission endurance",
+            "Autonomous battery operating duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-ENERGY-28R: Abyssal Trench Profiler. The record covers Continuous autonomous endurance. Record context: January 2026. Sub-zero battery drain simulation; Operation at seawater temperatures of minus 1.8 degrees Celsius; Total continuous operational hours before reaching 20 percent reserve.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous autonomous endurance is at most 300 h.",
+          "role_name": "Submersible power systems engineer (PWR)",
+          "candidate_name": "Abyssal Trench Profiler",
+          "other_candidate_names": [
+            "Seamount Geophysical Array",
+            "Hydrothermal Vent Cartographer"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "February 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "polar_safety_officer",
+        "power_engineer",
+        "navigation_lead"
+      ],
+      "role_names": [
+        "Polar safety officer (PSO)",
+        "Submersible power systems engineer (PWR)",
+        "Oceanographic navigation lead (NAV)"
+      ],
+      "directory": "incomplete/task_532",
+      "profiles": [
+        {
+          "record_id": "rec_polar_safety_officer_A",
+          "role_id": "polar_safety_officer",
+          "candidate_id": "A",
+          "key": "PSO-ICERISK-G2J",
+          "boolean_predicate_id": "A_pack_ice_avoidance_enabled",
+          "boolean_label": "Pack-ice avoidance system enabled",
+          "hidden_predicate_id": "A_ice_keel_clearance",
+          "threshold_label": "Minimum ice keel clearance",
+          "threshold_aliases": [
+            "Ice draft standoff margin",
+            "Overhead ice clearance"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "m",
+          "partial_record_text": "PSO-ICERISK-G2J: Abyssal Trench Profiler.Abyssal Trench Profiler: Pack-ice avoidance system enabled = true .Source: Avionics configuration register; Scope: Under-ice operational profile; Measurement: Whether the upward-looking collision avoidance altimeter system is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Minimum ice keel clearance is at most 70 m.",
+          "role_name": "Polar safety officer (PSO)",
+          "candidate_name": "Abyssal Trench Profiler",
+          "other_candidate_names": [
+            "Seamount Geophysical Array",
+            "Hydrothermal Vent Cartographer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_engineer_A",
+          "role_id": "power_engineer",
+          "candidate_id": "A",
+          "key": "PWR-ENERGY-28R",
+          "hidden_predicate_id": "A_autonomous_endurance_hours",
+          "threshold_label": "Continuous autonomous endurance",
+          "threshold_aliases": [
+            "Submerged mission endurance",
+            "Autonomous battery operating duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-ENERGY-28R: Abyssal Trench Profiler. The record covers Continuous autonomous endurance. Record context: January 2026. Sub-zero battery drain simulation; Operation at seawater temperatures of minus 1.8 degrees Celsius; Total continuous operational hours before reaching 20 percent reserve.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous autonomous endurance is at most 300 h.",
+          "role_name": "Submersible power systems engineer (PWR)",
+          "candidate_name": "Abyssal Trench Profiler",
+          "other_candidate_names": [
+            "Seamount Geophysical Array",
+            "Hydrothermal Vent Cartographer"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "February 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_navigation_lead_A",
+          "role_id": "navigation_lead",
+          "candidate_id": "A",
+          "key": "NAV-TRANS-V3I",
+          "hidden_predicate_id": "A_active_sonification_duration",
+          "threshold_label": "Active sonification window",
+          "threshold_aliases": [
+            "Acoustic acquisition time",
+            "Mapping run duration"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "h",
+          "partial_record_text": "NAV-TRANS-V3I: Abyssal Trench Profiler.Abyssal Trench Profiler: Subsurface transponder lock verified = true .Source: Moored acoustic transponder validation log; Scope: Staging corridor seafloor positioning network; Measurement: Confirmation of two-way acoustic ranging handshake across the survey grid.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Active sonification window is at most 50 h.",
+          "role_name": "Oceanographic navigation lead (NAV)",
+          "candidate_name": "Abyssal Trench Profiler",
+          "other_candidate_names": [
+            "Seamount Geophysical Array",
+            "Hydrothermal Vent Cartographer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

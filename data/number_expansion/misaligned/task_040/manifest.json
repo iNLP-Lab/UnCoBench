@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_040",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fuel_quality_assurance",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Bunker fuel quality surveyor (BQS)",
+        "Marine terminal operations superintendent (TOS)"
+      ],
+      "directory": "number_expansion/misaligned/task_040/k2",
+      "error_profiles": [
+        {
+          "role_name": "Bunker fuel quality surveyor (BQS)",
+          "target_key": "BQS-QUAL-Y2B",
+          "alternate_key": "BQS-QUAL-4PF",
+          "target_context": "trailing 12-month period",
+          "alternate_context": "trailing 3-month period",
+          "candidate": "Zeeland Marine Fuels Consortium",
+          "other_candidates": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "fuel_quality_certified",
+              "value": true,
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "trade_sanctions_clearance",
+              "label": "International maritime trade compliance clearance",
+              "aliases": [
+                "Trade sanctions clearance",
+                "Sanctions compliance approval"
+              ]
+            },
+            {
+              "topic": "fuel_quality_certified",
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ]
+            },
+            {
+              "topic": "berth_priority_cleared",
+              "label": "Terminal berthing slot priority reservation",
+              "aliases": [
+                "Berth priority reservation",
+                "Berthing slot clearance"
+              ]
+            },
+            {
+              "topic": "spill_protocol_active",
+              "label": "Active marine spill containment protocol",
+              "aliases": [
+                "Spill containment protocol active",
+                "Spill response activation status"
+              ]
+            },
+            {
+              "topic": "emergency_containment_time",
+              "label": "Emergency containment deployment time",
+              "aliases": [
+                "Containment deployment duration",
+                "Spill boom deployment time"
+              ]
+            },
+            {
+              "topic": "liability_ceiling_approved",
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ]
+            },
+            {
+              "topic": "contracted_bunkering_volume",
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ]
+            },
+            {
+              "topic": "unit_port_handling_fee",
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine terminal operations superintendent (TOS)",
+          "target_key": "TOS-OPS-OVW",
+          "alternate_key": "TOS-OPS-N8G",
+          "target_context": "production environment",
+          "alternate_context": "simulation environment",
+          "candidate": "Zeeland Marine Fuels Consortium",
+          "other_candidates": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "numeric": [
+            {
+              "topic": "unit_port_handling_fee",
+              "value": 5.2,
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ],
+              "unit": "EUR/t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "trade_sanctions_clearance",
+              "label": "International maritime trade compliance clearance",
+              "aliases": [
+                "Trade sanctions clearance",
+                "Sanctions compliance approval"
+              ]
+            },
+            {
+              "topic": "fuel_quality_certified",
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ]
+            },
+            {
+              "topic": "berth_priority_cleared",
+              "label": "Terminal berthing slot priority reservation",
+              "aliases": [
+                "Berth priority reservation",
+                "Berthing slot clearance"
+              ]
+            },
+            {
+              "topic": "spill_protocol_active",
+              "label": "Active marine spill containment protocol",
+              "aliases": [
+                "Spill containment protocol active",
+                "Spill response activation status"
+              ]
+            },
+            {
+              "topic": "emergency_containment_time",
+              "label": "Emergency containment deployment time",
+              "aliases": [
+                "Containment deployment duration",
+                "Spill boom deployment time"
+              ]
+            },
+            {
+              "topic": "liability_ceiling_approved",
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ]
+            },
+            {
+              "topic": "contracted_bunkering_volume",
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ]
+            },
+            {
+              "topic": "unit_port_handling_fee",
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fuel_quality_assurance",
+        "terminal_operations",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Bunker fuel quality surveyor (BQS)",
+        "Marine terminal operations superintendent (TOS)",
+        "Commercial procurement lead (CPL)"
+      ],
+      "directory": "number_expansion/misaligned/task_040/k3",
+      "error_profiles": [
+        {
+          "role_name": "Bunker fuel quality surveyor (BQS)",
+          "target_key": "BQS-QUAL-Y2B",
+          "alternate_key": "BQS-QUAL-4PF",
+          "target_context": "trailing 12-month period",
+          "alternate_context": "trailing 3-month period",
+          "candidate": "Zeeland Marine Fuels Consortium",
+          "other_candidates": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "fuel_quality_certified",
+              "value": true,
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "trade_sanctions_clearance",
+              "label": "International maritime trade compliance clearance",
+              "aliases": [
+                "Trade sanctions clearance",
+                "Sanctions compliance approval"
+              ]
+            },
+            {
+              "topic": "fuel_quality_certified",
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ]
+            },
+            {
+              "topic": "berth_priority_cleared",
+              "label": "Terminal berthing slot priority reservation",
+              "aliases": [
+                "Berth priority reservation",
+                "Berthing slot clearance"
+              ]
+            },
+            {
+              "topic": "spill_protocol_active",
+              "label": "Active marine spill containment protocol",
+              "aliases": [
+                "Spill containment protocol active",
+                "Spill response activation status"
+              ]
+            },
+            {
+              "topic": "emergency_containment_time",
+              "label": "Emergency containment deployment time",
+              "aliases": [
+                "Containment deployment duration",
+                "Spill boom deployment time"
+              ]
+            },
+            {
+              "topic": "liability_ceiling_approved",
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ]
+            },
+            {
+              "topic": "contracted_bunkering_volume",
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ]
+            },
+            {
+              "topic": "unit_port_handling_fee",
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine terminal operations superintendent (TOS)",
+          "target_key": "TOS-OPS-OVW",
+          "alternate_key": "TOS-OPS-N8G",
+          "target_context": "production environment",
+          "alternate_context": "simulation environment",
+          "candidate": "Zeeland Marine Fuels Consortium",
+          "other_candidates": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "numeric": [
+            {
+              "topic": "unit_port_handling_fee",
+              "value": 5.2,
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ],
+              "unit": "EUR/t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "trade_sanctions_clearance",
+              "label": "International maritime trade compliance clearance",
+              "aliases": [
+                "Trade sanctions clearance",
+                "Sanctions compliance approval"
+              ]
+            },
+            {
+              "topic": "fuel_quality_certified",
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ]
+            },
+            {
+              "topic": "berth_priority_cleared",
+              "label": "Terminal berthing slot priority reservation",
+              "aliases": [
+                "Berth priority reservation",
+                "Berthing slot clearance"
+              ]
+            },
+            {
+              "topic": "spill_protocol_active",
+              "label": "Active marine spill containment protocol",
+              "aliases": [
+                "Spill containment protocol active",
+                "Spill response activation status"
+              ]
+            },
+            {
+              "topic": "emergency_containment_time",
+              "label": "Emergency containment deployment time",
+              "aliases": [
+                "Containment deployment duration",
+                "Spill boom deployment time"
+              ]
+            },
+            {
+              "topic": "liability_ceiling_approved",
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ]
+            },
+            {
+              "topic": "contracted_bunkering_volume",
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ]
+            },
+            {
+              "topic": "unit_port_handling_fee",
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial procurement lead (CPL)",
+          "target_key": "CPL-PROC-SGV",
+          "alternate_key": "CPL-PROC-XJD",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Zeeland Marine Fuels Consortium",
+          "other_candidates": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "numeric": [
+            {
+              "topic": "contracted_bunkering_volume",
+              "value": 12000,
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "liability_ceiling_approved",
+              "value": true,
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "trade_sanctions_clearance",
+              "label": "International maritime trade compliance clearance",
+              "aliases": [
+                "Trade sanctions clearance",
+                "Sanctions compliance approval"
+              ]
+            },
+            {
+              "topic": "fuel_quality_certified",
+              "label": "ISO 8217 fuel quality assurance certification",
+              "aliases": [
+                "ISO 8217 certification",
+                "Fuel quality assurance approval"
+              ]
+            },
+            {
+              "topic": "berth_priority_cleared",
+              "label": "Terminal berthing slot priority reservation",
+              "aliases": [
+                "Berth priority reservation",
+                "Berthing slot clearance"
+              ]
+            },
+            {
+              "topic": "spill_protocol_active",
+              "label": "Active marine spill containment protocol",
+              "aliases": [
+                "Spill containment protocol active",
+                "Spill response activation status"
+              ]
+            },
+            {
+              "topic": "emergency_containment_time",
+              "label": "Emergency containment deployment time",
+              "aliases": [
+                "Containment deployment duration",
+                "Spill boom deployment time"
+              ]
+            },
+            {
+              "topic": "liability_ceiling_approved",
+              "label": "Approved contractual liability ceiling",
+              "aliases": [
+                "Contractual liability ceiling approval",
+                "Liability cap clearance"
+              ]
+            },
+            {
+              "topic": "contracted_bunkering_volume",
+              "label": "Nominal contracted bunkering volume",
+              "aliases": [
+                "Nominal bunkering volume",
+                "Contracted fuel volume"
+              ]
+            },
+            {
+              "topic": "unit_port_handling_fee",
+              "label": "Unit port handling fee",
+              "aliases": [
+                "Unit handling fee",
+                "Throughput handling tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

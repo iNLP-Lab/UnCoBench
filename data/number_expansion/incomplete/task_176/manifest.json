@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_176",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cold_chain_monitoring",
+        "warehouse_contracting"
+      ],
+      "role_names": [
+        "Cold-chain monitoring lead (CCM)",
+        "Warehouse contracting manager (WCM)"
+      ],
+      "directory": "incomplete/task_176",
+      "profiles": [
+        {
+          "record_id": "rec_cold_chain_monitoring_A",
+          "role_id": "cold_chain_monitoring",
+          "candidate_id": "A",
+          "key": "CCM-TEMPM-O53",
+          "boolean_predicate_id": "A_logger_deployed",
+          "boolean_label": "Continuous temperature logger deployment",
+          "hidden_predicate_id": "A_excursion_resolution_hours",
+          "threshold_label": "Maximum excursion resolution delay",
+          "threshold_aliases": [
+            "Temperature excursion response delay",
+            "Out-of-range thermal corrective response time"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "CCM-TEMPM-O53: Vanguard Biologics Express.Vanguard Biologics Express: Continuous temperature logger deployment = true .Source: Thermal telemetry onboarding report; Scope: Active consignment containers assigned to candidate; Measurement: Active real-time cellular and radio temperature data loggers initialized across all shipment pallets.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum excursion resolution delay is between 1 h and 9 h, inclusive.",
+          "role_name": "Cold-chain monitoring lead (CCM)",
+          "candidate_name": "Vanguard Biologics Express",
+          "other_candidate_names": [
+            "Nordic PharmaTrans Global",
+            "Helios CryoLogistics Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_warehouse_contracting_A",
+          "role_id": "warehouse_contracting",
+          "candidate_id": "A",
+          "key": "WCM-WHSC-KBS",
+          "hidden_predicate_id": "A_regional_hub_storage_allocation",
+          "threshold_label": "Regional hub storage allocation",
+          "threshold_aliases": [
+            "Hub buffer storage volume",
+            "Central warehouse reserve allocation"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "pallet-day",
+          "partial_record_text": "WCM-WHSC-KBS: Vanguard Biologics Express. The record covers Regional hub storage allocation. Record context: net of emergency quarantine reserve. Warehouse master service commitment; Central distribution hub temperature-controlled racked storage; Monthly allocated cold-room storage volume reserved for buffer inventory.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Regional hub storage allocation is between 100 pallet-day and 500 pallet-day, inclusive.",
+          "role_name": "Warehouse contracting manager (WCM)",
+          "candidate_name": "Vanguard Biologics Express",
+          "other_candidate_names": [
+            "Nordic PharmaTrans Global",
+            "Helios CryoLogistics Network"
+          ],
+          "context_value": "net of emergency quarantine reserve",
+          "other_context_values": [
+            "inclusive of emergency quarantine reserve"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cold_chain_monitoring",
+        "warehouse_contracting",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Cold-chain monitoring lead (CCM)",
+        "Warehouse contracting manager (WCM)",
+        "Fleet operations manager (FOM)"
+      ],
+      "directory": "incomplete/task_176",
+      "profiles": [
+        {
+          "record_id": "rec_cold_chain_monitoring_A",
+          "role_id": "cold_chain_monitoring",
+          "candidate_id": "A",
+          "key": "CCM-TEMPM-O53",
+          "boolean_predicate_id": "A_logger_deployed",
+          "boolean_label": "Continuous temperature logger deployment",
+          "hidden_predicate_id": "A_excursion_resolution_hours",
+          "threshold_label": "Maximum excursion resolution delay",
+          "threshold_aliases": [
+            "Temperature excursion response delay",
+            "Out-of-range thermal corrective response time"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "CCM-TEMPM-O53: Vanguard Biologics Express.Vanguard Biologics Express: Continuous temperature logger deployment = true .Source: Thermal telemetry onboarding report; Scope: Active consignment containers assigned to candidate; Measurement: Active real-time cellular and radio temperature data loggers initialized across all shipment pallets.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum excursion resolution delay is between 1 h and 9 h, inclusive.",
+          "role_name": "Cold-chain monitoring lead (CCM)",
+          "candidate_name": "Vanguard Biologics Express",
+          "other_candidate_names": [
+            "Nordic PharmaTrans Global",
+            "Helios CryoLogistics Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_warehouse_contracting_A",
+          "role_id": "warehouse_contracting",
+          "candidate_id": "A",
+          "key": "WCM-WHSC-KBS",
+          "hidden_predicate_id": "A_regional_hub_storage_allocation",
+          "threshold_label": "Regional hub storage allocation",
+          "threshold_aliases": [
+            "Hub buffer storage volume",
+            "Central warehouse reserve allocation"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "pallet-day",
+          "partial_record_text": "WCM-WHSC-KBS: Vanguard Biologics Express. The record covers Regional hub storage allocation. Record context: net of emergency quarantine reserve. Warehouse master service commitment; Central distribution hub temperature-controlled racked storage; Monthly allocated cold-room storage volume reserved for buffer inventory.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Regional hub storage allocation is between 100 pallet-day and 500 pallet-day, inclusive.",
+          "role_name": "Warehouse contracting manager (WCM)",
+          "candidate_name": "Vanguard Biologics Express",
+          "other_candidate_names": [
+            "Nordic PharmaTrans Global",
+            "Helios CryoLogistics Network"
+          ],
+          "context_value": "net of emergency quarantine reserve",
+          "other_context_values": [
+            "inclusive of emergency quarantine reserve"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FOM-FLTD-WKM",
+          "hidden_predicate_id": "A_cross_dock_staging_allocation",
+          "threshold_label": "Cross-dock staging allocation",
+          "threshold_aliases": [
+            "Cross-dock pallet allocation",
+            "Rapid transit staging volume"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "pallet-day",
+          "partial_record_text": "FOM-FLTD-WKM: Vanguard Biologics Express.Vanguard Biologics Express: Dedicated fleet availability = true .Source: Carrier commitment matrix; Scope: Scheduled distribution corridors for Q2 2026; Measurement: Formal allocation of dedicated multi-temperature refrigerated trailers reserved exclusively for contract cargo.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Cross-dock staging allocation is between 0 pallet-day and 400 pallet-day, inclusive.",
+          "role_name": "Fleet operations manager (FOM)",
+          "candidate_name": "Vanguard Biologics Express",
+          "other_candidate_names": [
+            "Nordic PharmaTrans Global",
+            "Helios CryoLogistics Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

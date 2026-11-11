@@ -1,0 +1,476 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_615",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cargo_payload_manager",
+        "flight_dynamics_officer"
+      ],
+      "role_names": [
+        "Cargo Manifest Specialist (CMS)",
+        "Flight Dynamics Lead (FDO)"
+      ],
+      "directory": "number_expansion/misaligned/task_615/k2",
+      "error_profiles": [
+        {
+          "role_name": "Cargo Manifest Specialist (CMS)",
+          "target_key": "CMS-PAYLD-ZU9",
+          "alternate_key": "CMS-VOLUM-NRK",
+          "target_context": "September 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Direct Hohmann Fast-Track Profile",
+          "other_candidates": [
+            "Phased Co-Elliptic Rendezvous Profile",
+            "Multi-Loop Resonant Elevation Profile"
+          ],
+          "numeric": [
+            {
+              "topic": "net_payload_mass",
+              "value": 1600,
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rpo_clearance_active",
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ]
+            },
+            {
+              "topic": "thruster_pulse_drift",
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ]
+            },
+            {
+              "topic": "berth_contingency_tolerance",
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ]
+            },
+            {
+              "topic": "hull_seal_integrity",
+              "label": "Structural pressurization seal validated",
+              "aliases": [
+                "Cabin seal qualification",
+                "Pressurization hull integrity"
+              ]
+            },
+            {
+              "topic": "radio_emissions_compliant",
+              "label": "Radio interference emission compliance",
+              "aliases": [
+                "RF interference pass",
+                "EMC emission compliance"
+              ]
+            },
+            {
+              "topic": "net_payload_mass",
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ]
+            },
+            {
+              "topic": "cargo_delivery_rate",
+              "label": "Contractual cargo delivery rate",
+              "aliases": [
+                "Unit cargo transit rate",
+                "Payload freight tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Flight Dynamics Lead (FDO)",
+          "target_key": "FDO-TRAJ-9UU",
+          "alternate_key": "FDO-TRAJ-0QP",
+          "target_context": "September 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Direct Hohmann Fast-Track Profile",
+          "other_candidates": [
+            "Phased Co-Elliptic Rendezvous Profile",
+            "Multi-Loop Resonant Elevation Profile"
+          ],
+          "numeric": [
+            {
+              "topic": "thruster_pulse_drift",
+              "value": 2,
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ],
+              "unit": "mm/s"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "rpo_clearance_active",
+              "value": true,
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rpo_clearance_active",
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ]
+            },
+            {
+              "topic": "thruster_pulse_drift",
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ]
+            },
+            {
+              "topic": "berth_contingency_tolerance",
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ]
+            },
+            {
+              "topic": "hull_seal_integrity",
+              "label": "Structural pressurization seal validated",
+              "aliases": [
+                "Cabin seal qualification",
+                "Pressurization hull integrity"
+              ]
+            },
+            {
+              "topic": "radio_emissions_compliant",
+              "label": "Radio interference emission compliance",
+              "aliases": [
+                "RF interference pass",
+                "EMC emission compliance"
+              ]
+            },
+            {
+              "topic": "net_payload_mass",
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ]
+            },
+            {
+              "topic": "cargo_delivery_rate",
+              "label": "Contractual cargo delivery rate",
+              "aliases": [
+                "Unit cargo transit rate",
+                "Payload freight tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cargo_payload_manager",
+        "flight_dynamics_officer",
+        "station_docking_systems_engineer"
+      ],
+      "role_names": [
+        "Cargo Manifest Specialist (CMS)",
+        "Flight Dynamics Lead (FDO)",
+        "Berthing and Capture Specialist (BCS)"
+      ],
+      "directory": "number_expansion/misaligned/task_615/k3",
+      "error_profiles": [
+        {
+          "role_name": "Cargo Manifest Specialist (CMS)",
+          "target_key": "CMS-PAYLD-ZU9",
+          "alternate_key": "CMS-VOLUM-NRK",
+          "target_context": "September 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Direct Hohmann Fast-Track Profile",
+          "other_candidates": [
+            "Phased Co-Elliptic Rendezvous Profile",
+            "Multi-Loop Resonant Elevation Profile"
+          ],
+          "numeric": [
+            {
+              "topic": "net_payload_mass",
+              "value": 1600,
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rpo_clearance_active",
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ]
+            },
+            {
+              "topic": "thruster_pulse_drift",
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ]
+            },
+            {
+              "topic": "berth_contingency_tolerance",
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ]
+            },
+            {
+              "topic": "hull_seal_integrity",
+              "label": "Structural pressurization seal validated",
+              "aliases": [
+                "Cabin seal qualification",
+                "Pressurization hull integrity"
+              ]
+            },
+            {
+              "topic": "radio_emissions_compliant",
+              "label": "Radio interference emission compliance",
+              "aliases": [
+                "RF interference pass",
+                "EMC emission compliance"
+              ]
+            },
+            {
+              "topic": "net_payload_mass",
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ]
+            },
+            {
+              "topic": "cargo_delivery_rate",
+              "label": "Contractual cargo delivery rate",
+              "aliases": [
+                "Unit cargo transit rate",
+                "Payload freight tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Flight Dynamics Lead (FDO)",
+          "target_key": "FDO-TRAJ-9UU",
+          "alternate_key": "FDO-TRAJ-0QP",
+          "target_context": "September 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Direct Hohmann Fast-Track Profile",
+          "other_candidates": [
+            "Phased Co-Elliptic Rendezvous Profile",
+            "Multi-Loop Resonant Elevation Profile"
+          ],
+          "numeric": [
+            {
+              "topic": "thruster_pulse_drift",
+              "value": 2,
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ],
+              "unit": "mm/s"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "rpo_clearance_active",
+              "value": true,
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rpo_clearance_active",
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ]
+            },
+            {
+              "topic": "thruster_pulse_drift",
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ]
+            },
+            {
+              "topic": "berth_contingency_tolerance",
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ]
+            },
+            {
+              "topic": "hull_seal_integrity",
+              "label": "Structural pressurization seal validated",
+              "aliases": [
+                "Cabin seal qualification",
+                "Pressurization hull integrity"
+              ]
+            },
+            {
+              "topic": "radio_emissions_compliant",
+              "label": "Radio interference emission compliance",
+              "aliases": [
+                "RF interference pass",
+                "EMC emission compliance"
+              ]
+            },
+            {
+              "topic": "net_payload_mass",
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ]
+            },
+            {
+              "topic": "cargo_delivery_rate",
+              "label": "Contractual cargo delivery rate",
+              "aliases": [
+                "Unit cargo transit rate",
+                "Payload freight tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Berthing and Capture Specialist (BCS)",
+          "target_key": "BCS-BERTH-MQ6",
+          "alternate_key": "BCS-BERTH-T72",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "Direct Hohmann Fast-Track Profile",
+          "other_candidates": [
+            "Phased Co-Elliptic Rendezvous Profile",
+            "Multi-Loop Resonant Elevation Profile"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "berth_contingency_tolerance",
+              "value": true,
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "rpo_clearance_active",
+              "label": "Rendezvous proximity clearance active",
+              "aliases": [
+                "Rendezvous operations clearance",
+                "RPO authorization flag"
+              ]
+            },
+            {
+              "topic": "thruster_pulse_drift",
+              "label": "Stationkeeping thruster pulse drift",
+              "aliases": [
+                "Thruster impulse variance",
+                "Hold-point pulse drift rate"
+              ]
+            },
+            {
+              "topic": "berth_contingency_tolerance",
+              "label": "Berth capture contingency tolerance",
+              "aliases": [
+                "Capture contingency tolerance",
+                "Berthing abort margin"
+              ]
+            },
+            {
+              "topic": "hull_seal_integrity",
+              "label": "Structural pressurization seal validated",
+              "aliases": [
+                "Cabin seal qualification",
+                "Pressurization hull integrity"
+              ]
+            },
+            {
+              "topic": "radio_emissions_compliant",
+              "label": "Radio interference emission compliance",
+              "aliases": [
+                "RF interference pass",
+                "EMC emission compliance"
+              ]
+            },
+            {
+              "topic": "net_payload_mass",
+              "label": "Net pressurized scientific payload mass",
+              "aliases": [
+                "Scientific payload mass",
+                "Net manifest mass"
+              ]
+            },
+            {
+              "topic": "cargo_delivery_rate",
+              "label": "Contractual cargo delivery rate",
+              "aliases": [
+                "Unit cargo transit rate",
+                "Payload freight tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

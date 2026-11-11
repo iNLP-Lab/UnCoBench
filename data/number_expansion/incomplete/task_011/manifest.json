@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_011",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "event_operations",
+        "venue_security"
+      ],
+      "role_names": [
+        "Event operations director (OPS)",
+        "Venue security superintendent (SEC)"
+      ],
+      "directory": "incomplete/task_011",
+      "profiles": [
+        {
+          "record_id": "rec_event_operations_A",
+          "role_id": "event_operations",
+          "candidate_id": "A",
+          "key": "OPS-PLEN-VWO",
+          "boolean_predicate_id": "A_emergency_egress_active",
+          "boolean_label": "Emergency egress plan active",
+          "hidden_predicate_id": "A_plenary_seating_capacity",
+          "threshold_label": "Plenary seating capacity",
+          "threshold_aliases": [
+            "Plenary hall capacity",
+            "Auditorium seating capacity"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-PLEN-VWO: Meridian Waterfront Convention Centre.Meridian Waterfront Convention Centre: Emergency egress plan active = true .Source: Fire safety and egress verification log; Scope: Candidate convention center interior corridors and emergency exit network; Measurement: Whether an active and certified emergency evacuation scheme is in force.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "coarse_statement": "Plenary seating capacity is between 1000 seats and 5000 seats, inclusive.",
+          "role_name": "Event operations director (OPS)",
+          "candidate_name": "Meridian Waterfront Convention Centre",
+          "other_candidate_names": [
+            "Starlight Exhibition and Congress Park",
+            "Olympus Grand Forum Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_security_A",
+          "role_id": "venue_security",
+          "candidate_id": "A",
+          "key": "SEC-GUARD-NU5",
+          "hidden_predicate_id": "A_security_standby_staff",
+          "threshold_label": "Security marshalling standby staff",
+          "threshold_aliases": [
+            "Security standby crew",
+            "Emergency security marshals"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "staff",
+          "partial_record_text": "SEC-GUARD-NU5: Meridian Waterfront Convention Centre. The record covers Security marshalling standby staff. Record context: Guangzhou. Security deployment roster; Rapid-response crowd management detachment stationed on site; Headcount of certified security marshals on immediate standby duty.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Security marshalling standby staff is between 40 staff and 100 staff, inclusive.",
+          "role_name": "Venue security superintendent (SEC)",
+          "candidate_name": "Meridian Waterfront Convention Centre",
+          "other_candidate_names": [
+            "Starlight Exhibition and Congress Park",
+            "Olympus Grand Forum Complex"
+          ],
+          "context_value": "Guangzhou",
+          "other_context_values": [
+            "Shenzhen"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "event_operations",
+        "venue_security",
+        "technical_production"
+      ],
+      "role_names": [
+        "Event operations director (OPS)",
+        "Venue security superintendent (SEC)",
+        "Technical production manager (PROD)"
+      ],
+      "directory": "incomplete/task_011",
+      "profiles": [
+        {
+          "record_id": "rec_event_operations_A",
+          "role_id": "event_operations",
+          "candidate_id": "A",
+          "key": "OPS-PLEN-VWO",
+          "boolean_predicate_id": "A_emergency_egress_active",
+          "boolean_label": "Emergency egress plan active",
+          "hidden_predicate_id": "A_plenary_seating_capacity",
+          "threshold_label": "Plenary seating capacity",
+          "threshold_aliases": [
+            "Plenary hall capacity",
+            "Auditorium seating capacity"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-PLEN-VWO: Meridian Waterfront Convention Centre.Meridian Waterfront Convention Centre: Emergency egress plan active = true .Source: Fire safety and egress verification log; Scope: Candidate convention center interior corridors and emergency exit network; Measurement: Whether an active and certified emergency evacuation scheme is in force.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "coarse_statement": "Plenary seating capacity is between 1000 seats and 5000 seats, inclusive.",
+          "role_name": "Event operations director (OPS)",
+          "candidate_name": "Meridian Waterfront Convention Centre",
+          "other_candidate_names": [
+            "Starlight Exhibition and Congress Park",
+            "Olympus Grand Forum Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_security_A",
+          "role_id": "venue_security",
+          "candidate_id": "A",
+          "key": "SEC-GUARD-NU5",
+          "hidden_predicate_id": "A_security_standby_staff",
+          "threshold_label": "Security marshalling standby staff",
+          "threshold_aliases": [
+            "Security standby crew",
+            "Emergency security marshals"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "staff",
+          "partial_record_text": "SEC-GUARD-NU5: Meridian Waterfront Convention Centre. The record covers Security marshalling standby staff. Record context: Guangzhou. Security deployment roster; Rapid-response crowd management detachment stationed on site; Headcount of certified security marshals on immediate standby duty.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Security marshalling standby staff is between 40 staff and 100 staff, inclusive.",
+          "role_name": "Venue security superintendent (SEC)",
+          "candidate_name": "Meridian Waterfront Convention Centre",
+          "other_candidate_names": [
+            "Starlight Exhibition and Congress Park",
+            "Olympus Grand Forum Complex"
+          ],
+          "context_value": "Guangzhou",
+          "other_context_values": [
+            "Shenzhen"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_technical_production_A",
+          "role_id": "technical_production",
+          "candidate_id": "A",
+          "key": "PROD-AVSYS-F63",
+          "hidden_predicate_id": "A_technical_standby_staff",
+          "threshold_label": "Technical operations standby staff",
+          "threshold_aliases": [
+            "Technical standby crew",
+            "Audiovisual and stage technicians"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "staff",
+          "partial_record_text": "PROD-AVSYS-F63: Meridian Waterfront Convention Centre.Meridian Waterfront Convention Centre: Audiovisual control redundancy = true .Source: Production engineering technical audit; Scope: Master control room feeding the plenary stage screens and sound; Measurement: Presence of a fully isolated hot-standby secondary audiovisual control switchboard.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Technical operations standby staff is between 10 staff and 60 staff, inclusive.",
+          "role_name": "Technical production manager (PROD)",
+          "candidate_name": "Meridian Waterfront Convention Centre",
+          "other_candidate_names": [
+            "Starlight Exhibition and Congress Park",
+            "Olympus Grand Forum Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

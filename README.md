@@ -24,7 +24,7 @@ evaluation/   Batch evaluation
 
 ## Data
 
-The benchmark includes four primary settings: `reliable`, `misaligned`, `incomplete`, and `missed`. These settings support paired comparisons that isolate the effect of each unreliable behavior. The additional `mixed` setting combines all three unreliable behaviors as a further stress test. Task IDs from `task_001` to `task_1000` are shared across all five settings, yielding 1,000 paired task groups and 5,000 setting-specific instances.
+The `reliable` setting provides a baseline with perfect teammates. The benchmark includes three unreliable settings, `misaligned`, `incomplete`, and `missed`. Each of these three settings includes variants with `k=1`, `k=2`, and `k=3`, where `k` is the number of participating role agents that are unreliable. The additional `mixed` setting combines all three unreliable behaviors as a further stress test. Task IDs from `task_001` to `task_1000` are shared across the settings for paired comparisons.
 
 Each task retains:
 
@@ -57,15 +57,18 @@ Adjust `--count` to generate a different number of groups. Generated tasks are s
 After installing the dependencies and configuring `.env`, run all 1,000 task groups across all five settings:
 
 ```bash
-python evaluation/run_all_closed_source.py \
+python evaluation/run_evaluation.py \
   --models YOUR_MAIN_MODEL \
   --role-model YOUR_ROLE_MODEL \
+  --k 1 \
   --workers 20
 ```
 
 Supply multiple IDs after `--models` to evaluate several main models. Each model runs once per task instance. Use `--settings reliable misaligned incomplete missed` for the four primary settings, or `--settings mixed` for the additional stress test. Use `--start 1 --end 10` for a smaller task range.
 
-## Open-sourced Model Evaluation
+Use `--k 1` (default), `--k 2`, or `--k 3` to select the number of distinct unreliable roles in `misaligned`, `incomplete`, and `missed`. Individual task scripts also accept `--k`. Final `k=2/3` variants are included in `data/number_expansion/`.
+
+## Open-Source Model Evaluation
 
 After installing the dependencies and [vLLM](https://docs.vllm.ai/en/latest/serving/online_serving/openai_compatible_server/) in your GPU environment, start a local main model:
 
@@ -77,15 +80,27 @@ CUDA_VISIBLE_DEVICES=0 bash evaluation/serve_local_model.sh \
 In another terminal, configure `OPENROUTER_API_KEY` or `ROLE_AGENT_API_KEY` in `.env` and run all 1,000 task groups across all five settings, keeping DeepSeek as the role model:
 
 ```bash
-python evaluation/run_all_closed_source.py \
+python evaluation/run_evaluation.py \
   --local-main \
   --models YOUR_MAIN_MODEL \
   --main-base-url http://127.0.0.1:8000/v1 \
   --role-model deepseek/deepseek-v4-flash-0731 \
+  --k 1 \
   --workers 20
 ```
 
 Use the same model name in both commands. Set `VLLM_PORT` and `VLLM_TP_SIZE` to change the serving port and tensor parallel size; additional vLLM options can follow the model name. For reasoning models, pass the model's `--reasoning-parser` when serving, or disable thinking with `--main-extra-body '{"chat_template_kwargs":{"enable_thinking":false}}'` when supported. Use `--main-max-tokens` to change the local output limit (default: 8192). The local main model uses a placeholder API key unless `MAIN_AGENT_API_KEY` is set; role credentials remain in the environment or `.env`. Task selection and result formats are shared with closed-source evaluation, with local results saved under `outputs/evaluation/open_source_*`.
+
+## Citation
+
+```bibtex
+@article{huang2026beyond,
+  title={Beyond Perfect Teammates: Multi-Agent Collaboration with Unreliable Colleagues},
+  author={Huang, Chen and Zhang, Yiyang and Wu, Yuhao and Deng, Yang and Zhang, Wenxuan},
+  journal={arXiv preprint arXiv:2610.16117},
+  year={2026}
+}
+```
 
 ## License
 

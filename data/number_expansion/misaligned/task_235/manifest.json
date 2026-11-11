@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_235",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_engineering",
+        "municipal_compliance"
+      ],
+      "role_names": [
+        "Structural engineering lead (STR)",
+        "Municipal and fire compliance liaison (MFC)"
+      ],
+      "directory": "number_expansion/misaligned/task_235/k2",
+      "error_profiles": [
+        {
+          "role_name": "Structural engineering lead (STR)",
+          "target_key": "STR-LOAD-TXG",
+          "alternate_key": "STR-CRANE-4W0",
+          "target_context": "after deducting emergency rigging reserve",
+          "alternate_context": "before deducting emergency rigging reserve",
+          "candidate": "Docklands International Pavilion",
+          "other_candidates": [
+            "Riverside Exhibition Coliseum",
+            "Meridian Grand Velodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "roof_point_load_capacity",
+              "value": 65,
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ],
+              "unit": "kN"
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "value": 100,
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "roof_point_load_capacity",
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ]
+            },
+            {
+              "topic": "acoustics_isolation_approved",
+              "label": "Acoustic isolation compliance approved",
+              "aliases": [
+                "Acoustic isolation clearance",
+                "Soundproofing approval"
+              ]
+            },
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ]
+            },
+            {
+              "topic": "network_failover_latency",
+              "label": "Dedicated network failover latency",
+              "aliases": [
+                "Failover switching latency",
+                "Broadcast link failover time"
+              ]
+            },
+            {
+              "topic": "emergency_egress_clearance_time",
+              "label": "Emergency egress clearance time",
+              "aliases": [
+                "Evacuation clearance duration",
+                "Bowl egress time"
+              ]
+            },
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ]
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ]
+            },
+            {
+              "topic": "lighting_truss_payload",
+              "label": "Lighting truss structural payload",
+              "aliases": [
+                "Truss lighting payload",
+                "AV truss weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal and fire compliance liaison (MFC)",
+          "target_key": "MFC-PERMIT-XXS",
+          "alternate_key": "MFC-PERMIT-PP6",
+          "target_context": "including pyrotechnics clearance",
+          "alternate_context": "excluding pyrotechnics clearance",
+          "candidate": "Docklands International Pavilion",
+          "other_candidates": [
+            "Riverside Exhibition Coliseum",
+            "Meridian Grand Velodrome"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "value": true,
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "roof_point_load_capacity",
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ]
+            },
+            {
+              "topic": "acoustics_isolation_approved",
+              "label": "Acoustic isolation compliance approved",
+              "aliases": [
+                "Acoustic isolation clearance",
+                "Soundproofing approval"
+              ]
+            },
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ]
+            },
+            {
+              "topic": "network_failover_latency",
+              "label": "Dedicated network failover latency",
+              "aliases": [
+                "Failover switching latency",
+                "Broadcast link failover time"
+              ]
+            },
+            {
+              "topic": "emergency_egress_clearance_time",
+              "label": "Emergency egress clearance time",
+              "aliases": [
+                "Evacuation clearance duration",
+                "Bowl egress time"
+              ]
+            },
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ]
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ]
+            },
+            {
+              "topic": "lighting_truss_payload",
+              "label": "Lighting truss structural payload",
+              "aliases": [
+                "Truss lighting payload",
+                "AV truss weight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_engineering",
+        "municipal_compliance",
+        "telecom_operations"
+      ],
+      "role_names": [
+        "Structural engineering lead (STR)",
+        "Municipal and fire compliance liaison (MFC)",
+        "Telecommunications and broadcast lead (TEL)"
+      ],
+      "directory": "number_expansion/misaligned/task_235/k3",
+      "error_profiles": [
+        {
+          "role_name": "Structural engineering lead (STR)",
+          "target_key": "STR-LOAD-TXG",
+          "alternate_key": "STR-CRANE-4W0",
+          "target_context": "after deducting emergency rigging reserve",
+          "alternate_context": "before deducting emergency rigging reserve",
+          "candidate": "Docklands International Pavilion",
+          "other_candidates": [
+            "Riverside Exhibition Coliseum",
+            "Meridian Grand Velodrome"
+          ],
+          "numeric": [
+            {
+              "topic": "roof_point_load_capacity",
+              "value": 65,
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ],
+              "unit": "kN"
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "value": 100,
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "roof_point_load_capacity",
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ]
+            },
+            {
+              "topic": "acoustics_isolation_approved",
+              "label": "Acoustic isolation compliance approved",
+              "aliases": [
+                "Acoustic isolation clearance",
+                "Soundproofing approval"
+              ]
+            },
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ]
+            },
+            {
+              "topic": "network_failover_latency",
+              "label": "Dedicated network failover latency",
+              "aliases": [
+                "Failover switching latency",
+                "Broadcast link failover time"
+              ]
+            },
+            {
+              "topic": "emergency_egress_clearance_time",
+              "label": "Emergency egress clearance time",
+              "aliases": [
+                "Evacuation clearance duration",
+                "Bowl egress time"
+              ]
+            },
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ]
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ]
+            },
+            {
+              "topic": "lighting_truss_payload",
+              "label": "Lighting truss structural payload",
+              "aliases": [
+                "Truss lighting payload",
+                "AV truss weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal and fire compliance liaison (MFC)",
+          "target_key": "MFC-PERMIT-XXS",
+          "alternate_key": "MFC-PERMIT-PP6",
+          "target_context": "including pyrotechnics clearance",
+          "alternate_context": "excluding pyrotechnics clearance",
+          "candidate": "Docklands International Pavilion",
+          "other_candidates": [
+            "Riverside Exhibition Coliseum",
+            "Meridian Grand Velodrome"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "value": true,
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "roof_point_load_capacity",
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ]
+            },
+            {
+              "topic": "acoustics_isolation_approved",
+              "label": "Acoustic isolation compliance approved",
+              "aliases": [
+                "Acoustic isolation clearance",
+                "Soundproofing approval"
+              ]
+            },
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ]
+            },
+            {
+              "topic": "network_failover_latency",
+              "label": "Dedicated network failover latency",
+              "aliases": [
+                "Failover switching latency",
+                "Broadcast link failover time"
+              ]
+            },
+            {
+              "topic": "emergency_egress_clearance_time",
+              "label": "Emergency egress clearance time",
+              "aliases": [
+                "Evacuation clearance duration",
+                "Bowl egress time"
+              ]
+            },
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ]
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ]
+            },
+            {
+              "topic": "lighting_truss_payload",
+              "label": "Lighting truss structural payload",
+              "aliases": [
+                "Truss lighting payload",
+                "AV truss weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Telecommunications and broadcast lead (TEL)",
+          "target_key": "TEL-NET-WZ7",
+          "alternate_key": "TEL-NET-TQ9",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Docklands International Pavilion",
+          "other_candidates": [
+            "Riverside Exhibition Coliseum",
+            "Meridian Grand Velodrome"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "value": true,
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "roof_point_load_capacity",
+              "label": "Overhead roof point load capacity",
+              "aliases": [
+                "Roof point load",
+                "Overhead point load rating"
+              ]
+            },
+            {
+              "topic": "acoustics_isolation_approved",
+              "label": "Acoustic isolation compliance approved",
+              "aliases": [
+                "Acoustic isolation clearance",
+                "Soundproofing approval"
+              ]
+            },
+            {
+              "topic": "dark_fiber_redundancy_verified",
+              "label": "Dual-path dark fiber redundancy verified",
+              "aliases": [
+                "Dark fiber redundancy",
+                "Fiber dual-path verification"
+              ]
+            },
+            {
+              "topic": "network_failover_latency",
+              "label": "Dedicated network failover latency",
+              "aliases": [
+                "Failover switching latency",
+                "Broadcast link failover time"
+              ]
+            },
+            {
+              "topic": "emergency_egress_clearance_time",
+              "label": "Emergency egress clearance time",
+              "aliases": [
+                "Evacuation clearance duration",
+                "Bowl egress time"
+              ]
+            },
+            {
+              "topic": "fire_marshal_permit_cleared",
+              "label": "Fire marshal safety permit cleared",
+              "aliases": [
+                "Fire marshal clearance",
+                "Municipal fire permit"
+              ]
+            },
+            {
+              "topic": "main_stage_rigging_deadweight",
+              "label": "Main stage rigging deadweight",
+              "aliases": [
+                "Stage rigging deadweight",
+                "Main stage structural load"
+              ]
+            },
+            {
+              "topic": "lighting_truss_payload",
+              "label": "Lighting truss structural payload",
+              "aliases": [
+                "Truss lighting payload",
+                "AV truss weight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

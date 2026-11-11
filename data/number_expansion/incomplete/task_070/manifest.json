@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_070",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ultrasonic_pigging_specialist",
+        "telemetry_communications_officer"
+      ],
+      "role_names": [
+        "Ultrasonic pigging systems engineer (UPSE)",
+        "Downhole telemetry communications officer (TCOF)"
+      ],
+      "directory": "incomplete/task_070",
+      "profiles": [
+        {
+          "record_id": "rec_ultrasonic_pigging_specialist_A",
+          "role_id": "ultrasonic_pigging_specialist",
+          "candidate_id": "A",
+          "key": "UPSE-USND-GAZ",
+          "boolean_predicate_id": "A_ultrasonic_module_active",
+          "boolean_label": "Ultrasonic crack sizing module active readiness",
+          "hidden_predicate_id": "A_defect_sizing_uncertainty",
+          "threshold_label": "Maximum defect sizing uncertainty",
+          "threshold_aliases": [
+            "Crack depth measurement tolerance",
+            "Radial sizing error limit"
+          ],
+          "threshold_value": 0.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "UPSE-USND-GAZ: Phased-array ultrasonic profiling plan.Phased-array ultrasonic profiling plan: Ultrasonic crack sizing module active readiness = true .Source: Pigging tool pre-run checklist; Scope: On-board high-frequency crack sizing bay; Measurement: Verified hardware operational readiness switch state.Phased-array ultrasonic profiling plan: Sensor instrumentation package tare = 240 kg.Source: Certified weigh scale calibration sheet; Scope: Assembled diagnostic instrument carrier body; Measurement: Static mass of the primary sensor chassis excluding auxiliary transmitters.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3
+          },
+          "coarse_statement": "Maximum defect sizing uncertainty is at most 3 mm.",
+          "role_name": "Ultrasonic pigging systems engineer (UPSE)",
+          "candidate_name": "Phased-array ultrasonic profiling plan",
+          "other_candidate_names": [
+            "Pulsed eddy-current mapping plan",
+            "Acousto-magnetic hybrid survey plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telemetry_communications_officer_A",
+          "role_id": "telemetry_communications_officer",
+          "candidate_id": "A",
+          "key": "TCOF-COMM-JO2",
+          "hidden_predicate_id": "A_telemetry_transmitter_mass",
+          "threshold_label": "Emergency telemetry transmitter module mass",
+          "threshold_aliases": [
+            "Acoustic transmitter payload mass",
+            "Through-wall beacon unit weight"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "kg",
+          "partial_record_text": "TCOF-COMM-JO2: Phased-array ultrasonic profiling plan. The record covers Emergency telemetry transmitter module mass. Avionics and transmitter shipping manifest; Low-frequency through-wall beacon transmitter enclosure; Net scale mass of the detachable emergency acoustic transmitter module.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency telemetry transmitter module mass is at most 70 kg.",
+          "role_name": "Downhole telemetry communications officer (TCOF)",
+          "candidate_name": "Phased-array ultrasonic profiling plan",
+          "other_candidate_names": [
+            "Pulsed eddy-current mapping plan",
+            "Acousto-magnetic hybrid survey plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ultrasonic_pigging_specialist",
+        "telemetry_communications_officer",
+        "acoustic_ndt_lead"
+      ],
+      "role_names": [
+        "Ultrasonic pigging systems engineer (UPSE)",
+        "Downhole telemetry communications officer (TCOF)",
+        "Acoustic non-destructive evaluation lead (ANDL)"
+      ],
+      "directory": "number_expansion/incomplete/task_070/k3",
+      "profiles": [
+        {
+          "record_id": "rec_ultrasonic_pigging_specialist_A",
+          "role_id": "ultrasonic_pigging_specialist",
+          "candidate_id": "A",
+          "key": "UPSE-USND-GAZ",
+          "boolean_predicate_id": "A_ultrasonic_module_active",
+          "boolean_label": "Ultrasonic crack sizing module active readiness",
+          "hidden_predicate_id": "A_defect_sizing_uncertainty",
+          "threshold_label": "Maximum defect sizing uncertainty",
+          "threshold_aliases": [
+            "Crack depth measurement tolerance",
+            "Radial sizing error limit"
+          ],
+          "threshold_value": 0.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "UPSE-USND-GAZ: Phased-array ultrasonic profiling plan.Phased-array ultrasonic profiling plan: Ultrasonic crack sizing module active readiness = true .Source: Pigging tool pre-run checklist; Scope: On-board high-frequency crack sizing bay; Measurement: Verified hardware operational readiness switch state.Phased-array ultrasonic profiling plan: Sensor instrumentation package tare = 240 kg.Source: Certified weigh scale calibration sheet; Scope: Assembled diagnostic instrument carrier body; Measurement: Static mass of the primary sensor chassis excluding auxiliary transmitters.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3
+          },
+          "coarse_statement": "Maximum defect sizing uncertainty is at most 3 mm.",
+          "role_name": "Ultrasonic pigging systems engineer (UPSE)",
+          "candidate_name": "Phased-array ultrasonic profiling plan",
+          "other_candidate_names": [
+            "Pulsed eddy-current mapping plan",
+            "Acousto-magnetic hybrid survey plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telemetry_communications_officer_A",
+          "role_id": "telemetry_communications_officer",
+          "candidate_id": "A",
+          "key": "TCOF-COMM-JO2",
+          "hidden_predicate_id": "A_telemetry_transmitter_mass",
+          "threshold_label": "Emergency telemetry transmitter module mass",
+          "threshold_aliases": [
+            "Acoustic transmitter payload mass",
+            "Through-wall beacon unit weight"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "kg",
+          "partial_record_text": "TCOF-COMM-JO2: Phased-array ultrasonic profiling plan. The record covers Emergency telemetry transmitter module mass. Avionics and transmitter shipping manifest; Low-frequency through-wall beacon transmitter enclosure; Net scale mass of the detachable emergency acoustic transmitter module.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency telemetry transmitter module mass is at most 70 kg.",
+          "role_name": "Downhole telemetry communications officer (TCOF)",
+          "candidate_name": "Phased-array ultrasonic profiling plan",
+          "other_candidate_names": [
+            "Pulsed eddy-current mapping plan",
+            "Acousto-magnetic hybrid survey plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_ndt_lead_A_supplemental",
+          "role_id": "acoustic_ndt_lead",
+          "candidate_id": "A",
+          "key": "ANDL-FREQ-A11",
+          "hidden_predicate_id": "A_supplemental_acoustic_ndt_lead",
+          "threshold_label": "Hydrophone sampling rate",
+          "threshold_aliases": [],
+          "threshold_value": 192,
+          "threshold_unit": "kHz",
+          "partial_record_text": "ANDL-FREQ-A11: Phased-array ultrasonic profiling plan. The record covers Hydrophone sampling rate. Transducer specification sheet; Pipeline leak detection arrays; Analog-to-digital conversion sampling frequency.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Hydrophone sampling rate is at most 500 kHz.",
+          "role_name": "Acoustic non-destructive evaluation lead (ANDL)",
+          "candidate_name": "Phased-array ultrasonic profiling plan",
+          "other_candidate_names": [
+            "Pulsed eddy-current mapping plan",
+            "Acousto-magnetic hybrid survey plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_acoustic_ndt_lead",
+        "topic_id": "supplemental_acoustic_ndt_lead",
+        "operator": "gte",
+        "threshold": 96,
+        "role_id": "acoustic_ndt_lead",
+        "metric": "Hydrophone sampling rate",
+        "unit": "kHz",
+        "required_text": "To qualify, a candidate must also have Hydrophone sampling rate of at least 96 kHz.",
+        "new_fault_record_key": "ANDL-FREQ-A11",
+        "exact_value": 192,
+        "first_reply": "Hydrophone sampling rate is at most 500 kHz."
+      }
+    }
+  }
+}

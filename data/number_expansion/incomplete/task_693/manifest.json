@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_693",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "industrial_hygiene",
+        "safety_compliance"
+      ],
+      "role_names": [
+        "Industrial hygiene and gas safety manager (HYG)",
+        "Life safety systems supervisor (LSS)"
+      ],
+      "directory": "incomplete/task_693",
+      "profiles": [
+        {
+          "record_id": "rec_industrial_hygiene_A",
+          "role_id": "industrial_hygiene",
+          "candidate_id": "A",
+          "key": "HYG-TOX-ET7",
+          "boolean_predicate_id": "A_scrubber_bypass_enabled",
+          "boolean_label": "Emergency bypass system activation",
+          "hidden_predicate_id": "A_exhaust_residence_time",
+          "threshold_label": "Exhaust contact duct residence time",
+          "threshold_aliases": [
+            "Duct residence duration",
+            "Vapor scrub contact time"
+          ],
+          "threshold_value": 3.0,
+          "threshold_unit": "s",
+          "partial_record_text": "HYG-TOX-ET7: Sub-Atmospheric Cryogenic Scrubbing Protocol.Sub-Atmospheric Cryogenic Scrubbing Protocol: Emergency bypass system activation = true .Source: Safety instrumented system state record; Scope: Specialty gas exhaust trunk line; Measurement: Automated actuator readiness to divert release to abatement beds.Sub-Atmospheric Cryogenic Scrubbing Protocol: Effective chemical adsorption flux = 25 kg/m2.Source: Chemisorption breakthrough test record; Scope: Standardized arsine and silane vapor stream at design velocity; Measurement: Mass of toxic vapor bound per square meter of media prior to saturation.",
+          "role_name": "Industrial hygiene and gas safety manager (HYG)",
+          "candidate_name": "Sub-Atmospheric Cryogenic Scrubbing Protocol",
+          "other_candidate_names": [
+            "Vapor-Phase Chemo-Catalytic Neutralization Protocol",
+            "Multi-Stage Reactive Bed Adsorption Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "LSS-DELUGE-FMV",
+          "hidden_predicate_id": "A_deluge_activation_time",
+          "threshold_label": "Deluge suppression response time",
+          "threshold_aliases": [
+            "High-hazard deluge latency",
+            "Emergency water curtain actuation delay"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "s",
+          "partial_record_text": "LSS-DELUGE-FMV: Sub-Atmospheric Cryogenic Scrubbing Protocol. The record covers Deluge suppression response time. Pneumatic quick-opening valve test certificate; Lithography gas bunker water spray curtains; Elapsed duration from gas trip sensor signal to full nozzle discharge pressure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 22
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Deluge suppression response time is at most 22 s.",
+          "role_name": "Life safety systems supervisor (LSS)",
+          "candidate_name": "Sub-Atmospheric Cryogenic Scrubbing Protocol",
+          "other_candidate_names": [
+            "Vapor-Phase Chemo-Catalytic Neutralization Protocol",
+            "Multi-Stage Reactive Bed Adsorption Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "industrial_hygiene",
+        "safety_compliance",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Industrial hygiene and gas safety manager (HYG)",
+        "Life safety systems supervisor (LSS)",
+        "Facilities engineering director (FAC)"
+      ],
+      "directory": "incomplete/task_693",
+      "profiles": [
+        {
+          "record_id": "rec_industrial_hygiene_A",
+          "role_id": "industrial_hygiene",
+          "candidate_id": "A",
+          "key": "HYG-TOX-ET7",
+          "boolean_predicate_id": "A_scrubber_bypass_enabled",
+          "boolean_label": "Emergency bypass system activation",
+          "hidden_predicate_id": "A_exhaust_residence_time",
+          "threshold_label": "Exhaust contact duct residence time",
+          "threshold_aliases": [
+            "Duct residence duration",
+            "Vapor scrub contact time"
+          ],
+          "threshold_value": 3.0,
+          "threshold_unit": "s",
+          "partial_record_text": "HYG-TOX-ET7: Sub-Atmospheric Cryogenic Scrubbing Protocol.Sub-Atmospheric Cryogenic Scrubbing Protocol: Emergency bypass system activation = true .Source: Safety instrumented system state record; Scope: Specialty gas exhaust trunk line; Measurement: Automated actuator readiness to divert release to abatement beds.Sub-Atmospheric Cryogenic Scrubbing Protocol: Effective chemical adsorption flux = 25 kg/m2.Source: Chemisorption breakthrough test record; Scope: Standardized arsine and silane vapor stream at design velocity; Measurement: Mass of toxic vapor bound per square meter of media prior to saturation.",
+          "role_name": "Industrial hygiene and gas safety manager (HYG)",
+          "candidate_name": "Sub-Atmospheric Cryogenic Scrubbing Protocol",
+          "other_candidate_names": [
+            "Vapor-Phase Chemo-Catalytic Neutralization Protocol",
+            "Multi-Stage Reactive Bed Adsorption Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "LSS-DELUGE-FMV",
+          "hidden_predicate_id": "A_deluge_activation_time",
+          "threshold_label": "Deluge suppression response time",
+          "threshold_aliases": [
+            "High-hazard deluge latency",
+            "Emergency water curtain actuation delay"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "s",
+          "partial_record_text": "LSS-DELUGE-FMV: Sub-Atmospheric Cryogenic Scrubbing Protocol. The record covers Deluge suppression response time. Pneumatic quick-opening valve test certificate; Lithography gas bunker water spray curtains; Elapsed duration from gas trip sensor signal to full nozzle discharge pressure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 22
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Deluge suppression response time is at most 22 s.",
+          "role_name": "Life safety systems supervisor (LSS)",
+          "candidate_name": "Sub-Atmospheric Cryogenic Scrubbing Protocol",
+          "other_candidate_names": [
+            "Vapor-Phase Chemo-Catalytic Neutralization Protocol",
+            "Multi-Stage Reactive Bed Adsorption Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-CHAMB-5C3",
+          "hidden_predicate_id": "A_active_bed_area",
+          "threshold_label": "Active filter contact bed area",
+          "threshold_aliases": [
+            "Neutralization contact cross-section",
+            "Filter bed area"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "m2",
+          "partial_record_text": "FAC-CHAMB-5C3: Sub-Atmospheric Cryogenic Scrubbing Protocol.Sub-Atmospheric Cryogenic Scrubbing Protocol: HEPA bypass seal verification = true .Source: Cleanroom air envelope certification; Scope: Fan-filter unit boundary dampers in process bay 4; Measurement: Confirmation of zero-leakage elastomeric seal under reverse pressure.",
+          "role_name": "Facilities engineering director (FAC)",
+          "candidate_name": "Sub-Atmospheric Cryogenic Scrubbing Protocol",
+          "other_candidate_names": [
+            "Vapor-Phase Chemo-Catalytic Neutralization Protocol",
+            "Multi-Stage Reactive Bed Adsorption Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

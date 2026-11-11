@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_454",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "sensor_diagnostics",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Acoustic sensor diagnostic lead (SENS)",
+        "Marine environmental compliance officer (ENV)"
+      ],
+      "directory": "incomplete/task_454",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_diagnostics_A",
+          "role_id": "sensor_diagnostics",
+          "candidate_id": "A",
+          "key": "SENS-DIAG-E5H",
+          "boolean_predicate_id": "A_hydrophone_deployed",
+          "boolean_label": "Acoustic hydrophone sensor deployment",
+          "hidden_predicate_id": "A_acoustic_error_margin",
+          "threshold_label": "Acoustic localization uncertainty",
+          "threshold_aliases": [
+            "Localization error radius",
+            "Acoustic positioning margin"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m",
+          "partial_record_text": "SENS-DIAG-E5H: Autonomous underwater vehicle high-density bathymetric track.Autonomous underwater vehicle high-density bathymetric track: Acoustic hydrophone sensor deployment = true .Source: Diagnostic sensor checklist; Scope: Subsea inspection assembly; Measurement: Verification that primary multi-channel hydrophone array is active and deployed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Acoustic localization uncertainty is at most 40 m.",
+          "role_name": "Acoustic sensor diagnostic lead (SENS)",
+          "candidate_name": "Autonomous underwater vehicle high-density bathymetric track",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar sled transect",
+            "Work-class remotely operated vehicle seabed crawl"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-BENTH-V11",
+          "hidden_predicate_id": "A_calibration_seabed_hours",
+          "threshold_label": "Mandatory seabed calibration hours",
+          "threshold_aliases": [
+            "Seabed transponder calibration duration",
+            "Required acoustic calibration time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-BENTH-V11: Autonomous underwater vehicle high-density bathymetric track.Operational environment: Production environment.Autonomous underwater vehicle high-density bathymetric track: Benthic environmental exclusion zone compliance = true .Source: Marine protected sanctuary boundary log; Scope: Sensitive cold-water coral seabed buffer zone; Measurement: Verification that survey trajectory avoids all designated sensitive benthic habitats.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory seabed calibration hours is at most 30 h.",
+          "role_name": "Marine environmental compliance officer (ENV)",
+          "candidate_name": "Autonomous underwater vehicle high-density bathymetric track",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar sled transect",
+            "Work-class remotely operated vehicle seabed crawl"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Simulation test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "sensor_diagnostics",
+        "environmental_compliance",
+        "subsea_operations"
+      ],
+      "role_names": [
+        "Acoustic sensor diagnostic lead (SENS)",
+        "Marine environmental compliance officer (ENV)",
+        "Subsea dive operations coordinator (OPS)"
+      ],
+      "directory": "incomplete/task_454",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_diagnostics_A",
+          "role_id": "sensor_diagnostics",
+          "candidate_id": "A",
+          "key": "SENS-DIAG-E5H",
+          "boolean_predicate_id": "A_hydrophone_deployed",
+          "boolean_label": "Acoustic hydrophone sensor deployment",
+          "hidden_predicate_id": "A_acoustic_error_margin",
+          "threshold_label": "Acoustic localization uncertainty",
+          "threshold_aliases": [
+            "Localization error radius",
+            "Acoustic positioning margin"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m",
+          "partial_record_text": "SENS-DIAG-E5H: Autonomous underwater vehicle high-density bathymetric track.Autonomous underwater vehicle high-density bathymetric track: Acoustic hydrophone sensor deployment = true .Source: Diagnostic sensor checklist; Scope: Subsea inspection assembly; Measurement: Verification that primary multi-channel hydrophone array is active and deployed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Acoustic localization uncertainty is at most 40 m.",
+          "role_name": "Acoustic sensor diagnostic lead (SENS)",
+          "candidate_name": "Autonomous underwater vehicle high-density bathymetric track",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar sled transect",
+            "Work-class remotely operated vehicle seabed crawl"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-BENTH-V11",
+          "hidden_predicate_id": "A_calibration_seabed_hours",
+          "threshold_label": "Mandatory seabed calibration hours",
+          "threshold_aliases": [
+            "Seabed transponder calibration duration",
+            "Required acoustic calibration time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-BENTH-V11: Autonomous underwater vehicle high-density bathymetric track.Operational environment: Production environment.Autonomous underwater vehicle high-density bathymetric track: Benthic environmental exclusion zone compliance = true .Source: Marine protected sanctuary boundary log; Scope: Sensitive cold-water coral seabed buffer zone; Measurement: Verification that survey trajectory avoids all designated sensitive benthic habitats.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory seabed calibration hours is at most 30 h.",
+          "role_name": "Marine environmental compliance officer (ENV)",
+          "candidate_name": "Autonomous underwater vehicle high-density bathymetric track",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar sled transect",
+            "Work-class remotely operated vehicle seabed crawl"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Simulation test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "OPS-SUBDIV-RCU",
+          "hidden_predicate_id": "A_baseline_acoustic_hours",
+          "threshold_label": "Baseline acoustic surveying hours",
+          "threshold_aliases": [
+            "Nominal acoustic mission duration",
+            "Primary sonar inspection hours"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-SUBDIV-RCU: Autonomous underwater vehicle high-density bathymetric track.Autonomous underwater vehicle high-density bathymetric track: Diver atmospheric pressure support confirmation = true .Source: Subsea diving safety protocol; Scope: Deep-water technical intervention team; Measurement: Sign-off confirming life support and pressure vessel certification for deep intervention.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline acoustic surveying hours is at most 70 h.",
+          "role_name": "Subsea dive operations coordinator (OPS)",
+          "candidate_name": "Autonomous underwater vehicle high-density bathymetric track",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar sled transect",
+            "Work-class remotely operated vehicle seabed crawl"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

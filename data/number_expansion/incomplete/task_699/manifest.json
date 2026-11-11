@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_699",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aerial_supervision",
+        "airfield_operations"
+      ],
+      "role_names": [
+        "Airspace and Dispatch Coordinator (ADC)",
+        "Airfield Operations Lead (AFO)"
+      ],
+      "directory": "incomplete/task_699",
+      "profiles": [
+        {
+          "record_id": "rec_aerial_supervision_A",
+          "role_id": "aerial_supervision",
+          "candidate_id": "A",
+          "key": "ADC-DISP-WXW",
+          "boolean_predicate_id": "A_dedicated_airspace_corridor",
+          "boolean_label": "Dedicated emergency airspace corridor",
+          "hidden_predicate_id": "A_dispatch_clearance_turnaround",
+          "threshold_label": "Peak dispatch clearance turnaround time",
+          "threshold_aliases": [
+            "Dispatch clearance interval",
+            "Sortie clearance time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "ADC-DISP-WXW: Sawtooth Ridge Airtanker Base.Sawtooth Ridge Airtanker Base: Dedicated emergency airspace corridor = true .Source: Air route traffic control agreement; Scope: Terminal control area airspace; Measurement: Whether a segregated emergency aerial firefighting departure corridor is designated.",
+          "role_name": "Airspace and Dispatch Coordinator (ADC)",
+          "candidate_name": "Sawtooth Ridge Airtanker Base",
+          "other_candidate_names": [
+            "Snake River Regional Air Depot",
+            "Payette Basin Aerial Wildfire Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airfield_operations_A",
+          "role_id": "airfield_operations",
+          "candidate_id": "A",
+          "key": "AFO-RUNW-TKT",
+          "hidden_predicate_id": "A_main_runway_length",
+          "threshold_label": "Main runway length",
+          "threshold_aliases": [
+            "Runway length",
+            "Primary landing strip length"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "m",
+          "partial_record_text": "AFO-RUNW-TKT: Sawtooth Ridge Airtanker Base.Sawtooth Ridge Airtanker Base: All-weather instrument landing authorization = true .Source: Federal aviation airfield operating certificate; Scope: Candidate airfield precision approach system; Measurement: Whether Category I or higher instrument landing approach is formally certified.",
+          "role_name": "Airfield Operations Lead (AFO)",
+          "candidate_name": "Sawtooth Ridge Airtanker Base",
+          "other_candidate_names": [
+            "Snake River Regional Air Depot",
+            "Payette Basin Aerial Wildfire Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aerial_supervision",
+        "airfield_operations",
+        "fuel_logistics"
+      ],
+      "role_names": [
+        "Airspace and Dispatch Coordinator (ADC)",
+        "Airfield Operations Lead (AFO)",
+        "Aviation Fuel Logistics Superintendent (FLS)"
+      ],
+      "directory": "incomplete/task_699",
+      "profiles": [
+        {
+          "record_id": "rec_aerial_supervision_A",
+          "role_id": "aerial_supervision",
+          "candidate_id": "A",
+          "key": "ADC-DISP-WXW",
+          "boolean_predicate_id": "A_dedicated_airspace_corridor",
+          "boolean_label": "Dedicated emergency airspace corridor",
+          "hidden_predicate_id": "A_dispatch_clearance_turnaround",
+          "threshold_label": "Peak dispatch clearance turnaround time",
+          "threshold_aliases": [
+            "Dispatch clearance interval",
+            "Sortie clearance time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "ADC-DISP-WXW: Sawtooth Ridge Airtanker Base.Sawtooth Ridge Airtanker Base: Dedicated emergency airspace corridor = true .Source: Air route traffic control agreement; Scope: Terminal control area airspace; Measurement: Whether a segregated emergency aerial firefighting departure corridor is designated.",
+          "role_name": "Airspace and Dispatch Coordinator (ADC)",
+          "candidate_name": "Sawtooth Ridge Airtanker Base",
+          "other_candidate_names": [
+            "Snake River Regional Air Depot",
+            "Payette Basin Aerial Wildfire Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airfield_operations_A",
+          "role_id": "airfield_operations",
+          "candidate_id": "A",
+          "key": "AFO-RUNW-TKT",
+          "hidden_predicate_id": "A_main_runway_length",
+          "threshold_label": "Main runway length",
+          "threshold_aliases": [
+            "Runway length",
+            "Primary landing strip length"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "m",
+          "partial_record_text": "AFO-RUNW-TKT: Sawtooth Ridge Airtanker Base.Sawtooth Ridge Airtanker Base: All-weather instrument landing authorization = true .Source: Federal aviation airfield operating certificate; Scope: Candidate airfield precision approach system; Measurement: Whether Category I or higher instrument landing approach is formally certified.",
+          "role_name": "Airfield Operations Lead (AFO)",
+          "candidate_name": "Sawtooth Ridge Airtanker Base",
+          "other_candidate_names": [
+            "Snake River Regional Air Depot",
+            "Payette Basin Aerial Wildfire Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fuel_logistics_A",
+          "role_id": "fuel_logistics",
+          "candidate_id": "A",
+          "key": "FLS-FUEL-3HQ",
+          "hidden_predicate_id": "A_jet_a_fuel_reserve",
+          "threshold_label": "On-site Jet-A fuel reserve",
+          "threshold_aliases": [
+            "Aviation fuel storage",
+            "Bulk Jet-A stock"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "kL",
+          "partial_record_text": "FLS-FUEL-3HQ: Sawtooth Ridge Airtanker Base. The record covers On-site Jet-A fuel reserve. Fuel farm inventory ledger; Dedicated above-ground aviation fuel tanks; Dedicated usable volume of certified Jet-A fuel held in storage.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 140,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "On-site Jet-A fuel reserve is at least 140 kL.",
+          "role_name": "Aviation Fuel Logistics Superintendent (FLS)",
+          "candidate_name": "Sawtooth Ridge Airtanker Base",
+          "other_candidate_names": [
+            "Snake River Regional Air Depot",
+            "Payette Basin Aerial Wildfire Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

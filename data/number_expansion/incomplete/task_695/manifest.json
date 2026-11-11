@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_695",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_safety",
+        "fleet_maintenance"
+      ],
+      "role_names": [
+        "Aviation Safety and Quality Lead (SAFETY)",
+        "Training Fleet Maintenance Lead (MAINT)"
+      ],
+      "directory": "incomplete/task_695",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "SAFETY-SMS-0UI",
+          "boolean_predicate_id": "A_sms_system_enabled",
+          "boolean_label": "Safety management system active",
+          "hidden_predicate_id": "A_serious_incident_rate",
+          "threshold_label": "Serious incident rate per 10k flight hours",
+          "threshold_aliases": [
+            "Incident rate",
+            "Serious occurrence rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "incidents/(10000 h)",
+          "partial_record_text": "SAFETY-SMS-0UI: Nordic Aviation Flight Academy.Nordic Aviation Flight Academy: Safety management system active = true .Source: Safety assurance compliance audit; Scope: Candidate academy flight training base and ground operations; Measurement: Whether an ICAO-compliant safety management system is fully operational and certified.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Serious incident rate per 10k flight hours is between 0.5 incidents/(10000 h) and 4 incidents/(10000 h), inclusive.",
+          "role_name": "Aviation Safety and Quality Lead (SAFETY)",
+          "candidate_name": "Nordic Aviation Flight Academy",
+          "other_candidate_names": [
+            "Iberian Aeronautical Training Center",
+            "Central European Flight Institute"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_maintenance_A",
+          "role_id": "fleet_maintenance",
+          "candidate_id": "A",
+          "key": "MAINT-AIRW-UZX",
+          "hidden_predicate_id": "A_dispatch_reliability_rate",
+          "threshold_label": "Fleet dispatch reliability rate",
+          "threshold_aliases": [
+            "Aircraft dispatch reliability",
+            "Fleet availability rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "MAINT-AIRW-UZX: Nordic Aviation Flight Academy.Nordic Aviation Flight Academy: Primary single-engine flight training capacity = 60 cadet/year.Source: Training fleet utilization assessment; Scope: Single-engine piston training aircraft allocation for initial flight training; Measurement: Maximum annual student cadet throughput supported through solo cross-country and instrument rating completion.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet dispatch reliability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Training Fleet Maintenance Lead (MAINT)",
+          "candidate_name": "Nordic Aviation Flight Academy",
+          "other_candidate_names": [
+            "Iberian Aeronautical Training Center",
+            "Central European Flight Institute"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_safety",
+        "fleet_maintenance",
+        "simulator_technical"
+      ],
+      "role_names": [
+        "Aviation Safety and Quality Lead (SAFETY)",
+        "Training Fleet Maintenance Lead (MAINT)",
+        "Flight Simulator Engineering Lead (SIMENG)"
+      ],
+      "directory": "incomplete/task_695",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "SAFETY-SMS-0UI",
+          "boolean_predicate_id": "A_sms_system_enabled",
+          "boolean_label": "Safety management system active",
+          "hidden_predicate_id": "A_serious_incident_rate",
+          "threshold_label": "Serious incident rate per 10k flight hours",
+          "threshold_aliases": [
+            "Incident rate",
+            "Serious occurrence rate"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "incidents/(10000 h)",
+          "partial_record_text": "SAFETY-SMS-0UI: Nordic Aviation Flight Academy.Nordic Aviation Flight Academy: Safety management system active = true .Source: Safety assurance compliance audit; Scope: Candidate academy flight training base and ground operations; Measurement: Whether an ICAO-compliant safety management system is fully operational and certified.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Serious incident rate per 10k flight hours is between 0.5 incidents/(10000 h) and 4 incidents/(10000 h), inclusive.",
+          "role_name": "Aviation Safety and Quality Lead (SAFETY)",
+          "candidate_name": "Nordic Aviation Flight Academy",
+          "other_candidate_names": [
+            "Iberian Aeronautical Training Center",
+            "Central European Flight Institute"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_maintenance_A",
+          "role_id": "fleet_maintenance",
+          "candidate_id": "A",
+          "key": "MAINT-AIRW-UZX",
+          "hidden_predicate_id": "A_dispatch_reliability_rate",
+          "threshold_label": "Fleet dispatch reliability rate",
+          "threshold_aliases": [
+            "Aircraft dispatch reliability",
+            "Fleet availability rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "MAINT-AIRW-UZX: Nordic Aviation Flight Academy.Nordic Aviation Flight Academy: Primary single-engine flight training capacity = 60 cadet/year.Source: Training fleet utilization assessment; Scope: Single-engine piston training aircraft allocation for initial flight training; Measurement: Maximum annual student cadet throughput supported through solo cross-country and instrument rating completion.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet dispatch reliability rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Training Fleet Maintenance Lead (MAINT)",
+          "candidate_name": "Nordic Aviation Flight Academy",
+          "other_candidate_names": [
+            "Iberian Aeronautical Training Center",
+            "Central European Flight Institute"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_simulator_technical_A",
+          "role_id": "simulator_technical",
+          "candidate_id": "A",
+          "key": "SIMENG-SIM-O2S",
+          "hidden_predicate_id": "A_advanced_simulator_capacity",
+          "threshold_label": "Advanced multi-crew simulator training capacity",
+          "threshold_aliases": [
+            "Advanced simulator phase throughput",
+            "Multi-crew jet simulator capacity"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "cadet/year",
+          "partial_record_text": "SIMENG-SIM-O2S: Nordic Aviation Flight Academy.Environment baseline: Production operational baseline.Nordic Aviation Flight Academy: Level D full flight simulator qualification = true .Source: Simulator standard evaluation report; Scope: Candidate multi-crew jet transition training simulator fleet; Measurement: Whether at least one multi-engine turbine full flight simulator holds Level D regulatory qualification.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Advanced multi-crew simulator training capacity is between 20 cadet/year and 70 cadet/year, inclusive.",
+          "role_name": "Flight Simulator Engineering Lead (SIMENG)",
+          "candidate_name": "Nordic Aviation Flight Academy",
+          "other_candidate_names": [
+            "Iberian Aeronautical Training Center",
+            "Central European Flight Institute"
+          ],
+          "context_value": "Production operational baseline",
+          "other_context_values": [
+            "Engineering testbed baseline"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

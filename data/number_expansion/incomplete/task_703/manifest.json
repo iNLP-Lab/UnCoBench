@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_703",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hyperbaric_operations",
+        "surface_logistics"
+      ],
+      "role_names": [
+        "Hyperbaric engineering coordinator (HYP)",
+        "Surface staging and logistics superintendent (SURF)"
+      ],
+      "directory": "incomplete/task_703",
+      "profiles": [
+        {
+          "record_id": "rec_hyperbaric_operations_A",
+          "role_id": "hyperbaric_operations",
+          "candidate_id": "A",
+          "key": "HYP-SATENG-H3C",
+          "boolean_predicate_id": "A_supervisor_certified",
+          "boolean_label": "Certified saturation supervisor presence",
+          "hidden_predicate_id": "A_hyperbaric_shift_hours",
+          "threshold_label": "Cumulative pressurized shift experience",
+          "threshold_aliases": [
+            "Hyperbaric shift hours",
+            "Pressurized intervention experience"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "h",
+          "partial_record_text": "HYP-SATENG-H3C: Aegir Subterranean Hyperbaric Specialists.Aegir Subterranean Hyperbaric Specialists: Certified saturation supervisor presence = true .Source: Hyperbaric supervision qualification audit; Scope: Proposed shift leadership roster; Measurement: Whether the team includes an IMCA or equivalent internationally certified saturation diving supervisor.Aegir Subterranean Hyperbaric Specialists: Primary hyperbaric intervention technicians = 10 person.Source: Intervention staffing manifest; Scope: Pressurized cutterhead workspace deployment shift; Measurement: Count of certified pressurized technicians entering the hyperbaric plenum zone.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Cumulative pressurized shift experience is at most 700 h.",
+          "role_name": "Hyperbaric engineering coordinator (HYP)",
+          "candidate_name": "Aegir Subterranean Hyperbaric Specialists",
+          "other_candidate_names": [
+            "Nordic Compressed Air Tunneling Group",
+            "Vanguard Subsurface Pressure Interventions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_surface_logistics_A",
+          "role_id": "surface_logistics",
+          "candidate_id": "A",
+          "key": "SURF-TOPSIDE-FPF",
+          "hidden_predicate_id": "A_surface_support_crew",
+          "threshold_label": "Dedicated topside surface support crew",
+          "threshold_aliases": [
+            "Topside support crew",
+            "Surface gas and lock support staff"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "person",
+          "partial_record_text": "SURF-TOPSIDE-FPF: Aegir Subterranean Hyperbaric Specialists. The record covers Dedicated topside surface support crew. Surface logistics deployment plan; Surface control habitat and gas blending plant; Count of dedicated topside gas tenders, lock operators, and mechanical riggers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated topside surface support crew is at most 30 person.",
+          "role_name": "Surface staging and logistics superintendent (SURF)",
+          "candidate_name": "Aegir Subterranean Hyperbaric Specialists",
+          "other_candidate_names": [
+            "Nordic Compressed Air Tunneling Group",
+            "Vanguard Subsurface Pressure Interventions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hyperbaric_operations",
+        "surface_logistics",
+        "tunnel_safety"
+      ],
+      "role_names": [
+        "Hyperbaric engineering coordinator (HYP)",
+        "Surface staging and logistics superintendent (SURF)",
+        "Tunnel occupational safety inspector (TSAFE)"
+      ],
+      "directory": "number_expansion/incomplete/task_703/k3",
+      "profiles": [
+        {
+          "record_id": "rec_hyperbaric_operations_A",
+          "role_id": "hyperbaric_operations",
+          "candidate_id": "A",
+          "key": "HYP-SATENG-H3C",
+          "boolean_predicate_id": "A_supervisor_certified",
+          "boolean_label": "Certified saturation supervisor presence",
+          "hidden_predicate_id": "A_hyperbaric_shift_hours",
+          "threshold_label": "Cumulative pressurized shift experience",
+          "threshold_aliases": [
+            "Hyperbaric shift hours",
+            "Pressurized intervention experience"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "h",
+          "partial_record_text": "HYP-SATENG-H3C: Aegir Subterranean Hyperbaric Specialists.Aegir Subterranean Hyperbaric Specialists: Certified saturation supervisor presence = true .Source: Hyperbaric supervision qualification audit; Scope: Proposed shift leadership roster; Measurement: Whether the team includes an IMCA or equivalent internationally certified saturation diving supervisor.Aegir Subterranean Hyperbaric Specialists: Primary hyperbaric intervention technicians = 10 person.Source: Intervention staffing manifest; Scope: Pressurized cutterhead workspace deployment shift; Measurement: Count of certified pressurized technicians entering the hyperbaric plenum zone.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Cumulative pressurized shift experience is at most 700 h.",
+          "role_name": "Hyperbaric engineering coordinator (HYP)",
+          "candidate_name": "Aegir Subterranean Hyperbaric Specialists",
+          "other_candidate_names": [
+            "Nordic Compressed Air Tunneling Group",
+            "Vanguard Subsurface Pressure Interventions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_surface_logistics_A",
+          "role_id": "surface_logistics",
+          "candidate_id": "A",
+          "key": "SURF-TOPSIDE-FPF",
+          "hidden_predicate_id": "A_surface_support_crew",
+          "threshold_label": "Dedicated topside surface support crew",
+          "threshold_aliases": [
+            "Topside support crew",
+            "Surface gas and lock support staff"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "person",
+          "partial_record_text": "SURF-TOPSIDE-FPF: Aegir Subterranean Hyperbaric Specialists. The record covers Dedicated topside surface support crew. Surface logistics deployment plan; Surface control habitat and gas blending plant; Count of dedicated topside gas tenders, lock operators, and mechanical riggers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated topside surface support crew is at most 30 person.",
+          "role_name": "Surface staging and logistics superintendent (SURF)",
+          "candidate_name": "Aegir Subterranean Hyperbaric Specialists",
+          "other_candidate_names": [
+            "Nordic Compressed Air Tunneling Group",
+            "Vanguard Subsurface Pressure Interventions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_tunnel_safety_A_supplemental",
+          "role_id": "tunnel_safety",
+          "candidate_id": "A",
+          "key": "TSAFE-MONIT-IJS",
+          "hidden_predicate_id": "A_supplemental_tunnel_safety",
+          "threshold_label": "Ambient methane monitoring frequency",
+          "threshold_aliases": [],
+          "threshold_value": 16,
+          "threshold_unit": "readings/h",
+          "partial_record_text": "TSAFE-MONIT-IJS: Aegir Subterranean Hyperbaric Specialists. The record covers Ambient methane monitoring frequency. Gas sensor telemetry protocol; TBM cutterhead plenum chamber envelope; Recorded automated flammable gas sensor sampling cycles per hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Ambient methane monitoring frequency is at most 30 readings/h.",
+          "role_name": "Tunnel occupational safety inspector (TSAFE)",
+          "candidate_name": "Aegir Subterranean Hyperbaric Specialists",
+          "other_candidate_names": [
+            "Nordic Compressed Air Tunneling Group",
+            "Vanguard Subsurface Pressure Interventions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_tunnel_safety",
+        "topic_id": "supplemental_tunnel_safety",
+        "operator": "gte",
+        "threshold": 12,
+        "role_id": "tunnel_safety",
+        "metric": "Ambient methane monitoring frequency",
+        "unit": "readings/h",
+        "required_text": "To qualify, a candidate must also have Ambient methane monitoring frequency of at least 12 readings/h.",
+        "new_fault_record_key": "TSAFE-MONIT-IJS",
+        "exact_value": 16,
+        "first_reply": "Ambient methane monitoring frequency is at most 30 readings/h."
+      }
+    }
+  }
+}

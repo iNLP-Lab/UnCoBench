@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_923",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "battery_systems",
+        "mine_ops"
+      ],
+      "role_names": [
+        "Battery systems lead (BATT)",
+        "Mine site environmental operations manager (OPS)"
+      ],
+      "directory": "incomplete/task_923",
+      "profiles": [
+        {
+          "record_id": "rec_battery_systems_A",
+          "role_id": "battery_systems",
+          "candidate_id": "A",
+          "key": "BATT-CELL-GN8",
+          "boolean_predicate_id": "A_liquid_cooling_equipped",
+          "boolean_label": "Active liquid thermal conditioning equipped",
+          "hidden_predicate_id": "A_peak_cell_operating_temp",
+          "threshold_label": "Peak fast-charge cell temperature",
+          "threshold_aliases": [
+            "Maximum cell charging temperature",
+            "Fast-charge cell thermal peak"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "degC",
+          "partial_record_text": "BATT-CELL-GN8: ApexDrive E-Titan Heavy Hauler.ApexDrive E-Titan Heavy Hauler: Active liquid thermal conditioning equipped = true .Source: Powertrain technical specification; Scope: Main traction battery enclosure; Measurement: Whether an active closed-loop chiller and liquid cooling plate circuit is factory installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Peak fast-charge cell temperature is between 20 degC and 70 degC, inclusive.",
+          "role_name": "Battery systems lead (BATT)",
+          "candidate_name": "ApexDrive E-Titan Heavy Hauler",
+          "other_candidate_names": [
+            "TerraVolt H240 Zero-Emission Platform",
+            "NordicCore E300 Autonomous Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mine_ops_A",
+          "role_id": "mine_ops",
+          "candidate_id": "A",
+          "key": "OPS-CLIM-IN2",
+          "hidden_predicate_id": "A_ambient_heat_tolerance",
+          "threshold_label": "Ambient heat operating tolerance",
+          "threshold_aliases": [
+            "Maximum ambient operating temperature",
+            "High-temperature desert climatic rating"
+          ],
+          "threshold_value": 54,
+          "threshold_unit": "degC",
+          "partial_record_text": "OPS-CLIM-IN2: ApexDrive E-Titan Heavy Hauler. The record covers Ambient heat operating tolerance. Environmental chamber test dossier; Full vehicle powertrain and control electronics under solar radiation load; Maximum external ambient air temperature where vehicle operates continuously without thermal power derating.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Ambient heat operating tolerance is between 20 degC and 70 degC, inclusive.",
+          "role_name": "Mine site environmental operations manager (OPS)",
+          "candidate_name": "ApexDrive E-Titan Heavy Hauler",
+          "other_candidate_names": [
+            "TerraVolt H240 Zero-Emission Platform",
+            "NordicCore E300 Autonomous Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "battery_systems",
+        "mine_ops",
+        "mech_struct"
+      ],
+      "role_names": [
+        "Battery systems lead (BATT)",
+        "Mine site environmental operations manager (OPS)",
+        "Mechanical and structural engineering lead (MECH)"
+      ],
+      "directory": "incomplete/task_923",
+      "profiles": [
+        {
+          "record_id": "rec_battery_systems_A",
+          "role_id": "battery_systems",
+          "candidate_id": "A",
+          "key": "BATT-CELL-GN8",
+          "boolean_predicate_id": "A_liquid_cooling_equipped",
+          "boolean_label": "Active liquid thermal conditioning equipped",
+          "hidden_predicate_id": "A_peak_cell_operating_temp",
+          "threshold_label": "Peak fast-charge cell temperature",
+          "threshold_aliases": [
+            "Maximum cell charging temperature",
+            "Fast-charge cell thermal peak"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "degC",
+          "partial_record_text": "BATT-CELL-GN8: ApexDrive E-Titan Heavy Hauler.ApexDrive E-Titan Heavy Hauler: Active liquid thermal conditioning equipped = true .Source: Powertrain technical specification; Scope: Main traction battery enclosure; Measurement: Whether an active closed-loop chiller and liquid cooling plate circuit is factory installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Peak fast-charge cell temperature is between 20 degC and 70 degC, inclusive.",
+          "role_name": "Battery systems lead (BATT)",
+          "candidate_name": "ApexDrive E-Titan Heavy Hauler",
+          "other_candidate_names": [
+            "TerraVolt H240 Zero-Emission Platform",
+            "NordicCore E300 Autonomous Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mine_ops_A",
+          "role_id": "mine_ops",
+          "candidate_id": "A",
+          "key": "OPS-CLIM-IN2",
+          "hidden_predicate_id": "A_ambient_heat_tolerance",
+          "threshold_label": "Ambient heat operating tolerance",
+          "threshold_aliases": [
+            "Maximum ambient operating temperature",
+            "High-temperature desert climatic rating"
+          ],
+          "threshold_value": 54,
+          "threshold_unit": "degC",
+          "partial_record_text": "OPS-CLIM-IN2: ApexDrive E-Titan Heavy Hauler. The record covers Ambient heat operating tolerance. Environmental chamber test dossier; Full vehicle powertrain and control electronics under solar radiation load; Maximum external ambient air temperature where vehicle operates continuously without thermal power derating.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Ambient heat operating tolerance is between 20 degC and 70 degC, inclusive.",
+          "role_name": "Mine site environmental operations manager (OPS)",
+          "candidate_name": "ApexDrive E-Titan Heavy Hauler",
+          "other_candidate_names": [
+            "TerraVolt H240 Zero-Emission Platform",
+            "NordicCore E300 Autonomous Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mech_struct_A",
+          "role_id": "mech_struct",
+          "candidate_id": "A",
+          "key": "MECH-CHASSIS-STG",
+          "hidden_predicate_id": "A_payload_capacity",
+          "threshold_label": "Payload load rating",
+          "threshold_aliases": [
+            "Nominal payload capacity",
+            "Structural haul capacity"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "t",
+          "partial_record_text": "MECH-CHASSIS-STG: ApexDrive E-Titan Heavy Hauler.ApexDrive E-Titan Heavy Hauler: Loaded ramp ascent duration = 24 min.Source: Haul cycle simulation report; Scope: Standard 4.2 km pit floor to surface crusher route with 10% gradient; Measurement: Average transit time from loading shovel departure to crusher tipping floor under gross vehicle mass.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 400
+          },
+          "coarse_statement": "Payload load rating is between 200 t and 400 t, inclusive.",
+          "role_name": "Mechanical and structural engineering lead (MECH)",
+          "candidate_name": "ApexDrive E-Titan Heavy Hauler",
+          "other_candidate_names": [
+            "TerraVolt H240 Zero-Emission Platform",
+            "NordicCore E300 Autonomous Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

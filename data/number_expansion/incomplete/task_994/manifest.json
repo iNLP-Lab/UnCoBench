@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_994",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "ground_logistics"
+      ],
+      "role_names": [
+        "Flight operations directorate (FLT)",
+        "Ground logistics and airfield services (GND)"
+      ],
+      "directory": "incomplete/task_994",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-DISP-WZ9",
+          "boolean_predicate_id": "A_rapid_dispatch_protocol_active",
+          "boolean_label": "Rapid dispatch protocol enabled",
+          "hidden_predicate_id": "A_initial_sortie_readiness_minutes",
+          "threshold_label": "Initial sortie launch readiness time",
+          "threshold_aliases": [
+            "Sortie response time",
+            "Wheels-up readiness duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-DISP-WZ9: AeroRelief International Cargo.AeroRelief International Cargo: Rapid dispatch protocol enabled = true .Source: Flight operations compliance register; Scope: Candidate disaster response dispatch unit; Measurement: Whether formal accelerated flight-plan clearance and crew standby procedures are activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Initial sortie launch readiness time is at most 400 min.",
+          "role_name": "Flight operations directorate (FLT)",
+          "candidate_name": "AeroRelief International Cargo",
+          "other_candidate_names": [
+            "Trans-Rift Heavy Airlift",
+            "Equatorial Air Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "GND-APRON-3V1",
+          "hidden_predicate_id": "A_palletized_water_payload",
+          "threshold_label": "Palletized water purification payload",
+          "threshold_aliases": [
+            "Water payload allowance",
+            "Purification freight tonnage"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "t",
+          "partial_record_text": "GND-APRON-3V1: AeroRelief International Cargo.AeroRelief International Cargo: Ramp handling partner agreement in place = true .Source: Airfield partner contract registry; Scope: Designated disaster relief receiving airport; Measurement: Whether a validated ground-handling and material-handling equipment contract is currently executed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Palletized water purification payload is at most 40 t.",
+          "role_name": "Ground logistics and airfield services (GND)",
+          "candidate_name": "AeroRelief International Cargo",
+          "other_candidate_names": [
+            "Trans-Rift Heavy Airlift",
+            "Equatorial Air Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "ground_logistics",
+        "medical_logistics"
+      ],
+      "role_names": [
+        "Flight operations directorate (FLT)",
+        "Ground logistics and airfield services (GND)",
+        "Medical logistics directorate (MED)"
+      ],
+      "directory": "incomplete/task_994",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-DISP-WZ9",
+          "boolean_predicate_id": "A_rapid_dispatch_protocol_active",
+          "boolean_label": "Rapid dispatch protocol enabled",
+          "hidden_predicate_id": "A_initial_sortie_readiness_minutes",
+          "threshold_label": "Initial sortie launch readiness time",
+          "threshold_aliases": [
+            "Sortie response time",
+            "Wheels-up readiness duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-DISP-WZ9: AeroRelief International Cargo.AeroRelief International Cargo: Rapid dispatch protocol enabled = true .Source: Flight operations compliance register; Scope: Candidate disaster response dispatch unit; Measurement: Whether formal accelerated flight-plan clearance and crew standby procedures are activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Initial sortie launch readiness time is at most 400 min.",
+          "role_name": "Flight operations directorate (FLT)",
+          "candidate_name": "AeroRelief International Cargo",
+          "other_candidate_names": [
+            "Trans-Rift Heavy Airlift",
+            "Equatorial Air Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "GND-APRON-3V1",
+          "hidden_predicate_id": "A_palletized_water_payload",
+          "threshold_label": "Palletized water purification payload",
+          "threshold_aliases": [
+            "Water payload allowance",
+            "Purification freight tonnage"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "t",
+          "partial_record_text": "GND-APRON-3V1: AeroRelief International Cargo.AeroRelief International Cargo: Ramp handling partner agreement in place = true .Source: Airfield partner contract registry; Scope: Designated disaster relief receiving airport; Measurement: Whether a validated ground-handling and material-handling equipment contract is currently executed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Palletized water purification payload is at most 40 t.",
+          "role_name": "Ground logistics and airfield services (GND)",
+          "candidate_name": "AeroRelief International Cargo",
+          "other_candidate_names": [
+            "Trans-Rift Heavy Airlift",
+            "Equatorial Air Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_logistics_A",
+          "role_id": "medical_logistics",
+          "candidate_id": "A",
+          "key": "MED-COLD-NX4",
+          "hidden_predicate_id": "A_medical_shelter_payload",
+          "threshold_label": "Medical shelter freight payload",
+          "threshold_aliases": [
+            "Field clinic payload weight",
+            "Medical freight capacity"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "t",
+          "partial_record_text": "MED-COLD-NX4: AeroRelief International Cargo.AeroRelief International Cargo: Biological cold-chain capability confirmed = true .Source: Medical logistics audit report; Scope: Primary cargo hold thermal management systems; Measurement: Whether the aircraft possesses active calibrated active refrigeration maintaining 2 to 8 degrees Celsius continuously.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Medical shelter freight payload is at most 30 t.",
+          "role_name": "Medical logistics directorate (MED)",
+          "candidate_name": "AeroRelief International Cargo",
+          "other_candidate_names": [
+            "Trans-Rift Heavy Airlift",
+            "Equatorial Air Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

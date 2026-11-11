@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_841",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_lead",
+        "utilities_lead"
+      ],
+      "role_names": [
+        "Facilities and environmental systems lead (FAC)",
+        "Emergency power and utilities lead (UTIL)"
+      ],
+      "directory": "incomplete/task_841",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_lead_A",
+          "role_id": "facilities_lead",
+          "candidate_id": "A",
+          "key": "FAC-HVAC-9YT",
+          "boolean_predicate_id": "A_air_filtration_operational",
+          "boolean_label": "Air filtration system operational",
+          "hidden_predicate_id": "A_indoor_air_exchange_rate",
+          "threshold_label": "Conditioned air exchange rate",
+          "threshold_aliases": [
+            "Air turnover rate",
+            "Indoor air exchange frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ACH",
+          "partial_record_text": "FAC-HVAC-9YT: Exposition Hall Complex.Exposition Hall Complex: Air filtration system operational = true .Source: Environmental engineering inspection sign-off; Scope: Main refuge shelter air handling units; Measurement: Whether high-efficiency indoor air particulate filtration is verified operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 20
+          },
+          "coarse_statement": "Conditioned air exchange rate is at most 20 ACH.",
+          "role_name": "Facilities and environmental systems lead (FAC)",
+          "candidate_name": "Exposition Hall Complex",
+          "other_candidate_names": [
+            "Harborside Athletic Center",
+            "Midtown Community Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_lead_A",
+          "role_id": "utilities_lead",
+          "candidate_id": "A",
+          "key": "UTIL-PWR-9PQ",
+          "hidden_predicate_id": "A_backup_generator_runtime_hours",
+          "threshold_label": "Continuous auxiliary generator runtime under peak load",
+          "threshold_aliases": [
+            "Generator peak load autonomy",
+            "Emergency generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-PWR-9PQ: Exposition Hall Complex. The record covers Continuous auxiliary generator runtime under peak load. Record context: Hangzhou. Emergency electrical load testing report; On-site backup diesel generator array; Verified hours of uninterrupted operation under 100 percent critical facility electrical load.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Continuous auxiliary generator runtime under peak load is at most 110 h.",
+          "role_name": "Emergency power and utilities lead (UTIL)",
+          "candidate_name": "Exposition Hall Complex",
+          "other_candidate_names": [
+            "Harborside Athletic Center",
+            "Midtown Community Arena"
+          ],
+          "context_value": "Hangzhou",
+          "other_context_values": [
+            "Ningbo"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_lead",
+        "utilities_lead",
+        "logistics_lead"
+      ],
+      "role_names": [
+        "Facilities and environmental systems lead (FAC)",
+        "Emergency power and utilities lead (UTIL)",
+        "Emergency transit and logistics lead (LOG)"
+      ],
+      "directory": "incomplete/task_841",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_lead_A",
+          "role_id": "facilities_lead",
+          "candidate_id": "A",
+          "key": "FAC-HVAC-9YT",
+          "boolean_predicate_id": "A_air_filtration_operational",
+          "boolean_label": "Air filtration system operational",
+          "hidden_predicate_id": "A_indoor_air_exchange_rate",
+          "threshold_label": "Conditioned air exchange rate",
+          "threshold_aliases": [
+            "Air turnover rate",
+            "Indoor air exchange frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ACH",
+          "partial_record_text": "FAC-HVAC-9YT: Exposition Hall Complex.Exposition Hall Complex: Air filtration system operational = true .Source: Environmental engineering inspection sign-off; Scope: Main refuge shelter air handling units; Measurement: Whether high-efficiency indoor air particulate filtration is verified operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 20
+          },
+          "coarse_statement": "Conditioned air exchange rate is at most 20 ACH.",
+          "role_name": "Facilities and environmental systems lead (FAC)",
+          "candidate_name": "Exposition Hall Complex",
+          "other_candidate_names": [
+            "Harborside Athletic Center",
+            "Midtown Community Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_lead_A",
+          "role_id": "utilities_lead",
+          "candidate_id": "A",
+          "key": "UTIL-PWR-9PQ",
+          "hidden_predicate_id": "A_backup_generator_runtime_hours",
+          "threshold_label": "Continuous auxiliary generator runtime under peak load",
+          "threshold_aliases": [
+            "Generator peak load autonomy",
+            "Emergency generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-PWR-9PQ: Exposition Hall Complex. The record covers Continuous auxiliary generator runtime under peak load. Record context: Hangzhou. Emergency electrical load testing report; On-site backup diesel generator array; Verified hours of uninterrupted operation under 100 percent critical facility electrical load.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Continuous auxiliary generator runtime under peak load is at most 110 h.",
+          "role_name": "Emergency power and utilities lead (UTIL)",
+          "candidate_name": "Exposition Hall Complex",
+          "other_candidate_names": [
+            "Harborside Athletic Center",
+            "Midtown Community Arena"
+          ],
+          "context_value": "Hangzhou",
+          "other_context_values": [
+            "Ningbo"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_lead_A",
+          "role_id": "logistics_lead",
+          "candidate_id": "A",
+          "key": "LOG-ACCESS-8H2",
+          "hidden_predicate_id": "A_nominal_cot_capacity",
+          "threshold_label": "Nominal cot capacity",
+          "threshold_aliases": [
+            "Gross cot setup capacity",
+            "Base dormitory capacity"
+          ],
+          "threshold_value": 750,
+          "threshold_unit": "persons",
+          "partial_record_text": "LOG-ACCESS-8H2: Exposition Hall Complex.Exposition Hall Complex: Dedicated emergency shuttle access cleared = true .Source: Municipal emergency transportation corridor audit; Scope: Designated access roads between arterial transit routes and facility intake; Measurement: Clearance certification confirming unimpeded snowplowed passage for municipal transit shuttles.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Nominal cot capacity is at most 900 persons.",
+          "role_name": "Emergency transit and logistics lead (LOG)",
+          "candidate_name": "Exposition Hall Complex",
+          "other_candidate_names": [
+            "Harborside Athletic Center",
+            "Midtown Community Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

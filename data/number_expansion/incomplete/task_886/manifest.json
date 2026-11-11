@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_886",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_safety_officer",
+        "laboratory_director"
+      ],
+      "role_names": [
+        "Electrical Safety Officer (ESO)",
+        "Materials Testing Laboratory Director (MTL)"
+      ],
+      "directory": "incomplete/task_886",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_safety_officer_A",
+          "role_id": "electrical_safety_officer",
+          "candidate_id": "A",
+          "key": "ESO-SAFE-1PO",
+          "boolean_predicate_id": "A_isolation_certified",
+          "boolean_label": "High-voltage isolation certified",
+          "hidden_predicate_id": "A_gas_dissipation_minutes",
+          "threshold_label": "Hazardous gas dissipation clearance duration",
+          "threshold_aliases": [
+            "Combustible gas venting duration",
+            "Ventilation clearance time"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "min",
+          "partial_record_text": "ESO-SAFE-1PO: Resonant acoustic tomography and destructive cross-section protocol.Resonant acoustic tomography and destructive cross-section protocol: High-voltage isolation certified = true .Source: Substation switching log and lockout-tagout manifest; Scope: 500 kV transformer yard zone 4; Measurement: Affirmative verification that all physical isolation switches are padlocked open.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Hazardous gas dissipation clearance duration is at most 400 min.",
+          "role_name": "Electrical Safety Officer (ESO)",
+          "candidate_name": "Resonant acoustic tomography and destructive cross-section protocol",
+          "other_candidate_names": [
+            "High-frequency pulsed eddy current and micro-hardness protocol",
+            "In-situ gamma radiography and optical emission spectrometry protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_laboratory_director_A",
+          "role_id": "laboratory_director",
+          "candidate_id": "A",
+          "key": "MTL-LAB-7V5",
+          "hidden_predicate_id": "A_laboratory_analysis_hours",
+          "threshold_label": "Specialized laboratory failure analysis hours",
+          "threshold_aliases": [
+            "Off-site laboratory analytical labor",
+            "Destructive metallurgical testing time"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "h",
+          "partial_record_text": "MTL-LAB-7V5: Resonant acoustic tomography and destructive cross-section protocol.Resonant acoustic tomography and destructive cross-section protocol: Accredited metallurgical laboratory chain of custody = true .Source: Forensic chain of custody accreditation register; Scope: Specimen transport container seals and receiving vaults; Measurement: Formal compliance audit confirmation under ISO/IEC 17025 evidentiary integrity standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Specialized laboratory failure analysis hours is at most 110 h.",
+          "role_name": "Materials Testing Laboratory Director (MTL)",
+          "candidate_name": "Resonant acoustic tomography and destructive cross-section protocol",
+          "other_candidate_names": [
+            "High-frequency pulsed eddy current and micro-hardness protocol",
+            "In-situ gamma radiography and optical emission spectrometry protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_safety_officer",
+        "laboratory_director",
+        "telemetry_analytics_lead"
+      ],
+      "role_names": [
+        "Electrical Safety Officer (ESO)",
+        "Materials Testing Laboratory Director (MTL)",
+        "Telemetry Analytics Lead (TAL)"
+      ],
+      "directory": "incomplete/task_886",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_safety_officer_A",
+          "role_id": "electrical_safety_officer",
+          "candidate_id": "A",
+          "key": "ESO-SAFE-1PO",
+          "boolean_predicate_id": "A_isolation_certified",
+          "boolean_label": "High-voltage isolation certified",
+          "hidden_predicate_id": "A_gas_dissipation_minutes",
+          "threshold_label": "Hazardous gas dissipation clearance duration",
+          "threshold_aliases": [
+            "Combustible gas venting duration",
+            "Ventilation clearance time"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "min",
+          "partial_record_text": "ESO-SAFE-1PO: Resonant acoustic tomography and destructive cross-section protocol.Resonant acoustic tomography and destructive cross-section protocol: High-voltage isolation certified = true .Source: Substation switching log and lockout-tagout manifest; Scope: 500 kV transformer yard zone 4; Measurement: Affirmative verification that all physical isolation switches are padlocked open.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Hazardous gas dissipation clearance duration is at most 400 min.",
+          "role_name": "Electrical Safety Officer (ESO)",
+          "candidate_name": "Resonant acoustic tomography and destructive cross-section protocol",
+          "other_candidate_names": [
+            "High-frequency pulsed eddy current and micro-hardness protocol",
+            "In-situ gamma radiography and optical emission spectrometry protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_laboratory_director_A",
+          "role_id": "laboratory_director",
+          "candidate_id": "A",
+          "key": "MTL-LAB-7V5",
+          "hidden_predicate_id": "A_laboratory_analysis_hours",
+          "threshold_label": "Specialized laboratory failure analysis hours",
+          "threshold_aliases": [
+            "Off-site laboratory analytical labor",
+            "Destructive metallurgical testing time"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "h",
+          "partial_record_text": "MTL-LAB-7V5: Resonant acoustic tomography and destructive cross-section protocol.Resonant acoustic tomography and destructive cross-section protocol: Accredited metallurgical laboratory chain of custody = true .Source: Forensic chain of custody accreditation register; Scope: Specimen transport container seals and receiving vaults; Measurement: Formal compliance audit confirmation under ISO/IEC 17025 evidentiary integrity standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Specialized laboratory failure analysis hours is at most 110 h.",
+          "role_name": "Materials Testing Laboratory Director (MTL)",
+          "candidate_name": "Resonant acoustic tomography and destructive cross-section protocol",
+          "other_candidate_names": [
+            "High-frequency pulsed eddy current and micro-hardness protocol",
+            "In-situ gamma radiography and optical emission spectrometry protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telemetry_analytics_lead_A",
+          "role_id": "telemetry_analytics_lead",
+          "candidate_id": "A",
+          "key": "TAL-SCADA-WB5",
+          "hidden_predicate_id": "A_telemetry_deduction_hours",
+          "threshold_label": "Telemetry automated pre-screening credit hours",
+          "threshold_aliases": [
+            "SCADA digital triage offset",
+            "Automated fault log triage credit"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "TAL-SCADA-WB5: Resonant acoustic tomography and destructive cross-section protocol. The record covers Telemetry automated pre-screening credit hours. Record context: Guangdong. Automated telemetry correlation study; High-speed digital fault recording waveform analysis; Verified specialist labor hours offset through algorithmic transient localization.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Telemetry automated pre-screening credit hours is at most 40 h.",
+          "role_name": "Telemetry Analytics Lead (TAL)",
+          "candidate_name": "Resonant acoustic tomography and destructive cross-section protocol",
+          "other_candidate_names": [
+            "High-frequency pulsed eddy current and micro-hardness protocol",
+            "In-situ gamma radiography and optical emission spectrometry protocol"
+          ],
+          "context_value": "Guangdong",
+          "other_context_values": [
+            "Zhejiang"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

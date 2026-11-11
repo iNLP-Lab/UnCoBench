@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_195",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "crane_operations_lead",
+        "structural_deck_lead"
+      ],
+      "role_names": [
+        "Heavy Lift Crane Superintendent (HCS)",
+        "Naval Architecture and Deck Integrity Lead (NAL)"
+      ],
+      "directory": "incomplete/task_195",
+      "profiles": [
+        {
+          "record_id": "rec_crane_operations_lead_A",
+          "role_id": "crane_operations_lead",
+          "candidate_id": "A",
+          "key": "HCS-HOIST-VQ2",
+          "boolean_predicate_id": "A_heave_comp_installed",
+          "boolean_label": "Active heave compensation system installed",
+          "hidden_predicate_id": "A_hook_travel_speed",
+          "threshold_label": "Crane tip hook travel speed",
+          "threshold_aliases": [
+            "Hook hoist speed",
+            "Subsea hook line velocity"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m/min",
+          "partial_record_text": "HCS-HOIST-VQ2: Oceantech Boreas Pioneer.Oceantech Boreas Pioneer: Active heave compensation system installed = true .Source: Offshore mast crane commissioning record; Scope: Main hook winch drivetrain; Measurement: Whether an active hydraulic or electric heave-compensation unit is installed and operational.",
+          "role_name": "Heavy Lift Crane Superintendent (HCS)",
+          "candidate_name": "Oceantech Boreas Pioneer",
+          "other_candidate_names": [
+            "Nordic Sea Titan Horizon",
+            "Zephyr Goliath Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_deck_lead_A",
+          "role_id": "structural_deck_lead",
+          "candidate_id": "A",
+          "key": "NAL-STRUC-FBV",
+          "hidden_predicate_id": "A_deck_load_bearing",
+          "threshold_label": "Deck load bearing resistance",
+          "threshold_aliases": [
+            "Uniform deck strength",
+            "Cargo deck bearing capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "NAL-STRUC-FBV: Oceantech Boreas Pioneer.Oceantech Boreas Pioneer: Dedicated sea-fastening tare weight = 1350 t.Source: Structural sea-fastening fabrication bill of materials; Scope: Modular substation foundation cradles and tubular shear lugs; Measurement: Total certified dry weight of welded deck cradles, turnbuckles, and securing brackets.",
+          "role_name": "Naval Architecture and Deck Integrity Lead (NAL)",
+          "candidate_name": "Oceantech Boreas Pioneer",
+          "other_candidate_names": [
+            "Nordic Sea Titan Horizon",
+            "Zephyr Goliath Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "crane_operations_lead",
+        "structural_deck_lead",
+        "marine_engineering_lead"
+      ],
+      "role_names": [
+        "Heavy Lift Crane Superintendent (HCS)",
+        "Naval Architecture and Deck Integrity Lead (NAL)",
+        "Marine Engineering Superintendent (MES)"
+      ],
+      "directory": "incomplete/task_195",
+      "profiles": [
+        {
+          "record_id": "rec_crane_operations_lead_A",
+          "role_id": "crane_operations_lead",
+          "candidate_id": "A",
+          "key": "HCS-HOIST-VQ2",
+          "boolean_predicate_id": "A_heave_comp_installed",
+          "boolean_label": "Active heave compensation system installed",
+          "hidden_predicate_id": "A_hook_travel_speed",
+          "threshold_label": "Crane tip hook travel speed",
+          "threshold_aliases": [
+            "Hook hoist speed",
+            "Subsea hook line velocity"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m/min",
+          "partial_record_text": "HCS-HOIST-VQ2: Oceantech Boreas Pioneer.Oceantech Boreas Pioneer: Active heave compensation system installed = true .Source: Offshore mast crane commissioning record; Scope: Main hook winch drivetrain; Measurement: Whether an active hydraulic or electric heave-compensation unit is installed and operational.",
+          "role_name": "Heavy Lift Crane Superintendent (HCS)",
+          "candidate_name": "Oceantech Boreas Pioneer",
+          "other_candidate_names": [
+            "Nordic Sea Titan Horizon",
+            "Zephyr Goliath Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_deck_lead_A",
+          "role_id": "structural_deck_lead",
+          "candidate_id": "A",
+          "key": "NAL-STRUC-FBV",
+          "hidden_predicate_id": "A_deck_load_bearing",
+          "threshold_label": "Deck load bearing resistance",
+          "threshold_aliases": [
+            "Uniform deck strength",
+            "Cargo deck bearing capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "NAL-STRUC-FBV: Oceantech Boreas Pioneer.Oceantech Boreas Pioneer: Dedicated sea-fastening tare weight = 1350 t.Source: Structural sea-fastening fabrication bill of materials; Scope: Modular substation foundation cradles and tubular shear lugs; Measurement: Total certified dry weight of welded deck cradles, turnbuckles, and securing brackets.",
+          "role_name": "Naval Architecture and Deck Integrity Lead (NAL)",
+          "candidate_name": "Oceantech Boreas Pioneer",
+          "other_candidate_names": [
+            "Nordic Sea Titan Horizon",
+            "Zephyr Goliath Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_lead_A",
+          "role_id": "marine_engineering_lead",
+          "candidate_id": "A",
+          "key": "MES-STN-1J1",
+          "hidden_predicate_id": "A_max_deck_payload",
+          "threshold_label": "Maximum continuous deck payload",
+          "threshold_aliases": [
+            "Gross cargo payload",
+            "Allowable continuous payload"
+          ],
+          "threshold_value": 5500,
+          "threshold_unit": "t",
+          "partial_record_text": "MES-STN-1J1: Oceantech Boreas Pioneer.Oceantech Boreas Pioneer: Dynamic positioning class 3 certified = true .Source: Classification society notation register; Scope: Primary vessel station-keeping machinery; Measurement: Whether vessel holds active DP3 or equivalent class notation with physical fire/flood separation.",
+          "role_name": "Marine Engineering Superintendent (MES)",
+          "candidate_name": "Oceantech Boreas Pioneer",
+          "other_candidate_names": [
+            "Nordic Sea Titan Horizon",
+            "Zephyr Goliath Transporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_970",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_weather",
+        "cold_chain_health"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Humanitarian medical logistics officer (MEDLOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_970/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aviation meteorology specialist (MET)",
+          "target_key": "MET-AEROMET-BHB",
+          "alternate_key": "MET-AEROMET-2NM",
+          "target_context": "14 November 2026",
+          "alternate_context": "15 November 2026",
+          "candidate": "Port Vila Gateway Hub",
+          "other_candidates": [
+            "Nadi Western Staging Corridor",
+            "Nouméa Regional Airbridge"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "crosswind_safety_compliant",
+              "value": true,
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "landing_clearance_active",
+              "label": "Heavy transport landing clearance established",
+              "aliases": [
+                "Landing clearance status",
+                "Airlift diplomatic clearance"
+              ]
+            },
+            {
+              "topic": "runway_effective_length",
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ]
+            },
+            {
+              "topic": "ramp_equipment_certified",
+              "label": "Ramp cargo equipment operational",
+              "aliases": [
+                "Ground equipment certification",
+                "Main-deck loader readiness"
+              ]
+            },
+            {
+              "topic": "cold_chain_storage_available",
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ]
+            },
+            {
+              "topic": "cold_chain_transfer_time",
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ]
+            },
+            {
+              "topic": "crosswind_safety_compliant",
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ]
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ]
+            },
+            {
+              "topic": "apron_daily_staging_capacity",
+              "label": "Apron daily staging capacity",
+              "aliases": [
+                "Apron cargo marshalling throughput",
+                "Ground pallet processing capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Humanitarian medical logistics officer (MEDLOG)",
+          "target_key": "MEDLOG-COLD-F7P",
+          "alternate_key": "MEDLOG-COLD-EL5",
+          "target_context": "November 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Port Vila Gateway Hub",
+          "other_candidates": [
+            "Nadi Western Staging Corridor",
+            "Nouméa Regional Airbridge"
+          ],
+          "numeric": [
+            {
+              "topic": "cold_chain_transfer_time",
+              "value": 45,
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cold_chain_storage_available",
+              "value": true,
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "landing_clearance_active",
+              "label": "Heavy transport landing clearance established",
+              "aliases": [
+                "Landing clearance status",
+                "Airlift diplomatic clearance"
+              ]
+            },
+            {
+              "topic": "runway_effective_length",
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ]
+            },
+            {
+              "topic": "ramp_equipment_certified",
+              "label": "Ramp cargo equipment operational",
+              "aliases": [
+                "Ground equipment certification",
+                "Main-deck loader readiness"
+              ]
+            },
+            {
+              "topic": "cold_chain_storage_available",
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ]
+            },
+            {
+              "topic": "cold_chain_transfer_time",
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ]
+            },
+            {
+              "topic": "crosswind_safety_compliant",
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ]
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ]
+            },
+            {
+              "topic": "apron_daily_staging_capacity",
+              "label": "Apron daily staging capacity",
+              "aliases": [
+                "Apron cargo marshalling throughput",
+                "Ground pallet processing capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_weather",
+        "cold_chain_health",
+        "air_operations"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Humanitarian medical logistics officer (MEDLOG)",
+        "Air operations superintendent (AIROPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_970/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aviation meteorology specialist (MET)",
+          "target_key": "MET-AEROMET-BHB",
+          "alternate_key": "MET-AEROMET-2NM",
+          "target_context": "14 November 2026",
+          "alternate_context": "15 November 2026",
+          "candidate": "Port Vila Gateway Hub",
+          "other_candidates": [
+            "Nadi Western Staging Corridor",
+            "Nouméa Regional Airbridge"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "crosswind_safety_compliant",
+              "value": true,
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "landing_clearance_active",
+              "label": "Heavy transport landing clearance established",
+              "aliases": [
+                "Landing clearance status",
+                "Airlift diplomatic clearance"
+              ]
+            },
+            {
+              "topic": "runway_effective_length",
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ]
+            },
+            {
+              "topic": "ramp_equipment_certified",
+              "label": "Ramp cargo equipment operational",
+              "aliases": [
+                "Ground equipment certification",
+                "Main-deck loader readiness"
+              ]
+            },
+            {
+              "topic": "cold_chain_storage_available",
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ]
+            },
+            {
+              "topic": "cold_chain_transfer_time",
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ]
+            },
+            {
+              "topic": "crosswind_safety_compliant",
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ]
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ]
+            },
+            {
+              "topic": "apron_daily_staging_capacity",
+              "label": "Apron daily staging capacity",
+              "aliases": [
+                "Apron cargo marshalling throughput",
+                "Ground pallet processing capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Humanitarian medical logistics officer (MEDLOG)",
+          "target_key": "MEDLOG-COLD-F7P",
+          "alternate_key": "MEDLOG-COLD-EL5",
+          "target_context": "November 2026",
+          "alternate_context": "October 2026",
+          "candidate": "Port Vila Gateway Hub",
+          "other_candidates": [
+            "Nadi Western Staging Corridor",
+            "Nouméa Regional Airbridge"
+          ],
+          "numeric": [
+            {
+              "topic": "cold_chain_transfer_time",
+              "value": 45,
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cold_chain_storage_available",
+              "value": true,
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "landing_clearance_active",
+              "label": "Heavy transport landing clearance established",
+              "aliases": [
+                "Landing clearance status",
+                "Airlift diplomatic clearance"
+              ]
+            },
+            {
+              "topic": "runway_effective_length",
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ]
+            },
+            {
+              "topic": "ramp_equipment_certified",
+              "label": "Ramp cargo equipment operational",
+              "aliases": [
+                "Ground equipment certification",
+                "Main-deck loader readiness"
+              ]
+            },
+            {
+              "topic": "cold_chain_storage_available",
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ]
+            },
+            {
+              "topic": "cold_chain_transfer_time",
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ]
+            },
+            {
+              "topic": "crosswind_safety_compliant",
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ]
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ]
+            },
+            {
+              "topic": "apron_daily_staging_capacity",
+              "label": "Apron daily staging capacity",
+              "aliases": [
+                "Apron cargo marshalling throughput",
+                "Ground pallet processing capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Air operations superintendent (AIROPS)",
+          "target_key": "AIROPS-FLIGHT-BUQ",
+          "alternate_key": "AIROPS-FLIGHT-BIA",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Port Vila Gateway Hub",
+          "other_candidates": [
+            "Nadi Western Staging Corridor",
+            "Nouméa Regional Airbridge"
+          ],
+          "numeric": [
+            {
+              "topic": "runway_effective_length",
+              "value": 2200,
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ],
+              "unit": "m"
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "value": 120,
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "landing_clearance_active",
+              "label": "Heavy transport landing clearance established",
+              "aliases": [
+                "Landing clearance status",
+                "Airlift diplomatic clearance"
+              ]
+            },
+            {
+              "topic": "runway_effective_length",
+              "label": "Runway effective length",
+              "aliases": [
+                "Declared runway length",
+                "Takeoff run available"
+              ]
+            },
+            {
+              "topic": "ramp_equipment_certified",
+              "label": "Ramp cargo equipment operational",
+              "aliases": [
+                "Ground equipment certification",
+                "Main-deck loader readiness"
+              ]
+            },
+            {
+              "topic": "cold_chain_storage_available",
+              "label": "Active cold-chain storage available",
+              "aliases": [
+                "Refrigerated depot readiness",
+                "Vaccine cold storage presence"
+              ]
+            },
+            {
+              "topic": "cold_chain_transfer_time",
+              "label": "Cold-chain transfer transit time",
+              "aliases": [
+                "Tarmac-to-cooler transit duration",
+                "Ramp refrigerated transfer time"
+              ]
+            },
+            {
+              "topic": "crosswind_safety_compliant",
+              "label": "Crosswind safety margin compliance verified",
+              "aliases": [
+                "Crosswind limit compliance",
+                "Runway wind safety clearance"
+              ]
+            },
+            {
+              "topic": "airfield_daily_airlift_throughput",
+              "label": "Airfield daily airlift throughput",
+              "aliases": [
+                "Flight line cargo delivery rate",
+                "Airfield airlift intake"
+              ]
+            },
+            {
+              "topic": "apron_daily_staging_capacity",
+              "label": "Apron daily staging capacity",
+              "aliases": [
+                "Apron cargo marshalling throughput",
+                "Ground pallet processing capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

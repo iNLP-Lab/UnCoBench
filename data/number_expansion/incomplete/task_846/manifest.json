@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_846",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "grid_protection",
+        "forensic_analytics"
+      ],
+      "role_names": [
+        "Grid protection systems engineer (PROT)",
+        "Forensic power systems analyst (DATA)"
+      ],
+      "directory": "incomplete/task_846",
+      "profiles": [
+        {
+          "record_id": "rec_grid_protection_A",
+          "role_id": "grid_protection",
+          "candidate_id": "A",
+          "key": "PROT-RELAY-NBZ",
+          "boolean_predicate_id": "A_synchrophasor_stream_enabled",
+          "boolean_label": "Synchrophasor streaming interface enabled",
+          "hidden_predicate_id": "A_max_tripping_sequence_latency",
+          "threshold_label": "Maximum tripping sequence recording latency",
+          "threshold_aliases": [
+            "Trip sequence latency",
+            "Breaker event recording delay"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "ms",
+          "partial_record_text": "PROT-RELAY-NBZ: Synchronized Phasor Dynamic Trajectory Analysis.Synchronized Phasor Dynamic Trajectory Analysis: Synchrophasor streaming interface enabled = true .Source: Substation relay gateway configuration audit; Scope: Continuous phasor measurement units across candidate telemetry architecture; Measurement: Flag indicating active broadcast streaming over IEEE C37.118 protocol.",
+          "role_name": "Grid protection systems engineer (PROT)",
+          "candidate_name": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidate_names": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_forensic_analytics_A",
+          "role_id": "forensic_analytics",
+          "candidate_id": "A",
+          "key": "DATA-ANALYT-U8C",
+          "hidden_predicate_id": "A_historian_recording_granularity",
+          "threshold_label": "Control center historian recording granularity",
+          "threshold_aliases": [
+            "Historian logging interval",
+            "SCADA archive sampling interval"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "ms",
+          "partial_record_text": "DATA-ANALYT-U8C: Synchronized Phasor Dynamic Trajectory Analysis.Synchronized Phasor Dynamic Trajectory Analysis: Dynamic state estimation supported = true .Source: Energy management system software compatibility matrix; Scope: Real-time state estimation and tracking solver module; Measurement: Verification that telemetry streaming format directly maps into dynamic state algorithm arrays.",
+          "role_name": "Forensic power systems analyst (DATA)",
+          "candidate_name": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidate_names": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "grid_protection",
+        "forensic_analytics",
+        "cyber_telemetry"
+      ],
+      "role_names": [
+        "Grid protection systems engineer (PROT)",
+        "Forensic power systems analyst (DATA)",
+        "Operational technology network architect (NETW)"
+      ],
+      "directory": "incomplete/task_846",
+      "profiles": [
+        {
+          "record_id": "rec_grid_protection_A",
+          "role_id": "grid_protection",
+          "candidate_id": "A",
+          "key": "PROT-RELAY-NBZ",
+          "boolean_predicate_id": "A_synchrophasor_stream_enabled",
+          "boolean_label": "Synchrophasor streaming interface enabled",
+          "hidden_predicate_id": "A_max_tripping_sequence_latency",
+          "threshold_label": "Maximum tripping sequence recording latency",
+          "threshold_aliases": [
+            "Trip sequence latency",
+            "Breaker event recording delay"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "ms",
+          "partial_record_text": "PROT-RELAY-NBZ: Synchronized Phasor Dynamic Trajectory Analysis.Synchronized Phasor Dynamic Trajectory Analysis: Synchrophasor streaming interface enabled = true .Source: Substation relay gateway configuration audit; Scope: Continuous phasor measurement units across candidate telemetry architecture; Measurement: Flag indicating active broadcast streaming over IEEE C37.118 protocol.",
+          "role_name": "Grid protection systems engineer (PROT)",
+          "candidate_name": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidate_names": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_forensic_analytics_A",
+          "role_id": "forensic_analytics",
+          "candidate_id": "A",
+          "key": "DATA-ANALYT-U8C",
+          "hidden_predicate_id": "A_historian_recording_granularity",
+          "threshold_label": "Control center historian recording granularity",
+          "threshold_aliases": [
+            "Historian logging interval",
+            "SCADA archive sampling interval"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "ms",
+          "partial_record_text": "DATA-ANALYT-U8C: Synchronized Phasor Dynamic Trajectory Analysis.Synchronized Phasor Dynamic Trajectory Analysis: Dynamic state estimation supported = true .Source: Energy management system software compatibility matrix; Scope: Real-time state estimation and tracking solver module; Measurement: Verification that telemetry streaming format directly maps into dynamic state algorithm arrays.",
+          "role_name": "Forensic power systems analyst (DATA)",
+          "candidate_name": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidate_names": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cyber_telemetry_A",
+          "role_id": "cyber_telemetry",
+          "candidate_id": "A",
+          "key": "NETW-OTNET-HJQ",
+          "hidden_predicate_id": "A_substation_buffer_interval",
+          "threshold_label": "Substation recording buffer interval",
+          "threshold_aliases": [
+            "Substation transient buffer window",
+            "Local recorder sampling step"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "ms",
+          "partial_record_text": "NETW-OTNET-HJQ: Synchronized Phasor Dynamic Trajectory Analysis.Synchronized Phasor Dynamic Trajectory Analysis: Telemetry bandwidth capacity certified = true .Source: Wide-area network telemetry engineering review; Scope: Dedicated multiplexed packet network between substations and primary control center; Measurement: Formal validation that dedicated bandwidth headroom satisfies sustained burst demands.",
+          "role_name": "Operational technology network architect (NETW)",
+          "candidate_name": "Synchronized Phasor Dynamic Trajectory Analysis",
+          "other_candidate_names": [
+            "Substation Digital Fault Recorder Triangulation",
+            "High-Speed Event Sequence Waveform Reconstruction"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

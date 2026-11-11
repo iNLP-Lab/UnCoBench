@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_429",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_infrastructure",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Facilities Infrastructure Manager (FIM)",
+        "Quality Assurance Auditor (QAA)"
+      ],
+      "directory": "number_expansion/misaligned/task_429/k2",
+      "error_profiles": [
+        {
+          "role_name": "Facilities Infrastructure Manager (FIM)",
+          "target_key": "FIM-INFR-VH7",
+          "alternate_key": "FIM-ROOF-2BG",
+          "target_context": "after deducting maintenance clearance reservations",
+          "alternate_context": "before deducting maintenance clearance reservations",
+          "candidate": "North Rhine Distribution Hub",
+          "other_candidates": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "numeric": [
+            {
+              "topic": "ambient_pallet_capacity",
+              "value": 1800,
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_monitoring_active",
+              "label": "Continuous temperature monitoring active",
+              "aliases": [
+                "Real-time thermal surveillance active",
+                "Continuous monitoring enabled"
+              ]
+            },
+            {
+              "topic": "excursion_recovery_duration",
+              "label": "Excursion recovery duration",
+              "aliases": [
+                "Thermal excursion recovery time",
+                "Cooling pull-down recovery interval"
+              ]
+            },
+            {
+              "topic": "backup_power_cleared",
+              "label": "Validated backup power generation cleared",
+              "aliases": [
+                "Emergency generator qualification",
+                "Backup power clearance"
+              ]
+            },
+            {
+              "topic": "cleanroom_staging_certified",
+              "label": "Qualified cleanroom staging area certified",
+              "aliases": [
+                "Cleanroom staging verification",
+                "Controlled staging certification"
+              ]
+            },
+            {
+              "topic": "gdp_compliance_verified",
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ]
+            },
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ]
+            },
+            {
+              "topic": "quarantine_buffer_pallets",
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality Assurance Auditor (QAA)",
+          "target_key": "QAA-QUAL-OXK",
+          "alternate_key": "QAA-QUAL-FTY",
+          "target_context": "including routine batch release quarantine reserves",
+          "alternate_context": "excluding routine batch release quarantine reserves",
+          "candidate": "North Rhine Distribution Hub",
+          "other_candidates": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "numeric": [
+            {
+              "topic": "quarantine_buffer_pallets",
+              "value": 350,
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "gdp_compliance_verified",
+              "value": true,
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_monitoring_active",
+              "label": "Continuous temperature monitoring active",
+              "aliases": [
+                "Real-time thermal surveillance active",
+                "Continuous monitoring enabled"
+              ]
+            },
+            {
+              "topic": "excursion_recovery_duration",
+              "label": "Excursion recovery duration",
+              "aliases": [
+                "Thermal excursion recovery time",
+                "Cooling pull-down recovery interval"
+              ]
+            },
+            {
+              "topic": "backup_power_cleared",
+              "label": "Validated backup power generation cleared",
+              "aliases": [
+                "Emergency generator qualification",
+                "Backup power clearance"
+              ]
+            },
+            {
+              "topic": "cleanroom_staging_certified",
+              "label": "Qualified cleanroom staging area certified",
+              "aliases": [
+                "Cleanroom staging verification",
+                "Controlled staging certification"
+              ]
+            },
+            {
+              "topic": "gdp_compliance_verified",
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ]
+            },
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ]
+            },
+            {
+              "topic": "quarantine_buffer_pallets",
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_infrastructure",
+        "quality_assurance",
+        "cleanroom_operations"
+      ],
+      "role_names": [
+        "Facilities Infrastructure Manager (FIM)",
+        "Quality Assurance Auditor (QAA)",
+        "Cleanroom Operations Supervisor (COS)"
+      ],
+      "directory": "number_expansion/misaligned/task_429/k3",
+      "error_profiles": [
+        {
+          "role_name": "Facilities Infrastructure Manager (FIM)",
+          "target_key": "FIM-INFR-VH7",
+          "alternate_key": "FIM-ROOF-2BG",
+          "target_context": "after deducting maintenance clearance reservations",
+          "alternate_context": "before deducting maintenance clearance reservations",
+          "candidate": "North Rhine Distribution Hub",
+          "other_candidates": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "numeric": [
+            {
+              "topic": "ambient_pallet_capacity",
+              "value": 1800,
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_monitoring_active",
+              "label": "Continuous temperature monitoring active",
+              "aliases": [
+                "Real-time thermal surveillance active",
+                "Continuous monitoring enabled"
+              ]
+            },
+            {
+              "topic": "excursion_recovery_duration",
+              "label": "Excursion recovery duration",
+              "aliases": [
+                "Thermal excursion recovery time",
+                "Cooling pull-down recovery interval"
+              ]
+            },
+            {
+              "topic": "backup_power_cleared",
+              "label": "Validated backup power generation cleared",
+              "aliases": [
+                "Emergency generator qualification",
+                "Backup power clearance"
+              ]
+            },
+            {
+              "topic": "cleanroom_staging_certified",
+              "label": "Qualified cleanroom staging area certified",
+              "aliases": [
+                "Cleanroom staging verification",
+                "Controlled staging certification"
+              ]
+            },
+            {
+              "topic": "gdp_compliance_verified",
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ]
+            },
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ]
+            },
+            {
+              "topic": "quarantine_buffer_pallets",
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality Assurance Auditor (QAA)",
+          "target_key": "QAA-QUAL-OXK",
+          "alternate_key": "QAA-QUAL-FTY",
+          "target_context": "including routine batch release quarantine reserves",
+          "alternate_context": "excluding routine batch release quarantine reserves",
+          "candidate": "North Rhine Distribution Hub",
+          "other_candidates": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "numeric": [
+            {
+              "topic": "quarantine_buffer_pallets",
+              "value": 350,
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "gdp_compliance_verified",
+              "value": true,
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_monitoring_active",
+              "label": "Continuous temperature monitoring active",
+              "aliases": [
+                "Real-time thermal surveillance active",
+                "Continuous monitoring enabled"
+              ]
+            },
+            {
+              "topic": "excursion_recovery_duration",
+              "label": "Excursion recovery duration",
+              "aliases": [
+                "Thermal excursion recovery time",
+                "Cooling pull-down recovery interval"
+              ]
+            },
+            {
+              "topic": "backup_power_cleared",
+              "label": "Validated backup power generation cleared",
+              "aliases": [
+                "Emergency generator qualification",
+                "Backup power clearance"
+              ]
+            },
+            {
+              "topic": "cleanroom_staging_certified",
+              "label": "Qualified cleanroom staging area certified",
+              "aliases": [
+                "Cleanroom staging verification",
+                "Controlled staging certification"
+              ]
+            },
+            {
+              "topic": "gdp_compliance_verified",
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ]
+            },
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ]
+            },
+            {
+              "topic": "quarantine_buffer_pallets",
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cleanroom Operations Supervisor (COS)",
+          "target_key": "COS-STAG-V6V",
+          "alternate_key": "COS-STAG-JA1",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "North Rhine Distribution Hub",
+          "other_candidates": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "numeric": [
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "value": 800,
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_monitoring_active",
+              "label": "Continuous temperature monitoring active",
+              "aliases": [
+                "Real-time thermal surveillance active",
+                "Continuous monitoring enabled"
+              ]
+            },
+            {
+              "topic": "excursion_recovery_duration",
+              "label": "Excursion recovery duration",
+              "aliases": [
+                "Thermal excursion recovery time",
+                "Cooling pull-down recovery interval"
+              ]
+            },
+            {
+              "topic": "backup_power_cleared",
+              "label": "Validated backup power generation cleared",
+              "aliases": [
+                "Emergency generator qualification",
+                "Backup power clearance"
+              ]
+            },
+            {
+              "topic": "cleanroom_staging_certified",
+              "label": "Qualified cleanroom staging area certified",
+              "aliases": [
+                "Cleanroom staging verification",
+                "Controlled staging certification"
+              ]
+            },
+            {
+              "topic": "gdp_compliance_verified",
+              "label": "GDP quality compliance audit verification",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP audit clearance"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient dry pallet allocation",
+              "aliases": [
+                "Controlled room temperature pallet spaces",
+                "Ambient dry storage quota"
+              ]
+            },
+            {
+              "topic": "refrigerated_pallet_capacity",
+              "label": "Refrigerated cold pallet allocation",
+              "aliases": [
+                "Cold storage pallet spaces",
+                "Refrigerated capacity allotment"
+              ]
+            },
+            {
+              "topic": "quarantine_buffer_pallets",
+              "label": "Quarantined buffer pallet allocation",
+              "aliases": [
+                "Quality quarantine buffer spaces",
+                "Quarantined pallet reserve"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

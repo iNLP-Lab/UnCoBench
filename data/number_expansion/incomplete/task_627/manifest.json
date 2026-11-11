@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_627",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_medical_coordinator",
+        "broadcast_technology_lead"
+      ],
+      "role_names": [
+        "Event medical services director (MED)",
+        "Broadcast operations manager (BROAD)"
+      ],
+      "directory": "incomplete/task_627",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_medical_coordinator_A",
+          "role_id": "emergency_medical_coordinator",
+          "candidate_id": "A",
+          "key": "MED-EMERG-2OC",
+          "boolean_predicate_id": "A_medical_triage_operational",
+          "boolean_label": "Dedicated medical triage facility operational",
+          "hidden_predicate_id": "A_paramedic_evacuation_transfer_time",
+          "threshold_label": "Paramedic evacuation transfer time",
+          "threshold_aliases": [
+            "Hospital trauma transfer duration",
+            "Emergency ambulance transit time"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-EMERG-2OC: Derby Arena Velodrome Complex.Derby Arena Velodrome Complex: Dedicated medical triage facility operational = true .Source: Clinical readiness inspection log; Scope: Infield emergency athlete triage room; Measurement: Whether dedicated medical trauma bay is staffed and operational.",
+          "role_name": "Event medical services director (MED)",
+          "candidate_name": "Derby Arena Velodrome Complex",
+          "other_candidate_names": [
+            "Newport Geraint Thomas National Velodrome",
+            "Glasgow Sir Chris Hoy Velodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_broadcast_technology_lead_A",
+          "role_id": "broadcast_technology_lead",
+          "candidate_id": "A",
+          "key": "BROAD-TELEC-FZQ",
+          "hidden_predicate_id": "A_broadcast_lighting_lux",
+          "threshold_label": "Broadcast lighting illuminance",
+          "threshold_aliases": [
+            "Arena track lighting lux",
+            "Television broadcast lux level"
+          ],
+          "threshold_value": 1850,
+          "threshold_unit": "lx",
+          "partial_record_text": "BROAD-TELEC-FZQ: Derby Arena Velodrome Complex.Derby Arena Velodrome Complex: Media mixed-zone staging area = 450 m2.Source: Broadcast logistics space allocation matrix; Scope: Accredited press and flash interview corridor; Measurement: Dedicated floor surface area allocated for post-race broadcast interviews.",
+          "role_name": "Broadcast operations manager (BROAD)",
+          "candidate_name": "Derby Arena Velodrome Complex",
+          "other_candidate_names": [
+            "Newport Geraint Thomas National Velodrome",
+            "Glasgow Sir Chris Hoy Velodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_medical_coordinator",
+        "broadcast_technology_lead",
+        "venue_operations_director"
+      ],
+      "role_names": [
+        "Event medical services director (MED)",
+        "Broadcast operations manager (BROAD)",
+        "Venue operations director (OPS)"
+      ],
+      "directory": "incomplete/task_627",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_medical_coordinator_A",
+          "role_id": "emergency_medical_coordinator",
+          "candidate_id": "A",
+          "key": "MED-EMERG-2OC",
+          "boolean_predicate_id": "A_medical_triage_operational",
+          "boolean_label": "Dedicated medical triage facility operational",
+          "hidden_predicate_id": "A_paramedic_evacuation_transfer_time",
+          "threshold_label": "Paramedic evacuation transfer time",
+          "threshold_aliases": [
+            "Hospital trauma transfer duration",
+            "Emergency ambulance transit time"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-EMERG-2OC: Derby Arena Velodrome Complex.Derby Arena Velodrome Complex: Dedicated medical triage facility operational = true .Source: Clinical readiness inspection log; Scope: Infield emergency athlete triage room; Measurement: Whether dedicated medical trauma bay is staffed and operational.",
+          "role_name": "Event medical services director (MED)",
+          "candidate_name": "Derby Arena Velodrome Complex",
+          "other_candidate_names": [
+            "Newport Geraint Thomas National Velodrome",
+            "Glasgow Sir Chris Hoy Velodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_broadcast_technology_lead_A",
+          "role_id": "broadcast_technology_lead",
+          "candidate_id": "A",
+          "key": "BROAD-TELEC-FZQ",
+          "hidden_predicate_id": "A_broadcast_lighting_lux",
+          "threshold_label": "Broadcast lighting illuminance",
+          "threshold_aliases": [
+            "Arena track lighting lux",
+            "Television broadcast lux level"
+          ],
+          "threshold_value": 1850,
+          "threshold_unit": "lx",
+          "partial_record_text": "BROAD-TELEC-FZQ: Derby Arena Velodrome Complex.Derby Arena Velodrome Complex: Media mixed-zone staging area = 450 m2.Source: Broadcast logistics space allocation matrix; Scope: Accredited press and flash interview corridor; Measurement: Dedicated floor surface area allocated for post-race broadcast interviews.",
+          "role_name": "Broadcast operations manager (BROAD)",
+          "candidate_name": "Derby Arena Velodrome Complex",
+          "other_candidate_names": [
+            "Newport Geraint Thomas National Velodrome",
+            "Glasgow Sir Chris Hoy Velodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_venue_operations_director_A",
+          "role_id": "venue_operations_director",
+          "candidate_id": "A",
+          "key": "OPS-VENUE-0N3",
+          "hidden_predicate_id": "A_track_spectator_seating",
+          "threshold_label": "Spectator seating capacity",
+          "threshold_aliases": [
+            "Permanent grandstand capacity",
+            "Fixed bowl spectator seats"
+          ],
+          "threshold_value": 4200,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-VENUE-0N3: Derby Arena Velodrome Complex.Derby Arena Velodrome Complex: Athlete warm-up infield area = 800 m2.Source: Architectural floor plan; Scope: Central infield floor inside the safety apron; Measurement: Usable floor space allocated exclusively for team pits and warm-up rollers.",
+          "role_name": "Venue operations director (OPS)",
+          "candidate_name": "Derby Arena Velodrome Complex",
+          "other_candidate_names": [
+            "Newport Geraint Thomas National Velodrome",
+            "Glasgow Sir Chris Hoy Velodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

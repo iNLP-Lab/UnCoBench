@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_110",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "submersible_operations",
+        "hydrographic_surveyor"
+      ],
+      "role_names": [
+        "Autonomous vehicle operations superintendent (AVO)",
+        "Chief hydrographic surveyor (CHS)"
+      ],
+      "directory": "incomplete/task_110",
+      "profiles": [
+        {
+          "record_id": "rec_submersible_operations_A",
+          "role_id": "submersible_operations",
+          "candidate_id": "A",
+          "key": "AVO-VEHIC-DMW",
+          "boolean_predicate_id": "A_telemetry_link_active",
+          "boolean_label": "Autonomous vehicle telemetry link active",
+          "hidden_predicate_id": "A_survey_endurance_hours",
+          "threshold_label": "Autonomous vehicle survey endurance",
+          "threshold_aliases": [
+            "Continuous mission dive endurance",
+            "Underwater survey operational duration"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "AVO-VEHIC-DMW: Deep-tow synthetic array sweep.Deep-tow synthetic array sweep: Autonomous vehicle telemetry link active = true .Source: Subsea vehicle communications check; Scope: Candidate primary autonomous underwater vehicle; Measurement: Presence of active bidirectional acoustic communication link with the surface ship.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Autonomous vehicle survey endurance is between 20 h and 70 h, inclusive.",
+          "role_name": "Autonomous vehicle operations superintendent (AVO)",
+          "candidate_name": "Deep-tow synthetic array sweep",
+          "other_candidate_names": [
+            "Autonomous swarm acoustic sweep",
+            "Tethered crawler bathymetric sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "CHS-SONAR-RHH",
+          "hidden_predicate_id": "A_sidescan_coverage_rate",
+          "threshold_label": "Side-scan sonar coverage rate",
+          "threshold_aliases": [
+            "Side-scan daily sweep rate",
+            "Wide-swath sonar coverage"
+          ],
+          "threshold_value": 32.0,
+          "threshold_unit": "km2/d",
+          "partial_record_text": "CHS-SONAR-RHH: Deep-tow synthetic array sweep.Deep-tow synthetic array sweep: Sonar resolution certified = true .Source: Sensor bench test report; Scope: Target plan sonar suite; Measurement: Whether acoustic resolution meets the 0.1-meter target separation threshold.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Side-scan sonar coverage rate is between 10 km2/d and 50 km2/d, inclusive.",
+          "role_name": "Chief hydrographic surveyor (CHS)",
+          "candidate_name": "Deep-tow synthetic array sweep",
+          "other_candidate_names": [
+            "Autonomous swarm acoustic sweep",
+            "Tethered crawler bathymetric sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "submersible_operations",
+        "hydrographic_surveyor",
+        "acoustic_detection_lead"
+      ],
+      "role_names": [
+        "Autonomous vehicle operations superintendent (AVO)",
+        "Chief hydrographic surveyor (CHS)",
+        "Beacon localization specialist (BLS)"
+      ],
+      "directory": "incomplete/task_110",
+      "profiles": [
+        {
+          "record_id": "rec_submersible_operations_A",
+          "role_id": "submersible_operations",
+          "candidate_id": "A",
+          "key": "AVO-VEHIC-DMW",
+          "boolean_predicate_id": "A_telemetry_link_active",
+          "boolean_label": "Autonomous vehicle telemetry link active",
+          "hidden_predicate_id": "A_survey_endurance_hours",
+          "threshold_label": "Autonomous vehicle survey endurance",
+          "threshold_aliases": [
+            "Continuous mission dive endurance",
+            "Underwater survey operational duration"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "AVO-VEHIC-DMW: Deep-tow synthetic array sweep.Deep-tow synthetic array sweep: Autonomous vehicle telemetry link active = true .Source: Subsea vehicle communications check; Scope: Candidate primary autonomous underwater vehicle; Measurement: Presence of active bidirectional acoustic communication link with the surface ship.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Autonomous vehicle survey endurance is between 20 h and 70 h, inclusive.",
+          "role_name": "Autonomous vehicle operations superintendent (AVO)",
+          "candidate_name": "Deep-tow synthetic array sweep",
+          "other_candidate_names": [
+            "Autonomous swarm acoustic sweep",
+            "Tethered crawler bathymetric sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "CHS-SONAR-RHH",
+          "hidden_predicate_id": "A_sidescan_coverage_rate",
+          "threshold_label": "Side-scan sonar coverage rate",
+          "threshold_aliases": [
+            "Side-scan daily sweep rate",
+            "Wide-swath sonar coverage"
+          ],
+          "threshold_value": 32.0,
+          "threshold_unit": "km2/d",
+          "partial_record_text": "CHS-SONAR-RHH: Deep-tow synthetic array sweep.Deep-tow synthetic array sweep: Sonar resolution certified = true .Source: Sensor bench test report; Scope: Target plan sonar suite; Measurement: Whether acoustic resolution meets the 0.1-meter target separation threshold.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Side-scan sonar coverage rate is between 10 km2/d and 50 km2/d, inclusive.",
+          "role_name": "Chief hydrographic surveyor (CHS)",
+          "candidate_name": "Deep-tow synthetic array sweep",
+          "other_candidate_names": [
+            "Autonomous swarm acoustic sweep",
+            "Tethered crawler bathymetric sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_detection_lead_A",
+          "role_id": "acoustic_detection_lead",
+          "candidate_id": "A",
+          "key": "BLS-PING-SW9",
+          "hidden_predicate_id": "A_synthetic_aperture_coverage_rate",
+          "threshold_label": "Synthetic aperture sonar coverage rate",
+          "threshold_aliases": [
+            "SAS daily swath coverage rate",
+            "High-definition aperture sweep rate"
+          ],
+          "threshold_value": 20.0,
+          "threshold_unit": "km2/d",
+          "partial_record_text": "BLS-PING-SW9: Deep-tow synthetic array sweep.Coverage calculation basis: net seabed area after deducting swath overlap.Deep-tow synthetic array sweep: Acoustic pinger locator hydrophone array readiness = true .Source: Hydrophone readiness checklist; Scope: Candidate plan underwater acoustic locator tracking array; Measurement: Readiness certification for flight recorder acoustic beacon reception.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Synthetic aperture sonar coverage rate is between 0 km2/d and 30 km2/d, inclusive.",
+          "role_name": "Beacon localization specialist (BLS)",
+          "candidate_name": "Deep-tow synthetic array sweep",
+          "other_candidate_names": [
+            "Autonomous swarm acoustic sweep",
+            "Tethered crawler bathymetric sweep"
+          ],
+          "context_value": "net seabed area after deducting swath overlap",
+          "other_context_values": [
+            "gross seabed area before deducting swath overlap"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

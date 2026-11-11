@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_313",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_safety",
+        "emergency_energy"
+      ],
+      "role_names": [
+        "Environmental safety officer (ENV)",
+        "Auxiliary power superintendent (PWR)"
+      ],
+      "directory": "incomplete/task_313",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-AIRQ-HI4",
+          "boolean_predicate_id": "A_scrubbers_active",
+          "boolean_label": "Active particulate scrubbers operational",
+          "hidden_predicate_id": "A_indoor_pm25_level",
+          "threshold_label": "Maximum indoor PM2.5 concentration",
+          "threshold_aliases": [
+            "Peak indoor PM2.5 level",
+            "Indoor particulate PM2.5 reading"
+          ],
+          "threshold_value": 32,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "ENV-AIRQ-HI4: Kettle Falls Regional Exhibition Center.Kettle Falls Regional Exhibition Center: Active particulate scrubbers operational = true .Source: HVAC system status log; Scope: Central air handling units servicing shelter spaces; Measurement: Indication that commercial particulate scrubbers are powered and engaged.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Maximum indoor PM2.5 concentration is at most 70 ug/m3.",
+          "role_name": "Environmental safety officer (ENV)",
+          "candidate_name": "Kettle Falls Regional Exhibition Center",
+          "other_candidate_names": [
+            "Colville River Valley Sports Complex",
+            "Stevens County Agricultural Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_energy_A",
+          "role_id": "emergency_energy",
+          "candidate_id": "A",
+          "key": "PWR-GRID-YGI",
+          "hidden_predicate_id": "A_generator_runtime",
+          "threshold_label": "Continuous emergency power autonomy",
+          "threshold_aliases": [
+            "Standby generator fuel endurance",
+            "Continuous auxiliary power duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-YGI: Kettle Falls Regional Exhibition Center. The record covers Continuous emergency power autonomy. Standby generator certification; Dedicated diesel generator and on-site fuel tankage under full shelter load; Total consecutive operating hours supported without external fuel delivery.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency power autonomy is at most 300 h.",
+          "role_name": "Auxiliary power superintendent (PWR)",
+          "candidate_name": "Kettle Falls Regional Exhibition Center",
+          "other_candidate_names": [
+            "Colville River Valley Sports Complex",
+            "Stevens County Agricultural Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_safety",
+        "emergency_energy",
+        "public_health"
+      ],
+      "role_names": [
+        "Environmental safety officer (ENV)",
+        "Auxiliary power superintendent (PWR)",
+        "Public health liaison (HLT)"
+      ],
+      "directory": "incomplete/task_313",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-AIRQ-HI4",
+          "boolean_predicate_id": "A_scrubbers_active",
+          "boolean_label": "Active particulate scrubbers operational",
+          "hidden_predicate_id": "A_indoor_pm25_level",
+          "threshold_label": "Maximum indoor PM2.5 concentration",
+          "threshold_aliases": [
+            "Peak indoor PM2.5 level",
+            "Indoor particulate PM2.5 reading"
+          ],
+          "threshold_value": 32,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "ENV-AIRQ-HI4: Kettle Falls Regional Exhibition Center.Kettle Falls Regional Exhibition Center: Active particulate scrubbers operational = true .Source: HVAC system status log; Scope: Central air handling units servicing shelter spaces; Measurement: Indication that commercial particulate scrubbers are powered and engaged.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Maximum indoor PM2.5 concentration is at most 70 ug/m3.",
+          "role_name": "Environmental safety officer (ENV)",
+          "candidate_name": "Kettle Falls Regional Exhibition Center",
+          "other_candidate_names": [
+            "Colville River Valley Sports Complex",
+            "Stevens County Agricultural Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_energy_A",
+          "role_id": "emergency_energy",
+          "candidate_id": "A",
+          "key": "PWR-GRID-YGI",
+          "hidden_predicate_id": "A_generator_runtime",
+          "threshold_label": "Continuous emergency power autonomy",
+          "threshold_aliases": [
+            "Standby generator fuel endurance",
+            "Continuous auxiliary power duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-YGI: Kettle Falls Regional Exhibition Center. The record covers Continuous emergency power autonomy. Standby generator certification; Dedicated diesel generator and on-site fuel tankage under full shelter load; Total consecutive operating hours supported without external fuel delivery.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency power autonomy is at most 300 h.",
+          "role_name": "Auxiliary power superintendent (PWR)",
+          "candidate_name": "Kettle Falls Regional Exhibition Center",
+          "other_candidate_names": [
+            "Colville River Valley Sports Complex",
+            "Stevens County Agricultural Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLT-QUAR-Z7L",
+          "hidden_predicate_id": "A_quarantine_cot_allocation",
+          "threshold_label": "Isolated quarantine cot allocation",
+          "threshold_aliases": [
+            "Infection isolation cot deduction",
+            "Quarantine bedding reservation"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "cots",
+          "partial_record_text": "HLT-QUAR-Z7L: Kettle Falls Regional Exhibition Center. The record covers Isolated quarantine cot allocation. Public health containment directive; Dedicated negative-pressure isolation wards within the facility; Mandatory number of cots segregated strictly for symptomatic respiratory patients.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 200
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Isolated quarantine cot allocation is at most 200 cots.",
+          "role_name": "Public health liaison (HLT)",
+          "candidate_name": "Kettle Falls Regional Exhibition Center",
+          "other_candidate_names": [
+            "Colville River Valley Sports Complex",
+            "Stevens County Agricultural Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

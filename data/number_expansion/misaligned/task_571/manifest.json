@@ -1,0 +1,587 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_571",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health_officer",
+        "water_treatment_lead"
+      ],
+      "role_names": [
+        "Public health compliance officer (PHO)",
+        "Water treatment operations lead (WTL)"
+      ],
+      "directory": "number_expansion/misaligned/task_571/k2",
+      "error_profiles": [
+        {
+          "role_name": "Public health compliance officer (PHO)",
+          "target_key": "PHO-PUBL-1KU",
+          "alternate_key": "PHO-LABS-LF1",
+          "target_context": "including both dissolved and suspended particulate metal fractions",
+          "alternate_context": "excluding suspended particulate metals (dissolved fraction only)",
+          "candidate": "Riverside Industrial Water Works",
+          "other_candidates": [
+            "Clearwater Valley Pumping Complex",
+            "Pine Ridge Regional Reservoir Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "heavy_metal_clearance",
+              "value": true,
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_metal_clearance",
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ]
+            },
+            {
+              "topic": "public_health_permit",
+              "label": "Public health operating permit",
+              "aliases": [
+                "Emergency health authorization",
+                "Potable water supply license"
+              ]
+            },
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ]
+            },
+            {
+              "topic": "uv_disinfection_enabled",
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ]
+            },
+            {
+              "topic": "backwash_duration_min",
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ]
+            },
+            {
+              "topic": "floodplain_clearance",
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ]
+            },
+            {
+              "topic": "trunk_valve_readiness",
+              "label": "Trunk line isolation valve readiness",
+              "aliases": [
+                "Pipeline isolation valve status",
+                "Trunk interconnect valve clearance"
+              ]
+            },
+            {
+              "topic": "tanker_loading_capacity",
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ]
+            },
+            {
+              "topic": "pipeline_injection_capacity",
+              "label": "Pipeline trunk injection throughput",
+              "aliases": [
+                "Trunk injection flow",
+                "Piped distribution injection capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Water treatment operations lead (WTL)",
+          "target_key": "WTL-WTRM-YQ1",
+          "alternate_key": "WTL-WTRM-1L2",
+          "target_context": "including filter-to-waste rinse",
+          "alternate_context": "excluding filter-to-waste rinse",
+          "candidate": "Riverside Industrial Water Works",
+          "other_candidates": [
+            "Clearwater Valley Pumping Complex",
+            "Pine Ridge Regional Reservoir Station"
+          ],
+          "numeric": [
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "value": 90,
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ],
+              "unit": "NTU"
+            },
+            {
+              "topic": "backwash_duration_min",
+              "value": 30,
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "uv_disinfection_enabled",
+              "value": true,
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_metal_clearance",
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ]
+            },
+            {
+              "topic": "public_health_permit",
+              "label": "Public health operating permit",
+              "aliases": [
+                "Emergency health authorization",
+                "Potable water supply license"
+              ]
+            },
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ]
+            },
+            {
+              "topic": "uv_disinfection_enabled",
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ]
+            },
+            {
+              "topic": "backwash_duration_min",
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ]
+            },
+            {
+              "topic": "floodplain_clearance",
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ]
+            },
+            {
+              "topic": "trunk_valve_readiness",
+              "label": "Trunk line isolation valve readiness",
+              "aliases": [
+                "Pipeline isolation valve status",
+                "Trunk interconnect valve clearance"
+              ]
+            },
+            {
+              "topic": "tanker_loading_capacity",
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ]
+            },
+            {
+              "topic": "pipeline_injection_capacity",
+              "label": "Pipeline trunk injection throughput",
+              "aliases": [
+                "Trunk injection flow",
+                "Piped distribution injection capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health_officer",
+        "water_treatment_lead",
+        "civil_infrastructure_engineer"
+      ],
+      "role_names": [
+        "Public health compliance officer (PHO)",
+        "Water treatment operations lead (WTL)",
+        "Civil infrastructure engineer (CIE)"
+      ],
+      "directory": "number_expansion/misaligned/task_571/k3",
+      "error_profiles": [
+        {
+          "role_name": "Public health compliance officer (PHO)",
+          "target_key": "PHO-PUBL-1KU",
+          "alternate_key": "PHO-LABS-LF1",
+          "target_context": "including both dissolved and suspended particulate metal fractions",
+          "alternate_context": "excluding suspended particulate metals (dissolved fraction only)",
+          "candidate": "Riverside Industrial Water Works",
+          "other_candidates": [
+            "Clearwater Valley Pumping Complex",
+            "Pine Ridge Regional Reservoir Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "heavy_metal_clearance",
+              "value": true,
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_metal_clearance",
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ]
+            },
+            {
+              "topic": "public_health_permit",
+              "label": "Public health operating permit",
+              "aliases": [
+                "Emergency health authorization",
+                "Potable water supply license"
+              ]
+            },
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ]
+            },
+            {
+              "topic": "uv_disinfection_enabled",
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ]
+            },
+            {
+              "topic": "backwash_duration_min",
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ]
+            },
+            {
+              "topic": "floodplain_clearance",
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ]
+            },
+            {
+              "topic": "trunk_valve_readiness",
+              "label": "Trunk line isolation valve readiness",
+              "aliases": [
+                "Pipeline isolation valve status",
+                "Trunk interconnect valve clearance"
+              ]
+            },
+            {
+              "topic": "tanker_loading_capacity",
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ]
+            },
+            {
+              "topic": "pipeline_injection_capacity",
+              "label": "Pipeline trunk injection throughput",
+              "aliases": [
+                "Trunk injection flow",
+                "Piped distribution injection capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Water treatment operations lead (WTL)",
+          "target_key": "WTL-WTRM-YQ1",
+          "alternate_key": "WTL-WTRM-1L2",
+          "target_context": "including filter-to-waste rinse",
+          "alternate_context": "excluding filter-to-waste rinse",
+          "candidate": "Riverside Industrial Water Works",
+          "other_candidates": [
+            "Clearwater Valley Pumping Complex",
+            "Pine Ridge Regional Reservoir Station"
+          ],
+          "numeric": [
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "value": 90,
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ],
+              "unit": "NTU"
+            },
+            {
+              "topic": "backwash_duration_min",
+              "value": 30,
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "uv_disinfection_enabled",
+              "value": true,
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_metal_clearance",
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ]
+            },
+            {
+              "topic": "public_health_permit",
+              "label": "Public health operating permit",
+              "aliases": [
+                "Emergency health authorization",
+                "Potable water supply license"
+              ]
+            },
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ]
+            },
+            {
+              "topic": "uv_disinfection_enabled",
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ]
+            },
+            {
+              "topic": "backwash_duration_min",
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ]
+            },
+            {
+              "topic": "floodplain_clearance",
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ]
+            },
+            {
+              "topic": "trunk_valve_readiness",
+              "label": "Trunk line isolation valve readiness",
+              "aliases": [
+                "Pipeline isolation valve status",
+                "Trunk interconnect valve clearance"
+              ]
+            },
+            {
+              "topic": "tanker_loading_capacity",
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ]
+            },
+            {
+              "topic": "pipeline_injection_capacity",
+              "label": "Pipeline trunk injection throughput",
+              "aliases": [
+                "Trunk injection flow",
+                "Piped distribution injection capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil infrastructure engineer (CIE)",
+          "target_key": "CIE-CIVL-8GQ",
+          "alternate_key": "CIE-CIVL-TJA",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Riverside Industrial Water Works",
+          "other_candidates": [
+            "Clearwater Valley Pumping Complex",
+            "Pine Ridge Regional Reservoir Station"
+          ],
+          "numeric": [
+            {
+              "topic": "tanker_loading_capacity",
+              "value": 2400,
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ],
+              "unit": "m3/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "floodplain_clearance",
+              "value": true,
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "heavy_metal_clearance",
+              "label": "Heavy metal filtration clearance",
+              "aliases": [
+                "Heavy metal removal certification",
+                "Toxin filtration compliance"
+              ]
+            },
+            {
+              "topic": "public_health_permit",
+              "label": "Public health operating permit",
+              "aliases": [
+                "Emergency health authorization",
+                "Potable water supply license"
+              ]
+            },
+            {
+              "topic": "turbidity_tolerance_ntu",
+              "label": "Raw water turbidity tolerance",
+              "aliases": [
+                "Turbidity intake limit",
+                "Inflow turbidity handling capacity"
+              ]
+            },
+            {
+              "topic": "uv_disinfection_enabled",
+              "label": "Secondary ultraviolet disinfection enabled",
+              "aliases": [
+                "UV disinfection activation",
+                "Ultraviolet reactor status"
+              ]
+            },
+            {
+              "topic": "backwash_duration_min",
+              "label": "Emergency backwash cycle duration",
+              "aliases": [
+                "Filter backwash turnaround time",
+                "Backwash cycle time"
+              ]
+            },
+            {
+              "topic": "floodplain_clearance",
+              "label": "500-year flood plain elevation clearance",
+              "aliases": [
+                "Floodplain elevation margin",
+                "Hydrologic inundation safety clearance"
+              ]
+            },
+            {
+              "topic": "trunk_valve_readiness",
+              "label": "Trunk line isolation valve readiness",
+              "aliases": [
+                "Pipeline isolation valve status",
+                "Trunk interconnect valve clearance"
+              ]
+            },
+            {
+              "topic": "tanker_loading_capacity",
+              "label": "Direct tanker loading throughput",
+              "aliases": [
+                "Tanker bay filling rate",
+                "Mobile water tanker output"
+              ]
+            },
+            {
+              "topic": "pipeline_injection_capacity",
+              "label": "Pipeline trunk injection throughput",
+              "aliases": [
+                "Trunk injection flow",
+                "Piped distribution injection capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

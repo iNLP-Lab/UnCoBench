@@ -1,0 +1,474 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_331",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_engineer",
+        "traffic_coordinator"
+      ],
+      "role_names": [
+        "Facilities environmental engineer (FAC)",
+        "Municipal traffic coordinator (TRF)"
+      ],
+      "directory": "number_expansion/misaligned/task_331/k2",
+      "error_profiles": [
+        {
+          "role_name": "Facilities environmental engineer (FAC)",
+          "target_key": "FAC-CLIM-TFL",
+          "alternate_key": "FAC-CHILL-S7D",
+          "target_context": "core operating hours (08:00–18:00)",
+          "alternate_context": "24-hour daily cycle",
+          "candidate": "Meridian Waterfront Convention Centre",
+          "other_candidates": [
+            "Bayside Expo Pavilion",
+            "Starlight Harbor Exhibition Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "hvac_airflow_rate",
+              "value": 55,
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ],
+              "unit": "m3/h"
+            },
+            {
+              "topic": "plenary_power_demand",
+              "value": 520,
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ]
+            },
+            {
+              "topic": "security_checkpoint_active",
+              "label": "Dedicated security screening checkpoint active",
+              "aliases": [
+                "Screening portal activation",
+                "Perimeter security operational"
+              ]
+            },
+            {
+              "topic": "max_bag_screening_delay",
+              "label": "Maximum delegate bag screening delay",
+              "aliases": [
+                "Peak bag inspection latency",
+                "Screening throughput wait time"
+              ]
+            },
+            {
+              "topic": "hvac_airflow_rate",
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ]
+            },
+            {
+              "topic": "traffic_dispersal_cleared",
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ]
+            },
+            {
+              "topic": "plenary_power_demand",
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ]
+            },
+            {
+              "topic": "auxiliary_wing_power_demand",
+              "label": "Auxiliary conference wing power demand",
+              "aliases": [
+                "Breakout wing power load",
+                "Auxiliary facilities electrical draw"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal traffic coordinator (TRF)",
+          "target_key": "TRF-CIRC-1FX",
+          "alternate_key": "TRF-CIRC-WMS",
+          "target_context": "Traffic Dispersal Plan Version 3",
+          "alternate_context": "Traffic Dispersal Plan Version 2",
+          "candidate": "Meridian Waterfront Convention Centre",
+          "other_candidates": [
+            "Bayside Expo Pavilion",
+            "Starlight Harbor Exhibition Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "traffic_dispersal_cleared",
+              "value": true,
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ]
+            },
+            {
+              "topic": "security_checkpoint_active",
+              "label": "Dedicated security screening checkpoint active",
+              "aliases": [
+                "Screening portal activation",
+                "Perimeter security operational"
+              ]
+            },
+            {
+              "topic": "max_bag_screening_delay",
+              "label": "Maximum delegate bag screening delay",
+              "aliases": [
+                "Peak bag inspection latency",
+                "Screening throughput wait time"
+              ]
+            },
+            {
+              "topic": "hvac_airflow_rate",
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ]
+            },
+            {
+              "topic": "traffic_dispersal_cleared",
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ]
+            },
+            {
+              "topic": "plenary_power_demand",
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ]
+            },
+            {
+              "topic": "auxiliary_wing_power_demand",
+              "label": "Auxiliary conference wing power demand",
+              "aliases": [
+                "Breakout wing power load",
+                "Auxiliary facilities electrical draw"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_engineer",
+        "traffic_coordinator",
+        "acoustics_officer"
+      ],
+      "role_names": [
+        "Facilities environmental engineer (FAC)",
+        "Municipal traffic coordinator (TRF)",
+        "Acoustics compliance officer (ACO)"
+      ],
+      "directory": "number_expansion/misaligned/task_331/k3",
+      "error_profiles": [
+        {
+          "role_name": "Facilities environmental engineer (FAC)",
+          "target_key": "FAC-CLIM-TFL",
+          "alternate_key": "FAC-CHILL-S7D",
+          "target_context": "core operating hours (08:00–18:00)",
+          "alternate_context": "24-hour daily cycle",
+          "candidate": "Meridian Waterfront Convention Centre",
+          "other_candidates": [
+            "Bayside Expo Pavilion",
+            "Starlight Harbor Exhibition Complex"
+          ],
+          "numeric": [
+            {
+              "topic": "hvac_airflow_rate",
+              "value": 55,
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ],
+              "unit": "m3/h"
+            },
+            {
+              "topic": "plenary_power_demand",
+              "value": 520,
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ]
+            },
+            {
+              "topic": "security_checkpoint_active",
+              "label": "Dedicated security screening checkpoint active",
+              "aliases": [
+                "Screening portal activation",
+                "Perimeter security operational"
+              ]
+            },
+            {
+              "topic": "max_bag_screening_delay",
+              "label": "Maximum delegate bag screening delay",
+              "aliases": [
+                "Peak bag inspection latency",
+                "Screening throughput wait time"
+              ]
+            },
+            {
+              "topic": "hvac_airflow_rate",
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ]
+            },
+            {
+              "topic": "traffic_dispersal_cleared",
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ]
+            },
+            {
+              "topic": "plenary_power_demand",
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ]
+            },
+            {
+              "topic": "auxiliary_wing_power_demand",
+              "label": "Auxiliary conference wing power demand",
+              "aliases": [
+                "Breakout wing power load",
+                "Auxiliary facilities electrical draw"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal traffic coordinator (TRF)",
+          "target_key": "TRF-CIRC-1FX",
+          "alternate_key": "TRF-CIRC-WMS",
+          "target_context": "Traffic Dispersal Plan Version 3",
+          "alternate_context": "Traffic Dispersal Plan Version 2",
+          "candidate": "Meridian Waterfront Convention Centre",
+          "other_candidates": [
+            "Bayside Expo Pavilion",
+            "Starlight Harbor Exhibition Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "traffic_dispersal_cleared",
+              "value": true,
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ]
+            },
+            {
+              "topic": "security_checkpoint_active",
+              "label": "Dedicated security screening checkpoint active",
+              "aliases": [
+                "Screening portal activation",
+                "Perimeter security operational"
+              ]
+            },
+            {
+              "topic": "max_bag_screening_delay",
+              "label": "Maximum delegate bag screening delay",
+              "aliases": [
+                "Peak bag inspection latency",
+                "Screening throughput wait time"
+              ]
+            },
+            {
+              "topic": "hvac_airflow_rate",
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ]
+            },
+            {
+              "topic": "traffic_dispersal_cleared",
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ]
+            },
+            {
+              "topic": "plenary_power_demand",
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ]
+            },
+            {
+              "topic": "auxiliary_wing_power_demand",
+              "label": "Auxiliary conference wing power demand",
+              "aliases": [
+                "Breakout wing power load",
+                "Auxiliary facilities electrical draw"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Acoustics compliance officer (ACO)",
+          "target_key": "ACO-SND-QQL",
+          "alternate_key": "ACO-SND-YPQ",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Meridian Waterfront Convention Centre",
+          "other_candidates": [
+            "Bayside Expo Pavilion",
+            "Starlight Harbor Exhibition Complex"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "value": true,
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "acoustic_insulation_compliant",
+              "label": "Acoustic insulation compliance",
+              "aliases": [
+                "Noise insulation compliance",
+                "STC acoustic integrity"
+              ]
+            },
+            {
+              "topic": "security_checkpoint_active",
+              "label": "Dedicated security screening checkpoint active",
+              "aliases": [
+                "Screening portal activation",
+                "Perimeter security operational"
+              ]
+            },
+            {
+              "topic": "max_bag_screening_delay",
+              "label": "Maximum delegate bag screening delay",
+              "aliases": [
+                "Peak bag inspection latency",
+                "Screening throughput wait time"
+              ]
+            },
+            {
+              "topic": "hvac_airflow_rate",
+              "label": "Continuous HVAC airflow capacity",
+              "aliases": [
+                "Fresh air ventilation supply",
+                "Air exchange rate per capita"
+              ]
+            },
+            {
+              "topic": "traffic_dispersal_cleared",
+              "label": "Municipal traffic dispersal clearance",
+              "aliases": [
+                "Traffic management signoff",
+                "Road corridor clearance"
+              ]
+            },
+            {
+              "topic": "plenary_power_demand",
+              "label": "Main auditorium daytime power demand",
+              "aliases": [
+                "Plenary hall daytime electrical load",
+                "Auditorium power draw"
+              ]
+            },
+            {
+              "topic": "auxiliary_wing_power_demand",
+              "label": "Auxiliary conference wing power demand",
+              "aliases": [
+                "Breakout wing power load",
+                "Auxiliary facilities electrical draw"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

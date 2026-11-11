@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_968",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cargo_operations",
+        "safety_compliance"
+      ],
+      "role_names": [
+        "Cargo Operations Lead (CARGO)",
+        "Airside Safety and Compliance Director (SAF)"
+      ],
+      "directory": "incomplete/task_968",
+      "profiles": [
+        {
+          "record_id": "rec_cargo_operations_A",
+          "role_id": "cargo_operations",
+          "candidate_id": "A",
+          "key": "CARGO-RAMP-SSE",
+          "boolean_predicate_id": "A_ramp_turnaround_protocol_certified",
+          "boolean_label": "Ramp turnaround protocol certified",
+          "hidden_predicate_id": "A_peak_narrowbody_turnaround_minutes",
+          "threshold_label": "Peak narrowbody turnaround time",
+          "threshold_aliases": [
+            "Narrowbody ramp servicing duration",
+            "Peak freight aircraft turnaround interval"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "CARGO-RAMP-SSE: Apex Cargo Handlers Alliance.Apex Cargo Handlers Alliance: Ramp turnaround protocol certified = true .Source: Cargo terminal operations manual registry; Scope: Candidate ground-handling ramp standard operating procedures; Measurement: Whether formal certification is granted for ramp turnaround procedures.Apex Cargo Handlers Alliance: Airside electrification fund allocation = 40000 USD.Source: Capital works proposal schedule; Scope: Dedicated cargo apron electric charging point installation budget; Measurement: Upfront capital committed specifically to ramp electrification chargers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Peak narrowbody turnaround time is between 20 min and 80 min, inclusive.",
+          "role_name": "Cargo Operations Lead (CARGO)",
+          "candidate_name": "Apex Cargo Handlers Alliance",
+          "other_candidate_names": [
+            "Midwest Ramp Logistics Consortium",
+            "Vanguard Aviation Freight Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAF-SAFE-S7L",
+          "hidden_predicate_id": "A_airside_incident_rate",
+          "threshold_label": "Airside incident rate",
+          "threshold_aliases": [
+            "Apron collision and mishap rate",
+            "Maneuvering area safety occurrence rate"
+          ],
+          "threshold_value": 0.15,
+          "threshold_unit": "incidents/kmove",
+          "partial_record_text": "SAF-SAFE-S7L: Apex Cargo Handlers Alliance. The record covers Airside incident rate. Aviation safety reporting database; Past 24 months of commercial apron and taxilane equipment moves; Reportable vehicle collisions or aircraft contacts per one thousand aircraft movements.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.1,
+            "upper": 2
+          },
+          "coarse_statement": "Airside incident rate is between 0.1 incidents/kmove and 2 incidents/kmove, inclusive.",
+          "role_name": "Airside Safety and Compliance Director (SAF)",
+          "candidate_name": "Apex Cargo Handlers Alliance",
+          "other_candidate_names": [
+            "Midwest Ramp Logistics Consortium",
+            "Vanguard Aviation Freight Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cargo_operations",
+        "safety_compliance",
+        "commercial_finance"
+      ],
+      "role_names": [
+        "Cargo Operations Lead (CARGO)",
+        "Airside Safety and Compliance Director (SAF)",
+        "Airport Commercial Finance Manager (FIN)"
+      ],
+      "directory": "incomplete/task_968",
+      "profiles": [
+        {
+          "record_id": "rec_cargo_operations_A",
+          "role_id": "cargo_operations",
+          "candidate_id": "A",
+          "key": "CARGO-RAMP-SSE",
+          "boolean_predicate_id": "A_ramp_turnaround_protocol_certified",
+          "boolean_label": "Ramp turnaround protocol certified",
+          "hidden_predicate_id": "A_peak_narrowbody_turnaround_minutes",
+          "threshold_label": "Peak narrowbody turnaround time",
+          "threshold_aliases": [
+            "Narrowbody ramp servicing duration",
+            "Peak freight aircraft turnaround interval"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "CARGO-RAMP-SSE: Apex Cargo Handlers Alliance.Apex Cargo Handlers Alliance: Ramp turnaround protocol certified = true .Source: Cargo terminal operations manual registry; Scope: Candidate ground-handling ramp standard operating procedures; Measurement: Whether formal certification is granted for ramp turnaround procedures.Apex Cargo Handlers Alliance: Airside electrification fund allocation = 40000 USD.Source: Capital works proposal schedule; Scope: Dedicated cargo apron electric charging point installation budget; Measurement: Upfront capital committed specifically to ramp electrification chargers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Peak narrowbody turnaround time is between 20 min and 80 min, inclusive.",
+          "role_name": "Cargo Operations Lead (CARGO)",
+          "candidate_name": "Apex Cargo Handlers Alliance",
+          "other_candidate_names": [
+            "Midwest Ramp Logistics Consortium",
+            "Vanguard Aviation Freight Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAF-SAFE-S7L",
+          "hidden_predicate_id": "A_airside_incident_rate",
+          "threshold_label": "Airside incident rate",
+          "threshold_aliases": [
+            "Apron collision and mishap rate",
+            "Maneuvering area safety occurrence rate"
+          ],
+          "threshold_value": 0.15,
+          "threshold_unit": "incidents/kmove",
+          "partial_record_text": "SAF-SAFE-S7L: Apex Cargo Handlers Alliance. The record covers Airside incident rate. Aviation safety reporting database; Past 24 months of commercial apron and taxilane equipment moves; Reportable vehicle collisions or aircraft contacts per one thousand aircraft movements.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.1,
+            "upper": 2
+          },
+          "coarse_statement": "Airside incident rate is between 0.1 incidents/kmove and 2 incidents/kmove, inclusive.",
+          "role_name": "Airside Safety and Compliance Director (SAF)",
+          "candidate_name": "Apex Cargo Handlers Alliance",
+          "other_candidate_names": [
+            "Midwest Ramp Logistics Consortium",
+            "Vanguard Aviation Freight Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_finance_A",
+          "role_id": "commercial_finance",
+          "candidate_id": "A",
+          "key": "FIN-FISCAL-DW6",
+          "hidden_predicate_id": "A_apron_maintenance_subsidy",
+          "threshold_label": "Apron maintenance subsidy commitment",
+          "threshold_aliases": [
+            "Pavement upkeep contribution",
+            "Heavy cargo apron maintenance grant"
+          ],
+          "threshold_value": 50000,
+          "threshold_unit": "USD",
+          "partial_record_text": "FIN-FISCAL-DW6: Apex Cargo Handlers Alliance.Apex Cargo Handlers Alliance: Concession performance guarantee lodged = true .Source: Treasury escrow repository; Scope: Ten-year airport cargo concession contractual security deposit; Measurement: Whether an irrevocable bank performance guarantee has been formally lodged.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 200000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Apron maintenance subsidy commitment is between 0 USD and 200000 USD, inclusive.",
+          "role_name": "Airport Commercial Finance Manager (FIN)",
+          "candidate_name": "Apex Cargo Handlers Alliance",
+          "other_candidate_names": [
+            "Midwest Ramp Logistics Consortium",
+            "Vanguard Aviation Freight Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

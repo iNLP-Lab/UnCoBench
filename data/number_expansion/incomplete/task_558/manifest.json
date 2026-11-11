@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_558",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "contamination_analytics",
+        "facilities_dynamics"
+      ],
+      "role_names": [
+        "Cleanroom contamination analytics lead (ANL)",
+        "Facilities vibration and dynamics engineer (DYN)"
+      ],
+      "directory": "incomplete/task_558",
+      "profiles": [
+        {
+          "record_id": "rec_contamination_analytics_A",
+          "role_id": "contamination_analytics",
+          "candidate_id": "A",
+          "key": "ANL-MSPEC-FBM",
+          "boolean_predicate_id": "A_mass_spec_calibration_verified",
+          "boolean_label": "Mass spectrometry calibration verified",
+          "hidden_predicate_id": "A_siloxane_detection_limit",
+          "threshold_label": "Siloxane detection limit",
+          "threshold_aliases": [
+            "Siloxane sensitivity threshold",
+            "Minimum detectable siloxane concentration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "pptv",
+          "partial_record_text": "ANL-MSPEC-FBM: Continuous extractive ionization protocol.Continuous extractive ionization protocol: Mass spectrometry calibration verified = true .Source: Spectrometry calibration certificate; Scope: Primary diagnostic mass spectrometer unit; Measurement: Formal verification of five-point multipoint calibration using standard fluorocarbon calibrants.Continuous extractive ionization protocol: Ionization source warm-up stabilization time = 50 min.Source: Analytical hardware performance record; Scope: Cold-start cycle to stable ion beam current; Measurement: Elapsed minutes required for ionization source emission current drift to fall below 1% per hour.",
+          "role_name": "Cleanroom contamination analytics lead (ANL)",
+          "candidate_name": "Continuous extractive ionization protocol",
+          "other_candidate_names": [
+            "Pulsed cavity ring-down spectroscopy protocol",
+            "Cryogenic thermal desorption chromatography protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_dynamics_A",
+          "role_id": "facilities_dynamics",
+          "candidate_id": "A",
+          "key": "DYN-VIB-LEQ",
+          "hidden_predicate_id": "A_micro_vibration_acceleration",
+          "threshold_label": "Structural micro-vibration acceleration",
+          "threshold_aliases": [
+            "Pedestal micro-vibration level",
+            "Vibration velocity RMS acceleration"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "um/s2",
+          "partial_record_text": "DYN-VIB-LEQ: Continuous extractive ionization protocol. The record covers Structural micro-vibration acceleration. Seismic and structural accelerometer log; Instrument mounting plinth on the cleanroom waffle slab; Root-mean-square vibration acceleration between 1 Hz and 100 Hz during active diagnostic pumping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4.8
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Structural micro-vibration acceleration is at most 4.8 um/s2.",
+          "role_name": "Facilities vibration and dynamics engineer (DYN)",
+          "candidate_name": "Continuous extractive ionization protocol",
+          "other_candidate_names": [
+            "Pulsed cavity ring-down spectroscopy protocol",
+            "Cryogenic thermal desorption chromatography protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "contamination_analytics",
+        "facilities_dynamics",
+        "lithography_interface"
+      ],
+      "role_names": [
+        "Cleanroom contamination analytics lead (ANL)",
+        "Facilities vibration and dynamics engineer (DYN)",
+        "Lithography interface integration lead (LITH)"
+      ],
+      "directory": "incomplete/task_558",
+      "profiles": [
+        {
+          "record_id": "rec_contamination_analytics_A",
+          "role_id": "contamination_analytics",
+          "candidate_id": "A",
+          "key": "ANL-MSPEC-FBM",
+          "boolean_predicate_id": "A_mass_spec_calibration_verified",
+          "boolean_label": "Mass spectrometry calibration verified",
+          "hidden_predicate_id": "A_siloxane_detection_limit",
+          "threshold_label": "Siloxane detection limit",
+          "threshold_aliases": [
+            "Siloxane sensitivity threshold",
+            "Minimum detectable siloxane concentration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "pptv",
+          "partial_record_text": "ANL-MSPEC-FBM: Continuous extractive ionization protocol.Continuous extractive ionization protocol: Mass spectrometry calibration verified = true .Source: Spectrometry calibration certificate; Scope: Primary diagnostic mass spectrometer unit; Measurement: Formal verification of five-point multipoint calibration using standard fluorocarbon calibrants.Continuous extractive ionization protocol: Ionization source warm-up stabilization time = 50 min.Source: Analytical hardware performance record; Scope: Cold-start cycle to stable ion beam current; Measurement: Elapsed minutes required for ionization source emission current drift to fall below 1% per hour.",
+          "role_name": "Cleanroom contamination analytics lead (ANL)",
+          "candidate_name": "Continuous extractive ionization protocol",
+          "other_candidate_names": [
+            "Pulsed cavity ring-down spectroscopy protocol",
+            "Cryogenic thermal desorption chromatography protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_dynamics_A",
+          "role_id": "facilities_dynamics",
+          "candidate_id": "A",
+          "key": "DYN-VIB-LEQ",
+          "hidden_predicate_id": "A_micro_vibration_acceleration",
+          "threshold_label": "Structural micro-vibration acceleration",
+          "threshold_aliases": [
+            "Pedestal micro-vibration level",
+            "Vibration velocity RMS acceleration"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "um/s2",
+          "partial_record_text": "DYN-VIB-LEQ: Continuous extractive ionization protocol. The record covers Structural micro-vibration acceleration. Seismic and structural accelerometer log; Instrument mounting plinth on the cleanroom waffle slab; Root-mean-square vibration acceleration between 1 Hz and 100 Hz during active diagnostic pumping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4.8
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Structural micro-vibration acceleration is at most 4.8 um/s2.",
+          "role_name": "Facilities vibration and dynamics engineer (DYN)",
+          "candidate_name": "Continuous extractive ionization protocol",
+          "other_candidate_names": [
+            "Pulsed cavity ring-down spectroscopy protocol",
+            "Cryogenic thermal desorption chromatography protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_lithography_interface_A",
+          "role_id": "lithography_interface",
+          "candidate_id": "A",
+          "key": "LITH-INTF-3PV",
+          "hidden_predicate_id": "A_manifold_stabilization_time",
+          "threshold_label": "Interface manifold purge stabilization time",
+          "threshold_aliases": [
+            "Manifold purge duration",
+            "Interface line purge stabilization time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "LITH-INTF-3PV: Continuous extractive ionization protocol.Continuous extractive ionization protocol: Lithography scanner interface isolation clearance = true .Source: Lithography engineering sign-off sheet; Scope: Direct vacuum and sampling coupling with sub-5nm exposure tool; Measurement: Formal approval verifying physical isolation and differential pressure sealing from scanner core.",
+          "role_name": "Lithography interface integration lead (LITH)",
+          "candidate_name": "Continuous extractive ionization protocol",
+          "other_candidate_names": [
+            "Pulsed cavity ring-down spectroscopy protocol",
+            "Cryogenic thermal desorption chromatography protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

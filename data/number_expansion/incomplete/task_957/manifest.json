@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_957",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cable_equipment_officer",
+        "materials_inventory_controller"
+      ],
+      "role_names": [
+        "Subsea cable technical officer (CTO)",
+        "Materials inventory controller (MIC)"
+      ],
+      "directory": "incomplete/task_957",
+      "profiles": [
+        {
+          "record_id": "rec_cable_equipment_officer_A",
+          "role_id": "cable_equipment_officer",
+          "candidate_id": "A",
+          "key": "CTO-SPLICE-O11",
+          "boolean_predicate_id": "A_splice_gear_available",
+          "boolean_label": "Operational subsea splice gear availability",
+          "hidden_predicate_id": "A_transit_delay_hours",
+          "threshold_label": "Dry storage transit delay",
+          "threshold_aliases": [
+            "Storage mobilization delay",
+            "Cable transfer delay"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "CTO-SPLICE-O11: Halifax Atlantic Marine Base.Halifax Atlantic Marine Base: Operational subsea splice gear availability = true .Source: Technical tooling inventory register; Scope: On-site cable assembly shop; Measurement: Physical presence of a fully operational and calibrated universal jointing toolkit.Halifax Atlantic Marine Base: Total coiled spare fiber length = 280 km.Source: Subsea optical cable logbook; Scope: Bonded coiled reserve tanks; Measurement: Total optical fiber cable length stored in controlled coils.",
+          "role_name": "Subsea cable technical officer (CTO)",
+          "candidate_name": "Halifax Atlantic Marine Base",
+          "other_candidate_names": [
+            "Brest Armorique Offshore Hub",
+            "Reykjavik Deepwater Marine Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_materials_inventory_controller_A",
+          "role_id": "materials_inventory_controller",
+          "candidate_id": "A",
+          "key": "MIC-STOCK-3L0",
+          "hidden_predicate_id": "A_quarantine_fiber_length",
+          "threshold_label": "Quarantine fiber length",
+          "threshold_aliases": [
+            "Quarantined cable length",
+            "Defective fiber allowance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "km",
+          "partial_record_text": "MIC-STOCK-3L0: Halifax Atlantic Marine Base. The record covers Quarantine fiber length. Record context: Production environment. Depot quality hold register; Coiled cable lots undergoing attenuation testing; Length of optical fiber cable currently held under quarantine status.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Quarantine fiber length is at least 30 km.",
+          "role_name": "Materials inventory controller (MIC)",
+          "candidate_name": "Halifax Atlantic Marine Base",
+          "other_candidate_names": [
+            "Brest Armorique Offshore Hub",
+            "Reykjavik Deepwater Marine Terminal"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Staging environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cable_equipment_officer",
+        "materials_inventory_controller",
+        "marine_berthing_master"
+      ],
+      "role_names": [
+        "Subsea cable technical officer (CTO)",
+        "Materials inventory controller (MIC)",
+        "Marine berthing master (MBM)"
+      ],
+      "directory": "number_expansion/incomplete/task_957/k3",
+      "profiles": [
+        {
+          "record_id": "rec_cable_equipment_officer_A",
+          "role_id": "cable_equipment_officer",
+          "candidate_id": "A",
+          "key": "CTO-SPLICE-O11",
+          "boolean_predicate_id": "A_splice_gear_available",
+          "boolean_label": "Operational subsea splice gear availability",
+          "hidden_predicate_id": "A_transit_delay_hours",
+          "threshold_label": "Dry storage transit delay",
+          "threshold_aliases": [
+            "Storage mobilization delay",
+            "Cable transfer delay"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "CTO-SPLICE-O11: Halifax Atlantic Marine Base.Halifax Atlantic Marine Base: Operational subsea splice gear availability = true .Source: Technical tooling inventory register; Scope: On-site cable assembly shop; Measurement: Physical presence of a fully operational and calibrated universal jointing toolkit.Halifax Atlantic Marine Base: Total coiled spare fiber length = 280 km.Source: Subsea optical cable logbook; Scope: Bonded coiled reserve tanks; Measurement: Total optical fiber cable length stored in controlled coils.",
+          "role_name": "Subsea cable technical officer (CTO)",
+          "candidate_name": "Halifax Atlantic Marine Base",
+          "other_candidate_names": [
+            "Brest Armorique Offshore Hub",
+            "Reykjavik Deepwater Marine Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_materials_inventory_controller_A",
+          "role_id": "materials_inventory_controller",
+          "candidate_id": "A",
+          "key": "MIC-STOCK-3L0",
+          "hidden_predicate_id": "A_quarantine_fiber_length",
+          "threshold_label": "Quarantine fiber length",
+          "threshold_aliases": [
+            "Quarantined cable length",
+            "Defective fiber allowance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "km",
+          "partial_record_text": "MIC-STOCK-3L0: Halifax Atlantic Marine Base. The record covers Quarantine fiber length. Record context: Production environment. Depot quality hold register; Coiled cable lots undergoing attenuation testing; Length of optical fiber cable currently held under quarantine status.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Quarantine fiber length is at least 30 km.",
+          "role_name": "Materials inventory controller (MIC)",
+          "candidate_name": "Halifax Atlantic Marine Base",
+          "other_candidate_names": [
+            "Brest Armorique Offshore Hub",
+            "Reykjavik Deepwater Marine Terminal"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Staging environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_berthing_master_A_supplemental",
+          "role_id": "marine_berthing_master",
+          "candidate_id": "A",
+          "key": "MBM-TUG-QLR",
+          "hidden_predicate_id": "A_supplemental_marine_berthing_master",
+          "threshold_label": "Escort tug bollard pull",
+          "threshold_aliases": [],
+          "threshold_value": 80,
+          "threshold_unit": "t",
+          "partial_record_text": "MBM-TUG-QLR: Halifax Atlantic Marine Base. The record covers Escort tug bollard pull. Harbor tug registry; Harbor authority assist tug fleet; Certified continuous static bollard pull.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Escort tug bollard pull is at least 50 t.",
+          "role_name": "Marine berthing master (MBM)",
+          "candidate_name": "Halifax Atlantic Marine Base",
+          "other_candidate_names": [
+            "Brest Armorique Offshore Hub",
+            "Reykjavik Deepwater Marine Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_marine_berthing_master",
+        "topic_id": "supplemental_marine_berthing_master",
+        "operator": "gte",
+        "threshold": 65,
+        "role_id": "marine_berthing_master",
+        "metric": "Escort tug bollard pull",
+        "unit": "t",
+        "required_text": "To qualify, a candidate must also have Escort tug bollard pull of at least 65 t.",
+        "new_fault_record_key": "MBM-TUG-QLR",
+        "exact_value": 80,
+        "first_reply": "Escort tug bollard pull is at least 50 t."
+      }
+    }
+  }
+}

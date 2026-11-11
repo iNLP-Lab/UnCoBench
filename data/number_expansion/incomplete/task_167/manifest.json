@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_167",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "climate_engineering",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Environmental control specialist (ENV)",
+        "Structural resilience engineer (STR)"
+      ],
+      "directory": "incomplete/task_167",
+      "profiles": [
+        {
+          "record_id": "rec_climate_engineering_A",
+          "role_id": "climate_engineering",
+          "candidate_id": "A",
+          "key": "ENV-CLIM-WO5",
+          "boolean_predicate_id": "A_climate_control_verified",
+          "boolean_label": "Climate control verified",
+          "hidden_predicate_id": "A_emergency_power_runtime",
+          "threshold_label": "Emergency backup power duration",
+          "threshold_aliases": [
+            "Generator endurance",
+            "Backup power autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CLIM-WO5: Limburg Subterranean Vault.Limburg Subterranean Vault: Climate control verified = true .Source: Environmental engineering audit certificate; Scope: All secure preservation vaults in the facility; Measurement: Whether temperature and relative humidity continuously conform to archival ISO 11799 standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency backup power duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Environmental control specialist (ENV)",
+          "candidate_name": "Limburg Subterranean Vault",
+          "other_candidate_names": [
+            "Waalhaven Reinforced Depository",
+            "Veluwe Regional Archive Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STR-SEISM-0VY",
+          "hidden_predicate_id": "A_primary_archival_floor_area",
+          "threshold_label": "Primary archival floor area",
+          "threshold_aliases": [
+            "Ground-level vault area",
+            "Primary storage footprint"
+          ],
+          "threshold_value": 2200,
+          "threshold_unit": "m2",
+          "partial_record_text": "STR-SEISM-0VY: Limburg Subterranean Vault.Limburg Subterranean Vault: Seismic dampening certification = true .Source: Structural safety assessment report; Scope: Subterranean foundational footings and dampeners; Measurement: Affirmative compliance of base-isolation elastomer bearings with Eurocode 8 structural seismic provisions.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary archival floor area is between 0 m2 and 4000 m2, inclusive.",
+          "role_name": "Structural resilience engineer (STR)",
+          "candidate_name": "Limburg Subterranean Vault",
+          "other_candidate_names": [
+            "Waalhaven Reinforced Depository",
+            "Veluwe Regional Archive Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "climate_engineering",
+        "structural_engineering",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Environmental control specialist (ENV)",
+        "Structural resilience engineer (STR)",
+        "Archive space manager (FAC)"
+      ],
+      "directory": "incomplete/task_167",
+      "profiles": [
+        {
+          "record_id": "rec_climate_engineering_A",
+          "role_id": "climate_engineering",
+          "candidate_id": "A",
+          "key": "ENV-CLIM-WO5",
+          "boolean_predicate_id": "A_climate_control_verified",
+          "boolean_label": "Climate control verified",
+          "hidden_predicate_id": "A_emergency_power_runtime",
+          "threshold_label": "Emergency backup power duration",
+          "threshold_aliases": [
+            "Generator endurance",
+            "Backup power autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CLIM-WO5: Limburg Subterranean Vault.Limburg Subterranean Vault: Climate control verified = true .Source: Environmental engineering audit certificate; Scope: All secure preservation vaults in the facility; Measurement: Whether temperature and relative humidity continuously conform to archival ISO 11799 standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency backup power duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Environmental control specialist (ENV)",
+          "candidate_name": "Limburg Subterranean Vault",
+          "other_candidate_names": [
+            "Waalhaven Reinforced Depository",
+            "Veluwe Regional Archive Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STR-SEISM-0VY",
+          "hidden_predicate_id": "A_primary_archival_floor_area",
+          "threshold_label": "Primary archival floor area",
+          "threshold_aliases": [
+            "Ground-level vault area",
+            "Primary storage footprint"
+          ],
+          "threshold_value": 2200,
+          "threshold_unit": "m2",
+          "partial_record_text": "STR-SEISM-0VY: Limburg Subterranean Vault.Limburg Subterranean Vault: Seismic dampening certification = true .Source: Structural safety assessment report; Scope: Subterranean foundational footings and dampeners; Measurement: Affirmative compliance of base-isolation elastomer bearings with Eurocode 8 structural seismic provisions.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary archival floor area is between 0 m2 and 4000 m2, inclusive.",
+          "role_name": "Structural resilience engineer (STR)",
+          "candidate_name": "Limburg Subterranean Vault",
+          "other_candidate_names": [
+            "Waalhaven Reinforced Depository",
+            "Veluwe Regional Archive Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FAC-ARCH-04T",
+          "hidden_predicate_id": "A_mezzanine_storage_area",
+          "threshold_label": "Mezzanine storage area",
+          "threshold_aliases": [
+            "Upper level vault area",
+            "Mezzanine archival footprint"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "m2",
+          "partial_record_text": "FAC-ARCH-04T: Limburg Subterranean Vault. The record covers Mezzanine storage area. Facility floor plan audit; Intermediate elevated steel storage platforms; Usable horizontal shelf-supporting deck area on secondary levels.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mezzanine storage area is between 200 m2 and 900 m2, inclusive.",
+          "role_name": "Archive space manager (FAC)",
+          "candidate_name": "Limburg Subterranean Vault",
+          "other_candidate_names": [
+            "Waalhaven Reinforced Depository",
+            "Veluwe Regional Archive Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

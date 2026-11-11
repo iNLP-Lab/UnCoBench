@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_086",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "acoustic_survey_lead",
+        "auv_operations_lead"
+      ],
+      "role_names": [
+        "Hydroacoustic survey director (HYD)",
+        "Subsea robotics superintendent (ROV)"
+      ],
+      "directory": "incomplete/task_086",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_survey_lead_A",
+          "role_id": "acoustic_survey_lead",
+          "candidate_id": "A",
+          "key": "HYD-PING-MSG",
+          "boolean_predicate_id": "A_pinger_receiver_active",
+          "boolean_label": "Towed pinger receiver deployed",
+          "hidden_predicate_id": "A_pinger_detect_freq",
+          "threshold_label": "Pinger acoustic detection frequency tolerance",
+          "threshold_aliases": [
+            "Pinger detection frequency cutoff",
+            "Hydrophone upper listening frequency"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "kHz",
+          "partial_record_text": "HYD-PING-MSG: Towed synthetic aperture sonar sweeping plan.Towed synthetic aperture sonar sweeping plan: Towed pinger receiver deployed = true .Source: Hydroacoustic mission equipment manifest; Scope: Deep-water hydrophone deployment rig; Measurement: Confirmation that towed pinger locator array is fully rigged and operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Pinger acoustic detection frequency tolerance is between 20 kHz and 60 kHz, inclusive.",
+          "role_name": "Hydroacoustic survey director (HYD)",
+          "candidate_name": "Towed synthetic aperture sonar sweeping plan",
+          "other_candidate_names": [
+            "Autonomous multibeam bathymetric grid plan",
+            "Deep-tow magnetometry and acoustic pinger plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_auv_operations_lead_A",
+          "role_id": "auv_operations_lead",
+          "candidate_id": "A",
+          "key": "ROV-AUVO-EHF",
+          "hidden_predicate_id": "A_auv_battery_endurance",
+          "threshold_label": "Autonomous underwater vehicle battery endurance",
+          "threshold_aliases": [
+            "AUV dive endurance",
+            "Robotic submersible mission duration"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "ROV-AUVO-EHF: Towed synthetic aperture sonar sweeping plan.Reserve deduction basis: after deducting mandatory emergency ascent power reserves.Towed synthetic aperture sonar sweeping plan: Secondary autonomous sweep area = 40 km2.Source: Subsea robotic mission allocation report; Scope: Candidate AUV search tracks; Measurement: Projected seafloor area mapped independently by untethered submersibles.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Autonomous underwater vehicle battery endurance is between 20 h and 60 h, inclusive.",
+          "role_name": "Subsea robotics superintendent (ROV)",
+          "candidate_name": "Towed synthetic aperture sonar sweeping plan",
+          "other_candidate_names": [
+            "Autonomous multibeam bathymetric grid plan",
+            "Deep-tow magnetometry and acoustic pinger plan"
+          ],
+          "context_value": "after deducting mandatory emergency ascent power reserves",
+          "other_context_values": [
+            "before deducting mandatory emergency ascent power reserves"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "acoustic_survey_lead",
+        "auv_operations_lead",
+        "seabed_mapping_lead"
+      ],
+      "role_names": [
+        "Hydroacoustic survey director (HYD)",
+        "Subsea robotics superintendent (ROV)",
+        "Bathymetric cartography manager (MAP)"
+      ],
+      "directory": "incomplete/task_086",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_survey_lead_A",
+          "role_id": "acoustic_survey_lead",
+          "candidate_id": "A",
+          "key": "HYD-PING-MSG",
+          "boolean_predicate_id": "A_pinger_receiver_active",
+          "boolean_label": "Towed pinger receiver deployed",
+          "hidden_predicate_id": "A_pinger_detect_freq",
+          "threshold_label": "Pinger acoustic detection frequency tolerance",
+          "threshold_aliases": [
+            "Pinger detection frequency cutoff",
+            "Hydrophone upper listening frequency"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "kHz",
+          "partial_record_text": "HYD-PING-MSG: Towed synthetic aperture sonar sweeping plan.Towed synthetic aperture sonar sweeping plan: Towed pinger receiver deployed = true .Source: Hydroacoustic mission equipment manifest; Scope: Deep-water hydrophone deployment rig; Measurement: Confirmation that towed pinger locator array is fully rigged and operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Pinger acoustic detection frequency tolerance is between 20 kHz and 60 kHz, inclusive.",
+          "role_name": "Hydroacoustic survey director (HYD)",
+          "candidate_name": "Towed synthetic aperture sonar sweeping plan",
+          "other_candidate_names": [
+            "Autonomous multibeam bathymetric grid plan",
+            "Deep-tow magnetometry and acoustic pinger plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_auv_operations_lead_A",
+          "role_id": "auv_operations_lead",
+          "candidate_id": "A",
+          "key": "ROV-AUVO-EHF",
+          "hidden_predicate_id": "A_auv_battery_endurance",
+          "threshold_label": "Autonomous underwater vehicle battery endurance",
+          "threshold_aliases": [
+            "AUV dive endurance",
+            "Robotic submersible mission duration"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "ROV-AUVO-EHF: Towed synthetic aperture sonar sweeping plan.Reserve deduction basis: after deducting mandatory emergency ascent power reserves.Towed synthetic aperture sonar sweeping plan: Secondary autonomous sweep area = 40 km2.Source: Subsea robotic mission allocation report; Scope: Candidate AUV search tracks; Measurement: Projected seafloor area mapped independently by untethered submersibles.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Autonomous underwater vehicle battery endurance is between 20 h and 60 h, inclusive.",
+          "role_name": "Subsea robotics superintendent (ROV)",
+          "candidate_name": "Towed synthetic aperture sonar sweeping plan",
+          "other_candidate_names": [
+            "Autonomous multibeam bathymetric grid plan",
+            "Deep-tow magnetometry and acoustic pinger plan"
+          ],
+          "context_value": "after deducting mandatory emergency ascent power reserves",
+          "other_context_values": [
+            "before deducting mandatory emergency ascent power reserves"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_seabed_mapping_lead_A",
+          "role_id": "seabed_mapping_lead",
+          "candidate_id": "A",
+          "key": "MAP-BATH-DOK",
+          "hidden_predicate_id": "A_primary_sweep_area",
+          "threshold_label": "Primary sonar sweep area",
+          "threshold_aliases": [
+            "Towed sonar search area",
+            "Main swath coverage area"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "km2",
+          "partial_record_text": "MAP-BATH-DOK: Towed synthetic aperture sonar sweeping plan.Towed synthetic aperture sonar sweeping plan: Side-scan sonar seabed coverage verification = true .Source: Seafloor survey validation memo; Scope: Search grid high-resolution swath geometry; Measurement: Certification that acoustic swath overlap guarantees zero acoustic shadow gaps.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary sonar sweep area is between 0 km2 and 300 km2, inclusive.",
+          "role_name": "Bathymetric cartography manager (MAP)",
+          "candidate_name": "Towed synthetic aperture sonar sweeping plan",
+          "other_candidate_names": [
+            "Autonomous multibeam bathymetric grid plan",
+            "Deep-tow magnetometry and acoustic pinger plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

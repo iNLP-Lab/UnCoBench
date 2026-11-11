@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_982",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_robotics",
+        "marine_geophysics"
+      ],
+      "role_names": [
+        "Subsea robotics lead (ROB)",
+        "Marine geophysics lead (GEO)"
+      ],
+      "directory": "incomplete/task_982",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROB-DEEP-LLM",
+          "boolean_predicate_id": "A_telemetry_recording_enabled",
+          "boolean_label": "Continuous acoustic telemetry recording enabled",
+          "hidden_predicate_id": "A_auv_depth_rating",
+          "threshold_label": "AUV certified operating depth",
+          "threshold_aliases": [
+            "Vehicle depth rating",
+            "Certified submersible depth"
+          ],
+          "threshold_value": 3600,
+          "threshold_unit": "m",
+          "partial_record_text": "ROB-DEEP-LLM: Autonomous benthic scanning expedition.Autonomous benthic scanning expedition: Continuous acoustic telemetry recording enabled = true .Source: Subsea vehicle configuration manifest; Scope: Autonomous survey vehicle onboard mission computer; Measurement: Status of the high-rate acoustic telemetry and flight logging system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "AUV certified operating depth is at most 5000 m.",
+          "role_name": "Subsea robotics lead (ROB)",
+          "candidate_name": "Autonomous benthic scanning expedition",
+          "other_candidate_names": [
+            "Hybrid tethered robotic investigation",
+            "Deep-tow synthetic aperture survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_geophysics_A",
+          "role_id": "marine_geophysics",
+          "candidate_id": "A",
+          "key": "GEO-ACST-DNR",
+          "hidden_predicate_id": "A_bathymetric_grid_resolution",
+          "threshold_label": "Bathymetric grid resolution",
+          "threshold_aliases": [
+            "Seabed digital elevation cell size",
+            "Acoustic sounding resolution"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "cm",
+          "partial_record_text": "GEO-ACST-DNR: Autonomous benthic scanning expedition.Survey jurisdiction: United Kingdom.Autonomous benthic scanning expedition: Multibeam sonar calibration certified = true .Source: Hydrographic instrument calibration log; Scope: High-frequency multibeam echosounder array; Measurement: Formal validation of patch-test roll, pitch, and yaw alignment coefficients.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Bathymetric grid resolution is at most 40 cm.",
+          "role_name": "Marine geophysics lead (GEO)",
+          "candidate_name": "Autonomous benthic scanning expedition",
+          "other_candidate_names": [
+            "Hybrid tethered robotic investigation",
+            "Deep-tow synthetic aperture survey"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_robotics",
+        "marine_geophysics",
+        "regulatory_authority"
+      ],
+      "role_names": [
+        "Subsea robotics lead (ROB)",
+        "Marine geophysics lead (GEO)",
+        "Maritime permitting and compliance lead (REG)"
+      ],
+      "directory": "incomplete/task_982",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROB-DEEP-LLM",
+          "boolean_predicate_id": "A_telemetry_recording_enabled",
+          "boolean_label": "Continuous acoustic telemetry recording enabled",
+          "hidden_predicate_id": "A_auv_depth_rating",
+          "threshold_label": "AUV certified operating depth",
+          "threshold_aliases": [
+            "Vehicle depth rating",
+            "Certified submersible depth"
+          ],
+          "threshold_value": 3600,
+          "threshold_unit": "m",
+          "partial_record_text": "ROB-DEEP-LLM: Autonomous benthic scanning expedition.Autonomous benthic scanning expedition: Continuous acoustic telemetry recording enabled = true .Source: Subsea vehicle configuration manifest; Scope: Autonomous survey vehicle onboard mission computer; Measurement: Status of the high-rate acoustic telemetry and flight logging system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "AUV certified operating depth is at most 5000 m.",
+          "role_name": "Subsea robotics lead (ROB)",
+          "candidate_name": "Autonomous benthic scanning expedition",
+          "other_candidate_names": [
+            "Hybrid tethered robotic investigation",
+            "Deep-tow synthetic aperture survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_geophysics_A",
+          "role_id": "marine_geophysics",
+          "candidate_id": "A",
+          "key": "GEO-ACST-DNR",
+          "hidden_predicate_id": "A_bathymetric_grid_resolution",
+          "threshold_label": "Bathymetric grid resolution",
+          "threshold_aliases": [
+            "Seabed digital elevation cell size",
+            "Acoustic sounding resolution"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "cm",
+          "partial_record_text": "GEO-ACST-DNR: Autonomous benthic scanning expedition.Survey jurisdiction: United Kingdom.Autonomous benthic scanning expedition: Multibeam sonar calibration certified = true .Source: Hydrographic instrument calibration log; Scope: High-frequency multibeam echosounder array; Measurement: Formal validation of patch-test roll, pitch, and yaw alignment coefficients.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Bathymetric grid resolution is at most 40 cm.",
+          "role_name": "Marine geophysics lead (GEO)",
+          "candidate_name": "Autonomous benthic scanning expedition",
+          "other_candidate_names": [
+            "Hybrid tethered robotic investigation",
+            "Deep-tow synthetic aperture survey"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_authority_A",
+          "role_id": "regulatory_authority",
+          "candidate_id": "A",
+          "key": "REG-PERM-8XY",
+          "hidden_predicate_id": "A_regulatory_observer_berths",
+          "threshold_label": "Mandated regulatory observer berths",
+          "threshold_aliases": [
+            "Official liaison berths",
+            "Inspector berths"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "berths",
+          "partial_record_text": "REG-PERM-8XY: Autonomous benthic scanning expedition.Autonomous benthic scanning expedition: Statutory marine survey permit approved = true .Source: Maritime authority licensing register; Scope: Exclusive economic zone cable corridor investigation; Measurement: Formal approval of statutory seabed survey permits by the national maritime board.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandated regulatory observer berths is at most 6 berths.",
+          "role_name": "Maritime permitting and compliance lead (REG)",
+          "candidate_name": "Autonomous benthic scanning expedition",
+          "other_candidate_names": [
+            "Hybrid tethered robotic investigation",
+            "Deep-tow synthetic aperture survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_042",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_coordination",
+        "logistics_routing"
+      ],
+      "role_names": [
+        "Hazmat emergency coordinator (HEC)",
+        "Logistics operations planner (LOP)"
+      ],
+      "directory": "incomplete/task_042",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_coordination_A",
+          "role_id": "emergency_coordination",
+          "candidate_id": "A",
+          "key": "HEC-RESP-K4Z",
+          "boolean_predicate_id": "A_telemetry_monitoring_active",
+          "boolean_label": "Active real-time telemetry deployment",
+          "hidden_predicate_id": "A_max_response_interval",
+          "threshold_label": "Maximum hazmat emergency response interval",
+          "threshold_aliases": [
+            "Hazmat brigade response time",
+            "Emergency intervention interval"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "HEC-RESP-K4Z: Inland waterway barge corridor.Inland waterway barge corridor: Active real-time telemetry deployment = true .Source: Corridor telemetry deployment register; Scope: All transit segments across candidate corridor; Measurement: Operational status of automated satellite and cellular tracking transponders on hazardous shipments.",
+          "role_name": "Hazmat emergency coordinator (HEC)",
+          "candidate_name": "Inland waterway barge corridor",
+          "other_candidate_names": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_routing_A",
+          "role_id": "logistics_routing",
+          "candidate_id": "A",
+          "key": "LOP-TRANS-S81",
+          "hidden_predicate_id": "A_direct_transit_duration",
+          "threshold_label": "Direct transit duration",
+          "threshold_aliases": [
+            "Mainline movement time",
+            "Direct en-route transit hours"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "LOP-TRANS-S81: Inland waterway barge corridor. The record covers Direct transit duration. Corridor transit timetable dispatch model; Point-to-point transit from regional origin to destination gate; Scheduled active motion duration excluding terminal interchange handling.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Direct transit duration is at least 12 h.",
+          "role_name": "Logistics operations planner (LOP)",
+          "candidate_name": "Inland waterway barge corridor",
+          "other_candidate_names": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_coordination",
+        "logistics_routing",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Hazmat emergency coordinator (HEC)",
+        "Logistics operations planner (LOP)",
+        "Intermodal terminal manager (ITM)"
+      ],
+      "directory": "incomplete/task_042",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_coordination_A",
+          "role_id": "emergency_coordination",
+          "candidate_id": "A",
+          "key": "HEC-RESP-K4Z",
+          "boolean_predicate_id": "A_telemetry_monitoring_active",
+          "boolean_label": "Active real-time telemetry deployment",
+          "hidden_predicate_id": "A_max_response_interval",
+          "threshold_label": "Maximum hazmat emergency response interval",
+          "threshold_aliases": [
+            "Hazmat brigade response time",
+            "Emergency intervention interval"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "HEC-RESP-K4Z: Inland waterway barge corridor.Inland waterway barge corridor: Active real-time telemetry deployment = true .Source: Corridor telemetry deployment register; Scope: All transit segments across candidate corridor; Measurement: Operational status of automated satellite and cellular tracking transponders on hazardous shipments.",
+          "role_name": "Hazmat emergency coordinator (HEC)",
+          "candidate_name": "Inland waterway barge corridor",
+          "other_candidate_names": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_routing_A",
+          "role_id": "logistics_routing",
+          "candidate_id": "A",
+          "key": "LOP-TRANS-S81",
+          "hidden_predicate_id": "A_direct_transit_duration",
+          "threshold_label": "Direct transit duration",
+          "threshold_aliases": [
+            "Mainline movement time",
+            "Direct en-route transit hours"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "LOP-TRANS-S81: Inland waterway barge corridor. The record covers Direct transit duration. Corridor transit timetable dispatch model; Point-to-point transit from regional origin to destination gate; Scheduled active motion duration excluding terminal interchange handling.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Direct transit duration is at least 12 h.",
+          "role_name": "Logistics operations planner (LOP)",
+          "candidate_name": "Inland waterway barge corridor",
+          "other_candidate_names": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "ITM-YARD-YT1",
+          "hidden_predicate_id": "A_terminal_handling_duration",
+          "threshold_label": "Terminal handling duration",
+          "threshold_aliases": [
+            "Yard dwell duration",
+            "Intermodal transfer time"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "h",
+          "partial_record_text": "ITM-YARD-YT1: Inland waterway barge corridor. The record covers Terminal handling duration. Intermodal transfer operation log; Intermediate marshalling yard and transfer hubs along corridor; Cumulative required staging, inspection, and cargo transfer duration.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Terminal handling duration is at least 4 h.",
+          "role_name": "Intermodal terminal manager (ITM)",
+          "candidate_name": "Inland waterway barge corridor",
+          "other_candidate_names": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

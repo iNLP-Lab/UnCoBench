@@ -1,0 +1,536 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_931",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "marine_operations"
+      ],
+      "role_names": [
+        "Environmental Compliance Officer (ENV)",
+        "Marine Operations Superintendent (MAR)"
+      ],
+      "directory": "number_expansion/misaligned/task_931/k2",
+      "error_profiles": [
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-ECO-KNO",
+          "alternate_key": "ENV-NOX-IKV",
+          "target_context": "combined blackwater and greywater treatment",
+          "alternate_context": "blackwater-only treatment",
+          "candidate": "RRS Endurance Discovery",
+          "other_candidates": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "value": true,
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "polar_code_certified",
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ]
+            },
+            {
+              "topic": "icebreaking_speed",
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ]
+            },
+            {
+              "topic": "clean_wet_lab_area",
+              "label": "Clean wet laboratory floor area",
+              "aliases": [
+                "Trace-metal wet lab area",
+                "Wet lab workspace"
+              ]
+            },
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Class 2 dynamic positioning rating",
+              "aliases": [
+                "DP2 class rating",
+                "Dynamic positioning redundancy"
+              ]
+            },
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ]
+            },
+            {
+              "topic": "charter_indemnity_verified",
+              "label": "Charter indemnity coverage verified",
+              "aliases": [
+                "Marine indemnity confirmation",
+                "P&I club charter indemnity"
+              ]
+            },
+            {
+              "topic": "voyage_fuel_expenditure",
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ]
+            },
+            {
+              "topic": "planned_transit_distance",
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine Operations Superintendent (MAR)",
+          "target_key": "MAR-NAUT-VDZ",
+          "alternate_key": "MAR-NAUT-V2B",
+          "target_context": "including weather and ice detour allowances",
+          "alternate_context": "excluding weather and ice detour allowances",
+          "candidate": "RRS Endurance Discovery",
+          "other_candidates": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "numeric": [
+            {
+              "topic": "icebreaking_speed",
+              "value": 3.2,
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ],
+              "unit": "kn"
+            },
+            {
+              "topic": "planned_transit_distance",
+              "value": 2800,
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ],
+              "unit": "nmi"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "polar_code_certified",
+              "value": true,
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "polar_code_certified",
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ]
+            },
+            {
+              "topic": "icebreaking_speed",
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ]
+            },
+            {
+              "topic": "clean_wet_lab_area",
+              "label": "Clean wet laboratory floor area",
+              "aliases": [
+                "Trace-metal wet lab area",
+                "Wet lab workspace"
+              ]
+            },
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Class 2 dynamic positioning rating",
+              "aliases": [
+                "DP2 class rating",
+                "Dynamic positioning redundancy"
+              ]
+            },
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ]
+            },
+            {
+              "topic": "charter_indemnity_verified",
+              "label": "Charter indemnity coverage verified",
+              "aliases": [
+                "Marine indemnity confirmation",
+                "P&I club charter indemnity"
+              ]
+            },
+            {
+              "topic": "voyage_fuel_expenditure",
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ]
+            },
+            {
+              "topic": "planned_transit_distance",
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "marine_operations",
+        "maritime_procurement"
+      ],
+      "role_names": [
+        "Environmental Compliance Officer (ENV)",
+        "Marine Operations Superintendent (MAR)",
+        "Maritime Procurement Lead (FIN)"
+      ],
+      "directory": "number_expansion/misaligned/task_931/k3",
+      "error_profiles": [
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-ECO-KNO",
+          "alternate_key": "ENV-NOX-IKV",
+          "target_context": "combined blackwater and greywater treatment",
+          "alternate_context": "blackwater-only treatment",
+          "candidate": "RRS Endurance Discovery",
+          "other_candidates": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "value": true,
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "polar_code_certified",
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ]
+            },
+            {
+              "topic": "icebreaking_speed",
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ]
+            },
+            {
+              "topic": "clean_wet_lab_area",
+              "label": "Clean wet laboratory floor area",
+              "aliases": [
+                "Trace-metal wet lab area",
+                "Wet lab workspace"
+              ]
+            },
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Class 2 dynamic positioning rating",
+              "aliases": [
+                "DP2 class rating",
+                "Dynamic positioning redundancy"
+              ]
+            },
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ]
+            },
+            {
+              "topic": "charter_indemnity_verified",
+              "label": "Charter indemnity coverage verified",
+              "aliases": [
+                "Marine indemnity confirmation",
+                "P&I club charter indemnity"
+              ]
+            },
+            {
+              "topic": "voyage_fuel_expenditure",
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ]
+            },
+            {
+              "topic": "planned_transit_distance",
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine Operations Superintendent (MAR)",
+          "target_key": "MAR-NAUT-VDZ",
+          "alternate_key": "MAR-NAUT-V2B",
+          "target_context": "including weather and ice detour allowances",
+          "alternate_context": "excluding weather and ice detour allowances",
+          "candidate": "RRS Endurance Discovery",
+          "other_candidates": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "numeric": [
+            {
+              "topic": "icebreaking_speed",
+              "value": 3.2,
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ],
+              "unit": "kn"
+            },
+            {
+              "topic": "planned_transit_distance",
+              "value": 2800,
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ],
+              "unit": "nmi"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "polar_code_certified",
+              "value": true,
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "polar_code_certified",
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ]
+            },
+            {
+              "topic": "icebreaking_speed",
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ]
+            },
+            {
+              "topic": "clean_wet_lab_area",
+              "label": "Clean wet laboratory floor area",
+              "aliases": [
+                "Trace-metal wet lab area",
+                "Wet lab workspace"
+              ]
+            },
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Class 2 dynamic positioning rating",
+              "aliases": [
+                "DP2 class rating",
+                "Dynamic positioning redundancy"
+              ]
+            },
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ]
+            },
+            {
+              "topic": "charter_indemnity_verified",
+              "label": "Charter indemnity coverage verified",
+              "aliases": [
+                "Marine indemnity confirmation",
+                "P&I club charter indemnity"
+              ]
+            },
+            {
+              "topic": "voyage_fuel_expenditure",
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ]
+            },
+            {
+              "topic": "planned_transit_distance",
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime Procurement Lead (FIN)",
+          "target_key": "FIN-CHAR-12Y",
+          "alternate_key": "FIN-CHAR-DWO",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "RRS Endurance Discovery",
+          "other_candidates": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "numeric": [
+            {
+              "topic": "voyage_fuel_expenditure",
+              "value": 238000,
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ],
+              "unit": "USD"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "polar_code_certified",
+              "label": "Polar Code Category A certification held",
+              "aliases": [
+                "Polar Code certification",
+                "Category A certification status"
+              ]
+            },
+            {
+              "topic": "icebreaking_speed",
+              "label": "Continuous icebreaking speed",
+              "aliases": [
+                "Level ice advance speed",
+                "Continuous ice penetration speed"
+              ]
+            },
+            {
+              "topic": "clean_wet_lab_area",
+              "label": "Clean wet laboratory floor area",
+              "aliases": [
+                "Trace-metal wet lab area",
+                "Wet lab workspace"
+              ]
+            },
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Class 2 dynamic positioning rating",
+              "aliases": [
+                "DP2 class rating",
+                "Dynamic positioning redundancy"
+              ]
+            },
+            {
+              "topic": "wastewater_bioreactor_fitted",
+              "label": "Advanced wastewater bioreactor fitted",
+              "aliases": [
+                "Membrane bioreactor installation",
+                "Sewage bioreactor fitment"
+              ]
+            },
+            {
+              "topic": "charter_indemnity_verified",
+              "label": "Charter indemnity coverage verified",
+              "aliases": [
+                "Marine indemnity confirmation",
+                "P&I club charter indemnity"
+              ]
+            },
+            {
+              "topic": "voyage_fuel_expenditure",
+              "label": "Total voyage fuel expenditure",
+              "aliases": [
+                "Bunker fuel cost",
+                "Transit fuel expense"
+              ]
+            },
+            {
+              "topic": "planned_transit_distance",
+              "label": "Planned transit distance",
+              "aliases": [
+                "Voyage sailing distance",
+                "Transit track length"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

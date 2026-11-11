@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_986",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_response",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Maritime Environmental Protection Officer (EPO)",
+        "Salvage Naval Architect (SNA)"
+      ],
+      "directory": "incomplete/task_986",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_response_A",
+          "role_id": "environmental_response",
+          "candidate_id": "A",
+          "key": "EPO-ENVIRO-5EX",
+          "boolean_predicate_id": "A_spill_containment_kit_deployed",
+          "boolean_label": "Spill containment kit deployed",
+          "hidden_predicate_id": "A_skimmer_recovery_capacity",
+          "threshold_label": "Oil skimmer recovery capacity",
+          "threshold_aliases": [
+            "Skimmer recovery throughput",
+            "Mechanical oil recovery rate"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "EPO-ENVIRO-5EX: Tandem Escort and Dynamic Brake Plan.Tandem Escort and Dynamic Brake Plan: Spill containment kit deployed = true .Source: Environmental response deployment checklist; Scope: Escort fleet spill response vessel; Measurement: Whether an offshore rapid-deployment containment boom and absorbents are fully rigged.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Oil skimmer recovery capacity is between 50 m3/h and 300 m3/h, inclusive.",
+          "role_name": "Maritime Environmental Protection Officer (EPO)",
+          "candidate_name": "Tandem Escort and Dynamic Brake Plan",
+          "other_candidate_names": [
+            "Direct Stern Pull and Skeg Control Plan",
+            "Dual Symmetrical Bow Tow Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "SNA-NAVAL-PRD",
+          "hidden_predicate_id": "A_bollard_pull_capacity",
+          "threshold_label": "Certified bollard pull capacity",
+          "threshold_aliases": [
+            "Continuous bollard pull",
+            "Bollard pull rating"
+          ],
+          "threshold_value": 190,
+          "threshold_unit": "t",
+          "partial_record_text": "SNA-NAVAL-PRD: Tandem Escort and Dynamic Brake Plan.Tandem Escort and Dynamic Brake Plan: Towline minimum breaking strength = 2700 kN.Source: Synthetic towline manufacturer test certificate; Scope: Primary 800-meter HMPE synthetic towing pennant and wire bridle; Measurement: Certified minimum breaking load verified under axial tensile proof test.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Certified bollard pull capacity is between 100 t and 300 t, inclusive.",
+          "role_name": "Salvage Naval Architect (SNA)",
+          "candidate_name": "Tandem Escort and Dynamic Brake Plan",
+          "other_candidate_names": [
+            "Direct Stern Pull and Skeg Control Plan",
+            "Dual Symmetrical Bow Tow Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_response",
+        "naval_architecture",
+        "towing_operations"
+      ],
+      "role_names": [
+        "Maritime Environmental Protection Officer (EPO)",
+        "Salvage Naval Architect (SNA)",
+        "Towing Operations Superintendent (TOS)"
+      ],
+      "directory": "incomplete/task_986",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_response_A",
+          "role_id": "environmental_response",
+          "candidate_id": "A",
+          "key": "EPO-ENVIRO-5EX",
+          "boolean_predicate_id": "A_spill_containment_kit_deployed",
+          "boolean_label": "Spill containment kit deployed",
+          "hidden_predicate_id": "A_skimmer_recovery_capacity",
+          "threshold_label": "Oil skimmer recovery capacity",
+          "threshold_aliases": [
+            "Skimmer recovery throughput",
+            "Mechanical oil recovery rate"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "EPO-ENVIRO-5EX: Tandem Escort and Dynamic Brake Plan.Tandem Escort and Dynamic Brake Plan: Spill containment kit deployed = true .Source: Environmental response deployment checklist; Scope: Escort fleet spill response vessel; Measurement: Whether an offshore rapid-deployment containment boom and absorbents are fully rigged.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Oil skimmer recovery capacity is between 50 m3/h and 300 m3/h, inclusive.",
+          "role_name": "Maritime Environmental Protection Officer (EPO)",
+          "candidate_name": "Tandem Escort and Dynamic Brake Plan",
+          "other_candidate_names": [
+            "Direct Stern Pull and Skeg Control Plan",
+            "Dual Symmetrical Bow Tow Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "SNA-NAVAL-PRD",
+          "hidden_predicate_id": "A_bollard_pull_capacity",
+          "threshold_label": "Certified bollard pull capacity",
+          "threshold_aliases": [
+            "Continuous bollard pull",
+            "Bollard pull rating"
+          ],
+          "threshold_value": 190,
+          "threshold_unit": "t",
+          "partial_record_text": "SNA-NAVAL-PRD: Tandem Escort and Dynamic Brake Plan.Tandem Escort and Dynamic Brake Plan: Towline minimum breaking strength = 2700 kN.Source: Synthetic towline manufacturer test certificate; Scope: Primary 800-meter HMPE synthetic towing pennant and wire bridle; Measurement: Certified minimum breaking load verified under axial tensile proof test.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Certified bollard pull capacity is between 100 t and 300 t, inclusive.",
+          "role_name": "Salvage Naval Architect (SNA)",
+          "candidate_name": "Tandem Escort and Dynamic Brake Plan",
+          "other_candidate_names": [
+            "Direct Stern Pull and Skeg Control Plan",
+            "Dual Symmetrical Bow Tow Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_towing_operations_A",
+          "role_id": "towing_operations",
+          "candidate_id": "A",
+          "key": "TOS-TOWOPS-BEF",
+          "hidden_predicate_id": "A_peak_dynamic_tow_tension",
+          "threshold_label": "Peak dynamic towing tension",
+          "threshold_aliases": [
+            "Estimated maximum towline tension",
+            "Peak surge towing tension"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "kN",
+          "partial_record_text": "TOS-TOWOPS-BEF: Tandem Escort and Dynamic Brake Plan.Tandem Escort and Dynamic Brake Plan: Anti-chafing gear certified = true .Source: Towing rigging inspection log; Scope: Fairlead and stern roller contact points on the towline; Measurement: Whether sacrificial polyurethane chafe sleeves and chafing chain assemblies are certified.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Peak dynamic towing tension is between 0 kN and 3000 kN, inclusive.",
+          "role_name": "Towing Operations Superintendent (TOS)",
+          "candidate_name": "Tandem Escort and Dynamic Brake Plan",
+          "other_candidate_names": [
+            "Direct Stern Pull and Skeg Control Plan",
+            "Dual Symmetrical Bow Tow Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

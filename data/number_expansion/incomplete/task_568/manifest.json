@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_568",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "railway_logistics"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENVC)",
+        "Rail yard logistics coordinator (RLOG)"
+      ],
+      "directory": "incomplete/task_568",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVC-AIRQ-VXS",
+          "boolean_predicate_id": "A_dust_suppression_installed",
+          "boolean_label": "Automated dust suppression system installed",
+          "hidden_predicate_id": "A_peak_particulate_concentration",
+          "threshold_label": "Peak dust particulate emission concentration",
+          "threshold_aliases": [
+            "Fugitive dust concentration",
+            "PM10 emission level"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "ENVC-AIRQ-VXS: Pacific Northwest Agri-Logistics Consortium.Pacific Northwest Agri-Logistics Consortium: Automated dust suppression system installed = true .Source: Clean air compliance certificate; Scope: Conveyor transfer galleries and shiploader chute heads; Measurement: Operational commissioning of dry fog agglomerative dust suppression system.Pacific Northwest Agri-Logistics Consortium: Mandatory dust-settling derating margin = 250 t/h.Source: Regional air pollution control operating permit; Scope: Terminal marine loading operations; Measurement: Required volumetric reduction in shiploader speed to maintain particulate compliance during atmospheric inversions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Peak dust particulate emission concentration is at most 40 mg/m3.",
+          "role_name": "Environmental compliance officer (ENVC)",
+          "candidate_name": "Pacific Northwest Agri-Logistics Consortium",
+          "other_candidate_names": [
+            "Columbia River Grain Handling Alliance",
+            "Cascade Bulk Marine Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_railway_logistics_A",
+          "role_id": "railway_logistics",
+          "candidate_id": "A",
+          "key": "RLOG-RAIL-OF1",
+          "hidden_predicate_id": "A_rail_loop_capacity",
+          "threshold_label": "Continuous rail loop track capacity",
+          "threshold_aliases": [
+            "Unit-train loop capacity",
+            "Rail yard storage capacity"
+          ],
+          "threshold_value": 125,
+          "threshold_unit": "cars",
+          "partial_record_text": "RLOG-RAIL-OF1: Pacific Northwest Agri-Logistics Consortium. The record covers Continuous rail loop track capacity. Rail track inventory layout; Terminal contiguous rail loop siding; Total standard 110-t covered grain hopper cars accommodateable without foul-point obstruction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous rail loop track capacity is at most 300 cars.",
+          "role_name": "Rail yard logistics coordinator (RLOG)",
+          "candidate_name": "Pacific Northwest Agri-Logistics Consortium",
+          "other_candidate_names": [
+            "Columbia River Grain Handling Alliance",
+            "Cascade Bulk Marine Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "railway_logistics",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENVC)",
+        "Rail yard logistics coordinator (RLOG)",
+        "Terminal operations superintendent (TOPS)"
+      ],
+      "directory": "incomplete/task_568",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENVC-AIRQ-VXS",
+          "boolean_predicate_id": "A_dust_suppression_installed",
+          "boolean_label": "Automated dust suppression system installed",
+          "hidden_predicate_id": "A_peak_particulate_concentration",
+          "threshold_label": "Peak dust particulate emission concentration",
+          "threshold_aliases": [
+            "Fugitive dust concentration",
+            "PM10 emission level"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "ENVC-AIRQ-VXS: Pacific Northwest Agri-Logistics Consortium.Pacific Northwest Agri-Logistics Consortium: Automated dust suppression system installed = true .Source: Clean air compliance certificate; Scope: Conveyor transfer galleries and shiploader chute heads; Measurement: Operational commissioning of dry fog agglomerative dust suppression system.Pacific Northwest Agri-Logistics Consortium: Mandatory dust-settling derating margin = 250 t/h.Source: Regional air pollution control operating permit; Scope: Terminal marine loading operations; Measurement: Required volumetric reduction in shiploader speed to maintain particulate compliance during atmospheric inversions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Peak dust particulate emission concentration is at most 40 mg/m3.",
+          "role_name": "Environmental compliance officer (ENVC)",
+          "candidate_name": "Pacific Northwest Agri-Logistics Consortium",
+          "other_candidate_names": [
+            "Columbia River Grain Handling Alliance",
+            "Cascade Bulk Marine Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_railway_logistics_A",
+          "role_id": "railway_logistics",
+          "candidate_id": "A",
+          "key": "RLOG-RAIL-OF1",
+          "hidden_predicate_id": "A_rail_loop_capacity",
+          "threshold_label": "Continuous rail loop track capacity",
+          "threshold_aliases": [
+            "Unit-train loop capacity",
+            "Rail yard storage capacity"
+          ],
+          "threshold_value": 125,
+          "threshold_unit": "cars",
+          "partial_record_text": "RLOG-RAIL-OF1: Pacific Northwest Agri-Logistics Consortium. The record covers Continuous rail loop track capacity. Rail track inventory layout; Terminal contiguous rail loop siding; Total standard 110-t covered grain hopper cars accommodateable without foul-point obstruction.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous rail loop track capacity is at most 300 cars.",
+          "role_name": "Rail yard logistics coordinator (RLOG)",
+          "candidate_name": "Pacific Northwest Agri-Logistics Consortium",
+          "other_candidate_names": [
+            "Columbia River Grain Handling Alliance",
+            "Cascade Bulk Marine Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TOPS-BERTH-FTJ",
+          "hidden_predicate_id": "A_gross_shiploader_throughput",
+          "threshold_label": "Gross pneumatic shiploader throughput",
+          "threshold_aliases": [
+            "Nominal shiploader rate",
+            "Gross ship loading capacity"
+          ],
+          "threshold_value": 2800,
+          "threshold_unit": "t/h",
+          "partial_record_text": "TOPS-BERTH-FTJ: Pacific Northwest Agri-Logistics Consortium.Aggregation window: trailing 30-day average.Pacific Northwest Agri-Logistics Consortium: Deep-draft vessel berthing clearance = true .Source: Bathymetric survey and berthing chart; Scope: Main export quay face at lowest low water; Measurement: Whether charted depth provides at least 14.5 m underkeel clearance for fully laden Post-Panamax bulk carriers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross pneumatic shiploader throughput is at most 5000 t/h.",
+          "role_name": "Terminal operations superintendent (TOPS)",
+          "candidate_name": "Pacific Northwest Agri-Logistics Consortium",
+          "other_candidate_names": [
+            "Columbia River Grain Handling Alliance",
+            "Cascade Bulk Marine Partners"
+          ],
+          "context_value": "trailing 30-day average",
+          "other_context_values": [
+            "trailing 12-month average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_376",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "inland_freight",
+        "marine_risk"
+      ],
+      "role_names": [
+        "Inland intermodal logistics director (IILD)",
+        "Marine risk and insurance manager (MRIM)"
+      ],
+      "directory": "number_expansion/misaligned/task_376/k2",
+      "error_profiles": [
+        {
+          "role_name": "Inland intermodal logistics director (IILD)",
+          "target_key": "IILD-DRAY-88O",
+          "alternate_key": "IILD-FLEET-IGF",
+          "target_context": "inclusive of chassis usage and gate toll surcharges",
+          "alternate_context": "exclusive of chassis usage and gate toll surcharges",
+          "candidate": "Atlantic Horizon Intermodal Alliance",
+          "other_candidates": [
+            "BlueWater Continental Logistics Group",
+            "Seaborne Meridian Freight Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "drayage_transfer_tariff",
+              "value": 120,
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ],
+              "unit": "USD/TEU"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded transit license",
+                "Customs bonded status"
+              ]
+            },
+            {
+              "topic": "customs_clearance_turnaround_h",
+              "label": "Average import customs release time",
+              "aliases": [
+                "Customs release duration",
+                "Mean clearance time"
+              ]
+            },
+            {
+              "topic": "security_certification_pass",
+              "label": "ISO 28000 supply chain security clearance",
+              "aliases": [
+                "ISO 28000 certification",
+                "Supply chain security certification"
+              ]
+            },
+            {
+              "topic": "heavylift_crane_certified",
+              "label": "Heavy-lift quayside crane certification",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy-lift rigging pass"
+              ]
+            },
+            {
+              "topic": "pollution_liability_covered",
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ]
+            },
+            {
+              "topic": "berthing_window_guaranteed",
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ]
+            },
+            {
+              "topic": "stevedoring_tariff",
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ]
+            },
+            {
+              "topic": "drayage_transfer_tariff",
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine risk and insurance manager (MRIM)",
+          "target_key": "MRIM-INSR-863",
+          "alternate_key": "MRIM-INSR-NN9",
+          "target_context": "including wreck removal and hazardous cargo endorsements",
+          "alternate_context": "excluding wreck removal and hazardous cargo endorsements",
+          "candidate": "Atlantic Horizon Intermodal Alliance",
+          "other_candidates": [
+            "BlueWater Continental Logistics Group",
+            "Seaborne Meridian Freight Consortium"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "pollution_liability_covered",
+              "value": true,
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded transit license",
+                "Customs bonded status"
+              ]
+            },
+            {
+              "topic": "customs_clearance_turnaround_h",
+              "label": "Average import customs release time",
+              "aliases": [
+                "Customs release duration",
+                "Mean clearance time"
+              ]
+            },
+            {
+              "topic": "security_certification_pass",
+              "label": "ISO 28000 supply chain security clearance",
+              "aliases": [
+                "ISO 28000 certification",
+                "Supply chain security certification"
+              ]
+            },
+            {
+              "topic": "heavylift_crane_certified",
+              "label": "Heavy-lift quayside crane certification",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy-lift rigging pass"
+              ]
+            },
+            {
+              "topic": "pollution_liability_covered",
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ]
+            },
+            {
+              "topic": "berthing_window_guaranteed",
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ]
+            },
+            {
+              "topic": "stevedoring_tariff",
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ]
+            },
+            {
+              "topic": "drayage_transfer_tariff",
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "inland_freight",
+        "marine_risk",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Inland intermodal logistics director (IILD)",
+        "Marine risk and insurance manager (MRIM)",
+        "Port terminal operations superintendent (PTOS)"
+      ],
+      "directory": "number_expansion/misaligned/task_376/k3",
+      "error_profiles": [
+        {
+          "role_name": "Inland intermodal logistics director (IILD)",
+          "target_key": "IILD-DRAY-88O",
+          "alternate_key": "IILD-FLEET-IGF",
+          "target_context": "inclusive of chassis usage and gate toll surcharges",
+          "alternate_context": "exclusive of chassis usage and gate toll surcharges",
+          "candidate": "Atlantic Horizon Intermodal Alliance",
+          "other_candidates": [
+            "BlueWater Continental Logistics Group",
+            "Seaborne Meridian Freight Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "drayage_transfer_tariff",
+              "value": 120,
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ],
+              "unit": "USD/TEU"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded transit license",
+                "Customs bonded status"
+              ]
+            },
+            {
+              "topic": "customs_clearance_turnaround_h",
+              "label": "Average import customs release time",
+              "aliases": [
+                "Customs release duration",
+                "Mean clearance time"
+              ]
+            },
+            {
+              "topic": "security_certification_pass",
+              "label": "ISO 28000 supply chain security clearance",
+              "aliases": [
+                "ISO 28000 certification",
+                "Supply chain security certification"
+              ]
+            },
+            {
+              "topic": "heavylift_crane_certified",
+              "label": "Heavy-lift quayside crane certification",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy-lift rigging pass"
+              ]
+            },
+            {
+              "topic": "pollution_liability_covered",
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ]
+            },
+            {
+              "topic": "berthing_window_guaranteed",
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ]
+            },
+            {
+              "topic": "stevedoring_tariff",
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ]
+            },
+            {
+              "topic": "drayage_transfer_tariff",
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine risk and insurance manager (MRIM)",
+          "target_key": "MRIM-INSR-863",
+          "alternate_key": "MRIM-INSR-NN9",
+          "target_context": "including wreck removal and hazardous cargo endorsements",
+          "alternate_context": "excluding wreck removal and hazardous cargo endorsements",
+          "candidate": "Atlantic Horizon Intermodal Alliance",
+          "other_candidates": [
+            "BlueWater Continental Logistics Group",
+            "Seaborne Meridian Freight Consortium"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "pollution_liability_covered",
+              "value": true,
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded transit license",
+                "Customs bonded status"
+              ]
+            },
+            {
+              "topic": "customs_clearance_turnaround_h",
+              "label": "Average import customs release time",
+              "aliases": [
+                "Customs release duration",
+                "Mean clearance time"
+              ]
+            },
+            {
+              "topic": "security_certification_pass",
+              "label": "ISO 28000 supply chain security clearance",
+              "aliases": [
+                "ISO 28000 certification",
+                "Supply chain security certification"
+              ]
+            },
+            {
+              "topic": "heavylift_crane_certified",
+              "label": "Heavy-lift quayside crane certification",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy-lift rigging pass"
+              ]
+            },
+            {
+              "topic": "pollution_liability_covered",
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ]
+            },
+            {
+              "topic": "berthing_window_guaranteed",
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ]
+            },
+            {
+              "topic": "stevedoring_tariff",
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ]
+            },
+            {
+              "topic": "drayage_transfer_tariff",
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Port terminal operations superintendent (PTOS)",
+          "target_key": "PTOS-TERM-1P5",
+          "alternate_key": "PTOS-TERM-377",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Atlantic Horizon Intermodal Alliance",
+          "other_candidates": [
+            "BlueWater Continental Logistics Group",
+            "Seaborne Meridian Freight Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "stevedoring_tariff",
+              "value": 180,
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ],
+              "unit": "USD/TEU"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "berthing_window_guaranteed",
+              "value": true,
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "customs_bonded_authorized",
+              "label": "Customs bonded transit authorization",
+              "aliases": [
+                "Bonded transit license",
+                "Customs bonded status"
+              ]
+            },
+            {
+              "topic": "customs_clearance_turnaround_h",
+              "label": "Average import customs release time",
+              "aliases": [
+                "Customs release duration",
+                "Mean clearance time"
+              ]
+            },
+            {
+              "topic": "security_certification_pass",
+              "label": "ISO 28000 supply chain security clearance",
+              "aliases": [
+                "ISO 28000 certification",
+                "Supply chain security certification"
+              ]
+            },
+            {
+              "topic": "heavylift_crane_certified",
+              "label": "Heavy-lift quayside crane certification",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy-lift rigging pass"
+              ]
+            },
+            {
+              "topic": "pollution_liability_covered",
+              "label": "Carrier pollution liability insurance clearance",
+              "aliases": [
+                "Pollution liability coverage",
+                "Marine environmental indemnity clearance"
+              ]
+            },
+            {
+              "topic": "berthing_window_guaranteed",
+              "label": "Berthing window commitment guarantee",
+              "aliases": [
+                "Guaranteed berthing window",
+                "Dedicated berth availability guarantee"
+              ]
+            },
+            {
+              "topic": "stevedoring_tariff",
+              "label": "Terminal stevedoring tariff",
+              "aliases": [
+                "Quayside stevedoring rate",
+                "Terminal container lift rate"
+              ]
+            },
+            {
+              "topic": "drayage_transfer_tariff",
+              "label": "Hinterland drayage transfer tariff",
+              "aliases": [
+                "Intermodal drayage rate",
+                "Short-haul truck transfer rate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

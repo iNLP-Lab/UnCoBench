@@ -1,0 +1,525 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_942",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "drilling_lead",
+        "environmental_compliance_lead"
+      ],
+      "role_names": [
+        "Drilling Operations Supervisor (DRL)",
+        "Environmental Compliance Officer (CMP)"
+      ],
+      "directory": "number_expansion/misaligned/task_942/k2",
+      "error_profiles": [
+        {
+          "role_name": "Drilling Operations Supervisor (DRL)",
+          "target_key": "DRL-WELL-C7R",
+          "alternate_key": "DRL-GROUT-A1E",
+          "target_context": "net clearance after deducting internal protective sleeve thickness",
+          "alternate_context": "gross diameter before deducting internal protective sleeve thickness",
+          "candidate": "Nested Piezometer Multilevel Array",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling",
+            "Continuous Sonic Cored Transect"
+          ],
+          "numeric": [
+            {
+              "topic": "casing_diameter",
+              "value": 150,
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ],
+              "unit": "mm"
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "value": 110,
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aquifer_permit_held",
+              "label": "Aquifer interference permit active",
+              "aliases": [
+                "Interference permit status",
+                "Groundwater work permit"
+              ]
+            },
+            {
+              "topic": "casing_diameter",
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ]
+            },
+            {
+              "topic": "mass_spectrometry_validated",
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ]
+            },
+            {
+              "topic": "pfas_detection_limit",
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ]
+            },
+            {
+              "topic": "regulator_clearance_granted",
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ]
+            },
+            {
+              "topic": "landowner_access_secured",
+              "label": "Private landowner access agreements secured",
+              "aliases": [
+                "Landowner right-of-way",
+                "Access easement status"
+              ]
+            },
+            {
+              "topic": "alluvial_borehole_depth",
+              "label": "Alluvial aquifer borehole depth",
+              "aliases": [
+                "Shallow alluvial depth",
+                "Unconfined borehole length"
+              ]
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (CMP)",
+          "target_key": "CMP-PERM-FDY",
+          "alternate_key": "CMP-PERM-OEM",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Nested Piezometer Multilevel Array",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling",
+            "Continuous Sonic Cored Transect"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "regulator_clearance_granted",
+              "value": true,
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aquifer_permit_held",
+              "label": "Aquifer interference permit active",
+              "aliases": [
+                "Interference permit status",
+                "Groundwater work permit"
+              ]
+            },
+            {
+              "topic": "casing_diameter",
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ]
+            },
+            {
+              "topic": "mass_spectrometry_validated",
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ]
+            },
+            {
+              "topic": "pfas_detection_limit",
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ]
+            },
+            {
+              "topic": "regulator_clearance_granted",
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ]
+            },
+            {
+              "topic": "landowner_access_secured",
+              "label": "Private landowner access agreements secured",
+              "aliases": [
+                "Landowner right-of-way",
+                "Access easement status"
+              ]
+            },
+            {
+              "topic": "alluvial_borehole_depth",
+              "label": "Alluvial aquifer borehole depth",
+              "aliases": [
+                "Shallow alluvial depth",
+                "Unconfined borehole length"
+              ]
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "drilling_lead",
+        "environmental_compliance_lead",
+        "analytical_chemistry_lead"
+      ],
+      "role_names": [
+        "Drilling Operations Supervisor (DRL)",
+        "Environmental Compliance Officer (CMP)",
+        "Forensic Geochemistry Lead (CHM)"
+      ],
+      "directory": "number_expansion/misaligned/task_942/k3",
+      "error_profiles": [
+        {
+          "role_name": "Drilling Operations Supervisor (DRL)",
+          "target_key": "DRL-WELL-C7R",
+          "alternate_key": "DRL-GROUT-A1E",
+          "target_context": "net clearance after deducting internal protective sleeve thickness",
+          "alternate_context": "gross diameter before deducting internal protective sleeve thickness",
+          "candidate": "Nested Piezometer Multilevel Array",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling",
+            "Continuous Sonic Cored Transect"
+          ],
+          "numeric": [
+            {
+              "topic": "casing_diameter",
+              "value": 150,
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ],
+              "unit": "mm"
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "value": 110,
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aquifer_permit_held",
+              "label": "Aquifer interference permit active",
+              "aliases": [
+                "Interference permit status",
+                "Groundwater work permit"
+              ]
+            },
+            {
+              "topic": "casing_diameter",
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ]
+            },
+            {
+              "topic": "mass_spectrometry_validated",
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ]
+            },
+            {
+              "topic": "pfas_detection_limit",
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ]
+            },
+            {
+              "topic": "regulator_clearance_granted",
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ]
+            },
+            {
+              "topic": "landowner_access_secured",
+              "label": "Private landowner access agreements secured",
+              "aliases": [
+                "Landowner right-of-way",
+                "Access easement status"
+              ]
+            },
+            {
+              "topic": "alluvial_borehole_depth",
+              "label": "Alluvial aquifer borehole depth",
+              "aliases": [
+                "Shallow alluvial depth",
+                "Unconfined borehole length"
+              ]
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (CMP)",
+          "target_key": "CMP-PERM-FDY",
+          "alternate_key": "CMP-PERM-OEM",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Nested Piezometer Multilevel Array",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling",
+            "Continuous Sonic Cored Transect"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "regulator_clearance_granted",
+              "value": true,
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aquifer_permit_held",
+              "label": "Aquifer interference permit active",
+              "aliases": [
+                "Interference permit status",
+                "Groundwater work permit"
+              ]
+            },
+            {
+              "topic": "casing_diameter",
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ]
+            },
+            {
+              "topic": "mass_spectrometry_validated",
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ]
+            },
+            {
+              "topic": "pfas_detection_limit",
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ]
+            },
+            {
+              "topic": "regulator_clearance_granted",
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ]
+            },
+            {
+              "topic": "landowner_access_secured",
+              "label": "Private landowner access agreements secured",
+              "aliases": [
+                "Landowner right-of-way",
+                "Access easement status"
+              ]
+            },
+            {
+              "topic": "alluvial_borehole_depth",
+              "label": "Alluvial aquifer borehole depth",
+              "aliases": [
+                "Shallow alluvial depth",
+                "Unconfined borehole length"
+              ]
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forensic Geochemistry Lead (CHM)",
+          "target_key": "CHM-LAB-E0M",
+          "alternate_key": "CHM-LAB-PEU",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Nested Piezometer Multilevel Array",
+          "other_candidates": [
+            "Direct-Push Membrane Interface Profiling",
+            "Continuous Sonic Cored Transect"
+          ],
+          "numeric": [
+            {
+              "topic": "pfas_detection_limit",
+              "value": 1.8,
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ],
+              "unit": "ng/L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "mass_spectrometry_validated",
+              "value": true,
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aquifer_permit_held",
+              "label": "Aquifer interference permit active",
+              "aliases": [
+                "Interference permit status",
+                "Groundwater work permit"
+              ]
+            },
+            {
+              "topic": "casing_diameter",
+              "label": "Borehole casing internal diameter",
+              "aliases": [
+                "Internal casing diameter",
+                "Well casing ID"
+              ]
+            },
+            {
+              "topic": "mass_spectrometry_validated",
+              "label": "High-resolution mass spectrometry screening validated",
+              "aliases": [
+                "HRMS validation",
+                "Mass spectrometry enablement"
+              ]
+            },
+            {
+              "topic": "pfas_detection_limit",
+              "label": "PFAS compound detection limit",
+              "aliases": [
+                "Analyte detection limit",
+                "Method detection threshold"
+              ]
+            },
+            {
+              "topic": "regulator_clearance_granted",
+              "label": "State environmental regulator clearance granted",
+              "aliases": [
+                "Regulatory sign-off",
+                "Environmental agency approval"
+              ]
+            },
+            {
+              "topic": "landowner_access_secured",
+              "label": "Private landowner access agreements secured",
+              "aliases": [
+                "Landowner right-of-way",
+                "Access easement status"
+              ]
+            },
+            {
+              "topic": "alluvial_borehole_depth",
+              "label": "Alluvial aquifer borehole depth",
+              "aliases": [
+                "Shallow alluvial depth",
+                "Unconfined borehole length"
+              ]
+            },
+            {
+              "topic": "bedrock_borehole_depth",
+              "label": "Bedrock aquifer borehole depth",
+              "aliases": [
+                "Deep bedrock depth",
+                "Confined stratum coring length"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

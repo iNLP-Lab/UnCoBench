@@ -1,0 +1,534 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_481",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "operations_chief",
+        "environmental_officer"
+      ],
+      "role_names": [
+        "Emergency Operations Chief (OPS)",
+        "Environmental Compliance Officer (ENV)"
+      ],
+      "directory": "number_expansion/misaligned/task_481/k2",
+      "error_profiles": [
+        {
+          "role_name": "Emergency Operations Chief (OPS)",
+          "target_key": "OPS-EGRESS-Z8Y",
+          "alternate_key": "OPS-COMMS-E6Y",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Pine Valley Fairgrounds",
+          "other_candidates": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "evacuation_route_verified",
+              "value": true,
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "access_road_width",
+              "label": "Minimum access road width",
+              "aliases": [
+                "Access road width",
+                "Entry corridor roadway width"
+              ]
+            },
+            {
+              "topic": "evacuation_route_verified",
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ]
+            },
+            {
+              "topic": "spill_containment_certified",
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ]
+            },
+            {
+              "topic": "trauma_activation_ready",
+              "label": "Emergency trauma station activation ready",
+              "aliases": [
+                "Trauma station readiness",
+                "Field medical activation status"
+              ]
+            },
+            {
+              "topic": "trauma_bed_capacity",
+              "label": "Emergency trauma triage bed capacity",
+              "aliases": [
+                "Triage bed capacity",
+                "Emergency medical cot count"
+              ]
+            },
+            {
+              "topic": "utility_permit_approved",
+              "label": "Utility interconnect permit approved",
+              "aliases": [
+                "Grid interconnect approval",
+                "Electric utility connection permit"
+              ]
+            },
+            {
+              "topic": "primary_generator_capacity",
+              "label": "Primary diesel generator continuous capacity",
+              "aliases": [
+                "Primary generator capacity",
+                "Continuous diesel generator output"
+              ]
+            },
+            {
+              "topic": "grid_interconnect_capacity",
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ]
+            },
+            {
+              "topic": "critical_life_safety_load",
+              "label": "Dedicated life-safety critical load",
+              "aliases": [
+                "Life-safety electrical load",
+                "Priority emergency power reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-SPILL-OOH",
+          "alternate_key": "ENV-SPILL-WYJ",
+          "target_context": "including precipitation allowance",
+          "alternate_context": "excluding precipitation allowance",
+          "candidate": "Pine Valley Fairgrounds",
+          "other_candidates": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "spill_containment_certified",
+              "value": true,
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "access_road_width",
+              "label": "Minimum access road width",
+              "aliases": [
+                "Access road width",
+                "Entry corridor roadway width"
+              ]
+            },
+            {
+              "topic": "evacuation_route_verified",
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ]
+            },
+            {
+              "topic": "spill_containment_certified",
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ]
+            },
+            {
+              "topic": "trauma_activation_ready",
+              "label": "Emergency trauma station activation ready",
+              "aliases": [
+                "Trauma station readiness",
+                "Field medical activation status"
+              ]
+            },
+            {
+              "topic": "trauma_bed_capacity",
+              "label": "Emergency trauma triage bed capacity",
+              "aliases": [
+                "Triage bed capacity",
+                "Emergency medical cot count"
+              ]
+            },
+            {
+              "topic": "utility_permit_approved",
+              "label": "Utility interconnect permit approved",
+              "aliases": [
+                "Grid interconnect approval",
+                "Electric utility connection permit"
+              ]
+            },
+            {
+              "topic": "primary_generator_capacity",
+              "label": "Primary diesel generator continuous capacity",
+              "aliases": [
+                "Primary generator capacity",
+                "Continuous diesel generator output"
+              ]
+            },
+            {
+              "topic": "grid_interconnect_capacity",
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ]
+            },
+            {
+              "topic": "critical_life_safety_load",
+              "label": "Dedicated life-safety critical load",
+              "aliases": [
+                "Life-safety electrical load",
+                "Priority emergency power reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "operations_chief",
+        "environmental_officer",
+        "utility_liaison"
+      ],
+      "role_names": [
+        "Emergency Operations Chief (OPS)",
+        "Environmental Compliance Officer (ENV)",
+        "Utility Grid Liaison (UTIL)"
+      ],
+      "directory": "number_expansion/misaligned/task_481/k3",
+      "error_profiles": [
+        {
+          "role_name": "Emergency Operations Chief (OPS)",
+          "target_key": "OPS-EGRESS-Z8Y",
+          "alternate_key": "OPS-COMMS-E6Y",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Pine Valley Fairgrounds",
+          "other_candidates": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "evacuation_route_verified",
+              "value": true,
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "access_road_width",
+              "label": "Minimum access road width",
+              "aliases": [
+                "Access road width",
+                "Entry corridor roadway width"
+              ]
+            },
+            {
+              "topic": "evacuation_route_verified",
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ]
+            },
+            {
+              "topic": "spill_containment_certified",
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ]
+            },
+            {
+              "topic": "trauma_activation_ready",
+              "label": "Emergency trauma station activation ready",
+              "aliases": [
+                "Trauma station readiness",
+                "Field medical activation status"
+              ]
+            },
+            {
+              "topic": "trauma_bed_capacity",
+              "label": "Emergency trauma triage bed capacity",
+              "aliases": [
+                "Triage bed capacity",
+                "Emergency medical cot count"
+              ]
+            },
+            {
+              "topic": "utility_permit_approved",
+              "label": "Utility interconnect permit approved",
+              "aliases": [
+                "Grid interconnect approval",
+                "Electric utility connection permit"
+              ]
+            },
+            {
+              "topic": "primary_generator_capacity",
+              "label": "Primary diesel generator continuous capacity",
+              "aliases": [
+                "Primary generator capacity",
+                "Continuous diesel generator output"
+              ]
+            },
+            {
+              "topic": "grid_interconnect_capacity",
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ]
+            },
+            {
+              "topic": "critical_life_safety_load",
+              "label": "Dedicated life-safety critical load",
+              "aliases": [
+                "Life-safety electrical load",
+                "Priority emergency power reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-SPILL-OOH",
+          "alternate_key": "ENV-SPILL-WYJ",
+          "target_context": "including precipitation allowance",
+          "alternate_context": "excluding precipitation allowance",
+          "candidate": "Pine Valley Fairgrounds",
+          "other_candidates": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "spill_containment_certified",
+              "value": true,
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "access_road_width",
+              "label": "Minimum access road width",
+              "aliases": [
+                "Access road width",
+                "Entry corridor roadway width"
+              ]
+            },
+            {
+              "topic": "evacuation_route_verified",
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ]
+            },
+            {
+              "topic": "spill_containment_certified",
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ]
+            },
+            {
+              "topic": "trauma_activation_ready",
+              "label": "Emergency trauma station activation ready",
+              "aliases": [
+                "Trauma station readiness",
+                "Field medical activation status"
+              ]
+            },
+            {
+              "topic": "trauma_bed_capacity",
+              "label": "Emergency trauma triage bed capacity",
+              "aliases": [
+                "Triage bed capacity",
+                "Emergency medical cot count"
+              ]
+            },
+            {
+              "topic": "utility_permit_approved",
+              "label": "Utility interconnect permit approved",
+              "aliases": [
+                "Grid interconnect approval",
+                "Electric utility connection permit"
+              ]
+            },
+            {
+              "topic": "primary_generator_capacity",
+              "label": "Primary diesel generator continuous capacity",
+              "aliases": [
+                "Primary generator capacity",
+                "Continuous diesel generator output"
+              ]
+            },
+            {
+              "topic": "grid_interconnect_capacity",
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ]
+            },
+            {
+              "topic": "critical_life_safety_load",
+              "label": "Dedicated life-safety critical load",
+              "aliases": [
+                "Life-safety electrical load",
+                "Priority emergency power reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Utility Grid Liaison (UTIL)",
+          "target_key": "UTIL-GRID-ALG",
+          "alternate_key": "UTIL-GRID-XYV",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Pine Valley Fairgrounds",
+          "other_candidates": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "numeric": [
+            {
+              "topic": "grid_interconnect_capacity",
+              "value": 600,
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "access_road_width",
+              "label": "Minimum access road width",
+              "aliases": [
+                "Access road width",
+                "Entry corridor roadway width"
+              ]
+            },
+            {
+              "topic": "evacuation_route_verified",
+              "label": "Secondary evacuation route verified",
+              "aliases": [
+                "Emergency egress confirmation",
+                "Secondary escape route verification"
+              ]
+            },
+            {
+              "topic": "spill_containment_certified",
+              "label": "Fuel spill containment certified",
+              "aliases": [
+                "Secondary containment certification",
+                "Fuel berm containment compliance"
+              ]
+            },
+            {
+              "topic": "trauma_activation_ready",
+              "label": "Emergency trauma station activation ready",
+              "aliases": [
+                "Trauma station readiness",
+                "Field medical activation status"
+              ]
+            },
+            {
+              "topic": "trauma_bed_capacity",
+              "label": "Emergency trauma triage bed capacity",
+              "aliases": [
+                "Triage bed capacity",
+                "Emergency medical cot count"
+              ]
+            },
+            {
+              "topic": "utility_permit_approved",
+              "label": "Utility interconnect permit approved",
+              "aliases": [
+                "Grid interconnect approval",
+                "Electric utility connection permit"
+              ]
+            },
+            {
+              "topic": "primary_generator_capacity",
+              "label": "Primary diesel generator continuous capacity",
+              "aliases": [
+                "Primary generator capacity",
+                "Continuous diesel generator output"
+              ]
+            },
+            {
+              "topic": "grid_interconnect_capacity",
+              "label": "Utility grid interconnect capacity",
+              "aliases": [
+                "Grid substation supply capacity",
+                "Utility grid allocated power"
+              ]
+            },
+            {
+              "topic": "critical_life_safety_load",
+              "label": "Dedicated life-safety critical load",
+              "aliases": [
+                "Life-safety electrical load",
+                "Priority emergency power reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

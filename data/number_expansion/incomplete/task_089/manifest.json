@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_089",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health_director",
+        "emergency_utilities_manager"
+      ],
+      "role_names": [
+        "District public health and triage director (HLTH)",
+        "Emergency utilities and infrastructure manager (UTIL)"
+      ],
+      "directory": "incomplete/task_089",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_director_A",
+          "role_id": "public_health_director",
+          "candidate_id": "A",
+          "key": "HLTH-CLINIC-F1U",
+          "boolean_predicate_id": "A_medical_triage_installed",
+          "boolean_label": "Dedicated medical triage clinic ward installation",
+          "hidden_predicate_id": "A_triage_patient_throughput",
+          "threshold_label": "Emergency triage patient throughput capacity",
+          "threshold_aliases": [
+            "Daily clinic triage capacity",
+            "Triage patient rate"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "patients/d",
+          "partial_record_text": "HLTH-CLINIC-F1U: Barron Valley Multipurpose Civic Centre.Barron Valley Multipurpose Civic Centre: Dedicated medical triage clinic ward installation = true .Source: Health services deployment checklist; Scope: Dedicated climate-controlled medical ward; Measurement: Presence of functional examination beds, pharmaceutical lockers, and clinical equipment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency triage patient throughput capacity is between 10 patients/d and 70 patients/d, inclusive.",
+          "role_name": "District public health and triage director (HLTH)",
+          "candidate_name": "Barron Valley Multipurpose Civic Centre",
+          "other_candidate_names": [
+            "Trinity Bay Regional Sports Complex",
+            "Macalister Range Community Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_utilities_manager_A",
+          "role_id": "emergency_utilities_manager",
+          "candidate_id": "A",
+          "key": "UTIL-INFRA-39C",
+          "hidden_predicate_id": "A_backup_power_hours",
+          "threshold_label": "Auxiliary emergency backup power generation endurance",
+          "threshold_aliases": [
+            "Backup generator fuel endurance",
+            "Auxiliary power duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-INFRA-39C: Barron Valley Multipurpose Civic Centre. The record covers Auxiliary emergency backup power generation endurance. On-site generator operational log; Diesel generator sets and dedicated on-site fuel reserve; Continuous autonomous electrical generation runtime supported at 100% full emergency load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Auxiliary emergency backup power generation endurance is between 20 h and 110 h, inclusive.",
+          "role_name": "Emergency utilities and infrastructure manager (UTIL)",
+          "candidate_name": "Barron Valley Multipurpose Civic Centre",
+          "other_candidate_names": [
+            "Trinity Bay Regional Sports Complex",
+            "Macalister Range Community Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health_director",
+        "emergency_utilities_manager",
+        "civil_structural_engineer"
+      ],
+      "role_names": [
+        "District public health and triage director (HLTH)",
+        "Emergency utilities and infrastructure manager (UTIL)",
+        "Structural and hazard assessment engineer (STRUCT)"
+      ],
+      "directory": "incomplete/task_089",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_director_A",
+          "role_id": "public_health_director",
+          "candidate_id": "A",
+          "key": "HLTH-CLINIC-F1U",
+          "boolean_predicate_id": "A_medical_triage_installed",
+          "boolean_label": "Dedicated medical triage clinic ward installation",
+          "hidden_predicate_id": "A_triage_patient_throughput",
+          "threshold_label": "Emergency triage patient throughput capacity",
+          "threshold_aliases": [
+            "Daily clinic triage capacity",
+            "Triage patient rate"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "patients/d",
+          "partial_record_text": "HLTH-CLINIC-F1U: Barron Valley Multipurpose Civic Centre.Barron Valley Multipurpose Civic Centre: Dedicated medical triage clinic ward installation = true .Source: Health services deployment checklist; Scope: Dedicated climate-controlled medical ward; Measurement: Presence of functional examination beds, pharmaceutical lockers, and clinical equipment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency triage patient throughput capacity is between 10 patients/d and 70 patients/d, inclusive.",
+          "role_name": "District public health and triage director (HLTH)",
+          "candidate_name": "Barron Valley Multipurpose Civic Centre",
+          "other_candidate_names": [
+            "Trinity Bay Regional Sports Complex",
+            "Macalister Range Community Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_utilities_manager_A",
+          "role_id": "emergency_utilities_manager",
+          "candidate_id": "A",
+          "key": "UTIL-INFRA-39C",
+          "hidden_predicate_id": "A_backup_power_hours",
+          "threshold_label": "Auxiliary emergency backup power generation endurance",
+          "threshold_aliases": [
+            "Backup generator fuel endurance",
+            "Auxiliary power duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-INFRA-39C: Barron Valley Multipurpose Civic Centre. The record covers Auxiliary emergency backup power generation endurance. On-site generator operational log; Diesel generator sets and dedicated on-site fuel reserve; Continuous autonomous electrical generation runtime supported at 100% full emergency load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Auxiliary emergency backup power generation endurance is between 20 h and 110 h, inclusive.",
+          "role_name": "Emergency utilities and infrastructure manager (UTIL)",
+          "candidate_name": "Barron Valley Multipurpose Civic Centre",
+          "other_candidate_names": [
+            "Trinity Bay Regional Sports Complex",
+            "Macalister Range Community Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_structural_engineer_A",
+          "role_id": "civil_structural_engineer",
+          "candidate_id": "A",
+          "key": "STRUCT-RESIL-2OR",
+          "hidden_predicate_id": "A_wind_resilience_rating",
+          "threshold_label": "Wind structural impact resilience rating",
+          "threshold_aliases": [
+            "Wind gust design resistance",
+            "Structural wind rating"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "km/h",
+          "partial_record_text": "STRUCT-RESIL-2OR: Barron Valley Multipurpose Civic Centre.Barron Valley Multipurpose Civic Centre: Storm surge inundation clearance certification = true .Source: Coastal inundation risk register; Scope: Candidate shelter site ground elevation versus 1-in-500-year storm surge contour; Measurement: Formal certification confirming facility foundation sits above peak modeled surge wave crest.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 400
+          },
+          "coarse_statement": "Wind structural impact resilience rating is between 200 km/h and 400 km/h, inclusive.",
+          "role_name": "Structural and hazard assessment engineer (STRUCT)",
+          "candidate_name": "Barron Valley Multipurpose Civic Centre",
+          "other_candidate_names": [
+            "Trinity Bay Regional Sports Complex",
+            "Macalister Range Community Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

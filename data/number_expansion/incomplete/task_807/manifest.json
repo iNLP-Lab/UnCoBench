@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_807",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_operations",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Subsea intervention and diving superintendent (SUBOPS)",
+        "Offshore structural safety inspector (STRUCT)"
+      ],
+      "directory": "incomplete/task_807",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUBOPS-SATDIV-MML",
+          "boolean_predicate_id": "A_saturation_diving_system_installed",
+          "boolean_label": "Saturation diving spread installed",
+          "hidden_predicate_id": "A_max_saturation_working_depth",
+          "threshold_label": "Maximum saturation working depth",
+          "threshold_aliases": [
+            "Rated diving depth",
+            "Saturation depth capability"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "m",
+          "partial_record_text": "SUBOPS-SATDIV-MML: Pacific Valiant.Pacific Valiant: Saturation diving spread installed = true .Source: Dive system audit certificate; Scope: Onboard hyperbaric habitat and dive bell launch spread; Measurement: Whether an integrated saturation diving system is installed and commissioned onboard.",
+          "role_name": "Subsea intervention and diving superintendent (SUBOPS)",
+          "candidate_name": "Pacific Valiant",
+          "other_candidate_names": [
+            "Nordic Constructor",
+            "Celtic Supporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "STRUCT-LOADTEST-VLR",
+          "hidden_predicate_id": "A_deck_uniform_load_rating",
+          "threshold_label": "Deck uniform load rating",
+          "threshold_aliases": [
+            "Deck load bearing capacity",
+            "Structural deck strength"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "STRUCT-LOADTEST-VLR: Pacific Valiant.Pacific Valiant: Structural fatigue clearance granted = true .Source: Condition assessment programme survey report; Scope: Vessel primary hull girder and moonpool coaming structures; Measurement: Whether all non-destructive fatigue crack inspections passed without required remedial work.",
+          "role_name": "Offshore structural safety inspector (STRUCT)",
+          "candidate_name": "Pacific Valiant",
+          "other_candidate_names": [
+            "Nordic Constructor",
+            "Celtic Supporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_operations",
+        "structural_safety",
+        "rov_tooling"
+      ],
+      "role_names": [
+        "Subsea intervention and diving superintendent (SUBOPS)",
+        "Offshore structural safety inspector (STRUCT)",
+        "Subsea tooling and ROV operations coordinator (ROVLOG)"
+      ],
+      "directory": "incomplete/task_807",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUBOPS-SATDIV-MML",
+          "boolean_predicate_id": "A_saturation_diving_system_installed",
+          "boolean_label": "Saturation diving spread installed",
+          "hidden_predicate_id": "A_max_saturation_working_depth",
+          "threshold_label": "Maximum saturation working depth",
+          "threshold_aliases": [
+            "Rated diving depth",
+            "Saturation depth capability"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "m",
+          "partial_record_text": "SUBOPS-SATDIV-MML: Pacific Valiant.Pacific Valiant: Saturation diving spread installed = true .Source: Dive system audit certificate; Scope: Onboard hyperbaric habitat and dive bell launch spread; Measurement: Whether an integrated saturation diving system is installed and commissioned onboard.",
+          "role_name": "Subsea intervention and diving superintendent (SUBOPS)",
+          "candidate_name": "Pacific Valiant",
+          "other_candidate_names": [
+            "Nordic Constructor",
+            "Celtic Supporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "STRUCT-LOADTEST-VLR",
+          "hidden_predicate_id": "A_deck_uniform_load_rating",
+          "threshold_label": "Deck uniform load rating",
+          "threshold_aliases": [
+            "Deck load bearing capacity",
+            "Structural deck strength"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "STRUCT-LOADTEST-VLR: Pacific Valiant.Pacific Valiant: Structural fatigue clearance granted = true .Source: Condition assessment programme survey report; Scope: Vessel primary hull girder and moonpool coaming structures; Measurement: Whether all non-destructive fatigue crack inspections passed without required remedial work.",
+          "role_name": "Offshore structural safety inspector (STRUCT)",
+          "candidate_name": "Pacific Valiant",
+          "other_candidate_names": [
+            "Nordic Constructor",
+            "Celtic Supporter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rov_tooling_A",
+          "role_id": "rov_tooling",
+          "candidate_id": "A",
+          "key": "ROVLOG-DECKPAY-WJS",
+          "hidden_predicate_id": "A_permanent_skid_tooling_mass",
+          "threshold_label": "Permanent skid tooling mass",
+          "threshold_aliases": [
+            "Fixed skid mass",
+            "Subsea tooling tare weight"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "t",
+          "partial_record_text": "ROVLOG-DECKPAY-WJS: Pacific Valiant. The record covers Permanent skid tooling mass. Record context: Singapore. Subsea tooling weighbridge manifest; Permanently seafastened ROV launch davits and subsea manifold tooling spreads; Total deadweight mass of fixed mission tooling skids occupying the aft deck.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 800
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Permanent skid tooling mass is at most 800 t.",
+          "role_name": "Subsea tooling and ROV operations coordinator (ROVLOG)",
+          "candidate_name": "Pacific Valiant",
+          "other_candidate_names": [
+            "Nordic Constructor",
+            "Celtic Supporter"
+          ],
+          "context_value": "Singapore",
+          "other_context_values": [
+            "Australia"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

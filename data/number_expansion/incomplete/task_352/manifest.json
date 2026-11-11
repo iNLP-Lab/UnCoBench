@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_352",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_compliance",
+        "carrier_operations"
+      ],
+      "role_names": [
+        "Pharmaceutical quality assurance manager (PQA)",
+        "Transport operations supervisor (TOS)"
+      ],
+      "directory": "incomplete/task_352",
+      "profiles": [
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "PQA-QUAL-J67",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous temperature telemetry enabled",
+          "hidden_predicate_id": "A_excursion_rate",
+          "threshold_label": "Temperature excursion rate",
+          "threshold_aliases": [
+            "Cold chain excursion frequency",
+            "Temperature failure rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ppm",
+          "partial_record_text": "PQA-QUAL-J67: Nordic Polar Express Consortium.Nordic Polar Express Consortium: Continuous temperature telemetry enabled = true .Source: IoT tracking specification sheet; Scope: All line-haul pharmaceutical trailer consignments; Measurement: Status of mandatory real-time automated cellular IoT temperature reporting.Nordic Polar Express Consortium: GDP compliant packaging certification = true .Source: Regulatory compliance certificate; Scope: Candidate packaging validation protocol; Measurement: Formal third-party verification of EU Good Distribution Practice packaging conformity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Temperature excursion rate is at most 40 ppm.",
+          "role_name": "Pharmaceutical quality assurance manager (PQA)",
+          "candidate_name": "Nordic Polar Express Consortium",
+          "other_candidate_names": [
+            "Trans-European CryoRoute Alliance",
+            "Alpine BioFreighters Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_carrier_operations_A",
+          "role_id": "carrier_operations",
+          "candidate_id": "A",
+          "key": "TOS-TRN-OU5",
+          "hidden_predicate_id": "A_base_freight_tariff",
+          "threshold_label": "Agreed base freight tariff",
+          "threshold_aliases": [
+            "Contracted freight rate",
+            "Per-pallet base shipping fee"
+          ],
+          "threshold_value": 410,
+          "threshold_unit": "EUR/pallet",
+          "partial_record_text": "TOS-TRN-OU5: Nordic Polar Express Consortium. The record covers Agreed base freight tariff. Record context: excluding value-added tax. Commercial rate card agreement; Contracted dedicated cross-border lanes; Fixed contract base freight fee charged per standard EUR-pallet.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Agreed base freight tariff is at most 600 EUR/pallet.",
+          "role_name": "Transport operations supervisor (TOS)",
+          "candidate_name": "Nordic Polar Express Consortium",
+          "other_candidate_names": [
+            "Trans-European CryoRoute Alliance",
+            "Alpine BioFreighters Network"
+          ],
+          "context_value": "excluding value-added tax",
+          "other_context_values": [
+            "including value-added tax"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_compliance",
+        "carrier_operations",
+        "freight_procurement"
+      ],
+      "role_names": [
+        "Pharmaceutical quality assurance manager (PQA)",
+        "Transport operations supervisor (TOS)",
+        "Global freight procurement lead (GFP)"
+      ],
+      "directory": "incomplete/task_352",
+      "profiles": [
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "PQA-QUAL-J67",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous temperature telemetry enabled",
+          "hidden_predicate_id": "A_excursion_rate",
+          "threshold_label": "Temperature excursion rate",
+          "threshold_aliases": [
+            "Cold chain excursion frequency",
+            "Temperature failure rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ppm",
+          "partial_record_text": "PQA-QUAL-J67: Nordic Polar Express Consortium.Nordic Polar Express Consortium: Continuous temperature telemetry enabled = true .Source: IoT tracking specification sheet; Scope: All line-haul pharmaceutical trailer consignments; Measurement: Status of mandatory real-time automated cellular IoT temperature reporting.Nordic Polar Express Consortium: GDP compliant packaging certification = true .Source: Regulatory compliance certificate; Scope: Candidate packaging validation protocol; Measurement: Formal third-party verification of EU Good Distribution Practice packaging conformity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Temperature excursion rate is at most 40 ppm.",
+          "role_name": "Pharmaceutical quality assurance manager (PQA)",
+          "candidate_name": "Nordic Polar Express Consortium",
+          "other_candidate_names": [
+            "Trans-European CryoRoute Alliance",
+            "Alpine BioFreighters Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_carrier_operations_A",
+          "role_id": "carrier_operations",
+          "candidate_id": "A",
+          "key": "TOS-TRN-OU5",
+          "hidden_predicate_id": "A_base_freight_tariff",
+          "threshold_label": "Agreed base freight tariff",
+          "threshold_aliases": [
+            "Contracted freight rate",
+            "Per-pallet base shipping fee"
+          ],
+          "threshold_value": 410,
+          "threshold_unit": "EUR/pallet",
+          "partial_record_text": "TOS-TRN-OU5: Nordic Polar Express Consortium. The record covers Agreed base freight tariff. Record context: excluding value-added tax. Commercial rate card agreement; Contracted dedicated cross-border lanes; Fixed contract base freight fee charged per standard EUR-pallet.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Agreed base freight tariff is at most 600 EUR/pallet.",
+          "role_name": "Transport operations supervisor (TOS)",
+          "candidate_name": "Nordic Polar Express Consortium",
+          "other_candidate_names": [
+            "Trans-European CryoRoute Alliance",
+            "Alpine BioFreighters Network"
+          ],
+          "context_value": "excluding value-added tax",
+          "other_context_values": [
+            "including value-added tax"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_freight_procurement_A",
+          "role_id": "freight_procurement",
+          "candidate_id": "A",
+          "key": "GFP-COMM-TI8",
+          "hidden_predicate_id": "A_pallet_volume",
+          "threshold_label": "Contracted pallet volume",
+          "threshold_aliases": [
+            "Quarterly pallet allocation",
+            "Target freight volume"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "pallet",
+          "partial_record_text": "GFP-COMM-TI8: Nordic Polar Express Consortium. The record covers Contracted pallet volume. Master distribution agreement schedule; Contracted quarterly pharmaceutical pallet allocation across all scheduled routes; Committed baseline pallet capacity contracted per quarter.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted pallet volume is at most 3000 pallet.",
+          "role_name": "Global freight procurement lead (GFP)",
+          "candidate_name": "Nordic Polar Express Consortium",
+          "other_candidate_names": [
+            "Trans-European CryoRoute Alliance",
+            "Alpine BioFreighters Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

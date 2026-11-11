@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_197",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_engineer",
+        "structural_engineer"
+      ],
+      "role_names": [
+        "Critical infrastructure supervisor (INFRA)",
+        "Structural engineering assessor (STRUC)"
+      ],
+      "directory": "incomplete/task_197",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineer_A",
+          "role_id": "facilities_engineer",
+          "candidate_id": "A",
+          "key": "INFRA-POWER-S8K",
+          "boolean_predicate_id": "A_backup_power_active",
+          "boolean_label": "Autonomous backup power generation active",
+          "hidden_predicate_id": "A_backup_endurance_hours",
+          "threshold_label": "Autonomous backup power duration",
+          "threshold_aliases": [
+            "Fuel reserve endurance",
+            "Off-grid power run duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "INFRA-POWER-S8K: Cotswold Quarry Deep Storage Facility.Cotswold Quarry Deep Storage Facility: Autonomous backup power generation active = true .Source: Emergency electrical asset registry; Scope: Isolated subterranean diesel-turbine auxiliary power plant; Measurement: Operational readiness state of dedicated off-grid generator system.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous backup power duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Critical infrastructure supervisor (INFRA)",
+          "candidate_name": "Cotswold Quarry Deep Storage Facility",
+          "other_candidate_names": [
+            "Pennine Subterranean Bunker Complex",
+            "Chiltern Hills Strategic Archive Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-SEIS-HX3",
+          "hidden_predicate_id": "A_physical_barrier_rating",
+          "threshold_label": "Perimeter physical barrier rating",
+          "threshold_aliases": [
+            "Vault barrier score",
+            "Physical containment index"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "index",
+          "partial_record_text": "STRUC-SEIS-HX3: Cotswold Quarry Deep Storage Facility.Facility country: United Kingdom.Cotswold Quarry Deep Storage Facility: Seismic isolation dampening certified = true .Source: Structural dynamics engineering register; Scope: Underground vault support pillars and elastomeric bearings; Measurement: Certification confirming elastomer and lead-core dampener installation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 200
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Perimeter physical barrier rating is between 0 index and 200 index, inclusive.",
+          "role_name": "Structural engineering assessor (STRUC)",
+          "candidate_name": "Cotswold Quarry Deep Storage Facility",
+          "other_candidate_names": [
+            "Pennine Subterranean Bunker Complex",
+            "Chiltern Hills Strategic Archive Vault"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_engineer",
+        "structural_engineer",
+        "logistics_coordinator"
+      ],
+      "role_names": [
+        "Critical infrastructure supervisor (INFRA)",
+        "Structural engineering assessor (STRUC)",
+        "Secure transport logistics officer (TRANS)"
+      ],
+      "directory": "incomplete/task_197",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_engineer_A",
+          "role_id": "facilities_engineer",
+          "candidate_id": "A",
+          "key": "INFRA-POWER-S8K",
+          "boolean_predicate_id": "A_backup_power_active",
+          "boolean_label": "Autonomous backup power generation active",
+          "hidden_predicate_id": "A_backup_endurance_hours",
+          "threshold_label": "Autonomous backup power duration",
+          "threshold_aliases": [
+            "Fuel reserve endurance",
+            "Off-grid power run duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "INFRA-POWER-S8K: Cotswold Quarry Deep Storage Facility.Cotswold Quarry Deep Storage Facility: Autonomous backup power generation active = true .Source: Emergency electrical asset registry; Scope: Isolated subterranean diesel-turbine auxiliary power plant; Measurement: Operational readiness state of dedicated off-grid generator system.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous backup power duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Critical infrastructure supervisor (INFRA)",
+          "candidate_name": "Cotswold Quarry Deep Storage Facility",
+          "other_candidate_names": [
+            "Pennine Subterranean Bunker Complex",
+            "Chiltern Hills Strategic Archive Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-SEIS-HX3",
+          "hidden_predicate_id": "A_physical_barrier_rating",
+          "threshold_label": "Perimeter physical barrier rating",
+          "threshold_aliases": [
+            "Vault barrier score",
+            "Physical containment index"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "index",
+          "partial_record_text": "STRUC-SEIS-HX3: Cotswold Quarry Deep Storage Facility.Facility country: United Kingdom.Cotswold Quarry Deep Storage Facility: Seismic isolation dampening certified = true .Source: Structural dynamics engineering register; Scope: Underground vault support pillars and elastomeric bearings; Measurement: Certification confirming elastomer and lead-core dampener installation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 200
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Perimeter physical barrier rating is between 0 index and 200 index, inclusive.",
+          "role_name": "Structural engineering assessor (STRUC)",
+          "candidate_name": "Cotswold Quarry Deep Storage Facility",
+          "other_candidate_names": [
+            "Pennine Subterranean Bunker Complex",
+            "Chiltern Hills Strategic Archive Vault"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordinator_A",
+          "role_id": "logistics_coordinator",
+          "candidate_id": "A",
+          "key": "TRANS-CORR-P9J",
+          "hidden_predicate_id": "A_escort_response_capacity",
+          "threshold_label": "Armed escort response capacity",
+          "threshold_aliases": [
+            "Tactical escort capacity",
+            "Armed response index"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "index",
+          "partial_record_text": "TRANS-CORR-P9J: Cotswold Quarry Deep Storage Facility.Cotswold Quarry Deep Storage Facility: Secure transit corridor cleared = true .Source: Police and transport authority route clearance memo; Scope: Heavy convoy haulage corridor connecting national museum depot to vault intake gate; Measurement: Uncontested multi-agency clearance for armored art transit operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Armed escort response capacity is between 50 index and 110 index, inclusive.",
+          "role_name": "Secure transport logistics officer (TRANS)",
+          "candidate_name": "Cotswold Quarry Deep Storage Facility",
+          "other_candidate_names": [
+            "Pennine Subterranean Bunker Complex",
+            "Chiltern Hills Strategic Archive Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

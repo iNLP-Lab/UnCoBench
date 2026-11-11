@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_688",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cleanroom_engineering",
+        "plant_operations"
+      ],
+      "role_names": [
+        "Cleanroom validation engineer (CLEAN)",
+        "Aseptic operations supervisor (OPS)"
+      ],
+      "directory": "incomplete/task_688",
+      "profiles": [
+        {
+          "record_id": "rec_cleanroom_engineering_A",
+          "role_id": "cleanroom_engineering",
+          "candidate_id": "A",
+          "key": "CLEAN-VAL-KQC",
+          "boolean_predicate_id": "A_particle_monitoring_enabled",
+          "boolean_label": "Continuous airborne particle monitoring enabled",
+          "hidden_predicate_id": "A_viable_particle_count",
+          "threshold_label": "Dynamic viable airborne particulate count",
+          "threshold_aliases": [
+            "Viable colony forming unit level",
+            "Aseptic microbiological recovery"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "CFU/m3",
+          "partial_record_text": "CLEAN-VAL-KQC: Helvetic Biopharma Services.Helvetic Biopharma Services: Continuous airborne particle monitoring enabled = true .Source: Cleanroom SCADA instrumentation status; Scope: Grade A aseptic filling zone; Measurement: Whether real-time laser optical particle counter telemetry is active and logging.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Dynamic viable airborne particulate count is at most 30 CFU/m3.",
+          "role_name": "Cleanroom validation engineer (CLEAN)",
+          "candidate_name": "Helvetic Biopharma Services",
+          "other_candidate_names": [
+            "Alpenline Sterile Formulations",
+            "Rheinfall Parenteral Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_operations_A",
+          "role_id": "plant_operations",
+          "candidate_id": "A",
+          "key": "OPS-ASEPT-ZSS",
+          "hidden_predicate_id": "A_deviation_closure_rate",
+          "threshold_label": "Annual batch deviation resolution rate",
+          "threshold_aliases": [
+            "Deviation closure percentage",
+            "CAPA resolution timeliness"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "OPS-ASEPT-ZSS: Helvetic Biopharma Services.Helvetic Biopharma Services: High-speed vial filling line throughput = 20 kunit/h.Source: Aseptic line qualification summary; Scope: Ten-milliliter sterile vial filling and stoppering line; Measurement: Sustained qualified fill rate in thousands of filled vials per operational hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Annual batch deviation resolution rate is at most 100 %.",
+          "role_name": "Aseptic operations supervisor (OPS)",
+          "candidate_name": "Helvetic Biopharma Services",
+          "other_candidate_names": [
+            "Alpenline Sterile Formulations",
+            "Rheinfall Parenteral Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cleanroom_engineering",
+        "plant_operations",
+        "packaging_engineering"
+      ],
+      "role_names": [
+        "Cleanroom validation engineer (CLEAN)",
+        "Aseptic operations supervisor (OPS)",
+        "Device assembly specialist (PACK)"
+      ],
+      "directory": "incomplete/task_688",
+      "profiles": [
+        {
+          "record_id": "rec_cleanroom_engineering_A",
+          "role_id": "cleanroom_engineering",
+          "candidate_id": "A",
+          "key": "CLEAN-VAL-KQC",
+          "boolean_predicate_id": "A_particle_monitoring_enabled",
+          "boolean_label": "Continuous airborne particle monitoring enabled",
+          "hidden_predicate_id": "A_viable_particle_count",
+          "threshold_label": "Dynamic viable airborne particulate count",
+          "threshold_aliases": [
+            "Viable colony forming unit level",
+            "Aseptic microbiological recovery"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "CFU/m3",
+          "partial_record_text": "CLEAN-VAL-KQC: Helvetic Biopharma Services.Helvetic Biopharma Services: Continuous airborne particle monitoring enabled = true .Source: Cleanroom SCADA instrumentation status; Scope: Grade A aseptic filling zone; Measurement: Whether real-time laser optical particle counter telemetry is active and logging.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Dynamic viable airborne particulate count is at most 30 CFU/m3.",
+          "role_name": "Cleanroom validation engineer (CLEAN)",
+          "candidate_name": "Helvetic Biopharma Services",
+          "other_candidate_names": [
+            "Alpenline Sterile Formulations",
+            "Rheinfall Parenteral Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_operations_A",
+          "role_id": "plant_operations",
+          "candidate_id": "A",
+          "key": "OPS-ASEPT-ZSS",
+          "hidden_predicate_id": "A_deviation_closure_rate",
+          "threshold_label": "Annual batch deviation resolution rate",
+          "threshold_aliases": [
+            "Deviation closure percentage",
+            "CAPA resolution timeliness"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "OPS-ASEPT-ZSS: Helvetic Biopharma Services.Helvetic Biopharma Services: High-speed vial filling line throughput = 20 kunit/h.Source: Aseptic line qualification summary; Scope: Ten-milliliter sterile vial filling and stoppering line; Measurement: Sustained qualified fill rate in thousands of filled vials per operational hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Annual batch deviation resolution rate is at most 100 %.",
+          "role_name": "Aseptic operations supervisor (OPS)",
+          "candidate_name": "Helvetic Biopharma Services",
+          "other_candidate_names": [
+            "Alpenline Sterile Formulations",
+            "Rheinfall Parenteral Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_packaging_engineering_A",
+          "role_id": "packaging_engineering",
+          "candidate_id": "A",
+          "key": "PACK-SYR-4QA",
+          "hidden_predicate_id": "A_syringe_line_capacity",
+          "threshold_label": "Pre-filled syringe assembly line throughput",
+          "threshold_aliases": [
+            "Syringe assembly speed",
+            "Syringe packaging throughput"
+          ],
+          "threshold_value": 11,
+          "threshold_unit": "kunit/h",
+          "partial_record_text": "PACK-SYR-4QA: Helvetic Biopharma Services. The record covers Pre-filled syringe assembly line throughput. Record context: Q1 2026. Secondary device assembly run report; One-milliliter autoinjector and pre-filled syringe robotic assembly line; Sustained qualified assembly rate in thousands of units per operational hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Pre-filled syringe assembly line throughput is at most 30 kunit/h.",
+          "role_name": "Device assembly specialist (PACK)",
+          "candidate_name": "Helvetic Biopharma Services",
+          "other_candidate_names": [
+            "Alpenline Sterile Formulations",
+            "Rheinfall Parenteral Solutions"
+          ],
+          "context_value": "Q1 2026",
+          "other_context_values": [
+            "Q2 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

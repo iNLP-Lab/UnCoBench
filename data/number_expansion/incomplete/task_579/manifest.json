@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_579",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telecom_broadcast",
+        "space_logistics"
+      ],
+      "role_names": [
+        "Media and Telecommunications Agency (MTA)",
+        "Conference Space Logistics Division (CSLD)"
+      ],
+      "directory": "incomplete/task_579",
+      "profiles": [
+        {
+          "record_id": "rec_telecom_broadcast_A",
+          "role_id": "telecom_broadcast",
+          "candidate_id": "A",
+          "key": "MTA-NET-IRY",
+          "boolean_predicate_id": "A_broadcast_fiber_uplink_enabled",
+          "boolean_label": "Dedicated broadcast fiber uplink enabled",
+          "hidden_predicate_id": "A_broadcast_uplink_bandwidth",
+          "threshold_label": "Broadcast uplink bandwidth",
+          "threshold_aliases": [
+            "Dedicated media fiber transmission throughput",
+            "Broadcast uplink data rate"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "Gbps",
+          "partial_record_text": "MTA-NET-IRY: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Dedicated broadcast fiber uplink enabled = true .Source: Telecommunications operations handover manifest; Scope: Main international broadcasting center demarcation racks; Measurement: Operational activation of dark fiber connection terminated at global satellite ground station hubs.",
+          "role_name": "Media and Telecommunications Agency (MTA)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Cascadia Waterfront Exhibition Palace",
+            "Olympic Legacy Congress Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_space_logistics_A",
+          "role_id": "space_logistics",
+          "candidate_id": "A",
+          "key": "CSLD-SPAC-HBL",
+          "hidden_predicate_id": "A_breakout_room_count",
+          "threshold_label": "Heavy breakout room count",
+          "threshold_aliases": [
+            "Dedicated ministerial negotiation suites",
+            "Breakout room inventory"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "rooms",
+          "partial_record_text": "CSLD-SPAC-HBL: Pacific Horizon Convention Centre. The record covers Heavy breakout room count. Floor plan floor inventory report; Enclosed acoustically isolated meeting suites with capacity over 50 delegates; Total number of simultaneous high-security negotiation rooms available for bilateral sessions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Heavy breakout room count is at least 10 rooms.",
+          "role_name": "Conference Space Logistics Division (CSLD)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Cascadia Waterfront Exhibition Palace",
+            "Olympic Legacy Congress Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telecom_broadcast",
+        "space_logistics",
+        "facilities_management"
+      ],
+      "role_names": [
+        "Media and Telecommunications Agency (MTA)",
+        "Conference Space Logistics Division (CSLD)",
+        "Facilities Infrastructure Directorate (FID)"
+      ],
+      "directory": "incomplete/task_579",
+      "profiles": [
+        {
+          "record_id": "rec_telecom_broadcast_A",
+          "role_id": "telecom_broadcast",
+          "candidate_id": "A",
+          "key": "MTA-NET-IRY",
+          "boolean_predicate_id": "A_broadcast_fiber_uplink_enabled",
+          "boolean_label": "Dedicated broadcast fiber uplink enabled",
+          "hidden_predicate_id": "A_broadcast_uplink_bandwidth",
+          "threshold_label": "Broadcast uplink bandwidth",
+          "threshold_aliases": [
+            "Dedicated media fiber transmission throughput",
+            "Broadcast uplink data rate"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "Gbps",
+          "partial_record_text": "MTA-NET-IRY: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Dedicated broadcast fiber uplink enabled = true .Source: Telecommunications operations handover manifest; Scope: Main international broadcasting center demarcation racks; Measurement: Operational activation of dark fiber connection terminated at global satellite ground station hubs.",
+          "role_name": "Media and Telecommunications Agency (MTA)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Cascadia Waterfront Exhibition Palace",
+            "Olympic Legacy Congress Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_space_logistics_A",
+          "role_id": "space_logistics",
+          "candidate_id": "A",
+          "key": "CSLD-SPAC-HBL",
+          "hidden_predicate_id": "A_breakout_room_count",
+          "threshold_label": "Heavy breakout room count",
+          "threshold_aliases": [
+            "Dedicated ministerial negotiation suites",
+            "Breakout room inventory"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "rooms",
+          "partial_record_text": "CSLD-SPAC-HBL: Pacific Horizon Convention Centre. The record covers Heavy breakout room count. Floor plan floor inventory report; Enclosed acoustically isolated meeting suites with capacity over 50 delegates; Total number of simultaneous high-security negotiation rooms available for bilateral sessions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Heavy breakout room count is at least 10 rooms.",
+          "role_name": "Conference Space Logistics Division (CSLD)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Cascadia Waterfront Exhibition Palace",
+            "Olympic Legacy Congress Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_management_A",
+          "role_id": "facilities_management",
+          "candidate_id": "A",
+          "key": "FID-POW-S36",
+          "hidden_predicate_id": "A_gross_auditorium_capacity",
+          "threshold_label": "Gross auditorium seating capacity",
+          "threshold_aliases": [
+            "Nominal plenary hall seating",
+            "Gross auditorium capacity"
+          ],
+          "threshold_value": 2800,
+          "threshold_unit": "seats",
+          "partial_record_text": "FID-POW-S36: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Dual grid power feed installed = true .Source: Electrical utility intertie compliance certificate; Scope: Primary facility transformer vault and feeder lines; Measurement: Presence of physically separated automated transfer switchgear linked to two independent utility sub-grids.",
+          "role_name": "Facilities Infrastructure Directorate (FID)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Cascadia Waterfront Exhibition Palace",
+            "Olympic Legacy Congress Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

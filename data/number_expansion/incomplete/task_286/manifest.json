@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_286",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "acoustics_specialist",
+        "vessel_superintendent"
+      ],
+      "role_names": [
+        "Subsea acoustics specialist (ACS)",
+        "Marine vessel operations superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_286",
+      "profiles": [
+        {
+          "record_id": "rec_acoustics_specialist_A",
+          "role_id": "acoustics_specialist",
+          "candidate_id": "A",
+          "key": "ACS-USBL-UE0",
+          "boolean_predicate_id": "A_transponder_tracking_enabled",
+          "boolean_label": "Active acoustic transponder tracking enabled",
+          "hidden_predicate_id": "A_positioning_uncertainty",
+          "threshold_label": "Subsea vehicle positioning uncertainty",
+          "threshold_aliases": [
+            "Acoustic tracking error margin",
+            "Positioning error radius"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "ACS-USBL-UE0: Autonomous underwater vehicle acoustic sweep.Autonomous underwater vehicle acoustic sweep: Active acoustic transponder tracking enabled = true .Source: Subsea acoustic telemetry configuration log; Scope: Candidate subsea vehicle navigation package; Measurement: Hardware switch status enabling continuous ultra-short baseline acoustic beacon tracking.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Subsea vehicle positioning uncertainty is at most 4 m.",
+          "role_name": "Subsea acoustics specialist (ACS)",
+          "candidate_name": "Autonomous underwater vehicle acoustic sweep",
+          "other_candidate_names": [
+            "Tethered work-class ROV trench inspection",
+            "Towed synthetic aperture sonar sled"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_superintendent_A",
+          "role_id": "vessel_superintendent",
+          "candidate_id": "A",
+          "key": "OPS-NAV-5IA",
+          "hidden_predicate_id": "A_transit_maintenance_hours",
+          "threshold_label": "Transit and maintenance downtime hours",
+          "threshold_aliases": [
+            "Non-productive vessel transit and servicing hours",
+            "ROV servicing downtime"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-NAV-5IA: Autonomous underwater vehicle acoustic sweep.Autonomous underwater vehicle acoustic sweep: Vessel dynamic positioning certified = true .Source: Maritime classification society annual audit; Scope: Dedicated survey mother vessel; Measurement: Verification that dynamic positioning systems meet Class 2 station-keeping standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Transit and maintenance downtime hours is at most 40 h.",
+          "role_name": "Marine vessel operations superintendent (OPS)",
+          "candidate_name": "Autonomous underwater vehicle acoustic sweep",
+          "other_candidate_names": [
+            "Tethered work-class ROV trench inspection",
+            "Towed synthetic aperture sonar sled"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "acoustics_specialist",
+        "vessel_superintendent",
+        "geotechnical_engineer"
+      ],
+      "role_names": [
+        "Subsea acoustics specialist (ACS)",
+        "Marine vessel operations superintendent (OPS)",
+        "Marine geotechnical engineer (GEO)"
+      ],
+      "directory": "incomplete/task_286",
+      "profiles": [
+        {
+          "record_id": "rec_acoustics_specialist_A",
+          "role_id": "acoustics_specialist",
+          "candidate_id": "A",
+          "key": "ACS-USBL-UE0",
+          "boolean_predicate_id": "A_transponder_tracking_enabled",
+          "boolean_label": "Active acoustic transponder tracking enabled",
+          "hidden_predicate_id": "A_positioning_uncertainty",
+          "threshold_label": "Subsea vehicle positioning uncertainty",
+          "threshold_aliases": [
+            "Acoustic tracking error margin",
+            "Positioning error radius"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "ACS-USBL-UE0: Autonomous underwater vehicle acoustic sweep.Autonomous underwater vehicle acoustic sweep: Active acoustic transponder tracking enabled = true .Source: Subsea acoustic telemetry configuration log; Scope: Candidate subsea vehicle navigation package; Measurement: Hardware switch status enabling continuous ultra-short baseline acoustic beacon tracking.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Subsea vehicle positioning uncertainty is at most 4 m.",
+          "role_name": "Subsea acoustics specialist (ACS)",
+          "candidate_name": "Autonomous underwater vehicle acoustic sweep",
+          "other_candidate_names": [
+            "Tethered work-class ROV trench inspection",
+            "Towed synthetic aperture sonar sled"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_superintendent_A",
+          "role_id": "vessel_superintendent",
+          "candidate_id": "A",
+          "key": "OPS-NAV-5IA",
+          "hidden_predicate_id": "A_transit_maintenance_hours",
+          "threshold_label": "Transit and maintenance downtime hours",
+          "threshold_aliases": [
+            "Non-productive vessel transit and servicing hours",
+            "ROV servicing downtime"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-NAV-5IA: Autonomous underwater vehicle acoustic sweep.Autonomous underwater vehicle acoustic sweep: Vessel dynamic positioning certified = true .Source: Maritime classification society annual audit; Scope: Dedicated survey mother vessel; Measurement: Verification that dynamic positioning systems meet Class 2 station-keeping standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Transit and maintenance downtime hours is at most 40 h.",
+          "role_name": "Marine vessel operations superintendent (OPS)",
+          "candidate_name": "Autonomous underwater vehicle acoustic sweep",
+          "other_candidate_names": [
+            "Tethered work-class ROV trench inspection",
+            "Towed synthetic aperture sonar sled"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_engineer_A",
+          "role_id": "geotechnical_engineer",
+          "candidate_id": "A",
+          "key": "GEO-TRENCH-VSJ",
+          "hidden_predicate_id": "A_trench_scanning_hours",
+          "threshold_label": "High-resolution trench scanning hours",
+          "threshold_aliases": [
+            "Trench inspection scanning duration",
+            "Sub-bottom acoustic profiling hours"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "h",
+          "partial_record_text": "GEO-TRENCH-VSJ: Autonomous underwater vehicle acoustic sweep.Scanning duration accounting basis: excluding sensor calibration passes.Autonomous underwater vehicle acoustic sweep: Seabed geotechnical permit cleared = true .Source: Marine seabed regulator approval certificate; Scope: Seabed trench fault localization boundary; Measurement: Regulatory validation allowing acoustic bottom trenching inspection.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "High-resolution trench scanning hours is at most 100 h.",
+          "role_name": "Marine geotechnical engineer (GEO)",
+          "candidate_name": "Autonomous underwater vehicle acoustic sweep",
+          "other_candidate_names": [
+            "Tethered work-class ROV trench inspection",
+            "Towed synthetic aperture sonar sled"
+          ],
+          "context_value": "excluding sensor calibration passes",
+          "other_context_values": [
+            "including sensor calibration passes"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

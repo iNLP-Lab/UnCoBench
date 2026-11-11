@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_240",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "structural_surveyor"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Offshore structural cargo surveyor (STRUC)"
+      ],
+      "directory": "incomplete/task_240",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-BIOSEC-IQ2",
+          "boolean_predicate_id": "A_ballast_treatment_active",
+          "boolean_label": "Active ballast water management system status",
+          "hidden_predicate_id": "A_ballast_pump_capacity",
+          "threshold_label": "Ballast water pump rated capacity",
+          "threshold_aliases": [
+            "Ballast pumping rate",
+            "De-ballasting discharge capacity"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "ENV-BIOSEC-IQ2: Boreas Offshore Heavy Lift.Boreas Offshore Heavy Lift: Active ballast water management system status = true .Source: International Ballast Water Management certificate; Scope: Candidate onboard type-approved ballast water treatment installation; Measurement: Presence of an active and commissioned ballast water treatment unit.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Boreas Offshore Heavy Lift",
+          "other_candidate_names": [
+            "Nordic Pelagic Transporter",
+            "Caledonian Oceanic Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_surveyor_A",
+          "role_id": "structural_surveyor",
+          "candidate_id": "A",
+          "key": "STRUC-DECK-XC2",
+          "hidden_predicate_id": "A_deck_bearing_capacity",
+          "threshold_label": "Reinforced deck load bearing capacity",
+          "threshold_aliases": [
+            "Cargo deck uniform loading strength",
+            "Deck structural load rating"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "STRUC-DECK-XC2: Boreas Offshore Heavy Lift.Boreas Offshore Heavy Lift: Standby dynamic positioning fuel consumption = 75.5 t.Source: Field installation station-keeping power simulation; Scope: Projected 72-hour offshore module transfer window under sea-state 4 conditions; Measurement: Total fuel mass consumed by thrusters and generators during dynamic positioning.",
+          "role_name": "Offshore structural cargo surveyor (STRUC)",
+          "candidate_name": "Boreas Offshore Heavy Lift",
+          "other_candidate_names": [
+            "Nordic Pelagic Transporter",
+            "Caledonian Oceanic Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "structural_surveyor",
+        "technical_superintendent"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Offshore structural cargo surveyor (STRUC)",
+        "Marine technical superintendent (TECH)"
+      ],
+      "directory": "incomplete/task_240",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-BIOSEC-IQ2",
+          "boolean_predicate_id": "A_ballast_treatment_active",
+          "boolean_label": "Active ballast water management system status",
+          "hidden_predicate_id": "A_ballast_pump_capacity",
+          "threshold_label": "Ballast water pump rated capacity",
+          "threshold_aliases": [
+            "Ballast pumping rate",
+            "De-ballasting discharge capacity"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "ENV-BIOSEC-IQ2: Boreas Offshore Heavy Lift.Boreas Offshore Heavy Lift: Active ballast water management system status = true .Source: International Ballast Water Management certificate; Scope: Candidate onboard type-approved ballast water treatment installation; Measurement: Presence of an active and commissioned ballast water treatment unit.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Boreas Offshore Heavy Lift",
+          "other_candidate_names": [
+            "Nordic Pelagic Transporter",
+            "Caledonian Oceanic Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_surveyor_A",
+          "role_id": "structural_surveyor",
+          "candidate_id": "A",
+          "key": "STRUC-DECK-XC2",
+          "hidden_predicate_id": "A_deck_bearing_capacity",
+          "threshold_label": "Reinforced deck load bearing capacity",
+          "threshold_aliases": [
+            "Cargo deck uniform loading strength",
+            "Deck structural load rating"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "STRUC-DECK-XC2: Boreas Offshore Heavy Lift.Boreas Offshore Heavy Lift: Standby dynamic positioning fuel consumption = 75.5 t.Source: Field installation station-keeping power simulation; Scope: Projected 72-hour offshore module transfer window under sea-state 4 conditions; Measurement: Total fuel mass consumed by thrusters and generators during dynamic positioning.",
+          "role_name": "Offshore structural cargo surveyor (STRUC)",
+          "candidate_name": "Boreas Offshore Heavy Lift",
+          "other_candidate_names": [
+            "Nordic Pelagic Transporter",
+            "Caledonian Oceanic Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_technical_superintendent_A",
+          "role_id": "technical_superintendent",
+          "candidate_id": "A",
+          "key": "TECH-CLASS-0O0",
+          "hidden_predicate_id": "A_transit_fuel_consumption",
+          "threshold_label": "Transit voyage fuel consumption",
+          "threshold_aliases": [
+            "Voyage transit fuel burn",
+            "Transit heavy fuel consumption"
+          ],
+          "threshold_value": 245.0,
+          "threshold_unit": "t",
+          "partial_record_text": "TECH-CLASS-0O0: Boreas Offshore Heavy Lift.Boreas Offshore Heavy Lift: Dynamic positioning class 2 certification = true .Source: Classification society vessel certificate; Scope: Candidate automated station-keeping redundancy systems; Measurement: Confirmation of valid class notation for redundant dynamic positioning.",
+          "role_name": "Marine technical superintendent (TECH)",
+          "candidate_name": "Boreas Offshore Heavy Lift",
+          "other_candidate_names": [
+            "Nordic Pelagic Transporter",
+            "Caledonian Oceanic Logistics"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_960",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "safety_assurance"
+      ],
+      "role_names": [
+        "Environmental Compliance Lead (ENV)",
+        "HSE Assurance Director (HSE)"
+      ],
+      "directory": "incomplete/task_960",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ACOUST-MGO",
+          "boolean_predicate_id": "A_underwater_noise_mitigation_active",
+          "boolean_label": "Underwater noise mitigation system active",
+          "hidden_predicate_id": "A_hydroacoustic_peak_noise_level",
+          "threshold_label": "Hydroacoustic peak sound level",
+          "threshold_aliases": [
+            "Peak sound pressure level",
+            "Pile driving peak noise"
+          ],
+          "threshold_value": 164,
+          "threshold_unit": "dB",
+          "partial_record_text": "ENV-ACOUST-MGO: Nordic Heavy Marine Alliance.Nordic Heavy Marine Alliance: Underwater noise mitigation system active = true .Source: Environmental permit execution checklist; Scope: Foundation pile driving spread; Measurement: Deployment and operational enablement of secondary compressed-air bubble curtain.",
+          "role_name": "Environmental Compliance Lead (ENV)",
+          "candidate_name": "Nordic Heavy Marine Alliance",
+          "other_candidate_names": [
+            "Barents Offshore Construction",
+            "Zephyr Subsea Infrastructure"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_assurance_A",
+          "role_id": "safety_assurance",
+          "candidate_id": "A",
+          "key": "HSE-SAFETY-XQB",
+          "hidden_predicate_id": "A_total_recordable_incident_rate",
+          "threshold_label": "Total recordable incident rate",
+          "threshold_aliases": [
+            "TRIR",
+            "Contractor safety rate"
+          ],
+          "threshold_value": 1.62,
+          "threshold_unit": "incidents/million_hours",
+          "partial_record_text": "HSE-SAFETY-XQB: Nordic Heavy Marine Alliance. The record covers Total recordable incident rate. IMCA HSE audit report; Consortium offshore operations during the preceding 36 months; Total recordable personal injuries multiplied by one million and divided by offshore exposure hours.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1.15,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Total recordable incident rate is at least 1.15 incidents/million_hours.",
+          "role_name": "HSE Assurance Director (HSE)",
+          "candidate_name": "Nordic Heavy Marine Alliance",
+          "other_candidate_names": [
+            "Barents Offshore Construction",
+            "Zephyr Subsea Infrastructure"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "safety_assurance",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Environmental Compliance Lead (ENV)",
+        "HSE Assurance Director (HSE)",
+        "Marine Engineering Superintendent (ENG)"
+      ],
+      "directory": "incomplete/task_960",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ACOUST-MGO",
+          "boolean_predicate_id": "A_underwater_noise_mitigation_active",
+          "boolean_label": "Underwater noise mitigation system active",
+          "hidden_predicate_id": "A_hydroacoustic_peak_noise_level",
+          "threshold_label": "Hydroacoustic peak sound level",
+          "threshold_aliases": [
+            "Peak sound pressure level",
+            "Pile driving peak noise"
+          ],
+          "threshold_value": 164,
+          "threshold_unit": "dB",
+          "partial_record_text": "ENV-ACOUST-MGO: Nordic Heavy Marine Alliance.Nordic Heavy Marine Alliance: Underwater noise mitigation system active = true .Source: Environmental permit execution checklist; Scope: Foundation pile driving spread; Measurement: Deployment and operational enablement of secondary compressed-air bubble curtain.",
+          "role_name": "Environmental Compliance Lead (ENV)",
+          "candidate_name": "Nordic Heavy Marine Alliance",
+          "other_candidate_names": [
+            "Barents Offshore Construction",
+            "Zephyr Subsea Infrastructure"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_assurance_A",
+          "role_id": "safety_assurance",
+          "candidate_id": "A",
+          "key": "HSE-SAFETY-XQB",
+          "hidden_predicate_id": "A_total_recordable_incident_rate",
+          "threshold_label": "Total recordable incident rate",
+          "threshold_aliases": [
+            "TRIR",
+            "Contractor safety rate"
+          ],
+          "threshold_value": 1.62,
+          "threshold_unit": "incidents/million_hours",
+          "partial_record_text": "HSE-SAFETY-XQB: Nordic Heavy Marine Alliance. The record covers Total recordable incident rate. IMCA HSE audit report; Consortium offshore operations during the preceding 36 months; Total recordable personal injuries multiplied by one million and divided by offshore exposure hours.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1.15,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Total recordable incident rate is at least 1.15 incidents/million_hours.",
+          "role_name": "HSE Assurance Director (HSE)",
+          "candidate_name": "Nordic Heavy Marine Alliance",
+          "other_candidate_names": [
+            "Barents Offshore Construction",
+            "Zephyr Subsea Infrastructure"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-VESSEL-IH7",
+          "hidden_predicate_id": "A_crane_safe_working_load",
+          "threshold_label": "Main crane safe working load",
+          "threshold_aliases": [
+            "Heavy-lift crane capacity",
+            "SWL"
+          ],
+          "threshold_value": 3200,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-VESSEL-IH7: Nordic Heavy Marine Alliance.Nordic Heavy Marine Alliance: Dynamic positioning system certified = true .Source: IMO vessel survey register; Scope: Lead foundation installation vessel; Measurement: Valid class notation for DP-3 redundant station-keeping system.",
+          "role_name": "Marine Engineering Superintendent (ENG)",
+          "candidate_name": "Nordic Heavy Marine Alliance",
+          "other_candidate_names": [
+            "Barents Offshore Construction",
+            "Zephyr Subsea Infrastructure"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_901",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryogenic_systems",
+        "power_infrastructure"
+      ],
+      "role_names": [
+        "Cryogenic Systems Engineering Lead (CRYO)",
+        "Emergency Power Infrastructure Lead (POWR)"
+      ],
+      "directory": "incomplete/task_901",
+      "profiles": [
+        {
+          "record_id": "rec_cryogenic_systems_A",
+          "role_id": "cryogenic_systems",
+          "candidate_id": "A",
+          "key": "CRYO-REFRIG-CE0",
+          "boolean_predicate_id": "A_vaporization_containment_active",
+          "boolean_label": "Vaporization containment system enabled",
+          "hidden_predicate_id": "A_redundant_chiller_loops",
+          "threshold_label": "Independent mechanical chiller loops",
+          "threshold_aliases": [
+            "Redundant chiller loop count",
+            "Chiller loop count"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "loops",
+          "partial_record_text": "CRYO-REFRIG-CE0: Subterranean Granite Cryo-Vault.Subterranean Granite Cryo-Vault: Vaporization containment system enabled = true .Source: Cryogenic hazard mitigation registry; Scope: Liquid nitrogen storage and distribution conduits; Measurement: Active engagement status of automated emergency boil-off capture system.Subterranean Granite Cryo-Vault: Liquid nitrogen refrigeration annual maintenance cost = 90 kEUR.Source: Bulk liquid supply maintenance agreement; Scope: Vacuum-jacketed bulk liquid nitrogen tanks and valve manifolds; Measurement: Annual contracted service and pressure vessel certification charge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Independent mechanical chiller loops is at most 5 loops.",
+          "role_name": "Cryogenic Systems Engineering Lead (CRYO)",
+          "candidate_name": "Subterranean Granite Cryo-Vault",
+          "other_candidate_names": [
+            "Mont-Blanc Deep Bedrock Repository",
+            "Jura Shield Biosafety Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_infrastructure_A",
+          "role_id": "power_infrastructure",
+          "candidate_id": "A",
+          "key": "POWR-GENSET-078",
+          "hidden_predicate_id": "A_emergency_diesel_runtime",
+          "threshold_label": "On-site emergency fuel autonomy",
+          "threshold_aliases": [
+            "Emergency generator runtime",
+            "Standby diesel autonomy duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "POWR-GENSET-078: Subterranean Granite Cryo-Vault.Subterranean Granite Cryo-Vault: Automatic transfer switch transfer latency = 15 s.Source: Switchgear commissioning test log; Scope: Grid loss automatic transfer switchgear; Measurement: Duration from grid power interruption until critical bus restoration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "On-site emergency fuel autonomy is at most 300 h.",
+          "role_name": "Emergency Power Infrastructure Lead (POWR)",
+          "candidate_name": "Subterranean Granite Cryo-Vault",
+          "other_candidate_names": [
+            "Mont-Blanc Deep Bedrock Repository",
+            "Jura Shield Biosafety Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryogenic_systems",
+        "power_infrastructure",
+        "plant_operations"
+      ],
+      "role_names": [
+        "Cryogenic Systems Engineering Lead (CRYO)",
+        "Emergency Power Infrastructure Lead (POWR)",
+        "Facility Plant Operations Director (PLNT)"
+      ],
+      "directory": "incomplete/task_901",
+      "profiles": [
+        {
+          "record_id": "rec_cryogenic_systems_A",
+          "role_id": "cryogenic_systems",
+          "candidate_id": "A",
+          "key": "CRYO-REFRIG-CE0",
+          "boolean_predicate_id": "A_vaporization_containment_active",
+          "boolean_label": "Vaporization containment system enabled",
+          "hidden_predicate_id": "A_redundant_chiller_loops",
+          "threshold_label": "Independent mechanical chiller loops",
+          "threshold_aliases": [
+            "Redundant chiller loop count",
+            "Chiller loop count"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "loops",
+          "partial_record_text": "CRYO-REFRIG-CE0: Subterranean Granite Cryo-Vault.Subterranean Granite Cryo-Vault: Vaporization containment system enabled = true .Source: Cryogenic hazard mitigation registry; Scope: Liquid nitrogen storage and distribution conduits; Measurement: Active engagement status of automated emergency boil-off capture system.Subterranean Granite Cryo-Vault: Liquid nitrogen refrigeration annual maintenance cost = 90 kEUR.Source: Bulk liquid supply maintenance agreement; Scope: Vacuum-jacketed bulk liquid nitrogen tanks and valve manifolds; Measurement: Annual contracted service and pressure vessel certification charge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Independent mechanical chiller loops is at most 5 loops.",
+          "role_name": "Cryogenic Systems Engineering Lead (CRYO)",
+          "candidate_name": "Subterranean Granite Cryo-Vault",
+          "other_candidate_names": [
+            "Mont-Blanc Deep Bedrock Repository",
+            "Jura Shield Biosafety Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_infrastructure_A",
+          "role_id": "power_infrastructure",
+          "candidate_id": "A",
+          "key": "POWR-GENSET-078",
+          "hidden_predicate_id": "A_emergency_diesel_runtime",
+          "threshold_label": "On-site emergency fuel autonomy",
+          "threshold_aliases": [
+            "Emergency generator runtime",
+            "Standby diesel autonomy duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "POWR-GENSET-078: Subterranean Granite Cryo-Vault.Subterranean Granite Cryo-Vault: Automatic transfer switch transfer latency = 15 s.Source: Switchgear commissioning test log; Scope: Grid loss automatic transfer switchgear; Measurement: Duration from grid power interruption until critical bus restoration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "On-site emergency fuel autonomy is at most 300 h.",
+          "role_name": "Emergency Power Infrastructure Lead (POWR)",
+          "candidate_name": "Subterranean Granite Cryo-Vault",
+          "other_candidate_names": [
+            "Mont-Blanc Deep Bedrock Repository",
+            "Jura Shield Biosafety Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_operations_A",
+          "role_id": "plant_operations",
+          "candidate_id": "A",
+          "key": "PLNT-OPER-J3Z",
+          "hidden_predicate_id": "A_mechanical_chiller_maint_cost",
+          "threshold_label": "Mechanical chiller annual maintenance cost",
+          "threshold_aliases": [
+            "Mechanical chiller maintenance cost",
+            "Chiller plant servicing fee"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "kEUR",
+          "partial_record_text": "PLNT-OPER-J3Z: Subterranean Granite Cryo-Vault. The record covers Mechanical chiller annual maintenance cost. Record context: Fiscal Year 2025. Annual plant servicing schedule; Primary cascade mechanical refrigeration units; Annual baseline preventive overhaul and compressor maintenance fee.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mechanical chiller annual maintenance cost is at most 400 kEUR.",
+          "role_name": "Facility Plant Operations Director (PLNT)",
+          "candidate_name": "Subterranean Granite Cryo-Vault",
+          "other_candidate_names": [
+            "Mont-Blanc Deep Bedrock Repository",
+            "Jura Shield Biosafety Archive"
+          ],
+          "context_value": "Fiscal Year 2025",
+          "other_context_values": [
+            "Fiscal Year 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_612",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics_lead",
+        "power_systems_lead"
+      ],
+      "role_names": [
+        "Geophysics and seismic monitoring lead (GEO)",
+        "Autonomous microgrid systems lead (PWR)"
+      ],
+      "directory": "incomplete/task_612",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_lead_A",
+          "role_id": "geophysics_lead",
+          "candidate_id": "A",
+          "key": "GEO-SEISM-U1B",
+          "boolean_predicate_id": "A_broadband_seismometer_deployed",
+          "boolean_label": "Broadband seismometer array deployed",
+          "hidden_predicate_id": "A_telemetry_transmission_latency",
+          "threshold_label": "Telemetry transmission latency",
+          "threshold_aliases": [
+            "Seismic packet latency",
+            "Data transmission delay"
+          ],
+          "threshold_value": 410,
+          "threshold_unit": "ms",
+          "partial_record_text": "GEO-SEISM-U1B: Punta del Viento Ridge Station.Punta del Viento Ridge Station: Broadband seismometer array deployed = true .Source: Geophysical installation logbook; Scope: Three-component triaxial broadband sensor vault; Measurement: Confirmation of active vault coupling and operational sensor deployment.",
+          "role_name": "Geophysics and seismic monitoring lead (GEO)",
+          "candidate_name": "Punta del Viento Ridge Station",
+          "other_candidate_names": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "PWR-SOLAR-W55",
+          "hidden_predicate_id": "A_battery_autonomy_duration",
+          "threshold_label": "Battery autonomy duration",
+          "threshold_aliases": [
+            "Autonomous power endurance",
+            "Zero-recharge battery reserve"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-SOLAR-W55: Punta del Viento Ridge Station.Parasitic load accounting basis: net output after auxiliary parasitic load deductions.Punta del Viento Ridge Station: Primary solar-hydrogen microgrid daily yield = 44 kWh.Source: Photovoltaic and fuel-cell telemetry report; Scope: Standard mid-winter 24-hour cycle at high altitude; Measurement: Net electrical energy delivered to the primary station distribution bus.",
+          "role_name": "Autonomous microgrid systems lead (PWR)",
+          "candidate_name": "Punta del Viento Ridge Station",
+          "other_candidate_names": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "context_value": "net output after auxiliary parasitic load deductions",
+          "other_context_values": [
+            "gross output before auxiliary parasitic load deductions"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics_lead",
+        "power_systems_lead",
+        "geothermal_lead"
+      ],
+      "role_names": [
+        "Geophysics and seismic monitoring lead (GEO)",
+        "Autonomous microgrid systems lead (PWR)",
+        "Auxiliary thermoelectric systems lead (THERM)"
+      ],
+      "directory": "incomplete/task_612",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_lead_A",
+          "role_id": "geophysics_lead",
+          "candidate_id": "A",
+          "key": "GEO-SEISM-U1B",
+          "boolean_predicate_id": "A_broadband_seismometer_deployed",
+          "boolean_label": "Broadband seismometer array deployed",
+          "hidden_predicate_id": "A_telemetry_transmission_latency",
+          "threshold_label": "Telemetry transmission latency",
+          "threshold_aliases": [
+            "Seismic packet latency",
+            "Data transmission delay"
+          ],
+          "threshold_value": 410,
+          "threshold_unit": "ms",
+          "partial_record_text": "GEO-SEISM-U1B: Punta del Viento Ridge Station.Punta del Viento Ridge Station: Broadband seismometer array deployed = true .Source: Geophysical installation logbook; Scope: Three-component triaxial broadband sensor vault; Measurement: Confirmation of active vault coupling and operational sensor deployment.",
+          "role_name": "Geophysics and seismic monitoring lead (GEO)",
+          "candidate_name": "Punta del Viento Ridge Station",
+          "other_candidate_names": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "PWR-SOLAR-W55",
+          "hidden_predicate_id": "A_battery_autonomy_duration",
+          "threshold_label": "Battery autonomy duration",
+          "threshold_aliases": [
+            "Autonomous power endurance",
+            "Zero-recharge battery reserve"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-SOLAR-W55: Punta del Viento Ridge Station.Parasitic load accounting basis: net output after auxiliary parasitic load deductions.Punta del Viento Ridge Station: Primary solar-hydrogen microgrid daily yield = 44 kWh.Source: Photovoltaic and fuel-cell telemetry report; Scope: Standard mid-winter 24-hour cycle at high altitude; Measurement: Net electrical energy delivered to the primary station distribution bus.",
+          "role_name": "Autonomous microgrid systems lead (PWR)",
+          "candidate_name": "Punta del Viento Ridge Station",
+          "other_candidate_names": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "context_value": "net output after auxiliary parasitic load deductions",
+          "other_context_values": [
+            "gross output before auxiliary parasitic load deductions"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geothermal_lead_A",
+          "role_id": "geothermal_lead",
+          "candidate_id": "A",
+          "key": "THERM-TEG-56H",
+          "hidden_predicate_id": "A_thermoelectric_daily_yield",
+          "threshold_label": "Thermoelectric generator daily yield",
+          "threshold_aliases": [
+            "Volcanic ground-heat generator daily yield",
+            "Thermoelectric auxiliary daily output"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "kWh",
+          "partial_record_text": "THERM-TEG-56H: Punta del Viento Ridge Station.Punta del Viento Ridge Station: Certified volcanic heat exchanger = true .Source: Metallurgical pressure vessel inspection certificate; Scope: Acid-resistant nickel-alloy geothermal heat pipe exchanger; Measurement: Formal validation of sulfur gas corrosion resistance and structural integrity.",
+          "role_name": "Auxiliary thermoelectric systems lead (THERM)",
+          "candidate_name": "Punta del Viento Ridge Station",
+          "other_candidate_names": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

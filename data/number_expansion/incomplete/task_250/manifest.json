@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_250",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations_command",
+        "receiving_trauma_network"
+      ],
+      "role_names": [
+        "Flight Operations Commander (FOC)",
+        "Receiving Trauma Network Officer (RTN)"
+      ],
+      "directory": "incomplete/task_250",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_command_A",
+          "role_id": "flight_operations_command",
+          "candidate_id": "A",
+          "key": "FOC-AVCLR-VHC",
+          "boolean_predicate_id": "A_instrument_departure_approved",
+          "boolean_label": "Instrument meteorological departure approved",
+          "hidden_predicate_id": "A_terrain_clearance_margin",
+          "threshold_label": "En-route terrain clearance margin",
+          "threshold_aliases": [
+            "Vertical obstacle separation",
+            "Minimum mountain terrain clearance"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "m",
+          "partial_record_text": "FOC-AVCLR-VHC: Fraser Canyon Skyway.Fraser Canyon Skyway: Instrument meteorological departure approved = true .Source: Flight dispatch clearance docket; Scope: Corridor terminal airspace segment; Measurement: Verification that published low-visibility instrument departure procedures are activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "coarse_statement": "En-route terrain clearance margin is at most 900 m.",
+          "role_name": "Flight Operations Commander (FOC)",
+          "candidate_name": "Fraser Canyon Skyway",
+          "other_candidate_names": [
+            "Coquihalla Mountain Corridor",
+            "Okanagan Highland Transit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_receiving_trauma_network_A",
+          "role_id": "receiving_trauma_network",
+          "candidate_id": "A",
+          "key": "RTN-TRREC-0XO",
+          "hidden_predicate_id": "A_seated_triage_capacity",
+          "threshold_label": "Seated triage patient capacity",
+          "threshold_aliases": [
+            "Ambulatory casualty capacity",
+            "Seated triage patient positions"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "person",
+          "partial_record_text": "RTN-TRREC-0XO: Fraser Canyon Skyway.Fraser Canyon Skyway: Dedicated trauma resuscitation bay reserved = true .Source: Hospital emergency department bed board; Scope: Designated Level 1 receiving trauma center; Measurement: Confirmation that an advanced resuscitation bay is held vacant exclusively for inbound airlift arrivals.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Seated triage patient capacity is at most 30 person.",
+          "role_name": "Receiving Trauma Network Officer (RTN)",
+          "candidate_name": "Fraser Canyon Skyway",
+          "other_candidate_names": [
+            "Coquihalla Mountain Corridor",
+            "Okanagan Highland Transit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations_command",
+        "receiving_trauma_network",
+        "emergency_medical_dispatch"
+      ],
+      "role_names": [
+        "Flight Operations Commander (FOC)",
+        "Receiving Trauma Network Officer (RTN)",
+        "Emergency Medical Dispatch Director (EMD)"
+      ],
+      "directory": "incomplete/task_250",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_command_A",
+          "role_id": "flight_operations_command",
+          "candidate_id": "A",
+          "key": "FOC-AVCLR-VHC",
+          "boolean_predicate_id": "A_instrument_departure_approved",
+          "boolean_label": "Instrument meteorological departure approved",
+          "hidden_predicate_id": "A_terrain_clearance_margin",
+          "threshold_label": "En-route terrain clearance margin",
+          "threshold_aliases": [
+            "Vertical obstacle separation",
+            "Minimum mountain terrain clearance"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "m",
+          "partial_record_text": "FOC-AVCLR-VHC: Fraser Canyon Skyway.Fraser Canyon Skyway: Instrument meteorological departure approved = true .Source: Flight dispatch clearance docket; Scope: Corridor terminal airspace segment; Measurement: Verification that published low-visibility instrument departure procedures are activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "coarse_statement": "En-route terrain clearance margin is at most 900 m.",
+          "role_name": "Flight Operations Commander (FOC)",
+          "candidate_name": "Fraser Canyon Skyway",
+          "other_candidate_names": [
+            "Coquihalla Mountain Corridor",
+            "Okanagan Highland Transit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_receiving_trauma_network_A",
+          "role_id": "receiving_trauma_network",
+          "candidate_id": "A",
+          "key": "RTN-TRREC-0XO",
+          "hidden_predicate_id": "A_seated_triage_capacity",
+          "threshold_label": "Seated triage patient capacity",
+          "threshold_aliases": [
+            "Ambulatory casualty capacity",
+            "Seated triage patient positions"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "person",
+          "partial_record_text": "RTN-TRREC-0XO: Fraser Canyon Skyway.Fraser Canyon Skyway: Dedicated trauma resuscitation bay reserved = true .Source: Hospital emergency department bed board; Scope: Designated Level 1 receiving trauma center; Measurement: Confirmation that an advanced resuscitation bay is held vacant exclusively for inbound airlift arrivals.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Seated triage patient capacity is at most 30 person.",
+          "role_name": "Receiving Trauma Network Officer (RTN)",
+          "candidate_name": "Fraser Canyon Skyway",
+          "other_candidate_names": [
+            "Coquihalla Mountain Corridor",
+            "Okanagan Highland Transit Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_dispatch_A",
+          "role_id": "emergency_medical_dispatch",
+          "candidate_id": "A",
+          "key": "EMD-MEDEVAC-JA5",
+          "hidden_predicate_id": "A_intensive_care_capacity",
+          "threshold_label": "Intensive care litter capacity",
+          "threshold_aliases": [
+            "ICU patient litter slots",
+            "Critical care stretcher count"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "person",
+          "partial_record_text": "EMD-MEDEVAC-JA5: Fraser Canyon Skyway.Operational evaluation period: October 2024.Fraser Canyon Skyway: Critical care flight escort assigned = true .Source: Duty roster and crew manifest; Scope: Designated evacuation rotation; Measurement: Certified critical care flight paramedic and aeromedical nurse rostered and present.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Intensive care litter capacity is at most 7 person.",
+          "role_name": "Emergency Medical Dispatch Director (EMD)",
+          "candidate_name": "Fraser Canyon Skyway",
+          "other_candidate_names": [
+            "Coquihalla Mountain Corridor",
+            "Okanagan Highland Transit Route"
+          ],
+          "context_value": "October 2024",
+          "other_context_values": [
+            "November 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_242",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "flight_safety"
+      ],
+      "role_names": [
+        "Flight operations superintendent (FOP)",
+        "Aviation winter safety inspector (SAF)"
+      ],
+      "directory": "incomplete/task_242",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FOP-AVOPS-NFS",
+          "boolean_predicate_id": "A_night_vision_cleared",
+          "boolean_label": "High-altitude night-vision flight clearance",
+          "hidden_predicate_id": "A_mobilization_minutes",
+          "threshold_label": "Mountain rescue response mobilization time",
+          "threshold_aliases": [
+            "Rescue mobilization delay",
+            "Alert to wheels-up response time"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "FOP-AVOPS-NFS: Glacier Peak Rotorcraft Services.Glacier Peak Rotorcraft Services: High-altitude night-vision flight clearance = true .Source: Flight operations compliance register; Scope: Candidate aircraft and aircrew roster; Measurement: Confirmation that aircrew is certified and equipment is approved for night-vision alpine ops.Glacier Peak Rotorcraft Services: Primary cabin payload allowance = 1100 kg.Source: Airframe weight and balance manifest; Scope: High-altitude density altitude dispatch baseline at 3000 m; Measurement: Maximum certified useful load assigned to cabin operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Mountain rescue response mobilization time is between 20 min and 70 min, inclusive.",
+          "role_name": "Flight operations superintendent (FOP)",
+          "candidate_name": "Glacier Peak Rotorcraft Services",
+          "other_candidate_names": [
+            "Northern Alpine Air Ambulance",
+            "Columbia Valley Search and Flight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_safety_A",
+          "role_id": "flight_safety",
+          "candidate_id": "A",
+          "key": "SAF-SAFE-G38",
+          "hidden_predicate_id": "A_cold_soak_limit_celsius",
+          "threshold_label": "Sub-zero cold soak start capability",
+          "threshold_aliases": [
+            "Extreme cold start envelope",
+            "Unassisted cold-soak start threshold"
+          ],
+          "threshold_value": -30,
+          "threshold_unit": "degC",
+          "partial_record_text": "SAF-SAFE-G38: Glacier Peak Rotorcraft Services.Safety audit month: January 2026.Glacier Peak Rotorcraft Services: Severe-weather ballast reserve = 180 kg.Source: Winter flight operations safety directive; Scope: Sub-zero blizzard flight profile; Measurement: Mandatory mass deduction for emergency de-icing fluid carriage and stabilization ballast.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": -50,
+            "upper": -10
+          },
+          "coarse_statement": "Sub-zero cold soak start capability is between -50 degC and -10 degC, inclusive.",
+          "role_name": "Aviation winter safety inspector (SAF)",
+          "candidate_name": "Glacier Peak Rotorcraft Services",
+          "other_candidate_names": [
+            "Northern Alpine Air Ambulance",
+            "Columbia Valley Search and Flight"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "February 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "flight_safety",
+        "medical_directorate"
+      ],
+      "role_names": [
+        "Flight operations superintendent (FOP)",
+        "Aviation winter safety inspector (SAF)",
+        "Emergency medical director (MED)"
+      ],
+      "directory": "incomplete/task_242",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FOP-AVOPS-NFS",
+          "boolean_predicate_id": "A_night_vision_cleared",
+          "boolean_label": "High-altitude night-vision flight clearance",
+          "hidden_predicate_id": "A_mobilization_minutes",
+          "threshold_label": "Mountain rescue response mobilization time",
+          "threshold_aliases": [
+            "Rescue mobilization delay",
+            "Alert to wheels-up response time"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "FOP-AVOPS-NFS: Glacier Peak Rotorcraft Services.Glacier Peak Rotorcraft Services: High-altitude night-vision flight clearance = true .Source: Flight operations compliance register; Scope: Candidate aircraft and aircrew roster; Measurement: Confirmation that aircrew is certified and equipment is approved for night-vision alpine ops.Glacier Peak Rotorcraft Services: Primary cabin payload allowance = 1100 kg.Source: Airframe weight and balance manifest; Scope: High-altitude density altitude dispatch baseline at 3000 m; Measurement: Maximum certified useful load assigned to cabin operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Mountain rescue response mobilization time is between 20 min and 70 min, inclusive.",
+          "role_name": "Flight operations superintendent (FOP)",
+          "candidate_name": "Glacier Peak Rotorcraft Services",
+          "other_candidate_names": [
+            "Northern Alpine Air Ambulance",
+            "Columbia Valley Search and Flight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_safety_A",
+          "role_id": "flight_safety",
+          "candidate_id": "A",
+          "key": "SAF-SAFE-G38",
+          "hidden_predicate_id": "A_cold_soak_limit_celsius",
+          "threshold_label": "Sub-zero cold soak start capability",
+          "threshold_aliases": [
+            "Extreme cold start envelope",
+            "Unassisted cold-soak start threshold"
+          ],
+          "threshold_value": -30,
+          "threshold_unit": "degC",
+          "partial_record_text": "SAF-SAFE-G38: Glacier Peak Rotorcraft Services.Safety audit month: January 2026.Glacier Peak Rotorcraft Services: Severe-weather ballast reserve = 180 kg.Source: Winter flight operations safety directive; Scope: Sub-zero blizzard flight profile; Measurement: Mandatory mass deduction for emergency de-icing fluid carriage and stabilization ballast.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": -50,
+            "upper": -10
+          },
+          "coarse_statement": "Sub-zero cold soak start capability is between -50 degC and -10 degC, inclusive.",
+          "role_name": "Aviation winter safety inspector (SAF)",
+          "candidate_name": "Glacier Peak Rotorcraft Services",
+          "other_candidate_names": [
+            "Northern Alpine Air Ambulance",
+            "Columbia Valley Search and Flight"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "February 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_directorate_A",
+          "role_id": "medical_directorate",
+          "candidate_id": "A",
+          "key": "MED-MEDEV-EN5",
+          "hidden_predicate_id": "A_medical_crew_payload",
+          "threshold_label": "Medical crew equipment payload",
+          "threshold_aliases": [
+            "Emergency clinical gear allowance",
+            "Medical payload allocation"
+          ],
+          "threshold_value": 280,
+          "threshold_unit": "kg",
+          "partial_record_text": "MED-MEDEV-EN5: Glacier Peak Rotorcraft Services.Glacier Peak Rotorcraft Services: Cabin critical-care isolation certification = true .Source: Medical directorate air ambulance inspection sheet; Scope: Candidate medical evacuation cabin configuration; Measurement: Formal validation of negative-pressure HEPA isolation pod compatibility.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Medical crew equipment payload is between 100 kg and 600 kg, inclusive.",
+          "role_name": "Emergency medical director (MED)",
+          "candidate_name": "Glacier Peak Rotorcraft Services",
+          "other_candidate_names": [
+            "Northern Alpine Air Ambulance",
+            "Columbia Valley Search and Flight"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

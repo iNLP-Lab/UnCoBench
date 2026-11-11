@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_849",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "tunnel_ventilation",
+        "mechanical_plant"
+      ],
+      "role_names": [
+        "Tunnel environmental and ventilation lead (VENT)",
+        "Heavy rail plant and machinery manager (MECH)"
+      ],
+      "directory": "incomplete/task_849",
+      "profiles": [
+        {
+          "record_id": "rec_tunnel_ventilation_A",
+          "role_id": "tunnel_ventilation",
+          "candidate_id": "A",
+          "key": "VENT-AIRQ-SZC",
+          "boolean_predicate_id": "A_scrubber_deployed",
+          "boolean_label": "Active ventilation scrubber deployed",
+          "hidden_predicate_id": "A_scrubber_airflow_m3h",
+          "threshold_label": "Scrubber airflow extraction capacity",
+          "threshold_aliases": [
+            "Dust extraction airflow rate",
+            "Air scrubber volume throughput"
+          ],
+          "threshold_value": 9600,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "VENT-AIRQ-SZC: Continuous mechanical excavation and concrete lining plan.Continuous mechanical excavation and concrete lining plan: Active ventilation scrubber deployed = true .Source: Tunnel ventilation deployment checklist; Scope: Active tunnel rehabilitation heading; Measurement: Verification that an industrial high-efficiency particulate scrubber is staged and hooked to ducting.Continuous mechanical excavation and concrete lining plan: Primary ventilation booster load = 180 kW.Source: Ventilation substation load schedule; Scope: Tunnel intake fan array during full extraction cycle; Measurement: Steady-state electric power absorbed by the high-pressure booster fan motor bank.",
+          "role_name": "Tunnel environmental and ventilation lead (VENT)",
+          "candidate_name": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidate_names": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_plant_A",
+          "role_id": "mechanical_plant",
+          "candidate_id": "A",
+          "key": "MECH-MACH-U5H",
+          "hidden_predicate_id": "A_milling_machine_load_kw",
+          "threshold_label": "Track ballast milling machine load",
+          "threshold_aliases": [
+            "Ballast miller power demand",
+            "Milling machine electrical consumption"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "kW",
+          "partial_record_text": "MECH-MACH-U5H: Continuous mechanical excavation and concrete lining plan. The record covers Track ballast milling machine load. Record context: 15-minute peak interval. Heavy plant electrical interface specification; Trackbed hydro-mechanical ballast removal and milling unit; Connected electrical power requirement during maximum depth milling operation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 340,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Track ballast milling machine load is at least 340 kW.",
+          "role_name": "Heavy rail plant and machinery manager (MECH)",
+          "candidate_name": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidate_names": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "context_value": "15-minute peak interval",
+          "other_context_values": [
+            "full-shift continuous average"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "tunnel_ventilation",
+        "mechanical_plant",
+        "municipal_compliance"
+      ],
+      "role_names": [
+        "Tunnel environmental and ventilation lead (VENT)",
+        "Heavy rail plant and machinery manager (MECH)",
+        "Municipal environmental liaison officer (MUN)"
+      ],
+      "directory": "number_expansion/incomplete/task_849/k3",
+      "profiles": [
+        {
+          "record_id": "rec_tunnel_ventilation_A",
+          "role_id": "tunnel_ventilation",
+          "candidate_id": "A",
+          "key": "VENT-AIRQ-SZC",
+          "boolean_predicate_id": "A_scrubber_deployed",
+          "boolean_label": "Active ventilation scrubber deployed",
+          "hidden_predicate_id": "A_scrubber_airflow_m3h",
+          "threshold_label": "Scrubber airflow extraction capacity",
+          "threshold_aliases": [
+            "Dust extraction airflow rate",
+            "Air scrubber volume throughput"
+          ],
+          "threshold_value": 9600,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "VENT-AIRQ-SZC: Continuous mechanical excavation and concrete lining plan.Continuous mechanical excavation and concrete lining plan: Active ventilation scrubber deployed = true .Source: Tunnel ventilation deployment checklist; Scope: Active tunnel rehabilitation heading; Measurement: Verification that an industrial high-efficiency particulate scrubber is staged and hooked to ducting.Continuous mechanical excavation and concrete lining plan: Primary ventilation booster load = 180 kW.Source: Ventilation substation load schedule; Scope: Tunnel intake fan array during full extraction cycle; Measurement: Steady-state electric power absorbed by the high-pressure booster fan motor bank.",
+          "role_name": "Tunnel environmental and ventilation lead (VENT)",
+          "candidate_name": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidate_names": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_plant_A",
+          "role_id": "mechanical_plant",
+          "candidate_id": "A",
+          "key": "MECH-MACH-U5H",
+          "hidden_predicate_id": "A_milling_machine_load_kw",
+          "threshold_label": "Track ballast milling machine load",
+          "threshold_aliases": [
+            "Ballast miller power demand",
+            "Milling machine electrical consumption"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "kW",
+          "partial_record_text": "MECH-MACH-U5H: Continuous mechanical excavation and concrete lining plan. The record covers Track ballast milling machine load. Record context: 15-minute peak interval. Heavy plant electrical interface specification; Trackbed hydro-mechanical ballast removal and milling unit; Connected electrical power requirement during maximum depth milling operation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 340,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Track ballast milling machine load is at least 340 kW.",
+          "role_name": "Heavy rail plant and machinery manager (MECH)",
+          "candidate_name": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidate_names": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "context_value": "15-minute peak interval",
+          "other_context_values": [
+            "full-shift continuous average"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_compliance_A_supplemental",
+          "role_id": "municipal_compliance",
+          "candidate_id": "A",
+          "key": "MUN-SILT-MPC",
+          "hidden_predicate_id": "A_supplemental_municipal_compliance",
+          "threshold_label": "Stormwater runoff turbidity",
+          "threshold_aliases": [],
+          "threshold_value": 40,
+          "threshold_unit": "NTU",
+          "partial_record_text": "MUN-SILT-MPC: Continuous mechanical excavation and concrete lining plan. The record covers Stormwater runoff turbidity. Outfall water quality monitor; Surface discharge weir at shaft entrance; Nephelometric turbidity units measured during shaft dewatering.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Stormwater runoff turbidity is at least 5 NTU.",
+          "role_name": "Municipal environmental liaison officer (MUN)",
+          "candidate_name": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidate_names": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_municipal_compliance",
+        "topic_id": "supplemental_municipal_compliance",
+        "operator": "gte",
+        "threshold": 15,
+        "role_id": "municipal_compliance",
+        "metric": "Stormwater runoff turbidity",
+        "unit": "NTU",
+        "required_text": "To qualify, a candidate must also have Stormwater runoff turbidity of at least 15 NTU.",
+        "new_fault_record_key": "MUN-SILT-MPC",
+        "exact_value": 40,
+        "first_reply": "Stormwater runoff turbidity is at least 5 NTU."
+      }
+    }
+  }
+}

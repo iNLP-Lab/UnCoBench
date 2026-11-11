@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_809",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_safety_engineer",
+        "utilities_coordinator"
+      ],
+      "role_names": [
+        "Structural Safety Engineer (STRUC)",
+        "Utilities and Life Support Coordinator (UTIL)"
+      ],
+      "directory": "incomplete/task_809",
+      "profiles": [
+        {
+          "record_id": "rec_structural_safety_engineer_A",
+          "role_id": "structural_safety_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-BLDG-2YK",
+          "boolean_predicate_id": "A_storm_barrier_deployed",
+          "boolean_label": "External storm barrier deployed",
+          "hidden_predicate_id": "A_flood_elevation_margin",
+          "threshold_label": "Finished floor elevation margin above base flood level",
+          "threshold_aliases": [
+            "Base flood elevation clearance",
+            "Flood height safety buffer"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "cm",
+          "partial_record_text": "STRUC-BLDG-2YK: Bayside Exhibition Pavilion.Bayside Exhibition Pavilion: External storm barrier deployed = true .Source: Perimeter defense audit report; Scope: Ground-level pedestrian and vehicle portals; Measurement: Verification that modular floodwall panels and storm barriers are physically installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Finished floor elevation margin above base flood level is between 50 cm and 300 cm, inclusive.",
+          "role_name": "Structural Safety Engineer (STRUC)",
+          "candidate_name": "Bayside Exhibition Pavilion",
+          "other_candidate_names": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_coordinator_A",
+          "role_id": "utilities_coordinator",
+          "candidate_id": "A",
+          "key": "UTIL-PWR-74J",
+          "hidden_predicate_id": "A_emergency_generator_runtime",
+          "threshold_label": "Emergency generator fuel autonomous runtime",
+          "threshold_aliases": [
+            "Auxiliary power fuel endurance",
+            "Backup generator autonomous duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-PWR-74J: Bayside Exhibition Pavilion.Aggregation window: trailing 30-day audit window.Bayside Exhibition Pavilion: Automatic dual-power transfer interlock installed = true .Source: Electrical panel commission cert; Scope: Main utility service entrance switchgear; Measurement: Presence of certified automatic electrical interlock switch isolating grid and generator feeds.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency generator fuel autonomous runtime is between 20 h and 110 h, inclusive.",
+          "role_name": "Utilities and Life Support Coordinator (UTIL)",
+          "candidate_name": "Bayside Exhibition Pavilion",
+          "other_candidate_names": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "context_value": "trailing 30-day audit window",
+          "other_context_values": [
+            "trailing 12-month audit window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_safety_engineer",
+        "utilities_coordinator",
+        "shelter_operations_lead"
+      ],
+      "role_names": [
+        "Structural Safety Engineer (STRUC)",
+        "Utilities and Life Support Coordinator (UTIL)",
+        "Shelter Operations Lead (OPS)"
+      ],
+      "directory": "incomplete/task_809",
+      "profiles": [
+        {
+          "record_id": "rec_structural_safety_engineer_A",
+          "role_id": "structural_safety_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-BLDG-2YK",
+          "boolean_predicate_id": "A_storm_barrier_deployed",
+          "boolean_label": "External storm barrier deployed",
+          "hidden_predicate_id": "A_flood_elevation_margin",
+          "threshold_label": "Finished floor elevation margin above base flood level",
+          "threshold_aliases": [
+            "Base flood elevation clearance",
+            "Flood height safety buffer"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "cm",
+          "partial_record_text": "STRUC-BLDG-2YK: Bayside Exhibition Pavilion.Bayside Exhibition Pavilion: External storm barrier deployed = true .Source: Perimeter defense audit report; Scope: Ground-level pedestrian and vehicle portals; Measurement: Verification that modular floodwall panels and storm barriers are physically installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Finished floor elevation margin above base flood level is between 50 cm and 300 cm, inclusive.",
+          "role_name": "Structural Safety Engineer (STRUC)",
+          "candidate_name": "Bayside Exhibition Pavilion",
+          "other_candidate_names": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_coordinator_A",
+          "role_id": "utilities_coordinator",
+          "candidate_id": "A",
+          "key": "UTIL-PWR-74J",
+          "hidden_predicate_id": "A_emergency_generator_runtime",
+          "threshold_label": "Emergency generator fuel autonomous runtime",
+          "threshold_aliases": [
+            "Auxiliary power fuel endurance",
+            "Backup generator autonomous duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-PWR-74J: Bayside Exhibition Pavilion.Aggregation window: trailing 30-day audit window.Bayside Exhibition Pavilion: Automatic dual-power transfer interlock installed = true .Source: Electrical panel commission cert; Scope: Main utility service entrance switchgear; Measurement: Presence of certified automatic electrical interlock switch isolating grid and generator feeds.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency generator fuel autonomous runtime is between 20 h and 110 h, inclusive.",
+          "role_name": "Utilities and Life Support Coordinator (UTIL)",
+          "candidate_name": "Bayside Exhibition Pavilion",
+          "other_candidate_names": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "context_value": "trailing 30-day audit window",
+          "other_context_values": [
+            "trailing 12-month audit window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_operations_lead_A",
+          "role_id": "shelter_operations_lead",
+          "candidate_id": "A",
+          "key": "OPS-LOG-50N",
+          "hidden_predicate_id": "A_registration_triage_rate",
+          "threshold_label": "Primary registration triage rate",
+          "threshold_aliases": [
+            "Reception intake throughput",
+            "Administrative intake clearance speed"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "OPS-LOG-50N: Bayside Exhibition Pavilion.Bayside Exhibition Pavilion: Universal accessibility code compliant = true .Source: Accessibility compliance inspection; Scope: Main reception corridors and evacuation restrooms; Measurement: Full adherence to barrier-free ingress gradients and wide doorways for mobility-impaired individuals.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary registration triage rate is between 0 persons/h and 300 persons/h, inclusive.",
+          "role_name": "Shelter Operations Lead (OPS)",
+          "candidate_name": "Bayside Exhibition Pavilion",
+          "other_candidate_names": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

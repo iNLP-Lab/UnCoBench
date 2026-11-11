@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_683",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "grid_power",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Grid interconnection engineer (POWR)",
+        "Terminal operations manager (TERM)"
+      ],
+      "directory": "incomplete/task_683",
+      "profiles": [
+        {
+          "record_id": "rec_grid_power_A",
+          "role_id": "grid_power",
+          "candidate_id": "A",
+          "key": "POWR-GRID-WVJ",
+          "boolean_predicate_id": "A_dedicated_substation_feed",
+          "boolean_label": "Dedicated utility substation feeder line active",
+          "hidden_predicate_id": "A_peak_grid_power_capacity",
+          "threshold_label": "Peak grid electrical import capacity",
+          "threshold_aliases": [
+            "Contracted electrical service capacity",
+            "Peak substation power"
+          ],
+          "threshold_value": 4800,
+          "threshold_unit": "kW",
+          "partial_record_text": "POWR-GRID-WVJ: Trinity River Elevated Vertiport.Trinity River Elevated Vertiport: Dedicated utility substation feeder line active = true .Source: Electric utility interconnection agreement; Scope: Vertiport high-voltage switchgear; Measurement: Operational energization status of an isolated 25 kV primary distribution feeder line.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 7000
+          },
+          "coarse_statement": "Peak grid electrical import capacity is between 2000 kW and 7000 kW, inclusive.",
+          "role_name": "Grid interconnection engineer (POWR)",
+          "candidate_name": "Trinity River Elevated Vertiport",
+          "other_candidate_names": [
+            "North Dallas Metroplex Skyport",
+            "Fort Worth Stockyards Aerodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TERM-PAX-FUJ",
+          "hidden_predicate_id": "A_apron_charging_stands",
+          "threshold_label": "Electric aircraft apron charging stands",
+          "threshold_aliases": [
+            "Megawatt charging stands",
+            "Aircraft turnaround gates"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "stands",
+          "partial_record_text": "TERM-PAX-FUJ: Trinity River Elevated Vertiport.Trinity River Elevated Vertiport: Gross passenger terminal processing rate = 420 passenger/h.Source: Security checkpoint and concourse throughput simulation; Scope: Terminal security screening, biometric gate, and lounge ticketing areas; Measurement: Maximum sustained design passenger clearance volume through passenger terminal concourse.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Electric aircraft apron charging stands is between 2 stands and 20 stands, inclusive.",
+          "role_name": "Terminal operations manager (TERM)",
+          "candidate_name": "Trinity River Elevated Vertiport",
+          "other_candidate_names": [
+            "North Dallas Metroplex Skyport",
+            "Fort Worth Stockyards Aerodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "grid_power",
+        "terminal_operations",
+        "acoustic_environmental"
+      ],
+      "role_names": [
+        "Grid interconnection engineer (POWR)",
+        "Terminal operations manager (TERM)",
+        "Acoustic and environmental safety officer (ENVI)"
+      ],
+      "directory": "incomplete/task_683",
+      "profiles": [
+        {
+          "record_id": "rec_grid_power_A",
+          "role_id": "grid_power",
+          "candidate_id": "A",
+          "key": "POWR-GRID-WVJ",
+          "boolean_predicate_id": "A_dedicated_substation_feed",
+          "boolean_label": "Dedicated utility substation feeder line active",
+          "hidden_predicate_id": "A_peak_grid_power_capacity",
+          "threshold_label": "Peak grid electrical import capacity",
+          "threshold_aliases": [
+            "Contracted electrical service capacity",
+            "Peak substation power"
+          ],
+          "threshold_value": 4800,
+          "threshold_unit": "kW",
+          "partial_record_text": "POWR-GRID-WVJ: Trinity River Elevated Vertiport.Trinity River Elevated Vertiport: Dedicated utility substation feeder line active = true .Source: Electric utility interconnection agreement; Scope: Vertiport high-voltage switchgear; Measurement: Operational energization status of an isolated 25 kV primary distribution feeder line.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 7000
+          },
+          "coarse_statement": "Peak grid electrical import capacity is between 2000 kW and 7000 kW, inclusive.",
+          "role_name": "Grid interconnection engineer (POWR)",
+          "candidate_name": "Trinity River Elevated Vertiport",
+          "other_candidate_names": [
+            "North Dallas Metroplex Skyport",
+            "Fort Worth Stockyards Aerodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TERM-PAX-FUJ",
+          "hidden_predicate_id": "A_apron_charging_stands",
+          "threshold_label": "Electric aircraft apron charging stands",
+          "threshold_aliases": [
+            "Megawatt charging stands",
+            "Aircraft turnaround gates"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "stands",
+          "partial_record_text": "TERM-PAX-FUJ: Trinity River Elevated Vertiport.Trinity River Elevated Vertiport: Gross passenger terminal processing rate = 420 passenger/h.Source: Security checkpoint and concourse throughput simulation; Scope: Terminal security screening, biometric gate, and lounge ticketing areas; Measurement: Maximum sustained design passenger clearance volume through passenger terminal concourse.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Electric aircraft apron charging stands is between 2 stands and 20 stands, inclusive.",
+          "role_name": "Terminal operations manager (TERM)",
+          "candidate_name": "Trinity River Elevated Vertiport",
+          "other_candidate_names": [
+            "North Dallas Metroplex Skyport",
+            "Fort Worth Stockyards Aerodrome"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_environmental_A",
+          "role_id": "acoustic_environmental",
+          "candidate_id": "A",
+          "key": "ENVI-NOIS-CGN",
+          "hidden_predicate_id": "A_boundary_noise_exposure",
+          "threshold_label": "Terminal boundary day-night sound level",
+          "threshold_aliases": [
+            "Perimeter acoustic level",
+            "Boundary noise rating"
+          ],
+          "threshold_value": 65,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ENVI-NOIS-CGN: Trinity River Elevated Vertiport. The record covers Terminal boundary day-night sound level. Record context: Q1 2026. Acoustic propagation assessment report; Nearest residential property boundary during peak departure cycles; Cumulative day-night average sound level calculated across 24 hours of flight operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 90
+          },
+          "coarse_statement": "Terminal boundary day-night sound level is between 50 dBA and 90 dBA, inclusive.",
+          "role_name": "Acoustic and environmental safety officer (ENVI)",
+          "candidate_name": "Trinity River Elevated Vertiport",
+          "other_candidate_names": [
+            "North Dallas Metroplex Skyport",
+            "Fort Worth Stockyards Aerodrome"
+          ],
+          "context_value": "Q1 2026",
+          "other_context_values": [
+            "Q2 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

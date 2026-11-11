@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_985",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_auditor",
+        "refinery_operations"
+      ],
+      "role_names": [
+        "Environmental compliance auditor (ENV)",
+        "Refinery operations coordinator (OPS)"
+      ],
+      "directory": "incomplete/task_985",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_auditor_A",
+          "role_id": "environmental_auditor",
+          "candidate_id": "A",
+          "key": "ENV-EMISS-6HY",
+          "boolean_predicate_id": "A_emission_monitoring_active",
+          "boolean_label": "Continuous emission monitoring enabled",
+          "hidden_predicate_id": "A_voc_destruction_efficiency",
+          "threshold_label": "VOC destruction efficiency",
+          "threshold_aliases": [
+            "Thermal oxidizer destruction efficiency",
+            "Volatile organic compound removal percentage"
+          ],
+          "threshold_value": 99,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-EMISS-6HY: Scheldt EcoSolv Complex.Scheldt EcoSolv Complex: Continuous emission monitoring enabled = true .Source: Stack analyzer telemetry log; Scope: Main thermal oxidizer exhaust stack; Measurement: Operational availability of online continuous infrared and flame-ionization gas detectors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "VOC destruction efficiency is at most 100 %.",
+          "role_name": "Environmental compliance auditor (ENV)",
+          "candidate_name": "Scheldt EcoSolv Complex",
+          "other_candidate_names": [
+            "Rhineland CleanPur Recovery Facility",
+            "Kempen Petrochemical Recycling Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_refinery_operations_A",
+          "role_id": "refinery_operations",
+          "candidate_id": "A",
+          "key": "OPS-STREAM-65W",
+          "hidden_predicate_id": "A_baseline_solvent_volume",
+          "threshold_label": "Baseline halogenated solvent volume",
+          "threshold_aliases": [
+            "Baseline allocation tonnage",
+            "Nominal solvent campaign intake"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "t",
+          "partial_record_text": "OPS-STREAM-65W: Scheldt EcoSolv Complex. The record covers Baseline halogenated solvent volume. Campaign tolling capacity agreement; Scheduled raw halogenated solvent stream delivered across the 2026 campaign; Net metric tonnage of primary spent solvent allocated for vacuum column fractionation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline halogenated solvent volume is at most 500 t.",
+          "role_name": "Refinery operations coordinator (OPS)",
+          "candidate_name": "Scheldt EcoSolv Complex",
+          "other_candidate_names": [
+            "Rhineland CleanPur Recovery Facility",
+            "Kempen Petrochemical Recycling Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_auditor",
+        "refinery_operations",
+        "feedstock_logistics"
+      ],
+      "role_names": [
+        "Environmental compliance auditor (ENV)",
+        "Refinery operations coordinator (OPS)",
+        "Feedstock logistics manager (LOG)"
+      ],
+      "directory": "incomplete/task_985",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_auditor_A",
+          "role_id": "environmental_auditor",
+          "candidate_id": "A",
+          "key": "ENV-EMISS-6HY",
+          "boolean_predicate_id": "A_emission_monitoring_active",
+          "boolean_label": "Continuous emission monitoring enabled",
+          "hidden_predicate_id": "A_voc_destruction_efficiency",
+          "threshold_label": "VOC destruction efficiency",
+          "threshold_aliases": [
+            "Thermal oxidizer destruction efficiency",
+            "Volatile organic compound removal percentage"
+          ],
+          "threshold_value": 99,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-EMISS-6HY: Scheldt EcoSolv Complex.Scheldt EcoSolv Complex: Continuous emission monitoring enabled = true .Source: Stack analyzer telemetry log; Scope: Main thermal oxidizer exhaust stack; Measurement: Operational availability of online continuous infrared and flame-ionization gas detectors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "VOC destruction efficiency is at most 100 %.",
+          "role_name": "Environmental compliance auditor (ENV)",
+          "candidate_name": "Scheldt EcoSolv Complex",
+          "other_candidate_names": [
+            "Rhineland CleanPur Recovery Facility",
+            "Kempen Petrochemical Recycling Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_refinery_operations_A",
+          "role_id": "refinery_operations",
+          "candidate_id": "A",
+          "key": "OPS-STREAM-65W",
+          "hidden_predicate_id": "A_baseline_solvent_volume",
+          "threshold_label": "Baseline halogenated solvent volume",
+          "threshold_aliases": [
+            "Baseline allocation tonnage",
+            "Nominal solvent campaign intake"
+          ],
+          "threshold_value": 220,
+          "threshold_unit": "t",
+          "partial_record_text": "OPS-STREAM-65W: Scheldt EcoSolv Complex. The record covers Baseline halogenated solvent volume. Campaign tolling capacity agreement; Scheduled raw halogenated solvent stream delivered across the 2026 campaign; Net metric tonnage of primary spent solvent allocated for vacuum column fractionation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline halogenated solvent volume is at most 500 t.",
+          "role_name": "Refinery operations coordinator (OPS)",
+          "candidate_name": "Scheldt EcoSolv Complex",
+          "other_candidate_names": [
+            "Rhineland CleanPur Recovery Facility",
+            "Kempen Petrochemical Recycling Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_feedstock_logistics_A",
+          "role_id": "feedstock_logistics",
+          "candidate_id": "A",
+          "key": "LOG-SCHED-9DF",
+          "hidden_predicate_id": "A_auxiliary_purge_volume",
+          "threshold_label": "Auxiliary purge stream volume",
+          "threshold_aliases": [
+            "Secondary rinse stream volume",
+            "Auxiliary column wash throughput"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-SCHED-9DF: Scheldt EcoSolv Complex. The record covers Auxiliary purge stream volume. Record context: Germany. Terminal offloading and manifold manifest; Ancillary reactor rinse fractions and pipeline purge liquids scheduled for batch re-distillation; Net metric tonnage of secondary contaminated organic rinse stream requiring co-processing.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary purge stream volume is at most 300 t.",
+          "role_name": "Feedstock logistics manager (LOG)",
+          "candidate_name": "Scheldt EcoSolv Complex",
+          "other_candidate_names": [
+            "Rhineland CleanPur Recovery Facility",
+            "Kempen Petrochemical Recycling Center"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

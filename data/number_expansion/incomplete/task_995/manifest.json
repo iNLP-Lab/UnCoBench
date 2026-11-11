@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_995",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "cryogenic_logistics"
+      ],
+      "role_names": [
+        "Quality Assurance Director (QAD)",
+        "Cryopreservation and Cold-Chain Lead (CRYO)"
+      ],
+      "directory": "incomplete/task_995",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAD-QMS-CTW",
+          "boolean_predicate_id": "A_particle_monitoring_enabled",
+          "boolean_label": "Continuous particle monitoring system enabled",
+          "hidden_predicate_id": "A_recovery_cleanup_time",
+          "threshold_label": "Particulate cleanup recovery time",
+          "threshold_aliases": [
+            "Cleanroom recovery period",
+            "Aerosol cleanup duration"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "min",
+          "partial_record_text": "QAD-QMS-CTW: Modular Iso-Pod Cleanroom Suite.Modular Iso-Pod Cleanroom Suite: Continuous particle monitoring system enabled = true .Source: Environmental monitoring system configuration log; Scope: Candidate cleanroom manufacturing suite; Measurement: Active online status of the multi-channel optical particle counter array.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Particulate cleanup recovery time is between 10 min and 40 min, inclusive.",
+          "role_name": "Quality Assurance Director (QAD)",
+          "candidate_name": "Modular Iso-Pod Cleanroom Suite",
+          "other_candidate_names": [
+            "Integrated Ballroom Cleanroom Suite",
+            "Dedicated Isolator Cleanroom Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryogenic_logistics_A",
+          "role_id": "cryogenic_logistics",
+          "candidate_id": "A",
+          "key": "CRYO-NITRO-ULG",
+          "hidden_predicate_id": "A_liquid_nitrogen_backup_hours",
+          "threshold_label": "Autonomous liquid nitrogen backup autonomy",
+          "threshold_aliases": [
+            "Cryogenic emergency hold time",
+            "Liquid nitrogen reserve autonomy"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-NITRO-ULG: Modular Iso-Pod Cleanroom Suite.Modular Iso-Pod Cleanroom Suite: Cryopreservation staging area = 28 m2.Source: Cryo-facility spatial engineering report; Scope: Dedicated controlled-rate freezing and liquid nitrogen transfer alcove; Measurement: Net usable footprint for vapor-phase freezers and dry-shipper charging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous liquid nitrogen backup autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Cryopreservation and Cold-Chain Lead (CRYO)",
+          "candidate_name": "Modular Iso-Pod Cleanroom Suite",
+          "other_candidate_names": [
+            "Integrated Ballroom Cleanroom Suite",
+            "Dedicated Isolator Cleanroom Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "cryogenic_logistics",
+        "facility_engineering"
+      ],
+      "role_names": [
+        "Quality Assurance Director (QAD)",
+        "Cryopreservation and Cold-Chain Lead (CRYO)",
+        "Facility Engineering Manager (ENG)"
+      ],
+      "directory": "incomplete/task_995",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAD-QMS-CTW",
+          "boolean_predicate_id": "A_particle_monitoring_enabled",
+          "boolean_label": "Continuous particle monitoring system enabled",
+          "hidden_predicate_id": "A_recovery_cleanup_time",
+          "threshold_label": "Particulate cleanup recovery time",
+          "threshold_aliases": [
+            "Cleanroom recovery period",
+            "Aerosol cleanup duration"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "min",
+          "partial_record_text": "QAD-QMS-CTW: Modular Iso-Pod Cleanroom Suite.Modular Iso-Pod Cleanroom Suite: Continuous particle monitoring system enabled = true .Source: Environmental monitoring system configuration log; Scope: Candidate cleanroom manufacturing suite; Measurement: Active online status of the multi-channel optical particle counter array.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Particulate cleanup recovery time is between 10 min and 40 min, inclusive.",
+          "role_name": "Quality Assurance Director (QAD)",
+          "candidate_name": "Modular Iso-Pod Cleanroom Suite",
+          "other_candidate_names": [
+            "Integrated Ballroom Cleanroom Suite",
+            "Dedicated Isolator Cleanroom Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryogenic_logistics_A",
+          "role_id": "cryogenic_logistics",
+          "candidate_id": "A",
+          "key": "CRYO-NITRO-ULG",
+          "hidden_predicate_id": "A_liquid_nitrogen_backup_hours",
+          "threshold_label": "Autonomous liquid nitrogen backup autonomy",
+          "threshold_aliases": [
+            "Cryogenic emergency hold time",
+            "Liquid nitrogen reserve autonomy"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-NITRO-ULG: Modular Iso-Pod Cleanroom Suite.Modular Iso-Pod Cleanroom Suite: Cryopreservation staging area = 28 m2.Source: Cryo-facility spatial engineering report; Scope: Dedicated controlled-rate freezing and liquid nitrogen transfer alcove; Measurement: Net usable footprint for vapor-phase freezers and dry-shipper charging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous liquid nitrogen backup autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Cryopreservation and Cold-Chain Lead (CRYO)",
+          "candidate_name": "Modular Iso-Pod Cleanroom Suite",
+          "other_candidate_names": [
+            "Integrated Ballroom Cleanroom Suite",
+            "Dedicated Isolator Cleanroom Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "ENG-HVAC-K3D",
+          "hidden_predicate_id": "A_air_exchange_rate",
+          "threshold_label": "Cleanroom air exchange rate",
+          "threshold_aliases": [
+            "HVAC air exchange frequency",
+            "Cleanroom ventilation turnover"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "ACH",
+          "partial_record_text": "ENG-HVAC-K3D: Modular Iso-Pod Cleanroom Suite.Facility country: United States.Modular Iso-Pod Cleanroom Suite: Pre-processing staging area = 28 m2.Source: Architectural floor plan verification audit; Scope: Grade B cleanroom gowning and raw material staging airlock; Measurement: Usable floor area dedicated to apheresis receipt and sterile disposables staging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Cleanroom air exchange rate is between 20 ACH and 80 ACH, inclusive.",
+          "role_name": "Facility Engineering Manager (ENG)",
+          "candidate_name": "Modular Iso-Pod Cleanroom Suite",
+          "other_candidate_names": [
+            "Integrated Ballroom Cleanroom Suite",
+            "Dedicated Isolator Cleanroom Suite"
+          ],
+          "context_value": "United States",
+          "other_context_values": [
+            "United Kingdom"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

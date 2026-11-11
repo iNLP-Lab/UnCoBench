@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_626",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "local_highways",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Local highways and detour supervisor (LOCL)",
+        "Bridge structural engineer (STRUC)"
+      ],
+      "directory": "number_expansion/misaligned/task_626/k2",
+      "error_profiles": [
+        {
+          "role_name": "Local highways and detour supervisor (LOCL)",
+          "target_key": "LOCL-DETR-HEK",
+          "alternate_key": "LOCL-SWEEP-8CS",
+          "target_context": "Version 2",
+          "alternate_context": "Version 3",
+          "candidate": "M62 Trans-Pennine Heavy Haul Route",
+          "other_candidates": [
+            "A66 Stainmore Pass Corridor",
+            "A69 Tyne Valley Bypass Route"
+          ],
+          "numeric": [
+            {
+              "topic": "arterial_detour_distance",
+              "value": 35,
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ],
+              "unit": "km"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bridge_clearance_certified",
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ]
+            },
+            {
+              "topic": "dynamic_axle_monitoring_enabled",
+              "label": "Dynamic axle weight monitoring enabled",
+              "aliases": [
+                "Telemetry weight monitoring",
+                "Axle monitoring enablement"
+              ]
+            },
+            {
+              "topic": "max_axle_load",
+              "label": "Maximum axle load",
+              "aliases": [
+                "Peak axle loading",
+                "Trailer axle load"
+              ]
+            },
+            {
+              "topic": "utility_escort_approved",
+              "label": "Overhead high-voltage utility escort approved",
+              "aliases": [
+                "Power line escort approval",
+                "Overhead cable lifting approval"
+              ]
+            },
+            {
+              "topic": "rail_crossing_cleared",
+              "label": "Railway level crossing transit clearance granted",
+              "aliases": [
+                "Network Rail crossing clearance",
+                "Level crossing transit permit"
+              ]
+            },
+            {
+              "topic": "motorway_possession_permit",
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ]
+            },
+            {
+              "topic": "highway_haul_distance",
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ]
+            },
+            {
+              "topic": "arterial_detour_distance",
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Bridge structural engineer (STRUC)",
+          "target_key": "STRUC-DECK-Q11",
+          "alternate_key": "STRUC-DECK-PF4",
+          "target_context": "Version 2 engineering baseline",
+          "alternate_context": "Version 3 engineering baseline",
+          "candidate": "M62 Trans-Pennine Heavy Haul Route",
+          "other_candidates": [
+            "A66 Stainmore Pass Corridor",
+            "A69 Tyne Valley Bypass Route"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "bridge_clearance_certified",
+              "value": true,
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bridge_clearance_certified",
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ]
+            },
+            {
+              "topic": "dynamic_axle_monitoring_enabled",
+              "label": "Dynamic axle weight monitoring enabled",
+              "aliases": [
+                "Telemetry weight monitoring",
+                "Axle monitoring enablement"
+              ]
+            },
+            {
+              "topic": "max_axle_load",
+              "label": "Maximum axle load",
+              "aliases": [
+                "Peak axle loading",
+                "Trailer axle load"
+              ]
+            },
+            {
+              "topic": "utility_escort_approved",
+              "label": "Overhead high-voltage utility escort approved",
+              "aliases": [
+                "Power line escort approval",
+                "Overhead cable lifting approval"
+              ]
+            },
+            {
+              "topic": "rail_crossing_cleared",
+              "label": "Railway level crossing transit clearance granted",
+              "aliases": [
+                "Network Rail crossing clearance",
+                "Level crossing transit permit"
+              ]
+            },
+            {
+              "topic": "motorway_possession_permit",
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ]
+            },
+            {
+              "topic": "highway_haul_distance",
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ]
+            },
+            {
+              "topic": "arterial_detour_distance",
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "local_highways",
+        "structural_engineering",
+        "highway_authority"
+      ],
+      "role_names": [
+        "Local highways and detour supervisor (LOCL)",
+        "Bridge structural engineer (STRUC)",
+        "National highways route manager (HWYS)"
+      ],
+      "directory": "number_expansion/misaligned/task_626/k3",
+      "error_profiles": [
+        {
+          "role_name": "Local highways and detour supervisor (LOCL)",
+          "target_key": "LOCL-DETR-HEK",
+          "alternate_key": "LOCL-SWEEP-8CS",
+          "target_context": "Version 2",
+          "alternate_context": "Version 3",
+          "candidate": "M62 Trans-Pennine Heavy Haul Route",
+          "other_candidates": [
+            "A66 Stainmore Pass Corridor",
+            "A69 Tyne Valley Bypass Route"
+          ],
+          "numeric": [
+            {
+              "topic": "arterial_detour_distance",
+              "value": 35,
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ],
+              "unit": "km"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bridge_clearance_certified",
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ]
+            },
+            {
+              "topic": "dynamic_axle_monitoring_enabled",
+              "label": "Dynamic axle weight monitoring enabled",
+              "aliases": [
+                "Telemetry weight monitoring",
+                "Axle monitoring enablement"
+              ]
+            },
+            {
+              "topic": "max_axle_load",
+              "label": "Maximum axle load",
+              "aliases": [
+                "Peak axle loading",
+                "Trailer axle load"
+              ]
+            },
+            {
+              "topic": "utility_escort_approved",
+              "label": "Overhead high-voltage utility escort approved",
+              "aliases": [
+                "Power line escort approval",
+                "Overhead cable lifting approval"
+              ]
+            },
+            {
+              "topic": "rail_crossing_cleared",
+              "label": "Railway level crossing transit clearance granted",
+              "aliases": [
+                "Network Rail crossing clearance",
+                "Level crossing transit permit"
+              ]
+            },
+            {
+              "topic": "motorway_possession_permit",
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ]
+            },
+            {
+              "topic": "highway_haul_distance",
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ]
+            },
+            {
+              "topic": "arterial_detour_distance",
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Bridge structural engineer (STRUC)",
+          "target_key": "STRUC-DECK-Q11",
+          "alternate_key": "STRUC-DECK-PF4",
+          "target_context": "Version 2 engineering baseline",
+          "alternate_context": "Version 3 engineering baseline",
+          "candidate": "M62 Trans-Pennine Heavy Haul Route",
+          "other_candidates": [
+            "A66 Stainmore Pass Corridor",
+            "A69 Tyne Valley Bypass Route"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "bridge_clearance_certified",
+              "value": true,
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bridge_clearance_certified",
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ]
+            },
+            {
+              "topic": "dynamic_axle_monitoring_enabled",
+              "label": "Dynamic axle weight monitoring enabled",
+              "aliases": [
+                "Telemetry weight monitoring",
+                "Axle monitoring enablement"
+              ]
+            },
+            {
+              "topic": "max_axle_load",
+              "label": "Maximum axle load",
+              "aliases": [
+                "Peak axle loading",
+                "Trailer axle load"
+              ]
+            },
+            {
+              "topic": "utility_escort_approved",
+              "label": "Overhead high-voltage utility escort approved",
+              "aliases": [
+                "Power line escort approval",
+                "Overhead cable lifting approval"
+              ]
+            },
+            {
+              "topic": "rail_crossing_cleared",
+              "label": "Railway level crossing transit clearance granted",
+              "aliases": [
+                "Network Rail crossing clearance",
+                "Level crossing transit permit"
+              ]
+            },
+            {
+              "topic": "motorway_possession_permit",
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ]
+            },
+            {
+              "topic": "highway_haul_distance",
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ]
+            },
+            {
+              "topic": "arterial_detour_distance",
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "National highways route manager (HWYS)",
+          "target_key": "HWYS-HWY-QJQ",
+          "alternate_key": "HWYS-HWY-SE8",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "M62 Trans-Pennine Heavy Haul Route",
+          "other_candidates": [
+            "A66 Stainmore Pass Corridor",
+            "A69 Tyne Valley Bypass Route"
+          ],
+          "numeric": [
+            {
+              "topic": "highway_haul_distance",
+              "value": 80,
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ],
+              "unit": "km"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "motorway_possession_permit",
+              "value": true,
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bridge_clearance_certified",
+              "label": "Bridge structural clearance certified",
+              "aliases": [
+                "Bridge load certification",
+                "Bridge deck clearance"
+              ]
+            },
+            {
+              "topic": "dynamic_axle_monitoring_enabled",
+              "label": "Dynamic axle weight monitoring enabled",
+              "aliases": [
+                "Telemetry weight monitoring",
+                "Axle monitoring enablement"
+              ]
+            },
+            {
+              "topic": "max_axle_load",
+              "label": "Maximum axle load",
+              "aliases": [
+                "Peak axle loading",
+                "Trailer axle load"
+              ]
+            },
+            {
+              "topic": "utility_escort_approved",
+              "label": "Overhead high-voltage utility escort approved",
+              "aliases": [
+                "Power line escort approval",
+                "Overhead cable lifting approval"
+              ]
+            },
+            {
+              "topic": "rail_crossing_cleared",
+              "label": "Railway level crossing transit clearance granted",
+              "aliases": [
+                "Network Rail crossing clearance",
+                "Level crossing transit permit"
+              ]
+            },
+            {
+              "topic": "motorway_possession_permit",
+              "label": "Motorway night possession permit",
+              "aliases": [
+                "Overnight rolling road block permit",
+                "Highway night possession approval"
+              ]
+            },
+            {
+              "topic": "highway_haul_distance",
+              "label": "Highway haul distance",
+              "aliases": [
+                "Motorway transit distance",
+                "Trunk road distance"
+              ]
+            },
+            {
+              "topic": "arterial_detour_distance",
+              "label": "Arterial detour distance",
+              "aliases": [
+                "Local road detour length",
+                "Secondary road haul distance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_344",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Fleet operations lead (FLT)"
+      ],
+      "directory": "incomplete/task_344",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ECO-JPU",
+          "boolean_predicate_id": "A_emission_monitoring_installed",
+          "boolean_label": "Tailpipe emission monitoring installed",
+          "hidden_predicate_id": "A_fleet_soot_particulate_intensity",
+          "threshold_label": "Fleet soot particulate intensity",
+          "threshold_aliases": [
+            "Soot particulate rate",
+            "Exhaust particulate matter intensity"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "mg/km",
+          "partial_record_text": "ENV-ECO-JPU: Pacific Gateway Drayage Syndicate.Pacific Gateway Drayage Syndicate: Tailpipe emission monitoring installed = true .Source: Telematics installation verification report; Scope: All heavy trucks deployed under the concession; Measurement: Operational confirmation of tamper-proof IoT exhaust monitoring telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Fleet soot particulate intensity is between 10 mg/km and 40 mg/km, inclusive.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Pacific Gateway Drayage Syndicate",
+          "other_candidate_names": [
+            "Cascadia Intermodal Transport Group",
+            "Harbor Rail Drayage Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-FLEET-C1S",
+          "hidden_predicate_id": "A_scheduled_terminal_volume",
+          "threshold_label": "Scheduled terminal container throughput",
+          "threshold_aliases": [
+            "Terminal drayage volume",
+            "Scheduled dockside throughput"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "TEU",
+          "partial_record_text": "FLT-FLEET-C1S: Pacific Gateway Drayage Syndicate.Pacific Gateway Drayage Syndicate: Electric fleet mandate confirmed = true .Source: Clean port fleet filing; Scope: Consortium Class 8 drayage tractor inventory; Measurement: Formal binding commitment to deploy zero-emission electric drayage tractors.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scheduled terminal container throughput is between 1000 TEU and 5000 TEU, inclusive.",
+          "role_name": "Fleet operations lead (FLT)",
+          "candidate_name": "Pacific Gateway Drayage Syndicate",
+          "other_candidate_names": [
+            "Cascadia Intermodal Transport Group",
+            "Harbor Rail Drayage Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "fleet_operations",
+        "rail_intermodal"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Fleet operations lead (FLT)",
+        "Rail intermodal liaison (RAIL)"
+      ],
+      "directory": "incomplete/task_344",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ECO-JPU",
+          "boolean_predicate_id": "A_emission_monitoring_installed",
+          "boolean_label": "Tailpipe emission monitoring installed",
+          "hidden_predicate_id": "A_fleet_soot_particulate_intensity",
+          "threshold_label": "Fleet soot particulate intensity",
+          "threshold_aliases": [
+            "Soot particulate rate",
+            "Exhaust particulate matter intensity"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "mg/km",
+          "partial_record_text": "ENV-ECO-JPU: Pacific Gateway Drayage Syndicate.Pacific Gateway Drayage Syndicate: Tailpipe emission monitoring installed = true .Source: Telematics installation verification report; Scope: All heavy trucks deployed under the concession; Measurement: Operational confirmation of tamper-proof IoT exhaust monitoring telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Fleet soot particulate intensity is between 10 mg/km and 40 mg/km, inclusive.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Pacific Gateway Drayage Syndicate",
+          "other_candidate_names": [
+            "Cascadia Intermodal Transport Group",
+            "Harbor Rail Drayage Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-FLEET-C1S",
+          "hidden_predicate_id": "A_scheduled_terminal_volume",
+          "threshold_label": "Scheduled terminal container throughput",
+          "threshold_aliases": [
+            "Terminal drayage volume",
+            "Scheduled dockside throughput"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "TEU",
+          "partial_record_text": "FLT-FLEET-C1S: Pacific Gateway Drayage Syndicate.Pacific Gateway Drayage Syndicate: Electric fleet mandate confirmed = true .Source: Clean port fleet filing; Scope: Consortium Class 8 drayage tractor inventory; Measurement: Formal binding commitment to deploy zero-emission electric drayage tractors.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scheduled terminal container throughput is between 1000 TEU and 5000 TEU, inclusive.",
+          "role_name": "Fleet operations lead (FLT)",
+          "candidate_name": "Pacific Gateway Drayage Syndicate",
+          "other_candidate_names": [
+            "Cascadia Intermodal Transport Group",
+            "Harbor Rail Drayage Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rail_intermodal_A",
+          "role_id": "rail_intermodal",
+          "candidate_id": "A",
+          "key": "RAIL-INTR-TIC",
+          "hidden_predicate_id": "A_offdock_depot_volume",
+          "threshold_label": "Off-dock depot transfer volume",
+          "threshold_aliases": [
+            "Inland depot throughput",
+            "Off-dock intermodal haulage volume"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "TEU",
+          "partial_record_text": "RAIL-INTR-TIC: Pacific Gateway Drayage Syndicate.Aggregation window: current calendar month.Pacific Gateway Drayage Syndicate: Dedicated rail spur access confirmed = true .Source: Railroad trackage agreement; Scope: Harbor intermodal rail yard siding 4B; Measurement: Exclusive rights to load and shunt double-stack well cars without intermediate switching delays.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Off-dock depot transfer volume is between 0 TEU and 5000 TEU, inclusive.",
+          "role_name": "Rail intermodal liaison (RAIL)",
+          "candidate_name": "Pacific Gateway Drayage Syndicate",
+          "other_candidate_names": [
+            "Cascadia Intermodal Transport Group",
+            "Harbor Rail Drayage Alliance"
+          ],
+          "context_value": "current calendar month",
+          "other_context_values": [
+            "trailing three-month average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

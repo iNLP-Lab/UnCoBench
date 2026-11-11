@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_016",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "production_planning",
+        "logistics_operations"
+      ],
+      "role_names": [
+        "Production scheduling manager (PRD)",
+        "Logistics operations lead (LOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_016/k2",
+      "error_profiles": [
+        {
+          "role_name": "Production scheduling manager (PRD)",
+          "target_key": "PRD-SCHED-1M4",
+          "alternate_key": "PRD-TOOL-SGG",
+          "target_context": "excluding pre-delivery qualification test batches",
+          "alternate_context": "including pre-delivery qualification test batches",
+          "candidate": "Apex Precision Dynamics",
+          "other_candidates": [
+            "Vanguard Aero Forgings",
+            "Titanium Aerospace Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "annual_batch_commitment",
+              "value": 180,
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ],
+              "unit": "batch"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "as9100_certified",
+              "label": "AS9100 aerospace certification",
+              "aliases": [
+                "AS9100 certification status",
+                "Aerospace quality standard certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_monitoring_installed",
+              "label": "Cleanroom particulate monitoring installation",
+              "aliases": [
+                "Cleanroom sensor enablement",
+                "Continuous airborne particulate monitoring"
+              ]
+            },
+            {
+              "topic": "cleanroom_particulate_count",
+              "label": "Cleanroom maximum particulate count",
+              "aliases": [
+                "Airborne particulate density",
+                "Cleanroom particle concentration"
+              ]
+            },
+            {
+              "topic": "bonded_warehouse_cleared",
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ]
+            },
+            {
+              "topic": "ontime_delivery_rate",
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ]
+            },
+            {
+              "topic": "trade_compliance_cleared",
+              "label": "Trade compliance clearance",
+              "aliases": [
+                "Export control vetting",
+                "Sanction screening clearance"
+              ]
+            },
+            {
+              "topic": "annual_batch_commitment",
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ]
+            },
+            {
+              "topic": "batch_unit_price",
+              "label": "Unit contract price per batch",
+              "aliases": [
+                "Contract batch pricing",
+                "Agreed batch cost"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Logistics operations lead (LOG)",
+          "target_key": "LOG-WARE-23S",
+          "alternate_key": "LOG-WARE-17G",
+          "target_context": "production environment",
+          "alternate_context": "staging environment",
+          "candidate": "Apex Precision Dynamics",
+          "other_candidates": [
+            "Vanguard Aero Forgings",
+            "Titanium Aerospace Solutions"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "bonded_warehouse_cleared",
+              "value": true,
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "as9100_certified",
+              "label": "AS9100 aerospace certification",
+              "aliases": [
+                "AS9100 certification status",
+                "Aerospace quality standard certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_monitoring_installed",
+              "label": "Cleanroom particulate monitoring installation",
+              "aliases": [
+                "Cleanroom sensor enablement",
+                "Continuous airborne particulate monitoring"
+              ]
+            },
+            {
+              "topic": "cleanroom_particulate_count",
+              "label": "Cleanroom maximum particulate count",
+              "aliases": [
+                "Airborne particulate density",
+                "Cleanroom particle concentration"
+              ]
+            },
+            {
+              "topic": "bonded_warehouse_cleared",
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ]
+            },
+            {
+              "topic": "ontime_delivery_rate",
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ]
+            },
+            {
+              "topic": "trade_compliance_cleared",
+              "label": "Trade compliance clearance",
+              "aliases": [
+                "Export control vetting",
+                "Sanction screening clearance"
+              ]
+            },
+            {
+              "topic": "annual_batch_commitment",
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ]
+            },
+            {
+              "topic": "batch_unit_price",
+              "label": "Unit contract price per batch",
+              "aliases": [
+                "Contract batch pricing",
+                "Agreed batch cost"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "production_planning",
+        "logistics_operations",
+        "vendor_performance"
+      ],
+      "role_names": [
+        "Production scheduling manager (PRD)",
+        "Logistics operations lead (LOG)",
+        "Supplier performance lead (PRF)"
+      ],
+      "directory": "number_expansion/misaligned/task_016/k3",
+      "error_profiles": [
+        {
+          "role_name": "Production scheduling manager (PRD)",
+          "target_key": "PRD-SCHED-1M4",
+          "alternate_key": "PRD-TOOL-SGG",
+          "target_context": "excluding pre-delivery qualification test batches",
+          "alternate_context": "including pre-delivery qualification test batches",
+          "candidate": "Apex Precision Dynamics",
+          "other_candidates": [
+            "Vanguard Aero Forgings",
+            "Titanium Aerospace Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "annual_batch_commitment",
+              "value": 180,
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ],
+              "unit": "batch"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "as9100_certified",
+              "label": "AS9100 aerospace certification",
+              "aliases": [
+                "AS9100 certification status",
+                "Aerospace quality standard certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_monitoring_installed",
+              "label": "Cleanroom particulate monitoring installation",
+              "aliases": [
+                "Cleanroom sensor enablement",
+                "Continuous airborne particulate monitoring"
+              ]
+            },
+            {
+              "topic": "cleanroom_particulate_count",
+              "label": "Cleanroom maximum particulate count",
+              "aliases": [
+                "Airborne particulate density",
+                "Cleanroom particle concentration"
+              ]
+            },
+            {
+              "topic": "bonded_warehouse_cleared",
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ]
+            },
+            {
+              "topic": "ontime_delivery_rate",
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ]
+            },
+            {
+              "topic": "trade_compliance_cleared",
+              "label": "Trade compliance clearance",
+              "aliases": [
+                "Export control vetting",
+                "Sanction screening clearance"
+              ]
+            },
+            {
+              "topic": "annual_batch_commitment",
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ]
+            },
+            {
+              "topic": "batch_unit_price",
+              "label": "Unit contract price per batch",
+              "aliases": [
+                "Contract batch pricing",
+                "Agreed batch cost"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Logistics operations lead (LOG)",
+          "target_key": "LOG-WARE-23S",
+          "alternate_key": "LOG-WARE-17G",
+          "target_context": "production environment",
+          "alternate_context": "staging environment",
+          "candidate": "Apex Precision Dynamics",
+          "other_candidates": [
+            "Vanguard Aero Forgings",
+            "Titanium Aerospace Solutions"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "bonded_warehouse_cleared",
+              "value": true,
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "as9100_certified",
+              "label": "AS9100 aerospace certification",
+              "aliases": [
+                "AS9100 certification status",
+                "Aerospace quality standard certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_monitoring_installed",
+              "label": "Cleanroom particulate monitoring installation",
+              "aliases": [
+                "Cleanroom sensor enablement",
+                "Continuous airborne particulate monitoring"
+              ]
+            },
+            {
+              "topic": "cleanroom_particulate_count",
+              "label": "Cleanroom maximum particulate count",
+              "aliases": [
+                "Airborne particulate density",
+                "Cleanroom particle concentration"
+              ]
+            },
+            {
+              "topic": "bonded_warehouse_cleared",
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ]
+            },
+            {
+              "topic": "ontime_delivery_rate",
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ]
+            },
+            {
+              "topic": "trade_compliance_cleared",
+              "label": "Trade compliance clearance",
+              "aliases": [
+                "Export control vetting",
+                "Sanction screening clearance"
+              ]
+            },
+            {
+              "topic": "annual_batch_commitment",
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ]
+            },
+            {
+              "topic": "batch_unit_price",
+              "label": "Unit contract price per batch",
+              "aliases": [
+                "Contract batch pricing",
+                "Agreed batch cost"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Supplier performance lead (PRF)",
+          "target_key": "PRF-METR-FGZ",
+          "alternate_key": "PRF-METR-BW0",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Apex Precision Dynamics",
+          "other_candidates": [
+            "Vanguard Aero Forgings",
+            "Titanium Aerospace Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "ontime_delivery_rate",
+              "value": 95,
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "as9100_certified",
+              "label": "AS9100 aerospace certification",
+              "aliases": [
+                "AS9100 certification status",
+                "Aerospace quality standard certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_monitoring_installed",
+              "label": "Cleanroom particulate monitoring installation",
+              "aliases": [
+                "Cleanroom sensor enablement",
+                "Continuous airborne particulate monitoring"
+              ]
+            },
+            {
+              "topic": "cleanroom_particulate_count",
+              "label": "Cleanroom maximum particulate count",
+              "aliases": [
+                "Airborne particulate density",
+                "Cleanroom particle concentration"
+              ]
+            },
+            {
+              "topic": "bonded_warehouse_cleared",
+              "label": "Bonded warehouse customs clearance",
+              "aliases": [
+                "Bonded storage qualification",
+                "Customs bonded warehouse status"
+              ]
+            },
+            {
+              "topic": "ontime_delivery_rate",
+              "label": "Historical on-time delivery rate",
+              "aliases": [
+                "On-time delivery percentage",
+                "Contractual delivery punctuality"
+              ]
+            },
+            {
+              "topic": "trade_compliance_cleared",
+              "label": "Trade compliance clearance",
+              "aliases": [
+                "Export control vetting",
+                "Sanction screening clearance"
+              ]
+            },
+            {
+              "topic": "annual_batch_commitment",
+              "label": "Annual contract batch commitment",
+              "aliases": [
+                "Annual batch allocation",
+                "Committed production volume"
+              ]
+            },
+            {
+              "topic": "batch_unit_price",
+              "label": "Unit contract price per batch",
+              "aliases": [
+                "Contract batch pricing",
+                "Agreed batch cost"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

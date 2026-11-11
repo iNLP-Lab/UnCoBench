@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_682",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ventilation_lead",
+        "fire_suppression_lead"
+      ],
+      "role_names": [
+        "Life support and ventilation specialist (VENT)",
+        "Fire suppression systems engineer (FSE)"
+      ],
+      "directory": "incomplete/task_682",
+      "profiles": [
+        {
+          "record_id": "rec_ventilation_lead_A",
+          "role_id": "ventilation_lead",
+          "candidate_id": "A",
+          "key": "VENT-ATMO-B9L",
+          "boolean_predicate_id": "A_overpressure_system_enabled",
+          "boolean_label": "Positive overpressure toxic gas isolation enabled",
+          "hidden_predicate_id": "A_cabin_oxygen_duration",
+          "threshold_label": "Autonomous breathable air duration",
+          "threshold_aliases": [
+            "Breathable air endurance",
+            "Oxygen autonomy"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "min",
+          "partial_record_text": "VENT-ATMO-B9L: Caterpillar-Schöma Bi-Mode Rescue Shuttle.Caterpillar-Schöma Bi-Mode Rescue Shuttle: Positive overpressure toxic gas isolation enabled = true .Source: HVAC sealing and pressurization protocol; Scope: Crew and passenger rescue compartments; Measurement: Verification that the automated positive-pressure airlock barrier is fully armed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Autonomous breathable air duration is at most 400 min.",
+          "role_name": "Life support and ventilation specialist (VENT)",
+          "candidate_name": "Caterpillar-Schöma Bi-Mode Rescue Shuttle",
+          "other_candidate_names": [
+            "Windhoff High-Capacity Fire Rescue Unit",
+            "Stadler Tri-Axle Hydrostatic Intervention Train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_suppression_lead_A",
+          "role_id": "fire_suppression_lead",
+          "candidate_id": "A",
+          "key": "FSE-MIST-94G",
+          "hidden_predicate_id": "A_thermal_barrier_rating",
+          "threshold_label": "Exterior thermal barrier fire endurance",
+          "threshold_aliases": [
+            "Thermal barrier endurance",
+            "Fire resistance duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "FSE-MIST-94G: Caterpillar-Schöma Bi-Mode Rescue Shuttle.Specification version: Specification Version 2.0.Caterpillar-Schöma Bi-Mode Rescue Shuttle: Continuous high-pressure mist flow rate = 550 L/min.Source: High-pressure fog monitor bench test; Scope: Exterior fire extinguishing deluge and piercing nozzle manifold; Measurement: Discharge volume per minute maintained at 140 bar operating pressure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Exterior thermal barrier fire endurance is at most 300 min.",
+          "role_name": "Fire suppression systems engineer (FSE)",
+          "candidate_name": "Caterpillar-Schöma Bi-Mode Rescue Shuttle",
+          "other_candidate_names": [
+            "Windhoff High-Capacity Fire Rescue Unit",
+            "Stadler Tri-Axle Hydrostatic Intervention Train"
+          ],
+          "context_value": "Specification Version 2.0",
+          "other_context_values": [
+            "Specification Version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ventilation_lead",
+        "fire_suppression_lead",
+        "powertrain_lead"
+      ],
+      "role_names": [
+        "Life support and ventilation specialist (VENT)",
+        "Fire suppression systems engineer (FSE)",
+        "Traction powertrain superintendent (TRC)"
+      ],
+      "directory": "incomplete/task_682",
+      "profiles": [
+        {
+          "record_id": "rec_ventilation_lead_A",
+          "role_id": "ventilation_lead",
+          "candidate_id": "A",
+          "key": "VENT-ATMO-B9L",
+          "boolean_predicate_id": "A_overpressure_system_enabled",
+          "boolean_label": "Positive overpressure toxic gas isolation enabled",
+          "hidden_predicate_id": "A_cabin_oxygen_duration",
+          "threshold_label": "Autonomous breathable air duration",
+          "threshold_aliases": [
+            "Breathable air endurance",
+            "Oxygen autonomy"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "min",
+          "partial_record_text": "VENT-ATMO-B9L: Caterpillar-Schöma Bi-Mode Rescue Shuttle.Caterpillar-Schöma Bi-Mode Rescue Shuttle: Positive overpressure toxic gas isolation enabled = true .Source: HVAC sealing and pressurization protocol; Scope: Crew and passenger rescue compartments; Measurement: Verification that the automated positive-pressure airlock barrier is fully armed.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Autonomous breathable air duration is at most 400 min.",
+          "role_name": "Life support and ventilation specialist (VENT)",
+          "candidate_name": "Caterpillar-Schöma Bi-Mode Rescue Shuttle",
+          "other_candidate_names": [
+            "Windhoff High-Capacity Fire Rescue Unit",
+            "Stadler Tri-Axle Hydrostatic Intervention Train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_suppression_lead_A",
+          "role_id": "fire_suppression_lead",
+          "candidate_id": "A",
+          "key": "FSE-MIST-94G",
+          "hidden_predicate_id": "A_thermal_barrier_rating",
+          "threshold_label": "Exterior thermal barrier fire endurance",
+          "threshold_aliases": [
+            "Thermal barrier endurance",
+            "Fire resistance duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "FSE-MIST-94G: Caterpillar-Schöma Bi-Mode Rescue Shuttle.Specification version: Specification Version 2.0.Caterpillar-Schöma Bi-Mode Rescue Shuttle: Continuous high-pressure mist flow rate = 550 L/min.Source: High-pressure fog monitor bench test; Scope: Exterior fire extinguishing deluge and piercing nozzle manifold; Measurement: Discharge volume per minute maintained at 140 bar operating pressure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Exterior thermal barrier fire endurance is at most 300 min.",
+          "role_name": "Fire suppression systems engineer (FSE)",
+          "candidate_name": "Caterpillar-Schöma Bi-Mode Rescue Shuttle",
+          "other_candidate_names": [
+            "Windhoff High-Capacity Fire Rescue Unit",
+            "Stadler Tri-Axle Hydrostatic Intervention Train"
+          ],
+          "context_value": "Specification Version 2.0",
+          "other_context_values": [
+            "Specification Version 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_powertrain_lead_A",
+          "role_id": "powertrain_lead",
+          "candidate_id": "A",
+          "key": "TRC-PROP-JWV",
+          "hidden_predicate_id": "A_gradient_crawl_speed",
+          "threshold_label": "Full-load ascending gradient crawl speed",
+          "threshold_aliases": [
+            "Crawl speed",
+            "Gradient ascent speed"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "km/h",
+          "partial_record_text": "TRC-PROP-JWV: Caterpillar-Schöma Bi-Mode Rescue Shuttle.Caterpillar-Schöma Bi-Mode Rescue Shuttle: Dual redundant electro-dynamic braking available = true .Source: Braking system safety audit certificate; Scope: Regenerative and rheostatic dynamic deceleration systems; Measurement: Presence of an isolated dual-channel independent electronic dynamic braking line.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Full-load ascending gradient crawl speed is at most 60 km/h.",
+          "role_name": "Traction powertrain superintendent (TRC)",
+          "candidate_name": "Caterpillar-Schöma Bi-Mode Rescue Shuttle",
+          "other_candidate_names": [
+            "Windhoff High-Capacity Fire Rescue Unit",
+            "Stadler Tri-Axle Hydrostatic Intervention Train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

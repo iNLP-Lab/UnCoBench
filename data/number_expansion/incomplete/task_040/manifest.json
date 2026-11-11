@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_040",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_protection",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Maritime environmental compliance officer (ECO)",
+        "Commercial procurement lead (CPL)"
+      ],
+      "directory": "incomplete/task_040",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_protection_A",
+          "role_id": "environmental_protection",
+          "candidate_id": "A",
+          "key": "ECO-ENVR-RMF",
+          "boolean_predicate_id": "A_spill_protocol_active",
+          "boolean_label": "Active marine spill containment protocol",
+          "hidden_predicate_id": "A_emergency_containment_time",
+          "threshold_label": "Emergency containment deployment time",
+          "threshold_aliases": [
+            "Containment deployment duration",
+            "Spill boom deployment time"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "min",
+          "partial_record_text": "ECO-ENVR-RMF: Zeeland Marine Fuels Consortium.Zeeland Marine Fuels Consortium: Active marine spill containment protocol = true .Source: Harbor environmental safety registry; Scope: Bunkering transfer operations and lightering zones; Measurement: Presence of a certified and continuously active Tier-2 oil spill response protocol.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency containment deployment time is at most 70 min.",
+          "role_name": "Maritime environmental compliance officer (ECO)",
+          "candidate_name": "Zeeland Marine Fuels Consortium",
+          "other_candidate_names": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "CPL-PROC-SGV",
+          "hidden_predicate_id": "A_contracted_bunkering_volume",
+          "threshold_label": "Nominal contracted bunkering volume",
+          "threshold_aliases": [
+            "Nominal bunkering volume",
+            "Contracted fuel volume"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "t",
+          "partial_record_text": "CPL-PROC-SGV: Zeeland Marine Fuels Consortium.Zeeland Marine Fuels Consortium: Approved contractual liability ceiling = true .Source: Concession agreement risk review; Scope: Standard maritime casualty and indemnification terms; Measurement: Approval of negotiated mutual third-party indemnification ceiling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Nominal contracted bunkering volume is at most 30000 t.",
+          "role_name": "Commercial procurement lead (CPL)",
+          "candidate_name": "Zeeland Marine Fuels Consortium",
+          "other_candidate_names": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_protection",
+        "commercial_procurement",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Maritime environmental compliance officer (ECO)",
+        "Commercial procurement lead (CPL)",
+        "Marine terminal operations superintendent (TOS)"
+      ],
+      "directory": "incomplete/task_040",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_protection_A",
+          "role_id": "environmental_protection",
+          "candidate_id": "A",
+          "key": "ECO-ENVR-RMF",
+          "boolean_predicate_id": "A_spill_protocol_active",
+          "boolean_label": "Active marine spill containment protocol",
+          "hidden_predicate_id": "A_emergency_containment_time",
+          "threshold_label": "Emergency containment deployment time",
+          "threshold_aliases": [
+            "Containment deployment duration",
+            "Spill boom deployment time"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "min",
+          "partial_record_text": "ECO-ENVR-RMF: Zeeland Marine Fuels Consortium.Zeeland Marine Fuels Consortium: Active marine spill containment protocol = true .Source: Harbor environmental safety registry; Scope: Bunkering transfer operations and lightering zones; Measurement: Presence of a certified and continuously active Tier-2 oil spill response protocol.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Emergency containment deployment time is at most 70 min.",
+          "role_name": "Maritime environmental compliance officer (ECO)",
+          "candidate_name": "Zeeland Marine Fuels Consortium",
+          "other_candidate_names": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "CPL-PROC-SGV",
+          "hidden_predicate_id": "A_contracted_bunkering_volume",
+          "threshold_label": "Nominal contracted bunkering volume",
+          "threshold_aliases": [
+            "Nominal bunkering volume",
+            "Contracted fuel volume"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "t",
+          "partial_record_text": "CPL-PROC-SGV: Zeeland Marine Fuels Consortium.Zeeland Marine Fuels Consortium: Approved contractual liability ceiling = true .Source: Concession agreement risk review; Scope: Standard maritime casualty and indemnification terms; Measurement: Approval of negotiated mutual third-party indemnification ceiling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Nominal contracted bunkering volume is at most 30000 t.",
+          "role_name": "Commercial procurement lead (CPL)",
+          "candidate_name": "Zeeland Marine Fuels Consortium",
+          "other_candidate_names": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TOS-OPS-OVW",
+          "hidden_predicate_id": "A_unit_port_handling_fee",
+          "threshold_label": "Unit port handling fee",
+          "threshold_aliases": [
+            "Unit handling fee",
+            "Throughput handling tariff"
+          ],
+          "threshold_value": 5.2,
+          "threshold_unit": "EUR/t",
+          "partial_record_text": "TOS-OPS-OVW: Zeeland Marine Fuels Consortium.Zeeland Marine Fuels Consortium: Terminal berthing slot priority reservation = true .Source: Deepwater jetty operational schedule; Scope: Bunker tanker berthing windows for upcoming operating year; Measurement: Formal reservation approval for guaranteed primary fueling jetty access.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Unit port handling fee is at most 7 EUR/t.",
+          "role_name": "Marine terminal operations superintendent (TOS)",
+          "candidate_name": "Zeeland Marine Fuels Consortium",
+          "other_candidate_names": [
+            "Nordic Bunkering & Logistics Group",
+            "Channel Maritime Energy Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

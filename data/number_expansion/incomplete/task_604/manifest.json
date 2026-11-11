@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_604",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "polar_engineering",
+        "primary_power"
+      ],
+      "role_names": [
+        "Polar structural engineering lead (STRUCTENG)",
+        "Primary battery systems lead (BATT)"
+      ],
+      "directory": "incomplete/task_604",
+      "profiles": [
+        {
+          "record_id": "rec_polar_engineering_A",
+          "role_id": "polar_engineering",
+          "candidate_id": "A",
+          "key": "STRUCTENG-SURV-5U7",
+          "boolean_predicate_id": "A_aerodynamic_fairing_installed",
+          "boolean_label": "Aerodynamic fairing installed",
+          "hidden_predicate_id": "A_wind_survivability_rating",
+          "threshold_label": "Sustained wind survivability rating",
+          "threshold_aliases": [
+            "Structural wind resistance threshold",
+            "Design gale gust survivability"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "km/h",
+          "partial_record_text": "STRUCTENG-SURV-5U7: Kerguelen Plateau Autonomous Station.Kerguelen Plateau Autonomous Station: Aerodynamic fairing installed = true .Source: Enclosure engineering layout drawing; Scope: Candidate station outer structural envelope; Measurement: Presence of an integrated multi-directional aerodynamic cowl.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Sustained wind survivability rating is at most 400 km/h.",
+          "role_name": "Polar structural engineering lead (STRUCTENG)",
+          "candidate_name": "Kerguelen Plateau Autonomous Station",
+          "other_candidate_names": [
+            "Campbell Rise Cryo-Atmospheric Platform",
+            "Macquarie Ridge Polar Telemetry Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_primary_power_A",
+          "role_id": "primary_power",
+          "candidate_id": "A",
+          "key": "BATT-PRIMPWR-P34",
+          "hidden_predicate_id": "A_primary_battery_life",
+          "threshold_label": "Primary battery endurance",
+          "threshold_aliases": [
+            "Primary battery operational duration",
+            "Lithium pack standalone life"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "d",
+          "partial_record_text": "BATT-PRIMPWR-P34: Kerguelen Plateau Autonomous Station. The record covers Primary battery endurance. Sub-zero discharge lifecycle benchmark; Primary lithium iron phosphate bank at -30 degrees C under base baseline load; Calculated days of continuous operation down to 20 percent remaining state of charge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary battery endurance is at most 400 d.",
+          "role_name": "Primary battery systems lead (BATT)",
+          "candidate_name": "Kerguelen Plateau Autonomous Station",
+          "other_candidate_names": [
+            "Campbell Rise Cryo-Atmospheric Platform",
+            "Macquarie Ridge Polar Telemetry Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "polar_engineering",
+        "primary_power",
+        "auxiliary_power"
+      ],
+      "role_names": [
+        "Polar structural engineering lead (STRUCTENG)",
+        "Primary battery systems lead (BATT)",
+        "Fuel cell engineering specialist (FUELCELL)"
+      ],
+      "directory": "incomplete/task_604",
+      "profiles": [
+        {
+          "record_id": "rec_polar_engineering_A",
+          "role_id": "polar_engineering",
+          "candidate_id": "A",
+          "key": "STRUCTENG-SURV-5U7",
+          "boolean_predicate_id": "A_aerodynamic_fairing_installed",
+          "boolean_label": "Aerodynamic fairing installed",
+          "hidden_predicate_id": "A_wind_survivability_rating",
+          "threshold_label": "Sustained wind survivability rating",
+          "threshold_aliases": [
+            "Structural wind resistance threshold",
+            "Design gale gust survivability"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "km/h",
+          "partial_record_text": "STRUCTENG-SURV-5U7: Kerguelen Plateau Autonomous Station.Kerguelen Plateau Autonomous Station: Aerodynamic fairing installed = true .Source: Enclosure engineering layout drawing; Scope: Candidate station outer structural envelope; Measurement: Presence of an integrated multi-directional aerodynamic cowl.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Sustained wind survivability rating is at most 400 km/h.",
+          "role_name": "Polar structural engineering lead (STRUCTENG)",
+          "candidate_name": "Kerguelen Plateau Autonomous Station",
+          "other_candidate_names": [
+            "Campbell Rise Cryo-Atmospheric Platform",
+            "Macquarie Ridge Polar Telemetry Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_primary_power_A",
+          "role_id": "primary_power",
+          "candidate_id": "A",
+          "key": "BATT-PRIMPWR-P34",
+          "hidden_predicate_id": "A_primary_battery_life",
+          "threshold_label": "Primary battery endurance",
+          "threshold_aliases": [
+            "Primary battery operational duration",
+            "Lithium pack standalone life"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "d",
+          "partial_record_text": "BATT-PRIMPWR-P34: Kerguelen Plateau Autonomous Station. The record covers Primary battery endurance. Sub-zero discharge lifecycle benchmark; Primary lithium iron phosphate bank at -30 degrees C under base baseline load; Calculated days of continuous operation down to 20 percent remaining state of charge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary battery endurance is at most 400 d.",
+          "role_name": "Primary battery systems lead (BATT)",
+          "candidate_name": "Kerguelen Plateau Autonomous Station",
+          "other_candidate_names": [
+            "Campbell Rise Cryo-Atmospheric Platform",
+            "Macquarie Ridge Polar Telemetry Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_auxiliary_power_A",
+          "role_id": "auxiliary_power",
+          "candidate_id": "A",
+          "key": "FUELCELL-AUXENG-74E",
+          "hidden_predicate_id": "A_auxiliary_fuel_cell_life",
+          "threshold_label": "Auxiliary fuel cell endurance",
+          "threshold_aliases": [
+            "Fuel cell operational duration",
+            "Direct methanol reserve endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "d",
+          "partial_record_text": "FUELCELL-AUXENG-74E: Kerguelen Plateau Autonomous Station. The record covers Auxiliary fuel cell endurance. Fuel consumption bench audit; Integrated methanol cartridge reserve supply; Autonomous days of supplementary power output at nominal 150 W duty cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary fuel cell endurance is at most 300 d.",
+          "role_name": "Fuel cell engineering specialist (FUELCELL)",
+          "candidate_name": "Kerguelen Plateau Autonomous Station",
+          "other_candidate_names": [
+            "Campbell Rise Cryo-Atmospheric Platform",
+            "Macquarie Ridge Polar Telemetry Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

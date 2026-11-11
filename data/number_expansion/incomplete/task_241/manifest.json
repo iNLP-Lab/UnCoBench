@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_241",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "maritime_safety_officer",
+        "vessel_technical_superintendent"
+      ],
+      "role_names": [
+        "Maritime safety inspector (MSO)",
+        "Vessel technical superintendent (VTS)"
+      ],
+      "directory": "incomplete/task_241",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_safety_officer_A",
+          "role_id": "maritime_safety_officer",
+          "candidate_id": "A",
+          "key": "MSO-SEACERT-5HS",
+          "boolean_predicate_id": "A_sea_state_certified",
+          "boolean_label": "Sea-state operation certification verified",
+          "hidden_predicate_id": "A_passenger_throughput_rate",
+          "threshold_label": "Certified passenger boarding throughput",
+          "threshold_aliases": [
+            "Boarding throughput",
+            "Gangway embarkation flow rate"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "passengers/h",
+          "partial_record_text": "MSO-SEACERT-5HS: Atlantic Marine Transit Consortium.Atlantic Marine Transit Consortium: Sea-state operation certification verified = true .Source: American Bureau of Shipping inspection register; Scope: Candidate flagship evacuation vessel; Measurement: Formal validation of operational capability in Beaufort force 7 and sea-state 5.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Certified passenger boarding throughput is at most 700 passengers/h.",
+          "role_name": "Maritime safety inspector (MSO)",
+          "candidate_name": "Atlantic Marine Transit Consortium",
+          "other_candidate_names": [
+            "Outer Banks Catamaran Fleet",
+            "Cape Fear Heavy Marine Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_technical_superintendent_A",
+          "role_id": "vessel_technical_superintendent",
+          "candidate_id": "A",
+          "key": "VTS-AVTECH-776",
+          "hidden_predicate_id": "A_endurance_hours",
+          "threshold_label": "Continuous operating endurance",
+          "threshold_aliases": [
+            "Non-stop steaming endurance",
+            "Engine thermal endurance"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "VTS-AVTECH-776: Atlantic Marine Transit Consortium.Atlantic Marine Transit Consortium: Heavy weather navigation radar operational = true .Source: Avionics bench test cert; Scope: Wheelhouse primary navigation suite; Measurement: Operational status of stabilizing dual X-band and S-band storm radar.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous operating endurance is at most 40 h.",
+          "role_name": "Vessel technical superintendent (VTS)",
+          "candidate_name": "Atlantic Marine Transit Consortium",
+          "other_candidate_names": [
+            "Outer Banks Catamaran Fleet",
+            "Cape Fear Heavy Marine Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "maritime_safety_officer",
+        "vessel_technical_superintendent",
+        "crew_dispatch_coordinator"
+      ],
+      "role_names": [
+        "Maritime safety inspector (MSO)",
+        "Vessel technical superintendent (VTS)",
+        "Maritime crew dispatch coordinator (MCDC)"
+      ],
+      "directory": "incomplete/task_241",
+      "profiles": [
+        {
+          "record_id": "rec_maritime_safety_officer_A",
+          "role_id": "maritime_safety_officer",
+          "candidate_id": "A",
+          "key": "MSO-SEACERT-5HS",
+          "boolean_predicate_id": "A_sea_state_certified",
+          "boolean_label": "Sea-state operation certification verified",
+          "hidden_predicate_id": "A_passenger_throughput_rate",
+          "threshold_label": "Certified passenger boarding throughput",
+          "threshold_aliases": [
+            "Boarding throughput",
+            "Gangway embarkation flow rate"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "passengers/h",
+          "partial_record_text": "MSO-SEACERT-5HS: Atlantic Marine Transit Consortium.Atlantic Marine Transit Consortium: Sea-state operation certification verified = true .Source: American Bureau of Shipping inspection register; Scope: Candidate flagship evacuation vessel; Measurement: Formal validation of operational capability in Beaufort force 7 and sea-state 5.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Certified passenger boarding throughput is at most 700 passengers/h.",
+          "role_name": "Maritime safety inspector (MSO)",
+          "candidate_name": "Atlantic Marine Transit Consortium",
+          "other_candidate_names": [
+            "Outer Banks Catamaran Fleet",
+            "Cape Fear Heavy Marine Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_technical_superintendent_A",
+          "role_id": "vessel_technical_superintendent",
+          "candidate_id": "A",
+          "key": "VTS-AVTECH-776",
+          "hidden_predicate_id": "A_endurance_hours",
+          "threshold_label": "Continuous operating endurance",
+          "threshold_aliases": [
+            "Non-stop steaming endurance",
+            "Engine thermal endurance"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "VTS-AVTECH-776: Atlantic Marine Transit Consortium.Atlantic Marine Transit Consortium: Heavy weather navigation radar operational = true .Source: Avionics bench test cert; Scope: Wheelhouse primary navigation suite; Measurement: Operational status of stabilizing dual X-band and S-band storm radar.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous operating endurance is at most 40 h.",
+          "role_name": "Vessel technical superintendent (VTS)",
+          "candidate_name": "Atlantic Marine Transit Consortium",
+          "other_candidate_names": [
+            "Outer Banks Catamaran Fleet",
+            "Cape Fear Heavy Marine Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crew_dispatch_coordinator_A",
+          "role_id": "crew_dispatch_coordinator",
+          "candidate_id": "A",
+          "key": "MCDC-CREWDISP-ZSQ",
+          "hidden_predicate_id": "A_crew_mobilization_hours",
+          "threshold_label": "Scheduled crew mobilization duration",
+          "threshold_aliases": [
+            "Crew call-up time",
+            "Maritime crew muster hours"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "MCDC-CREWDISP-ZSQ: Atlantic Marine Transit Consortium. The record covers Scheduled crew mobilization duration. Emergency maritime staffing schedule; Licensed master, chief engineer, and deck crew; Total billable elapsed hours required to muster and report to boarding stations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scheduled crew mobilization duration is at most 30 h.",
+          "role_name": "Maritime crew dispatch coordinator (MCDC)",
+          "candidate_name": "Atlantic Marine Transit Consortium",
+          "other_candidate_names": [
+            "Outer Banks Catamaran Fleet",
+            "Cape Fear Heavy Marine Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

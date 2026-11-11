@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_427",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_safety",
+        "conference_operations"
+      ],
+      "role_names": [
+        "Environmental Health and Safety Officer (EHS)",
+        "Conference Operations Coordinator (OPS)"
+      ],
+      "directory": "incomplete/task_427",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "EHS-AIRQ-8LS",
+          "boolean_predicate_id": "A_filtration_active",
+          "boolean_label": "Dedicated indoor air filtration system active",
+          "hidden_predicate_id": "A_pm25_concentration",
+          "threshold_label": "Continuous particulate matter PM2.5 level",
+          "threshold_aliases": [
+            "PM2.5 concentration",
+            "Particulate matter concentration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "EHS-AIRQ-8LS: Palais des Congrès de la Seine.Palais des Congrès de la Seine: Dedicated indoor air filtration system active = true .Source: Building automation system telemetry; Scope: Auditorium HVAC ventilation units; Measurement: Operational activation of HEPA air filtration bank.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous particulate matter PM2.5 level is at most 40 ug/m3.",
+          "role_name": "Environmental Health and Safety Officer (EHS)",
+          "candidate_name": "Palais des Congrès de la Seine",
+          "other_candidate_names": [
+            "Grand Arc Exhibition Atrium",
+            "Elysée Floral Pavilion Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_conference_operations_A",
+          "role_id": "conference_operations",
+          "candidate_id": "A",
+          "key": "OPS-LANG-LB4",
+          "hidden_predicate_id": "A_technical_buffer_area",
+          "threshold_label": "Mandatory stage technical buffer area",
+          "threshold_aliases": [
+            "Stage setback buffer area",
+            "Rigging technical buffer zone"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "m2",
+          "partial_record_text": "OPS-LANG-LB4: Palais des Congrès de la Seine.Audit period: September 2024.Palais des Congrès de la Seine: Simultaneous interpretation booth certification = true .Source: Conference services readiness review; Scope: Main auditorium interpretation enclosures; Measurement: Formal validation of ISO 2603 compliant simultaneous interpretation booths.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory stage technical buffer area is at most 700 m2.",
+          "role_name": "Conference Operations Coordinator (OPS)",
+          "candidate_name": "Palais des Congrès de la Seine",
+          "other_candidate_names": [
+            "Grand Arc Exhibition Atrium",
+            "Elysée Floral Pavilion Center"
+          ],
+          "context_value": "September 2024",
+          "other_context_values": [
+            "October 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_safety",
+        "conference_operations",
+        "facilities_infrastructure"
+      ],
+      "role_names": [
+        "Environmental Health and Safety Officer (EHS)",
+        "Conference Operations Coordinator (OPS)",
+        "Facilities Infrastructure Director (INFRA)"
+      ],
+      "directory": "incomplete/task_427",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "EHS-AIRQ-8LS",
+          "boolean_predicate_id": "A_filtration_active",
+          "boolean_label": "Dedicated indoor air filtration system active",
+          "hidden_predicate_id": "A_pm25_concentration",
+          "threshold_label": "Continuous particulate matter PM2.5 level",
+          "threshold_aliases": [
+            "PM2.5 concentration",
+            "Particulate matter concentration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "EHS-AIRQ-8LS: Palais des Congrès de la Seine.Palais des Congrès de la Seine: Dedicated indoor air filtration system active = true .Source: Building automation system telemetry; Scope: Auditorium HVAC ventilation units; Measurement: Operational activation of HEPA air filtration bank.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous particulate matter PM2.5 level is at most 40 ug/m3.",
+          "role_name": "Environmental Health and Safety Officer (EHS)",
+          "candidate_name": "Palais des Congrès de la Seine",
+          "other_candidate_names": [
+            "Grand Arc Exhibition Atrium",
+            "Elysée Floral Pavilion Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_conference_operations_A",
+          "role_id": "conference_operations",
+          "candidate_id": "A",
+          "key": "OPS-LANG-LB4",
+          "hidden_predicate_id": "A_technical_buffer_area",
+          "threshold_label": "Mandatory stage technical buffer area",
+          "threshold_aliases": [
+            "Stage setback buffer area",
+            "Rigging technical buffer zone"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "m2",
+          "partial_record_text": "OPS-LANG-LB4: Palais des Congrès de la Seine.Audit period: September 2024.Palais des Congrès de la Seine: Simultaneous interpretation booth certification = true .Source: Conference services readiness review; Scope: Main auditorium interpretation enclosures; Measurement: Formal validation of ISO 2603 compliant simultaneous interpretation booths.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory stage technical buffer area is at most 700 m2.",
+          "role_name": "Conference Operations Coordinator (OPS)",
+          "candidate_name": "Palais des Congrès de la Seine",
+          "other_candidate_names": [
+            "Grand Arc Exhibition Atrium",
+            "Elysée Floral Pavilion Center"
+          ],
+          "context_value": "September 2024",
+          "other_context_values": [
+            "October 2024"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_infrastructure_A",
+          "role_id": "facilities_infrastructure",
+          "candidate_id": "A",
+          "key": "INFRA-PWR-LQ1",
+          "hidden_predicate_id": "A_gross_hall_area",
+          "threshold_label": "Gross plenary hall area",
+          "threshold_aliases": [
+            "Gross auditorium floor area",
+            "Total plenary square meters"
+          ],
+          "threshold_value": 2800,
+          "threshold_unit": "m2",
+          "partial_record_text": "INFRA-PWR-LQ1: Palais des Congrès de la Seine.Palais des Congrès de la Seine: Plenary power distribution clearance = true .Source: Venue electrical engineering survey; Scope: Plenary auditorium distribution network; Measurement: Whether three-phase auxiliary power meets load specifications.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross plenary hall area is at most 5000 m2.",
+          "role_name": "Facilities Infrastructure Director (INFRA)",
+          "candidate_name": "Palais des Congrès de la Seine",
+          "other_candidate_names": [
+            "Grand Arc Exhibition Atrium",
+            "Elysée Floral Pavilion Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

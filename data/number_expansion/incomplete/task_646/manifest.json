@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_646",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "forensic_laboratory",
+        "aerial_operations"
+      ],
+      "role_names": [
+        "Forensic laboratory director (FLD)",
+        "Aerial reconnaissance supervisor (ARS)"
+      ],
+      "directory": "incomplete/task_646",
+      "profiles": [
+        {
+          "record_id": "rec_forensic_laboratory_A",
+          "role_id": "forensic_laboratory",
+          "candidate_id": "A",
+          "key": "FLD-LAB-63C",
+          "boolean_predicate_id": "A_chain_of_custody_enabled",
+          "boolean_label": "Chain-of-custody digital logging enabled",
+          "hidden_predicate_id": "A_laboratory_turnaround_hours",
+          "threshold_label": "Laboratory specimen turnaround time",
+          "threshold_aliases": [
+            "Specimen analysis turnaround",
+            "Lab turnaround duration"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "FLD-LAB-63C: Multispectral thermal orthomapping and macro-char vectoring protocol.Multispectral thermal orthomapping and macro-char vectoring protocol: Chain-of-custody digital logging enabled = true .Source: Forensic chain-of-custody verification register; Scope: Physical physical sample acquisition and field-to-lab transfer system; Measurement: Whether tamper-evident barcode scanning and GPS timestamp logging are fully activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Laboratory specimen turnaround time is at most 90 h.",
+          "role_name": "Forensic laboratory director (FLD)",
+          "candidate_name": "Multispectral thermal orthomapping and macro-char vectoring protocol",
+          "other_candidate_names": [
+            "UAV lidar structural density and soil magnetic susceptibility protocol",
+            "Low-altitude optical photogrammetry and canine accelerant sweep protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aerial_operations_A",
+          "role_id": "aerial_operations",
+          "candidate_id": "A",
+          "key": "ARS-AERO-5LU",
+          "hidden_predicate_id": "A_aerial_reconnaissance_staff",
+          "threshold_label": "Aerial reconnaissance specialists",
+          "threshold_aliases": [
+            "Aerial survey personnel",
+            "Remote sensing flight crew"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "investigators",
+          "partial_record_text": "ARS-AERO-5LU: Multispectral thermal orthomapping and macro-char vectoring protocol. The record covers Aerial reconnaissance specialists. Record context: excluding standby relief personnel. Aviation section roster; Dedicated aerial thermography and sensor flight crew assigned to the protocol; Number of certified drone pilots and airborne sensor operators allocated exclusively to origin mapping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Aerial reconnaissance specialists is at most 6 investigators.",
+          "role_name": "Aerial reconnaissance supervisor (ARS)",
+          "candidate_name": "Multispectral thermal orthomapping and macro-char vectoring protocol",
+          "other_candidate_names": [
+            "UAV lidar structural density and soil magnetic susceptibility protocol",
+            "Low-altitude optical photogrammetry and canine accelerant sweep protocol"
+          ],
+          "context_value": "excluding standby relief personnel",
+          "other_context_values": [
+            "including standby relief personnel"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "forensic_laboratory",
+        "aerial_operations",
+        "ground_investigation"
+      ],
+      "role_names": [
+        "Forensic laboratory director (FLD)",
+        "Aerial reconnaissance supervisor (ARS)",
+        "Ground forensic investigation lead (GFIL)"
+      ],
+      "directory": "incomplete/task_646",
+      "profiles": [
+        {
+          "record_id": "rec_forensic_laboratory_A",
+          "role_id": "forensic_laboratory",
+          "candidate_id": "A",
+          "key": "FLD-LAB-63C",
+          "boolean_predicate_id": "A_chain_of_custody_enabled",
+          "boolean_label": "Chain-of-custody digital logging enabled",
+          "hidden_predicate_id": "A_laboratory_turnaround_hours",
+          "threshold_label": "Laboratory specimen turnaround time",
+          "threshold_aliases": [
+            "Specimen analysis turnaround",
+            "Lab turnaround duration"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "FLD-LAB-63C: Multispectral thermal orthomapping and macro-char vectoring protocol.Multispectral thermal orthomapping and macro-char vectoring protocol: Chain-of-custody digital logging enabled = true .Source: Forensic chain-of-custody verification register; Scope: Physical physical sample acquisition and field-to-lab transfer system; Measurement: Whether tamper-evident barcode scanning and GPS timestamp logging are fully activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Laboratory specimen turnaround time is at most 90 h.",
+          "role_name": "Forensic laboratory director (FLD)",
+          "candidate_name": "Multispectral thermal orthomapping and macro-char vectoring protocol",
+          "other_candidate_names": [
+            "UAV lidar structural density and soil magnetic susceptibility protocol",
+            "Low-altitude optical photogrammetry and canine accelerant sweep protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aerial_operations_A",
+          "role_id": "aerial_operations",
+          "candidate_id": "A",
+          "key": "ARS-AERO-5LU",
+          "hidden_predicate_id": "A_aerial_reconnaissance_staff",
+          "threshold_label": "Aerial reconnaissance specialists",
+          "threshold_aliases": [
+            "Aerial survey personnel",
+            "Remote sensing flight crew"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "investigators",
+          "partial_record_text": "ARS-AERO-5LU: Multispectral thermal orthomapping and macro-char vectoring protocol. The record covers Aerial reconnaissance specialists. Record context: excluding standby relief personnel. Aviation section roster; Dedicated aerial thermography and sensor flight crew assigned to the protocol; Number of certified drone pilots and airborne sensor operators allocated exclusively to origin mapping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Aerial reconnaissance specialists is at most 6 investigators.",
+          "role_name": "Aerial reconnaissance supervisor (ARS)",
+          "candidate_name": "Multispectral thermal orthomapping and macro-char vectoring protocol",
+          "other_candidate_names": [
+            "UAV lidar structural density and soil magnetic susceptibility protocol",
+            "Low-altitude optical photogrammetry and canine accelerant sweep protocol"
+          ],
+          "context_value": "excluding standby relief personnel",
+          "other_context_values": [
+            "including standby relief personnel"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_investigation_A",
+          "role_id": "ground_investigation",
+          "candidate_id": "A",
+          "key": "GFIL-GROUND-CT5",
+          "hidden_predicate_id": "A_ground_forensic_staff",
+          "threshold_label": "Ground forensic examiners",
+          "threshold_aliases": [
+            "Field investigation team",
+            "Ground origin examiners"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "investigators",
+          "partial_record_text": "GFIL-GROUND-CT5: Multispectral thermal orthomapping and macro-char vectoring protocol. The record covers Ground forensic examiners. Investigation team mobilization manifest; Physical search grid and physical artifact extraction teams; Count of certified wildland fire origin-and-cause investigators deployed for physical ground examination.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 20
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Ground forensic examiners is at most 20 investigators.",
+          "role_name": "Ground forensic investigation lead (GFIL)",
+          "candidate_name": "Multispectral thermal orthomapping and macro-char vectoring protocol",
+          "other_candidate_names": [
+            "UAV lidar structural density and soil magnetic susceptibility protocol",
+            "Low-altitude optical photogrammetry and canine accelerant sweep protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

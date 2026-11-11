@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_976",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "procurement_lead",
+        "operations_lead"
+      ],
+      "role_names": [
+        "Commercial procurement lead (PROC)",
+        "Bioprocess operations lead (OPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_976/k2",
+      "error_profiles": [
+        {
+          "role_name": "Commercial procurement lead (PROC)",
+          "target_key": "PROC-PRIC-4PT",
+          "alternate_key": "PROC-PRIC-YW1",
+          "target_context": "trailing 12-month average",
+          "alternate_context": "calendar year-to-date average",
+          "candidate": "AuraBio Sterile Solutions",
+          "other_candidates": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "numeric": [
+            {
+              "topic": "unit_processing_fee",
+              "value": 26,
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ],
+              "unit": "USD/vial"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sterile_validation_active",
+              "label": "cGMP sterile validation certification active",
+              "aliases": [
+                "Sterile validation active status",
+                "Sterile suite cGMP certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_excursion_rate",
+              "label": "Cleanroom particulate excursion rate",
+              "aliases": [
+                "Aseptic core particulate excursions",
+                "Grade A particulate excursion frequency"
+              ]
+            },
+            {
+              "topic": "audit_clearance_confirmed",
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ]
+            },
+            {
+              "topic": "dedicated_transfer_staffing",
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ]
+            },
+            {
+              "topic": "cold_chain_monitoring_verified",
+              "label": "Cold-chain continuous monitoring verified",
+              "aliases": [
+                "Continuous cold chain telemetry verification",
+                "Validated 2-8 C cold storage monitoring"
+              ]
+            },
+            {
+              "topic": "batch_release_lead_time",
+              "label": "Validated batch release lead time",
+              "aliases": [
+                "Quality release turnaround time",
+                "Batch release turnaround duration"
+              ]
+            },
+            {
+              "topic": "unit_processing_fee",
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ]
+            },
+            {
+              "topic": "annual_committed_volume",
+              "label": "Annual committed production volume",
+              "aliases": [
+                "Committed annual vial allocation",
+                "Contracted batch capacity allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Bioprocess operations lead (OPS)",
+          "target_key": "OPS-TECH-48E",
+          "alternate_key": "OPS-TECH-IC8",
+          "target_context": "Commercial production environment",
+          "alternate_context": "Pilot test environment",
+          "candidate": "AuraBio Sterile Solutions",
+          "other_candidates": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dedicated_transfer_staffing",
+              "value": true,
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sterile_validation_active",
+              "label": "cGMP sterile validation certification active",
+              "aliases": [
+                "Sterile validation active status",
+                "Sterile suite cGMP certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_excursion_rate",
+              "label": "Cleanroom particulate excursion rate",
+              "aliases": [
+                "Aseptic core particulate excursions",
+                "Grade A particulate excursion frequency"
+              ]
+            },
+            {
+              "topic": "audit_clearance_confirmed",
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ]
+            },
+            {
+              "topic": "dedicated_transfer_staffing",
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ]
+            },
+            {
+              "topic": "cold_chain_monitoring_verified",
+              "label": "Cold-chain continuous monitoring verified",
+              "aliases": [
+                "Continuous cold chain telemetry verification",
+                "Validated 2-8 C cold storage monitoring"
+              ]
+            },
+            {
+              "topic": "batch_release_lead_time",
+              "label": "Validated batch release lead time",
+              "aliases": [
+                "Quality release turnaround time",
+                "Batch release turnaround duration"
+              ]
+            },
+            {
+              "topic": "unit_processing_fee",
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ]
+            },
+            {
+              "topic": "annual_committed_volume",
+              "label": "Annual committed production volume",
+              "aliases": [
+                "Committed annual vial allocation",
+                "Contracted batch capacity allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "procurement_lead",
+        "operations_lead",
+        "regulatory_lead"
+      ],
+      "role_names": [
+        "Commercial procurement lead (PROC)",
+        "Bioprocess operations lead (OPS)",
+        "Regulatory compliance lead (REG)"
+      ],
+      "directory": "number_expansion/misaligned/task_976/k3",
+      "error_profiles": [
+        {
+          "role_name": "Commercial procurement lead (PROC)",
+          "target_key": "PROC-PRIC-4PT",
+          "alternate_key": "PROC-PRIC-YW1",
+          "target_context": "trailing 12-month average",
+          "alternate_context": "calendar year-to-date average",
+          "candidate": "AuraBio Sterile Solutions",
+          "other_candidates": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "numeric": [
+            {
+              "topic": "unit_processing_fee",
+              "value": 26,
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ],
+              "unit": "USD/vial"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sterile_validation_active",
+              "label": "cGMP sterile validation certification active",
+              "aliases": [
+                "Sterile validation active status",
+                "Sterile suite cGMP certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_excursion_rate",
+              "label": "Cleanroom particulate excursion rate",
+              "aliases": [
+                "Aseptic core particulate excursions",
+                "Grade A particulate excursion frequency"
+              ]
+            },
+            {
+              "topic": "audit_clearance_confirmed",
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ]
+            },
+            {
+              "topic": "dedicated_transfer_staffing",
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ]
+            },
+            {
+              "topic": "cold_chain_monitoring_verified",
+              "label": "Cold-chain continuous monitoring verified",
+              "aliases": [
+                "Continuous cold chain telemetry verification",
+                "Validated 2-8 C cold storage monitoring"
+              ]
+            },
+            {
+              "topic": "batch_release_lead_time",
+              "label": "Validated batch release lead time",
+              "aliases": [
+                "Quality release turnaround time",
+                "Batch release turnaround duration"
+              ]
+            },
+            {
+              "topic": "unit_processing_fee",
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ]
+            },
+            {
+              "topic": "annual_committed_volume",
+              "label": "Annual committed production volume",
+              "aliases": [
+                "Committed annual vial allocation",
+                "Contracted batch capacity allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Bioprocess operations lead (OPS)",
+          "target_key": "OPS-TECH-48E",
+          "alternate_key": "OPS-TECH-IC8",
+          "target_context": "Commercial production environment",
+          "alternate_context": "Pilot test environment",
+          "candidate": "AuraBio Sterile Solutions",
+          "other_candidates": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dedicated_transfer_staffing",
+              "value": true,
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sterile_validation_active",
+              "label": "cGMP sterile validation certification active",
+              "aliases": [
+                "Sterile validation active status",
+                "Sterile suite cGMP certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_excursion_rate",
+              "label": "Cleanroom particulate excursion rate",
+              "aliases": [
+                "Aseptic core particulate excursions",
+                "Grade A particulate excursion frequency"
+              ]
+            },
+            {
+              "topic": "audit_clearance_confirmed",
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ]
+            },
+            {
+              "topic": "dedicated_transfer_staffing",
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ]
+            },
+            {
+              "topic": "cold_chain_monitoring_verified",
+              "label": "Cold-chain continuous monitoring verified",
+              "aliases": [
+                "Continuous cold chain telemetry verification",
+                "Validated 2-8 C cold storage monitoring"
+              ]
+            },
+            {
+              "topic": "batch_release_lead_time",
+              "label": "Validated batch release lead time",
+              "aliases": [
+                "Quality release turnaround time",
+                "Batch release turnaround duration"
+              ]
+            },
+            {
+              "topic": "unit_processing_fee",
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ]
+            },
+            {
+              "topic": "annual_committed_volume",
+              "label": "Annual committed production volume",
+              "aliases": [
+                "Committed annual vial allocation",
+                "Contracted batch capacity allocation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Regulatory compliance lead (REG)",
+          "target_key": "REG-AUDT-RMT",
+          "alternate_key": "REG-AUDT-9OZ",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "AuraBio Sterile Solutions",
+          "other_candidates": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "audit_clearance_confirmed",
+              "value": true,
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sterile_validation_active",
+              "label": "cGMP sterile validation certification active",
+              "aliases": [
+                "Sterile validation active status",
+                "Sterile suite cGMP certification"
+              ]
+            },
+            {
+              "topic": "cleanroom_excursion_rate",
+              "label": "Cleanroom particulate excursion rate",
+              "aliases": [
+                "Aseptic core particulate excursions",
+                "Grade A particulate excursion frequency"
+              ]
+            },
+            {
+              "topic": "audit_clearance_confirmed",
+              "label": "Regulatory audit deficiency clearance confirmed",
+              "aliases": [
+                "Health authority audit clearance",
+                "Inspection observation closeout"
+              ]
+            },
+            {
+              "topic": "dedicated_transfer_staffing",
+              "label": "Dedicated technical transfer staffing confirmed",
+              "aliases": [
+                "Dedicated tech transfer team assignment",
+                "Technical transfer personnel commitment"
+              ]
+            },
+            {
+              "topic": "cold_chain_monitoring_verified",
+              "label": "Cold-chain continuous monitoring verified",
+              "aliases": [
+                "Continuous cold chain telemetry verification",
+                "Validated 2-8 C cold storage monitoring"
+              ]
+            },
+            {
+              "topic": "batch_release_lead_time",
+              "label": "Validated batch release lead time",
+              "aliases": [
+                "Quality release turnaround time",
+                "Batch release turnaround duration"
+              ]
+            },
+            {
+              "topic": "unit_processing_fee",
+              "label": "Unit fill-finish processing fee",
+              "aliases": [
+                "Vial processing unit cost",
+                "Base unit fill-finish charge"
+              ]
+            },
+            {
+              "topic": "annual_committed_volume",
+              "label": "Annual committed production volume",
+              "aliases": [
+                "Committed annual vial allocation",
+                "Contracted batch capacity allocation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

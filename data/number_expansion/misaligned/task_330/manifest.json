@@ -1,0 +1,487 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_330",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "ground_support",
+        "electrical_traction"
+      ],
+      "role_names": [
+        "Geotechnical Stability Engineer (GSE)",
+        "Traction Power Superintendent (TPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_330/k2",
+      "error_profiles": [
+        {
+          "role_name": "Geotechnical Stability Engineer (GSE)",
+          "target_key": "GSE-STRUC-DGM",
+          "alternate_key": "GSE-STRUC-NKO",
+          "target_context": "including peripheral strata grout seals",
+          "alternate_context": "excluding peripheral strata grout seals",
+          "candidate": "North Incline Haulage Way",
+          "other_candidates": [
+            "Central Drift Conveyance Shaft",
+            "Eastern Decline Bypass Drift"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "hydraulic_barrier_signed",
+              "value": true,
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "traction_power_cleared",
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ]
+            },
+            {
+              "topic": "telemetry_enabled",
+              "label": "Air quality telemetry enabled",
+              "aliases": [
+                "Atmospheric telemetry activation",
+                "Gas sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "gas_dispersal_time",
+              "label": "Maximum gas dispersal duration",
+              "aliases": [
+                "Gas purge duration",
+                "Atmospheric sweep interval"
+              ]
+            },
+            {
+              "topic": "hydraulic_barrier_signed",
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ]
+            },
+            {
+              "topic": "refuge_link_certified",
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ]
+            },
+            {
+              "topic": "locomotive_haulage_load",
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ]
+            },
+            {
+              "topic": "personnel_trolley_load",
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Traction Power Superintendent (TPS)",
+          "target_key": "TPS-TRAC-7DH",
+          "alternate_key": "TPS-TRAC-J4I",
+          "target_context": "gross weight including locomotive tare weight",
+          "alternate_context": "net payload weight excluding locomotive tare weight",
+          "candidate": "North Incline Haulage Way",
+          "other_candidates": [
+            "Central Drift Conveyance Shaft",
+            "Eastern Decline Bypass Drift"
+          ],
+          "numeric": [
+            {
+              "topic": "locomotive_haulage_load",
+              "value": 45,
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "traction_power_cleared",
+              "value": true,
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "traction_power_cleared",
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ]
+            },
+            {
+              "topic": "telemetry_enabled",
+              "label": "Air quality telemetry enabled",
+              "aliases": [
+                "Atmospheric telemetry activation",
+                "Gas sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "gas_dispersal_time",
+              "label": "Maximum gas dispersal duration",
+              "aliases": [
+                "Gas purge duration",
+                "Atmospheric sweep interval"
+              ]
+            },
+            {
+              "topic": "hydraulic_barrier_signed",
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ]
+            },
+            {
+              "topic": "refuge_link_certified",
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ]
+            },
+            {
+              "topic": "locomotive_haulage_load",
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ]
+            },
+            {
+              "topic": "personnel_trolley_load",
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "ground_support",
+        "electrical_traction",
+        "evacuation_coordinator"
+      ],
+      "role_names": [
+        "Geotechnical Stability Engineer (GSE)",
+        "Traction Power Superintendent (TPS)",
+        "Mine Rescue Station Master (RSM)"
+      ],
+      "directory": "number_expansion/misaligned/task_330/k3",
+      "error_profiles": [
+        {
+          "role_name": "Geotechnical Stability Engineer (GSE)",
+          "target_key": "GSE-STRUC-DGM",
+          "alternate_key": "GSE-STRUC-NKO",
+          "target_context": "including peripheral strata grout seals",
+          "alternate_context": "excluding peripheral strata grout seals",
+          "candidate": "North Incline Haulage Way",
+          "other_candidates": [
+            "Central Drift Conveyance Shaft",
+            "Eastern Decline Bypass Drift"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "hydraulic_barrier_signed",
+              "value": true,
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "traction_power_cleared",
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ]
+            },
+            {
+              "topic": "telemetry_enabled",
+              "label": "Air quality telemetry enabled",
+              "aliases": [
+                "Atmospheric telemetry activation",
+                "Gas sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "gas_dispersal_time",
+              "label": "Maximum gas dispersal duration",
+              "aliases": [
+                "Gas purge duration",
+                "Atmospheric sweep interval"
+              ]
+            },
+            {
+              "topic": "hydraulic_barrier_signed",
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ]
+            },
+            {
+              "topic": "refuge_link_certified",
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ]
+            },
+            {
+              "topic": "locomotive_haulage_load",
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ]
+            },
+            {
+              "topic": "personnel_trolley_load",
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Traction Power Superintendent (TPS)",
+          "target_key": "TPS-TRAC-7DH",
+          "alternate_key": "TPS-TRAC-J4I",
+          "target_context": "gross weight including locomotive tare weight",
+          "alternate_context": "net payload weight excluding locomotive tare weight",
+          "candidate": "North Incline Haulage Way",
+          "other_candidates": [
+            "Central Drift Conveyance Shaft",
+            "Eastern Decline Bypass Drift"
+          ],
+          "numeric": [
+            {
+              "topic": "locomotive_haulage_load",
+              "value": 45,
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "traction_power_cleared",
+              "value": true,
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "traction_power_cleared",
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ]
+            },
+            {
+              "topic": "telemetry_enabled",
+              "label": "Air quality telemetry enabled",
+              "aliases": [
+                "Atmospheric telemetry activation",
+                "Gas sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "gas_dispersal_time",
+              "label": "Maximum gas dispersal duration",
+              "aliases": [
+                "Gas purge duration",
+                "Atmospheric sweep interval"
+              ]
+            },
+            {
+              "topic": "hydraulic_barrier_signed",
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ]
+            },
+            {
+              "topic": "refuge_link_certified",
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ]
+            },
+            {
+              "topic": "locomotive_haulage_load",
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ]
+            },
+            {
+              "topic": "personnel_trolley_load",
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Mine Rescue Station Master (RSM)",
+          "target_key": "RSM-RESC-MF4",
+          "alternate_key": "RSM-RESC-MW7",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "North Incline Haulage Way",
+          "other_candidates": [
+            "Central Drift Conveyance Shaft",
+            "Eastern Decline Bypass Drift"
+          ],
+          "numeric": [
+            {
+              "topic": "personnel_trolley_load",
+              "value": 25,
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "refuge_link_certified",
+              "value": true,
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "traction_power_cleared",
+              "label": "Rail traction power clearance",
+              "aliases": [
+                "Traction power status",
+                "Third-rail energized clearance"
+              ]
+            },
+            {
+              "topic": "telemetry_enabled",
+              "label": "Air quality telemetry enabled",
+              "aliases": [
+                "Atmospheric telemetry activation",
+                "Gas sensor telemetry status"
+              ]
+            },
+            {
+              "topic": "gas_dispersal_time",
+              "label": "Maximum gas dispersal duration",
+              "aliases": [
+                "Gas purge duration",
+                "Atmospheric sweep interval"
+              ]
+            },
+            {
+              "topic": "hydraulic_barrier_signed",
+              "label": "Hydraulic barrier integrity signoff",
+              "aliases": [
+                "Flood gate integrity seal",
+                "Hydraulic bulkhead signoff"
+              ]
+            },
+            {
+              "topic": "refuge_link_certified",
+              "label": "Secondary refuge link certification",
+              "aliases": [
+                "Refuge bay connector approval",
+                "Escape refuge link status"
+              ]
+            },
+            {
+              "topic": "locomotive_haulage_load",
+              "label": "Heavy-locomotive haulage load",
+              "aliases": [
+                "Locomotive train tonnage",
+                "Primary rail haulage weight"
+              ]
+            },
+            {
+              "topic": "personnel_trolley_load",
+              "label": "Personnel evacuation trolley load",
+              "aliases": [
+                "Personnel carriage tonnage",
+                "Evacuation trolley weight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

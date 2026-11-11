@@ -1,0 +1,183 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_525",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "grid_operations",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Grid operations manager (GOM)",
+        "Environmental compliance officer (ENV)"
+      ],
+      "directory": "incomplete/task_525",
+      "profiles": [
+        {
+          "record_id": "rec_grid_operations_A",
+          "role_id": "grid_operations",
+          "candidate_id": "A",
+          "key": "GOM-BSOPS-UKP",
+          "boolean_predicate_id": "A_autonomous_energization_equipped",
+          "boolean_label": "Autonomous black-start energization equipped",
+          "hidden_predicate_id": "A_cold_start_sync_minutes",
+          "threshold_label": "Cold-start synchronization latency",
+          "threshold_aliases": [
+            "Cold-start sync duration",
+            "Synchronization time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "GOM-BSOPS-UKP: Grand River Hydroelectric Generating Station.Grand River Hydroelectric Generating Station: Autonomous black-start energization equipped = true .Source: Transmission grid operator technical audit; Scope: Emergency auxiliary power and generator excitation units; Measurement: Whether dedicated self-starting equipment is installed and operational without off-site power.",
+          "role_name": "Grid operations manager (GOM)",
+          "candidate_name": "Grand River Hydroelectric Generating Station",
+          "other_candidate_names": [
+            "Thorold Aeroderivative Peaking Facility",
+            "Clearview Battery Energy Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ACOUST-GZA",
+          "hidden_predicate_id": "A_acoustic_emission_level",
+          "threshold_label": "Boundary acoustic emission level",
+          "threshold_aliases": [
+            "Facility boundary noise level",
+            "Perimeter acoustic emission"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ENV-ACOUST-GZA: Grand River Hydroelectric Generating Station. The record covers Boundary acoustic emission level. Record context: 1-hour continuous observation window. Perimeter sound survey report; Facility property line during full auxiliary startup and generator cranking; A-weighted equivalent continuous sound pressure level over a one-hour observation window.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 72
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Boundary acoustic emission level is at most 72 dBA.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Grand River Hydroelectric Generating Station",
+          "other_candidate_names": [
+            "Thorold Aeroderivative Peaking Facility",
+            "Clearview Battery Energy Storage Complex"
+          ],
+          "context_value": "1-hour continuous observation window",
+          "other_context_values": [
+            "24-hour day-night average window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "grid_operations",
+        "environmental_compliance",
+        "resource_management"
+      ],
+      "role_names": [
+        "Grid operations manager (GOM)",
+        "Environmental compliance officer (ENV)",
+        "Energy resource manager (RES)"
+      ],
+      "directory": "incomplete/task_525",
+      "profiles": [
+        {
+          "record_id": "rec_grid_operations_A",
+          "role_id": "grid_operations",
+          "candidate_id": "A",
+          "key": "GOM-BSOPS-UKP",
+          "boolean_predicate_id": "A_autonomous_energization_equipped",
+          "boolean_label": "Autonomous black-start energization equipped",
+          "hidden_predicate_id": "A_cold_start_sync_minutes",
+          "threshold_label": "Cold-start synchronization latency",
+          "threshold_aliases": [
+            "Cold-start sync duration",
+            "Synchronization time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "GOM-BSOPS-UKP: Grand River Hydroelectric Generating Station.Grand River Hydroelectric Generating Station: Autonomous black-start energization equipped = true .Source: Transmission grid operator technical audit; Scope: Emergency auxiliary power and generator excitation units; Measurement: Whether dedicated self-starting equipment is installed and operational without off-site power.",
+          "role_name": "Grid operations manager (GOM)",
+          "candidate_name": "Grand River Hydroelectric Generating Station",
+          "other_candidate_names": [
+            "Thorold Aeroderivative Peaking Facility",
+            "Clearview Battery Energy Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ACOUST-GZA",
+          "hidden_predicate_id": "A_acoustic_emission_level",
+          "threshold_label": "Boundary acoustic emission level",
+          "threshold_aliases": [
+            "Facility boundary noise level",
+            "Perimeter acoustic emission"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ENV-ACOUST-GZA: Grand River Hydroelectric Generating Station. The record covers Boundary acoustic emission level. Record context: 1-hour continuous observation window. Perimeter sound survey report; Facility property line during full auxiliary startup and generator cranking; A-weighted equivalent continuous sound pressure level over a one-hour observation window.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 72
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Boundary acoustic emission level is at most 72 dBA.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Grand River Hydroelectric Generating Station",
+          "other_candidate_names": [
+            "Thorold Aeroderivative Peaking Facility",
+            "Clearview Battery Energy Storage Complex"
+          ],
+          "context_value": "1-hour continuous observation window",
+          "other_context_values": [
+            "24-hour day-night average window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_resource_management_A",
+          "role_id": "resource_management",
+          "candidate_id": "A",
+          "key": "RES-SUST-N8K",
+          "hidden_predicate_id": "A_sustained_islanding_capacity",
+          "threshold_label": "Sustained islanding capacity",
+          "threshold_aliases": [
+            "4-hour sustained islanding capacity",
+            "Sustained islanded export capacity"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "MW",
+          "partial_record_text": "RES-SUST-N8K: Grand River Hydroelectric Generating Station. The record covers Sustained islanding capacity. Endurance dispatch verification report; Continuous four-hour islanded mini-grid support; Minimum continuous real power output sustained across four consecutive operating hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 140
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Sustained islanding capacity is at most 140 MW.",
+          "role_name": "Energy resource manager (RES)",
+          "candidate_name": "Grand River Hydroelectric Generating Station",
+          "other_candidate_names": [
+            "Thorold Aeroderivative Peaking Facility",
+            "Clearview Battery Energy Storage Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

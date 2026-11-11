@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_437",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "process_engineering",
+        "feedstock_management"
+      ],
+      "role_names": [
+        "Process Engineering Lead (PROC)",
+        "Feedstock Materials Lead (MAT)"
+      ],
+      "directory": "incomplete/task_437",
+      "profiles": [
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PROC-SCRUB-NDA",
+          "boolean_predicate_id": "A_voc_scrubber_active",
+          "boolean_label": "Active volatile organic compound scrubbing system",
+          "hidden_predicate_id": "A_exhaust_voc_concentration",
+          "threshold_label": "Scrubbed exhaust emission concentration",
+          "threshold_aliases": [
+            "Exhaust VOC level",
+            "Stack organic emission concentration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "PROC-SCRUB-NDA: Vapor-Phase Catalytic Distillation Unit.Vapor-Phase Catalytic Distillation Unit: Active volatile organic compound scrubbing system = true .Source: Scrubber system commissioning log; Scope: Integrated exhaust abatement loop; Measurement: Operational engagement state of the active VOC scrubber train.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Scrubbed exhaust emission concentration is between 5 mg/m3 and 40 mg/m3, inclusive.",
+          "role_name": "Process Engineering Lead (PROC)",
+          "candidate_name": "Vapor-Phase Catalytic Distillation Unit",
+          "other_candidate_names": [
+            "Vacuum Membrane Pervaporation Skid",
+            "Supercritical Fluid Extraction System"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_feedstock_management_A",
+          "role_id": "feedstock_management",
+          "candidate_id": "A",
+          "key": "MAT-FEED-6F6",
+          "hidden_predicate_id": "A_raw_effluent_intake",
+          "threshold_label": "Raw industrial effluent intake volume",
+          "threshold_aliases": [
+            "Gross chemical waste feedstock intake",
+            "Inlet effluent processed volume"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "L",
+          "partial_record_text": "MAT-FEED-6F6: Vapor-Phase Catalytic Distillation Unit. The record covers Raw industrial effluent intake volume. Inlet feed transfer meter register; Single standard 24-hour reclamation cycle; Total volume of spent industrial effluent delivered to candidate skid.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Raw industrial effluent intake volume is between 0 L and 30000 L, inclusive.",
+          "role_name": "Feedstock Materials Lead (MAT)",
+          "candidate_name": "Vapor-Phase Catalytic Distillation Unit",
+          "other_candidate_names": [
+            "Vacuum Membrane Pervaporation Skid",
+            "Supercritical Fluid Extraction System"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "process_engineering",
+        "feedstock_management",
+        "production_operations"
+      ],
+      "role_names": [
+        "Process Engineering Lead (PROC)",
+        "Feedstock Materials Lead (MAT)",
+        "Production Operations Lead (OPS)"
+      ],
+      "directory": "incomplete/task_437",
+      "profiles": [
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PROC-SCRUB-NDA",
+          "boolean_predicate_id": "A_voc_scrubber_active",
+          "boolean_label": "Active volatile organic compound scrubbing system",
+          "hidden_predicate_id": "A_exhaust_voc_concentration",
+          "threshold_label": "Scrubbed exhaust emission concentration",
+          "threshold_aliases": [
+            "Exhaust VOC level",
+            "Stack organic emission concentration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "PROC-SCRUB-NDA: Vapor-Phase Catalytic Distillation Unit.Vapor-Phase Catalytic Distillation Unit: Active volatile organic compound scrubbing system = true .Source: Scrubber system commissioning log; Scope: Integrated exhaust abatement loop; Measurement: Operational engagement state of the active VOC scrubber train.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Scrubbed exhaust emission concentration is between 5 mg/m3 and 40 mg/m3, inclusive.",
+          "role_name": "Process Engineering Lead (PROC)",
+          "candidate_name": "Vapor-Phase Catalytic Distillation Unit",
+          "other_candidate_names": [
+            "Vacuum Membrane Pervaporation Skid",
+            "Supercritical Fluid Extraction System"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_feedstock_management_A",
+          "role_id": "feedstock_management",
+          "candidate_id": "A",
+          "key": "MAT-FEED-6F6",
+          "hidden_predicate_id": "A_raw_effluent_intake",
+          "threshold_label": "Raw industrial effluent intake volume",
+          "threshold_aliases": [
+            "Gross chemical waste feedstock intake",
+            "Inlet effluent processed volume"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "L",
+          "partial_record_text": "MAT-FEED-6F6: Vapor-Phase Catalytic Distillation Unit. The record covers Raw industrial effluent intake volume. Inlet feed transfer meter register; Single standard 24-hour reclamation cycle; Total volume of spent industrial effluent delivered to candidate skid.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Raw industrial effluent intake volume is between 0 L and 30000 L, inclusive.",
+          "role_name": "Feedstock Materials Lead (MAT)",
+          "candidate_name": "Vapor-Phase Catalytic Distillation Unit",
+          "other_candidate_names": [
+            "Vacuum Membrane Pervaporation Skid",
+            "Supercritical Fluid Extraction System"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_production_operations_A",
+          "role_id": "production_operations",
+          "candidate_id": "A",
+          "key": "OPS-PROD-QS5",
+          "hidden_predicate_id": "A_reclaimed_solvent_yield",
+          "threshold_label": "Reclaimed ultra-pure solvent yield",
+          "threshold_aliases": [
+            "Net recovered solvent volume",
+            "Purified solvent production"
+          ],
+          "threshold_value": 7200,
+          "threshold_unit": "L",
+          "partial_record_text": "OPS-PROD-QS5: Vapor-Phase Catalytic Distillation Unit. The record covers Reclaimed ultra-pure solvent yield. Mass flow totalizer batch record; Single standard 24-hour reclamation cycle; Total volume of ultra-pure electronic-grade solvent recovered.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reclaimed ultra-pure solvent yield is between 0 L and 30000 L, inclusive.",
+          "role_name": "Production Operations Lead (OPS)",
+          "candidate_name": "Vapor-Phase Catalytic Distillation Unit",
+          "other_candidate_names": [
+            "Vacuum Membrane Pervaporation Skid",
+            "Supercritical Fluid Extraction System"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

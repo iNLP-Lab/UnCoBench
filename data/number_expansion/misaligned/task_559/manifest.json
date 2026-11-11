@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_559",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "airbase_logistics",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Airbase apron logistics coordinator (BASELOG)",
+        "Aviation procurement officer (PROCUR)"
+      ],
+      "directory": "number_expansion/misaligned/task_559/k2",
+      "error_profiles": [
+        {
+          "role_name": "Airbase apron logistics coordinator (BASELOG)",
+          "target_key": "BASELOG-RAMP-6A3",
+          "alternate_key": "BASELOG-TURN-ZOF",
+          "target_context": "Production operational deployment",
+          "alternate_context": "Field testing trial",
+          "candidate": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidates": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "tarmac_weight_cleared",
+              "value": true,
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "night_vision_enabled",
+              "label": "Night-vision drop capability enabled",
+              "aliases": [
+                "Night-vision goggle flight clearance",
+                "NVG drop capability status"
+              ]
+            },
+            {
+              "topic": "drop_speed_limit",
+              "label": "Retardant drop airspeed limit",
+              "aliases": [
+                "Safe drop release speed",
+                "Operational retardant drop airspeed"
+              ]
+            },
+            {
+              "topic": "fatigue_life_margin",
+              "label": "Airframe fatigue life margin",
+              "aliases": [
+                "Structural fatigue remaining life margin",
+                "Airframe service life reserve"
+              ]
+            },
+            {
+              "topic": "tarmac_weight_cleared",
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ]
+            },
+            {
+              "topic": "telemetry_encryption_active",
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ]
+            },
+            {
+              "topic": "certified_mechanics_ready",
+              "label": "Field maintenance crew deployment readiness",
+              "aliases": [
+                "Dedicated mobile technician readiness",
+                "On-site certified mechanic staffing clearance"
+              ]
+            },
+            {
+              "topic": "contracted_hourly_rate",
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ]
+            },
+            {
+              "topic": "minimum_flight_hours",
+              "label": "Minimum seasonal flight hours",
+              "aliases": [
+                "Guaranteed seasonal flight hours",
+                "Flight hour baseline commitment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation procurement officer (PROCUR)",
+          "target_key": "PROCUR-COMM-8SL",
+          "alternate_key": "PROCUR-COMM-6QH",
+          "target_context": "full-season commitment window",
+          "alternate_context": "peak-month surge window",
+          "candidate": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidates": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "numeric": [
+            {
+              "topic": "contracted_hourly_rate",
+              "value": 11000,
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ],
+              "unit": "USD/h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "night_vision_enabled",
+              "label": "Night-vision drop capability enabled",
+              "aliases": [
+                "Night-vision goggle flight clearance",
+                "NVG drop capability status"
+              ]
+            },
+            {
+              "topic": "drop_speed_limit",
+              "label": "Retardant drop airspeed limit",
+              "aliases": [
+                "Safe drop release speed",
+                "Operational retardant drop airspeed"
+              ]
+            },
+            {
+              "topic": "fatigue_life_margin",
+              "label": "Airframe fatigue life margin",
+              "aliases": [
+                "Structural fatigue remaining life margin",
+                "Airframe service life reserve"
+              ]
+            },
+            {
+              "topic": "tarmac_weight_cleared",
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ]
+            },
+            {
+              "topic": "telemetry_encryption_active",
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ]
+            },
+            {
+              "topic": "certified_mechanics_ready",
+              "label": "Field maintenance crew deployment readiness",
+              "aliases": [
+                "Dedicated mobile technician readiness",
+                "On-site certified mechanic staffing clearance"
+              ]
+            },
+            {
+              "topic": "contracted_hourly_rate",
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ]
+            },
+            {
+              "topic": "minimum_flight_hours",
+              "label": "Minimum seasonal flight hours",
+              "aliases": [
+                "Guaranteed seasonal flight hours",
+                "Flight hour baseline commitment"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "airbase_logistics",
+        "commercial_procurement",
+        "avionics_telemetry"
+      ],
+      "role_names": [
+        "Airbase apron logistics coordinator (BASELOG)",
+        "Aviation procurement officer (PROCUR)",
+        "Avionics and tactical communications lead (AVCOMM)"
+      ],
+      "directory": "number_expansion/misaligned/task_559/k3",
+      "error_profiles": [
+        {
+          "role_name": "Airbase apron logistics coordinator (BASELOG)",
+          "target_key": "BASELOG-RAMP-6A3",
+          "alternate_key": "BASELOG-TURN-ZOF",
+          "target_context": "Production operational deployment",
+          "alternate_context": "Field testing trial",
+          "candidate": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidates": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "tarmac_weight_cleared",
+              "value": true,
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "night_vision_enabled",
+              "label": "Night-vision drop capability enabled",
+              "aliases": [
+                "Night-vision goggle flight clearance",
+                "NVG drop capability status"
+              ]
+            },
+            {
+              "topic": "drop_speed_limit",
+              "label": "Retardant drop airspeed limit",
+              "aliases": [
+                "Safe drop release speed",
+                "Operational retardant drop airspeed"
+              ]
+            },
+            {
+              "topic": "fatigue_life_margin",
+              "label": "Airframe fatigue life margin",
+              "aliases": [
+                "Structural fatigue remaining life margin",
+                "Airframe service life reserve"
+              ]
+            },
+            {
+              "topic": "tarmac_weight_cleared",
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ]
+            },
+            {
+              "topic": "telemetry_encryption_active",
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ]
+            },
+            {
+              "topic": "certified_mechanics_ready",
+              "label": "Field maintenance crew deployment readiness",
+              "aliases": [
+                "Dedicated mobile technician readiness",
+                "On-site certified mechanic staffing clearance"
+              ]
+            },
+            {
+              "topic": "contracted_hourly_rate",
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ]
+            },
+            {
+              "topic": "minimum_flight_hours",
+              "label": "Minimum seasonal flight hours",
+              "aliases": [
+                "Guaranteed seasonal flight hours",
+                "Flight hour baseline commitment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation procurement officer (PROCUR)",
+          "target_key": "PROCUR-COMM-8SL",
+          "alternate_key": "PROCUR-COMM-6QH",
+          "target_context": "full-season commitment window",
+          "alternate_context": "peak-month surge window",
+          "candidate": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidates": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "numeric": [
+            {
+              "topic": "contracted_hourly_rate",
+              "value": 11000,
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ],
+              "unit": "USD/h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "night_vision_enabled",
+              "label": "Night-vision drop capability enabled",
+              "aliases": [
+                "Night-vision goggle flight clearance",
+                "NVG drop capability status"
+              ]
+            },
+            {
+              "topic": "drop_speed_limit",
+              "label": "Retardant drop airspeed limit",
+              "aliases": [
+                "Safe drop release speed",
+                "Operational retardant drop airspeed"
+              ]
+            },
+            {
+              "topic": "fatigue_life_margin",
+              "label": "Airframe fatigue life margin",
+              "aliases": [
+                "Structural fatigue remaining life margin",
+                "Airframe service life reserve"
+              ]
+            },
+            {
+              "topic": "tarmac_weight_cleared",
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ]
+            },
+            {
+              "topic": "telemetry_encryption_active",
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ]
+            },
+            {
+              "topic": "certified_mechanics_ready",
+              "label": "Field maintenance crew deployment readiness",
+              "aliases": [
+                "Dedicated mobile technician readiness",
+                "On-site certified mechanic staffing clearance"
+              ]
+            },
+            {
+              "topic": "contracted_hourly_rate",
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ]
+            },
+            {
+              "topic": "minimum_flight_hours",
+              "label": "Minimum seasonal flight hours",
+              "aliases": [
+                "Guaranteed seasonal flight hours",
+                "Flight hour baseline commitment"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Avionics and tactical communications lead (AVCOMM)",
+          "target_key": "AVCOMM-LINK-QCM",
+          "alternate_key": "AVCOMM-LINK-8P0",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidates": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "telemetry_encryption_active",
+              "value": true,
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "night_vision_enabled",
+              "label": "Night-vision drop capability enabled",
+              "aliases": [
+                "Night-vision goggle flight clearance",
+                "NVG drop capability status"
+              ]
+            },
+            {
+              "topic": "drop_speed_limit",
+              "label": "Retardant drop airspeed limit",
+              "aliases": [
+                "Safe drop release speed",
+                "Operational retardant drop airspeed"
+              ]
+            },
+            {
+              "topic": "fatigue_life_margin",
+              "label": "Airframe fatigue life margin",
+              "aliases": [
+                "Structural fatigue remaining life margin",
+                "Airframe service life reserve"
+              ]
+            },
+            {
+              "topic": "tarmac_weight_cleared",
+              "label": "Forward airbase tarmac weight clearance",
+              "aliases": [
+                "Apron wheel-load clearance",
+                "Subgrade pavement load approval"
+              ]
+            },
+            {
+              "topic": "telemetry_encryption_active",
+              "label": "Automated telemetry link encryption active",
+              "aliases": [
+                "Tactical telemetry encryption status",
+                "Encrypted flight tracking activation"
+              ]
+            },
+            {
+              "topic": "certified_mechanics_ready",
+              "label": "Field maintenance crew deployment readiness",
+              "aliases": [
+                "Dedicated mobile technician readiness",
+                "On-site certified mechanic staffing clearance"
+              ]
+            },
+            {
+              "topic": "contracted_hourly_rate",
+              "label": "Contracted hourly wet-lease rate",
+              "aliases": [
+                "Hourly wet-lease charter rate",
+                "Flight hour contract rate"
+              ]
+            },
+            {
+              "topic": "minimum_flight_hours",
+              "label": "Minimum seasonal flight hours",
+              "aliases": [
+                "Guaranteed seasonal flight hours",
+                "Flight hour baseline commitment"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

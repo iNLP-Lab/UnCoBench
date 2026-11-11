@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_199",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_operations",
+        "event_governance"
+      ],
+      "role_names": [
+        "Smart facility instrumentation lead (FCOP)",
+        "Municipal permitting liaison (GOVR)"
+      ],
+      "directory": "incomplete/task_199",
+      "profiles": [
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FCOP-METR-WFY",
+          "boolean_predicate_id": "A_submetering_enabled",
+          "boolean_label": "Live utility metering enabled",
+          "hidden_predicate_id": "A_telemetry_interval_minutes",
+          "threshold_label": "Sub-metering response interval",
+          "threshold_aliases": [
+            "Metering cycle latency",
+            "Telemetry reporting interval"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "min",
+          "partial_record_text": "FCOP-METR-WFY: Rhinefront Congress and Expo Park.Rhinefront Congress and Expo Park: Live utility metering enabled = true .Source: Facility IoT telemetry commissioning record; Scope: Individual pavilion power, water, and HVAC feeds; Measurement: Whether individual hall granular utility metering data feeds are online.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Sub-metering response interval is at most 40 min.",
+          "role_name": "Smart facility instrumentation lead (FCOP)",
+          "candidate_name": "Rhinefront Congress and Expo Park",
+          "other_candidate_names": [
+            "Nordic Maritime Exhibition Forum",
+            "Danube Metropolis Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_event_governance_A",
+          "role_id": "event_governance",
+          "candidate_id": "A",
+          "key": "GOVR-PERM-GPI",
+          "hidden_predicate_id": "A_service_core_space",
+          "threshold_label": "Non-leasable service core space",
+          "threshold_aliases": [
+            "Utility core footprint",
+            "Non-rentable egress and plant space"
+          ],
+          "threshold_value": 9500,
+          "threshold_unit": "m2",
+          "partial_record_text": "GOVR-PERM-GPI: Rhinefront Congress and Expo Park.Rhinefront Congress and Expo Park: Municipal event permit pre-clearance = true .Source: City administration municipal gazette; Scope: Biennale event dates in October 2026; Measurement: Unconditional municipal approval for international multi-day exhibition staging.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Non-leasable service core space is at most 30000 m2.",
+          "role_name": "Municipal permitting liaison (GOVR)",
+          "candidate_name": "Rhinefront Congress and Expo Park",
+          "other_candidate_names": [
+            "Nordic Maritime Exhibition Forum",
+            "Danube Metropolis Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_operations",
+        "event_governance",
+        "space_planner"
+      ],
+      "role_names": [
+        "Smart facility instrumentation lead (FCOP)",
+        "Municipal permitting liaison (GOVR)",
+        "Exhibition space surveying surveyor (SPAC)"
+      ],
+      "directory": "incomplete/task_199",
+      "profiles": [
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FCOP-METR-WFY",
+          "boolean_predicate_id": "A_submetering_enabled",
+          "boolean_label": "Live utility metering enabled",
+          "hidden_predicate_id": "A_telemetry_interval_minutes",
+          "threshold_label": "Sub-metering response interval",
+          "threshold_aliases": [
+            "Metering cycle latency",
+            "Telemetry reporting interval"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "min",
+          "partial_record_text": "FCOP-METR-WFY: Rhinefront Congress and Expo Park.Rhinefront Congress and Expo Park: Live utility metering enabled = true .Source: Facility IoT telemetry commissioning record; Scope: Individual pavilion power, water, and HVAC feeds; Measurement: Whether individual hall granular utility metering data feeds are online.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Sub-metering response interval is at most 40 min.",
+          "role_name": "Smart facility instrumentation lead (FCOP)",
+          "candidate_name": "Rhinefront Congress and Expo Park",
+          "other_candidate_names": [
+            "Nordic Maritime Exhibition Forum",
+            "Danube Metropolis Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_event_governance_A",
+          "role_id": "event_governance",
+          "candidate_id": "A",
+          "key": "GOVR-PERM-GPI",
+          "hidden_predicate_id": "A_service_core_space",
+          "threshold_label": "Non-leasable service core space",
+          "threshold_aliases": [
+            "Utility core footprint",
+            "Non-rentable egress and plant space"
+          ],
+          "threshold_value": 9500,
+          "threshold_unit": "m2",
+          "partial_record_text": "GOVR-PERM-GPI: Rhinefront Congress and Expo Park.Rhinefront Congress and Expo Park: Municipal event permit pre-clearance = true .Source: City administration municipal gazette; Scope: Biennale event dates in October 2026; Measurement: Unconditional municipal approval for international multi-day exhibition staging.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Non-leasable service core space is at most 30000 m2.",
+          "role_name": "Municipal permitting liaison (GOVR)",
+          "candidate_name": "Rhinefront Congress and Expo Park",
+          "other_candidate_names": [
+            "Nordic Maritime Exhibition Forum",
+            "Danube Metropolis Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_space_planner_A",
+          "role_id": "space_planner",
+          "candidate_id": "A",
+          "key": "SPAC-SURV-3MO",
+          "hidden_predicate_id": "A_gross_indoor_space",
+          "threshold_label": "Gross indoor exhibition space",
+          "threshold_aliases": [
+            "Total indoor floor area",
+            "Gross hall area"
+          ],
+          "threshold_value": 45000,
+          "threshold_unit": "m2",
+          "partial_record_text": "SPAC-SURV-3MO: Rhinefront Congress and Expo Park. The record covers Gross indoor exhibition space. Certified cadastral floor plan; Enclosed climate-controlled exhibition halls; Total gross interior hall floor area inside boundary walls.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross indoor exhibition space is at most 90000 m2.",
+          "role_name": "Exhibition space surveying surveyor (SPAC)",
+          "candidate_name": "Rhinefront Congress and Expo Park",
+          "other_candidate_names": [
+            "Nordic Maritime Exhibition Forum",
+            "Danube Metropolis Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

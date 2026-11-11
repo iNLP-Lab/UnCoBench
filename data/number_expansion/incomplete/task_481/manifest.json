@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_481",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_director",
+        "logistics_coordinator"
+      ],
+      "role_names": [
+        "Safety and Medical Director (SAF)",
+        "Logistics and Access Lead (LOG)"
+      ],
+      "directory": "incomplete/task_481",
+      "profiles": [
+        {
+          "record_id": "rec_safety_director_A",
+          "role_id": "safety_director",
+          "candidate_id": "A",
+          "key": "SAF-MED-SA6",
+          "boolean_predicate_id": "A_trauma_activation_ready",
+          "boolean_label": "Emergency trauma station activation ready",
+          "hidden_predicate_id": "A_trauma_bed_capacity",
+          "threshold_label": "Emergency trauma triage bed capacity",
+          "threshold_aliases": [
+            "Triage bed capacity",
+            "Emergency medical cot count"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "SAF-MED-SA6: Pine Valley Fairgrounds.Pine Valley Fairgrounds: Emergency trauma station activation ready = true .Source: Medical operations readiness audit; Scope: On-site field medical station; Measurement: Formal authorization and staffing readiness to activate emergency trauma services.Pine Valley Fairgrounds: Dedicated life-safety critical load = 250 kW.Source: Base electrical load-shedding schedule; Scope: Triage medical bays, command communications, and emergency perimeter lighting; Measurement: Mandatory non-sheddable continuous electrical load reserved exclusively for life-safety systems.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency trauma triage bed capacity is at most 30 beds.",
+          "role_name": "Safety and Medical Director (SAF)",
+          "candidate_name": "Pine Valley Fairgrounds",
+          "other_candidate_names": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordinator_A",
+          "role_id": "logistics_coordinator",
+          "candidate_id": "A",
+          "key": "LOG-ROAD-JIQ",
+          "hidden_predicate_id": "A_access_road_width",
+          "threshold_label": "Minimum access road width",
+          "threshold_aliases": [
+            "Access road width",
+            "Entry corridor roadway width"
+          ],
+          "threshold_value": 7.5,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-ROAD-JIQ: Pine Valley Fairgrounds. The record covers Minimum access road width. Department of Transportation corridor survey; Primary ingress route from state highway to base gate; Minimum paved and unobstructed road surface width.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 10
+          },
+          "coarse_statement": "Minimum access road width is at most 10 m.",
+          "role_name": "Logistics and Access Lead (LOG)",
+          "candidate_name": "Pine Valley Fairgrounds",
+          "other_candidate_names": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_director",
+        "logistics_coordinator",
+        "power_systems_lead"
+      ],
+      "role_names": [
+        "Safety and Medical Director (SAF)",
+        "Logistics and Access Lead (LOG)",
+        "Power Systems Engineer (PWR)"
+      ],
+      "directory": "incomplete/task_481",
+      "profiles": [
+        {
+          "record_id": "rec_safety_director_A",
+          "role_id": "safety_director",
+          "candidate_id": "A",
+          "key": "SAF-MED-SA6",
+          "boolean_predicate_id": "A_trauma_activation_ready",
+          "boolean_label": "Emergency trauma station activation ready",
+          "hidden_predicate_id": "A_trauma_bed_capacity",
+          "threshold_label": "Emergency trauma triage bed capacity",
+          "threshold_aliases": [
+            "Triage bed capacity",
+            "Emergency medical cot count"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "SAF-MED-SA6: Pine Valley Fairgrounds.Pine Valley Fairgrounds: Emergency trauma station activation ready = true .Source: Medical operations readiness audit; Scope: On-site field medical station; Measurement: Formal authorization and staffing readiness to activate emergency trauma services.Pine Valley Fairgrounds: Dedicated life-safety critical load = 250 kW.Source: Base electrical load-shedding schedule; Scope: Triage medical bays, command communications, and emergency perimeter lighting; Measurement: Mandatory non-sheddable continuous electrical load reserved exclusively for life-safety systems.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency trauma triage bed capacity is at most 30 beds.",
+          "role_name": "Safety and Medical Director (SAF)",
+          "candidate_name": "Pine Valley Fairgrounds",
+          "other_candidate_names": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_coordinator_A",
+          "role_id": "logistics_coordinator",
+          "candidate_id": "A",
+          "key": "LOG-ROAD-JIQ",
+          "hidden_predicate_id": "A_access_road_width",
+          "threshold_label": "Minimum access road width",
+          "threshold_aliases": [
+            "Access road width",
+            "Entry corridor roadway width"
+          ],
+          "threshold_value": 7.5,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-ROAD-JIQ: Pine Valley Fairgrounds. The record covers Minimum access road width. Department of Transportation corridor survey; Primary ingress route from state highway to base gate; Minimum paved and unobstructed road surface width.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 10
+          },
+          "coarse_statement": "Minimum access road width is at most 10 m.",
+          "role_name": "Logistics and Access Lead (LOG)",
+          "candidate_name": "Pine Valley Fairgrounds",
+          "other_candidate_names": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "PWR-GEN-AYS",
+          "hidden_predicate_id": "A_primary_generator_capacity",
+          "threshold_label": "Primary diesel generator continuous capacity",
+          "threshold_aliases": [
+            "Primary generator capacity",
+            "Continuous diesel generator output"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "kW",
+          "partial_record_text": "PWR-GEN-AYS: Pine Valley Fairgrounds. The record covers Primary diesel generator continuous capacity. Generator nameplate rating specification; Base primary prime-power diesel generator set; Continuous prime electrical power output under ISO 8528 conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary diesel generator continuous capacity is at most 900 kW.",
+          "role_name": "Power Systems Engineer (PWR)",
+          "candidate_name": "Pine Valley Fairgrounds",
+          "other_candidate_names": [
+            "Cascade Regional Airpark",
+            "Highland Industrial Park"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

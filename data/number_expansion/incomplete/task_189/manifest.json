@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_189",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_safety"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Fleet safety auditor (SAF)"
+      ],
+      "directory": "incomplete/task_189",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAL-MONIT-R8O",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous temperature telemetry enabled",
+          "hidden_predicate_id": "A_max_transit_excursion",
+          "threshold_label": "Maximum allowable transit excursion duration",
+          "threshold_aliases": [
+            "Permissible thermal excursion limit",
+            "Excursion tolerance window"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "QAL-MONIT-R8O: Polaris Life Sciences Freight.Polaris Life Sciences Freight: Continuous temperature telemetry enabled = true .Source: Telemetry service configuration protocol; Scope: Live shipment tracking hardware suite; Measurement: Confirmation that continuous cloud-linked temperature logging is activated.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "Polaris Life Sciences Freight",
+          "other_candidate_names": [
+            "Apex Cryo-Logistics Alliance",
+            "Vanguard Bio-Transit Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_safety_A",
+          "role_id": "fleet_safety",
+          "candidate_id": "A",
+          "key": "SAF-TRAIN-SKW",
+          "hidden_predicate_id": "A_driver_hazmat_certification_rate",
+          "threshold_label": "Driver hazardous materials certification rate",
+          "threshold_aliases": [
+            "Hazmat qualified driver proportion",
+            "Driver compliance percentage"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "SAF-TRAIN-SKW: Polaris Life Sciences Freight. The record covers Driver hazardous materials certification rate. Personnel credential audit report; Assigned dedicated long-haul driver roster; Percentage of drivers with current hazardous materials and biological transport credentials.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 88,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Driver hazardous materials certification rate is at least 88 %.",
+          "role_name": "Fleet safety auditor (SAF)",
+          "candidate_name": "Polaris Life Sciences Freight",
+          "other_candidate_names": [
+            "Apex Cryo-Logistics Alliance",
+            "Vanguard Bio-Transit Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_safety",
+        "packaging_engineering"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Fleet safety auditor (SAF)",
+        "Packaging engineering lead (PKG)"
+      ],
+      "directory": "incomplete/task_189",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAL-MONIT-R8O",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Continuous temperature telemetry enabled",
+          "hidden_predicate_id": "A_max_transit_excursion",
+          "threshold_label": "Maximum allowable transit excursion duration",
+          "threshold_aliases": [
+            "Permissible thermal excursion limit",
+            "Excursion tolerance window"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "QAL-MONIT-R8O: Polaris Life Sciences Freight.Polaris Life Sciences Freight: Continuous temperature telemetry enabled = true .Source: Telemetry service configuration protocol; Scope: Live shipment tracking hardware suite; Measurement: Confirmation that continuous cloud-linked temperature logging is activated.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "Polaris Life Sciences Freight",
+          "other_candidate_names": [
+            "Apex Cryo-Logistics Alliance",
+            "Vanguard Bio-Transit Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_safety_A",
+          "role_id": "fleet_safety",
+          "candidate_id": "A",
+          "key": "SAF-TRAIN-SKW",
+          "hidden_predicate_id": "A_driver_hazmat_certification_rate",
+          "threshold_label": "Driver hazardous materials certification rate",
+          "threshold_aliases": [
+            "Hazmat qualified driver proportion",
+            "Driver compliance percentage"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "SAF-TRAIN-SKW: Polaris Life Sciences Freight. The record covers Driver hazardous materials certification rate. Personnel credential audit report; Assigned dedicated long-haul driver roster; Percentage of drivers with current hazardous materials and biological transport credentials.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 88,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Driver hazardous materials certification rate is at least 88 %.",
+          "role_name": "Fleet safety auditor (SAF)",
+          "candidate_name": "Polaris Life Sciences Freight",
+          "other_candidate_names": [
+            "Apex Cryo-Logistics Alliance",
+            "Vanguard Bio-Transit Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_packaging_engineering_A",
+          "role_id": "packaging_engineering",
+          "candidate_id": "A",
+          "key": "PKG-THERM-2ZQ",
+          "hidden_predicate_id": "A_passive_holding_duration",
+          "threshold_label": "Validated passive holding duration",
+          "threshold_aliases": [
+            "Passive thermal autonomy",
+            "Dry-ice holding endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "PKG-THERM-2ZQ: Polaris Life Sciences Freight.Polaris Life Sciences Freight: Active thermal validation certified = true .Source: Thermal validation compliance certificate; Scope: Proposed shipper packaging configurations; Measurement: Verification of ISO/IEC 17025 accredited laboratory thermal qualification.",
+          "role_name": "Packaging engineering lead (PKG)",
+          "candidate_name": "Polaris Life Sciences Freight",
+          "other_candidate_names": [
+            "Apex Cryo-Logistics Alliance",
+            "Vanguard Bio-Transit Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

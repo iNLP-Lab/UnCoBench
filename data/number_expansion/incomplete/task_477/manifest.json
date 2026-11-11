@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_477",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "air_quality_control",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Air Quality Compliance Officer (AQC)",
+        "Senior Dewatering Process Engineer (PDE)"
+      ],
+      "directory": "incomplete/task_477",
+      "profiles": [
+        {
+          "record_id": "rec_air_quality_control_A",
+          "role_id": "air_quality_control",
+          "candidate_id": "A",
+          "key": "AQC-EMISS-1MZ",
+          "boolean_predicate_id": "A_nitrogen_purge_installed",
+          "boolean_label": "Continuous nitrogen purge system installed",
+          "hidden_predicate_id": "A_exhaust_voc_concentration",
+          "threshold_label": "Exhaust volatile organic compound concentration",
+          "threshold_aliases": [
+            "VOC concentration",
+            "Stack VOC emissions"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "AQC-EMISS-1MZ: High-torque centrifuge dewatering plan.High-torque centrifuge dewatering plan: Continuous nitrogen purge system installed = true .Source: Facility safety engineering audit; Scope: Enclosed cake conveyor and drying headspaces; Measurement: Physical installation and commissioning status of active nitrogen blanket purge piping.",
+          "role_name": "Air Quality Compliance Officer (AQC)",
+          "candidate_name": "High-torque centrifuge dewatering plan",
+          "other_candidate_names": [
+            "Thermal membrane filter press plan",
+            "Multi-stage vacuum disc filtration plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PDE-THRU-H74",
+          "hidden_predicate_id": "A_dry_cake_throughput",
+          "threshold_label": "Daily dry cake throughput",
+          "threshold_aliases": [
+            "Dry solids throughput",
+            "Daily dry solids processing capacity"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "t/d",
+          "partial_record_text": "PDE-THRU-H74: High-torque centrifuge dewatering plan.High-torque centrifuge dewatering plan: Raw wet sludge intake mass per shift = 140 t.Source: Holding tank ultrasonic flowmeter and density integrator; Scope: Eight-hour primary sludge feed run into dewatering facility; Measurement: Total gross weight of conditioned liquid sludge delivered to press battery.",
+          "role_name": "Senior Dewatering Process Engineer (PDE)",
+          "candidate_name": "High-torque centrifuge dewatering plan",
+          "other_candidate_names": [
+            "Thermal membrane filter press plan",
+            "Multi-stage vacuum disc filtration plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "air_quality_control",
+        "process_engineering",
+        "solids_handling"
+      ],
+      "role_names": [
+        "Air Quality Compliance Officer (AQC)",
+        "Senior Dewatering Process Engineer (PDE)",
+        "Solids Logistics Superintendent (SLS)"
+      ],
+      "directory": "incomplete/task_477",
+      "profiles": [
+        {
+          "record_id": "rec_air_quality_control_A",
+          "role_id": "air_quality_control",
+          "candidate_id": "A",
+          "key": "AQC-EMISS-1MZ",
+          "boolean_predicate_id": "A_nitrogen_purge_installed",
+          "boolean_label": "Continuous nitrogen purge system installed",
+          "hidden_predicate_id": "A_exhaust_voc_concentration",
+          "threshold_label": "Exhaust volatile organic compound concentration",
+          "threshold_aliases": [
+            "VOC concentration",
+            "Stack VOC emissions"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "mg/m3",
+          "partial_record_text": "AQC-EMISS-1MZ: High-torque centrifuge dewatering plan.High-torque centrifuge dewatering plan: Continuous nitrogen purge system installed = true .Source: Facility safety engineering audit; Scope: Enclosed cake conveyor and drying headspaces; Measurement: Physical installation and commissioning status of active nitrogen blanket purge piping.",
+          "role_name": "Air Quality Compliance Officer (AQC)",
+          "candidate_name": "High-torque centrifuge dewatering plan",
+          "other_candidate_names": [
+            "Thermal membrane filter press plan",
+            "Multi-stage vacuum disc filtration plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PDE-THRU-H74",
+          "hidden_predicate_id": "A_dry_cake_throughput",
+          "threshold_label": "Daily dry cake throughput",
+          "threshold_aliases": [
+            "Dry solids throughput",
+            "Daily dry solids processing capacity"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "t/d",
+          "partial_record_text": "PDE-THRU-H74: High-torque centrifuge dewatering plan.High-torque centrifuge dewatering plan: Raw wet sludge intake mass per shift = 140 t.Source: Holding tank ultrasonic flowmeter and density integrator; Scope: Eight-hour primary sludge feed run into dewatering facility; Measurement: Total gross weight of conditioned liquid sludge delivered to press battery.",
+          "role_name": "Senior Dewatering Process Engineer (PDE)",
+          "candidate_name": "High-torque centrifuge dewatering plan",
+          "other_candidate_names": [
+            "Thermal membrane filter press plan",
+            "Multi-stage vacuum disc filtration plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_solids_handling_A",
+          "role_id": "solids_handling",
+          "candidate_id": "A",
+          "key": "SLS-SOLIDS-AAO",
+          "hidden_predicate_id": "A_dewatered_cake_mass",
+          "threshold_label": "Dewatered cake output mass per shift",
+          "threshold_aliases": [
+            "Cake output mass",
+            "Output cake mass"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "t",
+          "partial_record_text": "SLS-SOLIDS-AAO: High-torque centrifuge dewatering plan. The record covers Dewatered cake output mass per shift. Discharge conveyor scale register; Eight-hour production cake collection hopper output; Total net metric tons of dewatered cake discharged into loading bunkers.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Dewatered cake output mass per shift is at least 30 t.",
+          "role_name": "Solids Logistics Superintendent (SLS)",
+          "candidate_name": "High-torque centrifuge dewatering plan",
+          "other_candidate_names": [
+            "Thermal membrane filter press plan",
+            "Multi-stage vacuum disc filtration plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

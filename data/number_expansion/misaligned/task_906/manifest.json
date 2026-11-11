@@ -1,0 +1,504 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_906",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "civil_protection",
+        "maritime_weather"
+      ],
+      "role_names": [
+        "Disaster Management Authority Liaison (CIV)",
+        "Meteorological and Oceanographic Officer (MET)"
+      ],
+      "directory": "number_expansion/misaligned/task_906/k2",
+      "error_profiles": [
+        {
+          "role_name": "Disaster Management Authority Liaison (CIV)",
+          "target_key": "CIV-PERMIT-6DC",
+          "alternate_key": "CIV-COMMS-0CW",
+          "target_context": "Hainan",
+          "alternate_context": "Zhejiang",
+          "candidate": "Rotary-Wing Amphibious Relay",
+          "other_candidates": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "value": true,
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deicing_system_equipped",
+              "label": "Airframe de-icing system equipped",
+              "aliases": [
+                "De-icing equipment status",
+                "Pneumatic or electro-thermal boot installation"
+              ]
+            },
+            {
+              "topic": "continuous_icing_endurance",
+              "label": "Continuous icing endurance",
+              "aliases": [
+                "Icing flight duration",
+                "Maximum sustained icing penetration time"
+              ]
+            },
+            {
+              "topic": "critical_care_berth_count",
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ]
+            },
+            {
+              "topic": "cold_refueling_safety_verified",
+              "label": "Cold refueling safety protocol verified",
+              "aliases": [
+                "Refueling safety clearance",
+                "Ground cold refuel checklist compliance"
+              ]
+            },
+            {
+              "topic": "max_wave_height_tolerance",
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ]
+            },
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ]
+            },
+            {
+              "topic": "depot_refueling_turnaround_time",
+              "label": "Base depot refueling turnaround time",
+              "aliases": [
+                "Main base refueling duration",
+                "Depot ground turnaround time"
+              ]
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Meteorological and Oceanographic Officer (MET)",
+          "target_key": "MET-WEATHER-W8T",
+          "alternate_key": "MET-WEATHER-R33",
+          "target_context": "Hainan",
+          "alternate_context": "Guangdong",
+          "candidate": "Rotary-Wing Amphibious Relay",
+          "other_candidates": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "numeric": [
+            {
+              "topic": "max_wave_height_tolerance",
+              "value": 4,
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deicing_system_equipped",
+              "label": "Airframe de-icing system equipped",
+              "aliases": [
+                "De-icing equipment status",
+                "Pneumatic or electro-thermal boot installation"
+              ]
+            },
+            {
+              "topic": "continuous_icing_endurance",
+              "label": "Continuous icing endurance",
+              "aliases": [
+                "Icing flight duration",
+                "Maximum sustained icing penetration time"
+              ]
+            },
+            {
+              "topic": "critical_care_berth_count",
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ]
+            },
+            {
+              "topic": "cold_refueling_safety_verified",
+              "label": "Cold refueling safety protocol verified",
+              "aliases": [
+                "Refueling safety clearance",
+                "Ground cold refuel checklist compliance"
+              ]
+            },
+            {
+              "topic": "max_wave_height_tolerance",
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ]
+            },
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ]
+            },
+            {
+              "topic": "depot_refueling_turnaround_time",
+              "label": "Base depot refueling turnaround time",
+              "aliases": [
+                "Main base refueling duration",
+                "Depot ground turnaround time"
+              ]
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "civil_protection",
+        "maritime_weather",
+        "medical_evacuation"
+      ],
+      "role_names": [
+        "Disaster Management Authority Liaison (CIV)",
+        "Meteorological and Oceanographic Officer (MET)",
+        "Emergency Medical Services Lead (MED)"
+      ],
+      "directory": "number_expansion/misaligned/task_906/k3",
+      "error_profiles": [
+        {
+          "role_name": "Disaster Management Authority Liaison (CIV)",
+          "target_key": "CIV-PERMIT-6DC",
+          "alternate_key": "CIV-COMMS-0CW",
+          "target_context": "Hainan",
+          "alternate_context": "Zhejiang",
+          "candidate": "Rotary-Wing Amphibious Relay",
+          "other_candidates": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "value": true,
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deicing_system_equipped",
+              "label": "Airframe de-icing system equipped",
+              "aliases": [
+                "De-icing equipment status",
+                "Pneumatic or electro-thermal boot installation"
+              ]
+            },
+            {
+              "topic": "continuous_icing_endurance",
+              "label": "Continuous icing endurance",
+              "aliases": [
+                "Icing flight duration",
+                "Maximum sustained icing penetration time"
+              ]
+            },
+            {
+              "topic": "critical_care_berth_count",
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ]
+            },
+            {
+              "topic": "cold_refueling_safety_verified",
+              "label": "Cold refueling safety protocol verified",
+              "aliases": [
+                "Refueling safety clearance",
+                "Ground cold refuel checklist compliance"
+              ]
+            },
+            {
+              "topic": "max_wave_height_tolerance",
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ]
+            },
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ]
+            },
+            {
+              "topic": "depot_refueling_turnaround_time",
+              "label": "Base depot refueling turnaround time",
+              "aliases": [
+                "Main base refueling duration",
+                "Depot ground turnaround time"
+              ]
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Meteorological and Oceanographic Officer (MET)",
+          "target_key": "MET-WEATHER-W8T",
+          "alternate_key": "MET-WEATHER-R33",
+          "target_context": "Hainan",
+          "alternate_context": "Guangdong",
+          "candidate": "Rotary-Wing Amphibious Relay",
+          "other_candidates": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "numeric": [
+            {
+              "topic": "max_wave_height_tolerance",
+              "value": 4,
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deicing_system_equipped",
+              "label": "Airframe de-icing system equipped",
+              "aliases": [
+                "De-icing equipment status",
+                "Pneumatic or electro-thermal boot installation"
+              ]
+            },
+            {
+              "topic": "continuous_icing_endurance",
+              "label": "Continuous icing endurance",
+              "aliases": [
+                "Icing flight duration",
+                "Maximum sustained icing penetration time"
+              ]
+            },
+            {
+              "topic": "critical_care_berth_count",
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ]
+            },
+            {
+              "topic": "cold_refueling_safety_verified",
+              "label": "Cold refueling safety protocol verified",
+              "aliases": [
+                "Refueling safety clearance",
+                "Ground cold refuel checklist compliance"
+              ]
+            },
+            {
+              "topic": "max_wave_height_tolerance",
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ]
+            },
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ]
+            },
+            {
+              "topic": "depot_refueling_turnaround_time",
+              "label": "Base depot refueling turnaround time",
+              "aliases": [
+                "Main base refueling duration",
+                "Depot ground turnaround time"
+              ]
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency Medical Services Lead (MED)",
+          "target_key": "MED-TRIAGE-L3Y",
+          "alternate_key": "MED-TRIAGE-34J",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "Rotary-Wing Amphibious Relay",
+          "other_candidates": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "numeric": [
+            {
+              "topic": "critical_care_berth_count",
+              "value": 8,
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ],
+              "unit": "berths"
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "value": 50,
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deicing_system_equipped",
+              "label": "Airframe de-icing system equipped",
+              "aliases": [
+                "De-icing equipment status",
+                "Pneumatic or electro-thermal boot installation"
+              ]
+            },
+            {
+              "topic": "continuous_icing_endurance",
+              "label": "Continuous icing endurance",
+              "aliases": [
+                "Icing flight duration",
+                "Maximum sustained icing penetration time"
+              ]
+            },
+            {
+              "topic": "critical_care_berth_count",
+              "label": "Critical care capacity",
+              "aliases": [
+                "Intensive care litter berths",
+                "Critical care stretcher positions"
+              ]
+            },
+            {
+              "topic": "cold_refueling_safety_verified",
+              "label": "Cold refueling safety protocol verified",
+              "aliases": [
+                "Refueling safety clearance",
+                "Ground cold refuel checklist compliance"
+              ]
+            },
+            {
+              "topic": "max_wave_height_tolerance",
+              "label": "Sea state wave height tolerance",
+              "aliases": [
+                "Offshore sea state tolerance",
+                "Maximum significant wave height envelope"
+              ]
+            },
+            {
+              "topic": "civil_airspace_waiver_granted",
+              "label": "Emergency airspace waiver granted",
+              "aliases": [
+                "Disaster zone flight authorization",
+                "Civilian airspace restriction exemption"
+              ]
+            },
+            {
+              "topic": "depot_refueling_turnaround_time",
+              "label": "Base depot refueling turnaround time",
+              "aliases": [
+                "Main base refueling duration",
+                "Depot ground turnaround time"
+              ]
+            },
+            {
+              "topic": "medical_restaging_turnaround_time",
+              "label": "Forward medical restaging turnaround time",
+              "aliases": [
+                "Litter transfer and restaging time",
+                "Field clinic evacuation turnaround duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

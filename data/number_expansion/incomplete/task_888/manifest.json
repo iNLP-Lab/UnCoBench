@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_888",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fleet_operations",
+        "workforce_compliance"
+      ],
+      "role_names": [
+        "Ground fleet director (GFD)",
+        "Aviation labor and credentialing officer (ALC)"
+      ],
+      "directory": "incomplete/task_888",
+      "profiles": [
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "GFD-FLEET-8KC",
+          "boolean_predicate_id": "A_fleet_telemetry_enabled",
+          "boolean_label": "Apron fleet telematics tracking active",
+          "hidden_predicate_id": "A_gse_electrification_rate",
+          "threshold_label": "Ground support equipment electrification share",
+          "threshold_aliases": [
+            "Fleet electrification percentage",
+            "Zero-emission equipment share"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "GFD-FLEET-8KC: AeroGround Ramp Logistics Consortium.AeroGround Ramp Logistics Consortium: Apron fleet telematics tracking active = true .Source: Airside vehicle telemetry integration audit; Scope: Ground support fleet assigned to airport cargo ramps; Measurement: Confirmation that centralized real-time telematics tracking is operational on all assigned motorized vehicles.AeroGround Ramp Logistics Consortium: Apron tow tractor allocation = 60 units.Source: Ramp mobilization equipment schedule; Scope: Permanent apron allocation for the concession duration; Measurement: Quantity of heavy motorized cargo tow tractors dedicated exclusively to airport apron service.",
+          "role_name": "Ground fleet director (GFD)",
+          "candidate_name": "AeroGround Ramp Logistics Consortium",
+          "other_candidate_names": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_workforce_compliance_A",
+          "role_id": "workforce_compliance",
+          "candidate_id": "A",
+          "key": "ALC-CREW-6EI",
+          "hidden_predicate_id": "A_airside_security_cleared_ratio",
+          "threshold_label": "Airside security-cleared workforce ratio",
+          "threshold_aliases": [
+            "Airside badging clearance ratio",
+            "Security-cleared ramp crew share"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "ALC-CREW-6EI: AeroGround Ramp Logistics Consortium. The record covers Airside security-cleared workforce ratio. Airport security identification credential audit; Active operational workforce assigned to airside ramp areas; Percentage of frontline ramp personnel holding active unrestricted airport security identification badges.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 90,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Airside security-cleared workforce ratio is at least 90 %.",
+          "role_name": "Aviation labor and credentialing officer (ALC)",
+          "candidate_name": "AeroGround Ramp Logistics Consortium",
+          "other_candidate_names": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fleet_operations",
+        "workforce_compliance",
+        "quality_safety"
+      ],
+      "role_names": [
+        "Ground fleet director (GFD)",
+        "Aviation labor and credentialing officer (ALC)",
+        "Ramp safety and quality assurance auditor (SQA)"
+      ],
+      "directory": "incomplete/task_888",
+      "profiles": [
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "GFD-FLEET-8KC",
+          "boolean_predicate_id": "A_fleet_telemetry_enabled",
+          "boolean_label": "Apron fleet telematics tracking active",
+          "hidden_predicate_id": "A_gse_electrification_rate",
+          "threshold_label": "Ground support equipment electrification share",
+          "threshold_aliases": [
+            "Fleet electrification percentage",
+            "Zero-emission equipment share"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "GFD-FLEET-8KC: AeroGround Ramp Logistics Consortium.AeroGround Ramp Logistics Consortium: Apron fleet telematics tracking active = true .Source: Airside vehicle telemetry integration audit; Scope: Ground support fleet assigned to airport cargo ramps; Measurement: Confirmation that centralized real-time telematics tracking is operational on all assigned motorized vehicles.AeroGround Ramp Logistics Consortium: Apron tow tractor allocation = 60 units.Source: Ramp mobilization equipment schedule; Scope: Permanent apron allocation for the concession duration; Measurement: Quantity of heavy motorized cargo tow tractors dedicated exclusively to airport apron service.",
+          "role_name": "Ground fleet director (GFD)",
+          "candidate_name": "AeroGround Ramp Logistics Consortium",
+          "other_candidate_names": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_workforce_compliance_A",
+          "role_id": "workforce_compliance",
+          "candidate_id": "A",
+          "key": "ALC-CREW-6EI",
+          "hidden_predicate_id": "A_airside_security_cleared_ratio",
+          "threshold_label": "Airside security-cleared workforce ratio",
+          "threshold_aliases": [
+            "Airside badging clearance ratio",
+            "Security-cleared ramp crew share"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "ALC-CREW-6EI: AeroGround Ramp Logistics Consortium. The record covers Airside security-cleared workforce ratio. Airport security identification credential audit; Active operational workforce assigned to airside ramp areas; Percentage of frontline ramp personnel holding active unrestricted airport security identification badges.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 90,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Airside security-cleared workforce ratio is at least 90 %.",
+          "role_name": "Aviation labor and credentialing officer (ALC)",
+          "candidate_name": "AeroGround Ramp Logistics Consortium",
+          "other_candidate_names": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_safety_A",
+          "role_id": "quality_safety",
+          "candidate_id": "A",
+          "key": "SQA-AUDIT-9A3",
+          "hidden_predicate_id": "A_foreign_object_damage_rate",
+          "threshold_label": "Foreign object damage incident frequency",
+          "threshold_aliases": [
+            "FOD incident rate",
+            "Airside debris incident frequency"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "incidents",
+          "partial_record_text": "SQA-AUDIT-9A3: AeroGround Ramp Logistics Consortium.AeroGround Ramp Logistics Consortium: Active IATA ISAGO safety registration = true .Source: IATA Ground Operations Safety Registry; Scope: Bidding entity headquarters and operational stations; Measurement: Whether the consortium holds an active and unconditioned ISAGO registration certificate.",
+          "role_name": "Ramp safety and quality assurance auditor (SQA)",
+          "candidate_name": "AeroGround Ramp Logistics Consortium",
+          "other_candidate_names": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

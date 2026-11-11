@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_411",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_facilities_engineer",
+        "media_liaison_officer"
+      ],
+      "role_names": [
+        "Electrical and backup facilities engineer (ENG)",
+        "Media liaison officer (MED)"
+      ],
+      "directory": "incomplete/task_411",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_facilities_engineer_A",
+          "role_id": "electrical_facilities_engineer",
+          "candidate_id": "A",
+          "key": "ENG-GRID-OUK",
+          "boolean_predicate_id": "A_generator_grid_sync_active",
+          "boolean_label": "Backup generator grid synchronization active",
+          "hidden_predicate_id": "A_generator_cutover_delay",
+          "threshold_label": "Maximum generator cutover transfer delay",
+          "threshold_aliases": [
+            "Power transfer cutover time",
+            "Generator changeover latency"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "ENG-GRID-OUK: Sands Expo and Convention Centre.Sands Expo and Convention Centre: Backup generator grid synchronization active = true .Source: Electrical engineering commissioning inspection; Scope: Candidate venue on-site diesel and turbine emergency generators; Measurement: Verification that emergency generation units synchronize with municipal feeder phase.",
+          "role_name": "Electrical and backup facilities engineer (ENG)",
+          "candidate_name": "Sands Expo and Convention Centre",
+          "other_candidate_names": [
+            "Kuala Lumpur Convention Centre",
+            "Queen Sirikit National Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_media_liaison_officer_A",
+          "role_id": "media_liaison_officer",
+          "candidate_id": "A",
+          "key": "MED-PRES-XEO",
+          "hidden_predicate_id": "A_reserved_press_seating",
+          "threshold_label": "Reserved press gallery seating",
+          "threshold_aliases": [
+            "Press tier allocated seats",
+            "Dedicated media delegation seating"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "seats",
+          "partial_record_text": "MED-PRES-XEO: Sands Expo and Convention Centre.Sands Expo and Convention Centre: High-capacity press briefing infrastructure = true .Source: International press union technical inspection; Scope: Candidate venue media briefing rooms and studio risers; Measurement: Compliance with international broadcast cabling and seated briefing workstation counts.",
+          "role_name": "Media liaison officer (MED)",
+          "candidate_name": "Sands Expo and Convention Centre",
+          "other_candidate_names": [
+            "Kuala Lumpur Convention Centre",
+            "Queen Sirikit National Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_facilities_engineer",
+        "media_liaison_officer",
+        "plenary_hall_director"
+      ],
+      "role_names": [
+        "Electrical and backup facilities engineer (ENG)",
+        "Media liaison officer (MED)",
+        "Plenary hall operations director (OPS)"
+      ],
+      "directory": "incomplete/task_411",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_facilities_engineer_A",
+          "role_id": "electrical_facilities_engineer",
+          "candidate_id": "A",
+          "key": "ENG-GRID-OUK",
+          "boolean_predicate_id": "A_generator_grid_sync_active",
+          "boolean_label": "Backup generator grid synchronization active",
+          "hidden_predicate_id": "A_generator_cutover_delay",
+          "threshold_label": "Maximum generator cutover transfer delay",
+          "threshold_aliases": [
+            "Power transfer cutover time",
+            "Generator changeover latency"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "ENG-GRID-OUK: Sands Expo and Convention Centre.Sands Expo and Convention Centre: Backup generator grid synchronization active = true .Source: Electrical engineering commissioning inspection; Scope: Candidate venue on-site diesel and turbine emergency generators; Measurement: Verification that emergency generation units synchronize with municipal feeder phase.",
+          "role_name": "Electrical and backup facilities engineer (ENG)",
+          "candidate_name": "Sands Expo and Convention Centre",
+          "other_candidate_names": [
+            "Kuala Lumpur Convention Centre",
+            "Queen Sirikit National Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_media_liaison_officer_A",
+          "role_id": "media_liaison_officer",
+          "candidate_id": "A",
+          "key": "MED-PRES-XEO",
+          "hidden_predicate_id": "A_reserved_press_seating",
+          "threshold_label": "Reserved press gallery seating",
+          "threshold_aliases": [
+            "Press tier allocated seats",
+            "Dedicated media delegation seating"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "seats",
+          "partial_record_text": "MED-PRES-XEO: Sands Expo and Convention Centre.Sands Expo and Convention Centre: High-capacity press briefing infrastructure = true .Source: International press union technical inspection; Scope: Candidate venue media briefing rooms and studio risers; Measurement: Compliance with international broadcast cabling and seated briefing workstation counts.",
+          "role_name": "Media liaison officer (MED)",
+          "candidate_name": "Sands Expo and Convention Centre",
+          "other_candidate_names": [
+            "Kuala Lumpur Convention Centre",
+            "Queen Sirikit National Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plenary_hall_director_A",
+          "role_id": "plenary_hall_director",
+          "candidate_id": "A",
+          "key": "OPS-HALL-Z6G",
+          "hidden_predicate_id": "A_total_plenary_capacity",
+          "threshold_label": "Total plenary hall capacity",
+          "threshold_aliases": [
+            "Gross plenary seat count",
+            "Nominal plenary hall seating capacity"
+          ],
+          "threshold_value": 4500,
+          "threshold_unit": "seats",
+          "partial_record_text": "OPS-HALL-Z6G: Sands Expo and Convention Centre. The record covers Total plenary hall capacity. Plenary architectural registration; Main conference plenary auditorium; Maximum certified fire-code occupant seating capacity of the primary plenary auditorium.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 3200,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Total plenary hall capacity is at least 3200 seats.",
+          "role_name": "Plenary hall operations director (OPS)",
+          "candidate_name": "Sands Expo and Convention Centre",
+          "other_candidate_names": [
+            "Kuala Lumpur Convention Centre",
+            "Queen Sirikit National Convention Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

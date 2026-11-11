@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_244",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geotechnical_engineering",
+        "science_payload"
+      ],
+      "role_names": [
+        "Geotechnical engineering lead (GEOTECH)",
+        "Scientific payload coordinator (SCI)"
+      ],
+      "directory": "incomplete/task_244",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_engineering_A",
+          "role_id": "geotechnical_engineering",
+          "candidate_id": "A",
+          "key": "GEOTECH-GEOSURV-SOV",
+          "boolean_predicate_id": "A_bedrock_stability_cleared",
+          "boolean_label": "Bedrock anchoring stability clearance",
+          "hidden_predicate_id": "A_thaw_progression_rate",
+          "threshold_label": "Annual permafrost active-layer thaw progression rate",
+          "threshold_aliases": [
+            "Active-layer thaw progression rate",
+            "Permafrost thaw progression"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mm/yr",
+          "partial_record_text": "GEOTECH-GEOSURV-SOV: Kallio Ridge Plateau.Kallio Ridge Plateau: Bedrock anchoring stability clearance = true .Source: Geological engineering certificate; Scope: Candidate structural mast anchoring zone; Measurement: Whether bedrock shear strength and fracture frequency satisfy high-wind anchoring standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Annual permafrost active-layer thaw progression rate is at most 50 mm/yr.",
+          "role_name": "Geotechnical engineering lead (GEOTECH)",
+          "candidate_name": "Kallio Ridge Plateau",
+          "other_candidate_names": [
+            "Torne Valley Outlier",
+            "Sarek Nunatak Basin"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_payload_A",
+          "role_id": "science_payload",
+          "candidate_id": "A",
+          "key": "SCI-PAYLOAD-9AP",
+          "hidden_predicate_id": "A_peak_instrument_load",
+          "threshold_label": "Peak scientific instrument load",
+          "threshold_aliases": [
+            "Instrument power draw",
+            "Scientific payload load"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kW",
+          "partial_record_text": "SCI-PAYLOAD-9AP: Kallio Ridge Plateau. The record covers Peak scientific instrument load. Scientific instrumentation power audit; Total simultaneous load of all cryosphere, radar, and atmospheric telemetry equipment; Maximum sustained baseline electrical power draw during peak observation mode.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Peak scientific instrument load is at most 50 kW.",
+          "role_name": "Scientific payload coordinator (SCI)",
+          "candidate_name": "Kallio Ridge Plateau",
+          "other_candidate_names": [
+            "Torne Valley Outlier",
+            "Sarek Nunatak Basin"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geotechnical_engineering",
+        "science_payload",
+        "power_systems"
+      ],
+      "role_names": [
+        "Geotechnical engineering lead (GEOTECH)",
+        "Scientific payload coordinator (SCI)",
+        "Off-grid power systems architect (POW)"
+      ],
+      "directory": "incomplete/task_244",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_engineering_A",
+          "role_id": "geotechnical_engineering",
+          "candidate_id": "A",
+          "key": "GEOTECH-GEOSURV-SOV",
+          "boolean_predicate_id": "A_bedrock_stability_cleared",
+          "boolean_label": "Bedrock anchoring stability clearance",
+          "hidden_predicate_id": "A_thaw_progression_rate",
+          "threshold_label": "Annual permafrost active-layer thaw progression rate",
+          "threshold_aliases": [
+            "Active-layer thaw progression rate",
+            "Permafrost thaw progression"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mm/yr",
+          "partial_record_text": "GEOTECH-GEOSURV-SOV: Kallio Ridge Plateau.Kallio Ridge Plateau: Bedrock anchoring stability clearance = true .Source: Geological engineering certificate; Scope: Candidate structural mast anchoring zone; Measurement: Whether bedrock shear strength and fracture frequency satisfy high-wind anchoring standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Annual permafrost active-layer thaw progression rate is at most 50 mm/yr.",
+          "role_name": "Geotechnical engineering lead (GEOTECH)",
+          "candidate_name": "Kallio Ridge Plateau",
+          "other_candidate_names": [
+            "Torne Valley Outlier",
+            "Sarek Nunatak Basin"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_payload_A",
+          "role_id": "science_payload",
+          "candidate_id": "A",
+          "key": "SCI-PAYLOAD-9AP",
+          "hidden_predicate_id": "A_peak_instrument_load",
+          "threshold_label": "Peak scientific instrument load",
+          "threshold_aliases": [
+            "Instrument power draw",
+            "Scientific payload load"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kW",
+          "partial_record_text": "SCI-PAYLOAD-9AP: Kallio Ridge Plateau. The record covers Peak scientific instrument load. Scientific instrumentation power audit; Total simultaneous load of all cryosphere, radar, and atmospheric telemetry equipment; Maximum sustained baseline electrical power draw during peak observation mode.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Peak scientific instrument load is at most 50 kW.",
+          "role_name": "Scientific payload coordinator (SCI)",
+          "candidate_name": "Kallio Ridge Plateau",
+          "other_candidate_names": [
+            "Torne Valley Outlier",
+            "Sarek Nunatak Basin"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "POW-RENENG-579",
+          "hidden_predicate_id": "A_dedicated_renewable_capacity",
+          "threshold_label": "Dedicated renewable generation capacity",
+          "threshold_aliases": [
+            "Renewable generation capacity",
+            "Station renewable supply rating"
+          ],
+          "threshold_value": 64,
+          "threshold_unit": "kW",
+          "partial_record_text": "POW-RENENG-579: Kallio Ridge Plateau. The record covers Dedicated renewable generation capacity. Microgrid engineering specification; Dedicated wind-solar hybrid microgrid installation; Continuous guaranteed renewable power generation under 90th-percentile winter wind conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated renewable generation capacity is at most 90 kW.",
+          "role_name": "Off-grid power systems architect (POW)",
+          "candidate_name": "Kallio Ridge Plateau",
+          "other_candidate_names": [
+            "Torne Valley Outlier",
+            "Sarek Nunatak Basin"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_689",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "industrial_hygiene",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Industrial hygiene & atmospheric safety lead (IHYG)",
+        "Structural integrity & blast protection lead (STRUC)"
+      ],
+      "directory": "incomplete/task_689",
+      "profiles": [
+        {
+          "record_id": "rec_industrial_hygiene_A",
+          "role_id": "industrial_hygiene",
+          "candidate_id": "A",
+          "key": "IHYG-VAPOR-QTO",
+          "boolean_predicate_id": "A_positive_pressure_system_installed",
+          "boolean_label": "Positive-pressure cascade system installed",
+          "hidden_predicate_id": "A_internal_differential_overpressure",
+          "threshold_label": "Internal differential overpressure",
+          "threshold_aliases": [
+            "Shelter overpressure level",
+            "Internal differential pressure"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "Pa",
+          "partial_record_text": "IHYG-VAPOR-QTO: Central Administration Bunker Safe Haven.Central Administration Bunker Safe Haven: Positive-pressure cascade system installed = true .Source: Mechanical ventilation asset register; Scope: Shelter primary air distribution plenum; Measurement: Verification that a certified positive-pressure cascade delivery system is installed and commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Internal differential overpressure is between 20 Pa and 90 Pa, inclusive.",
+          "role_name": "Industrial hygiene & atmospheric safety lead (IHYG)",
+          "candidate_name": "Central Administration Bunker Safe Haven",
+          "other_candidate_names": [
+            "Olefin Cracker Substation Refuge",
+            "Polymer Terminal Blast Shelter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-BLAST-3XL",
+          "hidden_predicate_id": "A_envelope_leakage_rate",
+          "threshold_label": "Envelope leakage rate",
+          "threshold_aliases": [
+            "Airtight envelope air exchange rate",
+            "Refuge leakage rate"
+          ],
+          "threshold_value": 0.05,
+          "threshold_unit": "vol/h",
+          "partial_record_text": "STRUC-BLAST-3XL: Central Administration Bunker Safe Haven.Central Administration Bunker Safe Haven: Blast overpressure resistance certified = true .Source: Structural blast engineering dossier; Scope: Exterior walls and reinforced ceiling slab; Measurement: Formal compliance certificate for a 0.5 bar external reflected vapor cloud explosion blast load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.02,
+            "upper": 2
+          },
+          "coarse_statement": "Envelope leakage rate is between 0.02 vol/h and 2 vol/h, inclusive.",
+          "role_name": "Structural integrity & blast protection lead (STRUC)",
+          "candidate_name": "Central Administration Bunker Safe Haven",
+          "other_candidate_names": [
+            "Olefin Cracker Substation Refuge",
+            "Polymer Terminal Blast Shelter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "industrial_hygiene",
+        "structural_engineering",
+        "emergency_medical"
+      ],
+      "role_names": [
+        "Industrial hygiene & atmospheric safety lead (IHYG)",
+        "Structural integrity & blast protection lead (STRUC)",
+        "Emergency medical & life-support lead (MED)"
+      ],
+      "directory": "incomplete/task_689",
+      "profiles": [
+        {
+          "record_id": "rec_industrial_hygiene_A",
+          "role_id": "industrial_hygiene",
+          "candidate_id": "A",
+          "key": "IHYG-VAPOR-QTO",
+          "boolean_predicate_id": "A_positive_pressure_system_installed",
+          "boolean_label": "Positive-pressure cascade system installed",
+          "hidden_predicate_id": "A_internal_differential_overpressure",
+          "threshold_label": "Internal differential overpressure",
+          "threshold_aliases": [
+            "Shelter overpressure level",
+            "Internal differential pressure"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "Pa",
+          "partial_record_text": "IHYG-VAPOR-QTO: Central Administration Bunker Safe Haven.Central Administration Bunker Safe Haven: Positive-pressure cascade system installed = true .Source: Mechanical ventilation asset register; Scope: Shelter primary air distribution plenum; Measurement: Verification that a certified positive-pressure cascade delivery system is installed and commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Internal differential overpressure is between 20 Pa and 90 Pa, inclusive.",
+          "role_name": "Industrial hygiene & atmospheric safety lead (IHYG)",
+          "candidate_name": "Central Administration Bunker Safe Haven",
+          "other_candidate_names": [
+            "Olefin Cracker Substation Refuge",
+            "Polymer Terminal Blast Shelter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-BLAST-3XL",
+          "hidden_predicate_id": "A_envelope_leakage_rate",
+          "threshold_label": "Envelope leakage rate",
+          "threshold_aliases": [
+            "Airtight envelope air exchange rate",
+            "Refuge leakage rate"
+          ],
+          "threshold_value": 0.05,
+          "threshold_unit": "vol/h",
+          "partial_record_text": "STRUC-BLAST-3XL: Central Administration Bunker Safe Haven.Central Administration Bunker Safe Haven: Blast overpressure resistance certified = true .Source: Structural blast engineering dossier; Scope: Exterior walls and reinforced ceiling slab; Measurement: Formal compliance certificate for a 0.5 bar external reflected vapor cloud explosion blast load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.02,
+            "upper": 2
+          },
+          "coarse_statement": "Envelope leakage rate is between 0.02 vol/h and 2 vol/h, inclusive.",
+          "role_name": "Structural integrity & blast protection lead (STRUC)",
+          "candidate_name": "Central Administration Bunker Safe Haven",
+          "other_candidate_names": [
+            "Olefin Cracker Substation Refuge",
+            "Polymer Terminal Blast Shelter"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_A",
+          "role_id": "emergency_medical",
+          "candidate_id": "A",
+          "key": "MED-TOXMED-7DE",
+          "hidden_predicate_id": "A_life_support_autonomy_rating",
+          "threshold_label": "Continuous life-support autonomy rating",
+          "threshold_aliases": [
+            "Life-support endurance",
+            "Sustained habitability duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-TOXMED-7DE: Central Administration Bunker Safe Haven.Chemical park facility location: Nanjing.Central Administration Bunker Safe Haven: Emergency chemical antidote stock verified = true .Source: Occupational health emergency medical audit; Scope: On-site temperature-controlled pharmacy locker; Measurement: Unbroken seal and complete inventory verification of required cyanide, chlorine, and ammonia antidote doses.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous life-support autonomy rating is between 50 min and 300 min, inclusive.",
+          "role_name": "Emergency medical & life-support lead (MED)",
+          "candidate_name": "Central Administration Bunker Safe Haven",
+          "other_candidate_names": [
+            "Olefin Cracker Substation Refuge",
+            "Polymer Terminal Blast Shelter"
+          ],
+          "context_value": "Nanjing",
+          "other_context_values": [
+            "Ningbo"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_101",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "river_hydrology_lead",
+        "environmental_compliance_officer"
+      ],
+      "role_names": [
+        "River hydrology and containment director (HYDRO)",
+        "Environmental permitting and statutory compliance officer (COMPL)"
+      ],
+      "directory": "incomplete/task_101",
+      "profiles": [
+        {
+          "record_id": "rec_river_hydrology_lead_A",
+          "role_id": "river_hydrology_lead",
+          "candidate_id": "A",
+          "key": "HYDRO-BOOM-MH9",
+          "boolean_predicate_id": "A_river_containment_boom_deployed",
+          "boolean_label": "River containment boom deployed",
+          "hidden_predicate_id": "A_hydrocarbon_barrier_retention_time",
+          "threshold_label": "River hydrocarbon barrier retention time",
+          "threshold_aliases": [
+            "Barrier retention duration",
+            "Hydrocarbon containment endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "HYDRO-BOOM-MH9: Avon Confluence Siphon Transfer.Avon Confluence Siphon Transfer: River containment boom deployed = true .Source: Intake mooring log; Scope: Upstream weir deflection zone; Measurement: Physical verification that active floating deflection booms are anchored across the channel.Avon Confluence Siphon Transfer: Base raw water diversion yield = 185 ML/d.Source: Hydraulic telemetry log; Scope: Contingency intake sluice gates; Measurement: Continuous volumetric raw river water abstraction rate through the intake conduit.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "River hydrocarbon barrier retention time is between 20 h and 300 h, inclusive.",
+          "role_name": "River hydrology and containment director (HYDRO)",
+          "candidate_name": "Avon Confluence Siphon Transfer",
+          "other_candidate_names": [
+            "Stour Aqueduct Gravity Bypass",
+            "Wye Relief Pumping Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_officer_A",
+          "role_id": "environmental_compliance_officer",
+          "candidate_id": "A",
+          "key": "COMPL-PERM-V5F",
+          "hidden_predicate_id": "A_ecological_bypass_flow",
+          "threshold_label": "Mandatory ecological bypass flow",
+          "threshold_aliases": [
+            "Statutory compensation release",
+            "Minimum ecological bypass volume"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "ML/d",
+          "partial_record_text": "COMPL-PERM-V5F: Avon Confluence Siphon Transfer.Avon Confluence Siphon Transfer: Emergency environmental extraction permit confirmed = true .Source: Environment Agency statutory registry; Scope: Contingency abstraction license; Measurement: Whether an unappealable emergency water diversion authorization has been formally issued.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory ecological bypass flow is between 10 ML/d and 80 ML/d, inclusive.",
+          "role_name": "Environmental permitting and statutory compliance officer (COMPL)",
+          "candidate_name": "Avon Confluence Siphon Transfer",
+          "other_candidate_names": [
+            "Stour Aqueduct Gravity Bypass",
+            "Wye Relief Pumping Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "river_hydrology_lead",
+        "environmental_compliance_officer",
+        "water_treatment_engineer"
+      ],
+      "role_names": [
+        "River hydrology and containment director (HYDRO)",
+        "Environmental permitting and statutory compliance officer (COMPL)",
+        "Water purification process superintendent (TREAT)"
+      ],
+      "directory": "incomplete/task_101",
+      "profiles": [
+        {
+          "record_id": "rec_river_hydrology_lead_A",
+          "role_id": "river_hydrology_lead",
+          "candidate_id": "A",
+          "key": "HYDRO-BOOM-MH9",
+          "boolean_predicate_id": "A_river_containment_boom_deployed",
+          "boolean_label": "River containment boom deployed",
+          "hidden_predicate_id": "A_hydrocarbon_barrier_retention_time",
+          "threshold_label": "River hydrocarbon barrier retention time",
+          "threshold_aliases": [
+            "Barrier retention duration",
+            "Hydrocarbon containment endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "HYDRO-BOOM-MH9: Avon Confluence Siphon Transfer.Avon Confluence Siphon Transfer: River containment boom deployed = true .Source: Intake mooring log; Scope: Upstream weir deflection zone; Measurement: Physical verification that active floating deflection booms are anchored across the channel.Avon Confluence Siphon Transfer: Base raw water diversion yield = 185 ML/d.Source: Hydraulic telemetry log; Scope: Contingency intake sluice gates; Measurement: Continuous volumetric raw river water abstraction rate through the intake conduit.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "River hydrocarbon barrier retention time is between 20 h and 300 h, inclusive.",
+          "role_name": "River hydrology and containment director (HYDRO)",
+          "candidate_name": "Avon Confluence Siphon Transfer",
+          "other_candidate_names": [
+            "Stour Aqueduct Gravity Bypass",
+            "Wye Relief Pumping Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_officer_A",
+          "role_id": "environmental_compliance_officer",
+          "candidate_id": "A",
+          "key": "COMPL-PERM-V5F",
+          "hidden_predicate_id": "A_ecological_bypass_flow",
+          "threshold_label": "Mandatory ecological bypass flow",
+          "threshold_aliases": [
+            "Statutory compensation release",
+            "Minimum ecological bypass volume"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "ML/d",
+          "partial_record_text": "COMPL-PERM-V5F: Avon Confluence Siphon Transfer.Avon Confluence Siphon Transfer: Emergency environmental extraction permit confirmed = true .Source: Environment Agency statutory registry; Scope: Contingency abstraction license; Measurement: Whether an unappealable emergency water diversion authorization has been formally issued.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory ecological bypass flow is between 10 ML/d and 80 ML/d, inclusive.",
+          "role_name": "Environmental permitting and statutory compliance officer (COMPL)",
+          "candidate_name": "Avon Confluence Siphon Transfer",
+          "other_candidate_names": [
+            "Stour Aqueduct Gravity Bypass",
+            "Wye Relief Pumping Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_water_treatment_engineer_A",
+          "role_id": "water_treatment_engineer",
+          "candidate_id": "A",
+          "key": "TREAT-FILT-QAU",
+          "hidden_predicate_id": "A_auxiliary_reservoir_feed",
+          "threshold_label": "Emergency reservoir auxiliary feed",
+          "threshold_aliases": [
+            "Auxiliary storage booster flow",
+            "Buffer reservoir augmentation"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "ML/d",
+          "partial_record_text": "TREAT-FILT-QAU: Avon Confluence Siphon Transfer.Avon Confluence Siphon Transfer: Secondary filtration pathogen barrier certified = true .Source: Process integrity inspection certificate; Scope: Rapid gravity and membrane filtration cells; Measurement: Validation that secondary filtration provides minimum 4-log reduction of Cryptosporidium oocysts.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency reservoir auxiliary feed is between 20 ML/d and 90 ML/d, inclusive.",
+          "role_name": "Water purification process superintendent (TREAT)",
+          "candidate_name": "Avon Confluence Siphon Transfer",
+          "other_candidate_names": [
+            "Stour Aqueduct Gravity Bypass",
+            "Wye Relief Pumping Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

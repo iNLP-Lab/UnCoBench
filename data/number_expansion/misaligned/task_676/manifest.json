@@ -1,0 +1,565 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_676",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_systems_engineer",
+        "communications_officer"
+      ],
+      "role_names": [
+        "Power systems engineer (PSE)",
+        "Telemetry and communications lead (TCL)"
+      ],
+      "directory": "number_expansion/misaligned/task_676/k2",
+      "error_profiles": [
+        {
+          "role_name": "Power systems engineer (PSE)",
+          "target_key": "PSE-POWR-35J",
+          "alternate_key": "PSE-POWR-88A",
+          "target_context": "after deducting station parasitic auxiliary loads",
+          "alternate_context": "before deducting station parasitic auxiliary loads",
+          "candidate": "Kluane Boreal Modular Facility",
+          "other_candidates": [
+            "Ogilvie Ridge Station",
+            "Tombstone Basin Basecamp"
+          ],
+          "numeric": [
+            {
+              "topic": "clean_power_capacity",
+              "value": 65,
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ],
+              "unit": "kW"
+            },
+            {
+              "topic": "science_instrument_payload",
+              "value": 3600,
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_power_capacity",
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ]
+            },
+            {
+              "topic": "waste_incineration_active",
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ]
+            },
+            {
+              "topic": "greywater_discharge_volume",
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ]
+            },
+            {
+              "topic": "snow_load_capacity",
+              "label": "Structural snow load capacity",
+              "aliases": [
+                "Roof snow design load",
+                "Snow load tolerance"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ]
+            },
+            {
+              "topic": "medical_evac_clearance",
+              "label": "Cold-region medical evacuation clearance",
+              "aliases": [
+                "Medevac route certification",
+                "Emergency airlift clearance"
+              ]
+            },
+            {
+              "topic": "science_instrument_payload",
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ]
+            },
+            {
+              "topic": "coring_rig_payload",
+              "label": "Core sampling rig payload",
+              "aliases": [
+                "Permafrost drill equipment payload",
+                "Mechanical core rig weight"
+              ]
+            },
+            {
+              "topic": "life_support_payload",
+              "label": "Station life-support payload",
+              "aliases": [
+                "Dedicated life-support tare weight",
+                "Habitation support payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Telemetry and communications lead (TCL)",
+          "target_key": "TCL-COMS-XXI",
+          "alternate_key": "TCL-COMS-AHI",
+          "target_context": "net throughput after deducting telemetry protocol overhead",
+          "alternate_context": "gross throughput before deducting telemetry protocol overhead",
+          "candidate": "Kluane Boreal Modular Facility",
+          "other_candidates": [
+            "Ogilvie Ridge Station",
+            "Tombstone Basin Basecamp"
+          ],
+          "numeric": [
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "value": 40,
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ],
+              "unit": "Mbps"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_power_capacity",
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ]
+            },
+            {
+              "topic": "waste_incineration_active",
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ]
+            },
+            {
+              "topic": "greywater_discharge_volume",
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ]
+            },
+            {
+              "topic": "snow_load_capacity",
+              "label": "Structural snow load capacity",
+              "aliases": [
+                "Roof snow design load",
+                "Snow load tolerance"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ]
+            },
+            {
+              "topic": "medical_evac_clearance",
+              "label": "Cold-region medical evacuation clearance",
+              "aliases": [
+                "Medevac route certification",
+                "Emergency airlift clearance"
+              ]
+            },
+            {
+              "topic": "science_instrument_payload",
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ]
+            },
+            {
+              "topic": "coring_rig_payload",
+              "label": "Core sampling rig payload",
+              "aliases": [
+                "Permafrost drill equipment payload",
+                "Mechanical core rig weight"
+              ]
+            },
+            {
+              "topic": "life_support_payload",
+              "label": "Station life-support payload",
+              "aliases": [
+                "Dedicated life-support tare weight",
+                "Habitation support payload"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_systems_engineer",
+        "communications_officer",
+        "environmental_officer"
+      ],
+      "role_names": [
+        "Power systems engineer (PSE)",
+        "Telemetry and communications lead (TCL)",
+        "Environmental compliance officer (ECO)"
+      ],
+      "directory": "number_expansion/misaligned/task_676/k3",
+      "error_profiles": [
+        {
+          "role_name": "Power systems engineer (PSE)",
+          "target_key": "PSE-POWR-35J",
+          "alternate_key": "PSE-POWR-88A",
+          "target_context": "after deducting station parasitic auxiliary loads",
+          "alternate_context": "before deducting station parasitic auxiliary loads",
+          "candidate": "Kluane Boreal Modular Facility",
+          "other_candidates": [
+            "Ogilvie Ridge Station",
+            "Tombstone Basin Basecamp"
+          ],
+          "numeric": [
+            {
+              "topic": "clean_power_capacity",
+              "value": 65,
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ],
+              "unit": "kW"
+            },
+            {
+              "topic": "science_instrument_payload",
+              "value": 3600,
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_power_capacity",
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ]
+            },
+            {
+              "topic": "waste_incineration_active",
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ]
+            },
+            {
+              "topic": "greywater_discharge_volume",
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ]
+            },
+            {
+              "topic": "snow_load_capacity",
+              "label": "Structural snow load capacity",
+              "aliases": [
+                "Roof snow design load",
+                "Snow load tolerance"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ]
+            },
+            {
+              "topic": "medical_evac_clearance",
+              "label": "Cold-region medical evacuation clearance",
+              "aliases": [
+                "Medevac route certification",
+                "Emergency airlift clearance"
+              ]
+            },
+            {
+              "topic": "science_instrument_payload",
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ]
+            },
+            {
+              "topic": "coring_rig_payload",
+              "label": "Core sampling rig payload",
+              "aliases": [
+                "Permafrost drill equipment payload",
+                "Mechanical core rig weight"
+              ]
+            },
+            {
+              "topic": "life_support_payload",
+              "label": "Station life-support payload",
+              "aliases": [
+                "Dedicated life-support tare weight",
+                "Habitation support payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Telemetry and communications lead (TCL)",
+          "target_key": "TCL-COMS-XXI",
+          "alternate_key": "TCL-COMS-AHI",
+          "target_context": "net throughput after deducting telemetry protocol overhead",
+          "alternate_context": "gross throughput before deducting telemetry protocol overhead",
+          "candidate": "Kluane Boreal Modular Facility",
+          "other_candidates": [
+            "Ogilvie Ridge Station",
+            "Tombstone Basin Basecamp"
+          ],
+          "numeric": [
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "value": 40,
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ],
+              "unit": "Mbps"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_power_capacity",
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ]
+            },
+            {
+              "topic": "waste_incineration_active",
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ]
+            },
+            {
+              "topic": "greywater_discharge_volume",
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ]
+            },
+            {
+              "topic": "snow_load_capacity",
+              "label": "Structural snow load capacity",
+              "aliases": [
+                "Roof snow design load",
+                "Snow load tolerance"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ]
+            },
+            {
+              "topic": "medical_evac_clearance",
+              "label": "Cold-region medical evacuation clearance",
+              "aliases": [
+                "Medevac route certification",
+                "Emergency airlift clearance"
+              ]
+            },
+            {
+              "topic": "science_instrument_payload",
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ]
+            },
+            {
+              "topic": "coring_rig_payload",
+              "label": "Core sampling rig payload",
+              "aliases": [
+                "Permafrost drill equipment payload",
+                "Mechanical core rig weight"
+              ]
+            },
+            {
+              "topic": "life_support_payload",
+              "label": "Station life-support payload",
+              "aliases": [
+                "Dedicated life-support tare weight",
+                "Habitation support payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental compliance officer (ECO)",
+          "target_key": "ECO-ENVR-RUX",
+          "alternate_key": "ECO-ENVR-PYS",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Kluane Boreal Modular Facility",
+          "other_candidates": [
+            "Ogilvie Ridge Station",
+            "Tombstone Basin Basecamp"
+          ],
+          "numeric": [
+            {
+              "topic": "greywater_discharge_volume",
+              "value": 1500,
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ],
+              "unit": "L/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "waste_incineration_active",
+              "value": true,
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "clean_power_capacity",
+              "label": "Clean power generation capacity",
+              "aliases": [
+                "Renewable generation output",
+                "Clean power rating"
+              ]
+            },
+            {
+              "topic": "waste_incineration_active",
+              "label": "Waste incineration system active",
+              "aliases": [
+                "Incinerator operational status",
+                "Active waste incineration"
+              ]
+            },
+            {
+              "topic": "greywater_discharge_volume",
+              "label": "Maximum greywater discharge volume",
+              "aliases": [
+                "Greywater outflow rate",
+                "Daily greywater effluent"
+              ]
+            },
+            {
+              "topic": "snow_load_capacity",
+              "label": "Structural snow load capacity",
+              "aliases": [
+                "Roof snow design load",
+                "Snow load tolerance"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_bandwidth",
+              "label": "Satellite telemetry uplink bandwidth",
+              "aliases": [
+                "Uplink data speed",
+                "Telemetry transmission bandwidth"
+              ]
+            },
+            {
+              "topic": "medical_evac_clearance",
+              "label": "Cold-region medical evacuation clearance",
+              "aliases": [
+                "Medevac route certification",
+                "Emergency airlift clearance"
+              ]
+            },
+            {
+              "topic": "science_instrument_payload",
+              "label": "Standard scientific instrumentation payload",
+              "aliases": [
+                "Scientific laboratory payload mass",
+                "Core science gear allocation"
+              ]
+            },
+            {
+              "topic": "coring_rig_payload",
+              "label": "Core sampling rig payload",
+              "aliases": [
+                "Permafrost drill equipment payload",
+                "Mechanical core rig weight"
+              ]
+            },
+            {
+              "topic": "life_support_payload",
+              "label": "Station life-support payload",
+              "aliases": [
+                "Dedicated life-support tare weight",
+                "Habitation support payload"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

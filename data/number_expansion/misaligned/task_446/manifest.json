@@ -1,0 +1,476 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_446",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_operations",
+        "subsea_navigation"
+      ],
+      "role_names": [
+        "Marine Operations Manager (MOM)",
+        "Subsea Navigation Lead (SNL)"
+      ],
+      "directory": "number_expansion/misaligned/task_446/k2",
+      "error_profiles": [
+        {
+          "role_name": "Marine Operations Manager (MOM)",
+          "target_key": "MOM-VESSEL-4U5",
+          "alternate_key": "MOM-BOLL-CDF",
+          "target_context": "after deducting tow-wire tension safety margin",
+          "alternate_context": "before deducting tow-wire tension safety margin",
+          "candidate": "Pacific Endeavour Expedition Plan",
+          "other_candidates": [
+            "Nordic Resolute Deployment Plan",
+            "Aegean Surveyor Operation Plan"
+          ],
+          "numeric": [
+            {
+              "topic": "survey_tow_speed",
+              "value": 3.5,
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ],
+              "unit": "knot"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dp2_certified",
+              "value": true,
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deep_tow_sonar_integrated",
+              "label": "Deep-tow side-scan sonar integration",
+              "aliases": [
+                "Side-scan sonar integration",
+                "Sonar integration clearance"
+              ]
+            },
+            {
+              "topic": "swath_width",
+              "label": "Linear survey swath width",
+              "aliases": [
+                "Sonar swath width",
+                "Seabed acoustic swath"
+              ]
+            },
+            {
+              "topic": "beacon_telemetry_active",
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ]
+            },
+            {
+              "topic": "positioning_fix_uncertainty",
+              "label": "Positioning fix uncertainty",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic fix circular error probable"
+              ]
+            },
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ]
+            },
+            {
+              "topic": "survey_tow_speed",
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ]
+            },
+            {
+              "topic": "medical_support_approved",
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea Navigation Lead (SNL)",
+          "target_key": "SNL-NAV-QOZ",
+          "alternate_key": "SNL-NAV-972",
+          "target_context": "after sound velocity profile correction",
+          "alternate_context": "before sound velocity profile correction",
+          "candidate": "Pacific Endeavour Expedition Plan",
+          "other_candidates": [
+            "Nordic Resolute Deployment Plan",
+            "Aegean Surveyor Operation Plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "beacon_telemetry_active",
+              "value": true,
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deep_tow_sonar_integrated",
+              "label": "Deep-tow side-scan sonar integration",
+              "aliases": [
+                "Side-scan sonar integration",
+                "Sonar integration clearance"
+              ]
+            },
+            {
+              "topic": "swath_width",
+              "label": "Linear survey swath width",
+              "aliases": [
+                "Sonar swath width",
+                "Seabed acoustic swath"
+              ]
+            },
+            {
+              "topic": "beacon_telemetry_active",
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ]
+            },
+            {
+              "topic": "positioning_fix_uncertainty",
+              "label": "Positioning fix uncertainty",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic fix circular error probable"
+              ]
+            },
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ]
+            },
+            {
+              "topic": "survey_tow_speed",
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ]
+            },
+            {
+              "topic": "medical_support_approved",
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_operations",
+        "subsea_navigation",
+        "diving_medical"
+      ],
+      "role_names": [
+        "Marine Operations Manager (MOM)",
+        "Subsea Navigation Lead (SNL)",
+        "Subsea Life Support Officer (SLS)"
+      ],
+      "directory": "number_expansion/misaligned/task_446/k3",
+      "error_profiles": [
+        {
+          "role_name": "Marine Operations Manager (MOM)",
+          "target_key": "MOM-VESSEL-4U5",
+          "alternate_key": "MOM-BOLL-CDF",
+          "target_context": "after deducting tow-wire tension safety margin",
+          "alternate_context": "before deducting tow-wire tension safety margin",
+          "candidate": "Pacific Endeavour Expedition Plan",
+          "other_candidates": [
+            "Nordic Resolute Deployment Plan",
+            "Aegean Surveyor Operation Plan"
+          ],
+          "numeric": [
+            {
+              "topic": "survey_tow_speed",
+              "value": 3.5,
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ],
+              "unit": "knot"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "dp2_certified",
+              "value": true,
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deep_tow_sonar_integrated",
+              "label": "Deep-tow side-scan sonar integration",
+              "aliases": [
+                "Side-scan sonar integration",
+                "Sonar integration clearance"
+              ]
+            },
+            {
+              "topic": "swath_width",
+              "label": "Linear survey swath width",
+              "aliases": [
+                "Sonar swath width",
+                "Seabed acoustic swath"
+              ]
+            },
+            {
+              "topic": "beacon_telemetry_active",
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ]
+            },
+            {
+              "topic": "positioning_fix_uncertainty",
+              "label": "Positioning fix uncertainty",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic fix circular error probable"
+              ]
+            },
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ]
+            },
+            {
+              "topic": "survey_tow_speed",
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ]
+            },
+            {
+              "topic": "medical_support_approved",
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea Navigation Lead (SNL)",
+          "target_key": "SNL-NAV-QOZ",
+          "alternate_key": "SNL-NAV-972",
+          "target_context": "after sound velocity profile correction",
+          "alternate_context": "before sound velocity profile correction",
+          "candidate": "Pacific Endeavour Expedition Plan",
+          "other_candidates": [
+            "Nordic Resolute Deployment Plan",
+            "Aegean Surveyor Operation Plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "beacon_telemetry_active",
+              "value": true,
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deep_tow_sonar_integrated",
+              "label": "Deep-tow side-scan sonar integration",
+              "aliases": [
+                "Side-scan sonar integration",
+                "Sonar integration clearance"
+              ]
+            },
+            {
+              "topic": "swath_width",
+              "label": "Linear survey swath width",
+              "aliases": [
+                "Sonar swath width",
+                "Seabed acoustic swath"
+              ]
+            },
+            {
+              "topic": "beacon_telemetry_active",
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ]
+            },
+            {
+              "topic": "positioning_fix_uncertainty",
+              "label": "Positioning fix uncertainty",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic fix circular error probable"
+              ]
+            },
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ]
+            },
+            {
+              "topic": "survey_tow_speed",
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ]
+            },
+            {
+              "topic": "medical_support_approved",
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea Life Support Officer (SLS)",
+          "target_key": "SLS-MED-HQW",
+          "alternate_key": "SLS-MED-2OL",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Pacific Endeavour Expedition Plan",
+          "other_candidates": [
+            "Nordic Resolute Deployment Plan",
+            "Aegean Surveyor Operation Plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "medical_support_approved",
+              "value": true,
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "deep_tow_sonar_integrated",
+              "label": "Deep-tow side-scan sonar integration",
+              "aliases": [
+                "Side-scan sonar integration",
+                "Sonar integration clearance"
+              ]
+            },
+            {
+              "topic": "swath_width",
+              "label": "Linear survey swath width",
+              "aliases": [
+                "Sonar swath width",
+                "Seabed acoustic swath"
+              ]
+            },
+            {
+              "topic": "beacon_telemetry_active",
+              "label": "Acoustic beacon positioning telemetry enabled",
+              "aliases": [
+                "USBL beacon telemetry status",
+                "Ultra-short baseline tracking active"
+              ]
+            },
+            {
+              "topic": "positioning_fix_uncertainty",
+              "label": "Positioning fix uncertainty",
+              "aliases": [
+                "USBL positioning error radius",
+                "Acoustic fix circular error probable"
+              ]
+            },
+            {
+              "topic": "dp2_certified",
+              "label": "Dynamic positioning class 2 certification",
+              "aliases": [
+                "DP2 vessel rating",
+                "Station-keeping DP class 2 status"
+              ]
+            },
+            {
+              "topic": "survey_tow_speed",
+              "label": "Sustained survey tow speed",
+              "aliases": [
+                "Tow-fish survey speed",
+                "Operational cable-tracking towing velocity"
+              ]
+            },
+            {
+              "topic": "medical_support_approved",
+              "label": "Saturation diving medical support clearance",
+              "aliases": [
+                "Hyperbaric medical readiness",
+                "Emergency dive chamber sign-off"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

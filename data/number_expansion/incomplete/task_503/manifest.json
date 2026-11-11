@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_503",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "biosafety_validation",
+        "sterilization_engineering"
+      ],
+      "role_names": [
+        "Biosafety validation officer (BVO)",
+        "Sterilization cycle engineer (SCE)"
+      ],
+      "directory": "incomplete/task_503",
+      "profiles": [
+        {
+          "record_id": "rec_biosafety_validation_A",
+          "role_id": "biosafety_validation",
+          "candidate_id": "A",
+          "key": "BVO-BIOVAL-3C9",
+          "boolean_predicate_id": "A_cycle_monitoring_active",
+          "boolean_label": "Real-time concentration monitoring active",
+          "hidden_predicate_id": "A_max_aeration_time",
+          "threshold_label": "Maximum post-fumigation aeration duration",
+          "threshold_aliases": [
+            "Ventilation clearance duration",
+            "Aeration cycle time"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "min",
+          "partial_record_text": "BVO-BIOVAL-3C9: Vaporized hydrogen peroxide gaseous fumigation.Vaporized hydrogen peroxide gaseous fumigation: Real-time concentration monitoring active = true .Source: Telemetry integration checklist; Scope: Biosafety containment envelope; Measurement: Whether real-time sterilant gas concentration monitoring is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Maximum post-fumigation aeration duration is between 50 min and 300 min, inclusive.",
+          "role_name": "Biosafety validation officer (BVO)",
+          "candidate_name": "Vaporized hydrogen peroxide gaseous fumigation",
+          "other_candidate_names": [
+            "Chlorine dioxide dry gas sterilization",
+            "Aerosolized peracetic acid misting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sterilization_engineering_A",
+          "role_id": "sterilization_engineering",
+          "candidate_id": "A",
+          "key": "SCE-CYCTIME-MAA",
+          "hidden_predicate_id": "A_spore_kill_time",
+          "threshold_label": "Bacterial spore challenge kill time",
+          "threshold_aliases": [
+            "Geobacillus stearothermophilus 6-log kill time",
+            "Spore log-reduction time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "SCE-CYCTIME-MAA: Vaporized hydrogen peroxide gaseous fumigation. The record covers Bacterial spore challenge kill time. Record context: measured from plateau concentration attainment. Biological indicator challenge audit; Worst-case chamber penetration test coupons; Time required to achieve a verified 6-log reduction of bacterial endospores.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Bacterial spore challenge kill time is between 20 min and 90 min, inclusive.",
+          "role_name": "Sterilization cycle engineer (SCE)",
+          "candidate_name": "Vaporized hydrogen peroxide gaseous fumigation",
+          "other_candidate_names": [
+            "Chlorine dioxide dry gas sterilization",
+            "Aerosolized peracetic acid misting"
+          ],
+          "context_value": "measured from plateau concentration attainment",
+          "other_context_values": [
+            "measured from initial fumigant injection start"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "biosafety_validation",
+        "sterilization_engineering",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Biosafety validation officer (BVO)",
+        "Sterilization cycle engineer (SCE)",
+        "Facility operations supervisor (FOS)"
+      ],
+      "directory": "incomplete/task_503",
+      "profiles": [
+        {
+          "record_id": "rec_biosafety_validation_A",
+          "role_id": "biosafety_validation",
+          "candidate_id": "A",
+          "key": "BVO-BIOVAL-3C9",
+          "boolean_predicate_id": "A_cycle_monitoring_active",
+          "boolean_label": "Real-time concentration monitoring active",
+          "hidden_predicate_id": "A_max_aeration_time",
+          "threshold_label": "Maximum post-fumigation aeration duration",
+          "threshold_aliases": [
+            "Ventilation clearance duration",
+            "Aeration cycle time"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "min",
+          "partial_record_text": "BVO-BIOVAL-3C9: Vaporized hydrogen peroxide gaseous fumigation.Vaporized hydrogen peroxide gaseous fumigation: Real-time concentration monitoring active = true .Source: Telemetry integration checklist; Scope: Biosafety containment envelope; Measurement: Whether real-time sterilant gas concentration monitoring is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Maximum post-fumigation aeration duration is between 50 min and 300 min, inclusive.",
+          "role_name": "Biosafety validation officer (BVO)",
+          "candidate_name": "Vaporized hydrogen peroxide gaseous fumigation",
+          "other_candidate_names": [
+            "Chlorine dioxide dry gas sterilization",
+            "Aerosolized peracetic acid misting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sterilization_engineering_A",
+          "role_id": "sterilization_engineering",
+          "candidate_id": "A",
+          "key": "SCE-CYCTIME-MAA",
+          "hidden_predicate_id": "A_spore_kill_time",
+          "threshold_label": "Bacterial spore challenge kill time",
+          "threshold_aliases": [
+            "Geobacillus stearothermophilus 6-log kill time",
+            "Spore log-reduction time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "SCE-CYCTIME-MAA: Vaporized hydrogen peroxide gaseous fumigation. The record covers Bacterial spore challenge kill time. Record context: measured from plateau concentration attainment. Biological indicator challenge audit; Worst-case chamber penetration test coupons; Time required to achieve a verified 6-log reduction of bacterial endospores.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Bacterial spore challenge kill time is between 20 min and 90 min, inclusive.",
+          "role_name": "Sterilization cycle engineer (SCE)",
+          "candidate_name": "Vaporized hydrogen peroxide gaseous fumigation",
+          "other_candidate_names": [
+            "Chlorine dioxide dry gas sterilization",
+            "Aerosolized peracetic acid misting"
+          ],
+          "context_value": "measured from plateau concentration attainment",
+          "other_context_values": [
+            "measured from initial fumigant injection start"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FOS-PROTOPS-QR3",
+          "hidden_predicate_id": "A_virus_kill_time",
+          "threshold_label": "Viral surrogate inactivation time",
+          "threshold_aliases": [
+            "Viral surrogate clearance duration",
+            "Filovirus surrogate inactivation time"
+          ],
+          "threshold_value": 65,
+          "threshold_unit": "min",
+          "partial_record_text": "FOS-PROTOPS-QR3: Vaporized hydrogen peroxide gaseous fumigation.Vaporized hydrogen peroxide gaseous fumigation: HVAC seal-off damper interlock confirmed = true .Source: Containment pressure test dossier; Scope: Zone supply and return pneumatic isolation valves; Measurement: Confirmation that automated bubble-tight dampers seal upon cycle initiation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 80
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Viral surrogate inactivation time is between 10 min and 80 min, inclusive.",
+          "role_name": "Facility operations supervisor (FOS)",
+          "candidate_name": "Vaporized hydrogen peroxide gaseous fumigation",
+          "other_candidate_names": [
+            "Chlorine dioxide dry gas sterilization",
+            "Aerosolized peracetic acid misting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

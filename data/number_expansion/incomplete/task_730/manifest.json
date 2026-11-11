@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_730",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_operations",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Subsea Robotics Director (SUB)",
+        "Marine Engineering Superintendent (MAR)"
+      ],
+      "directory": "incomplete/task_730",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUB-ROV-XPK",
+          "boolean_predicate_id": "A_rov_spread_deployed",
+          "boolean_label": "Onboard work-class ROV spread presence",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "ROV operational depth rating",
+          "threshold_aliases": [
+            "ROV immersion rating",
+            "Maximum ROV working depth"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "m",
+          "partial_record_text": "SUB-ROV-XPK: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Onboard work-class ROV spread presence = true .Source: Subsea robotics equipment manifest; Scope: Mezzanine deck launch and recovery hangar; Measurement: Presence of a fully mobilized heavy work-class ROV system on the candidate vessel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "ROV operational depth rating is at most 5000 m.",
+          "role_name": "Subsea Robotics Director (SUB)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Pacific Horizon Guardian",
+            "Nordic Installer VII"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MAR-PROP-WFJ",
+          "hidden_predicate_id": "A_continuous_sea_endurance",
+          "threshold_label": "Continuous sea endurance",
+          "threshold_aliases": [
+            "Operational transit endurance",
+            "Vessel unrefueled sea endurance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "d",
+          "partial_record_text": "MAR-PROP-WFJ: C.S. Sovereign Explorer.C.S. Sovereign Explorer: DP-2 classification certificate = true .Source: Classification society certificate of class; Scope: Vessel propulsion and dynamic station-keeping redundancy systems; Measurement: Formal holding of valid IMO Equipment Class 2 dynamic positioning notation.C.S. Sovereign Explorer: Gross cargo deadweight = 6200 t.Source: Deadweight displacement scale table; Scope: Summer load line draft marks; Measurement: Total allowable deadweight capacity excluding ship structural lightweight.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Continuous sea endurance is at most 70 d.",
+          "role_name": "Marine Engineering Superintendent (MAR)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Pacific Horizon Guardian",
+            "Nordic Installer VII"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_operations",
+        "marine_engineering",
+        "mission_logistics"
+      ],
+      "role_names": [
+        "Subsea Robotics Director (SUB)",
+        "Marine Engineering Superintendent (MAR)",
+        "Mission Deck Logistics Lead (LOG)"
+      ],
+      "directory": "incomplete/task_730",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_operations_A",
+          "role_id": "subsea_operations",
+          "candidate_id": "A",
+          "key": "SUB-ROV-XPK",
+          "boolean_predicate_id": "A_rov_spread_deployed",
+          "boolean_label": "Onboard work-class ROV spread presence",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "ROV operational depth rating",
+          "threshold_aliases": [
+            "ROV immersion rating",
+            "Maximum ROV working depth"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "m",
+          "partial_record_text": "SUB-ROV-XPK: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Onboard work-class ROV spread presence = true .Source: Subsea robotics equipment manifest; Scope: Mezzanine deck launch and recovery hangar; Measurement: Presence of a fully mobilized heavy work-class ROV system on the candidate vessel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "ROV operational depth rating is at most 5000 m.",
+          "role_name": "Subsea Robotics Director (SUB)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Pacific Horizon Guardian",
+            "Nordic Installer VII"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MAR-PROP-WFJ",
+          "hidden_predicate_id": "A_continuous_sea_endurance",
+          "threshold_label": "Continuous sea endurance",
+          "threshold_aliases": [
+            "Operational transit endurance",
+            "Vessel unrefueled sea endurance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "d",
+          "partial_record_text": "MAR-PROP-WFJ: C.S. Sovereign Explorer.C.S. Sovereign Explorer: DP-2 classification certificate = true .Source: Classification society certificate of class; Scope: Vessel propulsion and dynamic station-keeping redundancy systems; Measurement: Formal holding of valid IMO Equipment Class 2 dynamic positioning notation.C.S. Sovereign Explorer: Gross cargo deadweight = 6200 t.Source: Deadweight displacement scale table; Scope: Summer load line draft marks; Measurement: Total allowable deadweight capacity excluding ship structural lightweight.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Continuous sea endurance is at most 70 d.",
+          "role_name": "Marine Engineering Superintendent (MAR)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Pacific Horizon Guardian",
+            "Nordic Installer VII"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mission_logistics_A",
+          "role_id": "mission_logistics",
+          "candidate_id": "A",
+          "key": "LOG-DECK-CIX",
+          "hidden_predicate_id": "A_mission_spread_weight",
+          "threshold_label": "Onboard mission spread weight",
+          "threshold_aliases": [
+            "Permanent mission equipment weight",
+            "Dedicated cable gear payload burden"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-DECK-CIX: C.S. Sovereign Explorer. The record covers Onboard mission spread weight. Deck equipment deadweight balance schedule; Permanent mission components including cable tanks, tensioner tracks, and ROV LARS; Total fixed static weight of operational cable repair machinery mounted to the deck.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Onboard mission spread weight is at most 4000 t.",
+          "role_name": "Mission Deck Logistics Lead (LOG)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Pacific Horizon Guardian",
+            "Nordic Installer VII"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

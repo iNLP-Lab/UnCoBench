@@ -1,0 +1,565 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_361",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "shelter_operations",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Shelter operations director (SHELTER)",
+        "Structural engineering assessor (STRUC)"
+      ],
+      "directory": "number_expansion/misaligned/task_361/k2",
+      "error_profiles": [
+        {
+          "role_name": "Shelter operations director (SHELTER)",
+          "target_key": "SHELTER-BEDS-TVV",
+          "alternate_key": "SHELTER-KITCH-XDO",
+          "target_context": "Chengdu",
+          "alternate_context": "Wuhan",
+          "candidate": "Crestview Regional Civic Pavilion",
+          "other_candidates": [
+            "Pinecrest Community Sports Complex",
+            "Valley Heights Exhibition Center"
+          ],
+          "numeric": [
+            {
+              "topic": "standard_indoor_cots",
+              "value": 750,
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ],
+              "unit": "cots"
+            },
+            {
+              "topic": "annex_modular_cots",
+              "value": 150,
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ],
+              "unit": "cots"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_clearance",
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ]
+            },
+            {
+              "topic": "bus_access_cleared",
+              "label": "Direct multi-axle bus transit clearance",
+              "aliases": [
+                "Bus corridor access clearance",
+                "Heavy transit vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_ready",
+              "label": "Auxiliary backup power ready",
+              "aliases": [
+                "Backup generator readiness",
+                "Auxiliary power enablement"
+              ]
+            },
+            {
+              "topic": "generator_runtime_hours",
+              "label": "Sustained backup generator endurance",
+              "aliases": [
+                "Backup generator autonomous runtime",
+                "Off-grid emergency power duration"
+              ]
+            },
+            {
+              "topic": "medical_triage_zoned",
+              "label": "Dedicated medical triage zoning",
+              "aliases": [
+                "Medical triage area demarcation",
+                "On-site triage zoning"
+              ]
+            },
+            {
+              "topic": "potable_water_certified",
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ]
+            },
+            {
+              "topic": "standard_indoor_cots",
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ]
+            },
+            {
+              "topic": "annex_modular_cots",
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ]
+            },
+            {
+              "topic": "reserved_isolation_cots",
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural engineering assessor (STRUC)",
+          "target_key": "STRUC-SEISM-HFR",
+          "alternate_key": "STRUC-SEISM-I01",
+          "target_context": "Standard Version 3.0",
+          "alternate_context": "Standard Version 2.0",
+          "candidate": "Crestview Regional Civic Pavilion",
+          "other_candidates": [
+            "Pinecrest Community Sports Complex",
+            "Valley Heights Exhibition Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_clearance",
+              "value": true,
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_clearance",
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ]
+            },
+            {
+              "topic": "bus_access_cleared",
+              "label": "Direct multi-axle bus transit clearance",
+              "aliases": [
+                "Bus corridor access clearance",
+                "Heavy transit vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_ready",
+              "label": "Auxiliary backup power ready",
+              "aliases": [
+                "Backup generator readiness",
+                "Auxiliary power enablement"
+              ]
+            },
+            {
+              "topic": "generator_runtime_hours",
+              "label": "Sustained backup generator endurance",
+              "aliases": [
+                "Backup generator autonomous runtime",
+                "Off-grid emergency power duration"
+              ]
+            },
+            {
+              "topic": "medical_triage_zoned",
+              "label": "Dedicated medical triage zoning",
+              "aliases": [
+                "Medical triage area demarcation",
+                "On-site triage zoning"
+              ]
+            },
+            {
+              "topic": "potable_water_certified",
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ]
+            },
+            {
+              "topic": "standard_indoor_cots",
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ]
+            },
+            {
+              "topic": "annex_modular_cots",
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ]
+            },
+            {
+              "topic": "reserved_isolation_cots",
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "shelter_operations",
+        "structural_safety",
+        "public_health"
+      ],
+      "role_names": [
+        "Shelter operations director (SHELTER)",
+        "Structural engineering assessor (STRUC)",
+        "Public health logistics coordinator (PUBHLTH)"
+      ],
+      "directory": "number_expansion/misaligned/task_361/k3",
+      "error_profiles": [
+        {
+          "role_name": "Shelter operations director (SHELTER)",
+          "target_key": "SHELTER-BEDS-TVV",
+          "alternate_key": "SHELTER-KITCH-XDO",
+          "target_context": "Chengdu",
+          "alternate_context": "Wuhan",
+          "candidate": "Crestview Regional Civic Pavilion",
+          "other_candidates": [
+            "Pinecrest Community Sports Complex",
+            "Valley Heights Exhibition Center"
+          ],
+          "numeric": [
+            {
+              "topic": "standard_indoor_cots",
+              "value": 750,
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ],
+              "unit": "cots"
+            },
+            {
+              "topic": "annex_modular_cots",
+              "value": 150,
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ],
+              "unit": "cots"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_clearance",
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ]
+            },
+            {
+              "topic": "bus_access_cleared",
+              "label": "Direct multi-axle bus transit clearance",
+              "aliases": [
+                "Bus corridor access clearance",
+                "Heavy transit vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_ready",
+              "label": "Auxiliary backup power ready",
+              "aliases": [
+                "Backup generator readiness",
+                "Auxiliary power enablement"
+              ]
+            },
+            {
+              "topic": "generator_runtime_hours",
+              "label": "Sustained backup generator endurance",
+              "aliases": [
+                "Backup generator autonomous runtime",
+                "Off-grid emergency power duration"
+              ]
+            },
+            {
+              "topic": "medical_triage_zoned",
+              "label": "Dedicated medical triage zoning",
+              "aliases": [
+                "Medical triage area demarcation",
+                "On-site triage zoning"
+              ]
+            },
+            {
+              "topic": "potable_water_certified",
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ]
+            },
+            {
+              "topic": "standard_indoor_cots",
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ]
+            },
+            {
+              "topic": "annex_modular_cots",
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ]
+            },
+            {
+              "topic": "reserved_isolation_cots",
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural engineering assessor (STRUC)",
+          "target_key": "STRUC-SEISM-HFR",
+          "alternate_key": "STRUC-SEISM-I01",
+          "target_context": "Standard Version 3.0",
+          "alternate_context": "Standard Version 2.0",
+          "candidate": "Crestview Regional Civic Pavilion",
+          "other_candidates": [
+            "Pinecrest Community Sports Complex",
+            "Valley Heights Exhibition Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_clearance",
+              "value": true,
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_clearance",
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ]
+            },
+            {
+              "topic": "bus_access_cleared",
+              "label": "Direct multi-axle bus transit clearance",
+              "aliases": [
+                "Bus corridor access clearance",
+                "Heavy transit vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_ready",
+              "label": "Auxiliary backup power ready",
+              "aliases": [
+                "Backup generator readiness",
+                "Auxiliary power enablement"
+              ]
+            },
+            {
+              "topic": "generator_runtime_hours",
+              "label": "Sustained backup generator endurance",
+              "aliases": [
+                "Backup generator autonomous runtime",
+                "Off-grid emergency power duration"
+              ]
+            },
+            {
+              "topic": "medical_triage_zoned",
+              "label": "Dedicated medical triage zoning",
+              "aliases": [
+                "Medical triage area demarcation",
+                "On-site triage zoning"
+              ]
+            },
+            {
+              "topic": "potable_water_certified",
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ]
+            },
+            {
+              "topic": "standard_indoor_cots",
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ]
+            },
+            {
+              "topic": "annex_modular_cots",
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ]
+            },
+            {
+              "topic": "reserved_isolation_cots",
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Public health logistics coordinator (PUBHLTH)",
+          "target_key": "PUBHLTH-MED-5UG",
+          "alternate_key": "PUBHLTH-MED-E3J",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Crestview Regional Civic Pavilion",
+          "other_candidates": [
+            "Pinecrest Community Sports Complex",
+            "Valley Heights Exhibition Center"
+          ],
+          "numeric": [
+            {
+              "topic": "reserved_isolation_cots",
+              "value": 50,
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ],
+              "unit": "cots"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "potable_water_certified",
+              "value": true,
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_clearance",
+              "label": "Seismic structural clearance",
+              "aliases": [
+                "Seismic certification",
+                "Structural earthquake compliance"
+              ]
+            },
+            {
+              "topic": "bus_access_cleared",
+              "label": "Direct multi-axle bus transit clearance",
+              "aliases": [
+                "Bus corridor access clearance",
+                "Heavy transit vehicle ingress clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_ready",
+              "label": "Auxiliary backup power ready",
+              "aliases": [
+                "Backup generator readiness",
+                "Auxiliary power enablement"
+              ]
+            },
+            {
+              "topic": "generator_runtime_hours",
+              "label": "Sustained backup generator endurance",
+              "aliases": [
+                "Backup generator autonomous runtime",
+                "Off-grid emergency power duration"
+              ]
+            },
+            {
+              "topic": "medical_triage_zoned",
+              "label": "Dedicated medical triage zoning",
+              "aliases": [
+                "Medical triage area demarcation",
+                "On-site triage zoning"
+              ]
+            },
+            {
+              "topic": "potable_water_certified",
+              "label": "Potable water safety compliance",
+              "aliases": [
+                "Drinking water purity certification",
+                "Water sanitation clearance"
+              ]
+            },
+            {
+              "topic": "standard_indoor_cots",
+              "label": "Standard indoor shelter cots",
+              "aliases": [
+                "Main hall cots",
+                "Primary indoor cot capacity"
+              ]
+            },
+            {
+              "topic": "annex_modular_cots",
+              "label": "Modular gymnasium annex cots",
+              "aliases": [
+                "Gymnasium annex cots",
+                "Secondary hall cot count"
+              ]
+            },
+            {
+              "topic": "reserved_isolation_cots",
+              "label": "Reserved medical isolation cots",
+              "aliases": [
+                "Isolation ward cot deduction",
+                "Quarantined cots"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

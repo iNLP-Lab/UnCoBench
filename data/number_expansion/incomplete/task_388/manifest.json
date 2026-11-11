@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_388",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "sensor_acoustics_lead",
+        "power_systems_lead"
+      ],
+      "role_names": [
+        "Acoustic and seismic instrumentation lead (ASIL)",
+        "Field power systems engineer (FPSE)"
+      ],
+      "directory": "incomplete/task_388",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_acoustics_lead_A",
+          "role_id": "sensor_acoustics_lead",
+          "candidate_id": "A",
+          "key": "ASIL-SENS-6CG",
+          "boolean_predicate_id": "A_station_telemetry_active",
+          "boolean_label": "Autonomous station telemetry active",
+          "hidden_predicate_id": "A_broadband_noise_floor",
+          "threshold_label": "Broadband acoustic sensor noise floor",
+          "threshold_aliases": [
+            "Acoustic noise floor",
+            "Ambient sound level"
+          ],
+          "threshold_value": 33,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ASIL-SENS-6CG: Páramo Alto Ridgeline Observatory.Páramo Alto Ridgeline Observatory: Autonomous station telemetry active = true .Source: Station telemetry diagnostic test log; Scope: Continuous remote health monitoring subsystem; Measurement: Verification that real-time telemetry link is enabled and transmitting.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Broadband acoustic sensor noise floor is at most 60 dBA.",
+          "role_name": "Acoustic and seismic instrumentation lead (ASIL)",
+          "candidate_name": "Páramo Alto Ridgeline Observatory",
+          "other_candidate_names": [
+            "Sierra Ventana Mesa Station",
+            "Quebrada Seca Plateau Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "FPSE-POWR-2WV",
+          "hidden_predicate_id": "A_fuel_cell_backup_runtime",
+          "threshold_label": "Uninterrupted fuel cell backup runtime",
+          "threshold_aliases": [
+            "Backup fuel cell autonomy",
+            "Reserve power runtime"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "FPSE-POWR-2WV: Páramo Alto Ridgeline Observatory. The record covers Uninterrupted fuel cell backup runtime. Emergency power endurance log; Onsite hydrogen fuel cell and reserve storage tanks; Continuous running duration at baseline station instrument load without refilling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Uninterrupted fuel cell backup runtime is at most 300 h.",
+          "role_name": "Field power systems engineer (FPSE)",
+          "candidate_name": "Páramo Alto Ridgeline Observatory",
+          "other_candidate_names": [
+            "Sierra Ventana Mesa Station",
+            "Quebrada Seca Plateau Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "sensor_acoustics_lead",
+        "power_systems_lead",
+        "spectrometry_payload_lead"
+      ],
+      "role_names": [
+        "Acoustic and seismic instrumentation lead (ASIL)",
+        "Field power systems engineer (FPSE)",
+        "Optical spectrometry specialist (SPEC)"
+      ],
+      "directory": "incomplete/task_388",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_acoustics_lead_A",
+          "role_id": "sensor_acoustics_lead",
+          "candidate_id": "A",
+          "key": "ASIL-SENS-6CG",
+          "boolean_predicate_id": "A_station_telemetry_active",
+          "boolean_label": "Autonomous station telemetry active",
+          "hidden_predicate_id": "A_broadband_noise_floor",
+          "threshold_label": "Broadband acoustic sensor noise floor",
+          "threshold_aliases": [
+            "Acoustic noise floor",
+            "Ambient sound level"
+          ],
+          "threshold_value": 33,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ASIL-SENS-6CG: Páramo Alto Ridgeline Observatory.Páramo Alto Ridgeline Observatory: Autonomous station telemetry active = true .Source: Station telemetry diagnostic test log; Scope: Continuous remote health monitoring subsystem; Measurement: Verification that real-time telemetry link is enabled and transmitting.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Broadband acoustic sensor noise floor is at most 60 dBA.",
+          "role_name": "Acoustic and seismic instrumentation lead (ASIL)",
+          "candidate_name": "Páramo Alto Ridgeline Observatory",
+          "other_candidate_names": [
+            "Sierra Ventana Mesa Station",
+            "Quebrada Seca Plateau Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "FPSE-POWR-2WV",
+          "hidden_predicate_id": "A_fuel_cell_backup_runtime",
+          "threshold_label": "Uninterrupted fuel cell backup runtime",
+          "threshold_aliases": [
+            "Backup fuel cell autonomy",
+            "Reserve power runtime"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "FPSE-POWR-2WV: Páramo Alto Ridgeline Observatory. The record covers Uninterrupted fuel cell backup runtime. Emergency power endurance log; Onsite hydrogen fuel cell and reserve storage tanks; Continuous running duration at baseline station instrument load without refilling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Uninterrupted fuel cell backup runtime is at most 300 h.",
+          "role_name": "Field power systems engineer (FPSE)",
+          "candidate_name": "Páramo Alto Ridgeline Observatory",
+          "other_candidate_names": [
+            "Sierra Ventana Mesa Station",
+            "Quebrada Seca Plateau Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_spectrometry_payload_lead_A",
+          "role_id": "spectrometry_payload_lead",
+          "candidate_id": "A",
+          "key": "SPEC-OPTI-ZT4",
+          "hidden_predicate_id": "A_spectrometer_power_draw",
+          "threshold_label": "Atmospheric spectrometer power draw",
+          "threshold_aliases": [
+            "Optical spectrometer power consumption",
+            "Spectrometer electrical demand"
+          ],
+          "threshold_value": 330,
+          "threshold_unit": "W",
+          "partial_record_text": "SPEC-OPTI-ZT4: Páramo Alto Ridgeline Observatory. The record covers Atmospheric spectrometer power draw. Record context: September 2024. Payload bench test record; Solar-tracking infrared spectrometer and thermoelectric cooler; Mean steady-state continuous electrical power consumption during operational cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Atmospheric spectrometer power draw is at most 500 W.",
+          "role_name": "Optical spectrometry specialist (SPEC)",
+          "candidate_name": "Páramo Alto Ridgeline Observatory",
+          "other_candidate_names": [
+            "Sierra Ventana Mesa Station",
+            "Quebrada Seca Plateau Station"
+          ],
+          "context_value": "September 2024",
+          "other_context_values": [
+            "October 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

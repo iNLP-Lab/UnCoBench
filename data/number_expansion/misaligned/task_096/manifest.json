@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_096",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_safety",
+        "supply_chain_logistics"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Cold chain logistics manager (LOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_096/k2",
+      "error_profiles": [
+        {
+          "role_name": "Environmental compliance officer (ENV)",
+          "target_key": "ENV-SUST-1XT",
+          "alternate_key": "ENV-RECYC-QPQ",
+          "target_context": "including clean-in-place pre-rinse volumes",
+          "alternate_context": "excluding clean-in-place pre-rinse volumes",
+          "candidate": "BioCork Advanced Biologics Campus",
+          "other_candidates": [
+            "Shannon Bioprocess Manufacturing Center",
+            "Ringaskiddy Cell Therapeutics Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "downstream_rinse_volume",
+              "value": 110,
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ],
+              "unit": "m3"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_rate",
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ]
+            },
+            {
+              "topic": "eu_gmp_cert_verified",
+              "label": "European Medicines Agency GMP certification verified",
+              "aliases": [
+                "Valid EU GMP compliance certificate",
+                "EMA manufacturing authorization clearance"
+              ]
+            },
+            {
+              "topic": "bioreactor_batch_yield",
+              "label": "Minimum bioreactor product yield",
+              "aliases": [
+                "Monoclonal antibody batch titer",
+                "Harvested cell culture protein yield"
+              ]
+            },
+            {
+              "topic": "on_site_wastewater_permit",
+              "label": "On-site industrial wastewater discharge permit endorsement",
+              "aliases": [
+                "EPA industrial effluent discharge license",
+                "Environmental discharge permit approval"
+              ]
+            },
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ]
+            },
+            {
+              "topic": "upstream_wash_volume",
+              "label": "Upstream bioreactor wash volume",
+              "aliases": [
+                "Bioreactor sanitization effluent volume",
+                "Upstream CIP wash volume"
+              ]
+            },
+            {
+              "topic": "downstream_rinse_volume",
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cold chain logistics manager (LOG)",
+          "target_key": "LOG-DIST-7EB",
+          "alternate_key": "LOG-DIST-82W",
+          "target_context": "elapsed time starting at shipper pack-out completion",
+          "alternate_context": "elapsed time starting at carrier departure",
+          "candidate": "BioCork Advanced Biologics Campus",
+          "other_candidates": [
+            "Shannon Bioprocess Manufacturing Center",
+            "Ringaskiddy Cell Therapeutics Facility"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "value": true,
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_rate",
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ]
+            },
+            {
+              "topic": "eu_gmp_cert_verified",
+              "label": "European Medicines Agency GMP certification verified",
+              "aliases": [
+                "Valid EU GMP compliance certificate",
+                "EMA manufacturing authorization clearance"
+              ]
+            },
+            {
+              "topic": "bioreactor_batch_yield",
+              "label": "Minimum bioreactor product yield",
+              "aliases": [
+                "Monoclonal antibody batch titer",
+                "Harvested cell culture protein yield"
+              ]
+            },
+            {
+              "topic": "on_site_wastewater_permit",
+              "label": "On-site industrial wastewater discharge permit endorsement",
+              "aliases": [
+                "EPA industrial effluent discharge license",
+                "Environmental discharge permit approval"
+              ]
+            },
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ]
+            },
+            {
+              "topic": "upstream_wash_volume",
+              "label": "Upstream bioreactor wash volume",
+              "aliases": [
+                "Bioreactor sanitization effluent volume",
+                "Upstream CIP wash volume"
+              ]
+            },
+            {
+              "topic": "downstream_rinse_volume",
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_safety",
+        "supply_chain_logistics",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Cold chain logistics manager (LOG)",
+        "Quality assurance lead (QUAL)"
+      ],
+      "directory": "number_expansion/misaligned/task_096/k3",
+      "error_profiles": [
+        {
+          "role_name": "Environmental compliance officer (ENV)",
+          "target_key": "ENV-SUST-1XT",
+          "alternate_key": "ENV-RECYC-QPQ",
+          "target_context": "including clean-in-place pre-rinse volumes",
+          "alternate_context": "excluding clean-in-place pre-rinse volumes",
+          "candidate": "BioCork Advanced Biologics Campus",
+          "other_candidates": [
+            "Shannon Bioprocess Manufacturing Center",
+            "Ringaskiddy Cell Therapeutics Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "downstream_rinse_volume",
+              "value": 110,
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ],
+              "unit": "m3"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_rate",
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ]
+            },
+            {
+              "topic": "eu_gmp_cert_verified",
+              "label": "European Medicines Agency GMP certification verified",
+              "aliases": [
+                "Valid EU GMP compliance certificate",
+                "EMA manufacturing authorization clearance"
+              ]
+            },
+            {
+              "topic": "bioreactor_batch_yield",
+              "label": "Minimum bioreactor product yield",
+              "aliases": [
+                "Monoclonal antibody batch titer",
+                "Harvested cell culture protein yield"
+              ]
+            },
+            {
+              "topic": "on_site_wastewater_permit",
+              "label": "On-site industrial wastewater discharge permit endorsement",
+              "aliases": [
+                "EPA industrial effluent discharge license",
+                "Environmental discharge permit approval"
+              ]
+            },
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ]
+            },
+            {
+              "topic": "upstream_wash_volume",
+              "label": "Upstream bioreactor wash volume",
+              "aliases": [
+                "Bioreactor sanitization effluent volume",
+                "Upstream CIP wash volume"
+              ]
+            },
+            {
+              "topic": "downstream_rinse_volume",
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cold chain logistics manager (LOG)",
+          "target_key": "LOG-DIST-7EB",
+          "alternate_key": "LOG-DIST-82W",
+          "target_context": "elapsed time starting at shipper pack-out completion",
+          "alternate_context": "elapsed time starting at carrier departure",
+          "candidate": "BioCork Advanced Biologics Campus",
+          "other_candidates": [
+            "Shannon Bioprocess Manufacturing Center",
+            "Ringaskiddy Cell Therapeutics Facility"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "value": true,
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_rate",
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ]
+            },
+            {
+              "topic": "eu_gmp_cert_verified",
+              "label": "European Medicines Agency GMP certification verified",
+              "aliases": [
+                "Valid EU GMP compliance certificate",
+                "EMA manufacturing authorization clearance"
+              ]
+            },
+            {
+              "topic": "bioreactor_batch_yield",
+              "label": "Minimum bioreactor product yield",
+              "aliases": [
+                "Monoclonal antibody batch titer",
+                "Harvested cell culture protein yield"
+              ]
+            },
+            {
+              "topic": "on_site_wastewater_permit",
+              "label": "On-site industrial wastewater discharge permit endorsement",
+              "aliases": [
+                "EPA industrial effluent discharge license",
+                "Environmental discharge permit approval"
+              ]
+            },
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ]
+            },
+            {
+              "topic": "upstream_wash_volume",
+              "label": "Upstream bioreactor wash volume",
+              "aliases": [
+                "Bioreactor sanitization effluent volume",
+                "Upstream CIP wash volume"
+              ]
+            },
+            {
+              "topic": "downstream_rinse_volume",
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance lead (QUAL)",
+          "target_key": "QUAL-ENVIR-8FJ",
+          "alternate_key": "QUAL-ENVIR-FEZ",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "BioCork Advanced Biologics Campus",
+          "other_candidates": [
+            "Shannon Bioprocess Manufacturing Center",
+            "Ringaskiddy Cell Therapeutics Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "particulate_excursion_rate",
+              "value": 2,
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ],
+              "unit": "events/month"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "value": true,
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_monitoring_active",
+              "label": "Continuous cleanroom environmental monitoring active",
+              "aliases": [
+                "Automated continuous cleanroom monitoring",
+                "Continuous airborne particle monitoring enabled"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_rate",
+              "label": "Monthly non-viable particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion count",
+                "Grade A cleanroom particle exceedance frequency"
+              ]
+            },
+            {
+              "topic": "eu_gmp_cert_verified",
+              "label": "European Medicines Agency GMP certification verified",
+              "aliases": [
+                "Valid EU GMP compliance certificate",
+                "EMA manufacturing authorization clearance"
+              ]
+            },
+            {
+              "topic": "bioreactor_batch_yield",
+              "label": "Minimum bioreactor product yield",
+              "aliases": [
+                "Monoclonal antibody batch titer",
+                "Harvested cell culture protein yield"
+              ]
+            },
+            {
+              "topic": "on_site_wastewater_permit",
+              "label": "On-site industrial wastewater discharge permit endorsement",
+              "aliases": [
+                "EPA industrial effluent discharge license",
+                "Environmental discharge permit approval"
+              ]
+            },
+            {
+              "topic": "cold_storage_integrity_guarantee",
+              "label": "Validated -80 °C cold-chain transport integrity guarantee",
+              "aliases": [
+                "Deep frozen transport stability guarantee",
+                "Active -80 °C logistics verification"
+              ]
+            },
+            {
+              "topic": "upstream_wash_volume",
+              "label": "Upstream bioreactor wash volume",
+              "aliases": [
+                "Bioreactor sanitization effluent volume",
+                "Upstream CIP wash volume"
+              ]
+            },
+            {
+              "topic": "downstream_rinse_volume",
+              "label": "Downstream purification rinse volume",
+              "aliases": [
+                "Chromatography column wash volume",
+                "Downstream CIP effluent volume"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

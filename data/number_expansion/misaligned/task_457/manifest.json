@@ -1,0 +1,489 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_457",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "evacuation_dispatch",
+        "marine_safety"
+      ],
+      "role_names": [
+        "Port evacuation dispatcher (PED)",
+        "Marine safety superintendent (MSS)"
+      ],
+      "directory": "number_expansion/misaligned/task_457/k2",
+      "error_profiles": [
+        {
+          "role_name": "Port evacuation dispatcher (PED)",
+          "target_key": "PED-BERTH-GIL",
+          "alternate_key": "PED-BERTH-ANK",
+          "target_context": "peak shift maximum",
+          "alternate_context": "daily average",
+          "candidate": "Heavy-lift multi-catamaran flotilla plan",
+          "other_candidates": [
+            "Helicopter airlift and standby cutter plan",
+            "Specialized offshore support vessel convoy plan"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_crew_quota",
+              "value": 40,
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ],
+              "unit": "passengers"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "berthing_channel_cleared",
+              "value": true,
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_active",
+              "label": "Active satellite telemetry uplink",
+              "aliases": [
+                "Satellite uplink status"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_ms",
+              "label": "Telemetry latency",
+              "aliases": [
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "berthing_channel_cleared",
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ]
+            },
+            {
+              "topic": "critical_burn_bed_count",
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ]
+            },
+            {
+              "topic": "jurisdictional_transit_permit",
+              "label": "Jurisdictional maritime transit permit approval",
+              "aliases": [
+                "Coast guard transit authorization"
+              ]
+            },
+            {
+              "topic": "total_passenger_capacity",
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ]
+            },
+            {
+              "topic": "mandatory_crew_quota",
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine safety superintendent (MSS)",
+          "target_key": "MSS-VESSEL-WDD",
+          "alternate_key": "MSS-VESSEL-7L3",
+          "target_context": "production operational environment",
+          "alternate_context": "simulation test environment",
+          "candidate": "Heavy-lift multi-catamaran flotilla plan",
+          "other_candidates": [
+            "Helicopter airlift and standby cutter plan",
+            "Specialized offshore support vessel convoy plan"
+          ],
+          "numeric": [
+            {
+              "topic": "total_passenger_capacity",
+              "value": 360,
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ],
+              "unit": "passengers"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "value": true,
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_active",
+              "label": "Active satellite telemetry uplink",
+              "aliases": [
+                "Satellite uplink status"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_ms",
+              "label": "Telemetry latency",
+              "aliases": [
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "berthing_channel_cleared",
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ]
+            },
+            {
+              "topic": "critical_burn_bed_count",
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ]
+            },
+            {
+              "topic": "jurisdictional_transit_permit",
+              "label": "Jurisdictional maritime transit permit approval",
+              "aliases": [
+                "Coast guard transit authorization"
+              ]
+            },
+            {
+              "topic": "total_passenger_capacity",
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ]
+            },
+            {
+              "topic": "mandatory_crew_quota",
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "evacuation_dispatch",
+        "marine_safety",
+        "medical_triage"
+      ],
+      "role_names": [
+        "Port evacuation dispatcher (PED)",
+        "Marine safety superintendent (MSS)",
+        "Maritime medical director (MMD)"
+      ],
+      "directory": "number_expansion/misaligned/task_457/k3",
+      "error_profiles": [
+        {
+          "role_name": "Port evacuation dispatcher (PED)",
+          "target_key": "PED-BERTH-GIL",
+          "alternate_key": "PED-BERTH-ANK",
+          "target_context": "peak shift maximum",
+          "alternate_context": "daily average",
+          "candidate": "Heavy-lift multi-catamaran flotilla plan",
+          "other_candidates": [
+            "Helicopter airlift and standby cutter plan",
+            "Specialized offshore support vessel convoy plan"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_crew_quota",
+              "value": 40,
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ],
+              "unit": "passengers"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "berthing_channel_cleared",
+              "value": true,
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_active",
+              "label": "Active satellite telemetry uplink",
+              "aliases": [
+                "Satellite uplink status"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_ms",
+              "label": "Telemetry latency",
+              "aliases": [
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "berthing_channel_cleared",
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ]
+            },
+            {
+              "topic": "critical_burn_bed_count",
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ]
+            },
+            {
+              "topic": "jurisdictional_transit_permit",
+              "label": "Jurisdictional maritime transit permit approval",
+              "aliases": [
+                "Coast guard transit authorization"
+              ]
+            },
+            {
+              "topic": "total_passenger_capacity",
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ]
+            },
+            {
+              "topic": "mandatory_crew_quota",
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine safety superintendent (MSS)",
+          "target_key": "MSS-VESSEL-WDD",
+          "alternate_key": "MSS-VESSEL-7L3",
+          "target_context": "production operational environment",
+          "alternate_context": "simulation test environment",
+          "candidate": "Heavy-lift multi-catamaran flotilla plan",
+          "other_candidates": [
+            "Helicopter airlift and standby cutter plan",
+            "Specialized offshore support vessel convoy plan"
+          ],
+          "numeric": [
+            {
+              "topic": "total_passenger_capacity",
+              "value": 360,
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ],
+              "unit": "passengers"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "value": true,
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_active",
+              "label": "Active satellite telemetry uplink",
+              "aliases": [
+                "Satellite uplink status"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_ms",
+              "label": "Telemetry latency",
+              "aliases": [
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "berthing_channel_cleared",
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ]
+            },
+            {
+              "topic": "critical_burn_bed_count",
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ]
+            },
+            {
+              "topic": "jurisdictional_transit_permit",
+              "label": "Jurisdictional maritime transit permit approval",
+              "aliases": [
+                "Coast guard transit authorization"
+              ]
+            },
+            {
+              "topic": "total_passenger_capacity",
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ]
+            },
+            {
+              "topic": "mandatory_crew_quota",
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime medical director (MMD)",
+          "target_key": "MMD-MED-QZP",
+          "alternate_key": "MMD-MED-PDW",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Heavy-lift multi-catamaran flotilla plan",
+          "other_candidates": [
+            "Helicopter airlift and standby cutter plan",
+            "Specialized offshore support vessel convoy plan"
+          ],
+          "numeric": [
+            {
+              "topic": "critical_burn_bed_count",
+              "value": 8,
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ],
+              "unit": "beds"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_seaworthiness_certified",
+              "label": "Offshore vessel seaworthiness certified",
+              "aliases": [
+                "Vessel seaworthiness certification"
+              ]
+            },
+            {
+              "topic": "satellite_uplink_active",
+              "label": "Active satellite telemetry uplink",
+              "aliases": [
+                "Satellite uplink status"
+              ]
+            },
+            {
+              "topic": "telemetry_latency_ms",
+              "label": "Telemetry latency",
+              "aliases": [
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "berthing_channel_cleared",
+              "label": "Berthing channel clearance",
+              "aliases": [
+                "Safe harbour berthing clearance"
+              ]
+            },
+            {
+              "topic": "critical_burn_bed_count",
+              "label": "Critical burn bed count",
+              "aliases": [
+                "Dedicated burn trauma beds"
+              ]
+            },
+            {
+              "topic": "jurisdictional_transit_permit",
+              "label": "Jurisdictional maritime transit permit approval",
+              "aliases": [
+                "Coast guard transit authorization"
+              ]
+            },
+            {
+              "topic": "total_passenger_capacity",
+              "label": "Total rated passenger transport capacity",
+              "aliases": [
+                "Gross passenger capacity"
+              ]
+            },
+            {
+              "topic": "mandatory_crew_quota",
+              "label": "Mandatory core crew evacuation quota",
+              "aliases": [
+                "Essential platform skeleton crew quota"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

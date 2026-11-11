@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_623",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_engineering",
+        "logistics_direction"
+      ],
+      "role_names": [
+        "Structural engineering lead (ENG)",
+        "Supply chain and site logistics manager (LOG)"
+      ],
+      "directory": "incomplete/task_623",
+      "profiles": [
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "ENG-STRUC-Y3S",
+          "boolean_predicate_id": "A_seismic_fatigue_tested",
+          "boolean_label": "Seismic fatigue testing certified",
+          "hidden_predicate_id": "A_max_fiber_deflection",
+          "threshold_label": "Maximum fiber deflection",
+          "threshold_aliases": [
+            "Peak cyclic fiber deflection",
+            "Dynamic flexural deflection"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mm",
+          "partial_record_text": "ENG-STRUC-Y3S: Cascade Engineered Glulam.Cascade Engineered Glulam: Seismic fatigue testing certified = true .Source: Structural dynamics test report; Scope: Full-scale beam-column moment connection prototypes; Measurement: Whether full cyclic reverse-loading seismic fatigue testing has been conducted and certified.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum fiber deflection is between 5 mm and 30 mm, inclusive.",
+          "role_name": "Structural engineering lead (ENG)",
+          "candidate_name": "Cascade Engineered Glulam",
+          "other_candidate_names": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_direction_A",
+          "role_id": "logistics_direction",
+          "candidate_id": "A",
+          "key": "LOG-TRANS-NQL",
+          "hidden_predicate_id": "A_staging_transit_window",
+          "threshold_label": "Guaranteed staging transit window",
+          "threshold_aliases": [
+            "Site delivery transit window",
+            "Dispatch to site transit duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "h",
+          "partial_record_text": "LOG-TRANS-NQL: Cascade Engineered Glulam. The record covers Guaranteed staging transit window. Record context: Model Release 2.0. Freight dispatch logistics plan; Highway haulage route from manufacturing mill to Cascadia Civic Center laydown yard; Maximum guaranteed elapsed time from factory dispatch to secured laydown yard arrival.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Guaranteed staging transit window is between 20 h and 60 h, inclusive.",
+          "role_name": "Supply chain and site logistics manager (LOG)",
+          "candidate_name": "Cascade Engineered Glulam",
+          "other_candidate_names": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "context_value": "Model Release 2.0",
+          "other_context_values": [
+            "Model Release 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_engineering",
+        "logistics_direction",
+        "commercial_contracts"
+      ],
+      "role_names": [
+        "Structural engineering lead (ENG)",
+        "Supply chain and site logistics manager (LOG)",
+        "Commercial procurement and contracts manager (COM)"
+      ],
+      "directory": "incomplete/task_623",
+      "profiles": [
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "ENG-STRUC-Y3S",
+          "boolean_predicate_id": "A_seismic_fatigue_tested",
+          "boolean_label": "Seismic fatigue testing certified",
+          "hidden_predicate_id": "A_max_fiber_deflection",
+          "threshold_label": "Maximum fiber deflection",
+          "threshold_aliases": [
+            "Peak cyclic fiber deflection",
+            "Dynamic flexural deflection"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "mm",
+          "partial_record_text": "ENG-STRUC-Y3S: Cascade Engineered Glulam.Cascade Engineered Glulam: Seismic fatigue testing certified = true .Source: Structural dynamics test report; Scope: Full-scale beam-column moment connection prototypes; Measurement: Whether full cyclic reverse-loading seismic fatigue testing has been conducted and certified.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum fiber deflection is between 5 mm and 30 mm, inclusive.",
+          "role_name": "Structural engineering lead (ENG)",
+          "candidate_name": "Cascade Engineered Glulam",
+          "other_candidate_names": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_direction_A",
+          "role_id": "logistics_direction",
+          "candidate_id": "A",
+          "key": "LOG-TRANS-NQL",
+          "hidden_predicate_id": "A_staging_transit_window",
+          "threshold_label": "Guaranteed staging transit window",
+          "threshold_aliases": [
+            "Site delivery transit window",
+            "Dispatch to site transit duration"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "h",
+          "partial_record_text": "LOG-TRANS-NQL: Cascade Engineered Glulam. The record covers Guaranteed staging transit window. Record context: Model Release 2.0. Freight dispatch logistics plan; Highway haulage route from manufacturing mill to Cascadia Civic Center laydown yard; Maximum guaranteed elapsed time from factory dispatch to secured laydown yard arrival.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Guaranteed staging transit window is between 20 h and 60 h, inclusive.",
+          "role_name": "Supply chain and site logistics manager (LOG)",
+          "candidate_name": "Cascade Engineered Glulam",
+          "other_candidate_names": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "context_value": "Model Release 2.0",
+          "other_context_values": [
+            "Model Release 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracts_A",
+          "role_id": "commercial_contracts",
+          "candidate_id": "A",
+          "key": "COM-BOND-27E",
+          "hidden_predicate_id": "A_total_prefabrication_expenditure",
+          "threshold_label": "Total prefabrication contract expenditure",
+          "threshold_aliases": [
+            "Committed prefabrication package cost",
+            "Total turnkey timber fabrication price"
+          ],
+          "threshold_value": 5400000,
+          "threshold_unit": "USD",
+          "partial_record_text": "COM-BOND-27E: Cascade Engineered Glulam.Cascade Engineered Glulam: Contract surety bond posted = true .Source: Surety underwriting verification letter; Scope: Full turnkey timber prefabrication and erection subcontract; Measurement: Whether an irrevocable 100 percent performance and payment surety bond is executed.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 3000000,
+            "upper": 7000000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total prefabrication contract expenditure is between 3e+06 USD and 7e+06 USD, inclusive.",
+          "role_name": "Commercial procurement and contracts manager (COM)",
+          "candidate_name": "Cascade Engineered Glulam",
+          "other_candidate_names": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

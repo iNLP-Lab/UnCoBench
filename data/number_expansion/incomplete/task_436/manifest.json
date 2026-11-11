@@ -1,0 +1,206 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_436",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "atmospheric_instrumentation_lead",
+        "power_infrastructure_lead"
+      ],
+      "role_names": [
+        "Atmospheric instrumentation lead (ATM)",
+        "Power infrastructure lead (PWR)"
+      ],
+      "directory": "incomplete/task_436",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_instrumentation_lead_A",
+          "role_id": "atmospheric_instrumentation_lead",
+          "candidate_id": "A",
+          "key": "ATM-SENS-1N1",
+          "boolean_predicate_id": "A_lidar_active",
+          "boolean_label": "Active atmospheric LIDAR profiler deployment",
+          "hidden_predicate_id": "A_aerosol_optical_depth_variance",
+          "threshold_label": "Maximum aerosol optical depth variance",
+          "threshold_aliases": [
+            "AOD variance",
+            "Aerosol optical fluctuation"
+          ],
+          "threshold_value": 0.06,
+          "threshold_unit": "1",
+          "partial_record_text": "ATM-SENS-1N1: Chajnantor High-Plateau Station.Chajnantor High-Plateau Station: Active atmospheric LIDAR profiler deployment = true .Source: Atmospheric sensor telemetry dashboard; Scope: Station rooftop optical instrument dome; Measurement: Operational laser pulse emission and data collection state of the vertical aerosol LIDAR unit.Chajnantor High-Plateau Station: Primary instrumentation load = 32 kW.Source: Scientific instrumentation power audit; Scope: Continuous baseline consumption of all analytical and optical sensors; Measurement: Average active steady-state electrical power required by primary observation instruments.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "coarse_statement": "Maximum aerosol optical depth variance is at most 2 1.",
+          "role_name": "Atmospheric instrumentation lead (ATM)",
+          "candidate_name": "Chajnantor High-Plateau Station",
+          "other_candidate_names": [
+            "Cerro Toco Ridgeline Camp",
+            "Paso Jama Perimeter Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_infrastructure_lead_A",
+          "role_id": "power_infrastructure_lead",
+          "candidate_id": "A",
+          "key": "PWR-GRID-HIJ",
+          "hidden_predicate_id": "A_thermal_regulation_load",
+          "threshold_label": "Life-support thermal regulation load",
+          "threshold_aliases": [
+            "Thermal auxiliary heating demand",
+            "Life-support heating power"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "kW",
+          "partial_record_text": "PWR-GRID-HIJ: Chajnantor High-Plateau Station.Chajnantor High-Plateau Station: Autonomous microgrid connectivity = true .Source: Substation commissioning certificate; Scope: Main distribution busbar at station compound; Measurement: Verified physical interconnection and synchronization with the camp autonomous solar-diesel microgrid.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Life-support thermal regulation load is at most 40 kW.",
+          "role_name": "Power infrastructure lead (PWR)",
+          "candidate_name": "Chajnantor High-Plateau Station",
+          "other_candidate_names": [
+            "Cerro Toco Ridgeline Camp",
+            "Paso Jama Perimeter Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "atmospheric_instrumentation_lead",
+        "power_infrastructure_lead",
+        "environmental_compliance_lead"
+      ],
+      "role_names": [
+        "Atmospheric instrumentation lead (ATM)",
+        "Power infrastructure lead (PWR)",
+        "Environmental compliance lead (ENV)"
+      ],
+      "directory": "number_expansion/incomplete/task_436/k3",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_instrumentation_lead_A",
+          "role_id": "atmospheric_instrumentation_lead",
+          "candidate_id": "A",
+          "key": "ATM-SENS-1N1",
+          "boolean_predicate_id": "A_lidar_active",
+          "boolean_label": "Active atmospheric LIDAR profiler deployment",
+          "hidden_predicate_id": "A_aerosol_optical_depth_variance",
+          "threshold_label": "Maximum aerosol optical depth variance",
+          "threshold_aliases": [
+            "AOD variance",
+            "Aerosol optical fluctuation"
+          ],
+          "threshold_value": 0.06,
+          "threshold_unit": "1",
+          "partial_record_text": "ATM-SENS-1N1: Chajnantor High-Plateau Station.Chajnantor High-Plateau Station: Active atmospheric LIDAR profiler deployment = true .Source: Atmospheric sensor telemetry dashboard; Scope: Station rooftop optical instrument dome; Measurement: Operational laser pulse emission and data collection state of the vertical aerosol LIDAR unit.Chajnantor High-Plateau Station: Primary instrumentation load = 32 kW.Source: Scientific instrumentation power audit; Scope: Continuous baseline consumption of all analytical and optical sensors; Measurement: Average active steady-state electrical power required by primary observation instruments.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "coarse_statement": "Maximum aerosol optical depth variance is at most 2 1.",
+          "role_name": "Atmospheric instrumentation lead (ATM)",
+          "candidate_name": "Chajnantor High-Plateau Station",
+          "other_candidate_names": [
+            "Cerro Toco Ridgeline Camp",
+            "Paso Jama Perimeter Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_infrastructure_lead_A",
+          "role_id": "power_infrastructure_lead",
+          "candidate_id": "A",
+          "key": "PWR-GRID-HIJ",
+          "hidden_predicate_id": "A_thermal_regulation_load",
+          "threshold_label": "Life-support thermal regulation load",
+          "threshold_aliases": [
+            "Thermal auxiliary heating demand",
+            "Life-support heating power"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "kW",
+          "partial_record_text": "PWR-GRID-HIJ: Chajnantor High-Plateau Station.Chajnantor High-Plateau Station: Autonomous microgrid connectivity = true .Source: Substation commissioning certificate; Scope: Main distribution busbar at station compound; Measurement: Verified physical interconnection and synchronization with the camp autonomous solar-diesel microgrid.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Life-support thermal regulation load is at most 40 kW.",
+          "role_name": "Power infrastructure lead (PWR)",
+          "candidate_name": "Chajnantor High-Plateau Station",
+          "other_candidate_names": [
+            "Cerro Toco Ridgeline Camp",
+            "Paso Jama Perimeter Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_lead_A_supplemental",
+          "role_id": "environmental_compliance_lead",
+          "candidate_id": "A",
+          "key": "ENV-WASTE-LPJ",
+          "hidden_predicate_id": "A_supplemental_environmental_compliance_lead",
+          "threshold_label": "Wastewater treatment efficiency",
+          "threshold_aliases": [],
+          "threshold_value": 97,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-WASTE-LPJ: Chajnantor High-Plateau Station. The record covers Wastewater treatment efficiency. Effluent laboratory analysis; Station biological treatment effluent discharge; Percentage reduction of biochemical oxygen demand relative to untreated greywater.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Wastewater treatment efficiency is at most 100 %.",
+          "role_name": "Environmental compliance lead (ENV)",
+          "candidate_name": "Chajnantor High-Plateau Station",
+          "other_candidate_names": [
+            "Cerro Toco Ridgeline Camp",
+            "Paso Jama Perimeter Base"
+          ],
+          "context_value": null,
+          "other_context_values": [
+            "Protocol Version 3",
+            "Protocol Version 4"
+          ],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_environmental_compliance_lead",
+        "topic_id": "supplemental_environmental_compliance_lead",
+        "operator": "gte",
+        "threshold": 85,
+        "role_id": "environmental_compliance_lead",
+        "metric": "Wastewater treatment efficiency",
+        "unit": "%",
+        "required_text": "To qualify, a candidate must also have Wastewater treatment efficiency of at least 85 %.",
+        "new_fault_record_key": "ENV-WASTE-LPJ",
+        "exact_value": 97,
+        "first_reply": "Wastewater treatment efficiency is at most 100 %."
+      }
+    }
+  }
+}

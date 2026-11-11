@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_861",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "boiler_operations",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Boiler operations supervisor (BOP)",
+        "Environmental compliance manager (ECM)"
+      ],
+      "directory": "incomplete/task_861",
+      "profiles": [
+        {
+          "record_id": "rec_boiler_operations_A",
+          "role_id": "boiler_operations",
+          "candidate_id": "A",
+          "key": "BOP-STM-U8G",
+          "boolean_predicate_id": "A_feedwater_preheat_active",
+          "boolean_label": "Feedwater preheating system operational",
+          "hidden_predicate_id": "A_feedwater_pressure",
+          "threshold_label": "Auxiliary feedwater delivery pressure",
+          "threshold_aliases": [
+            "Feedwater pump pressure",
+            "Auxiliary feedwater pressure"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "bar",
+          "partial_record_text": "BOP-STM-U8G: East Campus Electrode Boiler Array.East Campus Electrode Boiler Array: Feedwater preheating system operational = true .Source: Boiler mechanical commissioning sign-off; Scope: Contingency boiler feedwater preheating skid; Measurement: Physical installation and operational readiness status of the feedwater preheater.East Campus Electrode Boiler Array: Continuous steam output ramp-up time = 25 min.Source: Thermal ramp response test report; Scope: Cold start contingency firing cycle; Measurement: Elapsed duration from initial burner firing to delivery of steady-state hospital header pressure.",
+          "role_name": "Boiler operations supervisor (BOP)",
+          "candidate_name": "East Campus Electrode Boiler Array",
+          "other_candidate_names": [
+            "Riverside Dual-Fuel Steam Module",
+            "South Utility Tunnel Biomass Skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ECM-AIR-3DY",
+          "hidden_predicate_id": "A_flue_gas_reagent_consumption",
+          "threshold_label": "Daily flue gas scrubbing reagent consumption",
+          "threshold_aliases": [
+            "Scrubber sorbent consumption",
+            "Daily lime reagent consumption"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "t/d",
+          "partial_record_text": "ECM-AIR-3DY: East Campus Electrode Boiler Array.East Campus Electrode Boiler Array: Environmental discharge permit clearance = true .Source: Regional air quality management board filing; Scope: Emergency stationary thermal generation permit; Measurement: Active clearance status for temporary contingency sulfur and nitrogen oxide emissions.",
+          "role_name": "Environmental compliance manager (ECM)",
+          "candidate_name": "East Campus Electrode Boiler Array",
+          "other_candidate_names": [
+            "Riverside Dual-Fuel Steam Module",
+            "South Utility Tunnel Biomass Skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "boiler_operations",
+        "environmental_compliance",
+        "fuel_logistics"
+      ],
+      "role_names": [
+        "Boiler operations supervisor (BOP)",
+        "Environmental compliance manager (ECM)",
+        "Fuel supply and logistics coordinator (FLC)"
+      ],
+      "directory": "incomplete/task_861",
+      "profiles": [
+        {
+          "record_id": "rec_boiler_operations_A",
+          "role_id": "boiler_operations",
+          "candidate_id": "A",
+          "key": "BOP-STM-U8G",
+          "boolean_predicate_id": "A_feedwater_preheat_active",
+          "boolean_label": "Feedwater preheating system operational",
+          "hidden_predicate_id": "A_feedwater_pressure",
+          "threshold_label": "Auxiliary feedwater delivery pressure",
+          "threshold_aliases": [
+            "Feedwater pump pressure",
+            "Auxiliary feedwater pressure"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "bar",
+          "partial_record_text": "BOP-STM-U8G: East Campus Electrode Boiler Array.East Campus Electrode Boiler Array: Feedwater preheating system operational = true .Source: Boiler mechanical commissioning sign-off; Scope: Contingency boiler feedwater preheating skid; Measurement: Physical installation and operational readiness status of the feedwater preheater.East Campus Electrode Boiler Array: Continuous steam output ramp-up time = 25 min.Source: Thermal ramp response test report; Scope: Cold start contingency firing cycle; Measurement: Elapsed duration from initial burner firing to delivery of steady-state hospital header pressure.",
+          "role_name": "Boiler operations supervisor (BOP)",
+          "candidate_name": "East Campus Electrode Boiler Array",
+          "other_candidate_names": [
+            "Riverside Dual-Fuel Steam Module",
+            "South Utility Tunnel Biomass Skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ECM-AIR-3DY",
+          "hidden_predicate_id": "A_flue_gas_reagent_consumption",
+          "threshold_label": "Daily flue gas scrubbing reagent consumption",
+          "threshold_aliases": [
+            "Scrubber sorbent consumption",
+            "Daily lime reagent consumption"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "t/d",
+          "partial_record_text": "ECM-AIR-3DY: East Campus Electrode Boiler Array.East Campus Electrode Boiler Array: Environmental discharge permit clearance = true .Source: Regional air quality management board filing; Scope: Emergency stationary thermal generation permit; Measurement: Active clearance status for temporary contingency sulfur and nitrogen oxide emissions.",
+          "role_name": "Environmental compliance manager (ECM)",
+          "candidate_name": "East Campus Electrode Boiler Array",
+          "other_candidate_names": [
+            "Riverside Dual-Fuel Steam Module",
+            "South Utility Tunnel Biomass Skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fuel_logistics_A",
+          "role_id": "fuel_logistics",
+          "candidate_id": "A",
+          "key": "FLC-SUP-L1E",
+          "hidden_predicate_id": "A_daily_fuel_consumption",
+          "threshold_label": "Daily contingency fuel consumption",
+          "threshold_aliases": [
+            "Contingency fuel burn rate",
+            "Daily fuel requirement"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "t/d",
+          "partial_record_text": "FLC-SUP-L1E: East Campus Electrode Boiler Array. The record covers Daily contingency fuel consumption. Contingency fuel burn rate projection; Nominal peak winter hospital heating and sterilization load; Projected 24-hour total fuel mass consumption.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Daily contingency fuel consumption is at least 30 t/d.",
+          "role_name": "Fuel supply and logistics coordinator (FLC)",
+          "candidate_name": "East Campus Electrode Boiler Array",
+          "other_candidate_names": [
+            "Riverside Dual-Fuel Steam Module",
+            "South Utility Tunnel Biomass Skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

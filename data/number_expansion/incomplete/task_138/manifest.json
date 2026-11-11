@@ -1,0 +1,183 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_138",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hazmat_response",
+        "railway_operations"
+      ],
+      "role_names": [
+        "Hazardous materials response commander (HRC)",
+        "Railway operations director (ROD)"
+      ],
+      "directory": "incomplete/task_138",
+      "profiles": [
+        {
+          "record_id": "rec_hazmat_response_A",
+          "role_id": "hazmat_response",
+          "candidate_id": "A",
+          "key": "HRC-HAZ-AEX",
+          "boolean_predicate_id": "A_vapor_suppression_ready",
+          "boolean_label": "Active toxic vapor suppression readiness",
+          "hidden_predicate_id": "A_initial_response_time",
+          "threshold_label": "Maximum initial containment response time",
+          "threshold_aliases": [
+            "Initial containment deployment duration",
+            "Response arrival latency"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "HRC-HAZ-AEX: Continuous foam deluge and dual-spur diversion.Continuous foam deluge and dual-spur diversion: Active toxic vapor suppression readiness = true .Source: Hazmat command readiness dispatch; Scope: Immediate incident diversion sector; Measurement: Operational certification that mobile vapor knockdown curtains are primed and ready for activation.",
+          "role_name": "Hazardous materials response commander (HRC)",
+          "candidate_name": "Continuous foam deluge and dual-spur diversion",
+          "other_candidate_names": [
+            "Neutralizing vapor curtain and pressurized siphon",
+            "Cryogenic inerting and direct hot-tap transfer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_railway_operations_A",
+          "role_id": "railway_operations",
+          "candidate_id": "A",
+          "key": "ROD-TRK-3AQ",
+          "hidden_predicate_id": "A_spur_axle_load",
+          "threshold_label": "Rail spur axle-load capacity",
+          "threshold_aliases": [
+            "Spur track weight rating",
+            "Axle load limit"
+          ],
+          "threshold_value": 130,
+          "threshold_unit": "t",
+          "partial_record_text": "ROD-TRK-3AQ: Continuous foam deluge and dual-spur diversion. The record covers Rail spur axle-load capacity. Record context: Production mainline deployment. Track engineering classification sheet; Designated emergency transshipment turnout and siding trackage; Maximum permissible gross mass per rail car axle on transshipment track.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 110,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Rail spur axle-load capacity is at least 110 t.",
+          "role_name": "Railway operations director (ROD)",
+          "candidate_name": "Continuous foam deluge and dual-spur diversion",
+          "other_candidate_names": [
+            "Neutralizing vapor curtain and pressurized siphon",
+            "Cryogenic inerting and direct hot-tap transfer"
+          ],
+          "context_value": "Production mainline deployment",
+          "other_context_values": [
+            "Simulation testbed deployment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hazmat_response",
+        "railway_operations",
+        "rolling_stock"
+      ],
+      "role_names": [
+        "Hazardous materials response commander (HRC)",
+        "Railway operations director (ROD)",
+        "Rolling stock logistics director (RSD)"
+      ],
+      "directory": "incomplete/task_138",
+      "profiles": [
+        {
+          "record_id": "rec_hazmat_response_A",
+          "role_id": "hazmat_response",
+          "candidate_id": "A",
+          "key": "HRC-HAZ-AEX",
+          "boolean_predicate_id": "A_vapor_suppression_ready",
+          "boolean_label": "Active toxic vapor suppression readiness",
+          "hidden_predicate_id": "A_initial_response_time",
+          "threshold_label": "Maximum initial containment response time",
+          "threshold_aliases": [
+            "Initial containment deployment duration",
+            "Response arrival latency"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "HRC-HAZ-AEX: Continuous foam deluge and dual-spur diversion.Continuous foam deluge and dual-spur diversion: Active toxic vapor suppression readiness = true .Source: Hazmat command readiness dispatch; Scope: Immediate incident diversion sector; Measurement: Operational certification that mobile vapor knockdown curtains are primed and ready for activation.",
+          "role_name": "Hazardous materials response commander (HRC)",
+          "candidate_name": "Continuous foam deluge and dual-spur diversion",
+          "other_candidate_names": [
+            "Neutralizing vapor curtain and pressurized siphon",
+            "Cryogenic inerting and direct hot-tap transfer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_railway_operations_A",
+          "role_id": "railway_operations",
+          "candidate_id": "A",
+          "key": "ROD-TRK-3AQ",
+          "hidden_predicate_id": "A_spur_axle_load",
+          "threshold_label": "Rail spur axle-load capacity",
+          "threshold_aliases": [
+            "Spur track weight rating",
+            "Axle load limit"
+          ],
+          "threshold_value": 130,
+          "threshold_unit": "t",
+          "partial_record_text": "ROD-TRK-3AQ: Continuous foam deluge and dual-spur diversion. The record covers Rail spur axle-load capacity. Record context: Production mainline deployment. Track engineering classification sheet; Designated emergency transshipment turnout and siding trackage; Maximum permissible gross mass per rail car axle on transshipment track.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 110,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Rail spur axle-load capacity is at least 110 t.",
+          "role_name": "Railway operations director (ROD)",
+          "candidate_name": "Continuous foam deluge and dual-spur diversion",
+          "other_candidate_names": [
+            "Neutralizing vapor curtain and pressurized siphon",
+            "Cryogenic inerting and direct hot-tap transfer"
+          ],
+          "context_value": "Production mainline deployment",
+          "other_context_values": [
+            "Simulation testbed deployment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rolling_stock_A",
+          "role_id": "rolling_stock",
+          "candidate_id": "A",
+          "key": "RSD-FLEET-PTA",
+          "hidden_predicate_id": "A_tanker_train_capacity",
+          "threshold_label": "Rapid-mobilization tanker train capacity",
+          "threshold_aliases": [
+            "Auxiliary water train volume",
+            "Mobile tanker consist capacity"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "m3",
+          "partial_record_text": "RSD-FLEET-PTA: Continuous foam deluge and dual-spur diversion. The record covers Rapid-mobilization tanker train capacity. Rolling stock assignment roster; Standby auxiliary water tanker consist pre-positioned at division yard; Combined fluid capacity of connected tanker wagons dedicated for rapid incident haulage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 1400
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Rapid-mobilization tanker train capacity is at most 1400 m3.",
+          "role_name": "Rolling stock logistics director (RSD)",
+          "candidate_name": "Continuous foam deluge and dual-spur diversion",
+          "other_candidate_names": [
+            "Neutralizing vapor curtain and pressurized siphon",
+            "Cryogenic inerting and direct hot-tap transfer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

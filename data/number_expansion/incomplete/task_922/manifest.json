@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_922",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_robotics",
+        "regulatory_marine"
+      ],
+      "role_names": [
+        "Subsea robotics superintendent (ROV)",
+        "Maritime port and safety compliance officer (MAR)"
+      ],
+      "directory": "incomplete/task_922",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-TOOL-CIJ",
+          "boolean_predicate_id": "A_active_rov_burial_system",
+          "boolean_label": "Active ROV burial system installed",
+          "hidden_predicate_id": "A_rov_trenching_depth_rating",
+          "threshold_label": "ROV operational trenching depth rating",
+          "threshold_aliases": [
+            "ROV depth rating",
+            "Maximum trenching depth"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-TOOL-CIJ: Pacific Horizon DP2 Cable Ship.Pacific Horizon DP2 Cable Ship: Active ROV burial system installed = true .Source: Subsea spread mobilization audit; Scope: Candidate remote intervention spread; Measurement: Whether a track-mounted or free-swimming water-jetting ROV system is mobilized.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "ROV operational trenching depth rating is at most 4000 m.",
+          "role_name": "Subsea robotics superintendent (ROV)",
+          "candidate_name": "Pacific Horizon DP2 Cable Ship",
+          "other_candidate_names": [
+            "Atlantic Resolute Subsea Support Vessel",
+            "Nordic Mariner Installation Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_marine_A",
+          "role_id": "regulatory_marine",
+          "candidate_id": "A",
+          "key": "MAR-SAFE-K6G",
+          "hidden_predicate_id": "A_port_clearance_window",
+          "threshold_label": "Port departure clearance window",
+          "threshold_aliases": [
+            "Sail-away mobilization delay",
+            "Departure lead time"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "MAR-SAFE-K6G: Pacific Horizon DP2 Cable Ship.Pacific Horizon DP2 Cable Ship: Ballast water treatment system certified = true .Source: International Ballast Water Management Certificate; Scope: Onboard ballast water disinfection system; Measurement: Compliance with IMO D-2 biological discharge standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Port departure clearance window is at most 90 h.",
+          "role_name": "Maritime port and safety compliance officer (MAR)",
+          "candidate_name": "Pacific Horizon DP2 Cable Ship",
+          "other_candidate_names": [
+            "Atlantic Resolute Subsea Support Vessel",
+            "Nordic Mariner Installation Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_robotics",
+        "regulatory_marine",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Subsea robotics superintendent (ROV)",
+        "Maritime port and safety compliance officer (MAR)",
+        "Vessel engineering lead (ENG)"
+      ],
+      "directory": "incomplete/task_922",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-TOOL-CIJ",
+          "boolean_predicate_id": "A_active_rov_burial_system",
+          "boolean_label": "Active ROV burial system installed",
+          "hidden_predicate_id": "A_rov_trenching_depth_rating",
+          "threshold_label": "ROV operational trenching depth rating",
+          "threshold_aliases": [
+            "ROV depth rating",
+            "Maximum trenching depth"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-TOOL-CIJ: Pacific Horizon DP2 Cable Ship.Pacific Horizon DP2 Cable Ship: Active ROV burial system installed = true .Source: Subsea spread mobilization audit; Scope: Candidate remote intervention spread; Measurement: Whether a track-mounted or free-swimming water-jetting ROV system is mobilized.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "ROV operational trenching depth rating is at most 4000 m.",
+          "role_name": "Subsea robotics superintendent (ROV)",
+          "candidate_name": "Pacific Horizon DP2 Cable Ship",
+          "other_candidate_names": [
+            "Atlantic Resolute Subsea Support Vessel",
+            "Nordic Mariner Installation Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regulatory_marine_A",
+          "role_id": "regulatory_marine",
+          "candidate_id": "A",
+          "key": "MAR-SAFE-K6G",
+          "hidden_predicate_id": "A_port_clearance_window",
+          "threshold_label": "Port departure clearance window",
+          "threshold_aliases": [
+            "Sail-away mobilization delay",
+            "Departure lead time"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "MAR-SAFE-K6G: Pacific Horizon DP2 Cable Ship.Pacific Horizon DP2 Cable Ship: Ballast water treatment system certified = true .Source: International Ballast Water Management Certificate; Scope: Onboard ballast water disinfection system; Measurement: Compliance with IMO D-2 biological discharge standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Port departure clearance window is at most 90 h.",
+          "role_name": "Maritime port and safety compliance officer (MAR)",
+          "candidate_name": "Pacific Horizon DP2 Cable Ship",
+          "other_candidate_names": [
+            "Atlantic Resolute Subsea Support Vessel",
+            "Nordic Mariner Installation Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-POW-TDD",
+          "hidden_predicate_id": "A_main_tank_capacity",
+          "threshold_label": "Main tank spool capacity",
+          "threshold_aliases": [
+            "Primary tank deadweight",
+            "Main carousel load limit"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-POW-TDD: Pacific Horizon DP2 Cable Ship.Pacific Horizon DP2 Cable Ship: Dynamic positioning DP2 class verified = true .Source: Classification society certificate; Scope: Vessel propulsion and dynamic station-keeping machinery; Measurement: Whether vessel holds an active, unendorsed IMO DP Class 2 classification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main tank spool capacity is at most 4000 t.",
+          "role_name": "Vessel engineering lead (ENG)",
+          "candidate_name": "Pacific Horizon DP2 Cable Ship",
+          "other_candidate_names": [
+            "Atlantic Resolute Subsea Support Vessel",
+            "Nordic Mariner Installation Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

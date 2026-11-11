@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_308",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "sensor_systems",
+        "field_logistics"
+      ],
+      "role_names": [
+        "Environmental Sensor Lead (ESL)",
+        "Field Logistics Coordinator (FLC)"
+      ],
+      "directory": "incomplete/task_308",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_systems_A",
+          "role_id": "sensor_systems",
+          "candidate_id": "A",
+          "key": "ESL-SENS-JPC",
+          "boolean_predicate_id": "A_sensor_telemetry_active",
+          "boolean_label": "Sensor telemetry network enabled",
+          "hidden_predicate_id": "A_telemetry_packet_loss_pct",
+          "threshold_label": "Sensor telemetry packet loss rate",
+          "threshold_aliases": [
+            "Telemetry packet loss",
+            "Data transmission error rate"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "ESL-SENS-JPC: Val Roseg Biosphere Observatory.Val Roseg Biosphere Observatory: Sensor telemetry network enabled = true .Source: Canopy observation network registry; Scope: Automated meteorological and sap-flow sensors deployed across forest canopy plots; Measurement: Operational enablement state of real-time packet transmission to base servers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 30
+          },
+          "coarse_statement": "Sensor telemetry packet loss rate is between 1 % and 30 %, inclusive.",
+          "role_name": "Environmental Sensor Lead (ESL)",
+          "candidate_name": "Val Roseg Biosphere Observatory",
+          "other_candidate_names": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_logistics_A",
+          "role_id": "field_logistics",
+          "candidate_id": "A",
+          "key": "FLC-LOG-3WF",
+          "hidden_predicate_id": "A_bunkhouse_capacity",
+          "threshold_label": "Residential bunkhouse capacity",
+          "threshold_aliases": [
+            "Bunkhouse beds",
+            "Crew lodging capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "FLC-LOG-3WF: Val Roseg Biosphere Observatory.Val Roseg Biosphere Observatory: Heavy gear transport access cleared = true .Source: Alpine route feasibility assessment; Scope: All access routes connecting regional trunk highway to candidate station depot; Measurement: Whether all-wheel-drive cargo transport of heavy canopy lifts is confirmed feasible.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Residential bunkhouse capacity is between 10 beds and 40 beds, inclusive.",
+          "role_name": "Field Logistics Coordinator (FLC)",
+          "candidate_name": "Val Roseg Biosphere Observatory",
+          "other_candidate_names": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "sensor_systems",
+        "field_logistics",
+        "cryo_storage"
+      ],
+      "role_names": [
+        "Environmental Sensor Lead (ESL)",
+        "Field Logistics Coordinator (FLC)",
+        "Cryogenic Operations Specialist (COS)"
+      ],
+      "directory": "incomplete/task_308",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_systems_A",
+          "role_id": "sensor_systems",
+          "candidate_id": "A",
+          "key": "ESL-SENS-JPC",
+          "boolean_predicate_id": "A_sensor_telemetry_active",
+          "boolean_label": "Sensor telemetry network enabled",
+          "hidden_predicate_id": "A_telemetry_packet_loss_pct",
+          "threshold_label": "Sensor telemetry packet loss rate",
+          "threshold_aliases": [
+            "Telemetry packet loss",
+            "Data transmission error rate"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "ESL-SENS-JPC: Val Roseg Biosphere Observatory.Val Roseg Biosphere Observatory: Sensor telemetry network enabled = true .Source: Canopy observation network registry; Scope: Automated meteorological and sap-flow sensors deployed across forest canopy plots; Measurement: Operational enablement state of real-time packet transmission to base servers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 30
+          },
+          "coarse_statement": "Sensor telemetry packet loss rate is between 1 % and 30 %, inclusive.",
+          "role_name": "Environmental Sensor Lead (ESL)",
+          "candidate_name": "Val Roseg Biosphere Observatory",
+          "other_candidate_names": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_logistics_A",
+          "role_id": "field_logistics",
+          "candidate_id": "A",
+          "key": "FLC-LOG-3WF",
+          "hidden_predicate_id": "A_bunkhouse_capacity",
+          "threshold_label": "Residential bunkhouse capacity",
+          "threshold_aliases": [
+            "Bunkhouse beds",
+            "Crew lodging capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "FLC-LOG-3WF: Val Roseg Biosphere Observatory.Val Roseg Biosphere Observatory: Heavy gear transport access cleared = true .Source: Alpine route feasibility assessment; Scope: All access routes connecting regional trunk highway to candidate station depot; Measurement: Whether all-wheel-drive cargo transport of heavy canopy lifts is confirmed feasible.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Residential bunkhouse capacity is between 10 beds and 40 beds, inclusive.",
+          "role_name": "Field Logistics Coordinator (FLC)",
+          "candidate_name": "Val Roseg Biosphere Observatory",
+          "other_candidate_names": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_storage_A",
+          "role_id": "cryo_storage",
+          "candidate_id": "A",
+          "key": "COS-CRYO-MXS",
+          "hidden_predicate_id": "A_gross_freeze_volume",
+          "threshold_label": "Gross deep-freeze sample storage volume",
+          "threshold_aliases": [
+            "Gross freezer capacity",
+            "Total deep-freeze volume"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "L",
+          "partial_record_text": "COS-CRYO-MXS: Val Roseg Biosphere Observatory. The record covers Gross deep-freeze sample storage volume. Cryogenic chest specification ledger; Station ultra-low minus eighty degrees Celsius freezers; Total gross internal storage volume across all functional ultra-low freezer units.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross deep-freeze sample storage volume is between 0 L and 3000 L, inclusive.",
+          "role_name": "Cryogenic Operations Specialist (COS)",
+          "candidate_name": "Val Roseg Biosphere Observatory",
+          "other_candidate_names": [
+            "Col du Lautaret Alpine Station",
+            "Obergurgl High Mountain Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

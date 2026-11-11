@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_333",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_quality",
+        "utility_dispatch"
+      ],
+      "role_names": [
+        "Water quality and laboratory lead (WQL)",
+        "Utility dispatch planning lead (DSP)"
+      ],
+      "directory": "incomplete/task_333",
+      "profiles": [
+        {
+          "record_id": "rec_water_quality_A",
+          "role_id": "water_quality",
+          "candidate_id": "A",
+          "key": "WQL-QUAL-V4Z",
+          "boolean_predicate_id": "A_chlorination_enabled",
+          "boolean_label": "Automated chlorination dosing enabled",
+          "hidden_predicate_id": "A_microbiological_assay_hours",
+          "threshold_label": "Microbiological assay turnaround time",
+          "threshold_aliases": [
+            "Microbial assay duration",
+            "Pathogen clearance testing time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "WQL-QUAL-V4Z: Highland gravity trunkline.Highland gravity trunkline: Automated chlorination dosing enabled = true .Source: Disinfection dosing telemetry console; Scope: Corridor chemical injection skids; Measurement: Active operational status of the inline chlorine dosing system.",
+          "role_name": "Water quality and laboratory lead (WQL)",
+          "candidate_name": "Highland gravity trunkline",
+          "other_candidate_names": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_dispatch_A",
+          "role_id": "utility_dispatch",
+          "candidate_id": "A",
+          "key": "DSP-VOL-AGY",
+          "hidden_predicate_id": "A_allocated_water_volume",
+          "threshold_label": "Allocated bulk water volume",
+          "threshold_aliases": [
+            "Bulk water volume",
+            "Allocated delivery volume"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m3",
+          "partial_record_text": "DSP-VOL-AGY: Highland gravity trunkline.Highland gravity trunkline: Utility dispatch route approval = true .Source: Municipal utility operations roster; Scope: Emergency distribution schedule; Measurement: Executive dispatch approval for corridor operational activation.",
+          "role_name": "Utility dispatch planning lead (DSP)",
+          "candidate_name": "Highland gravity trunkline",
+          "other_candidate_names": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_quality",
+        "utility_dispatch",
+        "hydraulic_engineering"
+      ],
+      "role_names": [
+        "Water quality and laboratory lead (WQL)",
+        "Utility dispatch planning lead (DSP)",
+        "Hydraulic engineering lead (HYD)"
+      ],
+      "directory": "incomplete/task_333",
+      "profiles": [
+        {
+          "record_id": "rec_water_quality_A",
+          "role_id": "water_quality",
+          "candidate_id": "A",
+          "key": "WQL-QUAL-V4Z",
+          "boolean_predicate_id": "A_chlorination_enabled",
+          "boolean_label": "Automated chlorination dosing enabled",
+          "hidden_predicate_id": "A_microbiological_assay_hours",
+          "threshold_label": "Microbiological assay turnaround time",
+          "threshold_aliases": [
+            "Microbial assay duration",
+            "Pathogen clearance testing time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "h",
+          "partial_record_text": "WQL-QUAL-V4Z: Highland gravity trunkline.Highland gravity trunkline: Automated chlorination dosing enabled = true .Source: Disinfection dosing telemetry console; Scope: Corridor chemical injection skids; Measurement: Active operational status of the inline chlorine dosing system.",
+          "role_name": "Water quality and laboratory lead (WQL)",
+          "candidate_name": "Highland gravity trunkline",
+          "other_candidate_names": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_dispatch_A",
+          "role_id": "utility_dispatch",
+          "candidate_id": "A",
+          "key": "DSP-VOL-AGY",
+          "hidden_predicate_id": "A_allocated_water_volume",
+          "threshold_label": "Allocated bulk water volume",
+          "threshold_aliases": [
+            "Bulk water volume",
+            "Allocated delivery volume"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "m3",
+          "partial_record_text": "DSP-VOL-AGY: Highland gravity trunkline.Highland gravity trunkline: Utility dispatch route approval = true .Source: Municipal utility operations roster; Scope: Emergency distribution schedule; Measurement: Executive dispatch approval for corridor operational activation.",
+          "role_name": "Utility dispatch planning lead (DSP)",
+          "candidate_name": "Highland gravity trunkline",
+          "other_candidate_names": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydraulic_engineering_A",
+          "role_id": "hydraulic_engineering",
+          "candidate_id": "A",
+          "key": "HYD-PRESS-38J",
+          "hidden_predicate_id": "A_corridor_operating_duration",
+          "threshold_label": "Corridor operating duration",
+          "threshold_aliases": [
+            "Operating duration",
+            "Pumping window duration"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "HYD-PRESS-38J: Highland gravity trunkline.Highland gravity trunkline: Hydraulic pressure integrity = true .Source: Hydrostatic pipe pressure test log; Scope: Active delivery trunkline sections; Measurement: Whether trunkline sustained working pressure without pressure loss during pre-commissioning.",
+          "role_name": "Hydraulic engineering lead (HYD)",
+          "candidate_name": "Highland gravity trunkline",
+          "other_candidate_names": [
+            "Riverbed booster pipeline",
+            "Overland modular hose corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_946",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_acoustics",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Environmental acoustics officer (ACOU)",
+        "Fleet operations manager (FLT)"
+      ],
+      "directory": "incomplete/task_946",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_acoustics_A",
+          "role_id": "environmental_acoustics",
+          "candidate_id": "A",
+          "key": "ACOU-NOISE-1E3",
+          "boolean_predicate_id": "A_acoustic_barrier_installed",
+          "boolean_label": "Acoustic attenuation barrier installed",
+          "hidden_predicate_id": "A_night_noise_level",
+          "threshold_label": "Depot boundary night noise level",
+          "threshold_aliases": [
+            "Perimeter night noise",
+            "Nighttime acoustic emission"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ACOU-NOISE-1E3: Overnight depot plug-in charging scheme.Overnight depot plug-in charging scheme: Acoustic attenuation barrier installed = true .Source: Depot environmental mitigation register; Scope: Depot perimeter bordering residential zoning; Measurement: Physical erection of sound-dampening acoustic boundary barriers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Depot boundary night noise level is at most 70 dBA.",
+          "role_name": "Environmental acoustics officer (ACOU)",
+          "candidate_name": "Overnight depot plug-in charging scheme",
+          "other_candidate_names": [
+            "Opportunity pantograph rapid charging scheme",
+            "Automated battery swap terminal scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-OPS-VX3",
+          "hidden_predicate_id": "A_fleet_availability_ratio",
+          "threshold_label": "Fleet availability ratio",
+          "threshold_aliases": [
+            "Bus availability percentage",
+            "Operational fleet availability"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "%",
+          "partial_record_text": "FLT-OPS-VX3: Overnight depot plug-in charging scheme. The record covers Fleet availability ratio. Fleet maintenance schedule projection; Candidate scheme planned rolling stock; Proportion of total scheme fleet available for peak service dispatch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet availability ratio is at most 100 %.",
+          "role_name": "Fleet operations manager (FLT)",
+          "candidate_name": "Overnight depot plug-in charging scheme",
+          "other_candidate_names": [
+            "Opportunity pantograph rapid charging scheme",
+            "Automated battery swap terminal scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_acoustics",
+        "fleet_operations",
+        "power_utility"
+      ],
+      "role_names": [
+        "Environmental acoustics officer (ACOU)",
+        "Fleet operations manager (FLT)",
+        "Power distribution utility liaison (GRID)"
+      ],
+      "directory": "incomplete/task_946",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_acoustics_A",
+          "role_id": "environmental_acoustics",
+          "candidate_id": "A",
+          "key": "ACOU-NOISE-1E3",
+          "boolean_predicate_id": "A_acoustic_barrier_installed",
+          "boolean_label": "Acoustic attenuation barrier installed",
+          "hidden_predicate_id": "A_night_noise_level",
+          "threshold_label": "Depot boundary night noise level",
+          "threshold_aliases": [
+            "Perimeter night noise",
+            "Nighttime acoustic emission"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "dBA",
+          "partial_record_text": "ACOU-NOISE-1E3: Overnight depot plug-in charging scheme.Overnight depot plug-in charging scheme: Acoustic attenuation barrier installed = true .Source: Depot environmental mitigation register; Scope: Depot perimeter bordering residential zoning; Measurement: Physical erection of sound-dampening acoustic boundary barriers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Depot boundary night noise level is at most 70 dBA.",
+          "role_name": "Environmental acoustics officer (ACOU)",
+          "candidate_name": "Overnight depot plug-in charging scheme",
+          "other_candidate_names": [
+            "Opportunity pantograph rapid charging scheme",
+            "Automated battery swap terminal scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-OPS-VX3",
+          "hidden_predicate_id": "A_fleet_availability_ratio",
+          "threshold_label": "Fleet availability ratio",
+          "threshold_aliases": [
+            "Bus availability percentage",
+            "Operational fleet availability"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "%",
+          "partial_record_text": "FLT-OPS-VX3: Overnight depot plug-in charging scheme. The record covers Fleet availability ratio. Fleet maintenance schedule projection; Candidate scheme planned rolling stock; Proportion of total scheme fleet available for peak service dispatch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Fleet availability ratio is at most 100 %.",
+          "role_name": "Fleet operations manager (FLT)",
+          "candidate_name": "Overnight depot plug-in charging scheme",
+          "other_candidate_names": [
+            "Opportunity pantograph rapid charging scheme",
+            "Automated battery swap terminal scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_utility_A",
+          "role_id": "power_utility",
+          "candidate_id": "A",
+          "key": "GRID-POWR-K7M",
+          "hidden_predicate_id": "A_grid_connection_cost_per_bus",
+          "threshold_label": "High-voltage grid connection cost per vehicle",
+          "threshold_aliases": [
+            "Grid connection outlay per bus",
+            "Substation connection cost per vehicle"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "kGBP/bus",
+          "partial_record_text": "GRID-POWR-K7M: Overnight depot plug-in charging scheme.Overnight depot plug-in charging scheme: Grid connection capacity guaranteed = true .Source: Distribution network operator formal offer; Scope: Charging terminal substation connection; Measurement: Firm utility contract securing required charging megawatt capacity without curtailment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "High-voltage grid connection cost per vehicle is at most 40 kGBP/bus.",
+          "role_name": "Power distribution utility liaison (GRID)",
+          "candidate_name": "Overnight depot plug-in charging scheme",
+          "other_candidate_names": [
+            "Opportunity pantograph rapid charging scheme",
+            "Automated battery swap terminal scheme"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

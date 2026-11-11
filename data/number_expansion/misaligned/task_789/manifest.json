@@ -1,0 +1,544 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_789",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fleet_logistics",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Logistics and fleet lead (LOG)",
+        "Facilities engineering lead (FAC)"
+      ],
+      "directory": "number_expansion/misaligned/task_789/k2",
+      "error_profiles": [
+        {
+          "role_name": "Logistics and fleet lead (LOG)",
+          "target_key": "LOG-TRANS-M3J",
+          "alternate_key": "LOG-TRANS-BAQ",
+          "target_context": "production routing environment",
+          "alternate_context": "staging routing environment",
+          "candidate": "Piedmont Regional Distribution Center",
+          "other_candidates": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "highway_access_time",
+              "value": 8,
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "backup_generator_installed",
+              "label": "Emergency backup generator installed",
+              "aliases": [
+                "Standby power generator installation",
+                "Emergency generator presence"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency power switchover latency",
+              "aliases": [
+                "Automatic transfer switch latency",
+                "Generator power restoration duration"
+              ]
+            },
+            {
+              "topic": "gsdp_compliance_score",
+              "label": "Good storage and distribution practices audit score",
+              "aliases": [
+                "GSDP quality audit score",
+                "Pharmaceutical distribution compliance rating"
+              ]
+            },
+            {
+              "topic": "dock_high_bay_count",
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ]
+            },
+            {
+              "topic": "biometric_access_coverage",
+              "label": "Biometric access control perimeter coverage",
+              "aliases": [
+                "Biometric security coverage",
+                "Vault biometric credentialing percentage"
+              ]
+            },
+            {
+              "topic": "highway_access_time",
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ]
+            },
+            {
+              "topic": "cold_pallet_capacity",
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ]
+            },
+            {
+              "topic": "quarantine_pallet_reserve",
+              "label": "Mandatory regulatory quarantine pallet reserve",
+              "aliases": [
+                "Quarantine pallet reservation",
+                "Reserved inspection pallet positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Facilities engineering lead (FAC)",
+          "target_key": "FAC-HVAC-J0A",
+          "alternate_key": "FAC-HVAC-9DU",
+          "target_context": "Baseline v2.0",
+          "alternate_context": "Baseline v3.0",
+          "candidate": "Piedmont Regional Distribution Center",
+          "other_candidates": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "cold_pallet_capacity",
+              "value": 3000,
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "backup_generator_installed",
+              "label": "Emergency backup generator installed",
+              "aliases": [
+                "Standby power generator installation",
+                "Emergency generator presence"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency power switchover latency",
+              "aliases": [
+                "Automatic transfer switch latency",
+                "Generator power restoration duration"
+              ]
+            },
+            {
+              "topic": "gsdp_compliance_score",
+              "label": "Good storage and distribution practices audit score",
+              "aliases": [
+                "GSDP quality audit score",
+                "Pharmaceutical distribution compliance rating"
+              ]
+            },
+            {
+              "topic": "dock_high_bay_count",
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ]
+            },
+            {
+              "topic": "biometric_access_coverage",
+              "label": "Biometric access control perimeter coverage",
+              "aliases": [
+                "Biometric security coverage",
+                "Vault biometric credentialing percentage"
+              ]
+            },
+            {
+              "topic": "highway_access_time",
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ]
+            },
+            {
+              "topic": "cold_pallet_capacity",
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ]
+            },
+            {
+              "topic": "quarantine_pallet_reserve",
+              "label": "Mandatory regulatory quarantine pallet reserve",
+              "aliases": [
+                "Quarantine pallet reservation",
+                "Reserved inspection pallet positions"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fleet_logistics",
+        "facilities_engineering",
+        "warehouse_operations"
+      ],
+      "role_names": [
+        "Logistics and fleet lead (LOG)",
+        "Facilities engineering lead (FAC)",
+        "Warehouse operations lead (WH)"
+      ],
+      "directory": "number_expansion/misaligned/task_789/k3",
+      "error_profiles": [
+        {
+          "role_name": "Logistics and fleet lead (LOG)",
+          "target_key": "LOG-TRANS-M3J",
+          "alternate_key": "LOG-TRANS-BAQ",
+          "target_context": "production routing environment",
+          "alternate_context": "staging routing environment",
+          "candidate": "Piedmont Regional Distribution Center",
+          "other_candidates": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "highway_access_time",
+              "value": 8,
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "backup_generator_installed",
+              "label": "Emergency backup generator installed",
+              "aliases": [
+                "Standby power generator installation",
+                "Emergency generator presence"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency power switchover latency",
+              "aliases": [
+                "Automatic transfer switch latency",
+                "Generator power restoration duration"
+              ]
+            },
+            {
+              "topic": "gsdp_compliance_score",
+              "label": "Good storage and distribution practices audit score",
+              "aliases": [
+                "GSDP quality audit score",
+                "Pharmaceutical distribution compliance rating"
+              ]
+            },
+            {
+              "topic": "dock_high_bay_count",
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ]
+            },
+            {
+              "topic": "biometric_access_coverage",
+              "label": "Biometric access control perimeter coverage",
+              "aliases": [
+                "Biometric security coverage",
+                "Vault biometric credentialing percentage"
+              ]
+            },
+            {
+              "topic": "highway_access_time",
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ]
+            },
+            {
+              "topic": "cold_pallet_capacity",
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ]
+            },
+            {
+              "topic": "quarantine_pallet_reserve",
+              "label": "Mandatory regulatory quarantine pallet reserve",
+              "aliases": [
+                "Quarantine pallet reservation",
+                "Reserved inspection pallet positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Facilities engineering lead (FAC)",
+          "target_key": "FAC-HVAC-J0A",
+          "alternate_key": "FAC-HVAC-9DU",
+          "target_context": "Baseline v2.0",
+          "alternate_context": "Baseline v3.0",
+          "candidate": "Piedmont Regional Distribution Center",
+          "other_candidates": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "cold_pallet_capacity",
+              "value": 3000,
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "backup_generator_installed",
+              "label": "Emergency backup generator installed",
+              "aliases": [
+                "Standby power generator installation",
+                "Emergency generator presence"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency power switchover latency",
+              "aliases": [
+                "Automatic transfer switch latency",
+                "Generator power restoration duration"
+              ]
+            },
+            {
+              "topic": "gsdp_compliance_score",
+              "label": "Good storage and distribution practices audit score",
+              "aliases": [
+                "GSDP quality audit score",
+                "Pharmaceutical distribution compliance rating"
+              ]
+            },
+            {
+              "topic": "dock_high_bay_count",
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ]
+            },
+            {
+              "topic": "biometric_access_coverage",
+              "label": "Biometric access control perimeter coverage",
+              "aliases": [
+                "Biometric security coverage",
+                "Vault biometric credentialing percentage"
+              ]
+            },
+            {
+              "topic": "highway_access_time",
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ]
+            },
+            {
+              "topic": "cold_pallet_capacity",
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ]
+            },
+            {
+              "topic": "quarantine_pallet_reserve",
+              "label": "Mandatory regulatory quarantine pallet reserve",
+              "aliases": [
+                "Quarantine pallet reservation",
+                "Reserved inspection pallet positions"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Warehouse operations lead (WH)",
+          "target_key": "WH-STOR-RAS",
+          "alternate_key": "WH-STOR-Q9V",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Piedmont Regional Distribution Center",
+          "other_candidates": [
+            "Shenandoah Intermodal Logistics Depot",
+            "Cumberland Valley Emergency Reserve Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "dock_high_bay_count",
+              "value": 12,
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ],
+              "unit": "bays"
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "value": 18000,
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ],
+              "unit": "pallets"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "backup_generator_installed",
+              "label": "Emergency backup generator installed",
+              "aliases": [
+                "Standby power generator installation",
+                "Emergency generator presence"
+              ]
+            },
+            {
+              "topic": "generator_switchover_time",
+              "label": "Emergency power switchover latency",
+              "aliases": [
+                "Automatic transfer switch latency",
+                "Generator power restoration duration"
+              ]
+            },
+            {
+              "topic": "gsdp_compliance_score",
+              "label": "Good storage and distribution practices audit score",
+              "aliases": [
+                "GSDP quality audit score",
+                "Pharmaceutical distribution compliance rating"
+              ]
+            },
+            {
+              "topic": "dock_high_bay_count",
+              "label": "Dock-high loading bay count",
+              "aliases": [
+                "Hydraulic loading bay count",
+                "Freight loading docks"
+              ]
+            },
+            {
+              "topic": "biometric_access_coverage",
+              "label": "Biometric access control perimeter coverage",
+              "aliases": [
+                "Biometric security coverage",
+                "Vault biometric credentialing percentage"
+              ]
+            },
+            {
+              "topic": "highway_access_time",
+              "label": "Interstate highway arterial travel time",
+              "aliases": [
+                "Highway transit duration",
+                "Interstate ramp travel time"
+              ]
+            },
+            {
+              "topic": "ambient_pallet_capacity",
+              "label": "Ambient pallet rack storage capacity",
+              "aliases": [
+                "Ambient pallet storage",
+                "Standard temperature pallet positions"
+              ]
+            },
+            {
+              "topic": "cold_pallet_capacity",
+              "label": "Cold-chain refrigerated pallet storage capacity",
+              "aliases": [
+                "Cold room pallet capacity",
+                "Refrigerated pallet positions"
+              ]
+            },
+            {
+              "topic": "quarantine_pallet_reserve",
+              "label": "Mandatory regulatory quarantine pallet reserve",
+              "aliases": [
+                "Quarantine pallet reservation",
+                "Reserved inspection pallet positions"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

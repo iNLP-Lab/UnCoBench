@@ -1,0 +1,454 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_921",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_and_utilities",
+        "shelter_operations"
+      ],
+      "role_names": [
+        "Utilities and energy lead (UEL)",
+        "Shelter operations lead (SOL)"
+      ],
+      "directory": "number_expansion/misaligned/task_921/k2",
+      "error_profiles": [
+        {
+          "role_name": "Utilities and energy lead (UEL)",
+          "target_key": "UEL-UTIL-FMN",
+          "alternate_key": "UEL-UTIL-5AK",
+          "target_context": "after deducting emergency operational reserves",
+          "alternate_context": "before deducting emergency operational reserves",
+          "candidate": "Airlie Point Maritime Complex",
+          "other_candidates": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "potable_water_daily_output",
+              "value": 75,
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ],
+              "unit": "kL/d"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_surge_barrier_active",
+              "label": "Storm-surge tidal barrier operational",
+              "aliases": [
+                "Surge barrier status",
+                "Active tidal barrier"
+              ]
+            },
+            {
+              "topic": "barrier_freeboard_height",
+              "label": "Barrier crest freeboard height",
+              "aliases": [
+                "Storm barrier freeboard",
+                "Crest elevation above high-water spring"
+              ]
+            },
+            {
+              "topic": "potable_water_daily_output",
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ]
+            },
+            {
+              "topic": "all_tide_deep_draft_access",
+              "label": "All-tide deep-draft access",
+              "aliases": [
+                "Continuous deep-draft clearance",
+                "All-tide navigation access"
+              ]
+            },
+            {
+              "topic": "mobilization_contingency_budget",
+              "label": "Mobilization contingency budget",
+              "aliases": [
+                "Contingency allocation",
+                "Initial mobilization funding"
+              ]
+            },
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Shelter operations lead (SOL)",
+          "target_key": "SOL-SHEL-VOC",
+          "alternate_key": "SOL-SHEL-OD5",
+          "target_context": "after deducting emergency response staff berths",
+          "alternate_context": "before deducting emergency response staff berths",
+          "candidate": "Airlie Point Maritime Complex",
+          "other_candidates": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "value": 400,
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ],
+              "unit": "person"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_surge_barrier_active",
+              "label": "Storm-surge tidal barrier operational",
+              "aliases": [
+                "Surge barrier status",
+                "Active tidal barrier"
+              ]
+            },
+            {
+              "topic": "barrier_freeboard_height",
+              "label": "Barrier crest freeboard height",
+              "aliases": [
+                "Storm barrier freeboard",
+                "Crest elevation above high-water spring"
+              ]
+            },
+            {
+              "topic": "potable_water_daily_output",
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ]
+            },
+            {
+              "topic": "all_tide_deep_draft_access",
+              "label": "All-tide deep-draft access",
+              "aliases": [
+                "Continuous deep-draft clearance",
+                "All-tide navigation access"
+              ]
+            },
+            {
+              "topic": "mobilization_contingency_budget",
+              "label": "Mobilization contingency budget",
+              "aliases": [
+                "Contingency allocation",
+                "Initial mobilization funding"
+              ]
+            },
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_and_utilities",
+        "shelter_operations",
+        "medical_and_public_health"
+      ],
+      "role_names": [
+        "Utilities and energy lead (UEL)",
+        "Shelter operations lead (SOL)",
+        "Public health and triage lead (PHL)"
+      ],
+      "directory": "number_expansion/misaligned/task_921/k3",
+      "error_profiles": [
+        {
+          "role_name": "Utilities and energy lead (UEL)",
+          "target_key": "UEL-UTIL-FMN",
+          "alternate_key": "UEL-UTIL-5AK",
+          "target_context": "after deducting emergency operational reserves",
+          "alternate_context": "before deducting emergency operational reserves",
+          "candidate": "Airlie Point Maritime Complex",
+          "other_candidates": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "potable_water_daily_output",
+              "value": 75,
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ],
+              "unit": "kL/d"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_surge_barrier_active",
+              "label": "Storm-surge tidal barrier operational",
+              "aliases": [
+                "Surge barrier status",
+                "Active tidal barrier"
+              ]
+            },
+            {
+              "topic": "barrier_freeboard_height",
+              "label": "Barrier crest freeboard height",
+              "aliases": [
+                "Storm barrier freeboard",
+                "Crest elevation above high-water spring"
+              ]
+            },
+            {
+              "topic": "potable_water_daily_output",
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ]
+            },
+            {
+              "topic": "all_tide_deep_draft_access",
+              "label": "All-tide deep-draft access",
+              "aliases": [
+                "Continuous deep-draft clearance",
+                "All-tide navigation access"
+              ]
+            },
+            {
+              "topic": "mobilization_contingency_budget",
+              "label": "Mobilization contingency budget",
+              "aliases": [
+                "Contingency allocation",
+                "Initial mobilization funding"
+              ]
+            },
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Shelter operations lead (SOL)",
+          "target_key": "SOL-SHEL-VOC",
+          "alternate_key": "SOL-SHEL-OD5",
+          "target_context": "after deducting emergency response staff berths",
+          "alternate_context": "before deducting emergency response staff berths",
+          "candidate": "Airlie Point Maritime Complex",
+          "other_candidates": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "numeric": [
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "value": 400,
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ],
+              "unit": "person"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_surge_barrier_active",
+              "label": "Storm-surge tidal barrier operational",
+              "aliases": [
+                "Surge barrier status",
+                "Active tidal barrier"
+              ]
+            },
+            {
+              "topic": "barrier_freeboard_height",
+              "label": "Barrier crest freeboard height",
+              "aliases": [
+                "Storm barrier freeboard",
+                "Crest elevation above high-water spring"
+              ]
+            },
+            {
+              "topic": "potable_water_daily_output",
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ]
+            },
+            {
+              "topic": "all_tide_deep_draft_access",
+              "label": "All-tide deep-draft access",
+              "aliases": [
+                "Continuous deep-draft clearance",
+                "All-tide navigation access"
+              ]
+            },
+            {
+              "topic": "mobilization_contingency_budget",
+              "label": "Mobilization contingency budget",
+              "aliases": [
+                "Contingency allocation",
+                "Initial mobilization funding"
+              ]
+            },
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Public health and triage lead (PHL)",
+          "target_key": "PHL-MEDI-8HQ",
+          "alternate_key": "PHL-MEDI-8LV",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Airlie Point Maritime Complex",
+          "other_candidates": [
+            "Hayman Sound Emergency Depot",
+            "Shute Harbour Staging Facility"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "value": true,
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_surge_barrier_active",
+              "label": "Storm-surge tidal barrier operational",
+              "aliases": [
+                "Surge barrier status",
+                "Active tidal barrier"
+              ]
+            },
+            {
+              "topic": "barrier_freeboard_height",
+              "label": "Barrier crest freeboard height",
+              "aliases": [
+                "Storm barrier freeboard",
+                "Crest elevation above high-water spring"
+              ]
+            },
+            {
+              "topic": "potable_water_daily_output",
+              "label": "Potable water daily output",
+              "aliases": [
+                "Desalination water output",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "quarantine_isolation_ward_ready",
+              "label": "Certified quarantine isolation ward readiness",
+              "aliases": [
+                "Isolation ward compliance",
+                "Quarantine unit readiness"
+              ]
+            },
+            {
+              "topic": "all_tide_deep_draft_access",
+              "label": "All-tide deep-draft access",
+              "aliases": [
+                "Continuous deep-draft clearance",
+                "All-tide navigation access"
+              ]
+            },
+            {
+              "topic": "mobilization_contingency_budget",
+              "label": "Mobilization contingency budget",
+              "aliases": [
+                "Contingency allocation",
+                "Initial mobilization funding"
+              ]
+            },
+            {
+              "topic": "sheltered_evacuee_capacity",
+              "label": "Sheltered evacuee capacity",
+              "aliases": [
+                "Bunkered shelter capacity",
+                "Certified evacuee head count"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

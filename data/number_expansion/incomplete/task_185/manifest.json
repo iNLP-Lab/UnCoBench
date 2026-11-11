@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_185",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_engineering",
+        "upstream_bioprocess"
+      ],
+      "role_names": [
+        "Facility Engineering and Contamination Lead (FEC)",
+        "Upstream Bioprocess Operations Lead (UBO)"
+      ],
+      "directory": "incomplete/task_185",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "FEC-HVAC-GHL",
+          "boolean_predicate_id": "A_automated_monitoring_active",
+          "boolean_label": "Automated environmental monitoring active",
+          "hidden_predicate_id": "A_particulate_recovery_time",
+          "threshold_label": "Particulate decontamination recovery duration",
+          "threshold_aliases": [
+            "Cleanroom recovery period",
+            "Decontamination clean-up duration"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "FEC-HVAC-GHL: Hasselt Modular Single-Use Suite.Hasselt Modular Single-Use Suite: Grade B cleanroom compliance certified = true .Source: Cleanroom qualification certificate; Scope: Primary processing core and classified aseptic corridors; Measurement: Whether formal ISO 14644 and EU GMP Grade B qualification certification is active.Hasselt Modular Single-Use Suite: Automated environmental monitoring active = true .Source: Facility supervisory control dashboard; Scope: Candidate bioprocess suite during active operations; Measurement: Operational online status of continuous airborne particulate and aerosol counters.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Particulate decontamination recovery duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Facility Engineering and Contamination Lead (FEC)",
+          "candidate_name": "Hasselt Modular Single-Use Suite",
+          "other_candidate_names": [
+            "Cork Automated Perfusion Suite",
+            "Novara Stainless Fed-Batch Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_upstream_bioprocess_A",
+          "role_id": "upstream_bioprocess",
+          "candidate_id": "A",
+          "key": "UBO-CELL-FSC",
+          "hidden_predicate_id": "A_harvest_cell_viability",
+          "threshold_label": "Harvest cell viability",
+          "threshold_aliases": [
+            "End-of-production cell viability",
+            "Terminal harvest viability"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "%",
+          "partial_record_text": "UBO-CELL-FSC: Hasselt Modular Single-Use Suite.Yield measurement basis: after deducting quality-control retention samples.Hasselt Modular Single-Use Suite: Validated batch mass yield = 24 kg/batch.Source: Process analytical qualification summary; Scope: Single bioreactor harvest cycle through final drug substance ultrafiltration; Measurement: Average mass of purified therapeutic monoclonal antibody recovered per completed batch.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Harvest cell viability is between 50 % and 100 %, inclusive.",
+          "role_name": "Upstream Bioprocess Operations Lead (UBO)",
+          "candidate_name": "Hasselt Modular Single-Use Suite",
+          "other_candidate_names": [
+            "Cork Automated Perfusion Suite",
+            "Novara Stainless Fed-Batch Suite"
+          ],
+          "context_value": "after deducting quality-control retention samples",
+          "other_context_values": [
+            "before deducting quality-control retention samples"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_engineering",
+        "upstream_bioprocess",
+        "production_planning"
+      ],
+      "role_names": [
+        "Facility Engineering and Contamination Lead (FEC)",
+        "Upstream Bioprocess Operations Lead (UBO)",
+        "Production Planning and Scheduling Lead (PPS)"
+      ],
+      "directory": "incomplete/task_185",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "FEC-HVAC-GHL",
+          "boolean_predicate_id": "A_automated_monitoring_active",
+          "boolean_label": "Automated environmental monitoring active",
+          "hidden_predicate_id": "A_particulate_recovery_time",
+          "threshold_label": "Particulate decontamination recovery duration",
+          "threshold_aliases": [
+            "Cleanroom recovery period",
+            "Decontamination clean-up duration"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "FEC-HVAC-GHL: Hasselt Modular Single-Use Suite.Hasselt Modular Single-Use Suite: Grade B cleanroom compliance certified = true .Source: Cleanroom qualification certificate; Scope: Primary processing core and classified aseptic corridors; Measurement: Whether formal ISO 14644 and EU GMP Grade B qualification certification is active.Hasselt Modular Single-Use Suite: Automated environmental monitoring active = true .Source: Facility supervisory control dashboard; Scope: Candidate bioprocess suite during active operations; Measurement: Operational online status of continuous airborne particulate and aerosol counters.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Particulate decontamination recovery duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Facility Engineering and Contamination Lead (FEC)",
+          "candidate_name": "Hasselt Modular Single-Use Suite",
+          "other_candidate_names": [
+            "Cork Automated Perfusion Suite",
+            "Novara Stainless Fed-Batch Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_upstream_bioprocess_A",
+          "role_id": "upstream_bioprocess",
+          "candidate_id": "A",
+          "key": "UBO-CELL-FSC",
+          "hidden_predicate_id": "A_harvest_cell_viability",
+          "threshold_label": "Harvest cell viability",
+          "threshold_aliases": [
+            "End-of-production cell viability",
+            "Terminal harvest viability"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "%",
+          "partial_record_text": "UBO-CELL-FSC: Hasselt Modular Single-Use Suite.Yield measurement basis: after deducting quality-control retention samples.Hasselt Modular Single-Use Suite: Validated batch mass yield = 24 kg/batch.Source: Process analytical qualification summary; Scope: Single bioreactor harvest cycle through final drug substance ultrafiltration; Measurement: Average mass of purified therapeutic monoclonal antibody recovered per completed batch.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Harvest cell viability is between 50 % and 100 %, inclusive.",
+          "role_name": "Upstream Bioprocess Operations Lead (UBO)",
+          "candidate_name": "Hasselt Modular Single-Use Suite",
+          "other_candidate_names": [
+            "Cork Automated Perfusion Suite",
+            "Novara Stainless Fed-Batch Suite"
+          ],
+          "context_value": "after deducting quality-control retention samples",
+          "other_context_values": [
+            "before deducting quality-control retention samples"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_production_planning_A",
+          "role_id": "production_planning",
+          "candidate_id": "A",
+          "key": "PPS-SCHED-MQ5",
+          "hidden_predicate_id": "A_scheduled_campaign_batches",
+          "threshold_label": "Scheduled campaign batch count",
+          "threshold_aliases": [
+            "Planned production runs",
+            "Scheduled campaign batches"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "batch",
+          "partial_record_text": "PPS-SCHED-MQ5: Hasselt Modular Single-Use Suite. The record covers Scheduled campaign batch count. Master manufacturing schedule; Dedicated Phase III production slot; Total number of production bioreactor runs contracted and scheduled for this campaign.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scheduled campaign batch count is between 0 batch and 30 batch, inclusive.",
+          "role_name": "Production Planning and Scheduling Lead (PPS)",
+          "candidate_name": "Hasselt Modular Single-Use Suite",
+          "other_candidate_names": [
+            "Cork Automated Perfusion Suite",
+            "Novara Stainless Fed-Batch Suite"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

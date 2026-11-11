@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_578",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Drone flight operations manager (DFO)",
+        "Environmental acoustic officer (EAO)"
+      ],
+      "directory": "number_expansion/misaligned/task_578/k2",
+      "error_profiles": [
+        {
+          "role_name": "Drone flight operations manager (DFO)",
+          "target_key": "DFO-FLTOPS-4MJ",
+          "alternate_key": "DFO-FLTOPS-39I",
+          "target_context": "trailing 30-day audit period",
+          "alternate_context": "trailing 12-month audit period",
+          "candidate": "Highland Valley Low-Level Corridor",
+          "other_candidates": [
+            "Great Glen Waterway Flight Route",
+            "Grampian Ridge Navigation Alignment"
+          ],
+          "numeric": [
+            {
+              "topic": "ground_radar_tracking_pct",
+              "value": 95,
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ],
+              "unit": "%"
+            },
+            {
+              "topic": "core_airway_distance",
+              "value": 80,
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ],
+              "unit": "km"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_clearance_granted",
+              "label": "BVLOS airspace clearance permit granted",
+              "aliases": [
+                "CAA BVLOS clearance",
+                "Airspace segregation authorization"
+              ]
+            },
+            {
+              "topic": "ground_radar_tracking_pct",
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ]
+            },
+            {
+              "topic": "emergency_landing_sites_verified",
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ]
+            },
+            {
+              "topic": "backup_satellite_telemetry_active",
+              "label": "Redundant satellite telemetry link active",
+              "aliases": [
+                "Satellite backup telemetry status",
+                "Secondary satcom link enablement"
+              ]
+            },
+            {
+              "topic": "weather_telemetry_latency_ms",
+              "label": "Severe-weather telemetry latency",
+              "aliases": [
+                "Adverse weather telemetry latency",
+                "Peak communication latency"
+              ]
+            },
+            {
+              "topic": "acoustic_noise_compliance",
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ]
+            },
+            {
+              "topic": "core_airway_distance",
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ]
+            },
+            {
+              "topic": "diversion_leg_distance",
+              "label": "Mandatory safety diversion distance",
+              "aliases": [
+                "Diversion route length",
+                "Contingency loop distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental acoustic officer (EAO)",
+          "target_key": "EAO-ENVNOI-9Q2",
+          "alternate_key": "EAO-ENVNOI-Y0M",
+          "target_context": "fleet configuration v2.0",
+          "alternate_context": "fleet configuration v3.0",
+          "candidate": "Highland Valley Low-Level Corridor",
+          "other_candidates": [
+            "Great Glen Waterway Flight Route",
+            "Grampian Ridge Navigation Alignment"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "acoustic_noise_compliance",
+              "value": true,
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_clearance_granted",
+              "label": "BVLOS airspace clearance permit granted",
+              "aliases": [
+                "CAA BVLOS clearance",
+                "Airspace segregation authorization"
+              ]
+            },
+            {
+              "topic": "ground_radar_tracking_pct",
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ]
+            },
+            {
+              "topic": "emergency_landing_sites_verified",
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ]
+            },
+            {
+              "topic": "backup_satellite_telemetry_active",
+              "label": "Redundant satellite telemetry link active",
+              "aliases": [
+                "Satellite backup telemetry status",
+                "Secondary satcom link enablement"
+              ]
+            },
+            {
+              "topic": "weather_telemetry_latency_ms",
+              "label": "Severe-weather telemetry latency",
+              "aliases": [
+                "Adverse weather telemetry latency",
+                "Peak communication latency"
+              ]
+            },
+            {
+              "topic": "acoustic_noise_compliance",
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ]
+            },
+            {
+              "topic": "core_airway_distance",
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ]
+            },
+            {
+              "topic": "diversion_leg_distance",
+              "label": "Mandatory safety diversion distance",
+              "aliases": [
+                "Diversion route length",
+                "Contingency loop distance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "environmental_compliance",
+        "safety_infrastructure"
+      ],
+      "role_names": [
+        "Drone flight operations manager (DFO)",
+        "Environmental acoustic officer (EAO)",
+        "Ground safety and recovery coordinator (GSC)"
+      ],
+      "directory": "number_expansion/misaligned/task_578/k3",
+      "error_profiles": [
+        {
+          "role_name": "Drone flight operations manager (DFO)",
+          "target_key": "DFO-FLTOPS-4MJ",
+          "alternate_key": "DFO-FLTOPS-39I",
+          "target_context": "trailing 30-day audit period",
+          "alternate_context": "trailing 12-month audit period",
+          "candidate": "Highland Valley Low-Level Corridor",
+          "other_candidates": [
+            "Great Glen Waterway Flight Route",
+            "Grampian Ridge Navigation Alignment"
+          ],
+          "numeric": [
+            {
+              "topic": "ground_radar_tracking_pct",
+              "value": 95,
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ],
+              "unit": "%"
+            },
+            {
+              "topic": "core_airway_distance",
+              "value": 80,
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ],
+              "unit": "km"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_clearance_granted",
+              "label": "BVLOS airspace clearance permit granted",
+              "aliases": [
+                "CAA BVLOS clearance",
+                "Airspace segregation authorization"
+              ]
+            },
+            {
+              "topic": "ground_radar_tracking_pct",
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ]
+            },
+            {
+              "topic": "emergency_landing_sites_verified",
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ]
+            },
+            {
+              "topic": "backup_satellite_telemetry_active",
+              "label": "Redundant satellite telemetry link active",
+              "aliases": [
+                "Satellite backup telemetry status",
+                "Secondary satcom link enablement"
+              ]
+            },
+            {
+              "topic": "weather_telemetry_latency_ms",
+              "label": "Severe-weather telemetry latency",
+              "aliases": [
+                "Adverse weather telemetry latency",
+                "Peak communication latency"
+              ]
+            },
+            {
+              "topic": "acoustic_noise_compliance",
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ]
+            },
+            {
+              "topic": "core_airway_distance",
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ]
+            },
+            {
+              "topic": "diversion_leg_distance",
+              "label": "Mandatory safety diversion distance",
+              "aliases": [
+                "Diversion route length",
+                "Contingency loop distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental acoustic officer (EAO)",
+          "target_key": "EAO-ENVNOI-9Q2",
+          "alternate_key": "EAO-ENVNOI-Y0M",
+          "target_context": "fleet configuration v2.0",
+          "alternate_context": "fleet configuration v3.0",
+          "candidate": "Highland Valley Low-Level Corridor",
+          "other_candidates": [
+            "Great Glen Waterway Flight Route",
+            "Grampian Ridge Navigation Alignment"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "acoustic_noise_compliance",
+              "value": true,
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_clearance_granted",
+              "label": "BVLOS airspace clearance permit granted",
+              "aliases": [
+                "CAA BVLOS clearance",
+                "Airspace segregation authorization"
+              ]
+            },
+            {
+              "topic": "ground_radar_tracking_pct",
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ]
+            },
+            {
+              "topic": "emergency_landing_sites_verified",
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ]
+            },
+            {
+              "topic": "backup_satellite_telemetry_active",
+              "label": "Redundant satellite telemetry link active",
+              "aliases": [
+                "Satellite backup telemetry status",
+                "Secondary satcom link enablement"
+              ]
+            },
+            {
+              "topic": "weather_telemetry_latency_ms",
+              "label": "Severe-weather telemetry latency",
+              "aliases": [
+                "Adverse weather telemetry latency",
+                "Peak communication latency"
+              ]
+            },
+            {
+              "topic": "acoustic_noise_compliance",
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ]
+            },
+            {
+              "topic": "core_airway_distance",
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ]
+            },
+            {
+              "topic": "diversion_leg_distance",
+              "label": "Mandatory safety diversion distance",
+              "aliases": [
+                "Diversion route length",
+                "Contingency loop distance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ground safety and recovery coordinator (GSC)",
+          "target_key": "GSC-SAFEINF-FLK",
+          "alternate_key": "GSC-SAFEINF-TVI",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Highland Valley Low-Level Corridor",
+          "other_candidates": [
+            "Great Glen Waterway Flight Route",
+            "Grampian Ridge Navigation Alignment"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "emergency_landing_sites_verified",
+              "value": true,
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "bvlos_clearance_granted",
+              "label": "BVLOS airspace clearance permit granted",
+              "aliases": [
+                "CAA BVLOS clearance",
+                "Airspace segregation authorization"
+              ]
+            },
+            {
+              "topic": "ground_radar_tracking_pct",
+              "label": "Ground radar tracking coverage",
+              "aliases": [
+                "Sensor tracking coverage",
+                "Detect-and-avoid surveillance coverage"
+              ]
+            },
+            {
+              "topic": "emergency_landing_sites_verified",
+              "label": "Emergency landing site readiness verified",
+              "aliases": [
+                "Contingency landing zone readiness",
+                "Emergency diversion pad verification"
+              ]
+            },
+            {
+              "topic": "backup_satellite_telemetry_active",
+              "label": "Redundant satellite telemetry link active",
+              "aliases": [
+                "Satellite backup telemetry status",
+                "Secondary satcom link enablement"
+              ]
+            },
+            {
+              "topic": "weather_telemetry_latency_ms",
+              "label": "Severe-weather telemetry latency",
+              "aliases": [
+                "Adverse weather telemetry latency",
+                "Peak communication latency"
+              ]
+            },
+            {
+              "topic": "acoustic_noise_compliance",
+              "label": "Municipal acoustic noise impact compliance",
+              "aliases": [
+                "Acoustic noise compliance",
+                "Community noise permit status"
+              ]
+            },
+            {
+              "topic": "core_airway_distance",
+              "label": "Core airway distance",
+              "aliases": [
+                "Main route distance",
+                "Primary corridor flight distance"
+              ]
+            },
+            {
+              "topic": "diversion_leg_distance",
+              "label": "Mandatory safety diversion distance",
+              "aliases": [
+                "Diversion route length",
+                "Contingency loop distance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

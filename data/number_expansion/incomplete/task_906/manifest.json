@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_906",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "maritime_weather"
+      ],
+      "role_names": [
+        "Aviation Operations Lead (FLT)",
+        "Meteorological and Oceanographic Officer (MET)"
+      ],
+      "directory": "incomplete/task_906",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-AIR-C4J",
+          "boolean_predicate_id": "A_deicing_system_equipped",
+          "boolean_label": "Airframe de-icing system equipped",
+          "hidden_predicate_id": "A_continuous_icing_endurance",
+          "threshold_label": "Continuous icing endurance",
+          "threshold_aliases": [
+            "Icing flight duration",
+            "Maximum sustained icing penetration time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-AIR-C4J: Rotary-Wing Amphibious Relay.Rotary-Wing Amphibious Relay: Airframe de-icing system equipped = true .Source: Airworthiness inspection sheet; Scope: Assigned airframe configuration for humanitarian missions; Measurement: Verification that active de-icing systems are installed and functional.",
+          "role_name": "Aviation Operations Lead (FLT)",
+          "candidate_name": "Rotary-Wing Amphibious Relay",
+          "other_candidate_names": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_weather_A",
+          "role_id": "maritime_weather",
+          "candidate_id": "A",
+          "key": "MET-WEATHER-W8T",
+          "hidden_predicate_id": "A_max_wave_height_tolerance",
+          "threshold_label": "Sea state wave height tolerance",
+          "threshold_aliases": [
+            "Offshore sea state tolerance",
+            "Maximum significant wave height envelope"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "m",
+          "partial_record_text": "MET-WEATHER-W8T: Rotary-Wing Amphibious Relay. The record covers Sea state wave height tolerance. Maritime flight and landing limits manual; Offshore vessel deck and amphibious sea-surface operations; Maximum significant wave height under which approach and boarding remain authorized.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Sea state wave height tolerance is at least 2 m.",
+          "role_name": "Meteorological and Oceanographic Officer (MET)",
+          "candidate_name": "Rotary-Wing Amphibious Relay",
+          "other_candidate_names": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "maritime_weather",
+        "medical_evacuation"
+      ],
+      "role_names": [
+        "Aviation Operations Lead (FLT)",
+        "Meteorological and Oceanographic Officer (MET)",
+        "Emergency Medical Services Lead (MED)"
+      ],
+      "directory": "incomplete/task_906",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-AIR-C4J",
+          "boolean_predicate_id": "A_deicing_system_equipped",
+          "boolean_label": "Airframe de-icing system equipped",
+          "hidden_predicate_id": "A_continuous_icing_endurance",
+          "threshold_label": "Continuous icing endurance",
+          "threshold_aliases": [
+            "Icing flight duration",
+            "Maximum sustained icing penetration time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-AIR-C4J: Rotary-Wing Amphibious Relay.Rotary-Wing Amphibious Relay: Airframe de-icing system equipped = true .Source: Airworthiness inspection sheet; Scope: Assigned airframe configuration for humanitarian missions; Measurement: Verification that active de-icing systems are installed and functional.",
+          "role_name": "Aviation Operations Lead (FLT)",
+          "candidate_name": "Rotary-Wing Amphibious Relay",
+          "other_candidate_names": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_weather_A",
+          "role_id": "maritime_weather",
+          "candidate_id": "A",
+          "key": "MET-WEATHER-W8T",
+          "hidden_predicate_id": "A_max_wave_height_tolerance",
+          "threshold_label": "Sea state wave height tolerance",
+          "threshold_aliases": [
+            "Offshore sea state tolerance",
+            "Maximum significant wave height envelope"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "m",
+          "partial_record_text": "MET-WEATHER-W8T: Rotary-Wing Amphibious Relay. The record covers Sea state wave height tolerance. Maritime flight and landing limits manual; Offshore vessel deck and amphibious sea-surface operations; Maximum significant wave height under which approach and boarding remain authorized.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Sea state wave height tolerance is at least 2 m.",
+          "role_name": "Meteorological and Oceanographic Officer (MET)",
+          "candidate_name": "Rotary-Wing Amphibious Relay",
+          "other_candidate_names": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_evacuation_A",
+          "role_id": "medical_evacuation",
+          "candidate_id": "A",
+          "key": "MED-TRIAGE-L3Y",
+          "hidden_predicate_id": "A_critical_care_berth_count",
+          "threshold_label": "Critical care capacity",
+          "threshold_aliases": [
+            "Intensive care litter berths",
+            "Critical care stretcher positions"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "berths",
+          "partial_record_text": "MED-TRIAGE-L3Y: Rotary-Wing Amphibious Relay.Rotary-Wing Amphibious Relay: Forward medical restaging turnaround time = 50 min.Source: Field triage operation log; Scope: Forward island clinic landing strip; Measurement: Elapsed minutes required to offload medical supplies, secure critical patients onto litters, and hand over clinical records.",
+          "role_name": "Emergency Medical Services Lead (MED)",
+          "candidate_name": "Rotary-Wing Amphibious Relay",
+          "other_candidate_names": [
+            "Rough-Field STOL Shuttle",
+            "Tiltrotor Maritime Direct Insertion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

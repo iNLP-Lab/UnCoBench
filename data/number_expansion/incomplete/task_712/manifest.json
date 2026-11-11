@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_712",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "compliance_regulatory",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Regulatory compliance auditor (COMPL)",
+        "Fleet operations manager (OPS)"
+      ],
+      "directory": "incomplete/task_712",
+      "profiles": [
+        {
+          "record_id": "rec_compliance_regulatory_A",
+          "role_id": "compliance_regulatory",
+          "candidate_id": "A",
+          "key": "COMPL-AUDIT-2MP",
+          "boolean_predicate_id": "A_gdp_certification_active",
+          "boolean_label": "Active Good Distribution Practice certification",
+          "hidden_predicate_id": "A_minor_audit_infractions",
+          "threshold_label": "Minor regulatory audit infractions",
+          "threshold_aliases": [
+            "Minor audit findings",
+            "Regulatory inspection deviations"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "infractions",
+          "partial_record_text": "COMPL-AUDIT-2MP: CryoTrans Logistics.CryoTrans Logistics: Active Good Distribution Practice certification = true .Source: National pharmaceutical regulatory agency registry; Scope: Candidate corporate logistics operating license; Measurement: Whether provider holds an unexpired and valid Good Distribution Practice compliance certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Minor regulatory audit infractions is at most 8 infractions.",
+          "role_name": "Regulatory compliance auditor (COMPL)",
+          "candidate_name": "CryoTrans Logistics",
+          "other_candidate_names": [
+            "PolarRoute Express",
+            "ArcticVanguard Courier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "OPS-FLEET-EU0",
+          "hidden_predicate_id": "A_ontime_temperature_rate",
+          "threshold_label": "Temperature-controlled on-time delivery rate",
+          "threshold_aliases": [
+            "On-time in-specification delivery percentage",
+            "Cold chain SLA adherence rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "OPS-FLEET-EU0: CryoTrans Logistics.CryoTrans Logistics: Total refrigerated transport capacity = 260 pallet.Source: Fleet inventory and vehicle specification registry; Scope: Active validated multi-temperature reefer vehicle fleet; Measurement: Gross standardized pharmaceutical pallet positions available across operable transit units.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Temperature-controlled on-time delivery rate is at most 100 %.",
+          "role_name": "Fleet operations manager (OPS)",
+          "candidate_name": "CryoTrans Logistics",
+          "other_candidate_names": [
+            "PolarRoute Express",
+            "ArcticVanguard Courier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "compliance_regulatory",
+        "fleet_operations",
+        "public_health_liaison"
+      ],
+      "role_names": [
+        "Regulatory compliance auditor (COMPL)",
+        "Fleet operations manager (OPS)",
+        "Public health quota coordinator (HLTH)"
+      ],
+      "directory": "incomplete/task_712",
+      "profiles": [
+        {
+          "record_id": "rec_compliance_regulatory_A",
+          "role_id": "compliance_regulatory",
+          "candidate_id": "A",
+          "key": "COMPL-AUDIT-2MP",
+          "boolean_predicate_id": "A_gdp_certification_active",
+          "boolean_label": "Active Good Distribution Practice certification",
+          "hidden_predicate_id": "A_minor_audit_infractions",
+          "threshold_label": "Minor regulatory audit infractions",
+          "threshold_aliases": [
+            "Minor audit findings",
+            "Regulatory inspection deviations"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "infractions",
+          "partial_record_text": "COMPL-AUDIT-2MP: CryoTrans Logistics.CryoTrans Logistics: Active Good Distribution Practice certification = true .Source: National pharmaceutical regulatory agency registry; Scope: Candidate corporate logistics operating license; Measurement: Whether provider holds an unexpired and valid Good Distribution Practice compliance certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Minor regulatory audit infractions is at most 8 infractions.",
+          "role_name": "Regulatory compliance auditor (COMPL)",
+          "candidate_name": "CryoTrans Logistics",
+          "other_candidate_names": [
+            "PolarRoute Express",
+            "ArcticVanguard Courier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "OPS-FLEET-EU0",
+          "hidden_predicate_id": "A_ontime_temperature_rate",
+          "threshold_label": "Temperature-controlled on-time delivery rate",
+          "threshold_aliases": [
+            "On-time in-specification delivery percentage",
+            "Cold chain SLA adherence rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "OPS-FLEET-EU0: CryoTrans Logistics.CryoTrans Logistics: Total refrigerated transport capacity = 260 pallet.Source: Fleet inventory and vehicle specification registry; Scope: Active validated multi-temperature reefer vehicle fleet; Measurement: Gross standardized pharmaceutical pallet positions available across operable transit units.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Temperature-controlled on-time delivery rate is at most 100 %.",
+          "role_name": "Fleet operations manager (OPS)",
+          "candidate_name": "CryoTrans Logistics",
+          "other_candidate_names": [
+            "PolarRoute Express",
+            "ArcticVanguard Courier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_liaison_A",
+          "role_id": "public_health_liaison",
+          "candidate_id": "A",
+          "key": "HLTH-RESERV-DUT",
+          "hidden_predicate_id": "A_sovereign_reserved_capacity",
+          "threshold_label": "Sovereign reserved capacity",
+          "threshold_aliases": [
+            "Strategic stockpile quota allocation",
+            "Mandatory public health capacity reservation"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "pallet",
+          "partial_record_text": "HLTH-RESERV-DUT: CryoTrans Logistics.CryoTrans Logistics: Public health emergency dispatch endorsement = true .Source: Ministry of Health vendor vetting record; Scope: National strategic biopharmaceutical stockpile distribution roster; Measurement: Official endorsement status allowing prioritized emergency civil health mobilization.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sovereign reserved capacity is at most 70 pallet.",
+          "role_name": "Public health quota coordinator (HLTH)",
+          "candidate_name": "CryoTrans Logistics",
+          "other_candidate_names": [
+            "PolarRoute Express",
+            "ArcticVanguard Courier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

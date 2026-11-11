@@ -1,0 +1,188 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_043",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "logistics_fleet"
+      ],
+      "role_names": [
+        "Public health and environmental hygiene officer (HLT)",
+        "Emergency logistics and supply lead (LOG)"
+      ],
+      "directory": "incomplete/task_043",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLT-HYGIENE-5TG",
+          "boolean_predicate_id": "A_smoke_containment_active",
+          "boolean_label": "Smoke containment positive-pressure ventilation enablement",
+          "hidden_predicate_id": "A_indoor_pm25_concentration",
+          "threshold_label": "Maximum indoor particulate concentration",
+          "threshold_aliases": [
+            "Indoor PM2.5 level"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "HLT-HYGIENE-5TG: Silverstone Regional Sports Arena.Silverstone Regional Sports Arena: Smoke containment positive-pressure ventilation enablement = true .Source: HVAC operational register; Scope: Shelter central air handling units and HEPA filtration dampers; Measurement: Whether positive-pressure clean-air smoke exclusion mode is armed and active.Silverstone Regional Sports Arena: Reserved quarantine isolation beds = 40 beds.Source: Epidemic containment contingency schedule; Scope: Dedicated negative-pressure containment wing; Measurement: Beds legally reserved for infectious symptom segregation and unavailable for general sheltering.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Maximum indoor particulate concentration is at most 70 ug/m3.",
+          "role_name": "Public health and environmental hygiene officer (HLT)",
+          "candidate_name": "Silverstone Regional Sports Arena",
+          "other_candidate_names": [
+            "Highland Crest Community Pavilion",
+            "Valley View Agricultural Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_fleet_A",
+          "role_id": "logistics_fleet",
+          "candidate_id": "A",
+          "key": "LOG-SUPPLY-HE5",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Potable water emergency autonomy",
+          "threshold_aliases": [
+            "Water reserve autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "LOG-SUPPLY-HE5: Silverstone Regional Sports Arena.Silverstone Regional Sports Arena: Secondary gymnasium bed capacity = 300 beds.Source: Auxiliary space deployment manifest; Scope: Enclosed athletic gymnasium hall; Measurement: Number of staging cots deployable within 4 hours by on-site logistics crew.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Potable water emergency autonomy is at most 300 h.",
+          "role_name": "Emergency logistics and supply lead (LOG)",
+          "candidate_name": "Silverstone Regional Sports Arena",
+          "other_candidate_names": [
+            "Highland Crest Community Pavilion",
+            "Valley View Agricultural Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "logistics_fleet",
+        "civil_protection"
+      ],
+      "role_names": [
+        "Public health and environmental hygiene officer (HLT)",
+        "Emergency logistics and supply lead (LOG)",
+        "Civil protection coordinator (CIV)"
+      ],
+      "directory": "incomplete/task_043",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLT-HYGIENE-5TG",
+          "boolean_predicate_id": "A_smoke_containment_active",
+          "boolean_label": "Smoke containment positive-pressure ventilation enablement",
+          "hidden_predicate_id": "A_indoor_pm25_concentration",
+          "threshold_label": "Maximum indoor particulate concentration",
+          "threshold_aliases": [
+            "Indoor PM2.5 level"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "HLT-HYGIENE-5TG: Silverstone Regional Sports Arena.Silverstone Regional Sports Arena: Smoke containment positive-pressure ventilation enablement = true .Source: HVAC operational register; Scope: Shelter central air handling units and HEPA filtration dampers; Measurement: Whether positive-pressure clean-air smoke exclusion mode is armed and active.Silverstone Regional Sports Arena: Reserved quarantine isolation beds = 40 beds.Source: Epidemic containment contingency schedule; Scope: Dedicated negative-pressure containment wing; Measurement: Beds legally reserved for infectious symptom segregation and unavailable for general sheltering.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Maximum indoor particulate concentration is at most 70 ug/m3.",
+          "role_name": "Public health and environmental hygiene officer (HLT)",
+          "candidate_name": "Silverstone Regional Sports Arena",
+          "other_candidate_names": [
+            "Highland Crest Community Pavilion",
+            "Valley View Agricultural Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_fleet_A",
+          "role_id": "logistics_fleet",
+          "candidate_id": "A",
+          "key": "LOG-SUPPLY-HE5",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Potable water emergency autonomy",
+          "threshold_aliases": [
+            "Water reserve autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "LOG-SUPPLY-HE5: Silverstone Regional Sports Arena.Silverstone Regional Sports Arena: Secondary gymnasium bed capacity = 300 beds.Source: Auxiliary space deployment manifest; Scope: Enclosed athletic gymnasium hall; Measurement: Number of staging cots deployable within 4 hours by on-site logistics crew.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Potable water emergency autonomy is at most 300 h.",
+          "role_name": "Emergency logistics and supply lead (LOG)",
+          "candidate_name": "Silverstone Regional Sports Arena",
+          "other_candidate_names": [
+            "Highland Crest Community Pavilion",
+            "Valley View Agricultural Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_protection_A",
+          "role_id": "civil_protection",
+          "candidate_id": "A",
+          "key": "CIV-SHELTER-U3D",
+          "hidden_predicate_id": "A_primary_hall_capacity",
+          "threshold_label": "Primary hall bed capacity",
+          "threshold_aliases": [
+            "Main hall cot count"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "beds",
+          "partial_record_text": "CIV-SHELTER-U3D: Silverstone Regional Sports Arena.Silverstone Regional Sports Arena: Emergency generator microgrid activation = true .Source: Electrical commissioning log; Scope: Facility auxiliary microgrid and transfer switches; Measurement: Whether automated island-mode transfer and primary generator synchronization are activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary hall bed capacity is at most 900 beds.",
+          "role_name": "Civil protection coordinator (CIV)",
+          "candidate_name": "Silverstone Regional Sports Arena",
+          "other_candidate_names": [
+            "Highland Crest Community Pavilion",
+            "Valley View Agricultural Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

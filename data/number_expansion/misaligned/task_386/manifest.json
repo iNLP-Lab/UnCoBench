@@ -1,0 +1,454 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_386",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_care",
+        "aviation_control"
+      ],
+      "role_names": [
+        "Emergency medical clinical coordinator (CLIN)",
+        "Alpine flight operations director (AVOPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_386/k2",
+      "error_profiles": [
+        {
+          "role_name": "Emergency medical clinical coordinator (CLIN)",
+          "target_key": "CLIN-MEDREC-ESX",
+          "alternate_key": "CLIN-MEDREC-0SQ",
+          "target_context": "current operational shift",
+          "alternate_context": "trailing 24-hour average",
+          "candidate": "Mont Fort northern couloir route",
+          "other_candidates": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_equipment_reserve",
+              "value": 500,
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_clearance_active",
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ]
+            },
+            {
+              "topic": "snowcat_route_scouted",
+              "label": "Snowcat surface backup route scouted",
+              "aliases": [
+                "Ground backup route verification",
+                "Surface trail reconnaissance"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_index",
+              "label": "Maximum avalanche hazard index",
+              "aliases": [
+                "Corridor avalanche hazard rating",
+                "Snowpack instability index"
+              ]
+            },
+            {
+              "topic": "staging_dispatch_time",
+              "label": "Operational dispatch staging time",
+              "aliases": [
+                "Corridor muster latency",
+                "Mobilization staging time"
+              ]
+            },
+            {
+              "topic": "trauma_center_confirmed",
+              "label": "Designated trauma center capacity confirmed",
+              "aliases": [
+                "Hospital receiving capacity",
+                "Trauma bed reservation confirmation"
+              ]
+            },
+            {
+              "topic": "total_transport_capacity",
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ]
+            },
+            {
+              "topic": "mandatory_equipment_reserve",
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Alpine flight operations director (AVOPS)",
+          "target_key": "AVOPS-AIRREG-4EQ",
+          "alternate_key": "AVOPS-AIRREG-YVN",
+          "target_context": "production operational environment",
+          "alternate_context": "simulation exercise environment",
+          "candidate": "Mont Fort northern couloir route",
+          "other_candidates": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "aviation_clearance_active",
+              "value": true,
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_clearance_active",
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ]
+            },
+            {
+              "topic": "snowcat_route_scouted",
+              "label": "Snowcat surface backup route scouted",
+              "aliases": [
+                "Ground backup route verification",
+                "Surface trail reconnaissance"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_index",
+              "label": "Maximum avalanche hazard index",
+              "aliases": [
+                "Corridor avalanche hazard rating",
+                "Snowpack instability index"
+              ]
+            },
+            {
+              "topic": "staging_dispatch_time",
+              "label": "Operational dispatch staging time",
+              "aliases": [
+                "Corridor muster latency",
+                "Mobilization staging time"
+              ]
+            },
+            {
+              "topic": "trauma_center_confirmed",
+              "label": "Designated trauma center capacity confirmed",
+              "aliases": [
+                "Hospital receiving capacity",
+                "Trauma bed reservation confirmation"
+              ]
+            },
+            {
+              "topic": "total_transport_capacity",
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ]
+            },
+            {
+              "topic": "mandatory_equipment_reserve",
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_care",
+        "aviation_control",
+        "field_dispatch"
+      ],
+      "role_names": [
+        "Emergency medical clinical coordinator (CLIN)",
+        "Alpine flight operations director (AVOPS)",
+        "Search and rescue field dispatch coordinator (DISP)"
+      ],
+      "directory": "number_expansion/misaligned/task_386/k3",
+      "error_profiles": [
+        {
+          "role_name": "Emergency medical clinical coordinator (CLIN)",
+          "target_key": "CLIN-MEDREC-ESX",
+          "alternate_key": "CLIN-MEDREC-0SQ",
+          "target_context": "current operational shift",
+          "alternate_context": "trailing 24-hour average",
+          "candidate": "Mont Fort northern couloir route",
+          "other_candidates": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "numeric": [
+            {
+              "topic": "mandatory_equipment_reserve",
+              "value": 500,
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_clearance_active",
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ]
+            },
+            {
+              "topic": "snowcat_route_scouted",
+              "label": "Snowcat surface backup route scouted",
+              "aliases": [
+                "Ground backup route verification",
+                "Surface trail reconnaissance"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_index",
+              "label": "Maximum avalanche hazard index",
+              "aliases": [
+                "Corridor avalanche hazard rating",
+                "Snowpack instability index"
+              ]
+            },
+            {
+              "topic": "staging_dispatch_time",
+              "label": "Operational dispatch staging time",
+              "aliases": [
+                "Corridor muster latency",
+                "Mobilization staging time"
+              ]
+            },
+            {
+              "topic": "trauma_center_confirmed",
+              "label": "Designated trauma center capacity confirmed",
+              "aliases": [
+                "Hospital receiving capacity",
+                "Trauma bed reservation confirmation"
+              ]
+            },
+            {
+              "topic": "total_transport_capacity",
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ]
+            },
+            {
+              "topic": "mandatory_equipment_reserve",
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Alpine flight operations director (AVOPS)",
+          "target_key": "AVOPS-AIRREG-4EQ",
+          "alternate_key": "AVOPS-AIRREG-YVN",
+          "target_context": "production operational environment",
+          "alternate_context": "simulation exercise environment",
+          "candidate": "Mont Fort northern couloir route",
+          "other_candidates": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "aviation_clearance_active",
+              "value": true,
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_clearance_active",
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ]
+            },
+            {
+              "topic": "snowcat_route_scouted",
+              "label": "Snowcat surface backup route scouted",
+              "aliases": [
+                "Ground backup route verification",
+                "Surface trail reconnaissance"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_index",
+              "label": "Maximum avalanche hazard index",
+              "aliases": [
+                "Corridor avalanche hazard rating",
+                "Snowpack instability index"
+              ]
+            },
+            {
+              "topic": "staging_dispatch_time",
+              "label": "Operational dispatch staging time",
+              "aliases": [
+                "Corridor muster latency",
+                "Mobilization staging time"
+              ]
+            },
+            {
+              "topic": "trauma_center_confirmed",
+              "label": "Designated trauma center capacity confirmed",
+              "aliases": [
+                "Hospital receiving capacity",
+                "Trauma bed reservation confirmation"
+              ]
+            },
+            {
+              "topic": "total_transport_capacity",
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ]
+            },
+            {
+              "topic": "mandatory_equipment_reserve",
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Search and rescue field dispatch coordinator (DISP)",
+          "target_key": "DISP-MOBIL-26B",
+          "alternate_key": "DISP-MOBIL-24Q",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Mont Fort northern couloir route",
+          "other_candidates": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "numeric": [
+            {
+              "topic": "total_transport_capacity",
+              "value": 950,
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_clearance_active",
+              "label": "Civil aviation airspace clearance active",
+              "aliases": [
+                "Airspace clearance status",
+                "Aviation flight authorization"
+              ]
+            },
+            {
+              "topic": "snowcat_route_scouted",
+              "label": "Snowcat surface backup route scouted",
+              "aliases": [
+                "Ground backup route verification",
+                "Surface trail reconnaissance"
+              ]
+            },
+            {
+              "topic": "avalanche_risk_index",
+              "label": "Maximum avalanche hazard index",
+              "aliases": [
+                "Corridor avalanche hazard rating",
+                "Snowpack instability index"
+              ]
+            },
+            {
+              "topic": "staging_dispatch_time",
+              "label": "Operational dispatch staging time",
+              "aliases": [
+                "Corridor muster latency",
+                "Mobilization staging time"
+              ]
+            },
+            {
+              "topic": "trauma_center_confirmed",
+              "label": "Designated trauma center capacity confirmed",
+              "aliases": [
+                "Hospital receiving capacity",
+                "Trauma bed reservation confirmation"
+              ]
+            },
+            {
+              "topic": "total_transport_capacity",
+              "label": "Gross evacuation transport payload capacity",
+              "aliases": [
+                "Gross corridor transport capacity",
+                "Total rescue evacuation payload"
+              ]
+            },
+            {
+              "topic": "mandatory_equipment_reserve",
+              "label": "Mandatory medical equipment mass reserve",
+              "aliases": [
+                "Clinical life-support equipment mass",
+                "Required medical gear reserve"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

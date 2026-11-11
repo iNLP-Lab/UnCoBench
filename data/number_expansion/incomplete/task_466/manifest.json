@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_466",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fleet_lead",
+        "depot_lead"
+      ],
+      "role_names": [
+        "Fleet operations coordinator (FLT)",
+        "Depot staging controller (DPT)"
+      ],
+      "directory": "incomplete/task_466",
+      "profiles": [
+        {
+          "record_id": "rec_fleet_lead_A",
+          "role_id": "fleet_lead",
+          "candidate_id": "A",
+          "key": "FLT-TELE-EYN",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Real-time fleet telemetry enabled",
+          "hidden_predicate_id": "A_dispatch_latency",
+          "threshold_label": "Average emergency dispatch latency",
+          "threshold_aliases": [
+            "Dispatch latency",
+            "Mean call-out response time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-TELE-EYN: Aquastream Logistics Group.Aquastream Logistics Group: Real-time fleet telemetry enabled = true .Source: Fleet dispatch telemetry system; Scope: Active road tanker fleet; Measurement: Activation status of encrypted real-time vehicle GPS and diagnostic feed.Aquastream Logistics Group: Active transit operating hours = 120 h.Source: Operations deployment estimate; Scope: First 14 days of emergency water distribution operations; Measurement: Total projected road hauling and distribution operating hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Average emergency dispatch latency is at most 90 min.",
+          "role_name": "Fleet operations coordinator (FLT)",
+          "candidate_name": "Aquastream Logistics Group",
+          "other_candidate_names": [
+            "Cascade Bulk Haulage",
+            "Apex Fluid Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_depot_lead_A",
+          "role_id": "depot_lead",
+          "candidate_id": "A",
+          "key": "DPT-ASSET-7FX",
+          "hidden_predicate_id": "A_active_tanker_fleet",
+          "threshold_label": "Active stainless-steel tanker fleet",
+          "threshold_aliases": [
+            "Potable tanker count",
+            "Operational tanker fleet size"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "DPT-ASSET-7FX: Aquastream Logistics Group.Aquastream Logistics Group: Depot staging standby hours = 110 h.Source: Depot mobilization plan; Scope: First 14 days of emergency response staging; Measurement: Total projected idling, loading queue, and depot standby hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Active stainless-steel tanker fleet is at most 40 vehicles.",
+          "role_name": "Depot staging controller (DPT)",
+          "candidate_name": "Aquastream Logistics Group",
+          "other_candidate_names": [
+            "Cascade Bulk Haulage",
+            "Apex Fluid Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fleet_lead",
+        "depot_lead",
+        "safety_lead"
+      ],
+      "role_names": [
+        "Fleet operations coordinator (FLT)",
+        "Depot staging controller (DPT)",
+        "Safety and qualifications director (SAF)"
+      ],
+      "directory": "number_expansion/incomplete/task_466/k3",
+      "profiles": [
+        {
+          "record_id": "rec_fleet_lead_A",
+          "role_id": "fleet_lead",
+          "candidate_id": "A",
+          "key": "FLT-TELE-EYN",
+          "boolean_predicate_id": "A_telemetry_enabled",
+          "boolean_label": "Real-time fleet telemetry enabled",
+          "hidden_predicate_id": "A_dispatch_latency",
+          "threshold_label": "Average emergency dispatch latency",
+          "threshold_aliases": [
+            "Dispatch latency",
+            "Mean call-out response time"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "FLT-TELE-EYN: Aquastream Logistics Group.Aquastream Logistics Group: Real-time fleet telemetry enabled = true .Source: Fleet dispatch telemetry system; Scope: Active road tanker fleet; Measurement: Activation status of encrypted real-time vehicle GPS and diagnostic feed.Aquastream Logistics Group: Active transit operating hours = 120 h.Source: Operations deployment estimate; Scope: First 14 days of emergency water distribution operations; Measurement: Total projected road hauling and distribution operating hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Average emergency dispatch latency is at most 90 min.",
+          "role_name": "Fleet operations coordinator (FLT)",
+          "candidate_name": "Aquastream Logistics Group",
+          "other_candidate_names": [
+            "Cascade Bulk Haulage",
+            "Apex Fluid Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_depot_lead_A",
+          "role_id": "depot_lead",
+          "candidate_id": "A",
+          "key": "DPT-ASSET-7FX",
+          "hidden_predicate_id": "A_active_tanker_fleet",
+          "threshold_label": "Active stainless-steel tanker fleet",
+          "threshold_aliases": [
+            "Potable tanker count",
+            "Operational tanker fleet size"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "DPT-ASSET-7FX: Aquastream Logistics Group.Aquastream Logistics Group: Depot staging standby hours = 110 h.Source: Depot mobilization plan; Scope: First 14 days of emergency response staging; Measurement: Total projected idling, loading queue, and depot standby hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Active stainless-steel tanker fleet is at most 40 vehicles.",
+          "role_name": "Depot staging controller (DPT)",
+          "candidate_name": "Aquastream Logistics Group",
+          "other_candidate_names": [
+            "Cascade Bulk Haulage",
+            "Apex Fluid Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_lead_A_supplemental",
+          "role_id": "safety_lead",
+          "candidate_id": "A",
+          "key": "SAF-DRILL-JEM",
+          "hidden_predicate_id": "A_supplemental_safety_lead",
+          "threshold_label": "Annual emergency drill pass rate",
+          "threshold_aliases": [],
+          "threshold_value": 90,
+          "threshold_unit": "%",
+          "partial_record_text": "SAF-DRILL-JEM: Aquastream Logistics Group. The record covers Annual emergency drill pass rate. Safety training and drill records; Designated emergency transport personnel; Percentage of personnel passing annual emergency hazardous-spill and evacuation drills.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Annual emergency drill pass rate is at most 100 %.",
+          "role_name": "Safety and qualifications director (SAF)",
+          "candidate_name": "Aquastream Logistics Group",
+          "other_candidate_names": [
+            "Cascade Bulk Haulage",
+            "Apex Fluid Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_safety_lead",
+        "topic_id": "supplemental_safety_lead",
+        "operator": "gte",
+        "threshold": 80,
+        "role_id": "safety_lead",
+        "metric": "Annual emergency drill pass rate",
+        "unit": "%",
+        "required_text": "To qualify, a candidate must also have Annual emergency drill pass rate of at least 80 %.",
+        "new_fault_record_key": "SAF-DRILL-JEM",
+        "exact_value": 90,
+        "first_reply": "Annual emergency drill pass rate is at most 100 %."
+      }
+    }
+  }
+}

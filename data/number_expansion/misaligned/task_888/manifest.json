@@ -1,0 +1,534 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_888",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "legal_risk",
+        "workforce_compliance"
+      ],
+      "role_names": [
+        "Concession legal and governance counsel (CGC)",
+        "Aviation labor and credentialing officer (ALC)"
+      ],
+      "directory": "number_expansion/misaligned/task_888/k2",
+      "error_profiles": [
+        {
+          "role_name": "Concession legal and governance counsel (CGC)",
+          "target_key": "CGC-LEGAL-0KR",
+          "alternate_key": "CGC-LEGAL-F2J",
+          "target_context": "Framework Version 3.0",
+          "alternate_context": "Framework Version 2.0",
+          "candidate": "AeroGround Ramp Logistics Consortium",
+          "other_candidates": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "parent_guarantee_executed",
+              "value": true,
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fleet_telemetry_enabled",
+              "label": "Apron fleet telematics tracking active",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Active fleet telemetry system"
+              ]
+            },
+            {
+              "topic": "gse_electrification_rate",
+              "label": "Ground support equipment electrification share",
+              "aliases": [
+                "Fleet electrification percentage",
+                "Zero-emission equipment share"
+              ]
+            },
+            {
+              "topic": "widebody_turnaround_compliance",
+              "label": "Wide-body freighter turnaround punctuality rate",
+              "aliases": [
+                "Turnaround punctuality rate",
+                "On-time ramp handling rate"
+              ]
+            },
+            {
+              "topic": "airside_security_cleared_ratio",
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ]
+            },
+            {
+              "topic": "isago_registration_valid",
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ]
+            },
+            {
+              "topic": "foreign_object_damage_rate",
+              "label": "Foreign object damage incident frequency",
+              "aliases": [
+                "FOD incident rate",
+                "Airside debris incident frequency"
+              ]
+            },
+            {
+              "topic": "parent_guarantee_executed",
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ]
+            },
+            {
+              "topic": "apron_tractor_allocation",
+              "label": "Apron tow tractor allocation",
+              "aliases": [
+                "Baggage and cargo tow tractor fleet",
+                "Dedicated apron tractor count"
+              ]
+            },
+            {
+              "topic": "maindeck_loader_allocation",
+              "label": "Main-deck container high-loader allocation",
+              "aliases": [
+                "Main-deck loader count",
+                "High-lift cargo container loader fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation labor and credentialing officer (ALC)",
+          "target_key": "ALC-CREW-6EI",
+          "alternate_key": "ALC-CREW-9M7",
+          "target_context": "trailing 30-day average",
+          "alternate_context": "trailing 12-month average",
+          "candidate": "AeroGround Ramp Logistics Consortium",
+          "other_candidates": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "numeric": [
+            {
+              "topic": "airside_security_cleared_ratio",
+              "value": 95,
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fleet_telemetry_enabled",
+              "label": "Apron fleet telematics tracking active",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Active fleet telemetry system"
+              ]
+            },
+            {
+              "topic": "gse_electrification_rate",
+              "label": "Ground support equipment electrification share",
+              "aliases": [
+                "Fleet electrification percentage",
+                "Zero-emission equipment share"
+              ]
+            },
+            {
+              "topic": "widebody_turnaround_compliance",
+              "label": "Wide-body freighter turnaround punctuality rate",
+              "aliases": [
+                "Turnaround punctuality rate",
+                "On-time ramp handling rate"
+              ]
+            },
+            {
+              "topic": "airside_security_cleared_ratio",
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ]
+            },
+            {
+              "topic": "isago_registration_valid",
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ]
+            },
+            {
+              "topic": "foreign_object_damage_rate",
+              "label": "Foreign object damage incident frequency",
+              "aliases": [
+                "FOD incident rate",
+                "Airside debris incident frequency"
+              ]
+            },
+            {
+              "topic": "parent_guarantee_executed",
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ]
+            },
+            {
+              "topic": "apron_tractor_allocation",
+              "label": "Apron tow tractor allocation",
+              "aliases": [
+                "Baggage and cargo tow tractor fleet",
+                "Dedicated apron tractor count"
+              ]
+            },
+            {
+              "topic": "maindeck_loader_allocation",
+              "label": "Main-deck container high-loader allocation",
+              "aliases": [
+                "Main-deck loader count",
+                "High-lift cargo container loader fleet"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "legal_risk",
+        "workforce_compliance",
+        "quality_safety"
+      ],
+      "role_names": [
+        "Concession legal and governance counsel (CGC)",
+        "Aviation labor and credentialing officer (ALC)",
+        "Ramp safety and quality assurance auditor (SQA)"
+      ],
+      "directory": "number_expansion/misaligned/task_888/k3",
+      "error_profiles": [
+        {
+          "role_name": "Concession legal and governance counsel (CGC)",
+          "target_key": "CGC-LEGAL-0KR",
+          "alternate_key": "CGC-LEGAL-F2J",
+          "target_context": "Framework Version 3.0",
+          "alternate_context": "Framework Version 2.0",
+          "candidate": "AeroGround Ramp Logistics Consortium",
+          "other_candidates": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "parent_guarantee_executed",
+              "value": true,
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fleet_telemetry_enabled",
+              "label": "Apron fleet telematics tracking active",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Active fleet telemetry system"
+              ]
+            },
+            {
+              "topic": "gse_electrification_rate",
+              "label": "Ground support equipment electrification share",
+              "aliases": [
+                "Fleet electrification percentage",
+                "Zero-emission equipment share"
+              ]
+            },
+            {
+              "topic": "widebody_turnaround_compliance",
+              "label": "Wide-body freighter turnaround punctuality rate",
+              "aliases": [
+                "Turnaround punctuality rate",
+                "On-time ramp handling rate"
+              ]
+            },
+            {
+              "topic": "airside_security_cleared_ratio",
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ]
+            },
+            {
+              "topic": "isago_registration_valid",
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ]
+            },
+            {
+              "topic": "foreign_object_damage_rate",
+              "label": "Foreign object damage incident frequency",
+              "aliases": [
+                "FOD incident rate",
+                "Airside debris incident frequency"
+              ]
+            },
+            {
+              "topic": "parent_guarantee_executed",
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ]
+            },
+            {
+              "topic": "apron_tractor_allocation",
+              "label": "Apron tow tractor allocation",
+              "aliases": [
+                "Baggage and cargo tow tractor fleet",
+                "Dedicated apron tractor count"
+              ]
+            },
+            {
+              "topic": "maindeck_loader_allocation",
+              "label": "Main-deck container high-loader allocation",
+              "aliases": [
+                "Main-deck loader count",
+                "High-lift cargo container loader fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation labor and credentialing officer (ALC)",
+          "target_key": "ALC-CREW-6EI",
+          "alternate_key": "ALC-CREW-9M7",
+          "target_context": "trailing 30-day average",
+          "alternate_context": "trailing 12-month average",
+          "candidate": "AeroGround Ramp Logistics Consortium",
+          "other_candidates": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "numeric": [
+            {
+              "topic": "airside_security_cleared_ratio",
+              "value": 95,
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fleet_telemetry_enabled",
+              "label": "Apron fleet telematics tracking active",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Active fleet telemetry system"
+              ]
+            },
+            {
+              "topic": "gse_electrification_rate",
+              "label": "Ground support equipment electrification share",
+              "aliases": [
+                "Fleet electrification percentage",
+                "Zero-emission equipment share"
+              ]
+            },
+            {
+              "topic": "widebody_turnaround_compliance",
+              "label": "Wide-body freighter turnaround punctuality rate",
+              "aliases": [
+                "Turnaround punctuality rate",
+                "On-time ramp handling rate"
+              ]
+            },
+            {
+              "topic": "airside_security_cleared_ratio",
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ]
+            },
+            {
+              "topic": "isago_registration_valid",
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ]
+            },
+            {
+              "topic": "foreign_object_damage_rate",
+              "label": "Foreign object damage incident frequency",
+              "aliases": [
+                "FOD incident rate",
+                "Airside debris incident frequency"
+              ]
+            },
+            {
+              "topic": "parent_guarantee_executed",
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ]
+            },
+            {
+              "topic": "apron_tractor_allocation",
+              "label": "Apron tow tractor allocation",
+              "aliases": [
+                "Baggage and cargo tow tractor fleet",
+                "Dedicated apron tractor count"
+              ]
+            },
+            {
+              "topic": "maindeck_loader_allocation",
+              "label": "Main-deck container high-loader allocation",
+              "aliases": [
+                "Main-deck loader count",
+                "High-lift cargo container loader fleet"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ramp safety and quality assurance auditor (SQA)",
+          "target_key": "SQA-AUDIT-9A3",
+          "alternate_key": "SQA-AUDIT-72P",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "AeroGround Ramp Logistics Consortium",
+          "other_candidates": [
+            "TransGlobal Apron Services",
+            "SkyHandling Cargo Alliance"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "isago_registration_valid",
+              "value": true,
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fleet_telemetry_enabled",
+              "label": "Apron fleet telematics tracking active",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Active fleet telemetry system"
+              ]
+            },
+            {
+              "topic": "gse_electrification_rate",
+              "label": "Ground support equipment electrification share",
+              "aliases": [
+                "Fleet electrification percentage",
+                "Zero-emission equipment share"
+              ]
+            },
+            {
+              "topic": "widebody_turnaround_compliance",
+              "label": "Wide-body freighter turnaround punctuality rate",
+              "aliases": [
+                "Turnaround punctuality rate",
+                "On-time ramp handling rate"
+              ]
+            },
+            {
+              "topic": "airside_security_cleared_ratio",
+              "label": "Airside security-cleared workforce ratio",
+              "aliases": [
+                "Airside badging clearance ratio",
+                "Security-cleared ramp crew share"
+              ]
+            },
+            {
+              "topic": "isago_registration_valid",
+              "label": "Active IATA ISAGO safety registration",
+              "aliases": [
+                "Valid ISAGO certification",
+                "IATA safety audit for ground operations registration"
+              ]
+            },
+            {
+              "topic": "foreign_object_damage_rate",
+              "label": "Foreign object damage incident frequency",
+              "aliases": [
+                "FOD incident rate",
+                "Airside debris incident frequency"
+              ]
+            },
+            {
+              "topic": "parent_guarantee_executed",
+              "label": "Parent company performance guarantee executed",
+              "aliases": [
+                "Parent corporate guarantee execution",
+                "Executed performance bond covenant"
+              ]
+            },
+            {
+              "topic": "apron_tractor_allocation",
+              "label": "Apron tow tractor allocation",
+              "aliases": [
+                "Baggage and cargo tow tractor fleet",
+                "Dedicated apron tractor count"
+              ]
+            },
+            {
+              "topic": "maindeck_loader_allocation",
+              "label": "Main-deck container high-loader allocation",
+              "aliases": [
+                "Main-deck loader count",
+                "High-lift cargo container loader fleet"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

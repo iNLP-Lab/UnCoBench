@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_031",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "training_evaluation",
+        "health_medical"
+      ],
+      "role_names": [
+        "Tactical training and evaluation board (TTEB)",
+        "Occupational health and medical directorate (OHMD)"
+      ],
+      "directory": "incomplete/task_031",
+      "profiles": [
+        {
+          "record_id": "rec_training_evaluation_A",
+          "role_id": "training_evaluation",
+          "candidate_id": "A",
+          "key": "TTEB-EVAL-G6Q",
+          "boolean_predicate_id": "A_simulation_exercise_completed",
+          "boolean_label": "Full-scale simulation exercise completed",
+          "hidden_predicate_id": "A_field_readiness_score",
+          "threshold_label": "Field exercise command readiness score",
+          "threshold_aliases": [
+            "Readiness evaluation score",
+            "Exercise command rating"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "points",
+          "partial_record_text": "TTEB-EVAL-G6Q: Rapid Heavy Industrial Response Unit.Rapid Heavy Industrial Response Unit: Full-scale simulation exercise completed = true .Source: Exercise completion certificate; Scope: Annual multi-agency disaster simulation; Measurement: Affirmation that the command team fully executed the mandated 48-hour live incident drill.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Field exercise command readiness score is at most 110 points.",
+          "role_name": "Tactical training and evaluation board (TTEB)",
+          "candidate_name": "Rapid Heavy Industrial Response Unit",
+          "other_candidate_names": [
+            "Hazardous Containment Intervention Taskforce",
+            "Specialized Subterranean Rescue Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_health_medical_A",
+          "role_id": "health_medical",
+          "candidate_id": "A",
+          "key": "OHMD-HLTH-HKY",
+          "hidden_predicate_id": "A_mandatory_rest_hours",
+          "threshold_label": "Mandatory rest hours",
+          "threshold_aliases": [
+            "Required rest period",
+            "Non-operational rest allowance"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "OHMD-HLTH-HKY: Rapid Heavy Industrial Response Unit.Rapid Heavy Industrial Response Unit: Occupational health risk compliance clearance = true .Source: Occupational health compliance docket; Scope: Candidate deployment roster; Measurement: Medical board certification that all designated personnel meet high-stress chemical and physical fitness standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory rest hours is at most 50 h.",
+          "role_name": "Occupational health and medical directorate (OHMD)",
+          "candidate_name": "Rapid Heavy Industrial Response Unit",
+          "other_candidate_names": [
+            "Hazardous Containment Intervention Taskforce",
+            "Specialized Subterranean Rescue Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "training_evaluation",
+        "health_medical",
+        "tech_oversight"
+      ],
+      "role_names": [
+        "Tactical training and evaluation board (TTEB)",
+        "Occupational health and medical directorate (OHMD)",
+        "Technical engineering oversight panel (TEO)"
+      ],
+      "directory": "incomplete/task_031",
+      "profiles": [
+        {
+          "record_id": "rec_training_evaluation_A",
+          "role_id": "training_evaluation",
+          "candidate_id": "A",
+          "key": "TTEB-EVAL-G6Q",
+          "boolean_predicate_id": "A_simulation_exercise_completed",
+          "boolean_label": "Full-scale simulation exercise completed",
+          "hidden_predicate_id": "A_field_readiness_score",
+          "threshold_label": "Field exercise command readiness score",
+          "threshold_aliases": [
+            "Readiness evaluation score",
+            "Exercise command rating"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "points",
+          "partial_record_text": "TTEB-EVAL-G6Q: Rapid Heavy Industrial Response Unit.Rapid Heavy Industrial Response Unit: Full-scale simulation exercise completed = true .Source: Exercise completion certificate; Scope: Annual multi-agency disaster simulation; Measurement: Affirmation that the command team fully executed the mandated 48-hour live incident drill.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Field exercise command readiness score is at most 110 points.",
+          "role_name": "Tactical training and evaluation board (TTEB)",
+          "candidate_name": "Rapid Heavy Industrial Response Unit",
+          "other_candidate_names": [
+            "Hazardous Containment Intervention Taskforce",
+            "Specialized Subterranean Rescue Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_health_medical_A",
+          "role_id": "health_medical",
+          "candidate_id": "A",
+          "key": "OHMD-HLTH-HKY",
+          "hidden_predicate_id": "A_mandatory_rest_hours",
+          "threshold_label": "Mandatory rest hours",
+          "threshold_aliases": [
+            "Required rest period",
+            "Non-operational rest allowance"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "h",
+          "partial_record_text": "OHMD-HLTH-HKY: Rapid Heavy Industrial Response Unit.Rapid Heavy Industrial Response Unit: Occupational health risk compliance clearance = true .Source: Occupational health compliance docket; Scope: Candidate deployment roster; Measurement: Medical board certification that all designated personnel meet high-stress chemical and physical fitness standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory rest hours is at most 50 h.",
+          "role_name": "Occupational health and medical directorate (OHMD)",
+          "candidate_name": "Rapid Heavy Industrial Response Unit",
+          "other_candidate_names": [
+            "Hazardous Containment Intervention Taskforce",
+            "Specialized Subterranean Rescue Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_tech_oversight_A",
+          "role_id": "tech_oversight",
+          "candidate_id": "A",
+          "key": "TEO-ENGR-43U",
+          "hidden_predicate_id": "A_remote_advisory_hours",
+          "threshold_label": "Remote technical advisory hours",
+          "threshold_aliases": [
+            "Technical consulting hours",
+            "Remote advisory support"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "h",
+          "partial_record_text": "TEO-ENGR-43U: Rapid Heavy Industrial Response Unit.Rapid Heavy Industrial Response Unit: Valid major-hazard command accreditation = true .Source: National engineering accreditation database; Scope: Candidate supervisory roster; Measurement: Verification of unexpired level-1 major industrial hazard incident command licensure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Remote technical advisory hours is at most 90 h.",
+          "role_name": "Technical engineering oversight panel (TEO)",
+          "candidate_name": "Rapid Heavy Industrial Response Unit",
+          "other_candidate_names": [
+            "Hazardous Containment Intervention Taskforce",
+            "Specialized Subterranean Rescue Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_456",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_acoustics",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Subsea Environmental Acoustics Officer (ACOUS)",
+        "Marine Engineering Superintendent (ENG)"
+      ],
+      "directory": "incomplete/task_456",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_acoustics_A",
+          "role_id": "environmental_acoustics",
+          "candidate_id": "A",
+          "key": "ACOUS-HYDRO-XM6",
+          "boolean_predicate_id": "A_noise_mitigation_system",
+          "boolean_label": "Active subsea bubble curtain system",
+          "hidden_predicate_id": "A_pile_acoustic_exposure",
+          "threshold_label": "Underwater pile driving acoustic exposure",
+          "threshold_aliases": [
+            "Hydroacoustic sound exposure level",
+            "Peak pile driving noise level"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "dB re 1 uPa",
+          "partial_record_text": "ACOUS-HYDRO-XM6: Boreas Heavy Marine Consortium.Boreas Heavy Marine Consortium: Active subsea bubble curtain system = true .Source: Subsea piling mitigation readiness checklist; Scope: Candidate underwater noise reduction equipment array; Measurement: Confirmation that the multi-ring compressed air bubble curtain system is installed and operational.",
+          "role_name": "Subsea Environmental Acoustics Officer (ACOUS)",
+          "candidate_name": "Boreas Heavy Marine Consortium",
+          "other_candidate_names": [
+            "Nordic Wind Offshore Services",
+            "Zephyr Maritime Installation Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SPEC-MOW",
+          "hidden_predicate_id": "A_deck_cargo_payload",
+          "threshold_label": "Deck cargo payload",
+          "threshold_aliases": [
+            "Usable deck payload capacity",
+            "Foundation cargo deadweight"
+          ],
+          "threshold_value": 9500,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-SPEC-MOW: Boreas Heavy Marine Consortium.Boreas Heavy Marine Consortium: Dynamic positioning DP3 certification = true .Source: Classification society certificate of survey; Scope: Candidate primary installation vessel; Measurement: Whether the vessel holds a valid IMO Equipment Class 3 dynamic positioning notation.",
+          "role_name": "Marine Engineering Superintendent (ENG)",
+          "candidate_name": "Boreas Heavy Marine Consortium",
+          "other_candidate_names": [
+            "Nordic Wind Offshore Services",
+            "Zephyr Maritime Installation Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_acoustics",
+        "marine_engineering",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Subsea Environmental Acoustics Officer (ACOUS)",
+        "Marine Engineering Superintendent (ENG)",
+        "Port Logistics Operations Manager (OPS)"
+      ],
+      "directory": "incomplete/task_456",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_acoustics_A",
+          "role_id": "environmental_acoustics",
+          "candidate_id": "A",
+          "key": "ACOUS-HYDRO-XM6",
+          "boolean_predicate_id": "A_noise_mitigation_system",
+          "boolean_label": "Active subsea bubble curtain system",
+          "hidden_predicate_id": "A_pile_acoustic_exposure",
+          "threshold_label": "Underwater pile driving acoustic exposure",
+          "threshold_aliases": [
+            "Hydroacoustic sound exposure level",
+            "Peak pile driving noise level"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "dB re 1 uPa",
+          "partial_record_text": "ACOUS-HYDRO-XM6: Boreas Heavy Marine Consortium.Boreas Heavy Marine Consortium: Active subsea bubble curtain system = true .Source: Subsea piling mitigation readiness checklist; Scope: Candidate underwater noise reduction equipment array; Measurement: Confirmation that the multi-ring compressed air bubble curtain system is installed and operational.",
+          "role_name": "Subsea Environmental Acoustics Officer (ACOUS)",
+          "candidate_name": "Boreas Heavy Marine Consortium",
+          "other_candidate_names": [
+            "Nordic Wind Offshore Services",
+            "Zephyr Maritime Installation Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SPEC-MOW",
+          "hidden_predicate_id": "A_deck_cargo_payload",
+          "threshold_label": "Deck cargo payload",
+          "threshold_aliases": [
+            "Usable deck payload capacity",
+            "Foundation cargo deadweight"
+          ],
+          "threshold_value": 9500,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-SPEC-MOW: Boreas Heavy Marine Consortium.Boreas Heavy Marine Consortium: Dynamic positioning DP3 certification = true .Source: Classification society certificate of survey; Scope: Candidate primary installation vessel; Measurement: Whether the vessel holds a valid IMO Equipment Class 3 dynamic positioning notation.",
+          "role_name": "Marine Engineering Superintendent (ENG)",
+          "candidate_name": "Boreas Heavy Marine Consortium",
+          "other_candidate_names": [
+            "Nordic Wind Offshore Services",
+            "Zephyr Maritime Installation Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "OPS-DISP-OWZ",
+          "hidden_predicate_id": "A_operating_displacement",
+          "threshold_label": "Total vessel operating displacement",
+          "threshold_aliases": [
+            "Vessel operating displacement",
+            "Full load displacement"
+          ],
+          "threshold_value": 28000,
+          "threshold_unit": "t",
+          "partial_record_text": "OPS-DISP-OWZ: Boreas Heavy Marine Consortium. The record covers Total vessel operating displacement. Naval architecture hydrostatics table; Candidate installation vessel at design offshore operating draft; Total displacement mass of the vessel including hull, ballasts, fuel, and equipment.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 24000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Total vessel operating displacement is at least 24000 t.",
+          "role_name": "Port Logistics Operations Manager (OPS)",
+          "candidate_name": "Boreas Heavy Marine Consortium",
+          "other_candidate_names": [
+            "Nordic Wind Offshore Services",
+            "Zephyr Maritime Installation Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_419",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "gangway_specialist",
+        "subsea_superintendent"
+      ],
+      "role_names": [
+        "Offshore Access Specialist (ACC)",
+        "Subsea Equipment Superintendent (SUB)"
+      ],
+      "directory": "incomplete/task_419",
+      "profiles": [
+        {
+          "record_id": "rec_gangway_specialist_A",
+          "role_id": "gangway_specialist",
+          "candidate_id": "A",
+          "key": "ACC-WALK-LRO",
+          "boolean_predicate_id": "A_gangway_installed",
+          "boolean_label": "Motion-compensated gangway installed",
+          "hidden_predicate_id": "A_gangway_wave_limit",
+          "threshold_label": "Gangway significant wave height limit",
+          "threshold_aliases": [
+            "Maximum gangway wave height",
+            "Hs operational wave limit"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "m",
+          "partial_record_text": "ACC-WALK-LRO: Pacific Valkyrie.Pacific Valkyrie: Motion-compensated gangway installed = true .Source: Vessel specification register; Scope: Fitted walk-to-work access system; Measurement: Confirmation that an active motion-compensated gangway system is fully installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 5
+          },
+          "coarse_statement": "Gangway significant wave height limit is between 1 m and 5 m, inclusive.",
+          "role_name": "Offshore Access Specialist (ACC)",
+          "candidate_name": "Pacific Valkyrie",
+          "other_candidate_names": [
+            "Nordic Responder",
+            "Seaway Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_superintendent_A",
+          "role_id": "subsea_superintendent",
+          "candidate_id": "A",
+          "key": "SUB-CRANE-1LK",
+          "hidden_predicate_id": "A_subsea_tooling_tare",
+          "threshold_label": "Permanent subsea tooling tare weight",
+          "threshold_aliases": [
+            "Tooling tare weight",
+            "Permanent subsea equipment tare"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "t",
+          "partial_record_text": "SUB-CRANE-1LK: Pacific Valkyrie.Operating sector country: United Kingdom.Pacific Valkyrie: Active-heave compensated crane certified = true .Source: Cargo handling annual survey report; Scope: Primary subsea knuckle-boom crane; Measurement: Certification of active-heave compensation system for subsea loads.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Permanent subsea tooling tare weight is between 30 t and 90 t, inclusive.",
+          "role_name": "Subsea Equipment Superintendent (SUB)",
+          "candidate_name": "Pacific Valkyrie",
+          "other_candidate_names": [
+            "Nordic Responder",
+            "Seaway Endeavour"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "Germany"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "gangway_specialist",
+        "subsea_superintendent",
+        "naval_architect"
+      ],
+      "role_names": [
+        "Offshore Access Specialist (ACC)",
+        "Subsea Equipment Superintendent (SUB)",
+        "Naval Architecture Lead (NAV)"
+      ],
+      "directory": "incomplete/task_419",
+      "profiles": [
+        {
+          "record_id": "rec_gangway_specialist_A",
+          "role_id": "gangway_specialist",
+          "candidate_id": "A",
+          "key": "ACC-WALK-LRO",
+          "boolean_predicate_id": "A_gangway_installed",
+          "boolean_label": "Motion-compensated gangway installed",
+          "hidden_predicate_id": "A_gangway_wave_limit",
+          "threshold_label": "Gangway significant wave height limit",
+          "threshold_aliases": [
+            "Maximum gangway wave height",
+            "Hs operational wave limit"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "m",
+          "partial_record_text": "ACC-WALK-LRO: Pacific Valkyrie.Pacific Valkyrie: Motion-compensated gangway installed = true .Source: Vessel specification register; Scope: Fitted walk-to-work access system; Measurement: Confirmation that an active motion-compensated gangway system is fully installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 5
+          },
+          "coarse_statement": "Gangway significant wave height limit is between 1 m and 5 m, inclusive.",
+          "role_name": "Offshore Access Specialist (ACC)",
+          "candidate_name": "Pacific Valkyrie",
+          "other_candidate_names": [
+            "Nordic Responder",
+            "Seaway Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_superintendent_A",
+          "role_id": "subsea_superintendent",
+          "candidate_id": "A",
+          "key": "SUB-CRANE-1LK",
+          "hidden_predicate_id": "A_subsea_tooling_tare",
+          "threshold_label": "Permanent subsea tooling tare weight",
+          "threshold_aliases": [
+            "Tooling tare weight",
+            "Permanent subsea equipment tare"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "t",
+          "partial_record_text": "SUB-CRANE-1LK: Pacific Valkyrie.Operating sector country: United Kingdom.Pacific Valkyrie: Active-heave compensated crane certified = true .Source: Cargo handling annual survey report; Scope: Primary subsea knuckle-boom crane; Measurement: Certification of active-heave compensation system for subsea loads.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Permanent subsea tooling tare weight is between 30 t and 90 t, inclusive.",
+          "role_name": "Subsea Equipment Superintendent (SUB)",
+          "candidate_name": "Pacific Valkyrie",
+          "other_candidate_names": [
+            "Nordic Responder",
+            "Seaway Endeavour"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "Germany"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architect_A",
+          "role_id": "naval_architect",
+          "candidate_id": "A",
+          "key": "NAV-HULL-3OO",
+          "hidden_predicate_id": "A_main_deck_payload",
+          "threshold_label": "Main deck cargo capacity",
+          "threshold_aliases": [
+            "Main deck payload rating",
+            "Primary deck cargo capacity"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "t",
+          "partial_record_text": "NAV-HULL-3OO: Pacific Valkyrie.Pacific Valkyrie: Dynamic positioning class-2 certification = true .Source: Classification society certificate; Scope: Candidate vessel dynamic positioning systems; Measurement: Verification of active DP Class 2 classification notation.Pacific Valkyrie: Mezzanine deck cargo capacity = 100 t.Source: Structural deck loading plan; Scope: Reinforced mezzanine deck platform; Measurement: Structural load capacity for containerized project cargo.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main deck cargo capacity is between 200 t and 600 t, inclusive.",
+          "role_name": "Naval Architecture Lead (NAV)",
+          "candidate_name": "Pacific Valkyrie",
+          "other_candidate_names": [
+            "Nordic Responder",
+            "Seaway Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

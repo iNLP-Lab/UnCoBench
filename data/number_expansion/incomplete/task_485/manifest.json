@@ -1,0 +1,207 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_485",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "atmospheric_control",
+        "gas_supply"
+      ],
+      "role_names": [
+        "Microclimate systems officer (MCSO)",
+        "Bulk gas procurement lead (BGPL)"
+      ],
+      "directory": "incomplete/task_485",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_control_A",
+          "role_id": "atmospheric_control",
+          "candidate_id": "A",
+          "key": "MCSO-ENCL-OGK",
+          "boolean_predicate_id": "A_atmospheric_filtration_active",
+          "boolean_label": "Active atmospheric filtration system",
+          "hidden_predicate_id": "A_emergency_purge_lead_time",
+          "threshold_label": "Emergency nitrogen purge lead time",
+          "threshold_aliases": [
+            "Nitrogen purge activation duration",
+            "Inert atmosphere deployment time"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "min",
+          "partial_record_text": "MCSO-ENCL-OGK: Clyde Subterranean Heritage Vault.Clyde Subterranean Heritage Vault: Hermetic nitrogen containment ready = true .Source: Enclosure seal pressure test audit; Scope: Candidate artifact preservation cell; Measurement: Confirmation that static seal integrity passed helium decay validation.Clyde Subterranean Heritage Vault: Active atmospheric filtration system = true .Source: HVAC validation dashboard; Scope: Candidate repository primary environmental scrubbers; Measurement: Whether continuous airborne particulate and sulfur scavenger filters are energized.Clyde Subterranean Heritage Vault: Buffer stabilization purge consumption = 260 m3.Source: Atmospheric exchange simulation; Scope: Artifact reception locks and inspection vestibules across Q3 2026; Measurement: Projected volume of gaseous nitrogen consumed during material transfers and door cycling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Emergency nitrogen purge lead time is between 50 min and 400 min, inclusive.",
+          "role_name": "Microclimate systems officer (MCSO)",
+          "candidate_name": "Clyde Subterranean Heritage Vault",
+          "other_candidate_names": [
+            "Solent Marine Archaeological Annex",
+            "Severn Estuary Conservation Redoubt"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_gas_supply_A",
+          "role_id": "gas_supply",
+          "candidate_id": "A",
+          "key": "BGPL-GAS-PWU",
+          "hidden_predicate_id": "A_baseline_purge_volume",
+          "threshold_label": "Baseline preservation purge consumption",
+          "threshold_aliases": [
+            "Quarterly baseline nitrogen draw",
+            "Nominal purge volume"
+          ],
+          "threshold_value": 380,
+          "threshold_unit": "m3",
+          "partial_record_text": "BGPL-GAS-PWU: Clyde Subterranean Heritage Vault. The record covers Baseline preservation purge consumption. Record context: excluding transfer pipeline losses. Quarterly cryogenic consumption forecast; Primary airtight artifact cells across Q3 2026; Calculated total gaseous nitrogen volume for continuous low-pressure positive flushing.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline preservation purge consumption is between 100 m3 and 600 m3, inclusive.",
+          "role_name": "Bulk gas procurement lead (BGPL)",
+          "candidate_name": "Clyde Subterranean Heritage Vault",
+          "other_candidate_names": [
+            "Solent Marine Archaeological Annex",
+            "Severn Estuary Conservation Redoubt"
+          ],
+          "context_value": "excluding transfer pipeline losses",
+          "other_context_values": [
+            "including transfer pipeline losses"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "atmospheric_control",
+        "gas_supply",
+        "curatorial_readiness"
+      ],
+      "role_names": [
+        "Microclimate systems officer (MCSO)",
+        "Bulk gas procurement lead (BGPL)",
+        "Conservator in chief (CIC)"
+      ],
+      "directory": "number_expansion/incomplete/task_485/k3",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_control_A",
+          "role_id": "atmospheric_control",
+          "candidate_id": "A",
+          "key": "MCSO-ENCL-OGK",
+          "boolean_predicate_id": "A_atmospheric_filtration_active",
+          "boolean_label": "Active atmospheric filtration system",
+          "hidden_predicate_id": "A_emergency_purge_lead_time",
+          "threshold_label": "Emergency nitrogen purge lead time",
+          "threshold_aliases": [
+            "Nitrogen purge activation duration",
+            "Inert atmosphere deployment time"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "min",
+          "partial_record_text": "MCSO-ENCL-OGK: Clyde Subterranean Heritage Vault.Clyde Subterranean Heritage Vault: Hermetic nitrogen containment ready = true .Source: Enclosure seal pressure test audit; Scope: Candidate artifact preservation cell; Measurement: Confirmation that static seal integrity passed helium decay validation.Clyde Subterranean Heritage Vault: Active atmospheric filtration system = true .Source: HVAC validation dashboard; Scope: Candidate repository primary environmental scrubbers; Measurement: Whether continuous airborne particulate and sulfur scavenger filters are energized.Clyde Subterranean Heritage Vault: Buffer stabilization purge consumption = 260 m3.Source: Atmospheric exchange simulation; Scope: Artifact reception locks and inspection vestibules across Q3 2026; Measurement: Projected volume of gaseous nitrogen consumed during material transfers and door cycling.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Emergency nitrogen purge lead time is between 50 min and 400 min, inclusive.",
+          "role_name": "Microclimate systems officer (MCSO)",
+          "candidate_name": "Clyde Subterranean Heritage Vault",
+          "other_candidate_names": [
+            "Solent Marine Archaeological Annex",
+            "Severn Estuary Conservation Redoubt"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_gas_supply_A",
+          "role_id": "gas_supply",
+          "candidate_id": "A",
+          "key": "BGPL-GAS-PWU",
+          "hidden_predicate_id": "A_baseline_purge_volume",
+          "threshold_label": "Baseline preservation purge consumption",
+          "threshold_aliases": [
+            "Quarterly baseline nitrogen draw",
+            "Nominal purge volume"
+          ],
+          "threshold_value": 380,
+          "threshold_unit": "m3",
+          "partial_record_text": "BGPL-GAS-PWU: Clyde Subterranean Heritage Vault. The record covers Baseline preservation purge consumption. Record context: excluding transfer pipeline losses. Quarterly cryogenic consumption forecast; Primary airtight artifact cells across Q3 2026; Calculated total gaseous nitrogen volume for continuous low-pressure positive flushing.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline preservation purge consumption is between 100 m3 and 600 m3, inclusive.",
+          "role_name": "Bulk gas procurement lead (BGPL)",
+          "candidate_name": "Clyde Subterranean Heritage Vault",
+          "other_candidate_names": [
+            "Solent Marine Archaeological Annex",
+            "Severn Estuary Conservation Redoubt"
+          ],
+          "context_value": "excluding transfer pipeline losses",
+          "other_context_values": [
+            "including transfer pipeline losses"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_curatorial_readiness_A_supplemental",
+          "role_id": "curatorial_readiness",
+          "candidate_id": "A",
+          "key": "CIC-POLY-UD4",
+          "hidden_predicate_id": "A_supplemental_curatorial_readiness",
+          "threshold_label": "Polyethylene glycol treatment tank volume",
+          "threshold_aliases": [],
+          "threshold_value": 1500,
+          "threshold_unit": "L",
+          "partial_record_text": "CIC-POLY-UD4: Clyde Subterranean Heritage Vault. The record covers Polyethylene glycol treatment tank volume. Chemical bath register; Active wood stabilization tanks; Maximum liquid holding volume for immersion preservation batches.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 500,
+            "upper": 3000
+          },
+          "coarse_statement": "Polyethylene glycol treatment tank volume is between 500 L and 3000 L, inclusive.",
+          "role_name": "Conservator in chief (CIC)",
+          "candidate_name": "Clyde Subterranean Heritage Vault",
+          "other_candidate_names": [
+            "Solent Marine Archaeological Annex",
+            "Severn Estuary Conservation Redoubt"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_curatorial_readiness",
+        "topic_id": "supplemental_curatorial_readiness",
+        "operator": "gte",
+        "threshold": 1200,
+        "role_id": "curatorial_readiness",
+        "metric": "Polyethylene glycol treatment tank volume",
+        "unit": "L",
+        "required_text": "To qualify, a candidate must also have Polyethylene glycol treatment tank volume of at least 1200 L.",
+        "new_fault_record_key": "CIC-POLY-UD4",
+        "exact_value": 1500,
+        "first_reply": "Polyethylene glycol treatment tank volume is between 500 L and 3000 L, inclusive."
+      }
+    }
+  }
+}

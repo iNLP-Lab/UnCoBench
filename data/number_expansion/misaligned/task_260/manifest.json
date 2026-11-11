@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_260",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_permitting",
+        "geothermal_reservoir"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENVR)",
+        "Reservoir geology lead (GEOL)"
+      ],
+      "directory": "number_expansion/misaligned/task_260/k2",
+      "error_profiles": [
+        {
+          "role_name": "Environmental compliance officer (ENVR)",
+          "target_key": "ENVR-PERM-4Y1",
+          "alternate_key": "ENVR-PERM-Z6H",
+          "target_context": "before deducting conveyance infiltration losses",
+          "alternate_context": "after deducting conveyance infiltration losses",
+          "candidate": "Caldron Crest Caldera",
+          "other_candidates": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "numeric": [
+            {
+              "topic": "ecological_bypass_discharge",
+              "value": 150,
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ],
+              "unit": "m3/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "environmental_clearance",
+              "value": true,
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_monitoring_validated",
+              "label": "Baseline seismic monitoring validated",
+              "aliases": [
+                "Seismic array validation",
+                "Microseismic network validation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Continuous seismic data transmission latency",
+              "aliases": [
+                "Seismic telemetry latency",
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "borehole_temperature",
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ]
+            },
+            {
+              "topic": "environmental_clearance",
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ]
+            },
+            {
+              "topic": "pad_bearing_capacity",
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ]
+            },
+            {
+              "topic": "licensed_aquifer_withdrawal",
+              "label": "Licensed aquifer withdrawal volume",
+              "aliases": [
+                "Primary groundwater extraction quota",
+                "Permitted aquifer withdrawal"
+              ]
+            },
+            {
+              "topic": "recycled_water_volume",
+              "label": "Recycled process water volume",
+              "aliases": [
+                "Onsite treated effluent recycle capacity",
+                "Recycled mud filtrate supply"
+              ]
+            },
+            {
+              "topic": "ecological_bypass_discharge",
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Reservoir geology lead (GEOL)",
+          "target_key": "GEOL-THERM-GIE",
+          "alternate_key": "GEOL-THERM-NMZ",
+          "target_context": "recorded after 48 hours of shut-in thermal recovery",
+          "alternate_context": "recorded immediately upon circulation cessation",
+          "candidate": "Caldron Crest Caldera",
+          "other_candidates": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "numeric": [
+            {
+              "topic": "borehole_temperature",
+              "value": 245,
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ],
+              "unit": "°C"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_monitoring_validated",
+              "label": "Baseline seismic monitoring validated",
+              "aliases": [
+                "Seismic array validation",
+                "Microseismic network validation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Continuous seismic data transmission latency",
+              "aliases": [
+                "Seismic telemetry latency",
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "borehole_temperature",
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ]
+            },
+            {
+              "topic": "environmental_clearance",
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ]
+            },
+            {
+              "topic": "pad_bearing_capacity",
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ]
+            },
+            {
+              "topic": "licensed_aquifer_withdrawal",
+              "label": "Licensed aquifer withdrawal volume",
+              "aliases": [
+                "Primary groundwater extraction quota",
+                "Permitted aquifer withdrawal"
+              ]
+            },
+            {
+              "topic": "recycled_water_volume",
+              "label": "Recycled process water volume",
+              "aliases": [
+                "Onsite treated effluent recycle capacity",
+                "Recycled mud filtrate supply"
+              ]
+            },
+            {
+              "topic": "ecological_bypass_discharge",
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_permitting",
+        "geothermal_reservoir",
+        "civil_engineering"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENVR)",
+        "Reservoir geology lead (GEOL)",
+        "Geotechnical infrastructure engineer (CIVL)"
+      ],
+      "directory": "number_expansion/misaligned/task_260/k3",
+      "error_profiles": [
+        {
+          "role_name": "Environmental compliance officer (ENVR)",
+          "target_key": "ENVR-PERM-4Y1",
+          "alternate_key": "ENVR-PERM-Z6H",
+          "target_context": "before deducting conveyance infiltration losses",
+          "alternate_context": "after deducting conveyance infiltration losses",
+          "candidate": "Caldron Crest Caldera",
+          "other_candidates": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "numeric": [
+            {
+              "topic": "ecological_bypass_discharge",
+              "value": 150,
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ],
+              "unit": "m3/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "environmental_clearance",
+              "value": true,
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_monitoring_validated",
+              "label": "Baseline seismic monitoring validated",
+              "aliases": [
+                "Seismic array validation",
+                "Microseismic network validation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Continuous seismic data transmission latency",
+              "aliases": [
+                "Seismic telemetry latency",
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "borehole_temperature",
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ]
+            },
+            {
+              "topic": "environmental_clearance",
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ]
+            },
+            {
+              "topic": "pad_bearing_capacity",
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ]
+            },
+            {
+              "topic": "licensed_aquifer_withdrawal",
+              "label": "Licensed aquifer withdrawal volume",
+              "aliases": [
+                "Primary groundwater extraction quota",
+                "Permitted aquifer withdrawal"
+              ]
+            },
+            {
+              "topic": "recycled_water_volume",
+              "label": "Recycled process water volume",
+              "aliases": [
+                "Onsite treated effluent recycle capacity",
+                "Recycled mud filtrate supply"
+              ]
+            },
+            {
+              "topic": "ecological_bypass_discharge",
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Reservoir geology lead (GEOL)",
+          "target_key": "GEOL-THERM-GIE",
+          "alternate_key": "GEOL-THERM-NMZ",
+          "target_context": "recorded after 48 hours of shut-in thermal recovery",
+          "alternate_context": "recorded immediately upon circulation cessation",
+          "candidate": "Caldron Crest Caldera",
+          "other_candidates": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "numeric": [
+            {
+              "topic": "borehole_temperature",
+              "value": 245,
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ],
+              "unit": "°C"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_monitoring_validated",
+              "label": "Baseline seismic monitoring validated",
+              "aliases": [
+                "Seismic array validation",
+                "Microseismic network validation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Continuous seismic data transmission latency",
+              "aliases": [
+                "Seismic telemetry latency",
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "borehole_temperature",
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ]
+            },
+            {
+              "topic": "environmental_clearance",
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ]
+            },
+            {
+              "topic": "pad_bearing_capacity",
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ]
+            },
+            {
+              "topic": "licensed_aquifer_withdrawal",
+              "label": "Licensed aquifer withdrawal volume",
+              "aliases": [
+                "Primary groundwater extraction quota",
+                "Permitted aquifer withdrawal"
+              ]
+            },
+            {
+              "topic": "recycled_water_volume",
+              "label": "Recycled process water volume",
+              "aliases": [
+                "Onsite treated effluent recycle capacity",
+                "Recycled mud filtrate supply"
+              ]
+            },
+            {
+              "topic": "ecological_bypass_discharge",
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geotechnical infrastructure engineer (CIVL)",
+          "target_key": "CIVL-FOUND-IB2",
+          "alternate_key": "CIVL-FOUND-OST",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Caldron Crest Caldera",
+          "other_candidates": [
+            "Fumarole Flats Sector North",
+            "Obsidian Ridge Valley"
+          ],
+          "numeric": [
+            {
+              "topic": "pad_bearing_capacity",
+              "value": 260,
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ],
+              "unit": "kPa"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_monitoring_validated",
+              "label": "Baseline seismic monitoring validated",
+              "aliases": [
+                "Seismic array validation",
+                "Microseismic network validation"
+              ]
+            },
+            {
+              "topic": "telemetry_latency",
+              "label": "Continuous seismic data transmission latency",
+              "aliases": [
+                "Seismic telemetry latency",
+                "Data transmission latency"
+              ]
+            },
+            {
+              "topic": "borehole_temperature",
+              "label": "Subsurface borehole temperature",
+              "aliases": [
+                "Bottom-hole temperature",
+                "Thermal gradient equilibrium temperature"
+              ]
+            },
+            {
+              "topic": "environmental_clearance",
+              "label": "Local environmental authority clearance",
+              "aliases": [
+                "Environmental regulatory permit",
+                "Statutory environmental clearance"
+              ]
+            },
+            {
+              "topic": "pad_bearing_capacity",
+              "label": "Drilling rig pad bearing capacity",
+              "aliases": [
+                "Subgrade allowable bearing capacity",
+                "Pad foundation strength"
+              ]
+            },
+            {
+              "topic": "licensed_aquifer_withdrawal",
+              "label": "Licensed aquifer withdrawal volume",
+              "aliases": [
+                "Primary groundwater extraction quota",
+                "Permitted aquifer withdrawal"
+              ]
+            },
+            {
+              "topic": "recycled_water_volume",
+              "label": "Recycled process water volume",
+              "aliases": [
+                "Onsite treated effluent recycle capacity",
+                "Recycled mud filtrate supply"
+              ]
+            },
+            {
+              "topic": "ecological_bypass_discharge",
+              "label": "Statutory ecological bypass discharge",
+              "aliases": [
+                "Mandatory ecological stream baseflow",
+                "Compensatory environmental bypass flow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

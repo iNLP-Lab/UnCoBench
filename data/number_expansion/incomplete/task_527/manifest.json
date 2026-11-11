@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_527",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_operations",
+        "dispatch_operations"
+      ],
+      "role_names": [
+        "Clinical Operations Director (CLIN)",
+        "Base Dispatch Coordinator (DISP)"
+      ],
+      "directory": "incomplete/task_527",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_operations_A",
+          "role_id": "clinical_operations",
+          "candidate_id": "A",
+          "key": "CLIN-MED-Y95",
+          "boolean_predicate_id": "A_neonatal_flight_certified",
+          "boolean_label": "Certified neonatal intensive care flight capability",
+          "hidden_predicate_id": "A_pediatric_flight_hours",
+          "threshold_label": "Completed pediatric rotary flight hours",
+          "threshold_aliases": [
+            "Pediatric mission flight experience",
+            "Rotary pediatric flight hours"
+          ],
+          "threshold_value": 550,
+          "threshold_unit": "h",
+          "partial_record_text": "CLIN-MED-Y95: Apex AeroMed Critical Care Consortium.Apex AeroMed Critical Care Consortium: Certified neonatal intensive care flight capability = true .Source: Aeromedical clinical accreditation roster; Scope: Active provider clinical transport roster; Measurement: Formal validation of accredited mobile isolette equipment and board-certified neonatal flight specialist staffing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 700
+          },
+          "coarse_statement": "Completed pediatric rotary flight hours is between 200 h and 700 h, inclusive.",
+          "role_name": "Clinical Operations Director (CLIN)",
+          "candidate_name": "Apex AeroMed Critical Care Consortium",
+          "other_candidate_names": [
+            "Skyline Pediatric Flight Services",
+            "Guardian Rotorcraft Medical Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_dispatch_operations_A",
+          "role_id": "dispatch_operations",
+          "candidate_id": "A",
+          "key": "DISP-COMM-ZED",
+          "hidden_predicate_id": "A_launch_drill_readiness",
+          "threshold_label": "Unannounced launch drill readiness rate",
+          "threshold_aliases": [
+            "Emergency scramble readiness",
+            "Launch drill pass rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "DISP-COMM-ZED: Apex AeroMed Critical Care Consortium.Apex AeroMed Critical Care Consortium: Daytime standby crew mobilization time = 25 min.Source: Aviation dispatch time-stamped ledger; Scope: Standard daytime operational shifts (07:00 to 19:00); Measurement: Average minutes elapsed from initial dispatch call receipt to rotor engagement and takeoff during daytime shifts.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Unannounced launch drill readiness rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Base Dispatch Coordinator (DISP)",
+          "candidate_name": "Apex AeroMed Critical Care Consortium",
+          "other_candidate_names": [
+            "Skyline Pediatric Flight Services",
+            "Guardian Rotorcraft Medical Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_operations",
+        "dispatch_operations",
+        "flight_logistics"
+      ],
+      "role_names": [
+        "Clinical Operations Director (CLIN)",
+        "Base Dispatch Coordinator (DISP)",
+        "Flight Logistics Supervisor (FLOG)"
+      ],
+      "directory": "incomplete/task_527",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_operations_A",
+          "role_id": "clinical_operations",
+          "candidate_id": "A",
+          "key": "CLIN-MED-Y95",
+          "boolean_predicate_id": "A_neonatal_flight_certified",
+          "boolean_label": "Certified neonatal intensive care flight capability",
+          "hidden_predicate_id": "A_pediatric_flight_hours",
+          "threshold_label": "Completed pediatric rotary flight hours",
+          "threshold_aliases": [
+            "Pediatric mission flight experience",
+            "Rotary pediatric flight hours"
+          ],
+          "threshold_value": 550,
+          "threshold_unit": "h",
+          "partial_record_text": "CLIN-MED-Y95: Apex AeroMed Critical Care Consortium.Apex AeroMed Critical Care Consortium: Certified neonatal intensive care flight capability = true .Source: Aeromedical clinical accreditation roster; Scope: Active provider clinical transport roster; Measurement: Formal validation of accredited mobile isolette equipment and board-certified neonatal flight specialist staffing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 700
+          },
+          "coarse_statement": "Completed pediatric rotary flight hours is between 200 h and 700 h, inclusive.",
+          "role_name": "Clinical Operations Director (CLIN)",
+          "candidate_name": "Apex AeroMed Critical Care Consortium",
+          "other_candidate_names": [
+            "Skyline Pediatric Flight Services",
+            "Guardian Rotorcraft Medical Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_dispatch_operations_A",
+          "role_id": "dispatch_operations",
+          "candidate_id": "A",
+          "key": "DISP-COMM-ZED",
+          "hidden_predicate_id": "A_launch_drill_readiness",
+          "threshold_label": "Unannounced launch drill readiness rate",
+          "threshold_aliases": [
+            "Emergency scramble readiness",
+            "Launch drill pass rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "DISP-COMM-ZED: Apex AeroMed Critical Care Consortium.Apex AeroMed Critical Care Consortium: Daytime standby crew mobilization time = 25 min.Source: Aviation dispatch time-stamped ledger; Scope: Standard daytime operational shifts (07:00 to 19:00); Measurement: Average minutes elapsed from initial dispatch call receipt to rotor engagement and takeoff during daytime shifts.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Unannounced launch drill readiness rate is between 50 % and 100 %, inclusive.",
+          "role_name": "Base Dispatch Coordinator (DISP)",
+          "candidate_name": "Apex AeroMed Critical Care Consortium",
+          "other_candidate_names": [
+            "Skyline Pediatric Flight Services",
+            "Guardian Rotorcraft Medical Transport"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_logistics_A",
+          "role_id": "flight_logistics",
+          "candidate_id": "A",
+          "key": "FLOG-HANG-WJW",
+          "hidden_predicate_id": "A_night_turnaround_time",
+          "threshold_label": "Night-vision flight dispatch turnaround time",
+          "threshold_aliases": [
+            "Night flight turnaround interval",
+            "Night dispatch delay"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "FLOG-HANG-WJW: Apex AeroMed Critical Care Consortium. The record covers Night-vision flight dispatch turnaround time. Record context: Q3 2024. Hangar night-operations ledger; Nighttime operational shifts (19:00 to 07:00) requiring night-vision goggle protocol pre-flight checks; Average minutes required from night alert dispatch to final runway departure clearance.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Night-vision flight dispatch turnaround time is between 10 min and 60 min, inclusive.",
+          "role_name": "Flight Logistics Supervisor (FLOG)",
+          "candidate_name": "Apex AeroMed Critical Care Consortium",
+          "other_candidate_names": [
+            "Skyline Pediatric Flight Services",
+            "Guardian Rotorcraft Medical Transport"
+          ],
+          "context_value": "Q3 2024",
+          "other_context_values": [
+            "Q4 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

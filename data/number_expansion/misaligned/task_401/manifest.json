@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_401",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health_sanitation",
+        "transport_logistics"
+      ],
+      "role_names": [
+        "Public health sanitation inspector (PHSI)",
+        "Municipal transit and logistics director (MTLD)"
+      ],
+      "directory": "number_expansion/misaligned/task_401/k2",
+      "error_profiles": [
+        {
+          "role_name": "Public health sanitation inspector (PHSI)",
+          "target_key": "PHSI-AIRQUAL-0ZZ",
+          "alternate_key": "PHSI-POTABL-KZT",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Mission Hill Civic Pavilion",
+          "other_candidates": [
+            "Rutland Multi-Sport Complex",
+            "Okanagan College Gymnasium Hub"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "pathogen_filtration_cleared",
+              "value": true,
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ember_resistant_rated",
+              "label": "Ember-resistant structural clearance",
+              "aliases": [
+                "Ember wash structural certification",
+                "Wildland-urban interface building hardening clearance"
+              ]
+            },
+            {
+              "topic": "perimeter_buffer_cleared",
+              "label": "Wildfire buffer perimeter clearance",
+              "aliases": [
+                "Defensible space clearance",
+                "Vegetation buffer zone clearance"
+              ]
+            },
+            {
+              "topic": "backup_telemetry_active",
+              "label": "Backup microgrid telemetry enabled",
+              "aliases": [
+                "Microgrid telemetry activation",
+                "Autonomous power monitoring enablement"
+              ]
+            },
+            {
+              "topic": "backup_power_hours",
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ]
+            },
+            {
+              "topic": "pathogen_filtration_cleared",
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ]
+            },
+            {
+              "topic": "transit_access_signed",
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ]
+            },
+            {
+              "topic": "core_intake_capacity",
+              "label": "Core shelter intake capacity",
+              "aliases": [
+                "Primary indoor shelter capacity",
+                "Main arena residential bed capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_intake_capacity",
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal transit and logistics director (MTLD)",
+          "target_key": "MTLD-ACCESS-NQZ",
+          "alternate_key": "MTLD-ACCESS-DPA",
+          "target_context": "July 2024",
+          "alternate_context": "August 2024",
+          "candidate": "Mission Hill Civic Pavilion",
+          "other_candidates": [
+            "Rutland Multi-Sport Complex",
+            "Okanagan College Gymnasium Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_intake_capacity",
+              "value": 400,
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ],
+              "unit": "person"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "transit_access_signed",
+              "value": true,
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ember_resistant_rated",
+              "label": "Ember-resistant structural clearance",
+              "aliases": [
+                "Ember wash structural certification",
+                "Wildland-urban interface building hardening clearance"
+              ]
+            },
+            {
+              "topic": "perimeter_buffer_cleared",
+              "label": "Wildfire buffer perimeter clearance",
+              "aliases": [
+                "Defensible space clearance",
+                "Vegetation buffer zone clearance"
+              ]
+            },
+            {
+              "topic": "backup_telemetry_active",
+              "label": "Backup microgrid telemetry enabled",
+              "aliases": [
+                "Microgrid telemetry activation",
+                "Autonomous power monitoring enablement"
+              ]
+            },
+            {
+              "topic": "backup_power_hours",
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ]
+            },
+            {
+              "topic": "pathogen_filtration_cleared",
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ]
+            },
+            {
+              "topic": "transit_access_signed",
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ]
+            },
+            {
+              "topic": "core_intake_capacity",
+              "label": "Core shelter intake capacity",
+              "aliases": [
+                "Primary indoor shelter capacity",
+                "Main arena residential bed capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_intake_capacity",
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health_sanitation",
+        "transport_logistics",
+        "energy_resilience"
+      ],
+      "role_names": [
+        "Public health sanitation inspector (PHSI)",
+        "Municipal transit and logistics director (MTLD)",
+        "Resilient energy systems engineer (RESE)"
+      ],
+      "directory": "number_expansion/misaligned/task_401/k3",
+      "error_profiles": [
+        {
+          "role_name": "Public health sanitation inspector (PHSI)",
+          "target_key": "PHSI-AIRQUAL-0ZZ",
+          "alternate_key": "PHSI-POTABL-KZT",
+          "target_context": "June 2024",
+          "alternate_context": "July 2024",
+          "candidate": "Mission Hill Civic Pavilion",
+          "other_candidates": [
+            "Rutland Multi-Sport Complex",
+            "Okanagan College Gymnasium Hub"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "pathogen_filtration_cleared",
+              "value": true,
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ember_resistant_rated",
+              "label": "Ember-resistant structural clearance",
+              "aliases": [
+                "Ember wash structural certification",
+                "Wildland-urban interface building hardening clearance"
+              ]
+            },
+            {
+              "topic": "perimeter_buffer_cleared",
+              "label": "Wildfire buffer perimeter clearance",
+              "aliases": [
+                "Defensible space clearance",
+                "Vegetation buffer zone clearance"
+              ]
+            },
+            {
+              "topic": "backup_telemetry_active",
+              "label": "Backup microgrid telemetry enabled",
+              "aliases": [
+                "Microgrid telemetry activation",
+                "Autonomous power monitoring enablement"
+              ]
+            },
+            {
+              "topic": "backup_power_hours",
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ]
+            },
+            {
+              "topic": "pathogen_filtration_cleared",
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ]
+            },
+            {
+              "topic": "transit_access_signed",
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ]
+            },
+            {
+              "topic": "core_intake_capacity",
+              "label": "Core shelter intake capacity",
+              "aliases": [
+                "Primary indoor shelter capacity",
+                "Main arena residential bed capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_intake_capacity",
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal transit and logistics director (MTLD)",
+          "target_key": "MTLD-ACCESS-NQZ",
+          "alternate_key": "MTLD-ACCESS-DPA",
+          "target_context": "July 2024",
+          "alternate_context": "August 2024",
+          "candidate": "Mission Hill Civic Pavilion",
+          "other_candidates": [
+            "Rutland Multi-Sport Complex",
+            "Okanagan College Gymnasium Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_intake_capacity",
+              "value": 400,
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ],
+              "unit": "person"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "transit_access_signed",
+              "value": true,
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ember_resistant_rated",
+              "label": "Ember-resistant structural clearance",
+              "aliases": [
+                "Ember wash structural certification",
+                "Wildland-urban interface building hardening clearance"
+              ]
+            },
+            {
+              "topic": "perimeter_buffer_cleared",
+              "label": "Wildfire buffer perimeter clearance",
+              "aliases": [
+                "Defensible space clearance",
+                "Vegetation buffer zone clearance"
+              ]
+            },
+            {
+              "topic": "backup_telemetry_active",
+              "label": "Backup microgrid telemetry enabled",
+              "aliases": [
+                "Microgrid telemetry activation",
+                "Autonomous power monitoring enablement"
+              ]
+            },
+            {
+              "topic": "backup_power_hours",
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ]
+            },
+            {
+              "topic": "pathogen_filtration_cleared",
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ]
+            },
+            {
+              "topic": "transit_access_signed",
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ]
+            },
+            {
+              "topic": "core_intake_capacity",
+              "label": "Core shelter intake capacity",
+              "aliases": [
+                "Primary indoor shelter capacity",
+                "Main arena residential bed capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_intake_capacity",
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Resilient energy systems engineer (RESE)",
+          "target_key": "RESE-MICRO-EVB",
+          "alternate_key": "RESE-MICRO-DYX",
+          "target_context": "March 2025",
+          "alternate_context": "April 2025",
+          "candidate": "Mission Hill Civic Pavilion",
+          "other_candidates": [
+            "Rutland Multi-Sport Complex",
+            "Okanagan College Gymnasium Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "backup_power_hours",
+              "value": 96,
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ember_resistant_rated",
+              "label": "Ember-resistant structural clearance",
+              "aliases": [
+                "Ember wash structural certification",
+                "Wildland-urban interface building hardening clearance"
+              ]
+            },
+            {
+              "topic": "perimeter_buffer_cleared",
+              "label": "Wildfire buffer perimeter clearance",
+              "aliases": [
+                "Defensible space clearance",
+                "Vegetation buffer zone clearance"
+              ]
+            },
+            {
+              "topic": "backup_telemetry_active",
+              "label": "Backup microgrid telemetry enabled",
+              "aliases": [
+                "Microgrid telemetry activation",
+                "Autonomous power monitoring enablement"
+              ]
+            },
+            {
+              "topic": "backup_power_hours",
+              "label": "Continuous backup power duration",
+              "aliases": [
+                "Off-grid generation endurance",
+                "Auxiliary power islanding duration"
+              ]
+            },
+            {
+              "topic": "pathogen_filtration_cleared",
+              "label": "Airborne pathogen filtration clearance",
+              "aliases": [
+                "Smoke and pathogen HEPA filtration clearance",
+                "HVAC biosecurity certification"
+              ]
+            },
+            {
+              "topic": "transit_access_signed",
+              "label": "Municipal transit accessibility sign-off",
+              "aliases": [
+                "Evacuation shuttle corridor sign-off",
+                "High-capacity bus routing clearance"
+              ]
+            },
+            {
+              "topic": "core_intake_capacity",
+              "label": "Core shelter intake capacity",
+              "aliases": [
+                "Primary indoor shelter capacity",
+                "Main arena residential bed capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_intake_capacity",
+              "label": "Auxiliary pavilion intake capacity",
+              "aliases": [
+                "Secondary overflow hall intake",
+                "Auxiliary sheltering quota"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

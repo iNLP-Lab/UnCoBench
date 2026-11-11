@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_386",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "mountain_safety",
+        "field_dispatch"
+      ],
+      "role_names": [
+        "Mountain rescue snow safety officer (SNOTER)",
+        "Search and rescue field dispatch coordinator (DISP)"
+      ],
+      "directory": "incomplete/task_386",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_safety_A",
+          "role_id": "mountain_safety",
+          "candidate_id": "A",
+          "key": "SNOTER-HAZARD-X9H",
+          "boolean_predicate_id": "A_snowcat_route_scouted",
+          "boolean_label": "Snowcat surface backup route scouted",
+          "hidden_predicate_id": "A_avalanche_risk_index",
+          "threshold_label": "Maximum avalanche hazard index",
+          "threshold_aliases": [
+            "Corridor avalanche hazard rating",
+            "Snowpack instability index"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "index",
+          "partial_record_text": "SNOTER-HAZARD-X9H: Mont Fort northern couloir route.Mont Fort northern couloir route: Snowcat surface backup route scouted = true .Source: Alpine patrol field scouting log; Scope: Corridor overland trail connecting road head to base camp; Measurement: Formal on-site reconnaissance verification for track vehicle passability.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 6
+          },
+          "coarse_statement": "Maximum avalanche hazard index is between 1 index and 6 index, inclusive.",
+          "role_name": "Mountain rescue snow safety officer (SNOTER)",
+          "candidate_name": "Mont Fort northern couloir route",
+          "other_candidate_names": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_dispatch_A",
+          "role_id": "field_dispatch",
+          "candidate_id": "A",
+          "key": "DISP-MOBIL-26B",
+          "hidden_predicate_id": "A_staging_dispatch_time",
+          "threshold_label": "Operational dispatch staging time",
+          "threshold_aliases": [
+            "Corridor muster latency",
+            "Mobilization staging time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "DISP-MOBIL-26B: Mont Fort northern couloir route.Mont Fort northern couloir route: Gross evacuation transport payload capacity = 950 kg.Source: Fleet load sheet and transport manifest; Scope: Assigned rescue vehicle combination for the candidate corridor; Measurement: Maximum total certified payload rating under alpine winter flight conditions.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Operational dispatch staging time is between 20 min and 90 min, inclusive.",
+          "role_name": "Search and rescue field dispatch coordinator (DISP)",
+          "candidate_name": "Mont Fort northern couloir route",
+          "other_candidate_names": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "mountain_safety",
+        "field_dispatch",
+        "clinical_care"
+      ],
+      "role_names": [
+        "Mountain rescue snow safety officer (SNOTER)",
+        "Search and rescue field dispatch coordinator (DISP)",
+        "Emergency medical clinical coordinator (CLIN)"
+      ],
+      "directory": "incomplete/task_386",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_safety_A",
+          "role_id": "mountain_safety",
+          "candidate_id": "A",
+          "key": "SNOTER-HAZARD-X9H",
+          "boolean_predicate_id": "A_snowcat_route_scouted",
+          "boolean_label": "Snowcat surface backup route scouted",
+          "hidden_predicate_id": "A_avalanche_risk_index",
+          "threshold_label": "Maximum avalanche hazard index",
+          "threshold_aliases": [
+            "Corridor avalanche hazard rating",
+            "Snowpack instability index"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "index",
+          "partial_record_text": "SNOTER-HAZARD-X9H: Mont Fort northern couloir route.Mont Fort northern couloir route: Snowcat surface backup route scouted = true .Source: Alpine patrol field scouting log; Scope: Corridor overland trail connecting road head to base camp; Measurement: Formal on-site reconnaissance verification for track vehicle passability.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 6
+          },
+          "coarse_statement": "Maximum avalanche hazard index is between 1 index and 6 index, inclusive.",
+          "role_name": "Mountain rescue snow safety officer (SNOTER)",
+          "candidate_name": "Mont Fort northern couloir route",
+          "other_candidate_names": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_dispatch_A",
+          "role_id": "field_dispatch",
+          "candidate_id": "A",
+          "key": "DISP-MOBIL-26B",
+          "hidden_predicate_id": "A_staging_dispatch_time",
+          "threshold_label": "Operational dispatch staging time",
+          "threshold_aliases": [
+            "Corridor muster latency",
+            "Mobilization staging time"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "DISP-MOBIL-26B: Mont Fort northern couloir route.Mont Fort northern couloir route: Gross evacuation transport payload capacity = 950 kg.Source: Fleet load sheet and transport manifest; Scope: Assigned rescue vehicle combination for the candidate corridor; Measurement: Maximum total certified payload rating under alpine winter flight conditions.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Operational dispatch staging time is between 20 min and 90 min, inclusive.",
+          "role_name": "Search and rescue field dispatch coordinator (DISP)",
+          "candidate_name": "Mont Fort northern couloir route",
+          "other_candidate_names": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_care_A",
+          "role_id": "clinical_care",
+          "candidate_id": "A",
+          "key": "CLIN-MEDREC-ESX",
+          "hidden_predicate_id": "A_mandatory_equipment_reserve",
+          "threshold_label": "Mandatory medical equipment mass reserve",
+          "threshold_aliases": [
+            "Clinical life-support equipment mass",
+            "Required medical gear reserve"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "kg",
+          "partial_record_text": "CLIN-MEDREC-ESX: Mont Fort northern couloir route.Aggregation window: current operational shift.Mont Fort northern couloir route: Designated trauma center capacity confirmed = true .Source: Cantonal hospital admission desk registry; Scope: Designated Level 1 alpine trauma center receiving dock; Measurement: Documented pre-clearance and staffed trauma bay availability.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandatory medical equipment mass reserve is between 200 kg and 600 kg, inclusive.",
+          "role_name": "Emergency medical clinical coordinator (CLIN)",
+          "candidate_name": "Mont Fort northern couloir route",
+          "other_candidate_names": [
+            "Grand Combin eastern glacier traverse",
+            "Val de Bagnes mid-valley arterial passage"
+          ],
+          "context_value": "current operational shift",
+          "other_context_values": [
+            "trailing 24-hour average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

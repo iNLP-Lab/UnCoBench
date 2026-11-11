@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_004",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_safety",
+        "expedition_logistics"
+      ],
+      "role_names": [
+        "Maritime safety officer (SAF)",
+        "Expedition logistics coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_004",
+      "profiles": [
+        {
+          "record_id": "rec_marine_safety_A",
+          "role_id": "marine_safety",
+          "candidate_id": "A",
+          "key": "SAF-SURV-F3D",
+          "boolean_predicate_id": "A_evacuation_protocol_certified",
+          "boolean_label": "Certified emergency evacuation protocol",
+          "hidden_predicate_id": "A_shelter_endurance_hours",
+          "threshold_label": "On-site shelter endurance",
+          "threshold_aliases": [
+            "Emergency shelter survival duration",
+            "Survival shelter autonomous endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "SAF-SURV-F3D: Kerguelen Marine Research Haven.Kerguelen Marine Research Haven: Certified emergency evacuation protocol = true .Source: Maritime safety audit endorsement; Scope: Staging base perimeter and ice shelf access corridors; Measurement: Presence of an active signed emergency evacuation operational plan.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "On-site shelter endurance is at most 300 h.",
+          "role_name": "Maritime safety officer (SAF)",
+          "candidate_name": "Kerguelen Marine Research Haven",
+          "other_candidate_names": [
+            "Falkland Sound Support Depot",
+            "South Georgia Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_A",
+          "role_id": "expedition_logistics",
+          "candidate_id": "A",
+          "key": "LOG-STG-2JX",
+          "hidden_predicate_id": "A_harbor_draft_depth",
+          "threshold_label": "Harbor draft depth",
+          "threshold_aliases": [
+            "Approach channel draft",
+            "Quayside water depth"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-STG-2JX: Kerguelen Marine Research Haven.Facility environment: operational deployment environment.Kerguelen Marine Research Haven: Cold storage certification = true .Source: Polar laboratory inspection register; Scope: Base biological sample preservation facility; Measurement: Verification of ISO-compliant cold chain certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Harbor draft depth is at most 30 m.",
+          "role_name": "Expedition logistics coordinator (LOG)",
+          "candidate_name": "Kerguelen Marine Research Haven",
+          "other_candidate_names": [
+            "Falkland Sound Support Depot",
+            "South Georgia Staging Facility"
+          ],
+          "context_value": "operational deployment environment",
+          "other_context_values": [
+            "simulation test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_safety",
+        "expedition_logistics",
+        "polar_quartermaster"
+      ],
+      "role_names": [
+        "Maritime safety officer (SAF)",
+        "Expedition logistics coordinator (LOG)",
+        "Polar expedition quartermaster (QMR)"
+      ],
+      "directory": "incomplete/task_004",
+      "profiles": [
+        {
+          "record_id": "rec_marine_safety_A",
+          "role_id": "marine_safety",
+          "candidate_id": "A",
+          "key": "SAF-SURV-F3D",
+          "boolean_predicate_id": "A_evacuation_protocol_certified",
+          "boolean_label": "Certified emergency evacuation protocol",
+          "hidden_predicate_id": "A_shelter_endurance_hours",
+          "threshold_label": "On-site shelter endurance",
+          "threshold_aliases": [
+            "Emergency shelter survival duration",
+            "Survival shelter autonomous endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "SAF-SURV-F3D: Kerguelen Marine Research Haven.Kerguelen Marine Research Haven: Certified emergency evacuation protocol = true .Source: Maritime safety audit endorsement; Scope: Staging base perimeter and ice shelf access corridors; Measurement: Presence of an active signed emergency evacuation operational plan.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "On-site shelter endurance is at most 300 h.",
+          "role_name": "Maritime safety officer (SAF)",
+          "candidate_name": "Kerguelen Marine Research Haven",
+          "other_candidate_names": [
+            "Falkland Sound Support Depot",
+            "South Georgia Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_A",
+          "role_id": "expedition_logistics",
+          "candidate_id": "A",
+          "key": "LOG-STG-2JX",
+          "hidden_predicate_id": "A_harbor_draft_depth",
+          "threshold_label": "Harbor draft depth",
+          "threshold_aliases": [
+            "Approach channel draft",
+            "Quayside water depth"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-STG-2JX: Kerguelen Marine Research Haven.Facility environment: operational deployment environment.Kerguelen Marine Research Haven: Cold storage certification = true .Source: Polar laboratory inspection register; Scope: Base biological sample preservation facility; Measurement: Verification of ISO-compliant cold chain certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Harbor draft depth is at most 30 m.",
+          "role_name": "Expedition logistics coordinator (LOG)",
+          "candidate_name": "Kerguelen Marine Research Haven",
+          "other_candidate_names": [
+            "Falkland Sound Support Depot",
+            "South Georgia Staging Facility"
+          ],
+          "context_value": "operational deployment environment",
+          "other_context_values": [
+            "simulation test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_polar_quartermaster_A",
+          "role_id": "polar_quartermaster",
+          "candidate_id": "A",
+          "key": "QMR-GEAR-OCW",
+          "hidden_predicate_id": "A_survival_payload_allowance",
+          "threshold_label": "Survival gear payload allowance",
+          "threshold_aliases": [
+            "Polar survival gear allotment",
+            "Extreme-weather supply allocation"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "t",
+          "partial_record_text": "QMR-GEAR-OCW: Kerguelen Marine Research Haven. The record covers Survival gear payload allowance. Expedition equipment staging plan; Crew survival pods, emergency dry food packs, and immersion gear; Designated survival provisions cargo mass.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Survival gear payload allowance is at most 300 t.",
+          "role_name": "Polar expedition quartermaster (QMR)",
+          "candidate_name": "Kerguelen Marine Research Haven",
+          "other_candidate_names": [
+            "Falkland Sound Support Depot",
+            "South Georgia Staging Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

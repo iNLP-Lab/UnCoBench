@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_106",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_navigation",
+        "vessel_logistics"
+      ],
+      "role_names": [
+        "Hydrographic navigation specialist (HNS)",
+        "Marine operations coordinator (MOC)"
+      ],
+      "directory": "incomplete/task_106",
+      "profiles": [
+        {
+          "record_id": "rec_marine_navigation_A",
+          "role_id": "marine_navigation",
+          "candidate_id": "A",
+          "key": "HNS-HYDNAV-05L",
+          "boolean_predicate_id": "A_acoustic_tracking_enabled",
+          "boolean_label": "Subsea acoustic tracking enabled",
+          "hidden_predicate_id": "A_transponder_sync_latency",
+          "threshold_label": "Acoustic transponder sync latency",
+          "threshold_aliases": [
+            "Acoustic positioning latency",
+            "Ping synchronization delay"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "ms",
+          "partial_record_text": "HNS-HYDNAV-05L: Fast-response capping stack deployment.Fast-response capping stack deployment: Subsea acoustic tracking enabled = true .Source: Ultra-short baseline telemetry setup audit; Scope: Emergency seabed transponder grid; Measurement: Status of the primary seabed hydro-acoustic positioning channel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Acoustic transponder sync latency is at most 300 ms.",
+          "role_name": "Hydrographic navigation specialist (HNS)",
+          "candidate_name": "Fast-response capping stack deployment",
+          "other_candidate_names": [
+            "Surface diverter and relief skid routing",
+            "Direct subsea umbilical hot-tap isolation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_logistics_A",
+          "role_id": "vessel_logistics",
+          "candidate_id": "A",
+          "key": "MOC-MAROPS-VS1",
+          "hidden_predicate_id": "A_vessel_bunkering_allowance",
+          "threshold_label": "Emergency vessel bunkering allowance",
+          "threshold_aliases": [
+            "Mobilization bunker allocation",
+            "Support vessel fuel mass"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "t",
+          "partial_record_text": "MOC-MAROPS-VS1: Fast-response capping stack deployment.Aggregation window: initial 72-hour mobilization window.Fast-response capping stack deployment: Dynamic positioning class 3 readiness = true .Source: Marine vessel classification audit; Scope: Designated primary emergency response vessel; Measurement: Confirmation of valid DP3 operational certification and thruster redundancy.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency vessel bunkering allowance is at most 300 t.",
+          "role_name": "Marine operations coordinator (MOC)",
+          "candidate_name": "Fast-response capping stack deployment",
+          "other_candidate_names": [
+            "Surface diverter and relief skid routing",
+            "Direct subsea umbilical hot-tap isolation"
+          ],
+          "context_value": "initial 72-hour mobilization window",
+          "other_context_values": [
+            "cumulative 30-day campaign window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_navigation",
+        "vessel_logistics",
+        "subsea_intervention"
+      ],
+      "role_names": [
+        "Hydrographic navigation specialist (HNS)",
+        "Marine operations coordinator (MOC)",
+        "Subsea intervention manager (SIM)"
+      ],
+      "directory": "incomplete/task_106",
+      "profiles": [
+        {
+          "record_id": "rec_marine_navigation_A",
+          "role_id": "marine_navigation",
+          "candidate_id": "A",
+          "key": "HNS-HYDNAV-05L",
+          "boolean_predicate_id": "A_acoustic_tracking_enabled",
+          "boolean_label": "Subsea acoustic tracking enabled",
+          "hidden_predicate_id": "A_transponder_sync_latency",
+          "threshold_label": "Acoustic transponder sync latency",
+          "threshold_aliases": [
+            "Acoustic positioning latency",
+            "Ping synchronization delay"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "ms",
+          "partial_record_text": "HNS-HYDNAV-05L: Fast-response capping stack deployment.Fast-response capping stack deployment: Subsea acoustic tracking enabled = true .Source: Ultra-short baseline telemetry setup audit; Scope: Emergency seabed transponder grid; Measurement: Status of the primary seabed hydro-acoustic positioning channel.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Acoustic transponder sync latency is at most 300 ms.",
+          "role_name": "Hydrographic navigation specialist (HNS)",
+          "candidate_name": "Fast-response capping stack deployment",
+          "other_candidate_names": [
+            "Surface diverter and relief skid routing",
+            "Direct subsea umbilical hot-tap isolation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_logistics_A",
+          "role_id": "vessel_logistics",
+          "candidate_id": "A",
+          "key": "MOC-MAROPS-VS1",
+          "hidden_predicate_id": "A_vessel_bunkering_allowance",
+          "threshold_label": "Emergency vessel bunkering allowance",
+          "threshold_aliases": [
+            "Mobilization bunker allocation",
+            "Support vessel fuel mass"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "t",
+          "partial_record_text": "MOC-MAROPS-VS1: Fast-response capping stack deployment.Aggregation window: initial 72-hour mobilization window.Fast-response capping stack deployment: Dynamic positioning class 3 readiness = true .Source: Marine vessel classification audit; Scope: Designated primary emergency response vessel; Measurement: Confirmation of valid DP3 operational certification and thruster redundancy.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Emergency vessel bunkering allowance is at most 300 t.",
+          "role_name": "Marine operations coordinator (MOC)",
+          "candidate_name": "Fast-response capping stack deployment",
+          "other_candidate_names": [
+            "Surface diverter and relief skid routing",
+            "Direct subsea umbilical hot-tap isolation"
+          ],
+          "context_value": "initial 72-hour mobilization window",
+          "other_context_values": [
+            "cumulative 30-day campaign window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_intervention_A",
+          "role_id": "subsea_intervention",
+          "candidate_id": "A",
+          "key": "SIM-SUBINT-IH1",
+          "hidden_predicate_id": "A_tooling_freight_tonnage",
+          "threshold_label": "Heavy subsea tooling freight",
+          "threshold_aliases": [
+            "Subsea tooling payload mass",
+            "Containment skid dry freight mass"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "t",
+          "partial_record_text": "SIM-SUBINT-IH1: Fast-response capping stack deployment.Fast-response capping stack deployment: Deepwater intervention clearance = true .Source: Subsea intervention task force review; Scope: Target wellhead and pipeline junction depth (850 m); Measurement: Formal validation that mechanical tooling matches seabed flange geometry.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Heavy subsea tooling freight is at most 400 t.",
+          "role_name": "Subsea intervention manager (SIM)",
+          "candidate_name": "Fast-response capping stack deployment",
+          "other_candidate_names": [
+            "Surface diverter and relief skid routing",
+            "Direct subsea umbilical hot-tap isolation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

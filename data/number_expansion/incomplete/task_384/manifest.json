@@ -1,0 +1,174 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_384",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "customs_compliance",
+        "contract_procurement"
+      ],
+      "role_names": [
+        "Customs compliance officer (CUST)",
+        "Freight contract procurement manager (PROC)"
+      ],
+      "directory": "incomplete/task_384",
+      "profiles": [
+        {
+          "record_id": "rec_customs_compliance_A",
+          "role_id": "customs_compliance",
+          "candidate_id": "A",
+          "key": "CUST-DECL-4JA",
+          "boolean_predicate_id": "A_eseal_tracking_active",
+          "boolean_label": "Active electronic cargo seal tracking",
+          "hidden_predicate_id": "A_customs_dwell_time",
+          "threshold_label": "Customs clearance dwell time",
+          "threshold_aliases": [
+            "Border customs dwell duration",
+            "Average customs clearance delay"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "CUST-DECL-4JA: Trans-European Rail Intermodal.Trans-European Rail Intermodal: Active electronic cargo seal tracking = true .Source: Telematics transit compliance register; Scope: All intermodal corridor transit containers; Measurement: Whether tamper-evident satellite electronic seal reporting is enabled and certified active.",
+          "role_name": "Customs compliance officer (CUST)",
+          "candidate_name": "Trans-European Rail Intermodal",
+          "other_candidate_names": [
+            "Rhine-Danube Barge Consortium",
+            "Baltic North-Sea Multimodal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_contract_procurement_A",
+          "role_id": "contract_procurement",
+          "candidate_id": "A",
+          "key": "PROC-FLOW-QNB",
+          "hidden_predicate_id": "A_surge_weekly_volume",
+          "threshold_label": "Surge container volume commitment",
+          "threshold_aliases": [
+            "Additional weekly surge throughput",
+            "Weekly surge TEU commitment"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "TEU",
+          "partial_record_text": "PROC-FLOW-QNB: Trans-European Rail Intermodal. The record covers Surge container volume commitment. Flexible capacity agreement addendum; High-demand peak seasonal freight windows; Guaranteed priority surge container volume provisioned per week beyond base allocation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Surge container volume commitment is at most 60 TEU.",
+          "role_name": "Freight contract procurement manager (PROC)",
+          "candidate_name": "Trans-European Rail Intermodal",
+          "other_candidate_names": [
+            "Rhine-Danube Barge Consortium",
+            "Baltic North-Sea Multimodal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "customs_compliance",
+        "contract_procurement",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Customs compliance officer (CUST)",
+        "Freight contract procurement manager (PROC)",
+        "Terminal operations lead (TERM)"
+      ],
+      "directory": "incomplete/task_384",
+      "profiles": [
+        {
+          "record_id": "rec_customs_compliance_A",
+          "role_id": "customs_compliance",
+          "candidate_id": "A",
+          "key": "CUST-DECL-4JA",
+          "boolean_predicate_id": "A_eseal_tracking_active",
+          "boolean_label": "Active electronic cargo seal tracking",
+          "hidden_predicate_id": "A_customs_dwell_time",
+          "threshold_label": "Customs clearance dwell time",
+          "threshold_aliases": [
+            "Border customs dwell duration",
+            "Average customs clearance delay"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "CUST-DECL-4JA: Trans-European Rail Intermodal.Trans-European Rail Intermodal: Active electronic cargo seal tracking = true .Source: Telematics transit compliance register; Scope: All intermodal corridor transit containers; Measurement: Whether tamper-evident satellite electronic seal reporting is enabled and certified active.",
+          "role_name": "Customs compliance officer (CUST)",
+          "candidate_name": "Trans-European Rail Intermodal",
+          "other_candidate_names": [
+            "Rhine-Danube Barge Consortium",
+            "Baltic North-Sea Multimodal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_contract_procurement_A",
+          "role_id": "contract_procurement",
+          "candidate_id": "A",
+          "key": "PROC-FLOW-QNB",
+          "hidden_predicate_id": "A_surge_weekly_volume",
+          "threshold_label": "Surge container volume commitment",
+          "threshold_aliases": [
+            "Additional weekly surge throughput",
+            "Weekly surge TEU commitment"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "TEU",
+          "partial_record_text": "PROC-FLOW-QNB: Trans-European Rail Intermodal. The record covers Surge container volume commitment. Flexible capacity agreement addendum; High-demand peak seasonal freight windows; Guaranteed priority surge container volume provisioned per week beyond base allocation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Surge container volume commitment is at most 60 TEU.",
+          "role_name": "Freight contract procurement manager (PROC)",
+          "candidate_name": "Trans-European Rail Intermodal",
+          "other_candidate_names": [
+            "Rhine-Danube Barge Consortium",
+            "Baltic North-Sea Multimodal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_operations_A",
+          "role_id": "terminal_operations",
+          "candidate_id": "A",
+          "key": "TERM-AUTO-B4M",
+          "hidden_predicate_id": "A_base_weekly_volume",
+          "threshold_label": "Base scheduled container volume",
+          "threshold_aliases": [
+            "Baseline scheduled throughput",
+            "Weekly base TEU volume"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "TEU",
+          "partial_record_text": "TERM-AUTO-B4M: Trans-European Rail Intermodal.Operational country: Germany.Trans-European Rail Intermodal: Cross-dock automation certified = true .Source: Terminal automation audit certificate; Scope: Central European rail-road transshipment hub; Measurement: Verification of autonomous container sorting and automated guided vehicle transshipment.",
+          "role_name": "Terminal operations lead (TERM)",
+          "candidate_name": "Trans-European Rail Intermodal",
+          "other_candidate_names": [
+            "Rhine-Danube Barge Consortium",
+            "Baltic North-Sea Multimodal"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

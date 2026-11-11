@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_988",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "submersible_ops_lead",
+        "marine_instrumentation_lead"
+      ],
+      "role_names": [
+        "Deep Submergence Operations Lead (DSOL)",
+        "Marine Instrumentation Lead (MIL)"
+      ],
+      "directory": "incomplete/task_988",
+      "profiles": [
+        {
+          "record_id": "rec_submersible_ops_lead_A",
+          "role_id": "submersible_ops_lead",
+          "candidate_id": "A",
+          "key": "DSOL-LAUNCH-A5I",
+          "boolean_predicate_id": "A_heavy_weather_launch_protocol",
+          "boolean_label": "Heavy-weather submergence launch protocol active",
+          "hidden_predicate_id": "A_winch_retrieval_line_speed",
+          "threshold_label": "Deck winch retrieval line speed",
+          "threshold_aliases": [
+            "Main winch retrieval speed",
+            "Traction winch hauling velocity"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "m/min",
+          "partial_record_text": "DSOL-LAUNCH-A5I: RV Pelagic Surveyor.RV Pelagic Surveyor: Heavy-weather submergence launch protocol active = true .Source: Marine operations standard operating manual; Scope: Benthic vehicle deployment system; Measurement: Whether certified launch and recovery procedures exist for sea state 5 operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Deck winch retrieval line speed is at most 300 m/min.",
+          "role_name": "Deep Submergence Operations Lead (DSOL)",
+          "candidate_name": "RV Pelagic Surveyor",
+          "other_candidate_names": [
+            "RV Austral Explorer",
+            "RV Mariana Pioneer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_instrumentation_lead_A",
+          "role_id": "marine_instrumentation_lead",
+          "candidate_id": "A",
+          "key": "MIL-LANDER-1GI",
+          "hidden_predicate_id": "A_benthic_lander_skid_payload",
+          "threshold_label": "Deep-sea benthic lander skid payload allowance",
+          "threshold_aliases": [
+            "Benthic lander skid payload",
+            "Abyssal lander mounting weight"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "t",
+          "partial_record_text": "MIL-LANDER-1GI: RV Pelagic Surveyor. The record covers Deep-sea benthic lander skid payload allowance. Record context: Australia. Deck structural integrity calculation; Heavy sensor deployment pad and skid track; Certified working payload capacity for free-fall benthic lander frameworks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Deep-sea benthic lander skid payload allowance is at most 30 t.",
+          "role_name": "Marine Instrumentation Lead (MIL)",
+          "candidate_name": "RV Pelagic Surveyor",
+          "other_candidate_names": [
+            "RV Austral Explorer",
+            "RV Mariana Pioneer"
+          ],
+          "context_value": "Australia",
+          "other_context_values": [
+            "Japan"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "submersible_ops_lead",
+        "marine_instrumentation_lead",
+        "scientific_logistics_lead"
+      ],
+      "role_names": [
+        "Deep Submergence Operations Lead (DSOL)",
+        "Marine Instrumentation Lead (MIL)",
+        "Scientific Deck Logistics Lead (SDLL)"
+      ],
+      "directory": "incomplete/task_988",
+      "profiles": [
+        {
+          "record_id": "rec_submersible_ops_lead_A",
+          "role_id": "submersible_ops_lead",
+          "candidate_id": "A",
+          "key": "DSOL-LAUNCH-A5I",
+          "boolean_predicate_id": "A_heavy_weather_launch_protocol",
+          "boolean_label": "Heavy-weather submergence launch protocol active",
+          "hidden_predicate_id": "A_winch_retrieval_line_speed",
+          "threshold_label": "Deck winch retrieval line speed",
+          "threshold_aliases": [
+            "Main winch retrieval speed",
+            "Traction winch hauling velocity"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "m/min",
+          "partial_record_text": "DSOL-LAUNCH-A5I: RV Pelagic Surveyor.RV Pelagic Surveyor: Heavy-weather submergence launch protocol active = true .Source: Marine operations standard operating manual; Scope: Benthic vehicle deployment system; Measurement: Whether certified launch and recovery procedures exist for sea state 5 operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Deck winch retrieval line speed is at most 300 m/min.",
+          "role_name": "Deep Submergence Operations Lead (DSOL)",
+          "candidate_name": "RV Pelagic Surveyor",
+          "other_candidate_names": [
+            "RV Austral Explorer",
+            "RV Mariana Pioneer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_instrumentation_lead_A",
+          "role_id": "marine_instrumentation_lead",
+          "candidate_id": "A",
+          "key": "MIL-LANDER-1GI",
+          "hidden_predicate_id": "A_benthic_lander_skid_payload",
+          "threshold_label": "Deep-sea benthic lander skid payload allowance",
+          "threshold_aliases": [
+            "Benthic lander skid payload",
+            "Abyssal lander mounting weight"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "t",
+          "partial_record_text": "MIL-LANDER-1GI: RV Pelagic Surveyor. The record covers Deep-sea benthic lander skid payload allowance. Record context: Australia. Deck structural integrity calculation; Heavy sensor deployment pad and skid track; Certified working payload capacity for free-fall benthic lander frameworks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Deep-sea benthic lander skid payload allowance is at most 30 t.",
+          "role_name": "Marine Instrumentation Lead (MIL)",
+          "candidate_name": "RV Pelagic Surveyor",
+          "other_candidate_names": [
+            "RV Austral Explorer",
+            "RV Mariana Pioneer"
+          ],
+          "context_value": "Australia",
+          "other_context_values": [
+            "Japan"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_logistics_lead_A",
+          "role_id": "scientific_logistics_lead",
+          "candidate_id": "A",
+          "key": "SDLL-LABDECK-0LF",
+          "hidden_predicate_id": "A_container_lab_payload",
+          "threshold_label": "Containerized laboratory payload allowance",
+          "threshold_aliases": [
+            "Deck laboratory module payload",
+            "Containerized science lab rating"
+          ],
+          "threshold_value": 29.5,
+          "threshold_unit": "t",
+          "partial_record_text": "SDLL-LABDECK-0LF: RV Pelagic Surveyor. The record covers Containerized laboratory payload allowance. Aft deck loading plan; Main aft working deck ISO container twistlock positions; Maximum approved weight of mobilized twenty-foot laboratory containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Containerized laboratory payload allowance is at most 40 t.",
+          "role_name": "Scientific Deck Logistics Lead (SDLL)",
+          "candidate_name": "RV Pelagic Surveyor",
+          "other_candidate_names": [
+            "RV Austral Explorer",
+            "RV Mariana Pioneer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_372",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telemetry_communications_lead",
+        "cryosphere_logistics_lead"
+      ],
+      "role_names": [
+        "Communications infrastructure specialist (COMMS)",
+        "Cryosphere logistics manager (CRYO)"
+      ],
+      "directory": "incomplete/task_372",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_communications_lead_A",
+          "role_id": "telemetry_communications_lead",
+          "candidate_id": "A",
+          "key": "COMMS-SATCOM-O4K",
+          "boolean_predicate_id": "A_telemetry_uplink_enabled",
+          "boolean_label": "Satellite data telemetry enablement",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Telemetry packet loss",
+          "threshold_aliases": [
+            "Data stream packet drop rate",
+            "Transmission frame error rate"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "COMMS-SATCOM-O4K: Cape Adare Marine Field Base.Cape Adare Marine Field Base: Satellite data telemetry enablement = true .Source: Earth station configuration sheet; Scope: Station radome broadband satellite transponder; Measurement: Active administrative activation state of real-time benthic telemetry backhaul.",
+          "role_name": "Communications infrastructure specialist (COMMS)",
+          "candidate_name": "Cape Adare Marine Field Base",
+          "other_candidate_names": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryosphere_logistics_lead_A",
+          "role_id": "cryosphere_logistics_lead",
+          "candidate_id": "A",
+          "key": "CRYO-RUNW-Z92",
+          "hidden_predicate_id": "A_runway_load_capacity",
+          "threshold_label": "Runway load-bearing capacity",
+          "threshold_aliases": [
+            "Ice runway weight rating",
+            "Skiway landing gear load tolerance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "t",
+          "partial_record_text": "CRYO-RUNW-Z92: Cape Adare Marine Field Base.Cape Adare Marine Field Base: Scientific equipment freight mass = 14 t.Source: Field expedition packing manifest; Scope: Oceanographic sensor packages, moorings, and lab equipment; Measurement: Gross palletized dry air-cargo freight mass.",
+          "role_name": "Cryosphere logistics manager (CRYO)",
+          "candidate_name": "Cape Adare Marine Field Base",
+          "other_candidate_names": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telemetry_communications_lead",
+        "cryosphere_logistics_lead",
+        "marine_operations_lead"
+      ],
+      "role_names": [
+        "Communications infrastructure specialist (COMMS)",
+        "Cryosphere logistics manager (CRYO)",
+        "Marine operations coordinator (MAROPS)"
+      ],
+      "directory": "incomplete/task_372",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_communications_lead_A",
+          "role_id": "telemetry_communications_lead",
+          "candidate_id": "A",
+          "key": "COMMS-SATCOM-O4K",
+          "boolean_predicate_id": "A_telemetry_uplink_enabled",
+          "boolean_label": "Satellite data telemetry enablement",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Telemetry packet loss",
+          "threshold_aliases": [
+            "Data stream packet drop rate",
+            "Transmission frame error rate"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "COMMS-SATCOM-O4K: Cape Adare Marine Field Base.Cape Adare Marine Field Base: Satellite data telemetry enablement = true .Source: Earth station configuration sheet; Scope: Station radome broadband satellite transponder; Measurement: Active administrative activation state of real-time benthic telemetry backhaul.",
+          "role_name": "Communications infrastructure specialist (COMMS)",
+          "candidate_name": "Cape Adare Marine Field Base",
+          "other_candidate_names": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryosphere_logistics_lead_A",
+          "role_id": "cryosphere_logistics_lead",
+          "candidate_id": "A",
+          "key": "CRYO-RUNW-Z92",
+          "hidden_predicate_id": "A_runway_load_capacity",
+          "threshold_label": "Runway load-bearing capacity",
+          "threshold_aliases": [
+            "Ice runway weight rating",
+            "Skiway landing gear load tolerance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "t",
+          "partial_record_text": "CRYO-RUNW-Z92: Cape Adare Marine Field Base.Cape Adare Marine Field Base: Scientific equipment freight mass = 14 t.Source: Field expedition packing manifest; Scope: Oceanographic sensor packages, moorings, and lab equipment; Measurement: Gross palletized dry air-cargo freight mass.",
+          "role_name": "Cryosphere logistics manager (CRYO)",
+          "candidate_name": "Cape Adare Marine Field Base",
+          "other_candidate_names": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_lead_A",
+          "role_id": "marine_operations_lead",
+          "candidate_id": "A",
+          "key": "MAROPS-ENV-XHY",
+          "hidden_predicate_id": "A_specimen_freight_mass",
+          "threshold_label": "Specimen freight mass",
+          "threshold_aliases": [
+            "Marine specimen payload weight",
+            "Biological return cargo weight"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "t",
+          "partial_record_text": "MAROPS-ENV-XHY: Cape Adare Marine Field Base.Cape Adare Marine Field Base: Antarctic environmental protocol clearance = true .Source: Environmental impact assessment record; Scope: Coastal benthic sampling and effluent discharge plan; Measurement: Verified compliance certificate issued under Antarctic Treaty environmental standards.Cape Adare Marine Field Base: Deep dive support staging readiness = true .Source: Dive operations safety sign-off; Scope: Station wet dive preparation shack and heated moonpool hole; Measurement: Formal sign-off confirming functional heated dive staging and recovery infrastructure.",
+          "role_name": "Marine operations coordinator (MAROPS)",
+          "candidate_name": "Cape Adare Marine Field Base",
+          "other_candidate_names": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

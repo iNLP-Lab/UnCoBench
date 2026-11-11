@@ -1,0 +1,176 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_198",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_search_director",
+        "robotics_engineering_lead"
+      ],
+      "role_names": [
+        "Subsea Search Director (SDIR)",
+        "Subsea Robotics Engineering Lead (SREL)"
+      ],
+      "directory": "incomplete/task_198",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_search_director_A",
+          "role_id": "subsea_search_director",
+          "candidate_id": "A",
+          "key": "SDIR-LOC-V66",
+          "boolean_predicate_id": "A_transponder_locator_ready",
+          "boolean_label": "Autonomous transponder localization readiness",
+          "hidden_predicate_id": "A_search_depth_rating",
+          "threshold_label": "Search depth rating",
+          "threshold_aliases": [
+            "Maximum rated operating depth",
+            "Subsea vehicle depth threshold"
+          ],
+          "threshold_value": 5200,
+          "threshold_unit": "m",
+          "partial_record_text": "SDIR-LOC-V66: Autonomous Underwater Vehicle Swarm Deployment.Autonomous Underwater Vehicle Swarm Deployment: Autonomous transponder localization readiness = true .Source: Acoustic detection readiness audit; Scope: Flight recorder emergency underwater locator beacon frequencies (37.5 kHz); Measurement: Formal validation of hydrophone array receiver readiness for beacon detection.",
+          "role_name": "Subsea Search Director (SDIR)",
+          "candidate_name": "Autonomous Underwater Vehicle Swarm Deployment",
+          "other_candidate_names": [
+            "Deep-Towed Synthetic Aperture Sonar Transect",
+            "Tethered Heavy-Workclass ROV Survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_robotics_engineering_lead_A",
+          "role_id": "robotics_engineering_lead",
+          "candidate_id": "A",
+          "key": "SREL-ROBOT-NF5",
+          "hidden_predicate_id": "A_robotics_specialist_count",
+          "threshold_label": "Subsea robotics technical specialists",
+          "threshold_aliases": [
+            "Robotics crew headcount",
+            "ROV and AUV technician complement"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "persons",
+          "partial_record_text": "SREL-ROBOT-NF5: Autonomous Underwater Vehicle Swarm Deployment. The record covers Subsea robotics technical specialists. Record context: including standby relief personnel. Subsea engineering shift schedule; Continuous vehicle maintenance, launch, and recovery shifts; Number of mechanical, electronic, and pilot specialists dedicated to vehicle operations.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 8,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Subsea robotics technical specialists is at least 8 persons.",
+          "role_name": "Subsea Robotics Engineering Lead (SREL)",
+          "candidate_name": "Autonomous Underwater Vehicle Swarm Deployment",
+          "other_candidate_names": [
+            "Deep-Towed Synthetic Aperture Sonar Transect",
+            "Tethered Heavy-Workclass ROV Survey"
+          ],
+          "context_value": "including standby relief personnel",
+          "other_context_values": [
+            "excluding standby relief personnel"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_search_director",
+        "robotics_engineering_lead",
+        "hydrography_lead"
+      ],
+      "role_names": [
+        "Subsea Search Director (SDIR)",
+        "Subsea Robotics Engineering Lead (SREL)",
+        "Chief Hydrographer (CHYD)"
+      ],
+      "directory": "incomplete/task_198",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_search_director_A",
+          "role_id": "subsea_search_director",
+          "candidate_id": "A",
+          "key": "SDIR-LOC-V66",
+          "boolean_predicate_id": "A_transponder_locator_ready",
+          "boolean_label": "Autonomous transponder localization readiness",
+          "hidden_predicate_id": "A_search_depth_rating",
+          "threshold_label": "Search depth rating",
+          "threshold_aliases": [
+            "Maximum rated operating depth",
+            "Subsea vehicle depth threshold"
+          ],
+          "threshold_value": 5200,
+          "threshold_unit": "m",
+          "partial_record_text": "SDIR-LOC-V66: Autonomous Underwater Vehicle Swarm Deployment.Autonomous Underwater Vehicle Swarm Deployment: Autonomous transponder localization readiness = true .Source: Acoustic detection readiness audit; Scope: Flight recorder emergency underwater locator beacon frequencies (37.5 kHz); Measurement: Formal validation of hydrophone array receiver readiness for beacon detection.",
+          "role_name": "Subsea Search Director (SDIR)",
+          "candidate_name": "Autonomous Underwater Vehicle Swarm Deployment",
+          "other_candidate_names": [
+            "Deep-Towed Synthetic Aperture Sonar Transect",
+            "Tethered Heavy-Workclass ROV Survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_robotics_engineering_lead_A",
+          "role_id": "robotics_engineering_lead",
+          "candidate_id": "A",
+          "key": "SREL-ROBOT-NF5",
+          "hidden_predicate_id": "A_robotics_specialist_count",
+          "threshold_label": "Subsea robotics technical specialists",
+          "threshold_aliases": [
+            "Robotics crew headcount",
+            "ROV and AUV technician complement"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "persons",
+          "partial_record_text": "SREL-ROBOT-NF5: Autonomous Underwater Vehicle Swarm Deployment. The record covers Subsea robotics technical specialists. Record context: including standby relief personnel. Subsea engineering shift schedule; Continuous vehicle maintenance, launch, and recovery shifts; Number of mechanical, electronic, and pilot specialists dedicated to vehicle operations.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 8,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Subsea robotics technical specialists is at least 8 persons.",
+          "role_name": "Subsea Robotics Engineering Lead (SREL)",
+          "candidate_name": "Autonomous Underwater Vehicle Swarm Deployment",
+          "other_candidate_names": [
+            "Deep-Towed Synthetic Aperture Sonar Transect",
+            "Tethered Heavy-Workclass ROV Survey"
+          ],
+          "context_value": "including standby relief personnel",
+          "other_context_values": [
+            "excluding standby relief personnel"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrography_lead_A",
+          "role_id": "hydrography_lead",
+          "candidate_id": "A",
+          "key": "CHYD-BATH-UK0",
+          "hidden_predicate_id": "A_sonar_crew_count",
+          "threshold_label": "Sonar data processing crew",
+          "threshold_aliases": [
+            "Acoustic processing headcount",
+            "Hydrographic sonar staff"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "persons",
+          "partial_record_text": "CHYD-BATH-UK0: Autonomous Underwater Vehicle Swarm Deployment.Autonomous Underwater Vehicle Swarm Deployment: Bathymetric mapping resolution compliance = true .Source: Hydrographic survey audit; Scope: Abyssal plain search swath; Measurement: Attainment of lateral seabed resolution of 0.5 meters or finer across the designated sector.",
+          "role_name": "Chief Hydrographer (CHYD)",
+          "candidate_name": "Autonomous Underwater Vehicle Swarm Deployment",
+          "other_candidate_names": [
+            "Deep-Towed Synthetic Aperture Sonar Transect",
+            "Tethered Heavy-Workclass ROV Survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

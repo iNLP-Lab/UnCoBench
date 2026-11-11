@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_790",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "microbiology_lead",
+        "upstream_operations"
+      ],
+      "role_names": [
+        "Microbiology Laboratory Supervisor (MLS)",
+        "Upstream Process Engineer (UPE)"
+      ],
+      "directory": "incomplete/task_790",
+      "profiles": [
+        {
+          "record_id": "rec_microbiology_lead_A",
+          "role_id": "microbiology_lead",
+          "candidate_id": "A",
+          "key": "MLS-MIC-BNN",
+          "boolean_predicate_id": "A_rapid_id_module_enabled",
+          "boolean_label": "Rapid identification module enabled",
+          "hidden_predicate_id": "A_microbial_id_throughput",
+          "threshold_label": "Minimum daily sample throughput",
+          "threshold_aliases": [
+            "Microbial identification daily throughput",
+            "Analytical sample processing rate"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "samples/d",
+          "partial_record_text": "MLS-MIC-BNN: Metagenomic sequencing rapid tracing protocol.Metagenomic sequencing rapid tracing protocol: Rapid identification module enabled = true .Source: Laboratory automation status register; Scope: Candidate analytical diagnostic instrument pipeline; Measurement: System configuration flag enabling inline rapid phenotypic and genotypic identification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 200
+          },
+          "coarse_statement": "Minimum daily sample throughput is at most 200 samples/d.",
+          "role_name": "Microbiology Laboratory Supervisor (MLS)",
+          "candidate_name": "Metagenomic sequencing rapid tracing protocol",
+          "other_candidate_names": [
+            "Bacteriophage lysin diagnostic tracing protocol",
+            "Automated flow cytometry screening protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_upstream_operations_A",
+          "role_id": "upstream_operations",
+          "candidate_id": "A",
+          "key": "UPE-UPS-QRR",
+          "hidden_predicate_id": "A_upstream_sampling_hours",
+          "threshold_label": "Upstream harvest sampling time",
+          "threshold_aliases": [
+            "Upstream bioreactor turnaround time",
+            "Harvest sampling duration"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "h",
+          "partial_record_text": "UPE-UPS-QRR: Metagenomic sequencing rapid tracing protocol. The record covers Upstream harvest sampling time. Upstream bioprocess sampling log; Production bioreactor sampling port; Elapsed hours from sterile vessel penetration to verified laboratory specimen accessioning.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Upstream harvest sampling time is at most 30 h.",
+          "role_name": "Upstream Process Engineer (UPE)",
+          "candidate_name": "Metagenomic sequencing rapid tracing protocol",
+          "other_candidate_names": [
+            "Bacteriophage lysin diagnostic tracing protocol",
+            "Automated flow cytometry screening protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "microbiology_lead",
+        "upstream_operations",
+        "downstream_operations"
+      ],
+      "role_names": [
+        "Microbiology Laboratory Supervisor (MLS)",
+        "Upstream Process Engineer (UPE)",
+        "Downstream Process Specialist (DPS)"
+      ],
+      "directory": "incomplete/task_790",
+      "profiles": [
+        {
+          "record_id": "rec_microbiology_lead_A",
+          "role_id": "microbiology_lead",
+          "candidate_id": "A",
+          "key": "MLS-MIC-BNN",
+          "boolean_predicate_id": "A_rapid_id_module_enabled",
+          "boolean_label": "Rapid identification module enabled",
+          "hidden_predicate_id": "A_microbial_id_throughput",
+          "threshold_label": "Minimum daily sample throughput",
+          "threshold_aliases": [
+            "Microbial identification daily throughput",
+            "Analytical sample processing rate"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "samples/d",
+          "partial_record_text": "MLS-MIC-BNN: Metagenomic sequencing rapid tracing protocol.Metagenomic sequencing rapid tracing protocol: Rapid identification module enabled = true .Source: Laboratory automation status register; Scope: Candidate analytical diagnostic instrument pipeline; Measurement: System configuration flag enabling inline rapid phenotypic and genotypic identification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 200
+          },
+          "coarse_statement": "Minimum daily sample throughput is at most 200 samples/d.",
+          "role_name": "Microbiology Laboratory Supervisor (MLS)",
+          "candidate_name": "Metagenomic sequencing rapid tracing protocol",
+          "other_candidate_names": [
+            "Bacteriophage lysin diagnostic tracing protocol",
+            "Automated flow cytometry screening protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_upstream_operations_A",
+          "role_id": "upstream_operations",
+          "candidate_id": "A",
+          "key": "UPE-UPS-QRR",
+          "hidden_predicate_id": "A_upstream_sampling_hours",
+          "threshold_label": "Upstream harvest sampling time",
+          "threshold_aliases": [
+            "Upstream bioreactor turnaround time",
+            "Harvest sampling duration"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "h",
+          "partial_record_text": "UPE-UPS-QRR: Metagenomic sequencing rapid tracing protocol. The record covers Upstream harvest sampling time. Upstream bioprocess sampling log; Production bioreactor sampling port; Elapsed hours from sterile vessel penetration to verified laboratory specimen accessioning.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Upstream harvest sampling time is at most 30 h.",
+          "role_name": "Upstream Process Engineer (UPE)",
+          "candidate_name": "Metagenomic sequencing rapid tracing protocol",
+          "other_candidate_names": [
+            "Bacteriophage lysin diagnostic tracing protocol",
+            "Automated flow cytometry screening protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_downstream_operations_A",
+          "role_id": "downstream_operations",
+          "candidate_id": "A",
+          "key": "DPS-DOW-8KC",
+          "hidden_predicate_id": "A_downstream_sampling_hours",
+          "threshold_label": "Downstream purification sampling time",
+          "threshold_aliases": [
+            "Downstream chromatography turnaround time",
+            "Purification pool sampling duration"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "h",
+          "partial_record_text": "DPS-DOW-8KC: Metagenomic sequencing rapid tracing protocol. The record covers Downstream purification sampling time. Downstream purification operational record; Elution pool collection vessels; Elapsed hours from intermediate pool draw to analytical specimen receipt.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Downstream purification sampling time is at most 30 h.",
+          "role_name": "Downstream Process Specialist (DPS)",
+          "candidate_name": "Metagenomic sequencing rapid tracing protocol",
+          "other_candidate_names": [
+            "Bacteriophage lysin diagnostic tracing protocol",
+            "Automated flow cytometry screening protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

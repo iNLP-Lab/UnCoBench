@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_524",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "bioacoustics",
+        "vessel_operations"
+      ],
+      "role_names": [
+        "Marine bioacoustics lead (MBL)",
+        "Marine operations superintendent (MOS)"
+      ],
+      "directory": "incomplete/task_524",
+      "profiles": [
+        {
+          "record_id": "rec_bioacoustics_A",
+          "role_id": "bioacoustics",
+          "candidate_id": "A",
+          "key": "MBL-CETAC-T0K",
+          "boolean_predicate_id": "A_cetacean_monitoring_enabled",
+          "boolean_label": "Real-time cetacean monitoring enabled",
+          "hidden_predicate_id": "A_cetacean_shutdown_time",
+          "threshold_label": "Cetacean shutdown verification time",
+          "threshold_aliases": [
+            "Mitigation shutdown duration",
+            "Sonar silencing response time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "MBL-CETAC-T0K: Towed Seabed Imaging Array Plan.Towed Seabed Imaging Array Plan: Real-time cetacean monitoring enabled = true .Source: Marine mammal mitigation protocol document; Scope: Candidate survey campaign plan; Measurement: Presence and activation of continuous hydrophone cetacean detection.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Cetacean shutdown verification time is between 5 min and 40 min, inclusive.",
+          "role_name": "Marine bioacoustics lead (MBL)",
+          "candidate_name": "Towed Seabed Imaging Array Plan",
+          "other_candidate_names": [
+            "Autonomous Benthic Glider Fleet Plan",
+            "Remotely Operated Vehicle Transect Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_operations_A",
+          "role_id": "vessel_operations",
+          "candidate_id": "A",
+          "key": "MOS-BERTH-AIS",
+          "hidden_predicate_id": "A_scientific_berth_count",
+          "threshold_label": "Dedicated scientific berth capacity",
+          "threshold_aliases": [
+            "Scientific berths",
+            "Researcher berths available"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "berths",
+          "partial_record_text": "MOS-BERTH-AIS: Towed Seabed Imaging Array Plan.Berth capacity calculation basis: after deducting emergency reserve berths.Towed Seabed Imaging Array Plan: Benthic coring winch availability certified = true .Source: Deck machinery proof load certificate; Scope: Stern A-frame coring winch assembly; Measurement: Whether deep-water winch certification is valid for seabed core extraction.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Dedicated scientific berth capacity is between 5 berths and 30 berths, inclusive.",
+          "role_name": "Marine operations superintendent (MOS)",
+          "candidate_name": "Towed Seabed Imaging Array Plan",
+          "other_candidate_names": [
+            "Autonomous Benthic Glider Fleet Plan",
+            "Remotely Operated Vehicle Transect Plan"
+          ],
+          "context_value": "after deducting emergency reserve berths",
+          "other_context_values": [
+            "before deducting emergency reserve berths"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "bioacoustics",
+        "vessel_operations",
+        "hydrography"
+      ],
+      "role_names": [
+        "Marine bioacoustics lead (MBL)",
+        "Marine operations superintendent (MOS)",
+        "Chief hydrographer (CHY)"
+      ],
+      "directory": "incomplete/task_524",
+      "profiles": [
+        {
+          "record_id": "rec_bioacoustics_A",
+          "role_id": "bioacoustics",
+          "candidate_id": "A",
+          "key": "MBL-CETAC-T0K",
+          "boolean_predicate_id": "A_cetacean_monitoring_enabled",
+          "boolean_label": "Real-time cetacean monitoring enabled",
+          "hidden_predicate_id": "A_cetacean_shutdown_time",
+          "threshold_label": "Cetacean shutdown verification time",
+          "threshold_aliases": [
+            "Mitigation shutdown duration",
+            "Sonar silencing response time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "MBL-CETAC-T0K: Towed Seabed Imaging Array Plan.Towed Seabed Imaging Array Plan: Real-time cetacean monitoring enabled = true .Source: Marine mammal mitigation protocol document; Scope: Candidate survey campaign plan; Measurement: Presence and activation of continuous hydrophone cetacean detection.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Cetacean shutdown verification time is between 5 min and 40 min, inclusive.",
+          "role_name": "Marine bioacoustics lead (MBL)",
+          "candidate_name": "Towed Seabed Imaging Array Plan",
+          "other_candidate_names": [
+            "Autonomous Benthic Glider Fleet Plan",
+            "Remotely Operated Vehicle Transect Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_operations_A",
+          "role_id": "vessel_operations",
+          "candidate_id": "A",
+          "key": "MOS-BERTH-AIS",
+          "hidden_predicate_id": "A_scientific_berth_count",
+          "threshold_label": "Dedicated scientific berth capacity",
+          "threshold_aliases": [
+            "Scientific berths",
+            "Researcher berths available"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "berths",
+          "partial_record_text": "MOS-BERTH-AIS: Towed Seabed Imaging Array Plan.Berth capacity calculation basis: after deducting emergency reserve berths.Towed Seabed Imaging Array Plan: Benthic coring winch availability certified = true .Source: Deck machinery proof load certificate; Scope: Stern A-frame coring winch assembly; Measurement: Whether deep-water winch certification is valid for seabed core extraction.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Dedicated scientific berth capacity is between 5 berths and 30 berths, inclusive.",
+          "role_name": "Marine operations superintendent (MOS)",
+          "candidate_name": "Towed Seabed Imaging Array Plan",
+          "other_candidate_names": [
+            "Autonomous Benthic Glider Fleet Plan",
+            "Remotely Operated Vehicle Transect Plan"
+          ],
+          "context_value": "after deducting emergency reserve berths",
+          "other_context_values": [
+            "before deducting emergency reserve berths"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrography_A",
+          "role_id": "hydrography",
+          "candidate_id": "A",
+          "key": "CHY-BATHY-WXL",
+          "hidden_predicate_id": "A_multibeam_swath_area",
+          "threshold_label": "Multibeam swath coverage",
+          "threshold_aliases": [
+            "Multibeam bathymetry mapped area",
+            "High-resolution bathymetric coverage"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "km2",
+          "partial_record_text": "CHY-BATHY-WXL: Towed Seabed Imaging Array Plan. The record covers Multibeam swath coverage. Hydrographic survey line plan; Candidate expedition survey grid; Projected seafloor area mapped via multibeam sonar with 100 percent bottom coverage.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Multibeam swath coverage is between 100 km2 and 400 km2, inclusive.",
+          "role_name": "Chief hydrographer (CHY)",
+          "candidate_name": "Towed Seabed Imaging Array Plan",
+          "other_candidate_names": [
+            "Autonomous Benthic Glider Fleet Plan",
+            "Remotely Operated Vehicle Transect Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

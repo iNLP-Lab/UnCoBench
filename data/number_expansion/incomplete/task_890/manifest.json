@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_890",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clearance_survey",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Overhead clearance surveyor (OCS)",
+        "Bridge structural engineer (BSE)"
+      ],
+      "directory": "incomplete/task_890",
+      "profiles": [
+        {
+          "record_id": "rec_clearance_survey_A",
+          "role_id": "clearance_survey",
+          "candidate_id": "A",
+          "key": "OCS-CLAR-FLQ",
+          "boolean_predicate_id": "A_vertical_clearance_certified",
+          "boolean_label": "Vertical clearance certified",
+          "hidden_predicate_id": "A_minimum_overhead_clearance",
+          "threshold_label": "Minimum overhead clearance",
+          "threshold_aliases": [
+            "Minimum vertical height clearance",
+            "Route vertical clearance"
+          ],
+          "threshold_value": 6.1,
+          "threshold_unit": "m",
+          "partial_record_text": "OCS-CLAR-FLQ: Coastal Parkway South Bypass Corridor.Coastal Parkway South Bypass Corridor: Vertical clearance certified = true .Source: Overhead utility and signal audit certificate; Scope: The candidate heavy-haul route corridor; Measurement: Formal sign-off verifying all overhead obstacles are surveyed and documented.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 8
+          },
+          "coarse_statement": "Minimum overhead clearance is between 5 m and 8 m, inclusive.",
+          "role_name": "Overhead clearance surveyor (OCS)",
+          "candidate_name": "Coastal Parkway South Bypass Corridor",
+          "other_candidate_names": [
+            "Valley Expressway Freight Arterial",
+            "Ridge Foothills Heavy Truck Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "BSE-BRDG-3WZ",
+          "hidden_predicate_id": "A_bridge_load_rating",
+          "threshold_label": "Bridge gross load rating",
+          "threshold_aliases": [
+            "Gross vehicle weight bridge capacity",
+            "Bridge load limit"
+          ],
+          "threshold_value": 460,
+          "threshold_unit": "t",
+          "partial_record_text": "BSE-BRDG-3WZ: Coastal Parkway South Bypass Corridor. The record covers Bridge gross load rating. Record context: Q2 2025. National bridge inventory load rating ledger; All highway bridges along the candidate transport alignment; Lowest operating gross vehicle weight rating across route structures.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "coarse_statement": "Bridge gross load rating is between 200 t and 600 t, inclusive.",
+          "role_name": "Bridge structural engineer (BSE)",
+          "candidate_name": "Coastal Parkway South Bypass Corridor",
+          "other_candidate_names": [
+            "Valley Expressway Freight Arterial",
+            "Ridge Foothills Heavy Truck Route"
+          ],
+          "context_value": "Q2 2025",
+          "other_context_values": [
+            "Q3 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clearance_survey",
+        "structural_engineering",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Overhead clearance surveyor (OCS)",
+        "Bridge structural engineer (BSE)",
+        "Pavement and roadway engineer (PRE)"
+      ],
+      "directory": "incomplete/task_890",
+      "profiles": [
+        {
+          "record_id": "rec_clearance_survey_A",
+          "role_id": "clearance_survey",
+          "candidate_id": "A",
+          "key": "OCS-CLAR-FLQ",
+          "boolean_predicate_id": "A_vertical_clearance_certified",
+          "boolean_label": "Vertical clearance certified",
+          "hidden_predicate_id": "A_minimum_overhead_clearance",
+          "threshold_label": "Minimum overhead clearance",
+          "threshold_aliases": [
+            "Minimum vertical height clearance",
+            "Route vertical clearance"
+          ],
+          "threshold_value": 6.1,
+          "threshold_unit": "m",
+          "partial_record_text": "OCS-CLAR-FLQ: Coastal Parkway South Bypass Corridor.Coastal Parkway South Bypass Corridor: Vertical clearance certified = true .Source: Overhead utility and signal audit certificate; Scope: The candidate heavy-haul route corridor; Measurement: Formal sign-off verifying all overhead obstacles are surveyed and documented.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 8
+          },
+          "coarse_statement": "Minimum overhead clearance is between 5 m and 8 m, inclusive.",
+          "role_name": "Overhead clearance surveyor (OCS)",
+          "candidate_name": "Coastal Parkway South Bypass Corridor",
+          "other_candidate_names": [
+            "Valley Expressway Freight Arterial",
+            "Ridge Foothills Heavy Truck Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "BSE-BRDG-3WZ",
+          "hidden_predicate_id": "A_bridge_load_rating",
+          "threshold_label": "Bridge gross load rating",
+          "threshold_aliases": [
+            "Gross vehicle weight bridge capacity",
+            "Bridge load limit"
+          ],
+          "threshold_value": 460,
+          "threshold_unit": "t",
+          "partial_record_text": "BSE-BRDG-3WZ: Coastal Parkway South Bypass Corridor. The record covers Bridge gross load rating. Record context: Q2 2025. National bridge inventory load rating ledger; All highway bridges along the candidate transport alignment; Lowest operating gross vehicle weight rating across route structures.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "coarse_statement": "Bridge gross load rating is between 200 t and 600 t, inclusive.",
+          "role_name": "Bridge structural engineer (BSE)",
+          "candidate_name": "Coastal Parkway South Bypass Corridor",
+          "other_candidate_names": [
+            "Valley Expressway Freight Arterial",
+            "Ridge Foothills Heavy Truck Route"
+          ],
+          "context_value": "Q2 2025",
+          "other_context_values": [
+            "Q3 2025"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "PRE-PVMT-X41",
+          "hidden_predicate_id": "A_roadway_pavement_bearing_capacity",
+          "threshold_label": "Pavement bearing capacity",
+          "threshold_aliases": [
+            "Pavement subgrade shear strength",
+            "Single-axle load bearing limit"
+          ],
+          "threshold_value": 155,
+          "threshold_unit": "kN",
+          "partial_record_text": "PRE-PVMT-X41: Coastal Parkway South Bypass Corridor.Coastal Parkway South Bypass Corridor: Night transit window permitted = true .Source: Municipal transit curfew waiver register; Scope: All municipal jurisdictions traversed by the route; Measurement: Unanimous approval for convoy transit between 00:00 and 05:00.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Pavement bearing capacity is between 100 kN and 300 kN, inclusive.",
+          "role_name": "Pavement and roadway engineer (PRE)",
+          "candidate_name": "Coastal Parkway South Bypass Corridor",
+          "other_candidate_names": [
+            "Valley Expressway Freight Arterial",
+            "Ridge Foothills Heavy Truck Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

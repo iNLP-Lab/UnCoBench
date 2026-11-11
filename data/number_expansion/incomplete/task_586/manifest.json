@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_586",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "tunnel_safety_directorate",
+        "rolling_stock_authority"
+      ],
+      "role_names": [
+        "Tunnel safety director (TSD)",
+        "Rolling stock engineering lead (RSA)"
+      ],
+      "directory": "incomplete/task_586",
+      "profiles": [
+        {
+          "record_id": "rec_tunnel_safety_directorate_A",
+          "role_id": "tunnel_safety_directorate",
+          "candidate_id": "A",
+          "key": "TSD-LIFE-N6M",
+          "boolean_predicate_id": "A_positive_pressure_isolation_certified",
+          "boolean_label": "Positive-pressure isolation certified",
+          "hidden_predicate_id": "A_cabin_air_supply_duration",
+          "threshold_label": "Autonomous cabin air supply duration",
+          "threshold_aliases": [
+            "Breathing air autonomous duration",
+            "Life-support oxygen reserve endurance"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "min",
+          "partial_record_text": "TSD-LIFE-N6M: Bi-directional twin-cab diesel rescue shuttle.Bi-directional twin-cab diesel rescue shuttle: Positive-pressure isolation certified = true .Source: Subterranean pressure chamber audit; Scope: Intervention consist passenger capsules and driver cabs; Measurement: Confirmation that air sealing maintains positive atmospheric pressure against exterior toxic gas ingress.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Autonomous cabin air supply duration is at most 500 min.",
+          "role_name": "Tunnel safety director (TSD)",
+          "candidate_name": "Bi-directional twin-cab diesel rescue shuttle",
+          "other_candidate_names": [
+            "Tri-mode battery-electric intervention convoy",
+            "Catenary-independent sealed-hull rescue consist"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rolling_stock_authority_A",
+          "role_id": "rolling_stock_authority",
+          "candidate_id": "A",
+          "key": "RSA-PROP-ZJJ",
+          "hidden_predicate_id": "A_continuous_thermal_shielding_rating",
+          "threshold_label": "Continuous thermal shielding rating",
+          "threshold_aliases": [
+            "Exterior heat barrier tolerance",
+            "Thermal enclosure resistance threshold"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "deg C",
+          "partial_record_text": "RSA-PROP-ZJJ: Bi-directional twin-cab diesel rescue shuttle.Bi-directional twin-cab diesel rescue shuttle: Gradient starting traction verified = true .Source: Tunnel incline dynamometer test dossier; Scope: Maximum 28 permille adverse gradient inside the alpine tunnel; Measurement: Verification that the consist successfully starts and accelerates with a full trailing passenger load.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Continuous thermal shielding rating is at most 500 deg C.",
+          "role_name": "Rolling stock engineering lead (RSA)",
+          "candidate_name": "Bi-directional twin-cab diesel rescue shuttle",
+          "other_candidate_names": [
+            "Tri-mode battery-electric intervention convoy",
+            "Catenary-independent sealed-hull rescue consist"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "tunnel_safety_directorate",
+        "rolling_stock_authority",
+        "fire_tactical_command"
+      ],
+      "role_names": [
+        "Tunnel safety director (TSD)",
+        "Rolling stock engineering lead (RSA)",
+        "Fire and rescue tactical commander (FTC)"
+      ],
+      "directory": "incomplete/task_586",
+      "profiles": [
+        {
+          "record_id": "rec_tunnel_safety_directorate_A",
+          "role_id": "tunnel_safety_directorate",
+          "candidate_id": "A",
+          "key": "TSD-LIFE-N6M",
+          "boolean_predicate_id": "A_positive_pressure_isolation_certified",
+          "boolean_label": "Positive-pressure isolation certified",
+          "hidden_predicate_id": "A_cabin_air_supply_duration",
+          "threshold_label": "Autonomous cabin air supply duration",
+          "threshold_aliases": [
+            "Breathing air autonomous duration",
+            "Life-support oxygen reserve endurance"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "min",
+          "partial_record_text": "TSD-LIFE-N6M: Bi-directional twin-cab diesel rescue shuttle.Bi-directional twin-cab diesel rescue shuttle: Positive-pressure isolation certified = true .Source: Subterranean pressure chamber audit; Scope: Intervention consist passenger capsules and driver cabs; Measurement: Confirmation that air sealing maintains positive atmospheric pressure against exterior toxic gas ingress.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Autonomous cabin air supply duration is at most 500 min.",
+          "role_name": "Tunnel safety director (TSD)",
+          "candidate_name": "Bi-directional twin-cab diesel rescue shuttle",
+          "other_candidate_names": [
+            "Tri-mode battery-electric intervention convoy",
+            "Catenary-independent sealed-hull rescue consist"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rolling_stock_authority_A",
+          "role_id": "rolling_stock_authority",
+          "candidate_id": "A",
+          "key": "RSA-PROP-ZJJ",
+          "hidden_predicate_id": "A_continuous_thermal_shielding_rating",
+          "threshold_label": "Continuous thermal shielding rating",
+          "threshold_aliases": [
+            "Exterior heat barrier tolerance",
+            "Thermal enclosure resistance threshold"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "deg C",
+          "partial_record_text": "RSA-PROP-ZJJ: Bi-directional twin-cab diesel rescue shuttle.Bi-directional twin-cab diesel rescue shuttle: Gradient starting traction verified = true .Source: Tunnel incline dynamometer test dossier; Scope: Maximum 28 permille adverse gradient inside the alpine tunnel; Measurement: Verification that the consist successfully starts and accelerates with a full trailing passenger load.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Continuous thermal shielding rating is at most 500 deg C.",
+          "role_name": "Rolling stock engineering lead (RSA)",
+          "candidate_name": "Bi-directional twin-cab diesel rescue shuttle",
+          "other_candidate_names": [
+            "Tri-mode battery-electric intervention convoy",
+            "Catenary-independent sealed-hull rescue consist"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_tactical_command_A",
+          "role_id": "fire_tactical_command",
+          "candidate_id": "A",
+          "key": "FTC-EVAC-HK5",
+          "hidden_predicate_id": "A_evacuation_passenger_capacity",
+          "threshold_label": "Evacuation passenger capacity",
+          "threshold_aliases": [
+            "Civilian rescue seating capacity",
+            "Evacuee payload seating quota"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "persons",
+          "partial_record_text": "FTC-EVAC-HK5: Bi-directional twin-cab diesel rescue shuttle.Bi-directional twin-cab diesel rescue shuttle: Water refill turnaround time = 45 min.Source: Hydraulic coupling flow rate bench audit; Scope: Onboard 50,000-liter firefighting suppression water tanks; Measurement: Time required to refill empty onboard water tanks to maximum capacity using depot hydrant manifold.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Evacuation passenger capacity is at most 500 persons.",
+          "role_name": "Fire and rescue tactical commander (FTC)",
+          "candidate_name": "Bi-directional twin-cab diesel rescue shuttle",
+          "other_candidate_names": [
+            "Tri-mode battery-electric intervention convoy",
+            "Catenary-independent sealed-hull rescue consist"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

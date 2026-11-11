@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_961",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_lead",
+        "wildfire_lead"
+      ],
+      "role_names": [
+        "Emergency Public Health Officer (MED)",
+        "Wildland Fire Protection Specialist (WLD)"
+      ],
+      "directory": "incomplete/task_961",
+      "profiles": [
+        {
+          "record_id": "rec_medical_lead_A",
+          "role_id": "medical_lead",
+          "candidate_id": "A",
+          "key": "MED-HLTH-BIS",
+          "boolean_predicate_id": "A_isolation_ventilation_installed",
+          "boolean_label": "Dedicated isolation ventilation installed",
+          "hidden_predicate_id": "A_air_filtration_turnover_rate",
+          "threshold_label": "Emergency air filtration turnover rate",
+          "threshold_aliases": [
+            "Air changes per hour",
+            "HEPA filtration air turnover rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ACH",
+          "partial_record_text": "MED-HLTH-BIS: Merritt Regional Civic Center.Merritt Regional Civic Center: Dedicated isolation ventilation installed = true .Source: Public health mechanical inspection log; Scope: Designated quarantine and infectious respiratory annex; Measurement: Operational availability of independent negative pressure isolation ventilation.Merritt Regional Civic Center: Triage and isolation reserved cots = 50 cots.Source: Emergency health operational directive; Scope: Clinical screening triage zone and respiratory isolation units; Measurement: Cots legally reserved for incoming acute medical assessment and infection quarantine.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency air filtration turnover rate is at most 30 ACH.",
+          "role_name": "Emergency Public Health Officer (MED)",
+          "candidate_name": "Merritt Regional Civic Center",
+          "other_candidate_names": [
+            "Kamloops Sports and Exhibition Complex",
+            "Salmon Arm Community Arena Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildfire_lead_A",
+          "role_id": "wildfire_lead",
+          "candidate_id": "A",
+          "key": "WLD-FIRE-V3Y",
+          "hidden_predicate_id": "A_defensible_buffer_distance",
+          "threshold_label": "Surrounding defensible buffer distance",
+          "threshold_aliases": [
+            "Wildland clearance buffer",
+            "Vegetation clearance setback"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m",
+          "partial_record_text": "WLD-FIRE-V3Y: Merritt Regional Civic Center. The record covers Surrounding defensible buffer distance. Wildfire fuel management audit; Radius from outermost facility building walls to combustible wildland timber; Minimum continuous distance cleared of non-irrigated understory and crown fuels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Surrounding defensible buffer distance is at most 90 m.",
+          "role_name": "Wildland Fire Protection Specialist (WLD)",
+          "candidate_name": "Merritt Regional Civic Center",
+          "other_candidate_names": [
+            "Kamloops Sports and Exhibition Complex",
+            "Salmon Arm Community Arena Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_lead",
+        "wildfire_lead",
+        "transit_coordinator"
+      ],
+      "role_names": [
+        "Emergency Public Health Officer (MED)",
+        "Wildland Fire Protection Specialist (WLD)",
+        "Regional Evacuation Transit Coordinator (TRN)"
+      ],
+      "directory": "incomplete/task_961",
+      "profiles": [
+        {
+          "record_id": "rec_medical_lead_A",
+          "role_id": "medical_lead",
+          "candidate_id": "A",
+          "key": "MED-HLTH-BIS",
+          "boolean_predicate_id": "A_isolation_ventilation_installed",
+          "boolean_label": "Dedicated isolation ventilation installed",
+          "hidden_predicate_id": "A_air_filtration_turnover_rate",
+          "threshold_label": "Emergency air filtration turnover rate",
+          "threshold_aliases": [
+            "Air changes per hour",
+            "HEPA filtration air turnover rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ACH",
+          "partial_record_text": "MED-HLTH-BIS: Merritt Regional Civic Center.Merritt Regional Civic Center: Dedicated isolation ventilation installed = true .Source: Public health mechanical inspection log; Scope: Designated quarantine and infectious respiratory annex; Measurement: Operational availability of independent negative pressure isolation ventilation.Merritt Regional Civic Center: Triage and isolation reserved cots = 50 cots.Source: Emergency health operational directive; Scope: Clinical screening triage zone and respiratory isolation units; Measurement: Cots legally reserved for incoming acute medical assessment and infection quarantine.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency air filtration turnover rate is at most 30 ACH.",
+          "role_name": "Emergency Public Health Officer (MED)",
+          "candidate_name": "Merritt Regional Civic Center",
+          "other_candidate_names": [
+            "Kamloops Sports and Exhibition Complex",
+            "Salmon Arm Community Arena Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildfire_lead_A",
+          "role_id": "wildfire_lead",
+          "candidate_id": "A",
+          "key": "WLD-FIRE-V3Y",
+          "hidden_predicate_id": "A_defensible_buffer_distance",
+          "threshold_label": "Surrounding defensible buffer distance",
+          "threshold_aliases": [
+            "Wildland clearance buffer",
+            "Vegetation clearance setback"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m",
+          "partial_record_text": "WLD-FIRE-V3Y: Merritt Regional Civic Center. The record covers Surrounding defensible buffer distance. Wildfire fuel management audit; Radius from outermost facility building walls to combustible wildland timber; Minimum continuous distance cleared of non-irrigated understory and crown fuels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Surrounding defensible buffer distance is at most 90 m.",
+          "role_name": "Wildland Fire Protection Specialist (WLD)",
+          "candidate_name": "Merritt Regional Civic Center",
+          "other_candidate_names": [
+            "Kamloops Sports and Exhibition Complex",
+            "Salmon Arm Community Arena Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_coordinator_A",
+          "role_id": "transit_coordinator",
+          "candidate_id": "A",
+          "key": "TRN-FLEET-M66",
+          "hidden_predicate_id": "A_bus_loading_bays",
+          "threshold_label": "Dedicated transit bus loading bays",
+          "threshold_aliases": [
+            "Bus loading platform count",
+            "Mass transit intake bays"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "bays",
+          "partial_record_text": "TRN-FLEET-M66: Merritt Regional Civic Center. The record covers Dedicated transit bus loading bays. Transit terminal platform map; Exclusive curbside drop-off platforms fronting the facility entrance; Count of simultaneously serviceable standard 12-meter transit bus berths.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Dedicated transit bus loading bays is at most 9 bays.",
+          "role_name": "Regional Evacuation Transit Coordinator (TRN)",
+          "candidate_name": "Merritt Regional Civic Center",
+          "other_candidate_names": [
+            "Kamloops Sports and Exhibition Complex",
+            "Salmon Arm Community Arena Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

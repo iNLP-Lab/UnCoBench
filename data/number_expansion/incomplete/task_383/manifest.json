@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_383",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_credentialing_board",
+        "clinical_simulation_center"
+      ],
+      "role_names": [
+        "Medical Credentialing Director (MED)",
+        "Clinical Simulation Evaluator (SIM)"
+      ],
+      "directory": "incomplete/task_383",
+      "profiles": [
+        {
+          "record_id": "rec_medical_credentialing_board_A",
+          "role_id": "medical_credentialing_board",
+          "candidate_id": "A",
+          "key": "MED-CRED-9M2",
+          "boolean_predicate_id": "A_transport_logbook_maintained",
+          "boolean_label": "Transport logbook maintained",
+          "hidden_predicate_id": "A_logged_transport_missions",
+          "threshold_label": "Logged aeromedical transport missions",
+          "threshold_aliases": [
+            "Verified patient flights",
+            "Completed transport mission count"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "missions",
+          "partial_record_text": "MED-CRED-9M2: Civilian rotary-wing rescue physician profile.Civilian rotary-wing rescue physician profile: Aeromedical board certification valid = true .Source: American Board of Emergency Medicine verification registry; Scope: Current specialty and subspecialty credentials; Measurement: Whether the applicant maintains an unencumbered active board certification in emergency medicine or EMS subspecialty.Civilian rotary-wing rescue physician profile: Transport logbook maintained = true .Source: Aeromedical electronic credentialing portal; Scope: Cumulative career clinical flight operations; Measurement: Formal confirmation that an active, counter-signed aeromedical transport mission logbook is maintained.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Logged aeromedical transport missions is between 50 missions and 400 missions, inclusive.",
+          "role_name": "Medical Credentialing Director (MED)",
+          "candidate_name": "Civilian rotary-wing rescue physician profile",
+          "other_candidate_names": [
+            "Military aeromedical evacuation specialist profile",
+            "Pediatric and adult critical care transport fellow profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_simulation_center_A",
+          "role_id": "clinical_simulation_center",
+          "candidate_id": "A",
+          "key": "SIM-ASMT-W8H",
+          "hidden_predicate_id": "A_airway_simulation_score",
+          "threshold_label": "Advanced airway simulation evaluation score",
+          "threshold_aliases": [
+            "Difficult airway scenario rating",
+            "Airway management simulation score"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "points",
+          "partial_record_text": "SIM-ASMT-W8H: Civilian rotary-wing rescue physician profile. The record covers Advanced airway simulation evaluation score. High-fidelity simulation examination report; Standardized multi-scenario emergency surgical and video-laryngoscopy airway assessment; Overall numerical score awarded on the standardized clinical airway management rubric.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 110
+          },
+          "coarse_statement": "Advanced airway simulation evaluation score is between 50 points and 110 points, inclusive.",
+          "role_name": "Clinical Simulation Evaluator (SIM)",
+          "candidate_name": "Civilian rotary-wing rescue physician profile",
+          "other_candidate_names": [
+            "Military aeromedical evacuation specialist profile",
+            "Pediatric and adult critical care transport fellow profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_credentialing_board",
+        "clinical_simulation_center",
+        "flight_telemetry_dispatch"
+      ],
+      "role_names": [
+        "Medical Credentialing Director (MED)",
+        "Clinical Simulation Evaluator (SIM)",
+        "Operations Dispatch Supervisor (DISP)"
+      ],
+      "directory": "incomplete/task_383",
+      "profiles": [
+        {
+          "record_id": "rec_medical_credentialing_board_A",
+          "role_id": "medical_credentialing_board",
+          "candidate_id": "A",
+          "key": "MED-CRED-9M2",
+          "boolean_predicate_id": "A_transport_logbook_maintained",
+          "boolean_label": "Transport logbook maintained",
+          "hidden_predicate_id": "A_logged_transport_missions",
+          "threshold_label": "Logged aeromedical transport missions",
+          "threshold_aliases": [
+            "Verified patient flights",
+            "Completed transport mission count"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "missions",
+          "partial_record_text": "MED-CRED-9M2: Civilian rotary-wing rescue physician profile.Civilian rotary-wing rescue physician profile: Aeromedical board certification valid = true .Source: American Board of Emergency Medicine verification registry; Scope: Current specialty and subspecialty credentials; Measurement: Whether the applicant maintains an unencumbered active board certification in emergency medicine or EMS subspecialty.Civilian rotary-wing rescue physician profile: Transport logbook maintained = true .Source: Aeromedical electronic credentialing portal; Scope: Cumulative career clinical flight operations; Measurement: Formal confirmation that an active, counter-signed aeromedical transport mission logbook is maintained.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 400
+          },
+          "coarse_statement": "Logged aeromedical transport missions is between 50 missions and 400 missions, inclusive.",
+          "role_name": "Medical Credentialing Director (MED)",
+          "candidate_name": "Civilian rotary-wing rescue physician profile",
+          "other_candidate_names": [
+            "Military aeromedical evacuation specialist profile",
+            "Pediatric and adult critical care transport fellow profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_simulation_center_A",
+          "role_id": "clinical_simulation_center",
+          "candidate_id": "A",
+          "key": "SIM-ASMT-W8H",
+          "hidden_predicate_id": "A_airway_simulation_score",
+          "threshold_label": "Advanced airway simulation evaluation score",
+          "threshold_aliases": [
+            "Difficult airway scenario rating",
+            "Airway management simulation score"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "points",
+          "partial_record_text": "SIM-ASMT-W8H: Civilian rotary-wing rescue physician profile. The record covers Advanced airway simulation evaluation score. High-fidelity simulation examination report; Standardized multi-scenario emergency surgical and video-laryngoscopy airway assessment; Overall numerical score awarded on the standardized clinical airway management rubric.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 110
+          },
+          "coarse_statement": "Advanced airway simulation evaluation score is between 50 points and 110 points, inclusive.",
+          "role_name": "Clinical Simulation Evaluator (SIM)",
+          "candidate_name": "Civilian rotary-wing rescue physician profile",
+          "other_candidate_names": [
+            "Military aeromedical evacuation specialist profile",
+            "Pediatric and adult critical care transport fellow profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_telemetry_dispatch_A",
+          "role_id": "flight_telemetry_dispatch",
+          "candidate_id": "A",
+          "key": "DISP-FLT-XIH",
+          "hidden_predicate_id": "A_patient_care_flight_hours",
+          "threshold_label": "Direct patient care flight hours",
+          "threshold_aliases": [
+            "En-route medical care hours",
+            "Patient transport flight time"
+          ],
+          "threshold_value": 720,
+          "threshold_unit": "h",
+          "partial_record_text": "DISP-FLT-XIH: Civilian rotary-wing rescue physician profile. The record covers Direct patient care flight hours. Automated aircraft telemetry flight log; Cumulative career flight segments carrying an acute patient on board; Total cumulative flight hours during which direct active patient monitoring and medical care occurred.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 1000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Direct patient care flight hours is between 300 h and 1000 h, inclusive.",
+          "role_name": "Operations Dispatch Supervisor (DISP)",
+          "candidate_name": "Civilian rotary-wing rescue physician profile",
+          "other_candidate_names": [
+            "Military aeromedical evacuation specialist profile",
+            "Pediatric and adult critical care transport fellow profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

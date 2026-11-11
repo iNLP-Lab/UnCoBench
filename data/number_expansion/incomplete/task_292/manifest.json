@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_292",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "technical_superintendent",
+        "expedition_logistics_manager"
+      ],
+      "role_names": [
+        "Marine technical superintendent (MTECH)",
+        "Expedition logistics manager (XLOG)"
+      ],
+      "directory": "incomplete/task_292",
+      "profiles": [
+        {
+          "record_id": "rec_technical_superintendent_A",
+          "role_id": "technical_superintendent",
+          "candidate_id": "A",
+          "key": "MTECH-ROVTECH-R0U",
+          "boolean_predicate_id": "A_auv_docking_enabled",
+          "boolean_label": "Autonomous vehicle docking protocol enabled",
+          "hidden_predicate_id": "A_maximum_abyssal_current_speed",
+          "threshold_label": "Maximum abyssal bottom current speed",
+          "threshold_aliases": [
+            "Peak abyssal current velocity",
+            "Bottom boundary current speed"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "cm/s",
+          "partial_record_text": "MTECH-ROVTECH-R0U: Porcupine Abyssal Plain Station.Porcupine Abyssal Plain Station: Autonomous vehicle docking protocol enabled = true .Source: Deck telemetry configuration manifest; Scope: Acoustic docking beacon network at candidate transect; Measurement: Confirmation that the autonomous underwater vehicle acoustic guidance docking protocol is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum abyssal bottom current speed is at most 60 cm/s.",
+          "role_name": "Marine technical superintendent (MTECH)",
+          "candidate_name": "Porcupine Abyssal Plain Station",
+          "other_candidate_names": [
+            "Hatton-Rockall Trough Transect",
+            "Charlie-Gibbs Fracture Zone Deep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_manager_A",
+          "role_id": "expedition_logistics_manager",
+          "candidate_id": "A",
+          "key": "XLOG-TRANS-MCP",
+          "hidden_predicate_id": "A_transit_steam_time",
+          "threshold_label": "Transit steam time from staging port",
+          "threshold_aliases": [
+            "Vessel transit duration",
+            "One-way steam hours"
+          ],
+          "threshold_value": 44,
+          "threshold_unit": "h",
+          "partial_record_text": "XLOG-TRANS-MCP: Porcupine Abyssal Plain Station. The record covers Transit steam time from staging port. Navigational routing track calculation; Staging port to initial deep-water deployment waypoint; Calculated one-way transit time under cruising speed in standard sea state 4.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Transit steam time from staging port is at most 70 h.",
+          "role_name": "Expedition logistics manager (XLOG)",
+          "candidate_name": "Porcupine Abyssal Plain Station",
+          "other_candidate_names": [
+            "Hatton-Rockall Trough Transect",
+            "Charlie-Gibbs Fracture Zone Deep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "technical_superintendent",
+        "expedition_logistics_manager",
+        "hydrographic_surveyor"
+      ],
+      "role_names": [
+        "Marine technical superintendent (MTECH)",
+        "Expedition logistics manager (XLOG)",
+        "Lead hydrographic surveyor (HSURV)"
+      ],
+      "directory": "incomplete/task_292",
+      "profiles": [
+        {
+          "record_id": "rec_technical_superintendent_A",
+          "role_id": "technical_superintendent",
+          "candidate_id": "A",
+          "key": "MTECH-ROVTECH-R0U",
+          "boolean_predicate_id": "A_auv_docking_enabled",
+          "boolean_label": "Autonomous vehicle docking protocol enabled",
+          "hidden_predicate_id": "A_maximum_abyssal_current_speed",
+          "threshold_label": "Maximum abyssal bottom current speed",
+          "threshold_aliases": [
+            "Peak abyssal current velocity",
+            "Bottom boundary current speed"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "cm/s",
+          "partial_record_text": "MTECH-ROVTECH-R0U: Porcupine Abyssal Plain Station.Porcupine Abyssal Plain Station: Autonomous vehicle docking protocol enabled = true .Source: Deck telemetry configuration manifest; Scope: Acoustic docking beacon network at candidate transect; Measurement: Confirmation that the autonomous underwater vehicle acoustic guidance docking protocol is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Maximum abyssal bottom current speed is at most 60 cm/s.",
+          "role_name": "Marine technical superintendent (MTECH)",
+          "candidate_name": "Porcupine Abyssal Plain Station",
+          "other_candidate_names": [
+            "Hatton-Rockall Trough Transect",
+            "Charlie-Gibbs Fracture Zone Deep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_manager_A",
+          "role_id": "expedition_logistics_manager",
+          "candidate_id": "A",
+          "key": "XLOG-TRANS-MCP",
+          "hidden_predicate_id": "A_transit_steam_time",
+          "threshold_label": "Transit steam time from staging port",
+          "threshold_aliases": [
+            "Vessel transit duration",
+            "One-way steam hours"
+          ],
+          "threshold_value": 44,
+          "threshold_unit": "h",
+          "partial_record_text": "XLOG-TRANS-MCP: Porcupine Abyssal Plain Station. The record covers Transit steam time from staging port. Navigational routing track calculation; Staging port to initial deep-water deployment waypoint; Calculated one-way transit time under cruising speed in standard sea state 4.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Transit steam time from staging port is at most 70 h.",
+          "role_name": "Expedition logistics manager (XLOG)",
+          "candidate_name": "Porcupine Abyssal Plain Station",
+          "other_candidate_names": [
+            "Hatton-Rockall Trough Transect",
+            "Charlie-Gibbs Fracture Zone Deep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "HSURV-BATHY-KM6",
+          "hidden_predicate_id": "A_multibeam_coverage_density",
+          "threshold_label": "Multibeam bathymetric coverage density",
+          "threshold_aliases": [
+            "Acoustic sounding coverage",
+            "Swath sounding completion"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "HSURV-BATHY-KM6: Porcupine Abyssal Plain Station.Survey window: June 2025.Porcupine Abyssal Plain Station: Autonomous glider patrol duration = 120 h.Source: Ocean glider trajectory simulation; Scope: Candidate transect water column profiling; Measurement: Cumulative autonomous acoustic and oceanographic patrol duration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Multibeam bathymetric coverage density is at most 100 %.",
+          "role_name": "Lead hydrographic surveyor (HSURV)",
+          "candidate_name": "Porcupine Abyssal Plain Station",
+          "other_candidate_names": [
+            "Hatton-Rockall Trough Transect",
+            "Charlie-Gibbs Fracture Zone Deep"
+          ],
+          "context_value": "June 2025",
+          "other_context_values": [
+            "July 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_650",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_officer",
+        "fire_analyst"
+      ],
+      "role_names": [
+        "Incident aviation safety officer (INSO)",
+        "Fire behaviour and weather analyst (FBAN)"
+      ],
+      "directory": "incomplete/task_650",
+      "profiles": [
+        {
+          "record_id": "rec_safety_officer_A",
+          "role_id": "safety_officer",
+          "candidate_id": "A",
+          "key": "INSO-SAFE-TNT",
+          "boolean_predicate_id": "A_emergency_breakaway_telemetry_enabled",
+          "boolean_label": "Emergency breakaway telemetry enabled",
+          "hidden_predicate_id": "A_minimum_terrain_separation_altitude",
+          "threshold_label": "Minimum terrain separation altitude",
+          "threshold_aliases": [
+            "Terrain clearance altitude",
+            "Gorge floor separation"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "m",
+          "partial_record_text": "INSO-SAFE-TNT: Heavy twin-rotor bucket package.Heavy twin-rotor bucket package: Emergency breakaway telemetry enabled = true .Source: Flight telemetry checklist; Scope: Candidate delivery aircraft avionics suite; Measurement: Operational status of automated terrain proximity and emergency breakaway telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Minimum terrain separation altitude is between 20 m and 100 m, inclusive.",
+          "role_name": "Incident aviation safety officer (INSO)",
+          "candidate_name": "Heavy twin-rotor bucket package",
+          "other_candidate_names": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_analyst_A",
+          "role_id": "fire_analyst",
+          "candidate_id": "A",
+          "key": "FBAN-MET-ME1",
+          "hidden_predicate_id": "A_spotting_containment_response_time",
+          "threshold_label": "Spotting containment response time",
+          "threshold_aliases": [
+            "Spot fire attack delay",
+            "Initial spotting response duration"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "FBAN-MET-ME1: Heavy twin-rotor bucket package. The record covers Spotting containment response time. Fire spread projection brief; Secondary ember spot fires within 2 km of the target containment line; Elapsed flight time from spot-fire detection to first aerial suppressant release.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Spotting containment response time is between 10 min and 50 min, inclusive.",
+          "role_name": "Fire behaviour and weather analyst (FBAN)",
+          "candidate_name": "Heavy twin-rotor bucket package",
+          "other_candidate_names": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_officer",
+        "fire_analyst",
+        "logistics_retardant"
+      ],
+      "role_names": [
+        "Incident aviation safety officer (INSO)",
+        "Fire behaviour and weather analyst (FBAN)",
+        "Retardant base logistics lead (LSRB)"
+      ],
+      "directory": "incomplete/task_650",
+      "profiles": [
+        {
+          "record_id": "rec_safety_officer_A",
+          "role_id": "safety_officer",
+          "candidate_id": "A",
+          "key": "INSO-SAFE-TNT",
+          "boolean_predicate_id": "A_emergency_breakaway_telemetry_enabled",
+          "boolean_label": "Emergency breakaway telemetry enabled",
+          "hidden_predicate_id": "A_minimum_terrain_separation_altitude",
+          "threshold_label": "Minimum terrain separation altitude",
+          "threshold_aliases": [
+            "Terrain clearance altitude",
+            "Gorge floor separation"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "m",
+          "partial_record_text": "INSO-SAFE-TNT: Heavy twin-rotor bucket package.Heavy twin-rotor bucket package: Emergency breakaway telemetry enabled = true .Source: Flight telemetry checklist; Scope: Candidate delivery aircraft avionics suite; Measurement: Operational status of automated terrain proximity and emergency breakaway telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Minimum terrain separation altitude is between 20 m and 100 m, inclusive.",
+          "role_name": "Incident aviation safety officer (INSO)",
+          "candidate_name": "Heavy twin-rotor bucket package",
+          "other_candidate_names": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_analyst_A",
+          "role_id": "fire_analyst",
+          "candidate_id": "A",
+          "key": "FBAN-MET-ME1",
+          "hidden_predicate_id": "A_spotting_containment_response_time",
+          "threshold_label": "Spotting containment response time",
+          "threshold_aliases": [
+            "Spot fire attack delay",
+            "Initial spotting response duration"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "FBAN-MET-ME1: Heavy twin-rotor bucket package. The record covers Spotting containment response time. Fire spread projection brief; Secondary ember spot fires within 2 km of the target containment line; Elapsed flight time from spot-fire detection to first aerial suppressant release.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Spotting containment response time is between 10 min and 50 min, inclusive.",
+          "role_name": "Fire behaviour and weather analyst (FBAN)",
+          "candidate_name": "Heavy twin-rotor bucket package",
+          "other_candidate_names": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_retardant_A",
+          "role_id": "logistics_retardant",
+          "candidate_id": "A",
+          "key": "LSRB-RETD-WJL",
+          "hidden_predicate_id": "A_gross_drop_payload",
+          "threshold_label": "Gross drop payload volume",
+          "threshold_aliases": [
+            "Total drop volume",
+            "Single-sortie payload capacity"
+          ],
+          "threshold_value": 6000,
+          "threshold_unit": "L",
+          "partial_record_text": "LSRB-RETD-WJL: Heavy twin-rotor bucket package.Heavy twin-rotor bucket package: Certified phosphate retardant loaded = true .Source: Chemical loading manifest; Scope: Candidate aircraft chemical payload tanks; Measurement: Verification that loaded chemical agent is an approved long-term polyphosphate formulation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross drop payload volume is between 0 L and 30000 L, inclusive.",
+          "role_name": "Retardant base logistics lead (LSRB)",
+          "candidate_name": "Heavy twin-rotor bucket package",
+          "other_candidate_names": [
+            "Amphibious water scooper wing",
+            "Large airtanker retardant strike package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

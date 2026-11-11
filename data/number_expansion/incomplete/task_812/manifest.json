@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_812",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_systems",
+        "network_infrastructure"
+      ],
+      "role_names": [
+        "Electrical Systems Engineer (ELEC)",
+        "Telecom and Network Engineering Lead (NET)"
+      ],
+      "directory": "incomplete/task_812",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_systems_A",
+          "role_id": "electrical_systems",
+          "candidate_id": "A",
+          "key": "ELEC-UPS-UU9",
+          "boolean_predicate_id": "A_ups_bypass_interlock_installed",
+          "boolean_label": "Automated UPS bypass interlock installed",
+          "hidden_predicate_id": "A_ups_battery_autonomy_minutes",
+          "threshold_label": "UPS battery reserve duration",
+          "threshold_aliases": [
+            "Battery autonomy duration",
+            "UPS backup duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "ELEC-UPS-UU9: Closed-Loop Liquid Cooled Modular Campus.Closed-Loop Liquid Cooled Modular Campus: Automated UPS bypass interlock installed = true .Source: Switchgear commissioning log; Scope: Uninterruptible power supply system; Measurement: Physical installation and verified operational status of automated static bypass interlock.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "UPS battery reserve duration is between 5 min and 40 min, inclusive.",
+          "role_name": "Electrical Systems Engineer (ELEC)",
+          "candidate_name": "Closed-Loop Liquid Cooled Modular Campus",
+          "other_candidate_names": [
+            "Direct Evaporative Free-Air Facility",
+            "Hybrid Immersion Cooling High-Density Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_network_infrastructure_A",
+          "role_id": "network_infrastructure",
+          "candidate_id": "A",
+          "key": "NET-FIBER-NE9",
+          "hidden_predicate_id": "A_round_trip_fiber_latency",
+          "threshold_label": "Round-trip dark fiber latency",
+          "threshold_aliases": [
+            "Fiber network latency",
+            "Consortium interconnect latency"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "ms",
+          "partial_record_text": "NET-FIBER-NE9: Closed-Loop Liquid Cooled Modular Campus.Closed-Loop Liquid Cooled Modular Campus: Dual-homed carrier transit established = true .Source: Telecom right-of-way audit; Scope: Facility physical telecom entrances; Measurement: Presence of two geographically separated fiber entrance vaults from distinct Tier-1 carriers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 7
+          },
+          "coarse_statement": "Round-trip dark fiber latency is between 2 ms and 7 ms, inclusive.",
+          "role_name": "Telecom and Network Engineering Lead (NET)",
+          "candidate_name": "Closed-Loop Liquid Cooled Modular Campus",
+          "other_candidate_names": [
+            "Direct Evaporative Free-Air Facility",
+            "Hybrid Immersion Cooling High-Density Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_systems",
+        "network_infrastructure",
+        "utility_interconnection"
+      ],
+      "role_names": [
+        "Electrical Systems Engineer (ELEC)",
+        "Telecom and Network Engineering Lead (NET)",
+        "Utility Grid Interconnection Manager (UTIL)"
+      ],
+      "directory": "incomplete/task_812",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_systems_A",
+          "role_id": "electrical_systems",
+          "candidate_id": "A",
+          "key": "ELEC-UPS-UU9",
+          "boolean_predicate_id": "A_ups_bypass_interlock_installed",
+          "boolean_label": "Automated UPS bypass interlock installed",
+          "hidden_predicate_id": "A_ups_battery_autonomy_minutes",
+          "threshold_label": "UPS battery reserve duration",
+          "threshold_aliases": [
+            "Battery autonomy duration",
+            "UPS backup duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "ELEC-UPS-UU9: Closed-Loop Liquid Cooled Modular Campus.Closed-Loop Liquid Cooled Modular Campus: Automated UPS bypass interlock installed = true .Source: Switchgear commissioning log; Scope: Uninterruptible power supply system; Measurement: Physical installation and verified operational status of automated static bypass interlock.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "UPS battery reserve duration is between 5 min and 40 min, inclusive.",
+          "role_name": "Electrical Systems Engineer (ELEC)",
+          "candidate_name": "Closed-Loop Liquid Cooled Modular Campus",
+          "other_candidate_names": [
+            "Direct Evaporative Free-Air Facility",
+            "Hybrid Immersion Cooling High-Density Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_network_infrastructure_A",
+          "role_id": "network_infrastructure",
+          "candidate_id": "A",
+          "key": "NET-FIBER-NE9",
+          "hidden_predicate_id": "A_round_trip_fiber_latency",
+          "threshold_label": "Round-trip dark fiber latency",
+          "threshold_aliases": [
+            "Fiber network latency",
+            "Consortium interconnect latency"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "ms",
+          "partial_record_text": "NET-FIBER-NE9: Closed-Loop Liquid Cooled Modular Campus.Closed-Loop Liquid Cooled Modular Campus: Dual-homed carrier transit established = true .Source: Telecom right-of-way audit; Scope: Facility physical telecom entrances; Measurement: Presence of two geographically separated fiber entrance vaults from distinct Tier-1 carriers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 7
+          },
+          "coarse_statement": "Round-trip dark fiber latency is between 2 ms and 7 ms, inclusive.",
+          "role_name": "Telecom and Network Engineering Lead (NET)",
+          "candidate_name": "Closed-Loop Liquid Cooled Modular Campus",
+          "other_candidate_names": [
+            "Direct Evaporative Free-Air Facility",
+            "Hybrid Immersion Cooling High-Density Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_interconnection_A",
+          "role_id": "utility_interconnection",
+          "candidate_id": "A",
+          "key": "UTIL-GRID-NWA",
+          "hidden_predicate_id": "A_grid_substation_allocation",
+          "threshold_label": "Grid substation power allocation",
+          "threshold_aliases": [
+            "Primary utility grid allotment",
+            "Grid power capacity"
+          ],
+          "threshold_value": 30.0,
+          "threshold_unit": "MW",
+          "partial_record_text": "UTIL-GRID-NWA: Closed-Loop Liquid Cooled Modular Campus. The record covers Grid substation power allocation. Record context: Hangzhou. Utility interconnection agreement; Dedicated campus feeder; Contractually firm electrical power capacity supplied by regional utility.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Grid substation power allocation is between 10 MW and 40 MW, inclusive.",
+          "role_name": "Utility Grid Interconnection Manager (UTIL)",
+          "candidate_name": "Closed-Loop Liquid Cooled Modular Campus",
+          "other_candidate_names": [
+            "Direct Evaporative Free-Air Facility",
+            "Hybrid Immersion Cooling High-Density Facility"
+          ],
+          "context_value": "Hangzhou",
+          "other_context_values": [
+            "Ningbo"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

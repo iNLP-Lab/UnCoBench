@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_773",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_safety",
+        "salvage_engineering"
+      ],
+      "role_names": [
+        "Marine environmental safety officer (ENV)",
+        "Salvage engineering superintendent (SALV)"
+      ],
+      "directory": "incomplete/task_773",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-CONT-OKY",
+          "boolean_predicate_id": "A_vapor_scrubber_installed",
+          "boolean_label": "Emergency toxic vapor scrubber operational",
+          "hidden_predicate_id": "A_vapor_containment_time",
+          "threshold_label": "Vapor scrubbing full containment setup time",
+          "threshold_aliases": [
+            "Vapor scrubber deployment duration",
+            "Scrubber system hookup time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CONT-OKY: Dynamic positioning subsea rigging and heavy-lift retrieval.Dynamic positioning subsea rigging and heavy-lift retrieval: Emergency toxic vapor scrubber operational = true .Source: Hazardous materials response audit; Scope: Portable venting scrubber units on primary recovery vessel; Measurement: Operational availability of dedicated chemical vapor scrubbing system.Dynamic positioning subsea rigging and heavy-lift retrieval: Emergency hazardous pumping standby hours = 60 h.Source: Pumping contractor charter agreement; Scope: Submersible explosion-proof chemical offloading pumps; Measurement: Total hours equipment and specialized crews remain on hot standby at vessel manifold.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Vapor scrubbing full containment setup time is between 5 h and 30 h, inclusive.",
+          "role_name": "Marine environmental safety officer (ENV)",
+          "candidate_name": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidate_names": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_salvage_engineering_A",
+          "role_id": "salvage_engineering",
+          "candidate_id": "A",
+          "key": "SALV-TOW-66D",
+          "hidden_predicate_id": "A_bollard_pull_rating",
+          "threshold_label": "Continuous bollard pull rating",
+          "threshold_aliases": [
+            "Continuous towing capacity",
+            "Bollard pull force"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "t",
+          "partial_record_text": "SALV-TOW-66D: Dynamic positioning subsea rigging and heavy-lift retrieval.Dynamic positioning subsea rigging and heavy-lift retrieval: Dynamic positioning class 2 certified status = true .Source: Classification society DP certificate; Scope: Primary offshore salvage vessels assigned to candidate plan; Measurement: Confirmation of valid dynamic positioning equipment class 2 or higher notation.Dynamic positioning subsea rigging and heavy-lift retrieval: Salvage tug station-keeping standby hours = 50 h.Source: Vessel charter schedule matrix; Scope: Contracted salvage towing fleet during transit and sheltering; Measurement: Scheduled active dynamic positioning and tethered station-keeping duration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Continuous bollard pull rating is between 100 t and 400 t, inclusive.",
+          "role_name": "Salvage engineering superintendent (SALV)",
+          "candidate_name": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidate_names": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_safety",
+        "salvage_engineering",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Marine environmental safety officer (ENV)",
+        "Salvage engineering superintendent (SALV)",
+        "Naval architecture consulting surveyor (ARCH)"
+      ],
+      "directory": "incomplete/task_773",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ENV-CONT-OKY",
+          "boolean_predicate_id": "A_vapor_scrubber_installed",
+          "boolean_label": "Emergency toxic vapor scrubber operational",
+          "hidden_predicate_id": "A_vapor_containment_time",
+          "threshold_label": "Vapor scrubbing full containment setup time",
+          "threshold_aliases": [
+            "Vapor scrubber deployment duration",
+            "Scrubber system hookup time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "ENV-CONT-OKY: Dynamic positioning subsea rigging and heavy-lift retrieval.Dynamic positioning subsea rigging and heavy-lift retrieval: Emergency toxic vapor scrubber operational = true .Source: Hazardous materials response audit; Scope: Portable venting scrubber units on primary recovery vessel; Measurement: Operational availability of dedicated chemical vapor scrubbing system.Dynamic positioning subsea rigging and heavy-lift retrieval: Emergency hazardous pumping standby hours = 60 h.Source: Pumping contractor charter agreement; Scope: Submersible explosion-proof chemical offloading pumps; Measurement: Total hours equipment and specialized crews remain on hot standby at vessel manifold.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Vapor scrubbing full containment setup time is between 5 h and 30 h, inclusive.",
+          "role_name": "Marine environmental safety officer (ENV)",
+          "candidate_name": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidate_names": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_salvage_engineering_A",
+          "role_id": "salvage_engineering",
+          "candidate_id": "A",
+          "key": "SALV-TOW-66D",
+          "hidden_predicate_id": "A_bollard_pull_rating",
+          "threshold_label": "Continuous bollard pull rating",
+          "threshold_aliases": [
+            "Continuous towing capacity",
+            "Bollard pull force"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "t",
+          "partial_record_text": "SALV-TOW-66D: Dynamic positioning subsea rigging and heavy-lift retrieval.Dynamic positioning subsea rigging and heavy-lift retrieval: Dynamic positioning class 2 certified status = true .Source: Classification society DP certificate; Scope: Primary offshore salvage vessels assigned to candidate plan; Measurement: Confirmation of valid dynamic positioning equipment class 2 or higher notation.Dynamic positioning subsea rigging and heavy-lift retrieval: Salvage tug station-keeping standby hours = 50 h.Source: Vessel charter schedule matrix; Scope: Contracted salvage towing fleet during transit and sheltering; Measurement: Scheduled active dynamic positioning and tethered station-keeping duration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Continuous bollard pull rating is between 100 t and 400 t, inclusive.",
+          "role_name": "Salvage engineering superintendent (SALV)",
+          "candidate_name": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidate_names": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "ARCH-STAB-OJN",
+          "hidden_predicate_id": "A_stability_margin_score",
+          "threshold_label": "Post-damage hydrostatic stability margin score",
+          "threshold_aliases": [
+            "Calculated vessel damage stability score",
+            "Equilibrium stability rating"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "points",
+          "partial_record_text": "ARCH-STAB-OJN: Dynamic positioning subsea rigging and heavy-lift retrieval. The record covers Post-damage hydrostatic stability margin score. Hydrostatic damage stability simulation report; Worst-case three-compartment breach condition during transfer; Comprehensive stability reserve score based on residual metacentric height and righting lever curve.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Post-damage hydrostatic stability margin score is between 50 points and 100 points, inclusive.",
+          "role_name": "Naval architecture consulting surveyor (ARCH)",
+          "candidate_name": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidate_names": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

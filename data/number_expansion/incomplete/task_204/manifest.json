@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_204",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "science_ops",
+        "terrain_safety"
+      ],
+      "role_names": [
+        "Science operations lead (SCI)",
+        "Glaciology and terrain safety officer (SAFE)"
+      ],
+      "directory": "incomplete/task_204",
+      "profiles": [
+        {
+          "record_id": "rec_science_ops_A",
+          "role_id": "science_ops",
+          "candidate_id": "A",
+          "key": "SCI-GEODRIL-HYM",
+          "boolean_predicate_id": "A_core_drilling_enabled",
+          "boolean_label": "Deep-drilling equipment installation",
+          "hidden_predicate_id": "A_continuous_core_recovery_rate",
+          "threshold_label": "Continuous ice core recovery rate",
+          "threshold_aliases": [
+            "Core recovery yield",
+            "Drilling intact extraction rate"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "SCI-GEODRIL-HYM: Kallio Glacier Outpost.Kallio Glacier Outpost: Deep-drilling equipment installation = true .Source: Science technical installation report; Scope: Candidate station drill trench; Measurement: Confirmed installation and verified functional commissioning of the electromechanical core drill.Kallio Glacier Outpost: Scientific instrumentation power draw = 220 kWh.Source: Science equipment power metering forecast; Scope: Drill motor, spectrometry lab, and core logging chillers; Measurement: Estimated daily electrical consumption during active research operations.",
+          "role_name": "Science operations lead (SCI)",
+          "candidate_name": "Kallio Glacier Outpost",
+          "other_candidate_names": [
+            "Vestisen Ice Dome Station",
+            "Svalbard Foreland Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terrain_safety_A",
+          "role_id": "terrain_safety",
+          "candidate_id": "A",
+          "key": "SAFE-GEORISK-YCK",
+          "hidden_predicate_id": "A_maximum_sustained_wind_tolerance",
+          "threshold_label": "Sustained wind tolerance",
+          "threshold_aliases": [
+            "Structural wind rating",
+            "Blizzard wind resistance"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "km/h",
+          "partial_record_text": "SAFE-GEORISK-YCK: Kallio Glacier Outpost.Structural anchoring basis: excluding auxiliary storm guy-lines.Kallio Glacier Outpost: Crevasse hazard clearance = true .Source: Ground-penetrating radar safety sign-off; Scope: Two-kilometer operational radius surrounding station footprint; Measurement: Absence of unbridged or structurally compromised subsurface crevasses.",
+          "role_name": "Glaciology and terrain safety officer (SAFE)",
+          "candidate_name": "Kallio Glacier Outpost",
+          "other_candidate_names": [
+            "Vestisen Ice Dome Station",
+            "Svalbard Foreland Camp"
+          ],
+          "context_value": "excluding auxiliary storm guy-lines",
+          "other_context_values": [
+            "including auxiliary storm guy-lines"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "science_ops",
+        "terrain_safety",
+        "camp_logistics"
+      ],
+      "role_names": [
+        "Science operations lead (SCI)",
+        "Glaciology and terrain safety officer (SAFE)",
+        "Logistics and camp infrastructure manager (LOG)"
+      ],
+      "directory": "incomplete/task_204",
+      "profiles": [
+        {
+          "record_id": "rec_science_ops_A",
+          "role_id": "science_ops",
+          "candidate_id": "A",
+          "key": "SCI-GEODRIL-HYM",
+          "boolean_predicate_id": "A_core_drilling_enabled",
+          "boolean_label": "Deep-drilling equipment installation",
+          "hidden_predicate_id": "A_continuous_core_recovery_rate",
+          "threshold_label": "Continuous ice core recovery rate",
+          "threshold_aliases": [
+            "Core recovery yield",
+            "Drilling intact extraction rate"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "SCI-GEODRIL-HYM: Kallio Glacier Outpost.Kallio Glacier Outpost: Deep-drilling equipment installation = true .Source: Science technical installation report; Scope: Candidate station drill trench; Measurement: Confirmed installation and verified functional commissioning of the electromechanical core drill.Kallio Glacier Outpost: Scientific instrumentation power draw = 220 kWh.Source: Science equipment power metering forecast; Scope: Drill motor, spectrometry lab, and core logging chillers; Measurement: Estimated daily electrical consumption during active research operations.",
+          "role_name": "Science operations lead (SCI)",
+          "candidate_name": "Kallio Glacier Outpost",
+          "other_candidate_names": [
+            "Vestisen Ice Dome Station",
+            "Svalbard Foreland Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terrain_safety_A",
+          "role_id": "terrain_safety",
+          "candidate_id": "A",
+          "key": "SAFE-GEORISK-YCK",
+          "hidden_predicate_id": "A_maximum_sustained_wind_tolerance",
+          "threshold_label": "Sustained wind tolerance",
+          "threshold_aliases": [
+            "Structural wind rating",
+            "Blizzard wind resistance"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "km/h",
+          "partial_record_text": "SAFE-GEORISK-YCK: Kallio Glacier Outpost.Structural anchoring basis: excluding auxiliary storm guy-lines.Kallio Glacier Outpost: Crevasse hazard clearance = true .Source: Ground-penetrating radar safety sign-off; Scope: Two-kilometer operational radius surrounding station footprint; Measurement: Absence of unbridged or structurally compromised subsurface crevasses.",
+          "role_name": "Glaciology and terrain safety officer (SAFE)",
+          "candidate_name": "Kallio Glacier Outpost",
+          "other_candidate_names": [
+            "Vestisen Ice Dome Station",
+            "Svalbard Foreland Camp"
+          ],
+          "context_value": "excluding auxiliary storm guy-lines",
+          "other_context_values": [
+            "including auxiliary storm guy-lines"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_camp_logistics_A",
+          "role_id": "camp_logistics",
+          "candidate_id": "A",
+          "key": "LOG-BASEFAC-0S1",
+          "hidden_predicate_id": "A_life_support_power_draw",
+          "threshold_label": "Life support power draw",
+          "threshold_aliases": [
+            "Habitat domestic power draw",
+            "Basecamp heating and living power demand"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "kWh",
+          "partial_record_text": "LOG-BASEFAC-0S1: Kallio Glacier Outpost.Kallio Glacier Outpost: Designated skiway landing authorization = true .Source: Polar aviation authority runway inspection; Scope: Station seasonal compacted snow runway; Measurement: Formal flight safety authorization for ski-equipped twin-turboprop transport landings.",
+          "role_name": "Logistics and camp infrastructure manager (LOG)",
+          "candidate_name": "Kallio Glacier Outpost",
+          "other_candidate_names": [
+            "Vestisen Ice Dome Station",
+            "Svalbard Foreland Camp"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

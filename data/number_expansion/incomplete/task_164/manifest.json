@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_164",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrographic_survey",
+        "deck_machinery"
+      ],
+      "role_names": [
+        "Hydrographic survey lead (SURV)",
+        "Deck machinery inspector (DECK)"
+      ],
+      "directory": "incomplete/task_164",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "SURV-ACOUST-M37",
+          "boolean_predicate_id": "A_acoustic_tracking_installed",
+          "boolean_label": "Ultra-short baseline acoustic tracking system presence",
+          "hidden_predicate_id": "A_usbl_error_metres",
+          "threshold_label": "Maximum ultra-short baseline positioning error",
+          "threshold_aliases": [
+            "USBL positional uncertainty",
+            "Subsea acoustic targeting error"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "SURV-ACOUST-M37: MV Poseidon Discovery.MV Poseidon Discovery: Ultra-short baseline acoustic tracking system presence = true .Source: Hydrographic instrumentation certificate; Scope: Candidate vessel through-hull deployment pole; Measurement: Physical installation and verified operational activation of a calibrated USBL acoustic transceiver array.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum ultra-short baseline positioning error is between 0.5 m and 4 m, inclusive.",
+          "role_name": "Hydrographic survey lead (SURV)",
+          "candidate_name": "MV Poseidon Discovery",
+          "other_candidate_names": [
+            "RV Aegaeo Endeavour",
+            "Oceanic Surveyor II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_machinery_A",
+          "role_id": "deck_machinery",
+          "candidate_id": "A",
+          "key": "DECK-CRANE-CQM",
+          "hidden_predicate_id": "A_crane_swl_tonnes",
+          "threshold_label": "Aft deck crane safe working load",
+          "threshold_aliases": [
+            "Subsea handling crane capacity",
+            "Deck crane SWL"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "t",
+          "partial_record_text": "DECK-CRANE-CQM: MV Poseidon Discovery. The record covers Aft deck crane safe working load. Cargo gear test certificate; Main active heave-compensated knucklebroom deck crane; Certified safe working load rating at 15 m maximum outreach.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Aft deck crane safe working load is between 20 t and 60 t, inclusive.",
+          "role_name": "Deck machinery inspector (DECK)",
+          "candidate_name": "MV Poseidon Discovery",
+          "other_candidate_names": [
+            "RV Aegaeo Endeavour",
+            "Oceanic Surveyor II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrographic_survey",
+        "deck_machinery",
+        "scientific_operations"
+      ],
+      "role_names": [
+        "Hydrographic survey lead (SURV)",
+        "Deck machinery inspector (DECK)",
+        "Scientific mission director (SCI)"
+      ],
+      "directory": "incomplete/task_164",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "SURV-ACOUST-M37",
+          "boolean_predicate_id": "A_acoustic_tracking_installed",
+          "boolean_label": "Ultra-short baseline acoustic tracking system presence",
+          "hidden_predicate_id": "A_usbl_error_metres",
+          "threshold_label": "Maximum ultra-short baseline positioning error",
+          "threshold_aliases": [
+            "USBL positional uncertainty",
+            "Subsea acoustic targeting error"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "SURV-ACOUST-M37: MV Poseidon Discovery.MV Poseidon Discovery: Ultra-short baseline acoustic tracking system presence = true .Source: Hydrographic instrumentation certificate; Scope: Candidate vessel through-hull deployment pole; Measurement: Physical installation and verified operational activation of a calibrated USBL acoustic transceiver array.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum ultra-short baseline positioning error is between 0.5 m and 4 m, inclusive.",
+          "role_name": "Hydrographic survey lead (SURV)",
+          "candidate_name": "MV Poseidon Discovery",
+          "other_candidate_names": [
+            "RV Aegaeo Endeavour",
+            "Oceanic Surveyor II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_machinery_A",
+          "role_id": "deck_machinery",
+          "candidate_id": "A",
+          "key": "DECK-CRANE-CQM",
+          "hidden_predicate_id": "A_crane_swl_tonnes",
+          "threshold_label": "Aft deck crane safe working load",
+          "threshold_aliases": [
+            "Subsea handling crane capacity",
+            "Deck crane SWL"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "t",
+          "partial_record_text": "DECK-CRANE-CQM: MV Poseidon Discovery. The record covers Aft deck crane safe working load. Cargo gear test certificate; Main active heave-compensated knucklebroom deck crane; Certified safe working load rating at 15 m maximum outreach.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 60
+          },
+          "coarse_statement": "Aft deck crane safe working load is between 20 t and 60 t, inclusive.",
+          "role_name": "Deck machinery inspector (DECK)",
+          "candidate_name": "MV Poseidon Discovery",
+          "other_candidate_names": [
+            "RV Aegaeo Endeavour",
+            "Oceanic Surveyor II"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_operations_A",
+          "role_id": "scientific_operations",
+          "candidate_id": "A",
+          "key": "SCI-LABPOW-6TX",
+          "hidden_predicate_id": "A_science_lab_power",
+          "threshold_label": "Scientific lab power consumption",
+          "threshold_aliases": [
+            "ROV and container lab consumption",
+            "Scientific deck electrical load"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "MWh",
+          "partial_record_text": "SCI-LABPOW-6TX: MV Poseidon Discovery. The record covers Scientific lab power consumption. Record context: Operational Payload Suite v2. Mission electrical metering report; ROV hydraulic power packs, winches, and scientific container labs per 24 h operational cycle; Total metered electrical energy delivered to scientific research and handling systems.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scientific lab power consumption is between 10 MWh and 60 MWh, inclusive.",
+          "role_name": "Scientific mission director (SCI)",
+          "candidate_name": "MV Poseidon Discovery",
+          "other_candidate_names": [
+            "RV Aegaeo Endeavour",
+            "Oceanic Surveyor II"
+          ],
+          "context_value": "Operational Payload Suite v2",
+          "other_context_values": [
+            "Commissioning Test Suite v1"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

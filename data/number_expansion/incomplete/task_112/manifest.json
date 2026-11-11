@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_112",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "customs_cybersecurity_officer",
+        "infrastructure_director"
+      ],
+      "role_names": [
+        "Customs Security & Automation Lead (CSO)",
+        "Port Infrastructure Director (PID)"
+      ],
+      "directory": "incomplete/task_112",
+      "profiles": [
+        {
+          "record_id": "rec_customs_cybersecurity_officer_A",
+          "role_id": "customs_cybersecurity_officer",
+          "candidate_id": "A",
+          "key": "CSO-SCAN-6OK",
+          "boolean_predicate_id": "A_customs_screening_enabled",
+          "boolean_label": "Automated customs screening protocol enabled",
+          "hidden_predicate_id": "A_customs_scan_turnaround",
+          "threshold_label": "Average customs scan turnaround time",
+          "threshold_aliases": [
+            "Container scan latency",
+            "Non-intrusive inspection duration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "CSO-SCAN-6OK: North Sea Automated Terminals.North Sea Automated Terminals: Automated customs screening protocol enabled = true .Source: National customs authority border integration register; Scope: Container gate and transshipment inspection corridor; Measurement: Active deployment of non-intrusive drive-through high-energy radiography scanners.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Average customs scan turnaround time is at most 30 min.",
+          "role_name": "Customs Security & Automation Lead (CSO)",
+          "candidate_name": "North Sea Automated Terminals",
+          "other_candidate_names": [
+            "Euro-Baltic Intermodal Gateway",
+            "Maas River Logistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_director_A",
+          "role_id": "infrastructure_director",
+          "candidate_id": "A",
+          "key": "PID-CIVENG-9JA",
+          "hidden_predicate_id": "A_berth_draft_depth",
+          "threshold_label": "Berth draft depth",
+          "threshold_aliases": [
+            "Quayside water depth",
+            "Permissible draft depth"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "m",
+          "partial_record_text": "PID-CIVENG-9JA: North Sea Automated Terminals.Operating environment: Production environment.North Sea Automated Terminals: Electrified dockside crane system = true .Source: Port technical concession specification review; Scope: All installed ship-to-shore gantry cranes along the concession quay; Measurement: Verification that all primary container cranes run entirely on electric grid power with zero diesel propulsion.North Sea Automated Terminals: Quay crane net handling rate = 38 moves/h.Source: Terminal operational simulation benchmark; Scope: Ship-to-shore crane operations handling ultra-large container vessels; Measurement: Average number of container lifts executed per crane per net working hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Berth draft depth is at most 30 m.",
+          "role_name": "Port Infrastructure Director (PID)",
+          "candidate_name": "North Sea Automated Terminals",
+          "other_candidate_names": [
+            "Euro-Baltic Intermodal Gateway",
+            "Maas River Logistics Alliance"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "customs_cybersecurity_officer",
+        "infrastructure_director",
+        "environmental_regulator"
+      ],
+      "role_names": [
+        "Customs Security & Automation Lead (CSO)",
+        "Port Infrastructure Director (PID)",
+        "Maritime Environmental Compliance Officer (MEC)"
+      ],
+      "directory": "incomplete/task_112",
+      "profiles": [
+        {
+          "record_id": "rec_customs_cybersecurity_officer_A",
+          "role_id": "customs_cybersecurity_officer",
+          "candidate_id": "A",
+          "key": "CSO-SCAN-6OK",
+          "boolean_predicate_id": "A_customs_screening_enabled",
+          "boolean_label": "Automated customs screening protocol enabled",
+          "hidden_predicate_id": "A_customs_scan_turnaround",
+          "threshold_label": "Average customs scan turnaround time",
+          "threshold_aliases": [
+            "Container scan latency",
+            "Non-intrusive inspection duration"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "CSO-SCAN-6OK: North Sea Automated Terminals.North Sea Automated Terminals: Automated customs screening protocol enabled = true .Source: National customs authority border integration register; Scope: Container gate and transshipment inspection corridor; Measurement: Active deployment of non-intrusive drive-through high-energy radiography scanners.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Average customs scan turnaround time is at most 30 min.",
+          "role_name": "Customs Security & Automation Lead (CSO)",
+          "candidate_name": "North Sea Automated Terminals",
+          "other_candidate_names": [
+            "Euro-Baltic Intermodal Gateway",
+            "Maas River Logistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_director_A",
+          "role_id": "infrastructure_director",
+          "candidate_id": "A",
+          "key": "PID-CIVENG-9JA",
+          "hidden_predicate_id": "A_berth_draft_depth",
+          "threshold_label": "Berth draft depth",
+          "threshold_aliases": [
+            "Quayside water depth",
+            "Permissible draft depth"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "m",
+          "partial_record_text": "PID-CIVENG-9JA: North Sea Automated Terminals.Operating environment: Production environment.North Sea Automated Terminals: Electrified dockside crane system = true .Source: Port technical concession specification review; Scope: All installed ship-to-shore gantry cranes along the concession quay; Measurement: Verification that all primary container cranes run entirely on electric grid power with zero diesel propulsion.North Sea Automated Terminals: Quay crane net handling rate = 38 moves/h.Source: Terminal operational simulation benchmark; Scope: Ship-to-shore crane operations handling ultra-large container vessels; Measurement: Average number of container lifts executed per crane per net working hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Berth draft depth is at most 30 m.",
+          "role_name": "Port Infrastructure Director (PID)",
+          "candidate_name": "North Sea Automated Terminals",
+          "other_candidate_names": [
+            "Euro-Baltic Intermodal Gateway",
+            "Maas River Logistics Alliance"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_regulator_A",
+          "role_id": "environmental_regulator",
+          "candidate_id": "A",
+          "key": "MEC-GREEN-1AY",
+          "hidden_predicate_id": "A_annual_nox_intensity",
+          "threshold_label": "Annual nitrogen oxide intensity",
+          "threshold_aliases": [
+            "Terminal NOx intensity",
+            "NOx emissions rate per TEU"
+          ],
+          "threshold_value": 41,
+          "threshold_unit": "g/TEU",
+          "partial_record_text": "MEC-GREEN-1AY: North Sea Automated Terminals.North Sea Automated Terminals: Shore-to-ship power certification = true .Source: Maritime authority environmental conformity certificate; Scope: High-voltage shore connection berths; Measurement: Formal certification confirming operational capability to provide at least 16 MVA shore power to berthed vessels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Annual nitrogen oxide intensity is at most 70 g/TEU.",
+          "role_name": "Maritime Environmental Compliance Officer (MEC)",
+          "candidate_name": "North Sea Automated Terminals",
+          "other_candidate_names": [
+            "Euro-Baltic Intermodal Gateway",
+            "Maas River Logistics Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

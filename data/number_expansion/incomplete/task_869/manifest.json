@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_869",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservation_manager",
+        "evacuation_logistics_lead"
+      ],
+      "role_names": [
+        "Environmental conservation manager (CONS)",
+        "Evacuation logistics coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_869",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_manager_A",
+          "role_id": "conservation_manager",
+          "candidate_id": "A",
+          "key": "CONS-MICRO-THO",
+          "boolean_predicate_id": "A_atmospheric_filtration_installed",
+          "boolean_label": "Atmospheric filtration system installation",
+          "hidden_predicate_id": "A_max_relative_humidity",
+          "threshold_label": "Maximum interior relative humidity",
+          "threshold_aliases": [
+            "Peak vault relative humidity",
+            "Maximum chamber humidity"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-MICRO-THO: Highland Subterranean Vault Facility.Highland Subterranean Vault Facility: Atmospheric filtration system installation = true .Source: HVAC commissioning inventory; Scope: Vault air recirculation and intake headers; Measurement: Whether activated carbon and chemical chemisorption filtration banks are physically installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum interior relative humidity is between 20 % and 80 %, inclusive.",
+          "role_name": "Environmental conservation manager (CONS)",
+          "candidate_name": "Highland Subterranean Vault Facility",
+          "other_candidate_names": [
+            "Old Quarry Limestone Archive",
+            "Valley Redoubt Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_evacuation_logistics_lead_A",
+          "role_id": "evacuation_logistics_lead",
+          "candidate_id": "A",
+          "key": "LOG-CORR-2BD",
+          "hidden_predicate_id": "A_auxiliary_dehumidifier_draw",
+          "threshold_label": "Auxiliary desiccant dehumidification power draw",
+          "threshold_aliases": [
+            "Desiccant dehumidifier load",
+            "Moisture control power demand"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "kW",
+          "partial_record_text": "LOG-CORR-2BD: Highland Subterranean Vault Facility.Highland Subterranean Vault Facility: Transport ingress clearance = true .Source: Route and portal dimension survey; Scope: Main access portal and staging loading bays; Measurement: Whether access tunnels accommodate 16.5-meter climate-controlled articulated convoy trucks.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary desiccant dehumidification power draw is between 10 kW and 60 kW, inclusive.",
+          "role_name": "Evacuation logistics coordinator (LOG)",
+          "candidate_name": "Highland Subterranean Vault Facility",
+          "other_candidate_names": [
+            "Old Quarry Limestone Archive",
+            "Valley Redoubt Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservation_manager",
+        "evacuation_logistics_lead",
+        "facility_engineering_lead"
+      ],
+      "role_names": [
+        "Environmental conservation manager (CONS)",
+        "Evacuation logistics coordinator (LOG)",
+        "Facility engineering superintendent (ENG)"
+      ],
+      "directory": "incomplete/task_869",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_manager_A",
+          "role_id": "conservation_manager",
+          "candidate_id": "A",
+          "key": "CONS-MICRO-THO",
+          "boolean_predicate_id": "A_atmospheric_filtration_installed",
+          "boolean_label": "Atmospheric filtration system installation",
+          "hidden_predicate_id": "A_max_relative_humidity",
+          "threshold_label": "Maximum interior relative humidity",
+          "threshold_aliases": [
+            "Peak vault relative humidity",
+            "Maximum chamber humidity"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-MICRO-THO: Highland Subterranean Vault Facility.Highland Subterranean Vault Facility: Atmospheric filtration system installation = true .Source: HVAC commissioning inventory; Scope: Vault air recirculation and intake headers; Measurement: Whether activated carbon and chemical chemisorption filtration banks are physically installed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum interior relative humidity is between 20 % and 80 %, inclusive.",
+          "role_name": "Environmental conservation manager (CONS)",
+          "candidate_name": "Highland Subterranean Vault Facility",
+          "other_candidate_names": [
+            "Old Quarry Limestone Archive",
+            "Valley Redoubt Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_evacuation_logistics_lead_A",
+          "role_id": "evacuation_logistics_lead",
+          "candidate_id": "A",
+          "key": "LOG-CORR-2BD",
+          "hidden_predicate_id": "A_auxiliary_dehumidifier_draw",
+          "threshold_label": "Auxiliary desiccant dehumidification power draw",
+          "threshold_aliases": [
+            "Desiccant dehumidifier load",
+            "Moisture control power demand"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "kW",
+          "partial_record_text": "LOG-CORR-2BD: Highland Subterranean Vault Facility.Highland Subterranean Vault Facility: Transport ingress clearance = true .Source: Route and portal dimension survey; Scope: Main access portal and staging loading bays; Measurement: Whether access tunnels accommodate 16.5-meter climate-controlled articulated convoy trucks.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary desiccant dehumidification power draw is between 10 kW and 60 kW, inclusive.",
+          "role_name": "Evacuation logistics coordinator (LOG)",
+          "candidate_name": "Highland Subterranean Vault Facility",
+          "other_candidate_names": [
+            "Old Quarry Limestone Archive",
+            "Valley Redoubt Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_engineering_lead_A",
+          "role_id": "facility_engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-PWR-V6A",
+          "hidden_predicate_id": "A_baseline_hvac_draw",
+          "threshold_label": "Baseline HVAC continuous power draw",
+          "threshold_aliases": [
+            "Baseline climate control load",
+            "Central chiller electrical draw"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "kW",
+          "partial_record_text": "ENG-PWR-V6A: Highland Subterranean Vault Facility. The record covers Baseline HVAC continuous power draw. Electrical distribution switchboard meter; Primary chillers, air-handling fans, and continuous pressurization fans; Average steady-state continuous electric power demand under standard preservation setpoints.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 200
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline HVAC continuous power draw is between 0 kW and 200 kW, inclusive.",
+          "role_name": "Facility engineering superintendent (ENG)",
+          "candidate_name": "Highland Subterranean Vault Facility",
+          "other_candidate_names": [
+            "Old Quarry Limestone Archive",
+            "Valley Redoubt Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

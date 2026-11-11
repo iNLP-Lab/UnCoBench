@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_706",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "escort_convoy_logistics",
+        "provincial_highway_authority"
+      ],
+      "role_names": [
+        "Heavy Haul Logistics Escort Coordinator (ESCORT)",
+        "Provincial Highway Corridor Director (HWY)"
+      ],
+      "directory": "incomplete/task_706",
+      "profiles": [
+        {
+          "record_id": "rec_escort_convoy_logistics_A",
+          "role_id": "escort_convoy_logistics",
+          "candidate_id": "A",
+          "key": "ESCORT-CONV-UPC",
+          "boolean_predicate_id": "A_utility_escort_enabled",
+          "boolean_label": "Dedicated pilot vehicle escort availability",
+          "hidden_predicate_id": "A_max_utility_lifts",
+          "threshold_label": "Overhead utility line lift count",
+          "threshold_aliases": [
+            "Utility wire lift crossings",
+            "Overhead line lift total"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "crossings",
+          "partial_record_text": "ESCORT-CONV-UPC: Red Deer to Lloydminster Northern Trunk Corridor.Red Deer to Lloydminster Northern Trunk Corridor: Dedicated pilot vehicle escort availability = true .Source: Highway patrol escort booking roster; Scope: Designated transport convoy operating window; Measurement: Contractual reservation of four certified pilot escort vehicles and utility bucket crews.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Overhead utility line lift count is at most 40 crossings.",
+          "role_name": "Heavy Haul Logistics Escort Coordinator (ESCORT)",
+          "candidate_name": "Red Deer to Lloydminster Northern Trunk Corridor",
+          "other_candidate_names": [
+            "Drumheller to Kindersley Central Prairie Corridor",
+            "Medicine Hat to Swift Current Southern Express Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_provincial_highway_authority_A",
+          "role_id": "provincial_highway_authority",
+          "candidate_id": "A",
+          "key": "HWY-TRUNK-6AA",
+          "hidden_predicate_id": "A_provincial_highway_distance",
+          "threshold_label": "Provincial highway trunk distance",
+          "threshold_aliases": [
+            "Provincial highway length",
+            "Trunk highway haul mileage"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "km",
+          "partial_record_text": "HWY-TRUNK-6AA: Red Deer to Lloydminster Northern Trunk Corridor.Corridor model version: Corridor Model Release 2.4.Red Deer to Lloydminster Northern Trunk Corridor: Provincial highway clearance approval = true .Source: Ministry of transportation oversized load clearance file; Scope: Complete provincial highway routing segments; Measurement: Formal issuance of oversized and overweight super-load highway clearance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Provincial highway trunk distance is at most 400 km.",
+          "role_name": "Provincial Highway Corridor Director (HWY)",
+          "candidate_name": "Red Deer to Lloydminster Northern Trunk Corridor",
+          "other_candidate_names": [
+            "Drumheller to Kindersley Central Prairie Corridor",
+            "Medicine Hat to Swift Current Southern Express Corridor"
+          ],
+          "context_value": "Corridor Model Release 2.4",
+          "other_context_values": [
+            "Corridor Model Release 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "escort_convoy_logistics",
+        "provincial_highway_authority",
+        "municipal_infrastructure_liaison"
+      ],
+      "role_names": [
+        "Heavy Haul Logistics Escort Coordinator (ESCORT)",
+        "Provincial Highway Corridor Director (HWY)",
+        "Rural Municipal Infrastructure Officer (MUN)"
+      ],
+      "directory": "incomplete/task_706",
+      "profiles": [
+        {
+          "record_id": "rec_escort_convoy_logistics_A",
+          "role_id": "escort_convoy_logistics",
+          "candidate_id": "A",
+          "key": "ESCORT-CONV-UPC",
+          "boolean_predicate_id": "A_utility_escort_enabled",
+          "boolean_label": "Dedicated pilot vehicle escort availability",
+          "hidden_predicate_id": "A_max_utility_lifts",
+          "threshold_label": "Overhead utility line lift count",
+          "threshold_aliases": [
+            "Utility wire lift crossings",
+            "Overhead line lift total"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "crossings",
+          "partial_record_text": "ESCORT-CONV-UPC: Red Deer to Lloydminster Northern Trunk Corridor.Red Deer to Lloydminster Northern Trunk Corridor: Dedicated pilot vehicle escort availability = true .Source: Highway patrol escort booking roster; Scope: Designated transport convoy operating window; Measurement: Contractual reservation of four certified pilot escort vehicles and utility bucket crews.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Overhead utility line lift count is at most 40 crossings.",
+          "role_name": "Heavy Haul Logistics Escort Coordinator (ESCORT)",
+          "candidate_name": "Red Deer to Lloydminster Northern Trunk Corridor",
+          "other_candidate_names": [
+            "Drumheller to Kindersley Central Prairie Corridor",
+            "Medicine Hat to Swift Current Southern Express Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_provincial_highway_authority_A",
+          "role_id": "provincial_highway_authority",
+          "candidate_id": "A",
+          "key": "HWY-TRUNK-6AA",
+          "hidden_predicate_id": "A_provincial_highway_distance",
+          "threshold_label": "Provincial highway trunk distance",
+          "threshold_aliases": [
+            "Provincial highway length",
+            "Trunk highway haul mileage"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "km",
+          "partial_record_text": "HWY-TRUNK-6AA: Red Deer to Lloydminster Northern Trunk Corridor.Corridor model version: Corridor Model Release 2.4.Red Deer to Lloydminster Northern Trunk Corridor: Provincial highway clearance approval = true .Source: Ministry of transportation oversized load clearance file; Scope: Complete provincial highway routing segments; Measurement: Formal issuance of oversized and overweight super-load highway clearance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Provincial highway trunk distance is at most 400 km.",
+          "role_name": "Provincial Highway Corridor Director (HWY)",
+          "candidate_name": "Red Deer to Lloydminster Northern Trunk Corridor",
+          "other_candidate_names": [
+            "Drumheller to Kindersley Central Prairie Corridor",
+            "Medicine Hat to Swift Current Southern Express Corridor"
+          ],
+          "context_value": "Corridor Model Release 2.4",
+          "other_context_values": [
+            "Corridor Model Release 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_infrastructure_liaison_A",
+          "role_id": "municipal_infrastructure_liaison",
+          "candidate_id": "A",
+          "key": "MUN-ROADS-JPC",
+          "hidden_predicate_id": "A_municipal_access_distance",
+          "threshold_label": "Municipal access road distance",
+          "threshold_aliases": [
+            "Municipal connecting distance",
+            "Local access road mileage"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "km",
+          "partial_record_text": "MUN-ROADS-JPC: Red Deer to Lloydminster Northern Trunk Corridor. The record covers Municipal access road distance. County road allowance register; Rural municipal roads connecting trunk routes to substation sites; Total surveyed center-line distance traversed on municipal connecting roads.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Municipal access road distance is at most 90 km.",
+          "role_name": "Rural Municipal Infrastructure Officer (MUN)",
+          "candidate_name": "Red Deer to Lloydminster Northern Trunk Corridor",
+          "other_candidate_names": [
+            "Drumheller to Kindersley Central Prairie Corridor",
+            "Medicine Hat to Swift Current Southern Express Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

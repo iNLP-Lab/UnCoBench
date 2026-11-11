@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_808",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "maritime_safety",
+        "commercial_finance"
+      ],
+      "role_names": [
+        "Terminal Safety and Harbor Master Inspector (SAFE)",
+        "Concession Commercial and Finance Director (CFIN)"
+      ],
+      "directory": "number_expansion/misaligned/task_808/k2",
+      "error_profiles": [
+        {
+          "role_name": "Terminal Safety and Harbor Master Inspector (SAFE)",
+          "target_key": "SAFE-SMS-KXE",
+          "alternate_key": "SAFE-DRILL-4KL",
+          "target_context": "including shoreside bulk cargo transfer operations",
+          "alternate_context": "excluding shoreside bulk cargo transfer operations",
+          "candidate": "Pacific AgriBulk Terminals",
+          "other_candidates": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ism_code_safety_certified",
+              "value": true,
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ]
+            },
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ]
+            },
+            {
+              "topic": "max_capesize_draft_clearance",
+              "label": "Maximum allowable vessel draft clearance",
+              "aliases": [
+                "Deep-draft berth clearance",
+                "Wharf dredged depth allowance"
+              ]
+            },
+            {
+              "topic": "ism_code_safety_certified",
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ]
+            },
+            {
+              "topic": "master_stevedoring_cba_ratified",
+              "label": "Master stevedoring collective bargaining agreement ratified",
+              "aliases": [
+                "Longshore labor agreement ratification",
+                "Waterfront labor accord status"
+              ]
+            },
+            {
+              "topic": "performance_bond_underwritten",
+              "label": "Concession performance bond underwritten",
+              "aliases": [
+                "Surety performance guarantee",
+                "Concession financial bond status"
+              ]
+            },
+            {
+              "topic": "certified_loader_transfer_rate",
+              "label": "Certified shiploader operational transfer rate",
+              "aliases": [
+                "Nameplate loading rate",
+                "Shiploader continuous transfer capacity"
+              ]
+            },
+            {
+              "topic": "contracted_berth_loading_window",
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Concession Commercial and Finance Director (CFIN)",
+          "target_key": "CFIN-FIN-JHF",
+          "alternate_key": "CFIN-FIN-IFS",
+          "target_context": "net of scheduled maintenance downtime",
+          "alternate_context": "gross allocation before deducting scheduled maintenance downtime",
+          "candidate": "Pacific AgriBulk Terminals",
+          "other_candidates": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "numeric": [
+            {
+              "topic": "contracted_berth_loading_window",
+              "value": 3000,
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ]
+            },
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ]
+            },
+            {
+              "topic": "max_capesize_draft_clearance",
+              "label": "Maximum allowable vessel draft clearance",
+              "aliases": [
+                "Deep-draft berth clearance",
+                "Wharf dredged depth allowance"
+              ]
+            },
+            {
+              "topic": "ism_code_safety_certified",
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ]
+            },
+            {
+              "topic": "master_stevedoring_cba_ratified",
+              "label": "Master stevedoring collective bargaining agreement ratified",
+              "aliases": [
+                "Longshore labor agreement ratification",
+                "Waterfront labor accord status"
+              ]
+            },
+            {
+              "topic": "performance_bond_underwritten",
+              "label": "Concession performance bond underwritten",
+              "aliases": [
+                "Surety performance guarantee",
+                "Concession financial bond status"
+              ]
+            },
+            {
+              "topic": "certified_loader_transfer_rate",
+              "label": "Certified shiploader operational transfer rate",
+              "aliases": [
+                "Nameplate loading rate",
+                "Shiploader continuous transfer capacity"
+              ]
+            },
+            {
+              "topic": "contracted_berth_loading_window",
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "maritime_safety",
+        "commercial_finance",
+        "environmental_regulator"
+      ],
+      "role_names": [
+        "Terminal Safety and Harbor Master Inspector (SAFE)",
+        "Concession Commercial and Finance Director (CFIN)",
+        "Port Environmental and Air Quality Officer (EAQ)"
+      ],
+      "directory": "number_expansion/misaligned/task_808/k3",
+      "error_profiles": [
+        {
+          "role_name": "Terminal Safety and Harbor Master Inspector (SAFE)",
+          "target_key": "SAFE-SMS-KXE",
+          "alternate_key": "SAFE-DRILL-4KL",
+          "target_context": "including shoreside bulk cargo transfer operations",
+          "alternate_context": "excluding shoreside bulk cargo transfer operations",
+          "candidate": "Pacific AgriBulk Terminals",
+          "other_candidates": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "ism_code_safety_certified",
+              "value": true,
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ]
+            },
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ]
+            },
+            {
+              "topic": "max_capesize_draft_clearance",
+              "label": "Maximum allowable vessel draft clearance",
+              "aliases": [
+                "Deep-draft berth clearance",
+                "Wharf dredged depth allowance"
+              ]
+            },
+            {
+              "topic": "ism_code_safety_certified",
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ]
+            },
+            {
+              "topic": "master_stevedoring_cba_ratified",
+              "label": "Master stevedoring collective bargaining agreement ratified",
+              "aliases": [
+                "Longshore labor agreement ratification",
+                "Waterfront labor accord status"
+              ]
+            },
+            {
+              "topic": "performance_bond_underwritten",
+              "label": "Concession performance bond underwritten",
+              "aliases": [
+                "Surety performance guarantee",
+                "Concession financial bond status"
+              ]
+            },
+            {
+              "topic": "certified_loader_transfer_rate",
+              "label": "Certified shiploader operational transfer rate",
+              "aliases": [
+                "Nameplate loading rate",
+                "Shiploader continuous transfer capacity"
+              ]
+            },
+            {
+              "topic": "contracted_berth_loading_window",
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Concession Commercial and Finance Director (CFIN)",
+          "target_key": "CFIN-FIN-JHF",
+          "alternate_key": "CFIN-FIN-IFS",
+          "target_context": "net of scheduled maintenance downtime",
+          "alternate_context": "gross allocation before deducting scheduled maintenance downtime",
+          "candidate": "Pacific AgriBulk Terminals",
+          "other_candidates": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "numeric": [
+            {
+              "topic": "contracted_berth_loading_window",
+              "value": 3000,
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ]
+            },
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ]
+            },
+            {
+              "topic": "max_capesize_draft_clearance",
+              "label": "Maximum allowable vessel draft clearance",
+              "aliases": [
+                "Deep-draft berth clearance",
+                "Wharf dredged depth allowance"
+              ]
+            },
+            {
+              "topic": "ism_code_safety_certified",
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ]
+            },
+            {
+              "topic": "master_stevedoring_cba_ratified",
+              "label": "Master stevedoring collective bargaining agreement ratified",
+              "aliases": [
+                "Longshore labor agreement ratification",
+                "Waterfront labor accord status"
+              ]
+            },
+            {
+              "topic": "performance_bond_underwritten",
+              "label": "Concession performance bond underwritten",
+              "aliases": [
+                "Surety performance guarantee",
+                "Concession financial bond status"
+              ]
+            },
+            {
+              "topic": "certified_loader_transfer_rate",
+              "label": "Certified shiploader operational transfer rate",
+              "aliases": [
+                "Nameplate loading rate",
+                "Shiploader continuous transfer capacity"
+              ]
+            },
+            {
+              "topic": "contracted_berth_loading_window",
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Port Environmental and Air Quality Officer (EAQ)",
+          "target_key": "EAQ-DUST-URJ",
+          "alternate_key": "EAQ-DUST-ABF",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Pacific AgriBulk Terminals",
+          "other_candidates": [
+            "Global Maritime Grain Logistics",
+            "TransOceanic Harvest Ports"
+          ],
+          "numeric": [
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "value": 42,
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ],
+              "unit": "ug/m3"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "value": true,
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_dust_suppression_active",
+              "label": "Continuous dust suppression system enabled",
+              "aliases": [
+                "Active dust suppression status",
+                "Aspirated dust collection enablement"
+              ]
+            },
+            {
+              "topic": "fugitive_pm10_emission_level",
+              "label": "Fugitive PM10 particulate emission level",
+              "aliases": [
+                "PM10 dust concentration",
+                "Terminal boundary particulate level"
+              ]
+            },
+            {
+              "topic": "max_capesize_draft_clearance",
+              "label": "Maximum allowable vessel draft clearance",
+              "aliases": [
+                "Deep-draft berth clearance",
+                "Wharf dredged depth allowance"
+              ]
+            },
+            {
+              "topic": "ism_code_safety_certified",
+              "label": "ISM Code safety management certification",
+              "aliases": [
+                "Terminal safety management accreditation",
+                "ISM compliance endorsement"
+              ]
+            },
+            {
+              "topic": "master_stevedoring_cba_ratified",
+              "label": "Master stevedoring collective bargaining agreement ratified",
+              "aliases": [
+                "Longshore labor agreement ratification",
+                "Waterfront labor accord status"
+              ]
+            },
+            {
+              "topic": "performance_bond_underwritten",
+              "label": "Concession performance bond underwritten",
+              "aliases": [
+                "Surety performance guarantee",
+                "Concession financial bond status"
+              ]
+            },
+            {
+              "topic": "certified_loader_transfer_rate",
+              "label": "Certified shiploader operational transfer rate",
+              "aliases": [
+                "Nameplate loading rate",
+                "Shiploader continuous transfer capacity"
+              ]
+            },
+            {
+              "topic": "contracted_berth_loading_window",
+              "label": "Contracted annual berth loading window",
+              "aliases": [
+                "Annual vessel loading availability",
+                "Concession operational loading hours"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

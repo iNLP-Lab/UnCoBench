@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_581",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "airworthiness_regulatory",
+        "emergency_mobilization"
+      ],
+      "role_names": [
+        "Aviation Safety and Airworthiness Lead (AIR)",
+        "Logistics and Base Mobilization Coordinator (MOB)"
+      ],
+      "directory": "incomplete/task_581",
+      "profiles": [
+        {
+          "record_id": "rec_airworthiness_regulatory_A",
+          "role_id": "airworthiness_regulatory",
+          "candidate_id": "A",
+          "key": "AIR-CERT-ELG",
+          "boolean_predicate_id": "A_air_carrier_medevac_cert",
+          "boolean_label": "Part 135 medevac air carrier certification",
+          "hidden_predicate_id": "A_pic_turbine_flight_hours",
+          "threshold_label": "Pilot-in-command multi-engine turbine flight experience",
+          "threshold_aliases": [
+            "Captain multi-engine turbine flight time",
+            "PIC turbine flight experience"
+          ],
+          "threshold_value": 4200,
+          "threshold_unit": "h",
+          "partial_record_text": "AIR-CERT-ELG: Dedicated High-Speed Jet Consortium.Dedicated High-Speed Jet Consortium: Part 135 medevac air carrier certification = true .Source: Civil aviation authority operations specifications; Scope: Operating certificate held by candidate provider; Measurement: Valid commercial air carrier certificate authorizing dedicated air ambulance operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 6000
+          },
+          "coarse_statement": "Pilot-in-command multi-engine turbine flight experience is between 2000 h and 6000 h, inclusive.",
+          "role_name": "Aviation Safety and Airworthiness Lead (AIR)",
+          "candidate_name": "Dedicated High-Speed Jet Consortium",
+          "other_candidate_names": [
+            "Regional Turboprop Medevac Fleet",
+            "Hybrid Fixed-Wing Rotary Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_mobilization_A",
+          "role_id": "emergency_mobilization",
+          "candidate_id": "A",
+          "key": "MOB-SCRAM-MMY",
+          "hidden_predicate_id": "A_emergency_mobilization_time",
+          "threshold_label": "Emergency alert-to-airborne mobilization time",
+          "threshold_aliases": [
+            "Scramble launch time",
+            "Emergency dispatch airborne mobilization interval"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "MOB-SCRAM-MMY: Dedicated High-Speed Jet Consortium. The record covers Emergency alert-to-airborne mobilization time. Base dispatch timing audit; Day and night emergency priority launches; Average elapsed minutes from emergency dispatch call activation to aircraft wheels-up departure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Emergency alert-to-airborne mobilization time is between 10 min and 50 min, inclusive.",
+          "role_name": "Logistics and Base Mobilization Coordinator (MOB)",
+          "candidate_name": "Dedicated High-Speed Jet Consortium",
+          "other_candidate_names": [
+            "Regional Turboprop Medevac Fleet",
+            "Hybrid Fixed-Wing Rotary Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "airworthiness_regulatory",
+        "emergency_mobilization",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Aviation Safety and Airworthiness Lead (AIR)",
+        "Logistics and Base Mobilization Coordinator (MOB)",
+        "Commercial Finance and Procurement Director (FIN)"
+      ],
+      "directory": "incomplete/task_581",
+      "profiles": [
+        {
+          "record_id": "rec_airworthiness_regulatory_A",
+          "role_id": "airworthiness_regulatory",
+          "candidate_id": "A",
+          "key": "AIR-CERT-ELG",
+          "boolean_predicate_id": "A_air_carrier_medevac_cert",
+          "boolean_label": "Part 135 medevac air carrier certification",
+          "hidden_predicate_id": "A_pic_turbine_flight_hours",
+          "threshold_label": "Pilot-in-command multi-engine turbine flight experience",
+          "threshold_aliases": [
+            "Captain multi-engine turbine flight time",
+            "PIC turbine flight experience"
+          ],
+          "threshold_value": 4200,
+          "threshold_unit": "h",
+          "partial_record_text": "AIR-CERT-ELG: Dedicated High-Speed Jet Consortium.Dedicated High-Speed Jet Consortium: Part 135 medevac air carrier certification = true .Source: Civil aviation authority operations specifications; Scope: Operating certificate held by candidate provider; Measurement: Valid commercial air carrier certificate authorizing dedicated air ambulance operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 6000
+          },
+          "coarse_statement": "Pilot-in-command multi-engine turbine flight experience is between 2000 h and 6000 h, inclusive.",
+          "role_name": "Aviation Safety and Airworthiness Lead (AIR)",
+          "candidate_name": "Dedicated High-Speed Jet Consortium",
+          "other_candidate_names": [
+            "Regional Turboprop Medevac Fleet",
+            "Hybrid Fixed-Wing Rotary Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_mobilization_A",
+          "role_id": "emergency_mobilization",
+          "candidate_id": "A",
+          "key": "MOB-SCRAM-MMY",
+          "hidden_predicate_id": "A_emergency_mobilization_time",
+          "threshold_label": "Emergency alert-to-airborne mobilization time",
+          "threshold_aliases": [
+            "Scramble launch time",
+            "Emergency dispatch airborne mobilization interval"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "min",
+          "partial_record_text": "MOB-SCRAM-MMY: Dedicated High-Speed Jet Consortium. The record covers Emergency alert-to-airborne mobilization time. Base dispatch timing audit; Day and night emergency priority launches; Average elapsed minutes from emergency dispatch call activation to aircraft wheels-up departure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Emergency alert-to-airborne mobilization time is between 10 min and 50 min, inclusive.",
+          "role_name": "Logistics and Base Mobilization Coordinator (MOB)",
+          "candidate_name": "Dedicated High-Speed Jet Consortium",
+          "other_candidate_names": [
+            "Regional Turboprop Medevac Fleet",
+            "Hybrid Fixed-Wing Rotary Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "FIN-TARIFF-3Z8",
+          "hidden_predicate_id": "A_base_hourly_charter_rate",
+          "threshold_label": "Base hourly charter rate",
+          "threshold_aliases": [
+            "Hourly flight service rate",
+            "Charter hourly billing rate"
+          ],
+          "threshold_value": 2600,
+          "threshold_unit": "EUR/h",
+          "partial_record_text": "FIN-TARIFF-3Z8: Dedicated High-Speed Jet Consortium. The record covers Base hourly charter rate. Tender pricing schedule; Contract term hourly flying fee; Agreed gross flight operational billing charge per flight hour.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base hourly charter rate is between 1000 EUR/h and 5000 EUR/h, inclusive.",
+          "role_name": "Commercial Finance and Procurement Director (FIN)",
+          "candidate_name": "Dedicated High-Speed Jet Consortium",
+          "other_candidate_names": [
+            "Regional Turboprop Medevac Fleet",
+            "Hybrid Fixed-Wing Rotary Wing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

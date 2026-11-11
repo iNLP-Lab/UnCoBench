@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_284",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrography",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Chief hydrographer (HYD)",
+        "Naval architecture superintendent (NAV)"
+      ],
+      "directory": "incomplete/task_284",
+      "profiles": [
+        {
+          "record_id": "rec_hydrography_A",
+          "role_id": "hydrography",
+          "candidate_id": "A",
+          "key": "HYD-ACOUST-O3D",
+          "boolean_predicate_id": "A_hull_dampening_status",
+          "boolean_label": "Hull acoustic interference dampening status",
+          "hidden_predicate_id": "A_sonar_calibration_drift",
+          "threshold_label": "Active sonar calibration drift",
+          "threshold_aliases": [
+            "Beam angle calibration drift",
+            "Sounder bias error"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "mm",
+          "partial_record_text": "HYD-ACOUST-O3D: RV Celtic Voyager.RV Celtic Voyager: Hull acoustic interference dampening status = true .Source: Transducer pod inspection registry; Scope: Multibeam gondola installation; Measurement: Confirmation that flow noise dampening fairings and blister de-aeration systems are installed and active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Active sonar calibration drift is between 5 mm and 40 mm, inclusive.",
+          "role_name": "Chief hydrographer (HYD)",
+          "candidate_name": "RV Celtic Voyager",
+          "other_candidate_names": [
+            "MV Pacific Horizon",
+            "RV Nordic Challenger"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NAV-HULL-7G9",
+          "hidden_predicate_id": "A_daily_charter_rate",
+          "threshold_label": "Contracted daily vessel charter rate",
+          "threshold_aliases": [
+            "Base vessel dayrate",
+            "Charter hire rate"
+          ],
+          "threshold_value": 34000,
+          "threshold_unit": "USD/d",
+          "partial_record_text": "NAV-HULL-7G9: RV Celtic Voyager.RV Celtic Voyager: Dynamic positioning class verification = true .Source: Classification society certificate; Scope: Candidate vessel station-keeping machinery; Measurement: Active endorsement confirming compliance with IMO Dynamic Positioning Class 2 or higher.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10000,
+            "upper": 60000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted daily vessel charter rate is between 10000 USD/d and 60000 USD/d, inclusive.",
+          "role_name": "Naval architecture superintendent (NAV)",
+          "candidate_name": "RV Celtic Voyager",
+          "other_candidate_names": [
+            "MV Pacific Horizon",
+            "RV Nordic Challenger"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrography",
+        "naval_architecture",
+        "expedition_finance"
+      ],
+      "role_names": [
+        "Chief hydrographer (HYD)",
+        "Naval architecture superintendent (NAV)",
+        "Expedition finance director (FIN)"
+      ],
+      "directory": "incomplete/task_284",
+      "profiles": [
+        {
+          "record_id": "rec_hydrography_A",
+          "role_id": "hydrography",
+          "candidate_id": "A",
+          "key": "HYD-ACOUST-O3D",
+          "boolean_predicate_id": "A_hull_dampening_status",
+          "boolean_label": "Hull acoustic interference dampening status",
+          "hidden_predicate_id": "A_sonar_calibration_drift",
+          "threshold_label": "Active sonar calibration drift",
+          "threshold_aliases": [
+            "Beam angle calibration drift",
+            "Sounder bias error"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "mm",
+          "partial_record_text": "HYD-ACOUST-O3D: RV Celtic Voyager.RV Celtic Voyager: Hull acoustic interference dampening status = true .Source: Transducer pod inspection registry; Scope: Multibeam gondola installation; Measurement: Confirmation that flow noise dampening fairings and blister de-aeration systems are installed and active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Active sonar calibration drift is between 5 mm and 40 mm, inclusive.",
+          "role_name": "Chief hydrographer (HYD)",
+          "candidate_name": "RV Celtic Voyager",
+          "other_candidate_names": [
+            "MV Pacific Horizon",
+            "RV Nordic Challenger"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NAV-HULL-7G9",
+          "hidden_predicate_id": "A_daily_charter_rate",
+          "threshold_label": "Contracted daily vessel charter rate",
+          "threshold_aliases": [
+            "Base vessel dayrate",
+            "Charter hire rate"
+          ],
+          "threshold_value": 34000,
+          "threshold_unit": "USD/d",
+          "partial_record_text": "NAV-HULL-7G9: RV Celtic Voyager.RV Celtic Voyager: Dynamic positioning class verification = true .Source: Classification society certificate; Scope: Candidate vessel station-keeping machinery; Measurement: Active endorsement confirming compliance with IMO Dynamic Positioning Class 2 or higher.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10000,
+            "upper": 60000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted daily vessel charter rate is between 10000 USD/d and 60000 USD/d, inclusive.",
+          "role_name": "Naval architecture superintendent (NAV)",
+          "candidate_name": "RV Celtic Voyager",
+          "other_candidate_names": [
+            "MV Pacific Horizon",
+            "RV Nordic Challenger"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_finance_A",
+          "role_id": "expedition_finance",
+          "candidate_id": "A",
+          "key": "FIN-GRANT-TVN",
+          "hidden_predicate_id": "A_equipment_subsidy_rate",
+          "threshold_label": "Dedicated scientific equipment daily subsidy",
+          "threshold_aliases": [
+            "Oceanographic equipment subsidy",
+            "Science equipment dayrate grant offset"
+          ],
+          "threshold_value": 7500,
+          "threshold_unit": "USD/d",
+          "partial_record_text": "FIN-GRANT-TVN: RV Celtic Voyager. The record covers Dedicated scientific equipment daily subsidy. National science infrastructure grant schedule; Deep ocean multibeam mapping campaigns; Approved daily grant contribution offset against onboard instrumentation maintenance.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 3000,
+            "upper": 9000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated scientific equipment daily subsidy is between 3000 USD/d and 9000 USD/d, inclusive.",
+          "role_name": "Expedition finance director (FIN)",
+          "candidate_name": "RV Celtic Voyager",
+          "other_candidate_names": [
+            "MV Pacific Horizon",
+            "RV Nordic Challenger"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

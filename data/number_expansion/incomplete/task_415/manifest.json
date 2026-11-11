@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_415",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "well_operations_superintendence",
+        "crew_credentials_verification"
+      ],
+      "role_names": [
+        "Well operations superintendent (WOS)",
+        "Crew credentials verification lead (CCV)"
+      ],
+      "directory": "incomplete/task_415",
+      "profiles": [
+        {
+          "record_id": "rec_well_operations_superintendence_A",
+          "role_id": "well_operations_superintendence",
+          "candidate_id": "A",
+          "key": "WOS-WELL-915",
+          "boolean_predicate_id": "A_well_control_cert_valid",
+          "boolean_label": "Full well-control certificate validity",
+          "hidden_predicate_id": "A_blowout_response_time",
+          "threshold_label": "Blowout contingency response time",
+          "threshold_aliases": [
+            "BOP intervention response latency",
+            "Well-kill emergency response duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "WOS-WELL-915: Aker Deepwater Personnel Group.Aker Deepwater Personnel Group: Full well-control certificate validity = true .Source: International Well Control Forum certification registry; Scope: Lead offshore drilling superintendents in candidate proposal; Measurement: Whether all nominated supervisory personnel hold active Level 4 supervisor well-control certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Blowout contingency response time is at most 40 min.",
+          "role_name": "Well operations superintendent (WOS)",
+          "candidate_name": "Aker Deepwater Personnel Group",
+          "other_candidate_names": [
+            "Subsea Crewing Solutions International",
+            "Vanguard Marine Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crew_credentials_verification_A",
+          "role_id": "crew_credentials_verification",
+          "candidate_id": "A",
+          "key": "CCV-LOG-VYV",
+          "hidden_predicate_id": "A_offshore_supervisor_years",
+          "threshold_label": "Offshore supervisor experience",
+          "threshold_aliases": [
+            "Deepwater supervisory tenure",
+            "Offshore superintendent field experience"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "yr",
+          "partial_record_text": "CCV-LOG-VYV: Aker Deepwater Personnel Group. The record covers Offshore supervisor experience. Offshore service logbook verification dossier; Cumulative documented tours on floating deepwater rigs; Verified total years in toolpusher or drilling superintendent rank.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Offshore supervisor experience is at most 30 yr.",
+          "role_name": "Crew credentials verification lead (CCV)",
+          "candidate_name": "Aker Deepwater Personnel Group",
+          "other_candidate_names": [
+            "Subsea Crewing Solutions International",
+            "Vanguard Marine Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "well_operations_superintendence",
+        "crew_credentials_verification",
+        "commercial_contracts_management"
+      ],
+      "role_names": [
+        "Well operations superintendent (WOS)",
+        "Crew credentials verification lead (CCV)",
+        "Commercial contracts administrator (CCM)"
+      ],
+      "directory": "incomplete/task_415",
+      "profiles": [
+        {
+          "record_id": "rec_well_operations_superintendence_A",
+          "role_id": "well_operations_superintendence",
+          "candidate_id": "A",
+          "key": "WOS-WELL-915",
+          "boolean_predicate_id": "A_well_control_cert_valid",
+          "boolean_label": "Full well-control certificate validity",
+          "hidden_predicate_id": "A_blowout_response_time",
+          "threshold_label": "Blowout contingency response time",
+          "threshold_aliases": [
+            "BOP intervention response latency",
+            "Well-kill emergency response duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "WOS-WELL-915: Aker Deepwater Personnel Group.Aker Deepwater Personnel Group: Full well-control certificate validity = true .Source: International Well Control Forum certification registry; Scope: Lead offshore drilling superintendents in candidate proposal; Measurement: Whether all nominated supervisory personnel hold active Level 4 supervisor well-control certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Blowout contingency response time is at most 40 min.",
+          "role_name": "Well operations superintendent (WOS)",
+          "candidate_name": "Aker Deepwater Personnel Group",
+          "other_candidate_names": [
+            "Subsea Crewing Solutions International",
+            "Vanguard Marine Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crew_credentials_verification_A",
+          "role_id": "crew_credentials_verification",
+          "candidate_id": "A",
+          "key": "CCV-LOG-VYV",
+          "hidden_predicate_id": "A_offshore_supervisor_years",
+          "threshold_label": "Offshore supervisor experience",
+          "threshold_aliases": [
+            "Deepwater supervisory tenure",
+            "Offshore superintendent field experience"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "yr",
+          "partial_record_text": "CCV-LOG-VYV: Aker Deepwater Personnel Group. The record covers Offshore supervisor experience. Offshore service logbook verification dossier; Cumulative documented tours on floating deepwater rigs; Verified total years in toolpusher or drilling superintendent rank.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Offshore supervisor experience is at most 30 yr.",
+          "role_name": "Crew credentials verification lead (CCV)",
+          "candidate_name": "Aker Deepwater Personnel Group",
+          "other_candidate_names": [
+            "Subsea Crewing Solutions International",
+            "Vanguard Marine Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracts_management_A",
+          "role_id": "commercial_contracts_management",
+          "candidate_id": "A",
+          "key": "CCM-BILL-6IP",
+          "hidden_predicate_id": "A_shift_billing_rate",
+          "threshold_label": "Shift billing rate",
+          "threshold_aliases": [
+            "Superintendent shift rate",
+            "Per-shift service fee"
+          ],
+          "threshold_value": 2100,
+          "threshold_unit": "USD/shift",
+          "partial_record_text": "CCM-BILL-6IP: Aker Deepwater Personnel Group. The record covers Shift billing rate. Master service agreement schedule B; Standard 12-hour offshore operational tour; Contracted billing rate per completed operational shift.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Shift billing rate is at most 4000 USD/shift.",
+          "role_name": "Commercial contracts administrator (CCM)",
+          "candidate_name": "Aker Deepwater Personnel Group",
+          "other_candidate_names": [
+            "Subsea Crewing Solutions International",
+            "Vanguard Marine Technical Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

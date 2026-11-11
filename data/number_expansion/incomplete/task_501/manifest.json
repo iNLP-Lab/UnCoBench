@@ -1,0 +1,189 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_501",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservation_science",
+        "mechanical_plant"
+      ],
+      "role_names": [
+        "Conservation science lead (CSL)",
+        "Mechanical plant engineer (MPE)"
+      ],
+      "directory": "incomplete/task_501",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CSL-CLIM-F5U",
+          "boolean_predicate_id": "A_particulate_scrubbing_enabled",
+          "boolean_label": "Active particulate scrubbing enabled",
+          "hidden_predicate_id": "A_filtration_efficiency",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "HEPA air filtration efficiency",
+            "Particle arrestance efficiency"
+          ],
+          "threshold_value": 99.99,
+          "threshold_unit": "%",
+          "partial_record_text": "CSL-CLIM-F5U: Cotswold Subterranean Archive Vault.Cotswold Subterranean Archive Vault: Environmental microclimate qualification = true .Source: Hymathermograph certification audit; Scope: Candidate parchment vault chamber across 30 trial days; Measurement: Whether temperature stayed within 16 to 18 C and relative humidity within 45 to 55 %.Cotswold Subterranean Archive Vault: Active particulate scrubbing enabled = true .Source: Air treatment controller status report; Scope: Continuous recirculation circuit of the preservation vault; Measurement: Binary operational status of the recirculating gaseous scrubber unit.Cotswold Subterranean Archive Vault: Conservation chamber sensor drift = 0.12 %.Source: Conservation sensor calibration certificate; Scope: Interior conservation room microclimate sensors over 180 calendar days; Measurement: Mean variance between deployed sensor telemetry and calibrated laboratory master instruments.",
+          "role_name": "Conservation science lead (CSL)",
+          "candidate_name": "Cotswold Subterranean Archive Vault",
+          "other_candidate_names": [
+            "Thames Valley Precision Microclimate Depository",
+            "Severn Estuary Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_plant_A",
+          "role_id": "mechanical_plant",
+          "candidate_id": "A",
+          "key": "MPE-HVAC-H8F",
+          "hidden_predicate_id": "A_ahu_sensor_drift",
+          "threshold_label": "Air handling unit sensor drift",
+          "threshold_aliases": [
+            "AHU telemetry sensor drift",
+            "Ventilation duct sensor drift"
+          ],
+          "threshold_value": 0.16,
+          "threshold_unit": "%",
+          "partial_record_text": "MPE-HVAC-H8F: Cotswold Subterranean Archive Vault. The record covers Air handling unit sensor drift. Mechanical instrumentation diagnostic log; Supply and return air plenum sensors over 180 calendar days; Mean variance between duct hygrometer readings and primary calibration standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 0.34
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Air handling unit sensor drift is at most 0.34 %.",
+          "role_name": "Mechanical plant engineer (MPE)",
+          "candidate_name": "Cotswold Subterranean Archive Vault",
+          "other_candidate_names": [
+            "Thames Valley Precision Microclimate Depository",
+            "Severn Estuary Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservation_science",
+        "mechanical_plant",
+        "fire_protection"
+      ],
+      "role_names": [
+        "Conservation science lead (CSL)",
+        "Mechanical plant engineer (MPE)",
+        "Fire protection specialist (FPS)"
+      ],
+      "directory": "number_expansion/incomplete/task_501/k3",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CSL-CLIM-F5U",
+          "boolean_predicate_id": "A_particulate_scrubbing_enabled",
+          "boolean_label": "Active particulate scrubbing enabled",
+          "hidden_predicate_id": "A_filtration_efficiency",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "HEPA air filtration efficiency",
+            "Particle arrestance efficiency"
+          ],
+          "threshold_value": 99.99,
+          "threshold_unit": "%",
+          "partial_record_text": "CSL-CLIM-F5U: Cotswold Subterranean Archive Vault.Cotswold Subterranean Archive Vault: Environmental microclimate qualification = true .Source: Hymathermograph certification audit; Scope: Candidate parchment vault chamber across 30 trial days; Measurement: Whether temperature stayed within 16 to 18 C and relative humidity within 45 to 55 %.Cotswold Subterranean Archive Vault: Active particulate scrubbing enabled = true .Source: Air treatment controller status report; Scope: Continuous recirculation circuit of the preservation vault; Measurement: Binary operational status of the recirculating gaseous scrubber unit.Cotswold Subterranean Archive Vault: Conservation chamber sensor drift = 0.12 %.Source: Conservation sensor calibration certificate; Scope: Interior conservation room microclimate sensors over 180 calendar days; Measurement: Mean variance between deployed sensor telemetry and calibrated laboratory master instruments.",
+          "role_name": "Conservation science lead (CSL)",
+          "candidate_name": "Cotswold Subterranean Archive Vault",
+          "other_candidate_names": [
+            "Thames Valley Precision Microclimate Depository",
+            "Severn Estuary Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mechanical_plant_A",
+          "role_id": "mechanical_plant",
+          "candidate_id": "A",
+          "key": "MPE-HVAC-H8F",
+          "hidden_predicate_id": "A_ahu_sensor_drift",
+          "threshold_label": "Air handling unit sensor drift",
+          "threshold_aliases": [
+            "AHU telemetry sensor drift",
+            "Ventilation duct sensor drift"
+          ],
+          "threshold_value": 0.16,
+          "threshold_unit": "%",
+          "partial_record_text": "MPE-HVAC-H8F: Cotswold Subterranean Archive Vault. The record covers Air handling unit sensor drift. Mechanical instrumentation diagnostic log; Supply and return air plenum sensors over 180 calendar days; Mean variance between duct hygrometer readings and primary calibration standards.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 0.34
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Air handling unit sensor drift is at most 0.34 %.",
+          "role_name": "Mechanical plant engineer (MPE)",
+          "candidate_name": "Cotswold Subterranean Archive Vault",
+          "other_candidate_names": [
+            "Thames Valley Precision Microclimate Depository",
+            "Severn Estuary Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_protection_A_supplemental",
+          "role_id": "fire_protection",
+          "candidate_id": "A",
+          "key": "FPS-SMOKE-1P5",
+          "hidden_predicate_id": "A_supplemental_fire_protection",
+          "threshold_label": "Aspirating smoke detection sensitivity",
+          "threshold_aliases": [],
+          "threshold_value": 0.02,
+          "threshold_unit": "%/m",
+          "partial_record_text": "FPS-SMOKE-1P5: Cotswold Subterranean Archive Vault. The record covers Aspirating smoke detection sensitivity. High-sensitivity smoke detector calibration report; Manuscript storage plenum air returns; Minimum obscuration threshold triggering early warning alert.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Aspirating smoke detection sensitivity is at least 0 %/m.",
+          "role_name": "Fire protection specialist (FPS)",
+          "candidate_name": "Cotswold Subterranean Archive Vault",
+          "other_candidate_names": [
+            "Thames Valley Precision Microclimate Depository",
+            "Severn Estuary Conservation Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_fire_protection",
+        "topic_id": "supplemental_fire_protection",
+        "operator": "gte",
+        "threshold": 0.005,
+        "role_id": "fire_protection",
+        "metric": "Aspirating smoke detection sensitivity",
+        "unit": "%/m",
+        "required_text": "To qualify, a candidate must also have Aspirating smoke detection sensitivity of at least 0.005 %/m.",
+        "new_fault_record_key": "FPS-SMOKE-1P5",
+        "exact_value": 0.02,
+        "first_reply": "Aspirating smoke detection sensitivity is at least 0 %/m."
+      }
+    }
+  }
+}

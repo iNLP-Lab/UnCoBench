@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_648",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "upstream_bioprocess",
+        "quality_compliance"
+      ],
+      "role_names": [
+        "Upstream bioprocess lead (UBP)",
+        "Quality assurance lead (QAC)"
+      ],
+      "directory": "incomplete/task_648",
+      "profiles": [
+        {
+          "record_id": "rec_upstream_bioprocess_A",
+          "role_id": "upstream_bioprocess",
+          "candidate_id": "A",
+          "key": "UBP-FERM-IJW",
+          "boolean_predicate_id": "A_seed_train_validated",
+          "boolean_label": "Pathogen-free seed train validation protocol established",
+          "hidden_predicate_id": "A_peak_target_titer",
+          "threshold_label": "Peak target protein titer",
+          "threshold_aliases": [
+            "Target protein titer",
+            "Peak fermentation titer"
+          ],
+          "threshold_value": 65,
+          "threshold_unit": "g/L",
+          "partial_record_text": "UBP-FERM-IJW: Dedicated aerobic batch fermentation contract.Dedicated aerobic batch fermentation contract: Pathogen-free seed train validation protocol established = true .Source: Microbial seed bank register; Scope: Primary production working cell bank; Measurement: Presence of an approved and executed seed train validation protocol.Dedicated aerobic batch fermentation contract: Upstream wet biomass residue = 200 t.Source: Mass balance engineering estimate; Scope: Annual baseline production campaign; Measurement: Total projected wet microbial biomass separated from fermenters.",
+          "role_name": "Upstream bioprocess lead (UBP)",
+          "candidate_name": "Dedicated aerobic batch fermentation contract",
+          "other_candidate_names": [
+            "Continuous cell-recycle perfusion agreement",
+            "Hybrid fed-batch campaigning arrangement"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "QAC-QMS-0YF",
+          "hidden_predicate_id": "A_batch_endotoxin_level",
+          "threshold_label": "Maximum batch endotoxin concentration",
+          "threshold_aliases": [
+            "Batch endotoxin level",
+            "Purified protein endotoxin content"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "EU/mg",
+          "partial_record_text": "QAC-QMS-0YF: Dedicated aerobic batch fermentation contract.Dedicated aerobic batch fermentation contract: ISO 22000 food safety certification active = true .Source: Accreditation body certificate; Scope: Designated toll production facility; Measurement: Active compliance certificate for ISO 22000 food safety management systems.",
+          "role_name": "Quality assurance lead (QAC)",
+          "candidate_name": "Dedicated aerobic batch fermentation contract",
+          "other_candidate_names": [
+            "Continuous cell-recycle perfusion agreement",
+            "Hybrid fed-batch campaigning arrangement"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "upstream_bioprocess",
+        "quality_compliance",
+        "downstream_isolation"
+      ],
+      "role_names": [
+        "Upstream bioprocess lead (UBP)",
+        "Quality assurance lead (QAC)",
+        "Downstream isolation lead (DIS)"
+      ],
+      "directory": "incomplete/task_648",
+      "profiles": [
+        {
+          "record_id": "rec_upstream_bioprocess_A",
+          "role_id": "upstream_bioprocess",
+          "candidate_id": "A",
+          "key": "UBP-FERM-IJW",
+          "boolean_predicate_id": "A_seed_train_validated",
+          "boolean_label": "Pathogen-free seed train validation protocol established",
+          "hidden_predicate_id": "A_peak_target_titer",
+          "threshold_label": "Peak target protein titer",
+          "threshold_aliases": [
+            "Target protein titer",
+            "Peak fermentation titer"
+          ],
+          "threshold_value": 65,
+          "threshold_unit": "g/L",
+          "partial_record_text": "UBP-FERM-IJW: Dedicated aerobic batch fermentation contract.Dedicated aerobic batch fermentation contract: Pathogen-free seed train validation protocol established = true .Source: Microbial seed bank register; Scope: Primary production working cell bank; Measurement: Presence of an approved and executed seed train validation protocol.Dedicated aerobic batch fermentation contract: Upstream wet biomass residue = 200 t.Source: Mass balance engineering estimate; Scope: Annual baseline production campaign; Measurement: Total projected wet microbial biomass separated from fermenters.",
+          "role_name": "Upstream bioprocess lead (UBP)",
+          "candidate_name": "Dedicated aerobic batch fermentation contract",
+          "other_candidate_names": [
+            "Continuous cell-recycle perfusion agreement",
+            "Hybrid fed-batch campaigning arrangement"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "QAC-QMS-0YF",
+          "hidden_predicate_id": "A_batch_endotoxin_level",
+          "threshold_label": "Maximum batch endotoxin concentration",
+          "threshold_aliases": [
+            "Batch endotoxin level",
+            "Purified protein endotoxin content"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "EU/mg",
+          "partial_record_text": "QAC-QMS-0YF: Dedicated aerobic batch fermentation contract.Dedicated aerobic batch fermentation contract: ISO 22000 food safety certification active = true .Source: Accreditation body certificate; Scope: Designated toll production facility; Measurement: Active compliance certificate for ISO 22000 food safety management systems.",
+          "role_name": "Quality assurance lead (QAC)",
+          "candidate_name": "Dedicated aerobic batch fermentation contract",
+          "other_candidate_names": [
+            "Continuous cell-recycle perfusion agreement",
+            "Hybrid fed-batch campaigning arrangement"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_downstream_isolation_A",
+          "role_id": "downstream_isolation",
+          "candidate_id": "A",
+          "key": "DIS-CLAR-KJR",
+          "hidden_predicate_id": "A_clarification_efficiency",
+          "threshold_label": "Continuous centrifuge clarification efficiency",
+          "threshold_aliases": [
+            "Clarification efficiency",
+            "Centrifuge solids removal rate"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "%",
+          "partial_record_text": "DIS-CLAR-KJR: Dedicated aerobic batch fermentation contract.Dedicated aerobic batch fermentation contract: Downstream filter cake residue = 150 t.Source: Filtration solids projection; Scope: Annual baseline production campaign; Measurement: Total projected spent diatomaceous earth and secondary filter cake mass.",
+          "role_name": "Downstream isolation lead (DIS)",
+          "candidate_name": "Dedicated aerobic batch fermentation contract",
+          "other_candidate_names": [
+            "Continuous cell-recycle perfusion agreement",
+            "Hybrid fed-batch campaigning arrangement"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,487 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_297",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "municipal_hydrology_inspector",
+        "ventilation_safety_officer"
+      ],
+      "role_names": [
+        "Municipal hydrology inspector (MHI)",
+        "Ventilation safety officer (VSO)"
+      ],
+      "directory": "number_expansion/misaligned/task_297/k2",
+      "error_profiles": [
+        {
+          "role_name": "Municipal hydrology inspector (MHI)",
+          "target_key": "MHI-HYD-PIV",
+          "alternate_key": "MHI-HYD-I97",
+          "target_context": "including emergency decontamination washdown demand",
+          "alternate_context": "excluding emergency decontamination washdown demand",
+          "candidate": "Redstone Cavern Civic Refuge",
+          "other_candidates": [
+            "Mount Haythorne Subsurface Citadel",
+            "Valley Ridge Deep Concourse"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "potable_tie_in_authorized",
+              "value": true,
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "positive_pressure_verified",
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ]
+            },
+            {
+              "topic": "desilting_interval_minutes",
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic bedrock isolation class approval",
+              "aliases": [
+                "Bedrock decoupling certification",
+                "Seismic shock mounting clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_intertied",
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ]
+            },
+            {
+              "topic": "potable_tie_in_authorized",
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ]
+            },
+            {
+              "topic": "baseline_scrubbing_draw",
+              "label": "Baseline primary air scrubbing power draw",
+              "aliases": [
+                "Nominal scrubber electrical demand",
+                "Continuous intake filtration power"
+              ]
+            },
+            {
+              "topic": "auxiliary_surge_draw",
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ventilation safety officer (VSO)",
+          "target_key": "VSO-FILT-PXW",
+          "alternate_key": "VSO-FILT-52S",
+          "target_context": "including intake duct isolation and repressurization",
+          "alternate_context": "excluding intake duct isolation and repressurization",
+          "candidate": "Redstone Cavern Civic Refuge",
+          "other_candidates": [
+            "Mount Haythorne Subsurface Citadel",
+            "Valley Ridge Deep Concourse"
+          ],
+          "numeric": [
+            {
+              "topic": "desilting_interval_minutes",
+              "value": 90,
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "positive_pressure_verified",
+              "value": true,
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "positive_pressure_verified",
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ]
+            },
+            {
+              "topic": "desilting_interval_minutes",
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic bedrock isolation class approval",
+              "aliases": [
+                "Bedrock decoupling certification",
+                "Seismic shock mounting clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_intertied",
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ]
+            },
+            {
+              "topic": "potable_tie_in_authorized",
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ]
+            },
+            {
+              "topic": "baseline_scrubbing_draw",
+              "label": "Baseline primary air scrubbing power draw",
+              "aliases": [
+                "Nominal scrubber electrical demand",
+                "Continuous intake filtration power"
+              ]
+            },
+            {
+              "topic": "auxiliary_surge_draw",
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "municipal_hydrology_inspector",
+        "ventilation_safety_officer",
+        "electrical_grid_liaison"
+      ],
+      "role_names": [
+        "Municipal hydrology inspector (MHI)",
+        "Ventilation safety officer (VSO)",
+        "Electrical grid liaison (EGL)"
+      ],
+      "directory": "number_expansion/misaligned/task_297/k3",
+      "error_profiles": [
+        {
+          "role_name": "Municipal hydrology inspector (MHI)",
+          "target_key": "MHI-HYD-PIV",
+          "alternate_key": "MHI-HYD-I97",
+          "target_context": "including emergency decontamination washdown demand",
+          "alternate_context": "excluding emergency decontamination washdown demand",
+          "candidate": "Redstone Cavern Civic Refuge",
+          "other_candidates": [
+            "Mount Haythorne Subsurface Citadel",
+            "Valley Ridge Deep Concourse"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "potable_tie_in_authorized",
+              "value": true,
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "positive_pressure_verified",
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ]
+            },
+            {
+              "topic": "desilting_interval_minutes",
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic bedrock isolation class approval",
+              "aliases": [
+                "Bedrock decoupling certification",
+                "Seismic shock mounting clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_intertied",
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ]
+            },
+            {
+              "topic": "potable_tie_in_authorized",
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ]
+            },
+            {
+              "topic": "baseline_scrubbing_draw",
+              "label": "Baseline primary air scrubbing power draw",
+              "aliases": [
+                "Nominal scrubber electrical demand",
+                "Continuous intake filtration power"
+              ]
+            },
+            {
+              "topic": "auxiliary_surge_draw",
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ventilation safety officer (VSO)",
+          "target_key": "VSO-FILT-PXW",
+          "alternate_key": "VSO-FILT-52S",
+          "target_context": "including intake duct isolation and repressurization",
+          "alternate_context": "excluding intake duct isolation and repressurization",
+          "candidate": "Redstone Cavern Civic Refuge",
+          "other_candidates": [
+            "Mount Haythorne Subsurface Citadel",
+            "Valley Ridge Deep Concourse"
+          ],
+          "numeric": [
+            {
+              "topic": "desilting_interval_minutes",
+              "value": 90,
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "positive_pressure_verified",
+              "value": true,
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "positive_pressure_verified",
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ]
+            },
+            {
+              "topic": "desilting_interval_minutes",
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic bedrock isolation class approval",
+              "aliases": [
+                "Bedrock decoupling certification",
+                "Seismic shock mounting clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_intertied",
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ]
+            },
+            {
+              "topic": "potable_tie_in_authorized",
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ]
+            },
+            {
+              "topic": "baseline_scrubbing_draw",
+              "label": "Baseline primary air scrubbing power draw",
+              "aliases": [
+                "Nominal scrubber electrical demand",
+                "Continuous intake filtration power"
+              ]
+            },
+            {
+              "topic": "auxiliary_surge_draw",
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Electrical grid liaison (EGL)",
+          "target_key": "EGL-POW-QTQ",
+          "alternate_key": "EGL-POW-N7K",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Redstone Cavern Civic Refuge",
+          "other_candidates": [
+            "Mount Haythorne Subsurface Citadel",
+            "Valley Ridge Deep Concourse"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_surge_draw",
+              "value": 150,
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "backup_power_intertied",
+              "value": true,
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "positive_pressure_verified",
+              "label": "Positive-pressure filtration verification",
+              "aliases": [
+                "Positive-pressure validation",
+                "Aerosol barrier containment approval"
+              ]
+            },
+            {
+              "topic": "desilting_interval_minutes",
+              "label": "Air intake desilting clearance interval",
+              "aliases": [
+                "Cyclone ash desilting time",
+                "Filter desilting cycle interval"
+              ]
+            },
+            {
+              "topic": "seismic_isolation_approved",
+              "label": "Seismic bedrock isolation class approval",
+              "aliases": [
+                "Bedrock decoupling certification",
+                "Seismic shock mounting clearance"
+              ]
+            },
+            {
+              "topic": "backup_power_intertied",
+              "label": "Secondary emergency power interconnection approval",
+              "aliases": [
+                "Auxiliary grid switchboard readiness",
+                "Emergency bus coupling certification"
+              ]
+            },
+            {
+              "topic": "potable_tie_in_authorized",
+              "label": "Municipal potable water tie-in authorization",
+              "aliases": [
+                "Potable aqueduct connection approval",
+                "Mains drinking water intake authorization"
+              ]
+            },
+            {
+              "topic": "baseline_scrubbing_draw",
+              "label": "Baseline primary air scrubbing power draw",
+              "aliases": [
+                "Nominal scrubber electrical demand",
+                "Continuous intake filtration power"
+              ]
+            },
+            {
+              "topic": "auxiliary_surge_draw",
+              "label": "Auxiliary filtration surge power draw",
+              "aliases": [
+                "Secondary particulate scrubber surge demand",
+                "Emergency boost filtration power"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

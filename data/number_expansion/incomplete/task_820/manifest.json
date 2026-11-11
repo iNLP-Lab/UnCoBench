@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_820",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_testing",
+        "logistics_handling"
+      ],
+      "role_names": [
+        "Environmental testing lead (ENV)",
+        "Logistics and handling lead (LOG)"
+      ],
+      "directory": "incomplete/task_820",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_testing_A",
+          "role_id": "environmental_testing",
+          "candidate_id": "A",
+          "key": "ENV-THRM-RQT",
+          "boolean_predicate_id": "A_chamber_interlock_enabled",
+          "boolean_label": "Thermal vacuum chamber safety interlock enabled",
+          "hidden_predicate_id": "A_thermal_ramp_rate",
+          "threshold_label": "Chamber thermal ramp rate",
+          "threshold_aliases": [
+            "Thermal gradient transition rate",
+            "TVAC thermal ramp velocity"
+          ],
+          "threshold_value": 4.8,
+          "threshold_unit": "C/min",
+          "partial_record_text": "ENV-THRM-RQT: Astraea Integration Logistics.Astraea Integration Logistics: Thermal vacuum chamber safety interlock enabled = true .Source: TVAC facility commissioning certificate; Scope: Thermal vacuum test chamber cell A; Measurement: Active engagement of the automated emergency pressure equalisation interlock system.Astraea Integration Logistics: Thermal vacuum testing time = 80 h.Source: Thermal cycling test procedure; Scope: Chamber pump-down, soak, and thermal dwell cycles; Measurement: Total billable thermal vacuum chamber operational hours required for qualification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Chamber thermal ramp rate is at most 7 C/min.",
+          "role_name": "Environmental testing lead (ENV)",
+          "candidate_name": "Astraea Integration Logistics",
+          "other_candidate_names": [
+            "Vanguard Orbital Environmental Services",
+            "Apex Spacecraft Qualification Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_handling_A",
+          "role_id": "logistics_handling",
+          "candidate_id": "A",
+          "key": "LOG-INFR-4TV",
+          "hidden_predicate_id": "A_airlock_clearance_width",
+          "threshold_label": "Payload airlock hatch clear width",
+          "threshold_aliases": [
+            "Airlock hatch width",
+            "Cleanroom door clearance"
+          ],
+          "threshold_value": 3.3,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-INFR-4TV: Astraea Integration Logistics. The record covers Payload airlock hatch clear width. Facility architectural dimension survey; Cleanroom entry equipment transfer airlock; Unobstructed horizontal opening width of the primary payload intake hatch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Payload airlock hatch clear width is at most 5 m.",
+          "role_name": "Logistics and handling lead (LOG)",
+          "candidate_name": "Astraea Integration Logistics",
+          "other_candidate_names": [
+            "Vanguard Orbital Environmental Services",
+            "Apex Spacecraft Qualification Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_testing",
+        "logistics_handling",
+        "cleanroom_operations"
+      ],
+      "role_names": [
+        "Environmental testing lead (ENV)",
+        "Logistics and handling lead (LOG)",
+        "Cleanroom operations lead (CLN)"
+      ],
+      "directory": "incomplete/task_820",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_testing_A",
+          "role_id": "environmental_testing",
+          "candidate_id": "A",
+          "key": "ENV-THRM-RQT",
+          "boolean_predicate_id": "A_chamber_interlock_enabled",
+          "boolean_label": "Thermal vacuum chamber safety interlock enabled",
+          "hidden_predicate_id": "A_thermal_ramp_rate",
+          "threshold_label": "Chamber thermal ramp rate",
+          "threshold_aliases": [
+            "Thermal gradient transition rate",
+            "TVAC thermal ramp velocity"
+          ],
+          "threshold_value": 4.8,
+          "threshold_unit": "C/min",
+          "partial_record_text": "ENV-THRM-RQT: Astraea Integration Logistics.Astraea Integration Logistics: Thermal vacuum chamber safety interlock enabled = true .Source: TVAC facility commissioning certificate; Scope: Thermal vacuum test chamber cell A; Measurement: Active engagement of the automated emergency pressure equalisation interlock system.Astraea Integration Logistics: Thermal vacuum testing time = 80 h.Source: Thermal cycling test procedure; Scope: Chamber pump-down, soak, and thermal dwell cycles; Measurement: Total billable thermal vacuum chamber operational hours required for qualification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Chamber thermal ramp rate is at most 7 C/min.",
+          "role_name": "Environmental testing lead (ENV)",
+          "candidate_name": "Astraea Integration Logistics",
+          "other_candidate_names": [
+            "Vanguard Orbital Environmental Services",
+            "Apex Spacecraft Qualification Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_handling_A",
+          "role_id": "logistics_handling",
+          "candidate_id": "A",
+          "key": "LOG-INFR-4TV",
+          "hidden_predicate_id": "A_airlock_clearance_width",
+          "threshold_label": "Payload airlock hatch clear width",
+          "threshold_aliases": [
+            "Airlock hatch width",
+            "Cleanroom door clearance"
+          ],
+          "threshold_value": 3.3,
+          "threshold_unit": "m",
+          "partial_record_text": "LOG-INFR-4TV: Astraea Integration Logistics. The record covers Payload airlock hatch clear width. Facility architectural dimension survey; Cleanroom entry equipment transfer airlock; Unobstructed horizontal opening width of the primary payload intake hatch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Payload airlock hatch clear width is at most 5 m.",
+          "role_name": "Logistics and handling lead (LOG)",
+          "candidate_name": "Astraea Integration Logistics",
+          "other_candidate_names": [
+            "Vanguard Orbital Environmental Services",
+            "Apex Spacecraft Qualification Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cleanroom_operations_A",
+          "role_id": "cleanroom_operations",
+          "candidate_id": "A",
+          "key": "CLN-ENV-Z77",
+          "hidden_predicate_id": "A_cleanroom_integration_time",
+          "threshold_label": "Cleanroom integration time",
+          "threshold_aliases": [
+            "Cleanroom occupancy hours",
+            "Integration bay duration"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "h",
+          "partial_record_text": "CLN-ENV-Z77: Astraea Integration Logistics.Environment: Flight production environment.Astraea Integration Logistics: ISO Class 5 cleanroom certification active = true .Source: Environmental compliance register; Scope: Main satellite assembly bay; Measurement: Current active ISO 14644-1 Class 5 airborne particle concentration accreditation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Cleanroom integration time is at most 100 h.",
+          "role_name": "Cleanroom operations lead (CLN)",
+          "candidate_name": "Astraea Integration Logistics",
+          "other_candidate_names": [
+            "Vanguard Orbital Environmental Services",
+            "Apex Spacecraft Qualification Center"
+          ],
+          "context_value": "Flight production environment",
+          "other_context_values": [
+            "Engineering test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

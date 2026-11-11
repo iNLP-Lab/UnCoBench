@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_507",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "traction_and_track_testing",
+        "yard_capacity_planning"
+      ],
+      "role_names": [
+        "Traction systems and test track superintendent (TRAC)",
+        "Depot yard capacity and allocation planner (YARD)"
+      ],
+      "directory": "incomplete/task_507",
+      "profiles": [
+        {
+          "record_id": "rec_traction_and_track_testing_A",
+          "role_id": "traction_and_track_testing",
+          "candidate_id": "A",
+          "key": "TRAC-TEST-HS9",
+          "boolean_predicate_id": "A_test_track_available",
+          "boolean_label": "High-voltage traction test track availability",
+          "hidden_predicate_id": "A_bogie_overhaul_days",
+          "threshold_label": "Maximum bogie overhaul cycle time",
+          "threshold_aliases": [
+            "Bogie turnaround duration",
+            "Wheelset and bogie overhaul lead time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "days",
+          "partial_record_text": "TRAC-TEST-HS9: Doncaster North Maintenance Facility.Doncaster North Maintenance Facility: High-voltage traction test track availability = true .Source: Traction electrification logbook; Scope: Depot 25 kV AC overhead line test siding; Measurement: Formal operational status confirming active overhead line electrification and interlock safety sign-off.",
+          "role_name": "Traction systems and test track superintendent (TRAC)",
+          "candidate_name": "Doncaster North Maintenance Facility",
+          "other_candidate_names": [
+            "Crewe Locomotive Overhaul Works",
+            "Wolverhampton Heavy Rail Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_yard_capacity_planning_A",
+          "role_id": "yard_capacity_planning",
+          "candidate_id": "A",
+          "key": "YARD-STAGE-PMD",
+          "hidden_predicate_id": "A_buffer_track_reserve",
+          "threshold_label": "Mandatory maintenance buffer track length",
+          "threshold_aliases": [
+            "Reserved buffer trackage",
+            "Emergency shunt reserve track length"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "m",
+          "partial_record_text": "YARD-STAGE-PMD: Doncaster North Maintenance Facility. The record covers Mandatory maintenance buffer track length. Depot operational working timetable agreement; Designated emergency turnout, crippled train staging, and internal run-around trackage; Total indoor track length contractually quarantined for unplanned shunt movements.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mandatory maintenance buffer track length is at most 600 m.",
+          "role_name": "Depot yard capacity and allocation planner (YARD)",
+          "candidate_name": "Doncaster North Maintenance Facility",
+          "other_candidate_names": [
+            "Crewe Locomotive Overhaul Works",
+            "Wolverhampton Heavy Rail Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "traction_and_track_testing",
+        "yard_capacity_planning",
+        "heavy_bay_engineering"
+      ],
+      "role_names": [
+        "Traction systems and test track superintendent (TRAC)",
+        "Depot yard capacity and allocation planner (YARD)",
+        "Heavy bay engineering lead (ENG)"
+      ],
+      "directory": "incomplete/task_507",
+      "profiles": [
+        {
+          "record_id": "rec_traction_and_track_testing_A",
+          "role_id": "traction_and_track_testing",
+          "candidate_id": "A",
+          "key": "TRAC-TEST-HS9",
+          "boolean_predicate_id": "A_test_track_available",
+          "boolean_label": "High-voltage traction test track availability",
+          "hidden_predicate_id": "A_bogie_overhaul_days",
+          "threshold_label": "Maximum bogie overhaul cycle time",
+          "threshold_aliases": [
+            "Bogie turnaround duration",
+            "Wheelset and bogie overhaul lead time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "days",
+          "partial_record_text": "TRAC-TEST-HS9: Doncaster North Maintenance Facility.Doncaster North Maintenance Facility: High-voltage traction test track availability = true .Source: Traction electrification logbook; Scope: Depot 25 kV AC overhead line test siding; Measurement: Formal operational status confirming active overhead line electrification and interlock safety sign-off.",
+          "role_name": "Traction systems and test track superintendent (TRAC)",
+          "candidate_name": "Doncaster North Maintenance Facility",
+          "other_candidate_names": [
+            "Crewe Locomotive Overhaul Works",
+            "Wolverhampton Heavy Rail Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_yard_capacity_planning_A",
+          "role_id": "yard_capacity_planning",
+          "candidate_id": "A",
+          "key": "YARD-STAGE-PMD",
+          "hidden_predicate_id": "A_buffer_track_reserve",
+          "threshold_label": "Mandatory maintenance buffer track length",
+          "threshold_aliases": [
+            "Reserved buffer trackage",
+            "Emergency shunt reserve track length"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "m",
+          "partial_record_text": "YARD-STAGE-PMD: Doncaster North Maintenance Facility. The record covers Mandatory maintenance buffer track length. Depot operational working timetable agreement; Designated emergency turnout, crippled train staging, and internal run-around trackage; Total indoor track length contractually quarantined for unplanned shunt movements.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Mandatory maintenance buffer track length is at most 600 m.",
+          "role_name": "Depot yard capacity and allocation planner (YARD)",
+          "candidate_name": "Doncaster North Maintenance Facility",
+          "other_candidate_names": [
+            "Crewe Locomotive Overhaul Works",
+            "Wolverhampton Heavy Rail Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_heavy_bay_engineering_A",
+          "role_id": "heavy_bay_engineering",
+          "candidate_id": "A",
+          "key": "ENG-CRANE-SK3",
+          "hidden_predicate_id": "A_gross_staging_track",
+          "threshold_label": "Gross enclosed staging track length",
+          "threshold_aliases": [
+            "Enclosed workshop trackage",
+            "Total indoor maintenance track length"
+          ],
+          "threshold_value": 1900,
+          "threshold_unit": "m",
+          "partial_record_text": "ENG-CRANE-SK3: Doncaster North Maintenance Facility.Doncaster North Maintenance Facility: Heavy crane bay clearance = true .Source: Depot structural clearance register; Scope: Overhead tandem 25-tonne crane bays servicing overhaul roads; Measurement: Whether vertical hook height and transverse reach accommodate full high-speed carriage body lifts.",
+          "role_name": "Heavy bay engineering lead (ENG)",
+          "candidate_name": "Doncaster North Maintenance Facility",
+          "other_candidate_names": [
+            "Crewe Locomotive Overhaul Works",
+            "Wolverhampton Heavy Rail Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

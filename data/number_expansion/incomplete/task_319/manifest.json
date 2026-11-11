@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_319",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_credentialing",
+        "aviation_safety"
+      ],
+      "role_names": [
+        "Clinical credentialing manager (CCM)",
+        "Aviation flight operations officer (AFO)"
+      ],
+      "directory": "incomplete/task_319",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_credentialing_A",
+          "role_id": "clinical_credentialing",
+          "candidate_id": "A",
+          "key": "CCM-CERT-STR",
+          "boolean_predicate_id": "A_ccrn_credential",
+          "boolean_label": "Critical care flight credentialed",
+          "hidden_predicate_id": "A_advanced_airway_score",
+          "threshold_label": "Advanced airway simulation score",
+          "threshold_aliases": [
+            "Difficult airway practical score",
+            "Surgical airway exam rating"
+          ],
+          "threshold_value": 94,
+          "threshold_unit": "points",
+          "partial_record_text": "CCM-CERT-STR: Evelyn Vance.Evelyn Vance: Critical care flight credentialed = true .Source: Board for critical care transport certification audit; Scope: Active clinical registry entry for 2026; Measurement: Verification of valid Certified Flight Paramedic (FP-C) board credential.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Advanced airway simulation score is at most 110 points.",
+          "role_name": "Clinical credentialing manager (CCM)",
+          "candidate_name": "Evelyn Vance",
+          "other_candidate_names": [
+            "Marcus Holloway",
+            "Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "AFO-FLT-LV5",
+          "hidden_predicate_id": "A_rotor_wing_flight_hours",
+          "threshold_label": "Rotor-wing transport flight hours",
+          "threshold_aliases": [
+            "Helicopter aeromedical hours",
+            "Rotary EMS hours"
+          ],
+          "threshold_value": 520,
+          "threshold_unit": "h",
+          "partial_record_text": "AFO-FLT-LV5: Evelyn Vance.Evelyn Vance: Mountain winching survival clearance = true .Source: Technical mountain rescue qualification registry; Scope: Alpine and rough terrain hoist operational qualification; Measurement: Validation that the candidate holds active clearance for external hoist operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 800
+          },
+          "coarse_statement": "Rotor-wing transport flight hours is at most 800 h.",
+          "role_name": "Aviation flight operations officer (AFO)",
+          "candidate_name": "Evelyn Vance",
+          "other_candidate_names": [
+            "Marcus Holloway",
+            "Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_credentialing",
+        "aviation_safety",
+        "aircrew_rostering"
+      ],
+      "role_names": [
+        "Clinical credentialing manager (CCM)",
+        "Aviation flight operations officer (AFO)",
+        "Roster allocation coordinator (RAC)"
+      ],
+      "directory": "incomplete/task_319",
+      "profiles": [
+        {
+          "record_id": "rec_clinical_credentialing_A",
+          "role_id": "clinical_credentialing",
+          "candidate_id": "A",
+          "key": "CCM-CERT-STR",
+          "boolean_predicate_id": "A_ccrn_credential",
+          "boolean_label": "Critical care flight credentialed",
+          "hidden_predicate_id": "A_advanced_airway_score",
+          "threshold_label": "Advanced airway simulation score",
+          "threshold_aliases": [
+            "Difficult airway practical score",
+            "Surgical airway exam rating"
+          ],
+          "threshold_value": 94,
+          "threshold_unit": "points",
+          "partial_record_text": "CCM-CERT-STR: Evelyn Vance.Evelyn Vance: Critical care flight credentialed = true .Source: Board for critical care transport certification audit; Scope: Active clinical registry entry for 2026; Measurement: Verification of valid Certified Flight Paramedic (FP-C) board credential.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Advanced airway simulation score is at most 110 points.",
+          "role_name": "Clinical credentialing manager (CCM)",
+          "candidate_name": "Evelyn Vance",
+          "other_candidate_names": [
+            "Marcus Holloway",
+            "Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_A",
+          "role_id": "aviation_safety",
+          "candidate_id": "A",
+          "key": "AFO-FLT-LV5",
+          "hidden_predicate_id": "A_rotor_wing_flight_hours",
+          "threshold_label": "Rotor-wing transport flight hours",
+          "threshold_aliases": [
+            "Helicopter aeromedical hours",
+            "Rotary EMS hours"
+          ],
+          "threshold_value": 520,
+          "threshold_unit": "h",
+          "partial_record_text": "AFO-FLT-LV5: Evelyn Vance.Evelyn Vance: Mountain winching survival clearance = true .Source: Technical mountain rescue qualification registry; Scope: Alpine and rough terrain hoist operational qualification; Measurement: Validation that the candidate holds active clearance for external hoist operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 800
+          },
+          "coarse_statement": "Rotor-wing transport flight hours is at most 800 h.",
+          "role_name": "Aviation flight operations officer (AFO)",
+          "candidate_name": "Evelyn Vance",
+          "other_candidate_names": [
+            "Marcus Holloway",
+            "Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aircrew_rostering_A",
+          "role_id": "aircrew_rostering",
+          "candidate_id": "A",
+          "key": "RAC-ROST-QWF",
+          "hidden_predicate_id": "A_baseline_monthly_duty_allotment",
+          "threshold_label": "Baseline monthly flight duty allotment",
+          "threshold_aliases": [
+            "Gross scheduled duty hours",
+            "Contracted flight base hours"
+          ],
+          "threshold_value": 170,
+          "threshold_unit": "h",
+          "partial_record_text": "RAC-ROST-QWF: Evelyn Vance. The record covers Baseline monthly flight duty allotment. Staff staffing contract schedule; Calendar month service allotment; Contractual maximum hours allocated for active air ambulance roster deployment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Baseline monthly flight duty allotment is at most 300 h.",
+          "role_name": "Roster allocation coordinator (RAC)",
+          "candidate_name": "Evelyn Vance",
+          "other_candidate_names": [
+            "Marcus Holloway",
+            "Tariq Al-Mansoor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

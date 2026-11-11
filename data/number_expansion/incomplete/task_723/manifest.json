@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_723",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "airspace_telemetry",
+        "environmental_ecology"
+      ],
+      "role_names": [
+        "Airspace telemetry lead (TEL)",
+        "Environmental ecology manager (ECO)"
+      ],
+      "directory": "incomplete/task_723",
+      "profiles": [
+        {
+          "record_id": "rec_airspace_telemetry_A",
+          "role_id": "airspace_telemetry",
+          "candidate_id": "A",
+          "key": "TEL-COMM-M64",
+          "boolean_predicate_id": "A_bvlos_telemetry_active",
+          "boolean_label": "Active BVLOS telemetry network",
+          "hidden_predicate_id": "A_telemetry_latency",
+          "threshold_label": "Round-trip telemetry latency",
+          "threshold_aliases": [
+            "Telemetry ping latency",
+            "Command link latency"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "ms",
+          "partial_record_text": "TEL-COMM-M64: Highland Mesa Aerial Proving Ground.Highland Mesa Aerial Proving Ground: Active BVLOS telemetry network = true .Source: Avionics infrastructure audit; Scope: Designated test corridor air-to-ground data link; Measurement: Operational status of the redundant command-and-control link supporting beyond visual line of sight operations.",
+          "role_name": "Airspace telemetry lead (TEL)",
+          "candidate_name": "Highland Mesa Aerial Proving Ground",
+          "other_candidate_names": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_ecology_A",
+          "role_id": "environmental_ecology",
+          "candidate_id": "A",
+          "key": "ECO-HAB-5Q4",
+          "hidden_predicate_id": "A_wildlife_buffer_distance",
+          "threshold_label": "Avian sanctuary buffer distance",
+          "threshold_aliases": [
+            "Wildlife reserve separation distance",
+            "Ecological setback buffer"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "km",
+          "partial_record_text": "ECO-HAB-5Q4: Highland Mesa Aerial Proving Ground. The record covers Avian sanctuary buffer distance. Geographic ecological survey; Range boundary to nearest designated migratory bird sanctuary; Shortest horizontal distance between the range flight corridor boundary and protected wildlife habitat.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Avian sanctuary buffer distance is at least 5 km.",
+          "role_name": "Environmental ecology manager (ECO)",
+          "candidate_name": "Highland Mesa Aerial Proving Ground",
+          "other_candidate_names": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "airspace_telemetry",
+        "environmental_ecology",
+        "commercial_contracts"
+      ],
+      "role_names": [
+        "Airspace telemetry lead (TEL)",
+        "Environmental ecology manager (ECO)",
+        "Commercial contracts lead (FIN)"
+      ],
+      "directory": "incomplete/task_723",
+      "profiles": [
+        {
+          "record_id": "rec_airspace_telemetry_A",
+          "role_id": "airspace_telemetry",
+          "candidate_id": "A",
+          "key": "TEL-COMM-M64",
+          "boolean_predicate_id": "A_bvlos_telemetry_active",
+          "boolean_label": "Active BVLOS telemetry network",
+          "hidden_predicate_id": "A_telemetry_latency",
+          "threshold_label": "Round-trip telemetry latency",
+          "threshold_aliases": [
+            "Telemetry ping latency",
+            "Command link latency"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "ms",
+          "partial_record_text": "TEL-COMM-M64: Highland Mesa Aerial Proving Ground.Highland Mesa Aerial Proving Ground: Active BVLOS telemetry network = true .Source: Avionics infrastructure audit; Scope: Designated test corridor air-to-ground data link; Measurement: Operational status of the redundant command-and-control link supporting beyond visual line of sight operations.",
+          "role_name": "Airspace telemetry lead (TEL)",
+          "candidate_name": "Highland Mesa Aerial Proving Ground",
+          "other_candidate_names": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_ecology_A",
+          "role_id": "environmental_ecology",
+          "candidate_id": "A",
+          "key": "ECO-HAB-5Q4",
+          "hidden_predicate_id": "A_wildlife_buffer_distance",
+          "threshold_label": "Avian sanctuary buffer distance",
+          "threshold_aliases": [
+            "Wildlife reserve separation distance",
+            "Ecological setback buffer"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "km",
+          "partial_record_text": "ECO-HAB-5Q4: Highland Mesa Aerial Proving Ground. The record covers Avian sanctuary buffer distance. Geographic ecological survey; Range boundary to nearest designated migratory bird sanctuary; Shortest horizontal distance between the range flight corridor boundary and protected wildlife habitat.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Avian sanctuary buffer distance is at least 5 km.",
+          "role_name": "Environmental ecology manager (ECO)",
+          "candidate_name": "Highland Mesa Aerial Proving Ground",
+          "other_candidate_names": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracts_A",
+          "role_id": "commercial_contracts",
+          "candidate_id": "A",
+          "key": "FIN-COST-6VM",
+          "hidden_predicate_id": "A_monthly_base_operating_fee",
+          "threshold_label": "Monthly base facility operating fee",
+          "threshold_aliases": [
+            "Base facility charge",
+            "Monthly range overhead fee"
+          ],
+          "threshold_value": 150000,
+          "threshold_unit": "USD",
+          "partial_record_text": "FIN-COST-6VM: Highland Mesa Aerial Proving Ground. The record covers Monthly base facility operating fee. Commercial contract schedule; Standard 30-day operational billing period; Fixed baseline range access fee excluding consumable fuel and auxiliary lodging.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 120000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Monthly base facility operating fee is at least 120000 USD.",
+          "role_name": "Commercial contracts lead (FIN)",
+          "candidate_name": "Highland Mesa Aerial Proving Ground",
+          "other_candidate_names": [
+            "Coastal Estuary Flight Corridor",
+            "Desert Basin Avionics Range"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

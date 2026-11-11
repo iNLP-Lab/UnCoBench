@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_335",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "energy_specialist",
+        "sanitation_officer"
+      ],
+      "role_names": [
+        "Emergency energy systems engineer (ENER)",
+        "Water and sanitation coordinator (WASH)"
+      ],
+      "directory": "incomplete/task_335",
+      "profiles": [
+        {
+          "record_id": "rec_energy_specialist_A",
+          "role_id": "energy_specialist",
+          "candidate_id": "A",
+          "key": "ENER-GRID-PIW",
+          "boolean_predicate_id": "A_backup_microgrid_enabled",
+          "boolean_label": "Autonomous backup microgrid enabled",
+          "hidden_predicate_id": "A_generator_continuous_runtime",
+          "threshold_label": "Continuous emergency generator runtime",
+          "threshold_aliases": [
+            "Generator endurance",
+            "Emergency generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "ENER-GRID-PIW: Metropolitan Exhibition Center Hall Conversion.Metropolitan Exhibition Center Hall Conversion: Autonomous backup microgrid enabled = true .Source: Electrical commissioning registry; Scope: Candidate facility automated islanding transfer switch; Measurement: Operational switch status confirming capability to decouple from grid and power essential circuits.Metropolitan Exhibition Center Hall Conversion: Primary diesel generation capacity = 800 kW.Source: Electrical nameplate and commissioning audit; Scope: Primary on-site diesel power generation system; Measurement: Maximum sustained continuous electrical generation capacity under full load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency generator runtime is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency energy systems engineer (ENER)",
+          "candidate_name": "Metropolitan Exhibition Center Hall Conversion",
+          "other_candidate_names": [
+            "Regional Sports Arena Retrofit",
+            "University Multipurpose Pavilion Adaptation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_officer_A",
+          "role_id": "sanitation_officer",
+          "candidate_id": "A",
+          "key": "WASH-HYDR-FLF",
+          "hidden_predicate_id": "A_water_reserve_autonomy",
+          "threshold_label": "Potable water reserve autonomy",
+          "threshold_aliases": [
+            "Water reserve days",
+            "Potable water endurance"
+          ],
+          "threshold_value": 7,
+          "threshold_unit": "d",
+          "partial_record_text": "WASH-HYDR-FLF: Metropolitan Exhibition Center Hall Conversion. The record covers Potable water reserve autonomy. Hydraulic consumption audit; Dedicated potable cisterns sized for planned shelter capacity at 15 L per person-day; Number of full calendar days of continuous self-sufficient water supply available on-site.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Potable water reserve autonomy is between 2 d and 20 d, inclusive.",
+          "role_name": "Water and sanitation coordinator (WASH)",
+          "candidate_name": "Metropolitan Exhibition Center Hall Conversion",
+          "other_candidate_names": [
+            "Regional Sports Arena Retrofit",
+            "University Multipurpose Pavilion Adaptation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "energy_specialist",
+        "sanitation_officer",
+        "facilities_manager"
+      ],
+      "role_names": [
+        "Emergency energy systems engineer (ENER)",
+        "Water and sanitation coordinator (WASH)",
+        "Facilities physical plant manager (FACL)"
+      ],
+      "directory": "incomplete/task_335",
+      "profiles": [
+        {
+          "record_id": "rec_energy_specialist_A",
+          "role_id": "energy_specialist",
+          "candidate_id": "A",
+          "key": "ENER-GRID-PIW",
+          "boolean_predicate_id": "A_backup_microgrid_enabled",
+          "boolean_label": "Autonomous backup microgrid enabled",
+          "hidden_predicate_id": "A_generator_continuous_runtime",
+          "threshold_label": "Continuous emergency generator runtime",
+          "threshold_aliases": [
+            "Generator endurance",
+            "Emergency generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "ENER-GRID-PIW: Metropolitan Exhibition Center Hall Conversion.Metropolitan Exhibition Center Hall Conversion: Autonomous backup microgrid enabled = true .Source: Electrical commissioning registry; Scope: Candidate facility automated islanding transfer switch; Measurement: Operational switch status confirming capability to decouple from grid and power essential circuits.Metropolitan Exhibition Center Hall Conversion: Primary diesel generation capacity = 800 kW.Source: Electrical nameplate and commissioning audit; Scope: Primary on-site diesel power generation system; Measurement: Maximum sustained continuous electrical generation capacity under full load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency generator runtime is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency energy systems engineer (ENER)",
+          "candidate_name": "Metropolitan Exhibition Center Hall Conversion",
+          "other_candidate_names": [
+            "Regional Sports Arena Retrofit",
+            "University Multipurpose Pavilion Adaptation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_officer_A",
+          "role_id": "sanitation_officer",
+          "candidate_id": "A",
+          "key": "WASH-HYDR-FLF",
+          "hidden_predicate_id": "A_water_reserve_autonomy",
+          "threshold_label": "Potable water reserve autonomy",
+          "threshold_aliases": [
+            "Water reserve days",
+            "Potable water endurance"
+          ],
+          "threshold_value": 7,
+          "threshold_unit": "d",
+          "partial_record_text": "WASH-HYDR-FLF: Metropolitan Exhibition Center Hall Conversion. The record covers Potable water reserve autonomy. Hydraulic consumption audit; Dedicated potable cisterns sized for planned shelter capacity at 15 L per person-day; Number of full calendar days of continuous self-sufficient water supply available on-site.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Potable water reserve autonomy is between 2 d and 20 d, inclusive.",
+          "role_name": "Water and sanitation coordinator (WASH)",
+          "candidate_name": "Metropolitan Exhibition Center Hall Conversion",
+          "other_candidate_names": [
+            "Regional Sports Arena Retrofit",
+            "University Multipurpose Pavilion Adaptation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_manager_A",
+          "role_id": "facilities_manager",
+          "candidate_id": "A",
+          "key": "FACL-BATT-V1U",
+          "hidden_predicate_id": "A_battery_storage_power",
+          "threshold_label": "Battery storage discharge power",
+          "threshold_aliases": [
+            "Battery discharge rate",
+            "Battery power capacity"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "kW",
+          "partial_record_text": "FACL-BATT-V1U: Metropolitan Exhibition Center Hall Conversion. The record covers Battery storage discharge power. Energy storage system specification; Installed on-site lithium iron phosphate battery inverter system; Continuous power delivery rate to auxiliary microgrid bus during discharge cycle.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Battery storage discharge power is between 0 kW and 600 kW, inclusive.",
+          "role_name": "Facilities physical plant manager (FACL)",
+          "candidate_name": "Metropolitan Exhibition Center Hall Conversion",
+          "other_candidate_names": [
+            "Regional Sports Arena Retrofit",
+            "University Multipurpose Pavilion Adaptation"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

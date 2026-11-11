@@ -1,0 +1,555 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_773",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "port_authority",
+        "nautical_operations"
+      ],
+      "role_names": [
+        "Coastal port of refuge liaison (PORT)",
+        "Nautical operations harbor master (NAUT)"
+      ],
+      "directory": "number_expansion/misaligned/task_773/k2",
+      "error_profiles": [
+        {
+          "role_name": "Coastal port of refuge liaison (PORT)",
+          "target_key": "PORT-AUTH-LYY",
+          "alternate_key": "PORT-BERTH-LKO",
+          "target_context": "including unlightered chemical cargo",
+          "alternate_context": "excluding unlightered chemical cargo",
+          "candidate": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidates": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "port_admission_cleared",
+              "value": true,
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "certified_dp_status",
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ]
+            },
+            {
+              "topic": "bollard_pull_rating",
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ]
+            },
+            {
+              "topic": "vapor_scrubber_installed",
+              "label": "Emergency toxic vapor scrubber operational",
+              "aliases": [
+                "Vapor scrubber presence",
+                "Active scrubbing system readiness"
+              ]
+            },
+            {
+              "topic": "vapor_containment_time",
+              "label": "Vapor scrubbing full containment setup time",
+              "aliases": [
+                "Vapor scrubber deployment duration",
+                "Scrubber system hookup time"
+              ]
+            },
+            {
+              "topic": "mobilization_time",
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ]
+            },
+            {
+              "topic": "port_admission_cleared",
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ]
+            },
+            {
+              "topic": "stability_margin_score",
+              "label": "Post-damage hydrostatic stability margin score",
+              "aliases": [
+                "Calculated vessel damage stability score",
+                "Equilibrium stability rating"
+              ]
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ]
+            },
+            {
+              "topic": "pumping_standby_hours",
+              "label": "Emergency hazardous pumping standby hours",
+              "aliases": [
+                "Specialized pumping standby duration",
+                "Chemical cargo offloading standby hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Nautical operations harbor master (NAUT)",
+          "target_key": "NAUT-OPS-HYM",
+          "alternate_key": "NAUT-OPS-B4E",
+          "target_context": "formal charter notice issue",
+          "alternate_context": "initial distress alert reception",
+          "candidate": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidates": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "numeric": [
+            {
+              "topic": "mobilization_time",
+              "value": 16,
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "certified_dp_status",
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ]
+            },
+            {
+              "topic": "bollard_pull_rating",
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ]
+            },
+            {
+              "topic": "vapor_scrubber_installed",
+              "label": "Emergency toxic vapor scrubber operational",
+              "aliases": [
+                "Vapor scrubber presence",
+                "Active scrubbing system readiness"
+              ]
+            },
+            {
+              "topic": "vapor_containment_time",
+              "label": "Vapor scrubbing full containment setup time",
+              "aliases": [
+                "Vapor scrubber deployment duration",
+                "Scrubber system hookup time"
+              ]
+            },
+            {
+              "topic": "mobilization_time",
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ]
+            },
+            {
+              "topic": "port_admission_cleared",
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ]
+            },
+            {
+              "topic": "stability_margin_score",
+              "label": "Post-damage hydrostatic stability margin score",
+              "aliases": [
+                "Calculated vessel damage stability score",
+                "Equilibrium stability rating"
+              ]
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ]
+            },
+            {
+              "topic": "pumping_standby_hours",
+              "label": "Emergency hazardous pumping standby hours",
+              "aliases": [
+                "Specialized pumping standby duration",
+                "Chemical cargo offloading standby hours"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "port_authority",
+        "nautical_operations",
+        "salvage_engineering"
+      ],
+      "role_names": [
+        "Coastal port of refuge liaison (PORT)",
+        "Nautical operations harbor master (NAUT)",
+        "Salvage engineering superintendent (SALV)"
+      ],
+      "directory": "number_expansion/misaligned/task_773/k3",
+      "error_profiles": [
+        {
+          "role_name": "Coastal port of refuge liaison (PORT)",
+          "target_key": "PORT-AUTH-LYY",
+          "alternate_key": "PORT-BERTH-LKO",
+          "target_context": "including unlightered chemical cargo",
+          "alternate_context": "excluding unlightered chemical cargo",
+          "candidate": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidates": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "port_admission_cleared",
+              "value": true,
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "certified_dp_status",
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ]
+            },
+            {
+              "topic": "bollard_pull_rating",
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ]
+            },
+            {
+              "topic": "vapor_scrubber_installed",
+              "label": "Emergency toxic vapor scrubber operational",
+              "aliases": [
+                "Vapor scrubber presence",
+                "Active scrubbing system readiness"
+              ]
+            },
+            {
+              "topic": "vapor_containment_time",
+              "label": "Vapor scrubbing full containment setup time",
+              "aliases": [
+                "Vapor scrubber deployment duration",
+                "Scrubber system hookup time"
+              ]
+            },
+            {
+              "topic": "mobilization_time",
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ]
+            },
+            {
+              "topic": "port_admission_cleared",
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ]
+            },
+            {
+              "topic": "stability_margin_score",
+              "label": "Post-damage hydrostatic stability margin score",
+              "aliases": [
+                "Calculated vessel damage stability score",
+                "Equilibrium stability rating"
+              ]
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ]
+            },
+            {
+              "topic": "pumping_standby_hours",
+              "label": "Emergency hazardous pumping standby hours",
+              "aliases": [
+                "Specialized pumping standby duration",
+                "Chemical cargo offloading standby hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Nautical operations harbor master (NAUT)",
+          "target_key": "NAUT-OPS-HYM",
+          "alternate_key": "NAUT-OPS-B4E",
+          "target_context": "formal charter notice issue",
+          "alternate_context": "initial distress alert reception",
+          "candidate": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidates": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "numeric": [
+            {
+              "topic": "mobilization_time",
+              "value": 16,
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "certified_dp_status",
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ]
+            },
+            {
+              "topic": "bollard_pull_rating",
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ]
+            },
+            {
+              "topic": "vapor_scrubber_installed",
+              "label": "Emergency toxic vapor scrubber operational",
+              "aliases": [
+                "Vapor scrubber presence",
+                "Active scrubbing system readiness"
+              ]
+            },
+            {
+              "topic": "vapor_containment_time",
+              "label": "Vapor scrubbing full containment setup time",
+              "aliases": [
+                "Vapor scrubber deployment duration",
+                "Scrubber system hookup time"
+              ]
+            },
+            {
+              "topic": "mobilization_time",
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ]
+            },
+            {
+              "topic": "port_admission_cleared",
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ]
+            },
+            {
+              "topic": "stability_margin_score",
+              "label": "Post-damage hydrostatic stability margin score",
+              "aliases": [
+                "Calculated vessel damage stability score",
+                "Equilibrium stability rating"
+              ]
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ]
+            },
+            {
+              "topic": "pumping_standby_hours",
+              "label": "Emergency hazardous pumping standby hours",
+              "aliases": [
+                "Specialized pumping standby duration",
+                "Chemical cargo offloading standby hours"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Salvage engineering superintendent (SALV)",
+          "target_key": "SALV-TOW-66D",
+          "alternate_key": "SALV-TOW-8PT",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Dynamic positioning subsea rigging and heavy-lift retrieval",
+          "other_candidates": [
+            "Semi-submersible vessel tandem tow and wet-docking",
+            "Emergency buoyancy pontoon stabilization and sheltered escort"
+          ],
+          "numeric": [
+            {
+              "topic": "bollard_pull_rating",
+              "value": 180,
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ],
+              "unit": "t"
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "value": 50,
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "certified_dp_status",
+              "value": true,
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "certified_dp_status",
+              "label": "Dynamic positioning class 2 certified status",
+              "aliases": [
+                "DP2 certification",
+                "Dynamic positioning compliance"
+              ]
+            },
+            {
+              "topic": "bollard_pull_rating",
+              "label": "Continuous bollard pull rating",
+              "aliases": [
+                "Continuous towing capacity",
+                "Bollard pull force"
+              ]
+            },
+            {
+              "topic": "vapor_scrubber_installed",
+              "label": "Emergency toxic vapor scrubber operational",
+              "aliases": [
+                "Vapor scrubber presence",
+                "Active scrubbing system readiness"
+              ]
+            },
+            {
+              "topic": "vapor_containment_time",
+              "label": "Vapor scrubbing full containment setup time",
+              "aliases": [
+                "Vapor scrubber deployment duration",
+                "Scrubber system hookup time"
+              ]
+            },
+            {
+              "topic": "mobilization_time",
+              "label": "Fleet emergency mobilization response time",
+              "aliases": [
+                "Salvage fleet mobilization speed",
+                "Departure readiness time"
+              ]
+            },
+            {
+              "topic": "port_admission_cleared",
+              "label": "Port of refuge emergency entry clearance",
+              "aliases": [
+                "Port admission approval",
+                "Sheltered harbor refuge permit"
+              ]
+            },
+            {
+              "topic": "stability_margin_score",
+              "label": "Post-damage hydrostatic stability margin score",
+              "aliases": [
+                "Calculated vessel damage stability score",
+                "Equilibrium stability rating"
+              ]
+            },
+            {
+              "topic": "tug_stationkeeping_hours",
+              "label": "Salvage tug station-keeping standby hours",
+              "aliases": [
+                "Tug station-keeping duration",
+                "Escort tug standby hours"
+              ]
+            },
+            {
+              "topic": "pumping_standby_hours",
+              "label": "Emergency hazardous pumping standby hours",
+              "aliases": [
+                "Specialized pumping standby duration",
+                "Chemical cargo offloading standby hours"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

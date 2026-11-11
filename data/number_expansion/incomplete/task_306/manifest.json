@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_306",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "avalanche_safety",
+        "ground_fleet"
+      ],
+      "role_names": [
+        "Avalanche mitigation officer (AVAL)",
+        "Heavy tracked transport controller (FLEET)"
+      ],
+      "directory": "incomplete/task_306",
+      "profiles": [
+        {
+          "record_id": "rec_avalanche_safety_A",
+          "role_id": "avalanche_safety",
+          "candidate_id": "A",
+          "key": "AVAL-HAZ-GET",
+          "boolean_predicate_id": "A_avalanche_control_cleared",
+          "boolean_label": "Avalanche control clearance verified",
+          "hidden_predicate_id": "A_transit_hazard_index",
+          "threshold_label": "Transit hazard index",
+          "threshold_aliases": [
+            "Hazard rating",
+            "Route hazard score"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "points",
+          "partial_record_text": "AVAL-HAZ-GET: Gotthard North Traverse.Gotthard North Traverse: Avalanche control clearance verified = true .Source: Avalanche mitigation safety log; Scope: Corridor traverse slopes; Measurement: Confirmation that preventive gas-mortar detonation protocols completed successfully.",
+          "role_name": "Avalanche mitigation officer (AVAL)",
+          "candidate_name": "Gotthard North Traverse",
+          "other_candidate_names": [
+            "Oberalp High Pass",
+            "Furka Valley Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_fleet_A",
+          "role_id": "ground_fleet",
+          "candidate_id": "A",
+          "key": "FLEET-CARRIER-ZUH",
+          "hidden_predicate_id": "A_carrier_payload_capacity",
+          "threshold_label": "Primary tracked carrier payload capacity",
+          "threshold_aliases": [
+            "Tracked carrier capacity",
+            "Primary transport payload"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "t",
+          "partial_record_text": "FLEET-CARRIER-ZUH: Gotthard North Traverse. The record covers Primary tracked carrier payload capacity. Heavy transport technical register; Frontline articulated tracked carriers; Maximum net freight tonnage safe for high-angle packed snow inclines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 24
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary tracked carrier payload capacity is at most 24 t.",
+          "role_name": "Heavy tracked transport controller (FLEET)",
+          "candidate_name": "Gotthard North Traverse",
+          "other_candidate_names": [
+            "Oberalp High Pass",
+            "Furka Valley Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "avalanche_safety",
+        "ground_fleet",
+        "alpine_logistics"
+      ],
+      "role_names": [
+        "Avalanche mitigation officer (AVAL)",
+        "Heavy tracked transport controller (FLEET)",
+        "Auxiliary snowcat dispatch officer (AUXL)"
+      ],
+      "directory": "incomplete/task_306",
+      "profiles": [
+        {
+          "record_id": "rec_avalanche_safety_A",
+          "role_id": "avalanche_safety",
+          "candidate_id": "A",
+          "key": "AVAL-HAZ-GET",
+          "boolean_predicate_id": "A_avalanche_control_cleared",
+          "boolean_label": "Avalanche control clearance verified",
+          "hidden_predicate_id": "A_transit_hazard_index",
+          "threshold_label": "Transit hazard index",
+          "threshold_aliases": [
+            "Hazard rating",
+            "Route hazard score"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "points",
+          "partial_record_text": "AVAL-HAZ-GET: Gotthard North Traverse.Gotthard North Traverse: Avalanche control clearance verified = true .Source: Avalanche mitigation safety log; Scope: Corridor traverse slopes; Measurement: Confirmation that preventive gas-mortar detonation protocols completed successfully.",
+          "role_name": "Avalanche mitigation officer (AVAL)",
+          "candidate_name": "Gotthard North Traverse",
+          "other_candidate_names": [
+            "Oberalp High Pass",
+            "Furka Valley Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_fleet_A",
+          "role_id": "ground_fleet",
+          "candidate_id": "A",
+          "key": "FLEET-CARRIER-ZUH",
+          "hidden_predicate_id": "A_carrier_payload_capacity",
+          "threshold_label": "Primary tracked carrier payload capacity",
+          "threshold_aliases": [
+            "Tracked carrier capacity",
+            "Primary transport payload"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "t",
+          "partial_record_text": "FLEET-CARRIER-ZUH: Gotthard North Traverse. The record covers Primary tracked carrier payload capacity. Heavy transport technical register; Frontline articulated tracked carriers; Maximum net freight tonnage safe for high-angle packed snow inclines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 24
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary tracked carrier payload capacity is at most 24 t.",
+          "role_name": "Heavy tracked transport controller (FLEET)",
+          "candidate_name": "Gotthard North Traverse",
+          "other_candidate_names": [
+            "Oberalp High Pass",
+            "Furka Valley Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_alpine_logistics_A",
+          "role_id": "alpine_logistics",
+          "candidate_id": "A",
+          "key": "AUXL-SNOWCAT-CCK",
+          "hidden_predicate_id": "A_snowcat_payload_capacity",
+          "threshold_label": "Auxiliary snowcat payload capacity",
+          "threshold_aliases": [
+            "Auxiliary payload",
+            "Snowcat transport payload"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "t",
+          "partial_record_text": "AUXL-SNOWCAT-CCK: Gotthard North Traverse. The record covers Auxiliary snowcat payload capacity. Record context: January 2026. Auxiliary vehicle operational log; Support utility snowcat unit; Usable deck cargo and tow-sled net cargo rating in metric tons.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Auxiliary snowcat payload capacity is at least 4 t.",
+          "role_name": "Auxiliary snowcat dispatch officer (AUXL)",
+          "candidate_name": "Gotthard North Traverse",
+          "other_candidate_names": [
+            "Oberalp High Pass",
+            "Furka Valley Route"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "February 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

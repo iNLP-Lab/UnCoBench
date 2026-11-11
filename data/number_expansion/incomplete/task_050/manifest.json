@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_050",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_meteorology",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Flight operations director (OPS)"
+      ],
+      "directory": "incomplete/task_050",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_meteorology_A",
+          "role_id": "aviation_meteorology",
+          "candidate_id": "A",
+          "key": "MET-WXR-LA9",
+          "boolean_predicate_id": "A_weather_radar_active",
+          "boolean_label": "Mountain weather radar integration active",
+          "hidden_predicate_id": "A_turbulence_severity_index",
+          "threshold_label": "En-route turbulence severity index",
+          "threshold_aliases": [
+            "Eddy dissipation rate index",
+            "Clear-air turbulence index"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "index",
+          "partial_record_text": "MET-WXR-LA9: Monashee Pass High-Altitude Corridor.Monashee Pass High-Altitude Corridor: Mountain weather radar integration active = true .Source: Regional meteorological sensor network; Scope: Corridor real-time Doppler precipitation feed; Measurement: Whether real-time high-resolution radar downlink is operational along the route.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "En-route turbulence severity index is between 10 index and 50 index, inclusive.",
+          "role_name": "Aviation meteorology specialist (MET)",
+          "candidate_name": "Monashee Pass High-Altitude Corridor",
+          "other_candidate_names": [
+            "Columbia Valley Low-Level Route",
+            "Kootenay Ridge Cleared Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "OPS-NAV-F9J",
+          "hidden_predicate_id": "A_reserve_loiter_endurance",
+          "threshold_label": "Reserve loiter endurance",
+          "threshold_aliases": [
+            "Uncommitted holding fuel endurance",
+            "Contingency hover fuel margin"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "min",
+          "partial_record_text": "OPS-NAV-F9J: Monashee Pass High-Altitude Corridor.Monashee Pass High-Altitude Corridor: Minimum safe terrain clearance verified = true .Source: Helicopter terrain awareness and warning system profile; Scope: Entire low-level mountain flight trajectory; Measurement: Verification that 300 m minimum vertical separation from granite obstacles is maintained.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Reserve loiter endurance is between 20 min and 70 min, inclusive.",
+          "role_name": "Flight operations director (OPS)",
+          "candidate_name": "Monashee Pass High-Altitude Corridor",
+          "other_candidate_names": [
+            "Columbia Valley Low-Level Route",
+            "Kootenay Ridge Cleared Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_meteorology",
+        "flight_operations",
+        "ground_logistics"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Flight operations director (OPS)",
+        "Base ambulance dispatch coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_050",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_meteorology_A",
+          "role_id": "aviation_meteorology",
+          "candidate_id": "A",
+          "key": "MET-WXR-LA9",
+          "boolean_predicate_id": "A_weather_radar_active",
+          "boolean_label": "Mountain weather radar integration active",
+          "hidden_predicate_id": "A_turbulence_severity_index",
+          "threshold_label": "En-route turbulence severity index",
+          "threshold_aliases": [
+            "Eddy dissipation rate index",
+            "Clear-air turbulence index"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "index",
+          "partial_record_text": "MET-WXR-LA9: Monashee Pass High-Altitude Corridor.Monashee Pass High-Altitude Corridor: Mountain weather radar integration active = true .Source: Regional meteorological sensor network; Scope: Corridor real-time Doppler precipitation feed; Measurement: Whether real-time high-resolution radar downlink is operational along the route.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "En-route turbulence severity index is between 10 index and 50 index, inclusive.",
+          "role_name": "Aviation meteorology specialist (MET)",
+          "candidate_name": "Monashee Pass High-Altitude Corridor",
+          "other_candidate_names": [
+            "Columbia Valley Low-Level Route",
+            "Kootenay Ridge Cleared Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "OPS-NAV-F9J",
+          "hidden_predicate_id": "A_reserve_loiter_endurance",
+          "threshold_label": "Reserve loiter endurance",
+          "threshold_aliases": [
+            "Uncommitted holding fuel endurance",
+            "Contingency hover fuel margin"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "min",
+          "partial_record_text": "OPS-NAV-F9J: Monashee Pass High-Altitude Corridor.Monashee Pass High-Altitude Corridor: Minimum safe terrain clearance verified = true .Source: Helicopter terrain awareness and warning system profile; Scope: Entire low-level mountain flight trajectory; Measurement: Verification that 300 m minimum vertical separation from granite obstacles is maintained.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Reserve loiter endurance is between 20 min and 70 min, inclusive.",
+          "role_name": "Flight operations director (OPS)",
+          "candidate_name": "Monashee Pass High-Altitude Corridor",
+          "other_candidate_names": [
+            "Columbia Valley Low-Level Route",
+            "Kootenay Ridge Cleared Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "LOG-AMB-SOR",
+          "hidden_predicate_id": "A_ambulance_transfer_time",
+          "threshold_label": "Base ambulance rendezvous transfer time",
+          "threshold_aliases": [
+            "Ground ambulance transit duration",
+            "Valley ambulance rendezvous duration"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "LOG-AMB-SOR: Monashee Pass High-Altitude Corridor. The record covers Base ambulance rendezvous transfer time. Emergency ambulance computer-aided dispatch schedule; Valley heliport ambulance bay to regional level-1 trauma surgical center; Expected surface transport duration under active emergency lights and sirens.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base ambulance rendezvous transfer time is between 0 min and 40 min, inclusive.",
+          "role_name": "Base ambulance dispatch coordinator (LOG)",
+          "candidate_name": "Monashee Pass High-Altitude Corridor",
+          "other_candidate_names": [
+            "Columbia Valley Low-Level Route",
+            "Kootenay Ridge Cleared Airway"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

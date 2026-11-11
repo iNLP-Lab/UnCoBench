@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_537",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "transport_logistics"
+      ],
+      "role_names": [
+        "Public health medical officer (HLTH)",
+        "Transport and logistics director (TRANS)"
+      ],
+      "directory": "incomplete/task_537",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLTH-MEDOPS-GRE",
+          "boolean_predicate_id": "A_triage_station_present",
+          "boolean_label": "Dedicated triage station present",
+          "hidden_predicate_id": "A_decontamination_throughput",
+          "threshold_label": "Rapid decontamination shower throughput",
+          "threshold_aliases": [
+            "Decontamination processing rate",
+            "Decontamination shower capacity"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "HLTH-MEDOPS-GRE: Cascade Valley Civic Pavilion.Cascade Valley Civic Pavilion: Dedicated triage station present = true .Source: Public health infrastructure assessment; Scope: Designated medical reception room adjacent to main entrance; Measurement: Presence of a self-contained room equipped with oxygen manifolds and medical power.Cascade Valley Civic Pavilion: Reserved isolation beds = 40 beds.Source: Medical isolation sector plan; Scope: Negative-pressure partitioned quarantine zone; Measurement: Beds legally reserved exclusively for acute symptomatic infectious evacuees.",
+          "role_name": "Public health medical officer (HLTH)",
+          "candidate_name": "Cascade Valley Civic Pavilion",
+          "other_candidate_names": [
+            "Highland Crest Exhibition Grounds",
+            "Pine Ridge Community Sports Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transport_logistics_A",
+          "role_id": "transport_logistics",
+          "candidate_id": "A",
+          "key": "TRANS-EVACRTE-697",
+          "hidden_predicate_id": "A_access_corridor_width",
+          "threshold_label": "Primary access corridor clearance width",
+          "threshold_aliases": [
+            "Evacuation access road width",
+            "Clearance roadway width"
+          ],
+          "threshold_value": 6.5,
+          "threshold_unit": "m",
+          "partial_record_text": "TRANS-EVACRTE-697: Cascade Valley Civic Pavilion.System environment: Production environment.Cascade Valley Civic Pavilion: Secondary concourse bed capacity = 240 beds.Source: Overflow accommodation layout registry; Scope: Secondary climate-controlled multipurpose mezzanine and concourse; Measurement: Configurable emergency cot positions meeting spacing regulations.",
+          "role_name": "Transport and logistics director (TRANS)",
+          "candidate_name": "Cascade Valley Civic Pavilion",
+          "other_candidate_names": [
+            "Highland Crest Exhibition Grounds",
+            "Pine Ridge Community Sports Complex"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "transport_logistics",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Public health medical officer (HLTH)",
+        "Transport and logistics director (TRANS)",
+        "Civil infrastructure engineer (UTIL)"
+      ],
+      "directory": "incomplete/task_537",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLTH-MEDOPS-GRE",
+          "boolean_predicate_id": "A_triage_station_present",
+          "boolean_label": "Dedicated triage station present",
+          "hidden_predicate_id": "A_decontamination_throughput",
+          "threshold_label": "Rapid decontamination shower throughput",
+          "threshold_aliases": [
+            "Decontamination processing rate",
+            "Decontamination shower capacity"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "persons/h",
+          "partial_record_text": "HLTH-MEDOPS-GRE: Cascade Valley Civic Pavilion.Cascade Valley Civic Pavilion: Dedicated triage station present = true .Source: Public health infrastructure assessment; Scope: Designated medical reception room adjacent to main entrance; Measurement: Presence of a self-contained room equipped with oxygen manifolds and medical power.Cascade Valley Civic Pavilion: Reserved isolation beds = 40 beds.Source: Medical isolation sector plan; Scope: Negative-pressure partitioned quarantine zone; Measurement: Beds legally reserved exclusively for acute symptomatic infectious evacuees.",
+          "role_name": "Public health medical officer (HLTH)",
+          "candidate_name": "Cascade Valley Civic Pavilion",
+          "other_candidate_names": [
+            "Highland Crest Exhibition Grounds",
+            "Pine Ridge Community Sports Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transport_logistics_A",
+          "role_id": "transport_logistics",
+          "candidate_id": "A",
+          "key": "TRANS-EVACRTE-697",
+          "hidden_predicate_id": "A_access_corridor_width",
+          "threshold_label": "Primary access corridor clearance width",
+          "threshold_aliases": [
+            "Evacuation access road width",
+            "Clearance roadway width"
+          ],
+          "threshold_value": 6.5,
+          "threshold_unit": "m",
+          "partial_record_text": "TRANS-EVACRTE-697: Cascade Valley Civic Pavilion.System environment: Production environment.Cascade Valley Civic Pavilion: Secondary concourse bed capacity = 240 beds.Source: Overflow accommodation layout registry; Scope: Secondary climate-controlled multipurpose mezzanine and concourse; Measurement: Configurable emergency cot positions meeting spacing regulations.",
+          "role_name": "Transport and logistics director (TRANS)",
+          "candidate_name": "Cascade Valley Civic Pavilion",
+          "other_candidate_names": [
+            "Highland Crest Exhibition Grounds",
+            "Pine Ridge Community Sports Complex"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "UTIL-POWGRID-T58",
+          "hidden_predicate_id": "A_main_pavilion_bed_capacity",
+          "threshold_label": "Main pavilion bed capacity",
+          "threshold_aliases": [
+            "Main hall bed count",
+            "Primary pavilion cot capacity"
+          ],
+          "threshold_value": 550,
+          "threshold_unit": "beds",
+          "partial_record_text": "UTIL-POWGRID-T58: Cascade Valley Civic Pavilion.Cascade Valley Civic Pavilion: Dual-fuel emergency generator operational = true .Source: Standby power commissioning certificate; Scope: Primary automatic transfer switch and generation plant; Measurement: Verification that emergency generator operates seamlessly on both diesel and natural gas.",
+          "role_name": "Civil infrastructure engineer (UTIL)",
+          "candidate_name": "Cascade Valley Civic Pavilion",
+          "other_candidate_names": [
+            "Highland Crest Exhibition Grounds",
+            "Pine Ridge Community Sports Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

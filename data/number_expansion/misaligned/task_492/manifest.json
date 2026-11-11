@@ -1,0 +1,544 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_492",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "rov_engineering",
+        "maritime_compliance"
+      ],
+      "role_names": [
+        "Remotely operated vehicle technical lead (ROV)",
+        "Maritime regulatory compliance officer (COMP)"
+      ],
+      "directory": "number_expansion/misaligned/task_492/k2",
+      "error_profiles": [
+        {
+          "role_name": "Remotely operated vehicle technical lead (ROV)",
+          "target_key": "ROV-TETH-LS8",
+          "alternate_key": "ROV-TETH-QND",
+          "target_context": "Configuration Version 2",
+          "alternate_context": "Configuration Version 3",
+          "candidate": "RV Pelagos Explorer",
+          "other_candidates": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "numeric": [
+            {
+              "topic": "rov_tether_system_weight",
+              "value": 6500,
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Dynamic positioning capability",
+              "aliases": [
+                "DP2 class compliance",
+                "Station-keeping rating"
+              ]
+            },
+            {
+              "topic": "acoustic_telemetry_cleared",
+              "label": "Underwater acoustics telemetry clearance",
+              "aliases": [
+                "Acoustic telemetry presence",
+                "Subsea acoustic clearance"
+              ]
+            },
+            {
+              "topic": "acoustic_positioning_latency",
+              "label": "Acoustic positioning latency",
+              "aliases": [
+                "USBL positioning delay",
+                "Telemetry ping return latency"
+              ]
+            },
+            {
+              "topic": "deck_crane_safe_working_load",
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ]
+            },
+            {
+              "topic": "environmental_discharge_permit",
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ]
+            },
+            {
+              "topic": "hyperbaric_chamber_certified",
+              "label": "Hyperbaric dive chamber integration",
+              "aliases": [
+                "Decompression chamber availability",
+                "Twin-lock hyperbaric rating"
+              ]
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ]
+            },
+            {
+              "topic": "wet_lab_payload_capacity",
+              "label": "Wet lab payload allowance",
+              "aliases": [
+                "Laboratory scientific allowance",
+                "Enclosed lab gear capacity"
+              ]
+            },
+            {
+              "topic": "rov_tether_system_weight",
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime regulatory compliance officer (COMP)",
+          "target_key": "COMP-MARPOL-H4H",
+          "alternate_key": "COMP-MARPOL-IW7",
+          "target_context": "Operating Configuration Version 1",
+          "alternate_context": "Operating Configuration Version 2",
+          "candidate": "RV Pelagos Explorer",
+          "other_candidates": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "environmental_discharge_permit",
+              "value": true,
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Dynamic positioning capability",
+              "aliases": [
+                "DP2 class compliance",
+                "Station-keeping rating"
+              ]
+            },
+            {
+              "topic": "acoustic_telemetry_cleared",
+              "label": "Underwater acoustics telemetry clearance",
+              "aliases": [
+                "Acoustic telemetry presence",
+                "Subsea acoustic clearance"
+              ]
+            },
+            {
+              "topic": "acoustic_positioning_latency",
+              "label": "Acoustic positioning latency",
+              "aliases": [
+                "USBL positioning delay",
+                "Telemetry ping return latency"
+              ]
+            },
+            {
+              "topic": "deck_crane_safe_working_load",
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ]
+            },
+            {
+              "topic": "environmental_discharge_permit",
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ]
+            },
+            {
+              "topic": "hyperbaric_chamber_certified",
+              "label": "Hyperbaric dive chamber integration",
+              "aliases": [
+                "Decompression chamber availability",
+                "Twin-lock hyperbaric rating"
+              ]
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ]
+            },
+            {
+              "topic": "wet_lab_payload_capacity",
+              "label": "Wet lab payload allowance",
+              "aliases": [
+                "Laboratory scientific allowance",
+                "Enclosed lab gear capacity"
+              ]
+            },
+            {
+              "topic": "rov_tether_system_weight",
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "rov_engineering",
+        "maritime_compliance",
+        "deck_operations"
+      ],
+      "role_names": [
+        "Remotely operated vehicle technical lead (ROV)",
+        "Maritime regulatory compliance officer (COMP)",
+        "Deck operations coordinator (DECK)"
+      ],
+      "directory": "number_expansion/misaligned/task_492/k3",
+      "error_profiles": [
+        {
+          "role_name": "Remotely operated vehicle technical lead (ROV)",
+          "target_key": "ROV-TETH-LS8",
+          "alternate_key": "ROV-TETH-QND",
+          "target_context": "Configuration Version 2",
+          "alternate_context": "Configuration Version 3",
+          "candidate": "RV Pelagos Explorer",
+          "other_candidates": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "numeric": [
+            {
+              "topic": "rov_tether_system_weight",
+              "value": 6500,
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Dynamic positioning capability",
+              "aliases": [
+                "DP2 class compliance",
+                "Station-keeping rating"
+              ]
+            },
+            {
+              "topic": "acoustic_telemetry_cleared",
+              "label": "Underwater acoustics telemetry clearance",
+              "aliases": [
+                "Acoustic telemetry presence",
+                "Subsea acoustic clearance"
+              ]
+            },
+            {
+              "topic": "acoustic_positioning_latency",
+              "label": "Acoustic positioning latency",
+              "aliases": [
+                "USBL positioning delay",
+                "Telemetry ping return latency"
+              ]
+            },
+            {
+              "topic": "deck_crane_safe_working_load",
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ]
+            },
+            {
+              "topic": "environmental_discharge_permit",
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ]
+            },
+            {
+              "topic": "hyperbaric_chamber_certified",
+              "label": "Hyperbaric dive chamber integration",
+              "aliases": [
+                "Decompression chamber availability",
+                "Twin-lock hyperbaric rating"
+              ]
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ]
+            },
+            {
+              "topic": "wet_lab_payload_capacity",
+              "label": "Wet lab payload allowance",
+              "aliases": [
+                "Laboratory scientific allowance",
+                "Enclosed lab gear capacity"
+              ]
+            },
+            {
+              "topic": "rov_tether_system_weight",
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime regulatory compliance officer (COMP)",
+          "target_key": "COMP-MARPOL-H4H",
+          "alternate_key": "COMP-MARPOL-IW7",
+          "target_context": "Operating Configuration Version 1",
+          "alternate_context": "Operating Configuration Version 2",
+          "candidate": "RV Pelagos Explorer",
+          "other_candidates": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "environmental_discharge_permit",
+              "value": true,
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Dynamic positioning capability",
+              "aliases": [
+                "DP2 class compliance",
+                "Station-keeping rating"
+              ]
+            },
+            {
+              "topic": "acoustic_telemetry_cleared",
+              "label": "Underwater acoustics telemetry clearance",
+              "aliases": [
+                "Acoustic telemetry presence",
+                "Subsea acoustic clearance"
+              ]
+            },
+            {
+              "topic": "acoustic_positioning_latency",
+              "label": "Acoustic positioning latency",
+              "aliases": [
+                "USBL positioning delay",
+                "Telemetry ping return latency"
+              ]
+            },
+            {
+              "topic": "deck_crane_safe_working_load",
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ]
+            },
+            {
+              "topic": "environmental_discharge_permit",
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ]
+            },
+            {
+              "topic": "hyperbaric_chamber_certified",
+              "label": "Hyperbaric dive chamber integration",
+              "aliases": [
+                "Decompression chamber availability",
+                "Twin-lock hyperbaric rating"
+              ]
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ]
+            },
+            {
+              "topic": "wet_lab_payload_capacity",
+              "label": "Wet lab payload allowance",
+              "aliases": [
+                "Laboratory scientific allowance",
+                "Enclosed lab gear capacity"
+              ]
+            },
+            {
+              "topic": "rov_tether_system_weight",
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Deck operations coordinator (DECK)",
+          "target_key": "DECK-RIG-Q24",
+          "alternate_key": "DECK-RIG-87T",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "RV Pelagos Explorer",
+          "other_candidates": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "numeric": [
+            {
+              "topic": "deck_crane_safe_working_load",
+              "value": 20,
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ],
+              "unit": "t"
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "value": 26000,
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "dynamic_positioning_rated",
+              "label": "Dynamic positioning capability",
+              "aliases": [
+                "DP2 class compliance",
+                "Station-keeping rating"
+              ]
+            },
+            {
+              "topic": "acoustic_telemetry_cleared",
+              "label": "Underwater acoustics telemetry clearance",
+              "aliases": [
+                "Acoustic telemetry presence",
+                "Subsea acoustic clearance"
+              ]
+            },
+            {
+              "topic": "acoustic_positioning_latency",
+              "label": "Acoustic positioning latency",
+              "aliases": [
+                "USBL positioning delay",
+                "Telemetry ping return latency"
+              ]
+            },
+            {
+              "topic": "deck_crane_safe_working_load",
+              "label": "Dynamic deck crane load rating",
+              "aliases": [
+                "Crane safe working load",
+                "A-frame dynamic lifting capacity"
+              ]
+            },
+            {
+              "topic": "environmental_discharge_permit",
+              "label": "Environmental discharge permit clearance",
+              "aliases": [
+                "MARPOL special area permit",
+                "Greywater discharge compliance"
+              ]
+            },
+            {
+              "topic": "hyperbaric_chamber_certified",
+              "label": "Hyperbaric dive chamber integration",
+              "aliases": [
+                "Decompression chamber availability",
+                "Twin-lock hyperbaric rating"
+              ]
+            },
+            {
+              "topic": "main_deck_payload_capacity",
+              "label": "Main deck scientific equipment allowance",
+              "aliases": [
+                "Aft deck scientific payload",
+                "Main deck structural load allowance"
+              ]
+            },
+            {
+              "topic": "wet_lab_payload_capacity",
+              "label": "Wet lab payload allowance",
+              "aliases": [
+                "Laboratory scientific allowance",
+                "Enclosed lab gear capacity"
+              ]
+            },
+            {
+              "topic": "rov_tether_system_weight",
+              "label": "ROV dedicated tether gear weight",
+              "aliases": [
+                "Tether winch and umbilical mass",
+                "ROV launch gear weight deduction"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

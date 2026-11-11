@@ -1,0 +1,555 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_504",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "trade_compliance",
+        "commercial_contracts"
+      ],
+      "role_names": [
+        "Trade compliance and audit lead (TRD)",
+        "Commercial contract manager (COMM)"
+      ],
+      "directory": "number_expansion/misaligned/task_504/k2",
+      "error_profiles": [
+        {
+          "role_name": "Trade compliance and audit lead (TRD)",
+          "target_key": "TRD-AUD-690",
+          "alternate_key": "TRD-CUSTOMS-74K",
+          "target_context": "trailing 12-month audit window",
+          "alternate_context": "year-to-date audit window",
+          "candidate": "Silicon Saxony Interconnect Fab",
+          "other_candidates": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "supply_chain_audit_approved",
+              "value": true,
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ]
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_frequency",
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ]
+            },
+            {
+              "topic": "optical_inspection_coverage",
+              "label": "Automated optical inspection coverage",
+              "aliases": [
+                "AOI inspection coverage",
+                "Optical scan surface coverage"
+              ]
+            },
+            {
+              "topic": "helium_leak_certified",
+              "label": "Helium leak hermeticity certification",
+              "aliases": [
+                "Helium leak integrity approval",
+                "Hermetic sealing certification"
+              ]
+            },
+            {
+              "topic": "supply_chain_audit_approved",
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ]
+            },
+            {
+              "topic": "base_substrate_throughput",
+              "label": "Base substrate throughput",
+              "aliases": [
+                "Baseline line throughput",
+                "Primary packaging capacity"
+              ]
+            },
+            {
+              "topic": "secondary_line_throughput",
+              "label": "Secondary line throughput",
+              "aliases": [
+                "Auxiliary line throughput",
+                "Secondary packaging capacity"
+              ]
+            },
+            {
+              "topic": "defect_respin_allowance",
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial contract manager (COMM)",
+          "target_key": "COMM-SLAS-5QH",
+          "alternate_key": "COMM-SLAS-HUE",
+          "target_context": "single calendar month window",
+          "alternate_context": "trailing 12-month average window",
+          "candidate": "Silicon Saxony Interconnect Fab",
+          "other_candidates": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "numeric": [
+            {
+              "topic": "defect_respin_allowance",
+              "value": 2000,
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ],
+              "unit": "wafer_starts/month"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ]
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_frequency",
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ]
+            },
+            {
+              "topic": "optical_inspection_coverage",
+              "label": "Automated optical inspection coverage",
+              "aliases": [
+                "AOI inspection coverage",
+                "Optical scan surface coverage"
+              ]
+            },
+            {
+              "topic": "helium_leak_certified",
+              "label": "Helium leak hermeticity certification",
+              "aliases": [
+                "Helium leak integrity approval",
+                "Hermetic sealing certification"
+              ]
+            },
+            {
+              "topic": "supply_chain_audit_approved",
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ]
+            },
+            {
+              "topic": "base_substrate_throughput",
+              "label": "Base substrate throughput",
+              "aliases": [
+                "Baseline line throughput",
+                "Primary packaging capacity"
+              ]
+            },
+            {
+              "topic": "secondary_line_throughput",
+              "label": "Secondary line throughput",
+              "aliases": [
+                "Auxiliary line throughput",
+                "Secondary packaging capacity"
+              ]
+            },
+            {
+              "topic": "defect_respin_allowance",
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "trade_compliance",
+        "commercial_contracts",
+        "facility_engineering"
+      ],
+      "role_names": [
+        "Trade compliance and audit lead (TRD)",
+        "Commercial contract manager (COMM)",
+        "Facility engineering lead (FAC)"
+      ],
+      "directory": "number_expansion/misaligned/task_504/k3",
+      "error_profiles": [
+        {
+          "role_name": "Trade compliance and audit lead (TRD)",
+          "target_key": "TRD-AUD-690",
+          "alternate_key": "TRD-CUSTOMS-74K",
+          "target_context": "trailing 12-month audit window",
+          "alternate_context": "year-to-date audit window",
+          "candidate": "Silicon Saxony Interconnect Fab",
+          "other_candidates": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "supply_chain_audit_approved",
+              "value": true,
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ]
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_frequency",
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ]
+            },
+            {
+              "topic": "optical_inspection_coverage",
+              "label": "Automated optical inspection coverage",
+              "aliases": [
+                "AOI inspection coverage",
+                "Optical scan surface coverage"
+              ]
+            },
+            {
+              "topic": "helium_leak_certified",
+              "label": "Helium leak hermeticity certification",
+              "aliases": [
+                "Helium leak integrity approval",
+                "Hermetic sealing certification"
+              ]
+            },
+            {
+              "topic": "supply_chain_audit_approved",
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ]
+            },
+            {
+              "topic": "base_substrate_throughput",
+              "label": "Base substrate throughput",
+              "aliases": [
+                "Baseline line throughput",
+                "Primary packaging capacity"
+              ]
+            },
+            {
+              "topic": "secondary_line_throughput",
+              "label": "Secondary line throughput",
+              "aliases": [
+                "Auxiliary line throughput",
+                "Secondary packaging capacity"
+              ]
+            },
+            {
+              "topic": "defect_respin_allowance",
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Commercial contract manager (COMM)",
+          "target_key": "COMM-SLAS-5QH",
+          "alternate_key": "COMM-SLAS-HUE",
+          "target_context": "single calendar month window",
+          "alternate_context": "trailing 12-month average window",
+          "candidate": "Silicon Saxony Interconnect Fab",
+          "other_candidates": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "numeric": [
+            {
+              "topic": "defect_respin_allowance",
+              "value": 2000,
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ],
+              "unit": "wafer_starts/month"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ]
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_frequency",
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ]
+            },
+            {
+              "topic": "optical_inspection_coverage",
+              "label": "Automated optical inspection coverage",
+              "aliases": [
+                "AOI inspection coverage",
+                "Optical scan surface coverage"
+              ]
+            },
+            {
+              "topic": "helium_leak_certified",
+              "label": "Helium leak hermeticity certification",
+              "aliases": [
+                "Helium leak integrity approval",
+                "Hermetic sealing certification"
+              ]
+            },
+            {
+              "topic": "supply_chain_audit_approved",
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ]
+            },
+            {
+              "topic": "base_substrate_throughput",
+              "label": "Base substrate throughput",
+              "aliases": [
+                "Baseline line throughput",
+                "Primary packaging capacity"
+              ]
+            },
+            {
+              "topic": "secondary_line_throughput",
+              "label": "Secondary line throughput",
+              "aliases": [
+                "Auxiliary line throughput",
+                "Secondary packaging capacity"
+              ]
+            },
+            {
+              "topic": "defect_respin_allowance",
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Facility engineering lead (FAC)",
+          "target_key": "FAC-CLN-PCI",
+          "alternate_key": "FAC-CLN-7T2",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Silicon Saxony Interconnect Fab",
+          "other_candidates": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "numeric": [
+            {
+              "topic": "particulate_excursion_frequency",
+              "value": 2,
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ],
+              "unit": "events/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "value": true,
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ],
+              "unit": ""
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "value": true,
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_iso_compliant",
+              "label": "Cleanroom ISO class 4 environmental compliance",
+              "aliases": [
+                "ISO class 4 compliance",
+                "Cleanroom ISO 4 standard"
+              ]
+            },
+            {
+              "topic": "nitrogen_purge_activated",
+              "label": "Dedicated cleanroom nitrogen purge system activated",
+              "aliases": [
+                "Nitrogen purge activation",
+                "N2 purge active status"
+              ]
+            },
+            {
+              "topic": "particulate_excursion_frequency",
+              "label": "Daily particulate excursion frequency",
+              "aliases": [
+                "Particulate excursion rate",
+                "Daily particle spike frequency"
+              ]
+            },
+            {
+              "topic": "optical_inspection_coverage",
+              "label": "Automated optical inspection coverage",
+              "aliases": [
+                "AOI inspection coverage",
+                "Optical scan surface coverage"
+              ]
+            },
+            {
+              "topic": "helium_leak_certified",
+              "label": "Helium leak hermeticity certification",
+              "aliases": [
+                "Helium leak integrity approval",
+                "Hermetic sealing certification"
+              ]
+            },
+            {
+              "topic": "supply_chain_audit_approved",
+              "label": "Supply chain origin audit approved",
+              "aliases": [
+                "Supply chain provenance approval",
+                "Traceability audit status"
+              ]
+            },
+            {
+              "topic": "base_substrate_throughput",
+              "label": "Base substrate throughput",
+              "aliases": [
+                "Baseline line throughput",
+                "Primary packaging capacity"
+              ]
+            },
+            {
+              "topic": "secondary_line_throughput",
+              "label": "Secondary line throughput",
+              "aliases": [
+                "Auxiliary line throughput",
+                "Secondary packaging capacity"
+              ]
+            },
+            {
+              "topic": "defect_respin_allowance",
+              "label": "Defect re-spin capacity reservation",
+              "aliases": [
+                "Re-spin capacity deduction",
+                "Rework capacity allowance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

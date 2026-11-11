@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_805",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_engineering",
+        "rov_survey"
+      ],
+      "role_names": [
+        "Subsea engineering lead (ENG)",
+        "Bathymetric survey and ROV supervisor (ROV)"
+      ],
+      "directory": "incomplete/task_805",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_engineering_A",
+          "role_id": "subsea_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SPLICE-HGX",
+          "boolean_predicate_id": "A_cleanroom_container_installed",
+          "boolean_label": "Fiber-optic cleanroom container installed",
+          "hidden_predicate_id": "A_cleanroom_air_exchange_rate",
+          "threshold_label": "Cleanroom air exchange rate",
+          "threshold_aliases": [
+            "Splice lab air turnover rate",
+            "HEPA air change frequency"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "1/h",
+          "partial_record_text": "ENG-SPLICE-HGX: Pacific Deep-Tow Expedition.Pacific Deep-Tow Expedition: Fiber-optic cleanroom container installed = true .Source: Vessel deck layout certification; Scope: Candidate primary deployment vessel; Measurement: Verified physical mounting and power tie-in of ISO Class 7 fiber jointing container.Pacific Deep-Tow Expedition: Specialist jointing crew mobilization fee = 150000 USD.Source: Universal Jointing Agreement subcontractor quote; Scope: Certified high-voltage subsea fiber jointing team; Measurement: Fixed dispatch fee for certified fiber-optic splicers and offshore quality inspectors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Cleanroom air exchange rate is at most 40 1/h.",
+          "role_name": "Subsea engineering lead (ENG)",
+          "candidate_name": "Pacific Deep-Tow Expedition",
+          "other_candidate_names": [
+            "Trans-Oceanic Grapple Charter",
+            "Archipelago ROV Taskforce"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rov_survey_A",
+          "role_id": "rov_survey",
+          "candidate_id": "A",
+          "key": "ROV-SURV-1ZC",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "ROV operating depth rating",
+          "threshold_aliases": [
+            "Work-class ROV immersion limit",
+            "ROV depth capability"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-SURV-1ZC: Pacific Deep-Tow Expedition. The record covers ROV operating depth rating. Record context: Configuration Version 3. Subsea vehicle technical dossier; Primary work-class trenching ROV onboard candidate ship; Maximum certified subsea immersion depth for manipulator arm and cutting jet operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "ROV operating depth rating is at most 5000 m.",
+          "role_name": "Bathymetric survey and ROV supervisor (ROV)",
+          "candidate_name": "Pacific Deep-Tow Expedition",
+          "other_candidate_names": [
+            "Trans-Oceanic Grapple Charter",
+            "Archipelago ROV Taskforce"
+          ],
+          "context_value": "Configuration Version 3",
+          "other_context_values": [
+            "Configuration Version 2"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_engineering",
+        "rov_survey",
+        "marine_operations"
+      ],
+      "role_names": [
+        "Subsea engineering lead (ENG)",
+        "Bathymetric survey and ROV supervisor (ROV)",
+        "Marine operations superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_805",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_engineering_A",
+          "role_id": "subsea_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SPLICE-HGX",
+          "boolean_predicate_id": "A_cleanroom_container_installed",
+          "boolean_label": "Fiber-optic cleanroom container installed",
+          "hidden_predicate_id": "A_cleanroom_air_exchange_rate",
+          "threshold_label": "Cleanroom air exchange rate",
+          "threshold_aliases": [
+            "Splice lab air turnover rate",
+            "HEPA air change frequency"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "1/h",
+          "partial_record_text": "ENG-SPLICE-HGX: Pacific Deep-Tow Expedition.Pacific Deep-Tow Expedition: Fiber-optic cleanroom container installed = true .Source: Vessel deck layout certification; Scope: Candidate primary deployment vessel; Measurement: Verified physical mounting and power tie-in of ISO Class 7 fiber jointing container.Pacific Deep-Tow Expedition: Specialist jointing crew mobilization fee = 150000 USD.Source: Universal Jointing Agreement subcontractor quote; Scope: Certified high-voltage subsea fiber jointing team; Measurement: Fixed dispatch fee for certified fiber-optic splicers and offshore quality inspectors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Cleanroom air exchange rate is at most 40 1/h.",
+          "role_name": "Subsea engineering lead (ENG)",
+          "candidate_name": "Pacific Deep-Tow Expedition",
+          "other_candidate_names": [
+            "Trans-Oceanic Grapple Charter",
+            "Archipelago ROV Taskforce"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rov_survey_A",
+          "role_id": "rov_survey",
+          "candidate_id": "A",
+          "key": "ROV-SURV-1ZC",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "ROV operating depth rating",
+          "threshold_aliases": [
+            "Work-class ROV immersion limit",
+            "ROV depth capability"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-SURV-1ZC: Pacific Deep-Tow Expedition. The record covers ROV operating depth rating. Record context: Configuration Version 3. Subsea vehicle technical dossier; Primary work-class trenching ROV onboard candidate ship; Maximum certified subsea immersion depth for manipulator arm and cutting jet operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "ROV operating depth rating is at most 5000 m.",
+          "role_name": "Bathymetric survey and ROV supervisor (ROV)",
+          "candidate_name": "Pacific Deep-Tow Expedition",
+          "other_candidate_names": [
+            "Trans-Oceanic Grapple Charter",
+            "Archipelago ROV Taskforce"
+          ],
+          "context_value": "Configuration Version 3",
+          "other_context_values": [
+            "Configuration Version 2"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "OPS-FLEET-EHU",
+          "hidden_predicate_id": "A_vessel_transit_speed",
+          "threshold_label": "Transit cruise speed",
+          "threshold_aliases": [
+            "Open-ocean transit velocity",
+            "Service transit speed"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "kn",
+          "partial_record_text": "OPS-FLEET-EHU: Pacific Deep-Tow Expedition.Pacific Deep-Tow Expedition: Primary cable ship mobilization fee = 420000 USD.Source: BIMCO SUPPLYTIME charter agreement schedule; Scope: Candidate primary cable repair vessel; Measurement: Flat mobilization fee covering port departure preparation and transit to fault location.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Transit cruise speed is at most 30 kn.",
+          "role_name": "Marine operations superintendent (OPS)",
+          "candidate_name": "Pacific Deep-Tow Expedition",
+          "other_candidate_names": [
+            "Trans-Oceanic Grapple Charter",
+            "Archipelago ROV Taskforce"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

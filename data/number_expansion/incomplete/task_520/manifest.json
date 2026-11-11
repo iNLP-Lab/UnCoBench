@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_520",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "agricultural_quality"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Agricultural resource officer (AGR)"
+      ],
+      "directory": "incomplete/task_520",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-AIR-AYH",
+          "boolean_predicate_id": "A_biofilter_active",
+          "boolean_label": "Active closed-loop biofilter abatement",
+          "hidden_predicate_id": "A_exhaust_h2s_concentration",
+          "threshold_label": "Exhaust hydrogen sulfide concentration",
+          "threshold_aliases": [
+            "Exhaust H2S level",
+            "Biofilter stack H2S concentration"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "ppm",
+          "partial_record_text": "ENV-AIR-AYH: Continuous High-Solids Anaerobic Digestion Partnership.Continuous High-Solids Anaerobic Digestion Partnership: Active closed-loop biofilter abatement = true .Source: Facility emissions control permit review; Scope: Candidate facility air handling and odor neutralization systems; Measurement: Active operational deployment of negative-pressure closed-loop biofilter air scrubbers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Exhaust hydrogen sulfide concentration is at most 30 ppm.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Continuous High-Solids Anaerobic Digestion Partnership",
+          "other_candidate_names": [
+            "Thermophilic Dry Fermentation and Biomethane Upgrading Plan",
+            "Staged Wet Biomethanation and Membrane Separation Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_agricultural_quality_A",
+          "role_id": "agricultural_quality",
+          "candidate_id": "A",
+          "key": "AGR-SOIL-V1Y",
+          "hidden_predicate_id": "A_digestate_organic_recovery_rate",
+          "threshold_label": "Digestate organic recovery rate",
+          "threshold_aliases": [
+            "Organic matter recovery fraction",
+            "Digestate soil organic retention rate"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "AGR-SOIL-V1Y: Continuous High-Solids Anaerobic Digestion Partnership.Continuous High-Solids Anaerobic Digestion Partnership: Digestate pathogen reduction compliance = true .Source: Veterinary and sanitary biosafety certificate; Scope: Post-digestion pasteurized solid and liquid fractions; Measurement: Formal compliance certification for salmonella and fecal coliform elimination.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Digestate organic recovery rate is at most 100 %.",
+          "role_name": "Agricultural resource officer (AGR)",
+          "candidate_name": "Continuous High-Solids Anaerobic Digestion Partnership",
+          "other_candidate_names": [
+            "Thermophilic Dry Fermentation and Biomethane Upgrading Plan",
+            "Staged Wet Biomethanation and Membrane Separation Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "agricultural_quality",
+        "feedstock_logistics"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Agricultural resource officer (AGR)",
+        "Feedstock logistics director (LOG)"
+      ],
+      "directory": "incomplete/task_520",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-AIR-AYH",
+          "boolean_predicate_id": "A_biofilter_active",
+          "boolean_label": "Active closed-loop biofilter abatement",
+          "hidden_predicate_id": "A_exhaust_h2s_concentration",
+          "threshold_label": "Exhaust hydrogen sulfide concentration",
+          "threshold_aliases": [
+            "Exhaust H2S level",
+            "Biofilter stack H2S concentration"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "ppm",
+          "partial_record_text": "ENV-AIR-AYH: Continuous High-Solids Anaerobic Digestion Partnership.Continuous High-Solids Anaerobic Digestion Partnership: Active closed-loop biofilter abatement = true .Source: Facility emissions control permit review; Scope: Candidate facility air handling and odor neutralization systems; Measurement: Active operational deployment of negative-pressure closed-loop biofilter air scrubbers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Exhaust hydrogen sulfide concentration is at most 30 ppm.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Continuous High-Solids Anaerobic Digestion Partnership",
+          "other_candidate_names": [
+            "Thermophilic Dry Fermentation and Biomethane Upgrading Plan",
+            "Staged Wet Biomethanation and Membrane Separation Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_agricultural_quality_A",
+          "role_id": "agricultural_quality",
+          "candidate_id": "A",
+          "key": "AGR-SOIL-V1Y",
+          "hidden_predicate_id": "A_digestate_organic_recovery_rate",
+          "threshold_label": "Digestate organic recovery rate",
+          "threshold_aliases": [
+            "Organic matter recovery fraction",
+            "Digestate soil organic retention rate"
+          ],
+          "threshold_value": 85,
+          "threshold_unit": "%",
+          "partial_record_text": "AGR-SOIL-V1Y: Continuous High-Solids Anaerobic Digestion Partnership.Continuous High-Solids Anaerobic Digestion Partnership: Digestate pathogen reduction compliance = true .Source: Veterinary and sanitary biosafety certificate; Scope: Post-digestion pasteurized solid and liquid fractions; Measurement: Formal compliance certification for salmonella and fecal coliform elimination.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Digestate organic recovery rate is at most 100 %.",
+          "role_name": "Agricultural resource officer (AGR)",
+          "candidate_name": "Continuous High-Solids Anaerobic Digestion Partnership",
+          "other_candidate_names": [
+            "Thermophilic Dry Fermentation and Biomethane Upgrading Plan",
+            "Staged Wet Biomethanation and Membrane Separation Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_feedstock_logistics_A",
+          "role_id": "feedstock_logistics",
+          "candidate_id": "A",
+          "key": "LOG-SUPP-3VE",
+          "hidden_predicate_id": "A_annual_feedstock_intake",
+          "threshold_label": "Annual municipal organic feedstock intake",
+          "threshold_aliases": [
+            "Feedstock processing allocation",
+            "Annual organic waste tonnage"
+          ],
+          "threshold_value": 40000,
+          "threshold_unit": "t",
+          "partial_record_text": "LOG-SUPP-3VE: Continuous High-Solids Anaerobic Digestion Partnership. The record covers Annual municipal organic feedstock intake. Feedstock delivery commitment agreement; Source-separated municipal residential and commercial food waste delivered annually; Total wet-basis metric tonnage scheduled for delivery and anaerobic treatment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual municipal organic feedstock intake is at most 70000 t.",
+          "role_name": "Feedstock logistics director (LOG)",
+          "candidate_name": "Continuous High-Solids Anaerobic Digestion Partnership",
+          "other_candidate_names": [
+            "Thermophilic Dry Fermentation and Biomethane Upgrading Plan",
+            "Staged Wet Biomethanation and Membrane Separation Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

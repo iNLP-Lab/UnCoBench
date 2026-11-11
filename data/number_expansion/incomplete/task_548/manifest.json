@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_548",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "polar_aviation",
+        "renewable_systems"
+      ],
+      "role_names": [
+        "Aviation Logistics Manager (AVLOG)",
+        "Microgrid and Energy Storage Lead (RENEW)"
+      ],
+      "directory": "incomplete/task_548",
+      "profiles": [
+        {
+          "record_id": "rec_polar_aviation_A",
+          "role_id": "polar_aviation",
+          "candidate_id": "A",
+          "key": "AVLOG-AIRSTRIP-FZ6",
+          "boolean_predicate_id": "A_skiway_landing_approved",
+          "boolean_label": "Skiway landing strip operational approval",
+          "hidden_predicate_id": "A_crosswind_clearance_knots",
+          "threshold_label": "Maximum crosswind operational tolerance",
+          "threshold_aliases": [
+            "Crosswind operational threshold",
+            "Runway crosswind limit"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "knots",
+          "partial_record_text": "AVLOG-AIRSTRIP-FZ6: Kobbefjord Tundra Station.Kobbefjord Tundra Station: Skiway landing strip operational approval = true .Source: Civil aviation authority field permit; Scope: Station groomed snow runway; Measurement: Formal permit for ski-equipped transport aircraft landings.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum crosswind operational tolerance is between 10 knots and 40 knots, inclusive.",
+          "role_name": "Aviation Logistics Manager (AVLOG)",
+          "candidate_name": "Kobbefjord Tundra Station",
+          "other_candidate_names": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_renewable_systems_A",
+          "role_id": "renewable_systems",
+          "candidate_id": "A",
+          "key": "RENEW-STORAGE-I7W",
+          "hidden_predicate_id": "A_storage_autonomy_hours",
+          "threshold_label": "Battery energy storage autonomy",
+          "threshold_aliases": [
+            "Battery backup duration",
+            "Microgrid storage autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "RENEW-STORAGE-I7W: Kobbefjord Tundra Station.Aggregation window: trailing 7-day window.Kobbefjord Tundra Station: Supplemental wind-solar microgrid capacity = 60 kW.Source: Renewable generation commissioning report; Scope: Array of polar wind turbines and bifacial solar arrays; Measurement: Peak combined renewable generation capacity delivered to the busbar.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Battery energy storage autonomy is between 20 h and 90 h, inclusive.",
+          "role_name": "Microgrid and Energy Storage Lead (RENEW)",
+          "candidate_name": "Kobbefjord Tundra Station",
+          "other_candidate_names": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "context_value": "trailing 7-day window",
+          "other_context_values": [
+            "trailing 30-day window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "polar_aviation",
+        "renewable_systems",
+        "telemetry_communications"
+      ],
+      "role_names": [
+        "Aviation Logistics Manager (AVLOG)",
+        "Microgrid and Energy Storage Lead (RENEW)",
+        "Satellite Communications Engineer (SATCOM)"
+      ],
+      "directory": "incomplete/task_548",
+      "profiles": [
+        {
+          "record_id": "rec_polar_aviation_A",
+          "role_id": "polar_aviation",
+          "candidate_id": "A",
+          "key": "AVLOG-AIRSTRIP-FZ6",
+          "boolean_predicate_id": "A_skiway_landing_approved",
+          "boolean_label": "Skiway landing strip operational approval",
+          "hidden_predicate_id": "A_crosswind_clearance_knots",
+          "threshold_label": "Maximum crosswind operational tolerance",
+          "threshold_aliases": [
+            "Crosswind operational threshold",
+            "Runway crosswind limit"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "knots",
+          "partial_record_text": "AVLOG-AIRSTRIP-FZ6: Kobbefjord Tundra Station.Kobbefjord Tundra Station: Skiway landing strip operational approval = true .Source: Civil aviation authority field permit; Scope: Station groomed snow runway; Measurement: Formal permit for ski-equipped transport aircraft landings.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum crosswind operational tolerance is between 10 knots and 40 knots, inclusive.",
+          "role_name": "Aviation Logistics Manager (AVLOG)",
+          "candidate_name": "Kobbefjord Tundra Station",
+          "other_candidate_names": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_renewable_systems_A",
+          "role_id": "renewable_systems",
+          "candidate_id": "A",
+          "key": "RENEW-STORAGE-I7W",
+          "hidden_predicate_id": "A_storage_autonomy_hours",
+          "threshold_label": "Battery energy storage autonomy",
+          "threshold_aliases": [
+            "Battery backup duration",
+            "Microgrid storage autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "RENEW-STORAGE-I7W: Kobbefjord Tundra Station.Aggregation window: trailing 7-day window.Kobbefjord Tundra Station: Supplemental wind-solar microgrid capacity = 60 kW.Source: Renewable generation commissioning report; Scope: Array of polar wind turbines and bifacial solar arrays; Measurement: Peak combined renewable generation capacity delivered to the busbar.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Battery energy storage autonomy is between 20 h and 90 h, inclusive.",
+          "role_name": "Microgrid and Energy Storage Lead (RENEW)",
+          "candidate_name": "Kobbefjord Tundra Station",
+          "other_candidate_names": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "context_value": "trailing 7-day window",
+          "other_context_values": [
+            "trailing 30-day window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telemetry_communications_A",
+          "role_id": "telemetry_communications",
+          "candidate_id": "A",
+          "key": "SATCOM-UPLINK-ZYE",
+          "hidden_predicate_id": "A_satellite_uplink_bandwidth",
+          "threshold_label": "Dedicated satellite telemetry uplink bandwidth",
+          "threshold_aliases": [
+            "Satellite uplink bandwidth",
+            "Telemetry bandwidth"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "Mbps",
+          "partial_record_text": "SATCOM-UPLINK-ZYE: Kobbefjord Tundra Station. The record covers Dedicated satellite telemetry uplink bandwidth. Telemetry link performance verification; Continuous low-Earth-orbit terminal connection; Sustained data uplink rate committed under standard atmospheric conditions.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Dedicated satellite telemetry uplink bandwidth is between 20 Mbps and 90 Mbps, inclusive.",
+          "role_name": "Satellite Communications Engineer (SATCOM)",
+          "candidate_name": "Kobbefjord Tundra Station",
+          "other_candidate_names": [
+            "Disko Island Icefield Facility",
+            "Zackenberg North Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

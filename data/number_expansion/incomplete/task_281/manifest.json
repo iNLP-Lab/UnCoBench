@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_281",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_systems",
+        "shelter_logistics"
+      ],
+      "role_names": [
+        "Emergency Power Infrastructure Lead (EPI)",
+        "Shelter Accommodations Manager (SAM)"
+      ],
+      "directory": "incomplete/task_281",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "EPI-GENSET-XXD",
+          "boolean_predicate_id": "A_backup_generator_installed",
+          "boolean_label": "Auxiliary diesel generator installed",
+          "hidden_predicate_id": "A_generator_fuel_runtime_hours",
+          "threshold_label": "Continuous auxiliary generator fuel runtime",
+          "threshold_aliases": [
+            "Standby generator fuel autonomy",
+            "Auxiliary runtime duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "EPI-GENSET-XXD: Meridian Community Sports Complex.Meridian Community Sports Complex: Auxiliary diesel generator installed = true .Source: Municipal electrical assets inventory; Scope: Primary facility power transfer switchboard; Measurement: Confirmed physical presence and electrical connection of an on-site diesel generator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous auxiliary generator fuel runtime is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency Power Infrastructure Lead (EPI)",
+          "candidate_name": "Meridian Community Sports Complex",
+          "other_candidate_names": [
+            "Bayside Polytechnic Auditorium",
+            "Crestview Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_logistics_A",
+          "role_id": "shelter_logistics",
+          "candidate_id": "A",
+          "key": "SAM-BERTH-66M",
+          "hidden_predicate_id": "A_emergency_cot_capacity",
+          "threshold_label": "Certified emergency cot capacity",
+          "threshold_aliases": [
+            "Approved cot berthing capacity",
+            "Shelter cot count"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "bed",
+          "partial_record_text": "SAM-BERTH-66M: Meridian Community Sports Complex. The record covers Certified emergency cot capacity. Emergency shelter spacing and life-safety registry; Designated dormitories and hall sleeping zones; Approved maximum number of standard evacuation cots deployable with compliant egress aisles.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 800
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified emergency cot capacity is between 300 bed and 800 bed, inclusive.",
+          "role_name": "Shelter Accommodations Manager (SAM)",
+          "candidate_name": "Meridian Community Sports Complex",
+          "other_candidate_names": [
+            "Bayside Polytechnic Auditorium",
+            "Crestview Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_systems",
+        "shelter_logistics",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Emergency Power Infrastructure Lead (EPI)",
+        "Shelter Accommodations Manager (SAM)",
+        "Structural Engineering Officer (SEO)"
+      ],
+      "directory": "incomplete/task_281",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "EPI-GENSET-XXD",
+          "boolean_predicate_id": "A_backup_generator_installed",
+          "boolean_label": "Auxiliary diesel generator installed",
+          "hidden_predicate_id": "A_generator_fuel_runtime_hours",
+          "threshold_label": "Continuous auxiliary generator fuel runtime",
+          "threshold_aliases": [
+            "Standby generator fuel autonomy",
+            "Auxiliary runtime duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "EPI-GENSET-XXD: Meridian Community Sports Complex.Meridian Community Sports Complex: Auxiliary diesel generator installed = true .Source: Municipal electrical assets inventory; Scope: Primary facility power transfer switchboard; Measurement: Confirmed physical presence and electrical connection of an on-site diesel generator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous auxiliary generator fuel runtime is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency Power Infrastructure Lead (EPI)",
+          "candidate_name": "Meridian Community Sports Complex",
+          "other_candidate_names": [
+            "Bayside Polytechnic Auditorium",
+            "Crestview Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_logistics_A",
+          "role_id": "shelter_logistics",
+          "candidate_id": "A",
+          "key": "SAM-BERTH-66M",
+          "hidden_predicate_id": "A_emergency_cot_capacity",
+          "threshold_label": "Certified emergency cot capacity",
+          "threshold_aliases": [
+            "Approved cot berthing capacity",
+            "Shelter cot count"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "bed",
+          "partial_record_text": "SAM-BERTH-66M: Meridian Community Sports Complex. The record covers Certified emergency cot capacity. Emergency shelter spacing and life-safety registry; Designated dormitories and hall sleeping zones; Approved maximum number of standard evacuation cots deployable with compliant egress aisles.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 800
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified emergency cot capacity is between 300 bed and 800 bed, inclusive.",
+          "role_name": "Shelter Accommodations Manager (SAM)",
+          "candidate_name": "Meridian Community Sports Complex",
+          "other_candidate_names": [
+            "Bayside Polytechnic Auditorium",
+            "Crestview Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "SEO-STRUC-0IM",
+          "hidden_predicate_id": "A_net_shelter_area",
+          "threshold_label": "Net interior sheltering floor area",
+          "threshold_aliases": [
+            "Usable sheltering space",
+            "Net shelter floor area"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "m2",
+          "partial_record_text": "SEO-STRUC-0IM: Meridian Community Sports Complex.Meridian Community Sports Complex: Category 4 cyclone wind load resistance certified = true .Source: Structural engineering safety certificate; Scope: Shelter envelope, roofing trusses, and fenestrations; Measurement: Verification that shelter structures comply with AS/NZS 1170.2 cyclonic wind pressure standards.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Net interior sheltering floor area is between 0 m2 and 5000 m2, inclusive.",
+          "role_name": "Structural Engineering Officer (SEO)",
+          "candidate_name": "Meridian Community Sports Complex",
+          "other_candidate_names": [
+            "Bayside Polytechnic Auditorium",
+            "Crestview Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

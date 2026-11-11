@@ -1,0 +1,176 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_249",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_environmental_engineer",
+        "utility_sustainability_controller"
+      ],
+      "role_names": [
+        "Environmental Systems Specialist (ESS)",
+        "Autonomous Utility Controller (AUC)"
+      ],
+      "directory": "incomplete/task_249",
+      "profiles": [
+        {
+          "record_id": "rec_facility_environmental_engineer_A",
+          "role_id": "facility_environmental_engineer",
+          "candidate_id": "A",
+          "key": "ESS-ENVIRO-KEF",
+          "boolean_predicate_id": "A_ventilation_filtration_active",
+          "boolean_label": "Active ventilation filtration readiness",
+          "hidden_predicate_id": "A_continuous_power_hours",
+          "threshold_label": "Continuous autonomous power duration",
+          "threshold_aliases": [
+            "Emergency generator runtime",
+            "Autonomous backup electrical duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "ESS-ENVIRO-KEF: Highland Civic Sports Complex.Highland Civic Sports Complex: Active ventilation filtration readiness = true .Source: HVAC emergency commissioning checklist; Scope: Central air filtration plant; Measurement: Verification that chemical, biological, and particulate air scrubber banks are fully functional.",
+          "role_name": "Environmental Systems Specialist (ESS)",
+          "candidate_name": "Highland Civic Sports Complex",
+          "other_candidate_names": [
+            "Rivergate Exhibition Pavilion",
+            "Meadowview Community Vocational Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_sustainability_controller_A",
+          "role_id": "utility_sustainability_controller",
+          "candidate_id": "A",
+          "key": "AUC-AUTON-NXC",
+          "hidden_predicate_id": "A_autonomy_period_days",
+          "threshold_label": "Certified autonomous reserve autonomy period",
+          "threshold_aliases": [
+            "Autonomous water endurance window",
+            "Standalone reserve supply period"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "d",
+          "partial_record_text": "AUC-AUTON-NXC: Highland Civic Sports Complex. The record covers Certified autonomous reserve autonomy period. Record context: Production environment. Municipal autonomous operations certificate; Dedicated off-grid emergency storage infrastructure; Number of full calendar days the facility can operate water systems without municipal grid replenishment.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Certified autonomous reserve autonomy period is at least 4 d.",
+          "role_name": "Autonomous Utility Controller (AUC)",
+          "candidate_name": "Highland Civic Sports Complex",
+          "other_candidate_names": [
+            "Rivergate Exhibition Pavilion",
+            "Meadowview Community Vocational Hub"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Staging simulation environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_environmental_engineer",
+        "utility_sustainability_controller",
+        "logistics_resource_planner"
+      ],
+      "role_names": [
+        "Environmental Systems Specialist (ESS)",
+        "Autonomous Utility Controller (AUC)",
+        "Logistics & Supply Superintendent (LSS)"
+      ],
+      "directory": "incomplete/task_249",
+      "profiles": [
+        {
+          "record_id": "rec_facility_environmental_engineer_A",
+          "role_id": "facility_environmental_engineer",
+          "candidate_id": "A",
+          "key": "ESS-ENVIRO-KEF",
+          "boolean_predicate_id": "A_ventilation_filtration_active",
+          "boolean_label": "Active ventilation filtration readiness",
+          "hidden_predicate_id": "A_continuous_power_hours",
+          "threshold_label": "Continuous autonomous power duration",
+          "threshold_aliases": [
+            "Emergency generator runtime",
+            "Autonomous backup electrical duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "ESS-ENVIRO-KEF: Highland Civic Sports Complex.Highland Civic Sports Complex: Active ventilation filtration readiness = true .Source: HVAC emergency commissioning checklist; Scope: Central air filtration plant; Measurement: Verification that chemical, biological, and particulate air scrubber banks are fully functional.",
+          "role_name": "Environmental Systems Specialist (ESS)",
+          "candidate_name": "Highland Civic Sports Complex",
+          "other_candidate_names": [
+            "Rivergate Exhibition Pavilion",
+            "Meadowview Community Vocational Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_sustainability_controller_A",
+          "role_id": "utility_sustainability_controller",
+          "candidate_id": "A",
+          "key": "AUC-AUTON-NXC",
+          "hidden_predicate_id": "A_autonomy_period_days",
+          "threshold_label": "Certified autonomous reserve autonomy period",
+          "threshold_aliases": [
+            "Autonomous water endurance window",
+            "Standalone reserve supply period"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "d",
+          "partial_record_text": "AUC-AUTON-NXC: Highland Civic Sports Complex. The record covers Certified autonomous reserve autonomy period. Record context: Production environment. Municipal autonomous operations certificate; Dedicated off-grid emergency storage infrastructure; Number of full calendar days the facility can operate water systems without municipal grid replenishment.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 4,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Certified autonomous reserve autonomy period is at least 4 d.",
+          "role_name": "Autonomous Utility Controller (AUC)",
+          "candidate_name": "Highland Civic Sports Complex",
+          "other_candidate_names": [
+            "Rivergate Exhibition Pavilion",
+            "Meadowview Community Vocational Hub"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Staging simulation environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_resource_planner_A",
+          "role_id": "logistics_resource_planner",
+          "candidate_id": "A",
+          "key": "LSS-WATER-LKP",
+          "hidden_predicate_id": "A_daily_water_quota",
+          "threshold_label": "Baseline daily potable water supply quota",
+          "threshold_aliases": [
+            "Daily drinking water baseline quota",
+            "Shelter daily water allocation"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "L/d",
+          "partial_record_text": "LSS-WATER-LKP: Highland Civic Sports Complex.Highland Civic Sports Complex: Potable water clearance = true .Source: Bacteriological and chemical laboratory test; Scope: On-site potable water storage reservoirs; Measurement: Laboratory clearance confirming drinking water meets municipal potable biological purity standards.",
+          "role_name": "Logistics & Supply Superintendent (LSS)",
+          "candidate_name": "Highland Civic Sports Complex",
+          "other_candidate_names": [
+            "Rivergate Exhibition Pavilion",
+            "Meadowview Community Vocational Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_952",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "air_quality_regulator"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Air quality and odor inspectorate (AQR)"
+      ],
+      "directory": "incomplete/task_952",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-PERMIT-T9Q",
+          "boolean_predicate_id": "A_bespoke_permit_active",
+          "boolean_label": "Active bespoke environmental permit coverage",
+          "hidden_predicate_id": "A_heavy_metal_rate",
+          "threshold_label": "Digestate heavy metal contamination rate",
+          "threshold_aliases": [
+            "Digestate heavy metal concentration",
+            "Heavy metal contamination level"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "mg/kg",
+          "partial_record_text": "ENV-PERMIT-T9Q: Continuous stirred-tank thermophilic consortium.Continuous stirred-tank thermophilic consortium: Active bespoke environmental permit coverage = true .Source: Environmental Agency public register; Scope: Proposed regional biomethane facility site operations; Measurement: Verification of valid bespoke environmental installation permit issuance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Digestate heavy metal contamination rate is at most 80 mg/kg.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Continuous stirred-tank thermophilic consortium",
+          "other_candidate_names": [
+            "Two-phase high-solids mesophilic consortium",
+            "Dry anaerobic plug-flow consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_air_quality_regulator_A",
+          "role_id": "air_quality_regulator",
+          "candidate_id": "A",
+          "key": "AQR-ODOR-BBR",
+          "hidden_predicate_id": "A_odor_mitigation_score",
+          "threshold_label": "Odor mitigation compliance score",
+          "threshold_aliases": [
+            "Odor abatement rating",
+            "Olfactory nuisance score"
+          ],
+          "threshold_value": 88,
+          "threshold_unit": "points",
+          "partial_record_text": "AQR-ODOR-BBR: Continuous stirred-tank thermophilic consortium. The record covers Odor mitigation compliance score. Dynamic olfactometry audit report; Site boundary air dispersion monitoring; Overall scored compliance against best available technique odor abatement benchmarks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Odor mitigation compliance score is at most 110 points.",
+          "role_name": "Air quality and odor inspectorate (AQR)",
+          "candidate_name": "Continuous stirred-tank thermophilic consortium",
+          "other_candidate_names": [
+            "Two-phase high-solids mesophilic consortium",
+            "Dry anaerobic plug-flow consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "air_quality_regulator",
+        "gas_network_authority"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Air quality and odor inspectorate (AQR)",
+        "Gas network interconnection authority (GNA)"
+      ],
+      "directory": "incomplete/task_952",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-PERMIT-T9Q",
+          "boolean_predicate_id": "A_bespoke_permit_active",
+          "boolean_label": "Active bespoke environmental permit coverage",
+          "hidden_predicate_id": "A_heavy_metal_rate",
+          "threshold_label": "Digestate heavy metal contamination rate",
+          "threshold_aliases": [
+            "Digestate heavy metal concentration",
+            "Heavy metal contamination level"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "mg/kg",
+          "partial_record_text": "ENV-PERMIT-T9Q: Continuous stirred-tank thermophilic consortium.Continuous stirred-tank thermophilic consortium: Active bespoke environmental permit coverage = true .Source: Environmental Agency public register; Scope: Proposed regional biomethane facility site operations; Measurement: Verification of valid bespoke environmental installation permit issuance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Digestate heavy metal contamination rate is at most 80 mg/kg.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Continuous stirred-tank thermophilic consortium",
+          "other_candidate_names": [
+            "Two-phase high-solids mesophilic consortium",
+            "Dry anaerobic plug-flow consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_air_quality_regulator_A",
+          "role_id": "air_quality_regulator",
+          "candidate_id": "A",
+          "key": "AQR-ODOR-BBR",
+          "hidden_predicate_id": "A_odor_mitigation_score",
+          "threshold_label": "Odor mitigation compliance score",
+          "threshold_aliases": [
+            "Odor abatement rating",
+            "Olfactory nuisance score"
+          ],
+          "threshold_value": 88,
+          "threshold_unit": "points",
+          "partial_record_text": "AQR-ODOR-BBR: Continuous stirred-tank thermophilic consortium. The record covers Odor mitigation compliance score. Dynamic olfactometry audit report; Site boundary air dispersion monitoring; Overall scored compliance against best available technique odor abatement benchmarks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Odor mitigation compliance score is at most 110 points.",
+          "role_name": "Air quality and odor inspectorate (AQR)",
+          "candidate_name": "Continuous stirred-tank thermophilic consortium",
+          "other_candidate_names": [
+            "Two-phase high-solids mesophilic consortium",
+            "Dry anaerobic plug-flow consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_gas_network_authority_A",
+          "role_id": "gas_network_authority",
+          "candidate_id": "A",
+          "key": "GNA-GRID-OAY",
+          "hidden_predicate_id": "A_contracted_gross_production",
+          "threshold_label": "Contracted gross biomethane production",
+          "threshold_aliases": [
+            "Gross biomethane output",
+            "Contracted annual gross generation"
+          ],
+          "threshold_value": 54000,
+          "threshold_unit": "MWh",
+          "partial_record_text": "GNA-GRID-OAY: Continuous stirred-tank thermophilic consortium.Operating year: Calendar Year 2025.Continuous stirred-tank thermophilic consortium: Gas grid entry technical sign-off = true .Source: Network connection compliance certificate; Scope: Local gas transmission system entry junction; Measurement: Formal engineering approval of biomethane grid entry technical compatibility.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted gross biomethane production is at most 70000 MWh.",
+          "role_name": "Gas network interconnection authority (GNA)",
+          "candidate_name": "Continuous stirred-tank thermophilic consortium",
+          "other_candidate_names": [
+            "Two-phase high-solids mesophilic consortium",
+            "Dry anaerobic plug-flow consortium"
+          ],
+          "context_value": "Calendar Year 2025",
+          "other_context_values": [
+            "Calendar Year 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

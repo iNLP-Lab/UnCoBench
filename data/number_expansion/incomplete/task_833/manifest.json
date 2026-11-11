@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_833",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "municipal_utilities"
+      ],
+      "role_names": [
+        "State public health and environmental hygiene directorate (SPHD)",
+        "Bulk water and municipal infrastructure authority (BMIA)"
+      ],
+      "directory": "incomplete/task_833",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "SPHD-HYG-A4S",
+          "boolean_predicate_id": "A_epidemic_isolation_ward_present",
+          "boolean_label": "Dedicated epidemic isolation ward presence",
+          "hidden_predicate_id": "A_air_exchange_turnover_rate",
+          "threshold_label": "Ventilation air turnover rate",
+          "threshold_aliases": [
+            "Indoor air turnover",
+            "Air exchange frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "1/h",
+          "partial_record_text": "SPHD-HYG-A4S: Darra Multi-Sport Community Pavilion.Darra Multi-Sport Community Pavilion: Dedicated epidemic isolation ward presence = true .Source: Biosecurity containment audit; Scope: Designated quarantine and clinical holding zone; Measurement: Physical existence of an operable separate-air-handler negative-pressure isolation ward.Darra Multi-Sport Community Pavilion: Baseline daily sanitary demand = 30 kL.Source: Disaster shelter water budgeting guide; Scope: Shelter population during active emergency intake; Measurement: Projected 24-hour aggregate water volume required for sanitation, food preparation, and hydration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Ventilation air turnover rate is between 2 1/h and 20 1/h, inclusive.",
+          "role_name": "State public health and environmental hygiene directorate (SPHD)",
+          "candidate_name": "Darra Multi-Sport Community Pavilion",
+          "other_candidate_names": [
+            "Wacol Regional Exhibition and Events Arena",
+            "Oxley District Secondary Campus Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_utilities_A",
+          "role_id": "municipal_utilities",
+          "candidate_id": "A",
+          "key": "BMIA-UTIL-YIC",
+          "hidden_predicate_id": "A_flood_barrier_freeboard_margin",
+          "threshold_label": "Flood defense freeboard margin",
+          "threshold_aliases": [
+            "Freeboard protection height",
+            "Levee crest margin"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "cm",
+          "partial_record_text": "BMIA-UTIL-YIC: Darra Multi-Sport Community Pavilion.Darra Multi-Sport Community Pavilion: Operational backup water volume = 120 kL.Source: Municipal reservoir storage report; Scope: Dedicated gravity-fed underground cistern tanks; Measurement: Total usable potable water volume reserved exclusively for emergency sheltering.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Flood defense freeboard margin is between 20 cm and 100 cm, inclusive.",
+          "role_name": "Bulk water and municipal infrastructure authority (BMIA)",
+          "candidate_name": "Darra Multi-Sport Community Pavilion",
+          "other_candidate_names": [
+            "Wacol Regional Exhibition and Events Arena",
+            "Oxley District Secondary Campus Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "municipal_utilities",
+        "emergency_logistics"
+      ],
+      "role_names": [
+        "State public health and environmental hygiene directorate (SPHD)",
+        "Bulk water and municipal infrastructure authority (BMIA)",
+        "State emergency service logistics command (SESL)"
+      ],
+      "directory": "incomplete/task_833",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "SPHD-HYG-A4S",
+          "boolean_predicate_id": "A_epidemic_isolation_ward_present",
+          "boolean_label": "Dedicated epidemic isolation ward presence",
+          "hidden_predicate_id": "A_air_exchange_turnover_rate",
+          "threshold_label": "Ventilation air turnover rate",
+          "threshold_aliases": [
+            "Indoor air turnover",
+            "Air exchange frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "1/h",
+          "partial_record_text": "SPHD-HYG-A4S: Darra Multi-Sport Community Pavilion.Darra Multi-Sport Community Pavilion: Dedicated epidemic isolation ward presence = true .Source: Biosecurity containment audit; Scope: Designated quarantine and clinical holding zone; Measurement: Physical existence of an operable separate-air-handler negative-pressure isolation ward.Darra Multi-Sport Community Pavilion: Baseline daily sanitary demand = 30 kL.Source: Disaster shelter water budgeting guide; Scope: Shelter population during active emergency intake; Measurement: Projected 24-hour aggregate water volume required for sanitation, food preparation, and hydration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 20
+          },
+          "coarse_statement": "Ventilation air turnover rate is between 2 1/h and 20 1/h, inclusive.",
+          "role_name": "State public health and environmental hygiene directorate (SPHD)",
+          "candidate_name": "Darra Multi-Sport Community Pavilion",
+          "other_candidate_names": [
+            "Wacol Regional Exhibition and Events Arena",
+            "Oxley District Secondary Campus Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_utilities_A",
+          "role_id": "municipal_utilities",
+          "candidate_id": "A",
+          "key": "BMIA-UTIL-YIC",
+          "hidden_predicate_id": "A_flood_barrier_freeboard_margin",
+          "threshold_label": "Flood defense freeboard margin",
+          "threshold_aliases": [
+            "Freeboard protection height",
+            "Levee crest margin"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "cm",
+          "partial_record_text": "BMIA-UTIL-YIC: Darra Multi-Sport Community Pavilion.Darra Multi-Sport Community Pavilion: Operational backup water volume = 120 kL.Source: Municipal reservoir storage report; Scope: Dedicated gravity-fed underground cistern tanks; Measurement: Total usable potable water volume reserved exclusively for emergency sheltering.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Flood defense freeboard margin is between 20 cm and 100 cm, inclusive.",
+          "role_name": "Bulk water and municipal infrastructure authority (BMIA)",
+          "candidate_name": "Darra Multi-Sport Community Pavilion",
+          "other_candidate_names": [
+            "Wacol Regional Exhibition and Events Arena",
+            "Oxley District Secondary Campus Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_logistics_A",
+          "role_id": "emergency_logistics",
+          "candidate_id": "A",
+          "key": "SESL-LOG-DX4",
+          "hidden_predicate_id": "A_heavy_evacuation_bus_bays",
+          "threshold_label": "Heavy evacuation bus staging bays",
+          "threshold_aliases": [
+            "Articulated bus bays",
+            "Bus marshalling berths"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "bays",
+          "partial_record_text": "SESL-LOG-DX4: Darra Multi-Sport Community Pavilion. The record covers Heavy evacuation bus staging bays. Traffic circulation layout survey; Hardstand passenger disembarkation platform; Dedicated parking and unloading bays cleared for 14.5-meter commuter buses.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 9
+          },
+          "coarse_statement": "Heavy evacuation bus staging bays is between 2 bays and 9 bays, inclusive.",
+          "role_name": "State emergency service logistics command (SESL)",
+          "candidate_name": "Darra Multi-Sport Community Pavilion",
+          "other_candidate_names": [
+            "Wacol Regional Exhibition and Events Arena",
+            "Oxley District Secondary Campus Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

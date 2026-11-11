@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_216",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Fleet logistics director (FLD)"
+      ],
+      "directory": "incomplete/task_216",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAL-MON-S7Z",
+          "boolean_predicate_id": "A_continuous_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring active",
+          "hidden_predicate_id": "A_excursion_alert_latency_minutes",
+          "threshold_label": "Excursion alert latency",
+          "threshold_aliases": [
+            "Thermal deviation alert response time",
+            "Temperature alarm notification lag"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "QAL-MON-S7Z: Apex Bio-Logistics Alliance.Apex Bio-Logistics Alliance: Continuous temperature monitoring active = true .Source: Cold-chain validation dossier; Scope: Active fleet reefers and warehouse cold-room modules; Measurement: Verification that automated real-time thermal data logging is operational without manual gaps.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "Apex Bio-Logistics Alliance",
+          "other_candidate_names": [
+            "CryoRoute Transnational Network",
+            "PolarTrans Pharma Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLD-FLEET-25M",
+          "hidden_predicate_id": "A_refrigerated_fleet_size",
+          "threshold_label": "Validated refrigerated fleet size",
+          "threshold_aliases": [
+            "Dedicated reefer vehicle count",
+            "Certified temperature-controlled transport units"
+          ],
+          "threshold_value": 56,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "FLD-FLEET-25M: Apex Bio-Logistics Alliance. The record covers Validated refrigerated fleet size. Fleet asset registry and calibration audit; Dedicated pharma-grade refrigerated vehicles stationed in the operating territory; Number of fully operational and GDP-certified heavy refrigerated transport trucks.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 32,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Validated refrigerated fleet size is at least 32 vehicles.",
+          "role_name": "Fleet logistics director (FLD)",
+          "candidate_name": "Apex Bio-Logistics Alliance",
+          "other_candidate_names": [
+            "CryoRoute Transnational Network",
+            "PolarTrans Pharma Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_logistics",
+        "cryo_handling"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Fleet logistics director (FLD)",
+        "Cryogenic materials officer (CMO)"
+      ],
+      "directory": "incomplete/task_216",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAL-MON-S7Z",
+          "boolean_predicate_id": "A_continuous_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring active",
+          "hidden_predicate_id": "A_excursion_alert_latency_minutes",
+          "threshold_label": "Excursion alert latency",
+          "threshold_aliases": [
+            "Thermal deviation alert response time",
+            "Temperature alarm notification lag"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "QAL-MON-S7Z: Apex Bio-Logistics Alliance.Apex Bio-Logistics Alliance: Continuous temperature monitoring active = true .Source: Cold-chain validation dossier; Scope: Active fleet reefers and warehouse cold-room modules; Measurement: Verification that automated real-time thermal data logging is operational without manual gaps.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "Apex Bio-Logistics Alliance",
+          "other_candidate_names": [
+            "CryoRoute Transnational Network",
+            "PolarTrans Pharma Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLD-FLEET-25M",
+          "hidden_predicate_id": "A_refrigerated_fleet_size",
+          "threshold_label": "Validated refrigerated fleet size",
+          "threshold_aliases": [
+            "Dedicated reefer vehicle count",
+            "Certified temperature-controlled transport units"
+          ],
+          "threshold_value": 56,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "FLD-FLEET-25M: Apex Bio-Logistics Alliance. The record covers Validated refrigerated fleet size. Fleet asset registry and calibration audit; Dedicated pharma-grade refrigerated vehicles stationed in the operating territory; Number of fully operational and GDP-certified heavy refrigerated transport trucks.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 32,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Validated refrigerated fleet size is at least 32 vehicles.",
+          "role_name": "Fleet logistics director (FLD)",
+          "candidate_name": "Apex Bio-Logistics Alliance",
+          "other_candidate_names": [
+            "CryoRoute Transnational Network",
+            "PolarTrans Pharma Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_handling_A",
+          "role_id": "cryo_handling",
+          "candidate_id": "A",
+          "key": "CMO-CRYO-AYM",
+          "hidden_predicate_id": "A_dry_ice_replenishment_surcharge",
+          "threshold_label": "Dry-ice active replenishment surcharge",
+          "threshold_aliases": [
+            "Dry-ice sublimation servicing fee",
+            "Active cryogen recharge fee per pallet"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "EUR/pallet",
+          "partial_record_text": "CMO-CRYO-AYM: Apex Bio-Logistics Alliance. The record covers Dry-ice active replenishment surcharge. Specialized hazardous handling fee schedule; Vaccine shipper box dry-ice top-up servicing throughout monthly consolidation staging; Gross surcharge applied per standard pallet position for dry-ice replenishments.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Dry-ice active replenishment surcharge is at least 40 EUR/pallet.",
+          "role_name": "Cryogenic materials officer (CMO)",
+          "candidate_name": "Apex Bio-Logistics Alliance",
+          "other_candidate_names": [
+            "CryoRoute Transnational Network",
+            "PolarTrans Pharma Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

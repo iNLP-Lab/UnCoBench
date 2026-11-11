@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_047",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryo_instrumentation",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Cryogenic Instrumentation Engineer (CINST)",
+        "Structural and Geotechnical Lead (STRUC)"
+      ],
+      "directory": "incomplete/task_047",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_instrumentation_A",
+          "role_id": "cryo_instrumentation",
+          "candidate_id": "A",
+          "key": "CINST-SENS-0X1",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Continuous nitrogen telemetry activation",
+          "hidden_predicate_id": "A_telemetry_frequency",
+          "threshold_label": "Telemetry reporting frequency",
+          "threshold_aliases": [
+            "Sensor ping cadence",
+            "Telemetry transmission rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "pings/h",
+          "partial_record_text": "CINST-SENS-0X1: Automated vapor-phase nitrogen vault.Automated vapor-phase nitrogen vault: Continuous nitrogen telemetry activation = true .Source: SCADA integration log; Scope: Cryogenic storage tank telemetry network; Measurement: Whether real-time digital sensor transmission to centralized SCADA is fully enabled.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 70
+          },
+          "coarse_statement": "Telemetry reporting frequency is between 5 pings/h and 70 pings/h, inclusive.",
+          "role_name": "Cryogenic Instrumentation Engineer (CINST)",
+          "candidate_name": "Automated vapor-phase nitrogen vault",
+          "other_candidate_names": [
+            "Decentralized mechanical ultra-low cascade",
+            "High-volume liquid nitrogen immersion cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-CIVIL-MB1",
+          "hidden_predicate_id": "A_seismic_tolerance",
+          "threshold_label": "Maximum survivable seismic moment magnitude",
+          "threshold_aliases": [
+            "Seismic design rating",
+            "Earthquake resistance rating"
+          ],
+          "threshold_value": 8.0,
+          "threshold_unit": "Mw",
+          "partial_record_text": "STRUC-CIVIL-MB1: Automated vapor-phase nitrogen vault. The record covers Maximum survivable seismic moment magnitude. Seismic isolation structural simulation; Primary cryogenic repository foundation superstructure; Maximum moment magnitude earthquake withstandable without pipe shearing or containment loss.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 10
+          },
+          "coarse_statement": "Maximum survivable seismic moment magnitude is between 5 Mw and 10 Mw, inclusive.",
+          "role_name": "Structural and Geotechnical Lead (STRUC)",
+          "candidate_name": "Automated vapor-phase nitrogen vault",
+          "other_candidate_names": [
+            "Decentralized mechanical ultra-low cascade",
+            "High-volume liquid nitrogen immersion cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryo_instrumentation",
+        "structural_engineering",
+        "thermal_systems"
+      ],
+      "role_names": [
+        "Cryogenic Instrumentation Engineer (CINST)",
+        "Structural and Geotechnical Lead (STRUC)",
+        "Refrigeration Systems Specialist (THERM)"
+      ],
+      "directory": "incomplete/task_047",
+      "profiles": [
+        {
+          "record_id": "rec_cryo_instrumentation_A",
+          "role_id": "cryo_instrumentation",
+          "candidate_id": "A",
+          "key": "CINST-SENS-0X1",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Continuous nitrogen telemetry activation",
+          "hidden_predicate_id": "A_telemetry_frequency",
+          "threshold_label": "Telemetry reporting frequency",
+          "threshold_aliases": [
+            "Sensor ping cadence",
+            "Telemetry transmission rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "pings/h",
+          "partial_record_text": "CINST-SENS-0X1: Automated vapor-phase nitrogen vault.Automated vapor-phase nitrogen vault: Continuous nitrogen telemetry activation = true .Source: SCADA integration log; Scope: Cryogenic storage tank telemetry network; Measurement: Whether real-time digital sensor transmission to centralized SCADA is fully enabled.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 70
+          },
+          "coarse_statement": "Telemetry reporting frequency is between 5 pings/h and 70 pings/h, inclusive.",
+          "role_name": "Cryogenic Instrumentation Engineer (CINST)",
+          "candidate_name": "Automated vapor-phase nitrogen vault",
+          "other_candidate_names": [
+            "Decentralized mechanical ultra-low cascade",
+            "High-volume liquid nitrogen immersion cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUC-CIVIL-MB1",
+          "hidden_predicate_id": "A_seismic_tolerance",
+          "threshold_label": "Maximum survivable seismic moment magnitude",
+          "threshold_aliases": [
+            "Seismic design rating",
+            "Earthquake resistance rating"
+          ],
+          "threshold_value": 8.0,
+          "threshold_unit": "Mw",
+          "partial_record_text": "STRUC-CIVIL-MB1: Automated vapor-phase nitrogen vault. The record covers Maximum survivable seismic moment magnitude. Seismic isolation structural simulation; Primary cryogenic repository foundation superstructure; Maximum moment magnitude earthquake withstandable without pipe shearing or containment loss.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 10
+          },
+          "coarse_statement": "Maximum survivable seismic moment magnitude is between 5 Mw and 10 Mw, inclusive.",
+          "role_name": "Structural and Geotechnical Lead (STRUC)",
+          "candidate_name": "Automated vapor-phase nitrogen vault",
+          "other_candidate_names": [
+            "Decentralized mechanical ultra-low cascade",
+            "High-volume liquid nitrogen immersion cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_thermal_systems_A",
+          "role_id": "thermal_systems",
+          "candidate_id": "A",
+          "key": "THERM-CHILL-H2X",
+          "hidden_predicate_id": "A_refrigeration_load",
+          "threshold_label": "Peak refrigeration electrical load",
+          "threshold_aliases": [
+            "Maximum refrigeration power demand",
+            "Peak chilling load"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "kW",
+          "partial_record_text": "THERM-CHILL-H2X: Automated vapor-phase nitrogen vault. The record covers Peak refrigeration electrical load. Thermal chilling engineering design balance; Facility chillers, cryogenic reliquefaction pumps, and mechanical compressors; Maximum concurrent steady-state electrical power required under extreme ambient summer temperatures.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Peak refrigeration electrical load is between 100 kW and 400 kW, inclusive.",
+          "role_name": "Refrigeration Systems Specialist (THERM)",
+          "candidate_name": "Automated vapor-phase nitrogen vault",
+          "other_candidate_names": [
+            "Decentralized mechanical ultra-low cascade",
+            "High-volume liquid nitrogen immersion cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

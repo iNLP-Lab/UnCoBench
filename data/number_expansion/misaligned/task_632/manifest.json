@@ -1,0 +1,534 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_632",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cross_dock_security_supervisor",
+        "cold_chain_telemetry_lead"
+      ],
+      "role_names": [
+        "Hub facilities and cold-room security supervisor (HUB)",
+        "Cold-chain monitoring and telemetry manager (TEL)"
+      ],
+      "directory": "number_expansion/misaligned/task_632/k2",
+      "error_profiles": [
+        {
+          "role_name": "Hub facilities and cold-room security supervisor (HUB)",
+          "target_key": "HUB-SEC-Y0N",
+          "alternate_key": "HUB-DOCK-1J8",
+          "target_context": "rolling 30-day average",
+          "alternate_context": "peak single-shift maximum",
+          "candidate": "Nordic Pharma Rail-Road Alliance",
+          "other_candidates": [
+            "Trans-Alpine Cryo Logistics",
+            "Iberian Biologics Express"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cold_room_security_cleared",
+              "value": true,
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ]
+            },
+            {
+              "topic": "automated_monitoring_active",
+              "label": "Automated temperature monitoring active",
+              "aliases": [
+                "Real-time thermal monitoring enablement",
+                "Automated telemetry status"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ]
+            },
+            {
+              "topic": "reefer_fleet_count",
+              "label": "Dedicated reefer fleet size",
+              "aliases": [
+                "Refrigerated vehicle count",
+                "Dedicated reefer truck count"
+              ]
+            },
+            {
+              "topic": "cold_room_security_cleared",
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ]
+            },
+            {
+              "topic": "cargo_insurance_limit",
+              "label": "Cargo liability insurance coverage",
+              "aliases": [
+                "Underwritten cargo liability ceiling",
+                "Total cargo insurance value"
+              ]
+            },
+            {
+              "topic": "base_dry_ice_payload",
+              "label": "Base dry-ice payload capacity",
+              "aliases": [
+                "Core dry-ice capacity",
+                "Primary deep-frozen payload rating"
+              ]
+            },
+            {
+              "topic": "pallet_dry_ice_payload",
+              "label": "Supplementary pallet dry-ice payload capacity",
+              "aliases": [
+                "Additional pallet bunker capacity",
+                "Cross-dock secondary dry-ice payload"
+              ]
+            },
+            {
+              "topic": "ballast_tare_weight",
+              "label": "Mandatory ballast tare weight",
+              "aliases": [
+                "Required ballast tare deduction",
+                "Structural stabilizing tare"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cold-chain monitoring and telemetry manager (TEL)",
+          "target_key": "TEL-MON-HVV",
+          "alternate_key": "TEL-MON-0VS",
+          "target_context": "trailing 12-month audit window",
+          "alternate_context": "trailing 3-month audit window",
+          "candidate": "Nordic Pharma Rail-Road Alliance",
+          "other_candidates": [
+            "Trans-Alpine Cryo Logistics",
+            "Iberian Biologics Express"
+          ],
+          "numeric": [
+            {
+              "topic": "max_excursion_duration",
+              "value": 10,
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ]
+            },
+            {
+              "topic": "automated_monitoring_active",
+              "label": "Automated temperature monitoring active",
+              "aliases": [
+                "Real-time thermal monitoring enablement",
+                "Automated telemetry status"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ]
+            },
+            {
+              "topic": "reefer_fleet_count",
+              "label": "Dedicated reefer fleet size",
+              "aliases": [
+                "Refrigerated vehicle count",
+                "Dedicated reefer truck count"
+              ]
+            },
+            {
+              "topic": "cold_room_security_cleared",
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ]
+            },
+            {
+              "topic": "cargo_insurance_limit",
+              "label": "Cargo liability insurance coverage",
+              "aliases": [
+                "Underwritten cargo liability ceiling",
+                "Total cargo insurance value"
+              ]
+            },
+            {
+              "topic": "base_dry_ice_payload",
+              "label": "Base dry-ice payload capacity",
+              "aliases": [
+                "Core dry-ice capacity",
+                "Primary deep-frozen payload rating"
+              ]
+            },
+            {
+              "topic": "pallet_dry_ice_payload",
+              "label": "Supplementary pallet dry-ice payload capacity",
+              "aliases": [
+                "Additional pallet bunker capacity",
+                "Cross-dock secondary dry-ice payload"
+              ]
+            },
+            {
+              "topic": "ballast_tare_weight",
+              "label": "Mandatory ballast tare weight",
+              "aliases": [
+                "Required ballast tare deduction",
+                "Structural stabilizing tare"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cross_dock_security_supervisor",
+        "cold_chain_telemetry_lead",
+        "regulatory_compliance_lead"
+      ],
+      "role_names": [
+        "Hub facilities and cold-room security supervisor (HUB)",
+        "Cold-chain monitoring and telemetry manager (TEL)",
+        "Quality assurance and regulatory compliance director (QAC)"
+      ],
+      "directory": "number_expansion/misaligned/task_632/k3",
+      "error_profiles": [
+        {
+          "role_name": "Hub facilities and cold-room security supervisor (HUB)",
+          "target_key": "HUB-SEC-Y0N",
+          "alternate_key": "HUB-DOCK-1J8",
+          "target_context": "rolling 30-day average",
+          "alternate_context": "peak single-shift maximum",
+          "candidate": "Nordic Pharma Rail-Road Alliance",
+          "other_candidates": [
+            "Trans-Alpine Cryo Logistics",
+            "Iberian Biologics Express"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cold_room_security_cleared",
+              "value": true,
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ]
+            },
+            {
+              "topic": "automated_monitoring_active",
+              "label": "Automated temperature monitoring active",
+              "aliases": [
+                "Real-time thermal monitoring enablement",
+                "Automated telemetry status"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ]
+            },
+            {
+              "topic": "reefer_fleet_count",
+              "label": "Dedicated reefer fleet size",
+              "aliases": [
+                "Refrigerated vehicle count",
+                "Dedicated reefer truck count"
+              ]
+            },
+            {
+              "topic": "cold_room_security_cleared",
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ]
+            },
+            {
+              "topic": "cargo_insurance_limit",
+              "label": "Cargo liability insurance coverage",
+              "aliases": [
+                "Underwritten cargo liability ceiling",
+                "Total cargo insurance value"
+              ]
+            },
+            {
+              "topic": "base_dry_ice_payload",
+              "label": "Base dry-ice payload capacity",
+              "aliases": [
+                "Core dry-ice capacity",
+                "Primary deep-frozen payload rating"
+              ]
+            },
+            {
+              "topic": "pallet_dry_ice_payload",
+              "label": "Supplementary pallet dry-ice payload capacity",
+              "aliases": [
+                "Additional pallet bunker capacity",
+                "Cross-dock secondary dry-ice payload"
+              ]
+            },
+            {
+              "topic": "ballast_tare_weight",
+              "label": "Mandatory ballast tare weight",
+              "aliases": [
+                "Required ballast tare deduction",
+                "Structural stabilizing tare"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cold-chain monitoring and telemetry manager (TEL)",
+          "target_key": "TEL-MON-HVV",
+          "alternate_key": "TEL-MON-0VS",
+          "target_context": "trailing 12-month audit window",
+          "alternate_context": "trailing 3-month audit window",
+          "candidate": "Nordic Pharma Rail-Road Alliance",
+          "other_candidates": [
+            "Trans-Alpine Cryo Logistics",
+            "Iberian Biologics Express"
+          ],
+          "numeric": [
+            {
+              "topic": "max_excursion_duration",
+              "value": 10,
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ]
+            },
+            {
+              "topic": "automated_monitoring_active",
+              "label": "Automated temperature monitoring active",
+              "aliases": [
+                "Real-time thermal monitoring enablement",
+                "Automated telemetry status"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ]
+            },
+            {
+              "topic": "reefer_fleet_count",
+              "label": "Dedicated reefer fleet size",
+              "aliases": [
+                "Refrigerated vehicle count",
+                "Dedicated reefer truck count"
+              ]
+            },
+            {
+              "topic": "cold_room_security_cleared",
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ]
+            },
+            {
+              "topic": "cargo_insurance_limit",
+              "label": "Cargo liability insurance coverage",
+              "aliases": [
+                "Underwritten cargo liability ceiling",
+                "Total cargo insurance value"
+              ]
+            },
+            {
+              "topic": "base_dry_ice_payload",
+              "label": "Base dry-ice payload capacity",
+              "aliases": [
+                "Core dry-ice capacity",
+                "Primary deep-frozen payload rating"
+              ]
+            },
+            {
+              "topic": "pallet_dry_ice_payload",
+              "label": "Supplementary pallet dry-ice payload capacity",
+              "aliases": [
+                "Additional pallet bunker capacity",
+                "Cross-dock secondary dry-ice payload"
+              ]
+            },
+            {
+              "topic": "ballast_tare_weight",
+              "label": "Mandatory ballast tare weight",
+              "aliases": [
+                "Required ballast tare deduction",
+                "Structural stabilizing tare"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quality assurance and regulatory compliance director (QAC)",
+          "target_key": "QAC-CERT-2HQ",
+          "alternate_key": "QAC-CERT-VKQ",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "Nordic Pharma Rail-Road Alliance",
+          "other_candidates": [
+            "Trans-Alpine Cryo Logistics",
+            "Iberian Biologics Express"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "gdp_certified",
+              "value": true,
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "gdp_certified",
+              "label": "GDP certification validated",
+              "aliases": [
+                "Good Distribution Practice compliance",
+                "GDP validation status"
+              ]
+            },
+            {
+              "topic": "automated_monitoring_active",
+              "label": "Automated temperature monitoring active",
+              "aliases": [
+                "Real-time thermal monitoring enablement",
+                "Automated telemetry status"
+              ]
+            },
+            {
+              "topic": "max_excursion_duration",
+              "label": "Maximum continuous excursion duration",
+              "aliases": [
+                "Thermal excursion length",
+                "Peak uninterrupted excursion duration"
+              ]
+            },
+            {
+              "topic": "reefer_fleet_count",
+              "label": "Dedicated reefer fleet size",
+              "aliases": [
+                "Refrigerated vehicle count",
+                "Dedicated reefer truck count"
+              ]
+            },
+            {
+              "topic": "cold_room_security_cleared",
+              "label": "Cold-room security clearance verified",
+              "aliases": [
+                "Hub cold room physical security validation",
+                "Secure storage clearance"
+              ]
+            },
+            {
+              "topic": "cargo_insurance_limit",
+              "label": "Cargo liability insurance coverage",
+              "aliases": [
+                "Underwritten cargo liability ceiling",
+                "Total cargo insurance value"
+              ]
+            },
+            {
+              "topic": "base_dry_ice_payload",
+              "label": "Base dry-ice payload capacity",
+              "aliases": [
+                "Core dry-ice capacity",
+                "Primary deep-frozen payload rating"
+              ]
+            },
+            {
+              "topic": "pallet_dry_ice_payload",
+              "label": "Supplementary pallet dry-ice payload capacity",
+              "aliases": [
+                "Additional pallet bunker capacity",
+                "Cross-dock secondary dry-ice payload"
+              ]
+            },
+            {
+              "topic": "ballast_tare_weight",
+              "label": "Mandatory ballast tare weight",
+              "aliases": [
+                "Required ballast tare deduction",
+                "Structural stabilizing tare"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

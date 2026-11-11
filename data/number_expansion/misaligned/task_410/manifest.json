@@ -1,0 +1,465 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_410",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_controller",
+        "clinical_director"
+      ],
+      "role_names": [
+        "Aeronautical rescue coordinator (ARC)",
+        "Maritime medical director (MMD)"
+      ],
+      "directory": "number_expansion/misaligned/task_410/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aeronautical rescue coordinator (ARC)",
+          "target_key": "ARC-AERO-EWS",
+          "alternate_key": "ARC-WIND-M8S",
+          "target_context": "including night-vision goggle (NVG) operations",
+          "alternate_context": "excluding night-vision goggle (NVG) operations",
+          "candidate": "North Shoal Deepwater Trench Passage",
+          "other_candidates": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "night_flight_clearance",
+              "value": true,
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ]
+            },
+            {
+              "topic": "significant_wave_height",
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ]
+            },
+            {
+              "topic": "night_flight_clearance",
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ]
+            },
+            {
+              "topic": "triage_medical_staffing",
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ]
+            },
+            {
+              "topic": "fuel_bunkering_tender_ready",
+              "label": "Fuel bunkering tender availability",
+              "aliases": [
+                "Bunkering tender on-station",
+                "Marine diesel refuel availability"
+              ]
+            },
+            {
+              "topic": "passenger_rescue_capacity",
+              "label": "Certified passenger rescue capacity",
+              "aliases": [
+                "Total rescue seating capacity",
+                "Surface evacuee lift capacity"
+              ]
+            },
+            {
+              "topic": "transit_cycle_duration",
+              "label": "Transit turnaround cycle duration",
+              "aliases": [
+                "Turnaround cycle hours",
+                "Round-trip evacuation transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime medical director (MMD)",
+          "target_key": "MMD-CLIN-JAC",
+          "alternate_key": "MMD-CLIN-LUA",
+          "target_context": "including certified critical-care trauma physicians",
+          "alternate_context": "excluding certified critical-care trauma physicians",
+          "candidate": "North Shoal Deepwater Trench Passage",
+          "other_candidates": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_medical_staffing",
+              "value": true,
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ]
+            },
+            {
+              "topic": "significant_wave_height",
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ]
+            },
+            {
+              "topic": "night_flight_clearance",
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ]
+            },
+            {
+              "topic": "triage_medical_staffing",
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ]
+            },
+            {
+              "topic": "fuel_bunkering_tender_ready",
+              "label": "Fuel bunkering tender availability",
+              "aliases": [
+                "Bunkering tender on-station",
+                "Marine diesel refuel availability"
+              ]
+            },
+            {
+              "topic": "passenger_rescue_capacity",
+              "label": "Certified passenger rescue capacity",
+              "aliases": [
+                "Total rescue seating capacity",
+                "Surface evacuee lift capacity"
+              ]
+            },
+            {
+              "topic": "transit_cycle_duration",
+              "label": "Transit turnaround cycle duration",
+              "aliases": [
+                "Turnaround cycle hours",
+                "Round-trip evacuation transit time"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_controller",
+        "clinical_director",
+        "maritime_hydrographer"
+      ],
+      "role_names": [
+        "Aeronautical rescue coordinator (ARC)",
+        "Maritime medical director (MMD)",
+        "Hydrographic survey superintendent (HSS)"
+      ],
+      "directory": "number_expansion/misaligned/task_410/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aeronautical rescue coordinator (ARC)",
+          "target_key": "ARC-AERO-EWS",
+          "alternate_key": "ARC-WIND-M8S",
+          "target_context": "including night-vision goggle (NVG) operations",
+          "alternate_context": "excluding night-vision goggle (NVG) operations",
+          "candidate": "North Shoal Deepwater Trench Passage",
+          "other_candidates": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "night_flight_clearance",
+              "value": true,
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ]
+            },
+            {
+              "topic": "significant_wave_height",
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ]
+            },
+            {
+              "topic": "night_flight_clearance",
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ]
+            },
+            {
+              "topic": "triage_medical_staffing",
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ]
+            },
+            {
+              "topic": "fuel_bunkering_tender_ready",
+              "label": "Fuel bunkering tender availability",
+              "aliases": [
+                "Bunkering tender on-station",
+                "Marine diesel refuel availability"
+              ]
+            },
+            {
+              "topic": "passenger_rescue_capacity",
+              "label": "Certified passenger rescue capacity",
+              "aliases": [
+                "Total rescue seating capacity",
+                "Surface evacuee lift capacity"
+              ]
+            },
+            {
+              "topic": "transit_cycle_duration",
+              "label": "Transit turnaround cycle duration",
+              "aliases": [
+                "Turnaround cycle hours",
+                "Round-trip evacuation transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Maritime medical director (MMD)",
+          "target_key": "MMD-CLIN-JAC",
+          "alternate_key": "MMD-CLIN-LUA",
+          "target_context": "including certified critical-care trauma physicians",
+          "alternate_context": "excluding certified critical-care trauma physicians",
+          "candidate": "North Shoal Deepwater Trench Passage",
+          "other_candidates": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_medical_staffing",
+              "value": true,
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ]
+            },
+            {
+              "topic": "significant_wave_height",
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ]
+            },
+            {
+              "topic": "night_flight_clearance",
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ]
+            },
+            {
+              "topic": "triage_medical_staffing",
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ]
+            },
+            {
+              "topic": "fuel_bunkering_tender_ready",
+              "label": "Fuel bunkering tender availability",
+              "aliases": [
+                "Bunkering tender on-station",
+                "Marine diesel refuel availability"
+              ]
+            },
+            {
+              "topic": "passenger_rescue_capacity",
+              "label": "Certified passenger rescue capacity",
+              "aliases": [
+                "Total rescue seating capacity",
+                "Surface evacuee lift capacity"
+              ]
+            },
+            {
+              "topic": "transit_cycle_duration",
+              "label": "Transit turnaround cycle duration",
+              "aliases": [
+                "Turnaround cycle hours",
+                "Round-trip evacuation transit time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Hydrographic survey superintendent (HSS)",
+          "target_key": "HSS-HYDRO-2RV",
+          "alternate_key": "HSS-HYDRO-TPT",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "North Shoal Deepwater Trench Passage",
+          "other_candidates": [
+            "Eastern Outer Archipelago Causeway",
+            "Southern Shelf Direct Transit Channel"
+          ],
+          "numeric": [
+            {
+              "topic": "significant_wave_height",
+              "value": 2.6,
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "value": true,
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "sea_state_telemetry_active",
+              "label": "Dynamic sea-state telemetry active",
+              "aliases": [
+                "Real-time sea telemetry online",
+                "Wave telemetry status"
+              ]
+            },
+            {
+              "topic": "significant_wave_height",
+              "label": "Maximum significant wave height",
+              "aliases": [
+                "Significant wave height threshold",
+                "Peak channel wave height"
+              ]
+            },
+            {
+              "topic": "night_flight_clearance",
+              "label": "Night flight navigational clearance",
+              "aliases": [
+                "Night medevac clearance",
+                "Nocturnal air corridor approval"
+              ]
+            },
+            {
+              "topic": "triage_medical_staffing",
+              "label": "Emergency triage medical staffing certification",
+              "aliases": [
+                "Triage physician staffing",
+                "Onboard medical readiness certification"
+              ]
+            },
+            {
+              "topic": "fuel_bunkering_tender_ready",
+              "label": "Fuel bunkering tender availability",
+              "aliases": [
+                "Bunkering tender on-station",
+                "Marine diesel refuel availability"
+              ]
+            },
+            {
+              "topic": "passenger_rescue_capacity",
+              "label": "Certified passenger rescue capacity",
+              "aliases": [
+                "Total rescue seating capacity",
+                "Surface evacuee lift capacity"
+              ]
+            },
+            {
+              "topic": "transit_cycle_duration",
+              "label": "Transit turnaround cycle duration",
+              "aliases": [
+                "Turnaround cycle hours",
+                "Round-trip evacuation transit time"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

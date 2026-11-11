@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_476",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics_lead",
+        "power_lead"
+      ],
+      "role_names": [
+        "Geophysics Lead (GEOPHYS)",
+        "Power Systems Lead (POWER)"
+      ],
+      "directory": "incomplete/task_476",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_lead_A",
+          "role_id": "geophysics_lead",
+          "candidate_id": "A",
+          "key": "GEOPHYS-SEIS-NCG",
+          "boolean_predicate_id": "A_borehole_casing_installed",
+          "boolean_label": "Borehole casing installed",
+          "hidden_predicate_id": "A_seismic_borehole_depth",
+          "threshold_label": "Seismic borehole depth",
+          "threshold_aliases": [
+            "Sensor emplacement depth",
+            "Drillhole depth"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOPHYS-SEIS-NCG: Subterranean hardened bunker.Subterranean hardened bunker: Borehole casing installed = true .Source: Drilling completion log; Scope: Candidate seismic sensor shaft; Measurement: Verification that protective steel borehole casing is fully installed and grouted.Subterranean hardened bunker: Seismic continuous stream volume = 12 GB.Source: Data telemetry architecture plan; Scope: Three-component broadband seismometer stream over 24 hours; Measurement: Uncompressed raw seismic telemetry payload size.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Seismic borehole depth is between 20 m and 90 m, inclusive.",
+          "role_name": "Geophysics Lead (GEOPHYS)",
+          "candidate_name": "Subterranean hardened bunker",
+          "other_candidate_names": [
+            "Modular composite shelter",
+            "Elevated steel-frame skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_lead_A",
+          "role_id": "power_lead",
+          "candidate_id": "A",
+          "key": "POWER-BATT-K0S",
+          "hidden_predicate_id": "A_autonomous_battery_reserve",
+          "threshold_label": "Autonomous battery reserve",
+          "threshold_aliases": [
+            "Battery autonomy duration",
+            "No-sun backup duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "POWER-BATT-K0S: Subterranean hardened bunker. The record covers Autonomous battery reserve. Power system load analysis; Candidate station battery bank under nominal winter load; Operating hours supported entirely on battery storage without solar generation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous battery reserve is between 20 h and 300 h, inclusive.",
+          "role_name": "Power Systems Lead (POWER)",
+          "candidate_name": "Subterranean hardened bunker",
+          "other_candidate_names": [
+            "Modular composite shelter",
+            "Elevated steel-frame skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics_lead",
+        "power_lead",
+        "geochemistry_lead"
+      ],
+      "role_names": [
+        "Geophysics Lead (GEOPHYS)",
+        "Power Systems Lead (POWER)",
+        "Geochemistry Lead (GEOCHEM)"
+      ],
+      "directory": "incomplete/task_476",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_lead_A",
+          "role_id": "geophysics_lead",
+          "candidate_id": "A",
+          "key": "GEOPHYS-SEIS-NCG",
+          "boolean_predicate_id": "A_borehole_casing_installed",
+          "boolean_label": "Borehole casing installed",
+          "hidden_predicate_id": "A_seismic_borehole_depth",
+          "threshold_label": "Seismic borehole depth",
+          "threshold_aliases": [
+            "Sensor emplacement depth",
+            "Drillhole depth"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOPHYS-SEIS-NCG: Subterranean hardened bunker.Subterranean hardened bunker: Borehole casing installed = true .Source: Drilling completion log; Scope: Candidate seismic sensor shaft; Measurement: Verification that protective steel borehole casing is fully installed and grouted.Subterranean hardened bunker: Seismic continuous stream volume = 12 GB.Source: Data telemetry architecture plan; Scope: Three-component broadband seismometer stream over 24 hours; Measurement: Uncompressed raw seismic telemetry payload size.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Seismic borehole depth is between 20 m and 90 m, inclusive.",
+          "role_name": "Geophysics Lead (GEOPHYS)",
+          "candidate_name": "Subterranean hardened bunker",
+          "other_candidate_names": [
+            "Modular composite shelter",
+            "Elevated steel-frame skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_lead_A",
+          "role_id": "power_lead",
+          "candidate_id": "A",
+          "key": "POWER-BATT-K0S",
+          "hidden_predicate_id": "A_autonomous_battery_reserve",
+          "threshold_label": "Autonomous battery reserve",
+          "threshold_aliases": [
+            "Battery autonomy duration",
+            "No-sun backup duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "POWER-BATT-K0S: Subterranean hardened bunker. The record covers Autonomous battery reserve. Power system load analysis; Candidate station battery bank under nominal winter load; Operating hours supported entirely on battery storage without solar generation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Autonomous battery reserve is between 20 h and 300 h, inclusive.",
+          "role_name": "Power Systems Lead (POWER)",
+          "candidate_name": "Subterranean hardened bunker",
+          "other_candidate_names": [
+            "Modular composite shelter",
+            "Elevated steel-frame skid"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geochemistry_lead_A",
+          "role_id": "geochemistry_lead",
+          "candidate_id": "A",
+          "key": "GEOCHEM-SPEC-7SK",
+          "hidden_predicate_id": "A_gas_spectrometry_volume",
+          "threshold_label": "Multi-gas spectrometer stream volume",
+          "threshold_aliases": [
+            "Gas analyzer data volume",
+            "Spectrometer payload volume"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "GB",
+          "partial_record_text": "GEOCHEM-SPEC-7SK: Subterranean hardened bunker. The record covers Multi-gas spectrometer stream volume. Record context: production environment. Geochemical instrumentation specification; Scanning multi-component gas analyzer stream over 24 hours; Calibrated optical and mass spectrometry data payload size.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Multi-gas spectrometer stream volume is between 0 GB and 30 GB, inclusive.",
+          "role_name": "Geochemistry Lead (GEOCHEM)",
+          "candidate_name": "Subterranean hardened bunker",
+          "other_candidate_names": [
+            "Modular composite shelter",
+            "Elevated steel-frame skid"
+          ],
+          "context_value": "production environment",
+          "other_context_values": [
+            "test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_079",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "simulation_directorate",
+        "dive_log_registry"
+      ],
+      "role_names": [
+        "Submersible safety and simulation lead (SSSL)",
+        "Sub-surface operations log keeper (SOLK)"
+      ],
+      "directory": "incomplete/task_079",
+      "profiles": [
+        {
+          "record_id": "rec_simulation_directorate_A",
+          "role_id": "simulation_directorate",
+          "candidate_id": "A",
+          "key": "SSSL-SIMU-C5L",
+          "boolean_predicate_id": "A_emergency_protocol_certified",
+          "boolean_label": "Life-support emergency simulator protocol completion",
+          "hidden_predicate_id": "A_decompression_recovery_time",
+          "threshold_label": "Emergency decompression recovery time",
+          "threshold_aliases": [
+            "Simulator casualty recovery duration",
+            "Emergency cabin stabilization time"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "SSSL-SIMU-C5L: Commander Elena Rostova.Commander Elena Rostova: Life-support emergency simulator protocol completion = true .Source: High-fidelity pressure hull simulation assessment record; Scope: Candidate casualty response trial; Measurement: Formal validation that candidate completed the emergency life-support failure simulation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Emergency decompression recovery time is at most 60 min.",
+          "role_name": "Submersible safety and simulation lead (SSSL)",
+          "candidate_name": "Commander Elena Rostova",
+          "other_candidate_names": [
+            "Dr. Marcus Vance",
+            "Captain Aoi Takahashi"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_dive_log_registry_A",
+          "role_id": "dive_log_registry",
+          "candidate_id": "A",
+          "key": "SOLK-LOGS-HT9",
+          "hidden_predicate_id": "A_extreme_depth_bottom_time",
+          "threshold_label": "Logged extreme-depth bottom time",
+          "threshold_aliases": [
+            "Extreme-depth bottom hours",
+            "Hadopelagic seabed bottom time"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "h",
+          "partial_record_text": "SOLK-LOGS-HT9: Commander Elena Rostova. The record covers Logged extreme-depth bottom time. Master bathypelagic dive logbook; Dives below 4000 m operating depth; Cumulative verified pilot-in-command hours spent maneuvering directly along the seafloor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Logged extreme-depth bottom time is at most 700 h.",
+          "role_name": "Sub-surface operations log keeper (SOLK)",
+          "candidate_name": "Commander Elena Rostova",
+          "other_candidate_names": [
+            "Dr. Marcus Vance",
+            "Captain Aoi Takahashi"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "simulation_directorate",
+        "dive_log_registry",
+        "scientific_operations"
+      ],
+      "role_names": [
+        "Submersible safety and simulation lead (SSSL)",
+        "Sub-surface operations log keeper (SOLK)",
+        "Consortium scientific payload director (CSPD)"
+      ],
+      "directory": "incomplete/task_079",
+      "profiles": [
+        {
+          "record_id": "rec_simulation_directorate_A",
+          "role_id": "simulation_directorate",
+          "candidate_id": "A",
+          "key": "SSSL-SIMU-C5L",
+          "boolean_predicate_id": "A_emergency_protocol_certified",
+          "boolean_label": "Life-support emergency simulator protocol completion",
+          "hidden_predicate_id": "A_decompression_recovery_time",
+          "threshold_label": "Emergency decompression recovery time",
+          "threshold_aliases": [
+            "Simulator casualty recovery duration",
+            "Emergency cabin stabilization time"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "SSSL-SIMU-C5L: Commander Elena Rostova.Commander Elena Rostova: Life-support emergency simulator protocol completion = true .Source: High-fidelity pressure hull simulation assessment record; Scope: Candidate casualty response trial; Measurement: Formal validation that candidate completed the emergency life-support failure simulation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Emergency decompression recovery time is at most 60 min.",
+          "role_name": "Submersible safety and simulation lead (SSSL)",
+          "candidate_name": "Commander Elena Rostova",
+          "other_candidate_names": [
+            "Dr. Marcus Vance",
+            "Captain Aoi Takahashi"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_dive_log_registry_A",
+          "role_id": "dive_log_registry",
+          "candidate_id": "A",
+          "key": "SOLK-LOGS-HT9",
+          "hidden_predicate_id": "A_extreme_depth_bottom_time",
+          "threshold_label": "Logged extreme-depth bottom time",
+          "threshold_aliases": [
+            "Extreme-depth bottom hours",
+            "Hadopelagic seabed bottom time"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "h",
+          "partial_record_text": "SOLK-LOGS-HT9: Commander Elena Rostova. The record covers Logged extreme-depth bottom time. Master bathypelagic dive logbook; Dives below 4000 m operating depth; Cumulative verified pilot-in-command hours spent maneuvering directly along the seafloor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Logged extreme-depth bottom time is at most 700 h.",
+          "role_name": "Sub-surface operations log keeper (SOLK)",
+          "candidate_name": "Commander Elena Rostova",
+          "other_candidate_names": [
+            "Dr. Marcus Vance",
+            "Captain Aoi Takahashi"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_operations_A",
+          "role_id": "scientific_operations",
+          "candidate_id": "A",
+          "key": "CSPD-SCIO-KIL",
+          "hidden_predicate_id": "A_core_sample_yield",
+          "threshold_label": "Verified benthic core sample yield",
+          "threshold_aliases": [
+            "Benthic sediment core count",
+            "Recovered core samples"
+          ],
+          "threshold_value": 140,
+          "threshold_unit": "samples",
+          "partial_record_text": "CSPD-SCIO-KIL: Commander Elena Rostova.Audit period: January 2026.Commander Elena Rostova: Scientific payload integration endorsement = true .Source: Scientific equipment steering committee review; Scope: Mariana trench scientific suite; Measurement: Approval verifying candidate capability to operate deep robotic manipulators and sensors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Verified benthic core sample yield is at most 300 samples.",
+          "role_name": "Consortium scientific payload director (CSPD)",
+          "candidate_name": "Commander Elena Rostova",
+          "other_candidate_names": [
+            "Dr. Marcus Vance",
+            "Captain Aoi Takahashi"
+          ],
+          "context_value": "January 2026",
+          "other_context_values": [
+            "October 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

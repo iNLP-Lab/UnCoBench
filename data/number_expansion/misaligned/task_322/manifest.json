@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_322",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "maritime_rescue_liaison",
+        "coastal_protection_inspector"
+      ],
+      "role_names": [
+        "Maritime rescue coordination officer (MRCO)",
+        "Coastal environmental protection officer (CEPO)"
+      ],
+      "directory": "number_expansion/misaligned/task_322/k2",
+      "error_profiles": [
+        {
+          "role_name": "Maritime rescue coordination officer (MRCO)",
+          "target_key": "MRCO-ACCRED-3WK",
+          "alternate_key": "MRCO-BEACON-MBC",
+          "target_context": "before deducting onboard safety escort reserves",
+          "alternate_context": "after deducting onboard safety escort reserves",
+          "candidate": "Disko Bay Southern Deepwater Channel",
+          "other_candidates": [
+            "Vaigat Strait Western Passage",
+            "Uummannaq Sound Outer Fairway"
+          ],
+          "numeric": [
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "value": 220,
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ],
+              "unit": "evacuees"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "value": true,
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ]
+            },
+            {
+              "topic": "weather_tracking_protocol_enabled",
+              "label": "Heavy-weather sea state tracking protocol active",
+              "aliases": [
+                "Sea state monitoring enablement",
+                "Dynamic wave and swell monitoring"
+              ]
+            },
+            {
+              "topic": "ice_pilot_escort_delay",
+              "label": "Ice-pilot escort transit delay",
+              "aliases": [
+                "Escort transit delay",
+                "Pilot rendezvous delay"
+              ]
+            },
+            {
+              "topic": "shore_trauma_bays",
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ]
+            },
+            {
+              "topic": "environmental_agency_signoff",
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ]
+            },
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ]
+            },
+            {
+              "topic": "auxiliary_air_hoist_throughput",
+              "label": "Auxiliary airborne hoist throughput",
+              "aliases": [
+                "Air hoist throughput",
+                "Rotary-wing extraction capacity"
+              ]
+            },
+            {
+              "topic": "municipal_quarantine_reserve",
+              "label": "Municipal quarantine reserve capacity",
+              "aliases": [
+                "Quarantine bed reservation",
+                "Infectious disease isolation quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Coastal environmental protection officer (CEPO)",
+          "target_key": "CEPO-ECOSIGN-G8U",
+          "alternate_key": "CEPO-ECOSIGN-U3A",
+          "target_context": "production environment",
+          "alternate_context": "test sandbox environment",
+          "candidate": "Disko Bay Southern Deepwater Channel",
+          "other_candidates": [
+            "Vaigat Strait Western Passage",
+            "Uummannaq Sound Outer Fairway"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "environmental_agency_signoff",
+              "value": true,
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ]
+            },
+            {
+              "topic": "weather_tracking_protocol_enabled",
+              "label": "Heavy-weather sea state tracking protocol active",
+              "aliases": [
+                "Sea state monitoring enablement",
+                "Dynamic wave and swell monitoring"
+              ]
+            },
+            {
+              "topic": "ice_pilot_escort_delay",
+              "label": "Ice-pilot escort transit delay",
+              "aliases": [
+                "Escort transit delay",
+                "Pilot rendezvous delay"
+              ]
+            },
+            {
+              "topic": "shore_trauma_bays",
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ]
+            },
+            {
+              "topic": "environmental_agency_signoff",
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ]
+            },
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ]
+            },
+            {
+              "topic": "auxiliary_air_hoist_throughput",
+              "label": "Auxiliary airborne hoist throughput",
+              "aliases": [
+                "Air hoist throughput",
+                "Rotary-wing extraction capacity"
+              ]
+            },
+            {
+              "topic": "municipal_quarantine_reserve",
+              "label": "Municipal quarantine reserve capacity",
+              "aliases": [
+                "Quarantine bed reservation",
+                "Infectious disease isolation quota"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "maritime_rescue_liaison",
+        "coastal_protection_inspector",
+        "medical_evacuation_director"
+      ],
+      "role_names": [
+        "Maritime rescue coordination officer (MRCO)",
+        "Coastal environmental protection officer (CEPO)",
+        "Regional medical evacuation coordinator (RMEC)"
+      ],
+      "directory": "number_expansion/misaligned/task_322/k3",
+      "error_profiles": [
+        {
+          "role_name": "Maritime rescue coordination officer (MRCO)",
+          "target_key": "MRCO-ACCRED-3WK",
+          "alternate_key": "MRCO-BEACON-MBC",
+          "target_context": "before deducting onboard safety escort reserves",
+          "alternate_context": "after deducting onboard safety escort reserves",
+          "candidate": "Disko Bay Southern Deepwater Channel",
+          "other_candidates": [
+            "Vaigat Strait Western Passage",
+            "Uummannaq Sound Outer Fairway"
+          ],
+          "numeric": [
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "value": 220,
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ],
+              "unit": "evacuees"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "value": true,
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ]
+            },
+            {
+              "topic": "weather_tracking_protocol_enabled",
+              "label": "Heavy-weather sea state tracking protocol active",
+              "aliases": [
+                "Sea state monitoring enablement",
+                "Dynamic wave and swell monitoring"
+              ]
+            },
+            {
+              "topic": "ice_pilot_escort_delay",
+              "label": "Ice-pilot escort transit delay",
+              "aliases": [
+                "Escort transit delay",
+                "Pilot rendezvous delay"
+              ]
+            },
+            {
+              "topic": "shore_trauma_bays",
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ]
+            },
+            {
+              "topic": "environmental_agency_signoff",
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ]
+            },
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ]
+            },
+            {
+              "topic": "auxiliary_air_hoist_throughput",
+              "label": "Auxiliary airborne hoist throughput",
+              "aliases": [
+                "Air hoist throughput",
+                "Rotary-wing extraction capacity"
+              ]
+            },
+            {
+              "topic": "municipal_quarantine_reserve",
+              "label": "Municipal quarantine reserve capacity",
+              "aliases": [
+                "Quarantine bed reservation",
+                "Infectious disease isolation quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Coastal environmental protection officer (CEPO)",
+          "target_key": "CEPO-ECOSIGN-G8U",
+          "alternate_key": "CEPO-ECOSIGN-U3A",
+          "target_context": "production environment",
+          "alternate_context": "test sandbox environment",
+          "candidate": "Disko Bay Southern Deepwater Channel",
+          "other_candidates": [
+            "Vaigat Strait Western Passage",
+            "Uummannaq Sound Outer Fairway"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "environmental_agency_signoff",
+              "value": true,
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ]
+            },
+            {
+              "topic": "weather_tracking_protocol_enabled",
+              "label": "Heavy-weather sea state tracking protocol active",
+              "aliases": [
+                "Sea state monitoring enablement",
+                "Dynamic wave and swell monitoring"
+              ]
+            },
+            {
+              "topic": "ice_pilot_escort_delay",
+              "label": "Ice-pilot escort transit delay",
+              "aliases": [
+                "Escort transit delay",
+                "Pilot rendezvous delay"
+              ]
+            },
+            {
+              "topic": "shore_trauma_bays",
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ]
+            },
+            {
+              "topic": "environmental_agency_signoff",
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ]
+            },
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ]
+            },
+            {
+              "topic": "auxiliary_air_hoist_throughput",
+              "label": "Auxiliary airborne hoist throughput",
+              "aliases": [
+                "Air hoist throughput",
+                "Rotary-wing extraction capacity"
+              ]
+            },
+            {
+              "topic": "municipal_quarantine_reserve",
+              "label": "Municipal quarantine reserve capacity",
+              "aliases": [
+                "Quarantine bed reservation",
+                "Infectious disease isolation quota"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Regional medical evacuation coordinator (RMEC)",
+          "target_key": "RMEC-TRAUMA-AJW",
+          "alternate_key": "RMEC-TRAUMA-OKS",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Disko Bay Southern Deepwater Channel",
+          "other_candidates": [
+            "Vaigat Strait Western Passage",
+            "Uummannaq Sound Outer Fairway"
+          ],
+          "numeric": [
+            {
+              "topic": "shore_trauma_bays",
+              "value": 12,
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ],
+              "unit": "bays"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "jrcc_mutual_aid_accredited",
+              "label": "JRCC mutual-aid accreditation",
+              "aliases": [
+                "Danish JRCC accreditation",
+                "Joint rescue coordination accreditation"
+              ]
+            },
+            {
+              "topic": "weather_tracking_protocol_enabled",
+              "label": "Heavy-weather sea state tracking protocol active",
+              "aliases": [
+                "Sea state monitoring enablement",
+                "Dynamic wave and swell monitoring"
+              ]
+            },
+            {
+              "topic": "ice_pilot_escort_delay",
+              "label": "Ice-pilot escort transit delay",
+              "aliases": [
+                "Escort transit delay",
+                "Pilot rendezvous delay"
+              ]
+            },
+            {
+              "topic": "shore_trauma_bays",
+              "label": "Shore-based trauma stabilization bays",
+              "aliases": [
+                "Trauma bays",
+                "Stabilization beds"
+              ]
+            },
+            {
+              "topic": "environmental_agency_signoff",
+              "label": "Environmental sensitivity sign-off",
+              "aliases": [
+                "Greenland environmental agency clearance",
+                "Ecological transit permit"
+              ]
+            },
+            {
+              "topic": "baseline_vessel_evac_capacity",
+              "label": "Baseline vessel transfer capacity",
+              "aliases": [
+                "Vessel evacuation capacity",
+                "Marine transfer quota"
+              ]
+            },
+            {
+              "topic": "auxiliary_air_hoist_throughput",
+              "label": "Auxiliary airborne hoist throughput",
+              "aliases": [
+                "Air hoist throughput",
+                "Rotary-wing extraction capacity"
+              ]
+            },
+            {
+              "topic": "municipal_quarantine_reserve",
+              "label": "Municipal quarantine reserve capacity",
+              "aliases": [
+                "Quarantine bed reservation",
+                "Infectious disease isolation quota"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

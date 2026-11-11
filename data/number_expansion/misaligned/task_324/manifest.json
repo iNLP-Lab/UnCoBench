@@ -1,0 +1,555 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_324",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "alpine_safety",
+        "environmental_protection"
+      ],
+      "role_names": [
+        "Alpine Safety Specialist (SAFE)",
+        "Environmental Compliance Officer (ENV)"
+      ],
+      "directory": "number_expansion/misaligned/task_324/k2",
+      "error_profiles": [
+        {
+          "role_name": "Alpine Safety Specialist (SAFE)",
+          "target_key": "SAFE-RISK-QQP",
+          "alternate_key": "SAFE-RISK-KRP",
+          "target_context": "France",
+          "alternate_context": "Germany",
+          "candidate": "Col du Dôme Saddle Platform",
+          "other_candidates": [
+            "Plateau Rosa Icefield Base",
+            "Morteratsch Glacier Moraine Camp"
+          ],
+          "numeric": [
+            {
+              "topic": "avalanche_hazard_index",
+              "value": 2,
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ],
+              "unit": "1"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "firn_integrity_validated",
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ]
+            },
+            {
+              "topic": "ice_flow_velocity",
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ]
+            },
+            {
+              "topic": "crevasse_radar_cleared",
+              "label": "Crevasse radar field validation",
+              "aliases": [
+                "Subsurface crevasse radar clearance",
+                "Ground penetrating radar crevasse check"
+              ]
+            },
+            {
+              "topic": "avalanche_hazard_index",
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ]
+            },
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ]
+            },
+            {
+              "topic": "terrain_slope_angle",
+              "label": "Maximum terrain slope",
+              "aliases": [
+                "Ground slope inclination",
+                "Camp pad slope angle"
+              ]
+            },
+            {
+              "topic": "medevac_lz_cleared",
+              "label": "Emergency medevac landing zone clearance",
+              "aliases": [
+                "Helicopter medevac LZ clearance",
+                "Emergency landing site confirmation"
+              ]
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ]
+            },
+            {
+              "topic": "power_consumption_rate",
+              "label": "Power consumption rate per shift",
+              "aliases": [
+                "Drill electrical consumption per shift",
+                "Shift power demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-ECO-OYH",
+          "alternate_key": "ENV-ECO-8MS",
+          "target_context": "including drill fluid runoff",
+          "alternate_context": "excluding drill fluid runoff",
+          "candidate": "Col du Dôme Saddle Platform",
+          "other_candidates": [
+            "Plateau Rosa Icefield Base",
+            "Morteratsch Glacier Moraine Camp"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "value": true,
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "firn_integrity_validated",
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ]
+            },
+            {
+              "topic": "ice_flow_velocity",
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ]
+            },
+            {
+              "topic": "crevasse_radar_cleared",
+              "label": "Crevasse radar field validation",
+              "aliases": [
+                "Subsurface crevasse radar clearance",
+                "Ground penetrating radar crevasse check"
+              ]
+            },
+            {
+              "topic": "avalanche_hazard_index",
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ]
+            },
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ]
+            },
+            {
+              "topic": "terrain_slope_angle",
+              "label": "Maximum terrain slope",
+              "aliases": [
+                "Ground slope inclination",
+                "Camp pad slope angle"
+              ]
+            },
+            {
+              "topic": "medevac_lz_cleared",
+              "label": "Emergency medevac landing zone clearance",
+              "aliases": [
+                "Helicopter medevac LZ clearance",
+                "Emergency landing site confirmation"
+              ]
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ]
+            },
+            {
+              "topic": "power_consumption_rate",
+              "label": "Power consumption rate per shift",
+              "aliases": [
+                "Drill electrical consumption per shift",
+                "Shift power demand"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "alpine_safety",
+        "environmental_protection",
+        "glaciology_science"
+      ],
+      "role_names": [
+        "Alpine Safety Specialist (SAFE)",
+        "Environmental Compliance Officer (ENV)",
+        "Glaciology Science Lead (GLAC)"
+      ],
+      "directory": "number_expansion/misaligned/task_324/k3",
+      "error_profiles": [
+        {
+          "role_name": "Alpine Safety Specialist (SAFE)",
+          "target_key": "SAFE-RISK-QQP",
+          "alternate_key": "SAFE-RISK-KRP",
+          "target_context": "France",
+          "alternate_context": "Germany",
+          "candidate": "Col du Dôme Saddle Platform",
+          "other_candidates": [
+            "Plateau Rosa Icefield Base",
+            "Morteratsch Glacier Moraine Camp"
+          ],
+          "numeric": [
+            {
+              "topic": "avalanche_hazard_index",
+              "value": 2,
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ],
+              "unit": "1"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "firn_integrity_validated",
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ]
+            },
+            {
+              "topic": "ice_flow_velocity",
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ]
+            },
+            {
+              "topic": "crevasse_radar_cleared",
+              "label": "Crevasse radar field validation",
+              "aliases": [
+                "Subsurface crevasse radar clearance",
+                "Ground penetrating radar crevasse check"
+              ]
+            },
+            {
+              "topic": "avalanche_hazard_index",
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ]
+            },
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ]
+            },
+            {
+              "topic": "terrain_slope_angle",
+              "label": "Maximum terrain slope",
+              "aliases": [
+                "Ground slope inclination",
+                "Camp pad slope angle"
+              ]
+            },
+            {
+              "topic": "medevac_lz_cleared",
+              "label": "Emergency medevac landing zone clearance",
+              "aliases": [
+                "Helicopter medevac LZ clearance",
+                "Emergency landing site confirmation"
+              ]
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ]
+            },
+            {
+              "topic": "power_consumption_rate",
+              "label": "Power consumption rate per shift",
+              "aliases": [
+                "Drill electrical consumption per shift",
+                "Shift power demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "target_key": "ENV-ECO-OYH",
+          "alternate_key": "ENV-ECO-8MS",
+          "target_context": "including drill fluid runoff",
+          "alternate_context": "excluding drill fluid runoff",
+          "candidate": "Col du Dôme Saddle Platform",
+          "other_candidates": [
+            "Plateau Rosa Icefield Base",
+            "Morteratsch Glacier Moraine Camp"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "value": true,
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "firn_integrity_validated",
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ]
+            },
+            {
+              "topic": "ice_flow_velocity",
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ]
+            },
+            {
+              "topic": "crevasse_radar_cleared",
+              "label": "Crevasse radar field validation",
+              "aliases": [
+                "Subsurface crevasse radar clearance",
+                "Ground penetrating radar crevasse check"
+              ]
+            },
+            {
+              "topic": "avalanche_hazard_index",
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ]
+            },
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ]
+            },
+            {
+              "topic": "terrain_slope_angle",
+              "label": "Maximum terrain slope",
+              "aliases": [
+                "Ground slope inclination",
+                "Camp pad slope angle"
+              ]
+            },
+            {
+              "topic": "medevac_lz_cleared",
+              "label": "Emergency medevac landing zone clearance",
+              "aliases": [
+                "Helicopter medevac LZ clearance",
+                "Emergency landing site confirmation"
+              ]
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ]
+            },
+            {
+              "topic": "power_consumption_rate",
+              "label": "Power consumption rate per shift",
+              "aliases": [
+                "Drill electrical consumption per shift",
+                "Shift power demand"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Glaciology Science Lead (GLAC)",
+          "target_key": "GLAC-CORE-NX0",
+          "alternate_key": "GLAC-CORE-UEF",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Col du Dôme Saddle Platform",
+          "other_candidates": [
+            "Plateau Rosa Icefield Base",
+            "Morteratsch Glacier Moraine Camp"
+          ],
+          "numeric": [
+            {
+              "topic": "ice_flow_velocity",
+              "value": 15,
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ],
+              "unit": "m/a"
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "value": 40,
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ],
+              "unit": "shift"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "firn_integrity_validated",
+              "value": true,
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "firn_integrity_validated",
+              "label": "Firn core depth integrity validated",
+              "aliases": [
+                "Firn integrity validation",
+                "Core depth stratification verification"
+              ]
+            },
+            {
+              "topic": "ice_flow_velocity",
+              "label": "Annual ice flow velocity",
+              "aliases": [
+                "Ice flow displacement rate",
+                "Glacier surface horizontal velocity"
+              ]
+            },
+            {
+              "topic": "crevasse_radar_cleared",
+              "label": "Crevasse radar field validation",
+              "aliases": [
+                "Subsurface crevasse radar clearance",
+                "Ground penetrating radar crevasse check"
+              ]
+            },
+            {
+              "topic": "avalanche_hazard_index",
+              "label": "Avalanche hazard index",
+              "aliases": [
+                "Camp exposure avalanche rating",
+                "Avalanche danger grade"
+              ]
+            },
+            {
+              "topic": "greywater_zero_discharge_certified",
+              "label": "Zero-discharge greywater certification",
+              "aliases": [
+                "Greywater containment certificate",
+                "Wastewater zero-discharge signoff"
+              ]
+            },
+            {
+              "topic": "terrain_slope_angle",
+              "label": "Maximum terrain slope",
+              "aliases": [
+                "Ground slope inclination",
+                "Camp pad slope angle"
+              ]
+            },
+            {
+              "topic": "medevac_lz_cleared",
+              "label": "Emergency medevac landing zone clearance",
+              "aliases": [
+                "Helicopter medevac LZ clearance",
+                "Emergency landing site confirmation"
+              ]
+            },
+            {
+              "topic": "planned_drilling_shifts",
+              "label": "Planned drilling operational shifts",
+              "aliases": [
+                "Operational drilling shifts",
+                "Planned core retrieval shifts"
+              ]
+            },
+            {
+              "topic": "power_consumption_rate",
+              "label": "Power consumption rate per shift",
+              "aliases": [
+                "Drill electrical consumption per shift",
+                "Shift power demand"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

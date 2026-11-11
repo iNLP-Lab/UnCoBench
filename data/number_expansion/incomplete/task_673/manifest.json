@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_673",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health_director",
+        "hydrological_hazard_analyst"
+      ],
+      "role_names": [
+        "Public health director (PHD)",
+        "Hydrological hazard analyst (HHA)"
+      ],
+      "directory": "incomplete/task_673",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_director_A",
+          "role_id": "public_health_director",
+          "candidate_id": "A",
+          "key": "PHD-MED-HK3",
+          "boolean_predicate_id": "A_decontamination_ready",
+          "boolean_label": "Decontamination bay operational readiness",
+          "hidden_predicate_id": "A_filtration_turnover_rate",
+          "threshold_label": "Air filtration turnover rate",
+          "threshold_aliases": [
+            "Air exchange rate",
+            "HVAC turnover rate"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "ACH",
+          "partial_record_text": "PHD-MED-HK3: Pine Valley Regional Exposition Center.Pine Valley Regional Exposition Center: Emergency medical triage certification = true .Source: State emergency medical services authority inspection; Scope: Candidate reception facility clinical intake zone; Measurement: Formal validation of Level-2 disaster medical triage post designation.Pine Valley Regional Exposition Center: Decontamination bay operational readiness = true .Source: Environmental health and biohazard inspection log; Scope: External covered mass wash-down and runoff containment enclosure; Measurement: Whether pressurized wash stations and wastewater isolation valves are fully operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Air filtration turnover rate is at most 30 ACH.",
+          "role_name": "Public health director (PHD)",
+          "candidate_name": "Pine Valley Regional Exposition Center",
+          "other_candidate_names": [
+            "Crestview Agricultural Logistics Hub",
+            "Oakridge Multimodal Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrological_hazard_analyst_A",
+          "role_id": "hydrological_hazard_analyst",
+          "candidate_id": "A",
+          "key": "HHA-SURGE-WC0",
+          "hidden_predicate_id": "A_setback_elevation",
+          "threshold_label": "Storm-surge flood zone setback elevation",
+          "threshold_aliases": [
+            "Flood margin elevation",
+            "Surge setback height"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m",
+          "partial_record_text": "HHA-SURGE-WC0: Pine Valley Regional Exposition Center. The record covers Storm-surge flood zone setback elevation. Geodetic survey benchmark register; Finished floor elevation of lowest operational intake portal above Category 5 maximum surge line; Surveyed vertical clearance above projected peak astronomical tide and Category 5 storm-surge inland run-up.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Storm-surge flood zone setback elevation is at most 40 m.",
+          "role_name": "Hydrological hazard analyst (HHA)",
+          "candidate_name": "Pine Valley Regional Exposition Center",
+          "other_candidate_names": [
+            "Crestview Agricultural Logistics Hub",
+            "Oakridge Multimodal Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health_director",
+        "hydrological_hazard_analyst",
+        "facility_infrastructure_engineer"
+      ],
+      "role_names": [
+        "Public health director (PHD)",
+        "Hydrological hazard analyst (HHA)",
+        "Facility infrastructure engineer (FIE)"
+      ],
+      "directory": "incomplete/task_673",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_director_A",
+          "role_id": "public_health_director",
+          "candidate_id": "A",
+          "key": "PHD-MED-HK3",
+          "boolean_predicate_id": "A_decontamination_ready",
+          "boolean_label": "Decontamination bay operational readiness",
+          "hidden_predicate_id": "A_filtration_turnover_rate",
+          "threshold_label": "Air filtration turnover rate",
+          "threshold_aliases": [
+            "Air exchange rate",
+            "HVAC turnover rate"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "ACH",
+          "partial_record_text": "PHD-MED-HK3: Pine Valley Regional Exposition Center.Pine Valley Regional Exposition Center: Emergency medical triage certification = true .Source: State emergency medical services authority inspection; Scope: Candidate reception facility clinical intake zone; Measurement: Formal validation of Level-2 disaster medical triage post designation.Pine Valley Regional Exposition Center: Decontamination bay operational readiness = true .Source: Environmental health and biohazard inspection log; Scope: External covered mass wash-down and runoff containment enclosure; Measurement: Whether pressurized wash stations and wastewater isolation valves are fully operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Air filtration turnover rate is at most 30 ACH.",
+          "role_name": "Public health director (PHD)",
+          "candidate_name": "Pine Valley Regional Exposition Center",
+          "other_candidate_names": [
+            "Crestview Agricultural Logistics Hub",
+            "Oakridge Multimodal Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrological_hazard_analyst_A",
+          "role_id": "hydrological_hazard_analyst",
+          "candidate_id": "A",
+          "key": "HHA-SURGE-WC0",
+          "hidden_predicate_id": "A_setback_elevation",
+          "threshold_label": "Storm-surge flood zone setback elevation",
+          "threshold_aliases": [
+            "Flood margin elevation",
+            "Surge setback height"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "m",
+          "partial_record_text": "HHA-SURGE-WC0: Pine Valley Regional Exposition Center. The record covers Storm-surge flood zone setback elevation. Geodetic survey benchmark register; Finished floor elevation of lowest operational intake portal above Category 5 maximum surge line; Surveyed vertical clearance above projected peak astronomical tide and Category 5 storm-surge inland run-up.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Storm-surge flood zone setback elevation is at most 40 m.",
+          "role_name": "Hydrological hazard analyst (HHA)",
+          "candidate_name": "Pine Valley Regional Exposition Center",
+          "other_candidate_names": [
+            "Crestview Agricultural Logistics Hub",
+            "Oakridge Multimodal Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_infrastructure_engineer_A",
+          "role_id": "facility_infrastructure_engineer",
+          "candidate_id": "A",
+          "key": "FIE-HVAC-NRA",
+          "hidden_predicate_id": "A_acute_care_intake_rate",
+          "threshold_label": "Acute care receiving capacity",
+          "threshold_aliases": [
+            "Acute medical intake rate",
+            "Emergency clinical receiving rate"
+          ],
+          "threshold_value": 550,
+          "threshold_unit": "person/day",
+          "partial_record_text": "FIE-HVAC-NRA: Pine Valley Regional Exposition Center. The record covers Acute care receiving capacity. Record context: 7-day sustained average. Surge healthcare facility assessment; Fitted clinical intake bays with medical oxygen drops and monitoring monitors; Maximum sustained daily intake volume of non-ambulatory or high-acuity evacuees.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 1000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Acute care receiving capacity is at most 1000 person/day.",
+          "role_name": "Facility infrastructure engineer (FIE)",
+          "candidate_name": "Pine Valley Regional Exposition Center",
+          "other_candidate_names": [
+            "Crestview Agricultural Logistics Hub",
+            "Oakridge Multimodal Sports Arena"
+          ],
+          "context_value": "7-day sustained average",
+          "other_context_values": [
+            "peak single-day surge"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

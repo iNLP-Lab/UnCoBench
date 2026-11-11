@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_122",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "humanitarian_cargo"
+      ],
+      "role_names": [
+        "Flight operations superintendent (FLTOPS)",
+        "Humanitarian cargo coordinator (CARGO)"
+      ],
+      "directory": "incomplete/task_122",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-NAV-3HY",
+          "boolean_predicate_id": "A_night_approach_certified",
+          "boolean_label": "Instrument night approach cleared",
+          "hidden_predicate_id": "A_turnaround_time_mins",
+          "threshold_label": "En-route turnaround time",
+          "threshold_aliases": [
+            "Airfield transit turnaround duration",
+            "Turnaround window"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "FLTOPS-NAV-3HY: Karakoram Northern High-Pass Corridor.Karakoram Northern High-Pass Corridor: Instrument night approach cleared = true .Source: State civil aviation authority flight supplement; Scope: Air relief corridor descent and departure profiles; Measurement: Certification status for Category II performance-based navigation night approaches.Karakoram Northern High-Pass Corridor: Daily flight frequency = 6 sortie/d.Source: Humanitarian airlift slot allocation register; Scope: Candidate relief corridor 24-hour cycle; Measurement: Approved maximum transport aircraft sorties per calendar day.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "En-route turnaround time is between 20 min and 80 min, inclusive.",
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "candidate_name": "Karakoram Northern High-Pass Corridor",
+          "other_candidate_names": [
+            "Pamir Western Valley Transit Corridor",
+            "Hindukush Southern Ridge Air Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_humanitarian_cargo_A",
+          "role_id": "humanitarian_cargo",
+          "candidate_id": "A",
+          "key": "CARGO-UPLIFT-DPA",
+          "hidden_predicate_id": "A_net_payload_per_sortie",
+          "threshold_label": "Average net cargo payload per sortie",
+          "threshold_aliases": [
+            "Mean sortie freight payload",
+            "Net payload mass"
+          ],
+          "threshold_value": 32,
+          "threshold_unit": "t/sortie",
+          "partial_record_text": "CARGO-UPLIFT-DPA: Karakoram Northern High-Pass Corridor. The record covers Average net cargo payload per sortie. Airlift payload configuration engineering report; Tactical airlifter cargo hold under high-density altitude constraints; Average usable humanitarian cargo payload per dispatched sortie.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Average net cargo payload per sortie is between 0 t/sortie and 50 t/sortie, inclusive.",
+          "role_name": "Humanitarian cargo coordinator (CARGO)",
+          "candidate_name": "Karakoram Northern High-Pass Corridor",
+          "other_candidate_names": [
+            "Pamir Western Valley Transit Corridor",
+            "Hindukush Southern Ridge Air Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "humanitarian_cargo",
+        "air_traffic_safety"
+      ],
+      "role_names": [
+        "Flight operations superintendent (FLTOPS)",
+        "Humanitarian cargo coordinator (CARGO)",
+        "Air traffic safety inspector (ATCSAFE)"
+      ],
+      "directory": "number_expansion/incomplete/task_122/k3",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-NAV-3HY",
+          "boolean_predicate_id": "A_night_approach_certified",
+          "boolean_label": "Instrument night approach cleared",
+          "hidden_predicate_id": "A_turnaround_time_mins",
+          "threshold_label": "En-route turnaround time",
+          "threshold_aliases": [
+            "Airfield transit turnaround duration",
+            "Turnaround window"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "min",
+          "partial_record_text": "FLTOPS-NAV-3HY: Karakoram Northern High-Pass Corridor.Karakoram Northern High-Pass Corridor: Instrument night approach cleared = true .Source: State civil aviation authority flight supplement; Scope: Air relief corridor descent and departure profiles; Measurement: Certification status for Category II performance-based navigation night approaches.Karakoram Northern High-Pass Corridor: Daily flight frequency = 6 sortie/d.Source: Humanitarian airlift slot allocation register; Scope: Candidate relief corridor 24-hour cycle; Measurement: Approved maximum transport aircraft sorties per calendar day.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 80
+          },
+          "coarse_statement": "En-route turnaround time is between 20 min and 80 min, inclusive.",
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "candidate_name": "Karakoram Northern High-Pass Corridor",
+          "other_candidate_names": [
+            "Pamir Western Valley Transit Corridor",
+            "Hindukush Southern Ridge Air Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_humanitarian_cargo_A",
+          "role_id": "humanitarian_cargo",
+          "candidate_id": "A",
+          "key": "CARGO-UPLIFT-DPA",
+          "hidden_predicate_id": "A_net_payload_per_sortie",
+          "threshold_label": "Average net cargo payload per sortie",
+          "threshold_aliases": [
+            "Mean sortie freight payload",
+            "Net payload mass"
+          ],
+          "threshold_value": 32,
+          "threshold_unit": "t/sortie",
+          "partial_record_text": "CARGO-UPLIFT-DPA: Karakoram Northern High-Pass Corridor. The record covers Average net cargo payload per sortie. Airlift payload configuration engineering report; Tactical airlifter cargo hold under high-density altitude constraints; Average usable humanitarian cargo payload per dispatched sortie.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Average net cargo payload per sortie is between 0 t/sortie and 50 t/sortie, inclusive.",
+          "role_name": "Humanitarian cargo coordinator (CARGO)",
+          "candidate_name": "Karakoram Northern High-Pass Corridor",
+          "other_candidate_names": [
+            "Pamir Western Valley Transit Corridor",
+            "Hindukush Southern Ridge Air Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_air_traffic_safety_A_supplemental",
+          "role_id": "air_traffic_safety",
+          "candidate_id": "A",
+          "key": "ATCSAFE-MET-QMD",
+          "hidden_predicate_id": "A_supplemental_air_traffic_safety",
+          "threshold_label": "Mountain pass crosswind gust velocity",
+          "threshold_aliases": [],
+          "threshold_value": 38,
+          "threshold_unit": "kn",
+          "partial_record_text": "ATCSAFE-MET-QMD: Karakoram Northern High-Pass Corridor. The record covers Mountain pass crosswind gust velocity. High-altitude automated weather station logs; Critical ridgeline intersection; Peak horizontal wind gust speed measured over 10-minute intervals.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Mountain pass crosswind gust velocity is between 10 kn and 70 kn, inclusive.",
+          "role_name": "Air traffic safety inspector (ATCSAFE)",
+          "candidate_name": "Karakoram Northern High-Pass Corridor",
+          "other_candidate_names": [
+            "Pamir Western Valley Transit Corridor",
+            "Hindukush Southern Ridge Air Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_air_traffic_safety",
+        "topic_id": "supplemental_air_traffic_safety",
+        "operator": "gte",
+        "threshold": 25,
+        "role_id": "air_traffic_safety",
+        "metric": "Mountain pass crosswind gust velocity",
+        "unit": "kn",
+        "required_text": "To qualify, a candidate must also have Mountain pass crosswind gust velocity of at least 25 kn.",
+        "new_fault_record_key": "ATCSAFE-MET-QMD",
+        "exact_value": 38,
+        "first_reply": "Mountain pass crosswind gust velocity is between 10 kn and 70 kn, inclusive."
+      }
+    }
+  }
+}

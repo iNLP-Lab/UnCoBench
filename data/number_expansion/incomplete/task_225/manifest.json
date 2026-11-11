@@ -1,0 +1,169 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_225",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "utilities_engineer",
+        "fire_marshal"
+      ],
+      "role_names": [
+        "Municipal Utilities Infrastructure Director (MUD)",
+        "County Fire Marshal (CFM)"
+      ],
+      "directory": "incomplete/task_225",
+      "profiles": [
+        {
+          "record_id": "rec_utilities_engineer_A",
+          "role_id": "utilities_engineer",
+          "candidate_id": "A",
+          "key": "MUD-ENERG-DOO",
+          "boolean_predicate_id": "A_backup_microgrid_verified",
+          "boolean_label": "On-site backup microgrid power verification",
+          "hidden_predicate_id": "A_water_supply_endurance",
+          "threshold_label": "Dedicated water reserve duration",
+          "threshold_aliases": [
+            "Water supply autonomy duration",
+            "Emergency water reserve endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "MUD-ENERG-DOO: Crestview Regional Fairgrounds.Crestview Regional Fairgrounds: On-site backup microgrid power verification = true .Source: Grid resilience inspection record; Scope: Candidate site primary electrical switchgear; Measurement: Confirmed installation and switchgear integration of islanded microgrid.",
+          "role_name": "Municipal Utilities Infrastructure Director (MUD)",
+          "candidate_name": "Crestview Regional Fairgrounds",
+          "other_candidate_names": [
+            "Pine Valley Civic Auditorium",
+            "Highland Community Sportsplex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_marshal_A",
+          "role_id": "fire_marshal",
+          "candidate_id": "A",
+          "key": "CFM-DEFSP-8LC",
+          "hidden_predicate_id": "A_mandatory_reserve_quota",
+          "threshold_label": "Mandatory municipal reserve allocation",
+          "threshold_aliases": [
+            "Baseline emergency water allocation",
+            "Mandatory water baseline"
+          ],
+          "threshold_value": 60000,
+          "threshold_unit": "L",
+          "partial_record_text": "CFM-DEFSP-8LC: Crestview Regional Fairgrounds.Reserve calculation basis: after deducting dedicated hydrant suppression reserves.Crestview Regional Fairgrounds: Perimeter wildfire defensible space clearance = true .Source: Wildfire mitigation compliance certificate; Scope: Outer 100-meter safety zone surrounding candidate shelter facilities; Measurement: Formal sign-off confirming brush clearance and firebreak creation.",
+          "role_name": "County Fire Marshal (CFM)",
+          "candidate_name": "Crestview Regional Fairgrounds",
+          "other_candidate_names": [
+            "Pine Valley Civic Auditorium",
+            "Highland Community Sportsplex"
+          ],
+          "context_value": "after deducting dedicated hydrant suppression reserves",
+          "other_context_values": [
+            "before deducting dedicated hydrant suppression reserves"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "utilities_engineer",
+        "fire_marshal",
+        "water_authority"
+      ],
+      "role_names": [
+        "Municipal Utilities Infrastructure Director (MUD)",
+        "County Fire Marshal (CFM)",
+        "Regional Water Basin Authority Lead (RWA)"
+      ],
+      "directory": "incomplete/task_225",
+      "profiles": [
+        {
+          "record_id": "rec_utilities_engineer_A",
+          "role_id": "utilities_engineer",
+          "candidate_id": "A",
+          "key": "MUD-ENERG-DOO",
+          "boolean_predicate_id": "A_backup_microgrid_verified",
+          "boolean_label": "On-site backup microgrid power verification",
+          "hidden_predicate_id": "A_water_supply_endurance",
+          "threshold_label": "Dedicated water reserve duration",
+          "threshold_aliases": [
+            "Water supply autonomy duration",
+            "Emergency water reserve endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "MUD-ENERG-DOO: Crestview Regional Fairgrounds.Crestview Regional Fairgrounds: On-site backup microgrid power verification = true .Source: Grid resilience inspection record; Scope: Candidate site primary electrical switchgear; Measurement: Confirmed installation and switchgear integration of islanded microgrid.",
+          "role_name": "Municipal Utilities Infrastructure Director (MUD)",
+          "candidate_name": "Crestview Regional Fairgrounds",
+          "other_candidate_names": [
+            "Pine Valley Civic Auditorium",
+            "Highland Community Sportsplex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fire_marshal_A",
+          "role_id": "fire_marshal",
+          "candidate_id": "A",
+          "key": "CFM-DEFSP-8LC",
+          "hidden_predicate_id": "A_mandatory_reserve_quota",
+          "threshold_label": "Mandatory municipal reserve allocation",
+          "threshold_aliases": [
+            "Baseline emergency water allocation",
+            "Mandatory water baseline"
+          ],
+          "threshold_value": 60000,
+          "threshold_unit": "L",
+          "partial_record_text": "CFM-DEFSP-8LC: Crestview Regional Fairgrounds.Reserve calculation basis: after deducting dedicated hydrant suppression reserves.Crestview Regional Fairgrounds: Perimeter wildfire defensible space clearance = true .Source: Wildfire mitigation compliance certificate; Scope: Outer 100-meter safety zone surrounding candidate shelter facilities; Measurement: Formal sign-off confirming brush clearance and firebreak creation.",
+          "role_name": "County Fire Marshal (CFM)",
+          "candidate_name": "Crestview Regional Fairgrounds",
+          "other_candidate_names": [
+            "Pine Valley Civic Auditorium",
+            "Highland Community Sportsplex"
+          ],
+          "context_value": "after deducting dedicated hydrant suppression reserves",
+          "other_context_values": [
+            "before deducting dedicated hydrant suppression reserves"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_water_authority_A",
+          "role_id": "water_authority",
+          "candidate_id": "A",
+          "key": "RWA-WRES-5JE",
+          "hidden_predicate_id": "A_potable_storage_volume",
+          "threshold_label": "Dedicated potable water storage volume",
+          "threshold_aliases": [
+            "Dedicated potable water reserves",
+            "Shelter drinking water volume"
+          ],
+          "threshold_value": 300000,
+          "threshold_unit": "L",
+          "partial_record_text": "RWA-WRES-5JE: Crestview Regional Fairgrounds. The record covers Dedicated potable water storage volume. Water asset register; Enclosed food-grade storage tanks on site; Total volume of certified treated drinking water on standby.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 180000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Dedicated potable water storage volume is at least 180000 L.",
+          "role_name": "Regional Water Basin Authority Lead (RWA)",
+          "candidate_name": "Crestview Regional Fairgrounds",
+          "other_candidate_names": [
+            "Pine Valley Civic Auditorium",
+            "Highland Community Sportsplex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

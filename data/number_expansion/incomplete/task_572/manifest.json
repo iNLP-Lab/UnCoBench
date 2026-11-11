@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_572",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "meteorological_instrumentation",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Meteorological instrumentation engineer (METINS)",
+        "Flight operations superintendent (FLTOPS)"
+      ],
+      "directory": "incomplete/task_572",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_instrumentation_A",
+          "role_id": "meteorological_instrumentation",
+          "candidate_id": "A",
+          "key": "METINS-INSTR-I4T",
+          "boolean_predicate_id": "A_isokinetic_heating_enabled",
+          "boolean_label": "Isokinetic aerosol inlet heating enabled",
+          "hidden_predicate_id": "A_dropsonde_dispense_rate",
+          "threshold_label": "Dropsonde dispensing rate",
+          "threshold_aliases": [
+            "Sonde launch cadence",
+            "Automated drop frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "units/h",
+          "partial_record_text": "METINS-INSTR-I4T: High-Altitude Jet Profiling Detachment.High-Altitude Jet Profiling Detachment: Isokinetic aerosol inlet heating enabled = true .Source: Sample intake integration audit; Scope: Fuselage-mounted aerosol spectrometer sampling probes; Measurement: Active status of thermal anti-icing heating on the aerosol intake lip.High-Altitude Jet Profiling Detachment: Auxiliary pod payload capacity = 600 kg.Source: Underwing pylon structural certificate; Scope: External multi-instrument optical and radiometer pods; Measurement: Combined maximum instrument payload mass rating across all underwing pylon stations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 9
+          },
+          "coarse_statement": "Dropsonde dispensing rate is between 1 units/h and 9 units/h, inclusive.",
+          "role_name": "Meteorological instrumentation engineer (METINS)",
+          "candidate_name": "High-Altitude Jet Profiling Detachment",
+          "other_candidate_names": [
+            "Turboprop Low-Level Penetration Detachment",
+            "Heavy-Lift Long-Range Atmospheric Detachment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-FLTOP-I3S",
+          "hidden_predicate_id": "A_runway_takeoff_distance",
+          "threshold_label": "Runway take-off distance",
+          "threshold_aliases": [
+            "Take-off ground run requirement",
+            "Required runway length"
+          ],
+          "threshold_value": 2300,
+          "threshold_unit": "m",
+          "partial_record_text": "FLTOPS-FLTOP-I3S: High-Altitude Jet Profiling Detachment.High-Altitude Jet Profiling Detachment: Turbulence gust acceleration tolerance = 3.6 g.Source: Aeroelastic structural limit report; Scope: Severe convective boundary-layer flight envelope; Measurement: Certified vertical structural acceleration load factor before structural inspection criteria are triggered.High-Altitude Jet Profiling Detachment: Primary sensor payload capacity = 2600 kg.Source: Aircraft weight and balance manifest; Scope: Main cabin structural floor attachment points; Measurement: Maximum allowable payload mass allocated for primary scientific sensors and instrumentation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 4000
+          },
+          "coarse_statement": "Runway take-off distance is between 2000 m and 4000 m, inclusive.",
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "candidate_name": "High-Altitude Jet Profiling Detachment",
+          "other_candidate_names": [
+            "Turboprop Low-Level Penetration Detachment",
+            "Heavy-Lift Long-Range Atmospheric Detachment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "meteorological_instrumentation",
+        "flight_operations",
+        "telemetry_systems"
+      ],
+      "role_names": [
+        "Meteorological instrumentation engineer (METINS)",
+        "Flight operations superintendent (FLTOPS)",
+        "Scientific telemetry systems lead (TELMTR)"
+      ],
+      "directory": "incomplete/task_572",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_instrumentation_A",
+          "role_id": "meteorological_instrumentation",
+          "candidate_id": "A",
+          "key": "METINS-INSTR-I4T",
+          "boolean_predicate_id": "A_isokinetic_heating_enabled",
+          "boolean_label": "Isokinetic aerosol inlet heating enabled",
+          "hidden_predicate_id": "A_dropsonde_dispense_rate",
+          "threshold_label": "Dropsonde dispensing rate",
+          "threshold_aliases": [
+            "Sonde launch cadence",
+            "Automated drop frequency"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "units/h",
+          "partial_record_text": "METINS-INSTR-I4T: High-Altitude Jet Profiling Detachment.High-Altitude Jet Profiling Detachment: Isokinetic aerosol inlet heating enabled = true .Source: Sample intake integration audit; Scope: Fuselage-mounted aerosol spectrometer sampling probes; Measurement: Active status of thermal anti-icing heating on the aerosol intake lip.High-Altitude Jet Profiling Detachment: Auxiliary pod payload capacity = 600 kg.Source: Underwing pylon structural certificate; Scope: External multi-instrument optical and radiometer pods; Measurement: Combined maximum instrument payload mass rating across all underwing pylon stations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 9
+          },
+          "coarse_statement": "Dropsonde dispensing rate is between 1 units/h and 9 units/h, inclusive.",
+          "role_name": "Meteorological instrumentation engineer (METINS)",
+          "candidate_name": "High-Altitude Jet Profiling Detachment",
+          "other_candidate_names": [
+            "Turboprop Low-Level Penetration Detachment",
+            "Heavy-Lift Long-Range Atmospheric Detachment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-FLTOP-I3S",
+          "hidden_predicate_id": "A_runway_takeoff_distance",
+          "threshold_label": "Runway take-off distance",
+          "threshold_aliases": [
+            "Take-off ground run requirement",
+            "Required runway length"
+          ],
+          "threshold_value": 2300,
+          "threshold_unit": "m",
+          "partial_record_text": "FLTOPS-FLTOP-I3S: High-Altitude Jet Profiling Detachment.High-Altitude Jet Profiling Detachment: Turbulence gust acceleration tolerance = 3.6 g.Source: Aeroelastic structural limit report; Scope: Severe convective boundary-layer flight envelope; Measurement: Certified vertical structural acceleration load factor before structural inspection criteria are triggered.High-Altitude Jet Profiling Detachment: Primary sensor payload capacity = 2600 kg.Source: Aircraft weight and balance manifest; Scope: Main cabin structural floor attachment points; Measurement: Maximum allowable payload mass allocated for primary scientific sensors and instrumentation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 4000
+          },
+          "coarse_statement": "Runway take-off distance is between 2000 m and 4000 m, inclusive.",
+          "role_name": "Flight operations superintendent (FLTOPS)",
+          "candidate_name": "High-Altitude Jet Profiling Detachment",
+          "other_candidate_names": [
+            "Turboprop Low-Level Penetration Detachment",
+            "Heavy-Lift Long-Range Atmospheric Detachment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telemetry_systems_A",
+          "role_id": "telemetry_systems",
+          "candidate_id": "A",
+          "key": "TELMTR-TELEM-T19",
+          "hidden_predicate_id": "A_telemetry_rack_tare_weight",
+          "threshold_label": "Telemetry data-rack tare weight",
+          "threshold_aliases": [
+            "Avionics bus rack tare",
+            "Data acquisition rack tare mass"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "kg",
+          "partial_record_text": "TELMTR-TELEM-T19: High-Altitude Jet Profiling Detachment. The record covers Telemetry data-rack tare weight. Record context: trailing 30-day average. Central telemetry integration manifest; Permanent onboard data logging and satellite uplink cabinets; Unladen structural tare weight of data recording racks and power conditioning enclosures.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Telemetry data-rack tare weight is between 0 kg and 400 kg, inclusive.",
+          "role_name": "Scientific telemetry systems lead (TELMTR)",
+          "candidate_name": "High-Altitude Jet Profiling Detachment",
+          "other_candidate_names": [
+            "Turboprop Low-Level Penetration Detachment",
+            "Heavy-Lift Long-Range Atmospheric Detachment"
+          ],
+          "context_value": "trailing 30-day average",
+          "other_context_values": [
+            "trailing 12-month average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

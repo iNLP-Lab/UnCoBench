@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_255",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "security_command",
+        "power_engineering"
+      ],
+      "role_names": [
+        "Diplomatic Protection Commander (DPC)",
+        "Critical Utilities Superintendent (CUE)"
+      ],
+      "directory": "incomplete/task_255",
+      "profiles": [
+        {
+          "record_id": "rec_security_command_A",
+          "role_id": "security_command",
+          "candidate_id": "A",
+          "key": "DPC-PROT-BV2",
+          "boolean_predicate_id": "A_eod_protocol_active",
+          "boolean_label": "EOD sweep protocol established",
+          "hidden_predicate_id": "A_perimeter_standoff_distance",
+          "threshold_label": "Perimeter blast standoff distance",
+          "threshold_aliases": [
+            "Blast standoff buffer",
+            "Security setback distance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m",
+          "partial_record_text": "DPC-PROT-BV2: Pacific Crown Convention Centre.Pacific Crown Convention Centre: EOD sweep protocol established = true .Source: Joint protective service operations register; Scope: Entire venue perimeter, subterranean ducts, and service tunnels; Measurement: Confirmation that certified continuous canine and electronic EOD sweeps are operational.Pacific Crown Convention Centre: Restricted security corridor area = 850 m².Source: Protective service circulation blueprint; Scope: Secure VIP motorcade airlock and armed escort transit paths inside the plenary zone; Measurement: Total dedicated security buffer floor area unavailable for diplomatic delegation seating.",
+          "role_name": "Diplomatic Protection Commander (DPC)",
+          "candidate_name": "Pacific Crown Convention Centre",
+          "other_candidate_names": [
+            "Harbourview International Expo Centre",
+            "Montague Sovereign Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_engineering_A",
+          "role_id": "power_engineering",
+          "candidate_id": "A",
+          "key": "CUE-UTIL-2LR",
+          "hidden_predicate_id": "A_backup_power_runtime",
+          "threshold_label": "Emergency backup power runtime",
+          "threshold_aliases": [
+            "Generator fuel autonomy",
+            "Auxiliary power endurance"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "CUE-UTIL-2LR: Pacific Crown Convention Centre. The record covers Emergency backup power runtime. Emergency electrical commissioning certificate; Dedicated diesel generator plant and onsite bulk fuel storage; Continuous generator runtime supported at 100% full electrical emergency load.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 24,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Emergency backup power runtime is at least 24 h.",
+          "role_name": "Critical Utilities Superintendent (CUE)",
+          "candidate_name": "Pacific Crown Convention Centre",
+          "other_candidate_names": [
+            "Harbourview International Expo Centre",
+            "Montague Sovereign Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "security_command",
+        "power_engineering",
+        "facility_architecture"
+      ],
+      "role_names": [
+        "Diplomatic Protection Commander (DPC)",
+        "Critical Utilities Superintendent (CUE)",
+        "Architectural Facilities Director (ARC)"
+      ],
+      "directory": "incomplete/task_255",
+      "profiles": [
+        {
+          "record_id": "rec_security_command_A",
+          "role_id": "security_command",
+          "candidate_id": "A",
+          "key": "DPC-PROT-BV2",
+          "boolean_predicate_id": "A_eod_protocol_active",
+          "boolean_label": "EOD sweep protocol established",
+          "hidden_predicate_id": "A_perimeter_standoff_distance",
+          "threshold_label": "Perimeter blast standoff distance",
+          "threshold_aliases": [
+            "Blast standoff buffer",
+            "Security setback distance"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m",
+          "partial_record_text": "DPC-PROT-BV2: Pacific Crown Convention Centre.Pacific Crown Convention Centre: EOD sweep protocol established = true .Source: Joint protective service operations register; Scope: Entire venue perimeter, subterranean ducts, and service tunnels; Measurement: Confirmation that certified continuous canine and electronic EOD sweeps are operational.Pacific Crown Convention Centre: Restricted security corridor area = 850 m².Source: Protective service circulation blueprint; Scope: Secure VIP motorcade airlock and armed escort transit paths inside the plenary zone; Measurement: Total dedicated security buffer floor area unavailable for diplomatic delegation seating.",
+          "role_name": "Diplomatic Protection Commander (DPC)",
+          "candidate_name": "Pacific Crown Convention Centre",
+          "other_candidate_names": [
+            "Harbourview International Expo Centre",
+            "Montague Sovereign Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_engineering_A",
+          "role_id": "power_engineering",
+          "candidate_id": "A",
+          "key": "CUE-UTIL-2LR",
+          "hidden_predicate_id": "A_backup_power_runtime",
+          "threshold_label": "Emergency backup power runtime",
+          "threshold_aliases": [
+            "Generator fuel autonomy",
+            "Auxiliary power endurance"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "CUE-UTIL-2LR: Pacific Crown Convention Centre. The record covers Emergency backup power runtime. Emergency electrical commissioning certificate; Dedicated diesel generator plant and onsite bulk fuel storage; Continuous generator runtime supported at 100% full electrical emergency load.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 24,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Emergency backup power runtime is at least 24 h.",
+          "role_name": "Critical Utilities Superintendent (CUE)",
+          "candidate_name": "Pacific Crown Convention Centre",
+          "other_candidate_names": [
+            "Harbourview International Expo Centre",
+            "Montague Sovereign Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_architecture_A",
+          "role_id": "facility_architecture",
+          "candidate_id": "A",
+          "key": "ARC-SPEC-0N1",
+          "hidden_predicate_id": "A_total_plenary_area",
+          "threshold_label": "Total plenary floor area",
+          "threshold_aliases": [
+            "Gross plenary space",
+            "Assembly hall area"
+          ],
+          "threshold_value": 3200,
+          "threshold_unit": "m²",
+          "partial_record_text": "ARC-SPEC-0N1: Pacific Crown Convention Centre.Pacific Crown Convention Centre: Acoustic isolation certified = true .Source: Acoustic engineering inspection certificate; Scope: Plenary assembly chamber and bilateral negotiation salons; Measurement: Whether ambient attenuation satisfies STC 65 soundproofing requirements.",
+          "role_name": "Architectural Facilities Director (ARC)",
+          "candidate_name": "Pacific Crown Convention Centre",
+          "other_candidate_names": [
+            "Harbourview International Expo Centre",
+            "Montague Sovereign Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

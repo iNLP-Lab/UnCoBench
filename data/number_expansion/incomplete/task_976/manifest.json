@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_976",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "qa_lead",
+        "planning_lead"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Production planning lead (PLN)"
+      ],
+      "directory": "incomplete/task_976",
+      "profiles": [
+        {
+          "record_id": "rec_qa_lead_A",
+          "role_id": "qa_lead",
+          "candidate_id": "A",
+          "key": "QAL-STER-US2",
+          "boolean_predicate_id": "A_sterile_validation_active",
+          "boolean_label": "cGMP sterile validation certification active",
+          "hidden_predicate_id": "A_cleanroom_excursion_rate",
+          "threshold_label": "Cleanroom particulate excursion rate",
+          "threshold_aliases": [
+            "Aseptic core particulate excursions",
+            "Grade A particulate excursion frequency"
+          ],
+          "threshold_value": 1,
+          "threshold_unit": "incidents/1000h",
+          "partial_record_text": "QAL-STER-US2: AuraBio Sterile Solutions.AuraBio Sterile Solutions: cGMP sterile validation certification active = true .Source: Site validation master file; Scope: Candidate commercial aseptic filling line and barrier isolator system; Measurement: Current active validation status under EU cGMP Annex 1 and US FDA sterile drug guidelines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Cleanroom particulate excursion rate is at most 6 incidents/1000h.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "AuraBio Sterile Solutions",
+          "other_candidate_names": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_planning_lead_A",
+          "role_id": "planning_lead",
+          "candidate_id": "A",
+          "key": "PLN-SCHED-V77",
+          "hidden_predicate_id": "A_batch_release_lead_time",
+          "threshold_label": "Validated batch release lead time",
+          "threshold_aliases": [
+            "Quality release turnaround time",
+            "Batch release turnaround duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "d",
+          "partial_record_text": "PLN-SCHED-V77: AuraBio Sterile Solutions.AuraBio Sterile Solutions: Annual committed production volume = 300000 vial.Source: Annual commercial supply forecast agreement; Scope: Guaranteed annual aseptic manufacturing slot reservation for the commercial product; Measurement: Total contracted target volume of packaged drug vials per 12-month contract period.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Validated batch release lead time is at most 40 d.",
+          "role_name": "Production planning lead (PLN)",
+          "candidate_name": "AuraBio Sterile Solutions",
+          "other_candidate_names": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "qa_lead",
+        "planning_lead",
+        "procurement_lead"
+      ],
+      "role_names": [
+        "Quality assurance lead (QAL)",
+        "Production planning lead (PLN)",
+        "Commercial procurement lead (PROC)"
+      ],
+      "directory": "incomplete/task_976",
+      "profiles": [
+        {
+          "record_id": "rec_qa_lead_A",
+          "role_id": "qa_lead",
+          "candidate_id": "A",
+          "key": "QAL-STER-US2",
+          "boolean_predicate_id": "A_sterile_validation_active",
+          "boolean_label": "cGMP sterile validation certification active",
+          "hidden_predicate_id": "A_cleanroom_excursion_rate",
+          "threshold_label": "Cleanroom particulate excursion rate",
+          "threshold_aliases": [
+            "Aseptic core particulate excursions",
+            "Grade A particulate excursion frequency"
+          ],
+          "threshold_value": 1,
+          "threshold_unit": "incidents/1000h",
+          "partial_record_text": "QAL-STER-US2: AuraBio Sterile Solutions.AuraBio Sterile Solutions: cGMP sterile validation certification active = true .Source: Site validation master file; Scope: Candidate commercial aseptic filling line and barrier isolator system; Measurement: Current active validation status under EU cGMP Annex 1 and US FDA sterile drug guidelines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Cleanroom particulate excursion rate is at most 6 incidents/1000h.",
+          "role_name": "Quality assurance lead (QAL)",
+          "candidate_name": "AuraBio Sterile Solutions",
+          "other_candidate_names": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_planning_lead_A",
+          "role_id": "planning_lead",
+          "candidate_id": "A",
+          "key": "PLN-SCHED-V77",
+          "hidden_predicate_id": "A_batch_release_lead_time",
+          "threshold_label": "Validated batch release lead time",
+          "threshold_aliases": [
+            "Quality release turnaround time",
+            "Batch release turnaround duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "d",
+          "partial_record_text": "PLN-SCHED-V77: AuraBio Sterile Solutions.AuraBio Sterile Solutions: Annual committed production volume = 300000 vial.Source: Annual commercial supply forecast agreement; Scope: Guaranteed annual aseptic manufacturing slot reservation for the commercial product; Measurement: Total contracted target volume of packaged drug vials per 12-month contract period.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Validated batch release lead time is at most 40 d.",
+          "role_name": "Production planning lead (PLN)",
+          "candidate_name": "AuraBio Sterile Solutions",
+          "other_candidate_names": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_procurement_lead_A",
+          "role_id": "procurement_lead",
+          "candidate_id": "A",
+          "key": "PROC-PRIC-4PT",
+          "hidden_predicate_id": "A_unit_processing_fee",
+          "threshold_label": "Unit fill-finish processing fee",
+          "threshold_aliases": [
+            "Vial processing unit cost",
+            "Base unit fill-finish charge"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "USD/vial",
+          "partial_record_text": "PROC-PRIC-4PT: AuraBio Sterile Solutions. The record covers Unit fill-finish processing fee. Record context: trailing 12-month average. Master manufacturing commercial fee schedule; Candidate primary aseptic filling, stoppering, and capping service agreement; Fixed contractual processing fee per acceptable inspected finished vial.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Unit fill-finish processing fee is at most 40 USD/vial.",
+          "role_name": "Commercial procurement lead (PROC)",
+          "candidate_name": "AuraBio Sterile Solutions",
+          "other_candidate_names": [
+            "Vanguard Parenteral Manufacturing",
+            "Nexus BioPharma Services"
+          ],
+          "context_value": "trailing 12-month average",
+          "other_context_values": [
+            "calendar year-to-date average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

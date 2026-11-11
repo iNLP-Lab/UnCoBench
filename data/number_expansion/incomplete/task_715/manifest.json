@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_715",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_utilities",
+        "structural_facilities"
+      ],
+      "role_names": [
+        "Electrical and utilities engineering lead (EUL)",
+        "Structural and exhibition facilities director (SFD)"
+      ],
+      "directory": "incomplete/task_715",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_utilities_A",
+          "role_id": "electrical_utilities",
+          "candidate_id": "A",
+          "key": "EUL-UTIL-QD2",
+          "boolean_predicate_id": "A_substation_redundancy_active",
+          "boolean_label": "Dual electrical substation feed redundancy",
+          "hidden_predicate_id": "A_emergency_generator_transfer_sec",
+          "threshold_label": "Emergency standby generator transfer time",
+          "threshold_aliases": [
+            "Standby power transfer duration",
+            "Generator switchover delay"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "s",
+          "partial_record_text": "EUL-UTIL-QD2: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Dual electrical substation feed redundancy = true .Source: Municipal power utility audit; Scope: High-voltage distribution switchgear supplying the venue; Measurement: Whether venue has two independent municipal grid substation feeds with automatic failover.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency standby generator transfer time is at most 30 s.",
+          "role_name": "Electrical and utilities engineering lead (EUL)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Montparnasse Grand Palais Exhibition Hall",
+            "Messe Europa Exhibition Congress Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_facilities_A",
+          "role_id": "structural_facilities",
+          "candidate_id": "A",
+          "key": "SFD-FAC-S4T",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Continuous indoor exhibition floor load rating",
+          "threshold_aliases": [
+            "Floor loading capacity",
+            "Slab bearing capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "SFD-FAC-S4T: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Heavy logistics marshalling yard clearance = true .Source: Logistics operations plan; Scope: On-site heavy truck marshalling apron and loading dock bays; Measurement: Formal sign-off permitting simultaneous staging and maneuvering of thirty articulated transport trucks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous indoor exhibition floor load rating is at most 40 kN/m2.",
+          "role_name": "Structural and exhibition facilities director (SFD)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Montparnasse Grand Palais Exhibition Hall",
+            "Messe Europa Exhibition Congress Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_utilities",
+        "structural_facilities",
+        "acoustics_av"
+      ],
+      "role_names": [
+        "Electrical and utilities engineering lead (EUL)",
+        "Structural and exhibition facilities director (SFD)",
+        "Acoustics and audiovisual systems lead (AAV)"
+      ],
+      "directory": "incomplete/task_715",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_utilities_A",
+          "role_id": "electrical_utilities",
+          "candidate_id": "A",
+          "key": "EUL-UTIL-QD2",
+          "boolean_predicate_id": "A_substation_redundancy_active",
+          "boolean_label": "Dual electrical substation feed redundancy",
+          "hidden_predicate_id": "A_emergency_generator_transfer_sec",
+          "threshold_label": "Emergency standby generator transfer time",
+          "threshold_aliases": [
+            "Standby power transfer duration",
+            "Generator switchover delay"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "s",
+          "partial_record_text": "EUL-UTIL-QD2: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Dual electrical substation feed redundancy = true .Source: Municipal power utility audit; Scope: High-voltage distribution switchgear supplying the venue; Measurement: Whether venue has two independent municipal grid substation feeds with automatic failover.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Emergency standby generator transfer time is at most 30 s.",
+          "role_name": "Electrical and utilities engineering lead (EUL)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Montparnasse Grand Palais Exhibition Hall",
+            "Messe Europa Exhibition Congress Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_facilities_A",
+          "role_id": "structural_facilities",
+          "candidate_id": "A",
+          "key": "SFD-FAC-S4T",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Continuous indoor exhibition floor load rating",
+          "threshold_aliases": [
+            "Floor loading capacity",
+            "Slab bearing capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "SFD-FAC-S4T: Pacific Horizon Convention Centre.Pacific Horizon Convention Centre: Heavy logistics marshalling yard clearance = true .Source: Logistics operations plan; Scope: On-site heavy truck marshalling apron and loading dock bays; Measurement: Formal sign-off permitting simultaneous staging and maneuvering of thirty articulated transport trucks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous indoor exhibition floor load rating is at most 40 kN/m2.",
+          "role_name": "Structural and exhibition facilities director (SFD)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Montparnasse Grand Palais Exhibition Hall",
+            "Messe Europa Exhibition Congress Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustics_av_A",
+          "role_id": "acoustics_av",
+          "candidate_id": "A",
+          "key": "AAV-ACOU-GZ1",
+          "hidden_predicate_id": "A_auditorium_reverberation_time",
+          "threshold_label": "Auditorium acoustic reverberation time",
+          "threshold_aliases": [
+            "Mid-frequency reverberation time",
+            "Auditorium RT60"
+          ],
+          "threshold_value": 1.8,
+          "threshold_unit": "s",
+          "partial_record_text": "AAV-ACOU-GZ1: Pacific Horizon Convention Centre. The record covers Auditorium acoustic reverberation time. Record context: 30-day monitoring average. Architectural acoustic test report; Central plenary auditorium with unoccupied tiered audience seating; Spatially averaged reverberation time (RT60) across 500 Hz to 1000 Hz octave bands.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Auditorium acoustic reverberation time is at most 4 s.",
+          "role_name": "Acoustics and audiovisual systems lead (AAV)",
+          "candidate_name": "Pacific Horizon Convention Centre",
+          "other_candidate_names": [
+            "Montparnasse Grand Palais Exhibition Hall",
+            "Messe Europa Exhibition Congress Center"
+          ],
+          "context_value": "30-day monitoring average",
+          "other_context_values": [
+            "single-day test snapshot"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

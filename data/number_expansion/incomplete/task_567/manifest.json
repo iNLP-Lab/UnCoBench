@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_567",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "mobilization_readiness",
+        "subsea_engineering"
+      ],
+      "role_names": [
+        "Consortium Mobilization Officer (MOB)",
+        "Subsea Cable Engineering Lead (ENG)"
+      ],
+      "directory": "incomplete/task_567",
+      "profiles": [
+        {
+          "record_id": "rec_mobilization_readiness_A",
+          "role_id": "mobilization_readiness",
+          "candidate_id": "A",
+          "key": "MOB-READY-5XW",
+          "boolean_predicate_id": "A_mobilization_protocol_enabled",
+          "boolean_label": "Rapid mobilization protocol enablement",
+          "hidden_predicate_id": "A_mobilization_response_time",
+          "threshold_label": "Mobilization callout response time",
+          "threshold_aliases": [
+            "Mobilization turnaround time",
+            "Berth departure readiness window"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "MOB-READY-5XW: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Rapid mobilization protocol enablement = true .Source: Consortium dispatch agreement; Scope: Candidate homeport base and crew recall roster; Measurement: Verification that emergency 24/7 shore callout protocol is activated.",
+          "role_name": "Consortium Mobilization Officer (MOB)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Oceanic Cable Vanguard",
+            "Atlantic Seeker Discovery"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_engineering_A",
+          "role_id": "subsea_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SUBSEA-YVJ",
+          "hidden_predicate_id": "A_crane_safe_working_load",
+          "threshold_label": "Crane safe working load",
+          "threshold_aliases": [
+            "Subsea crane capacity",
+            "Active heave crane rating"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-SUBSEA-YVJ: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Dynamic positioning station-keeping fuel consumption = 22 t/day.Source: Dynamic positioning power telemetry record; Scope: Subsea cable grappling and jointing operations in Sea State 4; Measurement: Daily auxiliary generator fuel burn during active thruster station-keeping.",
+          "role_name": "Subsea Cable Engineering Lead (ENG)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Oceanic Cable Vanguard",
+            "Atlantic Seeker Discovery"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "mobilization_readiness",
+        "subsea_engineering",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Consortium Mobilization Officer (MOB)",
+        "Subsea Cable Engineering Lead (ENG)",
+        "Fleet Performance Specialist (NAV)"
+      ],
+      "directory": "incomplete/task_567",
+      "profiles": [
+        {
+          "record_id": "rec_mobilization_readiness_A",
+          "role_id": "mobilization_readiness",
+          "candidate_id": "A",
+          "key": "MOB-READY-5XW",
+          "boolean_predicate_id": "A_mobilization_protocol_enabled",
+          "boolean_label": "Rapid mobilization protocol enablement",
+          "hidden_predicate_id": "A_mobilization_response_time",
+          "threshold_label": "Mobilization callout response time",
+          "threshold_aliases": [
+            "Mobilization turnaround time",
+            "Berth departure readiness window"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "h",
+          "partial_record_text": "MOB-READY-5XW: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Rapid mobilization protocol enablement = true .Source: Consortium dispatch agreement; Scope: Candidate homeport base and crew recall roster; Measurement: Verification that emergency 24/7 shore callout protocol is activated.",
+          "role_name": "Consortium Mobilization Officer (MOB)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Oceanic Cable Vanguard",
+            "Atlantic Seeker Discovery"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_engineering_A",
+          "role_id": "subsea_engineering",
+          "candidate_id": "A",
+          "key": "ENG-SUBSEA-YVJ",
+          "hidden_predicate_id": "A_crane_safe_working_load",
+          "threshold_label": "Crane safe working load",
+          "threshold_aliases": [
+            "Subsea crane capacity",
+            "Active heave crane rating"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "t",
+          "partial_record_text": "ENG-SUBSEA-YVJ: C.S. Sovereign Explorer.C.S. Sovereign Explorer: Dynamic positioning station-keeping fuel consumption = 22 t/day.Source: Dynamic positioning power telemetry record; Scope: Subsea cable grappling and jointing operations in Sea State 4; Measurement: Daily auxiliary generator fuel burn during active thruster station-keeping.",
+          "role_name": "Subsea Cable Engineering Lead (ENG)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Oceanic Cable Vanguard",
+            "Atlantic Seeker Discovery"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NAV-PROP-3LR",
+          "hidden_predicate_id": "A_transit_fuel_consumption",
+          "threshold_label": "Transit steaming fuel consumption",
+          "threshold_aliases": [
+            "Transit bunker rate",
+            "Steaming fuel consumption"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "t/day",
+          "partial_record_text": "NAV-PROP-3LR: C.S. Sovereign Explorer. The record covers Transit steaming fuel consumption. Naval architecture propulsion log; Standard economic open-water transit at 12 knots; Daily low-sulfur marine gas oil consumption under steady steaming.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Transit steaming fuel consumption is at least 18 t/day.",
+          "role_name": "Fleet Performance Specialist (NAV)",
+          "candidate_name": "C.S. Sovereign Explorer",
+          "other_candidate_names": [
+            "Oceanic Cable Vanguard",
+            "Atlantic Seeker Discovery"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

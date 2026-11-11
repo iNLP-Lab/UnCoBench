@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_492",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "oceanographic_systems",
+        "deck_operations"
+      ],
+      "role_names": [
+        "Oceanographic instrumentation engineer (INST)",
+        "Deck operations coordinator (DECK)"
+      ],
+      "directory": "incomplete/task_492",
+      "profiles": [
+        {
+          "record_id": "rec_oceanographic_systems_A",
+          "role_id": "oceanographic_systems",
+          "candidate_id": "A",
+          "key": "INST-ACOUST-GQG",
+          "boolean_predicate_id": "A_acoustic_telemetry_cleared",
+          "boolean_label": "Underwater acoustics telemetry clearance",
+          "hidden_predicate_id": "A_acoustic_positioning_latency",
+          "threshold_label": "Acoustic positioning latency",
+          "threshold_aliases": [
+            "USBL positioning delay",
+            "Telemetry ping return latency"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "ms",
+          "partial_record_text": "INST-ACOUST-GQG: RV Pelagos Explorer.RV Pelagos Explorer: Underwater acoustics telemetry clearance = true .Source: Hydroacoustic inspection register; Scope: Hull-mounted transponder array; Measurement: Whether underwater acoustic positioning telemetry is certified and active.",
+          "role_name": "Oceanographic instrumentation engineer (INST)",
+          "candidate_name": "RV Pelagos Explorer",
+          "other_candidate_names": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-RIG-Q24",
+          "hidden_predicate_id": "A_deck_crane_safe_working_load",
+          "threshold_label": "Dynamic deck crane load rating",
+          "threshold_aliases": [
+            "Crane safe working load",
+            "A-frame dynamic lifting capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "t",
+          "partial_record_text": "DECK-RIG-Q24: RV Pelagos Explorer.RV Pelagos Explorer: Main deck scientific equipment allowance = 26000 kg.Source: Deck loading stability manual; Scope: Clear working aft deck space; Measurement: Maximum allowable scientific payload weight on main deck.",
+          "role_name": "Deck operations coordinator (DECK)",
+          "candidate_name": "RV Pelagos Explorer",
+          "other_candidate_names": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "oceanographic_systems",
+        "deck_operations",
+        "scientific_diving"
+      ],
+      "role_names": [
+        "Oceanographic instrumentation engineer (INST)",
+        "Deck operations coordinator (DECK)",
+        "Scientific diving safety supervisor (DIVE)"
+      ],
+      "directory": "incomplete/task_492",
+      "profiles": [
+        {
+          "record_id": "rec_oceanographic_systems_A",
+          "role_id": "oceanographic_systems",
+          "candidate_id": "A",
+          "key": "INST-ACOUST-GQG",
+          "boolean_predicate_id": "A_acoustic_telemetry_cleared",
+          "boolean_label": "Underwater acoustics telemetry clearance",
+          "hidden_predicate_id": "A_acoustic_positioning_latency",
+          "threshold_label": "Acoustic positioning latency",
+          "threshold_aliases": [
+            "USBL positioning delay",
+            "Telemetry ping return latency"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "ms",
+          "partial_record_text": "INST-ACOUST-GQG: RV Pelagos Explorer.RV Pelagos Explorer: Underwater acoustics telemetry clearance = true .Source: Hydroacoustic inspection register; Scope: Hull-mounted transponder array; Measurement: Whether underwater acoustic positioning telemetry is certified and active.",
+          "role_name": "Oceanographic instrumentation engineer (INST)",
+          "candidate_name": "RV Pelagos Explorer",
+          "other_candidate_names": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-RIG-Q24",
+          "hidden_predicate_id": "A_deck_crane_safe_working_load",
+          "threshold_label": "Dynamic deck crane load rating",
+          "threshold_aliases": [
+            "Crane safe working load",
+            "A-frame dynamic lifting capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "t",
+          "partial_record_text": "DECK-RIG-Q24: RV Pelagos Explorer.RV Pelagos Explorer: Main deck scientific equipment allowance = 26000 kg.Source: Deck loading stability manual; Scope: Clear working aft deck space; Measurement: Maximum allowable scientific payload weight on main deck.",
+          "role_name": "Deck operations coordinator (DECK)",
+          "candidate_name": "RV Pelagos Explorer",
+          "other_candidate_names": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_diving_A",
+          "role_id": "scientific_diving",
+          "candidate_id": "A",
+          "key": "DIVE-CHAMBER-2XC",
+          "hidden_predicate_id": "A_wet_lab_payload_capacity",
+          "threshold_label": "Wet lab payload allowance",
+          "threshold_aliases": [
+            "Laboratory scientific allowance",
+            "Enclosed lab gear capacity"
+          ],
+          "threshold_value": 5500,
+          "threshold_unit": "kg",
+          "partial_record_text": "DIVE-CHAMBER-2XC: RV Pelagos Explorer.RV Pelagos Explorer: Hyperbaric dive chamber integration = true .Source: Dive medical safety audit; Scope: Shipboard twin-lock recompression chamber installation; Measurement: Whether certified on-board hyperbaric decompression facility is operational.",
+          "role_name": "Scientific diving safety supervisor (DIVE)",
+          "candidate_name": "RV Pelagos Explorer",
+          "other_candidate_names": [
+            "MV Poseidon Discovery",
+            "RV Aegaeo Navigator"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

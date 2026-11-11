@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_670",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cable_systems_engineer",
+        "hydrographic_surveyor"
+      ],
+      "role_names": [
+        "Subsea cable systems technical authority (CTA)",
+        "Lead marine hydrographer (LMH)"
+      ],
+      "directory": "incomplete/task_670",
+      "profiles": [
+        {
+          "record_id": "rec_cable_systems_engineer_A",
+          "role_id": "cable_systems_engineer",
+          "candidate_id": "A",
+          "key": "CTA-ELECTRO-U1S",
+          "boolean_predicate_id": "A_tone_generator_enabled",
+          "boolean_label": "Active cable electro-magnetic tone generator enabled",
+          "hidden_predicate_id": "A_localization_resolution",
+          "threshold_label": "Fault localization spatial accuracy",
+          "threshold_aliases": [
+            "Fault pinpointing spatial uncertainty",
+            "Localization positioning error bound"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "m",
+          "partial_record_text": "CTA-ELECTRO-U1S: Autonomous benthic crawler deployment.Autonomous benthic crawler deployment: Active cable electro-magnetic tone generator enabled = true .Source: Terminal landing station test log; Scope: Celtic Sea shore-end power feeding equipment; Measurement: Whether low-frequency 25 Hz electromagnetic tone signal injection is active on cable metallic shield.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Fault localization spatial accuracy is at most 8 m.",
+          "role_name": "Subsea cable systems technical authority (CTA)",
+          "candidate_name": "Autonomous benthic crawler deployment",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar spread",
+            "Dynamic positioning ROV trenching survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "LMH-HYDRO-NFF",
+          "hidden_predicate_id": "A_max_seabed_slope_rating",
+          "threshold_label": "Maximum operational seabed slope rating",
+          "threshold_aliases": [
+            "Seabed grade operational capability",
+            "Benthic terrain slope tolerance"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "deg",
+          "partial_record_text": "LMH-HYDRO-NFF: Autonomous benthic crawler deployment.Autonomous benthic crawler deployment: Primary acoustic swath survey rate = 5.5 km/h.Source: Sea trial speed-over-ground trial log; Scope: Bathymetric high-resolution mapping swath; Measurement: Effective linear advance rate along cable route under high-resolution multibeam acoustic operation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum operational seabed slope rating is at most 40 deg.",
+          "role_name": "Lead marine hydrographer (LMH)",
+          "candidate_name": "Autonomous benthic crawler deployment",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar spread",
+            "Dynamic positioning ROV trenching survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cable_systems_engineer",
+        "hydrographic_surveyor",
+        "geotechnical_specialist"
+      ],
+      "role_names": [
+        "Subsea cable systems technical authority (CTA)",
+        "Lead marine hydrographer (LMH)",
+        "Benthic geotechnics and seabed specialist (BGS)"
+      ],
+      "directory": "incomplete/task_670",
+      "profiles": [
+        {
+          "record_id": "rec_cable_systems_engineer_A",
+          "role_id": "cable_systems_engineer",
+          "candidate_id": "A",
+          "key": "CTA-ELECTRO-U1S",
+          "boolean_predicate_id": "A_tone_generator_enabled",
+          "boolean_label": "Active cable electro-magnetic tone generator enabled",
+          "hidden_predicate_id": "A_localization_resolution",
+          "threshold_label": "Fault localization spatial accuracy",
+          "threshold_aliases": [
+            "Fault pinpointing spatial uncertainty",
+            "Localization positioning error bound"
+          ],
+          "threshold_value": 2.5,
+          "threshold_unit": "m",
+          "partial_record_text": "CTA-ELECTRO-U1S: Autonomous benthic crawler deployment.Autonomous benthic crawler deployment: Active cable electro-magnetic tone generator enabled = true .Source: Terminal landing station test log; Scope: Celtic Sea shore-end power feeding equipment; Measurement: Whether low-frequency 25 Hz electromagnetic tone signal injection is active on cable metallic shield.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Fault localization spatial accuracy is at most 8 m.",
+          "role_name": "Subsea cable systems technical authority (CTA)",
+          "candidate_name": "Autonomous benthic crawler deployment",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar spread",
+            "Dynamic positioning ROV trenching survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "LMH-HYDRO-NFF",
+          "hidden_predicate_id": "A_max_seabed_slope_rating",
+          "threshold_label": "Maximum operational seabed slope rating",
+          "threshold_aliases": [
+            "Seabed grade operational capability",
+            "Benthic terrain slope tolerance"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "deg",
+          "partial_record_text": "LMH-HYDRO-NFF: Autonomous benthic crawler deployment.Autonomous benthic crawler deployment: Primary acoustic swath survey rate = 5.5 km/h.Source: Sea trial speed-over-ground trial log; Scope: Bathymetric high-resolution mapping swath; Measurement: Effective linear advance rate along cable route under high-resolution multibeam acoustic operation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum operational seabed slope rating is at most 40 deg.",
+          "role_name": "Lead marine hydrographer (LMH)",
+          "candidate_name": "Autonomous benthic crawler deployment",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar spread",
+            "Dynamic positioning ROV trenching survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_specialist_A",
+          "role_id": "geotechnical_specialist",
+          "candidate_id": "A",
+          "key": "BGS-GEOTECH-MEG",
+          "hidden_predicate_id": "A_sediment_burial_depth_limit",
+          "threshold_label": "Magnetic detection burial depth limit",
+          "threshold_aliases": [
+            "Sub-bottom cable detection depth",
+            "Gradiometer burial penetration limit"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "m",
+          "partial_record_text": "BGS-GEOTECH-MEG: Autonomous benthic crawler deployment. The record covers Magnetic detection burial depth limit. Seabed penetrometer and magnetic sensitivity trial; Silt and sand cover across Celtic Sea cable corridor; Maximum depth beneath seabed at which the armored cable conductor core is reliably resolved.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Magnetic detection burial depth limit is at most 5 m.",
+          "role_name": "Benthic geotechnics and seabed specialist (BGS)",
+          "candidate_name": "Autonomous benthic crawler deployment",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar spread",
+            "Dynamic positioning ROV trenching survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

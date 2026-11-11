@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_272",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Quality assurance director (QAD)",
+        "Ground operations lead (GOL)"
+      ],
+      "directory": "incomplete/task_272",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAD-MON-O7C",
+          "boolean_predicate_id": "A_temp_monitoring_enabled",
+          "boolean_label": "Continuous temperature monitoring enabled",
+          "hidden_predicate_id": "A_excursion_incident_rate",
+          "threshold_label": "Temperature excursion incident rate",
+          "threshold_aliases": [
+            "Thermal excursion frequency",
+            "Out-of-range temperature breach rate"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "incidents/1000 shipments",
+          "partial_record_text": "QAD-MON-O7C: CryoTrans Logistics International.CryoTrans Logistics International: Continuous temperature monitoring enabled = true .Source: Telematics integration sign-off; Scope: All intercontinental cargo containers; Measurement: Active data link broadcasting internal cargo temperatures every ten minutes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Temperature excursion incident rate is between 0.5 incidents/1000 shipments and 4 incidents/1000 shipments, inclusive.",
+          "role_name": "Quality assurance director (QAD)",
+          "candidate_name": "CryoTrans Logistics International",
+          "other_candidate_names": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "GOL-RAMP-XJW",
+          "hidden_predicate_id": "A_dedicated_handling_crew",
+          "threshold_label": "Audited dedicated handling crew",
+          "threshold_aliases": [
+            "Dedicated ramp personnel count",
+            "Certified tarmac cold-chain crew"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "personnel",
+          "partial_record_text": "GOL-RAMP-XJW: CryoTrans Logistics International. The record covers Audited dedicated handling crew. Record context: Production environment. Station staffing audit report; Directly assigned cold-chain ground operations team; Total certified ramp handlers assigned exclusively to pharmaceutical transfers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Audited dedicated handling crew is between 10 personnel and 50 personnel, inclusive.",
+          "role_name": "Ground operations lead (GOL)",
+          "candidate_name": "CryoTrans Logistics International",
+          "other_candidate_names": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance",
+        "fleet_operations",
+        "capacity_logistics"
+      ],
+      "role_names": [
+        "Quality assurance director (QAD)",
+        "Ground operations lead (GOL)",
+        "Freight capacity planner (FCP)"
+      ],
+      "directory": "incomplete/task_272",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAD-MON-O7C",
+          "boolean_predicate_id": "A_temp_monitoring_enabled",
+          "boolean_label": "Continuous temperature monitoring enabled",
+          "hidden_predicate_id": "A_excursion_incident_rate",
+          "threshold_label": "Temperature excursion incident rate",
+          "threshold_aliases": [
+            "Thermal excursion frequency",
+            "Out-of-range temperature breach rate"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "incidents/1000 shipments",
+          "partial_record_text": "QAD-MON-O7C: CryoTrans Logistics International.CryoTrans Logistics International: Continuous temperature monitoring enabled = true .Source: Telematics integration sign-off; Scope: All intercontinental cargo containers; Measurement: Active data link broadcasting internal cargo temperatures every ten minutes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Temperature excursion incident rate is between 0.5 incidents/1000 shipments and 4 incidents/1000 shipments, inclusive.",
+          "role_name": "Quality assurance director (QAD)",
+          "candidate_name": "CryoTrans Logistics International",
+          "other_candidate_names": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "GOL-RAMP-XJW",
+          "hidden_predicate_id": "A_dedicated_handling_crew",
+          "threshold_label": "Audited dedicated handling crew",
+          "threshold_aliases": [
+            "Dedicated ramp personnel count",
+            "Certified tarmac cold-chain crew"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "personnel",
+          "partial_record_text": "GOL-RAMP-XJW: CryoTrans Logistics International. The record covers Audited dedicated handling crew. Record context: Production environment. Station staffing audit report; Directly assigned cold-chain ground operations team; Total certified ramp handlers assigned exclusively to pharmaceutical transfers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Audited dedicated handling crew is between 10 personnel and 50 personnel, inclusive.",
+          "role_name": "Ground operations lead (GOL)",
+          "candidate_name": "CryoTrans Logistics International",
+          "other_candidate_names": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_capacity_logistics_A",
+          "role_id": "capacity_logistics",
+          "candidate_id": "A",
+          "key": "FCP-ALLOC-0QR",
+          "hidden_predicate_id": "A_guaranteed_reefer_volume",
+          "threshold_label": "Guaranteed reefer container volume",
+          "threshold_aliases": [
+            "Contracted container capacity",
+            "Guaranteed refrigerated container slots"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "container",
+          "partial_record_text": "FCP-ALLOC-0QR: CryoTrans Logistics International. The record covers Guaranteed reefer container volume. Capacity allocation schedule; Dedicated temperature-controlled air freight slots per quarter; Total quantity of guaranteed temperature-controlled container shipments per quarter.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Guaranteed reefer container volume is between 100 container and 400 container, inclusive.",
+          "role_name": "Freight capacity planner (FCP)",
+          "candidate_name": "CryoTrans Logistics International",
+          "other_candidate_names": [
+            "AeroCold LifeScience Express",
+            "Vanguard BioLogistics Group"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

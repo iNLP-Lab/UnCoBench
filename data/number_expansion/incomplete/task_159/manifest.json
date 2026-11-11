@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_159",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "tooling_inspection",
+        "hangar_operations"
+      ],
+      "role_names": [
+        "Tooling and non-destructive testing lead (TNDT)",
+        "Hangar operations superintendent (HOS)"
+      ],
+      "directory": "incomplete/task_159",
+      "profiles": [
+        {
+          "record_id": "rec_tooling_inspection_A",
+          "role_id": "tooling_inspection",
+          "candidate_id": "A",
+          "key": "TNDT-NDT-72V",
+          "boolean_predicate_id": "A_ndt_facility_operational",
+          "boolean_label": "Advanced non-destructive testing facility operational",
+          "hidden_predicate_id": "A_ultrasonic_detection_limit",
+          "threshold_label": "Composite ultrasonic detection limit",
+          "threshold_aliases": [
+            "Ultrasonic flaw detection threshold",
+            "Composite scan resolution limit"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "TNDT-NDT-72V: Shannon Aerocenter Overhaul Proposal.Shannon Aerocenter Overhaul Proposal: Advanced non-destructive testing facility operational = true .Source: NDT facility commissioning register; Scope: Candidate non-destructive evaluation laboratory; Measurement: Whether the on-site phased-array ultrasonic and eddy-current testing line is fully commissioned and operational.",
+          "role_name": "Tooling and non-destructive testing lead (TNDT)",
+          "candidate_name": "Shannon Aerocenter Overhaul Proposal",
+          "other_candidate_names": [
+            "Changi Aerospace Engineering Proposal",
+            "Querétaro Fleet Services Proposal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hangar_operations_A",
+          "role_id": "hangar_operations",
+          "candidate_id": "A",
+          "key": "HOS-HNGR-HMM",
+          "hidden_predicate_id": "A_turnaround_calendar_days",
+          "threshold_label": "Base turnaround duration",
+          "threshold_aliases": [
+            "Check turnaround duration",
+            "Hangar stay duration"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "d",
+          "partial_record_text": "HOS-HNGR-HMM: Shannon Aerocenter Overhaul Proposal. The record covers Base turnaround duration. Maintenance slot allocation schedule; Baseline Boeing 787 heavy check program; Contractual elapsed calendar days from aircraft induction into the dock until release to service.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 21,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Base turnaround duration is at least 21 d.",
+          "role_name": "Hangar operations superintendent (HOS)",
+          "candidate_name": "Shannon Aerocenter Overhaul Proposal",
+          "other_candidate_names": [
+            "Changi Aerospace Engineering Proposal",
+            "Querétaro Fleet Services Proposal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "tooling_inspection",
+        "hangar_operations",
+        "avionics_engineering"
+      ],
+      "role_names": [
+        "Tooling and non-destructive testing lead (TNDT)",
+        "Hangar operations superintendent (HOS)",
+        "Avionics and electrical systems specialist (AEE)"
+      ],
+      "directory": "incomplete/task_159",
+      "profiles": [
+        {
+          "record_id": "rec_tooling_inspection_A",
+          "role_id": "tooling_inspection",
+          "candidate_id": "A",
+          "key": "TNDT-NDT-72V",
+          "boolean_predicate_id": "A_ndt_facility_operational",
+          "boolean_label": "Advanced non-destructive testing facility operational",
+          "hidden_predicate_id": "A_ultrasonic_detection_limit",
+          "threshold_label": "Composite ultrasonic detection limit",
+          "threshold_aliases": [
+            "Ultrasonic flaw detection threshold",
+            "Composite scan resolution limit"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "TNDT-NDT-72V: Shannon Aerocenter Overhaul Proposal.Shannon Aerocenter Overhaul Proposal: Advanced non-destructive testing facility operational = true .Source: NDT facility commissioning register; Scope: Candidate non-destructive evaluation laboratory; Measurement: Whether the on-site phased-array ultrasonic and eddy-current testing line is fully commissioned and operational.",
+          "role_name": "Tooling and non-destructive testing lead (TNDT)",
+          "candidate_name": "Shannon Aerocenter Overhaul Proposal",
+          "other_candidate_names": [
+            "Changi Aerospace Engineering Proposal",
+            "Querétaro Fleet Services Proposal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hangar_operations_A",
+          "role_id": "hangar_operations",
+          "candidate_id": "A",
+          "key": "HOS-HNGR-HMM",
+          "hidden_predicate_id": "A_turnaround_calendar_days",
+          "threshold_label": "Base turnaround duration",
+          "threshold_aliases": [
+            "Check turnaround duration",
+            "Hangar stay duration"
+          ],
+          "threshold_value": 26,
+          "threshold_unit": "d",
+          "partial_record_text": "HOS-HNGR-HMM: Shannon Aerocenter Overhaul Proposal. The record covers Base turnaround duration. Maintenance slot allocation schedule; Baseline Boeing 787 heavy check program; Contractual elapsed calendar days from aircraft induction into the dock until release to service.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 21,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Base turnaround duration is at least 21 d.",
+          "role_name": "Hangar operations superintendent (HOS)",
+          "candidate_name": "Shannon Aerocenter Overhaul Proposal",
+          "other_candidate_names": [
+            "Changi Aerospace Engineering Proposal",
+            "Querétaro Fleet Services Proposal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_avionics_engineering_A",
+          "role_id": "avionics_engineering",
+          "candidate_id": "A",
+          "key": "AEE-AVION-GM6",
+          "hidden_predicate_id": "A_avionics_diagnostic_hours",
+          "threshold_label": "Avionics diagnostic labor hours",
+          "threshold_aliases": [
+            "Avionics system testing labor",
+            "Flight systems diagnostic hours"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "technician-hours",
+          "partial_record_text": "AEE-AVION-GM6: Shannon Aerocenter Overhaul Proposal. The record covers Avionics diagnostic labor hours. Record context: including LRU bench recalibration. Avionics overhaul task catalog; Flight management, navigation, and core network diagnostic checks; Total planned technician-hours allocated to integrated avionics functional testing and fault diagnostics.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 270
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Avionics diagnostic labor hours is at most 270 technician-hours.",
+          "role_name": "Avionics and electrical systems specialist (AEE)",
+          "candidate_name": "Shannon Aerocenter Overhaul Proposal",
+          "other_candidate_names": [
+            "Changi Aerospace Engineering Proposal",
+            "Querétaro Fleet Services Proposal"
+          ],
+          "context_value": "including LRU bench recalibration",
+          "other_context_values": [
+            "excluding LRU bench recalibration"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

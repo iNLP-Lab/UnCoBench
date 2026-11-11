@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_655",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "regulatory_compliance",
+        "fleet_safety"
+      ],
+      "role_names": [
+        "Regulatory compliance lead (REG)",
+        "Fleet and airfield safety inspector (SAFE)"
+      ],
+      "directory": "incomplete/task_655",
+      "profiles": [
+        {
+          "record_id": "rec_regulatory_compliance_A",
+          "role_id": "regulatory_compliance",
+          "candidate_id": "A",
+          "key": "REG-CERT-P3W",
+          "boolean_predicate_id": "A_ato_certification_valid",
+          "boolean_label": "Civil aviation authority ATO approval active",
+          "hidden_predicate_id": "A_audit_finding_closure_days",
+          "threshold_label": "Regulatory audit finding closure duration",
+          "threshold_aliases": [
+            "Audit deficiency rectification days",
+            "Audit finding closure timeframe"
+          ],
+          "threshold_value": 21,
+          "threshold_unit": "days",
+          "partial_record_text": "REG-CERT-P3W: Alpine Aviation Training Consortium.Alpine Aviation Training Consortium: Civil aviation authority ATO approval active = true .Source: National civil aviation authority registry; Scope: Active training organization operational approvals; Measurement: Whether the academy maintains an active approved training organisation certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Regulatory audit finding closure duration is at most 50 days.",
+          "role_name": "Regulatory compliance lead (REG)",
+          "candidate_name": "Alpine Aviation Training Consortium",
+          "other_candidate_names": [
+            "North Sea Flight Academy",
+            "Iberian Aeronautical Training Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_safety_A",
+          "role_id": "fleet_safety",
+          "candidate_id": "A",
+          "key": "SAFE-FLEET-0L1",
+          "hidden_predicate_id": "A_glass_cockpit_fleet_share",
+          "threshold_label": "Glass-cockpit advanced avionics fleet share",
+          "threshold_aliases": [
+            "Glass cockpit proportion",
+            "Modern avionics fleet percentage"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "SAFE-FLEET-0L1: Alpine Aviation Training Consortium.Alpine Aviation Training Consortium: Fatigue risk management system implemented = true .Source: Operational safety manual and safety audit ledger; Scope: Cadet and instructor flight duty scheduling operations; Measurement: Whether an active and monitored fatigue risk management system is documented and operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Glass-cockpit advanced avionics fleet share is at most 100 %.",
+          "role_name": "Fleet and airfield safety inspector (SAFE)",
+          "candidate_name": "Alpine Aviation Training Consortium",
+          "other_candidate_names": [
+            "North Sea Flight Academy",
+            "Iberian Aeronautical Training Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "regulatory_compliance",
+        "fleet_safety",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Regulatory compliance lead (REG)",
+        "Fleet and airfield safety inspector (SAFE)",
+        "Flight operations evaluation lead (OPS)"
+      ],
+      "directory": "incomplete/task_655",
+      "profiles": [
+        {
+          "record_id": "rec_regulatory_compliance_A",
+          "role_id": "regulatory_compliance",
+          "candidate_id": "A",
+          "key": "REG-CERT-P3W",
+          "boolean_predicate_id": "A_ato_certification_valid",
+          "boolean_label": "Civil aviation authority ATO approval active",
+          "hidden_predicate_id": "A_audit_finding_closure_days",
+          "threshold_label": "Regulatory audit finding closure duration",
+          "threshold_aliases": [
+            "Audit deficiency rectification days",
+            "Audit finding closure timeframe"
+          ],
+          "threshold_value": 21,
+          "threshold_unit": "days",
+          "partial_record_text": "REG-CERT-P3W: Alpine Aviation Training Consortium.Alpine Aviation Training Consortium: Civil aviation authority ATO approval active = true .Source: National civil aviation authority registry; Scope: Active training organization operational approvals; Measurement: Whether the academy maintains an active approved training organisation certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Regulatory audit finding closure duration is at most 50 days.",
+          "role_name": "Regulatory compliance lead (REG)",
+          "candidate_name": "Alpine Aviation Training Consortium",
+          "other_candidate_names": [
+            "North Sea Flight Academy",
+            "Iberian Aeronautical Training Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_safety_A",
+          "role_id": "fleet_safety",
+          "candidate_id": "A",
+          "key": "SAFE-FLEET-0L1",
+          "hidden_predicate_id": "A_glass_cockpit_fleet_share",
+          "threshold_label": "Glass-cockpit advanced avionics fleet share",
+          "threshold_aliases": [
+            "Glass cockpit proportion",
+            "Modern avionics fleet percentage"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "%",
+          "partial_record_text": "SAFE-FLEET-0L1: Alpine Aviation Training Consortium.Alpine Aviation Training Consortium: Fatigue risk management system implemented = true .Source: Operational safety manual and safety audit ledger; Scope: Cadet and instructor flight duty scheduling operations; Measurement: Whether an active and monitored fatigue risk management system is documented and operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Glass-cockpit advanced avionics fleet share is at most 100 %.",
+          "role_name": "Fleet and airfield safety inspector (SAFE)",
+          "candidate_name": "Alpine Aviation Training Consortium",
+          "other_candidate_names": [
+            "North Sea Flight Academy",
+            "Iberian Aeronautical Training Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "OPS-SIM-C0X",
+          "hidden_predicate_id": "A_multi_engine_hours",
+          "threshold_label": "Multi-engine turbine flight training hours",
+          "threshold_aliases": [
+            "Multi-engine turbine flight time",
+            "ME turbine syllabus hours"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-SIM-C0X: Alpine Aviation Training Consortium.Alpine Aviation Training Consortium: Full-flight simulator assessment score = 78 points.Source: Flight examiner simulator evaluation docket; Scope: Level-D full-flight simulator final phase check evaluations; Measurement: Average score achieved on advanced handling and instrument procedures out of 100 points.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Multi-engine turbine flight training hours is at most 400 h.",
+          "role_name": "Flight operations evaluation lead (OPS)",
+          "candidate_name": "Alpine Aviation Training Consortium",
+          "other_candidate_names": [
+            "North Sea Flight Academy",
+            "Iberian Aeronautical Training Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

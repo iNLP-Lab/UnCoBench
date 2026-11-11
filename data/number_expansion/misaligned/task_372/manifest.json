@@ -1,0 +1,526 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_372",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "field_safety_medical_officer",
+        "telemetry_communications_lead"
+      ],
+      "role_names": [
+        "Field safety and medical officer (MEDIC)",
+        "Communications infrastructure specialist (COMMS)"
+      ],
+      "directory": "number_expansion/misaligned/task_372/k2",
+      "error_profiles": [
+        {
+          "role_name": "Field safety and medical officer (MEDIC)",
+          "target_key": "MEDIC-CLIN-L0Y",
+          "alternate_key": "MEDIC-OXY-XW1",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Cape Adare Marine Field Base",
+          "other_candidates": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "hyperbaric_certified",
+              "value": true,
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Antarctic environmental protocol clearance",
+              "aliases": [
+                "Environmental protocol compliance",
+                "Madrid protocol sign-off"
+              ]
+            },
+            {
+              "topic": "dive_support_ready",
+              "label": "Deep dive support staging readiness",
+              "aliases": [
+                "Dive staging readiness",
+                "Sub-ice dive platform clearance"
+              ]
+            },
+            {
+              "topic": "specimen_freight_mass",
+              "label": "Specimen freight mass",
+              "aliases": [
+                "Marine specimen payload weight",
+                "Biological return cargo weight"
+              ]
+            },
+            {
+              "topic": "runway_load_capacity",
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ]
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_enabled",
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ]
+            },
+            {
+              "topic": "hyperbaric_certified",
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Communications infrastructure specialist (COMMS)",
+          "target_key": "COMMS-SATCOM-O4K",
+          "alternate_key": "COMMS-SATCOM-WNV",
+          "target_context": "24-hour evaluation window",
+          "alternate_context": "30-day rolling evaluation window",
+          "candidate": "Cape Adare Marine Field Base",
+          "other_candidates": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_packet_loss",
+              "value": 4,
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_uplink_enabled",
+              "value": true,
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Antarctic environmental protocol clearance",
+              "aliases": [
+                "Environmental protocol compliance",
+                "Madrid protocol sign-off"
+              ]
+            },
+            {
+              "topic": "dive_support_ready",
+              "label": "Deep dive support staging readiness",
+              "aliases": [
+                "Dive staging readiness",
+                "Sub-ice dive platform clearance"
+              ]
+            },
+            {
+              "topic": "specimen_freight_mass",
+              "label": "Specimen freight mass",
+              "aliases": [
+                "Marine specimen payload weight",
+                "Biological return cargo weight"
+              ]
+            },
+            {
+              "topic": "runway_load_capacity",
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ]
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_enabled",
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ]
+            },
+            {
+              "topic": "hyperbaric_certified",
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "field_safety_medical_officer",
+        "telemetry_communications_lead",
+        "cryosphere_logistics_lead"
+      ],
+      "role_names": [
+        "Field safety and medical officer (MEDIC)",
+        "Communications infrastructure specialist (COMMS)",
+        "Cryosphere logistics manager (CRYO)"
+      ],
+      "directory": "number_expansion/misaligned/task_372/k3",
+      "error_profiles": [
+        {
+          "role_name": "Field safety and medical officer (MEDIC)",
+          "target_key": "MEDIC-CLIN-L0Y",
+          "alternate_key": "MEDIC-OXY-XW1",
+          "target_context": "Production environment",
+          "alternate_context": "Test environment",
+          "candidate": "Cape Adare Marine Field Base",
+          "other_candidates": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "hyperbaric_certified",
+              "value": true,
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Antarctic environmental protocol clearance",
+              "aliases": [
+                "Environmental protocol compliance",
+                "Madrid protocol sign-off"
+              ]
+            },
+            {
+              "topic": "dive_support_ready",
+              "label": "Deep dive support staging readiness",
+              "aliases": [
+                "Dive staging readiness",
+                "Sub-ice dive platform clearance"
+              ]
+            },
+            {
+              "topic": "specimen_freight_mass",
+              "label": "Specimen freight mass",
+              "aliases": [
+                "Marine specimen payload weight",
+                "Biological return cargo weight"
+              ]
+            },
+            {
+              "topic": "runway_load_capacity",
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ]
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_enabled",
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ]
+            },
+            {
+              "topic": "hyperbaric_certified",
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Communications infrastructure specialist (COMMS)",
+          "target_key": "COMMS-SATCOM-O4K",
+          "alternate_key": "COMMS-SATCOM-WNV",
+          "target_context": "24-hour evaluation window",
+          "alternate_context": "30-day rolling evaluation window",
+          "candidate": "Cape Adare Marine Field Base",
+          "other_candidates": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_packet_loss",
+              "value": 4,
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "telemetry_uplink_enabled",
+              "value": true,
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Antarctic environmental protocol clearance",
+              "aliases": [
+                "Environmental protocol compliance",
+                "Madrid protocol sign-off"
+              ]
+            },
+            {
+              "topic": "dive_support_ready",
+              "label": "Deep dive support staging readiness",
+              "aliases": [
+                "Dive staging readiness",
+                "Sub-ice dive platform clearance"
+              ]
+            },
+            {
+              "topic": "specimen_freight_mass",
+              "label": "Specimen freight mass",
+              "aliases": [
+                "Marine specimen payload weight",
+                "Biological return cargo weight"
+              ]
+            },
+            {
+              "topic": "runway_load_capacity",
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ]
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_enabled",
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ]
+            },
+            {
+              "topic": "hyperbaric_certified",
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Cryosphere logistics manager (CRYO)",
+          "target_key": "CRYO-RUNW-Z92",
+          "alternate_key": "CRYO-RUNW-YEY",
+          "target_context": "April 2025",
+          "alternate_context": "May 2025",
+          "candidate": "Cape Adare Marine Field Base",
+          "other_candidates": [
+            "Wilkes Ice Shelf Outpost",
+            "Prydz Bay Research Station"
+          ],
+          "numeric": [
+            {
+              "topic": "runway_load_capacity",
+              "value": 60,
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ],
+              "unit": "t"
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "value": 14,
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "environmental_protocol_cleared",
+              "label": "Antarctic environmental protocol clearance",
+              "aliases": [
+                "Environmental protocol compliance",
+                "Madrid protocol sign-off"
+              ]
+            },
+            {
+              "topic": "dive_support_ready",
+              "label": "Deep dive support staging readiness",
+              "aliases": [
+                "Dive staging readiness",
+                "Sub-ice dive platform clearance"
+              ]
+            },
+            {
+              "topic": "specimen_freight_mass",
+              "label": "Specimen freight mass",
+              "aliases": [
+                "Marine specimen payload weight",
+                "Biological return cargo weight"
+              ]
+            },
+            {
+              "topic": "runway_load_capacity",
+              "label": "Runway load-bearing capacity",
+              "aliases": [
+                "Ice runway weight rating",
+                "Skiway landing gear load tolerance"
+              ]
+            },
+            {
+              "topic": "scientific_freight_mass",
+              "label": "Scientific equipment freight mass",
+              "aliases": [
+                "Survey instrument freight weight",
+                "Geophysical sensor cargo mass"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_enabled",
+              "label": "Satellite data telemetry enablement",
+              "aliases": [
+                "Telemetry link enablement",
+                "Satcom uplink active status"
+              ]
+            },
+            {
+              "topic": "telemetry_packet_loss",
+              "label": "Telemetry packet loss",
+              "aliases": [
+                "Data stream packet drop rate",
+                "Transmission frame error rate"
+              ]
+            },
+            {
+              "topic": "hyperbaric_certified",
+              "label": "Certified polar hyperbaric medical facility readiness",
+              "aliases": [
+                "Hyperbaric chamber certification",
+                "Decompression chamber clearance"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

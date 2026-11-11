@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_788",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_telemetry",
+        "geological_science"
+      ],
+      "role_names": [
+        "Power and Telemetry Systems Manager (PTEL)",
+        "Planetary Analogue Science Advisor (GEOL)"
+      ],
+      "directory": "number_expansion/misaligned/task_788/k2",
+      "error_profiles": [
+        {
+          "role_name": "Power and Telemetry Systems Manager (PTEL)",
+          "target_key": "PTEL-COMMPOW-DME",
+          "alternate_key": "PTEL-SOLAR-TLN",
+          "target_context": "after deducting the 20% emergency reserve",
+          "alternate_context": "before deducting the 20% emergency reserve",
+          "candidate": "Atacama Hyperarid Ridge Station",
+          "other_candidates": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "microgrid_autonomy_duration",
+              "value": 120,
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "evacuation_route_passable",
+              "label": "Emergency medical evacuation route passable",
+              "aliases": [
+                "Evacuation corridor transit clearance",
+                "Medical evacuation passability"
+              ]
+            },
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ]
+            },
+            {
+              "topic": "biosecurity_quarantine_installed",
+              "label": "Dedicated biosecurity quarantine module installed",
+              "aliases": [
+                "Quarantine chamber presence",
+                "Biosecurity module installation"
+              ]
+            },
+            {
+              "topic": "airlock_depressurization_duration",
+              "label": "Airlock cycle depressurization duration",
+              "aliases": [
+                "Airlock cycle time",
+                "Depressurization cycle duration"
+              ]
+            },
+            {
+              "topic": "microgrid_autonomy_duration",
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ]
+            },
+            {
+              "topic": "regolith_fidelity_approved",
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ]
+            },
+            {
+              "topic": "isolation_buffer_area",
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ]
+            },
+            {
+              "topic": "crew_berth_capacity",
+              "label": "Certified crew berth capacity",
+              "aliases": [
+                "Simulated crew berthing complement",
+                "Crew capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Planetary Analogue Science Advisor (GEOL)",
+          "target_key": "GEOL-SCIFID-UYX",
+          "alternate_key": "GEOL-SCIFID-U2K",
+          "target_context": "Science Evaluation Baseline v3.0",
+          "alternate_context": "Science Evaluation Baseline v2.0",
+          "candidate": "Atacama Hyperarid Ridge Station",
+          "other_candidates": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "regolith_fidelity_approved",
+              "value": true,
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "evacuation_route_passable",
+              "label": "Emergency medical evacuation route passable",
+              "aliases": [
+                "Evacuation corridor transit clearance",
+                "Medical evacuation passability"
+              ]
+            },
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ]
+            },
+            {
+              "topic": "biosecurity_quarantine_installed",
+              "label": "Dedicated biosecurity quarantine module installed",
+              "aliases": [
+                "Quarantine chamber presence",
+                "Biosecurity module installation"
+              ]
+            },
+            {
+              "topic": "airlock_depressurization_duration",
+              "label": "Airlock cycle depressurization duration",
+              "aliases": [
+                "Airlock cycle time",
+                "Depressurization cycle duration"
+              ]
+            },
+            {
+              "topic": "microgrid_autonomy_duration",
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ]
+            },
+            {
+              "topic": "regolith_fidelity_approved",
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ]
+            },
+            {
+              "topic": "isolation_buffer_area",
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ]
+            },
+            {
+              "topic": "crew_berth_capacity",
+              "label": "Certified crew berth capacity",
+              "aliases": [
+                "Simulated crew berthing complement",
+                "Crew capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_telemetry",
+        "geological_science",
+        "geospatial_survey"
+      ],
+      "role_names": [
+        "Power and Telemetry Systems Manager (PTEL)",
+        "Planetary Analogue Science Advisor (GEOL)",
+        "Geospatial & Topography Lead (GEOP)"
+      ],
+      "directory": "number_expansion/misaligned/task_788/k3",
+      "error_profiles": [
+        {
+          "role_name": "Power and Telemetry Systems Manager (PTEL)",
+          "target_key": "PTEL-COMMPOW-DME",
+          "alternate_key": "PTEL-SOLAR-TLN",
+          "target_context": "after deducting the 20% emergency reserve",
+          "alternate_context": "before deducting the 20% emergency reserve",
+          "candidate": "Atacama Hyperarid Ridge Station",
+          "other_candidates": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "microgrid_autonomy_duration",
+              "value": 120,
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "evacuation_route_passable",
+              "label": "Emergency medical evacuation route passable",
+              "aliases": [
+                "Evacuation corridor transit clearance",
+                "Medical evacuation passability"
+              ]
+            },
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ]
+            },
+            {
+              "topic": "biosecurity_quarantine_installed",
+              "label": "Dedicated biosecurity quarantine module installed",
+              "aliases": [
+                "Quarantine chamber presence",
+                "Biosecurity module installation"
+              ]
+            },
+            {
+              "topic": "airlock_depressurization_duration",
+              "label": "Airlock cycle depressurization duration",
+              "aliases": [
+                "Airlock cycle time",
+                "Depressurization cycle duration"
+              ]
+            },
+            {
+              "topic": "microgrid_autonomy_duration",
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ]
+            },
+            {
+              "topic": "regolith_fidelity_approved",
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ]
+            },
+            {
+              "topic": "isolation_buffer_area",
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ]
+            },
+            {
+              "topic": "crew_berth_capacity",
+              "label": "Certified crew berth capacity",
+              "aliases": [
+                "Simulated crew berthing complement",
+                "Crew capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Planetary Analogue Science Advisor (GEOL)",
+          "target_key": "GEOL-SCIFID-UYX",
+          "alternate_key": "GEOL-SCIFID-U2K",
+          "target_context": "Science Evaluation Baseline v3.0",
+          "alternate_context": "Science Evaluation Baseline v2.0",
+          "candidate": "Atacama Hyperarid Ridge Station",
+          "other_candidates": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "regolith_fidelity_approved",
+              "value": true,
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "evacuation_route_passable",
+              "label": "Emergency medical evacuation route passable",
+              "aliases": [
+                "Evacuation corridor transit clearance",
+                "Medical evacuation passability"
+              ]
+            },
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ]
+            },
+            {
+              "topic": "biosecurity_quarantine_installed",
+              "label": "Dedicated biosecurity quarantine module installed",
+              "aliases": [
+                "Quarantine chamber presence",
+                "Biosecurity module installation"
+              ]
+            },
+            {
+              "topic": "airlock_depressurization_duration",
+              "label": "Airlock cycle depressurization duration",
+              "aliases": [
+                "Airlock cycle time",
+                "Depressurization cycle duration"
+              ]
+            },
+            {
+              "topic": "microgrid_autonomy_duration",
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ]
+            },
+            {
+              "topic": "regolith_fidelity_approved",
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ]
+            },
+            {
+              "topic": "isolation_buffer_area",
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ]
+            },
+            {
+              "topic": "crew_berth_capacity",
+              "label": "Certified crew berth capacity",
+              "aliases": [
+                "Simulated crew berthing complement",
+                "Crew capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geospatial & Topography Lead (GEOP)",
+          "target_key": "GEOP-GEOMAP-K4G",
+          "alternate_key": "GEOP-GEOMAP-19B",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Atacama Hyperarid Ridge Station",
+          "other_candidates": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "isolation_buffer_area",
+              "value": 180,
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ],
+              "unit": "ha"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "value": true,
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "evacuation_route_passable",
+              "label": "Emergency medical evacuation route passable",
+              "aliases": [
+                "Evacuation corridor transit clearance",
+                "Medical evacuation passability"
+              ]
+            },
+            {
+              "topic": "topographic_hazard_mitigation_verified",
+              "label": "Topographic hazard mitigation verified",
+              "aliases": [
+                "Terrain hazard mitigation verification",
+                "Topographic safety clearance"
+              ]
+            },
+            {
+              "topic": "biosecurity_quarantine_installed",
+              "label": "Dedicated biosecurity quarantine module installed",
+              "aliases": [
+                "Quarantine chamber presence",
+                "Biosecurity module installation"
+              ]
+            },
+            {
+              "topic": "airlock_depressurization_duration",
+              "label": "Airlock cycle depressurization duration",
+              "aliases": [
+                "Airlock cycle time",
+                "Depressurization cycle duration"
+              ]
+            },
+            {
+              "topic": "microgrid_autonomy_duration",
+              "label": "Battery microgrid autonomy duration",
+              "aliases": [
+                "Microgrid storage endurance",
+                "Battery backup duration"
+              ]
+            },
+            {
+              "topic": "regolith_fidelity_approved",
+              "label": "Basaltic regolith analogue fidelity approved",
+              "aliases": [
+                "Mineralogical analogue fidelity approval",
+                "Regolith fidelity certification"
+              ]
+            },
+            {
+              "topic": "isolation_buffer_area",
+              "label": "Total wilderness isolation buffer area",
+              "aliases": [
+                "Buffer perimeter zone",
+                "Wilderness isolation area"
+              ]
+            },
+            {
+              "topic": "crew_berth_capacity",
+              "label": "Certified crew berth capacity",
+              "aliases": [
+                "Simulated crew berthing complement",
+                "Crew capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

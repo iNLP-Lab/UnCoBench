@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_032",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telemetry_operations_engineer",
+        "laboratory_quality_director"
+      ],
+      "role_names": [
+        "Process automation engineer (AUT)",
+        "Analytical laboratory director (LAB)"
+      ],
+      "directory": "incomplete/task_032",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_operations_engineer_A",
+          "role_id": "telemetry_operations_engineer",
+          "candidate_id": "A",
+          "key": "AUT-VALV-3BD",
+          "boolean_predicate_id": "A_cod_telemetry_enabled",
+          "boolean_label": "Real-time chemical oxygen demand sensor monitoring telemetry enablement",
+          "hidden_predicate_id": "A_emergency_shutoff_lag",
+          "threshold_label": "Maximum emergency discharge shutoff lag",
+          "threshold_aliases": [
+            "Emergency shutoff response time",
+            "Automatic isolation lag"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "AUT-VALV-3BD: Aegis Environmental Bio-Services.Aegis Environmental Bio-Services: Real-time chemical oxygen demand sensor monitoring telemetry enablement = true .Source: SCADA system telemetry gateway register; Scope: Plant intake and outfall monitoring nodes; Measurement: Active operational link transmitting real-time chemical oxygen demand sensor packets.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum emergency discharge shutoff lag is between 5 min and 40 min, inclusive.",
+          "role_name": "Process automation engineer (AUT)",
+          "candidate_name": "Aegis Environmental Bio-Services",
+          "other_candidate_names": [
+            "HydroClean Industrial Solutions",
+            "Vanguard CleanWater Technologies"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_laboratory_quality_director_A",
+          "role_id": "laboratory_quality_director",
+          "candidate_id": "A",
+          "key": "LAB-ASSAY-MHT",
+          "hidden_predicate_id": "A_heavy_metal_removal_efficiency",
+          "threshold_label": "Heavy metal removal efficiency",
+          "threshold_aliases": [
+            "Heavy metal extraction rate",
+            "Precipitation capture efficiency"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "LAB-ASSAY-MHT: Aegis Environmental Bio-Services.Operating environment: Production environment.Aegis Environmental Bio-Services: Accredited on-site laboratory testing accreditation = true .Source: Laboratory accreditation directory; Scope: On-site wastewater analytical facility; Measurement: Formal validation of ISO/IEC 17025 accreditation for heavy metal and organic assays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Heavy metal removal efficiency is between 50 % and 100 %, inclusive.",
+          "role_name": "Analytical laboratory director (LAB)",
+          "candidate_name": "Aegis Environmental Bio-Services",
+          "other_candidate_names": [
+            "HydroClean Industrial Solutions",
+            "Vanguard CleanWater Technologies"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Pilot testing environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telemetry_operations_engineer",
+        "laboratory_quality_director",
+        "chemical_precipitation_engineer"
+      ],
+      "role_names": [
+        "Process automation engineer (AUT)",
+        "Analytical laboratory director (LAB)",
+        "Separation process engineer (SEP)"
+      ],
+      "directory": "incomplete/task_032",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_operations_engineer_A",
+          "role_id": "telemetry_operations_engineer",
+          "candidate_id": "A",
+          "key": "AUT-VALV-3BD",
+          "boolean_predicate_id": "A_cod_telemetry_enabled",
+          "boolean_label": "Real-time chemical oxygen demand sensor monitoring telemetry enablement",
+          "hidden_predicate_id": "A_emergency_shutoff_lag",
+          "threshold_label": "Maximum emergency discharge shutoff lag",
+          "threshold_aliases": [
+            "Emergency shutoff response time",
+            "Automatic isolation lag"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "AUT-VALV-3BD: Aegis Environmental Bio-Services.Aegis Environmental Bio-Services: Real-time chemical oxygen demand sensor monitoring telemetry enablement = true .Source: SCADA system telemetry gateway register; Scope: Plant intake and outfall monitoring nodes; Measurement: Active operational link transmitting real-time chemical oxygen demand sensor packets.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum emergency discharge shutoff lag is between 5 min and 40 min, inclusive.",
+          "role_name": "Process automation engineer (AUT)",
+          "candidate_name": "Aegis Environmental Bio-Services",
+          "other_candidate_names": [
+            "HydroClean Industrial Solutions",
+            "Vanguard CleanWater Technologies"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_laboratory_quality_director_A",
+          "role_id": "laboratory_quality_director",
+          "candidate_id": "A",
+          "key": "LAB-ASSAY-MHT",
+          "hidden_predicate_id": "A_heavy_metal_removal_efficiency",
+          "threshold_label": "Heavy metal removal efficiency",
+          "threshold_aliases": [
+            "Heavy metal extraction rate",
+            "Precipitation capture efficiency"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "LAB-ASSAY-MHT: Aegis Environmental Bio-Services.Operating environment: Production environment.Aegis Environmental Bio-Services: Accredited on-site laboratory testing accreditation = true .Source: Laboratory accreditation directory; Scope: On-site wastewater analytical facility; Measurement: Formal validation of ISO/IEC 17025 accreditation for heavy metal and organic assays.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Heavy metal removal efficiency is between 50 % and 100 %, inclusive.",
+          "role_name": "Analytical laboratory director (LAB)",
+          "candidate_name": "Aegis Environmental Bio-Services",
+          "other_candidate_names": [
+            "HydroClean Industrial Solutions",
+            "Vanguard CleanWater Technologies"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Pilot testing environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_chemical_precipitation_engineer_A",
+          "role_id": "chemical_precipitation_engineer",
+          "candidate_id": "A",
+          "key": "SEP-PRECIP-8DA",
+          "hidden_predicate_id": "A_precipitation_volume",
+          "threshold_label": "Heavy metal precipitation volume",
+          "threshold_aliases": [
+            "Daily precipitation process volume",
+            "Coagulation reactor volume"
+          ],
+          "threshold_value": 70,
+          "threshold_unit": "kL",
+          "partial_record_text": "SEP-PRECIP-8DA: Aegis Environmental Bio-Services. The record covers Heavy metal precipitation volume. Chemical precipitation operating schedule; Standard 24-hour continuous run; Nominal volume of metal-bearing wash liquor routed through chemical precipitation clarifiers.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Heavy metal precipitation volume is between 20 kL and 100 kL, inclusive.",
+          "role_name": "Separation process engineer (SEP)",
+          "candidate_name": "Aegis Environmental Bio-Services",
+          "other_candidate_names": [
+            "HydroClean Industrial Solutions",
+            "Vanguard CleanWater Technologies"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

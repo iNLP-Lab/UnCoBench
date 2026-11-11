@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_979",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_safety",
+        "transit_coordination"
+      ],
+      "role_names": [
+        "Municipal fire safety inspector (FIRE)",
+        "Metropolitan transit coordinator (TRAN)"
+      ],
+      "directory": "incomplete/task_979",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FIRE-EGRESS-0OP",
+          "boolean_predicate_id": "A_emergency_evacuation_signoff",
+          "boolean_label": "Emergency evacuation plan signoff",
+          "hidden_predicate_id": "A_maximum_egress_clearance_time",
+          "threshold_label": "Maximum egress clearance time",
+          "threshold_aliases": [
+            "Full evacuation duration",
+            "Emergency exit clearance time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "FIRE-EGRESS-0OP: Cunard Pier Exhibition Centre.Cunard Pier Exhibition Centre: Emergency evacuation plan signoff = true .Source: Municipal fire safety compliance registry; Scope: Venue comprehensive life-safety evacuation filing; Measurement: Formal signoff indicating approved emergency egress routing.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum egress clearance time is at most 30 min.",
+          "role_name": "Municipal fire safety inspector (FIRE)",
+          "candidate_name": "Cunard Pier Exhibition Centre",
+          "other_candidate_names": [
+            "Dartmouth Marine Gateway Pavilion",
+            "Bedford Basin Cultural Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_coordination_A",
+          "role_id": "transit_coordination",
+          "candidate_id": "A",
+          "key": "TRAN-DOCK-BRS",
+          "hidden_predicate_id": "A_dedicated_shuttle_berths",
+          "threshold_label": "Dedicated transit shuttle berths",
+          "threshold_aliases": [
+            "Shuttle docking berths",
+            "Transit bus staging bays"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "berths",
+          "partial_record_text": "TRAN-DOCK-BRS: Cunard Pier Exhibition Centre. The record covers Dedicated transit shuttle berths. Metropolitan transit hub assessment; Curbside staging zone dedicated exclusively to event shuttle buses; Number of concurrently operable active passenger boarding berths.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Dedicated transit shuttle berths is at most 30 berths.",
+          "role_name": "Metropolitan transit coordinator (TRAN)",
+          "candidate_name": "Cunard Pier Exhibition Centre",
+          "other_candidate_names": [
+            "Dartmouth Marine Gateway Pavilion",
+            "Bedford Basin Cultural Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_safety",
+        "transit_coordination",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Municipal fire safety inspector (FIRE)",
+        "Metropolitan transit coordinator (TRAN)",
+        "Facilities engineering director (ENG)"
+      ],
+      "directory": "incomplete/task_979",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FIRE-EGRESS-0OP",
+          "boolean_predicate_id": "A_emergency_evacuation_signoff",
+          "boolean_label": "Emergency evacuation plan signoff",
+          "hidden_predicate_id": "A_maximum_egress_clearance_time",
+          "threshold_label": "Maximum egress clearance time",
+          "threshold_aliases": [
+            "Full evacuation duration",
+            "Emergency exit clearance time"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "FIRE-EGRESS-0OP: Cunard Pier Exhibition Centre.Cunard Pier Exhibition Centre: Emergency evacuation plan signoff = true .Source: Municipal fire safety compliance registry; Scope: Venue comprehensive life-safety evacuation filing; Measurement: Formal signoff indicating approved emergency egress routing.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum egress clearance time is at most 30 min.",
+          "role_name": "Municipal fire safety inspector (FIRE)",
+          "candidate_name": "Cunard Pier Exhibition Centre",
+          "other_candidate_names": [
+            "Dartmouth Marine Gateway Pavilion",
+            "Bedford Basin Cultural Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_coordination_A",
+          "role_id": "transit_coordination",
+          "candidate_id": "A",
+          "key": "TRAN-DOCK-BRS",
+          "hidden_predicate_id": "A_dedicated_shuttle_berths",
+          "threshold_label": "Dedicated transit shuttle berths",
+          "threshold_aliases": [
+            "Shuttle docking berths",
+            "Transit bus staging bays"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "berths",
+          "partial_record_text": "TRAN-DOCK-BRS: Cunard Pier Exhibition Centre. The record covers Dedicated transit shuttle berths. Metropolitan transit hub assessment; Curbside staging zone dedicated exclusively to event shuttle buses; Number of concurrently operable active passenger boarding berths.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Dedicated transit shuttle berths is at most 30 berths.",
+          "role_name": "Metropolitan transit coordinator (TRAN)",
+          "candidate_name": "Cunard Pier Exhibition Centre",
+          "other_candidate_names": [
+            "Dartmouth Marine Gateway Pavilion",
+            "Bedford Basin Cultural Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PLANT-O3X",
+          "hidden_predicate_id": "A_hvac_air_turnover_rate",
+          "threshold_label": "Mechanical HVAC air turnover rate",
+          "threshold_aliases": [
+            "Air turnover rate",
+            "Exhibition ventilation exchange rate"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ACH",
+          "partial_record_text": "ENG-PLANT-O3X: Cunard Pier Exhibition Centre. The record covers Mechanical HVAC air turnover rate. Mechanical engineering commissioning log; Main indoor exposition pavilions; Effective air changes per hour under standard full-occupancy configuration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 20
+          },
+          "coarse_statement": "Mechanical HVAC air turnover rate is at most 20 ACH.",
+          "role_name": "Facilities engineering director (ENG)",
+          "candidate_name": "Cunard Pier Exhibition Centre",
+          "other_candidate_names": [
+            "Dartmouth Marine Gateway Pavilion",
+            "Bedford Basin Cultural Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

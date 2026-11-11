@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_121",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_services",
+        "public_health"
+      ],
+      "role_names": [
+        "Fire and rescue logistics commander (FRLC)",
+        "Public health and sanitation officer (PHSO)"
+      ],
+      "directory": "incomplete/task_121",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_services_A",
+          "role_id": "emergency_services",
+          "candidate_id": "A",
+          "key": "FRLC-PWR-T97",
+          "boolean_predicate_id": "A_emergency_generator_active",
+          "boolean_label": "Emergency generator system commissioning",
+          "hidden_predicate_id": "A_generator_fuel_autonomy",
+          "threshold_label": "Generator full-load fuel autonomy",
+          "threshold_aliases": [
+            "Auxiliary power fuel autonomy",
+            "Backup generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "FRLC-PWR-T97: Lowestoft Civic Sports Arena.Lowestoft Civic Sports Arena: Emergency generator system commissioning = true .Source: Electrical resilience handover certificate; Scope: Standby diesel turbine electrical interconnect switchgear; Measurement: Formal sign-off confirming automatic transfer switch and synchronized black-start functionality.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Generator full-load fuel autonomy is at most 110 h.",
+          "role_name": "Fire and rescue logistics commander (FRLC)",
+          "candidate_name": "Lowestoft Civic Sports Arena",
+          "other_candidate_names": [
+            "Oulton Broad Community Pavilion",
+            "Beccles Regional Education Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHSO-MED-WFG",
+          "hidden_predicate_id": "A_partitioned_family_capacity",
+          "threshold_label": "Partitioned family unit capacity",
+          "threshold_aliases": [
+            "Modular family pod capacity",
+            "Private family sheltering capacity"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "persons",
+          "partial_record_text": "PHSO-MED-WFG: Lowestoft Civic Sports Arena.Lowestoft Civic Sports Arena: Dedicated medical isolation ward availability = true .Source: National Health Service clinical spatial review; Scope: Shelter clinical and triage station perimeter; Measurement: Presence of a designated negative-pressure or segregated physical containment area for infectious triage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Partitioned family unit capacity is at most 400 persons.",
+          "role_name": "Public health and sanitation officer (PHSO)",
+          "candidate_name": "Lowestoft Civic Sports Arena",
+          "other_candidate_names": [
+            "Oulton Broad Community Pavilion",
+            "Beccles Regional Education Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_services",
+        "public_health",
+        "transport_coordinator"
+      ],
+      "role_names": [
+        "Fire and rescue logistics commander (FRLC)",
+        "Public health and sanitation officer (PHSO)",
+        "Emergency transport and highways coordinator (ETHC)"
+      ],
+      "directory": "incomplete/task_121",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_services_A",
+          "role_id": "emergency_services",
+          "candidate_id": "A",
+          "key": "FRLC-PWR-T97",
+          "boolean_predicate_id": "A_emergency_generator_active",
+          "boolean_label": "Emergency generator system commissioning",
+          "hidden_predicate_id": "A_generator_fuel_autonomy",
+          "threshold_label": "Generator full-load fuel autonomy",
+          "threshold_aliases": [
+            "Auxiliary power fuel autonomy",
+            "Backup generator runtime"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "FRLC-PWR-T97: Lowestoft Civic Sports Arena.Lowestoft Civic Sports Arena: Emergency generator system commissioning = true .Source: Electrical resilience handover certificate; Scope: Standby diesel turbine electrical interconnect switchgear; Measurement: Formal sign-off confirming automatic transfer switch and synchronized black-start functionality.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Generator full-load fuel autonomy is at most 110 h.",
+          "role_name": "Fire and rescue logistics commander (FRLC)",
+          "candidate_name": "Lowestoft Civic Sports Arena",
+          "other_candidate_names": [
+            "Oulton Broad Community Pavilion",
+            "Beccles Regional Education Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHSO-MED-WFG",
+          "hidden_predicate_id": "A_partitioned_family_capacity",
+          "threshold_label": "Partitioned family unit capacity",
+          "threshold_aliases": [
+            "Modular family pod capacity",
+            "Private family sheltering capacity"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "persons",
+          "partial_record_text": "PHSO-MED-WFG: Lowestoft Civic Sports Arena.Lowestoft Civic Sports Arena: Dedicated medical isolation ward availability = true .Source: National Health Service clinical spatial review; Scope: Shelter clinical and triage station perimeter; Measurement: Presence of a designated negative-pressure or segregated physical containment area for infectious triage.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Partitioned family unit capacity is at most 400 persons.",
+          "role_name": "Public health and sanitation officer (PHSO)",
+          "candidate_name": "Lowestoft Civic Sports Arena",
+          "other_candidate_names": [
+            "Oulton Broad Community Pavilion",
+            "Beccles Regional Education Centre"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transport_coordinator_A",
+          "role_id": "transport_coordinator",
+          "candidate_id": "A",
+          "key": "ETHC-EVAC-HKH",
+          "hidden_predicate_id": "A_bunk_capacity",
+          "threshold_label": "Rapid-deployment bunk capacity",
+          "threshold_aliases": [
+            "Communal bunk capacity",
+            "Emergency cot capacity"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "persons",
+          "partial_record_text": "ETHC-EVAC-HKH: Lowestoft Civic Sports Arena.Telemetry aggregation window: peak 24-hour surge window.Lowestoft Civic Sports Arena: Dual-route arterial flood clearance = true .Source: Highways England coastal inundation telemetry; Scope: Primary and secondary road feeder arteries leading to the facility; Measurement: Confirmation that at least two independent vehicular access roads remain clear of standing floodwaters above 15 cm.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Rapid-deployment bunk capacity is at most 700 persons.",
+          "role_name": "Emergency transport and highways coordinator (ETHC)",
+          "candidate_name": "Lowestoft Civic Sports Arena",
+          "other_candidate_names": [
+            "Oulton Broad Community Pavilion",
+            "Beccles Regional Education Centre"
+          ],
+          "context_value": "peak 24-hour surge window",
+          "other_context_values": [
+            "72-hour tidal cycle window"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

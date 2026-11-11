@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_931",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_operations",
+        "scientific_payload"
+      ],
+      "role_names": [
+        "Marine Operations Superintendent (MAR)",
+        "Scientific Payload Director (SCI)"
+      ],
+      "directory": "incomplete/task_931",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAR-NAUT-VDZ",
+          "boolean_predicate_id": "A_polar_code_certified",
+          "boolean_label": "Polar Code Category A certification held",
+          "hidden_predicate_id": "A_icebreaking_speed",
+          "threshold_label": "Continuous icebreaking speed",
+          "threshold_aliases": [
+            "Level ice advance speed",
+            "Continuous ice penetration speed"
+          ],
+          "threshold_value": 3.2,
+          "threshold_unit": "kn",
+          "partial_record_text": "MAR-NAUT-VDZ: RRS Endurance Discovery.RRS Endurance Discovery: Polar Code Category A certification held = true .Source: International Polar Ship Certificate; Scope: Vessel hull and machinery polar survey; Measurement: Whether the vessel holds valid Category A certification for polar waters.RRS Endurance Discovery: Planned transit distance = 2800 nmi.Source: Expedition navigational passage plan; Scope: Hobart departure to marginal ice zone survey line and return; Measurement: Total calculated nautical distance along planned waypoints.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Continuous icebreaking speed is at most 5 kn.",
+          "role_name": "Marine Operations Superintendent (MAR)",
+          "candidate_name": "RRS Endurance Discovery",
+          "other_candidate_names": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_payload_A",
+          "role_id": "scientific_payload",
+          "candidate_id": "A",
+          "key": "SCI-DECK-CLA",
+          "hidden_predicate_id": "A_clean_wet_lab_area",
+          "threshold_label": "Clean wet laboratory floor area",
+          "threshold_aliases": [
+            "Trace-metal wet lab area",
+            "Wet lab workspace"
+          ],
+          "threshold_value": 155,
+          "threshold_unit": "m2",
+          "partial_record_text": "SCI-DECK-CLA: RRS Endurance Discovery.RRS Endurance Discovery: Class 2 dynamic positioning rating = true .Source: Classification society notation certificate; Scope: Main station-keeping propulsion and sensor control network; Measurement: Whether the vessel maintains active redundant DP2 notation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Clean wet laboratory floor area is at most 300 m2.",
+          "role_name": "Scientific Payload Director (SCI)",
+          "candidate_name": "RRS Endurance Discovery",
+          "other_candidate_names": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_operations",
+        "scientific_payload",
+        "maritime_procurement"
+      ],
+      "role_names": [
+        "Marine Operations Superintendent (MAR)",
+        "Scientific Payload Director (SCI)",
+        "Maritime Procurement Lead (FIN)"
+      ],
+      "directory": "incomplete/task_931",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAR-NAUT-VDZ",
+          "boolean_predicate_id": "A_polar_code_certified",
+          "boolean_label": "Polar Code Category A certification held",
+          "hidden_predicate_id": "A_icebreaking_speed",
+          "threshold_label": "Continuous icebreaking speed",
+          "threshold_aliases": [
+            "Level ice advance speed",
+            "Continuous ice penetration speed"
+          ],
+          "threshold_value": 3.2,
+          "threshold_unit": "kn",
+          "partial_record_text": "MAR-NAUT-VDZ: RRS Endurance Discovery.RRS Endurance Discovery: Polar Code Category A certification held = true .Source: International Polar Ship Certificate; Scope: Vessel hull and machinery polar survey; Measurement: Whether the vessel holds valid Category A certification for polar waters.RRS Endurance Discovery: Planned transit distance = 2800 nmi.Source: Expedition navigational passage plan; Scope: Hobart departure to marginal ice zone survey line and return; Measurement: Total calculated nautical distance along planned waypoints.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Continuous icebreaking speed is at most 5 kn.",
+          "role_name": "Marine Operations Superintendent (MAR)",
+          "candidate_name": "RRS Endurance Discovery",
+          "other_candidate_names": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_scientific_payload_A",
+          "role_id": "scientific_payload",
+          "candidate_id": "A",
+          "key": "SCI-DECK-CLA",
+          "hidden_predicate_id": "A_clean_wet_lab_area",
+          "threshold_label": "Clean wet laboratory floor area",
+          "threshold_aliases": [
+            "Trace-metal wet lab area",
+            "Wet lab workspace"
+          ],
+          "threshold_value": 155,
+          "threshold_unit": "m2",
+          "partial_record_text": "SCI-DECK-CLA: RRS Endurance Discovery.RRS Endurance Discovery: Class 2 dynamic positioning rating = true .Source: Classification society notation certificate; Scope: Main station-keeping propulsion and sensor control network; Measurement: Whether the vessel maintains active redundant DP2 notation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Clean wet laboratory floor area is at most 300 m2.",
+          "role_name": "Scientific Payload Director (SCI)",
+          "candidate_name": "RRS Endurance Discovery",
+          "other_candidate_names": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_procurement_A",
+          "role_id": "maritime_procurement",
+          "candidate_id": "A",
+          "key": "FIN-CHAR-12Y",
+          "hidden_predicate_id": "A_voyage_fuel_expenditure",
+          "threshold_label": "Total voyage fuel expenditure",
+          "threshold_aliases": [
+            "Bunker fuel cost",
+            "Transit fuel expense"
+          ],
+          "threshold_value": 238000,
+          "threshold_unit": "USD",
+          "partial_record_text": "FIN-CHAR-12Y: RRS Endurance Discovery.RRS Endurance Discovery: Charter indemnity coverage verified = true .Source: Protection and Indemnity Club cover note; Scope: Charter contract liability and environmental wreck removal coverage; Measurement: Whether mandatory charterer legal indemnity endorsements are verified.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total voyage fuel expenditure is at most 400000 USD.",
+          "role_name": "Maritime Procurement Lead (FIN)",
+          "candidate_name": "RRS Endurance Discovery",
+          "other_candidate_names": [
+            "RV Southern Auroral",
+            "Polaris Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

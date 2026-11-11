@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_997",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "microclimate_engineering",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Archival microclimate engineer (CLI)",
+        "Subterranean infrastructure superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_997",
+      "profiles": [
+        {
+          "record_id": "rec_microclimate_engineering_A",
+          "role_id": "microclimate_engineering",
+          "candidate_id": "A",
+          "key": "CLI-CLIM-AAO",
+          "boolean_predicate_id": "A_inert_gas_suppression_enabled",
+          "boolean_label": "Active inert gas fire suppression installed",
+          "hidden_predicate_id": "A_humidity_variance_tolerance",
+          "threshold_label": "Relative humidity stabilization variance",
+          "threshold_aliases": [
+            "Humidity variance",
+            "Relative humidity excursion limit"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "%",
+          "partial_record_text": "CLI-CLIM-AAO: Gotthard Subterranean Archive Complex.Gotthard Subterranean Archive Complex: Active inert gas fire suppression installed = true .Source: Fire safety systems audit; Scope: Candidate vault storage chambers; Measurement: Confirmation that an active nitrogen-argon oxygen-reduction suppression system is operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Relative humidity stabilization variance is at most 9 %.",
+          "role_name": "Archival microclimate engineer (CLI)",
+          "candidate_name": "Gotthard Subterranean Archive Complex",
+          "other_candidate_names": [
+            "Grimsel Rock Cavern Depository",
+            "Lucerne Fortress Deep Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "OPS-INFRA-MTI",
+          "hidden_predicate_id": "A_backup_power_autonomy",
+          "threshold_label": "Auxiliary backup power autonomy",
+          "threshold_aliases": [
+            "Backup generator endurance",
+            "Off-grid power reserve"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-INFRA-MTI: Gotthard Subterranean Archive Complex. The record covers Auxiliary backup power autonomy. Record context: Germany. Auxiliary engineering inspection report; On-site dual diesel generators and dedicated underground fuel reservoirs; Continuous running duration supported at full microclimate and ventilation load without external resupply.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Auxiliary backup power autonomy is at most 300 h.",
+          "role_name": "Subterranean infrastructure superintendent (OPS)",
+          "candidate_name": "Gotthard Subterranean Archive Complex",
+          "other_candidate_names": [
+            "Grimsel Rock Cavern Depository",
+            "Lucerne Fortress Deep Vault"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "microclimate_engineering",
+        "facility_operations",
+        "curatorial_directorate"
+      ],
+      "role_names": [
+        "Archival microclimate engineer (CLI)",
+        "Subterranean infrastructure superintendent (OPS)",
+        "Curatorial conservation lead (CUR)"
+      ],
+      "directory": "incomplete/task_997",
+      "profiles": [
+        {
+          "record_id": "rec_microclimate_engineering_A",
+          "role_id": "microclimate_engineering",
+          "candidate_id": "A",
+          "key": "CLI-CLIM-AAO",
+          "boolean_predicate_id": "A_inert_gas_suppression_enabled",
+          "boolean_label": "Active inert gas fire suppression installed",
+          "hidden_predicate_id": "A_humidity_variance_tolerance",
+          "threshold_label": "Relative humidity stabilization variance",
+          "threshold_aliases": [
+            "Humidity variance",
+            "Relative humidity excursion limit"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "%",
+          "partial_record_text": "CLI-CLIM-AAO: Gotthard Subterranean Archive Complex.Gotthard Subterranean Archive Complex: Active inert gas fire suppression installed = true .Source: Fire safety systems audit; Scope: Candidate vault storage chambers; Measurement: Confirmation that an active nitrogen-argon oxygen-reduction suppression system is operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Relative humidity stabilization variance is at most 9 %.",
+          "role_name": "Archival microclimate engineer (CLI)",
+          "candidate_name": "Gotthard Subterranean Archive Complex",
+          "other_candidate_names": [
+            "Grimsel Rock Cavern Depository",
+            "Lucerne Fortress Deep Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "OPS-INFRA-MTI",
+          "hidden_predicate_id": "A_backup_power_autonomy",
+          "threshold_label": "Auxiliary backup power autonomy",
+          "threshold_aliases": [
+            "Backup generator endurance",
+            "Off-grid power reserve"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-INFRA-MTI: Gotthard Subterranean Archive Complex. The record covers Auxiliary backup power autonomy. Record context: Germany. Auxiliary engineering inspection report; On-site dual diesel generators and dedicated underground fuel reservoirs; Continuous running duration supported at full microclimate and ventilation load without external resupply.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Auxiliary backup power autonomy is at most 300 h.",
+          "role_name": "Subterranean infrastructure superintendent (OPS)",
+          "candidate_name": "Gotthard Subterranean Archive Complex",
+          "other_candidate_names": [
+            "Grimsel Rock Cavern Depository",
+            "Lucerne Fortress Deep Vault"
+          ],
+          "context_value": "Germany",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_curatorial_directorate_A",
+          "role_id": "curatorial_directorate",
+          "candidate_id": "A",
+          "key": "CUR-CURAT-7D0",
+          "hidden_predicate_id": "A_manuscript_volume",
+          "threshold_label": "Delicate parchment manuscript volume",
+          "threshold_aliases": [
+            "Manuscript archive volume",
+            "Parchment storage allocation"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "m3",
+          "partial_record_text": "CUR-CURAT-7D0: Gotthard Subterranean Archive Complex. The record covers Delicate parchment manuscript volume. Emergency archival packing inventory; Allocated climate-controlled manuscript chests designated for candidate vault intake; Total gross external displacement volume of packed parchment preservation containers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Delicate parchment manuscript volume is at most 300 m3.",
+          "role_name": "Curatorial conservation lead (CUR)",
+          "candidate_name": "Gotthard Subterranean Archive Complex",
+          "other_candidate_names": [
+            "Grimsel Rock Cavern Depository",
+            "Lucerne Fortress Deep Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

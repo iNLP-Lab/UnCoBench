@@ -1,0 +1,172 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_405",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fire_safety",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Fire protection systems engineer (FIRE)",
+        "Commercial contracting lead (PROC)"
+      ],
+      "directory": "incomplete/task_405",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FIRE-HAZMAT-GR0",
+          "boolean_predicate_id": "A_inert_gas_suppression_installed",
+          "boolean_label": "Installed clean-agent inert gas suppression",
+          "hidden_predicate_id": "A_gas_discharge_delay_seconds",
+          "threshold_label": "Gas discharge delay",
+          "threshold_aliases": [
+            "Suppression discharge delay time",
+            "Agent deployment delay"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "s",
+          "partial_record_text": "FIRE-HAZMAT-GR0: Laurentian Deep Geosphere Repository.Laurentian Deep Geosphere Repository: Installed clean-agent inert gas suppression = true .Source: Fire safety commissioning report; Scope: Deep preservation storage compartments; Measurement: Physical installation and readiness of nitrogen-argon inert gas fire suppression piping.",
+          "role_name": "Fire protection systems engineer (FIRE)",
+          "candidate_name": "Laurentian Deep Geosphere Repository",
+          "other_candidate_names": [
+            "Bavarian Alpine Granite Vault",
+            "Scandinavian Permafrost Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "PROC-COMM-75L",
+          "hidden_predicate_id": "A_annual_fee_rate_per_cubic_meter",
+          "threshold_label": "Annual fee rate per cubic meter",
+          "threshold_aliases": [
+            "Preservation unit fee rate",
+            "Volume storage tariff"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "EUR/m3",
+          "partial_record_text": "PROC-COMM-75L: Laurentian Deep Geosphere Repository. The record covers Annual fee rate per cubic meter. Long-term master storage rate schedule; Annual commercial preservation contract terms; Fixed annual storage charge per cubic meter of allocated archival capacity.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 140,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Annual fee rate per cubic meter is at least 140 EUR/m3.",
+          "role_name": "Commercial contracting lead (PROC)",
+          "candidate_name": "Laurentian Deep Geosphere Repository",
+          "other_candidate_names": [
+            "Bavarian Alpine Granite Vault",
+            "Scandinavian Permafrost Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fire_safety",
+        "commercial_procurement",
+        "geotechnical_engineering"
+      ],
+      "role_names": [
+        "Fire protection systems engineer (FIRE)",
+        "Commercial contracting lead (PROC)",
+        "Geotechnical engineering director (GEO)"
+      ],
+      "directory": "incomplete/task_405",
+      "profiles": [
+        {
+          "record_id": "rec_fire_safety_A",
+          "role_id": "fire_safety",
+          "candidate_id": "A",
+          "key": "FIRE-HAZMAT-GR0",
+          "boolean_predicate_id": "A_inert_gas_suppression_installed",
+          "boolean_label": "Installed clean-agent inert gas suppression",
+          "hidden_predicate_id": "A_gas_discharge_delay_seconds",
+          "threshold_label": "Gas discharge delay",
+          "threshold_aliases": [
+            "Suppression discharge delay time",
+            "Agent deployment delay"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "s",
+          "partial_record_text": "FIRE-HAZMAT-GR0: Laurentian Deep Geosphere Repository.Laurentian Deep Geosphere Repository: Installed clean-agent inert gas suppression = true .Source: Fire safety commissioning report; Scope: Deep preservation storage compartments; Measurement: Physical installation and readiness of nitrogen-argon inert gas fire suppression piping.",
+          "role_name": "Fire protection systems engineer (FIRE)",
+          "candidate_name": "Laurentian Deep Geosphere Repository",
+          "other_candidate_names": [
+            "Bavarian Alpine Granite Vault",
+            "Scandinavian Permafrost Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "PROC-COMM-75L",
+          "hidden_predicate_id": "A_annual_fee_rate_per_cubic_meter",
+          "threshold_label": "Annual fee rate per cubic meter",
+          "threshold_aliases": [
+            "Preservation unit fee rate",
+            "Volume storage tariff"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "EUR/m3",
+          "partial_record_text": "PROC-COMM-75L: Laurentian Deep Geosphere Repository. The record covers Annual fee rate per cubic meter. Long-term master storage rate schedule; Annual commercial preservation contract terms; Fixed annual storage charge per cubic meter of allocated archival capacity.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 140,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Annual fee rate per cubic meter is at least 140 EUR/m3.",
+          "role_name": "Commercial contracting lead (PROC)",
+          "candidate_name": "Laurentian Deep Geosphere Repository",
+          "other_candidate_names": [
+            "Bavarian Alpine Granite Vault",
+            "Scandinavian Permafrost Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_engineering_A",
+          "role_id": "geotechnical_engineering",
+          "candidate_id": "A",
+          "key": "GEO-STRUC-A1B",
+          "hidden_predicate_id": "A_allocated_archival_volume",
+          "threshold_label": "Allocated archival volume",
+          "threshold_aliases": [
+            "Contracted storage volume",
+            "Preservation vault capacity allocation"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "m3",
+          "partial_record_text": "GEO-STRUC-A1B: Laurentian Deep Geosphere Repository.Laurentian Deep Geosphere Repository: Certified seismic isolation = true .Source: Structural engineering compliance certificate; Scope: Vault foundation subterranean structure; Measurement: Confirmation of elastomeric bearing base isolation compliant with seismic hazard code.",
+          "role_name": "Geotechnical engineering director (GEO)",
+          "candidate_name": "Laurentian Deep Geosphere Repository",
+          "other_candidate_names": [
+            "Bavarian Alpine Granite Vault",
+            "Scandinavian Permafrost Archive"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

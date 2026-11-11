@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_718",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_robotics",
+        "deck_operations"
+      ],
+      "role_names": [
+        "Subsea Robotics Lead (ROV)",
+        "Deck Operations Lead (DECK)"
+      ],
+      "directory": "incomplete/task_718",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-SUBSEA-HV3",
+          "boolean_predicate_id": "A_acoustic_positioning_enabled",
+          "boolean_label": "Acoustic tracking system activation",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "Work-class ROV operational depth rating",
+          "threshold_aliases": [
+            "Subsea robotic depth rating",
+            "Maximum ROV dive depth"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-SUBSEA-HV3: Dynamic positioning umbilical spooling plan.Dynamic positioning umbilical spooling plan: Acoustic tracking system activation = true .Source: Subsea avionics commissioning sheet; Scope: Ultra-short baseline transceiver array; Measurement: Operational activation of high-frequency subsea transponder positioning.Dynamic positioning umbilical spooling plan: Subsea winch tare mass = 55 t.Source: Tether management equipment spec; Scope: ROV launch and recovery umbilical traction winch; Measurement: Deadweight mass of winch drum, motor skid, and spooling frame.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "Work-class ROV operational depth rating is at most 5000 m.",
+          "role_name": "Subsea Robotics Lead (ROV)",
+          "candidate_name": "Dynamic positioning umbilical spooling plan",
+          "other_candidate_names": [
+            "Autonomous robotic trenching and splicing plan",
+            "Modular deck gantry grapple recovery plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-RIGGING-BXX",
+          "hidden_predicate_id": "A_weather_deck_clearance",
+          "threshold_label": "Weather working deck clearance height",
+          "threshold_aliases": [
+            "A-frame deck clearance",
+            "Vertical deck clearance"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "m",
+          "partial_record_text": "DECK-RIGGING-BXX: Dynamic positioning umbilical spooling plan.Dynamic positioning umbilical spooling plan: Auxiliary deck load capacity = 120 t.Source: Deck structural integrity plan; Scope: Aft auxiliary cargo storage pads; Measurement: Maximum allowable concentrated deck equipment mass.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Weather working deck clearance height is at most 30 m.",
+          "role_name": "Deck Operations Lead (DECK)",
+          "candidate_name": "Dynamic positioning umbilical spooling plan",
+          "other_candidate_names": [
+            "Autonomous robotic trenching and splicing plan",
+            "Modular deck gantry grapple recovery plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_robotics",
+        "deck_operations",
+        "marine_engineering"
+      ],
+      "role_names": [
+        "Subsea Robotics Lead (ROV)",
+        "Deck Operations Lead (DECK)",
+        "Marine Engineering Lead (MENG)"
+      ],
+      "directory": "incomplete/task_718",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-SUBSEA-HV3",
+          "boolean_predicate_id": "A_acoustic_positioning_enabled",
+          "boolean_label": "Acoustic tracking system activation",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "Work-class ROV operational depth rating",
+          "threshold_aliases": [
+            "Subsea robotic depth rating",
+            "Maximum ROV dive depth"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "m",
+          "partial_record_text": "ROV-SUBSEA-HV3: Dynamic positioning umbilical spooling plan.Dynamic positioning umbilical spooling plan: Acoustic tracking system activation = true .Source: Subsea avionics commissioning sheet; Scope: Ultra-short baseline transceiver array; Measurement: Operational activation of high-frequency subsea transponder positioning.Dynamic positioning umbilical spooling plan: Subsea winch tare mass = 55 t.Source: Tether management equipment spec; Scope: ROV launch and recovery umbilical traction winch; Measurement: Deadweight mass of winch drum, motor skid, and spooling frame.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "coarse_statement": "Work-class ROV operational depth rating is at most 5000 m.",
+          "role_name": "Subsea Robotics Lead (ROV)",
+          "candidate_name": "Dynamic positioning umbilical spooling plan",
+          "other_candidate_names": [
+            "Autonomous robotic trenching and splicing plan",
+            "Modular deck gantry grapple recovery plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-RIGGING-BXX",
+          "hidden_predicate_id": "A_weather_deck_clearance",
+          "threshold_label": "Weather working deck clearance height",
+          "threshold_aliases": [
+            "A-frame deck clearance",
+            "Vertical deck clearance"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "m",
+          "partial_record_text": "DECK-RIGGING-BXX: Dynamic positioning umbilical spooling plan.Dynamic positioning umbilical spooling plan: Auxiliary deck load capacity = 120 t.Source: Deck structural integrity plan; Scope: Aft auxiliary cargo storage pads; Measurement: Maximum allowable concentrated deck equipment mass.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Weather working deck clearance height is at most 30 m.",
+          "role_name": "Deck Operations Lead (DECK)",
+          "candidate_name": "Dynamic positioning umbilical spooling plan",
+          "other_candidate_names": [
+            "Autonomous robotic trenching and splicing plan",
+            "Modular deck gantry grapple recovery plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MENG-VESSEL-5QG",
+          "hidden_predicate_id": "A_primary_crane_lift_rating",
+          "threshold_label": "Primary crane lift rating",
+          "threshold_aliases": [
+            "Main offshore crane capacity",
+            "Heavy-lift dynamic crane rating"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "t",
+          "partial_record_text": "MENG-VESSEL-5QG: Dynamic positioning umbilical spooling plan.Dynamic positioning umbilical spooling plan: Dynamic positioning propulsion redundancy = true .Source: Vessel classification certificate; Scope: Candidate vessel dynamic positioning power plants; Measurement: Verification of autonomous redundant thruster power separation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary crane lift rating is at most 400 t.",
+          "role_name": "Marine Engineering Lead (MENG)",
+          "candidate_name": "Dynamic positioning umbilical spooling plan",
+          "other_candidate_names": [
+            "Autonomous robotic trenching and splicing plan",
+            "Modular deck gantry grapple recovery plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

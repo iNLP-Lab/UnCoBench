@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_642",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "engineering_lead",
+        "maritime_safety_lead"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (ENG)",
+        "Maritime safety inspector (MSI)"
+      ],
+      "directory": "incomplete/task_642",
+      "profiles": [
+        {
+          "record_id": "rec_engineering_lead_A",
+          "role_id": "engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-PROP-ZDT",
+          "boolean_predicate_id": "A_auxiliary_power_redundancy_installed",
+          "boolean_label": "Auxiliary power redundancy installed",
+          "hidden_predicate_id": "A_continuous_emergency_speed",
+          "threshold_label": "Continuous emergency transit speed",
+          "threshold_aliases": [
+            "Emergency transit speed",
+            "Sustained sea trial speed"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "kn",
+          "partial_record_text": "ENG-PROP-ZDT: Minch Wavemaster Express.Minch Wavemaster Express: Auxiliary power redundancy installed = true .Source: Vessel Electrical Survey Record; Scope: Auxiliary power generation architecture; Measurement: Presence of an isolated secondary auxiliary diesel generator.",
+          "role_name": "Marine engineering superintendent (ENG)",
+          "candidate_name": "Minch Wavemaster Express",
+          "other_candidate_names": [
+            "Sound of Mull High-Speed Catamaran",
+            "Tiree Sea-Lifeline Monohull"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_safety_lead_A",
+          "role_id": "maritime_safety_lead",
+          "candidate_id": "A",
+          "key": "MSI-STAB-KG9",
+          "hidden_predicate_id": "A_significant_wave_height_rating",
+          "threshold_label": "Certified significant wave height limit",
+          "threshold_aliases": [
+            "Wave height rating",
+            "Operating sea-state limit"
+          ],
+          "threshold_value": 4.5,
+          "threshold_unit": "m",
+          "partial_record_text": "MSI-STAB-KG9: Minch Wavemaster Express. The record covers Certified significant wave height limit. MCA Seaworthiness and Stability Certificate; Candidate vessel operating in Sea Area 2 (Hebridean inshore waters); Maximum certified significant wave height permitting unrestricted passenger evacuation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 3.5,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Certified significant wave height limit is at least 3.5 m.",
+          "role_name": "Maritime safety inspector (MSI)",
+          "candidate_name": "Minch Wavemaster Express",
+          "other_candidate_names": [
+            "Sound of Mull High-Speed Catamaran",
+            "Tiree Sea-Lifeline Monohull"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "engineering_lead",
+        "maritime_safety_lead",
+        "navigation_lead"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (ENG)",
+        "Maritime safety inspector (MSI)",
+        "Coastal navigation officer (NAV)"
+      ],
+      "directory": "incomplete/task_642",
+      "profiles": [
+        {
+          "record_id": "rec_engineering_lead_A",
+          "role_id": "engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-PROP-ZDT",
+          "boolean_predicate_id": "A_auxiliary_power_redundancy_installed",
+          "boolean_label": "Auxiliary power redundancy installed",
+          "hidden_predicate_id": "A_continuous_emergency_speed",
+          "threshold_label": "Continuous emergency transit speed",
+          "threshold_aliases": [
+            "Emergency transit speed",
+            "Sustained sea trial speed"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "kn",
+          "partial_record_text": "ENG-PROP-ZDT: Minch Wavemaster Express.Minch Wavemaster Express: Auxiliary power redundancy installed = true .Source: Vessel Electrical Survey Record; Scope: Auxiliary power generation architecture; Measurement: Presence of an isolated secondary auxiliary diesel generator.",
+          "role_name": "Marine engineering superintendent (ENG)",
+          "candidate_name": "Minch Wavemaster Express",
+          "other_candidate_names": [
+            "Sound of Mull High-Speed Catamaran",
+            "Tiree Sea-Lifeline Monohull"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_safety_lead_A",
+          "role_id": "maritime_safety_lead",
+          "candidate_id": "A",
+          "key": "MSI-STAB-KG9",
+          "hidden_predicate_id": "A_significant_wave_height_rating",
+          "threshold_label": "Certified significant wave height limit",
+          "threshold_aliases": [
+            "Wave height rating",
+            "Operating sea-state limit"
+          ],
+          "threshold_value": 4.5,
+          "threshold_unit": "m",
+          "partial_record_text": "MSI-STAB-KG9: Minch Wavemaster Express. The record covers Certified significant wave height limit. MCA Seaworthiness and Stability Certificate; Candidate vessel operating in Sea Area 2 (Hebridean inshore waters); Maximum certified significant wave height permitting unrestricted passenger evacuation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 3.5,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Certified significant wave height limit is at least 3.5 m.",
+          "role_name": "Maritime safety inspector (MSI)",
+          "candidate_name": "Minch Wavemaster Express",
+          "other_candidate_names": [
+            "Sound of Mull High-Speed Catamaran",
+            "Tiree Sea-Lifeline Monohull"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_navigation_lead_A",
+          "role_id": "navigation_lead",
+          "candidate_id": "A",
+          "key": "NAV-PASS-9QO",
+          "hidden_predicate_id": "A_maximum_laden_draft",
+          "threshold_label": "Maximum fully laden draft",
+          "threshold_aliases": [
+            "Laden draft",
+            "Full displacement draft"
+          ],
+          "threshold_value": 2.2,
+          "threshold_unit": "m",
+          "partial_record_text": "NAV-PASS-9QO: Minch Wavemaster Express. The record covers Maximum fully laden draft. Naval Architect Hydrostatic Assessment; Candidate vessel at full operational displacement; Maximum vertical distance from waterline to lowest keel projection.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1.8,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Maximum fully laden draft is at least 1.8 m.",
+          "role_name": "Coastal navigation officer (NAV)",
+          "candidate_name": "Minch Wavemaster Express",
+          "other_candidate_names": [
+            "Sound of Mull High-Speed Catamaran",
+            "Tiree Sea-Lifeline Monohull"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

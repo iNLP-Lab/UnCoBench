@@ -1,0 +1,504 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_842",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_compliance_officer",
+        "ramp_handling_coordinator"
+      ],
+      "role_names": [
+        "Aviation regulatory compliance officer (REG)",
+        "Dangerous goods ramp logistics coordinator (RAMP)"
+      ],
+      "directory": "number_expansion/misaligned/task_842/k2",
+      "error_profiles": [
+        {
+          "role_name": "Aviation regulatory compliance officer (REG)",
+          "target_key": "REG-CIVAV-KL5",
+          "alternate_key": "REG-CIVAV-COQ",
+          "target_context": "inclusive of emergency diversion airspaces",
+          "alternate_context": "exclusive of emergency diversion airspaces",
+          "candidate": "Direct transatlantic widebody freighter routing",
+          "other_candidates": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "value": true,
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ]
+            },
+            {
+              "topic": "escort_certified",
+              "label": "Active isotope transport escort certified",
+              "aliases": [
+                "Certified radiation escort status",
+                "Escort radioprotection qualification"
+              ]
+            },
+            {
+              "topic": "transit_radiation_exposure",
+              "label": "Maximum cumulative transit radiation exposure",
+              "aliases": [
+                "Cumulative transit dosimeter reading",
+                "Peak package transit radiation dose"
+              ]
+            },
+            {
+              "topic": "tarmac_dwell_minutes",
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ]
+            },
+            {
+              "topic": "active_cryo_containment",
+              "label": "Validated active cryogenic refrigeration containment",
+              "aliases": [
+                "Active cooling packaging validation",
+                "Cryogenic temperature containment certification"
+              ]
+            },
+            {
+              "topic": "customs_preclearance_active",
+              "label": "Border customs pre-clearance protocol validated",
+              "aliases": [
+                "Customs expedited pre-clearance status",
+                "Automated customs clearance green-lane validation"
+              ]
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ]
+            },
+            {
+              "topic": "ground_handling_tariff",
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Dangerous goods ramp logistics coordinator (RAMP)",
+          "target_key": "RAMP-GNDLOG-VDR",
+          "alternate_key": "RAMP-GNDLOG-O5H",
+          "target_context": "inclusive of apron hazardous cargo surcharges",
+          "alternate_context": "exclusive of apron hazardous cargo surcharges",
+          "candidate": "Direct transatlantic widebody freighter routing",
+          "other_candidates": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "numeric": [
+            {
+              "topic": "ground_handling_tariff",
+              "value": 10000,
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ],
+              "unit": "USD"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ]
+            },
+            {
+              "topic": "escort_certified",
+              "label": "Active isotope transport escort certified",
+              "aliases": [
+                "Certified radiation escort status",
+                "Escort radioprotection qualification"
+              ]
+            },
+            {
+              "topic": "transit_radiation_exposure",
+              "label": "Maximum cumulative transit radiation exposure",
+              "aliases": [
+                "Cumulative transit dosimeter reading",
+                "Peak package transit radiation dose"
+              ]
+            },
+            {
+              "topic": "tarmac_dwell_minutes",
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ]
+            },
+            {
+              "topic": "active_cryo_containment",
+              "label": "Validated active cryogenic refrigeration containment",
+              "aliases": [
+                "Active cooling packaging validation",
+                "Cryogenic temperature containment certification"
+              ]
+            },
+            {
+              "topic": "customs_preclearance_active",
+              "label": "Border customs pre-clearance protocol validated",
+              "aliases": [
+                "Customs expedited pre-clearance status",
+                "Automated customs clearance green-lane validation"
+              ]
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ]
+            },
+            {
+              "topic": "ground_handling_tariff",
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_compliance_officer",
+        "ramp_handling_coordinator",
+        "flight_operations_manager"
+      ],
+      "role_names": [
+        "Aviation regulatory compliance officer (REG)",
+        "Dangerous goods ramp logistics coordinator (RAMP)",
+        "Aviation flight operations manager (FLT)"
+      ],
+      "directory": "number_expansion/misaligned/task_842/k3",
+      "error_profiles": [
+        {
+          "role_name": "Aviation regulatory compliance officer (REG)",
+          "target_key": "REG-CIVAV-KL5",
+          "alternate_key": "REG-CIVAV-COQ",
+          "target_context": "inclusive of emergency diversion airspaces",
+          "alternate_context": "exclusive of emergency diversion airspaces",
+          "candidate": "Direct transatlantic widebody freighter routing",
+          "other_candidates": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "value": true,
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ]
+            },
+            {
+              "topic": "escort_certified",
+              "label": "Active isotope transport escort certified",
+              "aliases": [
+                "Certified radiation escort status",
+                "Escort radioprotection qualification"
+              ]
+            },
+            {
+              "topic": "transit_radiation_exposure",
+              "label": "Maximum cumulative transit radiation exposure",
+              "aliases": [
+                "Cumulative transit dosimeter reading",
+                "Peak package transit radiation dose"
+              ]
+            },
+            {
+              "topic": "tarmac_dwell_minutes",
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ]
+            },
+            {
+              "topic": "active_cryo_containment",
+              "label": "Validated active cryogenic refrigeration containment",
+              "aliases": [
+                "Active cooling packaging validation",
+                "Cryogenic temperature containment certification"
+              ]
+            },
+            {
+              "topic": "customs_preclearance_active",
+              "label": "Border customs pre-clearance protocol validated",
+              "aliases": [
+                "Customs expedited pre-clearance status",
+                "Automated customs clearance green-lane validation"
+              ]
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ]
+            },
+            {
+              "topic": "ground_handling_tariff",
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Dangerous goods ramp logistics coordinator (RAMP)",
+          "target_key": "RAMP-GNDLOG-VDR",
+          "alternate_key": "RAMP-GNDLOG-O5H",
+          "target_context": "inclusive of apron hazardous cargo surcharges",
+          "alternate_context": "exclusive of apron hazardous cargo surcharges",
+          "candidate": "Direct transatlantic widebody freighter routing",
+          "other_candidates": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "numeric": [
+            {
+              "topic": "ground_handling_tariff",
+              "value": 10000,
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ],
+              "unit": "USD"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ]
+            },
+            {
+              "topic": "escort_certified",
+              "label": "Active isotope transport escort certified",
+              "aliases": [
+                "Certified radiation escort status",
+                "Escort radioprotection qualification"
+              ]
+            },
+            {
+              "topic": "transit_radiation_exposure",
+              "label": "Maximum cumulative transit radiation exposure",
+              "aliases": [
+                "Cumulative transit dosimeter reading",
+                "Peak package transit radiation dose"
+              ]
+            },
+            {
+              "topic": "tarmac_dwell_minutes",
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ]
+            },
+            {
+              "topic": "active_cryo_containment",
+              "label": "Validated active cryogenic refrigeration containment",
+              "aliases": [
+                "Active cooling packaging validation",
+                "Cryogenic temperature containment certification"
+              ]
+            },
+            {
+              "topic": "customs_preclearance_active",
+              "label": "Border customs pre-clearance protocol validated",
+              "aliases": [
+                "Customs expedited pre-clearance status",
+                "Automated customs clearance green-lane validation"
+              ]
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ]
+            },
+            {
+              "topic": "ground_handling_tariff",
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation flight operations manager (FLT)",
+          "target_key": "FLT-AVOPS-6I3",
+          "alternate_key": "FLT-AVOPS-AKC",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Direct transatlantic widebody freighter routing",
+          "other_candidates": [
+            "Dual-leg priority commercial belly-cargo transfer",
+            "Dedicated feeder-to-intercontinental charter relay"
+          ],
+          "numeric": [
+            {
+              "topic": "tarmac_dwell_minutes",
+              "value": 30,
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ],
+              "unit": "min"
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "value": 18000,
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ],
+              "unit": "USD"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "aviation_hazmat_permit",
+              "label": "Dangerous goods aviation permit approved",
+              "aliases": [
+                "Hazmat flight permit",
+                "Civil aviation dangerous goods route approval"
+              ]
+            },
+            {
+              "topic": "escort_certified",
+              "label": "Active isotope transport escort certified",
+              "aliases": [
+                "Certified radiation escort status",
+                "Escort radioprotection qualification"
+              ]
+            },
+            {
+              "topic": "transit_radiation_exposure",
+              "label": "Maximum cumulative transit radiation exposure",
+              "aliases": [
+                "Cumulative transit dosimeter reading",
+                "Peak package transit radiation dose"
+              ]
+            },
+            {
+              "topic": "tarmac_dwell_minutes",
+              "label": "Maximum tarmac transshipment dwell time",
+              "aliases": [
+                "Apron transfer dwell duration",
+                "Ground transshipment layover time"
+              ]
+            },
+            {
+              "topic": "active_cryo_containment",
+              "label": "Validated active cryogenic refrigeration containment",
+              "aliases": [
+                "Active cooling packaging validation",
+                "Cryogenic temperature containment certification"
+              ]
+            },
+            {
+              "topic": "customs_preclearance_active",
+              "label": "Border customs pre-clearance protocol validated",
+              "aliases": [
+                "Customs expedited pre-clearance status",
+                "Automated customs clearance green-lane validation"
+              ]
+            },
+            {
+              "topic": "primary_flight_tariff",
+              "label": "Primary airframe flight charter tariff",
+              "aliases": [
+                "Airframe charter cost",
+                "Base aviation freight tariff"
+              ]
+            },
+            {
+              "topic": "ground_handling_tariff",
+              "label": "Specialized radioactive ground handling tariff",
+              "aliases": [
+                "Ramp hazmat handling fee",
+                "Radioactive cargo ground tariff"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

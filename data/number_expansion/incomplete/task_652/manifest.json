@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_652",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telecom_telemetry",
+        "field_operations"
+      ],
+      "role_names": [
+        "Communications and telemetry systems lead (TEL)",
+        "Field operations and route safety lead (OPS)"
+      ],
+      "directory": "incomplete/task_652",
+      "profiles": [
+        {
+          "record_id": "rec_telecom_telemetry_A",
+          "role_id": "telecom_telemetry",
+          "candidate_id": "A",
+          "key": "TEL-SAT-6VL",
+          "boolean_predicate_id": "A_distress_telemetry_enabled",
+          "boolean_label": "Satellite distress telemetry enabled",
+          "hidden_predicate_id": "A_telemetry_latency_minutes",
+          "threshold_label": "Emergency telemetry broadcast latency",
+          "threshold_aliases": [
+            "Distress signal transmission delay",
+            "Satellite telemetry latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "TEL-SAT-6VL: Queen Maud Plateau Northern Transect.Queen Maud Plateau Northern Transect: Satellite distress telemetry enabled = true .Source: Telemetry transceiver configuration log; Scope: Autonomous telemetry package aboard the lead tractor sled; Measurement: Active state confirmation of continuous satellite emergency heartbeats.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency telemetry broadcast latency is at most 40 min.",
+          "role_name": "Communications and telemetry systems lead (TEL)",
+          "candidate_name": "Queen Maud Plateau Northern Transect",
+          "other_candidate_names": [
+            "Wohlthat Mountains Crest Route",
+            "Princess Astrid Coast Ascent Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_operations_A",
+          "role_id": "field_operations",
+          "candidate_id": "A",
+          "key": "OPS-ROUTE-AVV",
+          "hidden_predicate_id": "A_max_crevasse_span",
+          "threshold_label": "Maximum crevasse bridging width",
+          "threshold_aliases": [
+            "Worst-case crevasse span",
+            "Maximum open fissure width"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m",
+          "partial_record_text": "OPS-ROUTE-AVV: Queen Maud Plateau Northern Transect.Queen Maud Plateau Northern Transect: Crevasse radar reconnaissance completed = true .Source: Aerial radar scouting summary; Scope: Entire traverse corridor within 15 km of centerline; Measurement: Verification that forward airborne GPR crevasse survey is fully complete.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum crevasse bridging width is at most 4 m.",
+          "role_name": "Field operations and route safety lead (OPS)",
+          "candidate_name": "Queen Maud Plateau Northern Transect",
+          "other_candidate_names": [
+            "Wohlthat Mountains Crest Route",
+            "Princess Astrid Coast Ascent Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telecom_telemetry",
+        "field_operations",
+        "science_mission"
+      ],
+      "role_names": [
+        "Communications and telemetry systems lead (TEL)",
+        "Field operations and route safety lead (OPS)",
+        "Science mission planning lead (SCI)"
+      ],
+      "directory": "incomplete/task_652",
+      "profiles": [
+        {
+          "record_id": "rec_telecom_telemetry_A",
+          "role_id": "telecom_telemetry",
+          "candidate_id": "A",
+          "key": "TEL-SAT-6VL",
+          "boolean_predicate_id": "A_distress_telemetry_enabled",
+          "boolean_label": "Satellite distress telemetry enabled",
+          "hidden_predicate_id": "A_telemetry_latency_minutes",
+          "threshold_label": "Emergency telemetry broadcast latency",
+          "threshold_aliases": [
+            "Distress signal transmission delay",
+            "Satellite telemetry latency"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "min",
+          "partial_record_text": "TEL-SAT-6VL: Queen Maud Plateau Northern Transect.Queen Maud Plateau Northern Transect: Satellite distress telemetry enabled = true .Source: Telemetry transceiver configuration log; Scope: Autonomous telemetry package aboard the lead tractor sled; Measurement: Active state confirmation of continuous satellite emergency heartbeats.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency telemetry broadcast latency is at most 40 min.",
+          "role_name": "Communications and telemetry systems lead (TEL)",
+          "candidate_name": "Queen Maud Plateau Northern Transect",
+          "other_candidate_names": [
+            "Wohlthat Mountains Crest Route",
+            "Princess Astrid Coast Ascent Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_operations_A",
+          "role_id": "field_operations",
+          "candidate_id": "A",
+          "key": "OPS-ROUTE-AVV",
+          "hidden_predicate_id": "A_max_crevasse_span",
+          "threshold_label": "Maximum crevasse bridging width",
+          "threshold_aliases": [
+            "Worst-case crevasse span",
+            "Maximum open fissure width"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m",
+          "partial_record_text": "OPS-ROUTE-AVV: Queen Maud Plateau Northern Transect.Queen Maud Plateau Northern Transect: Crevasse radar reconnaissance completed = true .Source: Aerial radar scouting summary; Scope: Entire traverse corridor within 15 km of centerline; Measurement: Verification that forward airborne GPR crevasse survey is fully complete.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Maximum crevasse bridging width is at most 4 m.",
+          "role_name": "Field operations and route safety lead (OPS)",
+          "candidate_name": "Queen Maud Plateau Northern Transect",
+          "other_candidate_names": [
+            "Wohlthat Mountains Crest Route",
+            "Princess Astrid Coast Ascent Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_mission_A",
+          "role_id": "science_mission",
+          "candidate_id": "A",
+          "key": "SCI-PLAN-HGF",
+          "hidden_predicate_id": "A_active_survey_hours",
+          "threshold_label": "Planned active survey operating time",
+          "threshold_aliases": [
+            "Active radar sounding duration",
+            "Tractor survey operational hours"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "h",
+          "partial_record_text": "SCI-PLAN-HGF: Queen Maud Plateau Northern Transect. The record covers Planned active survey operating time. Science operational timeline; Scientific radar sounding transects during transit; Total planned tractor towing time while actively collecting radar data.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Planned active survey operating time is at most 300 h.",
+          "role_name": "Science mission planning lead (SCI)",
+          "candidate_name": "Queen Maud Plateau Northern Transect",
+          "other_candidate_names": [
+            "Wohlthat Mountains Crest Route",
+            "Princess Astrid Coast Ascent Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

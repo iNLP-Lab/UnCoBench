@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_529",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_health",
+        "emergency_medical"
+      ],
+      "role_names": [
+        "Environmental health specialist (ENV)",
+        "Emergency medical coordinator (MED)"
+      ],
+      "directory": "incomplete/task_529",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "ENV-AIRQ-NKZ",
+          "boolean_predicate_id": "A_air_filtration_active",
+          "boolean_label": "Active auxiliary air filtration system",
+          "hidden_predicate_id": "A_particulate_filtration_rate",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "Fine particulate capture rate",
+            "PM2.5 mechanical filtration efficiency"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-AIRQ-NKZ: Pinewood Fairgrounds Pavilion.Pinewood Fairgrounds Pavilion: Active auxiliary air filtration system = true .Source: HVAC commissioning log; Scope: Emergency indoor air recirculating scrubbers; Measurement: Operational readiness confirmation indicating auxiliary filtration is active and engaged.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Particulate filtration efficiency is at most 100 %.",
+          "role_name": "Environmental health specialist (ENV)",
+          "candidate_name": "Pinewood Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Valley Regional Sports Complex",
+            "Highland Community Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_A",
+          "role_id": "emergency_medical",
+          "candidate_id": "A",
+          "key": "MED-CLIN-NPA",
+          "hidden_predicate_id": "A_designated_isolation_capacity",
+          "threshold_label": "Designated medical isolation capacity",
+          "threshold_aliases": [
+            "Isolation ward capacity",
+            "Quarantine bed allocation"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "persons",
+          "partial_record_text": "MED-CLIN-NPA: Pinewood Fairgrounds Pavilion.Pinewood Fairgrounds Pavilion: Dedicated emergency paramedic dispatch post = true .Source: Emergency medical services deployment manifest; Scope: On-site emergency medical bay; Measurement: Presence of a self-contained paramedic command station with telemetry and resuscitation equipment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Designated medical isolation capacity is at most 500 persons.",
+          "role_name": "Emergency medical coordinator (MED)",
+          "candidate_name": "Pinewood Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Valley Regional Sports Complex",
+            "Highland Community Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_health",
+        "emergency_medical",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Environmental health specialist (ENV)",
+        "Emergency medical coordinator (MED)",
+        "Structural safety inspector (STR)"
+      ],
+      "directory": "incomplete/task_529",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "ENV-AIRQ-NKZ",
+          "boolean_predicate_id": "A_air_filtration_active",
+          "boolean_label": "Active auxiliary air filtration system",
+          "hidden_predicate_id": "A_particulate_filtration_rate",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "Fine particulate capture rate",
+            "PM2.5 mechanical filtration efficiency"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-AIRQ-NKZ: Pinewood Fairgrounds Pavilion.Pinewood Fairgrounds Pavilion: Active auxiliary air filtration system = true .Source: HVAC commissioning log; Scope: Emergency indoor air recirculating scrubbers; Measurement: Operational readiness confirmation indicating auxiliary filtration is active and engaged.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Particulate filtration efficiency is at most 100 %.",
+          "role_name": "Environmental health specialist (ENV)",
+          "candidate_name": "Pinewood Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Valley Regional Sports Complex",
+            "Highland Community Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_medical_A",
+          "role_id": "emergency_medical",
+          "candidate_id": "A",
+          "key": "MED-CLIN-NPA",
+          "hidden_predicate_id": "A_designated_isolation_capacity",
+          "threshold_label": "Designated medical isolation capacity",
+          "threshold_aliases": [
+            "Isolation ward capacity",
+            "Quarantine bed allocation"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "persons",
+          "partial_record_text": "MED-CLIN-NPA: Pinewood Fairgrounds Pavilion.Pinewood Fairgrounds Pavilion: Dedicated emergency paramedic dispatch post = true .Source: Emergency medical services deployment manifest; Scope: On-site emergency medical bay; Measurement: Presence of a self-contained paramedic command station with telemetry and resuscitation equipment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Designated medical isolation capacity is at most 500 persons.",
+          "role_name": "Emergency medical coordinator (MED)",
+          "candidate_name": "Pinewood Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Valley Regional Sports Complex",
+            "Highland Community Exhibition Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "STR-SEIS-G3U",
+          "hidden_predicate_id": "A_gross_sheltered_capacity",
+          "threshold_label": "Gross sheltered capacity",
+          "threshold_aliases": [
+            "Total indoor shelter capacity",
+            "Gross facility occupancy limit"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "persons",
+          "partial_record_text": "STR-SEIS-G3U: Pinewood Fairgrounds Pavilion.Sheltering capacity accounting basis: before deducting internal logistics buffer reserves.Pinewood Fairgrounds Pavilion: Certified structural seismic clearance = true .Source: Municipal seismic rating certification; Scope: Entire building superstructure; Measurement: Official endorsement certifying immediate emergency occupancy under local building code.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross sheltered capacity is at most 4000 persons.",
+          "role_name": "Structural safety inspector (STR)",
+          "candidate_name": "Pinewood Fairgrounds Pavilion",
+          "other_candidate_names": [
+            "Valley Regional Sports Complex",
+            "Highland Community Exhibition Center"
+          ],
+          "context_value": "before deducting internal logistics buffer reserves",
+          "other_context_values": [
+            "after deducting internal logistics buffer reserves"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_746",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "aeronautical_engineering"
+      ],
+      "role_names": [
+        "Flight operations director (FOP)",
+        "Aeronautical propulsion specialist (AES)"
+      ],
+      "directory": "incomplete/task_746",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FOP-FLIGHT-A7I",
+          "boolean_predicate_id": "A_downburst_radar_active",
+          "boolean_label": "En-route downburst radar monitoring active",
+          "hidden_predicate_id": "A_en_route_cloud_top_altitude",
+          "threshold_label": "Peak convective cloud top altitude",
+          "threshold_aliases": [
+            "Convective storm top height",
+            "En-route thunderhead maximum altitude"
+          ],
+          "threshold_value": 24000,
+          "threshold_unit": "ft",
+          "partial_record_text": "FOP-FLIGHT-A7I: Tactical turboprop short-field routing.Tactical turboprop short-field routing: En-route downburst radar monitoring active = true .Source: Meteorological radar dispatch log; Scope: Flight transit corridor for this operation; Measurement: Active deployment and continuous telemetry of Doppler downburst radar.Tactical turboprop short-field routing: Planned flight duration = 5 h.Source: Operational flight navigation plan; Scope: Round-trip airlift mission profile; Measurement: Total planned flight duration from takeoff to return landing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20000,
+            "upper": 50000
+          },
+          "coarse_statement": "Peak convective cloud top altitude is between 20000 ft and 50000 ft, inclusive.",
+          "role_name": "Flight operations director (FOP)",
+          "candidate_name": "Tactical turboprop short-field routing",
+          "other_candidate_names": [
+            "Heavy-lift tandem rotorcraft routing",
+            "Amphibious utility transport routing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aeronautical_engineering_A",
+          "role_id": "aeronautical_engineering",
+          "candidate_id": "A",
+          "key": "AES-PROP-ZA8",
+          "hidden_predicate_id": "A_cruising_fuel_burn_rate",
+          "threshold_label": "Cruising fuel burn rate",
+          "threshold_aliases": [
+            "Cruise fuel flow rate",
+            "Hourly fuel consumption rate"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "kg/h",
+          "partial_record_text": "AES-PROP-ZA8: Tactical turboprop short-field routing. The record covers Cruising fuel burn rate. Propulsion performance table; Standard humanitarian cargo load at cruising altitude; Mean aggregate engine fuel burn per flight hour.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 500,
+            "upper": 1100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Cruising fuel burn rate is between 500 kg/h and 1100 kg/h, inclusive.",
+          "role_name": "Aeronautical propulsion specialist (AES)",
+          "candidate_name": "Tactical turboprop short-field routing",
+          "other_candidate_names": [
+            "Heavy-lift tandem rotorcraft routing",
+            "Amphibious utility transport routing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "aeronautical_engineering",
+        "airfield_infrastructure"
+      ],
+      "role_names": [
+        "Flight operations director (FOP)",
+        "Aeronautical propulsion specialist (AES)",
+        "Airfield infrastructure engineer (AFE)"
+      ],
+      "directory": "number_expansion/incomplete/task_746/k3",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FOP-FLIGHT-A7I",
+          "boolean_predicate_id": "A_downburst_radar_active",
+          "boolean_label": "En-route downburst radar monitoring active",
+          "hidden_predicate_id": "A_en_route_cloud_top_altitude",
+          "threshold_label": "Peak convective cloud top altitude",
+          "threshold_aliases": [
+            "Convective storm top height",
+            "En-route thunderhead maximum altitude"
+          ],
+          "threshold_value": 24000,
+          "threshold_unit": "ft",
+          "partial_record_text": "FOP-FLIGHT-A7I: Tactical turboprop short-field routing.Tactical turboprop short-field routing: En-route downburst radar monitoring active = true .Source: Meteorological radar dispatch log; Scope: Flight transit corridor for this operation; Measurement: Active deployment and continuous telemetry of Doppler downburst radar.Tactical turboprop short-field routing: Planned flight duration = 5 h.Source: Operational flight navigation plan; Scope: Round-trip airlift mission profile; Measurement: Total planned flight duration from takeoff to return landing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20000,
+            "upper": 50000
+          },
+          "coarse_statement": "Peak convective cloud top altitude is between 20000 ft and 50000 ft, inclusive.",
+          "role_name": "Flight operations director (FOP)",
+          "candidate_name": "Tactical turboprop short-field routing",
+          "other_candidate_names": [
+            "Heavy-lift tandem rotorcraft routing",
+            "Amphibious utility transport routing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aeronautical_engineering_A",
+          "role_id": "aeronautical_engineering",
+          "candidate_id": "A",
+          "key": "AES-PROP-ZA8",
+          "hidden_predicate_id": "A_cruising_fuel_burn_rate",
+          "threshold_label": "Cruising fuel burn rate",
+          "threshold_aliases": [
+            "Cruise fuel flow rate",
+            "Hourly fuel consumption rate"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "kg/h",
+          "partial_record_text": "AES-PROP-ZA8: Tactical turboprop short-field routing. The record covers Cruising fuel burn rate. Propulsion performance table; Standard humanitarian cargo load at cruising altitude; Mean aggregate engine fuel burn per flight hour.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 500,
+            "upper": 1100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Cruising fuel burn rate is between 500 kg/h and 1100 kg/h, inclusive.",
+          "role_name": "Aeronautical propulsion specialist (AES)",
+          "candidate_name": "Tactical turboprop short-field routing",
+          "other_candidate_names": [
+            "Heavy-lift tandem rotorcraft routing",
+            "Amphibious utility transport routing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airfield_infrastructure_A_supplemental",
+          "role_id": "airfield_infrastructure",
+          "candidate_id": "A",
+          "key": "AFE-APRON-QA6",
+          "hidden_predicate_id": "A_supplemental_airfield_infrastructure",
+          "threshold_label": "Aircraft apron turnaround time",
+          "threshold_aliases": [],
+          "threshold_value": 60,
+          "threshold_unit": "min",
+          "partial_record_text": "AFE-APRON-QA6: Tactical turboprop short-field routing. The record covers Aircraft apron turnaround time. Apron marshalling schedule; Staging area aircraft parking bay; Scheduled duration from engine shutdown to taxi departure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Aircraft apron turnaround time is between 20 min and 100 min, inclusive.",
+          "role_name": "Airfield infrastructure engineer (AFE)",
+          "candidate_name": "Tactical turboprop short-field routing",
+          "other_candidate_names": [
+            "Heavy-lift tandem rotorcraft routing",
+            "Amphibious utility transport routing"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_airfield_infrastructure",
+        "topic_id": "supplemental_airfield_infrastructure",
+        "operator": "lte",
+        "threshold": 75,
+        "role_id": "airfield_infrastructure",
+        "metric": "Aircraft apron turnaround time",
+        "unit": "min",
+        "required_text": "To qualify, a candidate must also have Aircraft apron turnaround time of at most 75 min.",
+        "new_fault_record_key": "AFE-APRON-QA6",
+        "exact_value": 60,
+        "first_reply": "Aircraft apron turnaround time is between 20 min and 100 min, inclusive."
+      }
+    }
+  }
+}

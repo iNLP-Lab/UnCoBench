@@ -1,0 +1,545 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_897",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_power",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Emergency power logistics coordinator (EPL)",
+        "Structural safety engineer (SSE)"
+      ],
+      "directory": "number_expansion/misaligned/task_897/k2",
+      "error_profiles": [
+        {
+          "role_name": "Emergency power logistics coordinator (EPL)",
+          "target_key": "EPL-EMPWR-280",
+          "alternate_key": "EPL-BULK-TJ8",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Cascadia Fairgrounds Pavilion",
+          "other_candidates": [
+            "Okanagan Regional Sportsplex",
+            "Kootenay Civic Event Center"
+          ],
+          "numeric": [
+            {
+              "topic": "base_power_fuel_demand",
+              "value": 1800,
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "potable_water_certified",
+              "label": "Sanitary potable water supply certification verified",
+              "aliases": [
+                "Potable water clearance",
+                "Drinking water quality certification"
+              ]
+            },
+            {
+              "topic": "isolation_cot_capacity",
+              "label": "Dedicated communicable disease isolation cot capacity",
+              "aliases": [
+                "Isolation bed count",
+                "Communicable disease bed capacity"
+              ]
+            },
+            {
+              "topic": "post_disaster_structural_rating",
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ]
+            },
+            {
+              "topic": "smoke_filtration_active",
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ]
+            },
+            {
+              "topic": "hepa_turnover_minutes",
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ]
+            },
+            {
+              "topic": "dual_feeder_switchgear",
+              "label": "Automatic dual-feeder transfer switchgear installed",
+              "aliases": [
+                "Automatic transfer switch status",
+                "Dual-source power transfer readiness"
+              ]
+            },
+            {
+              "topic": "triage_oxygen_manifold",
+              "label": "Operational triage oxygen manifold installed",
+              "aliases": [
+                "Medical oxygen manifold readiness",
+                "Centralized oxygen delivery system status"
+              ]
+            },
+            {
+              "topic": "base_power_fuel_demand",
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ]
+            },
+            {
+              "topic": "medical_annex_fuel_demand",
+              "label": "Medical annex power fuel demand",
+              "aliases": [
+                "Field clinic generator diesel demand",
+                "Medical support power fuel consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural safety engineer (SSE)",
+          "target_key": "SSE-STRUC-4CH",
+          "alternate_key": "SSE-STRUC-NDQ",
+          "target_context": "Framework Version 3.0",
+          "alternate_context": "Framework Version 2.0",
+          "candidate": "Cascadia Fairgrounds Pavilion",
+          "other_candidates": [
+            "Okanagan Regional Sportsplex",
+            "Kootenay Civic Event Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "post_disaster_structural_rating",
+              "value": true,
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "potable_water_certified",
+              "label": "Sanitary potable water supply certification verified",
+              "aliases": [
+                "Potable water clearance",
+                "Drinking water quality certification"
+              ]
+            },
+            {
+              "topic": "isolation_cot_capacity",
+              "label": "Dedicated communicable disease isolation cot capacity",
+              "aliases": [
+                "Isolation bed count",
+                "Communicable disease bed capacity"
+              ]
+            },
+            {
+              "topic": "post_disaster_structural_rating",
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ]
+            },
+            {
+              "topic": "smoke_filtration_active",
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ]
+            },
+            {
+              "topic": "hepa_turnover_minutes",
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ]
+            },
+            {
+              "topic": "dual_feeder_switchgear",
+              "label": "Automatic dual-feeder transfer switchgear installed",
+              "aliases": [
+                "Automatic transfer switch status",
+                "Dual-source power transfer readiness"
+              ]
+            },
+            {
+              "topic": "triage_oxygen_manifold",
+              "label": "Operational triage oxygen manifold installed",
+              "aliases": [
+                "Medical oxygen manifold readiness",
+                "Centralized oxygen delivery system status"
+              ]
+            },
+            {
+              "topic": "base_power_fuel_demand",
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ]
+            },
+            {
+              "topic": "medical_annex_fuel_demand",
+              "label": "Medical annex power fuel demand",
+              "aliases": [
+                "Field clinic generator diesel demand",
+                "Medical support power fuel consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_power",
+        "structural_safety",
+        "life_safety"
+      ],
+      "role_names": [
+        "Emergency power logistics coordinator (EPL)",
+        "Structural safety engineer (SSE)",
+        "Fire and life safety officer (FLS)"
+      ],
+      "directory": "number_expansion/misaligned/task_897/k3",
+      "error_profiles": [
+        {
+          "role_name": "Emergency power logistics coordinator (EPL)",
+          "target_key": "EPL-EMPWR-280",
+          "alternate_key": "EPL-BULK-TJ8",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Cascadia Fairgrounds Pavilion",
+          "other_candidates": [
+            "Okanagan Regional Sportsplex",
+            "Kootenay Civic Event Center"
+          ],
+          "numeric": [
+            {
+              "topic": "base_power_fuel_demand",
+              "value": 1800,
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "potable_water_certified",
+              "label": "Sanitary potable water supply certification verified",
+              "aliases": [
+                "Potable water clearance",
+                "Drinking water quality certification"
+              ]
+            },
+            {
+              "topic": "isolation_cot_capacity",
+              "label": "Dedicated communicable disease isolation cot capacity",
+              "aliases": [
+                "Isolation bed count",
+                "Communicable disease bed capacity"
+              ]
+            },
+            {
+              "topic": "post_disaster_structural_rating",
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ]
+            },
+            {
+              "topic": "smoke_filtration_active",
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ]
+            },
+            {
+              "topic": "hepa_turnover_minutes",
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ]
+            },
+            {
+              "topic": "dual_feeder_switchgear",
+              "label": "Automatic dual-feeder transfer switchgear installed",
+              "aliases": [
+                "Automatic transfer switch status",
+                "Dual-source power transfer readiness"
+              ]
+            },
+            {
+              "topic": "triage_oxygen_manifold",
+              "label": "Operational triage oxygen manifold installed",
+              "aliases": [
+                "Medical oxygen manifold readiness",
+                "Centralized oxygen delivery system status"
+              ]
+            },
+            {
+              "topic": "base_power_fuel_demand",
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ]
+            },
+            {
+              "topic": "medical_annex_fuel_demand",
+              "label": "Medical annex power fuel demand",
+              "aliases": [
+                "Field clinic generator diesel demand",
+                "Medical support power fuel consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural safety engineer (SSE)",
+          "target_key": "SSE-STRUC-4CH",
+          "alternate_key": "SSE-STRUC-NDQ",
+          "target_context": "Framework Version 3.0",
+          "alternate_context": "Framework Version 2.0",
+          "candidate": "Cascadia Fairgrounds Pavilion",
+          "other_candidates": [
+            "Okanagan Regional Sportsplex",
+            "Kootenay Civic Event Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "post_disaster_structural_rating",
+              "value": true,
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "potable_water_certified",
+              "label": "Sanitary potable water supply certification verified",
+              "aliases": [
+                "Potable water clearance",
+                "Drinking water quality certification"
+              ]
+            },
+            {
+              "topic": "isolation_cot_capacity",
+              "label": "Dedicated communicable disease isolation cot capacity",
+              "aliases": [
+                "Isolation bed count",
+                "Communicable disease bed capacity"
+              ]
+            },
+            {
+              "topic": "post_disaster_structural_rating",
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ]
+            },
+            {
+              "topic": "smoke_filtration_active",
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ]
+            },
+            {
+              "topic": "hepa_turnover_minutes",
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ]
+            },
+            {
+              "topic": "dual_feeder_switchgear",
+              "label": "Automatic dual-feeder transfer switchgear installed",
+              "aliases": [
+                "Automatic transfer switch status",
+                "Dual-source power transfer readiness"
+              ]
+            },
+            {
+              "topic": "triage_oxygen_manifold",
+              "label": "Operational triage oxygen manifold installed",
+              "aliases": [
+                "Medical oxygen manifold readiness",
+                "Centralized oxygen delivery system status"
+              ]
+            },
+            {
+              "topic": "base_power_fuel_demand",
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ]
+            },
+            {
+              "topic": "medical_annex_fuel_demand",
+              "label": "Medical annex power fuel demand",
+              "aliases": [
+                "Field clinic generator diesel demand",
+                "Medical support power fuel consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Fire and life safety officer (FLS)",
+          "target_key": "FLS-FSAFT-2IF",
+          "alternate_key": "FLS-FSAFT-0SE",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Cascadia Fairgrounds Pavilion",
+          "other_candidates": [
+            "Okanagan Regional Sportsplex",
+            "Kootenay Civic Event Center"
+          ],
+          "numeric": [
+            {
+              "topic": "hepa_turnover_minutes",
+              "value": 45,
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "smoke_filtration_active",
+              "value": true,
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "potable_water_certified",
+              "label": "Sanitary potable water supply certification verified",
+              "aliases": [
+                "Potable water clearance",
+                "Drinking water quality certification"
+              ]
+            },
+            {
+              "topic": "isolation_cot_capacity",
+              "label": "Dedicated communicable disease isolation cot capacity",
+              "aliases": [
+                "Isolation bed count",
+                "Communicable disease bed capacity"
+              ]
+            },
+            {
+              "topic": "post_disaster_structural_rating",
+              "label": "Post-disaster structural integrity clearance",
+              "aliases": [
+                "Structural integrity certification",
+                "Disaster occupancy structural rating"
+              ]
+            },
+            {
+              "topic": "smoke_filtration_active",
+              "label": "Dedicated smoke filtration system active",
+              "aliases": [
+                "Smoke scrubbing system active",
+                "HVAC smoke filter enablement"
+              ]
+            },
+            {
+              "topic": "hepa_turnover_minutes",
+              "label": "HEPA atmospheric turnover duration",
+              "aliases": [
+                "Air turnover time",
+                "Particulate clearance cycle duration"
+              ]
+            },
+            {
+              "topic": "dual_feeder_switchgear",
+              "label": "Automatic dual-feeder transfer switchgear installed",
+              "aliases": [
+                "Automatic transfer switch status",
+                "Dual-source power transfer readiness"
+              ]
+            },
+            {
+              "topic": "triage_oxygen_manifold",
+              "label": "Operational triage oxygen manifold installed",
+              "aliases": [
+                "Medical oxygen manifold readiness",
+                "Centralized oxygen delivery system status"
+              ]
+            },
+            {
+              "topic": "base_power_fuel_demand",
+              "label": "Base shelter power fuel demand",
+              "aliases": [
+                "Base generator diesel demand",
+                "General shelter fuel consumption"
+              ]
+            },
+            {
+              "topic": "medical_annex_fuel_demand",
+              "label": "Medical annex power fuel demand",
+              "aliases": [
+                "Field clinic generator diesel demand",
+                "Medical support power fuel consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

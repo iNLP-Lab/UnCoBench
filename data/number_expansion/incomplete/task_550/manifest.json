@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_550",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "optical_sensing_lead",
+        "atmospheric_modeling_lead"
+      ],
+      "role_names": [
+        "Remote optical sensing manager (SEN)",
+        "Computational atmospheric dispersion specialist (MOD)"
+      ],
+      "directory": "incomplete/task_550",
+      "profiles": [
+        {
+          "record_id": "rec_optical_sensing_lead_A",
+          "role_id": "optical_sensing_lead",
+          "candidate_id": "A",
+          "key": "SEN-OPT-J1N",
+          "boolean_predicate_id": "A_sensor_calibration_verified",
+          "boolean_label": "Optical sensor calibration verified",
+          "hidden_predicate_id": "A_spatial_localization_margin",
+          "threshold_label": "Spatial localization margin",
+          "threshold_aliases": [
+            "Source localization spatial tolerance",
+            "Plume pinpointing uncertainty radius"
+          ],
+          "threshold_value": 2.6,
+          "threshold_unit": "m",
+          "partial_record_text": "SEN-OPT-J1N: Differential absorption lidar plume mapping.Differential absorption lidar plume mapping: Optical sensor calibration verified = true .Source: Instrument bench calibration docket; Scope: Campaign optical detection payloads; Measurement: Affirmation of active multi-point spectral calibration against reference span gases.Differential absorption lidar plume mapping: VOC mass detection rate = 150 kg/h.Source: Optical mass flux performance certificate; Scope: Primary aromatic and aliphatic hydrocarbon vapor plumes; Measurement: Maximum quantifiable volatile organic compound mass emission rate captured under steady flow.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Spatial localization margin is at most 7 m.",
+          "role_name": "Remote optical sensing manager (SEN)",
+          "candidate_name": "Differential absorption lidar plume mapping",
+          "other_candidate_names": [
+            "Autonomous drone swarm optical gas imaging",
+            "Downwind tracer-gas release dispersion profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_atmospheric_modeling_lead_A",
+          "role_id": "atmospheric_modeling_lead",
+          "candidate_id": "A",
+          "key": "MOD-SIM-GTF",
+          "hidden_predicate_id": "A_inversion_solver_convergence",
+          "threshold_label": "Plume inversion solver convergence",
+          "threshold_aliases": [
+            "Numerical inversion convergence percentage",
+            "Source estimation solver reliability"
+          ],
+          "threshold_value": 89,
+          "threshold_unit": "%",
+          "partial_record_text": "MOD-SIM-GTF: Differential absorption lidar plume mapping.Campaign execution window: October 2024.Differential absorption lidar plume mapping: Meteorological stability support = true .Source: Micrometeorological tower diagnostic report; Scope: Planned 48-hour campaign operating window; Measurement: Validation that campaign flight and dispersion algorithms support prevailing stability classes.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Plume inversion solver convergence is at most 100 %.",
+          "role_name": "Computational atmospheric dispersion specialist (MOD)",
+          "candidate_name": "Differential absorption lidar plume mapping",
+          "other_candidate_names": [
+            "Autonomous drone swarm optical gas imaging",
+            "Downwind tracer-gas release dispersion profiling"
+          ],
+          "context_value": "October 2024",
+          "other_context_values": [
+            "November 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "optical_sensing_lead",
+        "atmospheric_modeling_lead",
+        "analytical_chemistry_lead"
+      ],
+      "role_names": [
+        "Remote optical sensing manager (SEN)",
+        "Computational atmospheric dispersion specialist (MOD)",
+        "Forensic analytical chemistry chemist (CHEM)"
+      ],
+      "directory": "incomplete/task_550",
+      "profiles": [
+        {
+          "record_id": "rec_optical_sensing_lead_A",
+          "role_id": "optical_sensing_lead",
+          "candidate_id": "A",
+          "key": "SEN-OPT-J1N",
+          "boolean_predicate_id": "A_sensor_calibration_verified",
+          "boolean_label": "Optical sensor calibration verified",
+          "hidden_predicate_id": "A_spatial_localization_margin",
+          "threshold_label": "Spatial localization margin",
+          "threshold_aliases": [
+            "Source localization spatial tolerance",
+            "Plume pinpointing uncertainty radius"
+          ],
+          "threshold_value": 2.6,
+          "threshold_unit": "m",
+          "partial_record_text": "SEN-OPT-J1N: Differential absorption lidar plume mapping.Differential absorption lidar plume mapping: Optical sensor calibration verified = true .Source: Instrument bench calibration docket; Scope: Campaign optical detection payloads; Measurement: Affirmation of active multi-point spectral calibration against reference span gases.Differential absorption lidar plume mapping: VOC mass detection rate = 150 kg/h.Source: Optical mass flux performance certificate; Scope: Primary aromatic and aliphatic hydrocarbon vapor plumes; Measurement: Maximum quantifiable volatile organic compound mass emission rate captured under steady flow.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Spatial localization margin is at most 7 m.",
+          "role_name": "Remote optical sensing manager (SEN)",
+          "candidate_name": "Differential absorption lidar plume mapping",
+          "other_candidate_names": [
+            "Autonomous drone swarm optical gas imaging",
+            "Downwind tracer-gas release dispersion profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_atmospheric_modeling_lead_A",
+          "role_id": "atmospheric_modeling_lead",
+          "candidate_id": "A",
+          "key": "MOD-SIM-GTF",
+          "hidden_predicate_id": "A_inversion_solver_convergence",
+          "threshold_label": "Plume inversion solver convergence",
+          "threshold_aliases": [
+            "Numerical inversion convergence percentage",
+            "Source estimation solver reliability"
+          ],
+          "threshold_value": 89,
+          "threshold_unit": "%",
+          "partial_record_text": "MOD-SIM-GTF: Differential absorption lidar plume mapping.Campaign execution window: October 2024.Differential absorption lidar plume mapping: Meteorological stability support = true .Source: Micrometeorological tower diagnostic report; Scope: Planned 48-hour campaign operating window; Measurement: Validation that campaign flight and dispersion algorithms support prevailing stability classes.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Plume inversion solver convergence is at most 100 %.",
+          "role_name": "Computational atmospheric dispersion specialist (MOD)",
+          "candidate_name": "Differential absorption lidar plume mapping",
+          "other_candidate_names": [
+            "Autonomous drone swarm optical gas imaging",
+            "Downwind tracer-gas release dispersion profiling"
+          ],
+          "context_value": "October 2024",
+          "other_context_values": [
+            "November 2024"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_analytical_chemistry_lead_A",
+          "role_id": "analytical_chemistry_lead",
+          "candidate_id": "A",
+          "key": "CHEM-SPEC-AH6",
+          "hidden_predicate_id": "A_tracer_quantification_rate",
+          "threshold_label": "Sulfurous tracer quantification rate",
+          "threshold_aliases": [
+            "Sulfur compound tracer throughput",
+            "Mercaptan and hydrogen sulfide tracing capacity"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "kg/h",
+          "partial_record_text": "CHEM-SPEC-AH6: Differential absorption lidar plume mapping. The record covers Sulfurous tracer quantification rate. Chemical speciation calibration audit; Targeted mercaptan and sulfurous volatile traces; Certified maximum mass flux throughput for continuous sulfur tracer resolution.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sulfurous tracer quantification rate is at most 90 kg/h.",
+          "role_name": "Forensic analytical chemistry chemist (CHEM)",
+          "candidate_name": "Differential absorption lidar plume mapping",
+          "other_candidate_names": [
+            "Autonomous drone swarm optical gas imaging",
+            "Downwind tracer-gas release dispersion profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

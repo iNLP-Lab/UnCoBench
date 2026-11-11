@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_732",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_operations",
+        "science_directorate"
+      ],
+      "role_names": [
+        "Marine Operations Superintendent (MOPS)",
+        "Scientific Mission Director (SCID)"
+      ],
+      "directory": "incomplete/task_732",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MOPS-DECK-Y5X",
+          "boolean_predicate_id": "A_winch_system_certified",
+          "boolean_label": "Deep-sea winch system certified",
+          "hidden_predicate_id": "A_cable_working_depth",
+          "threshold_label": "Winch cable working depth",
+          "threshold_aliases": [
+            "Working cable depth",
+            "Abyssal wire reach"
+          ],
+          "threshold_value": 9000,
+          "threshold_unit": "m",
+          "partial_record_text": "MOPS-DECK-Y5X: RV Pelagic Pioneer.RV Pelagic Pioneer: Deep-sea winch system certified = true .Source: Classification society machinery survey; Scope: Main traction winch and umbilical storage drum; Measurement: Whether the deep-sea traction winch possesses active survey class certification.",
+          "role_name": "Marine Operations Superintendent (MOPS)",
+          "candidate_name": "RV Pelagic Pioneer",
+          "other_candidate_names": [
+            "RV Oceanus Voyager",
+            "RV Borealis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_directorate_A",
+          "role_id": "science_directorate",
+          "candidate_id": "A",
+          "key": "SCID-BERTH-L8L",
+          "hidden_predicate_id": "A_scientific_berths",
+          "threshold_label": "Scientific berths",
+          "threshold_aliases": [
+            "Scientific personnel accommodation",
+            "Science berth count"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "berths",
+          "partial_record_text": "SCID-BERTH-L8L: RV Pelagic Pioneer. The record covers Scientific berths. Ship general arrangement plan; Dedicated non-crew cabins; Number of certified passenger berths exclusively designated for scientific party members.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 16,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Scientific berths is at least 16 berths.",
+          "role_name": "Scientific Mission Director (SCID)",
+          "candidate_name": "RV Pelagic Pioneer",
+          "other_candidate_names": [
+            "RV Oceanus Voyager",
+            "RV Borealis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_operations",
+        "science_directorate",
+        "acoustic_engineering"
+      ],
+      "role_names": [
+        "Marine Operations Superintendent (MOPS)",
+        "Scientific Mission Director (SCID)",
+        "Hydroacoustic Systems Lead (ACOU)"
+      ],
+      "directory": "incomplete/task_732",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MOPS-DECK-Y5X",
+          "boolean_predicate_id": "A_winch_system_certified",
+          "boolean_label": "Deep-sea winch system certified",
+          "hidden_predicate_id": "A_cable_working_depth",
+          "threshold_label": "Winch cable working depth",
+          "threshold_aliases": [
+            "Working cable depth",
+            "Abyssal wire reach"
+          ],
+          "threshold_value": 9000,
+          "threshold_unit": "m",
+          "partial_record_text": "MOPS-DECK-Y5X: RV Pelagic Pioneer.RV Pelagic Pioneer: Deep-sea winch system certified = true .Source: Classification society machinery survey; Scope: Main traction winch and umbilical storage drum; Measurement: Whether the deep-sea traction winch possesses active survey class certification.",
+          "role_name": "Marine Operations Superintendent (MOPS)",
+          "candidate_name": "RV Pelagic Pioneer",
+          "other_candidate_names": [
+            "RV Oceanus Voyager",
+            "RV Borealis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_directorate_A",
+          "role_id": "science_directorate",
+          "candidate_id": "A",
+          "key": "SCID-BERTH-L8L",
+          "hidden_predicate_id": "A_scientific_berths",
+          "threshold_label": "Scientific berths",
+          "threshold_aliases": [
+            "Scientific personnel accommodation",
+            "Science berth count"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "berths",
+          "partial_record_text": "SCID-BERTH-L8L: RV Pelagic Pioneer. The record covers Scientific berths. Ship general arrangement plan; Dedicated non-crew cabins; Number of certified passenger berths exclusively designated for scientific party members.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 16,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Scientific berths is at least 16 berths.",
+          "role_name": "Scientific Mission Director (SCID)",
+          "candidate_name": "RV Pelagic Pioneer",
+          "other_candidate_names": [
+            "RV Oceanus Voyager",
+            "RV Borealis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_engineering_A",
+          "role_id": "acoustic_engineering",
+          "candidate_id": "A",
+          "key": "ACOU-NOISE-DVN",
+          "hidden_predicate_id": "A_radiated_noise_level",
+          "threshold_label": "Underwater radiated noise level",
+          "threshold_aliases": [
+            "Radiated vessel noise",
+            "Acoustic noise signature"
+          ],
+          "threshold_value": 135,
+          "threshold_unit": "dB",
+          "partial_record_text": "ACOU-NOISE-DVN: RV Pelagic Pioneer. The record covers Underwater radiated noise level. Record context: Baseline Version 2.0. Hydroacoustic survey trial report; Hull radiated noise at 10 knots survey speed across 10 Hz to 10 kHz; Broadband sound pressure level normalized to 1 meter reference distance.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 130,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Underwater radiated noise level is at least 130 dB.",
+          "role_name": "Hydroacoustic Systems Lead (ACOU)",
+          "candidate_name": "RV Pelagic Pioneer",
+          "other_candidate_names": [
+            "RV Oceanus Voyager",
+            "RV Borealis Explorer"
+          ],
+          "context_value": "Baseline Version 2.0",
+          "other_context_values": [
+            "Baseline Version 1.0"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

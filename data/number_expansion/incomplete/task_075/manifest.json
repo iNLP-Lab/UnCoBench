@@ -1,0 +1,162 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_075",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hvac_operations",
+        "building_authority"
+      ],
+      "role_names": [
+        "HVAC and mechanical systems manager (HVAC)",
+        "Structural and licensing inspector (BLDG)"
+      ],
+      "directory": "incomplete/task_075",
+      "profiles": [
+        {
+          "record_id": "rec_hvac_operations_A",
+          "role_id": "hvac_operations",
+          "candidate_id": "A",
+          "key": "HVAC-MECH-FW8",
+          "boolean_predicate_id": "A_redundant_chiller_active",
+          "boolean_label": "Active redundant chiller circuit installation",
+          "hidden_predicate_id": "A_continuous_cooling_kw",
+          "threshold_label": "Continuous exhibition hall cooling capacity",
+          "threshold_aliases": [
+            "Sustained thermal extraction power",
+            "Total effective cooling capacity"
+          ],
+          "threshold_value": 1400,
+          "threshold_unit": "kW",
+          "partial_record_text": "HVAC-MECH-FW8: Marina Bay Expo Center Hall A.Marina Bay Expo Center Hall A: Active redundant chiller circuit installation = true .Source: Central plant commissioning register; Scope: Auxiliary secondary cooling loop of the central refrigeration plant; Measurement: Active readiness switch confirming physical installation and hot-standby readiness of secondary chillers.",
+          "role_name": "HVAC and mechanical systems manager (HVAC)",
+          "candidate_name": "Marina Bay Expo Center Hall A",
+          "other_candidate_names": [
+            "Jurong Waterfront Pavilion Complex",
+            "Changi Aerospace Exhibition Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_building_authority_A",
+          "role_id": "building_authority",
+          "candidate_id": "A",
+          "key": "BLDG-LIC-HXO",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Heavy machinery floor load rating",
+          "threshold_aliases": [
+            "Slab loading capacity",
+            "Structural live load tolerance"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "BLDG-LIC-HXO: Marina Bay Expo Center Hall A.Floor load rating deduction basis: after deducting permanent fixture deadweight.Marina Bay Expo Center Hall A: Municipal assembly occupancy licensing = true .Source: Municipal building authority certificate roll; Scope: Primary exhibition structures for the 2027 calendar year; Measurement: Official endorsement status verifying compliance with international public assembly safety codes.",
+          "role_name": "Structural and licensing inspector (BLDG)",
+          "candidate_name": "Marina Bay Expo Center Hall A",
+          "other_candidate_names": [
+            "Jurong Waterfront Pavilion Complex",
+            "Changi Aerospace Exhibition Hub"
+          ],
+          "context_value": "after deducting permanent fixture deadweight",
+          "other_context_values": [
+            "before deducting permanent fixture deadweight"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hvac_operations",
+        "building_authority",
+        "electrical_grid"
+      ],
+      "role_names": [
+        "HVAC and mechanical systems manager (HVAC)",
+        "Structural and licensing inspector (BLDG)",
+        "High-voltage utility coordinator (ELEC)"
+      ],
+      "directory": "incomplete/task_075",
+      "profiles": [
+        {
+          "record_id": "rec_hvac_operations_A",
+          "role_id": "hvac_operations",
+          "candidate_id": "A",
+          "key": "HVAC-MECH-FW8",
+          "boolean_predicate_id": "A_redundant_chiller_active",
+          "boolean_label": "Active redundant chiller circuit installation",
+          "hidden_predicate_id": "A_continuous_cooling_kw",
+          "threshold_label": "Continuous exhibition hall cooling capacity",
+          "threshold_aliases": [
+            "Sustained thermal extraction power",
+            "Total effective cooling capacity"
+          ],
+          "threshold_value": 1400,
+          "threshold_unit": "kW",
+          "partial_record_text": "HVAC-MECH-FW8: Marina Bay Expo Center Hall A.Marina Bay Expo Center Hall A: Active redundant chiller circuit installation = true .Source: Central plant commissioning register; Scope: Auxiliary secondary cooling loop of the central refrigeration plant; Measurement: Active readiness switch confirming physical installation and hot-standby readiness of secondary chillers.",
+          "role_name": "HVAC and mechanical systems manager (HVAC)",
+          "candidate_name": "Marina Bay Expo Center Hall A",
+          "other_candidate_names": [
+            "Jurong Waterfront Pavilion Complex",
+            "Changi Aerospace Exhibition Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_building_authority_A",
+          "role_id": "building_authority",
+          "candidate_id": "A",
+          "key": "BLDG-LIC-HXO",
+          "hidden_predicate_id": "A_floor_load_rating",
+          "threshold_label": "Heavy machinery floor load rating",
+          "threshold_aliases": [
+            "Slab loading capacity",
+            "Structural live load tolerance"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "BLDG-LIC-HXO: Marina Bay Expo Center Hall A.Floor load rating deduction basis: after deducting permanent fixture deadweight.Marina Bay Expo Center Hall A: Municipal assembly occupancy licensing = true .Source: Municipal building authority certificate roll; Scope: Primary exhibition structures for the 2027 calendar year; Measurement: Official endorsement status verifying compliance with international public assembly safety codes.",
+          "role_name": "Structural and licensing inspector (BLDG)",
+          "candidate_name": "Marina Bay Expo Center Hall A",
+          "other_candidate_names": [
+            "Jurong Waterfront Pavilion Complex",
+            "Changi Aerospace Exhibition Hub"
+          ],
+          "context_value": "after deducting permanent fixture deadweight",
+          "other_context_values": [
+            "before deducting permanent fixture deadweight"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_electrical_grid_A",
+          "role_id": "electrical_grid",
+          "candidate_id": "A",
+          "key": "ELEC-POW-6R6",
+          "hidden_predicate_id": "A_peak_internal_noise",
+          "threshold_label": "Peak internal ambient noise floor",
+          "threshold_aliases": [
+            "Internal baseline background noise",
+            "Ambient mechanical noise level"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "dB",
+          "partial_record_text": "ELEC-POW-6R6: Marina Bay Expo Center Hall A.Marina Bay Expo Center Hall A: Dedicated high-voltage grid tie-in readiness = true .Source: Regional utility interconnect certification; Scope: On-site 22 kV step-down distribution substation; Measurement: Verification that dual feeder lines from independent electrical grid sectors are energized and operational.",
+          "role_name": "High-voltage utility coordinator (ELEC)",
+          "candidate_name": "Marina Bay Expo Center Hall A",
+          "other_candidate_names": [
+            "Jurong Waterfront Pavilion Complex",
+            "Changi Aerospace Exhibition Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

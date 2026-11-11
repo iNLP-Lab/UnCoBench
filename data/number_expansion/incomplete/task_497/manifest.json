@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_497",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_systems",
+        "wildfire_defense"
+      ],
+      "role_names": [
+        "Emergency utilities coordinator (PWR)",
+        "County fire marshal (FIRE)"
+      ],
+      "directory": "incomplete/task_497",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "PWR-GRID-99S",
+          "boolean_predicate_id": "A_microgrid_active",
+          "boolean_label": "Dedicated backup microgrid activation",
+          "hidden_predicate_id": "A_power_autonomy_hours",
+          "threshold_label": "Continuous emergency power autonomy",
+          "threshold_aliases": [
+            "Emergency fuel run time",
+            "Backup generator run duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-99S: Sonoma Valley Community Pavilion.Sonoma Valley Community Pavilion: Dedicated backup microgrid activation = true .Source: Utility substation operational switchboard log; Scope: On-site generator and battery storage circuit; Measurement: Confirmation that dedicated islanded microgrid transfer switch is commissioned and armed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency power autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency utilities coordinator (PWR)",
+          "candidate_name": "Sonoma Valley Community Pavilion",
+          "other_candidate_names": [
+            "Mayacamas Regional Exposition Center",
+            "Redwood Foothills Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildfire_defense_A",
+          "role_id": "wildfire_defense",
+          "candidate_id": "A",
+          "key": "FIRE-ZONE-9BB",
+          "hidden_predicate_id": "A_defensible_space_buffer",
+          "threshold_label": "Wildland defensible space clearance",
+          "threshold_aliases": [
+            "Defensible perimeter buffer",
+            "Firebreak clearance width"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "m",
+          "partial_record_text": "FIRE-ZONE-9BB: Sonoma Valley Community Pavilion. The record covers Wildland defensible space clearance. Wildfire safety inspection survey; Continuous cleared perimeter around exterior structure walls; Minimum radial distance of cleared combustible brush and canopy setback.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Wildland defensible space clearance is between 20 m and 100 m, inclusive.",
+          "role_name": "County fire marshal (FIRE)",
+          "candidate_name": "Sonoma Valley Community Pavilion",
+          "other_candidate_names": [
+            "Mayacamas Regional Exposition Center",
+            "Redwood Foothills Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_systems",
+        "wildfire_defense",
+        "shelter_logistics"
+      ],
+      "role_names": [
+        "Emergency utilities coordinator (PWR)",
+        "County fire marshal (FIRE)",
+        "Evacuee housing officer (SHEL)"
+      ],
+      "directory": "incomplete/task_497",
+      "profiles": [
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "PWR-GRID-99S",
+          "boolean_predicate_id": "A_microgrid_active",
+          "boolean_label": "Dedicated backup microgrid activation",
+          "hidden_predicate_id": "A_power_autonomy_hours",
+          "threshold_label": "Continuous emergency power autonomy",
+          "threshold_aliases": [
+            "Emergency fuel run time",
+            "Backup generator run duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-99S: Sonoma Valley Community Pavilion.Sonoma Valley Community Pavilion: Dedicated backup microgrid activation = true .Source: Utility substation operational switchboard log; Scope: On-site generator and battery storage circuit; Measurement: Confirmation that dedicated islanded microgrid transfer switch is commissioned and armed.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous emergency power autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency utilities coordinator (PWR)",
+          "candidate_name": "Sonoma Valley Community Pavilion",
+          "other_candidate_names": [
+            "Mayacamas Regional Exposition Center",
+            "Redwood Foothills Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildfire_defense_A",
+          "role_id": "wildfire_defense",
+          "candidate_id": "A",
+          "key": "FIRE-ZONE-9BB",
+          "hidden_predicate_id": "A_defensible_space_buffer",
+          "threshold_label": "Wildland defensible space clearance",
+          "threshold_aliases": [
+            "Defensible perimeter buffer",
+            "Firebreak clearance width"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "m",
+          "partial_record_text": "FIRE-ZONE-9BB: Sonoma Valley Community Pavilion. The record covers Wildland defensible space clearance. Wildfire safety inspection survey; Continuous cleared perimeter around exterior structure walls; Minimum radial distance of cleared combustible brush and canopy setback.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 100
+          },
+          "coarse_statement": "Wildland defensible space clearance is between 20 m and 100 m, inclusive.",
+          "role_name": "County fire marshal (FIRE)",
+          "candidate_name": "Sonoma Valley Community Pavilion",
+          "other_candidate_names": [
+            "Mayacamas Regional Exposition Center",
+            "Redwood Foothills Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_logistics_A",
+          "role_id": "shelter_logistics",
+          "candidate_id": "A",
+          "key": "SHEL-BED-9H5",
+          "hidden_predicate_id": "A_evacuee_capacity",
+          "threshold_label": "Planned overnight evacuee capacity",
+          "threshold_aliases": [
+            "Maximum shelter bed capacity",
+            "Overnight occupant limit"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "person",
+          "partial_record_text": "SHEL-BED-9H5: Sonoma Valley Community Pavilion. The record covers Planned overnight evacuee capacity. Shelter operational plan document; Designated overnight dormitory halls; Approved maximum overnight evacuee headcount under fire evacuation protocols.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Planned overnight evacuee capacity is between 100 person and 700 person, inclusive.",
+          "role_name": "Evacuee housing officer (SHEL)",
+          "candidate_name": "Sonoma Valley Community Pavilion",
+          "other_candidate_names": [
+            "Mayacamas Regional Exposition Center",
+            "Redwood Foothills Recreation Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

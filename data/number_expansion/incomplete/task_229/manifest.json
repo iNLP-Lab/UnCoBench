@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_229",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservation_lead",
+        "geotechnical_engineer"
+      ],
+      "role_names": [
+        "Archival conservation lead (CONS)",
+        "Structural geotechnical engineer (GEOT)"
+      ],
+      "directory": "incomplete/task_229",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_lead_A",
+          "role_id": "conservation_lead",
+          "candidate_id": "A",
+          "key": "CONS-MICRO-S3W",
+          "boolean_predicate_id": "A_climate_control_active",
+          "boolean_label": "Climate control system activation",
+          "hidden_predicate_id": "A_humidity_drift",
+          "threshold_label": "Maximum relative humidity drift",
+          "threshold_aliases": [
+            "RH fluctuation rate",
+            "Relative humidity daily variance"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%RH",
+          "partial_record_text": "CONS-MICRO-S3W: Maastricht Saint Peter Subterranean Archive.Maastricht Saint Peter Subterranean Archive: Climate control system activation = true .Source: Mechanical readiness commissioning sheet; Scope: Primary subterranean archival chamber HVAC plant; Measurement: Confirmed active status of continuous mechanical climate stabilization loops.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum relative humidity drift is at most 9 %RH.",
+          "role_name": "Archival conservation lead (CONS)",
+          "candidate_name": "Maastricht Saint Peter Subterranean Archive",
+          "other_candidate_names": [
+            "Kerkrade Fortified Mineral Vault",
+            "Eschweiler Limestone Storage Cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_engineer_A",
+          "role_id": "geotechnical_engineer",
+          "candidate_id": "A",
+          "key": "GEOT-SEIS-87G",
+          "hidden_predicate_id": "A_bedrock_anchor_load",
+          "threshold_label": "Seismic bedrock anchor load",
+          "threshold_aliases": [
+            "Bedrock shear resistance",
+            "Rock anchor structural capacity"
+          ],
+          "threshold_value": 510,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "GEOT-SEIS-87G: Maastricht Saint Peter Subterranean Archive. The record covers Seismic bedrock anchor load. Geomechanical core and rock-bolt tension audit; Deep vault cavern roof and lateral retaining walls; Tested ultimate tensile holding load of installed rock anchors per unit surface area.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Seismic bedrock anchor load is at most 700 kN/m2.",
+          "role_name": "Structural geotechnical engineer (GEOT)",
+          "candidate_name": "Maastricht Saint Peter Subterranean Archive",
+          "other_candidate_names": [
+            "Kerkrade Fortified Mineral Vault",
+            "Eschweiler Limestone Storage Cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservation_lead",
+        "geotechnical_engineer",
+        "safety_inspector"
+      ],
+      "role_names": [
+        "Archival conservation lead (CONS)",
+        "Structural geotechnical engineer (GEOT)",
+        "Hazardous materials and environmental safety inspector (SAFE)"
+      ],
+      "directory": "incomplete/task_229",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_lead_A",
+          "role_id": "conservation_lead",
+          "candidate_id": "A",
+          "key": "CONS-MICRO-S3W",
+          "boolean_predicate_id": "A_climate_control_active",
+          "boolean_label": "Climate control system activation",
+          "hidden_predicate_id": "A_humidity_drift",
+          "threshold_label": "Maximum relative humidity drift",
+          "threshold_aliases": [
+            "RH fluctuation rate",
+            "Relative humidity daily variance"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%RH",
+          "partial_record_text": "CONS-MICRO-S3W: Maastricht Saint Peter Subterranean Archive.Maastricht Saint Peter Subterranean Archive: Climate control system activation = true .Source: Mechanical readiness commissioning sheet; Scope: Primary subterranean archival chamber HVAC plant; Measurement: Confirmed active status of continuous mechanical climate stabilization loops.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Maximum relative humidity drift is at most 9 %RH.",
+          "role_name": "Archival conservation lead (CONS)",
+          "candidate_name": "Maastricht Saint Peter Subterranean Archive",
+          "other_candidate_names": [
+            "Kerkrade Fortified Mineral Vault",
+            "Eschweiler Limestone Storage Cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_engineer_A",
+          "role_id": "geotechnical_engineer",
+          "candidate_id": "A",
+          "key": "GEOT-SEIS-87G",
+          "hidden_predicate_id": "A_bedrock_anchor_load",
+          "threshold_label": "Seismic bedrock anchor load",
+          "threshold_aliases": [
+            "Bedrock shear resistance",
+            "Rock anchor structural capacity"
+          ],
+          "threshold_value": 510,
+          "threshold_unit": "kN/m2",
+          "partial_record_text": "GEOT-SEIS-87G: Maastricht Saint Peter Subterranean Archive. The record covers Seismic bedrock anchor load. Geomechanical core and rock-bolt tension audit; Deep vault cavern roof and lateral retaining walls; Tested ultimate tensile holding load of installed rock anchors per unit surface area.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Seismic bedrock anchor load is at most 700 kN/m2.",
+          "role_name": "Structural geotechnical engineer (GEOT)",
+          "candidate_name": "Maastricht Saint Peter Subterranean Archive",
+          "other_candidate_names": [
+            "Kerkrade Fortified Mineral Vault",
+            "Eschweiler Limestone Storage Cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_safety_inspector_A",
+          "role_id": "safety_inspector",
+          "candidate_id": "A",
+          "key": "SAFE-TOX-9EQ",
+          "hidden_predicate_id": "A_quarantine_staging_capacity",
+          "threshold_label": "Quarantine buffer staging capacity",
+          "threshold_aliases": [
+            "Isolation buffer throughput",
+            "Decontamination staging volume"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m3/day",
+          "partial_record_text": "SAFE-TOX-9EQ: Maastricht Saint Peter Subterranean Archive.Maastricht Saint Peter Subterranean Archive: Volatile chemical contamination clearance = true .Source: Toxicological gas chromatography assay; Scope: Vault ambient atmosphere and wall surface off-gassing; Measurement: Attestation of airborne volatile organic compounds below heritage baseline limits.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Quarantine buffer staging capacity is at most 100 m3/day.",
+          "role_name": "Hazardous materials and environmental safety inspector (SAFE)",
+          "candidate_name": "Maastricht Saint Peter Subterranean Archive",
+          "other_candidate_names": [
+            "Kerkrade Fortified Mineral Vault",
+            "Eschweiler Limestone Storage Cavern"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_449",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "port_operations_supervisor",
+        "medical_logistics_chief"
+      ],
+      "role_names": [
+        "Port Operations Supervisor (POS)",
+        "Disaster Medical Logistics Chief (DMLC)"
+      ],
+      "directory": "incomplete/task_449",
+      "profiles": [
+        {
+          "record_id": "rec_port_operations_supervisor_A",
+          "role_id": "port_operations_supervisor",
+          "candidate_id": "A",
+          "key": "POS-BERTH-EI1",
+          "boolean_predicate_id": "A_automated_gangway_active",
+          "boolean_label": "Automated gangway monitoring deployment",
+          "hidden_predicate_id": "A_embarkation_turnaround_time",
+          "threshold_label": "Peak embarkation turnaround time",
+          "threshold_aliases": [
+            "Full-load embarkation duration",
+            "Passenger loading cycle time"
+          ],
+          "threshold_value": 38,
+          "threshold_unit": "min",
+          "partial_record_text": "POS-BERTH-EI1: Pacific Crest Catamaran.Pacific Crest Catamaran: Automated gangway monitoring deployment = true .Source: Terminal quay readiness inspection log; Scope: Candidate vessel primary boarding gantry; Measurement: Operational status of automated optical passenger boarding count sensor.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Peak embarkation turnaround time is between 20 min and 70 min, inclusive.",
+          "role_name": "Port Operations Supervisor (POS)",
+          "candidate_name": "Pacific Crest Catamaran",
+          "other_candidate_names": [
+            "Strait Pioneer Ro-Pax",
+            "Island Vanguard Trimaran"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_logistics_chief_A",
+          "role_id": "medical_logistics_chief",
+          "candidate_id": "A",
+          "key": "DMLC-MEDEVAC-022",
+          "hidden_predicate_id": "A_reserved_personnel_seats",
+          "threshold_label": "Reserved emergency personnel seats",
+          "threshold_aliases": [
+            "Mandatory responder seating allocation",
+            "Medical escort seat reservation"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "seats",
+          "partial_record_text": "DMLC-MEDEVAC-022: Pacific Crest Catamaran. The record covers Reserved emergency personnel seats. Disaster medical evacuation operational roster; Designated clinical escort and emergency response personnel; Count of passenger seats partitioned strictly for medical response teams.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reserved emergency personnel seats is between 30 seats and 90 seats, inclusive.",
+          "role_name": "Disaster Medical Logistics Chief (DMLC)",
+          "candidate_name": "Pacific Crest Catamaran",
+          "other_candidate_names": [
+            "Strait Pioneer Ro-Pax",
+            "Island Vanguard Trimaran"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "port_operations_supervisor",
+        "medical_logistics_chief",
+        "maritime_safety_surveyor"
+      ],
+      "role_names": [
+        "Port Operations Supervisor (POS)",
+        "Disaster Medical Logistics Chief (DMLC)",
+        "Maritime Safety Surveyor (MSS)"
+      ],
+      "directory": "incomplete/task_449",
+      "profiles": [
+        {
+          "record_id": "rec_port_operations_supervisor_A",
+          "role_id": "port_operations_supervisor",
+          "candidate_id": "A",
+          "key": "POS-BERTH-EI1",
+          "boolean_predicate_id": "A_automated_gangway_active",
+          "boolean_label": "Automated gangway monitoring deployment",
+          "hidden_predicate_id": "A_embarkation_turnaround_time",
+          "threshold_label": "Peak embarkation turnaround time",
+          "threshold_aliases": [
+            "Full-load embarkation duration",
+            "Passenger loading cycle time"
+          ],
+          "threshold_value": 38,
+          "threshold_unit": "min",
+          "partial_record_text": "POS-BERTH-EI1: Pacific Crest Catamaran.Pacific Crest Catamaran: Automated gangway monitoring deployment = true .Source: Terminal quay readiness inspection log; Scope: Candidate vessel primary boarding gantry; Measurement: Operational status of automated optical passenger boarding count sensor.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Peak embarkation turnaround time is between 20 min and 70 min, inclusive.",
+          "role_name": "Port Operations Supervisor (POS)",
+          "candidate_name": "Pacific Crest Catamaran",
+          "other_candidate_names": [
+            "Strait Pioneer Ro-Pax",
+            "Island Vanguard Trimaran"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_logistics_chief_A",
+          "role_id": "medical_logistics_chief",
+          "candidate_id": "A",
+          "key": "DMLC-MEDEVAC-022",
+          "hidden_predicate_id": "A_reserved_personnel_seats",
+          "threshold_label": "Reserved emergency personnel seats",
+          "threshold_aliases": [
+            "Mandatory responder seating allocation",
+            "Medical escort seat reservation"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "seats",
+          "partial_record_text": "DMLC-MEDEVAC-022: Pacific Crest Catamaran. The record covers Reserved emergency personnel seats. Disaster medical evacuation operational roster; Designated clinical escort and emergency response personnel; Count of passenger seats partitioned strictly for medical response teams.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reserved emergency personnel seats is between 30 seats and 90 seats, inclusive.",
+          "role_name": "Disaster Medical Logistics Chief (DMLC)",
+          "candidate_name": "Pacific Crest Catamaran",
+          "other_candidate_names": [
+            "Strait Pioneer Ro-Pax",
+            "Island Vanguard Trimaran"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_safety_surveyor_A",
+          "role_id": "maritime_safety_surveyor",
+          "candidate_id": "A",
+          "key": "MSS-HULL-M5C",
+          "hidden_predicate_id": "A_gross_passenger_capacity",
+          "threshold_label": "Certified gross passenger capacity",
+          "threshold_aliases": [
+            "Gross passenger capacity",
+            "Maximum rated passenger seating count"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "seats",
+          "partial_record_text": "MSS-HULL-M5C: Pacific Crest Catamaran.Certification period: June 2026.Pacific Crest Catamaran: Double-hull structural safety certification = true .Source: Classification society vessel survey report; Scope: Candidate vessel hull compartmentalization; Measurement: Whether the vessel holds active double-bottom and side-shell impact certification.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified gross passenger capacity is between 200 seats and 600 seats, inclusive.",
+          "role_name": "Maritime Safety Surveyor (MSS)",
+          "candidate_name": "Pacific Crest Catamaran",
+          "other_candidate_names": [
+            "Strait Pioneer Ro-Pax",
+            "Island Vanguard Trimaran"
+          ],
+          "context_value": "June 2026",
+          "other_context_values": [
+            "July 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

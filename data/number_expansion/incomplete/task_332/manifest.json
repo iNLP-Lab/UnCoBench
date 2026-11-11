@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_332",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "drilling_superintendent",
+        "expedition_logistics_lead"
+      ],
+      "role_names": [
+        "Scientific drilling superintendent (DRIL)",
+        "Expedition logistics manager (LOGS)"
+      ],
+      "directory": "incomplete/task_332",
+      "profiles": [
+        {
+          "record_id": "rec_drilling_superintendent_A",
+          "role_id": "drilling_superintendent",
+          "candidate_id": "A",
+          "key": "DRIL-BORE-XU8",
+          "boolean_predicate_id": "A_active_deep_drilling_permit",
+          "boolean_label": "Active deep-drilling permit status",
+          "hidden_predicate_id": "A_borehole_acoustic_noise_floor",
+          "threshold_label": "Continuous borehole acoustic telemetry noise floor",
+          "threshold_aliases": [
+            "Borehole acoustic noise level",
+            "Telemetry background noise"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "dB",
+          "partial_record_text": "DRIL-BORE-XU8: Aurora Ridge Permafrost Observatory.Aurora Ridge Permafrost Observatory: Active deep-drilling permit status = true .Source: Territorial natural resources registry; Scope: The planned 400-meter continuous permafrost core program; Measurement: Whether a current deep-drilling permit has been issued without outstanding stop-work orders.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous borehole acoustic telemetry noise floor is between 10 dB and 40 dB, inclusive.",
+          "role_name": "Scientific drilling superintendent (DRIL)",
+          "candidate_name": "Aurora Ridge Permafrost Observatory",
+          "other_candidate_names": [
+            "Taiga Bluff Geocryology Station",
+            "Tundra Creek Cryo-Drilling Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_lead_A",
+          "role_id": "expedition_logistics_lead",
+          "candidate_id": "A",
+          "key": "LOGS-SUPP-OJA",
+          "hidden_predicate_id": "A_planned_coring_shifts",
+          "threshold_label": "Planned weekly coring shifts",
+          "threshold_aliases": [
+            "Weekly drilling shifts",
+            "Scheduled coring shifts"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "shift",
+          "partial_record_text": "LOGS-SUPP-OJA: Aurora Ridge Permafrost Observatory.Logistics schedule version: Schedule Version 2.0.Aurora Ridge Permafrost Observatory: Certified winter diesel fuel reserve readiness = true .Source: Bulk fuel storage manifest; Scope: Double-walled heated tank farm on site; Measurement: Formal signoff confirming an uncommitted 60-day supply of additive-treated subzero diesel.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Planned weekly coring shifts is between 0 shift and 30 shift, inclusive.",
+          "role_name": "Expedition logistics manager (LOGS)",
+          "candidate_name": "Aurora Ridge Permafrost Observatory",
+          "other_candidate_names": [
+            "Taiga Bluff Geocryology Station",
+            "Tundra Creek Cryo-Drilling Base"
+          ],
+          "context_value": "Schedule Version 2.0",
+          "other_context_values": [
+            "Schedule Version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "drilling_superintendent",
+        "expedition_logistics_lead",
+        "geotechnical_director"
+      ],
+      "role_names": [
+        "Scientific drilling superintendent (DRIL)",
+        "Expedition logistics manager (LOGS)",
+        "Geotechnical engineering director (GEOT)"
+      ],
+      "directory": "incomplete/task_332",
+      "profiles": [
+        {
+          "record_id": "rec_drilling_superintendent_A",
+          "role_id": "drilling_superintendent",
+          "candidate_id": "A",
+          "key": "DRIL-BORE-XU8",
+          "boolean_predicate_id": "A_active_deep_drilling_permit",
+          "boolean_label": "Active deep-drilling permit status",
+          "hidden_predicate_id": "A_borehole_acoustic_noise_floor",
+          "threshold_label": "Continuous borehole acoustic telemetry noise floor",
+          "threshold_aliases": [
+            "Borehole acoustic noise level",
+            "Telemetry background noise"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "dB",
+          "partial_record_text": "DRIL-BORE-XU8: Aurora Ridge Permafrost Observatory.Aurora Ridge Permafrost Observatory: Active deep-drilling permit status = true .Source: Territorial natural resources registry; Scope: The planned 400-meter continuous permafrost core program; Measurement: Whether a current deep-drilling permit has been issued without outstanding stop-work orders.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Continuous borehole acoustic telemetry noise floor is between 10 dB and 40 dB, inclusive.",
+          "role_name": "Scientific drilling superintendent (DRIL)",
+          "candidate_name": "Aurora Ridge Permafrost Observatory",
+          "other_candidate_names": [
+            "Taiga Bluff Geocryology Station",
+            "Tundra Creek Cryo-Drilling Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_logistics_lead_A",
+          "role_id": "expedition_logistics_lead",
+          "candidate_id": "A",
+          "key": "LOGS-SUPP-OJA",
+          "hidden_predicate_id": "A_planned_coring_shifts",
+          "threshold_label": "Planned weekly coring shifts",
+          "threshold_aliases": [
+            "Weekly drilling shifts",
+            "Scheduled coring shifts"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "shift",
+          "partial_record_text": "LOGS-SUPP-OJA: Aurora Ridge Permafrost Observatory.Logistics schedule version: Schedule Version 2.0.Aurora Ridge Permafrost Observatory: Certified winter diesel fuel reserve readiness = true .Source: Bulk fuel storage manifest; Scope: Double-walled heated tank farm on site; Measurement: Formal signoff confirming an uncommitted 60-day supply of additive-treated subzero diesel.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Planned weekly coring shifts is between 0 shift and 30 shift, inclusive.",
+          "role_name": "Expedition logistics manager (LOGS)",
+          "candidate_name": "Aurora Ridge Permafrost Observatory",
+          "other_candidate_names": [
+            "Taiga Bluff Geocryology Station",
+            "Tundra Creek Cryo-Drilling Base"
+          ],
+          "context_value": "Schedule Version 2.0",
+          "other_context_values": [
+            "Schedule Version 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_director_A",
+          "role_id": "geotechnical_director",
+          "candidate_id": "A",
+          "key": "GEOT-STAB-4DS",
+          "hidden_predicate_id": "A_shift_core_throughput",
+          "threshold_label": "Per-shift core throughput",
+          "threshold_aliases": [
+            "Per-shift core recovery length",
+            "Core extraction rate per shift"
+          ],
+          "threshold_value": 5.0,
+          "threshold_unit": "m/shift",
+          "partial_record_text": "GEOT-STAB-4DS: Aurora Ridge Permafrost Observatory.Aurora Ridge Permafrost Observatory: Geotechnical foundation stability certification = true .Source: Station structural audit dossier; Scope: All pilings supporting the primary core-extraction gantry; Measurement: Whether an accredited permafrost engineering inspector certified the foundation against thermo-erosion heave.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Per-shift core throughput is between 2 m/shift and 6 m/shift, inclusive.",
+          "role_name": "Geotechnical engineering director (GEOT)",
+          "candidate_name": "Aurora Ridge Permafrost Observatory",
+          "other_candidate_names": [
+            "Taiga Bluff Geocryology Station",
+            "Tundra Creek Cryo-Drilling Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

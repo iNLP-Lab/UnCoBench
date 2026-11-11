@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_788",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "biosecurity_life_support",
+        "power_telemetry"
+      ],
+      "role_names": [
+        "Biosecurity and Life Support Officer (BIOL)",
+        "Power and Telemetry Systems Manager (PTEL)"
+      ],
+      "directory": "incomplete/task_788",
+      "profiles": [
+        {
+          "record_id": "rec_biosecurity_life_support_A",
+          "role_id": "biosecurity_life_support",
+          "candidate_id": "A",
+          "key": "BIOL-BIOSEC-SYO",
+          "boolean_predicate_id": "A_biosecurity_quarantine_installed",
+          "boolean_label": "Dedicated biosecurity quarantine module installed",
+          "hidden_predicate_id": "A_airlock_depressurization_duration",
+          "threshold_label": "Airlock cycle depressurization duration",
+          "threshold_aliases": [
+            "Airlock cycle time",
+            "Depressurization cycle duration"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "BIOL-BIOSEC-SYO: Atacama Hyperarid Ridge Station.Atacama Hyperarid Ridge Station: Dedicated biosecurity quarantine module installed = true .Source: Planetary protection compliance checklist; Scope: Habitat auxiliary laboratory vestibule; Measurement: Whether a dedicated negative-pressure medical isolation quarantine room is physically commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Airlock cycle depressurization duration is between 5 min and 40 min, inclusive.",
+          "role_name": "Biosecurity and Life Support Officer (BIOL)",
+          "candidate_name": "Atacama Hyperarid Ridge Station",
+          "other_candidate_names": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_telemetry_A",
+          "role_id": "power_telemetry",
+          "candidate_id": "A",
+          "key": "PTEL-COMMPOW-DME",
+          "hidden_predicate_id": "A_microgrid_autonomy_duration",
+          "threshold_label": "Battery microgrid autonomy duration",
+          "threshold_aliases": [
+            "Microgrid storage endurance",
+            "Battery backup duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PTEL-COMMPOW-DME: Atacama Hyperarid Ridge Station. The record covers Battery microgrid autonomy duration. Record context: after deducting the 20% emergency reserve. Electrical load discharge test certificate; Central lithium-iron-phosphate energy storage bank; Sustained operational hours of critical life support under zero solar generation input.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Battery microgrid autonomy duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Power and Telemetry Systems Manager (PTEL)",
+          "candidate_name": "Atacama Hyperarid Ridge Station",
+          "other_candidate_names": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "context_value": "after deducting the 20% emergency reserve",
+          "other_context_values": [
+            "before deducting the 20% emergency reserve"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "biosecurity_life_support",
+        "power_telemetry",
+        "geospatial_survey"
+      ],
+      "role_names": [
+        "Biosecurity and Life Support Officer (BIOL)",
+        "Power and Telemetry Systems Manager (PTEL)",
+        "Geospatial & Topography Lead (GEOP)"
+      ],
+      "directory": "incomplete/task_788",
+      "profiles": [
+        {
+          "record_id": "rec_biosecurity_life_support_A",
+          "role_id": "biosecurity_life_support",
+          "candidate_id": "A",
+          "key": "BIOL-BIOSEC-SYO",
+          "boolean_predicate_id": "A_biosecurity_quarantine_installed",
+          "boolean_label": "Dedicated biosecurity quarantine module installed",
+          "hidden_predicate_id": "A_airlock_depressurization_duration",
+          "threshold_label": "Airlock cycle depressurization duration",
+          "threshold_aliases": [
+            "Airlock cycle time",
+            "Depressurization cycle duration"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "BIOL-BIOSEC-SYO: Atacama Hyperarid Ridge Station.Atacama Hyperarid Ridge Station: Dedicated biosecurity quarantine module installed = true .Source: Planetary protection compliance checklist; Scope: Habitat auxiliary laboratory vestibule; Measurement: Whether a dedicated negative-pressure medical isolation quarantine room is physically commissioned.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Airlock cycle depressurization duration is between 5 min and 40 min, inclusive.",
+          "role_name": "Biosecurity and Life Support Officer (BIOL)",
+          "candidate_name": "Atacama Hyperarid Ridge Station",
+          "other_candidate_names": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_telemetry_A",
+          "role_id": "power_telemetry",
+          "candidate_id": "A",
+          "key": "PTEL-COMMPOW-DME",
+          "hidden_predicate_id": "A_microgrid_autonomy_duration",
+          "threshold_label": "Battery microgrid autonomy duration",
+          "threshold_aliases": [
+            "Microgrid storage endurance",
+            "Battery backup duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PTEL-COMMPOW-DME: Atacama Hyperarid Ridge Station. The record covers Battery microgrid autonomy duration. Record context: after deducting the 20% emergency reserve. Electrical load discharge test certificate; Central lithium-iron-phosphate energy storage bank; Sustained operational hours of critical life support under zero solar generation input.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Battery microgrid autonomy duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Power and Telemetry Systems Manager (PTEL)",
+          "candidate_name": "Atacama Hyperarid Ridge Station",
+          "other_candidate_names": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "context_value": "after deducting the 20% emergency reserve",
+          "other_context_values": [
+            "before deducting the 20% emergency reserve"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geospatial_survey_A",
+          "role_id": "geospatial_survey",
+          "candidate_id": "A",
+          "key": "GEOP-GEOMAP-K4G",
+          "hidden_predicate_id": "A_isolation_buffer_area",
+          "threshold_label": "Total wilderness isolation buffer area",
+          "threshold_aliases": [
+            "Buffer perimeter zone",
+            "Wilderness isolation area"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "ha",
+          "partial_record_text": "GEOP-GEOMAP-K4G: Atacama Hyperarid Ridge Station.Atacama Hyperarid Ridge Station: Topographic hazard mitigation verified = true .Source: LiDAR hazard survey report; Scope: Candidate habitat perimeter and extravehicular activity training sector; Measurement: Whether all open crevices, scree drop-offs, and sinkhole risks have documented physical cordons.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total wilderness isolation buffer area is between 0 ha and 400 ha, inclusive.",
+          "role_name": "Geospatial & Topography Lead (GEOP)",
+          "candidate_name": "Atacama Hyperarid Ridge Station",
+          "other_candidate_names": [
+            "Haughton Impact Basin Habitat",
+            "San Rafael Swell Mesa Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

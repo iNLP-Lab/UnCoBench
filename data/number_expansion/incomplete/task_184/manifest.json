@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_184",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "air_quality",
+        "energy_operations"
+      ],
+      "role_names": [
+        "Air Quality Engineer (AQE)",
+        "Plant Energy Assessor (PEA)"
+      ],
+      "directory": "incomplete/task_184",
+      "profiles": [
+        {
+          "record_id": "rec_air_quality_A",
+          "role_id": "air_quality",
+          "candidate_id": "A",
+          "key": "AQE-EMIS-QH4",
+          "boolean_predicate_id": "A_emission_telemetry_enabled",
+          "boolean_label": "Continuous emission telemetry enabled",
+          "hidden_predicate_id": "A_scrubbing_efficiency",
+          "threshold_label": "Flue gas scrubbing efficiency",
+          "threshold_aliases": [
+            "Acid gas scrubbing rate",
+            "Scrubber removal efficiency"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "%",
+          "partial_record_text": "AQE-EMIS-QH4: Pennine Bioenergy Alliance.Pennine Bioenergy Alliance: Continuous emission telemetry enabled = true .Source: Scada remote instrumentation gateway; Scope: Main biofilter and boiler stack telemetry feed; Measurement: Active data link transmitting live emissions data to regional monitoring authorities.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Flue gas scrubbing efficiency is at most 100 %.",
+          "role_name": "Air Quality Engineer (AQE)",
+          "candidate_name": "Pennine Bioenergy Alliance",
+          "other_candidate_names": [
+            "Mersey Organics Recovery Group",
+            "Caledonian Biogas Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_energy_operations_A",
+          "role_id": "energy_operations",
+          "candidate_id": "A",
+          "key": "PEA-UTIL-MB4",
+          "hidden_predicate_id": "A_parasitic_fuel_consumption",
+          "threshold_label": "Parasitic plant fuel consumption",
+          "threshold_aliases": [
+            "Internal thermal biogas consumption",
+            "Digester parasitic fuel load"
+          ],
+          "threshold_value": 460,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "PEA-UTIL-MB4: Pennine Bioenergy Alliance. The record covers Parasitic plant fuel consumption. Digester heating boiler telemetry records; Mesophilic digester thermal jackets and pasteurization units; Hourly mean biomethane-equivalent fuel consumed for internal process heating.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Parasitic plant fuel consumption is at most 600 m3/h.",
+          "role_name": "Plant Energy Assessor (PEA)",
+          "candidate_name": "Pennine Bioenergy Alliance",
+          "other_candidate_names": [
+            "Mersey Organics Recovery Group",
+            "Caledonian Biogas Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "air_quality",
+        "energy_operations",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Air Quality Engineer (AQE)",
+        "Plant Energy Assessor (PEA)",
+        "Process Gas Engineer (PGE)"
+      ],
+      "directory": "incomplete/task_184",
+      "profiles": [
+        {
+          "record_id": "rec_air_quality_A",
+          "role_id": "air_quality",
+          "candidate_id": "A",
+          "key": "AQE-EMIS-QH4",
+          "boolean_predicate_id": "A_emission_telemetry_enabled",
+          "boolean_label": "Continuous emission telemetry enabled",
+          "hidden_predicate_id": "A_scrubbing_efficiency",
+          "threshold_label": "Flue gas scrubbing efficiency",
+          "threshold_aliases": [
+            "Acid gas scrubbing rate",
+            "Scrubber removal efficiency"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "%",
+          "partial_record_text": "AQE-EMIS-QH4: Pennine Bioenergy Alliance.Pennine Bioenergy Alliance: Continuous emission telemetry enabled = true .Source: Scada remote instrumentation gateway; Scope: Main biofilter and boiler stack telemetry feed; Measurement: Active data link transmitting live emissions data to regional monitoring authorities.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Flue gas scrubbing efficiency is at most 100 %.",
+          "role_name": "Air Quality Engineer (AQE)",
+          "candidate_name": "Pennine Bioenergy Alliance",
+          "other_candidate_names": [
+            "Mersey Organics Recovery Group",
+            "Caledonian Biogas Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_energy_operations_A",
+          "role_id": "energy_operations",
+          "candidate_id": "A",
+          "key": "PEA-UTIL-MB4",
+          "hidden_predicate_id": "A_parasitic_fuel_consumption",
+          "threshold_label": "Parasitic plant fuel consumption",
+          "threshold_aliases": [
+            "Internal thermal biogas consumption",
+            "Digester parasitic fuel load"
+          ],
+          "threshold_value": 460,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "PEA-UTIL-MB4: Pennine Bioenergy Alliance. The record covers Parasitic plant fuel consumption. Digester heating boiler telemetry records; Mesophilic digester thermal jackets and pasteurization units; Hourly mean biomethane-equivalent fuel consumed for internal process heating.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Parasitic plant fuel consumption is at most 600 m3/h.",
+          "role_name": "Plant Energy Assessor (PEA)",
+          "candidate_name": "Pennine Bioenergy Alliance",
+          "other_candidate_names": [
+            "Mersey Organics Recovery Group",
+            "Caledonian Biogas Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PGE-BIOGAS-0ZM",
+          "hidden_predicate_id": "A_gross_biomethane_generation",
+          "threshold_label": "Gross biomethane generation rate",
+          "threshold_aliases": [
+            "Total biomethane yield",
+            "Gross methane output"
+          ],
+          "threshold_value": 1550,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "PGE-BIOGAS-0ZM: Pennine Bioenergy Alliance. The record covers Gross biomethane generation rate. Biogas upgrading plant flowmeter log; Continuous upgrading system output at 98 % biomethane purity; Hourly mean gross volumetric biomethane production under standard conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross biomethane generation rate is at most 3000 m3/h.",
+          "role_name": "Process Gas Engineer (PGE)",
+          "candidate_name": "Pennine Bioenergy Alliance",
+          "other_candidate_names": [
+            "Mersey Organics Recovery Group",
+            "Caledonian Biogas Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

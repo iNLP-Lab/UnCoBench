@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_667",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_facilities_manager",
+        "hospitality_and_catering_lead"
+      ],
+      "role_names": [
+        "Electrical Facilities Manager (ELEC)",
+        "Hospitality and Catering Lead (HOSP)"
+      ],
+      "directory": "incomplete/task_667",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_facilities_manager_A",
+          "role_id": "electrical_facilities_manager",
+          "candidate_id": "A",
+          "key": "ELEC-POWER-7AZ",
+          "boolean_predicate_id": "A_emergency_power_enabled",
+          "boolean_label": "Dedicated emergency power enabled",
+          "hidden_predicate_id": "A_backup_switchover_seconds",
+          "threshold_label": "Backup generator switchover time",
+          "threshold_aliases": [
+            "Generator changeover latency",
+            "Emergency transfer time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "s",
+          "partial_record_text": "ELEC-POWER-7AZ: Baltic Maritime Forum Centre.Baltic Maritime Forum Centre: Dedicated emergency power enabled = true .Source: Substation commissioning log; Scope: On-site auxiliary diesel turbine array; Measurement: Operational readiness enablement of automated emergency power generation.Baltic Maritime Forum Centre: Exhibition floor power consumption = 22000 kWh.Source: Exhibition services energy estimate; Scope: Ocean technology display pavilions during summit week; Measurement: Forecast gross electricity consumption across main exhibition floors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Backup generator switchover time is at most 40 s.",
+          "role_name": "Electrical Facilities Manager (ELEC)",
+          "candidate_name": "Baltic Maritime Forum Centre",
+          "other_candidate_names": [
+            "Biscay Oceanics Congress Palace",
+            "North Sea Maritime Pavilions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hospitality_and_catering_lead_A",
+          "role_id": "hospitality_and_catering_lead",
+          "candidate_id": "A",
+          "key": "HOSP-CATER-11W",
+          "hidden_predicate_id": "A_banquet_dining_seats",
+          "threshold_label": "Banquet dining capacity",
+          "threshold_aliases": [
+            "Gala seating capacity",
+            "Dining hall capacity"
+          ],
+          "threshold_value": 1100,
+          "threshold_unit": "seats",
+          "partial_record_text": "HOSP-CATER-11W: Baltic Maritime Forum Centre. The record covers Banquet dining capacity. Venue fire marshal occupancy certificate; Main banquet hall seated dinner configuration; Maximum permitted seated banquet table capacity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Banquet dining capacity is at most 3000 seats.",
+          "role_name": "Hospitality and Catering Lead (HOSP)",
+          "candidate_name": "Baltic Maritime Forum Centre",
+          "other_candidate_names": [
+            "Biscay Oceanics Congress Palace",
+            "North Sea Maritime Pavilions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_facilities_manager",
+        "hospitality_and_catering_lead",
+        "building_sustainability_controller"
+      ],
+      "role_names": [
+        "Electrical Facilities Manager (ELEC)",
+        "Hospitality and Catering Lead (HOSP)",
+        "Building Sustainability Controller (SUST)"
+      ],
+      "directory": "incomplete/task_667",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_facilities_manager_A",
+          "role_id": "electrical_facilities_manager",
+          "candidate_id": "A",
+          "key": "ELEC-POWER-7AZ",
+          "boolean_predicate_id": "A_emergency_power_enabled",
+          "boolean_label": "Dedicated emergency power enabled",
+          "hidden_predicate_id": "A_backup_switchover_seconds",
+          "threshold_label": "Backup generator switchover time",
+          "threshold_aliases": [
+            "Generator changeover latency",
+            "Emergency transfer time"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "s",
+          "partial_record_text": "ELEC-POWER-7AZ: Baltic Maritime Forum Centre.Baltic Maritime Forum Centre: Dedicated emergency power enabled = true .Source: Substation commissioning log; Scope: On-site auxiliary diesel turbine array; Measurement: Operational readiness enablement of automated emergency power generation.Baltic Maritime Forum Centre: Exhibition floor power consumption = 22000 kWh.Source: Exhibition services energy estimate; Scope: Ocean technology display pavilions during summit week; Measurement: Forecast gross electricity consumption across main exhibition floors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Backup generator switchover time is at most 40 s.",
+          "role_name": "Electrical Facilities Manager (ELEC)",
+          "candidate_name": "Baltic Maritime Forum Centre",
+          "other_candidate_names": [
+            "Biscay Oceanics Congress Palace",
+            "North Sea Maritime Pavilions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hospitality_and_catering_lead_A",
+          "role_id": "hospitality_and_catering_lead",
+          "candidate_id": "A",
+          "key": "HOSP-CATER-11W",
+          "hidden_predicate_id": "A_banquet_dining_seats",
+          "threshold_label": "Banquet dining capacity",
+          "threshold_aliases": [
+            "Gala seating capacity",
+            "Dining hall capacity"
+          ],
+          "threshold_value": 1100,
+          "threshold_unit": "seats",
+          "partial_record_text": "HOSP-CATER-11W: Baltic Maritime Forum Centre. The record covers Banquet dining capacity. Venue fire marshal occupancy certificate; Main banquet hall seated dinner configuration; Maximum permitted seated banquet table capacity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Banquet dining capacity is at most 3000 seats.",
+          "role_name": "Hospitality and Catering Lead (HOSP)",
+          "candidate_name": "Baltic Maritime Forum Centre",
+          "other_candidate_names": [
+            "Biscay Oceanics Congress Palace",
+            "North Sea Maritime Pavilions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_building_sustainability_controller_A",
+          "role_id": "building_sustainability_controller",
+          "candidate_id": "A",
+          "key": "SUST-CLIM-4AR",
+          "hidden_predicate_id": "A_plenary_power_consumption",
+          "threshold_label": "Plenary floor power consumption",
+          "threshold_aliases": [
+            "Auditorium electrical load",
+            "Main hall power draw"
+          ],
+          "threshold_value": 20000,
+          "threshold_unit": "kWh",
+          "partial_record_text": "SUST-CLIM-4AR: Baltic Maritime Forum Centre. The record covers Plenary floor power consumption. Submetered HVAC and stage power forecast; Central plenary hall and interpretation suites; Forecast electricity consumption for plenary lighting, climate, and sound.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Plenary floor power consumption is at most 40000 kWh.",
+          "role_name": "Building Sustainability Controller (SUST)",
+          "candidate_name": "Baltic Maritime Forum Centre",
+          "other_candidate_names": [
+            "Biscay Oceanics Congress Palace",
+            "North Sea Maritime Pavilions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_013",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telemetry_operations",
+        "cryo_engineering"
+      ],
+      "role_names": [
+        "Logistics telemetry supervisor (TELEM)",
+        "Cryogenic systems engineer (CRYO)"
+      ],
+      "directory": "incomplete/task_013",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_operations_A",
+          "role_id": "telemetry_operations",
+          "candidate_id": "A",
+          "key": "TELEM-MONIT-RE9",
+          "boolean_predicate_id": "A_active_telemetry_enabled",
+          "boolean_label": "Active telemetry monitoring activated",
+          "hidden_predicate_id": "A_max_transit_temperature",
+          "threshold_label": "Maximum transit specimen temperature",
+          "threshold_aliases": [
+            "Peak transit temperature",
+            "Core chamber maximum temperature"
+          ],
+          "threshold_value": -150,
+          "threshold_unit": "degC",
+          "partial_record_text": "TELEM-MONIT-RE9: Vapor-phase nitrogen bulk transport.Vapor-phase nitrogen bulk transport: Active telemetry monitoring activated = true .Source: Logistics dispatch pre-flight manifest; Scope: Selected transfer package configuration; Measurement: Confirmation that cellular or satellite continuous tracking is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 0
+          },
+          "coarse_statement": "Maximum transit specimen temperature is at most 0 degC.",
+          "role_name": "Logistics telemetry supervisor (TELEM)",
+          "candidate_name": "Vapor-phase nitrogen bulk transport",
+          "other_candidate_names": [
+            "Stirling cryo-cooler active transit",
+            "Sub-ambient eutectic passive carrier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-THERM-NNN",
+          "hidden_predicate_id": "A_primary_payload_capacity",
+          "threshold_label": "Primary cryo-vial payload",
+          "threshold_aliases": [
+            "Primary payload",
+            "Cryo-vial capacity"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "vials",
+          "partial_record_text": "CRYO-THERM-NNN: Vapor-phase nitrogen bulk transport.Shipper specification version: Version 2.0.Vapor-phase nitrogen bulk transport: Thermal-shipper container certification = true .Source: ISTA Standard 7D validation report; Scope: Shipper model under test; Measurement: Attestation of passing physical drops and static thermal holds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary cryo-vial payload is at most 4000 vials.",
+          "role_name": "Cryogenic systems engineer (CRYO)",
+          "candidate_name": "Vapor-phase nitrogen bulk transport",
+          "other_candidate_names": [
+            "Stirling cryo-cooler active transit",
+            "Sub-ambient eutectic passive carrier"
+          ],
+          "context_value": "Version 2.0",
+          "other_context_values": [
+            "Version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telemetry_operations",
+        "cryo_engineering",
+        "carrier_quality"
+      ],
+      "role_names": [
+        "Logistics telemetry supervisor (TELEM)",
+        "Cryogenic systems engineer (CRYO)",
+        "Specialized carrier auditor (CARR)"
+      ],
+      "directory": "incomplete/task_013",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_operations_A",
+          "role_id": "telemetry_operations",
+          "candidate_id": "A",
+          "key": "TELEM-MONIT-RE9",
+          "boolean_predicate_id": "A_active_telemetry_enabled",
+          "boolean_label": "Active telemetry monitoring activated",
+          "hidden_predicate_id": "A_max_transit_temperature",
+          "threshold_label": "Maximum transit specimen temperature",
+          "threshold_aliases": [
+            "Peak transit temperature",
+            "Core chamber maximum temperature"
+          ],
+          "threshold_value": -150,
+          "threshold_unit": "degC",
+          "partial_record_text": "TELEM-MONIT-RE9: Vapor-phase nitrogen bulk transport.Vapor-phase nitrogen bulk transport: Active telemetry monitoring activated = true .Source: Logistics dispatch pre-flight manifest; Scope: Selected transfer package configuration; Measurement: Confirmation that cellular or satellite continuous tracking is activated.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 0
+          },
+          "coarse_statement": "Maximum transit specimen temperature is at most 0 degC.",
+          "role_name": "Logistics telemetry supervisor (TELEM)",
+          "candidate_name": "Vapor-phase nitrogen bulk transport",
+          "other_candidate_names": [
+            "Stirling cryo-cooler active transit",
+            "Sub-ambient eutectic passive carrier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cryo_engineering_A",
+          "role_id": "cryo_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-THERM-NNN",
+          "hidden_predicate_id": "A_primary_payload_capacity",
+          "threshold_label": "Primary cryo-vial payload",
+          "threshold_aliases": [
+            "Primary payload",
+            "Cryo-vial capacity"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "vials",
+          "partial_record_text": "CRYO-THERM-NNN: Vapor-phase nitrogen bulk transport.Shipper specification version: Version 2.0.Vapor-phase nitrogen bulk transport: Thermal-shipper container certification = true .Source: ISTA Standard 7D validation report; Scope: Shipper model under test; Measurement: Attestation of passing physical drops and static thermal holds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary cryo-vial payload is at most 4000 vials.",
+          "role_name": "Cryogenic systems engineer (CRYO)",
+          "candidate_name": "Vapor-phase nitrogen bulk transport",
+          "other_candidate_names": [
+            "Stirling cryo-cooler active transit",
+            "Sub-ambient eutectic passive carrier"
+          ],
+          "context_value": "Version 2.0",
+          "other_context_values": [
+            "Version 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_carrier_quality_A",
+          "role_id": "carrier_quality",
+          "candidate_id": "A",
+          "key": "CARR-QUAL-VR1",
+          "hidden_predicate_id": "A_supplemental_buffer_payload",
+          "threshold_label": "Supplemental dry-ice buffer payload",
+          "threshold_aliases": [
+            "Supplemental buffer capacity",
+            "Ancillary vial capacity"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "vials",
+          "partial_record_text": "CARR-QUAL-VR1: Vapor-phase nitrogen bulk transport.Vapor-phase nitrogen bulk transport: Courier handling accreditation verified = true .Source: GDP carrier audit dossier; Scope: Primary transportation subcontractor; Measurement: Valid Good Distribution Practice bio-courier credential on file.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Supplemental dry-ice buffer payload is at most 700 vials.",
+          "role_name": "Specialized carrier auditor (CARR)",
+          "candidate_name": "Vapor-phase nitrogen bulk transport",
+          "other_candidate_names": [
+            "Stirling cryo-cooler active transit",
+            "Sub-ambient eutectic passive carrier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

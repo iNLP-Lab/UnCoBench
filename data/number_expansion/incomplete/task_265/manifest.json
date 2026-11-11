@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_265",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "orbital_dynamics",
+        "power_systems"
+      ],
+      "role_names": [
+        "Orbital dynamics lead (ORB)",
+        "Power and facilities superintendent (PWR)"
+      ],
+      "directory": "incomplete/task_265",
+      "profiles": [
+        {
+          "record_id": "rec_orbital_dynamics_A",
+          "role_id": "orbital_dynamics",
+          "candidate_id": "A",
+          "key": "ORB-DYN-M2H",
+          "boolean_predicate_id": "A_auto_acquisition_enabled",
+          "boolean_label": "Autonomous orbital pass tracking enabled",
+          "hidden_predicate_id": "A_min_pass_elevation_duration",
+          "threshold_label": "Minimum horizon pass tracking window",
+          "threshold_aliases": [
+            "Pass tracking duration",
+            "Low-elevation contact window"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "ORB-DYN-M2H: Sub-Arctic Polar Radome Station.Sub-Arctic Polar Radome Station: Autonomous orbital pass tracking enabled = true .Source: Station tracking firmware audit; Scope: Low-Earth orbit satellite tracking passes; Measurement: Whether autonomous programmatic closed-loop antenna acquisition is enabled in the station control computer.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum horizon pass tracking window is at most 30 min.",
+          "role_name": "Orbital dynamics lead (ORB)",
+          "candidate_name": "Sub-Arctic Polar Radome Station",
+          "other_candidate_names": [
+            "High-Latitude Coastal Tracking Base",
+            "Continental Plateau Telemetry Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "PWR-UTIL-Y3Z",
+          "hidden_predicate_id": "A_backup_generator_fuel_autonomy",
+          "threshold_label": "Backup generator fuel reserve autonomy",
+          "threshold_aliases": [
+            "Auxiliary fuel reserve endurance",
+            "Emergency generator autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-UTIL-Y3Z: Sub-Arctic Polar Radome Station.Sub-Arctic Polar Radome Station: Scheduled auxiliary relay tracking hours = 6 h.Source: Secondary power utilization budget; Scope: Daily secondary satellite telemetry relay windows; Measurement: Permissible daily run hours for secondary relay antenna tracking under current thermal and auxiliary power budgets.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Backup generator fuel reserve autonomy is at most 110 h.",
+          "role_name": "Power and facilities superintendent (PWR)",
+          "candidate_name": "Sub-Arctic Polar Radome Station",
+          "other_candidate_names": [
+            "High-Latitude Coastal Tracking Base",
+            "Continental Plateau Telemetry Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "orbital_dynamics",
+        "power_systems",
+        "telecommunications"
+      ],
+      "role_names": [
+        "Orbital dynamics lead (ORB)",
+        "Power and facilities superintendent (PWR)",
+        "RF telecommunications engineer (TEL)"
+      ],
+      "directory": "incomplete/task_265",
+      "profiles": [
+        {
+          "record_id": "rec_orbital_dynamics_A",
+          "role_id": "orbital_dynamics",
+          "candidate_id": "A",
+          "key": "ORB-DYN-M2H",
+          "boolean_predicate_id": "A_auto_acquisition_enabled",
+          "boolean_label": "Autonomous orbital pass tracking enabled",
+          "hidden_predicate_id": "A_min_pass_elevation_duration",
+          "threshold_label": "Minimum horizon pass tracking window",
+          "threshold_aliases": [
+            "Pass tracking duration",
+            "Low-elevation contact window"
+          ],
+          "threshold_value": 14,
+          "threshold_unit": "min",
+          "partial_record_text": "ORB-DYN-M2H: Sub-Arctic Polar Radome Station.Sub-Arctic Polar Radome Station: Autonomous orbital pass tracking enabled = true .Source: Station tracking firmware audit; Scope: Low-Earth orbit satellite tracking passes; Measurement: Whether autonomous programmatic closed-loop antenna acquisition is enabled in the station control computer.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum horizon pass tracking window is at most 30 min.",
+          "role_name": "Orbital dynamics lead (ORB)",
+          "candidate_name": "Sub-Arctic Polar Radome Station",
+          "other_candidate_names": [
+            "High-Latitude Coastal Tracking Base",
+            "Continental Plateau Telemetry Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_A",
+          "role_id": "power_systems",
+          "candidate_id": "A",
+          "key": "PWR-UTIL-Y3Z",
+          "hidden_predicate_id": "A_backup_generator_fuel_autonomy",
+          "threshold_label": "Backup generator fuel reserve autonomy",
+          "threshold_aliases": [
+            "Auxiliary fuel reserve endurance",
+            "Emergency generator autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-UTIL-Y3Z: Sub-Arctic Polar Radome Station.Sub-Arctic Polar Radome Station: Scheduled auxiliary relay tracking hours = 6 h.Source: Secondary power utilization budget; Scope: Daily secondary satellite telemetry relay windows; Measurement: Permissible daily run hours for secondary relay antenna tracking under current thermal and auxiliary power budgets.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Backup generator fuel reserve autonomy is at most 110 h.",
+          "role_name": "Power and facilities superintendent (PWR)",
+          "candidate_name": "Sub-Arctic Polar Radome Station",
+          "other_candidate_names": [
+            "High-Latitude Coastal Tracking Base",
+            "Continental Plateau Telemetry Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecommunications_A",
+          "role_id": "telecommunications",
+          "candidate_id": "A",
+          "key": "TEL-RFS-RT8",
+          "hidden_predicate_id": "A_scheduled_primary_tracking_hours",
+          "threshold_label": "Scheduled daily primary tracking hours",
+          "threshold_aliases": [
+            "Primary tracking allocation",
+            "Scheduled primary pass duration"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "TEL-RFS-RT8: Sub-Arctic Polar Radome Station.Operating environment: Production network.Sub-Arctic Polar Radome Station: Dual-polarization telemetry capability = true .Source: Antenna feed acceptance report; Scope: Primary dish parabolic feed assembly; Measurement: Whether simultaneous right-hand and left-hand circular polarization reception is operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Scheduled daily primary tracking hours is at most 30 h.",
+          "role_name": "RF telecommunications engineer (TEL)",
+          "candidate_name": "Sub-Arctic Polar Radome Station",
+          "other_candidate_names": [
+            "High-Latitude Coastal Tracking Base",
+            "Continental Plateau Telemetry Facility"
+          ],
+          "context_value": "Production network",
+          "other_context_values": [
+            "Simulation testbed"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

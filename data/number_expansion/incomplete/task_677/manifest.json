@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_677",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "inert_gas_systems",
+        "power_resilience"
+      ],
+      "role_names": [
+        "Inert Gas and Suppression Systems Lead (GAS)",
+        "Emergency Electrical Power Lead (PWR)"
+      ],
+      "directory": "incomplete/task_677",
+      "profiles": [
+        {
+          "record_id": "rec_inert_gas_systems_A",
+          "role_id": "inert_gas_systems",
+          "candidate_id": "A",
+          "key": "GAS-INERT-L2F",
+          "boolean_predicate_id": "A_continuous_nitrogen_blanketing_enabled",
+          "boolean_label": "Continuous nitrogen blanketing enabled",
+          "hidden_predicate_id": "A_nitrogen_storage_autonomy_hours",
+          "threshold_label": "Nitrogen storage autonomy",
+          "threshold_aliases": [
+            "Liquid nitrogen reserve endurance",
+            "N2 autonomy duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "GAS-INERT-L2F: Dresden Bedrock Reticle Sanctum.Dresden Bedrock Reticle Sanctum: Continuous nitrogen blanketing enabled = true .Source: Atmospheric gas control console; Scope: Archival reticle storage pod bays; Measurement: Whether continuous ultra-pure nitrogen blanketing atmosphere is actively enabled.Dresden Bedrock Reticle Sanctum: Nitrogen blanket purge rate = 500 m3/h.Source: Gas delivery manifold flow test; Scope: Vault high-velocity emergency inerting nozzles; Measurement: Volumetric injection throughput of gaseous nitrogen during containment purging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Nitrogen storage autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Inert Gas and Suppression Systems Lead (GAS)",
+          "candidate_name": "Dresden Bedrock Reticle Sanctum",
+          "other_candidate_names": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-67X",
+          "hidden_predicate_id": "A_dual_microgrid_transfer_latency_ms",
+          "threshold_label": "Dual-microgrid transfer latency",
+          "threshold_aliases": [
+            "Power source transfer time",
+            "Microgrid automatic transfer duration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ms",
+          "partial_record_text": "PWR-GRID-67X: Dresden Bedrock Reticle Sanctum. The record covers Dual-microgrid transfer latency. Static transfer switch test protocol; Synchronous bus transfer between redundant utility microgrid feeders; Maximum elapsed time required to execute automatic solid-state power transfer.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 50
+          },
+          "coarse_statement": "Dual-microgrid transfer latency is between 5 ms and 50 ms, inclusive.",
+          "role_name": "Emergency Electrical Power Lead (PWR)",
+          "candidate_name": "Dresden Bedrock Reticle Sanctum",
+          "other_candidate_names": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "inert_gas_systems",
+        "power_resilience",
+        "structural_protection"
+      ],
+      "role_names": [
+        "Inert Gas and Suppression Systems Lead (GAS)",
+        "Emergency Electrical Power Lead (PWR)",
+        "Structural Hardening and Geotechnical Lead (STR)"
+      ],
+      "directory": "incomplete/task_677",
+      "profiles": [
+        {
+          "record_id": "rec_inert_gas_systems_A",
+          "role_id": "inert_gas_systems",
+          "candidate_id": "A",
+          "key": "GAS-INERT-L2F",
+          "boolean_predicate_id": "A_continuous_nitrogen_blanketing_enabled",
+          "boolean_label": "Continuous nitrogen blanketing enabled",
+          "hidden_predicate_id": "A_nitrogen_storage_autonomy_hours",
+          "threshold_label": "Nitrogen storage autonomy",
+          "threshold_aliases": [
+            "Liquid nitrogen reserve endurance",
+            "N2 autonomy duration"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "GAS-INERT-L2F: Dresden Bedrock Reticle Sanctum.Dresden Bedrock Reticle Sanctum: Continuous nitrogen blanketing enabled = true .Source: Atmospheric gas control console; Scope: Archival reticle storage pod bays; Measurement: Whether continuous ultra-pure nitrogen blanketing atmosphere is actively enabled.Dresden Bedrock Reticle Sanctum: Nitrogen blanket purge rate = 500 m3/h.Source: Gas delivery manifold flow test; Scope: Vault high-velocity emergency inerting nozzles; Measurement: Volumetric injection throughput of gaseous nitrogen during containment purging.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Nitrogen storage autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Inert Gas and Suppression Systems Lead (GAS)",
+          "candidate_name": "Dresden Bedrock Reticle Sanctum",
+          "other_candidate_names": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-67X",
+          "hidden_predicate_id": "A_dual_microgrid_transfer_latency_ms",
+          "threshold_label": "Dual-microgrid transfer latency",
+          "threshold_aliases": [
+            "Power source transfer time",
+            "Microgrid automatic transfer duration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ms",
+          "partial_record_text": "PWR-GRID-67X: Dresden Bedrock Reticle Sanctum. The record covers Dual-microgrid transfer latency. Static transfer switch test protocol; Synchronous bus transfer between redundant utility microgrid feeders; Maximum elapsed time required to execute automatic solid-state power transfer.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 50
+          },
+          "coarse_statement": "Dual-microgrid transfer latency is between 5 ms and 50 ms, inclusive.",
+          "role_name": "Emergency Electrical Power Lead (PWR)",
+          "candidate_name": "Dresden Bedrock Reticle Sanctum",
+          "other_candidate_names": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_protection_A",
+          "role_id": "structural_protection",
+          "candidate_id": "A",
+          "key": "STR-HARD-PYM",
+          "hidden_predicate_id": "A_subterranean_depth_meters",
+          "threshold_label": "Subterranean vault depth",
+          "threshold_aliases": [
+            "Underground depth",
+            "Facility bedrock overburden"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "m",
+          "partial_record_text": "STR-HARD-PYM: Dresden Bedrock Reticle Sanctum.Dresden Bedrock Reticle Sanctum: Blast overpressure resistance certified = true .Source: Structural dynamics engineering certificate; Scope: Outer blast doors and perimeter reinforced concrete shell; Measurement: Certified survivability against external peak incident shock overpressure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 60
+          },
+          "coarse_statement": "Subterranean vault depth is between 10 m and 60 m, inclusive.",
+          "role_name": "Structural Hardening and Geotechnical Lead (STR)",
+          "candidate_name": "Dresden Bedrock Reticle Sanctum",
+          "other_candidate_names": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

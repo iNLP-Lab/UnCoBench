@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_614",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "metallurgical_forensics",
+        "radiological_protection"
+      ],
+      "role_names": [
+        "Metallurgical Forensics Lead (MET)",
+        "Radiological Safety Officer (RAD)"
+      ],
+      "directory": "incomplete/task_614",
+      "profiles": [
+        {
+          "record_id": "rec_metallurgical_forensics_A",
+          "role_id": "metallurgical_forensics",
+          "candidate_id": "A",
+          "key": "MET-MICRO-0IA",
+          "boolean_predicate_id": "A_protocol_peer_validated",
+          "boolean_label": "Validated protocol documentation filed",
+          "hidden_predicate_id": "A_microstructural_resolution_limit",
+          "threshold_label": "Microstructural resolution limit",
+          "threshold_aliases": [
+            "Microstructural resolution",
+            "Imaging spatial resolution"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "nm",
+          "partial_record_text": "MET-MICRO-0IA: Synchrotron Micro-X-Ray Diffraction Protocol.Synchrotron Micro-X-Ray Diffraction Protocol: Validated protocol documentation filed = true .Source: Forensic procedure qualification dossier; Scope: Submitted investigation methodology; Measurement: Formal validation sign-off recorded by the accredited metallurgical oversight board.Synchrotron Micro-X-Ray Diffraction Protocol: Destructive micro-sampling duration = 30 h.Source: Hot cell coupon preparation plan; Scope: FIB lift-out coupon extraction and electro-polishing; Measurement: Total hours required to excise and prepare micro-samples from fractured blade roots.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 80
+          },
+          "coarse_statement": "Microstructural resolution limit is between 10 nm and 80 nm, inclusive.",
+          "role_name": "Metallurgical Forensics Lead (MET)",
+          "candidate_name": "Synchrotron Micro-X-Ray Diffraction Protocol",
+          "other_candidate_names": [
+            "Resonant Ultrasonic Spectroscopy Protocol",
+            "Focused Ion Beam Electron Backscatter Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_radiological_protection_A",
+          "role_id": "radiological_protection",
+          "candidate_id": "A",
+          "key": "RAD-DOSE-96E",
+          "hidden_predicate_id": "A_max_operator_dose_rate",
+          "threshold_label": "Maximum operator radiation dose rate",
+          "threshold_aliases": [
+            "Operator dose rate",
+            "Field radiation exposure rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "uSv/h",
+          "partial_record_text": "RAD-DOSE-96E: Synchrotron Micro-X-Ray Diffraction Protocol.Deployment environment: Production deployment environment.Synchrotron Micro-X-Ray Diffraction Protocol: Certified radiation shielding = true .Source: Radiological barrier inspection certificate; Scope: Portable diagnostic enclosure and beam-stop assembly; Measurement: Compliance verification against station radiation enclosure standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum operator radiation dose rate is between 10 uSv/h and 50 uSv/h, inclusive.",
+          "role_name": "Radiological Safety Officer (RAD)",
+          "candidate_name": "Synchrotron Micro-X-Ray Diffraction Protocol",
+          "other_candidate_names": [
+            "Resonant Ultrasonic Spectroscopy Protocol",
+            "Focused Ion Beam Electron Backscatter Protocol"
+          ],
+          "context_value": "Production deployment environment",
+          "other_context_values": [
+            "Pilot test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "metallurgical_forensics",
+        "radiological_protection",
+        "non_destructive_testing"
+      ],
+      "role_names": [
+        "Metallurgical Forensics Lead (MET)",
+        "Radiological Safety Officer (RAD)",
+        "Non-Destructive Testing Superintendent (NDT)"
+      ],
+      "directory": "incomplete/task_614",
+      "profiles": [
+        {
+          "record_id": "rec_metallurgical_forensics_A",
+          "role_id": "metallurgical_forensics",
+          "candidate_id": "A",
+          "key": "MET-MICRO-0IA",
+          "boolean_predicate_id": "A_protocol_peer_validated",
+          "boolean_label": "Validated protocol documentation filed",
+          "hidden_predicate_id": "A_microstructural_resolution_limit",
+          "threshold_label": "Microstructural resolution limit",
+          "threshold_aliases": [
+            "Microstructural resolution",
+            "Imaging spatial resolution"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "nm",
+          "partial_record_text": "MET-MICRO-0IA: Synchrotron Micro-X-Ray Diffraction Protocol.Synchrotron Micro-X-Ray Diffraction Protocol: Validated protocol documentation filed = true .Source: Forensic procedure qualification dossier; Scope: Submitted investigation methodology; Measurement: Formal validation sign-off recorded by the accredited metallurgical oversight board.Synchrotron Micro-X-Ray Diffraction Protocol: Destructive micro-sampling duration = 30 h.Source: Hot cell coupon preparation plan; Scope: FIB lift-out coupon extraction and electro-polishing; Measurement: Total hours required to excise and prepare micro-samples from fractured blade roots.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 80
+          },
+          "coarse_statement": "Microstructural resolution limit is between 10 nm and 80 nm, inclusive.",
+          "role_name": "Metallurgical Forensics Lead (MET)",
+          "candidate_name": "Synchrotron Micro-X-Ray Diffraction Protocol",
+          "other_candidate_names": [
+            "Resonant Ultrasonic Spectroscopy Protocol",
+            "Focused Ion Beam Electron Backscatter Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_radiological_protection_A",
+          "role_id": "radiological_protection",
+          "candidate_id": "A",
+          "key": "RAD-DOSE-96E",
+          "hidden_predicate_id": "A_max_operator_dose_rate",
+          "threshold_label": "Maximum operator radiation dose rate",
+          "threshold_aliases": [
+            "Operator dose rate",
+            "Field radiation exposure rate"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "uSv/h",
+          "partial_record_text": "RAD-DOSE-96E: Synchrotron Micro-X-Ray Diffraction Protocol.Deployment environment: Production deployment environment.Synchrotron Micro-X-Ray Diffraction Protocol: Certified radiation shielding = true .Source: Radiological barrier inspection certificate; Scope: Portable diagnostic enclosure and beam-stop assembly; Measurement: Compliance verification against station radiation enclosure standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum operator radiation dose rate is between 10 uSv/h and 50 uSv/h, inclusive.",
+          "role_name": "Radiological Safety Officer (RAD)",
+          "candidate_name": "Synchrotron Micro-X-Ray Diffraction Protocol",
+          "other_candidate_names": [
+            "Resonant Ultrasonic Spectroscopy Protocol",
+            "Focused Ion Beam Electron Backscatter Protocol"
+          ],
+          "context_value": "Production deployment environment",
+          "other_context_values": [
+            "Pilot test environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_non_destructive_testing_A",
+          "role_id": "non_destructive_testing",
+          "candidate_id": "A",
+          "key": "NDT-SCAN-7AR",
+          "hidden_predicate_id": "A_nde_scanning_duration",
+          "threshold_label": "Non-destructive examination duration",
+          "threshold_aliases": [
+            "NDE scanning time",
+            "Non-destructive testing duration"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "NDT-SCAN-7AR: Synchrotron Micro-X-Ray Diffraction Protocol. The record covers Non-destructive examination duration. Diagnostic schedule breakdown; Rotor shaft and disc root volumetric scanning; Total cumulative beam run and surface mapping elapsed hours.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Non-destructive examination duration is between 20 h and 70 h, inclusive.",
+          "role_name": "Non-Destructive Testing Superintendent (NDT)",
+          "candidate_name": "Synchrotron Micro-X-Ray Diffraction Protocol",
+          "other_candidate_names": [
+            "Resonant Ultrasonic Spectroscopy Protocol",
+            "Focused Ion Beam Electron Backscatter Protocol"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_201",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_operations_coordinator",
+        "shelter_facility_lead"
+      ],
+      "role_names": [
+        "Public Health and Medical Operations Coordinator (MED)",
+        "Shelter Facility Director (SFD)"
+      ],
+      "directory": "incomplete/task_201",
+      "profiles": [
+        {
+          "record_id": "rec_medical_operations_coordinator_A",
+          "role_id": "medical_operations_coordinator",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-MTW",
+          "boolean_predicate_id": "A_on_site_triage_established",
+          "boolean_label": "On-site medical triage clinic established",
+          "hidden_predicate_id": "A_quarantine_isolation_beds",
+          "threshold_label": "Quarantine isolation bed capacity",
+          "threshold_aliases": [
+            "Infectious disease isolation beds",
+            "Isolation cot count",
+            "Quarantine ward capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "MED-CLINIC-MTW: Cape Fear Regional Sportsplex.Cape Fear Regional Sportsplex: On-site medical triage clinic established = true .Source: Public health readiness audit; Scope: Candidate dedicated medical triage and stabilization area; Measurement: Formal sign-off confirming that on-site clinical intake and basic trauma equipment are staged.",
+          "role_name": "Public Health and Medical Operations Coordinator (MED)",
+          "candidate_name": "Cape Fear Regional Sportsplex",
+          "other_candidate_names": [
+            "Neuse River Exhibition Center",
+            "Pamlico Sound Civic Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_facility_lead_A",
+          "role_id": "shelter_facility_lead",
+          "candidate_id": "A",
+          "key": "SFD-STRUCT-AIA",
+          "hidden_predicate_id": "A_flood_freeboard_clearance",
+          "threshold_label": "Base flood freeboard clearance",
+          "threshold_aliases": [
+            "Freeboard elevation",
+            "Flood stage margin",
+            "Finished floor freeboard height"
+          ],
+          "threshold_value": 3.6,
+          "threshold_unit": "m",
+          "partial_record_text": "SFD-STRUCT-AIA: Cape Fear Regional Sportsplex.Cape Fear Regional Sportsplex: Authorized shelter occupancy limit = 800 person.Source: Life safety code certificate; Scope: Designated overnight emergency congregant dormitory halls; Measurement: Maximum allowable overnight evacuee occupants compliant with cot spacing rules.",
+          "role_name": "Shelter Facility Director (SFD)",
+          "candidate_name": "Cape Fear Regional Sportsplex",
+          "other_candidate_names": [
+            "Neuse River Exhibition Center",
+            "Pamlico Sound Civic Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_operations_coordinator",
+        "shelter_facility_lead",
+        "civil_works_lead"
+      ],
+      "role_names": [
+        "Public Health and Medical Operations Coordinator (MED)",
+        "Shelter Facility Director (SFD)",
+        "Civil Works and Utilities Superintendent (UTIL)"
+      ],
+      "directory": "incomplete/task_201",
+      "profiles": [
+        {
+          "record_id": "rec_medical_operations_coordinator_A",
+          "role_id": "medical_operations_coordinator",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-MTW",
+          "boolean_predicate_id": "A_on_site_triage_established",
+          "boolean_label": "On-site medical triage clinic established",
+          "hidden_predicate_id": "A_quarantine_isolation_beds",
+          "threshold_label": "Quarantine isolation bed capacity",
+          "threshold_aliases": [
+            "Infectious disease isolation beds",
+            "Isolation cot count",
+            "Quarantine ward capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "MED-CLINIC-MTW: Cape Fear Regional Sportsplex.Cape Fear Regional Sportsplex: On-site medical triage clinic established = true .Source: Public health readiness audit; Scope: Candidate dedicated medical triage and stabilization area; Measurement: Formal sign-off confirming that on-site clinical intake and basic trauma equipment are staged.",
+          "role_name": "Public Health and Medical Operations Coordinator (MED)",
+          "candidate_name": "Cape Fear Regional Sportsplex",
+          "other_candidate_names": [
+            "Neuse River Exhibition Center",
+            "Pamlico Sound Civic Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_facility_lead_A",
+          "role_id": "shelter_facility_lead",
+          "candidate_id": "A",
+          "key": "SFD-STRUCT-AIA",
+          "hidden_predicate_id": "A_flood_freeboard_clearance",
+          "threshold_label": "Base flood freeboard clearance",
+          "threshold_aliases": [
+            "Freeboard elevation",
+            "Flood stage margin",
+            "Finished floor freeboard height"
+          ],
+          "threshold_value": 3.6,
+          "threshold_unit": "m",
+          "partial_record_text": "SFD-STRUCT-AIA: Cape Fear Regional Sportsplex.Cape Fear Regional Sportsplex: Authorized shelter occupancy limit = 800 person.Source: Life safety code certificate; Scope: Designated overnight emergency congregant dormitory halls; Measurement: Maximum allowable overnight evacuee occupants compliant with cot spacing rules.",
+          "role_name": "Shelter Facility Director (SFD)",
+          "candidate_name": "Cape Fear Regional Sportsplex",
+          "other_candidate_names": [
+            "Neuse River Exhibition Center",
+            "Pamlico Sound Civic Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_works_lead_A",
+          "role_id": "civil_works_lead",
+          "candidate_id": "A",
+          "key": "UTIL-POW-NWX",
+          "hidden_predicate_id": "A_backup_generator_runtime",
+          "threshold_label": "Continuous backup generator runtime",
+          "threshold_aliases": [
+            "Auxiliary generator runtime",
+            "Emergency generator autonomy duration",
+            "Continuous backup power endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-POW-NWX: Cape Fear Regional Sportsplex.Operational environment: Production environment.Cape Fear Regional Sportsplex: Certified bulk potable water reserve = 30000 L.Source: Potable water reservoir inspection record; Scope: Dedicated on-site sealed emergency water cisterns; Measurement: Tested and certified volume of potable water isolated from municipal pressure drops.",
+          "role_name": "Civil Works and Utilities Superintendent (UTIL)",
+          "candidate_name": "Cape Fear Regional Sportsplex",
+          "other_candidate_names": [
+            "Neuse River Exhibition Center",
+            "Pamlico Sound Civic Pavilion"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Testing environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

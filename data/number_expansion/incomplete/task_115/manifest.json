@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_115",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "phytosanitary_inspector",
+        "port_operations"
+      ],
+      "role_names": [
+        "Phytosanitary inspection authority (PHYTO)",
+        "Port maritime operations manager (PORT)"
+      ],
+      "directory": "incomplete/task_115",
+      "profiles": [
+        {
+          "record_id": "rec_phytosanitary_inspector_A",
+          "role_id": "phytosanitary_inspector",
+          "candidate_id": "A",
+          "key": "PHYTO-BIO-O40",
+          "boolean_predicate_id": "A_fumigation_certified",
+          "boolean_label": "Phytosanitary fumigation certified",
+          "hidden_predicate_id": "A_clearance_delay_hours",
+          "threshold_label": "Average phytosanitary clearance delay",
+          "threshold_aliases": [
+            "Phytosanitary inspection delay",
+            "Quarantine clearance turnaround"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "PHYTO-BIO-O40: Galati Riverfront Silo Terminal.Galati Riverfront Silo Terminal: Phytosanitary fumigation certified = true .Source: Agricultural phytosanitary accreditation register; Scope: Terminal in-line phosphine grain fumigation installation; Measurement: Presence of active regulatory certification for export pest treatment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average phytosanitary clearance delay is at most 40 h.",
+          "role_name": "Phytosanitary inspection authority (PHYTO)",
+          "candidate_name": "Galati Riverfront Silo Terminal",
+          "other_candidate_names": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_operations_A",
+          "role_id": "port_operations",
+          "candidate_id": "A",
+          "key": "PORT-BERTH-PQY",
+          "hidden_predicate_id": "A_berthing_depth",
+          "threshold_label": "Quayside berthing depth",
+          "threshold_aliases": [
+            "Berth water depth",
+            "Quayside draft depth"
+          ],
+          "threshold_value": 15.0,
+          "threshold_unit": "m",
+          "partial_record_text": "PORT-BERTH-PQY: Galati Riverfront Silo Terminal.Galati Riverfront Silo Terminal: Peak grain loading rate = 1500 t/h.Source: Terminal mechanical loading commissioning report; Scope: Primary quayside dual-belt shiploader operating at full conveyor speed; Measurement: Maximum sustained grain discharge rate into vessel cargo holds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Quayside berthing depth is at most 30 m.",
+          "role_name": "Port maritime operations manager (PORT)",
+          "candidate_name": "Galati Riverfront Silo Terminal",
+          "other_candidate_names": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "phytosanitary_inspector",
+        "port_operations",
+        "terminal_dispatch"
+      ],
+      "role_names": [
+        "Phytosanitary inspection authority (PHYTO)",
+        "Port maritime operations manager (PORT)",
+        "Terminal loading superintendent (DISP)"
+      ],
+      "directory": "incomplete/task_115",
+      "profiles": [
+        {
+          "record_id": "rec_phytosanitary_inspector_A",
+          "role_id": "phytosanitary_inspector",
+          "candidate_id": "A",
+          "key": "PHYTO-BIO-O40",
+          "boolean_predicate_id": "A_fumigation_certified",
+          "boolean_label": "Phytosanitary fumigation certified",
+          "hidden_predicate_id": "A_clearance_delay_hours",
+          "threshold_label": "Average phytosanitary clearance delay",
+          "threshold_aliases": [
+            "Phytosanitary inspection delay",
+            "Quarantine clearance turnaround"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "h",
+          "partial_record_text": "PHYTO-BIO-O40: Galati Riverfront Silo Terminal.Galati Riverfront Silo Terminal: Phytosanitary fumigation certified = true .Source: Agricultural phytosanitary accreditation register; Scope: Terminal in-line phosphine grain fumigation installation; Measurement: Presence of active regulatory certification for export pest treatment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average phytosanitary clearance delay is at most 40 h.",
+          "role_name": "Phytosanitary inspection authority (PHYTO)",
+          "candidate_name": "Galati Riverfront Silo Terminal",
+          "other_candidate_names": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_operations_A",
+          "role_id": "port_operations",
+          "candidate_id": "A",
+          "key": "PORT-BERTH-PQY",
+          "hidden_predicate_id": "A_berthing_depth",
+          "threshold_label": "Quayside berthing depth",
+          "threshold_aliases": [
+            "Berth water depth",
+            "Quayside draft depth"
+          ],
+          "threshold_value": 15.0,
+          "threshold_unit": "m",
+          "partial_record_text": "PORT-BERTH-PQY: Galati Riverfront Silo Terminal.Galati Riverfront Silo Terminal: Peak grain loading rate = 1500 t/h.Source: Terminal mechanical loading commissioning report; Scope: Primary quayside dual-belt shiploader operating at full conveyor speed; Measurement: Maximum sustained grain discharge rate into vessel cargo holds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Quayside berthing depth is at most 30 m.",
+          "role_name": "Port maritime operations manager (PORT)",
+          "candidate_name": "Galati Riverfront Silo Terminal",
+          "other_candidate_names": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_terminal_dispatch_A",
+          "role_id": "terminal_dispatch",
+          "candidate_id": "A",
+          "key": "DISP-WINDOW-Y5I",
+          "hidden_predicate_id": "A_continuous_loading_duration",
+          "threshold_label": "Allowable continuous loading duration",
+          "threshold_aliases": [
+            "Permitted loading window",
+            "Continuous berthing work duration"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "DISP-WINDOW-Y5I: Galati Riverfront Silo Terminal.Operating duration accounting basis: excluding mandatory conveyor inspection pauses.Galati Riverfront Silo Terminal: Environmental dust suppression active = true .Source: Environmental compliance audit ledger; Scope: Ship-loading telescopic spouts and quayside transfer towers; Measurement: Operational status of negative-pressure fabric filter dust collection and oil mist suppression systems.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Allowable continuous loading duration is at most 50 h.",
+          "role_name": "Terminal loading superintendent (DISP)",
+          "candidate_name": "Galati Riverfront Silo Terminal",
+          "other_candidate_names": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "context_value": "excluding mandatory conveyor inspection pauses",
+          "other_context_values": [
+            "including mandatory conveyor inspection pauses"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

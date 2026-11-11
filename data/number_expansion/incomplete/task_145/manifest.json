@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_145",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "pathology_services",
+        "municipal_liaison"
+      ],
+      "role_names": [
+        "Diagnostic pathology coordinator (PATH)",
+        "County wildlife liaison (MUN)"
+      ],
+      "directory": "incomplete/task_145",
+      "profiles": [
+        {
+          "record_id": "rec_pathology_services_A",
+          "role_id": "pathology_services",
+          "candidate_id": "A",
+          "key": "PATH-DIAG-YRW",
+          "boolean_predicate_id": "A_cold_chain_active",
+          "boolean_label": "Cold-chain biologics storage capability active",
+          "hidden_predicate_id": "A_necropsy_turnaround_time",
+          "threshold_label": "Maximum rapid necropsy turnaround time",
+          "threshold_aliases": [
+            "Necropsy turnaround",
+            "Pathology diagnostic time"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "PATH-DIAG-YRW: Klamath Basin Avian Hospital.Klamath Basin Avian Hospital: Cold-chain biologics storage capability active = true .Source: Diagnostic facility bio-storage validation log; Scope: Ultra-low temperature storage units (-80 deg C); Measurement: Formal operational validation of active ultra-cold storage for emergency antivenoms and viral vaccines.Klamath Basin Avian Hospital: Baseline intensive care capacity = 85 patients/week.Source: Facility clinical staffing and incubator inventory schedule; Scope: Primary trauma ward enclosures; Measurement: Maximum concurrent high-acuity avian and small-mammal patient load sustained per week.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum rapid necropsy turnaround time is at most 30 h.",
+          "role_name": "Diagnostic pathology coordinator (PATH)",
+          "candidate_name": "Klamath Basin Avian Hospital",
+          "other_candidate_names": [
+            "Cascades Wildlife Trauma Center",
+            "Rogue River Bioscience Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_liaison_A",
+          "role_id": "municipal_liaison",
+          "candidate_id": "A",
+          "key": "MUN-PACT-JCX",
+          "hidden_predicate_id": "A_administrative_intake_reservation",
+          "threshold_label": "Administrative municipal intake reservation",
+          "threshold_aliases": [
+            "Municipal intake reservation",
+            "Mandatory agency reserve slots"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "patients/week",
+          "partial_record_text": "MUN-PACT-JCX: Klamath Basin Avian Hospital.Klamath Basin Avian Hospital: Active municipal wildlife authority operating endorsement = true .Source: Interagency wildlife response taskforce protocol agreement; Scope: Regional emergency response framework 2026-2028; Measurement: Formal signature of endorsement by the municipal wildlife emergency director.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Administrative municipal intake reservation is at most 30 patients/week.",
+          "role_name": "County wildlife liaison (MUN)",
+          "candidate_name": "Klamath Basin Avian Hospital",
+          "other_candidate_names": [
+            "Cascades Wildlife Trauma Center",
+            "Rogue River Bioscience Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "pathology_services",
+        "municipal_liaison",
+        "quarantine_operations"
+      ],
+      "role_names": [
+        "Diagnostic pathology coordinator (PATH)",
+        "County wildlife liaison (MUN)",
+        "Quarantine biosafety officer (BIOS)"
+      ],
+      "directory": "incomplete/task_145",
+      "profiles": [
+        {
+          "record_id": "rec_pathology_services_A",
+          "role_id": "pathology_services",
+          "candidate_id": "A",
+          "key": "PATH-DIAG-YRW",
+          "boolean_predicate_id": "A_cold_chain_active",
+          "boolean_label": "Cold-chain biologics storage capability active",
+          "hidden_predicate_id": "A_necropsy_turnaround_time",
+          "threshold_label": "Maximum rapid necropsy turnaround time",
+          "threshold_aliases": [
+            "Necropsy turnaround",
+            "Pathology diagnostic time"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "PATH-DIAG-YRW: Klamath Basin Avian Hospital.Klamath Basin Avian Hospital: Cold-chain biologics storage capability active = true .Source: Diagnostic facility bio-storage validation log; Scope: Ultra-low temperature storage units (-80 deg C); Measurement: Formal operational validation of active ultra-cold storage for emergency antivenoms and viral vaccines.Klamath Basin Avian Hospital: Baseline intensive care capacity = 85 patients/week.Source: Facility clinical staffing and incubator inventory schedule; Scope: Primary trauma ward enclosures; Measurement: Maximum concurrent high-acuity avian and small-mammal patient load sustained per week.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum rapid necropsy turnaround time is at most 30 h.",
+          "role_name": "Diagnostic pathology coordinator (PATH)",
+          "candidate_name": "Klamath Basin Avian Hospital",
+          "other_candidate_names": [
+            "Cascades Wildlife Trauma Center",
+            "Rogue River Bioscience Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_municipal_liaison_A",
+          "role_id": "municipal_liaison",
+          "candidate_id": "A",
+          "key": "MUN-PACT-JCX",
+          "hidden_predicate_id": "A_administrative_intake_reservation",
+          "threshold_label": "Administrative municipal intake reservation",
+          "threshold_aliases": [
+            "Municipal intake reservation",
+            "Mandatory agency reserve slots"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "patients/week",
+          "partial_record_text": "MUN-PACT-JCX: Klamath Basin Avian Hospital.Klamath Basin Avian Hospital: Active municipal wildlife authority operating endorsement = true .Source: Interagency wildlife response taskforce protocol agreement; Scope: Regional emergency response framework 2026-2028; Measurement: Formal signature of endorsement by the municipal wildlife emergency director.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Administrative municipal intake reservation is at most 30 patients/week.",
+          "role_name": "County wildlife liaison (MUN)",
+          "candidate_name": "Klamath Basin Avian Hospital",
+          "other_candidate_names": [
+            "Cascades Wildlife Trauma Center",
+            "Rogue River Bioscience Station"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quarantine_operations_A",
+          "role_id": "quarantine_operations",
+          "candidate_id": "A",
+          "key": "BIOS-ISOL-LDA",
+          "hidden_predicate_id": "A_surge_quarantine_capacity",
+          "threshold_label": "Surge quarantine isolation capacity",
+          "threshold_aliases": [
+            "Surge isolation capacity",
+            "Auxiliary quarantine intake"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "patients/week",
+          "partial_record_text": "BIOS-ISOL-LDA: Klamath Basin Avian Hospital. The record covers Surge quarantine isolation capacity. Record context: single-week peak. Negative-pressure quarantine ward certification document; Infectious outbreak auxiliary pods; Designated overflow quarantine isolation beds available per week during declared outbreaks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Surge quarantine isolation capacity is at most 60 patients/week.",
+          "role_name": "Quarantine biosafety officer (BIOS)",
+          "candidate_name": "Klamath Basin Avian Hospital",
+          "other_candidate_names": [
+            "Cascades Wildlife Trauma Center",
+            "Rogue River Bioscience Station"
+          ],
+          "context_value": "single-week peak",
+          "other_context_values": [
+            "trailing 4-week average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

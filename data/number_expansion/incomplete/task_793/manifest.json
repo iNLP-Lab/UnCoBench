@@ -1,0 +1,207 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_793",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cleanroom_facility",
+        "filling_operations"
+      ],
+      "role_names": [
+        "Cleanroom facility director (CFD)",
+        "Aseptic filling line supervisor (FLS)"
+      ],
+      "directory": "incomplete/task_793",
+      "profiles": [
+        {
+          "record_id": "rec_cleanroom_facility_A",
+          "role_id": "cleanroom_facility",
+          "candidate_id": "A",
+          "key": "CFD-ENV-CPR",
+          "boolean_predicate_id": "A_continuous_particle_monitoring_enabled",
+          "boolean_label": "Continuous airborne particle monitoring enabled",
+          "hidden_predicate_id": "A_cleanroom_aerodynamic_recovery_time",
+          "threshold_label": "Cleanroom aerodynamic recovery time",
+          "threshold_aliases": [
+            "Cleanroom recovery duration",
+            "Aerodynamic recovery period"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "CFD-ENV-CPR: Helix BioWorks Cantonal Facility.Helix BioWorks Cantonal Facility: Continuous airborne particle monitoring enabled = true .Source: SCADA environmental monitoring configuration; Scope: Grade A aseptic filling isolator zone; Measurement: Active operating status of continuous isokinetic airborne particle counters.Helix BioWorks Cantonal Facility: Scheduled campaign operating duration = 50 h.Source: Manufacturing slot reservation schedule; Scope: Dedicated orphan biologic production campaign window; Measurement: Total planned active filling line operating hours excluding line clearance and changeovers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Cleanroom aerodynamic recovery time is at most 30 min.",
+          "role_name": "Cleanroom facility director (CFD)",
+          "candidate_name": "Helix BioWorks Cantonal Facility",
+          "other_candidate_names": [
+            "AuraMed Sterile Tech Hub",
+            "Vanguard BioPharma Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_filling_operations_A",
+          "role_id": "filling_operations",
+          "candidate_id": "A",
+          "key": "FLS-FILL-GBE",
+          "hidden_predicate_id": "A_validated_filling_speed",
+          "threshold_label": "Validated aseptic filling line speed",
+          "threshold_aliases": [
+            "Filling line operating throughput",
+            "Validated filling speed"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "vial/h",
+          "partial_record_text": "FLS-FILL-GBE: Helix BioWorks Cantonal Facility.Aggregation window: trailing 3-batch validation window.Helix BioWorks Cantonal Facility: Restricted access barrier isolator containment certified = true .Source: Isolator pressure decay leak test certificate; Scope: Closed Grade A restricted access barrier filling line; Measurement: Passed automated pressure decay physical containment test within valid recalibration interval.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Validated aseptic filling line speed is at most 3000 vial/h.",
+          "role_name": "Aseptic filling line supervisor (FLS)",
+          "candidate_name": "Helix BioWorks Cantonal Facility",
+          "other_candidate_names": [
+            "AuraMed Sterile Tech Hub",
+            "Vanguard BioPharma Center"
+          ],
+          "context_value": "trailing 3-batch validation window",
+          "other_context_values": [
+            "trailing 12-month operational window"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cleanroom_facility",
+        "filling_operations",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Cleanroom facility director (CFD)",
+        "Aseptic filling line supervisor (FLS)",
+        "Quality assurance manager (QA)"
+      ],
+      "directory": "number_expansion/incomplete/task_793/k3",
+      "profiles": [
+        {
+          "record_id": "rec_cleanroom_facility_A",
+          "role_id": "cleanroom_facility",
+          "candidate_id": "A",
+          "key": "CFD-ENV-CPR",
+          "boolean_predicate_id": "A_continuous_particle_monitoring_enabled",
+          "boolean_label": "Continuous airborne particle monitoring enabled",
+          "hidden_predicate_id": "A_cleanroom_aerodynamic_recovery_time",
+          "threshold_label": "Cleanroom aerodynamic recovery time",
+          "threshold_aliases": [
+            "Cleanroom recovery duration",
+            "Aerodynamic recovery period"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "min",
+          "partial_record_text": "CFD-ENV-CPR: Helix BioWorks Cantonal Facility.Helix BioWorks Cantonal Facility: Continuous airborne particle monitoring enabled = true .Source: SCADA environmental monitoring configuration; Scope: Grade A aseptic filling isolator zone; Measurement: Active operating status of continuous isokinetic airborne particle counters.Helix BioWorks Cantonal Facility: Scheduled campaign operating duration = 50 h.Source: Manufacturing slot reservation schedule; Scope: Dedicated orphan biologic production campaign window; Measurement: Total planned active filling line operating hours excluding line clearance and changeovers.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Cleanroom aerodynamic recovery time is at most 30 min.",
+          "role_name": "Cleanroom facility director (CFD)",
+          "candidate_name": "Helix BioWorks Cantonal Facility",
+          "other_candidate_names": [
+            "AuraMed Sterile Tech Hub",
+            "Vanguard BioPharma Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_filling_operations_A",
+          "role_id": "filling_operations",
+          "candidate_id": "A",
+          "key": "FLS-FILL-GBE",
+          "hidden_predicate_id": "A_validated_filling_speed",
+          "threshold_label": "Validated aseptic filling line speed",
+          "threshold_aliases": [
+            "Filling line operating throughput",
+            "Validated filling speed"
+          ],
+          "threshold_value": 1500,
+          "threshold_unit": "vial/h",
+          "partial_record_text": "FLS-FILL-GBE: Helix BioWorks Cantonal Facility.Aggregation window: trailing 3-batch validation window.Helix BioWorks Cantonal Facility: Restricted access barrier isolator containment certified = true .Source: Isolator pressure decay leak test certificate; Scope: Closed Grade A restricted access barrier filling line; Measurement: Passed automated pressure decay physical containment test within valid recalibration interval.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Validated aseptic filling line speed is at most 3000 vial/h.",
+          "role_name": "Aseptic filling line supervisor (FLS)",
+          "candidate_name": "Helix BioWorks Cantonal Facility",
+          "other_candidate_names": [
+            "AuraMed Sterile Tech Hub",
+            "Vanguard BioPharma Center"
+          ],
+          "context_value": "trailing 3-batch validation window",
+          "other_context_values": [
+            "trailing 12-month operational window"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A_supplemental",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-DEV-1ZO",
+          "hidden_predicate_id": "A_supplemental_quality_assurance",
+          "threshold_label": "Historical minor deviation rate",
+          "threshold_aliases": [],
+          "threshold_value": 2,
+          "threshold_unit": "deviations/batch",
+          "partial_record_text": "QA-DEV-1ZO: Helix BioWorks Cantonal Facility. The record covers Historical minor deviation rate. Annual product quality review; Commercial sterile batches released over the past 12 months; Average minor non-conformances documented per completed manufacturing batch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Historical minor deviation rate is at most 9 deviations/batch.",
+          "role_name": "Quality assurance manager (QA)",
+          "candidate_name": "Helix BioWorks Cantonal Facility",
+          "other_candidate_names": [
+            "AuraMed Sterile Tech Hub",
+            "Vanguard BioPharma Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_quality_assurance",
+        "topic_id": "supplemental_quality_assurance",
+        "operator": "gte",
+        "threshold": 2,
+        "role_id": "quality_assurance",
+        "metric": "Historical minor deviation rate",
+        "unit": "deviations/batch",
+        "required_text": "To qualify, a candidate must also have Historical minor deviation rate of at least 2 deviations/batch.",
+        "new_fault_record_key": "QA-DEV-1ZO",
+        "exact_value": 2,
+        "first_reply": "Historical minor deviation rate is at most 9 deviations/batch."
+      }
+    }
+  }
+}

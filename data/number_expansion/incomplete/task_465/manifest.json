@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_465",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "environmental_health"
+      ],
+      "role_names": [
+        "Public health officer (PHO)",
+        "Environmental protection officer (EPO)"
+      ],
+      "directory": "incomplete/task_465",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHO-EPID-17K",
+          "boolean_predicate_id": "A_has_isolation_ward",
+          "boolean_label": "Negative-pressure isolation ward active",
+          "hidden_predicate_id": "A_isolation_air_exchange_rate",
+          "threshold_label": "Isolation air exchange rate",
+          "threshold_aliases": [
+            "Quarantine ventilation exchange rate"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "ACH",
+          "partial_record_text": "PHO-EPID-17K: Ponderosa Community Pavilion.Ponderosa Community Pavilion: Negative-pressure isolation ward active = true .Source: Public health infrastructure checklist; Scope: Dedicated infectious quarantine wing; Measurement: Physical presence of an operational negative-pressure isolation containment unit.",
+          "role_name": "Public health officer (PHO)",
+          "candidate_name": "Ponderosa Community Pavilion",
+          "other_candidate_names": [
+            "Valley View Exhibition Center",
+            "Crestline Regional Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "EPO-ENV-UG8",
+          "hidden_predicate_id": "A_fire_separation_clearance",
+          "threshold_label": "Exterior fire separation clearance",
+          "threshold_aliases": [
+            "Perimeter defensible clearance"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "m",
+          "partial_record_text": "EPO-ENV-UG8: Ponderosa Community Pavilion. The record covers Exterior fire separation clearance. Wildfire fuel reduction survey; Shelter building perimeter to adjacent unmitigated brush or timber; Shortest cleared horizontal distance free of combustible vegetation and dry timber.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 15,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Exterior fire separation clearance is at least 15 m.",
+          "role_name": "Environmental protection officer (EPO)",
+          "candidate_name": "Ponderosa Community Pavilion",
+          "other_candidate_names": [
+            "Valley View Exhibition Center",
+            "Crestline Regional Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "environmental_health",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Public health officer (PHO)",
+        "Environmental protection officer (EPO)",
+        "Facility operations director (FOD)"
+      ],
+      "directory": "incomplete/task_465",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHO-EPID-17K",
+          "boolean_predicate_id": "A_has_isolation_ward",
+          "boolean_label": "Negative-pressure isolation ward active",
+          "hidden_predicate_id": "A_isolation_air_exchange_rate",
+          "threshold_label": "Isolation air exchange rate",
+          "threshold_aliases": [
+            "Quarantine ventilation exchange rate"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "ACH",
+          "partial_record_text": "PHO-EPID-17K: Ponderosa Community Pavilion.Ponderosa Community Pavilion: Negative-pressure isolation ward active = true .Source: Public health infrastructure checklist; Scope: Dedicated infectious quarantine wing; Measurement: Physical presence of an operational negative-pressure isolation containment unit.",
+          "role_name": "Public health officer (PHO)",
+          "candidate_name": "Ponderosa Community Pavilion",
+          "other_candidate_names": [
+            "Valley View Exhibition Center",
+            "Crestline Regional Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "EPO-ENV-UG8",
+          "hidden_predicate_id": "A_fire_separation_clearance",
+          "threshold_label": "Exterior fire separation clearance",
+          "threshold_aliases": [
+            "Perimeter defensible clearance"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "m",
+          "partial_record_text": "EPO-ENV-UG8: Ponderosa Community Pavilion. The record covers Exterior fire separation clearance. Wildfire fuel reduction survey; Shelter building perimeter to adjacent unmitigated brush or timber; Shortest cleared horizontal distance free of combustible vegetation and dry timber.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 15,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Exterior fire separation clearance is at least 15 m.",
+          "role_name": "Environmental protection officer (EPO)",
+          "candidate_name": "Ponderosa Community Pavilion",
+          "other_candidate_names": [
+            "Valley View Exhibition Center",
+            "Crestline Regional Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FOD-PLANT-J02",
+          "hidden_predicate_id": "A_evacuee_bed_capacity",
+          "threshold_label": "Certified evacuee bed capacity",
+          "threshold_aliases": [
+            "Bed capacity"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "beds",
+          "partial_record_text": "FOD-PLANT-J02: Ponderosa Community Pavilion.Ponderosa Community Pavilion: Standby generator operational = true .Source: Emergency electrical commissioning log; Scope: Critical circuits and primary life-support systems; Measurement: Confirmation of certified automatic transfer switch and load bank performance test.",
+          "role_name": "Facility operations director (FOD)",
+          "candidate_name": "Ponderosa Community Pavilion",
+          "other_candidate_names": [
+            "Valley View Exhibition Center",
+            "Crestline Regional Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

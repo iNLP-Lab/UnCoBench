@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_778",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_logistics",
+        "navigation_control"
+      ],
+      "role_names": [
+        "Emergency medical logistics director (EMLD)",
+        "Marine navigation and coastal dispatch lead (MNCD)"
+      ],
+      "directory": "incomplete/task_778",
+      "profiles": [
+        {
+          "record_id": "rec_medical_logistics_A",
+          "role_id": "medical_logistics",
+          "candidate_id": "A",
+          "key": "EMLD-TRIAG-Z1O",
+          "boolean_predicate_id": "A_emergency_triage_bay_present",
+          "boolean_label": "Emergency triage bay availability",
+          "hidden_predicate_id": "A_paramedic_staffing_count",
+          "threshold_label": "Certified paramedic staffing",
+          "threshold_aliases": [
+            "Emergency medical paramedic complement",
+            "Registered paramedic count"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "specialist",
+          "partial_record_text": "EMLD-TRIAG-Z1O: High-speed wave-piercing catamaran fleet.High-speed wave-piercing catamaran fleet: Emergency triage bay availability = true .Source: Emergency medical readiness inspection record; Scope: Lead rescue vessel in candidate fleet; Measurement: Verification that an operational enclosed trauma triage facility is fully equipped on board.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Certified paramedic staffing is at most 30 specialist.",
+          "role_name": "Emergency medical logistics director (EMLD)",
+          "candidate_name": "High-speed wave-piercing catamaran fleet",
+          "other_candidate_names": [
+            "Deep-draft Ro-Pax ferry contingency charter",
+            "Hydrofoil-assisted rapid response consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_navigation_control_A",
+          "role_id": "navigation_control",
+          "candidate_id": "A",
+          "key": "MNCD-TRANS-64C",
+          "hidden_predicate_id": "A_maximum_transit_time",
+          "threshold_label": "Maximum open-water transit time",
+          "threshold_aliases": [
+            "One-way transit duration",
+            "Corridor sea crossing time"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "MNCD-TRANS-64C: High-speed wave-piercing catamaran fleet. The record covers Maximum open-water transit time. Navigational passage routing appraisal; Mainland port to outermost threatened island staging jetty; Projected elapsed voyage transit duration under Beaufort scale 7 conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Maximum open-water transit time is at most 400 min.",
+          "role_name": "Marine navigation and coastal dispatch lead (MNCD)",
+          "candidate_name": "High-speed wave-piercing catamaran fleet",
+          "other_candidate_names": [
+            "Deep-draft Ro-Pax ferry contingency charter",
+            "Hydrofoil-assisted rapid response consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_logistics",
+        "navigation_control",
+        "harbor_operations"
+      ],
+      "role_names": [
+        "Emergency medical logistics director (EMLD)",
+        "Marine navigation and coastal dispatch lead (MNCD)",
+        "Harbor operations and fuel bunkering lead (HOFB)"
+      ],
+      "directory": "incomplete/task_778",
+      "profiles": [
+        {
+          "record_id": "rec_medical_logistics_A",
+          "role_id": "medical_logistics",
+          "candidate_id": "A",
+          "key": "EMLD-TRIAG-Z1O",
+          "boolean_predicate_id": "A_emergency_triage_bay_present",
+          "boolean_label": "Emergency triage bay availability",
+          "hidden_predicate_id": "A_paramedic_staffing_count",
+          "threshold_label": "Certified paramedic staffing",
+          "threshold_aliases": [
+            "Emergency medical paramedic complement",
+            "Registered paramedic count"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "specialist",
+          "partial_record_text": "EMLD-TRIAG-Z1O: High-speed wave-piercing catamaran fleet.High-speed wave-piercing catamaran fleet: Emergency triage bay availability = true .Source: Emergency medical readiness inspection record; Scope: Lead rescue vessel in candidate fleet; Measurement: Verification that an operational enclosed trauma triage facility is fully equipped on board.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Certified paramedic staffing is at most 30 specialist.",
+          "role_name": "Emergency medical logistics director (EMLD)",
+          "candidate_name": "High-speed wave-piercing catamaran fleet",
+          "other_candidate_names": [
+            "Deep-draft Ro-Pax ferry contingency charter",
+            "Hydrofoil-assisted rapid response consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_navigation_control_A",
+          "role_id": "navigation_control",
+          "candidate_id": "A",
+          "key": "MNCD-TRANS-64C",
+          "hidden_predicate_id": "A_maximum_transit_time",
+          "threshold_label": "Maximum open-water transit time",
+          "threshold_aliases": [
+            "One-way transit duration",
+            "Corridor sea crossing time"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "min",
+          "partial_record_text": "MNCD-TRANS-64C: High-speed wave-piercing catamaran fleet. The record covers Maximum open-water transit time. Navigational passage routing appraisal; Mainland port to outermost threatened island staging jetty; Projected elapsed voyage transit duration under Beaufort scale 7 conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Maximum open-water transit time is at most 400 min.",
+          "role_name": "Marine navigation and coastal dispatch lead (MNCD)",
+          "candidate_name": "High-speed wave-piercing catamaran fleet",
+          "other_candidate_names": [
+            "Deep-draft Ro-Pax ferry contingency charter",
+            "Hydrofoil-assisted rapid response consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_operations_A",
+          "role_id": "harbor_operations",
+          "candidate_id": "A",
+          "key": "HOFB-BUNK-84F",
+          "hidden_predicate_id": "A_fuel_autonomy_hours",
+          "threshold_label": "Fuel bunkering autonomy",
+          "threshold_aliases": [
+            "Continuous cruise fuel endurance",
+            "Bunkering endurance hours"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "HOFB-BUNK-84F: High-speed wave-piercing catamaran fleet.High-speed wave-piercing catamaran fleet: Operable vessel count = 3 vessel.Source: Harbor berth readiness register; Scope: Candidate fleet vessels cleared for immediate unmooring; Measurement: Total number of fully crewed operable vessels immediately available for deployment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Fuel bunkering autonomy is at most 90 h.",
+          "role_name": "Harbor operations and fuel bunkering lead (HOFB)",
+          "candidate_name": "High-speed wave-piercing catamaran fleet",
+          "other_candidate_names": [
+            "Deep-draft Ro-Pax ferry contingency charter",
+            "Hydrofoil-assisted rapid response consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

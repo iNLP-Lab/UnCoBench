@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_521",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Environmental health inspector (HLT)",
+        "Structural safety engineer (STR)"
+      ],
+      "directory": "number_expansion/misaligned/task_521/k2",
+      "error_profiles": [
+        {
+          "role_name": "Environmental health inspector (HLT)",
+          "target_key": "HLT-SANI-NJ6",
+          "alternate_key": "HLT-WASTE-APQ",
+          "target_context": "Production deployment environment",
+          "alternate_context": "Drill exercise environment",
+          "candidate": "Point Reyes Coastal Community Pavilion",
+          "other_candidates": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "numeric": [
+            {
+              "topic": "accessible_sanitation_ratio",
+              "value": 5.5,
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ],
+              "unit": "stalls/100 persons"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_certified",
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ]
+            },
+            {
+              "topic": "emergency_generator_installed",
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy",
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ]
+            },
+            {
+              "topic": "potable_water_cleared",
+              "label": "Potable water distribution clearance",
+              "aliases": [
+                "Drinking water safety clearance",
+                "Potable supply authorization"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ratio",
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ]
+            },
+            {
+              "topic": "emergency_access_lane_cleared",
+              "label": "Emergency access lane clearance",
+              "aliases": [
+                "Fire apparatus access clearance",
+                "Emergency route ingress verification"
+              ]
+            },
+            {
+              "topic": "on_site_kitchen_capacity",
+              "label": "On-site kitchen preparation capacity",
+              "aliases": [
+                "Permanent kitchen meal capacity",
+                "On-site commercial catering rate"
+              ]
+            },
+            {
+              "topic": "contracted_mobile_capacity",
+              "label": "Mobile relief kitchen delivery capacity",
+              "aliases": [
+                "Mobile catering dispatch capacity",
+                "Auxiliary food truck relief throughput"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural safety engineer (STR)",
+          "target_key": "STR-SEIS-GAK",
+          "alternate_key": "STR-SEIS-8OU",
+          "target_context": "Production deployment environment",
+          "alternate_context": "Pre-commissioning test environment",
+          "candidate": "Point Reyes Coastal Community Pavilion",
+          "other_candidates": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_certified",
+              "value": true,
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_certified",
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ]
+            },
+            {
+              "topic": "emergency_generator_installed",
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy",
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ]
+            },
+            {
+              "topic": "potable_water_cleared",
+              "label": "Potable water distribution clearance",
+              "aliases": [
+                "Drinking water safety clearance",
+                "Potable supply authorization"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ratio",
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ]
+            },
+            {
+              "topic": "emergency_access_lane_cleared",
+              "label": "Emergency access lane clearance",
+              "aliases": [
+                "Fire apparatus access clearance",
+                "Emergency route ingress verification"
+              ]
+            },
+            {
+              "topic": "on_site_kitchen_capacity",
+              "label": "On-site kitchen preparation capacity",
+              "aliases": [
+                "Permanent kitchen meal capacity",
+                "On-site commercial catering rate"
+              ]
+            },
+            {
+              "topic": "contracted_mobile_capacity",
+              "label": "Mobile relief kitchen delivery capacity",
+              "aliases": [
+                "Mobile catering dispatch capacity",
+                "Auxiliary food truck relief throughput"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "structural_safety",
+        "emergency_power"
+      ],
+      "role_names": [
+        "Environmental health inspector (HLT)",
+        "Structural safety engineer (STR)",
+        "Emergency power officer (PWR)"
+      ],
+      "directory": "number_expansion/misaligned/task_521/k3",
+      "error_profiles": [
+        {
+          "role_name": "Environmental health inspector (HLT)",
+          "target_key": "HLT-SANI-NJ6",
+          "alternate_key": "HLT-WASTE-APQ",
+          "target_context": "Production deployment environment",
+          "alternate_context": "Drill exercise environment",
+          "candidate": "Point Reyes Coastal Community Pavilion",
+          "other_candidates": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "numeric": [
+            {
+              "topic": "accessible_sanitation_ratio",
+              "value": 5.5,
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ],
+              "unit": "stalls/100 persons"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_certified",
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ]
+            },
+            {
+              "topic": "emergency_generator_installed",
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy",
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ]
+            },
+            {
+              "topic": "potable_water_cleared",
+              "label": "Potable water distribution clearance",
+              "aliases": [
+                "Drinking water safety clearance",
+                "Potable supply authorization"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ratio",
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ]
+            },
+            {
+              "topic": "emergency_access_lane_cleared",
+              "label": "Emergency access lane clearance",
+              "aliases": [
+                "Fire apparatus access clearance",
+                "Emergency route ingress verification"
+              ]
+            },
+            {
+              "topic": "on_site_kitchen_capacity",
+              "label": "On-site kitchen preparation capacity",
+              "aliases": [
+                "Permanent kitchen meal capacity",
+                "On-site commercial catering rate"
+              ]
+            },
+            {
+              "topic": "contracted_mobile_capacity",
+              "label": "Mobile relief kitchen delivery capacity",
+              "aliases": [
+                "Mobile catering dispatch capacity",
+                "Auxiliary food truck relief throughput"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural safety engineer (STR)",
+          "target_key": "STR-SEIS-GAK",
+          "alternate_key": "STR-SEIS-8OU",
+          "target_context": "Production deployment environment",
+          "alternate_context": "Pre-commissioning test environment",
+          "candidate": "Point Reyes Coastal Community Pavilion",
+          "other_candidates": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "seismic_certified",
+              "value": true,
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_certified",
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ]
+            },
+            {
+              "topic": "emergency_generator_installed",
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy",
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ]
+            },
+            {
+              "topic": "potable_water_cleared",
+              "label": "Potable water distribution clearance",
+              "aliases": [
+                "Drinking water safety clearance",
+                "Potable supply authorization"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ratio",
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ]
+            },
+            {
+              "topic": "emergency_access_lane_cleared",
+              "label": "Emergency access lane clearance",
+              "aliases": [
+                "Fire apparatus access clearance",
+                "Emergency route ingress verification"
+              ]
+            },
+            {
+              "topic": "on_site_kitchen_capacity",
+              "label": "On-site kitchen preparation capacity",
+              "aliases": [
+                "Permanent kitchen meal capacity",
+                "On-site commercial catering rate"
+              ]
+            },
+            {
+              "topic": "contracted_mobile_capacity",
+              "label": "Mobile relief kitchen delivery capacity",
+              "aliases": [
+                "Mobile catering dispatch capacity",
+                "Auxiliary food truck relief throughput"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency power officer (PWR)",
+          "target_key": "PWR-GEN-I1H",
+          "alternate_key": "PWR-GEN-CZS",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Point Reyes Coastal Community Pavilion",
+          "other_candidates": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "numeric": [
+            {
+              "topic": "generator_fuel_autonomy",
+              "value": 120,
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "emergency_generator_installed",
+              "value": true,
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_certified",
+              "label": "Seismic structural compliance certification",
+              "aliases": [
+                "Seismic retrofit compliance",
+                "Earthquake safety certification"
+              ]
+            },
+            {
+              "topic": "emergency_generator_installed",
+              "label": "Emergency power generator installation",
+              "aliases": [
+                "Standby power installation",
+                "Auxiliary backup generator presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy",
+              "label": "Generator fuel autonomy duration",
+              "aliases": [
+                "Reserve fuel run-time",
+                "Standby fuel endurance"
+              ]
+            },
+            {
+              "topic": "potable_water_cleared",
+              "label": "Potable water distribution clearance",
+              "aliases": [
+                "Drinking water safety clearance",
+                "Potable supply authorization"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ratio",
+              "label": "Accessible sanitary fixture allowance",
+              "aliases": [
+                "Sanitary fixture density",
+                "Accessible restroom fixture ratio"
+              ]
+            },
+            {
+              "topic": "emergency_access_lane_cleared",
+              "label": "Emergency access lane clearance",
+              "aliases": [
+                "Fire apparatus access clearance",
+                "Emergency route ingress verification"
+              ]
+            },
+            {
+              "topic": "on_site_kitchen_capacity",
+              "label": "On-site kitchen preparation capacity",
+              "aliases": [
+                "Permanent kitchen meal capacity",
+                "On-site commercial catering rate"
+              ]
+            },
+            {
+              "topic": "contracted_mobile_capacity",
+              "label": "Mobile relief kitchen delivery capacity",
+              "aliases": [
+                "Mobile catering dispatch capacity",
+                "Auxiliary food truck relief throughput"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_187",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_freight",
+        "transit_access"
+      ],
+      "role_names": [
+        "Freight operations manager (LOGOPS)",
+        "Municipal transit coordinator (TRANS)"
+      ],
+      "directory": "incomplete/task_187",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_freight_A",
+          "role_id": "logistics_freight",
+          "candidate_id": "A",
+          "key": "LOGOPS-MARSH-TKR",
+          "boolean_predicate_id": "A_marshaling_yard_available",
+          "boolean_label": "Dedicated freight marshaling yard available",
+          "hidden_predicate_id": "A_marshaling_yard_area",
+          "threshold_label": "Freight marshaling yard area",
+          "threshold_aliases": [
+            "Marshaling yard footprint",
+            "Vehicle staging surface area"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "m2",
+          "partial_record_text": "LOGOPS-MARSH-TKR: Kallang Riverside Expo Park.Kallang Riverside Expo Park: Dedicated freight marshaling yard available = true .Source: Site logistics masterplan; Scope: On-site commercial vehicle holding facility; Measurement: Presence of a designated, security-gated freight marshaling yard on venue grounds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "coarse_statement": "Freight marshaling yard area is at most 30000 m2.",
+          "role_name": "Freight operations manager (LOGOPS)",
+          "candidate_name": "Kallang Riverside Expo Park",
+          "other_candidate_names": [
+            "Jurong West Trade Hub",
+            "Changi Maritime Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_access_A",
+          "role_id": "transit_access",
+          "candidate_id": "A",
+          "key": "TRANS-CONX-CP7",
+          "hidden_predicate_id": "A_transit_connectivity_score",
+          "threshold_label": "Municipal transit passenger connectivity rating",
+          "threshold_aliases": [
+            "Transit connectivity index",
+            "Public transport integration score"
+          ],
+          "threshold_value": 94,
+          "threshold_unit": "points",
+          "partial_record_text": "TRANS-CONX-CP7: Kallang Riverside Expo Park. The record covers Municipal transit passenger connectivity rating. Urban transit authority intermodal assessment; Pedestrian catchment within 400 m of main registration concourse; Composite accessibility metric evaluating heavy rail headways, bus line density, and station proximity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Municipal transit passenger connectivity rating is at most 110 points.",
+          "role_name": "Municipal transit coordinator (TRANS)",
+          "candidate_name": "Kallang Riverside Expo Park",
+          "other_candidate_names": [
+            "Jurong West Trade Hub",
+            "Changi Maritime Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_freight",
+        "transit_access",
+        "interior_survey"
+      ],
+      "role_names": [
+        "Freight operations manager (LOGOPS)",
+        "Municipal transit coordinator (TRANS)",
+        "Exhibition floor layout surveyor (SURV)"
+      ],
+      "directory": "incomplete/task_187",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_freight_A",
+          "role_id": "logistics_freight",
+          "candidate_id": "A",
+          "key": "LOGOPS-MARSH-TKR",
+          "boolean_predicate_id": "A_marshaling_yard_available",
+          "boolean_label": "Dedicated freight marshaling yard available",
+          "hidden_predicate_id": "A_marshaling_yard_area",
+          "threshold_label": "Freight marshaling yard area",
+          "threshold_aliases": [
+            "Marshaling yard footprint",
+            "Vehicle staging surface area"
+          ],
+          "threshold_value": 12000,
+          "threshold_unit": "m2",
+          "partial_record_text": "LOGOPS-MARSH-TKR: Kallang Riverside Expo Park.Kallang Riverside Expo Park: Dedicated freight marshaling yard available = true .Source: Site logistics masterplan; Scope: On-site commercial vehicle holding facility; Measurement: Presence of a designated, security-gated freight marshaling yard on venue grounds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "coarse_statement": "Freight marshaling yard area is at most 30000 m2.",
+          "role_name": "Freight operations manager (LOGOPS)",
+          "candidate_name": "Kallang Riverside Expo Park",
+          "other_candidate_names": [
+            "Jurong West Trade Hub",
+            "Changi Maritime Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_access_A",
+          "role_id": "transit_access",
+          "candidate_id": "A",
+          "key": "TRANS-CONX-CP7",
+          "hidden_predicate_id": "A_transit_connectivity_score",
+          "threshold_label": "Municipal transit passenger connectivity rating",
+          "threshold_aliases": [
+            "Transit connectivity index",
+            "Public transport integration score"
+          ],
+          "threshold_value": 94,
+          "threshold_unit": "points",
+          "partial_record_text": "TRANS-CONX-CP7: Kallang Riverside Expo Park. The record covers Municipal transit passenger connectivity rating. Urban transit authority intermodal assessment; Pedestrian catchment within 400 m of main registration concourse; Composite accessibility metric evaluating heavy rail headways, bus line density, and station proximity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Municipal transit passenger connectivity rating is at most 110 points.",
+          "role_name": "Municipal transit coordinator (TRANS)",
+          "candidate_name": "Kallang Riverside Expo Park",
+          "other_candidate_names": [
+            "Jurong West Trade Hub",
+            "Changi Maritime Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_interior_survey_A",
+          "role_id": "interior_survey",
+          "candidate_id": "A",
+          "key": "SURV-OBSTR-RN3",
+          "hidden_predicate_id": "A_obstruction_footprint",
+          "threshold_label": "Permanent structural obstruction footprint",
+          "threshold_aliases": [
+            "Structural pillar footprint",
+            "Internal dead space area"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "m2",
+          "partial_record_text": "SURV-OBSTR-RN3: Kallang Riverside Expo Park. The record covers Permanent structural obstruction footprint. Laser survey obstruction register; Combined main and temporary pavilion floor layout; Aggregate surface area rendered unusable by load-bearing columns, service risers, and fixed escalator banks.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Permanent structural obstruction footprint is at most 4000 m2.",
+          "role_name": "Exhibition floor layout surveyor (SURV)",
+          "candidate_name": "Kallang Riverside Expo Park",
+          "other_candidate_names": [
+            "Jurong West Trade Hub",
+            "Changi Maritime Exhibition Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

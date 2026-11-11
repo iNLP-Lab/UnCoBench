@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_223",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geotechnical_monitoring_lead",
+        "slurry_and_spoil_manager"
+      ],
+      "role_names": [
+        "Geotechnical monitoring lead (GEOMON)",
+        "Slurry and spoil disposal manager (SLURRY)"
+      ],
+      "directory": "incomplete/task_223",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_monitoring_lead_A",
+          "role_id": "geotechnical_monitoring_lead",
+          "candidate_id": "A",
+          "key": "GEOMON-SUBS-WL8",
+          "boolean_predicate_id": "A_settlement_monitoring_enabled",
+          "boolean_label": "Ground settlement monitoring protocol activation",
+          "hidden_predicate_id": "A_max_subsidence_velocity",
+          "threshold_label": "Maximum allowable surface subsidence velocity",
+          "threshold_aliases": [
+            "Surface subsidence velocity",
+            "Trough settlement rate"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "mm/week",
+          "partial_record_text": "GEOMON-SUBS-WL8: Aegis Metro Underground JV.Aegis Metro Underground JV: Ground settlement monitoring protocol activation = true .Source: Geodetic sensor telemetry commissioning sheet; Scope: Surface automated total station (ATS) and leveling prism grid; Measurement: Active real-time telemetry streaming confirmation across the alignment zone.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Maximum allowable surface subsidence velocity is at most 8 mm/week.",
+          "role_name": "Geotechnical monitoring lead (GEOMON)",
+          "candidate_name": "Aegis Metro Underground JV",
+          "other_candidate_names": [
+            "Borealis GeoInfrastructure Group",
+            "Apex Hydro-Excavation Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_slurry_and_spoil_manager_A",
+          "role_id": "slurry_and_spoil_manager",
+          "candidate_id": "A",
+          "key": "SLURRY-DISP-WSW",
+          "hidden_predicate_id": "A_licensed_slurry_quota",
+          "threshold_label": "Licensed slurry disposal volume",
+          "threshold_aliases": [
+            "Licensed slurry volume",
+            "Off-site slurry processing quota"
+          ],
+          "threshold_value": 1750,
+          "threshold_unit": "m3/week",
+          "partial_record_text": "SLURRY-DISP-WSW: Aegis Metro Underground JV. The record covers Licensed slurry disposal volume. Municipal environmental discharge permit; Authorized regional hazardous slurry recycling and separation plants; Total weekly liquid bentonite spoil intake volume permitted under valid disposal licenses.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Licensed slurry disposal volume is at most 4000 m3/week.",
+          "role_name": "Slurry and spoil disposal manager (SLURRY)",
+          "candidate_name": "Aegis Metro Underground JV",
+          "other_candidate_names": [
+            "Borealis GeoInfrastructure Group",
+            "Apex Hydro-Excavation Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geotechnical_monitoring_lead",
+        "slurry_and_spoil_manager",
+        "geotechnical_underwriting_counsel"
+      ],
+      "role_names": [
+        "Geotechnical monitoring lead (GEOMON)",
+        "Slurry and spoil disposal manager (SLURRY)",
+        "Geotechnical underwriting counsel (LEGAL)"
+      ],
+      "directory": "incomplete/task_223",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_monitoring_lead_A",
+          "role_id": "geotechnical_monitoring_lead",
+          "candidate_id": "A",
+          "key": "GEOMON-SUBS-WL8",
+          "boolean_predicate_id": "A_settlement_monitoring_enabled",
+          "boolean_label": "Ground settlement monitoring protocol activation",
+          "hidden_predicate_id": "A_max_subsidence_velocity",
+          "threshold_label": "Maximum allowable surface subsidence velocity",
+          "threshold_aliases": [
+            "Surface subsidence velocity",
+            "Trough settlement rate"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "mm/week",
+          "partial_record_text": "GEOMON-SUBS-WL8: Aegis Metro Underground JV.Aegis Metro Underground JV: Ground settlement monitoring protocol activation = true .Source: Geodetic sensor telemetry commissioning sheet; Scope: Surface automated total station (ATS) and leveling prism grid; Measurement: Active real-time telemetry streaming confirmation across the alignment zone.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Maximum allowable surface subsidence velocity is at most 8 mm/week.",
+          "role_name": "Geotechnical monitoring lead (GEOMON)",
+          "candidate_name": "Aegis Metro Underground JV",
+          "other_candidate_names": [
+            "Borealis GeoInfrastructure Group",
+            "Apex Hydro-Excavation Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_slurry_and_spoil_manager_A",
+          "role_id": "slurry_and_spoil_manager",
+          "candidate_id": "A",
+          "key": "SLURRY-DISP-WSW",
+          "hidden_predicate_id": "A_licensed_slurry_quota",
+          "threshold_label": "Licensed slurry disposal volume",
+          "threshold_aliases": [
+            "Licensed slurry volume",
+            "Off-site slurry processing quota"
+          ],
+          "threshold_value": 1750,
+          "threshold_unit": "m3/week",
+          "partial_record_text": "SLURRY-DISP-WSW: Aegis Metro Underground JV. The record covers Licensed slurry disposal volume. Municipal environmental discharge permit; Authorized regional hazardous slurry recycling and separation plants; Total weekly liquid bentonite spoil intake volume permitted under valid disposal licenses.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Licensed slurry disposal volume is at most 4000 m3/week.",
+          "role_name": "Slurry and spoil disposal manager (SLURRY)",
+          "candidate_name": "Aegis Metro Underground JV",
+          "other_candidate_names": [
+            "Borealis GeoInfrastructure Group",
+            "Apex Hydro-Excavation Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_underwriting_counsel_A",
+          "role_id": "geotechnical_underwriting_counsel",
+          "candidate_id": "A",
+          "key": "LEGAL-INSUR-LPB",
+          "hidden_predicate_id": "A_buffer_slurry_reserve",
+          "threshold_label": "Required buffer reservation volume",
+          "threshold_aliases": [
+            "Buffer slurry reserve",
+            "Emergency slurry holding quota"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "m3/week",
+          "partial_record_text": "LEGAL-INSUR-LPB: Aegis Metro Underground JV.Underwriting system environment: Production environment.Aegis Metro Underground JV: Geotechnical risk indemnification clearance = true .Source: Underwriting risk binder endorsement; Scope: Third-party structural subsidence and subterranean water table disruption liabilities; Measurement: Formal underwriting endorsement confirming no unresolved geotechnical exclusion clauses.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Required buffer reservation volume is at most 600 m3/week.",
+          "role_name": "Geotechnical underwriting counsel (LEGAL)",
+          "candidate_name": "Aegis Metro Underground JV",
+          "other_candidate_names": [
+            "Borealis GeoInfrastructure Group",
+            "Apex Hydro-Excavation Partners"
+          ],
+          "context_value": "Production environment",
+          "other_context_values": [
+            "Test environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

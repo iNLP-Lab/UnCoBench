@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_326",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "acoustic_diagnostics_lead",
+        "incident_dispatch_coordinator"
+      ],
+      "role_names": [
+        "Acoustic Diagnostics Lead (ADL)",
+        "Incident Dispatch Coordinator (IDC)"
+      ],
+      "directory": "incomplete/task_326",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_diagnostics_lead_A",
+          "role_id": "acoustic_diagnostics_lead",
+          "candidate_id": "A",
+          "key": "ADL-ACOUST-68T",
+          "boolean_predicate_id": "A_acoustic_calibration_active",
+          "boolean_label": "Acoustic sensor calibration status",
+          "hidden_predicate_id": "A_localization_precision_margin",
+          "threshold_label": "Acoustic cross-correlation spatial precision",
+          "threshold_aliases": [
+            "Acoustic spatial precision margin",
+            "Leak pinpoint error radius"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "ADL-ACOUST-68T: AeroTerra Subsurface Analytics.AeroTerra Subsurface Analytics: Acoustic sensor calibration status = true .Source: Acoustic laboratory calibration record; Scope: Corridor sensor hydrophone bundle; Measurement: Verification whether primary diagnostic sensors hold an active traceable NIST-calibrated certificate.AeroTerra Subsurface Analytics: Acoustic diagnostic technicians = 6 personnel.Source: Field roster verification sheet; Scope: Contractor frontline survey crew; Measurement: Number of certified acoustic sensor operators assigned to the corridor incident.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Acoustic cross-correlation spatial precision is between 0.5 m and 4 m, inclusive.",
+          "role_name": "Acoustic Diagnostics Lead (ADL)",
+          "candidate_name": "AeroTerra Subsurface Analytics",
+          "other_candidate_names": [
+            "GeoVibro Forensics Consortium",
+            "TracerPoint Environmental Surveyors"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_incident_dispatch_coordinator_A",
+          "role_id": "incident_dispatch_coordinator",
+          "candidate_id": "A",
+          "key": "IDC-DISPAT-11C",
+          "hidden_predicate_id": "A_mobilization_window_hours",
+          "threshold_label": "Maximum mobilization notice window",
+          "threshold_aliases": [
+            "Mobilization notice time",
+            "Corridor dispatch response latency"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "IDC-DISPAT-11C: AeroTerra Subsurface Analytics. The record covers Maximum mobilization notice window. Record context: Ningbo. Emergency dispatch service level agreement; Rapid deployment corridor staging zone; Maximum elapsed time from emergency activation notice to contractor arrival at staging gate.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum mobilization notice window is between 2 h and 30 h, inclusive.",
+          "role_name": "Incident Dispatch Coordinator (IDC)",
+          "candidate_name": "AeroTerra Subsurface Analytics",
+          "other_candidate_names": [
+            "GeoVibro Forensics Consortium",
+            "TracerPoint Environmental Surveyors"
+          ],
+          "context_value": "Ningbo",
+          "other_context_values": [
+            "Hangzhou"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "acoustic_diagnostics_lead",
+        "incident_dispatch_coordinator",
+        "geophysical_survey_lead"
+      ],
+      "role_names": [
+        "Acoustic Diagnostics Lead (ADL)",
+        "Incident Dispatch Coordinator (IDC)",
+        "Geophysical Survey Lead (GSL)"
+      ],
+      "directory": "incomplete/task_326",
+      "profiles": [
+        {
+          "record_id": "rec_acoustic_diagnostics_lead_A",
+          "role_id": "acoustic_diagnostics_lead",
+          "candidate_id": "A",
+          "key": "ADL-ACOUST-68T",
+          "boolean_predicate_id": "A_acoustic_calibration_active",
+          "boolean_label": "Acoustic sensor calibration status",
+          "hidden_predicate_id": "A_localization_precision_margin",
+          "threshold_label": "Acoustic cross-correlation spatial precision",
+          "threshold_aliases": [
+            "Acoustic spatial precision margin",
+            "Leak pinpoint error radius"
+          ],
+          "threshold_value": 0.8,
+          "threshold_unit": "m",
+          "partial_record_text": "ADL-ACOUST-68T: AeroTerra Subsurface Analytics.AeroTerra Subsurface Analytics: Acoustic sensor calibration status = true .Source: Acoustic laboratory calibration record; Scope: Corridor sensor hydrophone bundle; Measurement: Verification whether primary diagnostic sensors hold an active traceable NIST-calibrated certificate.AeroTerra Subsurface Analytics: Acoustic diagnostic technicians = 6 personnel.Source: Field roster verification sheet; Scope: Contractor frontline survey crew; Measurement: Number of certified acoustic sensor operators assigned to the corridor incident.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 4
+          },
+          "coarse_statement": "Acoustic cross-correlation spatial precision is between 0.5 m and 4 m, inclusive.",
+          "role_name": "Acoustic Diagnostics Lead (ADL)",
+          "candidate_name": "AeroTerra Subsurface Analytics",
+          "other_candidate_names": [
+            "GeoVibro Forensics Consortium",
+            "TracerPoint Environmental Surveyors"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_incident_dispatch_coordinator_A",
+          "role_id": "incident_dispatch_coordinator",
+          "candidate_id": "A",
+          "key": "IDC-DISPAT-11C",
+          "hidden_predicate_id": "A_mobilization_window_hours",
+          "threshold_label": "Maximum mobilization notice window",
+          "threshold_aliases": [
+            "Mobilization notice time",
+            "Corridor dispatch response latency"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "h",
+          "partial_record_text": "IDC-DISPAT-11C: AeroTerra Subsurface Analytics. The record covers Maximum mobilization notice window. Record context: Ningbo. Emergency dispatch service level agreement; Rapid deployment corridor staging zone; Maximum elapsed time from emergency activation notice to contractor arrival at staging gate.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Maximum mobilization notice window is between 2 h and 30 h, inclusive.",
+          "role_name": "Incident Dispatch Coordinator (IDC)",
+          "candidate_name": "AeroTerra Subsurface Analytics",
+          "other_candidate_names": [
+            "GeoVibro Forensics Consortium",
+            "TracerPoint Environmental Surveyors"
+          ],
+          "context_value": "Ningbo",
+          "other_context_values": [
+            "Hangzhou"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geophysical_survey_lead_A",
+          "role_id": "geophysical_survey_lead",
+          "candidate_id": "A",
+          "key": "GSL-GEOPHY-LHD",
+          "hidden_predicate_id": "A_geotechnical_surveyor_count",
+          "threshold_label": "Geotechnical survey specialists",
+          "threshold_aliases": [
+            "Geophysical field surveyors",
+            "GPR survey technicians"
+          ],
+          "threshold_value": 7,
+          "threshold_unit": "personnel",
+          "partial_record_text": "GSL-GEOPHY-LHD: AeroTerra Subsurface Analytics.AeroTerra Subsurface Analytics: Certified ground-penetrating radar survey readiness = true .Source: Geophysical survey compliance dossier; Scope: GPR dual-frequency subsurface antenna systems; Measurement: Formal sign-off verifying field antenna readiness for continuous pipe-trench profiling.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 8
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Geotechnical survey specialists is between 1 personnel and 8 personnel, inclusive.",
+          "role_name": "Geophysical Survey Lead (GSL)",
+          "candidate_name": "AeroTerra Subsurface Analytics",
+          "other_candidate_names": [
+            "GeoVibro Forensics Consortium",
+            "TracerPoint Environmental Surveyors"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_845",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "subsea_robotics",
+        "marine_operations"
+      ],
+      "role_names": [
+        "Subsea Tooling Superintendent (ROVT)",
+        "Marine Operations Superintendent (MOPS)"
+      ],
+      "directory": "incomplete/task_845",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROVT-DEEP-QOG",
+          "boolean_predicate_id": "A_rov_spread_present",
+          "boolean_label": "Onboard trenching ROV spread present",
+          "hidden_predicate_id": "A_rov_depth_rating_m",
+          "threshold_label": "ROV operational depth rating",
+          "threshold_aliases": [
+            "Work-class ROV depth rating",
+            "Trenching ROV water depth limit"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROVT-DEEP-QOG: CS Sovereign Voyager.CS Sovereign Voyager: Onboard trenching ROV spread present = true .Source: Tooling inventory manifest; Scope: Candidate vessel mezzanine deck; Measurement: Confirmation of a secured, operational heavy work-class jet-trenching ROV system onboard.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 4000
+          },
+          "coarse_statement": "ROV operational depth rating is between 1000 m and 4000 m, inclusive.",
+          "role_name": "Subsea Tooling Superintendent (ROVT)",
+          "candidate_name": "CS Sovereign Voyager",
+          "other_candidate_names": [
+            "Oceanic Installer V",
+            "Pacific Endeavour IX"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MOPS-STATN-B8X",
+          "hidden_predicate_id": "A_bollard_pull_tonnes",
+          "threshold_label": "Continuous bollard pull",
+          "threshold_aliases": [
+            "Static bollard pull",
+            "Continuous towing thrust"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "t",
+          "partial_record_text": "MOPS-STATN-B8X: CS Sovereign Voyager.CS Sovereign Voyager: Dynamic positioning DP2 certification = true .Source: Classification society certificate; Scope: Candidate vessel station-keeping machinery and redundant power bus; Measurement: Verification of valid IMO Equipment Class 2 dynamic positioning notation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous bollard pull is between 50 t and 300 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MOPS)",
+          "candidate_name": "CS Sovereign Voyager",
+          "other_candidate_names": [
+            "Oceanic Installer V",
+            "Pacific Endeavour IX"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "subsea_robotics",
+        "marine_operations",
+        "port_logistics"
+      ],
+      "role_names": [
+        "Subsea Tooling Superintendent (ROVT)",
+        "Marine Operations Superintendent (MOPS)",
+        "Port Mobilization Coordinator (PLOG)"
+      ],
+      "directory": "incomplete/task_845",
+      "profiles": [
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROVT-DEEP-QOG",
+          "boolean_predicate_id": "A_rov_spread_present",
+          "boolean_label": "Onboard trenching ROV spread present",
+          "hidden_predicate_id": "A_rov_depth_rating_m",
+          "threshold_label": "ROV operational depth rating",
+          "threshold_aliases": [
+            "Work-class ROV depth rating",
+            "Trenching ROV water depth limit"
+          ],
+          "threshold_value": 2500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROVT-DEEP-QOG: CS Sovereign Voyager.CS Sovereign Voyager: Onboard trenching ROV spread present = true .Source: Tooling inventory manifest; Scope: Candidate vessel mezzanine deck; Measurement: Confirmation of a secured, operational heavy work-class jet-trenching ROV system onboard.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 4000
+          },
+          "coarse_statement": "ROV operational depth rating is between 1000 m and 4000 m, inclusive.",
+          "role_name": "Subsea Tooling Superintendent (ROVT)",
+          "candidate_name": "CS Sovereign Voyager",
+          "other_candidate_names": [
+            "Oceanic Installer V",
+            "Pacific Endeavour IX"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MOPS-STATN-B8X",
+          "hidden_predicate_id": "A_bollard_pull_tonnes",
+          "threshold_label": "Continuous bollard pull",
+          "threshold_aliases": [
+            "Static bollard pull",
+            "Continuous towing thrust"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "t",
+          "partial_record_text": "MOPS-STATN-B8X: CS Sovereign Voyager.CS Sovereign Voyager: Dynamic positioning DP2 certification = true .Source: Classification society certificate; Scope: Candidate vessel station-keeping machinery and redundant power bus; Measurement: Verification of valid IMO Equipment Class 2 dynamic positioning notation.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous bollard pull is between 50 t and 300 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MOPS)",
+          "candidate_name": "CS Sovereign Voyager",
+          "other_candidate_names": [
+            "Oceanic Installer V",
+            "Pacific Endeavour IX"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "PLOG-PORT-UOE",
+          "hidden_predicate_id": "A_mobilization_time_hours",
+          "threshold_label": "Mobilization departure time",
+          "threshold_aliases": [
+            "Emergency charter call-out duration",
+            "Harbor sail-out timeline"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "PLOG-PORT-UOE: CS Sovereign Voyager. The record covers Mobilization departure time. Port agent readiness audit; Time from formal charter notice to vessel passing port breakwater; Total duration in hours required for bunkering, provisioning, and crew assembly.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Mobilization departure time is between 20 h and 300 h, inclusive.",
+          "role_name": "Port Mobilization Coordinator (PLOG)",
+          "candidate_name": "CS Sovereign Voyager",
+          "other_candidate_names": [
+            "Oceanic Installer V",
+            "Pacific Endeavour IX"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

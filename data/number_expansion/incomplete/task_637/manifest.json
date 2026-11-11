@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_637",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Marine environmental compliance officer (ENV)",
+        "Process engineering lead (ENG)"
+      ],
+      "directory": "incomplete/task_637",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-MAR-9BM",
+          "boolean_predicate_id": "A_brine_discharge_permit_active",
+          "boolean_label": "Brine discharge environmental permit active",
+          "hidden_predicate_id": "A_outfall_salinity_differential",
+          "threshold_label": "Outfall mixing zone salinity differential",
+          "threshold_aliases": [
+            "Salinity excess at mixing zone boundary",
+            "Diffuser edge-of-mixing salinity delta"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "PSU",
+          "partial_record_text": "ENV-MAR-9BM: Seawater Reverse Osmosis Membrane Train 4.Seawater Reverse Osmosis Membrane Train 4: Brine discharge environmental permit active = true .Source: Environmental agency registry; Scope: Marine outfall diffuser line; Measurement: Confirmation that the active coastal effluent discharge permit is held and in force.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Outfall mixing zone salinity differential is at most 9 PSU.",
+          "role_name": "Marine environmental compliance officer (ENV)",
+          "candidate_name": "Seawater Reverse Osmosis Membrane Train 4",
+          "other_candidate_names": [
+            "Hybrid Thermal-Electrodialysis Recovery Facility",
+            "Pressurized Ultrafiltration and Low-Energy SWRO Unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PROC-TGR",
+          "hidden_predicate_id": "A_membrane_flux_normalized",
+          "threshold_label": "Normalized membrane permeate flux",
+          "threshold_aliases": [
+            "Membrane permeate flux rate",
+            "Normalized specific flux"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "LMH",
+          "partial_record_text": "ENG-PROC-TGR: Seawater Reverse Osmosis Membrane Train 4.Seawater Reverse Osmosis Membrane Train 4: Gross treated water output = 3600 m3/h.Source: Plant engineering design basis; Scope: Continuous nominal full-train operation; Measurement: Total hourly volume of unconditioned reverse osmosis permeate produced by the membrane array.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Normalized membrane permeate flux is at most 30 LMH.",
+          "role_name": "Process engineering lead (ENG)",
+          "candidate_name": "Seawater Reverse Osmosis Membrane Train 4",
+          "other_candidate_names": [
+            "Hybrid Thermal-Electrodialysis Recovery Facility",
+            "Pressurized Ultrafiltration and Low-Energy SWRO Unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "process_engineering",
+        "plant_hydraulics"
+      ],
+      "role_names": [
+        "Marine environmental compliance officer (ENV)",
+        "Process engineering lead (ENG)",
+        "Plant hydraulics superintendent (HYD)"
+      ],
+      "directory": "incomplete/task_637",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-MAR-9BM",
+          "boolean_predicate_id": "A_brine_discharge_permit_active",
+          "boolean_label": "Brine discharge environmental permit active",
+          "hidden_predicate_id": "A_outfall_salinity_differential",
+          "threshold_label": "Outfall mixing zone salinity differential",
+          "threshold_aliases": [
+            "Salinity excess at mixing zone boundary",
+            "Diffuser edge-of-mixing salinity delta"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "PSU",
+          "partial_record_text": "ENV-MAR-9BM: Seawater Reverse Osmosis Membrane Train 4.Seawater Reverse Osmosis Membrane Train 4: Brine discharge environmental permit active = true .Source: Environmental agency registry; Scope: Marine outfall diffuser line; Measurement: Confirmation that the active coastal effluent discharge permit is held and in force.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Outfall mixing zone salinity differential is at most 9 PSU.",
+          "role_name": "Marine environmental compliance officer (ENV)",
+          "candidate_name": "Seawater Reverse Osmosis Membrane Train 4",
+          "other_candidate_names": [
+            "Hybrid Thermal-Electrodialysis Recovery Facility",
+            "Pressurized Ultrafiltration and Low-Energy SWRO Unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "ENG-PROC-TGR",
+          "hidden_predicate_id": "A_membrane_flux_normalized",
+          "threshold_label": "Normalized membrane permeate flux",
+          "threshold_aliases": [
+            "Membrane permeate flux rate",
+            "Normalized specific flux"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "LMH",
+          "partial_record_text": "ENG-PROC-TGR: Seawater Reverse Osmosis Membrane Train 4.Seawater Reverse Osmosis Membrane Train 4: Gross treated water output = 3600 m3/h.Source: Plant engineering design basis; Scope: Continuous nominal full-train operation; Measurement: Total hourly volume of unconditioned reverse osmosis permeate produced by the membrane array.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Normalized membrane permeate flux is at most 30 LMH.",
+          "role_name": "Process engineering lead (ENG)",
+          "candidate_name": "Seawater Reverse Osmosis Membrane Train 4",
+          "other_candidate_names": [
+            "Hybrid Thermal-Electrodialysis Recovery Facility",
+            "Pressurized Ultrafiltration and Low-Energy SWRO Unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_plant_hydraulics_A",
+          "role_id": "plant_hydraulics",
+          "candidate_id": "A",
+          "key": "HYD-FLOW-Q6C",
+          "hidden_predicate_id": "A_membrane_backwash_rate",
+          "threshold_label": "Internal membrane backwash consumption",
+          "threshold_aliases": [
+            "Parasitic backwash flow rate",
+            "Internal flushing water demand"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "HYD-FLOW-Q6C: Seawater Reverse Osmosis Membrane Train 4.Seawater Reverse Osmosis Membrane Train 4: Intake velocity compliant with impingement limit = true .Source: Intake hydraulics validation report; Scope: Wedge-wire intake screen surface; Measurement: Verification that maximum screen through-slot velocity remains at or below 0.15 m/s.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Internal membrane backwash consumption is at most 600 m3/h.",
+          "role_name": "Plant hydraulics superintendent (HYD)",
+          "candidate_name": "Seawater Reverse Osmosis Membrane Train 4",
+          "other_candidate_names": [
+            "Hybrid Thermal-Electrodialysis Recovery Facility",
+            "Pressurized Ultrafiltration and Low-Energy SWRO Unit"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

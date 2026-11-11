@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_564",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "deep_submergence",
+        "marine_eng"
+      ],
+      "role_names": [
+        "Deep submergence systems superintendent (DSS)",
+        "Marine technical superintendent (MTS)"
+      ],
+      "directory": "incomplete/task_564",
+      "profiles": [
+        {
+          "record_id": "rec_deep_submergence_A",
+          "role_id": "deep_submergence",
+          "candidate_id": "A",
+          "key": "DSS-ROV-EOD",
+          "boolean_predicate_id": "A_rov_system_installed",
+          "boolean_label": "Installed deep-rated ROV system",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "Certified ROV operating depth rating",
+          "threshold_aliases": [
+            "ROV depth rating",
+            "Maximum submergence operating depth"
+          ],
+          "threshold_value": 5000,
+          "threshold_unit": "m",
+          "partial_record_text": "DSS-ROV-EOD: RV Pelagic Explorer.RV Pelagic Explorer: Installed deep-rated ROV system = true .Source: Deck mobilization manifest; Scope: Candidate vessel aft working deck; Measurement: Confirmation that an operational heavy work-class ROV system and active heave-compensated launch winch are mounted aboard.",
+          "role_name": "Deep submergence systems superintendent (DSS)",
+          "candidate_name": "RV Pelagic Explorer",
+          "other_candidate_names": [
+            "RV Oceanus Surveyor",
+            "RV Bathyal Horizon"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_eng_A",
+          "role_id": "marine_eng",
+          "candidate_id": "A",
+          "key": "MTS-TECH-YZ0",
+          "hidden_predicate_id": "A_mission_endurance_duration",
+          "threshold_label": "Continuous unrefueled mission endurance",
+          "threshold_aliases": [
+            "Mission endurance",
+            "Unrefueled operational endurance"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "d",
+          "partial_record_text": "MTS-TECH-YZ0: RV Pelagic Explorer.RV Pelagic Explorer: Dynamic positioning class DP-2 compliance = true .Source: Vessel classification certificate; Scope: Vessel propulsion and dynamic station-keeping redundancy; Measurement: Whether dynamic positioning system possesses certified DP-2 redundancy rating against single-point machinery failure.RV Pelagic Explorer: Science berthing capacity = 18 person.Source: Ship accommodations register; Scope: Dedicated scientific cabins excluding marine crew quarters; Measurement: Number of certified bunks allocated exclusively to embarking science party personnel.",
+          "role_name": "Marine technical superintendent (MTS)",
+          "candidate_name": "RV Pelagic Explorer",
+          "other_candidate_names": [
+            "RV Oceanus Surveyor",
+            "RV Bathyal Horizon"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "deep_submergence",
+        "marine_eng",
+        "science_ops"
+      ],
+      "role_names": [
+        "Deep submergence systems superintendent (DSS)",
+        "Marine technical superintendent (MTS)",
+        "Oceanographic science operations lead (OSC)"
+      ],
+      "directory": "incomplete/task_564",
+      "profiles": [
+        {
+          "record_id": "rec_deep_submergence_A",
+          "role_id": "deep_submergence",
+          "candidate_id": "A",
+          "key": "DSS-ROV-EOD",
+          "boolean_predicate_id": "A_rov_system_installed",
+          "boolean_label": "Installed deep-rated ROV system",
+          "hidden_predicate_id": "A_rov_depth_rating",
+          "threshold_label": "Certified ROV operating depth rating",
+          "threshold_aliases": [
+            "ROV depth rating",
+            "Maximum submergence operating depth"
+          ],
+          "threshold_value": 5000,
+          "threshold_unit": "m",
+          "partial_record_text": "DSS-ROV-EOD: RV Pelagic Explorer.RV Pelagic Explorer: Installed deep-rated ROV system = true .Source: Deck mobilization manifest; Scope: Candidate vessel aft working deck; Measurement: Confirmation that an operational heavy work-class ROV system and active heave-compensated launch winch are mounted aboard.",
+          "role_name": "Deep submergence systems superintendent (DSS)",
+          "candidate_name": "RV Pelagic Explorer",
+          "other_candidate_names": [
+            "RV Oceanus Surveyor",
+            "RV Bathyal Horizon"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_eng_A",
+          "role_id": "marine_eng",
+          "candidate_id": "A",
+          "key": "MTS-TECH-YZ0",
+          "hidden_predicate_id": "A_mission_endurance_duration",
+          "threshold_label": "Continuous unrefueled mission endurance",
+          "threshold_aliases": [
+            "Mission endurance",
+            "Unrefueled operational endurance"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "d",
+          "partial_record_text": "MTS-TECH-YZ0: RV Pelagic Explorer.RV Pelagic Explorer: Dynamic positioning class DP-2 compliance = true .Source: Vessel classification certificate; Scope: Vessel propulsion and dynamic station-keeping redundancy; Measurement: Whether dynamic positioning system possesses certified DP-2 redundancy rating against single-point machinery failure.RV Pelagic Explorer: Science berthing capacity = 18 person.Source: Ship accommodations register; Scope: Dedicated scientific cabins excluding marine crew quarters; Measurement: Number of certified bunks allocated exclusively to embarking science party personnel.",
+          "role_name": "Marine technical superintendent (MTS)",
+          "candidate_name": "RV Pelagic Explorer",
+          "other_candidate_names": [
+            "RV Oceanus Surveyor",
+            "RV Bathyal Horizon"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_science_ops_A",
+          "role_id": "science_ops",
+          "candidate_id": "A",
+          "key": "OSC-OPS-UE3",
+          "hidden_predicate_id": "A_scientific_dry_lab_area",
+          "threshold_label": "Scientific dry laboratory area",
+          "threshold_aliases": [
+            "Dry lab workspace",
+            "Electronics and computation lab area"
+          ],
+          "threshold_value": 75,
+          "threshold_unit": "m2",
+          "partial_record_text": "OSC-OPS-UE3: RV Pelagic Explorer.RV Pelagic Explorer: Certified hydroacoustic acoustic silence = true .Source: Acoustic survey range noise trial report; Scope: Hull acoustic signature across 10 Hz to 100 kHz frequency bands; Measurement: Whether radiated underwater noise remains compliant with international scientific fisheries and seabed survey acoustic standards.",
+          "role_name": "Oceanographic science operations lead (OSC)",
+          "candidate_name": "RV Pelagic Explorer",
+          "other_candidate_names": [
+            "RV Oceanus Surveyor",
+            "RV Bathyal Horizon"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

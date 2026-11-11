@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_724",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geotechnical_operations",
+        "survey_planning"
+      ],
+      "role_names": [
+        "Geotechnical survey superintendent (GEOT)",
+        "Expedition logistics and planning lead (PLAN)"
+      ],
+      "directory": "incomplete/task_724",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_operations_A",
+          "role_id": "geotechnical_operations",
+          "candidate_id": "A",
+          "key": "GEOT-CORE-WCG",
+          "boolean_predicate_id": "A_coring_rig_installed",
+          "boolean_label": "Geotechnical coring rig installed",
+          "hidden_predicate_id": "A_core_turnaround_hours",
+          "threshold_label": "Maximum seabed core turnaround time",
+          "threshold_aliases": [
+            "Core recovery cycle duration",
+            "Seabed core turnaround time"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "h",
+          "partial_record_text": "GEOT-CORE-WCG: Deepwater Surveyor DP2.Deepwater Surveyor DP2: Geotechnical coring rig installed = true .Source: Mobilization inventory register; Scope: Candidate vessel working deck; Measurement: Presence of a commissioned geotechnical seabed coring rig ready for deployment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum seabed core turnaround time is at most 40 h.",
+          "role_name": "Geotechnical survey superintendent (GEOT)",
+          "candidate_name": "Deepwater Surveyor DP2",
+          "other_candidate_names": [
+            "Boreas Subsea Explorer",
+            "Triton Horizon Support Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_survey_planning_A",
+          "role_id": "survey_planning",
+          "candidate_id": "A",
+          "key": "PLAN-SCHED-K6L",
+          "hidden_predicate_id": "A_client_scientist_berths",
+          "threshold_label": "Client scientist berth availability",
+          "threshold_aliases": [
+            "Available scientist berths",
+            "Client accommodation beds"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "beds",
+          "partial_record_text": "PLAN-SCHED-K6L: Deepwater Surveyor DP2.Deepwater Surveyor DP2: Planned offshore survey duration = 30 d.Source: Charter operational charter-party agreement; Scope: Offshore wind site geotechnical boring campaign; Measurement: Total contracted operational days on station.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Client scientist berth availability is at most 50 beds.",
+          "role_name": "Expedition logistics and planning lead (PLAN)",
+          "candidate_name": "Deepwater Surveyor DP2",
+          "other_candidate_names": [
+            "Boreas Subsea Explorer",
+            "Triton Horizon Support Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geotechnical_operations",
+        "survey_planning",
+        "deck_operations"
+      ],
+      "role_names": [
+        "Geotechnical survey superintendent (GEOT)",
+        "Expedition logistics and planning lead (PLAN)",
+        "Deck operations and rigging supervisor (DECK)"
+      ],
+      "directory": "incomplete/task_724",
+      "profiles": [
+        {
+          "record_id": "rec_geotechnical_operations_A",
+          "role_id": "geotechnical_operations",
+          "candidate_id": "A",
+          "key": "GEOT-CORE-WCG",
+          "boolean_predicate_id": "A_coring_rig_installed",
+          "boolean_label": "Geotechnical coring rig installed",
+          "hidden_predicate_id": "A_core_turnaround_hours",
+          "threshold_label": "Maximum seabed core turnaround time",
+          "threshold_aliases": [
+            "Core recovery cycle duration",
+            "Seabed core turnaround time"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "h",
+          "partial_record_text": "GEOT-CORE-WCG: Deepwater Surveyor DP2.Deepwater Surveyor DP2: Geotechnical coring rig installed = true .Source: Mobilization inventory register; Scope: Candidate vessel working deck; Measurement: Presence of a commissioned geotechnical seabed coring rig ready for deployment.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum seabed core turnaround time is at most 40 h.",
+          "role_name": "Geotechnical survey superintendent (GEOT)",
+          "candidate_name": "Deepwater Surveyor DP2",
+          "other_candidate_names": [
+            "Boreas Subsea Explorer",
+            "Triton Horizon Support Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_survey_planning_A",
+          "role_id": "survey_planning",
+          "candidate_id": "A",
+          "key": "PLAN-SCHED-K6L",
+          "hidden_predicate_id": "A_client_scientist_berths",
+          "threshold_label": "Client scientist berth availability",
+          "threshold_aliases": [
+            "Available scientist berths",
+            "Client accommodation beds"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "beds",
+          "partial_record_text": "PLAN-SCHED-K6L: Deepwater Surveyor DP2.Deepwater Surveyor DP2: Planned offshore survey duration = 30 d.Source: Charter operational charter-party agreement; Scope: Offshore wind site geotechnical boring campaign; Measurement: Total contracted operational days on station.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Client scientist berth availability is at most 50 beds.",
+          "role_name": "Expedition logistics and planning lead (PLAN)",
+          "candidate_name": "Deepwater Surveyor DP2",
+          "other_candidate_names": [
+            "Boreas Subsea Explorer",
+            "Triton Horizon Support Vessel"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-CRANE-U3Q",
+          "hidden_predicate_id": "A_lars_safe_working_load",
+          "threshold_label": "LARS safe working load",
+          "threshold_aliases": [
+            "Launch and recovery system SWL",
+            "Stern A-frame lifting capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "t",
+          "partial_record_text": "DECK-CRANE-U3Q: Deepwater Surveyor DP2. The record covers LARS safe working load. Record context: United Kingdom. Rigging proof-load certificate; Primary stern A-frame launch and recovery system; Certified safe working load rating for dynamic over-the-stern handling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "LARS safe working load is at most 40 t.",
+          "role_name": "Deck operations and rigging supervisor (DECK)",
+          "candidate_name": "Deepwater Surveyor DP2",
+          "other_candidate_names": [
+            "Boreas Subsea Explorer",
+            "Triton Horizon Support Vessel"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "Germany"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

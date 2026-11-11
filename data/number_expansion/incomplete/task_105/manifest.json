@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_105",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_sanitation",
+        "shelter_operations"
+      ],
+      "role_names": [
+        "Water and sanitation officer (WSO)",
+        "Shelter operations planner (SOP)"
+      ],
+      "directory": "incomplete/task_105",
+      "profiles": [
+        {
+          "record_id": "rec_water_sanitation_A",
+          "role_id": "water_sanitation",
+          "candidate_id": "A",
+          "key": "WSO-WTR-FYQ",
+          "boolean_predicate_id": "A_backup_filtration_enabled",
+          "boolean_label": "Dedicated backup water filtration enabled",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Continuous potable water autonomy",
+          "threshold_aliases": [
+            "Potable water supply duration",
+            "Emergency drinking water endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "WSO-WTR-FYQ: Mount Barker Regional Sports Hub.Mount Barker Regional Sports Hub: Dedicated backup water filtration enabled = true .Source: Water utility commissioning log; Scope: On-site secondary water treatment unit; Measurement: Operational readiness switch for secondary mechanical and chlorination filtration.",
+          "role_name": "Water and sanitation officer (WSO)",
+          "candidate_name": "Mount Barker Regional Sports Hub",
+          "other_candidate_names": [
+            "Stirling Community Recreation Centre",
+            "Woodside Memorial Community Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_operations_A",
+          "role_id": "shelter_operations",
+          "candidate_id": "A",
+          "key": "SOP-SHEL-E07",
+          "hidden_predicate_id": "A_surge_shelter_capacity",
+          "threshold_label": "Initial surge shelter capacity",
+          "threshold_aliases": [
+            "Surge occupancy limit",
+            "Rated surge shelter headcount"
+          ],
+          "threshold_value": 900,
+          "threshold_unit": "persons",
+          "partial_record_text": "SOP-SHEL-E07: Mount Barker Regional Sports Hub. The record covers Initial surge shelter capacity. Emergency sheltering master plan; Interior climate-controlled multipurpose halls; Maximum authorized evacuee occupancy under emergency surge conditions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 600,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Initial surge shelter capacity is at least 600 persons.",
+          "role_name": "Shelter operations planner (SOP)",
+          "candidate_name": "Mount Barker Regional Sports Hub",
+          "other_candidate_names": [
+            "Stirling Community Recreation Centre",
+            "Woodside Memorial Community Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_sanitation",
+        "shelter_operations",
+        "workforce_coordinator"
+      ],
+      "role_names": [
+        "Water and sanitation officer (WSO)",
+        "Shelter operations planner (SOP)",
+        "Workforce mobilizer (WFC)"
+      ],
+      "directory": "incomplete/task_105",
+      "profiles": [
+        {
+          "record_id": "rec_water_sanitation_A",
+          "role_id": "water_sanitation",
+          "candidate_id": "A",
+          "key": "WSO-WTR-FYQ",
+          "boolean_predicate_id": "A_backup_filtration_enabled",
+          "boolean_label": "Dedicated backup water filtration enabled",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Continuous potable water autonomy",
+          "threshold_aliases": [
+            "Potable water supply duration",
+            "Emergency drinking water endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "WSO-WTR-FYQ: Mount Barker Regional Sports Hub.Mount Barker Regional Sports Hub: Dedicated backup water filtration enabled = true .Source: Water utility commissioning log; Scope: On-site secondary water treatment unit; Measurement: Operational readiness switch for secondary mechanical and chlorination filtration.",
+          "role_name": "Water and sanitation officer (WSO)",
+          "candidate_name": "Mount Barker Regional Sports Hub",
+          "other_candidate_names": [
+            "Stirling Community Recreation Centre",
+            "Woodside Memorial Community Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_shelter_operations_A",
+          "role_id": "shelter_operations",
+          "candidate_id": "A",
+          "key": "SOP-SHEL-E07",
+          "hidden_predicate_id": "A_surge_shelter_capacity",
+          "threshold_label": "Initial surge shelter capacity",
+          "threshold_aliases": [
+            "Surge occupancy limit",
+            "Rated surge shelter headcount"
+          ],
+          "threshold_value": 900,
+          "threshold_unit": "persons",
+          "partial_record_text": "SOP-SHEL-E07: Mount Barker Regional Sports Hub. The record covers Initial surge shelter capacity. Emergency sheltering master plan; Interior climate-controlled multipurpose halls; Maximum authorized evacuee occupancy under emergency surge conditions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 600,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Initial surge shelter capacity is at least 600 persons.",
+          "role_name": "Shelter operations planner (SOP)",
+          "candidate_name": "Mount Barker Regional Sports Hub",
+          "other_candidate_names": [
+            "Stirling Community Recreation Centre",
+            "Woodside Memorial Community Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_workforce_coordinator_A",
+          "role_id": "workforce_coordinator",
+          "candidate_id": "A",
+          "key": "WFC-STAF-BS1",
+          "hidden_predicate_id": "A_intake_staging_staff",
+          "threshold_label": "Registered intake staging staff",
+          "threshold_aliases": [
+            "Intake staff headcount",
+            "Staging marshaling workforce"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "staff",
+          "partial_record_text": "WFC-STAF-BS1: Mount Barker Regional Sports Hub. The record covers Registered intake staging staff. Deployment personnel manifest; Intake registration and triage zones; Trained emergency intake personnel assigned to simultaneous check-in stations.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Registered intake staging staff is at least 20 staff.",
+          "role_name": "Workforce mobilizer (WFC)",
+          "candidate_name": "Mount Barker Regional Sports Hub",
+          "other_candidate_names": [
+            "Stirling Community Recreation Centre",
+            "Woodside Memorial Community Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

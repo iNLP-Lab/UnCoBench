@@ -1,0 +1,534 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_598",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fiber_telemetry_engineer",
+        "marine_fleet_superintendent"
+      ],
+      "role_names": [
+        "Fiber telemetry engineer (FTE)",
+        "Marine fleet superintendent (MFS)"
+      ],
+      "directory": "number_expansion/misaligned/task_598/k2",
+      "error_profiles": [
+        {
+          "role_name": "Fiber telemetry engineer (FTE)",
+          "target_key": "FTE-OTDR-2S3",
+          "alternate_key": "FTE-OTDR-XLA",
+          "target_context": "Firmware Build 4.2",
+          "alternate_context": "Firmware Build 3.8",
+          "candidate": "Autonomous underwater vehicle survey protocol",
+          "other_candidates": [
+            "Work-class remotely operated vehicle inspection protocol",
+            "Towed synthetic-aperture sonar sled protocol"
+          ],
+          "numeric": [
+            {
+              "topic": "optical_time_domain_resolution",
+              "value": 10,
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_dp_certified",
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ]
+            },
+            {
+              "topic": "acoustic_transponder_array_enabled",
+              "label": "USBL acoustic transponder array enabled",
+              "aliases": [
+                "Ultra-short baseline positioning enabled",
+                "Subsea acoustic tracking activation"
+              ]
+            },
+            {
+              "topic": "positioning_accuracy_margin",
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ]
+            },
+            {
+              "topic": "territorial_waters_permit_cleared",
+              "label": "Territorial seabed survey permit cleared",
+              "aliases": [
+                "Seabed survey clearance",
+                "Maritime regulatory survey authorization"
+              ]
+            },
+            {
+              "topic": "significant_wave_height_tolerance",
+              "label": "Significant wave height operational tolerance",
+              "aliases": [
+                "Maximum wave height envelope",
+                "Metocean operational limit"
+              ]
+            },
+            {
+              "topic": "optical_time_domain_resolution",
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ]
+            },
+            {
+              "topic": "harbor_tug_escort_confirmed",
+              "label": "Harbor tug and pilotage clearance confirmed",
+              "aliases": [
+                "Port departure pilotage approval",
+                "Harbor escort tug clearance"
+              ]
+            },
+            {
+              "topic": "gross_mission_endurance",
+              "label": "Gross mission endurance window",
+              "aliases": [
+                "Total vessel survey endurance",
+                "Gross operational mission window"
+              ]
+            },
+            {
+              "topic": "mobilization_transit_time",
+              "label": "Mobilization transit duration",
+              "aliases": [
+                "Vessel transit time to cable fault site",
+                "One-way transit duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine fleet superintendent (MFS)",
+          "target_key": "MFS-FLT-J71",
+          "alternate_key": "MFS-FLT-52I",
+          "target_context": "Vessel System Version 2",
+          "alternate_context": "Vessel System Version 1",
+          "candidate": "Autonomous underwater vehicle survey protocol",
+          "other_candidates": [
+            "Work-class remotely operated vehicle inspection protocol",
+            "Towed synthetic-aperture sonar sled protocol"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "vessel_dp_certified",
+              "value": true,
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_dp_certified",
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ]
+            },
+            {
+              "topic": "acoustic_transponder_array_enabled",
+              "label": "USBL acoustic transponder array enabled",
+              "aliases": [
+                "Ultra-short baseline positioning enabled",
+                "Subsea acoustic tracking activation"
+              ]
+            },
+            {
+              "topic": "positioning_accuracy_margin",
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ]
+            },
+            {
+              "topic": "territorial_waters_permit_cleared",
+              "label": "Territorial seabed survey permit cleared",
+              "aliases": [
+                "Seabed survey clearance",
+                "Maritime regulatory survey authorization"
+              ]
+            },
+            {
+              "topic": "significant_wave_height_tolerance",
+              "label": "Significant wave height operational tolerance",
+              "aliases": [
+                "Maximum wave height envelope",
+                "Metocean operational limit"
+              ]
+            },
+            {
+              "topic": "optical_time_domain_resolution",
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ]
+            },
+            {
+              "topic": "harbor_tug_escort_confirmed",
+              "label": "Harbor tug and pilotage clearance confirmed",
+              "aliases": [
+                "Port departure pilotage approval",
+                "Harbor escort tug clearance"
+              ]
+            },
+            {
+              "topic": "gross_mission_endurance",
+              "label": "Gross mission endurance window",
+              "aliases": [
+                "Total vessel survey endurance",
+                "Gross operational mission window"
+              ]
+            },
+            {
+              "topic": "mobilization_transit_time",
+              "label": "Mobilization transit duration",
+              "aliases": [
+                "Vessel transit time to cable fault site",
+                "One-way transit duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fiber_telemetry_engineer",
+        "marine_fleet_superintendent",
+        "marine_geophysics_lead"
+      ],
+      "role_names": [
+        "Fiber telemetry engineer (FTE)",
+        "Marine fleet superintendent (MFS)",
+        "Marine geophysics lead (MGL)"
+      ],
+      "directory": "number_expansion/misaligned/task_598/k3",
+      "error_profiles": [
+        {
+          "role_name": "Fiber telemetry engineer (FTE)",
+          "target_key": "FTE-OTDR-2S3",
+          "alternate_key": "FTE-OTDR-XLA",
+          "target_context": "Firmware Build 4.2",
+          "alternate_context": "Firmware Build 3.8",
+          "candidate": "Autonomous underwater vehicle survey protocol",
+          "other_candidates": [
+            "Work-class remotely operated vehicle inspection protocol",
+            "Towed synthetic-aperture sonar sled protocol"
+          ],
+          "numeric": [
+            {
+              "topic": "optical_time_domain_resolution",
+              "value": 10,
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_dp_certified",
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ]
+            },
+            {
+              "topic": "acoustic_transponder_array_enabled",
+              "label": "USBL acoustic transponder array enabled",
+              "aliases": [
+                "Ultra-short baseline positioning enabled",
+                "Subsea acoustic tracking activation"
+              ]
+            },
+            {
+              "topic": "positioning_accuracy_margin",
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ]
+            },
+            {
+              "topic": "territorial_waters_permit_cleared",
+              "label": "Territorial seabed survey permit cleared",
+              "aliases": [
+                "Seabed survey clearance",
+                "Maritime regulatory survey authorization"
+              ]
+            },
+            {
+              "topic": "significant_wave_height_tolerance",
+              "label": "Significant wave height operational tolerance",
+              "aliases": [
+                "Maximum wave height envelope",
+                "Metocean operational limit"
+              ]
+            },
+            {
+              "topic": "optical_time_domain_resolution",
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ]
+            },
+            {
+              "topic": "harbor_tug_escort_confirmed",
+              "label": "Harbor tug and pilotage clearance confirmed",
+              "aliases": [
+                "Port departure pilotage approval",
+                "Harbor escort tug clearance"
+              ]
+            },
+            {
+              "topic": "gross_mission_endurance",
+              "label": "Gross mission endurance window",
+              "aliases": [
+                "Total vessel survey endurance",
+                "Gross operational mission window"
+              ]
+            },
+            {
+              "topic": "mobilization_transit_time",
+              "label": "Mobilization transit duration",
+              "aliases": [
+                "Vessel transit time to cable fault site",
+                "One-way transit duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine fleet superintendent (MFS)",
+          "target_key": "MFS-FLT-J71",
+          "alternate_key": "MFS-FLT-52I",
+          "target_context": "Vessel System Version 2",
+          "alternate_context": "Vessel System Version 1",
+          "candidate": "Autonomous underwater vehicle survey protocol",
+          "other_candidates": [
+            "Work-class remotely operated vehicle inspection protocol",
+            "Towed synthetic-aperture sonar sled protocol"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "vessel_dp_certified",
+              "value": true,
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_dp_certified",
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ]
+            },
+            {
+              "topic": "acoustic_transponder_array_enabled",
+              "label": "USBL acoustic transponder array enabled",
+              "aliases": [
+                "Ultra-short baseline positioning enabled",
+                "Subsea acoustic tracking activation"
+              ]
+            },
+            {
+              "topic": "positioning_accuracy_margin",
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ]
+            },
+            {
+              "topic": "territorial_waters_permit_cleared",
+              "label": "Territorial seabed survey permit cleared",
+              "aliases": [
+                "Seabed survey clearance",
+                "Maritime regulatory survey authorization"
+              ]
+            },
+            {
+              "topic": "significant_wave_height_tolerance",
+              "label": "Significant wave height operational tolerance",
+              "aliases": [
+                "Maximum wave height envelope",
+                "Metocean operational limit"
+              ]
+            },
+            {
+              "topic": "optical_time_domain_resolution",
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ]
+            },
+            {
+              "topic": "harbor_tug_escort_confirmed",
+              "label": "Harbor tug and pilotage clearance confirmed",
+              "aliases": [
+                "Port departure pilotage approval",
+                "Harbor escort tug clearance"
+              ]
+            },
+            {
+              "topic": "gross_mission_endurance",
+              "label": "Gross mission endurance window",
+              "aliases": [
+                "Total vessel survey endurance",
+                "Gross operational mission window"
+              ]
+            },
+            {
+              "topic": "mobilization_transit_time",
+              "label": "Mobilization transit duration",
+              "aliases": [
+                "Vessel transit time to cable fault site",
+                "One-way transit duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine geophysics lead (MGL)",
+          "target_key": "MGL-ACOUS-W8T",
+          "alternate_key": "MGL-ACOUS-2ZJ",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Autonomous underwater vehicle survey protocol",
+          "other_candidates": [
+            "Work-class remotely operated vehicle inspection protocol",
+            "Towed synthetic-aperture sonar sled protocol"
+          ],
+          "numeric": [
+            {
+              "topic": "positioning_accuracy_margin",
+              "value": 3.5,
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "vessel_dp_certified",
+              "label": "Dynamic positioning class DP-2 certified",
+              "aliases": [
+                "DP-2 capability verification",
+                "Vessel station-keeping certification"
+              ]
+            },
+            {
+              "topic": "acoustic_transponder_array_enabled",
+              "label": "USBL acoustic transponder array enabled",
+              "aliases": [
+                "Ultra-short baseline positioning enabled",
+                "Subsea acoustic tracking activation"
+              ]
+            },
+            {
+              "topic": "positioning_accuracy_margin",
+              "label": "Acoustic positioning accuracy margin",
+              "aliases": [
+                "Seafloor positioning accuracy",
+                "Target depth acoustic positioning tolerance"
+              ]
+            },
+            {
+              "topic": "territorial_waters_permit_cleared",
+              "label": "Territorial seabed survey permit cleared",
+              "aliases": [
+                "Seabed survey clearance",
+                "Maritime regulatory survey authorization"
+              ]
+            },
+            {
+              "topic": "significant_wave_height_tolerance",
+              "label": "Significant wave height operational tolerance",
+              "aliases": [
+                "Maximum wave height envelope",
+                "Metocean operational limit"
+              ]
+            },
+            {
+              "topic": "optical_time_domain_resolution",
+              "label": "Optical reflectometry resolution margin",
+              "aliases": [
+                "OTDR fault pinpointing resolution",
+                "Optical pulse diagnostic precision"
+              ]
+            },
+            {
+              "topic": "harbor_tug_escort_confirmed",
+              "label": "Harbor tug and pilotage clearance confirmed",
+              "aliases": [
+                "Port departure pilotage approval",
+                "Harbor escort tug clearance"
+              ]
+            },
+            {
+              "topic": "gross_mission_endurance",
+              "label": "Gross mission endurance window",
+              "aliases": [
+                "Total vessel survey endurance",
+                "Gross operational mission window"
+              ]
+            },
+            {
+              "topic": "mobilization_transit_time",
+              "label": "Mobilization transit duration",
+              "aliases": [
+                "Vessel transit time to cable fault site",
+                "One-way transit duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_523",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "digital_infrastructure",
+        "delegate_services"
+      ],
+      "role_names": [
+        "Digital infrastructure architect (INFRA)",
+        "Delegate logistics director (DLG)"
+      ],
+      "directory": "incomplete/task_523",
+      "profiles": [
+        {
+          "record_id": "rec_digital_infrastructure_A",
+          "role_id": "digital_infrastructure",
+          "candidate_id": "A",
+          "key": "INFRA-TELE-NLB",
+          "boolean_predicate_id": "A_gigabit_backbone_installed",
+          "boolean_label": "Dedicated gigabit backbone installed",
+          "hidden_predicate_id": "A_network_latency_ms",
+          "threshold_label": "Average network latency to cloud exchange",
+          "threshold_aliases": [
+            "Cloud exchange latency",
+            "Mean network ping round-trip"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ms",
+          "partial_record_text": "INFRA-TELE-NLB: Leman Grand Convention Complex.Leman Grand Convention Complex: Dedicated gigabit backbone installed = true .Source: Telecom operator deployment register; Scope: Physical intake conduits to plenary and media zones; Measurement: Confirmed presence of dedicated multi-strand gigabit fiber uplink.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average network latency to cloud exchange is at most 40 ms.",
+          "role_name": "Digital infrastructure architect (INFRA)",
+          "candidate_name": "Leman Grand Convention Complex",
+          "other_candidate_names": [
+            "Rhine Riverfront Congress Arena",
+            "Zurich Nord Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_delegate_services_A",
+          "role_id": "delegate_services",
+          "candidate_id": "A",
+          "key": "DLG-PLEN-YCU",
+          "hidden_predicate_id": "A_airport_transit_duration",
+          "threshold_label": "Airport transit duration",
+          "threshold_aliases": [
+            "Airport travel time",
+            "Transit transfer window"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "DLG-PLEN-YCU: Leman Grand Convention Complex.Leman Grand Convention Complex: Plenary hall seating capacity = 2600 seats.Source: Auditorium architectural blueprint register; Scope: Primary plenary hall fixed and modular seating tier; Measurement: Maximum certified unobstructed delegate seating capacity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Airport transit duration is at most 60 min.",
+          "role_name": "Delegate logistics director (DLG)",
+          "candidate_name": "Leman Grand Convention Complex",
+          "other_candidate_names": [
+            "Rhine Riverfront Congress Arena",
+            "Zurich Nord Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "digital_infrastructure",
+        "delegate_services",
+        "media_broadcast"
+      ],
+      "role_names": [
+        "Digital infrastructure architect (INFRA)",
+        "Delegate logistics director (DLG)",
+        "Media and broadcast relations lead (MEDIA)"
+      ],
+      "directory": "incomplete/task_523",
+      "profiles": [
+        {
+          "record_id": "rec_digital_infrastructure_A",
+          "role_id": "digital_infrastructure",
+          "candidate_id": "A",
+          "key": "INFRA-TELE-NLB",
+          "boolean_predicate_id": "A_gigabit_backbone_installed",
+          "boolean_label": "Dedicated gigabit backbone installed",
+          "hidden_predicate_id": "A_network_latency_ms",
+          "threshold_label": "Average network latency to cloud exchange",
+          "threshold_aliases": [
+            "Cloud exchange latency",
+            "Mean network ping round-trip"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "ms",
+          "partial_record_text": "INFRA-TELE-NLB: Leman Grand Convention Complex.Leman Grand Convention Complex: Dedicated gigabit backbone installed = true .Source: Telecom operator deployment register; Scope: Physical intake conduits to plenary and media zones; Measurement: Confirmed presence of dedicated multi-strand gigabit fiber uplink.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average network latency to cloud exchange is at most 40 ms.",
+          "role_name": "Digital infrastructure architect (INFRA)",
+          "candidate_name": "Leman Grand Convention Complex",
+          "other_candidate_names": [
+            "Rhine Riverfront Congress Arena",
+            "Zurich Nord Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_delegate_services_A",
+          "role_id": "delegate_services",
+          "candidate_id": "A",
+          "key": "DLG-PLEN-YCU",
+          "hidden_predicate_id": "A_airport_transit_duration",
+          "threshold_label": "Airport transit duration",
+          "threshold_aliases": [
+            "Airport travel time",
+            "Transit transfer window"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "DLG-PLEN-YCU: Leman Grand Convention Complex.Leman Grand Convention Complex: Plenary hall seating capacity = 2600 seats.Source: Auditorium architectural blueprint register; Scope: Primary plenary hall fixed and modular seating tier; Measurement: Maximum certified unobstructed delegate seating capacity.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Airport transit duration is at most 60 min.",
+          "role_name": "Delegate logistics director (DLG)",
+          "candidate_name": "Leman Grand Convention Complex",
+          "other_candidate_names": [
+            "Rhine Riverfront Congress Arena",
+            "Zurich Nord Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_media_broadcast_A",
+          "role_id": "media_broadcast",
+          "candidate_id": "A",
+          "key": "MEDIA-BRDC-38G",
+          "hidden_predicate_id": "A_broadcast_media_workspace",
+          "threshold_label": "Media broadcast workspace area",
+          "threshold_aliases": [
+            "Press working room area",
+            "Media center square meters"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "m2",
+          "partial_record_text": "MEDIA-BRDC-38G: Leman Grand Convention Complex. The record covers Media broadcast workspace area. Media facility architectural allotment plan; Dedicated press workstations, edit suites, and broadcast control rooms; Net enclosed operational floor space allocated to accredited press.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Media broadcast workspace area is at most 700 m2.",
+          "role_name": "Media and broadcast relations lead (MEDIA)",
+          "candidate_name": "Leman Grand Convention Complex",
+          "other_candidate_names": [
+            "Rhine Riverfront Congress Arena",
+            "Zurich Nord Exhibition Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

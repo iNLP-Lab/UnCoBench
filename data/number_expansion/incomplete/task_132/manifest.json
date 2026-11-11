@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_132",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "scientific_payload_manager",
+        "meteorological_analyst"
+      ],
+      "role_names": [
+        "Scientific Payload Manager (PAYLD)",
+        "Meteorological Analyst (METEO)"
+      ],
+      "directory": "incomplete/task_132",
+      "profiles": [
+        {
+          "record_id": "rec_scientific_payload_manager_A",
+          "role_id": "scientific_payload_manager",
+          "candidate_id": "A",
+          "key": "PAYLD-FREEZ-QDP",
+          "boolean_predicate_id": "A_cold_storage_freezer_installed",
+          "boolean_label": "On-site cold-storage bio-freezer installed",
+          "hidden_predicate_id": "A_freezer_minimum_temperature",
+          "threshold_label": "Freezer operating low-temperature limit",
+          "threshold_aliases": [
+            "Cryo-freezer minimum temperature",
+            "Storage freezer rating"
+          ],
+          "threshold_value": -40,
+          "threshold_unit": "degC",
+          "partial_record_text": "PAYLD-FREEZ-QDP: Kluane Ridge Outpost.Kluane Ridge Outpost: On-site cold-storage bio-freezer installed = true .Source: Scientific laboratory equipment inventory; Scope: Station wet lab module; Measurement: Presence of a functional ultra-low temperature specimen freezer for permafrost cores.",
+          "role_name": "Scientific Payload Manager (PAYLD)",
+          "candidate_name": "Kluane Ridge Outpost",
+          "other_candidate_names": [
+            "Ruby Mountain Baseline Station",
+            "Ogilvie Plateau Research Hut"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_meteorological_analyst_A",
+          "role_id": "meteorological_analyst",
+          "candidate_id": "A",
+          "key": "METEO-CLIM-MFH",
+          "hidden_predicate_id": "A_max_summer_gust_speed",
+          "threshold_label": "Peak ambient summer wind gust speed",
+          "threshold_aliases": [
+            "Maximum wind gust",
+            "Peak summer gust velocity"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "km/h",
+          "partial_record_text": "METEO-CLIM-MFH: Kluane Ridge Outpost. The record covers Peak ambient summer wind gust speed. Environment and Climate Change Canada meteorological tower telemetry; Station 10-meter alpine anemometer mast across June through August; Highest recorded 3-second rolling wind gust velocity.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Peak ambient summer wind gust speed is at least 50 km/h.",
+          "role_name": "Meteorological Analyst (METEO)",
+          "candidate_name": "Kluane Ridge Outpost",
+          "other_candidate_names": [
+            "Ruby Mountain Baseline Station",
+            "Ogilvie Plateau Research Hut"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "scientific_payload_manager",
+        "meteorological_analyst",
+        "expedition_power_systems_lead"
+      ],
+      "role_names": [
+        "Scientific Payload Manager (PAYLD)",
+        "Meteorological Analyst (METEO)",
+        "Expedition Power Systems Lead (POWER)"
+      ],
+      "directory": "incomplete/task_132",
+      "profiles": [
+        {
+          "record_id": "rec_scientific_payload_manager_A",
+          "role_id": "scientific_payload_manager",
+          "candidate_id": "A",
+          "key": "PAYLD-FREEZ-QDP",
+          "boolean_predicate_id": "A_cold_storage_freezer_installed",
+          "boolean_label": "On-site cold-storage bio-freezer installed",
+          "hidden_predicate_id": "A_freezer_minimum_temperature",
+          "threshold_label": "Freezer operating low-temperature limit",
+          "threshold_aliases": [
+            "Cryo-freezer minimum temperature",
+            "Storage freezer rating"
+          ],
+          "threshold_value": -40,
+          "threshold_unit": "degC",
+          "partial_record_text": "PAYLD-FREEZ-QDP: Kluane Ridge Outpost.Kluane Ridge Outpost: On-site cold-storage bio-freezer installed = true .Source: Scientific laboratory equipment inventory; Scope: Station wet lab module; Measurement: Presence of a functional ultra-low temperature specimen freezer for permafrost cores.",
+          "role_name": "Scientific Payload Manager (PAYLD)",
+          "candidate_name": "Kluane Ridge Outpost",
+          "other_candidate_names": [
+            "Ruby Mountain Baseline Station",
+            "Ogilvie Plateau Research Hut"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_meteorological_analyst_A",
+          "role_id": "meteorological_analyst",
+          "candidate_id": "A",
+          "key": "METEO-CLIM-MFH",
+          "hidden_predicate_id": "A_max_summer_gust_speed",
+          "threshold_label": "Peak ambient summer wind gust speed",
+          "threshold_aliases": [
+            "Maximum wind gust",
+            "Peak summer gust velocity"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "km/h",
+          "partial_record_text": "METEO-CLIM-MFH: Kluane Ridge Outpost. The record covers Peak ambient summer wind gust speed. Environment and Climate Change Canada meteorological tower telemetry; Station 10-meter alpine anemometer mast across June through August; Highest recorded 3-second rolling wind gust velocity.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Peak ambient summer wind gust speed is at least 50 km/h.",
+          "role_name": "Meteorological Analyst (METEO)",
+          "candidate_name": "Kluane Ridge Outpost",
+          "other_candidate_names": [
+            "Ruby Mountain Baseline Station",
+            "Ogilvie Plateau Research Hut"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_power_systems_lead_A",
+          "role_id": "expedition_power_systems_lead",
+          "candidate_id": "A",
+          "key": "POWER-GRID-GK5",
+          "hidden_predicate_id": "A_renewable_microgrid_capacity",
+          "threshold_label": "Primary renewable microgrid capacity",
+          "threshold_aliases": [
+            "Renewable generation capacity",
+            "Solar and wind array output"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "kW",
+          "partial_record_text": "POWER-GRID-GK5: Kluane Ridge Outpost. The record covers Primary renewable microgrid capacity. Station hybrid electrical commissioning sheet; Station photovoltaic array and micro-wind turbine combined bus; Rated continuous electrical generation under standard alpine summer conditions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary renewable microgrid capacity is at least 18 kW.",
+          "role_name": "Expedition Power Systems Lead (POWER)",
+          "candidate_name": "Kluane Ridge Outpost",
+          "other_candidate_names": [
+            "Ruby Mountain Baseline Station",
+            "Ogilvie Plateau Research Hut"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_416",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "storage",
+        "commercial"
+      ],
+      "role_names": [
+        "Energy storage systems lead (ESS)",
+        "Commercial power structuring manager (COM)"
+      ],
+      "directory": "incomplete/task_416",
+      "profiles": [
+        {
+          "record_id": "rec_storage_A",
+          "role_id": "storage",
+          "candidate_id": "A",
+          "key": "ESS-BATT-CSM",
+          "boolean_predicate_id": "A_battery_storage_integrated",
+          "boolean_label": "Active battery storage integration",
+          "hidden_predicate_id": "A_storage_discharge_duration",
+          "threshold_label": "Storage continuous discharge duration",
+          "threshold_aliases": [
+            "BESS discharge duration",
+            "Battery discharge duration"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "h",
+          "partial_record_text": "ESS-BATT-CSM: Aura Bay Wind Consortium.Aura Bay Wind Consortium: Active battery storage integration = true .Source: Co-located storage engineering register; Scope: Candidate on-site hybrid generating facility; Measurement: Whether an on-site utility-scale battery energy storage system is integrated into the site design.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 6
+          },
+          "coarse_statement": "Storage continuous discharge duration is between 1 h and 6 h, inclusive.",
+          "role_name": "Energy storage systems lead (ESS)",
+          "candidate_name": "Aura Bay Wind Consortium",
+          "other_candidate_names": [
+            "Solaria Horizon Energy Group",
+            "Nordic Hydro-Thermal Ventures"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_A",
+          "role_id": "commercial",
+          "candidate_id": "A",
+          "key": "COM-CONT-HBO",
+          "hidden_predicate_id": "A_annual_firm_delivery",
+          "threshold_label": "Annual firm delivered volume",
+          "threshold_aliases": [
+            "Contracted firm delivery volume",
+            "Guaranteed annual delivered volume"
+          ],
+          "threshold_value": 380,
+          "threshold_unit": "GWh",
+          "partial_record_text": "COM-CONT-HBO: Aura Bay Wind Consortium. The record covers Annual firm delivered volume. PPA energy settlement schedule; Annual calendar year delivery commitment at commercial delivery point; Guaranteed minimum annual firm electricity volume delivered to the corporate off-taker.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual firm delivered volume is between 200 GWh and 600 GWh, inclusive.",
+          "role_name": "Commercial power structuring manager (COM)",
+          "candidate_name": "Aura Bay Wind Consortium",
+          "other_candidate_names": [
+            "Solaria Horizon Energy Group",
+            "Nordic Hydro-Thermal Ventures"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "storage",
+        "commercial",
+        "engineering"
+      ],
+      "role_names": [
+        "Energy storage systems lead (ESS)",
+        "Commercial power structuring manager (COM)",
+        "Grid and resource engineering lead (ENG)"
+      ],
+      "directory": "incomplete/task_416",
+      "profiles": [
+        {
+          "record_id": "rec_storage_A",
+          "role_id": "storage",
+          "candidate_id": "A",
+          "key": "ESS-BATT-CSM",
+          "boolean_predicate_id": "A_battery_storage_integrated",
+          "boolean_label": "Active battery storage integration",
+          "hidden_predicate_id": "A_storage_discharge_duration",
+          "threshold_label": "Storage continuous discharge duration",
+          "threshold_aliases": [
+            "BESS discharge duration",
+            "Battery discharge duration"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "h",
+          "partial_record_text": "ESS-BATT-CSM: Aura Bay Wind Consortium.Aura Bay Wind Consortium: Active battery storage integration = true .Source: Co-located storage engineering register; Scope: Candidate on-site hybrid generating facility; Measurement: Whether an on-site utility-scale battery energy storage system is integrated into the site design.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 6
+          },
+          "coarse_statement": "Storage continuous discharge duration is between 1 h and 6 h, inclusive.",
+          "role_name": "Energy storage systems lead (ESS)",
+          "candidate_name": "Aura Bay Wind Consortium",
+          "other_candidate_names": [
+            "Solaria Horizon Energy Group",
+            "Nordic Hydro-Thermal Ventures"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_A",
+          "role_id": "commercial",
+          "candidate_id": "A",
+          "key": "COM-CONT-HBO",
+          "hidden_predicate_id": "A_annual_firm_delivery",
+          "threshold_label": "Annual firm delivered volume",
+          "threshold_aliases": [
+            "Contracted firm delivery volume",
+            "Guaranteed annual delivered volume"
+          ],
+          "threshold_value": 380,
+          "threshold_unit": "GWh",
+          "partial_record_text": "COM-CONT-HBO: Aura Bay Wind Consortium. The record covers Annual firm delivered volume. PPA energy settlement schedule; Annual calendar year delivery commitment at commercial delivery point; Guaranteed minimum annual firm electricity volume delivered to the corporate off-taker.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual firm delivered volume is between 200 GWh and 600 GWh, inclusive.",
+          "role_name": "Commercial power structuring manager (COM)",
+          "candidate_name": "Aura Bay Wind Consortium",
+          "other_candidate_names": [
+            "Solaria Horizon Energy Group",
+            "Nordic Hydro-Thermal Ventures"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_engineering_A",
+          "role_id": "engineering",
+          "candidate_id": "A",
+          "key": "ENG-GRID-5X7",
+          "hidden_predicate_id": "A_annual_gross_generation",
+          "threshold_label": "Annual gross generation volume",
+          "threshold_aliases": [
+            "Projected gross generation",
+            "Total annual output volume"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "GWh",
+          "partial_record_text": "ENG-GRID-5X7: Aura Bay Wind Consortium.Aura Bay Wind Consortium: Interconnection agreement executed = true .Source: Regional transmission organization interconnection queue; Scope: Candidate primary substation interconnection point; Measurement: Whether a three-party large generator interconnection agreement is fully executed.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Annual gross generation volume is between 300 GWh and 700 GWh, inclusive.",
+          "role_name": "Grid and resource engineering lead (ENG)",
+          "candidate_name": "Aura Bay Wind Consortium",
+          "other_candidate_names": [
+            "Solaria Horizon Energy Group",
+            "Nordic Hydro-Thermal Ventures"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

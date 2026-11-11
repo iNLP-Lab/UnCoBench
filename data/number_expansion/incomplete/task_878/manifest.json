@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_878",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "electrical_diagnostics",
+        "marine_operations"
+      ],
+      "role_names": [
+        "High-voltage electrical diagnostics specialist (HVE)",
+        "Subsea marine operations superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_878",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_diagnostics_A",
+          "role_id": "electrical_diagnostics",
+          "candidate_id": "A",
+          "key": "HVE-DIAG-TXT",
+          "boolean_predicate_id": "A_pulse_calibration_completed",
+          "boolean_label": "Pulse reflectometry calibration completed",
+          "hidden_predicate_id": "A_spatial_resolution_margin",
+          "threshold_label": "Spatial localization uncertainty",
+          "threshold_aliases": [
+            "Fault localization margin",
+            "Spatial resolution window"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "m",
+          "partial_record_text": "HVE-DIAG-TXT: Time-domain reflectometry and magnetometry ROV survey.Time-domain reflectometry and magnetometry ROV survey: Pulse reflectometry calibration completed = true .Source: Terminal testing certificate; Scope: Interconnector shore station injection point; Measurement: Formal sign-off confirming pulse waveform baseline calibration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Spatial localization uncertainty is between 2 m and 30 m, inclusive.",
+          "role_name": "High-voltage electrical diagnostics specialist (HVE)",
+          "candidate_name": "Time-domain reflectometry and magnetometry ROV survey",
+          "other_candidate_names": [
+            "Distributed acoustic sensing and towed hydrophone array",
+            "Differential ground-wave radar and bathymetric sonar survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "OPS-MAROPS-I54",
+          "hidden_predicate_id": "A_weather_standby_allowance",
+          "threshold_label": "Weather standby allowance",
+          "threshold_aliases": [
+            "Weather contingency buffer",
+            "Sea state standby window"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-MAROPS-I54: Time-domain reflectometry and magnetometry ROV survey.Time-domain reflectometry and magnetometry ROV survey: DP2 dynamic positioning certified = true .Source: Vessel classification certificate; Scope: Assigned intervention vessel; Measurement: Current classification society endorsement for DP Class 2 operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Weather standby allowance is between 20 h and 90 h, inclusive.",
+          "role_name": "Subsea marine operations superintendent (OPS)",
+          "candidate_name": "Time-domain reflectometry and magnetometry ROV survey",
+          "other_candidate_names": [
+            "Distributed acoustic sensing and towed hydrophone array",
+            "Differential ground-wave radar and bathymetric sonar survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "electrical_diagnostics",
+        "marine_operations",
+        "marine_logistics"
+      ],
+      "role_names": [
+        "High-voltage electrical diagnostics specialist (HVE)",
+        "Subsea marine operations superintendent (OPS)",
+        "Offshore campaign logistics manager (LOG)"
+      ],
+      "directory": "incomplete/task_878",
+      "profiles": [
+        {
+          "record_id": "rec_electrical_diagnostics_A",
+          "role_id": "electrical_diagnostics",
+          "candidate_id": "A",
+          "key": "HVE-DIAG-TXT",
+          "boolean_predicate_id": "A_pulse_calibration_completed",
+          "boolean_label": "Pulse reflectometry calibration completed",
+          "hidden_predicate_id": "A_spatial_resolution_margin",
+          "threshold_label": "Spatial localization uncertainty",
+          "threshold_aliases": [
+            "Fault localization margin",
+            "Spatial resolution window"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "m",
+          "partial_record_text": "HVE-DIAG-TXT: Time-domain reflectometry and magnetometry ROV survey.Time-domain reflectometry and magnetometry ROV survey: Pulse reflectometry calibration completed = true .Source: Terminal testing certificate; Scope: Interconnector shore station injection point; Measurement: Formal sign-off confirming pulse waveform baseline calibration.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 30
+          },
+          "coarse_statement": "Spatial localization uncertainty is between 2 m and 30 m, inclusive.",
+          "role_name": "High-voltage electrical diagnostics specialist (HVE)",
+          "candidate_name": "Time-domain reflectometry and magnetometry ROV survey",
+          "other_candidate_names": [
+            "Distributed acoustic sensing and towed hydrophone array",
+            "Differential ground-wave radar and bathymetric sonar survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "OPS-MAROPS-I54",
+          "hidden_predicate_id": "A_weather_standby_allowance",
+          "threshold_label": "Weather standby allowance",
+          "threshold_aliases": [
+            "Weather contingency buffer",
+            "Sea state standby window"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "OPS-MAROPS-I54: Time-domain reflectometry and magnetometry ROV survey.Time-domain reflectometry and magnetometry ROV survey: DP2 dynamic positioning certified = true .Source: Vessel classification certificate; Scope: Assigned intervention vessel; Measurement: Current classification society endorsement for DP Class 2 operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Weather standby allowance is between 20 h and 90 h, inclusive.",
+          "role_name": "Subsea marine operations superintendent (OPS)",
+          "candidate_name": "Time-domain reflectometry and magnetometry ROV survey",
+          "other_candidate_names": [
+            "Distributed acoustic sensing and towed hydrophone array",
+            "Differential ground-wave radar and bathymetric sonar survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_logistics_A",
+          "role_id": "marine_logistics",
+          "candidate_id": "A",
+          "key": "LOG-LOGIS-GZ1",
+          "hidden_predicate_id": "A_vessel_charter_mobilization_fee",
+          "threshold_label": "Vessel charter mobilization fee",
+          "threshold_aliases": [
+            "Vessel mobilization charge",
+            "Marine transit fee"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "kEUR",
+          "partial_record_text": "LOG-LOGIS-GZ1: Time-domain reflectometry and magnetometry ROV survey. The record covers Vessel charter mobilization fee. Vessel charter commercial schedule; Transit from home port to offshore deployment sector; Lump-sum marine transit and vessel mobilization charge.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Vessel charter mobilization fee is between 0 kEUR and 400 kEUR, inclusive.",
+          "role_name": "Offshore campaign logistics manager (LOG)",
+          "candidate_name": "Time-domain reflectometry and magnetometry ROV survey",
+          "other_candidate_names": [
+            "Distributed acoustic sensing and towed hydrophone array",
+            "Differential ground-wave radar and bathymetric sonar survey"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

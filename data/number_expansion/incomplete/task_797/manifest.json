@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_797",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "signaling_integration",
+        "power_resilience"
+      ],
+      "role_names": [
+        "Signaling integration engineer (SIG)",
+        "Power and environmental engineer (PWR)"
+      ],
+      "directory": "incomplete/task_797",
+      "profiles": [
+        {
+          "record_id": "rec_signaling_integration_A",
+          "role_id": "signaling_integration",
+          "candidate_id": "A",
+          "key": "SIG-INTR-0DY",
+          "boolean_predicate_id": "A_interlocking_interface_enabled",
+          "boolean_label": "Interlocking communication interface enabled",
+          "hidden_predicate_id": "A_handover_latency_ms",
+          "threshold_label": "RBC handover latency",
+          "threshold_aliases": [
+            "Radio block center switchover latency",
+            "Boundary handover delay"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "ms",
+          "partial_record_text": "SIG-INTR-0DY: Distributed Edge Architecture.Distributed Edge Architecture: Interlocking communication interface enabled = true .Source: Signaling integration test certificate; Scope: Primary railway electronic interlocking controller; Measurement: Whether the dedicated bidirectional communications interface with the radio block center is fully operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 700
+          },
+          "coarse_statement": "RBC handover latency is between 200 ms and 700 ms, inclusive.",
+          "role_name": "Signaling integration engineer (SIG)",
+          "candidate_name": "Distributed Edge Architecture",
+          "other_candidate_names": [
+            "Centralized Mainline Architecture",
+            "Hybrid Redundant Topology"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-6RG",
+          "hidden_predicate_id": "A_backup_power_autonomy_hours",
+          "threshold_label": "Backup power autonomy",
+          "threshold_aliases": [
+            "UPS autonomy duration",
+            "Emergency power endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-6RG: Distributed Edge Architecture.Distributed Edge Architecture: Lightning surge protection certified = true .Source: Electrical safety inspection ledger; Scope: Incoming 25 kV traction substation interface lines; Measurement: Whether Type-1 coordinated surge protection devices are formally certified against lightning transients.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup power autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Power and environmental engineer (PWR)",
+          "candidate_name": "Distributed Edge Architecture",
+          "other_candidate_names": [
+            "Centralized Mainline Architecture",
+            "Hybrid Redundant Topology"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "signaling_integration",
+        "power_resilience",
+        "telecom_optical"
+      ],
+      "role_names": [
+        "Signaling integration engineer (SIG)",
+        "Power and environmental engineer (PWR)",
+        "Optical telecommunications lead (OPT)"
+      ],
+      "directory": "incomplete/task_797",
+      "profiles": [
+        {
+          "record_id": "rec_signaling_integration_A",
+          "role_id": "signaling_integration",
+          "candidate_id": "A",
+          "key": "SIG-INTR-0DY",
+          "boolean_predicate_id": "A_interlocking_interface_enabled",
+          "boolean_label": "Interlocking communication interface enabled",
+          "hidden_predicate_id": "A_handover_latency_ms",
+          "threshold_label": "RBC handover latency",
+          "threshold_aliases": [
+            "Radio block center switchover latency",
+            "Boundary handover delay"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "ms",
+          "partial_record_text": "SIG-INTR-0DY: Distributed Edge Architecture.Distributed Edge Architecture: Interlocking communication interface enabled = true .Source: Signaling integration test certificate; Scope: Primary railway electronic interlocking controller; Measurement: Whether the dedicated bidirectional communications interface with the radio block center is fully operational.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 200,
+            "upper": 700
+          },
+          "coarse_statement": "RBC handover latency is between 200 ms and 700 ms, inclusive.",
+          "role_name": "Signaling integration engineer (SIG)",
+          "candidate_name": "Distributed Edge Architecture",
+          "other_candidate_names": [
+            "Centralized Mainline Architecture",
+            "Hybrid Redundant Topology"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_resilience_A",
+          "role_id": "power_resilience",
+          "candidate_id": "A",
+          "key": "PWR-GRID-6RG",
+          "hidden_predicate_id": "A_backup_power_autonomy_hours",
+          "threshold_label": "Backup power autonomy",
+          "threshold_aliases": [
+            "UPS autonomy duration",
+            "Emergency power endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GRID-6RG: Distributed Edge Architecture.Distributed Edge Architecture: Lightning surge protection certified = true .Source: Electrical safety inspection ledger; Scope: Incoming 25 kV traction substation interface lines; Measurement: Whether Type-1 coordinated surge protection devices are formally certified against lightning transients.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Backup power autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Power and environmental engineer (PWR)",
+          "candidate_name": "Distributed Edge Architecture",
+          "other_candidate_names": [
+            "Centralized Mainline Architecture",
+            "Hybrid Redundant Topology"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecom_optical_A",
+          "role_id": "telecom_optical",
+          "candidate_id": "A",
+          "key": "OPT-FIBER-ES4",
+          "hidden_predicate_id": "A_primary_optical_telemetry_bandwidth",
+          "threshold_label": "Primary optical telemetry bandwidth",
+          "threshold_aliases": [
+            "Fiber telemetry bandwidth",
+            "Primary optical data rate"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "Mbit/s",
+          "partial_record_text": "OPT-FIBER-ES4: Distributed Edge Architecture. The record covers Primary optical telemetry bandwidth. Optical network throughput validation; Dedicated fiber optic telemetry channels to centralized traffic control; Sustained fault-free data transmission capacity allocated to train control telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary optical telemetry bandwidth is between 100 Mbit/s and 700 Mbit/s, inclusive.",
+          "role_name": "Optical telecommunications lead (OPT)",
+          "candidate_name": "Distributed Edge Architecture",
+          "other_candidate_names": [
+            "Centralized Mainline Architecture",
+            "Hybrid Redundant Topology"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

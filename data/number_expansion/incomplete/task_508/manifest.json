@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_508",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_lead",
+        "hydrogeology_lead"
+      ],
+      "role_names": [
+        "Environmental impact assessment lead (ENV)",
+        "Hydrogeological engineering lead (GEO)"
+      ],
+      "directory": "incomplete/task_508",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_lead_A",
+          "role_id": "environmental_lead",
+          "candidate_id": "A",
+          "key": "ENV-SEIS-N1O",
+          "boolean_predicate_id": "A_microseismic_array_active",
+          "boolean_label": "Active baseline microseismic monitoring array",
+          "hidden_predicate_id": "A_baseline_vibration_velocity",
+          "threshold_label": "Baseline ambient ground vibration velocity",
+          "threshold_aliases": [
+            "Peak particle velocity baseline",
+            "Ambient ground vibration"
+          ],
+          "threshold_value": 0.3,
+          "threshold_unit": "mm/s",
+          "partial_record_text": "ENV-SEIS-N1O: Rheintal Fault Basin.Rheintal Fault Basin: Active baseline microseismic monitoring array = true .Source: Seismic telemetry network operation report; Scope: Continuous passive seismic sensor stations around wellhead; Measurement: Verification of continuous live data stream connectivity from all borehole geophones.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "coarse_statement": "Baseline ambient ground vibration velocity is at most 2 mm/s.",
+          "role_name": "Environmental impact assessment lead (ENV)",
+          "candidate_name": "Rheintal Fault Basin",
+          "other_candidate_names": [
+            "Landau Sandstone Terrace",
+            "Bruchsal Bedrock Outlier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrogeology_lead_A",
+          "role_id": "hydrogeology_lead",
+          "candidate_id": "A",
+          "key": "GEO-RES-LT5",
+          "hidden_predicate_id": "A_reservoir_temperature",
+          "threshold_label": "Geothermal reservoir bottom-hole temperature",
+          "threshold_aliases": [
+            "Reservoir temperature",
+            "Bottom-hole formation temperature"
+          ],
+          "threshold_value": 155,
+          "threshold_unit": "degC",
+          "partial_record_text": "GEO-RES-LT5: Rheintal Fault Basin.Measurement basis: measured after complete thermal shut-in equilibration.Rheintal Fault Basin: Fault slip stability certification = true .Source: Geomechanical stress field analysis; Scope: Major bounding faults within 5 km radius; Measurement: Formal validation that critically stressed fault slip risk is within safe threshold.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Geothermal reservoir bottom-hole temperature is at most 300 degC.",
+          "role_name": "Hydrogeological engineering lead (GEO)",
+          "candidate_name": "Rheintal Fault Basin",
+          "other_candidate_names": [
+            "Landau Sandstone Terrace",
+            "Bruchsal Bedrock Outlier"
+          ],
+          "context_value": "measured after complete thermal shut-in equilibration",
+          "other_context_values": [
+            "measured before complete thermal shut-in equilibration"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_lead",
+        "hydrogeology_lead",
+        "infrastructure_lead"
+      ],
+      "role_names": [
+        "Environmental impact assessment lead (ENV)",
+        "Hydrogeological engineering lead (GEO)",
+        "Surface infrastructure lead (INFR)"
+      ],
+      "directory": "incomplete/task_508",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_lead_A",
+          "role_id": "environmental_lead",
+          "candidate_id": "A",
+          "key": "ENV-SEIS-N1O",
+          "boolean_predicate_id": "A_microseismic_array_active",
+          "boolean_label": "Active baseline microseismic monitoring array",
+          "hidden_predicate_id": "A_baseline_vibration_velocity",
+          "threshold_label": "Baseline ambient ground vibration velocity",
+          "threshold_aliases": [
+            "Peak particle velocity baseline",
+            "Ambient ground vibration"
+          ],
+          "threshold_value": 0.3,
+          "threshold_unit": "mm/s",
+          "partial_record_text": "ENV-SEIS-N1O: Rheintal Fault Basin.Rheintal Fault Basin: Active baseline microseismic monitoring array = true .Source: Seismic telemetry network operation report; Scope: Continuous passive seismic sensor stations around wellhead; Measurement: Verification of continuous live data stream connectivity from all borehole geophones.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 2
+          },
+          "coarse_statement": "Baseline ambient ground vibration velocity is at most 2 mm/s.",
+          "role_name": "Environmental impact assessment lead (ENV)",
+          "candidate_name": "Rheintal Fault Basin",
+          "other_candidate_names": [
+            "Landau Sandstone Terrace",
+            "Bruchsal Bedrock Outlier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrogeology_lead_A",
+          "role_id": "hydrogeology_lead",
+          "candidate_id": "A",
+          "key": "GEO-RES-LT5",
+          "hidden_predicate_id": "A_reservoir_temperature",
+          "threshold_label": "Geothermal reservoir bottom-hole temperature",
+          "threshold_aliases": [
+            "Reservoir temperature",
+            "Bottom-hole formation temperature"
+          ],
+          "threshold_value": 155,
+          "threshold_unit": "degC",
+          "partial_record_text": "GEO-RES-LT5: Rheintal Fault Basin.Measurement basis: measured after complete thermal shut-in equilibration.Rheintal Fault Basin: Fault slip stability certification = true .Source: Geomechanical stress field analysis; Scope: Major bounding faults within 5 km radius; Measurement: Formal validation that critically stressed fault slip risk is within safe threshold.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Geothermal reservoir bottom-hole temperature is at most 300 degC.",
+          "role_name": "Hydrogeological engineering lead (GEO)",
+          "candidate_name": "Rheintal Fault Basin",
+          "other_candidate_names": [
+            "Landau Sandstone Terrace",
+            "Bruchsal Bedrock Outlier"
+          ],
+          "context_value": "measured after complete thermal shut-in equilibration",
+          "other_context_values": [
+            "measured before complete thermal shut-in equilibration"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_lead_A",
+          "role_id": "infrastructure_lead",
+          "candidate_id": "A",
+          "key": "INFR-CIVIL-JP9",
+          "hidden_predicate_id": "A_construction_runoff_effluent",
+          "threshold_label": "Site construction runoff volume",
+          "threshold_aliases": [
+            "Civil wash wastewater volume",
+            "Pad runoff effluent"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "m3",
+          "partial_record_text": "INFR-CIVIL-JP9: Rheintal Fault Basin. The record covers Site construction runoff volume. Civil site drainage engineering report; Well pad grading and foundation containment basin; Forecast industrial wash wastewater and treated stormwater runoff volume.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Site construction runoff volume is at most 600 m3.",
+          "role_name": "Surface infrastructure lead (INFR)",
+          "candidate_name": "Rheintal Fault Basin",
+          "other_candidate_names": [
+            "Landau Sandstone Terrace",
+            "Bruchsal Bedrock Outlier"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

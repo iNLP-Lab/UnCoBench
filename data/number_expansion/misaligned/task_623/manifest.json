@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_623",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_direction",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Supply chain and site logistics manager (LOG)",
+        "Structural engineering lead (ENG)"
+      ],
+      "directory": "number_expansion/misaligned/task_623/k2",
+      "error_profiles": [
+        {
+          "role_name": "Supply chain and site logistics manager (LOG)",
+          "target_key": "LOG-TRANS-NQL",
+          "alternate_key": "LOG-CRANE-WSF",
+          "target_context": "Model Release 2.0",
+          "alternate_context": "Model Release 3.0",
+          "candidate": "Cascade Engineered Glulam",
+          "other_candidates": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "staging_transit_window",
+              "value": 30,
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ]
+            },
+            {
+              "topic": "max_fiber_deflection",
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ]
+            },
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ]
+            },
+            {
+              "topic": "cnc_tolerance_compliant",
+              "label": "Computerized joinery tolerance compliant",
+              "aliases": [
+                "CNC machining precision compliance",
+                "Automated joinery fit tolerance approval"
+              ]
+            },
+            {
+              "topic": "staging_transit_window",
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ]
+            },
+            {
+              "topic": "contract_surety_bond_posted",
+              "label": "Contract surety bond posted",
+              "aliases": [
+                "Surety performance bond verification",
+                "Performance and payment bond posting"
+              ]
+            },
+            {
+              "topic": "total_prefabrication_expenditure",
+              "label": "Total prefabrication contract expenditure",
+              "aliases": [
+                "Committed prefabrication package cost",
+                "Total turnkey timber fabrication price"
+              ]
+            },
+            {
+              "topic": "certified_delivered_volume",
+              "label": "Certified delivered timber volume",
+              "aliases": [
+                "Guaranteed finished structural volume",
+                "Certified net timber yield"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural engineering lead (ENG)",
+          "target_key": "ENG-STRUC-Y3S",
+          "alternate_key": "ENG-STRUC-5JR",
+          "target_context": "Engineering Specification Revision 3",
+          "alternate_context": "Engineering Specification Revision 4",
+          "candidate": "Cascade Engineered Glulam",
+          "other_candidates": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "max_fiber_deflection",
+              "value": 12,
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ],
+              "unit": "mm"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "value": true,
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ]
+            },
+            {
+              "topic": "max_fiber_deflection",
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ]
+            },
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ]
+            },
+            {
+              "topic": "cnc_tolerance_compliant",
+              "label": "Computerized joinery tolerance compliant",
+              "aliases": [
+                "CNC machining precision compliance",
+                "Automated joinery fit tolerance approval"
+              ]
+            },
+            {
+              "topic": "staging_transit_window",
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ]
+            },
+            {
+              "topic": "contract_surety_bond_posted",
+              "label": "Contract surety bond posted",
+              "aliases": [
+                "Surety performance bond verification",
+                "Performance and payment bond posting"
+              ]
+            },
+            {
+              "topic": "total_prefabrication_expenditure",
+              "label": "Total prefabrication contract expenditure",
+              "aliases": [
+                "Committed prefabrication package cost",
+                "Total turnkey timber fabrication price"
+              ]
+            },
+            {
+              "topic": "certified_delivered_volume",
+              "label": "Certified delivered timber volume",
+              "aliases": [
+                "Guaranteed finished structural volume",
+                "Certified net timber yield"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_direction",
+        "structural_engineering",
+        "forestry_compliance"
+      ],
+      "role_names": [
+        "Supply chain and site logistics manager (LOG)",
+        "Structural engineering lead (ENG)",
+        "Forestry and sustainability compliance officer (FOR)"
+      ],
+      "directory": "number_expansion/misaligned/task_623/k3",
+      "error_profiles": [
+        {
+          "role_name": "Supply chain and site logistics manager (LOG)",
+          "target_key": "LOG-TRANS-NQL",
+          "alternate_key": "LOG-CRANE-WSF",
+          "target_context": "Model Release 2.0",
+          "alternate_context": "Model Release 3.0",
+          "candidate": "Cascade Engineered Glulam",
+          "other_candidates": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "staging_transit_window",
+              "value": 30,
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ]
+            },
+            {
+              "topic": "max_fiber_deflection",
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ]
+            },
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ]
+            },
+            {
+              "topic": "cnc_tolerance_compliant",
+              "label": "Computerized joinery tolerance compliant",
+              "aliases": [
+                "CNC machining precision compliance",
+                "Automated joinery fit tolerance approval"
+              ]
+            },
+            {
+              "topic": "staging_transit_window",
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ]
+            },
+            {
+              "topic": "contract_surety_bond_posted",
+              "label": "Contract surety bond posted",
+              "aliases": [
+                "Surety performance bond verification",
+                "Performance and payment bond posting"
+              ]
+            },
+            {
+              "topic": "total_prefabrication_expenditure",
+              "label": "Total prefabrication contract expenditure",
+              "aliases": [
+                "Committed prefabrication package cost",
+                "Total turnkey timber fabrication price"
+              ]
+            },
+            {
+              "topic": "certified_delivered_volume",
+              "label": "Certified delivered timber volume",
+              "aliases": [
+                "Guaranteed finished structural volume",
+                "Certified net timber yield"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural engineering lead (ENG)",
+          "target_key": "ENG-STRUC-Y3S",
+          "alternate_key": "ENG-STRUC-5JR",
+          "target_context": "Engineering Specification Revision 3",
+          "alternate_context": "Engineering Specification Revision 4",
+          "candidate": "Cascade Engineered Glulam",
+          "other_candidates": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "numeric": [
+            {
+              "topic": "max_fiber_deflection",
+              "value": 12,
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ],
+              "unit": "mm"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "value": true,
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ]
+            },
+            {
+              "topic": "max_fiber_deflection",
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ]
+            },
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ]
+            },
+            {
+              "topic": "cnc_tolerance_compliant",
+              "label": "Computerized joinery tolerance compliant",
+              "aliases": [
+                "CNC machining precision compliance",
+                "Automated joinery fit tolerance approval"
+              ]
+            },
+            {
+              "topic": "staging_transit_window",
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ]
+            },
+            {
+              "topic": "contract_surety_bond_posted",
+              "label": "Contract surety bond posted",
+              "aliases": [
+                "Surety performance bond verification",
+                "Performance and payment bond posting"
+              ]
+            },
+            {
+              "topic": "total_prefabrication_expenditure",
+              "label": "Total prefabrication contract expenditure",
+              "aliases": [
+                "Committed prefabrication package cost",
+                "Total turnkey timber fabrication price"
+              ]
+            },
+            {
+              "topic": "certified_delivered_volume",
+              "label": "Certified delivered timber volume",
+              "aliases": [
+                "Guaranteed finished structural volume",
+                "Certified net timber yield"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Forestry and sustainability compliance officer (FOR)",
+          "target_key": "FOR-CHAIN-MS2",
+          "alternate_key": "FOR-CHAIN-YZX",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Cascade Engineered Glulam",
+          "other_candidates": [
+            "Olympic Timber Technologies",
+            "Salish Panelworks Consortium"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "value": true,
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "seismic_fatigue_tested",
+              "label": "Seismic fatigue testing certified",
+              "aliases": [
+                "Seismic fatigue testing completion",
+                "Reverse-cyclic fatigue certification"
+              ]
+            },
+            {
+              "topic": "max_fiber_deflection",
+              "label": "Maximum fiber deflection",
+              "aliases": [
+                "Peak cyclic fiber deflection",
+                "Dynamic flexural deflection"
+              ]
+            },
+            {
+              "topic": "fsc_chain_of_custody_verified",
+              "label": "FSC chain-of-custody certified",
+              "aliases": [
+                "Forest Stewardship Council certification",
+                "Chain-of-custody sustainability verification"
+              ]
+            },
+            {
+              "topic": "cnc_tolerance_compliant",
+              "label": "Computerized joinery tolerance compliant",
+              "aliases": [
+                "CNC machining precision compliance",
+                "Automated joinery fit tolerance approval"
+              ]
+            },
+            {
+              "topic": "staging_transit_window",
+              "label": "Guaranteed staging transit window",
+              "aliases": [
+                "Site delivery transit window",
+                "Dispatch to site transit duration"
+              ]
+            },
+            {
+              "topic": "contract_surety_bond_posted",
+              "label": "Contract surety bond posted",
+              "aliases": [
+                "Surety performance bond verification",
+                "Performance and payment bond posting"
+              ]
+            },
+            {
+              "topic": "total_prefabrication_expenditure",
+              "label": "Total prefabrication contract expenditure",
+              "aliases": [
+                "Committed prefabrication package cost",
+                "Total turnkey timber fabrication price"
+              ]
+            },
+            {
+              "topic": "certified_delivered_volume",
+              "label": "Certified delivered timber volume",
+              "aliases": [
+                "Guaranteed finished structural volume",
+                "Certified net timber yield"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

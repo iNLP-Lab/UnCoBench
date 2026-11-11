@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_458",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_engineering",
+        "port_logistics"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (MENG)",
+        "Harbor logistics coordinator (PORT)"
+      ],
+      "directory": "incomplete/task_458",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MENG-STN-23O",
+          "boolean_predicate_id": "A_heave_compensation_enabled",
+          "boolean_label": "Active marine heave compensation system enabled",
+          "hidden_predicate_id": "A_deck_motion_acceleration",
+          "threshold_label": "Deck motion heave peak acceleration",
+          "threshold_aliases": [
+            "Heave peak acceleration",
+            "Peak deck acceleration"
+          ],
+          "threshold_value": 1.1,
+          "threshold_unit": "m/s2",
+          "partial_record_text": "MENG-STN-23O: North Sea Sentinel.North Sea Sentinel: Dynamic positioning class 2 certification = true .Source: Classification society certificate of survey; Scope: Vessel automated dynamic positioning control systems; Measurement: Confirmation of valid class notation for redundant dynamic positioning.North Sea Sentinel: Active marine heave compensation system enabled = true .Source: Motion suppression equipment status report; Scope: Vessel motion dampening and active gangway system; Measurement: Activation status of active hydraulic heave compensation controls.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 3
+          },
+          "coarse_statement": "Deck motion heave peak acceleration is between 0.5 m/s2 and 3 m/s2, inclusive.",
+          "role_name": "Marine engineering superintendent (MENG)",
+          "candidate_name": "North Sea Sentinel",
+          "other_candidate_names": [
+            "Highland Resolute",
+            "Pacific Valkyrie"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "PORT-BERTH-UW8",
+          "hidden_predicate_id": "A_transit_lounge_capacity",
+          "threshold_label": "Sheltered transit lounge capacity",
+          "threshold_aliases": [
+            "Sheltered lounge seating",
+            "Transit seating capacity"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "persons",
+          "partial_record_text": "PORT-BERTH-UW8: North Sea Sentinel.North Sea Sentinel: Harbor authority berthing slot clearance = true .Source: Port authority master schedule; Scope: Deepwater emergency discharge quay 4; Measurement: Guaranteed 24-hour priority berthing window reservation confirmation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sheltered transit lounge capacity is between 0 persons and 300 persons, inclusive.",
+          "role_name": "Harbor logistics coordinator (PORT)",
+          "candidate_name": "North Sea Sentinel",
+          "other_candidate_names": [
+            "Highland Resolute",
+            "Pacific Valkyrie"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_engineering",
+        "port_logistics",
+        "medical_operations"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (MENG)",
+        "Harbor logistics coordinator (PORT)",
+        "Offshore medical operations director (MED)"
+      ],
+      "directory": "incomplete/task_458",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MENG-STN-23O",
+          "boolean_predicate_id": "A_heave_compensation_enabled",
+          "boolean_label": "Active marine heave compensation system enabled",
+          "hidden_predicate_id": "A_deck_motion_acceleration",
+          "threshold_label": "Deck motion heave peak acceleration",
+          "threshold_aliases": [
+            "Heave peak acceleration",
+            "Peak deck acceleration"
+          ],
+          "threshold_value": 1.1,
+          "threshold_unit": "m/s2",
+          "partial_record_text": "MENG-STN-23O: North Sea Sentinel.North Sea Sentinel: Dynamic positioning class 2 certification = true .Source: Classification society certificate of survey; Scope: Vessel automated dynamic positioning control systems; Measurement: Confirmation of valid class notation for redundant dynamic positioning.North Sea Sentinel: Active marine heave compensation system enabled = true .Source: Motion suppression equipment status report; Scope: Vessel motion dampening and active gangway system; Measurement: Activation status of active hydraulic heave compensation controls.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 3
+          },
+          "coarse_statement": "Deck motion heave peak acceleration is between 0.5 m/s2 and 3 m/s2, inclusive.",
+          "role_name": "Marine engineering superintendent (MENG)",
+          "candidate_name": "North Sea Sentinel",
+          "other_candidate_names": [
+            "Highland Resolute",
+            "Pacific Valkyrie"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "PORT-BERTH-UW8",
+          "hidden_predicate_id": "A_transit_lounge_capacity",
+          "threshold_label": "Sheltered transit lounge capacity",
+          "threshold_aliases": [
+            "Sheltered lounge seating",
+            "Transit seating capacity"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "persons",
+          "partial_record_text": "PORT-BERTH-UW8: North Sea Sentinel.North Sea Sentinel: Harbor authority berthing slot clearance = true .Source: Port authority master schedule; Scope: Deepwater emergency discharge quay 4; Measurement: Guaranteed 24-hour priority berthing window reservation confirmation.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sheltered transit lounge capacity is between 0 persons and 300 persons, inclusive.",
+          "role_name": "Harbor logistics coordinator (PORT)",
+          "candidate_name": "North Sea Sentinel",
+          "other_candidate_names": [
+            "Highland Resolute",
+            "Pacific Valkyrie"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_operations_A",
+          "role_id": "medical_operations",
+          "candidate_id": "A",
+          "key": "MED-CARE-Z81",
+          "hidden_predicate_id": "A_deck_bunk_capacity",
+          "threshold_label": "Survivor deck bunk capacity",
+          "threshold_aliases": [
+            "Medical bunk capacity",
+            "Survivor bunk count"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "persons",
+          "partial_record_text": "MED-CARE-Z81: North Sea Sentinel.Fleet specification version: Specification Version 2.North Sea Sentinel: Certified hyperbaric rescue reception capability = true .Source: Medical facility classification annex; Scope: Onboard hyperbaric decompression chamber interface; Measurement: Presence of certified mating trunk for self-propelled hyperbaric lifeboats.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Survivor deck bunk capacity is between 0 persons and 400 persons, inclusive.",
+          "role_name": "Offshore medical operations director (MED)",
+          "candidate_name": "North Sea Sentinel",
+          "other_candidate_names": [
+            "Highland Resolute",
+            "Pacific Valkyrie"
+          ],
+          "context_value": "Specification Version 2",
+          "other_context_values": [
+            "Specification Version 3"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

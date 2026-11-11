@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_876",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "energy_systems"
+      ],
+      "role_names": [
+        "Environmental Compliance Officer (ENV)",
+        "Energy Systems Lead (ENRG)"
+      ],
+      "directory": "incomplete/task_876",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ECO-4MG",
+          "boolean_predicate_id": "A_heavy_metal_stabilization_enabled",
+          "boolean_label": "Heavy metal precipitate stabilization enabled",
+          "hidden_predicate_id": "A_effluent_sulfate_concentration",
+          "threshold_label": "Effluent sulfate concentration",
+          "threshold_aliases": [
+            "Condensate sulfate level",
+            "Recovered water sulfate content"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "ENV-ECO-4MG: Mechanical vapor recompression system.Mechanical vapor recompression system: Heavy metal precipitate stabilization enabled = true .Source: Environmental permit compliance checklist; Scope: Crystallizer solid residue discharge hopper; Measurement: Whether automated pozzolanic binder stabilization is installed and enabled for solid waste.",
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "candidate_name": "Mechanical vapor recompression system",
+          "other_candidate_names": [
+            "Multi-stage thermal flash concentrator",
+            "Electrodialysis crystallization train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_energy_systems_A",
+          "role_id": "energy_systems",
+          "candidate_id": "A",
+          "key": "ENRG-POW-UX8",
+          "hidden_predicate_id": "A_peak_electrical_demand",
+          "threshold_label": "Peak electrical demand",
+          "threshold_aliases": [
+            "Peak electric power",
+            "Maximum electrical load"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "kVA",
+          "partial_record_text": "ENRG-POW-UX8: Mechanical vapor recompression system.Mechanical vapor recompression system: Daily thermal energy consumption = 18000 kWh.Source: Thermal energy balance model; Scope: 24-hour continuous baseline processing cycle; Measurement: Total cumulative thermal energy supplied via low-pressure steam and thermo-compression.",
+          "role_name": "Energy Systems Lead (ENRG)",
+          "candidate_name": "Mechanical vapor recompression system",
+          "other_candidate_names": [
+            "Multi-stage thermal flash concentrator",
+            "Electrodialysis crystallization train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "energy_systems",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Environmental Compliance Officer (ENV)",
+        "Energy Systems Lead (ENRG)",
+        "Process Engineering Lead (PROC)"
+      ],
+      "directory": "incomplete/task_876",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_compliance_A",
+          "role_id": "environmental_compliance",
+          "candidate_id": "A",
+          "key": "ENV-ECO-4MG",
+          "boolean_predicate_id": "A_heavy_metal_stabilization_enabled",
+          "boolean_label": "Heavy metal precipitate stabilization enabled",
+          "hidden_predicate_id": "A_effluent_sulfate_concentration",
+          "threshold_label": "Effluent sulfate concentration",
+          "threshold_aliases": [
+            "Condensate sulfate level",
+            "Recovered water sulfate content"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "ENV-ECO-4MG: Mechanical vapor recompression system.Mechanical vapor recompression system: Heavy metal precipitate stabilization enabled = true .Source: Environmental permit compliance checklist; Scope: Crystallizer solid residue discharge hopper; Measurement: Whether automated pozzolanic binder stabilization is installed and enabled for solid waste.",
+          "role_name": "Environmental Compliance Officer (ENV)",
+          "candidate_name": "Mechanical vapor recompression system",
+          "other_candidate_names": [
+            "Multi-stage thermal flash concentrator",
+            "Electrodialysis crystallization train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_energy_systems_A",
+          "role_id": "energy_systems",
+          "candidate_id": "A",
+          "key": "ENRG-POW-UX8",
+          "hidden_predicate_id": "A_peak_electrical_demand",
+          "threshold_label": "Peak electrical demand",
+          "threshold_aliases": [
+            "Peak electric power",
+            "Maximum electrical load"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "kVA",
+          "partial_record_text": "ENRG-POW-UX8: Mechanical vapor recompression system.Mechanical vapor recompression system: Daily thermal energy consumption = 18000 kWh.Source: Thermal energy balance model; Scope: 24-hour continuous baseline processing cycle; Measurement: Total cumulative thermal energy supplied via low-pressure steam and thermo-compression.",
+          "role_name": "Energy Systems Lead (ENRG)",
+          "candidate_name": "Mechanical vapor recompression system",
+          "other_candidate_names": [
+            "Multi-stage thermal flash concentrator",
+            "Electrodialysis crystallization train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PROC-PRC-A76",
+          "hidden_predicate_id": "A_daily_distillate_yield",
+          "threshold_label": "Daily distillate yield",
+          "threshold_aliases": [
+            "Daily purified water output",
+            "Condensate recovery volume"
+          ],
+          "threshold_value": 600,
+          "threshold_unit": "m3",
+          "partial_record_text": "PROC-PRC-A76: Mechanical vapor recompression system.Mechanical vapor recompression system: Brine pre-treatment verified = true .Source: Pilot softening trial sign-off; Scope: Influent raw brine softening stream; Measurement: Formal validation that chemical descaling and clarification remove scaling ions before thermal concentration.",
+          "role_name": "Process Engineering Lead (PROC)",
+          "candidate_name": "Mechanical vapor recompression system",
+          "other_candidate_names": [
+            "Multi-stage thermal flash concentrator",
+            "Electrodialysis crystallization train"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

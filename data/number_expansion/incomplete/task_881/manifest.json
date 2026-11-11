@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_881",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "reservoir_engineering",
+        "grid_integration"
+      ],
+      "role_names": [
+        "Reservoir Engineering Lead (RES)",
+        "District Energy Grid Lead (GRID)"
+      ],
+      "directory": "incomplete/task_881",
+      "profiles": [
+        {
+          "record_id": "rec_reservoir_engineering_A",
+          "role_id": "reservoir_engineering",
+          "candidate_id": "A",
+          "key": "RES-FLOW-75L",
+          "boolean_predicate_id": "A_seismic_monitoring_active",
+          "boolean_label": "Downhole seismic monitoring activation",
+          "hidden_predicate_id": "A_wellhead_flow_rate",
+          "threshold_label": "Continuous wellhead flow rate",
+          "threshold_aliases": [
+            "Production flow rate",
+            "Sustained brine discharge rate"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "RES-FLOW-75L: North Graben Hydrothermal Plan.North Graben Hydrothermal Plan: Downhole seismic monitoring activation = true .Source: Geophysical instrumentation commissioning certificate; Scope: Multi-station borehole geophone network; Measurement: Operational readiness confirmation of continuous induced seismicity telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous wellhead flow rate is between 50 m3/h and 300 m3/h, inclusive.",
+          "role_name": "Reservoir Engineering Lead (RES)",
+          "candidate_name": "North Graben Hydrothermal Plan",
+          "other_candidate_names": [
+            "East Fault Doublet Plan",
+            "South Basin Sedimentary Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_integration_A",
+          "role_id": "grid_integration",
+          "candidate_id": "A",
+          "key": "GRID-HEAT-Y8G",
+          "hidden_predicate_id": "A_production_pump_power",
+          "threshold_label": "Production pump drive power demand",
+          "threshold_aliases": [
+            "Downhole line-shaft pump power",
+            "Production wellhead pump power"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "kW",
+          "partial_record_text": "GRID-HEAT-Y8G: North Graben Hydrothermal Plan.Municipal district location: Chengdu.North Graben Hydrothermal Plan: District thermal grid connection clearance = true .Source: District heating utility technical clearance letter; Scope: Central distribution heat exchanger station tie-in point; Measurement: Formal verification of thermodynamic compatibility and feeder line pressure integration.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Production pump drive power demand is between 0 kW and 500 kW, inclusive.",
+          "role_name": "District Energy Grid Lead (GRID)",
+          "candidate_name": "North Graben Hydrothermal Plan",
+          "other_candidate_names": [
+            "East Fault Doublet Plan",
+            "South Basin Sedimentary Plan"
+          ],
+          "context_value": "Chengdu",
+          "other_context_values": [
+            "Wuhan"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "reservoir_engineering",
+        "grid_integration",
+        "reinjection_engineering"
+      ],
+      "role_names": [
+        "Reservoir Engineering Lead (RES)",
+        "District Energy Grid Lead (GRID)",
+        "Reinjection Hydraulics Lead (INJ)"
+      ],
+      "directory": "incomplete/task_881",
+      "profiles": [
+        {
+          "record_id": "rec_reservoir_engineering_A",
+          "role_id": "reservoir_engineering",
+          "candidate_id": "A",
+          "key": "RES-FLOW-75L",
+          "boolean_predicate_id": "A_seismic_monitoring_active",
+          "boolean_label": "Downhole seismic monitoring activation",
+          "hidden_predicate_id": "A_wellhead_flow_rate",
+          "threshold_label": "Continuous wellhead flow rate",
+          "threshold_aliases": [
+            "Production flow rate",
+            "Sustained brine discharge rate"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "m3/h",
+          "partial_record_text": "RES-FLOW-75L: North Graben Hydrothermal Plan.North Graben Hydrothermal Plan: Downhole seismic monitoring activation = true .Source: Geophysical instrumentation commissioning certificate; Scope: Multi-station borehole geophone network; Measurement: Operational readiness confirmation of continuous induced seismicity telemetry.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous wellhead flow rate is between 50 m3/h and 300 m3/h, inclusive.",
+          "role_name": "Reservoir Engineering Lead (RES)",
+          "candidate_name": "North Graben Hydrothermal Plan",
+          "other_candidate_names": [
+            "East Fault Doublet Plan",
+            "South Basin Sedimentary Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_integration_A",
+          "role_id": "grid_integration",
+          "candidate_id": "A",
+          "key": "GRID-HEAT-Y8G",
+          "hidden_predicate_id": "A_production_pump_power",
+          "threshold_label": "Production pump drive power demand",
+          "threshold_aliases": [
+            "Downhole line-shaft pump power",
+            "Production wellhead pump power"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "kW",
+          "partial_record_text": "GRID-HEAT-Y8G: North Graben Hydrothermal Plan.Municipal district location: Chengdu.North Graben Hydrothermal Plan: District thermal grid connection clearance = true .Source: District heating utility technical clearance letter; Scope: Central distribution heat exchanger station tie-in point; Measurement: Formal verification of thermodynamic compatibility and feeder line pressure integration.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Production pump drive power demand is between 0 kW and 500 kW, inclusive.",
+          "role_name": "District Energy Grid Lead (GRID)",
+          "candidate_name": "North Graben Hydrothermal Plan",
+          "other_candidate_names": [
+            "East Fault Doublet Plan",
+            "South Basin Sedimentary Plan"
+          ],
+          "context_value": "Chengdu",
+          "other_context_values": [
+            "Wuhan"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_reinjection_engineering_A",
+          "role_id": "reinjection_engineering",
+          "candidate_id": "A",
+          "key": "INJ-HYDR-7U5",
+          "hidden_predicate_id": "A_reinjection_pump_power",
+          "threshold_label": "Reinjection pump drive power demand",
+          "threshold_aliases": [
+            "High-pressure reinjection pump power",
+            "Injection booster drive power"
+          ],
+          "threshold_value": 175,
+          "threshold_unit": "kW",
+          "partial_record_text": "INJ-HYDR-7U5: North Graben Hydrothermal Plan.North Graben Hydrothermal Plan: Reinjection well hydraulic acceptance = true .Source: Reservoir return well hydraulic test protocol; Scope: Target injection formation wellhead and perforations; Measurement: Formal sign-off confirming injectivity index sufficiency without over-pressurization.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reinjection pump drive power demand is between 0 kW and 400 kW, inclusive.",
+          "role_name": "Reinjection Hydraulics Lead (INJ)",
+          "candidate_name": "North Graben Hydrothermal Plan",
+          "other_candidate_names": [
+            "East Fault Doublet Plan",
+            "South Basin Sedimentary Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

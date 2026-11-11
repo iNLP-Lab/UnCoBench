@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_561",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_engineering",
+        "wildland_fire_safety"
+      ],
+      "role_names": [
+        "Emergency facilities engineer (EFE)",
+        "Wildfire mitigation specialist (WMS)"
+      ],
+      "directory": "incomplete/task_561",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "EFE-POWR-92F",
+          "boolean_predicate_id": "A_generator_installed",
+          "boolean_label": "Auxiliary emergency generator installation",
+          "hidden_predicate_id": "A_generator_autonomous_runtime",
+          "threshold_label": "Standby power autonomous runtime",
+          "threshold_aliases": [
+            "Emergency generator fuel autonomy",
+            "Standby power runtime"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "EFE-POWR-92F: Nicola Valley Agriplex Facility.Nicola Valley Agriplex Facility: Auxiliary emergency generator installation = true .Source: Electrical plant commissioning register; Scope: Facility primary backup power enclosure; Measurement: Confirmation of operational on-site auxiliary diesel generation equipment.",
+          "role_name": "Emergency facilities engineer (EFE)",
+          "candidate_name": "Nicola Valley Agriplex Facility",
+          "other_candidate_names": [
+            "South Okanagan Event Center",
+            "Thompson River Regional Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildland_fire_safety_A",
+          "role_id": "wildland_fire_safety",
+          "candidate_id": "A",
+          "key": "WMS-DEFB-SXT",
+          "hidden_predicate_id": "A_perimeter_clearance_distance",
+          "threshold_label": "Defensible perimeter clearance distance",
+          "threshold_aliases": [
+            "Perimeter buffer distance",
+            "Defensible fire buffer"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "m",
+          "partial_record_text": "WMS-DEFB-SXT: Nicola Valley Agriplex Facility. The record covers Defensible perimeter clearance distance. Wildland-urban interface inspection report; Continuous non-combustible fuel break surrounding the facility structure; Minimum linear distance from exterior building walls to unmanaged combustible vegetation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Defensible perimeter clearance distance is at least 40 m.",
+          "role_name": "Wildfire mitigation specialist (WMS)",
+          "candidate_name": "Nicola Valley Agriplex Facility",
+          "other_candidate_names": [
+            "South Okanagan Event Center",
+            "Thompson River Regional Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_engineering",
+        "wildland_fire_safety",
+        "public_health"
+      ],
+      "role_names": [
+        "Emergency facilities engineer (EFE)",
+        "Wildfire mitigation specialist (WMS)",
+        "Public health sanitation officer (PHO)"
+      ],
+      "directory": "incomplete/task_561",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "EFE-POWR-92F",
+          "boolean_predicate_id": "A_generator_installed",
+          "boolean_label": "Auxiliary emergency generator installation",
+          "hidden_predicate_id": "A_generator_autonomous_runtime",
+          "threshold_label": "Standby power autonomous runtime",
+          "threshold_aliases": [
+            "Emergency generator fuel autonomy",
+            "Standby power runtime"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "EFE-POWR-92F: Nicola Valley Agriplex Facility.Nicola Valley Agriplex Facility: Auxiliary emergency generator installation = true .Source: Electrical plant commissioning register; Scope: Facility primary backup power enclosure; Measurement: Confirmation of operational on-site auxiliary diesel generation equipment.",
+          "role_name": "Emergency facilities engineer (EFE)",
+          "candidate_name": "Nicola Valley Agriplex Facility",
+          "other_candidate_names": [
+            "South Okanagan Event Center",
+            "Thompson River Regional Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildland_fire_safety_A",
+          "role_id": "wildland_fire_safety",
+          "candidate_id": "A",
+          "key": "WMS-DEFB-SXT",
+          "hidden_predicate_id": "A_perimeter_clearance_distance",
+          "threshold_label": "Defensible perimeter clearance distance",
+          "threshold_aliases": [
+            "Perimeter buffer distance",
+            "Defensible fire buffer"
+          ],
+          "threshold_value": 100,
+          "threshold_unit": "m",
+          "partial_record_text": "WMS-DEFB-SXT: Nicola Valley Agriplex Facility. The record covers Defensible perimeter clearance distance. Wildland-urban interface inspection report; Continuous non-combustible fuel break surrounding the facility structure; Minimum linear distance from exterior building walls to unmanaged combustible vegetation.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Defensible perimeter clearance distance is at least 40 m.",
+          "role_name": "Wildfire mitigation specialist (WMS)",
+          "candidate_name": "Nicola Valley Agriplex Facility",
+          "other_candidate_names": [
+            "South Okanagan Event Center",
+            "Thompson River Regional Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "PHO-HYGN-QFJ",
+          "hidden_predicate_id": "A_potable_water_storage",
+          "threshold_label": "Emergency potable water storage",
+          "threshold_aliases": [
+            "Potable water reserve",
+            "On-site water capacity"
+          ],
+          "threshold_value": 80000,
+          "threshold_unit": "L",
+          "partial_record_text": "PHO-HYGN-QFJ: Nicola Valley Agriplex Facility. The record covers Emergency potable water storage. Record context: June 2024. Municipal water utility storage inspection; Dedicated closed potable water holding reservoirs; Total usable volume of disinfected drinking water stored on site.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 35000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Emergency potable water storage is at least 35000 L.",
+          "role_name": "Public health sanitation officer (PHO)",
+          "candidate_name": "Nicola Valley Agriplex Facility",
+          "other_candidate_names": [
+            "South Okanagan Event Center",
+            "Thompson River Regional Pavilion"
+          ],
+          "context_value": "June 2024",
+          "other_context_values": [
+            "July 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

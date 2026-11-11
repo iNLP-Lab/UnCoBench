@@ -1,0 +1,548 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_088",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "commercial_contracts",
+        "water_quality_compliance"
+      ],
+      "role_names": [
+        "Commercial contracts manager (CCM)",
+        "Water quality compliance lead (WQC)"
+      ],
+      "directory": "number_expansion/misaligned/task_088/k2",
+      "error_profiles": [
+        {
+          "role_name": "Commercial contracts manager (CCM)",
+          "target_key": "CCM-BONDUTL-C5J",
+          "alternate_key": "CCM-ESCROW-QQF",
+          "target_context": "Production operating environment",
+          "alternate_context": "Commissioning trial environment",
+          "candidate": "Northumbrian Industrial Effluent Alliance",
+          "other_candidates": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "pumping_power",
+              "value": 1100,
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ],
+              "unit": "MWh"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "performance_bond_deposited",
+              "value": true,
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "metal_telemetry_active",
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ]
+            },
+            {
+              "topic": "effluent_cod",
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ]
+            },
+            {
+              "topic": "ea_discharge_permit",
+              "label": "UK Environment Agency discharge permit pre-approval",
+              "aliases": [
+                "EA discharge consent",
+                "Environment Agency permit validation"
+              ]
+            },
+            {
+              "topic": "dry_weather_capacity",
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ]
+            },
+            {
+              "topic": "iso14001_certified",
+              "label": "ISO 14001 environmental management certified",
+              "aliases": [
+                "ISO 14001 compliance",
+                "Accredited EMS certification"
+              ]
+            },
+            {
+              "topic": "performance_bond_deposited",
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ]
+            },
+            {
+              "topic": "aeration_power",
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ]
+            },
+            {
+              "topic": "pumping_power",
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Water quality compliance lead (WQC)",
+          "target_key": "WQC-TELEMETRY-IIT",
+          "alternate_key": "WQC-TELEMETRY-26U",
+          "target_context": "Production operating environment",
+          "alternate_context": "Pilot demonstration environment",
+          "candidate": "Northumbrian Industrial Effluent Alliance",
+          "other_candidates": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "effluent_cod",
+              "value": 110,
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ],
+              "unit": "mg/L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "metal_telemetry_active",
+              "value": true,
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "metal_telemetry_active",
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ]
+            },
+            {
+              "topic": "effluent_cod",
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ]
+            },
+            {
+              "topic": "ea_discharge_permit",
+              "label": "UK Environment Agency discharge permit pre-approval",
+              "aliases": [
+                "EA discharge consent",
+                "Environment Agency permit validation"
+              ]
+            },
+            {
+              "topic": "dry_weather_capacity",
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ]
+            },
+            {
+              "topic": "iso14001_certified",
+              "label": "ISO 14001 environmental management certified",
+              "aliases": [
+                "ISO 14001 compliance",
+                "Accredited EMS certification"
+              ]
+            },
+            {
+              "topic": "performance_bond_deposited",
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ]
+            },
+            {
+              "topic": "aeration_power",
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ]
+            },
+            {
+              "topic": "pumping_power",
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "commercial_contracts",
+        "water_quality_compliance",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Commercial contracts manager (CCM)",
+        "Water quality compliance lead (WQC)",
+        "Process engineering lead (PEL)"
+      ],
+      "directory": "number_expansion/misaligned/task_088/k3",
+      "error_profiles": [
+        {
+          "role_name": "Commercial contracts manager (CCM)",
+          "target_key": "CCM-BONDUTL-C5J",
+          "alternate_key": "CCM-ESCROW-QQF",
+          "target_context": "Production operating environment",
+          "alternate_context": "Commissioning trial environment",
+          "candidate": "Northumbrian Industrial Effluent Alliance",
+          "other_candidates": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "pumping_power",
+              "value": 1100,
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ],
+              "unit": "MWh"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "performance_bond_deposited",
+              "value": true,
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "metal_telemetry_active",
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ]
+            },
+            {
+              "topic": "effluent_cod",
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ]
+            },
+            {
+              "topic": "ea_discharge_permit",
+              "label": "UK Environment Agency discharge permit pre-approval",
+              "aliases": [
+                "EA discharge consent",
+                "Environment Agency permit validation"
+              ]
+            },
+            {
+              "topic": "dry_weather_capacity",
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ]
+            },
+            {
+              "topic": "iso14001_certified",
+              "label": "ISO 14001 environmental management certified",
+              "aliases": [
+                "ISO 14001 compliance",
+                "Accredited EMS certification"
+              ]
+            },
+            {
+              "topic": "performance_bond_deposited",
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ]
+            },
+            {
+              "topic": "aeration_power",
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ]
+            },
+            {
+              "topic": "pumping_power",
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Water quality compliance lead (WQC)",
+          "target_key": "WQC-TELEMETRY-IIT",
+          "alternate_key": "WQC-TELEMETRY-26U",
+          "target_context": "Production operating environment",
+          "alternate_context": "Pilot demonstration environment",
+          "candidate": "Northumbrian Industrial Effluent Alliance",
+          "other_candidates": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "effluent_cod",
+              "value": 110,
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ],
+              "unit": "mg/L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "metal_telemetry_active",
+              "value": true,
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "metal_telemetry_active",
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ]
+            },
+            {
+              "topic": "effluent_cod",
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ]
+            },
+            {
+              "topic": "ea_discharge_permit",
+              "label": "UK Environment Agency discharge permit pre-approval",
+              "aliases": [
+                "EA discharge consent",
+                "Environment Agency permit validation"
+              ]
+            },
+            {
+              "topic": "dry_weather_capacity",
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ]
+            },
+            {
+              "topic": "iso14001_certified",
+              "label": "ISO 14001 environmental management certified",
+              "aliases": [
+                "ISO 14001 compliance",
+                "Accredited EMS certification"
+              ]
+            },
+            {
+              "topic": "performance_bond_deposited",
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ]
+            },
+            {
+              "topic": "aeration_power",
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ]
+            },
+            {
+              "topic": "pumping_power",
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Process engineering lead (PEL)",
+          "target_key": "PEL-CAPSPEC-2KK",
+          "alternate_key": "PEL-CAPSPEC-Q1T",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Northumbrian Industrial Effluent Alliance",
+          "other_candidates": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "numeric": [
+            {
+              "topic": "dry_weather_capacity",
+              "value": 45000,
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ],
+              "unit": "m3/d"
+            },
+            {
+              "topic": "aeration_power",
+              "value": 2000,
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ],
+              "unit": "MWh"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "metal_telemetry_active",
+              "label": "Continuous online heavy metal monitoring enabled",
+              "aliases": [
+                "Continuous metal telemetry activation",
+                "Online metal detection operational status"
+              ]
+            },
+            {
+              "topic": "effluent_cod",
+              "label": "Effluent chemical oxygen demand",
+              "aliases": [
+                "Chemical oxygen demand level",
+                "Treated effluent COD"
+              ]
+            },
+            {
+              "topic": "ea_discharge_permit",
+              "label": "UK Environment Agency discharge permit pre-approval",
+              "aliases": [
+                "EA discharge consent",
+                "Environment Agency permit validation"
+              ]
+            },
+            {
+              "topic": "dry_weather_capacity",
+              "label": "Dry-weather treatment capacity",
+              "aliases": [
+                "Hydraulic dry-weather flow rate",
+                "Baseline daily treatment throughput"
+              ]
+            },
+            {
+              "topic": "iso14001_certified",
+              "label": "ISO 14001 environmental management certified",
+              "aliases": [
+                "ISO 14001 compliance",
+                "Accredited EMS certification"
+              ]
+            },
+            {
+              "topic": "performance_bond_deposited",
+              "label": "Performance bond deposit verified",
+              "aliases": [
+                "Surety bond clearance",
+                "Performance security deposit confirmation"
+              ]
+            },
+            {
+              "topic": "aeration_power",
+              "label": "Baseline aeration power consumption",
+              "aliases": [
+                "Aeration blower energy demand",
+                "Biological aeration electricity consumption"
+              ]
+            },
+            {
+              "topic": "pumping_power",
+              "label": "Auxiliary pumping power consumption",
+              "aliases": [
+                "Auxiliary lifting pump energy usage",
+                "Intake and recirculation pumping electricity"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

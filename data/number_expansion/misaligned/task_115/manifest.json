@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_115",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "terminal_dispatch",
+        "river_navigation"
+      ],
+      "role_names": [
+        "Terminal loading superintendent (DISP)",
+        "Danube navigation safety superintendent (NAV)"
+      ],
+      "directory": "number_expansion/misaligned/task_115/k2",
+      "error_profiles": [
+        {
+          "role_name": "Terminal loading superintendent (DISP)",
+          "target_key": "DISP-WINDOW-Y5I",
+          "alternate_key": "DISP-SILO-40F",
+          "target_context": "excluding mandatory conveyor inspection pauses",
+          "alternate_context": "including mandatory conveyor inspection pauses",
+          "candidate": "Galati Riverfront Silo Terminal",
+          "other_candidates": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "continuous_loading_duration",
+              "value": 24,
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "berthing_depth",
+              "label": "Quayside berthing depth",
+              "aliases": [
+                "Berth water depth",
+                "Quayside draft depth"
+              ]
+            },
+            {
+              "topic": "fumigation_certified",
+              "label": "Phytosanitary fumigation certified",
+              "aliases": [
+                "Fumigation certification",
+                "Cargo pest treatment certification"
+              ]
+            },
+            {
+              "topic": "clearance_delay_hours",
+              "label": "Average phytosanitary clearance delay",
+              "aliases": [
+                "Phytosanitary inspection delay",
+                "Quarantine clearance turnaround"
+              ]
+            },
+            {
+              "topic": "direct_rail_siding",
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ]
+            },
+            {
+              "topic": "tug_escort_clearance",
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ]
+            },
+            {
+              "topic": "dust_suppression_active",
+              "label": "Environmental dust suppression active",
+              "aliases": [
+                "Dust suppression system operational",
+                "Quayside aspiration active"
+              ]
+            },
+            {
+              "topic": "peak_loading_rate",
+              "label": "Peak grain loading rate",
+              "aliases": [
+                "Conveyor loading rate",
+                "Ship-loader peak throughput"
+              ]
+            },
+            {
+              "topic": "continuous_loading_duration",
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Danube navigation safety superintendent (NAV)",
+          "target_key": "NAV-TRANSIT-80H",
+          "alternate_key": "NAV-TRANSIT-TWO",
+          "target_context": "including harbor mooring assistance",
+          "alternate_context": "excluding harbor mooring assistance",
+          "candidate": "Galati Riverfront Silo Terminal",
+          "other_candidates": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "tug_escort_clearance",
+              "value": true,
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "berthing_depth",
+              "label": "Quayside berthing depth",
+              "aliases": [
+                "Berth water depth",
+                "Quayside draft depth"
+              ]
+            },
+            {
+              "topic": "fumigation_certified",
+              "label": "Phytosanitary fumigation certified",
+              "aliases": [
+                "Fumigation certification",
+                "Cargo pest treatment certification"
+              ]
+            },
+            {
+              "topic": "clearance_delay_hours",
+              "label": "Average phytosanitary clearance delay",
+              "aliases": [
+                "Phytosanitary inspection delay",
+                "Quarantine clearance turnaround"
+              ]
+            },
+            {
+              "topic": "direct_rail_siding",
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ]
+            },
+            {
+              "topic": "tug_escort_clearance",
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ]
+            },
+            {
+              "topic": "dust_suppression_active",
+              "label": "Environmental dust suppression active",
+              "aliases": [
+                "Dust suppression system operational",
+                "Quayside aspiration active"
+              ]
+            },
+            {
+              "topic": "peak_loading_rate",
+              "label": "Peak grain loading rate",
+              "aliases": [
+                "Conveyor loading rate",
+                "Ship-loader peak throughput"
+              ]
+            },
+            {
+              "topic": "continuous_loading_duration",
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "terminal_dispatch",
+        "river_navigation",
+        "rail_logistics"
+      ],
+      "role_names": [
+        "Terminal loading superintendent (DISP)",
+        "Danube navigation safety superintendent (NAV)",
+        "Hinterland railway coordinator (RAIL)"
+      ],
+      "directory": "number_expansion/misaligned/task_115/k3",
+      "error_profiles": [
+        {
+          "role_name": "Terminal loading superintendent (DISP)",
+          "target_key": "DISP-WINDOW-Y5I",
+          "alternate_key": "DISP-SILO-40F",
+          "target_context": "excluding mandatory conveyor inspection pauses",
+          "alternate_context": "including mandatory conveyor inspection pauses",
+          "candidate": "Galati Riverfront Silo Terminal",
+          "other_candidates": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "numeric": [
+            {
+              "topic": "continuous_loading_duration",
+              "value": 24,
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "berthing_depth",
+              "label": "Quayside berthing depth",
+              "aliases": [
+                "Berth water depth",
+                "Quayside draft depth"
+              ]
+            },
+            {
+              "topic": "fumigation_certified",
+              "label": "Phytosanitary fumigation certified",
+              "aliases": [
+                "Fumigation certification",
+                "Cargo pest treatment certification"
+              ]
+            },
+            {
+              "topic": "clearance_delay_hours",
+              "label": "Average phytosanitary clearance delay",
+              "aliases": [
+                "Phytosanitary inspection delay",
+                "Quarantine clearance turnaround"
+              ]
+            },
+            {
+              "topic": "direct_rail_siding",
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ]
+            },
+            {
+              "topic": "tug_escort_clearance",
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ]
+            },
+            {
+              "topic": "dust_suppression_active",
+              "label": "Environmental dust suppression active",
+              "aliases": [
+                "Dust suppression system operational",
+                "Quayside aspiration active"
+              ]
+            },
+            {
+              "topic": "peak_loading_rate",
+              "label": "Peak grain loading rate",
+              "aliases": [
+                "Conveyor loading rate",
+                "Ship-loader peak throughput"
+              ]
+            },
+            {
+              "topic": "continuous_loading_duration",
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Danube navigation safety superintendent (NAV)",
+          "target_key": "NAV-TRANSIT-80H",
+          "alternate_key": "NAV-TRANSIT-TWO",
+          "target_context": "including harbor mooring assistance",
+          "alternate_context": "excluding harbor mooring assistance",
+          "candidate": "Galati Riverfront Silo Terminal",
+          "other_candidates": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "tug_escort_clearance",
+              "value": true,
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "berthing_depth",
+              "label": "Quayside berthing depth",
+              "aliases": [
+                "Berth water depth",
+                "Quayside draft depth"
+              ]
+            },
+            {
+              "topic": "fumigation_certified",
+              "label": "Phytosanitary fumigation certified",
+              "aliases": [
+                "Fumigation certification",
+                "Cargo pest treatment certification"
+              ]
+            },
+            {
+              "topic": "clearance_delay_hours",
+              "label": "Average phytosanitary clearance delay",
+              "aliases": [
+                "Phytosanitary inspection delay",
+                "Quarantine clearance turnaround"
+              ]
+            },
+            {
+              "topic": "direct_rail_siding",
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ]
+            },
+            {
+              "topic": "tug_escort_clearance",
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ]
+            },
+            {
+              "topic": "dust_suppression_active",
+              "label": "Environmental dust suppression active",
+              "aliases": [
+                "Dust suppression system operational",
+                "Quayside aspiration active"
+              ]
+            },
+            {
+              "topic": "peak_loading_rate",
+              "label": "Peak grain loading rate",
+              "aliases": [
+                "Conveyor loading rate",
+                "Ship-loader peak throughput"
+              ]
+            },
+            {
+              "topic": "continuous_loading_duration",
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Hinterland railway coordinator (RAIL)",
+          "target_key": "RAIL-INLAND-VP4",
+          "alternate_key": "RAIL-INLAND-NOK",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Galati Riverfront Silo Terminal",
+          "other_candidates": [
+            "Braila Agri-Bulk Transshipment Pier",
+            "Reni Danube Grain Logistics Hub"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "direct_rail_siding",
+              "value": true,
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "berthing_depth",
+              "label": "Quayside berthing depth",
+              "aliases": [
+                "Berth water depth",
+                "Quayside draft depth"
+              ]
+            },
+            {
+              "topic": "fumigation_certified",
+              "label": "Phytosanitary fumigation certified",
+              "aliases": [
+                "Fumigation certification",
+                "Cargo pest treatment certification"
+              ]
+            },
+            {
+              "topic": "clearance_delay_hours",
+              "label": "Average phytosanitary clearance delay",
+              "aliases": [
+                "Phytosanitary inspection delay",
+                "Quarantine clearance turnaround"
+              ]
+            },
+            {
+              "topic": "direct_rail_siding",
+              "label": "Direct rail siding connected",
+              "aliases": [
+                "Rail siding connectivity",
+                "Direct railway access"
+              ]
+            },
+            {
+              "topic": "tug_escort_clearance",
+              "label": "River tug escort cleared",
+              "aliases": [
+                "Tug escort authorization",
+                "Navigation escort clearance"
+              ]
+            },
+            {
+              "topic": "dust_suppression_active",
+              "label": "Environmental dust suppression active",
+              "aliases": [
+                "Dust suppression system operational",
+                "Quayside aspiration active"
+              ]
+            },
+            {
+              "topic": "peak_loading_rate",
+              "label": "Peak grain loading rate",
+              "aliases": [
+                "Conveyor loading rate",
+                "Ship-loader peak throughput"
+              ]
+            },
+            {
+              "topic": "continuous_loading_duration",
+              "label": "Allowable continuous loading duration",
+              "aliases": [
+                "Permitted loading window",
+                "Continuous berthing work duration"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

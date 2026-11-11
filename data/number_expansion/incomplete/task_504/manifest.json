@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_504",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facility_engineering",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Facility engineering lead (FAC)",
+        "Quality assurance lead (QA)"
+      ],
+      "directory": "incomplete/task_504",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "FAC-CLN-PCI",
+          "boolean_predicate_id": "A_nitrogen_purge_activated",
+          "boolean_label": "Dedicated cleanroom nitrogen purge system activated",
+          "hidden_predicate_id": "A_particulate_excursion_frequency",
+          "threshold_label": "Daily particulate excursion frequency",
+          "threshold_aliases": [
+            "Particulate excursion rate",
+            "Daily particle spike frequency"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "events/day",
+          "partial_record_text": "FAC-CLN-PCI: Silicon Saxony Interconnect Fab.Silicon Saxony Interconnect Fab: Cleanroom ISO class 4 environmental compliance = true .Source: Annual cleanroom certification audit; Scope: Main wafer thinning and ball-grid placement bay; Measurement: Formal validation of ISO 14644-1 Class 4 particulate specifications under operational loading.Silicon Saxony Interconnect Fab: Dedicated cleanroom nitrogen purge system activated = true .Source: Facility instrumentation telemetry; Scope: FOUP docking and micro-environment wafer transfer tunnels; Measurement: Operational status of ultra-high purity nitrogen atmospheric isolation purge.",
+          "role_name": "Facility engineering lead (FAC)",
+          "candidate_name": "Silicon Saxony Interconnect Fab",
+          "other_candidate_names": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-INSP-LEJ",
+          "hidden_predicate_id": "A_optical_inspection_coverage",
+          "threshold_label": "Automated optical inspection coverage",
+          "threshold_aliases": [
+            "AOI inspection coverage",
+            "Optical scan surface coverage"
+          ],
+          "threshold_value": 99,
+          "threshold_unit": "%",
+          "partial_record_text": "QA-INSP-LEJ: Silicon Saxony Interconnect Fab. The record covers Automated optical inspection coverage. Automated defect inspection validation log; Top-surface copper redistribution layer post-etch inspection; Proportion of total active substrate die surface scanned by automated optical metrology.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 95,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Automated optical inspection coverage is at least 95 %.",
+          "role_name": "Quality assurance lead (QA)",
+          "candidate_name": "Silicon Saxony Interconnect Fab",
+          "other_candidate_names": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facility_engineering",
+        "quality_assurance",
+        "commercial_contracts"
+      ],
+      "role_names": [
+        "Facility engineering lead (FAC)",
+        "Quality assurance lead (QA)",
+        "Commercial contract manager (COMM)"
+      ],
+      "directory": "incomplete/task_504",
+      "profiles": [
+        {
+          "record_id": "rec_facility_engineering_A",
+          "role_id": "facility_engineering",
+          "candidate_id": "A",
+          "key": "FAC-CLN-PCI",
+          "boolean_predicate_id": "A_nitrogen_purge_activated",
+          "boolean_label": "Dedicated cleanroom nitrogen purge system activated",
+          "hidden_predicate_id": "A_particulate_excursion_frequency",
+          "threshold_label": "Daily particulate excursion frequency",
+          "threshold_aliases": [
+            "Particulate excursion rate",
+            "Daily particle spike frequency"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "events/day",
+          "partial_record_text": "FAC-CLN-PCI: Silicon Saxony Interconnect Fab.Silicon Saxony Interconnect Fab: Cleanroom ISO class 4 environmental compliance = true .Source: Annual cleanroom certification audit; Scope: Main wafer thinning and ball-grid placement bay; Measurement: Formal validation of ISO 14644-1 Class 4 particulate specifications under operational loading.Silicon Saxony Interconnect Fab: Dedicated cleanroom nitrogen purge system activated = true .Source: Facility instrumentation telemetry; Scope: FOUP docking and micro-environment wafer transfer tunnels; Measurement: Operational status of ultra-high purity nitrogen atmospheric isolation purge.",
+          "role_name": "Facility engineering lead (FAC)",
+          "candidate_name": "Silicon Saxony Interconnect Fab",
+          "other_candidate_names": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-INSP-LEJ",
+          "hidden_predicate_id": "A_optical_inspection_coverage",
+          "threshold_label": "Automated optical inspection coverage",
+          "threshold_aliases": [
+            "AOI inspection coverage",
+            "Optical scan surface coverage"
+          ],
+          "threshold_value": 99,
+          "threshold_unit": "%",
+          "partial_record_text": "QA-INSP-LEJ: Silicon Saxony Interconnect Fab. The record covers Automated optical inspection coverage. Automated defect inspection validation log; Top-surface copper redistribution layer post-etch inspection; Proportion of total active substrate die surface scanned by automated optical metrology.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 95,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Automated optical inspection coverage is at least 95 %.",
+          "role_name": "Quality assurance lead (QA)",
+          "candidate_name": "Silicon Saxony Interconnect Fab",
+          "other_candidate_names": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracts_A",
+          "role_id": "commercial_contracts",
+          "candidate_id": "A",
+          "key": "COMM-SLAS-5QH",
+          "hidden_predicate_id": "A_defect_respin_allowance",
+          "threshold_label": "Defect re-spin capacity reservation",
+          "threshold_aliases": [
+            "Re-spin capacity deduction",
+            "Rework capacity allowance"
+          ],
+          "threshold_value": 2000,
+          "threshold_unit": "wafer_starts/month",
+          "partial_record_text": "COMM-SLAS-5QH: Silicon Saxony Interconnect Fab. The record covers Defect re-spin capacity reservation. Master service level agreement; Monthly substrate processing schedule; Mandatory wafer allocation reserved for defect scrap replacement and pilot lot re-spins.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Defect re-spin capacity reservation is at least 1000 wafer_starts/month.",
+          "role_name": "Commercial contract manager (COMM)",
+          "candidate_name": "Silicon Saxony Interconnect Fab",
+          "other_candidate_names": [
+            "Kyushu Advanced Micro-Substrates",
+            "Hsinchu Heterogeneous Integration Foundry"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

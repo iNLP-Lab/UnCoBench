@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_610",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "airspace_safety",
+        "ground_logistics"
+      ],
+      "role_names": [
+        "Airspace coordination and safety lead (SAFE)",
+        "Airbase ground logistics lead (LOG)"
+      ],
+      "directory": "incomplete/task_610",
+      "profiles": [
+        {
+          "record_id": "rec_airspace_safety_A",
+          "role_id": "airspace_safety",
+          "candidate_id": "A",
+          "key": "SAFE-TFR-B16",
+          "boolean_predicate_id": "A_tfr_deconfliction_active",
+          "boolean_label": "Temporary flight restriction deconfliction active",
+          "hidden_predicate_id": "A_radar_feed_latency",
+          "threshold_label": "Terminal radar data latency",
+          "threshold_aliases": [
+            "Radar refresh latency",
+            "Air picture data lag"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "s",
+          "partial_record_text": "SAFE-TFR-B16: Fraser Canyon Aerial Fire Base.Fraser Canyon Aerial Fire Base: Temporary flight restriction deconfliction active = true .Source: Airspace management system status log; Scope: Candidate base terminal control sector; Measurement: Whether the automated temporary flight restriction and air tanker routing feed is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Terminal radar data latency is at most 9 s.",
+          "role_name": "Airspace coordination and safety lead (SAFE)",
+          "candidate_name": "Fraser Canyon Aerial Fire Base",
+          "other_candidate_names": [
+            "Okanagan Highlands Staging Base",
+            "Columbia River Forward Attack Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "LOG-FUEL-O98",
+          "hidden_predicate_id": "A_dedicated_refueling_capacity",
+          "threshold_label": "Dedicated jet-A fuel storage capacity",
+          "threshold_aliases": [
+            "Aviation fuel storage",
+            "Jet fuel reserves"
+          ],
+          "threshold_value": 55000,
+          "threshold_unit": "L",
+          "partial_record_text": "LOG-FUEL-O98: Fraser Canyon Aerial Fire Base.Fraser Canyon Aerial Fire Base: Ground ramp readiness hours = 120 h.Source: Ground support roster; Scope: Designated seasonal high-risk fire window; Measurement: Scheduled hot-turnaround retardant pump and ground crew alert hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "coarse_statement": "Dedicated jet-A fuel storage capacity is at most 70000 L.",
+          "role_name": "Airbase ground logistics lead (LOG)",
+          "candidate_name": "Fraser Canyon Aerial Fire Base",
+          "other_candidate_names": [
+            "Okanagan Highlands Staging Base",
+            "Columbia River Forward Attack Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "airspace_safety",
+        "ground_logistics",
+        "aviation_operations"
+      ],
+      "role_names": [
+        "Airspace coordination and safety lead (SAFE)",
+        "Airbase ground logistics lead (LOG)",
+        "Wildfire aviation operations lead (AVN)"
+      ],
+      "directory": "incomplete/task_610",
+      "profiles": [
+        {
+          "record_id": "rec_airspace_safety_A",
+          "role_id": "airspace_safety",
+          "candidate_id": "A",
+          "key": "SAFE-TFR-B16",
+          "boolean_predicate_id": "A_tfr_deconfliction_active",
+          "boolean_label": "Temporary flight restriction deconfliction active",
+          "hidden_predicate_id": "A_radar_feed_latency",
+          "threshold_label": "Terminal radar data latency",
+          "threshold_aliases": [
+            "Radar refresh latency",
+            "Air picture data lag"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "s",
+          "partial_record_text": "SAFE-TFR-B16: Fraser Canyon Aerial Fire Base.Fraser Canyon Aerial Fire Base: Temporary flight restriction deconfliction active = true .Source: Airspace management system status log; Scope: Candidate base terminal control sector; Measurement: Whether the automated temporary flight restriction and air tanker routing feed is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Terminal radar data latency is at most 9 s.",
+          "role_name": "Airspace coordination and safety lead (SAFE)",
+          "candidate_name": "Fraser Canyon Aerial Fire Base",
+          "other_candidate_names": [
+            "Okanagan Highlands Staging Base",
+            "Columbia River Forward Attack Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "LOG-FUEL-O98",
+          "hidden_predicate_id": "A_dedicated_refueling_capacity",
+          "threshold_label": "Dedicated jet-A fuel storage capacity",
+          "threshold_aliases": [
+            "Aviation fuel storage",
+            "Jet fuel reserves"
+          ],
+          "threshold_value": 55000,
+          "threshold_unit": "L",
+          "partial_record_text": "LOG-FUEL-O98: Fraser Canyon Aerial Fire Base.Fraser Canyon Aerial Fire Base: Ground ramp readiness hours = 120 h.Source: Ground support roster; Scope: Designated seasonal high-risk fire window; Measurement: Scheduled hot-turnaround retardant pump and ground crew alert hours.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "coarse_statement": "Dedicated jet-A fuel storage capacity is at most 70000 L.",
+          "role_name": "Airbase ground logistics lead (LOG)",
+          "candidate_name": "Fraser Canyon Aerial Fire Base",
+          "other_candidate_names": [
+            "Okanagan Highlands Staging Base",
+            "Columbia River Forward Attack Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_operations_A",
+          "role_id": "aviation_operations",
+          "candidate_id": "A",
+          "key": "AVN-OPS-CAP",
+          "hidden_predicate_id": "A_aviation_alert_standby_hours",
+          "threshold_label": "Aviation alert standby hours",
+          "threshold_aliases": [
+            "Flight crew standby hours",
+            "Aircrew alert hours"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "h",
+          "partial_record_text": "AVN-OPS-CAP: Fraser Canyon Aerial Fire Base.Operational month: July 2025.Fraser Canyon Aerial Fire Base: All-weather dispatch authorization = true .Source: Aviation regulatory compliance audit; Scope: Candidate base approach procedures and runway instrument lighting; Measurement: Whether low-visibility and instrument flight rules dispatch is formally approved.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Aviation alert standby hours is at most 300 h.",
+          "role_name": "Wildfire aviation operations lead (AVN)",
+          "candidate_name": "Fraser Canyon Aerial Fire Base",
+          "other_candidate_names": [
+            "Okanagan Highlands Staging Base",
+            "Columbia River Forward Attack Base"
+          ],
+          "context_value": "July 2025",
+          "other_context_values": [
+            "August 2025"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

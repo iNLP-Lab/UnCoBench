@@ -1,0 +1,465 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_618",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "air_traffic_control",
+        "mountain_avionics"
+      ],
+      "role_names": [
+        "Air traffic priority controller (ATC)",
+        "Aviation meteorology specialist (MET)"
+      ],
+      "directory": "number_expansion/misaligned/task_618/k2",
+      "error_profiles": [
+        {
+          "role_name": "Air traffic priority controller (ATC)",
+          "target_key": "ATC-SLOT-L56",
+          "alternate_key": "ATC-SLOT-X5A",
+          "target_context": "Live operational environment",
+          "alternate_context": "Simulation exercise environment",
+          "candidate": "Tasman Glacier Traverse",
+          "other_candidates": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "numeric": [
+            {
+              "topic": "transit_burn_consumption",
+              "value": 400,
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "instrument_approach_ready",
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_active",
+              "label": "En-route mountain telemetry uplink active",
+              "aliases": [
+                "Weather telemetry uplink active",
+                "Meteorological uplink status"
+              ]
+            },
+            {
+              "topic": "icing_severity_index",
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ]
+            },
+            {
+              "topic": "winch_zone_cleared",
+              "label": "Alpine winch zone clearance approval",
+              "aliases": [
+                "Hoist clearing approval",
+                "Winch operational site clearance"
+              ]
+            },
+            {
+              "topic": "priority_slot_confirmed",
+              "label": "Priority emergency airspace slot confirmation",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance slot"
+              ]
+            },
+            {
+              "topic": "cruise_fuel_allowance",
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ]
+            },
+            {
+              "topic": "transit_burn_consumption",
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation meteorology specialist (MET)",
+          "target_key": "MET-WEA-LW7",
+          "alternate_key": "MET-WEA-4D3",
+          "target_context": "peak 15-minute transit window",
+          "alternate_context": "3-hour rolling average window",
+          "candidate": "Tasman Glacier Traverse",
+          "other_candidates": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "numeric": [
+            {
+              "topic": "icing_severity_index",
+              "value": 3,
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ],
+              "unit": "grade"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "instrument_approach_ready",
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_active",
+              "label": "En-route mountain telemetry uplink active",
+              "aliases": [
+                "Weather telemetry uplink active",
+                "Meteorological uplink status"
+              ]
+            },
+            {
+              "topic": "icing_severity_index",
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ]
+            },
+            {
+              "topic": "winch_zone_cleared",
+              "label": "Alpine winch zone clearance approval",
+              "aliases": [
+                "Hoist clearing approval",
+                "Winch operational site clearance"
+              ]
+            },
+            {
+              "topic": "priority_slot_confirmed",
+              "label": "Priority emergency airspace slot confirmation",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance slot"
+              ]
+            },
+            {
+              "topic": "cruise_fuel_allowance",
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ]
+            },
+            {
+              "topic": "transit_burn_consumption",
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "air_traffic_control",
+        "mountain_avionics",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Air traffic priority controller (ATC)",
+        "Aviation meteorology specialist (MET)",
+        "Flight operations director (FLT)"
+      ],
+      "directory": "number_expansion/misaligned/task_618/k3",
+      "error_profiles": [
+        {
+          "role_name": "Air traffic priority controller (ATC)",
+          "target_key": "ATC-SLOT-L56",
+          "alternate_key": "ATC-SLOT-X5A",
+          "target_context": "Live operational environment",
+          "alternate_context": "Simulation exercise environment",
+          "candidate": "Tasman Glacier Traverse",
+          "other_candidates": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "numeric": [
+            {
+              "topic": "transit_burn_consumption",
+              "value": 400,
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "instrument_approach_ready",
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_active",
+              "label": "En-route mountain telemetry uplink active",
+              "aliases": [
+                "Weather telemetry uplink active",
+                "Meteorological uplink status"
+              ]
+            },
+            {
+              "topic": "icing_severity_index",
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ]
+            },
+            {
+              "topic": "winch_zone_cleared",
+              "label": "Alpine winch zone clearance approval",
+              "aliases": [
+                "Hoist clearing approval",
+                "Winch operational site clearance"
+              ]
+            },
+            {
+              "topic": "priority_slot_confirmed",
+              "label": "Priority emergency airspace slot confirmation",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance slot"
+              ]
+            },
+            {
+              "topic": "cruise_fuel_allowance",
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ]
+            },
+            {
+              "topic": "transit_burn_consumption",
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aviation meteorology specialist (MET)",
+          "target_key": "MET-WEA-LW7",
+          "alternate_key": "MET-WEA-4D3",
+          "target_context": "peak 15-minute transit window",
+          "alternate_context": "3-hour rolling average window",
+          "candidate": "Tasman Glacier Traverse",
+          "other_candidates": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "numeric": [
+            {
+              "topic": "icing_severity_index",
+              "value": 3,
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ],
+              "unit": "grade"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "instrument_approach_ready",
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_active",
+              "label": "En-route mountain telemetry uplink active",
+              "aliases": [
+                "Weather telemetry uplink active",
+                "Meteorological uplink status"
+              ]
+            },
+            {
+              "topic": "icing_severity_index",
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ]
+            },
+            {
+              "topic": "winch_zone_cleared",
+              "label": "Alpine winch zone clearance approval",
+              "aliases": [
+                "Hoist clearing approval",
+                "Winch operational site clearance"
+              ]
+            },
+            {
+              "topic": "priority_slot_confirmed",
+              "label": "Priority emergency airspace slot confirmation",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance slot"
+              ]
+            },
+            {
+              "topic": "cruise_fuel_allowance",
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ]
+            },
+            {
+              "topic": "transit_burn_consumption",
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Flight operations director (FLT)",
+          "target_key": "FLT-APPR-3HV",
+          "alternate_key": "FLT-APPR-VF0",
+          "target_context": "January 2025",
+          "alternate_context": "February 2025",
+          "candidate": "Tasman Glacier Traverse",
+          "other_candidates": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "numeric": [
+            {
+              "topic": "cruise_fuel_allowance",
+              "value": 720,
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ],
+              "unit": "L"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "instrument_approach_ready",
+              "value": true,
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "instrument_approach_ready",
+              "label": "Certified instrument approach readiness",
+              "aliases": [
+                "Instrument flight readiness",
+                "IFR approach certification"
+              ]
+            },
+            {
+              "topic": "telemetry_uplink_active",
+              "label": "En-route mountain telemetry uplink active",
+              "aliases": [
+                "Weather telemetry uplink active",
+                "Meteorological uplink status"
+              ]
+            },
+            {
+              "topic": "icing_severity_index",
+              "label": "En-route icing severity index",
+              "aliases": [
+                "Airframe icing index",
+                "Atmospheric icing risk grade"
+              ]
+            },
+            {
+              "topic": "winch_zone_cleared",
+              "label": "Alpine winch zone clearance approval",
+              "aliases": [
+                "Hoist clearing approval",
+                "Winch operational site clearance"
+              ]
+            },
+            {
+              "topic": "priority_slot_confirmed",
+              "label": "Priority emergency airspace slot confirmation",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance slot"
+              ]
+            },
+            {
+              "topic": "cruise_fuel_allowance",
+              "label": "Cruise fuel allowance",
+              "aliases": [
+                "Assigned mission fuel quantity",
+                "Rotorcraft departure fuel load"
+              ]
+            },
+            {
+              "topic": "transit_burn_consumption",
+              "label": "Transit burn consumption",
+              "aliases": [
+                "Projected corridor fuel burn",
+                "Estimated flight consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_825",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_resources",
+        "power_market"
+      ],
+      "role_names": [
+        "Municipal water utility director (MWU)",
+        "Wholesale power market analyst (WMA)"
+      ],
+      "directory": "incomplete/task_825",
+      "profiles": [
+        {
+          "record_id": "rec_water_resources_A",
+          "role_id": "water_resources",
+          "candidate_id": "A",
+          "key": "MWU-WATER-XKW",
+          "boolean_predicate_id": "A_industrial_effluent_discharge_permit",
+          "boolean_label": "Industrial effluent discharge permit",
+          "hidden_predicate_id": "A_wastewater_treatment_capacity",
+          "threshold_label": "Dedicated wastewater treatment capacity",
+          "threshold_aliases": [
+            "Effluent treatment throughput",
+            "Industrial wastewater allowance"
+          ],
+          "threshold_value": 850,
+          "threshold_unit": "m3/d",
+          "partial_record_text": "MWU-WATER-XKW: Pinnacle Mesa Clean Energy Park.Pinnacle Mesa Clean Energy Park: Industrial effluent discharge permit = true .Source: Municipal discharge registry; Scope: Candidate site wastewater outfall; Measurement: Verification that an industrial effluent discharge permit is active and issued.",
+          "role_name": "Municipal water utility director (MWU)",
+          "candidate_name": "Pinnacle Mesa Clean Energy Park",
+          "other_candidate_names": [
+            "Redwood Valley Industrial Corridor",
+            "Solano Basin Renewable Commons"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_market_A",
+          "role_id": "power_market",
+          "candidate_id": "A",
+          "key": "WMA-MARKET-29M",
+          "hidden_predicate_id": "A_flexible_balancing_tariff",
+          "threshold_label": "Flexible balancing power tariff",
+          "threshold_aliases": [
+            "Balancing electricity tariff",
+            "Peak balancing rate"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "WMA-MARKET-29M: Pinnacle Mesa Clean Energy Park. The record covers Flexible balancing power tariff. Wholesale market forward curve; Contracted dispatchable balancing power band; Levelized power procurement price for ancillary grid balancing energy.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 85
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Flexible balancing power tariff is at most 85 USD/MWh.",
+          "role_name": "Wholesale power market analyst (WMA)",
+          "candidate_name": "Pinnacle Mesa Clean Energy Park",
+          "other_candidate_names": [
+            "Redwood Valley Industrial Corridor",
+            "Solano Basin Renewable Commons"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_resources",
+        "power_market",
+        "grid_interconnect"
+      ],
+      "role_names": [
+        "Municipal water utility director (MWU)",
+        "Wholesale power market analyst (WMA)",
+        "Electrical transmission authority lead (ETA)"
+      ],
+      "directory": "incomplete/task_825",
+      "profiles": [
+        {
+          "record_id": "rec_water_resources_A",
+          "role_id": "water_resources",
+          "candidate_id": "A",
+          "key": "MWU-WATER-XKW",
+          "boolean_predicate_id": "A_industrial_effluent_discharge_permit",
+          "boolean_label": "Industrial effluent discharge permit",
+          "hidden_predicate_id": "A_wastewater_treatment_capacity",
+          "threshold_label": "Dedicated wastewater treatment capacity",
+          "threshold_aliases": [
+            "Effluent treatment throughput",
+            "Industrial wastewater allowance"
+          ],
+          "threshold_value": 850,
+          "threshold_unit": "m3/d",
+          "partial_record_text": "MWU-WATER-XKW: Pinnacle Mesa Clean Energy Park.Pinnacle Mesa Clean Energy Park: Industrial effluent discharge permit = true .Source: Municipal discharge registry; Scope: Candidate site wastewater outfall; Measurement: Verification that an industrial effluent discharge permit is active and issued.",
+          "role_name": "Municipal water utility director (MWU)",
+          "candidate_name": "Pinnacle Mesa Clean Energy Park",
+          "other_candidate_names": [
+            "Redwood Valley Industrial Corridor",
+            "Solano Basin Renewable Commons"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_market_A",
+          "role_id": "power_market",
+          "candidate_id": "A",
+          "key": "WMA-MARKET-29M",
+          "hidden_predicate_id": "A_flexible_balancing_tariff",
+          "threshold_label": "Flexible balancing power tariff",
+          "threshold_aliases": [
+            "Balancing electricity tariff",
+            "Peak balancing rate"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "WMA-MARKET-29M: Pinnacle Mesa Clean Energy Park. The record covers Flexible balancing power tariff. Wholesale market forward curve; Contracted dispatchable balancing power band; Levelized power procurement price for ancillary grid balancing energy.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 85
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Flexible balancing power tariff is at most 85 USD/MWh.",
+          "role_name": "Wholesale power market analyst (WMA)",
+          "candidate_name": "Pinnacle Mesa Clean Energy Park",
+          "other_candidate_names": [
+            "Redwood Valley Industrial Corridor",
+            "Solano Basin Renewable Commons"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_interconnect_A",
+          "role_id": "grid_interconnect",
+          "candidate_id": "A",
+          "key": "ETA-GRID-1U1",
+          "hidden_predicate_id": "A_baseline_offpeak_tariff",
+          "threshold_label": "Baseline off-peak electricity tariff",
+          "threshold_aliases": [
+            "Off-peak power tariff",
+            "Baseload grid tariff"
+          ],
+          "threshold_value": 32,
+          "threshold_unit": "USD/MWh",
+          "partial_record_text": "ETA-GRID-1U1: Pinnacle Mesa Clean Energy Park.Assessment period: Q1 2027.Pinnacle Mesa Clean Energy Park: Grid interconnect approval = true .Source: Interconnection feasibility study; Scope: Site 230 kV primary substation feed; Measurement: Whether formal transmission interconnect authorization has been signed.",
+          "role_name": "Electrical transmission authority lead (ETA)",
+          "candidate_name": "Pinnacle Mesa Clean Energy Park",
+          "other_candidate_names": [
+            "Redwood Valley Industrial Corridor",
+            "Solano Basin Renewable Commons"
+          ],
+          "context_value": "Q1 2027",
+          "other_context_values": [
+            "Q2 2027"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

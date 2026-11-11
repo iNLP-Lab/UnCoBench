@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_641",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "District Health and Medical Preparedness Officer (HLTH)",
+        "Structural Engineering Lead (ENG)"
+      ],
+      "directory": "number_expansion/misaligned/task_641/k2",
+      "error_profiles": [
+        {
+          "role_name": "District Health and Medical Preparedness Officer (HLTH)",
+          "target_key": "HLTH-MED-R7F",
+          "alternate_key": "HLTH-AIRQ-QY1",
+          "target_context": "including auxiliary medical equipment",
+          "alternate_context": "excluding auxiliary medical equipment",
+          "candidate": "Coral Bay Civic Sports Complex",
+          "other_candidates": [
+            "Bayside Secondary College Auditorium",
+            "Pelican Point Multipurpose Pavilion"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trauma_triage_cleared",
+              "value": true,
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ]
+            },
+            {
+              "topic": "backup_generator_present",
+              "label": "Operational backup generator installation",
+              "aliases": [
+                "Standby generator availability",
+                "On-site power plant presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy_hours",
+              "label": "Continuous generator fuel run-time",
+              "aliases": [
+                "Standby fuel endurance",
+                "Generator autonomy duration"
+              ]
+            },
+            {
+              "topic": "trauma_triage_cleared",
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ready",
+              "label": "Accessible sanitation facility readiness",
+              "aliases": [
+                "Universal disability restroom compliance",
+                "Barrier-free sanitation clearance"
+              ]
+            },
+            {
+              "topic": "supply_access_unobstructed",
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ]
+            },
+            {
+              "topic": "on_site_cistern_volume",
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ]
+            },
+            {
+              "topic": "auxiliary_tanker_reserve_volume",
+              "label": "Auxiliary tanker reserve volume",
+              "aliases": [
+                "Pre-staged water tanker volume",
+                "Mobile water bladder volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural Engineering Lead (ENG)",
+          "target_key": "ENG-STRUC-G6L",
+          "alternate_key": "ENG-STRUC-FLX",
+          "target_context": "after deducting unpumpable sediment dead storage",
+          "alternate_context": "before deducting unpumpable sediment dead storage",
+          "candidate": "Coral Bay Civic Sports Complex",
+          "other_candidates": [
+            "Bayside Secondary College Auditorium",
+            "Pelican Point Multipurpose Pavilion"
+          ],
+          "numeric": [
+            {
+              "topic": "on_site_cistern_volume",
+              "value": 45,
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "value": true,
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ]
+            },
+            {
+              "topic": "backup_generator_present",
+              "label": "Operational backup generator installation",
+              "aliases": [
+                "Standby generator availability",
+                "On-site power plant presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy_hours",
+              "label": "Continuous generator fuel run-time",
+              "aliases": [
+                "Standby fuel endurance",
+                "Generator autonomy duration"
+              ]
+            },
+            {
+              "topic": "trauma_triage_cleared",
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ready",
+              "label": "Accessible sanitation facility readiness",
+              "aliases": [
+                "Universal disability restroom compliance",
+                "Barrier-free sanitation clearance"
+              ]
+            },
+            {
+              "topic": "supply_access_unobstructed",
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ]
+            },
+            {
+              "topic": "on_site_cistern_volume",
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ]
+            },
+            {
+              "topic": "auxiliary_tanker_reserve_volume",
+              "label": "Auxiliary tanker reserve volume",
+              "aliases": [
+                "Pre-staged water tanker volume",
+                "Mobile water bladder volume"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "structural_engineering",
+        "emergency_water_logistics"
+      ],
+      "role_names": [
+        "District Health and Medical Preparedness Officer (HLTH)",
+        "Structural Engineering Lead (ENG)",
+        "Emergency Water Logistics Coordinator (LOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_641/k3",
+      "error_profiles": [
+        {
+          "role_name": "District Health and Medical Preparedness Officer (HLTH)",
+          "target_key": "HLTH-MED-R7F",
+          "alternate_key": "HLTH-AIRQ-QY1",
+          "target_context": "including auxiliary medical equipment",
+          "alternate_context": "excluding auxiliary medical equipment",
+          "candidate": "Coral Bay Civic Sports Complex",
+          "other_candidates": [
+            "Bayside Secondary College Auditorium",
+            "Pelican Point Multipurpose Pavilion"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "trauma_triage_cleared",
+              "value": true,
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ]
+            },
+            {
+              "topic": "backup_generator_present",
+              "label": "Operational backup generator installation",
+              "aliases": [
+                "Standby generator availability",
+                "On-site power plant presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy_hours",
+              "label": "Continuous generator fuel run-time",
+              "aliases": [
+                "Standby fuel endurance",
+                "Generator autonomy duration"
+              ]
+            },
+            {
+              "topic": "trauma_triage_cleared",
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ready",
+              "label": "Accessible sanitation facility readiness",
+              "aliases": [
+                "Universal disability restroom compliance",
+                "Barrier-free sanitation clearance"
+              ]
+            },
+            {
+              "topic": "supply_access_unobstructed",
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ]
+            },
+            {
+              "topic": "on_site_cistern_volume",
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ]
+            },
+            {
+              "topic": "auxiliary_tanker_reserve_volume",
+              "label": "Auxiliary tanker reserve volume",
+              "aliases": [
+                "Pre-staged water tanker volume",
+                "Mobile water bladder volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural Engineering Lead (ENG)",
+          "target_key": "ENG-STRUC-G6L",
+          "alternate_key": "ENG-STRUC-FLX",
+          "target_context": "after deducting unpumpable sediment dead storage",
+          "alternate_context": "before deducting unpumpable sediment dead storage",
+          "candidate": "Coral Bay Civic Sports Complex",
+          "other_candidates": [
+            "Bayside Secondary College Auditorium",
+            "Pelican Point Multipurpose Pavilion"
+          ],
+          "numeric": [
+            {
+              "topic": "on_site_cistern_volume",
+              "value": 45,
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ],
+              "unit": "kL"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "value": true,
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ]
+            },
+            {
+              "topic": "backup_generator_present",
+              "label": "Operational backup generator installation",
+              "aliases": [
+                "Standby generator availability",
+                "On-site power plant presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy_hours",
+              "label": "Continuous generator fuel run-time",
+              "aliases": [
+                "Standby fuel endurance",
+                "Generator autonomy duration"
+              ]
+            },
+            {
+              "topic": "trauma_triage_cleared",
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ready",
+              "label": "Accessible sanitation facility readiness",
+              "aliases": [
+                "Universal disability restroom compliance",
+                "Barrier-free sanitation clearance"
+              ]
+            },
+            {
+              "topic": "supply_access_unobstructed",
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ]
+            },
+            {
+              "topic": "on_site_cistern_volume",
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ]
+            },
+            {
+              "topic": "auxiliary_tanker_reserve_volume",
+              "label": "Auxiliary tanker reserve volume",
+              "aliases": [
+                "Pre-staged water tanker volume",
+                "Mobile water bladder volume"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency Water Logistics Coordinator (LOG)",
+          "target_key": "LOG-WTR-5O5",
+          "alternate_key": "LOG-WTR-EZD",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Coral Bay Civic Sports Complex",
+          "other_candidates": [
+            "Bayside Secondary College Auditorium",
+            "Pelican Point Multipurpose Pavilion"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "supply_access_unobstructed",
+              "value": true,
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cyclonic_wind_certified",
+              "label": "Structural cyclonic wind certification",
+              "aliases": [
+                "Cyclonic structural compliance",
+                "Wind resistance rating verification"
+              ]
+            },
+            {
+              "topic": "backup_generator_present",
+              "label": "Operational backup generator installation",
+              "aliases": [
+                "Standby generator availability",
+                "On-site power plant presence"
+              ]
+            },
+            {
+              "topic": "generator_fuel_autonomy_hours",
+              "label": "Continuous generator fuel run-time",
+              "aliases": [
+                "Standby fuel endurance",
+                "Generator autonomy duration"
+              ]
+            },
+            {
+              "topic": "trauma_triage_cleared",
+              "label": "District trauma triage clearance",
+              "aliases": [
+                "Medical triage approval",
+                "Emergency health facility clearance"
+              ]
+            },
+            {
+              "topic": "accessible_sanitation_ready",
+              "label": "Accessible sanitation facility readiness",
+              "aliases": [
+                "Universal disability restroom compliance",
+                "Barrier-free sanitation clearance"
+              ]
+            },
+            {
+              "topic": "supply_access_unobstructed",
+              "label": "Unobstructed supply convoy access",
+              "aliases": [
+                "Heavy transport access clearance",
+                "Logistics ingress path validation"
+              ]
+            },
+            {
+              "topic": "on_site_cistern_volume",
+              "label": "On-site cistern storage volume",
+              "aliases": [
+                "Cistern potable capacity",
+                "Permanent tank storage"
+              ]
+            },
+            {
+              "topic": "auxiliary_tanker_reserve_volume",
+              "label": "Auxiliary tanker reserve volume",
+              "aliases": [
+                "Pre-staged water tanker volume",
+                "Mobile water bladder volume"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

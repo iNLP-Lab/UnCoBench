@@ -1,0 +1,545 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_762",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_safety",
+        "environmental_regulator"
+      ],
+      "role_names": [
+        "Inland waterways navigation warden (PORT)",
+        "Watershed environmental protection coordinator (ENV)"
+      ],
+      "directory": "number_expansion/misaligned/task_762/k2",
+      "error_profiles": [
+        {
+          "role_name": "Inland waterways navigation warden (PORT)",
+          "target_key": "PORT-NAV-ZG6",
+          "alternate_key": "PORT-LOCK-PWH",
+          "target_context": "Production registry",
+          "alternate_context": "Simulation sandbox",
+          "candidate": "Upper Mississippi Riverway Multimodal Corridor",
+          "other_candidates": [
+            "Ohio Basin Direct Rail-Barge Corridor",
+            "Illinois Inland Waterway Unit-Train Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "navigational_permit_verified",
+              "value": true,
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "average_car_dwell_hours",
+              "label": "Average terminal railcar dwell time",
+              "aliases": [
+                "Car turnaround dwell duration",
+                "Railcar terminal dwell time"
+              ]
+            },
+            {
+              "topic": "fumigation_protocol_certified",
+              "label": "Certified grain fumigation protocol activated",
+              "aliases": [
+                "Quarantine fumigation protocol active",
+                "Export phytosanitary fumigation certification"
+              ]
+            },
+            {
+              "topic": "aeration_turnaround_hours",
+              "label": "Post-treatment aeration turnaround time",
+              "aliases": [
+                "Fumigant aeration turnaround period",
+                "Gas evacuation aeration duration"
+              ]
+            },
+            {
+              "topic": "watershed_discharge_compliant",
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ]
+            },
+            {
+              "topic": "rail_interchange_cleared",
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ]
+            },
+            {
+              "topic": "navigational_permit_verified",
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ]
+            },
+            {
+              "topic": "daily_railhead_throughput",
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ]
+            },
+            {
+              "topic": "daily_barge_loading_throughput",
+              "label": "Daily barge loading throughput",
+              "aliases": [
+                "Riverside barge loading rate",
+                "Daily marine dispatch throughput"
+              ]
+            },
+            {
+              "topic": "captive_milling_allocation",
+              "label": "Mandatory captive local milling allocation",
+              "aliases": [
+                "Local domestic processing quota",
+                "Captive flour milling deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Watershed environmental protection coordinator (ENV)",
+          "target_key": "ENV-WATER-488",
+          "alternate_key": "ENV-WATER-6IP",
+          "target_context": "Production environment",
+          "alternate_context": "Staging environment",
+          "candidate": "Upper Mississippi Riverway Multimodal Corridor",
+          "other_candidates": [
+            "Ohio Basin Direct Rail-Barge Corridor",
+            "Illinois Inland Waterway Unit-Train Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "watershed_discharge_compliant",
+              "value": true,
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "average_car_dwell_hours",
+              "label": "Average terminal railcar dwell time",
+              "aliases": [
+                "Car turnaround dwell duration",
+                "Railcar terminal dwell time"
+              ]
+            },
+            {
+              "topic": "fumigation_protocol_certified",
+              "label": "Certified grain fumigation protocol activated",
+              "aliases": [
+                "Quarantine fumigation protocol active",
+                "Export phytosanitary fumigation certification"
+              ]
+            },
+            {
+              "topic": "aeration_turnaround_hours",
+              "label": "Post-treatment aeration turnaround time",
+              "aliases": [
+                "Fumigant aeration turnaround period",
+                "Gas evacuation aeration duration"
+              ]
+            },
+            {
+              "topic": "watershed_discharge_compliant",
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ]
+            },
+            {
+              "topic": "rail_interchange_cleared",
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ]
+            },
+            {
+              "topic": "navigational_permit_verified",
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ]
+            },
+            {
+              "topic": "daily_railhead_throughput",
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ]
+            },
+            {
+              "topic": "daily_barge_loading_throughput",
+              "label": "Daily barge loading throughput",
+              "aliases": [
+                "Riverside barge loading rate",
+                "Daily marine dispatch throughput"
+              ]
+            },
+            {
+              "topic": "captive_milling_allocation",
+              "label": "Mandatory captive local milling allocation",
+              "aliases": [
+                "Local domestic processing quota",
+                "Captive flour milling deduction"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_safety",
+        "environmental_regulator",
+        "rail_liaison"
+      ],
+      "role_names": [
+        "Inland waterways navigation warden (PORT)",
+        "Watershed environmental protection coordinator (ENV)",
+        "Class I railroad logistics superintendent (RAIL)"
+      ],
+      "directory": "number_expansion/misaligned/task_762/k3",
+      "error_profiles": [
+        {
+          "role_name": "Inland waterways navigation warden (PORT)",
+          "target_key": "PORT-NAV-ZG6",
+          "alternate_key": "PORT-LOCK-PWH",
+          "target_context": "Production registry",
+          "alternate_context": "Simulation sandbox",
+          "candidate": "Upper Mississippi Riverway Multimodal Corridor",
+          "other_candidates": [
+            "Ohio Basin Direct Rail-Barge Corridor",
+            "Illinois Inland Waterway Unit-Train Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "navigational_permit_verified",
+              "value": true,
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "average_car_dwell_hours",
+              "label": "Average terminal railcar dwell time",
+              "aliases": [
+                "Car turnaround dwell duration",
+                "Railcar terminal dwell time"
+              ]
+            },
+            {
+              "topic": "fumigation_protocol_certified",
+              "label": "Certified grain fumigation protocol activated",
+              "aliases": [
+                "Quarantine fumigation protocol active",
+                "Export phytosanitary fumigation certification"
+              ]
+            },
+            {
+              "topic": "aeration_turnaround_hours",
+              "label": "Post-treatment aeration turnaround time",
+              "aliases": [
+                "Fumigant aeration turnaround period",
+                "Gas evacuation aeration duration"
+              ]
+            },
+            {
+              "topic": "watershed_discharge_compliant",
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ]
+            },
+            {
+              "topic": "rail_interchange_cleared",
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ]
+            },
+            {
+              "topic": "navigational_permit_verified",
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ]
+            },
+            {
+              "topic": "daily_railhead_throughput",
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ]
+            },
+            {
+              "topic": "daily_barge_loading_throughput",
+              "label": "Daily barge loading throughput",
+              "aliases": [
+                "Riverside barge loading rate",
+                "Daily marine dispatch throughput"
+              ]
+            },
+            {
+              "topic": "captive_milling_allocation",
+              "label": "Mandatory captive local milling allocation",
+              "aliases": [
+                "Local domestic processing quota",
+                "Captive flour milling deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Watershed environmental protection coordinator (ENV)",
+          "target_key": "ENV-WATER-488",
+          "alternate_key": "ENV-WATER-6IP",
+          "target_context": "Production environment",
+          "alternate_context": "Staging environment",
+          "candidate": "Upper Mississippi Riverway Multimodal Corridor",
+          "other_candidates": [
+            "Ohio Basin Direct Rail-Barge Corridor",
+            "Illinois Inland Waterway Unit-Train Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "watershed_discharge_compliant",
+              "value": true,
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "average_car_dwell_hours",
+              "label": "Average terminal railcar dwell time",
+              "aliases": [
+                "Car turnaround dwell duration",
+                "Railcar terminal dwell time"
+              ]
+            },
+            {
+              "topic": "fumigation_protocol_certified",
+              "label": "Certified grain fumigation protocol activated",
+              "aliases": [
+                "Quarantine fumigation protocol active",
+                "Export phytosanitary fumigation certification"
+              ]
+            },
+            {
+              "topic": "aeration_turnaround_hours",
+              "label": "Post-treatment aeration turnaround time",
+              "aliases": [
+                "Fumigant aeration turnaround period",
+                "Gas evacuation aeration duration"
+              ]
+            },
+            {
+              "topic": "watershed_discharge_compliant",
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ]
+            },
+            {
+              "topic": "rail_interchange_cleared",
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ]
+            },
+            {
+              "topic": "navigational_permit_verified",
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ]
+            },
+            {
+              "topic": "daily_railhead_throughput",
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ]
+            },
+            {
+              "topic": "daily_barge_loading_throughput",
+              "label": "Daily barge loading throughput",
+              "aliases": [
+                "Riverside barge loading rate",
+                "Daily marine dispatch throughput"
+              ]
+            },
+            {
+              "topic": "captive_milling_allocation",
+              "label": "Mandatory captive local milling allocation",
+              "aliases": [
+                "Local domestic processing quota",
+                "Captive flour milling deduction"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Class I railroad logistics superintendent (RAIL)",
+          "target_key": "RAIL-TRACK-ALL",
+          "alternate_key": "RAIL-TRACK-FUJ",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "Upper Mississippi Riverway Multimodal Corridor",
+          "other_candidates": [
+            "Ohio Basin Direct Rail-Barge Corridor",
+            "Illinois Inland Waterway Unit-Train Corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_railhead_throughput",
+              "value": 7500,
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ],
+              "unit": "t/day"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "rail_interchange_cleared",
+              "value": true,
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "average_car_dwell_hours",
+              "label": "Average terminal railcar dwell time",
+              "aliases": [
+                "Car turnaround dwell duration",
+                "Railcar terminal dwell time"
+              ]
+            },
+            {
+              "topic": "fumigation_protocol_certified",
+              "label": "Certified grain fumigation protocol activated",
+              "aliases": [
+                "Quarantine fumigation protocol active",
+                "Export phytosanitary fumigation certification"
+              ]
+            },
+            {
+              "topic": "aeration_turnaround_hours",
+              "label": "Post-treatment aeration turnaround time",
+              "aliases": [
+                "Fumigant aeration turnaround period",
+                "Gas evacuation aeration duration"
+              ]
+            },
+            {
+              "topic": "watershed_discharge_compliant",
+              "label": "Watershed runoff discharge compliance",
+              "aliases": [
+                "Stormwater runoff permit compliance",
+                "Riparian environmental discharge certification"
+              ]
+            },
+            {
+              "topic": "rail_interchange_cleared",
+              "label": "Certified railway interchange clearance",
+              "aliases": [
+                "Class I mainline interchange approval",
+                "Trackage rights clearance"
+              ]
+            },
+            {
+              "topic": "navigational_permit_verified",
+              "label": "Navigational waterway operating permit verified",
+              "aliases": [
+                "River navigation channel clearance permit",
+                "Barge waterway operating authorization"
+              ]
+            },
+            {
+              "topic": "daily_railhead_throughput",
+              "label": "Daily railhead transfer throughput",
+              "aliases": [
+                "Railhead unloading throughput",
+                "Daily rail discharge volume"
+              ]
+            },
+            {
+              "topic": "daily_barge_loading_throughput",
+              "label": "Daily barge loading throughput",
+              "aliases": [
+                "Riverside barge loading rate",
+                "Daily marine dispatch throughput"
+              ]
+            },
+            {
+              "topic": "captive_milling_allocation",
+              "label": "Mandatory captive local milling allocation",
+              "aliases": [
+                "Local domestic processing quota",
+                "Captive flour milling deduction"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

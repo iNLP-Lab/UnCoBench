@@ -1,0 +1,454 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_849",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "mechanical_plant",
+        "municipal_compliance"
+      ],
+      "role_names": [
+        "Heavy rail plant and machinery manager (MECH)",
+        "Municipal environmental liaison officer (MUN)"
+      ],
+      "directory": "number_expansion/misaligned/task_849/k2",
+      "error_profiles": [
+        {
+          "role_name": "Heavy rail plant and machinery manager (MECH)",
+          "target_key": "MECH-MACH-U5H",
+          "alternate_key": "MECH-MACH-Y0S",
+          "target_context": "15-minute peak interval",
+          "alternate_context": "full-shift continuous average",
+          "candidate": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidates": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "numeric": [
+            {
+              "topic": "milling_machine_load_kw",
+              "value": 480,
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "track_possession_approved",
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ]
+            },
+            {
+              "topic": "scrubber_deployed",
+              "label": "Active ventilation scrubber deployed",
+              "aliases": [
+                "Ventilation scrubber deployment",
+                "Scrubber readiness"
+              ]
+            },
+            {
+              "topic": "scrubber_airflow_m3h",
+              "label": "Scrubber airflow extraction capacity",
+              "aliases": [
+                "Dust extraction airflow rate",
+                "Air scrubber volume throughput"
+              ]
+            },
+            {
+              "topic": "drainage_standby_ready",
+              "label": "Continuous emergency drainage standby",
+              "aliases": [
+                "Emergency drainage pump readiness",
+                "Invert dewatering standby"
+              ]
+            },
+            {
+              "topic": "noise_variance_certified",
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ]
+            },
+            {
+              "topic": "booster_fan_load_kw",
+              "label": "Primary ventilation booster load",
+              "aliases": [
+                "Booster fan electrical demand",
+                "Ventilation fan load"
+              ]
+            },
+            {
+              "topic": "milling_machine_load_kw",
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal environmental liaison officer (MUN)",
+          "target_key": "MUN-ENV-O5F",
+          "alternate_key": "MUN-ENV-0ER",
+          "target_context": "Production environment",
+          "alternate_context": "Staging test environment",
+          "candidate": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidates": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "noise_variance_certified",
+              "value": true,
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "track_possession_approved",
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ]
+            },
+            {
+              "topic": "scrubber_deployed",
+              "label": "Active ventilation scrubber deployed",
+              "aliases": [
+                "Ventilation scrubber deployment",
+                "Scrubber readiness"
+              ]
+            },
+            {
+              "topic": "scrubber_airflow_m3h",
+              "label": "Scrubber airflow extraction capacity",
+              "aliases": [
+                "Dust extraction airflow rate",
+                "Air scrubber volume throughput"
+              ]
+            },
+            {
+              "topic": "drainage_standby_ready",
+              "label": "Continuous emergency drainage standby",
+              "aliases": [
+                "Emergency drainage pump readiness",
+                "Invert dewatering standby"
+              ]
+            },
+            {
+              "topic": "noise_variance_certified",
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ]
+            },
+            {
+              "topic": "booster_fan_load_kw",
+              "label": "Primary ventilation booster load",
+              "aliases": [
+                "Booster fan electrical demand",
+                "Ventilation fan load"
+              ]
+            },
+            {
+              "topic": "milling_machine_load_kw",
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "mechanical_plant",
+        "municipal_compliance",
+        "rail_infrastructure"
+      ],
+      "role_names": [
+        "Heavy rail plant and machinery manager (MECH)",
+        "Municipal environmental liaison officer (MUN)",
+        "Track possession and infrastructure controller (INFRA)"
+      ],
+      "directory": "number_expansion/misaligned/task_849/k3",
+      "error_profiles": [
+        {
+          "role_name": "Heavy rail plant and machinery manager (MECH)",
+          "target_key": "MECH-MACH-U5H",
+          "alternate_key": "MECH-MACH-Y0S",
+          "target_context": "15-minute peak interval",
+          "alternate_context": "full-shift continuous average",
+          "candidate": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidates": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "numeric": [
+            {
+              "topic": "milling_machine_load_kw",
+              "value": 480,
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ],
+              "unit": "kW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "track_possession_approved",
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ]
+            },
+            {
+              "topic": "scrubber_deployed",
+              "label": "Active ventilation scrubber deployed",
+              "aliases": [
+                "Ventilation scrubber deployment",
+                "Scrubber readiness"
+              ]
+            },
+            {
+              "topic": "scrubber_airflow_m3h",
+              "label": "Scrubber airflow extraction capacity",
+              "aliases": [
+                "Dust extraction airflow rate",
+                "Air scrubber volume throughput"
+              ]
+            },
+            {
+              "topic": "drainage_standby_ready",
+              "label": "Continuous emergency drainage standby",
+              "aliases": [
+                "Emergency drainage pump readiness",
+                "Invert dewatering standby"
+              ]
+            },
+            {
+              "topic": "noise_variance_certified",
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ]
+            },
+            {
+              "topic": "booster_fan_load_kw",
+              "label": "Primary ventilation booster load",
+              "aliases": [
+                "Booster fan electrical demand",
+                "Ventilation fan load"
+              ]
+            },
+            {
+              "topic": "milling_machine_load_kw",
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Municipal environmental liaison officer (MUN)",
+          "target_key": "MUN-ENV-O5F",
+          "alternate_key": "MUN-ENV-0ER",
+          "target_context": "Production environment",
+          "alternate_context": "Staging test environment",
+          "candidate": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidates": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "noise_variance_certified",
+              "value": true,
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "track_possession_approved",
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ]
+            },
+            {
+              "topic": "scrubber_deployed",
+              "label": "Active ventilation scrubber deployed",
+              "aliases": [
+                "Ventilation scrubber deployment",
+                "Scrubber readiness"
+              ]
+            },
+            {
+              "topic": "scrubber_airflow_m3h",
+              "label": "Scrubber airflow extraction capacity",
+              "aliases": [
+                "Dust extraction airflow rate",
+                "Air scrubber volume throughput"
+              ]
+            },
+            {
+              "topic": "drainage_standby_ready",
+              "label": "Continuous emergency drainage standby",
+              "aliases": [
+                "Emergency drainage pump readiness",
+                "Invert dewatering standby"
+              ]
+            },
+            {
+              "topic": "noise_variance_certified",
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ]
+            },
+            {
+              "topic": "booster_fan_load_kw",
+              "label": "Primary ventilation booster load",
+              "aliases": [
+                "Booster fan electrical demand",
+                "Ventilation fan load"
+              ]
+            },
+            {
+              "topic": "milling_machine_load_kw",
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Track possession and infrastructure controller (INFRA)",
+          "target_key": "INFRA-POSS-J1J",
+          "alternate_key": "INFRA-POSS-OEE",
+          "target_context": "February 2025",
+          "alternate_context": "March 2025",
+          "candidate": "Continuous mechanical excavation and concrete lining plan",
+          "other_candidates": [
+            "Segmental hydrodemolition and shotcrete restoration plan",
+            "Modular prefabricated invert slab replacement plan"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "track_possession_approved",
+              "value": true,
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "track_possession_approved",
+              "label": "Track possession clearance approved",
+              "aliases": [
+                "Possession clearance approval",
+                "Track occupancy permit"
+              ]
+            },
+            {
+              "topic": "scrubber_deployed",
+              "label": "Active ventilation scrubber deployed",
+              "aliases": [
+                "Ventilation scrubber deployment",
+                "Scrubber readiness"
+              ]
+            },
+            {
+              "topic": "scrubber_airflow_m3h",
+              "label": "Scrubber airflow extraction capacity",
+              "aliases": [
+                "Dust extraction airflow rate",
+                "Air scrubber volume throughput"
+              ]
+            },
+            {
+              "topic": "drainage_standby_ready",
+              "label": "Continuous emergency drainage standby",
+              "aliases": [
+                "Emergency drainage pump readiness",
+                "Invert dewatering standby"
+              ]
+            },
+            {
+              "topic": "noise_variance_certified",
+              "label": "Municipal night-work noise variance certified",
+              "aliases": [
+                "Nighttime acoustic variance permit",
+                "Noise compliance waiver"
+              ]
+            },
+            {
+              "topic": "booster_fan_load_kw",
+              "label": "Primary ventilation booster load",
+              "aliases": [
+                "Booster fan electrical demand",
+                "Ventilation fan load"
+              ]
+            },
+            {
+              "topic": "milling_machine_load_kw",
+              "label": "Track ballast milling machine load",
+              "aliases": [
+                "Ballast miller power demand",
+                "Milling machine electrical consumption"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

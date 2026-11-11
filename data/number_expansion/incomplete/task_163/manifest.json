@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_163",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_engineering",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (MENG)",
+        "Naval architecture lead (NARC)"
+      ],
+      "directory": "incomplete/task_163",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MENG-JACK-503",
+          "boolean_predicate_id": "A_jacking_trial_verified",
+          "boolean_label": "Active jacking trial verification",
+          "hidden_predicate_id": "A_jacking_speed",
+          "threshold_label": "Average four-point jacking speed",
+          "threshold_aliases": [
+            "Continuous jacking speed",
+            "Four-point elevation rate"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m/min",
+          "partial_record_text": "MENG-JACK-503: Aeolus Vanguard.Aeolus Vanguard: Active jacking trial verification = true .Source: Jacking system sea trial report; Scope: Continuous elevated full-load trial within the last 12 months; Measurement: Whether all rack-and-pinion jacking legs completed and passed official trial verification.Aeolus Vanguard: Auxiliary power support daily rate = 70000 EUR/d.Source: Auxiliary plant operation rate book; Scope: High-voltage turbine pre-commissioning generator packages; Measurement: Daily rental and operational cost for supplying continuous auxiliary power to transition pieces.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3
+          },
+          "coarse_statement": "Average four-point jacking speed is at most 3 m/min.",
+          "role_name": "Marine engineering superintendent (MENG)",
+          "candidate_name": "Aeolus Vanguard",
+          "other_candidate_names": [
+            "Boreas Horizon",
+            "Zephyrus Titan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NARC-CRANE-SWP",
+          "hidden_predicate_id": "A_crane_safe_working_load",
+          "threshold_label": "Crane main-hook safe working load",
+          "threshold_aliases": [
+            "Main crane safe working load",
+            "Crane SWL"
+          ],
+          "threshold_value": 2600,
+          "threshold_unit": "t",
+          "partial_record_text": "NARC-CRANE-SWP: Aeolus Vanguard. The record covers Crane main-hook safe working load. Record context: United Kingdom. Heavy-lift crane test register; Main pedestal crane hook at 35 m working radius; Maximum certified safe working lifting load under offshore dynamic conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "Crane main-hook safe working load is at most 4000 t.",
+          "role_name": "Naval architecture lead (NARC)",
+          "candidate_name": "Aeolus Vanguard",
+          "other_candidate_names": [
+            "Boreas Horizon",
+            "Zephyrus Titan"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_engineering",
+        "naval_architecture",
+        "procurement_commercial"
+      ],
+      "role_names": [
+        "Marine engineering superintendent (MENG)",
+        "Naval architecture lead (NARC)",
+        "Commercial chartering manager (COMM)"
+      ],
+      "directory": "incomplete/task_163",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_A",
+          "role_id": "marine_engineering",
+          "candidate_id": "A",
+          "key": "MENG-JACK-503",
+          "boolean_predicate_id": "A_jacking_trial_verified",
+          "boolean_label": "Active jacking trial verification",
+          "hidden_predicate_id": "A_jacking_speed",
+          "threshold_label": "Average four-point jacking speed",
+          "threshold_aliases": [
+            "Continuous jacking speed",
+            "Four-point elevation rate"
+          ],
+          "threshold_value": 1.2,
+          "threshold_unit": "m/min",
+          "partial_record_text": "MENG-JACK-503: Aeolus Vanguard.Aeolus Vanguard: Active jacking trial verification = true .Source: Jacking system sea trial report; Scope: Continuous elevated full-load trial within the last 12 months; Measurement: Whether all rack-and-pinion jacking legs completed and passed official trial verification.Aeolus Vanguard: Auxiliary power support daily rate = 70000 EUR/d.Source: Auxiliary plant operation rate book; Scope: High-voltage turbine pre-commissioning generator packages; Measurement: Daily rental and operational cost for supplying continuous auxiliary power to transition pieces.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3
+          },
+          "coarse_statement": "Average four-point jacking speed is at most 3 m/min.",
+          "role_name": "Marine engineering superintendent (MENG)",
+          "candidate_name": "Aeolus Vanguard",
+          "other_candidate_names": [
+            "Boreas Horizon",
+            "Zephyrus Titan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NARC-CRANE-SWP",
+          "hidden_predicate_id": "A_crane_safe_working_load",
+          "threshold_label": "Crane main-hook safe working load",
+          "threshold_aliases": [
+            "Main crane safe working load",
+            "Crane SWL"
+          ],
+          "threshold_value": 2600,
+          "threshold_unit": "t",
+          "partial_record_text": "NARC-CRANE-SWP: Aeolus Vanguard. The record covers Crane main-hook safe working load. Record context: United Kingdom. Heavy-lift crane test register; Main pedestal crane hook at 35 m working radius; Maximum certified safe working lifting load under offshore dynamic conditions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "Crane main-hook safe working load is at most 4000 t.",
+          "role_name": "Naval architecture lead (NARC)",
+          "candidate_name": "Aeolus Vanguard",
+          "other_candidate_names": [
+            "Boreas Horizon",
+            "Zephyrus Titan"
+          ],
+          "context_value": "United Kingdom",
+          "other_context_values": [
+            "France"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_procurement_commercial_A",
+          "role_id": "procurement_commercial",
+          "candidate_id": "A",
+          "key": "COMM-CHRT-R4H",
+          "hidden_predicate_id": "A_fuel_mobilization_day_rate",
+          "threshold_label": "Fuel mobilization daily rate",
+          "threshold_aliases": [
+            "Fuel mobilization rate",
+            "Daily fuel mobilization charge"
+          ],
+          "threshold_value": 130000,
+          "threshold_unit": "EUR/d",
+          "partial_record_text": "COMM-CHRT-R4H: Aeolus Vanguard. The record covers Fuel mobilization daily rate. Charter commercial pricing schedule; Transit mobilization and active field positioning fuel allowance; Contractual fixed daily fuel and lubricant mobilization baseline charge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Fuel mobilization daily rate is at most 300000 EUR/d.",
+          "role_name": "Commercial chartering manager (COMM)",
+          "candidate_name": "Aeolus Vanguard",
+          "other_candidate_names": [
+            "Boreas Horizon",
+            "Zephyrus Titan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

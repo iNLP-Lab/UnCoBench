@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_460",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_officer",
+        "camp_operations_lead"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Camp operations superintendent (CAMP)"
+      ],
+      "directory": "incomplete/task_460",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_officer_A",
+          "role_id": "environmental_officer",
+          "candidate_id": "A",
+          "key": "ENV-PERM-CO3",
+          "boolean_predicate_id": "A_wildlife_deterrent_active",
+          "boolean_label": "Active wildlife encounter deterrence protocol",
+          "hidden_predicate_id": "A_perimeter_patrol_latency",
+          "threshold_label": "Maximum deterrent deployment time",
+          "threshold_aliases": [
+            "Wildlife response time",
+            "Perimeter deterrent latency"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "ENV-PERM-CO3: Low-impact modular overland transit.Low-impact modular overland transit: Permafrost disturbance clearance = true .Source: Territorial land-use license registry; Scope: Field staging and drilling corridor; Measurement: Formal regulatory approval of permafrost thermal impact mitigation plan.Low-impact modular overland transit: Active wildlife encounter deterrence protocol = true .Source: Wildlife safety manual; Scope: Candidate camp perimeter safety system; Measurement: Activation status of perimeter tripwire and non-lethal acoustic deterrent systems.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum deterrent deployment time is at most 40 min.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Low-impact modular overland transit",
+          "other_candidate_names": [
+            "Direct heavy-lift rotary airbridge",
+            "Amphibious tracked convoy staging"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_camp_operations_lead_A",
+          "role_id": "camp_operations_lead",
+          "candidate_id": "A",
+          "key": "CAMP-ACOUST-V60",
+          "hidden_predicate_id": "A_noise_emission_level",
+          "threshold_label": "Camp noise emission",
+          "threshold_aliases": [
+            "Camp acoustic footprint",
+            "Acoustic noise signature"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "dBA",
+          "partial_record_text": "CAMP-ACOUST-V60: Low-impact modular overland transit. The record covers Camp noise emission. Field acoustic modeling certificate; Camp exterior boundary at 100 m radius; A-weighted equivalent continuous sound level during full generator and drilling operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Camp noise emission is at most 80 dBA.",
+          "role_name": "Camp operations superintendent (CAMP)",
+          "candidate_name": "Low-impact modular overland transit",
+          "other_candidate_names": [
+            "Direct heavy-lift rotary airbridge",
+            "Amphibious tracked convoy staging"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_officer",
+        "camp_operations_lead",
+        "drilling_logistics_manager"
+      ],
+      "role_names": [
+        "Environmental compliance officer (ENV)",
+        "Camp operations superintendent (CAMP)",
+        "Drilling logistics manager (RIG)"
+      ],
+      "directory": "incomplete/task_460",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_officer_A",
+          "role_id": "environmental_officer",
+          "candidate_id": "A",
+          "key": "ENV-PERM-CO3",
+          "boolean_predicate_id": "A_wildlife_deterrent_active",
+          "boolean_label": "Active wildlife encounter deterrence protocol",
+          "hidden_predicate_id": "A_perimeter_patrol_latency",
+          "threshold_label": "Maximum deterrent deployment time",
+          "threshold_aliases": [
+            "Wildlife response time",
+            "Perimeter deterrent latency"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "ENV-PERM-CO3: Low-impact modular overland transit.Low-impact modular overland transit: Permafrost disturbance clearance = true .Source: Territorial land-use license registry; Scope: Field staging and drilling corridor; Measurement: Formal regulatory approval of permafrost thermal impact mitigation plan.Low-impact modular overland transit: Active wildlife encounter deterrence protocol = true .Source: Wildlife safety manual; Scope: Candidate camp perimeter safety system; Measurement: Activation status of perimeter tripwire and non-lethal acoustic deterrent systems.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Maximum deterrent deployment time is at most 40 min.",
+          "role_name": "Environmental compliance officer (ENV)",
+          "candidate_name": "Low-impact modular overland transit",
+          "other_candidate_names": [
+            "Direct heavy-lift rotary airbridge",
+            "Amphibious tracked convoy staging"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_camp_operations_lead_A",
+          "role_id": "camp_operations_lead",
+          "candidate_id": "A",
+          "key": "CAMP-ACOUST-V60",
+          "hidden_predicate_id": "A_noise_emission_level",
+          "threshold_label": "Camp noise emission",
+          "threshold_aliases": [
+            "Camp acoustic footprint",
+            "Acoustic noise signature"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "dBA",
+          "partial_record_text": "CAMP-ACOUST-V60: Low-impact modular overland transit. The record covers Camp noise emission. Field acoustic modeling certificate; Camp exterior boundary at 100 m radius; A-weighted equivalent continuous sound level during full generator and drilling operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Camp noise emission is at most 80 dBA.",
+          "role_name": "Camp operations superintendent (CAMP)",
+          "candidate_name": "Low-impact modular overland transit",
+          "other_candidate_names": [
+            "Direct heavy-lift rotary airbridge",
+            "Amphibious tracked convoy staging"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_drilling_logistics_manager_A",
+          "role_id": "drilling_logistics_manager",
+          "candidate_id": "A",
+          "key": "RIG-PAYLOAD-NPB",
+          "hidden_predicate_id": "A_drill_rig_cargo_mass",
+          "threshold_label": "Drill rig tooling payload",
+          "threshold_aliases": [
+            "Rig assembly freight mass",
+            "Mechanical drilling freight weight"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "t",
+          "partial_record_text": "RIG-PAYLOAD-NPB: Low-impact modular overland transit. The record covers Drill rig tooling payload. Rig weight and balance manifest; Candidate core drill rig and skid components; Total certified shipping weight of disassembled drill rig and power packs.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Drill rig tooling payload is at most 40 t.",
+          "role_name": "Drilling logistics manager (RIG)",
+          "candidate_name": "Low-impact modular overland transit",
+          "other_candidate_names": [
+            "Direct heavy-lift rotary airbridge",
+            "Amphibious tracked convoy staging"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

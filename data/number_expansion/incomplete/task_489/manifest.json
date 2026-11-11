@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_489",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "emergency_logistics"
+      ],
+      "role_names": [
+        "Public health medical coordinator (MED)",
+        "Emergency logistics officer (LOG)"
+      ],
+      "directory": "incomplete/task_489",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-JWP",
+          "boolean_predicate_id": "A_isolation_quarantine_present",
+          "boolean_label": "Isolated medical quarantine space present",
+          "hidden_predicate_id": "A_physician_arrival_time",
+          "threshold_label": "On-call physician arrival time",
+          "threshold_aliases": [
+            "Doctor response latency",
+            "Medical response transit time"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-CLINIC-JWP: Crestview Regional Complex.Crestview Regional Complex: Isolated medical quarantine space present = true .Source: Public health inspection dossier; Scope: Dedicated infectious triage zone; Measurement: Presence of a partitioned room with independent exhaust ventilation.",
+          "role_name": "Public health medical coordinator (MED)",
+          "candidate_name": "Crestview Regional Complex",
+          "other_candidate_names": [
+            "Harborview Exhibition Pavilion",
+            "Pine Valley Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_logistics_A",
+          "role_id": "emergency_logistics",
+          "candidate_id": "A",
+          "key": "LOG-SUPP-O5P",
+          "hidden_predicate_id": "A_cot_inventory_capacity",
+          "threshold_label": "Dedicated emergency cot inventory",
+          "threshold_aliases": [
+            "Sleeping cot stockpile",
+            "Foldable cot inventory"
+          ],
+          "threshold_value": 900,
+          "threshold_unit": "cots",
+          "partial_record_text": "LOG-SUPP-O5P: Crestview Regional Complex.Crestview Regional Complex: Standby generator fuel reserve = 4800 L.Source: Bulk fuel inspection certificate; Scope: Shelter dedicated auxiliary storage tank; Measurement: Total usable volume of ultra-low sulfur diesel fuel on hand.",
+          "role_name": "Emergency logistics officer (LOG)",
+          "candidate_name": "Crestview Regional Complex",
+          "other_candidate_names": [
+            "Harborview Exhibition Pavilion",
+            "Pine Valley Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "emergency_logistics",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Public health medical coordinator (MED)",
+        "Emergency logistics officer (LOG)",
+        "Civil infrastructure engineer (CIV)"
+      ],
+      "directory": "incomplete/task_489",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-JWP",
+          "boolean_predicate_id": "A_isolation_quarantine_present",
+          "boolean_label": "Isolated medical quarantine space present",
+          "hidden_predicate_id": "A_physician_arrival_time",
+          "threshold_label": "On-call physician arrival time",
+          "threshold_aliases": [
+            "Doctor response latency",
+            "Medical response transit time"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-CLINIC-JWP: Crestview Regional Complex.Crestview Regional Complex: Isolated medical quarantine space present = true .Source: Public health inspection dossier; Scope: Dedicated infectious triage zone; Measurement: Presence of a partitioned room with independent exhaust ventilation.",
+          "role_name": "Public health medical coordinator (MED)",
+          "candidate_name": "Crestview Regional Complex",
+          "other_candidate_names": [
+            "Harborview Exhibition Pavilion",
+            "Pine Valley Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_logistics_A",
+          "role_id": "emergency_logistics",
+          "candidate_id": "A",
+          "key": "LOG-SUPP-O5P",
+          "hidden_predicate_id": "A_cot_inventory_capacity",
+          "threshold_label": "Dedicated emergency cot inventory",
+          "threshold_aliases": [
+            "Sleeping cot stockpile",
+            "Foldable cot inventory"
+          ],
+          "threshold_value": 900,
+          "threshold_unit": "cots",
+          "partial_record_text": "LOG-SUPP-O5P: Crestview Regional Complex.Crestview Regional Complex: Standby generator fuel reserve = 4800 L.Source: Bulk fuel inspection certificate; Scope: Shelter dedicated auxiliary storage tank; Measurement: Total usable volume of ultra-low sulfur diesel fuel on hand.",
+          "role_name": "Emergency logistics officer (LOG)",
+          "candidate_name": "Crestview Regional Complex",
+          "other_candidate_names": [
+            "Harborview Exhibition Pavilion",
+            "Pine Valley Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "CIV-STRUCT-AE2",
+          "hidden_predicate_id": "A_wind_hazard_rating",
+          "threshold_label": "Design wind hazard resistance",
+          "threshold_aliases": [
+            "Wind gust tolerance",
+            "Design wind speed limit"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "km/h",
+          "partial_record_text": "CIV-STRUCT-AE2: Crestview Regional Complex.Crestview Regional Complex: Structural storm resilience certification = true .Source: Municipal building safety register; Scope: Main structural shell and foundation; Measurement: Valid certification endorsing the structure for severe hurricane occupancy.",
+          "role_name": "Civil infrastructure engineer (CIV)",
+          "candidate_name": "Crestview Regional Complex",
+          "other_candidate_names": [
+            "Harborview Exhibition Pavilion",
+            "Pine Valley Fieldhouse"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

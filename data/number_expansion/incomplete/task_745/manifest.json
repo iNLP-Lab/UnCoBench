@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_745",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_health",
+        "human_services"
+      ],
+      "role_names": [
+        "Environmental health officer (EHO)",
+        "Emergency human services director (HSD)"
+      ],
+      "directory": "incomplete/task_745",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "EHO-AIR-XP4",
+          "boolean_predicate_id": "A_air_filtration_active",
+          "boolean_label": "High-efficiency particulate filtration operational",
+          "hidden_predicate_id": "A_particulate_retention_efficiency",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "Smoke particulate filtration rate",
+            "HEPA filter efficiency"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "EHO-AIR-XP4: Ponderosa Regional Fairgrounds Complex.Ponderosa Regional Fairgrounds Complex: High-efficiency particulate filtration operational = true .Source: HVAC emergency status report; Scope: Shelter congregate halls; Measurement: Operational engagement of recirculating particulate air filtration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Particulate filtration efficiency is at most 100 %.",
+          "role_name": "Environmental health officer (EHO)",
+          "candidate_name": "Ponderosa Regional Fairgrounds Complex",
+          "other_candidate_names": [
+            "Cascade Foothills Civic Arena",
+            "Blackwood Multipurpose Education Campus"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_human_services_A",
+          "role_id": "human_services",
+          "candidate_id": "A",
+          "key": "HSD-SHELTER-PE4",
+          "hidden_predicate_id": "A_total_certified_cots",
+          "threshold_label": "Total certified cot capacity",
+          "threshold_aliases": [
+            "Certified congregate cot count",
+            "Gross shelter cot capacity"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "cots",
+          "partial_record_text": "HSD-SHELTER-PE4: Ponderosa Regional Fairgrounds Complex.Ponderosa Regional Fairgrounds Complex: Municipal intake liaison assigned = true .Source: Emergency roster roster deployment order; Scope: Candidate shelter management team; Measurement: Designation of a certified intake liaison to direct civil intake operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total certified cot capacity is at most 3000 cots.",
+          "role_name": "Emergency human services director (HSD)",
+          "candidate_name": "Ponderosa Regional Fairgrounds Complex",
+          "other_candidate_names": [
+            "Cascade Foothills Civic Arena",
+            "Blackwood Multipurpose Education Campus"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_health",
+        "human_services",
+        "accessibility_liaison"
+      ],
+      "role_names": [
+        "Environmental health officer (EHO)",
+        "Emergency human services director (HSD)",
+        "Vulnerable population logistics officer (VLO)"
+      ],
+      "directory": "incomplete/task_745",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "EHO-AIR-XP4",
+          "boolean_predicate_id": "A_air_filtration_active",
+          "boolean_label": "High-efficiency particulate filtration operational",
+          "hidden_predicate_id": "A_particulate_retention_efficiency",
+          "threshold_label": "Particulate filtration efficiency",
+          "threshold_aliases": [
+            "Smoke particulate filtration rate",
+            "HEPA filter efficiency"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "EHO-AIR-XP4: Ponderosa Regional Fairgrounds Complex.Ponderosa Regional Fairgrounds Complex: High-efficiency particulate filtration operational = true .Source: HVAC emergency status report; Scope: Shelter congregate halls; Measurement: Operational engagement of recirculating particulate air filtration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Particulate filtration efficiency is at most 100 %.",
+          "role_name": "Environmental health officer (EHO)",
+          "candidate_name": "Ponderosa Regional Fairgrounds Complex",
+          "other_candidate_names": [
+            "Cascade Foothills Civic Arena",
+            "Blackwood Multipurpose Education Campus"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_human_services_A",
+          "role_id": "human_services",
+          "candidate_id": "A",
+          "key": "HSD-SHELTER-PE4",
+          "hidden_predicate_id": "A_total_certified_cots",
+          "threshold_label": "Total certified cot capacity",
+          "threshold_aliases": [
+            "Certified congregate cot count",
+            "Gross shelter cot capacity"
+          ],
+          "threshold_value": 1800,
+          "threshold_unit": "cots",
+          "partial_record_text": "HSD-SHELTER-PE4: Ponderosa Regional Fairgrounds Complex.Ponderosa Regional Fairgrounds Complex: Municipal intake liaison assigned = true .Source: Emergency roster roster deployment order; Scope: Candidate shelter management team; Measurement: Designation of a certified intake liaison to direct civil intake operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Total certified cot capacity is at most 3000 cots.",
+          "role_name": "Emergency human services director (HSD)",
+          "candidate_name": "Ponderosa Regional Fairgrounds Complex",
+          "other_candidate_names": [
+            "Cascade Foothills Civic Arena",
+            "Blackwood Multipurpose Education Campus"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_accessibility_liaison_A",
+          "role_id": "accessibility_liaison",
+          "candidate_id": "A",
+          "key": "VLO-ACCESS-0K9",
+          "hidden_predicate_id": "A_vulnerable_population_reserve_cots",
+          "threshold_label": "Reserved vulnerable population cot allocation",
+          "threshold_aliases": [
+            "Special medical needs cot reservation",
+            "Vulnerable population cot set-aside"
+          ],
+          "threshold_value": 250,
+          "threshold_unit": "cots",
+          "partial_record_text": "VLO-ACCESS-0K9: Ponderosa Regional Fairgrounds Complex. The record covers Reserved vulnerable population cot allocation. Disability integration allocation schedule; Pre-assigned clinical and mobility-assisted sleeping bays; Cots quarantined exclusively for medically fragile and disabled evacuees.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reserved vulnerable population cot allocation is at most 500 cots.",
+          "role_name": "Vulnerable population logistics officer (VLO)",
+          "candidate_name": "Ponderosa Regional Fairgrounds Complex",
+          "other_candidate_names": [
+            "Cascade Foothills Civic Arena",
+            "Blackwood Multipurpose Education Campus"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

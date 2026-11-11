@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_055",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_preparedness",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Offshore Survival and Readiness Director (OSRD)",
+        "Salvage Fleet Operations Superintendent (SFOS)"
+      ],
+      "directory": "incomplete/task_055",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_preparedness_A",
+          "role_id": "emergency_preparedness",
+          "candidate_id": "A",
+          "key": "OSRD-DISP-88P",
+          "boolean_predicate_id": "A_survival_tracking_registered",
+          "boolean_label": "Offshore emergency survival credential registration",
+          "hidden_predicate_id": "A_mobilization_dispatch_delay",
+          "threshold_label": "Emergency dispatch mobilization delay",
+          "threshold_aliases": [
+            "Callout response delay",
+            "Mobilization notice time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "OSRD-DISP-88P: Captain Alistair Vance.Captain Alistair Vance: Offshore emergency survival credential registration = true .Source: OPITO Global Safety Registry; Scope: Candidate current offshore safety passport; Measurement: Whether an active survival training credential file is registered in the central system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency dispatch mobilization delay is at most 40 h.",
+          "role_name": "Offshore Survival and Readiness Director (OSRD)",
+          "candidate_name": "Captain Alistair Vance",
+          "other_candidate_names": [
+            "Commander Elena Rostova",
+            "Chief Inspector Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "SFOS-OPS-1L6",
+          "hidden_predicate_id": "A_heavy_weather_experience",
+          "threshold_label": "Heavy-weather open-sea command experience",
+          "threshold_aliases": [
+            "Severe weather command service",
+            "Rough seas command duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "months",
+          "partial_record_text": "SFOS-OPS-1L6: Captain Alistair Vance.Captain Alistair Vance: Dynamic positioning senior master qualification = true .Source: Nautical Institute DP Register; Scope: Unlimited dynamic positioning operations credential; Measurement: Whether candidate holds an active and validated Senior DP Master certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Heavy-weather open-sea command experience is at most 300 months.",
+          "role_name": "Salvage Fleet Operations Superintendent (SFOS)",
+          "candidate_name": "Captain Alistair Vance",
+          "other_candidate_names": [
+            "Commander Elena Rostova",
+            "Chief Inspector Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_preparedness",
+        "fleet_operations",
+        "commercial_contracting"
+      ],
+      "role_names": [
+        "Offshore Survival and Readiness Director (OSRD)",
+        "Salvage Fleet Operations Superintendent (SFOS)",
+        "Salvage Remuneration and Procurement Lead (SRPL)"
+      ],
+      "directory": "incomplete/task_055",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_preparedness_A",
+          "role_id": "emergency_preparedness",
+          "candidate_id": "A",
+          "key": "OSRD-DISP-88P",
+          "boolean_predicate_id": "A_survival_tracking_registered",
+          "boolean_label": "Offshore emergency survival credential registration",
+          "hidden_predicate_id": "A_mobilization_dispatch_delay",
+          "threshold_label": "Emergency dispatch mobilization delay",
+          "threshold_aliases": [
+            "Callout response delay",
+            "Mobilization notice time"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "h",
+          "partial_record_text": "OSRD-DISP-88P: Captain Alistair Vance.Captain Alistair Vance: Offshore emergency survival credential registration = true .Source: OPITO Global Safety Registry; Scope: Candidate current offshore safety passport; Measurement: Whether an active survival training credential file is registered in the central system.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency dispatch mobilization delay is at most 40 h.",
+          "role_name": "Offshore Survival and Readiness Director (OSRD)",
+          "candidate_name": "Captain Alistair Vance",
+          "other_candidate_names": [
+            "Commander Elena Rostova",
+            "Chief Inspector Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "SFOS-OPS-1L6",
+          "hidden_predicate_id": "A_heavy_weather_experience",
+          "threshold_label": "Heavy-weather open-sea command experience",
+          "threshold_aliases": [
+            "Severe weather command service",
+            "Rough seas command duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "months",
+          "partial_record_text": "SFOS-OPS-1L6: Captain Alistair Vance.Captain Alistair Vance: Dynamic positioning senior master qualification = true .Source: Nautical Institute DP Register; Scope: Unlimited dynamic positioning operations credential; Measurement: Whether candidate holds an active and validated Senior DP Master certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Heavy-weather open-sea command experience is at most 300 months.",
+          "role_name": "Salvage Fleet Operations Superintendent (SFOS)",
+          "candidate_name": "Captain Alistair Vance",
+          "other_candidate_names": [
+            "Commander Elena Rostova",
+            "Chief Inspector Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracting_A",
+          "role_id": "commercial_contracting",
+          "candidate_id": "A",
+          "key": "SRPL-PAY-NSJ",
+          "hidden_predicate_id": "A_daily_risk_stipend",
+          "threshold_label": "Daily offshore risk stipend",
+          "threshold_aliases": [
+            "Salvage master day rate",
+            "Hazard stipend rate"
+          ],
+          "threshold_value": 3600,
+          "threshold_unit": "USD/d",
+          "partial_record_text": "SRPL-PAY-NSJ: Captain Alistair Vance. The record covers Daily offshore risk stipend. Standardized salvage personnel remuneration schedule; Casualty response zone within designated hazardous navigation zones; Contracted daily risk tariff payable per active day on station.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Daily offshore risk stipend is at most 5000 USD/d.",
+          "role_name": "Salvage Remuneration and Procurement Lead (SRPL)",
+          "candidate_name": "Captain Alistair Vance",
+          "other_candidate_names": [
+            "Commander Elena Rostova",
+            "Chief Inspector Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

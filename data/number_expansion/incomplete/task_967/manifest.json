@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_967",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "credentialing_board",
+        "quality_directorate"
+      ],
+      "role_names": [
+        "Medical staff credentialing director (CRED)",
+        "Clinical quality and peer review director (QUAL)"
+      ],
+      "directory": "incomplete/task_967",
+      "profiles": [
+        {
+          "record_id": "rec_credentialing_board_A",
+          "role_id": "credentialing_board",
+          "candidate_id": "A",
+          "key": "CRED-SURG-D6S",
+          "boolean_predicate_id": "A_board_certification_verified",
+          "boolean_label": "Trauma surgeon board certification verified",
+          "hidden_predicate_id": "A_subspecialty_experience_years",
+          "threshold_label": "Minimum subspecialty surgical experience",
+          "threshold_aliases": [
+            "Trauma subspecialty experience",
+            "Post-residency critical care tenure"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "yr",
+          "partial_record_text": "CRED-SURG-D6S: Academic medical center faculty practice consortium.Academic medical center faculty practice consortium: Trauma surgeon board certification verified = true .Source: American Board of Surgery primary source verification; Scope: All rostered attending surgical specialists; Measurement: Formal confirmation that all candidate surgeons possess active board certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum subspecialty surgical experience is at most 30 yr.",
+          "role_name": "Medical staff credentialing director (CRED)",
+          "candidate_name": "Academic medical center faculty practice consortium",
+          "other_candidate_names": [
+            "Regional acute care surgical partnership",
+            "Dedicated trauma surgical hospitalist network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_directorate_A",
+          "role_id": "quality_directorate",
+          "candidate_id": "A",
+          "key": "QUAL-AUDIT-CSX",
+          "hidden_predicate_id": "A_peer_audit_compliance_pct",
+          "threshold_label": "Peer-reviewed clinical audit compliance rate",
+          "threshold_aliases": [
+            "Clinical audit compliance",
+            "Trauma protocol adherence rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "QUAL-AUDIT-CSX: Academic medical center faculty practice consortium. The record covers Peer-reviewed clinical audit compliance rate. Trauma quality improvement program audit; Randomized quarterly surgical case evaluations over past 12 months; Percentage of audited surgical interventions meeting evidence-based trauma guidelines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Peer-reviewed clinical audit compliance rate is at most 100 %.",
+          "role_name": "Clinical quality and peer review director (QUAL)",
+          "candidate_name": "Academic medical center faculty practice consortium",
+          "other_candidate_names": [
+            "Regional acute care surgical partnership",
+            "Dedicated trauma surgical hospitalist network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "credentialing_board",
+        "quality_directorate",
+        "trauma_dispatch"
+      ],
+      "role_names": [
+        "Medical staff credentialing director (CRED)",
+        "Clinical quality and peer review director (QUAL)",
+        "Trauma emergency operations coordinator (DISP)"
+      ],
+      "directory": "incomplete/task_967",
+      "profiles": [
+        {
+          "record_id": "rec_credentialing_board_A",
+          "role_id": "credentialing_board",
+          "candidate_id": "A",
+          "key": "CRED-SURG-D6S",
+          "boolean_predicate_id": "A_board_certification_verified",
+          "boolean_label": "Trauma surgeon board certification verified",
+          "hidden_predicate_id": "A_subspecialty_experience_years",
+          "threshold_label": "Minimum subspecialty surgical experience",
+          "threshold_aliases": [
+            "Trauma subspecialty experience",
+            "Post-residency critical care tenure"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "yr",
+          "partial_record_text": "CRED-SURG-D6S: Academic medical center faculty practice consortium.Academic medical center faculty practice consortium: Trauma surgeon board certification verified = true .Source: American Board of Surgery primary source verification; Scope: All rostered attending surgical specialists; Measurement: Formal confirmation that all candidate surgeons possess active board certification.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum subspecialty surgical experience is at most 30 yr.",
+          "role_name": "Medical staff credentialing director (CRED)",
+          "candidate_name": "Academic medical center faculty practice consortium",
+          "other_candidate_names": [
+            "Regional acute care surgical partnership",
+            "Dedicated trauma surgical hospitalist network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_directorate_A",
+          "role_id": "quality_directorate",
+          "candidate_id": "A",
+          "key": "QUAL-AUDIT-CSX",
+          "hidden_predicate_id": "A_peer_audit_compliance_pct",
+          "threshold_label": "Peer-reviewed clinical audit compliance rate",
+          "threshold_aliases": [
+            "Clinical audit compliance",
+            "Trauma protocol adherence rate"
+          ],
+          "threshold_value": 98,
+          "threshold_unit": "%",
+          "partial_record_text": "QUAL-AUDIT-CSX: Academic medical center faculty practice consortium. The record covers Peer-reviewed clinical audit compliance rate. Trauma quality improvement program audit; Randomized quarterly surgical case evaluations over past 12 months; Percentage of audited surgical interventions meeting evidence-based trauma guidelines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Peer-reviewed clinical audit compliance rate is at most 100 %.",
+          "role_name": "Clinical quality and peer review director (QUAL)",
+          "candidate_name": "Academic medical center faculty practice consortium",
+          "other_candidate_names": [
+            "Regional acute care surgical partnership",
+            "Dedicated trauma surgical hospitalist network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_trauma_dispatch_A",
+          "role_id": "trauma_dispatch",
+          "candidate_id": "A",
+          "key": "DISP-OPS-CCM",
+          "hidden_predicate_id": "A_call_in_response_minutes",
+          "threshold_label": "Guaranteed rapid call-in response time",
+          "threshold_aliases": [
+            "Emergency call-in arrival time",
+            "Trauma operating room mobilization time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "DISP-OPS-CCM: Academic medical center faculty practice consortium.Academic medical center faculty practice consortium: Disaster credentialing readiness confirmed = true .Source: Emergency management credentialing registry; Scope: Candidate surgical emergency roster; Measurement: Formal validation of statewide emergency management mutual aid system credentials.Academic medical center faculty practice consortium: Scheduled emergency on-call hours = 180 h.Source: Annual trauma surgical staffing schedule; Scope: St. Jude trauma service annual operational contract; Measurement: Total contractual baseline standby on-call hours allocated across the year.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Guaranteed rapid call-in response time is at most 40 min.",
+          "role_name": "Trauma emergency operations coordinator (DISP)",
+          "candidate_name": "Academic medical center faculty practice consortium",
+          "other_candidate_names": [
+            "Regional acute care surgical partnership",
+            "Dedicated trauma surgical hospitalist network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_403",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "critical_systems_lead",
+        "logistics_operations_coordinator"
+      ],
+      "role_names": [
+        "Critical Systems Operations Lead (CSO)",
+        "Logistics Operations Coordinator (TRN)"
+      ],
+      "directory": "incomplete/task_403",
+      "profiles": [
+        {
+          "record_id": "rec_critical_systems_lead_A",
+          "role_id": "critical_systems_lead",
+          "candidate_id": "A",
+          "key": "CSO-POWER-QVS",
+          "boolean_predicate_id": "A_emergency_power_automation_enabled",
+          "boolean_label": "Automated emergency power transfer enablement",
+          "hidden_predicate_id": "A_power_transfer_delay_seconds",
+          "threshold_label": "Full-load generator switchover time",
+          "threshold_aliases": [
+            "Emergency power transfer delay",
+            "Automatic switchover duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "CSO-POWER-QVS: Cascade Logistics Gateway.Cascade Logistics Gateway: Automated emergency power transfer enablement = true .Source: Standby generator commission register; Scope: Facility dual-generator backup plant; Measurement: Operational status flag indicating automated power transfer is commissioned and enabled.Cascade Logistics Gateway: Indoor climate-controlled pallet capacity = 2500 pallets.Source: Facility warehouse layout audit; Scope: Racked and temperature-regulated indoor storage bays; Measurement: Total certified standard rack storage positions maintaining 15 to 25 degrees Celsius.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Full-load generator switchover time is at most 40 s.",
+          "role_name": "Critical Systems Operations Lead (CSO)",
+          "candidate_name": "Cascade Logistics Gateway",
+          "other_candidate_names": [
+            "Willamette Distribution Depot",
+            "Columbia Intermodal Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_operations_coordinator_A",
+          "role_id": "logistics_operations_coordinator",
+          "candidate_id": "A",
+          "key": "TRN-FREIGHT-2LO",
+          "hidden_predicate_id": "A_covered_bulk_pallet_capacity",
+          "threshold_label": "Covered bulk staging pallet capacity",
+          "threshold_aliases": [
+            "Exterior covered pallet bays",
+            "Sheltered bulk pallet capacity"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "pallets",
+          "partial_record_text": "TRN-FREIGHT-2LO: Cascade Logistics Gateway.Cascade Logistics Gateway: Dedicated heavy-haul turning apron clearance = true .Source: Pavement geometry and circulation review; Scope: Exterior yard ingress and turning aprons; Measurement: Geometric clearance confirmation for WB-20 interstate freight vehicle turnarounds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Covered bulk staging pallet capacity is at most 4000 pallets.",
+          "role_name": "Logistics Operations Coordinator (TRN)",
+          "candidate_name": "Cascade Logistics Gateway",
+          "other_candidate_names": [
+            "Willamette Distribution Depot",
+            "Columbia Intermodal Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "critical_systems_lead",
+        "logistics_operations_coordinator",
+        "environmental_safety_director"
+      ],
+      "role_names": [
+        "Critical Systems Operations Lead (CSO)",
+        "Logistics Operations Coordinator (TRN)",
+        "Environmental Safety Director (EHS)"
+      ],
+      "directory": "number_expansion/incomplete/task_403/k3",
+      "profiles": [
+        {
+          "record_id": "rec_critical_systems_lead_A",
+          "role_id": "critical_systems_lead",
+          "candidate_id": "A",
+          "key": "CSO-POWER-QVS",
+          "boolean_predicate_id": "A_emergency_power_automation_enabled",
+          "boolean_label": "Automated emergency power transfer enablement",
+          "hidden_predicate_id": "A_power_transfer_delay_seconds",
+          "threshold_label": "Full-load generator switchover time",
+          "threshold_aliases": [
+            "Emergency power transfer delay",
+            "Automatic switchover duration"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "s",
+          "partial_record_text": "CSO-POWER-QVS: Cascade Logistics Gateway.Cascade Logistics Gateway: Automated emergency power transfer enablement = true .Source: Standby generator commission register; Scope: Facility dual-generator backup plant; Measurement: Operational status flag indicating automated power transfer is commissioned and enabled.Cascade Logistics Gateway: Indoor climate-controlled pallet capacity = 2500 pallets.Source: Facility warehouse layout audit; Scope: Racked and temperature-regulated indoor storage bays; Measurement: Total certified standard rack storage positions maintaining 15 to 25 degrees Celsius.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Full-load generator switchover time is at most 40 s.",
+          "role_name": "Critical Systems Operations Lead (CSO)",
+          "candidate_name": "Cascade Logistics Gateway",
+          "other_candidate_names": [
+            "Willamette Distribution Depot",
+            "Columbia Intermodal Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_operations_coordinator_A",
+          "role_id": "logistics_operations_coordinator",
+          "candidate_id": "A",
+          "key": "TRN-FREIGHT-2LO",
+          "hidden_predicate_id": "A_covered_bulk_pallet_capacity",
+          "threshold_label": "Covered bulk staging pallet capacity",
+          "threshold_aliases": [
+            "Exterior covered pallet bays",
+            "Sheltered bulk pallet capacity"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "pallets",
+          "partial_record_text": "TRN-FREIGHT-2LO: Cascade Logistics Gateway.Cascade Logistics Gateway: Dedicated heavy-haul turning apron clearance = true .Source: Pavement geometry and circulation review; Scope: Exterior yard ingress and turning aprons; Measurement: Geometric clearance confirmation for WB-20 interstate freight vehicle turnarounds.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Covered bulk staging pallet capacity is at most 4000 pallets.",
+          "role_name": "Logistics Operations Coordinator (TRN)",
+          "candidate_name": "Cascade Logistics Gateway",
+          "other_candidate_names": [
+            "Willamette Distribution Depot",
+            "Columbia Intermodal Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_safety_director_A_supplemental",
+          "role_id": "environmental_safety_director",
+          "candidate_id": "A",
+          "key": "EHS-AIRQ-X67",
+          "hidden_predicate_id": "A_supplemental_environmental_safety_director",
+          "threshold_label": "Ambient particulate concentration",
+          "threshold_aliases": [],
+          "threshold_value": 18,
+          "threshold_unit": "ug/m3",
+          "partial_record_text": "EHS-AIRQ-X67: Cascade Logistics Gateway. The record covers Ambient particulate concentration. Boundary air monitoring station log; Continuous 24-hour baseline ambient air samples; Mean atmospheric particulate matter concentration PM10.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "coarse_statement": "Ambient particulate concentration is at most 50 ug/m3.",
+          "role_name": "Environmental Safety Director (EHS)",
+          "candidate_name": "Cascade Logistics Gateway",
+          "other_candidate_names": [
+            "Willamette Distribution Depot",
+            "Columbia Intermodal Terminal"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_environmental_safety_director",
+        "topic_id": "supplemental_environmental_safety_director",
+        "operator": "lte",
+        "threshold": 28,
+        "role_id": "environmental_safety_director",
+        "metric": "Ambient particulate concentration",
+        "unit": "ug/m3",
+        "required_text": "To qualify, a candidate must also have Ambient particulate concentration of at most 28 ug/m3.",
+        "new_fault_record_key": "EHS-AIRQ-X67",
+        "exact_value": 18,
+        "first_reply": "Ambient particulate concentration is at most 50 ug/m3."
+      }
+    }
+  }
+}

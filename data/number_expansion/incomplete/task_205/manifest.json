@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_205",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "security_director",
+        "operations_manager"
+      ],
+      "role_names": [
+        "Protective security director (SECD)",
+        "Facility operations manager (OPMG)"
+      ],
+      "directory": "incomplete/task_205",
+      "profiles": [
+        {
+          "record_id": "rec_security_director_A",
+          "role_id": "security_director",
+          "candidate_id": "A",
+          "key": "SECD-PROT-X5K",
+          "boolean_predicate_id": "A_armed_escort_enabled",
+          "boolean_label": "Dedicated armed security escort protocol enabled",
+          "hidden_predicate_id": "A_transit_duration_limit",
+          "threshold_label": "Maximum transport transit duration",
+          "threshold_aliases": [
+            "Convoy transit duration",
+            "Evacuation transit time"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "min",
+          "partial_record_text": "SECD-PROT-X5K: Alpine Redoubt Repository Plan.Alpine Redoubt Repository Plan: Dedicated armed security escort protocol enabled = true .Source: Cantonal police escort directive; Scope: Evacuation transit corridor; Measurement: Official confirmation that armed tactical convoy accompaniment is formally provisioned and enabled.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Maximum transport transit duration is at most 400 min.",
+          "role_name": "Protective security director (SECD)",
+          "candidate_name": "Alpine Redoubt Repository Plan",
+          "other_candidate_names": [
+            "Jura Cavern Archive Plan",
+            "Mittelland Sub-Basement Depository Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_manager_A",
+          "role_id": "operations_manager",
+          "candidate_id": "A",
+          "key": "OPMG-HOLD-SPE",
+          "hidden_predicate_id": "A_buffer_holding_volume",
+          "threshold_label": "Buffer holding storage volume",
+          "threshold_aliases": [
+            "Buffer intake volume",
+            "Quarantine storage volume"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "m3",
+          "partial_record_text": "OPMG-HOLD-SPE: Alpine Redoubt Repository Plan.Alpine Redoubt Repository Plan: Dual-custody access authentication protocol = true .Source: Vault security operating manual; Scope: High-security artifact vault portals; Measurement: Verification that entry mandates simultaneous cryptographic verification from both cantonal archivist and facility commander.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Buffer holding storage volume is at most 400 m3.",
+          "role_name": "Facility operations manager (OPMG)",
+          "candidate_name": "Alpine Redoubt Repository Plan",
+          "other_candidate_names": [
+            "Jura Cavern Archive Plan",
+            "Mittelland Sub-Basement Depository Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "security_director",
+        "operations_manager",
+        "conservator"
+      ],
+      "role_names": [
+        "Protective security director (SECD)",
+        "Facility operations manager (OPMG)",
+        "Senior archival conservator (CONS)"
+      ],
+      "directory": "incomplete/task_205",
+      "profiles": [
+        {
+          "record_id": "rec_security_director_A",
+          "role_id": "security_director",
+          "candidate_id": "A",
+          "key": "SECD-PROT-X5K",
+          "boolean_predicate_id": "A_armed_escort_enabled",
+          "boolean_label": "Dedicated armed security escort protocol enabled",
+          "hidden_predicate_id": "A_transit_duration_limit",
+          "threshold_label": "Maximum transport transit duration",
+          "threshold_aliases": [
+            "Convoy transit duration",
+            "Evacuation transit time"
+          ],
+          "threshold_value": 150,
+          "threshold_unit": "min",
+          "partial_record_text": "SECD-PROT-X5K: Alpine Redoubt Repository Plan.Alpine Redoubt Repository Plan: Dedicated armed security escort protocol enabled = true .Source: Cantonal police escort directive; Scope: Evacuation transit corridor; Measurement: Official confirmation that armed tactical convoy accompaniment is formally provisioned and enabled.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Maximum transport transit duration is at most 400 min.",
+          "role_name": "Protective security director (SECD)",
+          "candidate_name": "Alpine Redoubt Repository Plan",
+          "other_candidate_names": [
+            "Jura Cavern Archive Plan",
+            "Mittelland Sub-Basement Depository Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_manager_A",
+          "role_id": "operations_manager",
+          "candidate_id": "A",
+          "key": "OPMG-HOLD-SPE",
+          "hidden_predicate_id": "A_buffer_holding_volume",
+          "threshold_label": "Buffer holding storage volume",
+          "threshold_aliases": [
+            "Buffer intake volume",
+            "Quarantine storage volume"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "m3",
+          "partial_record_text": "OPMG-HOLD-SPE: Alpine Redoubt Repository Plan.Alpine Redoubt Repository Plan: Dual-custody access authentication protocol = true .Source: Vault security operating manual; Scope: High-security artifact vault portals; Measurement: Verification that entry mandates simultaneous cryptographic verification from both cantonal archivist and facility commander.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Buffer holding storage volume is at most 400 m3.",
+          "role_name": "Facility operations manager (OPMG)",
+          "candidate_name": "Alpine Redoubt Repository Plan",
+          "other_candidate_names": [
+            "Jura Cavern Archive Plan",
+            "Mittelland Sub-Basement Depository Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_conservator_A",
+          "role_id": "conservator",
+          "candidate_id": "A",
+          "key": "CONS-ENV-60B",
+          "hidden_predicate_id": "A_primary_storage_volume",
+          "threshold_label": "Primary repository storage volume",
+          "threshold_aliases": [
+            "Primary vault capacity",
+            "Archival vault volume"
+          ],
+          "threshold_value": 480,
+          "threshold_unit": "m3",
+          "partial_record_text": "CONS-ENV-60B: Alpine Redoubt Repository Plan. The record covers Primary repository storage volume. Depository architectural ledger; Designated Class-A subterranean archive containment chambers; Net usable climate-isolated artifact storage volume allocated to national collections.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary repository storage volume is at most 600 m3.",
+          "role_name": "Senior archival conservator (CONS)",
+          "candidate_name": "Alpine Redoubt Repository Plan",
+          "other_candidate_names": [
+            "Jura Cavern Archive Plan",
+            "Mittelland Sub-Basement Depository Plan"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

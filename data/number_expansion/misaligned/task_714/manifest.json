@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_714",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "rotary_aviation",
+        "ground_handling"
+      ],
+      "role_names": [
+        "Rotary Wing Fleet Specialist (ROT)",
+        "Ground Support and Rigging Lead (GND)"
+      ],
+      "directory": "number_expansion/misaligned/task_714/k2",
+      "error_profiles": [
+        {
+          "role_name": "Rotary Wing Fleet Specialist (ROT)",
+          "target_key": "ROT-SLING-IZR",
+          "alternate_key": "ROT-ROTOR-2KE",
+          "target_context": "after deducting rigging gear tare weight",
+          "alternate_context": "before deducting rigging gear tare weight",
+          "candidate": "Monashee Pass Staging Facility",
+          "other_candidates": [
+            "Glacier Creek Alpine Station",
+            "Selkirk Ridge Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_sling_capacity",
+              "value": 3000,
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "imc_certified",
+              "label": "Instrument meteorological conditions certification",
+              "aliases": [
+                "IMC flight authorization",
+                "All-weather instrument flight rating"
+              ]
+            },
+            {
+              "topic": "cloud_ceiling_minimum",
+              "label": "Cloud ceiling breakout minimum",
+              "aliases": [
+                "Decision altitude ceiling",
+                "Instrument approach cloud ceiling"
+              ]
+            },
+            {
+              "topic": "avalanche_relay_active",
+              "label": "Avalanche transceiver relay active",
+              "aliases": [
+                "Transceiver repeater activation",
+                "Emergency beacon repeater status"
+              ]
+            },
+            {
+              "topic": "rapid_deployment_time",
+              "label": "High-altitude rapid deployment time",
+              "aliases": [
+                "Alpine rescue scramble time",
+                "First-response dispatch latency"
+              ]
+            },
+            {
+              "topic": "critical_care_staffed",
+              "label": "Critical care paramedic coverage",
+              "aliases": [
+                "Flight paramedic availability",
+                "Advanced life support crew staffing"
+              ]
+            },
+            {
+              "topic": "helipad_load_rating",
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ]
+            },
+            {
+              "topic": "primary_sling_capacity",
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ]
+            },
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ground Support and Rigging Lead (GND)",
+          "target_key": "GND-RIG-IQK",
+          "alternate_key": "GND-RIG-44A",
+          "target_context": "after deducting hoist hook assembly tare weight",
+          "alternate_context": "before deducting hoist hook assembly tare weight",
+          "candidate": "Monashee Pass Staging Facility",
+          "other_candidates": [
+            "Glacier Creek Alpine Station",
+            "Selkirk Ridge Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "value": 250,
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "imc_certified",
+              "label": "Instrument meteorological conditions certification",
+              "aliases": [
+                "IMC flight authorization",
+                "All-weather instrument flight rating"
+              ]
+            },
+            {
+              "topic": "cloud_ceiling_minimum",
+              "label": "Cloud ceiling breakout minimum",
+              "aliases": [
+                "Decision altitude ceiling",
+                "Instrument approach cloud ceiling"
+              ]
+            },
+            {
+              "topic": "avalanche_relay_active",
+              "label": "Avalanche transceiver relay active",
+              "aliases": [
+                "Transceiver repeater activation",
+                "Emergency beacon repeater status"
+              ]
+            },
+            {
+              "topic": "rapid_deployment_time",
+              "label": "High-altitude rapid deployment time",
+              "aliases": [
+                "Alpine rescue scramble time",
+                "First-response dispatch latency"
+              ]
+            },
+            {
+              "topic": "critical_care_staffed",
+              "label": "Critical care paramedic coverage",
+              "aliases": [
+                "Flight paramedic availability",
+                "Advanced life support crew staffing"
+              ]
+            },
+            {
+              "topic": "helipad_load_rating",
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ]
+            },
+            {
+              "topic": "primary_sling_capacity",
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ]
+            },
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "rotary_aviation",
+        "ground_handling",
+        "infrastructure"
+      ],
+      "role_names": [
+        "Rotary Wing Fleet Specialist (ROT)",
+        "Ground Support and Rigging Lead (GND)",
+        "Alpine Infrastructure Engineer (INF)"
+      ],
+      "directory": "number_expansion/misaligned/task_714/k3",
+      "error_profiles": [
+        {
+          "role_name": "Rotary Wing Fleet Specialist (ROT)",
+          "target_key": "ROT-SLING-IZR",
+          "alternate_key": "ROT-ROTOR-2KE",
+          "target_context": "after deducting rigging gear tare weight",
+          "alternate_context": "before deducting rigging gear tare weight",
+          "candidate": "Monashee Pass Staging Facility",
+          "other_candidates": [
+            "Glacier Creek Alpine Station",
+            "Selkirk Ridge Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_sling_capacity",
+              "value": 3000,
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "imc_certified",
+              "label": "Instrument meteorological conditions certification",
+              "aliases": [
+                "IMC flight authorization",
+                "All-weather instrument flight rating"
+              ]
+            },
+            {
+              "topic": "cloud_ceiling_minimum",
+              "label": "Cloud ceiling breakout minimum",
+              "aliases": [
+                "Decision altitude ceiling",
+                "Instrument approach cloud ceiling"
+              ]
+            },
+            {
+              "topic": "avalanche_relay_active",
+              "label": "Avalanche transceiver relay active",
+              "aliases": [
+                "Transceiver repeater activation",
+                "Emergency beacon repeater status"
+              ]
+            },
+            {
+              "topic": "rapid_deployment_time",
+              "label": "High-altitude rapid deployment time",
+              "aliases": [
+                "Alpine rescue scramble time",
+                "First-response dispatch latency"
+              ]
+            },
+            {
+              "topic": "critical_care_staffed",
+              "label": "Critical care paramedic coverage",
+              "aliases": [
+                "Flight paramedic availability",
+                "Advanced life support crew staffing"
+              ]
+            },
+            {
+              "topic": "helipad_load_rating",
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ]
+            },
+            {
+              "topic": "primary_sling_capacity",
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ]
+            },
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Ground Support and Rigging Lead (GND)",
+          "target_key": "GND-RIG-IQK",
+          "alternate_key": "GND-RIG-44A",
+          "target_context": "after deducting hoist hook assembly tare weight",
+          "alternate_context": "before deducting hoist hook assembly tare weight",
+          "candidate": "Monashee Pass Staging Facility",
+          "other_candidates": [
+            "Glacier Creek Alpine Station",
+            "Selkirk Ridge Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "value": 250,
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "imc_certified",
+              "label": "Instrument meteorological conditions certification",
+              "aliases": [
+                "IMC flight authorization",
+                "All-weather instrument flight rating"
+              ]
+            },
+            {
+              "topic": "cloud_ceiling_minimum",
+              "label": "Cloud ceiling breakout minimum",
+              "aliases": [
+                "Decision altitude ceiling",
+                "Instrument approach cloud ceiling"
+              ]
+            },
+            {
+              "topic": "avalanche_relay_active",
+              "label": "Avalanche transceiver relay active",
+              "aliases": [
+                "Transceiver repeater activation",
+                "Emergency beacon repeater status"
+              ]
+            },
+            {
+              "topic": "rapid_deployment_time",
+              "label": "High-altitude rapid deployment time",
+              "aliases": [
+                "Alpine rescue scramble time",
+                "First-response dispatch latency"
+              ]
+            },
+            {
+              "topic": "critical_care_staffed",
+              "label": "Critical care paramedic coverage",
+              "aliases": [
+                "Flight paramedic availability",
+                "Advanced life support crew staffing"
+              ]
+            },
+            {
+              "topic": "helipad_load_rating",
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ]
+            },
+            {
+              "topic": "primary_sling_capacity",
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ]
+            },
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Alpine Infrastructure Engineer (INF)",
+          "target_key": "INF-CIVENG-Q6M",
+          "alternate_key": "INF-CIVENG-TG3",
+          "target_context": "September 2025",
+          "alternate_context": "October 2025",
+          "candidate": "Monashee Pass Staging Facility",
+          "other_candidates": [
+            "Glacier Creek Alpine Station",
+            "Selkirk Ridge Outpost"
+          ],
+          "numeric": [
+            {
+              "topic": "helipad_load_rating",
+              "value": 16,
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ],
+              "unit": "kN/m2"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "imc_certified",
+              "label": "Instrument meteorological conditions certification",
+              "aliases": [
+                "IMC flight authorization",
+                "All-weather instrument flight rating"
+              ]
+            },
+            {
+              "topic": "cloud_ceiling_minimum",
+              "label": "Cloud ceiling breakout minimum",
+              "aliases": [
+                "Decision altitude ceiling",
+                "Instrument approach cloud ceiling"
+              ]
+            },
+            {
+              "topic": "avalanche_relay_active",
+              "label": "Avalanche transceiver relay active",
+              "aliases": [
+                "Transceiver repeater activation",
+                "Emergency beacon repeater status"
+              ]
+            },
+            {
+              "topic": "rapid_deployment_time",
+              "label": "High-altitude rapid deployment time",
+              "aliases": [
+                "Alpine rescue scramble time",
+                "First-response dispatch latency"
+              ]
+            },
+            {
+              "topic": "critical_care_staffed",
+              "label": "Critical care paramedic coverage",
+              "aliases": [
+                "Flight paramedic availability",
+                "Advanced life support crew staffing"
+              ]
+            },
+            {
+              "topic": "helipad_load_rating",
+              "label": "Helipad structural snow load rating",
+              "aliases": [
+                "Pad structural capacity",
+                "Landing pad snow load threshold"
+              ]
+            },
+            {
+              "topic": "primary_sling_capacity",
+              "label": "Primary sling cargo capacity",
+              "aliases": [
+                "Cargo hook lifting capacity",
+                "Rotary external sling load rating"
+              ]
+            },
+            {
+              "topic": "auxiliary_hoist_capacity",
+              "label": "Auxiliary hoist lifting capacity",
+              "aliases": [
+                "Secondary rescue hoist rating",
+                "Winch cable working payload"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

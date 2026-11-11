@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_800",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "harbor_master_ops",
+        "stevedoring_automation_lead"
+      ],
+      "role_names": [
+        "Berth and waterside operations manager (HMO)",
+        "Terminal automation engineering director (TAE)"
+      ],
+      "directory": "incomplete/task_800",
+      "profiles": [
+        {
+          "record_id": "rec_harbor_master_ops_A",
+          "role_id": "harbor_master_ops",
+          "candidate_id": "A",
+          "key": "HMO-SIMU-9GP",
+          "boolean_predicate_id": "A_tos_simulator_integrated",
+          "boolean_label": "Terminal operating system simulator integration",
+          "hidden_predicate_id": "A_berth_turnaround_time",
+          "threshold_label": "Berth allocation simulation turnaround time",
+          "threshold_aliases": [
+            "Berth planning cycle time",
+            "Berth allocation turnaround"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "HMO-SIMU-9GP: Nordic Automated Gateway Logistics.Nordic Automated Gateway Logistics: Terminal operating system simulator integration = true .Source: Simulator commissioning certificate; Scope: Digital twin terminal operating software environment; Measurement: Active data bridge between the candidate terminal operating system and the port authority hydrodynamic vessel simulator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Berth allocation simulation turnaround time is between 20 min and 70 min, inclusive.",
+          "role_name": "Berth and waterside operations manager (HMO)",
+          "candidate_name": "Nordic Automated Gateway Logistics",
+          "other_candidate_names": [
+            "Apex Maritime Infrastructure Consortium",
+            "Trans-Oceanic Smart Terminal Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_stevedoring_automation_lead_A",
+          "role_id": "stevedoring_automation_lead",
+          "candidate_id": "A",
+          "key": "TAE-CRANE-OTD",
+          "hidden_predicate_id": "A_quay_crane_cycle_speed",
+          "threshold_label": "Quay crane automated cycle capability",
+          "threshold_aliases": [
+            "Automated crane lift rate",
+            "Gantry cycle rate"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "moves/h",
+          "partial_record_text": "TAE-CRANE-OTD: Nordic Automated Gateway Logistics.Nordic Automated Gateway Logistics: Daytime automated quay crane throughput = 240 TEU/h.Source: Quay crane operational stress testing report; Scope: Standard 12-hour daytime operating window across berths 1 through 3; Measurement: Gross hourly equivalent container movement rate delivered by automated quay cranes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 50
+          },
+          "coarse_statement": "Quay crane automated cycle capability is between 20 moves/h and 50 moves/h, inclusive.",
+          "role_name": "Terminal automation engineering director (TAE)",
+          "candidate_name": "Nordic Automated Gateway Logistics",
+          "other_candidate_names": [
+            "Apex Maritime Infrastructure Consortium",
+            "Trans-Oceanic Smart Terminal Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "harbor_master_ops",
+        "stevedoring_automation_lead",
+        "yard_logistics_controller"
+      ],
+      "role_names": [
+        "Berth and waterside operations manager (HMO)",
+        "Terminal automation engineering director (TAE)",
+        "Automated yard transfer logistics controller (YLC)"
+      ],
+      "directory": "incomplete/task_800",
+      "profiles": [
+        {
+          "record_id": "rec_harbor_master_ops_A",
+          "role_id": "harbor_master_ops",
+          "candidate_id": "A",
+          "key": "HMO-SIMU-9GP",
+          "boolean_predicate_id": "A_tos_simulator_integrated",
+          "boolean_label": "Terminal operating system simulator integration",
+          "hidden_predicate_id": "A_berth_turnaround_time",
+          "threshold_label": "Berth allocation simulation turnaround time",
+          "threshold_aliases": [
+            "Berth planning cycle time",
+            "Berth allocation turnaround"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "HMO-SIMU-9GP: Nordic Automated Gateway Logistics.Nordic Automated Gateway Logistics: Terminal operating system simulator integration = true .Source: Simulator commissioning certificate; Scope: Digital twin terminal operating software environment; Measurement: Active data bridge between the candidate terminal operating system and the port authority hydrodynamic vessel simulator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Berth allocation simulation turnaround time is between 20 min and 70 min, inclusive.",
+          "role_name": "Berth and waterside operations manager (HMO)",
+          "candidate_name": "Nordic Automated Gateway Logistics",
+          "other_candidate_names": [
+            "Apex Maritime Infrastructure Consortium",
+            "Trans-Oceanic Smart Terminal Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_stevedoring_automation_lead_A",
+          "role_id": "stevedoring_automation_lead",
+          "candidate_id": "A",
+          "key": "TAE-CRANE-OTD",
+          "hidden_predicate_id": "A_quay_crane_cycle_speed",
+          "threshold_label": "Quay crane automated cycle capability",
+          "threshold_aliases": [
+            "Automated crane lift rate",
+            "Gantry cycle rate"
+          ],
+          "threshold_value": 36,
+          "threshold_unit": "moves/h",
+          "partial_record_text": "TAE-CRANE-OTD: Nordic Automated Gateway Logistics.Nordic Automated Gateway Logistics: Daytime automated quay crane throughput = 240 TEU/h.Source: Quay crane operational stress testing report; Scope: Standard 12-hour daytime operating window across berths 1 through 3; Measurement: Gross hourly equivalent container movement rate delivered by automated quay cranes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 50
+          },
+          "coarse_statement": "Quay crane automated cycle capability is between 20 moves/h and 50 moves/h, inclusive.",
+          "role_name": "Terminal automation engineering director (TAE)",
+          "candidate_name": "Nordic Automated Gateway Logistics",
+          "other_candidate_names": [
+            "Apex Maritime Infrastructure Consortium",
+            "Trans-Oceanic Smart Terminal Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_yard_logistics_controller_A",
+          "role_id": "yard_logistics_controller",
+          "candidate_id": "A",
+          "key": "YLC-SHUT-EL4",
+          "hidden_predicate_id": "A_nighttime_shuttle_throughput",
+          "threshold_label": "Nighttime automated container shuttle throughput",
+          "threshold_aliases": [
+            "Nighttime yard shuttle rate",
+            "Nighttime AGV throughput"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "TEU/h",
+          "partial_record_text": "YLC-SHUT-EL4: Nordic Automated Gateway Logistics. The record covers Nighttime automated container shuttle throughput. Automated guided vehicle fleet telemetry register; Full terminal yard perimeter during nighttime low-light shifts (22:00-06:00); Sustained hourly volume of containers shuttled between waterside quay buffers and yard stacking cranes.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Nighttime automated container shuttle throughput is between 0 TEU/h and 400 TEU/h, inclusive.",
+          "role_name": "Automated yard transfer logistics controller (YLC)",
+          "candidate_name": "Nordic Automated Gateway Logistics",
+          "other_candidate_names": [
+            "Apex Maritime Infrastructure Consortium",
+            "Trans-Oceanic Smart Terminal Partners"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

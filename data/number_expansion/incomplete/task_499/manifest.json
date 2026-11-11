@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_499",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "venue_licensing",
+        "facilities_infrastructure"
+      ],
+      "role_names": [
+        "Venue Safety and Licensing Officer (LIC)",
+        "Facilities and Technical Operations Lead (FAC)"
+      ],
+      "directory": "incomplete/task_499",
+      "profiles": [
+        {
+          "record_id": "rec_venue_licensing_A",
+          "role_id": "venue_licensing",
+          "candidate_id": "A",
+          "key": "LIC-FIRE-9AO",
+          "boolean_predicate_id": "A_fire_clearance_certified",
+          "boolean_label": "Emergency fire evacuation clearance certified",
+          "hidden_predicate_id": "A_evacuation_drill_time",
+          "threshold_label": "Full-capacity evacuation clearance time",
+          "threshold_aliases": [
+            "Evacuation clearance time",
+            "Measured drill duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "LIC-FIRE-9AO: Marina Waterfront Exhibition Centre.Marina Waterfront Exhibition Centre: Emergency fire evacuation clearance certified = true .Source: Civil defense licensing register; Scope: Annual statutory venue inspection; Measurement: Validity status of current venue emergency evacuation clearance license.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Full-capacity evacuation clearance time is at most 30 min.",
+          "role_name": "Venue Safety and Licensing Officer (LIC)",
+          "candidate_name": "Marina Waterfront Exhibition Centre",
+          "other_candidate_names": [
+            "Jurong Lake Convention Complex",
+            "Changi Innovation Expo Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_infrastructure_A",
+          "role_id": "facilities_infrastructure",
+          "candidate_id": "A",
+          "key": "FAC-STRUCT-8Z9",
+          "hidden_predicate_id": "A_ceiling_rigging_load_capacity",
+          "threshold_label": "Ceiling point load rigging capacity",
+          "threshold_aliases": [
+            "Rigging point capacity",
+            "Overhead point load limit"
+          ],
+          "threshold_value": 2200,
+          "threshold_unit": "kg",
+          "partial_record_text": "FAC-STRUCT-8Z9: Marina Waterfront Exhibition Centre.Marina Waterfront Exhibition Centre: Exhibition auxiliary power demand = 280 kW.Source: Exhibition electrical layout plan; Scope: Trade booth underfloor distribution and supplementary air circulation; Measurement: Estimated continuous electrical demand across exhibition floor sub-panels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "Ceiling point load rigging capacity is at most 4000 kg.",
+          "role_name": "Facilities and Technical Operations Lead (FAC)",
+          "candidate_name": "Marina Waterfront Exhibition Centre",
+          "other_candidate_names": [
+            "Jurong Lake Convention Complex",
+            "Changi Innovation Expo Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "venue_licensing",
+        "facilities_infrastructure",
+        "sustainability_audit"
+      ],
+      "role_names": [
+        "Venue Safety and Licensing Officer (LIC)",
+        "Facilities and Technical Operations Lead (FAC)",
+        "Environmental and Sustainability Auditor (SUST)"
+      ],
+      "directory": "incomplete/task_499",
+      "profiles": [
+        {
+          "record_id": "rec_venue_licensing_A",
+          "role_id": "venue_licensing",
+          "candidate_id": "A",
+          "key": "LIC-FIRE-9AO",
+          "boolean_predicate_id": "A_fire_clearance_certified",
+          "boolean_label": "Emergency fire evacuation clearance certified",
+          "hidden_predicate_id": "A_evacuation_drill_time",
+          "threshold_label": "Full-capacity evacuation clearance time",
+          "threshold_aliases": [
+            "Evacuation clearance time",
+            "Measured drill duration"
+          ],
+          "threshold_value": 6,
+          "threshold_unit": "min",
+          "partial_record_text": "LIC-FIRE-9AO: Marina Waterfront Exhibition Centre.Marina Waterfront Exhibition Centre: Emergency fire evacuation clearance certified = true .Source: Civil defense licensing register; Scope: Annual statutory venue inspection; Measurement: Validity status of current venue emergency evacuation clearance license.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Full-capacity evacuation clearance time is at most 30 min.",
+          "role_name": "Venue Safety and Licensing Officer (LIC)",
+          "candidate_name": "Marina Waterfront Exhibition Centre",
+          "other_candidate_names": [
+            "Jurong Lake Convention Complex",
+            "Changi Innovation Expo Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_infrastructure_A",
+          "role_id": "facilities_infrastructure",
+          "candidate_id": "A",
+          "key": "FAC-STRUCT-8Z9",
+          "hidden_predicate_id": "A_ceiling_rigging_load_capacity",
+          "threshold_label": "Ceiling point load rigging capacity",
+          "threshold_aliases": [
+            "Rigging point capacity",
+            "Overhead point load limit"
+          ],
+          "threshold_value": 2200,
+          "threshold_unit": "kg",
+          "partial_record_text": "FAC-STRUCT-8Z9: Marina Waterfront Exhibition Centre.Marina Waterfront Exhibition Centre: Exhibition auxiliary power demand = 280 kW.Source: Exhibition electrical layout plan; Scope: Trade booth underfloor distribution and supplementary air circulation; Measurement: Estimated continuous electrical demand across exhibition floor sub-panels.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "coarse_statement": "Ceiling point load rigging capacity is at most 4000 kg.",
+          "role_name": "Facilities and Technical Operations Lead (FAC)",
+          "candidate_name": "Marina Waterfront Exhibition Centre",
+          "other_candidate_names": [
+            "Jurong Lake Convention Complex",
+            "Changi Innovation Expo Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sustainability_audit_A",
+          "role_id": "sustainability_audit",
+          "candidate_id": "A",
+          "key": "SUST-ECO-WGG",
+          "hidden_predicate_id": "A_waste_diversion_rate",
+          "threshold_label": "Waste diversion commitment rate",
+          "threshold_aliases": [
+            "Landfill diversion percentage",
+            "Waste recycling diversion rate"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "SUST-ECO-WGG: Marina Waterfront Exhibition Centre.Marina Waterfront Exhibition Centre: Green building platinum certification = true .Source: Building and Construction Authority database; Scope: Current facility operating year; Measurement: Attainment of the official Green Mark Platinum sustainability rating.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Waste diversion commitment rate is at most 100 %.",
+          "role_name": "Environmental and Sustainability Auditor (SUST)",
+          "candidate_name": "Marina Waterfront Exhibition Centre",
+          "other_candidate_names": [
+            "Jurong Lake Convention Complex",
+            "Changi Innovation Expo Hall"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

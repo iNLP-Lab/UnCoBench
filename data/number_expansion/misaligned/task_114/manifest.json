@@ -1,0 +1,534 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_114",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "fleet_management",
+        "offshore_meteorology"
+      ],
+      "role_names": [
+        "Search and rescue fleet officer (SARF)",
+        "Offshore marine meteorologist (OMM)"
+      ],
+      "directory": "number_expansion/misaligned/task_114/k2",
+      "error_profiles": [
+        {
+          "role_name": "Search and rescue fleet officer (SARF)",
+          "target_key": "SARF-ACFT-TIX",
+          "alternate_key": "SARF-ACFT-MHV",
+          "target_context": "United Kingdom",
+          "alternate_context": "Germany",
+          "candidate": "Ekofisk-Stavanger High-Seas Corridor",
+          "other_candidates": [
+            "Troll-Bergen Coastal Flight Path",
+            "Sleipner-Aberdeen Trans-Sector Link"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_staging_capacity",
+              "value": 18,
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ],
+              "unit": "people"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_clearance_granted",
+              "label": "Instrument flight rule clearance granted",
+              "aliases": [
+                "IFR clearance",
+                "Airspace instrument approval"
+              ]
+            },
+            {
+              "topic": "caa_flight_waiver_approved",
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ]
+            },
+            {
+              "topic": "deicing_system_operational",
+              "label": "Helideck de-icing system operational",
+              "aliases": [
+                "De-icing operational status",
+                "Surface heating enablement"
+              ]
+            },
+            {
+              "topic": "deicing_cycle_rate",
+              "label": "Helideck de-icing cycle rate",
+              "aliases": [
+                "De-icing cycle frequency",
+                "Glycol surface refresh rate"
+              ]
+            },
+            {
+              "topic": "max_transit_gust_knots",
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ]
+            },
+            {
+              "topic": "onshore_trauma_beds_secured",
+              "label": "Onshore trauma beds secured",
+              "aliases": [
+                "Trauma bed availability",
+                "Receiving hospital bed confirmation"
+              ]
+            },
+            {
+              "topic": "primary_staging_capacity",
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_helideck_capacity",
+              "label": "Auxiliary helideck transfer capacity",
+              "aliases": [
+                "Auxiliary staging capacity",
+                "Secondary deck transfer capacity"
+              ]
+            },
+            {
+              "topic": "reserved_escort_seats",
+              "label": "Reserved medical escort seats",
+              "aliases": [
+                "Clinical crew seat allocation",
+                "Medical escort reservations"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Offshore marine meteorologist (OMM)",
+          "target_key": "OMM-MET-VF5",
+          "alternate_key": "OMM-MET-LKO",
+          "target_context": "including low-altitude wind shear allowance",
+          "alternate_context": "excluding low-altitude wind shear allowance",
+          "candidate": "Ekofisk-Stavanger High-Seas Corridor",
+          "other_candidates": [
+            "Troll-Bergen Coastal Flight Path",
+            "Sleipner-Aberdeen Trans-Sector Link"
+          ],
+          "numeric": [
+            {
+              "topic": "max_transit_gust_knots",
+              "value": 45,
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ],
+              "unit": "kn"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_clearance_granted",
+              "label": "Instrument flight rule clearance granted",
+              "aliases": [
+                "IFR clearance",
+                "Airspace instrument approval"
+              ]
+            },
+            {
+              "topic": "caa_flight_waiver_approved",
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ]
+            },
+            {
+              "topic": "deicing_system_operational",
+              "label": "Helideck de-icing system operational",
+              "aliases": [
+                "De-icing operational status",
+                "Surface heating enablement"
+              ]
+            },
+            {
+              "topic": "deicing_cycle_rate",
+              "label": "Helideck de-icing cycle rate",
+              "aliases": [
+                "De-icing cycle frequency",
+                "Glycol surface refresh rate"
+              ]
+            },
+            {
+              "topic": "max_transit_gust_knots",
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ]
+            },
+            {
+              "topic": "onshore_trauma_beds_secured",
+              "label": "Onshore trauma beds secured",
+              "aliases": [
+                "Trauma bed availability",
+                "Receiving hospital bed confirmation"
+              ]
+            },
+            {
+              "topic": "primary_staging_capacity",
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_helideck_capacity",
+              "label": "Auxiliary helideck transfer capacity",
+              "aliases": [
+                "Auxiliary staging capacity",
+                "Secondary deck transfer capacity"
+              ]
+            },
+            {
+              "topic": "reserved_escort_seats",
+              "label": "Reserved medical escort seats",
+              "aliases": [
+                "Clinical crew seat allocation",
+                "Medical escort reservations"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "fleet_management",
+        "offshore_meteorology",
+        "aviation_authority"
+      ],
+      "role_names": [
+        "Search and rescue fleet officer (SARF)",
+        "Offshore marine meteorologist (OMM)",
+        "Civil aviation safety liaison (CASL)"
+      ],
+      "directory": "number_expansion/misaligned/task_114/k3",
+      "error_profiles": [
+        {
+          "role_name": "Search and rescue fleet officer (SARF)",
+          "target_key": "SARF-ACFT-TIX",
+          "alternate_key": "SARF-ACFT-MHV",
+          "target_context": "United Kingdom",
+          "alternate_context": "Germany",
+          "candidate": "Ekofisk-Stavanger High-Seas Corridor",
+          "other_candidates": [
+            "Troll-Bergen Coastal Flight Path",
+            "Sleipner-Aberdeen Trans-Sector Link"
+          ],
+          "numeric": [
+            {
+              "topic": "primary_staging_capacity",
+              "value": 18,
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ],
+              "unit": "people"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_clearance_granted",
+              "label": "Instrument flight rule clearance granted",
+              "aliases": [
+                "IFR clearance",
+                "Airspace instrument approval"
+              ]
+            },
+            {
+              "topic": "caa_flight_waiver_approved",
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ]
+            },
+            {
+              "topic": "deicing_system_operational",
+              "label": "Helideck de-icing system operational",
+              "aliases": [
+                "De-icing operational status",
+                "Surface heating enablement"
+              ]
+            },
+            {
+              "topic": "deicing_cycle_rate",
+              "label": "Helideck de-icing cycle rate",
+              "aliases": [
+                "De-icing cycle frequency",
+                "Glycol surface refresh rate"
+              ]
+            },
+            {
+              "topic": "max_transit_gust_knots",
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ]
+            },
+            {
+              "topic": "onshore_trauma_beds_secured",
+              "label": "Onshore trauma beds secured",
+              "aliases": [
+                "Trauma bed availability",
+                "Receiving hospital bed confirmation"
+              ]
+            },
+            {
+              "topic": "primary_staging_capacity",
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_helideck_capacity",
+              "label": "Auxiliary helideck transfer capacity",
+              "aliases": [
+                "Auxiliary staging capacity",
+                "Secondary deck transfer capacity"
+              ]
+            },
+            {
+              "topic": "reserved_escort_seats",
+              "label": "Reserved medical escort seats",
+              "aliases": [
+                "Clinical crew seat allocation",
+                "Medical escort reservations"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Offshore marine meteorologist (OMM)",
+          "target_key": "OMM-MET-VF5",
+          "alternate_key": "OMM-MET-LKO",
+          "target_context": "including low-altitude wind shear allowance",
+          "alternate_context": "excluding low-altitude wind shear allowance",
+          "candidate": "Ekofisk-Stavanger High-Seas Corridor",
+          "other_candidates": [
+            "Troll-Bergen Coastal Flight Path",
+            "Sleipner-Aberdeen Trans-Sector Link"
+          ],
+          "numeric": [
+            {
+              "topic": "max_transit_gust_knots",
+              "value": 45,
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ],
+              "unit": "kn"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_clearance_granted",
+              "label": "Instrument flight rule clearance granted",
+              "aliases": [
+                "IFR clearance",
+                "Airspace instrument approval"
+              ]
+            },
+            {
+              "topic": "caa_flight_waiver_approved",
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ]
+            },
+            {
+              "topic": "deicing_system_operational",
+              "label": "Helideck de-icing system operational",
+              "aliases": [
+                "De-icing operational status",
+                "Surface heating enablement"
+              ]
+            },
+            {
+              "topic": "deicing_cycle_rate",
+              "label": "Helideck de-icing cycle rate",
+              "aliases": [
+                "De-icing cycle frequency",
+                "Glycol surface refresh rate"
+              ]
+            },
+            {
+              "topic": "max_transit_gust_knots",
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ]
+            },
+            {
+              "topic": "onshore_trauma_beds_secured",
+              "label": "Onshore trauma beds secured",
+              "aliases": [
+                "Trauma bed availability",
+                "Receiving hospital bed confirmation"
+              ]
+            },
+            {
+              "topic": "primary_staging_capacity",
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_helideck_capacity",
+              "label": "Auxiliary helideck transfer capacity",
+              "aliases": [
+                "Auxiliary staging capacity",
+                "Secondary deck transfer capacity"
+              ]
+            },
+            {
+              "topic": "reserved_escort_seats",
+              "label": "Reserved medical escort seats",
+              "aliases": [
+                "Clinical crew seat allocation",
+                "Medical escort reservations"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil aviation safety liaison (CASL)",
+          "target_key": "CASL-AERO-BB9",
+          "alternate_key": "CASL-AERO-7FJ",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Ekofisk-Stavanger High-Seas Corridor",
+          "other_candidates": [
+            "Troll-Bergen Coastal Flight Path",
+            "Sleipner-Aberdeen Trans-Sector Link"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "caa_flight_waiver_approved",
+              "value": true,
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "ifr_clearance_granted",
+              "label": "Instrument flight rule clearance granted",
+              "aliases": [
+                "IFR clearance",
+                "Airspace instrument approval"
+              ]
+            },
+            {
+              "topic": "caa_flight_waiver_approved",
+              "label": "Civil aviation flight waiver approved",
+              "aliases": [
+                "CAA emergency waiver",
+                "Regulatory storm waiver"
+              ]
+            },
+            {
+              "topic": "deicing_system_operational",
+              "label": "Helideck de-icing system operational",
+              "aliases": [
+                "De-icing operational status",
+                "Surface heating enablement"
+              ]
+            },
+            {
+              "topic": "deicing_cycle_rate",
+              "label": "Helideck de-icing cycle rate",
+              "aliases": [
+                "De-icing cycle frequency",
+                "Glycol surface refresh rate"
+              ]
+            },
+            {
+              "topic": "max_transit_gust_knots",
+              "label": "Maximum transit gust speed",
+              "aliases": [
+                "Peak corridor gust velocity",
+                "Transit gust speed"
+              ]
+            },
+            {
+              "topic": "onshore_trauma_beds_secured",
+              "label": "Onshore trauma beds secured",
+              "aliases": [
+                "Trauma bed availability",
+                "Receiving hospital bed confirmation"
+              ]
+            },
+            {
+              "topic": "primary_staging_capacity",
+              "label": "Primary aircraft staging passenger capacity",
+              "aliases": [
+                "Primary staging capacity",
+                "Main cabin seating capacity"
+              ]
+            },
+            {
+              "topic": "auxiliary_helideck_capacity",
+              "label": "Auxiliary helideck transfer capacity",
+              "aliases": [
+                "Auxiliary staging capacity",
+                "Secondary deck transfer capacity"
+              ]
+            },
+            {
+              "topic": "reserved_escort_seats",
+              "label": "Reserved medical escort seats",
+              "aliases": [
+                "Clinical crew seat allocation",
+                "Medical escort reservations"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

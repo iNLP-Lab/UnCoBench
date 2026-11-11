@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_116",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrographic_survey",
+        "submersible_engineering"
+      ],
+      "role_names": [
+        "Hydrographic survey specialist (HYD)",
+        "Submersible systems engineer (ENG)"
+      ],
+      "directory": "incomplete/task_116",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "HYD-SONAR-IHA",
+          "boolean_predicate_id": "A_sonar_integrated",
+          "boolean_label": "High-resolution bathymetric sonar integrated",
+          "hidden_predicate_id": "A_usbl_positioning_error",
+          "threshold_label": "Acoustic positioning tracking error",
+          "threshold_aliases": [
+            "USBL positioning precision",
+            "Tracking positional error"
+          ],
+          "threshold_value": 0.45,
+          "threshold_unit": "m",
+          "partial_record_text": "HYD-SONAR-IHA: Bathyos 6000 Deep Explorer.Bathyos 6000 Deep Explorer: High-resolution bathymetric sonar integrated = true .Source: Avionics payload integration checklist; Scope: ROV scientific sensor skid; Measurement: Physical mounting and synchronized timestamp integration of interferometric bathymetric sonar.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.2,
+            "upper": 3
+          },
+          "coarse_statement": "Acoustic positioning tracking error is between 0.2 m and 3 m, inclusive.",
+          "role_name": "Hydrographic survey specialist (HYD)",
+          "candidate_name": "Bathyos 6000 Deep Explorer",
+          "other_candidate_names": [
+            "Nereus Pro Subsea Surveyor",
+            "Oceanus Heavy Workclass Mark IV"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_submersible_engineering_A",
+          "role_id": "submersible_engineering",
+          "candidate_id": "A",
+          "key": "ENG-HULL-QVV",
+          "hidden_predicate_id": "A_tow_altitude",
+          "threshold_label": "Operational survey tow altitude",
+          "threshold_aliases": [
+            "Tow altitude",
+            "Survey altitude above seabed"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "m",
+          "partial_record_text": "ENG-HULL-QVV: Bathyos 6000 Deep Explorer.Bathyos 6000 Deep Explorer: Deep ocean pressure hull certified = true .Source: Lloyds marine survey certificate; Scope: Titanium pressure vessel enclosure; Measurement: Valid hydrobaric proof testing sign-off for operations below 3000 m.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Operational survey tow altitude is between 0 m and 40 m, inclusive.",
+          "role_name": "Submersible systems engineer (ENG)",
+          "candidate_name": "Bathyos 6000 Deep Explorer",
+          "other_candidate_names": [
+            "Nereus Pro Subsea Surveyor",
+            "Oceanus Heavy Workclass Mark IV"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrographic_survey",
+        "submersible_engineering",
+        "deck_operations"
+      ],
+      "role_names": [
+        "Hydrographic survey specialist (HYD)",
+        "Submersible systems engineer (ENG)",
+        "Deck operations superintendent (OPS)"
+      ],
+      "directory": "incomplete/task_116",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_survey_A",
+          "role_id": "hydrographic_survey",
+          "candidate_id": "A",
+          "key": "HYD-SONAR-IHA",
+          "boolean_predicate_id": "A_sonar_integrated",
+          "boolean_label": "High-resolution bathymetric sonar integrated",
+          "hidden_predicate_id": "A_usbl_positioning_error",
+          "threshold_label": "Acoustic positioning tracking error",
+          "threshold_aliases": [
+            "USBL positioning precision",
+            "Tracking positional error"
+          ],
+          "threshold_value": 0.45,
+          "threshold_unit": "m",
+          "partial_record_text": "HYD-SONAR-IHA: Bathyos 6000 Deep Explorer.Bathyos 6000 Deep Explorer: High-resolution bathymetric sonar integrated = true .Source: Avionics payload integration checklist; Scope: ROV scientific sensor skid; Measurement: Physical mounting and synchronized timestamp integration of interferometric bathymetric sonar.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.2,
+            "upper": 3
+          },
+          "coarse_statement": "Acoustic positioning tracking error is between 0.2 m and 3 m, inclusive.",
+          "role_name": "Hydrographic survey specialist (HYD)",
+          "candidate_name": "Bathyos 6000 Deep Explorer",
+          "other_candidate_names": [
+            "Nereus Pro Subsea Surveyor",
+            "Oceanus Heavy Workclass Mark IV"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_submersible_engineering_A",
+          "role_id": "submersible_engineering",
+          "candidate_id": "A",
+          "key": "ENG-HULL-QVV",
+          "hidden_predicate_id": "A_tow_altitude",
+          "threshold_label": "Operational survey tow altitude",
+          "threshold_aliases": [
+            "Tow altitude",
+            "Survey altitude above seabed"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "m",
+          "partial_record_text": "ENG-HULL-QVV: Bathyos 6000 Deep Explorer.Bathyos 6000 Deep Explorer: Deep ocean pressure hull certified = true .Source: Lloyds marine survey certificate; Scope: Titanium pressure vessel enclosure; Measurement: Valid hydrobaric proof testing sign-off for operations below 3000 m.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Operational survey tow altitude is between 0 m and 40 m, inclusive.",
+          "role_name": "Submersible systems engineer (ENG)",
+          "candidate_name": "Bathyos 6000 Deep Explorer",
+          "other_candidate_names": [
+            "Nereus Pro Subsea Surveyor",
+            "Oceanus Heavy Workclass Mark IV"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "OPS-HANDL-QC2",
+          "hidden_predicate_id": "A_swath_width",
+          "threshold_label": "Seafloor acoustic swath width",
+          "threshold_aliases": [
+            "Acoustic swath width",
+            "Seafloor ground coverage width"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "m",
+          "partial_record_text": "OPS-HANDL-QC2: Bathyos 6000 Deep Explorer.Aggregation window: single survey transect.Bathyos 6000 Deep Explorer: Deep-tow winch clearance approved = true .Source: Deck machinery inspection sign-off; Scope: Vessel aft handling winch and level-wind spooler; Measurement: Certified fit and tension rating for candidate umbilical diameter and weight.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Seafloor acoustic swath width is between 0 m and 400 m, inclusive.",
+          "role_name": "Deck operations superintendent (OPS)",
+          "candidate_name": "Bathyos 6000 Deep Explorer",
+          "other_candidate_names": [
+            "Nereus Pro Subsea Surveyor",
+            "Oceanus Heavy Workclass Mark IV"
+          ],
+          "context_value": "single survey transect",
+          "other_context_values": [
+            "multi-transect campaign average"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

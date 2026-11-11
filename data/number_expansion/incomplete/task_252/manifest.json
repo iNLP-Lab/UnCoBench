@@ -1,0 +1,189 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_252",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "sensor_instrumentation",
+        "analytical_payload"
+      ],
+      "role_names": [
+        "Borehole Instrumentation Engineer (INST)",
+        "Microbial Analytical Payload Lead (BIOL)"
+      ],
+      "directory": "incomplete/task_252",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_instrumentation_A",
+          "role_id": "sensor_instrumentation",
+          "candidate_id": "A",
+          "key": "INST-TELEM-AU8",
+          "boolean_predicate_id": "A_sensor_telemetry_enabled",
+          "boolean_label": "Downhole sensor telemetry enablement",
+          "hidden_predicate_id": "A_max_fluid_temperature",
+          "threshold_label": "Maximum borehole fluid temperature",
+          "threshold_aliases": [
+            "Peak downhole fluid temperature",
+            "Maximum geothermal borehole temperature"
+          ],
+          "threshold_value": 69,
+          "threshold_unit": "°C",
+          "partial_record_text": "INST-TELEM-AU8: Crestview Basalt Fracture Hole-4.Crestview Basalt Fracture Hole-4: Downhole sensor telemetry enablement = true .Source: Wireline tool bus configuration ledger; Scope: Downhole sonde multiplexer package; Measurement: Digital telemetry modem power and handshake switch status.Crestview Basalt Fracture Hole-4: Baseline telemetry power draw = 180 W.Source: Downhole instrument electrical audit; Scope: Continuous downhole power transmission cable and modem bus; Measurement: Measured continuous electrical power consumed by downhole command, control, and telemetry units.",
+          "role_name": "Borehole Instrumentation Engineer (INST)",
+          "candidate_name": "Crestview Basalt Fracture Hole-4",
+          "other_candidate_names": [
+            "Silverthorne Granite Pluton Hole-2",
+            "Blackwood Metasediment Shear Hole-7"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_analytical_payload_A",
+          "role_id": "analytical_payload",
+          "candidate_id": "A",
+          "key": "BIOL-PAYLD-X8D",
+          "hidden_predicate_id": "A_analytical_package_power",
+          "threshold_label": "Core analytical package power draw",
+          "threshold_aliases": [
+            "Biosphere sensor package power draw",
+            "Spectrometer payload wattage"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "W",
+          "partial_record_text": "BIOL-PAYLD-X8D: Crestview Basalt Fracture Hole-4. The record covers Core analytical package power draw. In-situ microbiology analytical module specification; Subsurface automated flow cytometer and ATP bioluminescence probe array; Nominal continuous electrical load required during active deep-biosphere sample analysis.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 320
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Core analytical package power draw is at most 320 W.",
+          "role_name": "Microbial Analytical Payload Lead (BIOL)",
+          "candidate_name": "Crestview Basalt Fracture Hole-4",
+          "other_candidate_names": [
+            "Silverthorne Granite Pluton Hole-2",
+            "Blackwood Metasediment Shear Hole-7"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "sensor_instrumentation",
+        "analytical_payload",
+        "petrology_geology"
+      ],
+      "role_names": [
+        "Borehole Instrumentation Engineer (INST)",
+        "Microbial Analytical Payload Lead (BIOL)",
+        "Petrology and Geotechnical Lead (PETR)"
+      ],
+      "directory": "number_expansion/incomplete/task_252/k3",
+      "profiles": [
+        {
+          "record_id": "rec_sensor_instrumentation_A",
+          "role_id": "sensor_instrumentation",
+          "candidate_id": "A",
+          "key": "INST-TELEM-AU8",
+          "boolean_predicate_id": "A_sensor_telemetry_enabled",
+          "boolean_label": "Downhole sensor telemetry enablement",
+          "hidden_predicate_id": "A_max_fluid_temperature",
+          "threshold_label": "Maximum borehole fluid temperature",
+          "threshold_aliases": [
+            "Peak downhole fluid temperature",
+            "Maximum geothermal borehole temperature"
+          ],
+          "threshold_value": 69,
+          "threshold_unit": "°C",
+          "partial_record_text": "INST-TELEM-AU8: Crestview Basalt Fracture Hole-4.Crestview Basalt Fracture Hole-4: Downhole sensor telemetry enablement = true .Source: Wireline tool bus configuration ledger; Scope: Downhole sonde multiplexer package; Measurement: Digital telemetry modem power and handshake switch status.Crestview Basalt Fracture Hole-4: Baseline telemetry power draw = 180 W.Source: Downhole instrument electrical audit; Scope: Continuous downhole power transmission cable and modem bus; Measurement: Measured continuous electrical power consumed by downhole command, control, and telemetry units.",
+          "role_name": "Borehole Instrumentation Engineer (INST)",
+          "candidate_name": "Crestview Basalt Fracture Hole-4",
+          "other_candidate_names": [
+            "Silverthorne Granite Pluton Hole-2",
+            "Blackwood Metasediment Shear Hole-7"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_analytical_payload_A",
+          "role_id": "analytical_payload",
+          "candidate_id": "A",
+          "key": "BIOL-PAYLD-X8D",
+          "hidden_predicate_id": "A_analytical_package_power",
+          "threshold_label": "Core analytical package power draw",
+          "threshold_aliases": [
+            "Biosphere sensor package power draw",
+            "Spectrometer payload wattage"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "W",
+          "partial_record_text": "BIOL-PAYLD-X8D: Crestview Basalt Fracture Hole-4. The record covers Core analytical package power draw. In-situ microbiology analytical module specification; Subsurface automated flow cytometer and ATP bioluminescence probe array; Nominal continuous electrical load required during active deep-biosphere sample analysis.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 320
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Core analytical package power draw is at most 320 W.",
+          "role_name": "Microbial Analytical Payload Lead (BIOL)",
+          "candidate_name": "Crestview Basalt Fracture Hole-4",
+          "other_candidate_names": [
+            "Silverthorne Granite Pluton Hole-2",
+            "Blackwood Metasediment Shear Hole-7"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_petrology_geology_A_supplemental",
+          "role_id": "petrology_geology",
+          "candidate_id": "A",
+          "key": "PETR-MIN-M2G",
+          "hidden_predicate_id": "A_supplemental_petrology_geology",
+          "threshold_label": "Pyrite vein volume fraction",
+          "threshold_aliases": [],
+          "threshold_value": 3,
+          "threshold_unit": "%",
+          "partial_record_text": "PETR-MIN-M2G: Crestview Basalt Fracture Hole-4. The record covers Pyrite vein volume fraction. Optical thin-section petrographic log; Target horizon bedrock core samples; Volumetric percentage of secondary sulfide mineral veins in retrieved solid rock core.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Pyrite vein volume fraction is at least 0 %.",
+          "role_name": "Petrology and Geotechnical Lead (PETR)",
+          "candidate_name": "Crestview Basalt Fracture Hole-4",
+          "other_candidate_names": [
+            "Silverthorne Granite Pluton Hole-2",
+            "Blackwood Metasediment Shear Hole-7"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_petrology_geology",
+        "topic_id": "supplemental_petrology_geology",
+        "operator": "gte",
+        "threshold": 3,
+        "role_id": "petrology_geology",
+        "metric": "Pyrite vein volume fraction",
+        "unit": "%",
+        "required_text": "To qualify, a candidate must also have Pyrite vein volume fraction of at least 3 %.",
+        "new_fault_record_key": "PETR-MIN-M2G",
+        "exact_value": 3,
+        "first_reply": "Pyrite vein volume fraction is at least 0 %."
+      }
+    }
+  }
+}

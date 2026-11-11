@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_678",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrochemical_analyst",
+        "hydrological_modeler"
+      ],
+      "role_names": [
+        "Hydrochemical analysis supervisor (HYD)",
+        "Watershed dispersion modeling lead (MOD)"
+      ],
+      "directory": "incomplete/task_678",
+      "profiles": [
+        {
+          "record_id": "rec_hydrochemical_analyst_A",
+          "role_id": "hydrochemical_analyst",
+          "candidate_id": "A",
+          "key": "HYD-HCH-HWG",
+          "boolean_predicate_id": "A_spectrometric_validation_certified",
+          "boolean_label": "Spectrometric fingerprint library certification status",
+          "hidden_predicate_id": "A_isomeric_detection_limit",
+          "threshold_label": "Minimum isomer differentiation threshold",
+          "threshold_aliases": [
+            "Isomeric detection limit",
+            "Compound resolution threshold"
+          ],
+          "threshold_value": 0.12,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "HYD-HCH-HWG: Differential isotopic fractionation assay.Differential isotopic fractionation assay: Spectrometric fingerprint library certification status = true .Source: Forensic reference laboratory validation register; Scope: Target halogenated industrial solvent library; Measurement: Formal sign-off confirming that candidate reference spectra meet ISO 17025 forensic criteria.Differential isotopic fractionation assay: Automated chromatography assay throughput = 55 sample/d.Source: Laboratory instrument continuous run benchmark; Scope: Target solvent compound screening suite; Measurement: Fully processed and baseline-separated water samples per calendar day on primary column banks.",
+          "role_name": "Hydrochemical analysis supervisor (HYD)",
+          "candidate_name": "Differential isotopic fractionation assay",
+          "other_candidate_names": [
+            "Continuous automated solid-phase extraction trace protocol",
+            "Coupled tandem high-resolution mass spectrometry screening"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrological_modeler_A",
+          "role_id": "hydrological_modeler",
+          "candidate_id": "A",
+          "key": "MOD-DISP-NWD",
+          "hidden_predicate_id": "A_source_localization_time",
+          "threshold_label": "Back-propagation plume convergence duration",
+          "threshold_aliases": [
+            "Plume source convergence time",
+            "Localization calculation duration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "h",
+          "partial_record_text": "MOD-DISP-NWD: Differential isotopic fractionation assay. The record covers Back-propagation plume convergence duration. Hydrodynamic back-tracking simulation report; Catchment branch reach spanning 45 km upstream of intake; Calculated hours required to narrow industrial discharge origin to within a 200-meter river stretch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Back-propagation plume convergence duration is at most 30 h.",
+          "role_name": "Watershed dispersion modeling lead (MOD)",
+          "candidate_name": "Differential isotopic fractionation assay",
+          "other_candidate_names": [
+            "Continuous automated solid-phase extraction trace protocol",
+            "Coupled tandem high-resolution mass spectrometry screening"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrochemical_analyst",
+        "hydrological_modeler",
+        "quality_assurance_auditor"
+      ],
+      "role_names": [
+        "Hydrochemical analysis supervisor (HYD)",
+        "Watershed dispersion modeling lead (MOD)",
+        "Environmental data quality auditor (QAA)"
+      ],
+      "directory": "incomplete/task_678",
+      "profiles": [
+        {
+          "record_id": "rec_hydrochemical_analyst_A",
+          "role_id": "hydrochemical_analyst",
+          "candidate_id": "A",
+          "key": "HYD-HCH-HWG",
+          "boolean_predicate_id": "A_spectrometric_validation_certified",
+          "boolean_label": "Spectrometric fingerprint library certification status",
+          "hidden_predicate_id": "A_isomeric_detection_limit",
+          "threshold_label": "Minimum isomer differentiation threshold",
+          "threshold_aliases": [
+            "Isomeric detection limit",
+            "Compound resolution threshold"
+          ],
+          "threshold_value": 0.12,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "HYD-HCH-HWG: Differential isotopic fractionation assay.Differential isotopic fractionation assay: Spectrometric fingerprint library certification status = true .Source: Forensic reference laboratory validation register; Scope: Target halogenated industrial solvent library; Measurement: Formal sign-off confirming that candidate reference spectra meet ISO 17025 forensic criteria.Differential isotopic fractionation assay: Automated chromatography assay throughput = 55 sample/d.Source: Laboratory instrument continuous run benchmark; Scope: Target solvent compound screening suite; Measurement: Fully processed and baseline-separated water samples per calendar day on primary column banks.",
+          "role_name": "Hydrochemical analysis supervisor (HYD)",
+          "candidate_name": "Differential isotopic fractionation assay",
+          "other_candidate_names": [
+            "Continuous automated solid-phase extraction trace protocol",
+            "Coupled tandem high-resolution mass spectrometry screening"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrological_modeler_A",
+          "role_id": "hydrological_modeler",
+          "candidate_id": "A",
+          "key": "MOD-DISP-NWD",
+          "hidden_predicate_id": "A_source_localization_time",
+          "threshold_label": "Back-propagation plume convergence duration",
+          "threshold_aliases": [
+            "Plume source convergence time",
+            "Localization calculation duration"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "h",
+          "partial_record_text": "MOD-DISP-NWD: Differential isotopic fractionation assay. The record covers Back-propagation plume convergence duration. Hydrodynamic back-tracking simulation report; Catchment branch reach spanning 45 km upstream of intake; Calculated hours required to narrow industrial discharge origin to within a 200-meter river stretch.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Back-propagation plume convergence duration is at most 30 h.",
+          "role_name": "Watershed dispersion modeling lead (MOD)",
+          "candidate_name": "Differential isotopic fractionation assay",
+          "other_candidate_names": [
+            "Continuous automated solid-phase extraction trace protocol",
+            "Coupled tandem high-resolution mass spectrometry screening"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_auditor_A",
+          "role_id": "quality_assurance_auditor",
+          "candidate_id": "A",
+          "key": "QAA-BLIND-ELY",
+          "hidden_predicate_id": "A_interlab_concordance_rate",
+          "threshold_label": "Inter-laboratory split sample concordance rate",
+          "threshold_aliases": [
+            "Split-sample agreement rate",
+            "Blind interlab reproducibility"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "%",
+          "partial_record_text": "QAA-BLIND-ELY: Differential isotopic fractionation assay. The record covers Inter-laboratory split sample concordance rate. Record context: September 2026. Blind proficiency testing round evaluation; Triple-split blind spiked water samples; Percentage of test assays yielding identical chemical identification within allowable confidence bands.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 85,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Inter-laboratory split sample concordance rate is at least 85 %.",
+          "role_name": "Environmental data quality auditor (QAA)",
+          "candidate_name": "Differential isotopic fractionation assay",
+          "other_candidate_names": [
+            "Continuous automated solid-phase extraction trace protocol",
+            "Coupled tandem high-resolution mass spectrometry screening"
+          ],
+          "context_value": "September 2026",
+          "other_context_values": [
+            "October 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

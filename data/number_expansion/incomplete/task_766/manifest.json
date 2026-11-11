@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_766",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics_survey",
+        "subsea_robotics"
+      ],
+      "role_names": [
+        "Hydrographic survey geophysicist (GEO)",
+        "Subsea robotics operations superintendent (ROV)"
+      ],
+      "directory": "incomplete/task_766",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_survey_A",
+          "role_id": "geophysics_survey",
+          "candidate_id": "A",
+          "key": "GEO-SONAR-XVI",
+          "boolean_predicate_id": "A_beacon_telemetry_compatible",
+          "boolean_label": "Acoustic beacon telemetry compatibility",
+          "hidden_predicate_id": "A_sonar_range_resolution_cm",
+          "threshold_label": "Sonar range resolution",
+          "threshold_aliases": [
+            "Acoustic range resolution",
+            "Sonar imaging discrimination distance"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "cm",
+          "partial_record_text": "GEO-SONAR-XVI: Autonomous underwater vehicle side-scan sonar grid search.Autonomous underwater vehicle side-scan sonar grid search: Acoustic beacon telemetry compatibility = true .Source: Acoustic telemetry interface bench test log; Scope: Primary subsea search sensor suite; Measurement: Interoperability confirmation with the lost target's emergency transponder beacon frequency.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Sonar range resolution is at most 40 cm.",
+          "role_name": "Hydrographic survey geophysicist (GEO)",
+          "candidate_name": "Autonomous underwater vehicle side-scan sonar grid search",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar deep-tow transect",
+            "Remotely operated vehicle acoustic beacon tracking sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-ROBOT-C50",
+          "hidden_predicate_id": "A_seabed_current_velocity_tolerance",
+          "threshold_label": "Seabed current velocity tolerance",
+          "threshold_aliases": [
+            "Bottom current operating limit",
+            "Seafloor current stability threshold"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "knots",
+          "partial_record_text": "ROV-ROBOT-C50: Autonomous underwater vehicle side-scan sonar grid search. The record covers Seabed current velocity tolerance. Subsea vehicle hydrodynamic simulation profile; Deep-water operation in bottom boundary layer currents; Maximum sustained seafloor horizontal water velocity under which navigation control is maintained.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Seabed current velocity tolerance is at most 4 knots.",
+          "role_name": "Subsea robotics operations superintendent (ROV)",
+          "candidate_name": "Autonomous underwater vehicle side-scan sonar grid search",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar deep-tow transect",
+            "Remotely operated vehicle acoustic beacon tracking sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics_survey",
+        "subsea_robotics",
+        "marine_vessel_charter"
+      ],
+      "role_names": [
+        "Hydrographic survey geophysicist (GEO)",
+        "Subsea robotics operations superintendent (ROV)",
+        "Marine vessel charter lead (MAR)"
+      ],
+      "directory": "incomplete/task_766",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_survey_A",
+          "role_id": "geophysics_survey",
+          "candidate_id": "A",
+          "key": "GEO-SONAR-XVI",
+          "boolean_predicate_id": "A_beacon_telemetry_compatible",
+          "boolean_label": "Acoustic beacon telemetry compatibility",
+          "hidden_predicate_id": "A_sonar_range_resolution_cm",
+          "threshold_label": "Sonar range resolution",
+          "threshold_aliases": [
+            "Acoustic range resolution",
+            "Sonar imaging discrimination distance"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "cm",
+          "partial_record_text": "GEO-SONAR-XVI: Autonomous underwater vehicle side-scan sonar grid search.Autonomous underwater vehicle side-scan sonar grid search: Acoustic beacon telemetry compatibility = true .Source: Acoustic telemetry interface bench test log; Scope: Primary subsea search sensor suite; Measurement: Interoperability confirmation with the lost target's emergency transponder beacon frequency.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Sonar range resolution is at most 40 cm.",
+          "role_name": "Hydrographic survey geophysicist (GEO)",
+          "candidate_name": "Autonomous underwater vehicle side-scan sonar grid search",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar deep-tow transect",
+            "Remotely operated vehicle acoustic beacon tracking sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROV-ROBOT-C50",
+          "hidden_predicate_id": "A_seabed_current_velocity_tolerance",
+          "threshold_label": "Seabed current velocity tolerance",
+          "threshold_aliases": [
+            "Bottom current operating limit",
+            "Seafloor current stability threshold"
+          ],
+          "threshold_value": 2.4,
+          "threshold_unit": "knots",
+          "partial_record_text": "ROV-ROBOT-C50: Autonomous underwater vehicle side-scan sonar grid search. The record covers Seabed current velocity tolerance. Subsea vehicle hydrodynamic simulation profile; Deep-water operation in bottom boundary layer currents; Maximum sustained seafloor horizontal water velocity under which navigation control is maintained.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "coarse_statement": "Seabed current velocity tolerance is at most 4 knots.",
+          "role_name": "Subsea robotics operations superintendent (ROV)",
+          "candidate_name": "Autonomous underwater vehicle side-scan sonar grid search",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar deep-tow transect",
+            "Remotely operated vehicle acoustic beacon tracking sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_vessel_charter_A",
+          "role_id": "marine_vessel_charter",
+          "candidate_id": "A",
+          "key": "MAR-VESSEL-BMY",
+          "hidden_predicate_id": "A_contracted_mission_endurance",
+          "threshold_label": "Contracted mission endurance",
+          "threshold_aliases": [
+            "Chartered sea endurance",
+            "Total vessel operating window"
+          ],
+          "threshold_value": 240,
+          "threshold_unit": "h",
+          "partial_record_text": "MAR-VESSEL-BMY: Autonomous underwater vehicle side-scan sonar grid search.Autonomous underwater vehicle side-scan sonar grid search: Dynamic positioning certification = true .Source: Classification society vessel certificate; Scope: Support vessel dynamic positioning system during search operations; Measurement: Attestation of active Class 2 dynamic positioning compliance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted mission endurance is at most 500 h.",
+          "role_name": "Marine vessel charter lead (MAR)",
+          "candidate_name": "Autonomous underwater vehicle side-scan sonar grid search",
+          "other_candidate_names": [
+            "Towed synthetic aperture sonar deep-tow transect",
+            "Remotely operated vehicle acoustic beacon tracking sweep"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

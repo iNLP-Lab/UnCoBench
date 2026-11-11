@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_042",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "transit_safety",
+        "emergency_coordination"
+      ],
+      "role_names": [
+        "Transit safety inspector (TSI)",
+        "Hazmat emergency coordinator (HEC)"
+      ],
+      "directory": "number_expansion/misaligned/task_042/k2",
+      "error_profiles": [
+        {
+          "role_name": "Transit safety inspector (TSI)",
+          "target_key": "TSI-SAFE-OJG",
+          "alternate_key": "TSI-SAFE-LMK",
+          "target_context": "May 2024",
+          "alternate_context": "June 2024",
+          "candidate": "Inland waterway barge corridor",
+          "other_candidates": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "emergency_basin_accessible",
+              "value": true,
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ],
+              "unit": ""
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "value": true,
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "env_buffer_cleared",
+              "label": "Environmentally sensitive buffer clearance",
+              "aliases": [
+                "Environmental buffer compliance",
+                "Ecological sanctuary clearance"
+              ]
+            },
+            {
+              "topic": "bridge_weight_certified",
+              "label": "Bridge structural capacity certification",
+              "aliases": [
+                "Bridge load tolerance certification",
+                "Viaduct structural rating"
+              ]
+            },
+            {
+              "topic": "emergency_basin_accessible",
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ]
+            },
+            {
+              "topic": "telemetry_monitoring_active",
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ]
+            },
+            {
+              "topic": "max_response_interval",
+              "label": "Maximum hazmat emergency response interval",
+              "aliases": [
+                "Hazmat brigade response time",
+                "Emergency intervention interval"
+              ]
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ]
+            },
+            {
+              "topic": "direct_transit_duration",
+              "label": "Direct transit duration",
+              "aliases": [
+                "Mainline movement time",
+                "Direct en-route transit hours"
+              ]
+            },
+            {
+              "topic": "terminal_handling_duration",
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Hazmat emergency coordinator (HEC)",
+          "target_key": "HEC-RESP-K4Z",
+          "alternate_key": "HEC-RESP-KPS",
+          "target_context": "May 2024 audit period",
+          "alternate_context": "June 2024 audit period",
+          "candidate": "Inland waterway barge corridor",
+          "other_candidates": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "telemetry_monitoring_active",
+              "value": true,
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "env_buffer_cleared",
+              "label": "Environmentally sensitive buffer clearance",
+              "aliases": [
+                "Environmental buffer compliance",
+                "Ecological sanctuary clearance"
+              ]
+            },
+            {
+              "topic": "bridge_weight_certified",
+              "label": "Bridge structural capacity certification",
+              "aliases": [
+                "Bridge load tolerance certification",
+                "Viaduct structural rating"
+              ]
+            },
+            {
+              "topic": "emergency_basin_accessible",
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ]
+            },
+            {
+              "topic": "telemetry_monitoring_active",
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ]
+            },
+            {
+              "topic": "max_response_interval",
+              "label": "Maximum hazmat emergency response interval",
+              "aliases": [
+                "Hazmat brigade response time",
+                "Emergency intervention interval"
+              ]
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ]
+            },
+            {
+              "topic": "direct_transit_duration",
+              "label": "Direct transit duration",
+              "aliases": [
+                "Mainline movement time",
+                "Direct en-route transit hours"
+              ]
+            },
+            {
+              "topic": "terminal_handling_duration",
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "transit_safety",
+        "emergency_coordination",
+        "terminal_operations"
+      ],
+      "role_names": [
+        "Transit safety inspector (TSI)",
+        "Hazmat emergency coordinator (HEC)",
+        "Intermodal terminal manager (ITM)"
+      ],
+      "directory": "number_expansion/misaligned/task_042/k3",
+      "error_profiles": [
+        {
+          "role_name": "Transit safety inspector (TSI)",
+          "target_key": "TSI-SAFE-OJG",
+          "alternate_key": "TSI-SAFE-LMK",
+          "target_context": "May 2024",
+          "alternate_context": "June 2024",
+          "candidate": "Inland waterway barge corridor",
+          "other_candidates": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "emergency_basin_accessible",
+              "value": true,
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ],
+              "unit": ""
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "value": true,
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "env_buffer_cleared",
+              "label": "Environmentally sensitive buffer clearance",
+              "aliases": [
+                "Environmental buffer compliance",
+                "Ecological sanctuary clearance"
+              ]
+            },
+            {
+              "topic": "bridge_weight_certified",
+              "label": "Bridge structural capacity certification",
+              "aliases": [
+                "Bridge load tolerance certification",
+                "Viaduct structural rating"
+              ]
+            },
+            {
+              "topic": "emergency_basin_accessible",
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ]
+            },
+            {
+              "topic": "telemetry_monitoring_active",
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ]
+            },
+            {
+              "topic": "max_response_interval",
+              "label": "Maximum hazmat emergency response interval",
+              "aliases": [
+                "Hazmat brigade response time",
+                "Emergency intervention interval"
+              ]
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ]
+            },
+            {
+              "topic": "direct_transit_duration",
+              "label": "Direct transit duration",
+              "aliases": [
+                "Mainline movement time",
+                "Direct en-route transit hours"
+              ]
+            },
+            {
+              "topic": "terminal_handling_duration",
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Hazmat emergency coordinator (HEC)",
+          "target_key": "HEC-RESP-K4Z",
+          "alternate_key": "HEC-RESP-KPS",
+          "target_context": "May 2024 audit period",
+          "alternate_context": "June 2024 audit period",
+          "candidate": "Inland waterway barge corridor",
+          "other_candidates": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "telemetry_monitoring_active",
+              "value": true,
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "env_buffer_cleared",
+              "label": "Environmentally sensitive buffer clearance",
+              "aliases": [
+                "Environmental buffer compliance",
+                "Ecological sanctuary clearance"
+              ]
+            },
+            {
+              "topic": "bridge_weight_certified",
+              "label": "Bridge structural capacity certification",
+              "aliases": [
+                "Bridge load tolerance certification",
+                "Viaduct structural rating"
+              ]
+            },
+            {
+              "topic": "emergency_basin_accessible",
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ]
+            },
+            {
+              "topic": "telemetry_monitoring_active",
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ]
+            },
+            {
+              "topic": "max_response_interval",
+              "label": "Maximum hazmat emergency response interval",
+              "aliases": [
+                "Hazmat brigade response time",
+                "Emergency intervention interval"
+              ]
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ]
+            },
+            {
+              "topic": "direct_transit_duration",
+              "label": "Direct transit duration",
+              "aliases": [
+                "Mainline movement time",
+                "Direct en-route transit hours"
+              ]
+            },
+            {
+              "topic": "terminal_handling_duration",
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Intermodal terminal manager (ITM)",
+          "target_key": "ITM-YARD-YT1",
+          "alternate_key": "ITM-YARD-Q52",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Inland waterway barge corridor",
+          "other_candidates": [
+            "Dedicated highway hazmat bypass",
+            "Direct freight rail corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "terminal_handling_duration",
+              "value": 8,
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "env_buffer_cleared",
+              "label": "Environmentally sensitive buffer clearance",
+              "aliases": [
+                "Environmental buffer compliance",
+                "Ecological sanctuary clearance"
+              ]
+            },
+            {
+              "topic": "bridge_weight_certified",
+              "label": "Bridge structural capacity certification",
+              "aliases": [
+                "Bridge load tolerance certification",
+                "Viaduct structural rating"
+              ]
+            },
+            {
+              "topic": "emergency_basin_accessible",
+              "label": "Runoff containment basin accessibility",
+              "aliases": [
+                "Spill runoff catchment clearance",
+                "Containment basin access"
+              ]
+            },
+            {
+              "topic": "telemetry_monitoring_active",
+              "label": "Active real-time telemetry deployment",
+              "aliases": [
+                "Telemetry tracking enablement",
+                "Real-time sensor monitoring status"
+              ]
+            },
+            {
+              "topic": "max_response_interval",
+              "label": "Maximum hazmat emergency response interval",
+              "aliases": [
+                "Hazmat brigade response time",
+                "Emergency intervention interval"
+              ]
+            },
+            {
+              "topic": "secondary_containment_ready",
+              "label": "Mandatory secondary containment readiness",
+              "aliases": [
+                "Secondary vessel containment readiness",
+                "Dual-barrier containment status"
+              ]
+            },
+            {
+              "topic": "direct_transit_duration",
+              "label": "Direct transit duration",
+              "aliases": [
+                "Mainline movement time",
+                "Direct en-route transit hours"
+              ]
+            },
+            {
+              "topic": "terminal_handling_duration",
+              "label": "Terminal handling duration",
+              "aliases": [
+                "Yard dwell duration",
+                "Intermodal transfer time"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

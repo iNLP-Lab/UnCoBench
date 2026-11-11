@@ -1,0 +1,505 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_953",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "thermal_systems",
+        "grid_interconnection"
+      ],
+      "role_names": [
+        "Thermal energy systems lead (THERM)",
+        "Gas grid interconnection lead (GRID)"
+      ],
+      "directory": "number_expansion/misaligned/task_953/k2",
+      "error_profiles": [
+        {
+          "role_name": "Thermal energy systems lead (THERM)",
+          "target_key": "THERM-COGEN-3DH",
+          "alternate_key": "THERM-TURB-81I",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidates": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "digestion_thermal_export",
+              "value": 1.8,
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_reactor_certified",
+              "label": "Continuous reactor configuration certification",
+              "aliases": [
+                "Continuous reactor status",
+                "Reactor configuration approval"
+              ]
+            },
+            {
+              "topic": "parasitic_steam_fraction",
+              "label": "Parasitic steam consumption fraction",
+              "aliases": [
+                "Parasitic steam ratio",
+                "Internal steam demand share"
+              ]
+            },
+            {
+              "topic": "odor_abatement_enabled",
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ]
+            },
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ]
+            },
+            {
+              "topic": "foundation_load_compliance",
+              "label": "Foundation structural load compliance",
+              "aliases": [
+                "Geotechnical bearing approval",
+                "Foundation structural certification"
+              ]
+            },
+            {
+              "topic": "gas_grid_injection_approval",
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ]
+            },
+            {
+              "topic": "preheating_thermal_capacity",
+              "label": "Raw sludge preheating thermal capacity",
+              "aliases": [
+                "Sludge preheating rating",
+                "Preheating thermal output"
+              ]
+            },
+            {
+              "topic": "digestion_thermal_export",
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Gas grid interconnection lead (GRID)",
+          "target_key": "GRID-INJECT-FWQ",
+          "alternate_key": "GRID-INJECT-M60",
+          "target_context": "Interconnection Standard Version 3.0",
+          "alternate_context": "Interconnection Standard Version 2.0",
+          "candidate": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidates": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "gas_grid_injection_approval",
+              "value": true,
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_reactor_certified",
+              "label": "Continuous reactor configuration certification",
+              "aliases": [
+                "Continuous reactor status",
+                "Reactor configuration approval"
+              ]
+            },
+            {
+              "topic": "parasitic_steam_fraction",
+              "label": "Parasitic steam consumption fraction",
+              "aliases": [
+                "Parasitic steam ratio",
+                "Internal steam demand share"
+              ]
+            },
+            {
+              "topic": "odor_abatement_enabled",
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ]
+            },
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ]
+            },
+            {
+              "topic": "foundation_load_compliance",
+              "label": "Foundation structural load compliance",
+              "aliases": [
+                "Geotechnical bearing approval",
+                "Foundation structural certification"
+              ]
+            },
+            {
+              "topic": "gas_grid_injection_approval",
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ]
+            },
+            {
+              "topic": "preheating_thermal_capacity",
+              "label": "Raw sludge preheating thermal capacity",
+              "aliases": [
+                "Sludge preheating rating",
+                "Preheating thermal output"
+              ]
+            },
+            {
+              "topic": "digestion_thermal_export",
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "thermal_systems",
+        "grid_interconnection",
+        "environmental_compliance"
+      ],
+      "role_names": [
+        "Thermal energy systems lead (THERM)",
+        "Gas grid interconnection lead (GRID)",
+        "Environmental compliance lead (ENVR)"
+      ],
+      "directory": "number_expansion/misaligned/task_953/k3",
+      "error_profiles": [
+        {
+          "role_name": "Thermal energy systems lead (THERM)",
+          "target_key": "THERM-COGEN-3DH",
+          "alternate_key": "THERM-TURB-81I",
+          "target_context": "Version 2.0",
+          "alternate_context": "Version 3.0",
+          "candidate": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidates": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "digestion_thermal_export",
+              "value": 1.8,
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ],
+              "unit": "MW"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_reactor_certified",
+              "label": "Continuous reactor configuration certification",
+              "aliases": [
+                "Continuous reactor status",
+                "Reactor configuration approval"
+              ]
+            },
+            {
+              "topic": "parasitic_steam_fraction",
+              "label": "Parasitic steam consumption fraction",
+              "aliases": [
+                "Parasitic steam ratio",
+                "Internal steam demand share"
+              ]
+            },
+            {
+              "topic": "odor_abatement_enabled",
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ]
+            },
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ]
+            },
+            {
+              "topic": "foundation_load_compliance",
+              "label": "Foundation structural load compliance",
+              "aliases": [
+                "Geotechnical bearing approval",
+                "Foundation structural certification"
+              ]
+            },
+            {
+              "topic": "gas_grid_injection_approval",
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ]
+            },
+            {
+              "topic": "preheating_thermal_capacity",
+              "label": "Raw sludge preheating thermal capacity",
+              "aliases": [
+                "Sludge preheating rating",
+                "Preheating thermal output"
+              ]
+            },
+            {
+              "topic": "digestion_thermal_export",
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Gas grid interconnection lead (GRID)",
+          "target_key": "GRID-INJECT-FWQ",
+          "alternate_key": "GRID-INJECT-M60",
+          "target_context": "Interconnection Standard Version 3.0",
+          "alternate_context": "Interconnection Standard Version 2.0",
+          "candidate": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidates": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "gas_grid_injection_approval",
+              "value": true,
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_reactor_certified",
+              "label": "Continuous reactor configuration certification",
+              "aliases": [
+                "Continuous reactor status",
+                "Reactor configuration approval"
+              ]
+            },
+            {
+              "topic": "parasitic_steam_fraction",
+              "label": "Parasitic steam consumption fraction",
+              "aliases": [
+                "Parasitic steam ratio",
+                "Internal steam demand share"
+              ]
+            },
+            {
+              "topic": "odor_abatement_enabled",
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ]
+            },
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ]
+            },
+            {
+              "topic": "foundation_load_compliance",
+              "label": "Foundation structural load compliance",
+              "aliases": [
+                "Geotechnical bearing approval",
+                "Foundation structural certification"
+              ]
+            },
+            {
+              "topic": "gas_grid_injection_approval",
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ]
+            },
+            {
+              "topic": "preheating_thermal_capacity",
+              "label": "Raw sludge preheating thermal capacity",
+              "aliases": [
+                "Sludge preheating rating",
+                "Preheating thermal output"
+              ]
+            },
+            {
+              "topic": "digestion_thermal_export",
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental compliance lead (ENVR)",
+          "target_key": "ENVR-EMIS-FFX",
+          "alternate_key": "ENVR-EMIS-NID",
+          "target_context": "November 2025",
+          "alternate_context": "December 2025",
+          "candidate": "Continuous thermal hydrolysis with vacuum flash scheme",
+          "other_candidates": [
+            "Pulsed steam explosion and thermophilic digestion scheme",
+            "Intermediate thermal hydrolysis with plug-flow digestion scheme"
+          ],
+          "numeric": [
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "value": 6,
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ],
+              "unit": "mg/m3"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "odor_abatement_enabled",
+              "value": true,
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "continuous_reactor_certified",
+              "label": "Continuous reactor configuration certification",
+              "aliases": [
+                "Continuous reactor status",
+                "Reactor configuration approval"
+              ]
+            },
+            {
+              "topic": "parasitic_steam_fraction",
+              "label": "Parasitic steam consumption fraction",
+              "aliases": [
+                "Parasitic steam ratio",
+                "Internal steam demand share"
+              ]
+            },
+            {
+              "topic": "odor_abatement_enabled",
+              "label": "Multi-stage odor abatement system enabled",
+              "aliases": [
+                "Odor control enablement",
+                "Odor abatement operational status"
+              ]
+            },
+            {
+              "topic": "exhaust_ammonia_concentration",
+              "label": "Stack exhaust ammonia concentration",
+              "aliases": [
+                "Exhaust ammonia level",
+                "Stack NH3 concentration"
+              ]
+            },
+            {
+              "topic": "foundation_load_compliance",
+              "label": "Foundation structural load compliance",
+              "aliases": [
+                "Geotechnical bearing approval",
+                "Foundation structural certification"
+              ]
+            },
+            {
+              "topic": "gas_grid_injection_approval",
+              "label": "Utility biomethane grid injection approval",
+              "aliases": [
+                "Gas injection interconnection permit",
+                "Pipeline gas quality compliance approval"
+              ]
+            },
+            {
+              "topic": "preheating_thermal_capacity",
+              "label": "Raw sludge preheating thermal capacity",
+              "aliases": [
+                "Sludge preheating rating",
+                "Preheating thermal output"
+              ]
+            },
+            {
+              "topic": "digestion_thermal_export",
+              "label": "Digestion loop thermal export capacity",
+              "aliases": [
+                "Digester loop thermal capacity",
+                "Thermal export rating"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

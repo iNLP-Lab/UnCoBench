@@ -1,0 +1,183 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_426",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "meteorological_flight_officer",
+        "avionics_telemetry_specialist"
+      ],
+      "role_names": [
+        "Aviation meteorologist (MET)",
+        "Avionics communications coordinator (TEL)"
+      ],
+      "directory": "incomplete/task_426",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_flight_officer_A",
+          "role_id": "meteorological_flight_officer",
+          "candidate_id": "A",
+          "key": "MET-WND-KIR",
+          "boolean_predicate_id": "A_transponder_relay_active",
+          "boolean_label": "Alpine relay transponder coverage active",
+          "hidden_predicate_id": "A_maximum_gust_speed",
+          "threshold_label": "Maximum corridor gust wind speed",
+          "threshold_aliases": [
+            "Peak gust velocity",
+            "Ridge pass wind gust"
+          ],
+          "threshold_value": 38,
+          "threshold_unit": "km/h",
+          "partial_record_text": "MET-WND-KIR: Kicking Horse Pass Approach.Kicking Horse Pass Approach: Alpine relay transponder coverage active = true .Source: Mountain telemetry beacon status monitor; Scope: Ridge-line repeater station network along corridor pass; Measurement: Operational status flag of continuous transponder signal repeaters.",
+          "role_name": "Aviation meteorologist (MET)",
+          "candidate_name": "Kicking Horse Pass Approach",
+          "other_candidate_names": [
+            "Cariboo Trench Low-Level Route",
+            "Monashee Crest Bypass"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_avionics_telemetry_specialist_A",
+          "role_id": "avionics_telemetry_specialist",
+          "candidate_id": "A",
+          "key": "TEL-COM-NUJ",
+          "hidden_predicate_id": "A_rescue_passenger_capacity",
+          "threshold_label": "Primary passenger evacuation capacity",
+          "threshold_aliases": [
+            "Evacuation passenger capacity",
+            "Available rescue seats"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "passengers",
+          "partial_record_text": "TEL-COM-NUJ: Kicking Horse Pass Approach. The record covers Primary passenger evacuation capacity. Record context: Fleet Configuration Release 3. Aircraft cabin configuration manifest; Rescue helicopter assigned to corridor mission; Number of certified passenger litter and seat positions dedicated to evacuees.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 6,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary passenger evacuation capacity is at least 6 passengers.",
+          "role_name": "Avionics communications coordinator (TEL)",
+          "candidate_name": "Kicking Horse Pass Approach",
+          "other_candidate_names": [
+            "Cariboo Trench Low-Level Route",
+            "Monashee Crest Bypass"
+          ],
+          "context_value": "Fleet Configuration Release 3",
+          "other_context_values": [
+            "Fleet Configuration Release 4"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "meteorological_flight_officer",
+        "avionics_telemetry_specialist",
+        "flight_operations_dispatcher"
+      ],
+      "role_names": [
+        "Aviation meteorologist (MET)",
+        "Avionics communications coordinator (TEL)",
+        "Emergency flight dispatcher (DISP)"
+      ],
+      "directory": "incomplete/task_426",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_flight_officer_A",
+          "role_id": "meteorological_flight_officer",
+          "candidate_id": "A",
+          "key": "MET-WND-KIR",
+          "boolean_predicate_id": "A_transponder_relay_active",
+          "boolean_label": "Alpine relay transponder coverage active",
+          "hidden_predicate_id": "A_maximum_gust_speed",
+          "threshold_label": "Maximum corridor gust wind speed",
+          "threshold_aliases": [
+            "Peak gust velocity",
+            "Ridge pass wind gust"
+          ],
+          "threshold_value": 38,
+          "threshold_unit": "km/h",
+          "partial_record_text": "MET-WND-KIR: Kicking Horse Pass Approach.Kicking Horse Pass Approach: Alpine relay transponder coverage active = true .Source: Mountain telemetry beacon status monitor; Scope: Ridge-line repeater station network along corridor pass; Measurement: Operational status flag of continuous transponder signal repeaters.",
+          "role_name": "Aviation meteorologist (MET)",
+          "candidate_name": "Kicking Horse Pass Approach",
+          "other_candidate_names": [
+            "Cariboo Trench Low-Level Route",
+            "Monashee Crest Bypass"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_avionics_telemetry_specialist_A",
+          "role_id": "avionics_telemetry_specialist",
+          "candidate_id": "A",
+          "key": "TEL-COM-NUJ",
+          "hidden_predicate_id": "A_rescue_passenger_capacity",
+          "threshold_label": "Primary passenger evacuation capacity",
+          "threshold_aliases": [
+            "Evacuation passenger capacity",
+            "Available rescue seats"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "passengers",
+          "partial_record_text": "TEL-COM-NUJ: Kicking Horse Pass Approach. The record covers Primary passenger evacuation capacity. Record context: Fleet Configuration Release 3. Aircraft cabin configuration manifest; Rescue helicopter assigned to corridor mission; Number of certified passenger litter and seat positions dedicated to evacuees.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 6,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Primary passenger evacuation capacity is at least 6 passengers.",
+          "role_name": "Avionics communications coordinator (TEL)",
+          "candidate_name": "Kicking Horse Pass Approach",
+          "other_candidate_names": [
+            "Cariboo Trench Low-Level Route",
+            "Monashee Crest Bypass"
+          ],
+          "context_value": "Fleet Configuration Release 3",
+          "other_context_values": [
+            "Fleet Configuration Release 4"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_dispatcher_A",
+          "role_id": "flight_operations_dispatcher",
+          "candidate_id": "A",
+          "key": "DISP-RTE-TTB",
+          "hidden_predicate_id": "A_transit_flight_time",
+          "threshold_label": "Sortie transit flight time",
+          "threshold_aliases": [
+            "Corridor transit duration",
+            "One-way transit flight duration"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "h",
+          "partial_record_text": "DISP-RTE-TTB: Kicking Horse Pass Approach. The record covers Sortie transit flight time. Flight dispatch corridor planning log; Airbase departure point to wilderness casualty collection point; Calculated total flight transit time under standard cruise settings.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Sortie transit flight time is at most 4 h.",
+          "role_name": "Emergency flight dispatcher (DISP)",
+          "candidate_name": "Kicking Horse Pass Approach",
+          "other_candidate_names": [
+            "Cariboo Trench Low-Level Route",
+            "Monashee Crest Bypass"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

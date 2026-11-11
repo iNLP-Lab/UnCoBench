@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_744",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "logistics_telematics",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Logistics telematics specialist (LTS)",
+        "Fleet operations coordinator (FOC)"
+      ],
+      "directory": "incomplete/task_744",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_telematics_A",
+          "role_id": "logistics_telematics",
+          "candidate_id": "A",
+          "key": "LTS-TELEM-UXH",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Continuous temperature telemetry active",
+          "hidden_predicate_id": "A_excursion_alert_time",
+          "threshold_label": "Transit excursion notification time",
+          "threshold_aliases": [
+            "Temperature breach alert latency",
+            "Excursion notification latency"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "LTS-TELEM-UXH: Dedicated active-temperature refrigerated container model.Dedicated active-temperature refrigerated container model: Continuous temperature telemetry active = true .Source: Transit telematics architecture specification; Scope: All transport vehicles and modular shipping containers in this distribution model; Measurement: Whether real-time continuous temperature telemetry logging and cellular uplink are enabled.",
+          "role_name": "Logistics telematics specialist (LTS)",
+          "candidate_name": "Dedicated active-temperature refrigerated container model",
+          "other_candidate_names": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FOC-STAGE-MLC",
+          "hidden_predicate_id": "A_staging_buffer_pallet_capacity",
+          "threshold_label": "Staging buffer pallet capacity",
+          "threshold_aliases": [
+            "Cold staging pallet capacity",
+            "Buffer depot storage positions"
+          ],
+          "threshold_value": 1100,
+          "threshold_unit": "pallets",
+          "partial_record_text": "FOC-STAGE-MLC: Dedicated active-temperature refrigerated container model. The record covers Staging buffer pallet capacity. Cross-dock staging facility ledger; Intermediate cross-dock 2 to 8 degree Celsius staging zones; Usable temperature-controlled staging buffer pallet positions reserved for emergency redistribution.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 600,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Staging buffer pallet capacity is at least 600 pallets.",
+          "role_name": "Fleet operations coordinator (FOC)",
+          "candidate_name": "Dedicated active-temperature refrigerated container model",
+          "other_candidate_names": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "logistics_telematics",
+        "fleet_operations",
+        "storage_facility"
+      ],
+      "role_names": [
+        "Logistics telematics specialist (LTS)",
+        "Fleet operations coordinator (FOC)",
+        "Storage facility manager (SFM)"
+      ],
+      "directory": "incomplete/task_744",
+      "profiles": [
+        {
+          "record_id": "rec_logistics_telematics_A",
+          "role_id": "logistics_telematics",
+          "candidate_id": "A",
+          "key": "LTS-TELEM-UXH",
+          "boolean_predicate_id": "A_telemetry_active",
+          "boolean_label": "Continuous temperature telemetry active",
+          "hidden_predicate_id": "A_excursion_alert_time",
+          "threshold_label": "Transit excursion notification time",
+          "threshold_aliases": [
+            "Temperature breach alert latency",
+            "Excursion notification latency"
+          ],
+          "threshold_value": 30,
+          "threshold_unit": "min",
+          "partial_record_text": "LTS-TELEM-UXH: Dedicated active-temperature refrigerated container model.Dedicated active-temperature refrigerated container model: Continuous temperature telemetry active = true .Source: Transit telematics architecture specification; Scope: All transport vehicles and modular shipping containers in this distribution model; Measurement: Whether real-time continuous temperature telemetry logging and cellular uplink are enabled.",
+          "role_name": "Logistics telematics specialist (LTS)",
+          "candidate_name": "Dedicated active-temperature refrigerated container model",
+          "other_candidate_names": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FOC-STAGE-MLC",
+          "hidden_predicate_id": "A_staging_buffer_pallet_capacity",
+          "threshold_label": "Staging buffer pallet capacity",
+          "threshold_aliases": [
+            "Cold staging pallet capacity",
+            "Buffer depot storage positions"
+          ],
+          "threshold_value": 1100,
+          "threshold_unit": "pallets",
+          "partial_record_text": "FOC-STAGE-MLC: Dedicated active-temperature refrigerated container model. The record covers Staging buffer pallet capacity. Cross-dock staging facility ledger; Intermediate cross-dock 2 to 8 degree Celsius staging zones; Usable temperature-controlled staging buffer pallet positions reserved for emergency redistribution.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 600,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Staging buffer pallet capacity is at least 600 pallets.",
+          "role_name": "Fleet operations coordinator (FOC)",
+          "candidate_name": "Dedicated active-temperature refrigerated container model",
+          "other_candidate_names": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_storage_facility_A",
+          "role_id": "storage_facility",
+          "candidate_id": "A",
+          "key": "SFM-DEPOT-U26",
+          "hidden_predicate_id": "A_deep_freeze_pallet_capacity",
+          "threshold_label": "Deep-freeze pallet capacity",
+          "threshold_aliases": [
+            "Ultra-low temperature pallet capacity",
+            "Deep-freeze storage positions"
+          ],
+          "threshold_value": 550,
+          "threshold_unit": "pallets",
+          "partial_record_text": "SFM-DEPOT-U26: Dedicated active-temperature refrigerated container model. The record covers Deep-freeze pallet capacity. Depot capacity allocation register; Central depository minus 80 degree Celsius storage bays; Usable dedicated pallet storage positions allocated for vaccine reserve stock.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 250,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Deep-freeze pallet capacity is at least 250 pallets.",
+          "role_name": "Storage facility manager (SFM)",
+          "candidate_name": "Dedicated active-temperature refrigerated container model",
+          "other_candidate_names": [
+            "Vacuum-insulated phase-change passive shipper model",
+            "Liquid nitrogen dry-vapor cryogenic unit model"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

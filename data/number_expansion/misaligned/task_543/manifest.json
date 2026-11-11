@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_543",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "clinical_operations",
+        "workforce_planning"
+      ],
+      "role_names": [
+        "Clinical operations lead (CLIN)",
+        "Medical workforce planning lead (PLAN)"
+      ],
+      "directory": "number_expansion/misaligned/task_543/k2",
+      "error_profiles": [
+        {
+          "role_name": "Clinical operations lead (CLIN)",
+          "target_key": "CLIN-SURG-BUQ",
+          "alternate_key": "CLIN-EQUIP-UAU",
+          "target_context": "Hangzhou",
+          "alternate_context": "Ningbo",
+          "candidate": "Attending-led hybrid shift model",
+          "other_candidates": [
+            "Dedicated trauma intensivist model",
+            "Rotational surgical hospitalist model"
+          ],
+          "numeric": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "value": 85,
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ]
+            },
+            {
+              "topic": "credential_audit_completed",
+              "label": "Credential verification audit completed",
+              "aliases": [
+                "Credential verification audit status",
+                "Medical staff audit completion"
+              ]
+            },
+            {
+              "topic": "credential_turnaround_days",
+              "label": "Average credentialing processing turnaround time",
+              "aliases": [
+                "Credentialing turnaround time",
+                "Mean credentialing verification duration"
+              ]
+            },
+            {
+              "topic": "collective_bargaining_compliant",
+              "label": "Collective bargaining agreement compliance",
+              "aliases": [
+                "Union agreement compliance",
+                "Labor contract compliance"
+              ]
+            },
+            {
+              "topic": "simulation_ready",
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ]
+            },
+            {
+              "topic": "contingent_staffing_share",
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ]
+            },
+            {
+              "topic": "annual_coverage_hours",
+              "label": "Annual dedicated clinical coverage hours",
+              "aliases": [
+                "Annual coverage hours",
+                "Dedicated clinical hours"
+              ]
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Medical workforce planning lead (PLAN)",
+          "target_key": "PLAN-STAFF-145",
+          "alternate_key": "PLAN-STAFF-G84",
+          "target_context": "Hangzhou",
+          "alternate_context": "Ningbo",
+          "candidate": "Attending-led hybrid shift model",
+          "other_candidates": [
+            "Dedicated trauma intensivist model",
+            "Rotational surgical hospitalist model"
+          ],
+          "numeric": [
+            {
+              "topic": "contingent_staffing_share",
+              "value": 5,
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ],
+              "unit": "%"
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "value": 14,
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ],
+              "unit": "clinician"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ]
+            },
+            {
+              "topic": "credential_audit_completed",
+              "label": "Credential verification audit completed",
+              "aliases": [
+                "Credential verification audit status",
+                "Medical staff audit completion"
+              ]
+            },
+            {
+              "topic": "credential_turnaround_days",
+              "label": "Average credentialing processing turnaround time",
+              "aliases": [
+                "Credentialing turnaround time",
+                "Mean credentialing verification duration"
+              ]
+            },
+            {
+              "topic": "collective_bargaining_compliant",
+              "label": "Collective bargaining agreement compliance",
+              "aliases": [
+                "Union agreement compliance",
+                "Labor contract compliance"
+              ]
+            },
+            {
+              "topic": "simulation_ready",
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ]
+            },
+            {
+              "topic": "contingent_staffing_share",
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ]
+            },
+            {
+              "topic": "annual_coverage_hours",
+              "label": "Annual dedicated clinical coverage hours",
+              "aliases": [
+                "Annual coverage hours",
+                "Dedicated clinical hours"
+              ]
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "clinical_operations",
+        "workforce_planning",
+        "simulation_training"
+      ],
+      "role_names": [
+        "Clinical operations lead (CLIN)",
+        "Medical workforce planning lead (PLAN)",
+        "Clinical simulation and readiness lead (SIM)"
+      ],
+      "directory": "number_expansion/misaligned/task_543/k3",
+      "error_profiles": [
+        {
+          "role_name": "Clinical operations lead (CLIN)",
+          "target_key": "CLIN-SURG-BUQ",
+          "alternate_key": "CLIN-EQUIP-UAU",
+          "target_context": "Hangzhou",
+          "alternate_context": "Ningbo",
+          "candidate": "Attending-led hybrid shift model",
+          "other_candidates": [
+            "Dedicated trauma intensivist model",
+            "Rotational surgical hospitalist model"
+          ],
+          "numeric": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "value": 85,
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ],
+              "unit": "%"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ]
+            },
+            {
+              "topic": "credential_audit_completed",
+              "label": "Credential verification audit completed",
+              "aliases": [
+                "Credential verification audit status",
+                "Medical staff audit completion"
+              ]
+            },
+            {
+              "topic": "credential_turnaround_days",
+              "label": "Average credentialing processing turnaround time",
+              "aliases": [
+                "Credentialing turnaround time",
+                "Mean credentialing verification duration"
+              ]
+            },
+            {
+              "topic": "collective_bargaining_compliant",
+              "label": "Collective bargaining agreement compliance",
+              "aliases": [
+                "Union agreement compliance",
+                "Labor contract compliance"
+              ]
+            },
+            {
+              "topic": "simulation_ready",
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ]
+            },
+            {
+              "topic": "contingent_staffing_share",
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ]
+            },
+            {
+              "topic": "annual_coverage_hours",
+              "label": "Annual dedicated clinical coverage hours",
+              "aliases": [
+                "Annual coverage hours",
+                "Dedicated clinical hours"
+              ]
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Medical workforce planning lead (PLAN)",
+          "target_key": "PLAN-STAFF-145",
+          "alternate_key": "PLAN-STAFF-G84",
+          "target_context": "Hangzhou",
+          "alternate_context": "Ningbo",
+          "candidate": "Attending-led hybrid shift model",
+          "other_candidates": [
+            "Dedicated trauma intensivist model",
+            "Rotational surgical hospitalist model"
+          ],
+          "numeric": [
+            {
+              "topic": "contingent_staffing_share",
+              "value": 5,
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ],
+              "unit": "%"
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "value": 14,
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ],
+              "unit": "clinician"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ]
+            },
+            {
+              "topic": "credential_audit_completed",
+              "label": "Credential verification audit completed",
+              "aliases": [
+                "Credential verification audit status",
+                "Medical staff audit completion"
+              ]
+            },
+            {
+              "topic": "credential_turnaround_days",
+              "label": "Average credentialing processing turnaround time",
+              "aliases": [
+                "Credentialing turnaround time",
+                "Mean credentialing verification duration"
+              ]
+            },
+            {
+              "topic": "collective_bargaining_compliant",
+              "label": "Collective bargaining agreement compliance",
+              "aliases": [
+                "Union agreement compliance",
+                "Labor contract compliance"
+              ]
+            },
+            {
+              "topic": "simulation_ready",
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ]
+            },
+            {
+              "topic": "contingent_staffing_share",
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ]
+            },
+            {
+              "topic": "annual_coverage_hours",
+              "label": "Annual dedicated clinical coverage hours",
+              "aliases": [
+                "Annual coverage hours",
+                "Dedicated clinical hours"
+              ]
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Clinical simulation and readiness lead (SIM)",
+          "target_key": "SIM-TRN-1OR",
+          "alternate_key": "SIM-TRN-W18",
+          "target_context": "March 2025",
+          "alternate_context": "April 2025",
+          "candidate": "Attending-led hybrid shift model",
+          "other_candidates": [
+            "Dedicated trauma intensivist model",
+            "Rotational surgical hospitalist model"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "simulation_ready",
+              "value": true,
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "surgeon_coverage_ratio",
+              "label": "Board-certified trauma surgeon shift coverage",
+              "aliases": [
+                "Trauma surgeon shift coverage",
+                "Board-certified surgeon coverage rate"
+              ]
+            },
+            {
+              "topic": "credential_audit_completed",
+              "label": "Credential verification audit completed",
+              "aliases": [
+                "Credential verification audit status",
+                "Medical staff audit completion"
+              ]
+            },
+            {
+              "topic": "credential_turnaround_days",
+              "label": "Average credentialing processing turnaround time",
+              "aliases": [
+                "Credentialing turnaround time",
+                "Mean credentialing verification duration"
+              ]
+            },
+            {
+              "topic": "collective_bargaining_compliant",
+              "label": "Collective bargaining agreement compliance",
+              "aliases": [
+                "Union agreement compliance",
+                "Labor contract compliance"
+              ]
+            },
+            {
+              "topic": "simulation_ready",
+              "label": "Clinical simulation readiness",
+              "aliases": [
+                "Trauma team simulation clearance",
+                "Team simulation training readiness"
+              ]
+            },
+            {
+              "topic": "contingent_staffing_share",
+              "label": "Contingent staffing share",
+              "aliases": [
+                "Locum tenens staffing share",
+                "Temporary staff reliance proportion"
+              ]
+            },
+            {
+              "topic": "annual_coverage_hours",
+              "label": "Annual dedicated clinical coverage hours",
+              "aliases": [
+                "Annual coverage hours",
+                "Dedicated clinical hours"
+              ]
+            },
+            {
+              "topic": "allocated_clinician_headcount",
+              "label": "Allocated full-time clinician headcount",
+              "aliases": [
+                "Full-time clinician headcount",
+                "Core clinician headcount"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

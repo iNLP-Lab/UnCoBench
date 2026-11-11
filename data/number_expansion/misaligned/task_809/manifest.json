@@ -1,0 +1,516 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_809",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "utilities_coordinator",
+        "structural_safety_engineer"
+      ],
+      "role_names": [
+        "Utilities and Life Support Coordinator (UTIL)",
+        "Structural Safety Engineer (STRUC)"
+      ],
+      "directory": "number_expansion/misaligned/task_809/k2",
+      "error_profiles": [
+        {
+          "role_name": "Utilities and Life Support Coordinator (UTIL)",
+          "target_key": "UTIL-PWR-74J",
+          "alternate_key": "UTIL-PWR-L72",
+          "target_context": "trailing 30-day audit window",
+          "alternate_context": "trailing 12-month audit window",
+          "candidate": "Bayside Exhibition Pavilion",
+          "other_candidates": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_generator_runtime",
+              "value": 96,
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_barrier_deployed",
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ]
+            },
+            {
+              "topic": "flood_elevation_margin",
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ]
+            },
+            {
+              "topic": "isolation_ward_available",
+              "label": "Dedicated communicable disease isolation ward available",
+              "aliases": [
+                "Isolation room readiness",
+                "Negative pressure quarantine bay"
+              ]
+            },
+            {
+              "topic": "accessibility_compliant",
+              "label": "Universal accessibility code compliant",
+              "aliases": [
+                "Barrier-free intake compliance",
+                "ADA ramp and egress conformance"
+              ]
+            },
+            {
+              "topic": "emergency_generator_runtime",
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ]
+            },
+            {
+              "topic": "dual_power_interlock_installed",
+              "label": "Automatic dual-power transfer interlock installed",
+              "aliases": [
+                "Automatic transfer switch installed",
+                "Dual source electrical switchgear"
+              ]
+            },
+            {
+              "topic": "registration_triage_rate",
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ]
+            },
+            {
+              "topic": "medical_screening_rate",
+              "label": "Medical screening intake rate",
+              "aliases": [
+                "Health triage throughput",
+                "Clinical intake evaluation speed"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural Safety Engineer (STRUC)",
+          "target_key": "STRUC-BLDG-2YK",
+          "alternate_key": "STRUC-BLDG-8GY",
+          "target_context": "September 2024",
+          "alternate_context": "August 2024",
+          "candidate": "Bayside Exhibition Pavilion",
+          "other_candidates": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "numeric": [
+            {
+              "topic": "flood_elevation_margin",
+              "value": 150,
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ],
+              "unit": "cm"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "storm_barrier_deployed",
+              "value": true,
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_barrier_deployed",
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ]
+            },
+            {
+              "topic": "flood_elevation_margin",
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ]
+            },
+            {
+              "topic": "isolation_ward_available",
+              "label": "Dedicated communicable disease isolation ward available",
+              "aliases": [
+                "Isolation room readiness",
+                "Negative pressure quarantine bay"
+              ]
+            },
+            {
+              "topic": "accessibility_compliant",
+              "label": "Universal accessibility code compliant",
+              "aliases": [
+                "Barrier-free intake compliance",
+                "ADA ramp and egress conformance"
+              ]
+            },
+            {
+              "topic": "emergency_generator_runtime",
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ]
+            },
+            {
+              "topic": "dual_power_interlock_installed",
+              "label": "Automatic dual-power transfer interlock installed",
+              "aliases": [
+                "Automatic transfer switch installed",
+                "Dual source electrical switchgear"
+              ]
+            },
+            {
+              "topic": "registration_triage_rate",
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ]
+            },
+            {
+              "topic": "medical_screening_rate",
+              "label": "Medical screening intake rate",
+              "aliases": [
+                "Health triage throughput",
+                "Clinical intake evaluation speed"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "utilities_coordinator",
+        "structural_safety_engineer",
+        "shelter_operations_lead"
+      ],
+      "role_names": [
+        "Utilities and Life Support Coordinator (UTIL)",
+        "Structural Safety Engineer (STRUC)",
+        "Shelter Operations Lead (OPS)"
+      ],
+      "directory": "number_expansion/misaligned/task_809/k3",
+      "error_profiles": [
+        {
+          "role_name": "Utilities and Life Support Coordinator (UTIL)",
+          "target_key": "UTIL-PWR-74J",
+          "alternate_key": "UTIL-PWR-L72",
+          "target_context": "trailing 30-day audit window",
+          "alternate_context": "trailing 12-month audit window",
+          "candidate": "Bayside Exhibition Pavilion",
+          "other_candidates": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_generator_runtime",
+              "value": 96,
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_barrier_deployed",
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ]
+            },
+            {
+              "topic": "flood_elevation_margin",
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ]
+            },
+            {
+              "topic": "isolation_ward_available",
+              "label": "Dedicated communicable disease isolation ward available",
+              "aliases": [
+                "Isolation room readiness",
+                "Negative pressure quarantine bay"
+              ]
+            },
+            {
+              "topic": "accessibility_compliant",
+              "label": "Universal accessibility code compliant",
+              "aliases": [
+                "Barrier-free intake compliance",
+                "ADA ramp and egress conformance"
+              ]
+            },
+            {
+              "topic": "emergency_generator_runtime",
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ]
+            },
+            {
+              "topic": "dual_power_interlock_installed",
+              "label": "Automatic dual-power transfer interlock installed",
+              "aliases": [
+                "Automatic transfer switch installed",
+                "Dual source electrical switchgear"
+              ]
+            },
+            {
+              "topic": "registration_triage_rate",
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ]
+            },
+            {
+              "topic": "medical_screening_rate",
+              "label": "Medical screening intake rate",
+              "aliases": [
+                "Health triage throughput",
+                "Clinical intake evaluation speed"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Structural Safety Engineer (STRUC)",
+          "target_key": "STRUC-BLDG-2YK",
+          "alternate_key": "STRUC-BLDG-8GY",
+          "target_context": "September 2024",
+          "alternate_context": "August 2024",
+          "candidate": "Bayside Exhibition Pavilion",
+          "other_candidates": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "numeric": [
+            {
+              "topic": "flood_elevation_margin",
+              "value": 150,
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ],
+              "unit": "cm"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "storm_barrier_deployed",
+              "value": true,
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_barrier_deployed",
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ]
+            },
+            {
+              "topic": "flood_elevation_margin",
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ]
+            },
+            {
+              "topic": "isolation_ward_available",
+              "label": "Dedicated communicable disease isolation ward available",
+              "aliases": [
+                "Isolation room readiness",
+                "Negative pressure quarantine bay"
+              ]
+            },
+            {
+              "topic": "accessibility_compliant",
+              "label": "Universal accessibility code compliant",
+              "aliases": [
+                "Barrier-free intake compliance",
+                "ADA ramp and egress conformance"
+              ]
+            },
+            {
+              "topic": "emergency_generator_runtime",
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ]
+            },
+            {
+              "topic": "dual_power_interlock_installed",
+              "label": "Automatic dual-power transfer interlock installed",
+              "aliases": [
+                "Automatic transfer switch installed",
+                "Dual source electrical switchgear"
+              ]
+            },
+            {
+              "topic": "registration_triage_rate",
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ]
+            },
+            {
+              "topic": "medical_screening_rate",
+              "label": "Medical screening intake rate",
+              "aliases": [
+                "Health triage throughput",
+                "Clinical intake evaluation speed"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Shelter Operations Lead (OPS)",
+          "target_key": "OPS-LOG-50N",
+          "alternate_key": "OPS-LOG-HNK",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Bayside Exhibition Pavilion",
+          "other_candidates": [
+            "Metro Sports Arena",
+            "Harborview Civic Auditorium"
+          ],
+          "numeric": [
+            {
+              "topic": "registration_triage_rate",
+              "value": 150,
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ],
+              "unit": "persons/h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "storm_barrier_deployed",
+              "label": "External storm barrier deployed",
+              "aliases": [
+                "Floodgate deployment",
+                "Storm surge perimeter barrier"
+              ]
+            },
+            {
+              "topic": "flood_elevation_margin",
+              "label": "Finished floor elevation margin above base flood level",
+              "aliases": [
+                "Base flood elevation clearance",
+                "Flood height safety buffer"
+              ]
+            },
+            {
+              "topic": "isolation_ward_available",
+              "label": "Dedicated communicable disease isolation ward available",
+              "aliases": [
+                "Isolation room readiness",
+                "Negative pressure quarantine bay"
+              ]
+            },
+            {
+              "topic": "accessibility_compliant",
+              "label": "Universal accessibility code compliant",
+              "aliases": [
+                "Barrier-free intake compliance",
+                "ADA ramp and egress conformance"
+              ]
+            },
+            {
+              "topic": "emergency_generator_runtime",
+              "label": "Emergency generator fuel autonomous runtime",
+              "aliases": [
+                "Auxiliary power fuel endurance",
+                "Backup generator autonomous duration"
+              ]
+            },
+            {
+              "topic": "dual_power_interlock_installed",
+              "label": "Automatic dual-power transfer interlock installed",
+              "aliases": [
+                "Automatic transfer switch installed",
+                "Dual source electrical switchgear"
+              ]
+            },
+            {
+              "topic": "registration_triage_rate",
+              "label": "Primary registration triage rate",
+              "aliases": [
+                "Reception intake throughput",
+                "Administrative intake clearance speed"
+              ]
+            },
+            {
+              "topic": "medical_screening_rate",
+              "label": "Medical screening intake rate",
+              "aliases": [
+                "Health triage throughput",
+                "Clinical intake evaluation speed"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

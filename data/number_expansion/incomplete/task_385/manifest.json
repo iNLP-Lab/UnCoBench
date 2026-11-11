@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_385",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_health_officer",
+        "emergency_logistics_coordinator"
+      ],
+      "role_names": [
+        "Environmental Health Officer (EHO)",
+        "Emergency Logistics Coordinator (ELC)"
+      ],
+      "directory": "incomplete/task_385",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_officer_A",
+          "role_id": "environmental_health_officer",
+          "candidate_id": "A",
+          "key": "EHO-SANIT-6OP",
+          "boolean_predicate_id": "A_water_purification_active",
+          "boolean_label": "Water purification system active",
+          "hidden_predicate_id": "A_potable_water_reserve_hours",
+          "threshold_label": "Potable water reserve duration",
+          "threshold_aliases": [
+            "Drinking water autonomy duration",
+            "Potable water endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "EHO-SANIT-6OP: Highland Civic Center.Highland Civic Center: Water purification system active = true .Source: Sanitation equipment checklist; Scope: Central water treatment plant at facility; Measurement: Confirmation that primary and back-up water filtration modules are commissioned and operational.Highland Civic Center: Public health isolation ward ready = true .Source: Public health containment audit; Scope: Dedicated infectious health isolation wing; Measurement: Certification confirming negative pressure airflow and dedicated sanitary facilities are ready.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Potable water reserve duration is at most 300 h.",
+          "role_name": "Environmental Health Officer (EHO)",
+          "candidate_name": "Highland Civic Center",
+          "other_candidate_names": [
+            "Metro Exhibition Complex",
+            "Southside Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_logistics_coordinator_A",
+          "role_id": "emergency_logistics_coordinator",
+          "candidate_id": "A",
+          "key": "ELC-CATER-EAZ",
+          "hidden_predicate_id": "A_daily_meal_capacity",
+          "threshold_label": "Daily meal distribution capacity",
+          "threshold_aliases": [
+            "Daily catering output",
+            "Meal prep rate"
+          ],
+          "threshold_value": 3500,
+          "threshold_unit": "meals/d",
+          "partial_record_text": "ELC-CATER-EAZ: Highland Civic Center. The record covers Daily meal distribution capacity. Commercial kitchen readiness report; On-site food preparation and staging facilities; Maximum volume of hot nutritional rations that can be prepared and served in a 24-hour cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Daily meal distribution capacity is at most 5000 meals/d.",
+          "role_name": "Emergency Logistics Coordinator (ELC)",
+          "candidate_name": "Highland Civic Center",
+          "other_candidate_names": [
+            "Metro Exhibition Complex",
+            "Southside Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_health_officer",
+        "emergency_logistics_coordinator",
+        "facility_infrastructure_engineer"
+      ],
+      "role_names": [
+        "Environmental Health Officer (EHO)",
+        "Emergency Logistics Coordinator (ELC)",
+        "Facility Infrastructure Engineer (FIE)"
+      ],
+      "directory": "incomplete/task_385",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_officer_A",
+          "role_id": "environmental_health_officer",
+          "candidate_id": "A",
+          "key": "EHO-SANIT-6OP",
+          "boolean_predicate_id": "A_water_purification_active",
+          "boolean_label": "Water purification system active",
+          "hidden_predicate_id": "A_potable_water_reserve_hours",
+          "threshold_label": "Potable water reserve duration",
+          "threshold_aliases": [
+            "Drinking water autonomy duration",
+            "Potable water endurance"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "EHO-SANIT-6OP: Highland Civic Center.Highland Civic Center: Water purification system active = true .Source: Sanitation equipment checklist; Scope: Central water treatment plant at facility; Measurement: Confirmation that primary and back-up water filtration modules are commissioned and operational.Highland Civic Center: Public health isolation ward ready = true .Source: Public health containment audit; Scope: Dedicated infectious health isolation wing; Measurement: Certification confirming negative pressure airflow and dedicated sanitary facilities are ready.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Potable water reserve duration is at most 300 h.",
+          "role_name": "Environmental Health Officer (EHO)",
+          "candidate_name": "Highland Civic Center",
+          "other_candidate_names": [
+            "Metro Exhibition Complex",
+            "Southside Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_emergency_logistics_coordinator_A",
+          "role_id": "emergency_logistics_coordinator",
+          "candidate_id": "A",
+          "key": "ELC-CATER-EAZ",
+          "hidden_predicate_id": "A_daily_meal_capacity",
+          "threshold_label": "Daily meal distribution capacity",
+          "threshold_aliases": [
+            "Daily catering output",
+            "Meal prep rate"
+          ],
+          "threshold_value": 3500,
+          "threshold_unit": "meals/d",
+          "partial_record_text": "ELC-CATER-EAZ: Highland Civic Center. The record covers Daily meal distribution capacity. Commercial kitchen readiness report; On-site food preparation and staging facilities; Maximum volume of hot nutritional rations that can be prepared and served in a 24-hour cycle.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Daily meal distribution capacity is at most 5000 meals/d.",
+          "role_name": "Emergency Logistics Coordinator (ELC)",
+          "candidate_name": "Highland Civic Center",
+          "other_candidate_names": [
+            "Metro Exhibition Complex",
+            "Southside Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_infrastructure_engineer_A",
+          "role_id": "facility_infrastructure_engineer",
+          "candidate_id": "A",
+          "key": "FIE-POWER-S7C",
+          "hidden_predicate_id": "A_guaranteed_service_days",
+          "threshold_label": "Guaranteed autonomous service duration",
+          "threshold_aliases": [
+            "Autonomous operating duration",
+            "Off-grid service endurance"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "d",
+          "partial_record_text": "FIE-POWER-S7C: Highland Civic Center.Highland Civic Center: Auxiliary power generation installed = true .Source: Electrical equipment manifest; Scope: Emergency distribution board and diesel generator; Measurement: Verified physical presence and commissioning of an automated island-mode generation plant.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Guaranteed autonomous service duration is at most 30 d.",
+          "role_name": "Facility Infrastructure Engineer (FIE)",
+          "candidate_name": "Highland Civic Center",
+          "other_candidate_names": [
+            "Metro Exhibition Complex",
+            "Southside Sports Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

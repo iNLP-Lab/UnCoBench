@@ -1,0 +1,158 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_429",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "thermal_engineering",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Thermal Validation Engineer (TVE)",
+        "Quality Assurance Auditor (QAA)"
+      ],
+      "directory": "incomplete/task_429",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "TVE-THERM-0P5",
+          "boolean_predicate_id": "A_continuous_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring active",
+          "hidden_predicate_id": "A_excursion_recovery_duration",
+          "threshold_label": "Excursion recovery duration",
+          "threshold_aliases": [
+            "Thermal excursion recovery time",
+            "Cooling pull-down recovery interval"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "TVE-THERM-0P5: North Rhine Distribution Hub.North Rhine Distribution Hub: Continuous temperature monitoring active = true .Source: SCADA automation certificate; Scope: Warehouse high-bay cold storage zones; Measurement: Whether continuous telemetry logging with automated alarm integration is fully commissioned.",
+          "role_name": "Thermal Validation Engineer (TVE)",
+          "candidate_name": "North Rhine Distribution Hub",
+          "other_candidate_names": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAA-QUAL-OXK",
+          "hidden_predicate_id": "A_quarantine_buffer_pallets",
+          "threshold_label": "Quarantined buffer pallet allocation",
+          "threshold_aliases": [
+            "Quality quarantine buffer spaces",
+            "Quarantined pallet reserve"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "pallets",
+          "partial_record_text": "QAA-QUAL-OXK: North Rhine Distribution Hub.North Rhine Distribution Hub: GDP quality compliance audit verification = true .Source: Annual regulatory oversight evaluation; Scope: Candidate biopharmaceutical warehousing operations; Measurement: Confirmation of valid European Medicines Agency Good Distribution Practice compliance certificate.",
+          "role_name": "Quality Assurance Auditor (QAA)",
+          "candidate_name": "North Rhine Distribution Hub",
+          "other_candidate_names": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "thermal_engineering",
+        "quality_assurance",
+        "cleanroom_operations"
+      ],
+      "role_names": [
+        "Thermal Validation Engineer (TVE)",
+        "Quality Assurance Auditor (QAA)",
+        "Cleanroom Operations Supervisor (COS)"
+      ],
+      "directory": "incomplete/task_429",
+      "profiles": [
+        {
+          "record_id": "rec_thermal_engineering_A",
+          "role_id": "thermal_engineering",
+          "candidate_id": "A",
+          "key": "TVE-THERM-0P5",
+          "boolean_predicate_id": "A_continuous_monitoring_active",
+          "boolean_label": "Continuous temperature monitoring active",
+          "hidden_predicate_id": "A_excursion_recovery_duration",
+          "threshold_label": "Excursion recovery duration",
+          "threshold_aliases": [
+            "Thermal excursion recovery time",
+            "Cooling pull-down recovery interval"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "TVE-THERM-0P5: North Rhine Distribution Hub.North Rhine Distribution Hub: Continuous temperature monitoring active = true .Source: SCADA automation certificate; Scope: Warehouse high-bay cold storage zones; Measurement: Whether continuous telemetry logging with automated alarm integration is fully commissioned.",
+          "role_name": "Thermal Validation Engineer (TVE)",
+          "candidate_name": "North Rhine Distribution Hub",
+          "other_candidate_names": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QAA-QUAL-OXK",
+          "hidden_predicate_id": "A_quarantine_buffer_pallets",
+          "threshold_label": "Quarantined buffer pallet allocation",
+          "threshold_aliases": [
+            "Quality quarantine buffer spaces",
+            "Quarantined pallet reserve"
+          ],
+          "threshold_value": 350,
+          "threshold_unit": "pallets",
+          "partial_record_text": "QAA-QUAL-OXK: North Rhine Distribution Hub.North Rhine Distribution Hub: GDP quality compliance audit verification = true .Source: Annual regulatory oversight evaluation; Scope: Candidate biopharmaceutical warehousing operations; Measurement: Confirmation of valid European Medicines Agency Good Distribution Practice compliance certificate.",
+          "role_name": "Quality Assurance Auditor (QAA)",
+          "candidate_name": "North Rhine Distribution Hub",
+          "other_candidate_names": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cleanroom_operations_A",
+          "role_id": "cleanroom_operations",
+          "candidate_id": "A",
+          "key": "COS-STAG-V6V",
+          "hidden_predicate_id": "A_refrigerated_pallet_capacity",
+          "threshold_label": "Refrigerated cold pallet allocation",
+          "threshold_aliases": [
+            "Cold storage pallet spaces",
+            "Refrigerated capacity allotment"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "pallets",
+          "partial_record_text": "COS-STAG-V6V: North Rhine Distribution Hub.North Rhine Distribution Hub: Qualified cleanroom staging area certified = true .Source: Cleanroom validation certificate; Scope: Secondary packaging and transfer ante-room; Measurement: Attestation of ISO 14644-1 Class 7 environmental compliance under operational conditions.",
+          "role_name": "Cleanroom Operations Supervisor (COS)",
+          "candidate_name": "North Rhine Distribution Hub",
+          "other_candidate_names": [
+            "Flemish Brabant Gateway Center",
+            "Alsace BioPark Logistics Base"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

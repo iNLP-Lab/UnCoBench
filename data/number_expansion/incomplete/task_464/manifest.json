@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_464",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_compliance",
+        "fleet_operations"
+      ],
+      "role_names": [
+        "Good Distribution Practice compliance auditor (GDP)",
+        "Fleet operations superintendent (FLT)"
+      ],
+      "directory": "incomplete/task_464",
+      "profiles": [
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "GDP-QUAL-XIZ",
+          "boolean_predicate_id": "A_telemetry_deployed",
+          "boolean_label": "Real-time telemetry deployment",
+          "hidden_predicate_id": "A_max_excursion_duration",
+          "threshold_label": "Maximum transit excursion duration",
+          "threshold_aliases": [
+            "Peak thermal excursion duration",
+            "Max excursion window"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "GDP-QUAL-XIZ: Nordic Polar Alliance.Nordic Polar Alliance: Temperature integrity certification = true .Source: European Medicines Agency GDP compliance register; Scope: Consortium multi-country primary operations; Measurement: Validation that candidate holds an active, unrevoked GDP cold-chain compliance certificate.Nordic Polar Alliance: Real-time telemetry deployment = true .Source: IoT platform architectural specification; Scope: All line-haul transport lanes; Measurement: Whether automated real-time GPS and dual-probe thermal telemetry is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum transit excursion duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Good Distribution Practice compliance auditor (GDP)",
+          "candidate_name": "Nordic Polar Alliance",
+          "other_candidate_names": [
+            "Apex Trans-Continental Coldways",
+            "Vanguard Biologics Freight Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-MOBIL-QZZ",
+          "hidden_predicate_id": "A_reefer_fleet_count",
+          "threshold_label": "Active reefer fleet size",
+          "threshold_aliases": [
+            "Temperature-controlled vehicle count",
+            "Active refrigerated fleet"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "FLT-MOBIL-QZZ: Nordic Polar Alliance. The record covers Active reefer fleet size. Fleet registration inventory; Active ATP-certified heavy and medium commercial vehicles; Total certified refrigerated vehicles dedicated to pharma lanes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Active reefer fleet size is between 50 vehicles and 300 vehicles, inclusive.",
+          "role_name": "Fleet operations superintendent (FLT)",
+          "candidate_name": "Nordic Polar Alliance",
+          "other_candidate_names": [
+            "Apex Trans-Continental Coldways",
+            "Vanguard Biologics Freight Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_compliance",
+        "fleet_operations",
+        "regional_logistics"
+      ],
+      "role_names": [
+        "Good Distribution Practice compliance auditor (GDP)",
+        "Fleet operations superintendent (FLT)",
+        "Regional logistics controller (NODE)"
+      ],
+      "directory": "incomplete/task_464",
+      "profiles": [
+        {
+          "record_id": "rec_quality_compliance_A",
+          "role_id": "quality_compliance",
+          "candidate_id": "A",
+          "key": "GDP-QUAL-XIZ",
+          "boolean_predicate_id": "A_telemetry_deployed",
+          "boolean_label": "Real-time telemetry deployment",
+          "hidden_predicate_id": "A_max_excursion_duration",
+          "threshold_label": "Maximum transit excursion duration",
+          "threshold_aliases": [
+            "Peak thermal excursion duration",
+            "Max excursion window"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "min",
+          "partial_record_text": "GDP-QUAL-XIZ: Nordic Polar Alliance.Nordic Polar Alliance: Temperature integrity certification = true .Source: European Medicines Agency GDP compliance register; Scope: Consortium multi-country primary operations; Measurement: Validation that candidate holds an active, unrevoked GDP cold-chain compliance certificate.Nordic Polar Alliance: Real-time telemetry deployment = true .Source: IoT platform architectural specification; Scope: All line-haul transport lanes; Measurement: Whether automated real-time GPS and dual-probe thermal telemetry is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum transit excursion duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Good Distribution Practice compliance auditor (GDP)",
+          "candidate_name": "Nordic Polar Alliance",
+          "other_candidate_names": [
+            "Apex Trans-Continental Coldways",
+            "Vanguard Biologics Freight Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_A",
+          "role_id": "fleet_operations",
+          "candidate_id": "A",
+          "key": "FLT-MOBIL-QZZ",
+          "hidden_predicate_id": "A_reefer_fleet_count",
+          "threshold_label": "Active reefer fleet size",
+          "threshold_aliases": [
+            "Temperature-controlled vehicle count",
+            "Active refrigerated fleet"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "FLT-MOBIL-QZZ: Nordic Polar Alliance. The record covers Active reefer fleet size. Fleet registration inventory; Active ATP-certified heavy and medium commercial vehicles; Total certified refrigerated vehicles dedicated to pharma lanes.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Active reefer fleet size is between 50 vehicles and 300 vehicles, inclusive.",
+          "role_name": "Fleet operations superintendent (FLT)",
+          "candidate_name": "Nordic Polar Alliance",
+          "other_candidate_names": [
+            "Apex Trans-Continental Coldways",
+            "Vanguard Biologics Freight Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_regional_logistics_A",
+          "role_id": "regional_logistics",
+          "candidate_id": "A",
+          "key": "NODE-STAGE-BJ0",
+          "hidden_predicate_id": "A_refrigerated_staging_capacity",
+          "threshold_label": "Secondary refrigerated staging capacity",
+          "threshold_aliases": [
+            "Refrigerated buffer capacity",
+            "Cold staging pallet positions"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "pallets",
+          "partial_record_text": "NODE-STAGE-BJ0: Nordic Polar Alliance. The record covers Secondary refrigerated staging capacity. Regional cold vault registry; Satellite gateway walk-in cold rooms (2 to 8 deg C); Contractually reserved high-density cold pallet rack positions.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 600
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Secondary refrigerated staging capacity is between 100 pallets and 600 pallets, inclusive.",
+          "role_name": "Regional logistics controller (NODE)",
+          "candidate_name": "Nordic Polar Alliance",
+          "other_candidate_names": [
+            "Apex Trans-Continental Coldways",
+            "Vanguard Biologics Freight Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

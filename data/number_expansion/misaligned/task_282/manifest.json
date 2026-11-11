@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_282",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "base_logistics",
+        "civil_protection"
+      ],
+      "role_names": [
+        "Ground base logistics lead (LOG)",
+        "Civil protection commander (CIV)"
+      ],
+      "directory": "number_expansion/misaligned/task_282/k2",
+      "error_profiles": [
+        {
+          "role_name": "Ground base logistics lead (LOG)",
+          "target_key": "LOG-SUPP-JCF",
+          "alternate_key": "LOG-SUPP-RGB",
+          "target_context": "after deducting unusable tank residue",
+          "alternate_context": "before deducting unusable tank residue",
+          "candidate": "Fraser Canyon Protected Airway",
+          "other_candidates": [
+            "Coquihalla Mountain Pass Corridor",
+            "Nicola Valley Lowland Route"
+          ],
+          "numeric": [
+            {
+              "topic": "turnaround_fuel_reserve",
+              "value": 4000,
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ],
+              "unit": "L"
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "value": 2,
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "forward_beacon_active",
+              "label": "Autonomous approach beacon activated",
+              "aliases": [
+                "Landing beacon status",
+                "Approach beacon active"
+              ]
+            },
+            {
+              "topic": "max_crosswind_speed",
+              "label": "Maximum pass crosswind speed",
+              "aliases": [
+                "Mountain pass crosswind",
+                "Crosswind velocity"
+              ]
+            },
+            {
+              "topic": "intensive_care_certified",
+              "label": "Intensive-care life support certified",
+              "aliases": [
+                "ICU medical certification",
+                "Advanced life support readiness"
+              ]
+            },
+            {
+              "topic": "patient_evacuation_capacity",
+              "label": "Patient evacuation capacity",
+              "aliases": [
+                "Evacuee transport capacity",
+                "Medical stretcher capacity"
+              ]
+            },
+            {
+              "topic": "priority_corridor_cleared",
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ]
+            },
+            {
+              "topic": "turnaround_fuel_reserve",
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ]
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ]
+            },
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil protection commander (CIV)",
+          "target_key": "CIV-PROT-OEG",
+          "alternate_key": "CIV-PROT-P8H",
+          "target_context": "Production operational environment",
+          "alternate_context": "Exercise simulation environment",
+          "candidate": "Fraser Canyon Protected Airway",
+          "other_candidates": [
+            "Coquihalla Mountain Pass Corridor",
+            "Nicola Valley Lowland Route"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "value": true,
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "forward_beacon_active",
+              "label": "Autonomous approach beacon activated",
+              "aliases": [
+                "Landing beacon status",
+                "Approach beacon active"
+              ]
+            },
+            {
+              "topic": "max_crosswind_speed",
+              "label": "Maximum pass crosswind speed",
+              "aliases": [
+                "Mountain pass crosswind",
+                "Crosswind velocity"
+              ]
+            },
+            {
+              "topic": "intensive_care_certified",
+              "label": "Intensive-care life support certified",
+              "aliases": [
+                "ICU medical certification",
+                "Advanced life support readiness"
+              ]
+            },
+            {
+              "topic": "patient_evacuation_capacity",
+              "label": "Patient evacuation capacity",
+              "aliases": [
+                "Evacuee transport capacity",
+                "Medical stretcher capacity"
+              ]
+            },
+            {
+              "topic": "priority_corridor_cleared",
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ]
+            },
+            {
+              "topic": "turnaround_fuel_reserve",
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ]
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ]
+            },
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "base_logistics",
+        "civil_protection",
+        "airspace_control"
+      ],
+      "role_names": [
+        "Ground base logistics lead (LOG)",
+        "Civil protection commander (CIV)",
+        "Air traffic control liaison (ATC)"
+      ],
+      "directory": "number_expansion/misaligned/task_282/k3",
+      "error_profiles": [
+        {
+          "role_name": "Ground base logistics lead (LOG)",
+          "target_key": "LOG-SUPP-JCF",
+          "alternate_key": "LOG-SUPP-RGB",
+          "target_context": "after deducting unusable tank residue",
+          "alternate_context": "before deducting unusable tank residue",
+          "candidate": "Fraser Canyon Protected Airway",
+          "other_candidates": [
+            "Coquihalla Mountain Pass Corridor",
+            "Nicola Valley Lowland Route"
+          ],
+          "numeric": [
+            {
+              "topic": "turnaround_fuel_reserve",
+              "value": 4000,
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ],
+              "unit": "L"
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "value": 2,
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "forward_beacon_active",
+              "label": "Autonomous approach beacon activated",
+              "aliases": [
+                "Landing beacon status",
+                "Approach beacon active"
+              ]
+            },
+            {
+              "topic": "max_crosswind_speed",
+              "label": "Maximum pass crosswind speed",
+              "aliases": [
+                "Mountain pass crosswind",
+                "Crosswind velocity"
+              ]
+            },
+            {
+              "topic": "intensive_care_certified",
+              "label": "Intensive-care life support certified",
+              "aliases": [
+                "ICU medical certification",
+                "Advanced life support readiness"
+              ]
+            },
+            {
+              "topic": "patient_evacuation_capacity",
+              "label": "Patient evacuation capacity",
+              "aliases": [
+                "Evacuee transport capacity",
+                "Medical stretcher capacity"
+              ]
+            },
+            {
+              "topic": "priority_corridor_cleared",
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ]
+            },
+            {
+              "topic": "turnaround_fuel_reserve",
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ]
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ]
+            },
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil protection commander (CIV)",
+          "target_key": "CIV-PROT-OEG",
+          "alternate_key": "CIV-PROT-P8H",
+          "target_context": "Production operational environment",
+          "alternate_context": "Exercise simulation environment",
+          "candidate": "Fraser Canyon Protected Airway",
+          "other_candidates": [
+            "Coquihalla Mountain Pass Corridor",
+            "Nicola Valley Lowland Route"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "value": true,
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "forward_beacon_active",
+              "label": "Autonomous approach beacon activated",
+              "aliases": [
+                "Landing beacon status",
+                "Approach beacon active"
+              ]
+            },
+            {
+              "topic": "max_crosswind_speed",
+              "label": "Maximum pass crosswind speed",
+              "aliases": [
+                "Mountain pass crosswind",
+                "Crosswind velocity"
+              ]
+            },
+            {
+              "topic": "intensive_care_certified",
+              "label": "Intensive-care life support certified",
+              "aliases": [
+                "ICU medical certification",
+                "Advanced life support readiness"
+              ]
+            },
+            {
+              "topic": "patient_evacuation_capacity",
+              "label": "Patient evacuation capacity",
+              "aliases": [
+                "Evacuee transport capacity",
+                "Medical stretcher capacity"
+              ]
+            },
+            {
+              "topic": "priority_corridor_cleared",
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ]
+            },
+            {
+              "topic": "turnaround_fuel_reserve",
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ]
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ]
+            },
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Air traffic control liaison (ATC)",
+          "target_key": "ATC-SPAC-496",
+          "alternate_key": "ATC-SPAC-NJH",
+          "target_context": "March 2025",
+          "alternate_context": "April 2025",
+          "candidate": "Fraser Canyon Protected Airway",
+          "other_candidates": [
+            "Coquihalla Mountain Pass Corridor",
+            "Nicola Valley Lowland Route"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "priority_corridor_cleared",
+              "value": true,
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "forward_beacon_active",
+              "label": "Autonomous approach beacon activated",
+              "aliases": [
+                "Landing beacon status",
+                "Approach beacon active"
+              ]
+            },
+            {
+              "topic": "max_crosswind_speed",
+              "label": "Maximum pass crosswind speed",
+              "aliases": [
+                "Mountain pass crosswind",
+                "Crosswind velocity"
+              ]
+            },
+            {
+              "topic": "intensive_care_certified",
+              "label": "Intensive-care life support certified",
+              "aliases": [
+                "ICU medical certification",
+                "Advanced life support readiness"
+              ]
+            },
+            {
+              "topic": "patient_evacuation_capacity",
+              "label": "Patient evacuation capacity",
+              "aliases": [
+                "Evacuee transport capacity",
+                "Medical stretcher capacity"
+              ]
+            },
+            {
+              "topic": "priority_corridor_cleared",
+              "label": "Civil airspace emergency priority clearance",
+              "aliases": [
+                "Airspace priority reservation",
+                "ATC emergency clearance"
+              ]
+            },
+            {
+              "topic": "turnaround_fuel_reserve",
+              "label": "Turnaround fuel reserve",
+              "aliases": [
+                "Forward fuel cache",
+                "Dedicated aviation fuel stock"
+              ]
+            },
+            {
+              "topic": "round_trip_flight_duration",
+              "label": "Round-trip flight duration",
+              "aliases": [
+                "Corridor cycle time",
+                "Sortie rotation duration"
+              ]
+            },
+            {
+              "topic": "civil_hazard_assessment_cleared",
+              "label": "Civil hazard assessment clearance",
+              "aliases": [
+                "Disaster hazard clearance",
+                "Slope stability authorization"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

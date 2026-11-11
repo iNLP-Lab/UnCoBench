@@ -1,0 +1,206 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_380",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "atmospheric_optics",
+        "astronomical_operations"
+      ],
+      "role_names": [
+        "Atmospheric optics coordinator (OPT)",
+        "Observatory scheduling coordinator (SCH)"
+      ],
+      "directory": "incomplete/task_380",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_optics_A",
+          "role_id": "atmospheric_optics",
+          "candidate_id": "A",
+          "key": "OPT-SEEING-D9S",
+          "boolean_predicate_id": "A_micro_met_telemetry_active",
+          "boolean_label": "Micro-meteorological sensor array telemetry enabled",
+          "hidden_predicate_id": "A_optical_seeing_fwhm",
+          "threshold_label": "Median astronomical optical seeing at zenith",
+          "threshold_aliases": [
+            "Atmospheric optical seeing",
+            "Zenith seeing FWHM"
+          ],
+          "threshold_value": 0.65,
+          "threshold_unit": "arcsec",
+          "partial_record_text": "OPT-SEEING-D9S: Cerro Las Animas Ridge.Cerro Las Animas Ridge: Micro-meteorological sensor array telemetry enabled = true .Source: Site instrument activation ledger; Scope: Candidate summit boundary layer mast; Measurement: Continuous automated data stream transmission from ultrasonic anemometer array.Cerro Las Animas Ridge: Twilight spectroscopic observation hours = 300 h.Source: Twilight sky brightness spectroradiometer log; Scope: Nautical and astronomical dawn and dusk windows; Measurement: Total annual hours suitable for bright-star high-resolution calibration spectroscopy.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 3
+          },
+          "coarse_statement": "Median astronomical optical seeing at zenith is between 0.5 arcsec and 3 arcsec, inclusive.",
+          "role_name": "Atmospheric optics coordinator (OPT)",
+          "candidate_name": "Cerro Las Animas Ridge",
+          "other_candidate_names": [
+            "Plateau de Chajnantor North",
+            "Puna de Atacama Mesa"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_astronomical_operations_A",
+          "role_id": "astronomical_operations",
+          "candidate_id": "A",
+          "key": "SCH-TIME-C1M",
+          "hidden_predicate_id": "A_clear_dark_hours",
+          "threshold_label": "Clear dark-sky hours",
+          "threshold_aliases": [
+            "Photometric dark-sky hours",
+            "Nighttime usable observing hours"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "h",
+          "partial_record_text": "SCH-TIME-C1M: Cerro Las Animas Ridge. The record covers Clear dark-sky hours. Satellite cloud climatology and all-sky camera archive; Astronomical night (sun below -18 degrees elevation) during typical meteorological year; Total cumulative annual hours with zero cloud obscuration across zenith 60-degree cone.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Clear dark-sky hours is between 0 h and 4000 h, inclusive.",
+          "role_name": "Observatory scheduling coordinator (SCH)",
+          "candidate_name": "Cerro Las Animas Ridge",
+          "other_candidate_names": [
+            "Plateau de Chajnantor North",
+            "Puna de Atacama Mesa"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "atmospheric_optics",
+        "astronomical_operations",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Atmospheric optics coordinator (OPT)",
+        "Observatory scheduling coordinator (SCH)",
+        "Civil infrastructure manager (CIV)"
+      ],
+      "directory": "number_expansion/incomplete/task_380/k3",
+      "profiles": [
+        {
+          "record_id": "rec_atmospheric_optics_A",
+          "role_id": "atmospheric_optics",
+          "candidate_id": "A",
+          "key": "OPT-SEEING-D9S",
+          "boolean_predicate_id": "A_micro_met_telemetry_active",
+          "boolean_label": "Micro-meteorological sensor array telemetry enabled",
+          "hidden_predicate_id": "A_optical_seeing_fwhm",
+          "threshold_label": "Median astronomical optical seeing at zenith",
+          "threshold_aliases": [
+            "Atmospheric optical seeing",
+            "Zenith seeing FWHM"
+          ],
+          "threshold_value": 0.65,
+          "threshold_unit": "arcsec",
+          "partial_record_text": "OPT-SEEING-D9S: Cerro Las Animas Ridge.Cerro Las Animas Ridge: Micro-meteorological sensor array telemetry enabled = true .Source: Site instrument activation ledger; Scope: Candidate summit boundary layer mast; Measurement: Continuous automated data stream transmission from ultrasonic anemometer array.Cerro Las Animas Ridge: Twilight spectroscopic observation hours = 300 h.Source: Twilight sky brightness spectroradiometer log; Scope: Nautical and astronomical dawn and dusk windows; Measurement: Total annual hours suitable for bright-star high-resolution calibration spectroscopy.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 0.5,
+            "upper": 3
+          },
+          "coarse_statement": "Median astronomical optical seeing at zenith is between 0.5 arcsec and 3 arcsec, inclusive.",
+          "role_name": "Atmospheric optics coordinator (OPT)",
+          "candidate_name": "Cerro Las Animas Ridge",
+          "other_candidate_names": [
+            "Plateau de Chajnantor North",
+            "Puna de Atacama Mesa"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_astronomical_operations_A",
+          "role_id": "astronomical_operations",
+          "candidate_id": "A",
+          "key": "SCH-TIME-C1M",
+          "hidden_predicate_id": "A_clear_dark_hours",
+          "threshold_label": "Clear dark-sky hours",
+          "threshold_aliases": [
+            "Photometric dark-sky hours",
+            "Nighttime usable observing hours"
+          ],
+          "threshold_value": 2400,
+          "threshold_unit": "h",
+          "partial_record_text": "SCH-TIME-C1M: Cerro Las Animas Ridge. The record covers Clear dark-sky hours. Satellite cloud climatology and all-sky camera archive; Astronomical night (sun below -18 degrees elevation) during typical meteorological year; Total cumulative annual hours with zero cloud obscuration across zenith 60-degree cone.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Clear dark-sky hours is between 0 h and 4000 h, inclusive.",
+          "role_name": "Observatory scheduling coordinator (SCH)",
+          "candidate_name": "Cerro Las Animas Ridge",
+          "other_candidate_names": [
+            "Plateau de Chajnantor North",
+            "Puna de Atacama Mesa"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A_supplemental",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIV-HAUL-OJZ",
+          "hidden_predicate_id": "A_supplemental_civil_infrastructure",
+          "threshold_label": "Roadway maximum axle load limit",
+          "threshold_aliases": [],
+          "threshold_value": 60,
+          "threshold_unit": "t",
+          "partial_record_text": "CIV-HAUL-OJZ: Cerro Las Animas Ridge. The record covers Roadway maximum axle load limit. Civil transport access study; Access route from regional highway to summit plateau; Maximum certified gross axle load for heavy optical mirror transport trailers.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Roadway maximum axle load limit is between 20 t and 90 t, inclusive.",
+          "role_name": "Civil infrastructure manager (CIV)",
+          "candidate_name": "Cerro Las Animas Ridge",
+          "other_candidate_names": [
+            "Plateau de Chajnantor North",
+            "Puna de Atacama Mesa"
+          ],
+          "context_value": null,
+          "other_context_values": [
+            "Specification Version 2",
+            "Specification Version 3"
+          ],
+          "language": "en"
+        }
+      ],
+      "additional_condition": {
+        "constraint_id": "condition_supplemental_civil_infrastructure",
+        "topic_id": "supplemental_civil_infrastructure",
+        "operator": "gte",
+        "threshold": 45,
+        "role_id": "civil_infrastructure",
+        "metric": "Roadway maximum axle load limit",
+        "unit": "t",
+        "required_text": "To qualify, a candidate must also have Roadway maximum axle load limit of at least 45 t.",
+        "new_fault_record_key": "CIV-HAUL-OJZ",
+        "exact_value": 60,
+        "first_reply": "Roadway maximum axle load limit is between 20 t and 90 t, inclusive."
+      }
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_649",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_engineer",
+        "environmental_officer"
+      ],
+      "role_names": [
+        "Hull and structural engineer (STR)",
+        "Environmental compliance officer (ENV)"
+      ],
+      "directory": "number_expansion/misaligned/task_649/k2",
+      "error_profiles": [
+        {
+          "role_name": "Hull and structural engineer (STR)",
+          "target_key": "STR-HULL-BIQ",
+          "alternate_key": "STR-HULL-8SB",
+          "target_context": "after deducting sea-fastening frame tare",
+          "alternate_context": "before deducting sea-fastening frame tare",
+          "candidate": "Pre-cut continuous mechanical chain trenching",
+          "other_candidates": [
+            "Simultaneous lay and tracked waterjet trenching",
+            "Post-lay high-pressure fluidization trenching"
+          ],
+          "numeric": [
+            {
+              "topic": "sponson_allowance",
+              "value": 60,
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "geotechnical_compatibility",
+              "label": "Geotechnical survey compatibility certified",
+              "aliases": [
+                "Seabed geotechnical compatibility",
+                "Geotechnical survey certification"
+              ]
+            },
+            {
+              "topic": "dp_class_certified",
+              "label": "Dynamic positioning class 2 redundancy verified",
+              "aliases": [
+                "DP2 redundancy compliance",
+                "Dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "turbidity_monitoring_active",
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ]
+            },
+            {
+              "topic": "turbidity_settling_time",
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ]
+            },
+            {
+              "topic": "mws_endorsement",
+              "label": "Marine warranty surveyor endorsement granted",
+              "aliases": [
+                "MWS certificate of approval",
+                "Marine warranty endorsement"
+              ]
+            },
+            {
+              "topic": "diverless_recovery_ready",
+              "label": "Diverless emergency tool recovery operational",
+              "aliases": [
+                "Emergency diverless recovery readiness",
+                "Diverless tool recovery capability"
+              ]
+            },
+            {
+              "topic": "main_deck_capacity",
+              "label": "Main deck cargo capacity",
+              "aliases": [
+                "Deck cargo rating",
+                "Main deck load capacity"
+              ]
+            },
+            {
+              "topic": "sponson_allowance",
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ]
+            },
+            {
+              "topic": "tooling_tare_weight",
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental compliance officer (ENV)",
+          "target_key": "ENV-ECO-6HU",
+          "alternate_key": "ENV-ECO-YSY",
+          "target_context": "measured from cessation of active jetting",
+          "alternate_context": "measured from peak plume concentration",
+          "candidate": "Pre-cut continuous mechanical chain trenching",
+          "other_candidates": [
+            "Simultaneous lay and tracked waterjet trenching",
+            "Post-lay high-pressure fluidization trenching"
+          ],
+          "numeric": [
+            {
+              "topic": "turbidity_settling_time",
+              "value": 75,
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "turbidity_monitoring_active",
+              "value": true,
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "geotechnical_compatibility",
+              "label": "Geotechnical survey compatibility certified",
+              "aliases": [
+                "Seabed geotechnical compatibility",
+                "Geotechnical survey certification"
+              ]
+            },
+            {
+              "topic": "dp_class_certified",
+              "label": "Dynamic positioning class 2 redundancy verified",
+              "aliases": [
+                "DP2 redundancy compliance",
+                "Dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "turbidity_monitoring_active",
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ]
+            },
+            {
+              "topic": "turbidity_settling_time",
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ]
+            },
+            {
+              "topic": "mws_endorsement",
+              "label": "Marine warranty surveyor endorsement granted",
+              "aliases": [
+                "MWS certificate of approval",
+                "Marine warranty endorsement"
+              ]
+            },
+            {
+              "topic": "diverless_recovery_ready",
+              "label": "Diverless emergency tool recovery operational",
+              "aliases": [
+                "Emergency diverless recovery readiness",
+                "Diverless tool recovery capability"
+              ]
+            },
+            {
+              "topic": "main_deck_capacity",
+              "label": "Main deck cargo capacity",
+              "aliases": [
+                "Deck cargo rating",
+                "Main deck load capacity"
+              ]
+            },
+            {
+              "topic": "sponson_allowance",
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ]
+            },
+            {
+              "topic": "tooling_tare_weight",
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_engineer",
+        "environmental_officer",
+        "robotics_supervisor"
+      ],
+      "role_names": [
+        "Hull and structural engineer (STR)",
+        "Environmental compliance officer (ENV)",
+        "Subsea robotics supervisor (ROV)"
+      ],
+      "directory": "number_expansion/misaligned/task_649/k3",
+      "error_profiles": [
+        {
+          "role_name": "Hull and structural engineer (STR)",
+          "target_key": "STR-HULL-BIQ",
+          "alternate_key": "STR-HULL-8SB",
+          "target_context": "after deducting sea-fastening frame tare",
+          "alternate_context": "before deducting sea-fastening frame tare",
+          "candidate": "Pre-cut continuous mechanical chain trenching",
+          "other_candidates": [
+            "Simultaneous lay and tracked waterjet trenching",
+            "Post-lay high-pressure fluidization trenching"
+          ],
+          "numeric": [
+            {
+              "topic": "sponson_allowance",
+              "value": 60,
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "geotechnical_compatibility",
+              "label": "Geotechnical survey compatibility certified",
+              "aliases": [
+                "Seabed geotechnical compatibility",
+                "Geotechnical survey certification"
+              ]
+            },
+            {
+              "topic": "dp_class_certified",
+              "label": "Dynamic positioning class 2 redundancy verified",
+              "aliases": [
+                "DP2 redundancy compliance",
+                "Dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "turbidity_monitoring_active",
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ]
+            },
+            {
+              "topic": "turbidity_settling_time",
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ]
+            },
+            {
+              "topic": "mws_endorsement",
+              "label": "Marine warranty surveyor endorsement granted",
+              "aliases": [
+                "MWS certificate of approval",
+                "Marine warranty endorsement"
+              ]
+            },
+            {
+              "topic": "diverless_recovery_ready",
+              "label": "Diverless emergency tool recovery operational",
+              "aliases": [
+                "Emergency diverless recovery readiness",
+                "Diverless tool recovery capability"
+              ]
+            },
+            {
+              "topic": "main_deck_capacity",
+              "label": "Main deck cargo capacity",
+              "aliases": [
+                "Deck cargo rating",
+                "Main deck load capacity"
+              ]
+            },
+            {
+              "topic": "sponson_allowance",
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ]
+            },
+            {
+              "topic": "tooling_tare_weight",
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Environmental compliance officer (ENV)",
+          "target_key": "ENV-ECO-6HU",
+          "alternate_key": "ENV-ECO-YSY",
+          "target_context": "measured from cessation of active jetting",
+          "alternate_context": "measured from peak plume concentration",
+          "candidate": "Pre-cut continuous mechanical chain trenching",
+          "other_candidates": [
+            "Simultaneous lay and tracked waterjet trenching",
+            "Post-lay high-pressure fluidization trenching"
+          ],
+          "numeric": [
+            {
+              "topic": "turbidity_settling_time",
+              "value": 75,
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ],
+              "unit": "min"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "turbidity_monitoring_active",
+              "value": true,
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "geotechnical_compatibility",
+              "label": "Geotechnical survey compatibility certified",
+              "aliases": [
+                "Seabed geotechnical compatibility",
+                "Geotechnical survey certification"
+              ]
+            },
+            {
+              "topic": "dp_class_certified",
+              "label": "Dynamic positioning class 2 redundancy verified",
+              "aliases": [
+                "DP2 redundancy compliance",
+                "Dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "turbidity_monitoring_active",
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ]
+            },
+            {
+              "topic": "turbidity_settling_time",
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ]
+            },
+            {
+              "topic": "mws_endorsement",
+              "label": "Marine warranty surveyor endorsement granted",
+              "aliases": [
+                "MWS certificate of approval",
+                "Marine warranty endorsement"
+              ]
+            },
+            {
+              "topic": "diverless_recovery_ready",
+              "label": "Diverless emergency tool recovery operational",
+              "aliases": [
+                "Emergency diverless recovery readiness",
+                "Diverless tool recovery capability"
+              ]
+            },
+            {
+              "topic": "main_deck_capacity",
+              "label": "Main deck cargo capacity",
+              "aliases": [
+                "Deck cargo rating",
+                "Main deck load capacity"
+              ]
+            },
+            {
+              "topic": "sponson_allowance",
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ]
+            },
+            {
+              "topic": "tooling_tare_weight",
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Subsea robotics supervisor (ROV)",
+          "target_key": "ROV-TRENCH-846",
+          "alternate_key": "ROV-TRENCH-PL1",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Pre-cut continuous mechanical chain trenching",
+          "other_candidates": [
+            "Simultaneous lay and tracked waterjet trenching",
+            "Post-lay high-pressure fluidization trenching"
+          ],
+          "numeric": [
+            {
+              "topic": "tooling_tare_weight",
+              "value": 150,
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ],
+              "unit": "t"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "geotechnical_compatibility",
+              "label": "Geotechnical survey compatibility certified",
+              "aliases": [
+                "Seabed geotechnical compatibility",
+                "Geotechnical survey certification"
+              ]
+            },
+            {
+              "topic": "dp_class_certified",
+              "label": "Dynamic positioning class 2 redundancy verified",
+              "aliases": [
+                "DP2 redundancy compliance",
+                "Dynamic positioning verification"
+              ]
+            },
+            {
+              "topic": "turbidity_monitoring_active",
+              "label": "Continuous turbidity sensor telemetry operational",
+              "aliases": [
+                "Real-time turbidity telemetry",
+                "Turbidity monitoring activation"
+              ]
+            },
+            {
+              "topic": "turbidity_settling_time",
+              "label": "Maximum sediment plume settling time",
+              "aliases": [
+                "Sediment plume clearance time",
+                "Turbidity settling duration"
+              ]
+            },
+            {
+              "topic": "mws_endorsement",
+              "label": "Marine warranty surveyor endorsement granted",
+              "aliases": [
+                "MWS certificate of approval",
+                "Marine warranty endorsement"
+              ]
+            },
+            {
+              "topic": "diverless_recovery_ready",
+              "label": "Diverless emergency tool recovery operational",
+              "aliases": [
+                "Emergency diverless recovery readiness",
+                "Diverless tool recovery capability"
+              ]
+            },
+            {
+              "topic": "main_deck_capacity",
+              "label": "Main deck cargo capacity",
+              "aliases": [
+                "Deck cargo rating",
+                "Main deck load capacity"
+              ]
+            },
+            {
+              "topic": "sponson_allowance",
+              "label": "Auxiliary sponson payload rating",
+              "aliases": [
+                "Sponson load capacity",
+                "Auxiliary sponson rating"
+              ]
+            },
+            {
+              "topic": "tooling_tare_weight",
+              "label": "Trenching tool spread tare weight",
+              "aliases": [
+                "Subsea spread tare weight",
+                "Primary tooling tare weight"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

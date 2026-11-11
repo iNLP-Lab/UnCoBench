@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_148",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "meteorological_analyst",
+        "logistics_director"
+      ],
+      "role_names": [
+        "Meteorological analyst (MET)",
+        "Logistics director (LOG)"
+      ],
+      "directory": "incomplete/task_148",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_analyst_A",
+          "role_id": "meteorological_analyst",
+          "candidate_id": "A",
+          "key": "MET-WIND-GIS",
+          "boolean_predicate_id": "A_anemometer_station_operational",
+          "boolean_label": "Perimeter anemometer array online",
+          "hidden_predicate_id": "A_sustained_wind_exposure",
+          "threshold_label": "Maximum sustained ground wind exposure",
+          "threshold_aliases": [
+            "Peak sustained ground wind",
+            "Sustained wind speed"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "kn",
+          "partial_record_text": "MET-WIND-GIS: Cape Adare Outpost.Cape Adare Outpost: Perimeter anemometer array online = true .Source: Meteorological sensor telemetry log; Scope: Heated ultrasonic perimeter anemometer array; Measurement: Affirmation that the heated sensor mast is online and transmitting validated wind measurements.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum sustained ground wind exposure is at most 80 kn.",
+          "role_name": "Meteorological analyst (MET)",
+          "candidate_name": "Cape Adare Outpost",
+          "other_candidate_names": [
+            "Falkland Sound Laboratory",
+            "South Georgia Marine Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_director_A",
+          "role_id": "logistics_director",
+          "candidate_id": "A",
+          "key": "LOG-CARG-75X",
+          "hidden_predicate_id": "A_max_cargo_payload",
+          "threshold_label": "Maximum cargo payload rating",
+          "threshold_aliases": [
+            "Gross payload limit",
+            "Station cargo payload capacity"
+          ],
+          "threshold_value": 22000,
+          "threshold_unit": "kg",
+          "partial_record_text": "LOG-CARG-75X: Cape Adare Outpost. The record covers Maximum cargo payload rating. Marine logistics transport manifest; Candidate facility seasonal intake limit; Maximum allowable dry cargo delivery weight supported across ship-to-shore landing lines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Maximum cargo payload rating is at most 40000 kg.",
+          "role_name": "Logistics director (LOG)",
+          "candidate_name": "Cape Adare Outpost",
+          "other_candidate_names": [
+            "Falkland Sound Laboratory",
+            "South Georgia Marine Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "meteorological_analyst",
+        "logistics_director",
+        "infrastructure_engineer"
+      ],
+      "role_names": [
+        "Meteorological analyst (MET)",
+        "Logistics director (LOG)",
+        "Station infrastructure engineer (ENG)"
+      ],
+      "directory": "incomplete/task_148",
+      "profiles": [
+        {
+          "record_id": "rec_meteorological_analyst_A",
+          "role_id": "meteorological_analyst",
+          "candidate_id": "A",
+          "key": "MET-WIND-GIS",
+          "boolean_predicate_id": "A_anemometer_station_operational",
+          "boolean_label": "Perimeter anemometer array online",
+          "hidden_predicate_id": "A_sustained_wind_exposure",
+          "threshold_label": "Maximum sustained ground wind exposure",
+          "threshold_aliases": [
+            "Peak sustained ground wind",
+            "Sustained wind speed"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "kn",
+          "partial_record_text": "MET-WIND-GIS: Cape Adare Outpost.Cape Adare Outpost: Perimeter anemometer array online = true .Source: Meteorological sensor telemetry log; Scope: Heated ultrasonic perimeter anemometer array; Measurement: Affirmation that the heated sensor mast is online and transmitting validated wind measurements.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80
+          },
+          "coarse_statement": "Maximum sustained ground wind exposure is at most 80 kn.",
+          "role_name": "Meteorological analyst (MET)",
+          "candidate_name": "Cape Adare Outpost",
+          "other_candidate_names": [
+            "Falkland Sound Laboratory",
+            "South Georgia Marine Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_director_A",
+          "role_id": "logistics_director",
+          "candidate_id": "A",
+          "key": "LOG-CARG-75X",
+          "hidden_predicate_id": "A_max_cargo_payload",
+          "threshold_label": "Maximum cargo payload rating",
+          "threshold_aliases": [
+            "Gross payload limit",
+            "Station cargo payload capacity"
+          ],
+          "threshold_value": 22000,
+          "threshold_unit": "kg",
+          "partial_record_text": "LOG-CARG-75X: Cape Adare Outpost. The record covers Maximum cargo payload rating. Marine logistics transport manifest; Candidate facility seasonal intake limit; Maximum allowable dry cargo delivery weight supported across ship-to-shore landing lines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Maximum cargo payload rating is at most 40000 kg.",
+          "role_name": "Logistics director (LOG)",
+          "candidate_name": "Cape Adare Outpost",
+          "other_candidate_names": [
+            "Falkland Sound Laboratory",
+            "South Georgia Marine Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_infrastructure_engineer_A",
+          "role_id": "infrastructure_engineer",
+          "candidate_id": "A",
+          "key": "ENG-UTIL-WC6",
+          "hidden_predicate_id": "A_life_support_baseline_payload",
+          "threshold_label": "Winter life-support baseline payload",
+          "threshold_aliases": [
+            "Life-support payload allocation",
+            "Baseline sustenance allocation"
+          ],
+          "threshold_value": 6000,
+          "threshold_unit": "kg",
+          "partial_record_text": "ENG-UTIL-WC6: Cape Adare Outpost.Cape Adare Outpost: Winter power grid autonomy = true .Source: Station energy balance sheet; Scope: Primary thermal and electrical generation microgrid; Measurement: Confirmation of uninterrupted power capability during a 120-day zero-resupply winter period.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 10000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Winter life-support baseline payload is at most 10000 kg.",
+          "role_name": "Station infrastructure engineer (ENG)",
+          "candidate_name": "Cape Adare Outpost",
+          "other_candidate_names": [
+            "Falkland Sound Laboratory",
+            "South Georgia Marine Facility"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

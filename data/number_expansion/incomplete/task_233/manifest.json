@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_233",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "cryogenic_engineering",
+        "facilities_engineering"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CRYO)",
+        "Facilities and power systems lead (FAC)"
+      ],
+      "directory": "incomplete/task_233",
+      "profiles": [
+        {
+          "record_id": "rec_cryogenic_engineering_A",
+          "role_id": "cryogenic_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-LNMAN-WKY",
+          "boolean_predicate_id": "A_automated_ln2_manifold_active",
+          "boolean_label": "Automated LN2 manifold active",
+          "hidden_predicate_id": "A_cryo_holding_autonomy_hours",
+          "threshold_label": "Continuous cryo holding autonomy",
+          "threshold_aliases": [
+            "Cryogenic thermal holding autonomy",
+            "Passive cryo storage autonomy duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-LNMAN-WKY: North Sea Cryogenic Bio-Vault.North Sea Cryogenic Bio-Vault: Automated LN2 manifold active = true .Source: Cryogenic manifold commissioning dossier; Scope: Central liquid nitrogen supply system; Measurement: Whether automated multi-tank liquid nitrogen switchover manifold is fully operational.North Sea Cryogenic Bio-Vault: Gross cryogenic storage capacity = 750000 vials.Source: Vault spatial volumetric inventory; Scope: Installed vapor-phase cryogenic storage freezers; Measurement: Total standard two-milliliter cryo-vial storage positions.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous cryo holding autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Cryogenic systems lead (CRYO)",
+          "candidate_name": "North Sea Cryogenic Bio-Vault",
+          "other_candidate_names": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-EPWR-CBG",
+          "hidden_predicate_id": "A_emergency_generator_fuel_hours",
+          "threshold_label": "Emergency generator continuous fuel endurance",
+          "threshold_aliases": [
+            "Emergency backup power fuel duration",
+            "Dedicated generator fuel autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "FAC-EPWR-CBG: North Sea Cryogenic Bio-Vault. The record covers Emergency generator continuous fuel endurance. Record context: at 100% full rated electrical load. On-site fuel reserves audit; Dedicated diesel backup generation plant; Continuous running hours supported by dedicated on-site diesel fuel storage at full electrical load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency generator continuous fuel endurance is between 20 h and 110 h, inclusive.",
+          "role_name": "Facilities and power systems lead (FAC)",
+          "candidate_name": "North Sea Cryogenic Bio-Vault",
+          "other_candidate_names": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "context_value": "at 100% full rated electrical load",
+          "other_context_values": [
+            "at 75% average operational electrical load"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "cryogenic_engineering",
+        "facilities_engineering",
+        "quality_assurance"
+      ],
+      "role_names": [
+        "Cryogenic systems lead (CRYO)",
+        "Facilities and power systems lead (FAC)",
+        "Quality assurance director (QA)"
+      ],
+      "directory": "incomplete/task_233",
+      "profiles": [
+        {
+          "record_id": "rec_cryogenic_engineering_A",
+          "role_id": "cryogenic_engineering",
+          "candidate_id": "A",
+          "key": "CRYO-LNMAN-WKY",
+          "boolean_predicate_id": "A_automated_ln2_manifold_active",
+          "boolean_label": "Automated LN2 manifold active",
+          "hidden_predicate_id": "A_cryo_holding_autonomy_hours",
+          "threshold_label": "Continuous cryo holding autonomy",
+          "threshold_aliases": [
+            "Cryogenic thermal holding autonomy",
+            "Passive cryo storage autonomy duration"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "CRYO-LNMAN-WKY: North Sea Cryogenic Bio-Vault.North Sea Cryogenic Bio-Vault: Automated LN2 manifold active = true .Source: Cryogenic manifold commissioning dossier; Scope: Central liquid nitrogen supply system; Measurement: Whether automated multi-tank liquid nitrogen switchover manifold is fully operational.North Sea Cryogenic Bio-Vault: Gross cryogenic storage capacity = 750000 vials.Source: Vault spatial volumetric inventory; Scope: Installed vapor-phase cryogenic storage freezers; Measurement: Total standard two-milliliter cryo-vial storage positions.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Continuous cryo holding autonomy is between 20 h and 300 h, inclusive.",
+          "role_name": "Cryogenic systems lead (CRYO)",
+          "candidate_name": "North Sea Cryogenic Bio-Vault",
+          "other_candidate_names": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facilities_engineering_A",
+          "role_id": "facilities_engineering",
+          "candidate_id": "A",
+          "key": "FAC-EPWR-CBG",
+          "hidden_predicate_id": "A_emergency_generator_fuel_hours",
+          "threshold_label": "Emergency generator continuous fuel endurance",
+          "threshold_aliases": [
+            "Emergency backup power fuel duration",
+            "Dedicated generator fuel autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "FAC-EPWR-CBG: North Sea Cryogenic Bio-Vault. The record covers Emergency generator continuous fuel endurance. Record context: at 100% full rated electrical load. On-site fuel reserves audit; Dedicated diesel backup generation plant; Continuous running hours supported by dedicated on-site diesel fuel storage at full electrical load.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency generator continuous fuel endurance is between 20 h and 110 h, inclusive.",
+          "role_name": "Facilities and power systems lead (FAC)",
+          "candidate_name": "North Sea Cryogenic Bio-Vault",
+          "other_candidate_names": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "context_value": "at 100% full rated electrical load",
+          "other_context_values": [
+            "at 75% average operational electrical load"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_quality_assurance_A",
+          "role_id": "quality_assurance",
+          "candidate_id": "A",
+          "key": "QA-QTRAK-NPD",
+          "hidden_predicate_id": "A_reserved_quarantine_capacity",
+          "threshold_label": "Reserved regulatory quarantine capacity",
+          "threshold_aliases": [
+            "Mandatory quarantine vial allocation",
+            "Regulatory reserve capacity"
+          ],
+          "threshold_value": 100000,
+          "threshold_unit": "vials",
+          "partial_record_text": "QA-QTRAK-NPD: North Sea Cryogenic Bio-Vault.North Sea Cryogenic Bio-Vault: Validated chain-of-custody electronic logging = true .Source: Quality management validation report; Scope: Facility specimen inventory tracking software; Measurement: Validation approval for automated tamper-evident electronic chain-of-custody logging.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 200000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Reserved regulatory quarantine capacity is between 0 vials and 200000 vials, inclusive.",
+          "role_name": "Quality assurance director (QA)",
+          "candidate_name": "North Sea Cryogenic Bio-Vault",
+          "other_candidate_names": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

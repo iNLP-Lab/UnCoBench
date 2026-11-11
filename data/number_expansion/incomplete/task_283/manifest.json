@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_283",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_director",
+        "aviation_safety_lead"
+      ],
+      "role_names": [
+        "Medical operations director (MEDDIR)",
+        "Aviation safety inspector (AVSAFE)"
+      ],
+      "directory": "incomplete/task_283",
+      "profiles": [
+        {
+          "record_id": "rec_medical_director_A",
+          "role_id": "medical_director",
+          "candidate_id": "A",
+          "key": "MEDDIR-CLINOP-AYE",
+          "boolean_predicate_id": "A_resuscitation_protocol_active",
+          "boolean_label": "Advanced resuscitation protocol active",
+          "hidden_predicate_id": "A_clinical_simulation_score",
+          "threshold_label": "In-flight clinical simulation score",
+          "threshold_aliases": [
+            "Clinical simulation audit score",
+            "In-flight medical audit rating"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "points",
+          "partial_record_text": "MEDDIR-CLINOP-AYE: Dedicated Jet Intensive Care Transport.Dedicated Jet Intensive Care Transport: Advanced resuscitation protocol active = true .Source: Medical operational protocol registry; Scope: Candidate aeromedical transport plan; Measurement: Formal medical director sign-off enabling airborne invasive resuscitation protocols.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "In-flight clinical simulation score is at most 110 points.",
+          "role_name": "Medical operations director (MEDDIR)",
+          "candidate_name": "Dedicated Jet Intensive Care Transport",
+          "other_candidate_names": [
+            "Turboprop Regional Medevac Configuration",
+            "Heavy Jet Multi-Bed Evacuation Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_lead_A",
+          "role_id": "aviation_safety_lead",
+          "candidate_id": "A",
+          "key": "AVSAFE-AIRSAFE-5P7",
+          "hidden_predicate_id": "A_unscheduled_maintenance_rate",
+          "threshold_label": "Unscheduled maintenance rate",
+          "threshold_aliases": [
+            "Unscheduled maintenance frequency",
+            "AOG incident rate"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "incidents/1000h",
+          "partial_record_text": "AVSAFE-AIRSAFE-5P7: Dedicated Jet Intensive Care Transport.Dedicated Jet Intensive Care Transport: Certified biomedical airworthiness clearance = true .Source: Avionics electromagnetic compatibility log; Scope: Candidate aircraft electrical integration layout; Measurement: Formal validation that all intensive care monitors and ventilators comply with airborne electrical interference regulations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Unscheduled maintenance rate is at most 6 incidents/1000h.",
+          "role_name": "Aviation safety inspector (AVSAFE)",
+          "candidate_name": "Dedicated Jet Intensive Care Transport",
+          "other_candidate_names": [
+            "Turboprop Regional Medevac Configuration",
+            "Heavy Jet Multi-Bed Evacuation Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_director",
+        "aviation_safety_lead",
+        "clinical_logistics_lead"
+      ],
+      "role_names": [
+        "Medical operations director (MEDDIR)",
+        "Aviation safety inspector (AVSAFE)",
+        "Patient care logistics manager (MEDLOG)"
+      ],
+      "directory": "incomplete/task_283",
+      "profiles": [
+        {
+          "record_id": "rec_medical_director_A",
+          "role_id": "medical_director",
+          "candidate_id": "A",
+          "key": "MEDDIR-CLINOP-AYE",
+          "boolean_predicate_id": "A_resuscitation_protocol_active",
+          "boolean_label": "Advanced resuscitation protocol active",
+          "hidden_predicate_id": "A_clinical_simulation_score",
+          "threshold_label": "In-flight clinical simulation score",
+          "threshold_aliases": [
+            "Clinical simulation audit score",
+            "In-flight medical audit rating"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "points",
+          "partial_record_text": "MEDDIR-CLINOP-AYE: Dedicated Jet Intensive Care Transport.Dedicated Jet Intensive Care Transport: Advanced resuscitation protocol active = true .Source: Medical operational protocol registry; Scope: Candidate aeromedical transport plan; Measurement: Formal medical director sign-off enabling airborne invasive resuscitation protocols.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "In-flight clinical simulation score is at most 110 points.",
+          "role_name": "Medical operations director (MEDDIR)",
+          "candidate_name": "Dedicated Jet Intensive Care Transport",
+          "other_candidate_names": [
+            "Turboprop Regional Medevac Configuration",
+            "Heavy Jet Multi-Bed Evacuation Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_aviation_safety_lead_A",
+          "role_id": "aviation_safety_lead",
+          "candidate_id": "A",
+          "key": "AVSAFE-AIRSAFE-5P7",
+          "hidden_predicate_id": "A_unscheduled_maintenance_rate",
+          "threshold_label": "Unscheduled maintenance rate",
+          "threshold_aliases": [
+            "Unscheduled maintenance frequency",
+            "AOG incident rate"
+          ],
+          "threshold_value": 2.8,
+          "threshold_unit": "incidents/1000h",
+          "partial_record_text": "AVSAFE-AIRSAFE-5P7: Dedicated Jet Intensive Care Transport.Dedicated Jet Intensive Care Transport: Certified biomedical airworthiness clearance = true .Source: Avionics electromagnetic compatibility log; Scope: Candidate aircraft electrical integration layout; Measurement: Formal validation that all intensive care monitors and ventilators comply with airborne electrical interference regulations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 6
+          },
+          "coarse_statement": "Unscheduled maintenance rate is at most 6 incidents/1000h.",
+          "role_name": "Aviation safety inspector (AVSAFE)",
+          "candidate_name": "Dedicated Jet Intensive Care Transport",
+          "other_candidate_names": [
+            "Turboprop Regional Medevac Configuration",
+            "Heavy Jet Multi-Bed Evacuation Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_logistics_lead_A",
+          "role_id": "clinical_logistics_lead",
+          "candidate_id": "A",
+          "key": "MEDLOG-ISOCARE-XIO",
+          "hidden_predicate_id": "A_ground_handover_duration",
+          "threshold_label": "Ground clinical handover duration",
+          "threshold_aliases": [
+            "Tarmac clinical handover interval",
+            "Ambulance to aircraft transfer duration"
+          ],
+          "threshold_value": 50,
+          "threshold_unit": "min",
+          "partial_record_text": "MEDLOG-ISOCARE-XIO: Dedicated Jet Intensive Care Transport.Dedicated Jet Intensive Care Transport: Negative-pressure isolation readiness = true .Source: Bio-containment inspection checklist; Scope: Candidate aircraft cabin interior and isolation containment unit; Measurement: Confirmed availability and operational sign-off of onboard negative-pressure patient isolation chamber.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Ground clinical handover duration is at most 60 min.",
+          "role_name": "Patient care logistics manager (MEDLOG)",
+          "candidate_name": "Dedicated Jet Intensive Care Transport",
+          "other_candidate_names": [
+            "Turboprop Regional Medevac Configuration",
+            "Heavy Jet Multi-Bed Evacuation Layout"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

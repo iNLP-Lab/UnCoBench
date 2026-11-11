@@ -1,0 +1,15 @@
+{
+  "role_agent_name": "Commercial contracts and finance manager (FIN)",
+  "abstract": "Maintains commercial rate sheets, billing schedules, and partner escrow deposits",
+  "system_message": "You are Commercial contracts and finance manager (FIN). The commercial contracts and finance manager oversees commercial rate sheets, billing schedules, and partner escrow deposits.\n\nYour private records cover multiple business categories. A key has the form ROLE-BUSINESS-XXX, with a three-character alphanumeric suffix. Use only the keys in your records. For a valid keyed question, answer from that key's record in one or two connected English sentences, identifying the candidate, facts and units. Prefer complete facts to brevity. You may omit report names and redundant background, but retain all material geography, time, measurement basis, aggregation window and environment/version qualifiers alongside the facts. Select records only by key. Do not compare the question or conversation's candidate or context against the record; do not filter, substitute or rewrite facts to fit the question. Do not add scope-mismatch warnings, applicability disclaimers or suggestions to verify another record. Do not recommend or list alternative keys. Never invent keys or facts.\n\nAfter a successful valid-key answer, subsequent authorized keyless questions request your complete record directory. Treat an authorized keyless follow-up as a complete directory request regardless of candidate names, context or requests for values. Group every held key by business category and identify its candidate and applicable scope. Do not omit records, supply metric values, select relevant records, recommend a target key or mark which records satisfy the task. Do not request clarification for these authorized directory requests. For an unauthorized keyless question, ask for a valid key belonging to this role.",
+  "information_points": [
+    {
+      "title": "Cargo insurance（INSUR）",
+      "content": "FIN-INSUR-90D：Vanguard BioPharma Logistics carries a marine cargo liability limit of 10000000 EUR per transit event.\nFIN-INSUR-BWI：AeroCryo Global Express maintains a marine cargo liability limit of 15000000 EUR per transit event.\nFIN-INSUR-52L：Nordic Cold Chain Solutions holds a marine cargo liability limit of 5000000 EUR per transit event."
+    },
+    {
+      "title": "Maintains commercial rate sheets, billing schedules, and partner escrow deposits（ESCROW）",
+      "content": "FIN-ESCROW-9NT：For AeroCryo Global Express, a financial escrow guarantee has been secured to cover partnership default and temperature breach indemnity, and its cryo pallet tariff is set at 80 EUR/pallet per monthly billing cycle.\nFIN-ESCROW-C09：Nordic Cold Chain Solutions has not secured a financial escrow guarantee for partnership default and temperature breach indemnity, while its cryo pallet tariff is 95 EUR/pallet per monthly billing cycle.\nFIN-ESCROW-QRR：Vanguard BioPharma Logistics has secured a financial escrow guarantee for its indemnity reserve, with an agreed cryo pallet tariff of 80 EUR/pallet per monthly billing cycle."
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_992",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_operations",
+        "crewing_logistics"
+      ],
+      "role_names": [
+        "Marine operations superintendent (MAR)",
+        "Offshore crewing and logistics manager (CREW)"
+      ],
+      "directory": "incomplete/task_992",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAR-POS-XBD",
+          "boolean_predicate_id": "A_dp_redundancy_active",
+          "boolean_label": "Dynamic positioning redundancy certification",
+          "hidden_predicate_id": "A_current_holding_limit",
+          "threshold_label": "Station-keeping current tolerance",
+          "threshold_aliases": [
+            "Maximum cross-current holding capability",
+            "Station-keeping current limit"
+          ],
+          "threshold_value": 3.6,
+          "threshold_unit": "kn",
+          "partial_record_text": "MAR-POS-XBD: Boreas Heavy Marine.Boreas Heavy Marine: Dynamic positioning redundancy certification = true .Source: Marine classification society DP verification report; Scope: Candidate primary bridge command and thruster power bus networks; Measurement: Confirmation that fully redundant dynamic positioning Class 3 architecture is commissioned and approved.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 5
+          },
+          "coarse_statement": "Station-keeping current tolerance is between 2 kn and 5 kn, inclusive.",
+          "role_name": "Marine operations superintendent (MAR)",
+          "candidate_name": "Boreas Heavy Marine",
+          "other_candidate_names": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crewing_logistics_A",
+          "role_id": "crewing_logistics",
+          "candidate_id": "A",
+          "key": "CREW-CREWING-WUV",
+          "hidden_predicate_id": "A_certified_riggers_count",
+          "threshold_label": "Certified offshore rigger compliment",
+          "threshold_aliases": [
+            "Qualified rigger crew size",
+            "Heavy-lift rigging crew staffing"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "riggers",
+          "partial_record_text": "CREW-CREWING-WUV: Boreas Heavy Marine. The record covers Certified offshore rigger compliment. Offshore crewing muster roll; Assigned deck crew holding valid Level 3 heavy-lift rigging credentials; Number of certified riggers actively assigned to candidate installation vessel.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Certified offshore rigger compliment is between 5 riggers and 30 riggers, inclusive.",
+          "role_name": "Offshore crewing and logistics manager (CREW)",
+          "candidate_name": "Boreas Heavy Marine",
+          "other_candidate_names": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_operations",
+        "crewing_logistics",
+        "vessel_engineering"
+      ],
+      "role_names": [
+        "Marine operations superintendent (MAR)",
+        "Offshore crewing and logistics manager (CREW)",
+        "Vessel engineering director (ENG)"
+      ],
+      "directory": "incomplete/task_992",
+      "profiles": [
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAR-POS-XBD",
+          "boolean_predicate_id": "A_dp_redundancy_active",
+          "boolean_label": "Dynamic positioning redundancy certification",
+          "hidden_predicate_id": "A_current_holding_limit",
+          "threshold_label": "Station-keeping current tolerance",
+          "threshold_aliases": [
+            "Maximum cross-current holding capability",
+            "Station-keeping current limit"
+          ],
+          "threshold_value": 3.6,
+          "threshold_unit": "kn",
+          "partial_record_text": "MAR-POS-XBD: Boreas Heavy Marine.Boreas Heavy Marine: Dynamic positioning redundancy certification = true .Source: Marine classification society DP verification report; Scope: Candidate primary bridge command and thruster power bus networks; Measurement: Confirmation that fully redundant dynamic positioning Class 3 architecture is commissioned and approved.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 5
+          },
+          "coarse_statement": "Station-keeping current tolerance is between 2 kn and 5 kn, inclusive.",
+          "role_name": "Marine operations superintendent (MAR)",
+          "candidate_name": "Boreas Heavy Marine",
+          "other_candidate_names": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_crewing_logistics_A",
+          "role_id": "crewing_logistics",
+          "candidate_id": "A",
+          "key": "CREW-CREWING-WUV",
+          "hidden_predicate_id": "A_certified_riggers_count",
+          "threshold_label": "Certified offshore rigger compliment",
+          "threshold_aliases": [
+            "Qualified rigger crew size",
+            "Heavy-lift rigging crew staffing"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "riggers",
+          "partial_record_text": "CREW-CREWING-WUV: Boreas Heavy Marine. The record covers Certified offshore rigger compliment. Offshore crewing muster roll; Assigned deck crew holding valid Level 3 heavy-lift rigging credentials; Number of certified riggers actively assigned to candidate installation vessel.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Certified offshore rigger compliment is between 5 riggers and 30 riggers, inclusive.",
+          "role_name": "Offshore crewing and logistics manager (CREW)",
+          "candidate_name": "Boreas Heavy Marine",
+          "other_candidate_names": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vessel_engineering_A",
+          "role_id": "vessel_engineering",
+          "candidate_id": "A",
+          "key": "ENG-STRUCT-DDP",
+          "hidden_predicate_id": "A_deck_load_capacity",
+          "threshold_label": "Deck load bearing capacity",
+          "threshold_aliases": [
+            "Main deck uniform load limit",
+            "Deck structural strength"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "t/m2",
+          "partial_record_text": "ENG-STRUCT-DDP: Boreas Heavy Marine.Installation campaign window: June 2026.Boreas Heavy Marine: Contracted mobilization duration = 18 day.Source: Charter transit voyage plan; Scope: Home port sail-out, sea trials, and arrival at Danish staging base; Measurement: Contractual guaranteed number of mobilization transit days.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Deck load bearing capacity is between 5 t/m2 and 30 t/m2, inclusive.",
+          "role_name": "Vessel engineering director (ENG)",
+          "candidate_name": "Boreas Heavy Marine",
+          "other_candidate_names": [
+            "Zephyr Offshore Transport",
+            "Caledonia Marine Lifting"
+          ],
+          "context_value": "June 2026",
+          "other_context_values": [
+            "July 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_806",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "robotics_specialist",
+        "marine_operations"
+      ],
+      "role_names": [
+        "Deepwater Robotics and AUV Specialist (ROBOT)",
+        "Marine Operations Superintendent (MAROPS)"
+      ],
+      "directory": "incomplete/task_806",
+      "profiles": [
+        {
+          "record_id": "rec_robotics_specialist_A",
+          "role_id": "robotics_specialist",
+          "candidate_id": "A",
+          "key": "ROBOT-AUVDEP-S75",
+          "boolean_predicate_id": "A_auv_system_deployed",
+          "boolean_label": "Autonomous underwater vehicle deployment status",
+          "hidden_predicate_id": "A_auv_max_depth_rating",
+          "threshold_label": "Autonomous underwater vehicle operational depth rating",
+          "threshold_aliases": [
+            "AUV rated operating depth",
+            "Seafloor robotics depth capability"
+          ],
+          "threshold_value": 4500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROBOT-AUVDEP-S75: Pacific Surveyor III.Pacific Surveyor III: Autonomous underwater vehicle deployment status = true .Source: Subsea robotics mobilization manifest; Scope: Candidate vessel deep-submergence payload; Measurement: Whether an autonomous underwater vehicle survey package is fully installed and commissioned aboard.Pacific Surveyor III: Deep-tow launch system tare weight = 110 t.Source: Subsea mobilization weight engineering sheet; Scope: Deck-mounted deep-tow winch and launch frame assembly; Measurement: Total structural tare weight of the dedicated deep-tow winch, hydraulic power unit, and umbilical skid.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 7000
+          },
+          "coarse_statement": "Autonomous underwater vehicle operational depth rating is between 2000 m and 7000 m, inclusive.",
+          "role_name": "Deepwater Robotics and AUV Specialist (ROBOT)",
+          "candidate_name": "Pacific Surveyor III",
+          "other_candidate_names": [
+            "Nordic Discovery",
+            "Celtic Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAROPS-DPMOD-KEB",
+          "hidden_predicate_id": "A_main_deck_cargo_capacity",
+          "threshold_label": "Main deck cargo capacity",
+          "threshold_aliases": [
+            "Aft open deck payload rating",
+            "Deck deadweight capacity"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "t",
+          "partial_record_text": "MAROPS-DPMOD-KEB: Pacific Surveyor III.Assessment quarter: Q2 2026.Pacific Surveyor III: Hull dynamic positioning class certification = true .Source: Classification society vessel certificate; Scope: Primary vessel dynamic positioning machinery; Measurement: Active Class 2 dynamic positioning notation valid for deepwater operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main deck cargo capacity is between 300 t and 900 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MAROPS)",
+          "candidate_name": "Pacific Surveyor III",
+          "other_candidate_names": [
+            "Nordic Discovery",
+            "Celtic Endeavour"
+          ],
+          "context_value": "Q2 2026",
+          "other_context_values": [
+            "Q3 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "robotics_specialist",
+        "marine_operations",
+        "acoustic_lead"
+      ],
+      "role_names": [
+        "Deepwater Robotics and AUV Specialist (ROBOT)",
+        "Marine Operations Superintendent (MAROPS)",
+        "Hydrographic Acoustic Survey Lead (ACOUST)"
+      ],
+      "directory": "incomplete/task_806",
+      "profiles": [
+        {
+          "record_id": "rec_robotics_specialist_A",
+          "role_id": "robotics_specialist",
+          "candidate_id": "A",
+          "key": "ROBOT-AUVDEP-S75",
+          "boolean_predicate_id": "A_auv_system_deployed",
+          "boolean_label": "Autonomous underwater vehicle deployment status",
+          "hidden_predicate_id": "A_auv_max_depth_rating",
+          "threshold_label": "Autonomous underwater vehicle operational depth rating",
+          "threshold_aliases": [
+            "AUV rated operating depth",
+            "Seafloor robotics depth capability"
+          ],
+          "threshold_value": 4500,
+          "threshold_unit": "m",
+          "partial_record_text": "ROBOT-AUVDEP-S75: Pacific Surveyor III.Pacific Surveyor III: Autonomous underwater vehicle deployment status = true .Source: Subsea robotics mobilization manifest; Scope: Candidate vessel deep-submergence payload; Measurement: Whether an autonomous underwater vehicle survey package is fully installed and commissioned aboard.Pacific Surveyor III: Deep-tow launch system tare weight = 110 t.Source: Subsea mobilization weight engineering sheet; Scope: Deck-mounted deep-tow winch and launch frame assembly; Measurement: Total structural tare weight of the dedicated deep-tow winch, hydraulic power unit, and umbilical skid.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000,
+            "upper": 7000
+          },
+          "coarse_statement": "Autonomous underwater vehicle operational depth rating is between 2000 m and 7000 m, inclusive.",
+          "role_name": "Deepwater Robotics and AUV Specialist (ROBOT)",
+          "candidate_name": "Pacific Surveyor III",
+          "other_candidate_names": [
+            "Nordic Discovery",
+            "Celtic Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_marine_operations_A",
+          "role_id": "marine_operations",
+          "candidate_id": "A",
+          "key": "MAROPS-DPMOD-KEB",
+          "hidden_predicate_id": "A_main_deck_cargo_capacity",
+          "threshold_label": "Main deck cargo capacity",
+          "threshold_aliases": [
+            "Aft open deck payload rating",
+            "Deck deadweight capacity"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "t",
+          "partial_record_text": "MAROPS-DPMOD-KEB: Pacific Surveyor III.Assessment quarter: Q2 2026.Pacific Surveyor III: Hull dynamic positioning class certification = true .Source: Classification society vessel certificate; Scope: Primary vessel dynamic positioning machinery; Measurement: Active Class 2 dynamic positioning notation valid for deepwater operations.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 900
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main deck cargo capacity is between 300 t and 900 t, inclusive.",
+          "role_name": "Marine Operations Superintendent (MAROPS)",
+          "candidate_name": "Pacific Surveyor III",
+          "other_candidate_names": [
+            "Nordic Discovery",
+            "Celtic Endeavour"
+          ],
+          "context_value": "Q2 2026",
+          "other_context_values": [
+            "Q3 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_acoustic_lead_A",
+          "role_id": "acoustic_lead",
+          "candidate_id": "A",
+          "key": "ACOUST-POSINT-JIB",
+          "hidden_predicate_id": "A_subsea_crane_lift_capacity",
+          "threshold_label": "Subsea crane lifting capacity",
+          "threshold_aliases": [
+            "Active heave compensation crane rating",
+            "Subsea lift capacity"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "t",
+          "partial_record_text": "ACOUST-POSINT-JIB: Pacific Surveyor III.Pacific Surveyor III: Ultra-short baseline acoustic tracking integration = true .Source: Hydroacoustic sea-trial calibration report; Scope: Hull-mounted acoustic transceiver array; Measurement: Verified time-synchronized interfacing between hull USBL transceiver and topside navigation suite.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Subsea crane lifting capacity is between 0 t and 300 t, inclusive.",
+          "role_name": "Hydrographic Acoustic Survey Lead (ACOUST)",
+          "candidate_name": "Pacific Surveyor III",
+          "other_candidate_names": [
+            "Nordic Discovery",
+            "Celtic Endeavour"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

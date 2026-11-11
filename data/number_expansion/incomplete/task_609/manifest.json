@@ -1,0 +1,167 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_609",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "transit_operations"
+      ],
+      "role_names": [
+        "Regional Public Health Officer (HLTH)",
+        "Emergency Transit Operations Coordinator (TRN)"
+      ],
+      "directory": "incomplete/task_609",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLTH-AIR-FEO",
+          "boolean_predicate_id": "A_smoke_filtration_system_installed",
+          "boolean_label": "Active wildfire smoke filtration system installed",
+          "hidden_predicate_id": "A_air_filtration_exchange_rate",
+          "threshold_label": "Clean-air filtration exchange rate",
+          "threshold_aliases": [
+            "Shelter air change rate",
+            "Recirculation filtration velocity"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ACH",
+          "partial_record_text": "HLTH-AIR-FEO: Penticton Trade and Event Pavilion.Penticton Trade and Event Pavilion: Active wildfire smoke filtration system installed = true .Source: Health authority ventilation asset register; Scope: Candidate shelter mechanical HVAC systems; Measurement: Verification of an active and commissioned industrial smoke filtration system.",
+          "role_name": "Regional Public Health Officer (HLTH)",
+          "candidate_name": "Penticton Trade and Event Pavilion",
+          "other_candidate_names": [
+            "South Okanagan Recreation Complex",
+            "Vernon Regional Agriplex Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_operations_A",
+          "role_id": "transit_operations",
+          "candidate_id": "A",
+          "key": "TRN-LOGIS-7AO",
+          "hidden_predicate_id": "A_concurrent_coach_bay_count",
+          "threshold_label": "Concurrent coach staging bays",
+          "threshold_aliases": [
+            "Evacuation bus loading capacity",
+            "Transit bus docking positions"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "bays",
+          "partial_record_text": "TRN-LOGIS-7AO: Penticton Trade and Event Pavilion.Penticton Trade and Event Pavilion: Unhindered dual-access evacuation corridor clearance = true .Source: Regional highway emergency transit corridor audit; Scope: Primary and secondary road connections leading directly to the site gates; Measurement: Whether two separate, unconstrained all-weather arterial routes permit concurrent ingress and egress.",
+          "role_name": "Emergency Transit Operations Coordinator (TRN)",
+          "candidate_name": "Penticton Trade and Event Pavilion",
+          "other_candidate_names": [
+            "South Okanagan Recreation Complex",
+            "Vernon Regional Agriplex Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "transit_operations",
+        "wildfire_defense"
+      ],
+      "role_names": [
+        "Regional Public Health Officer (HLTH)",
+        "Emergency Transit Operations Coordinator (TRN)",
+        "Wildfire Defense Liaison (FIRE)"
+      ],
+      "directory": "incomplete/task_609",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLTH-AIR-FEO",
+          "boolean_predicate_id": "A_smoke_filtration_system_installed",
+          "boolean_label": "Active wildfire smoke filtration system installed",
+          "hidden_predicate_id": "A_air_filtration_exchange_rate",
+          "threshold_label": "Clean-air filtration exchange rate",
+          "threshold_aliases": [
+            "Shelter air change rate",
+            "Recirculation filtration velocity"
+          ],
+          "threshold_value": 8,
+          "threshold_unit": "ACH",
+          "partial_record_text": "HLTH-AIR-FEO: Penticton Trade and Event Pavilion.Penticton Trade and Event Pavilion: Active wildfire smoke filtration system installed = true .Source: Health authority ventilation asset register; Scope: Candidate shelter mechanical HVAC systems; Measurement: Verification of an active and commissioned industrial smoke filtration system.",
+          "role_name": "Regional Public Health Officer (HLTH)",
+          "candidate_name": "Penticton Trade and Event Pavilion",
+          "other_candidate_names": [
+            "South Okanagan Recreation Complex",
+            "Vernon Regional Agriplex Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_transit_operations_A",
+          "role_id": "transit_operations",
+          "candidate_id": "A",
+          "key": "TRN-LOGIS-7AO",
+          "hidden_predicate_id": "A_concurrent_coach_bay_count",
+          "threshold_label": "Concurrent coach staging bays",
+          "threshold_aliases": [
+            "Evacuation bus loading capacity",
+            "Transit bus docking positions"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "bays",
+          "partial_record_text": "TRN-LOGIS-7AO: Penticton Trade and Event Pavilion.Penticton Trade and Event Pavilion: Unhindered dual-access evacuation corridor clearance = true .Source: Regional highway emergency transit corridor audit; Scope: Primary and secondary road connections leading directly to the site gates; Measurement: Whether two separate, unconstrained all-weather arterial routes permit concurrent ingress and egress.",
+          "role_name": "Emergency Transit Operations Coordinator (TRN)",
+          "candidate_name": "Penticton Trade and Event Pavilion",
+          "other_candidate_names": [
+            "South Okanagan Recreation Complex",
+            "Vernon Regional Agriplex Arena"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_wildfire_defense_A",
+          "role_id": "wildfire_defense",
+          "candidate_id": "A",
+          "key": "FIRE-DEF-SVZ",
+          "hidden_predicate_id": "A_defensible_buffer_perimeter",
+          "threshold_label": "Defensible wildland buffer perimeter",
+          "threshold_aliases": [
+            "Vegetation setback clearance",
+            "FireSmart fuel-free buffer distance"
+          ],
+          "threshold_value": 80,
+          "threshold_unit": "m",
+          "partial_record_text": "FIRE-DEF-SVZ: Penticton Trade and Event Pavilion. The record covers Defensible wildland buffer perimeter. Record context: June 2024. Wildfire mitigation perimeter survey; Non-combustible defensible zone surrounding the perimeter of all occupied buildings; Minimum linear distance from building exterior walls to unmitigated wildland fuels.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 40,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Defensible wildland buffer perimeter is at least 40 m.",
+          "role_name": "Wildfire Defense Liaison (FIRE)",
+          "candidate_name": "Penticton Trade and Event Pavilion",
+          "other_candidate_names": [
+            "South Okanagan Recreation Complex",
+            "Vernon Regional Agriplex Arena"
+          ],
+          "context_value": "June 2024",
+          "other_context_values": [
+            "July 2024"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_658",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "salvage_master",
+        "bunker_officer"
+      ],
+      "role_names": [
+        "Marine salvage master (MSM)",
+        "Salvage logistics bunker officer (SBO)"
+      ],
+      "directory": "incomplete/task_658",
+      "profiles": [
+        {
+          "record_id": "rec_salvage_master_A",
+          "role_id": "salvage_master",
+          "candidate_id": "A",
+          "key": "MSM-TOWP-XK4",
+          "boolean_predicate_id": "A_winch_brake_certified",
+          "boolean_label": "Towing winch brake certified",
+          "hidden_predicate_id": "A_continuous_bollard_pull",
+          "threshold_label": "Certified continuous bollard pull",
+          "threshold_aliases": [
+            "Bollard pull rating",
+            "Static bollard pull capacity"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "t",
+          "partial_record_text": "MSM-TOWP-XK4: Twin-screw deep-sea salvage tug package.Twin-screw deep-sea salvage tug package: Towing winch brake certified = true .Source: Classification society annual survey certificate; Scope: Primary hydraulic towing winch drum brake mechanism; Measurement: Affirmative verification of static holding brake load certification.Twin-screw deep-sea salvage tug package: Auxiliary deck fuel bladder stock = 90 t.Source: Deck cargo manifest and fuel transfer log; Scope: Certified ISO containerized fuel bladders secured on aft working deck; Measurement: Net transferrable marine gas oil mass confirmed prior to harbor slip departure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Certified continuous bollard pull is at most 400 t.",
+          "role_name": "Marine salvage master (MSM)",
+          "candidate_name": "Twin-screw deep-sea salvage tug package",
+          "other_candidate_names": [
+            "Anchor handling tug supply vessel package",
+            "Dual-escort emergency towing vessel package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_bunker_officer_A",
+          "role_id": "bunker_officer",
+          "candidate_id": "A",
+          "key": "SBO-BUNK-D11",
+          "hidden_predicate_id": "A_main_engine_fuel_stock",
+          "threshold_label": "Main engine bunker fuel stock",
+          "threshold_aliases": [
+            "Tug bunker fuel quantity",
+            "Main propulsion bunker inventory"
+          ],
+          "threshold_value": 510,
+          "threshold_unit": "t",
+          "partial_record_text": "SBO-BUNK-D11: Twin-screw deep-sea salvage tug package. The record covers Main engine bunker fuel stock. Bunker delivery note and dip sounding certificate; Dedicated low-sulfur marine gas oil storage double bottoms; Total verified soundings converted to mass at fifteen degrees Celsius.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main engine bunker fuel stock is at most 700 t.",
+          "role_name": "Salvage logistics bunker officer (SBO)",
+          "candidate_name": "Twin-screw deep-sea salvage tug package",
+          "other_candidate_names": [
+            "Anchor handling tug supply vessel package",
+            "Dual-escort emergency towing vessel package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "salvage_master",
+        "bunker_officer",
+        "naval_architect"
+      ],
+      "role_names": [
+        "Marine salvage master (MSM)",
+        "Salvage logistics bunker officer (SBO)",
+        "Casualty naval architect (CNA)"
+      ],
+      "directory": "incomplete/task_658",
+      "profiles": [
+        {
+          "record_id": "rec_salvage_master_A",
+          "role_id": "salvage_master",
+          "candidate_id": "A",
+          "key": "MSM-TOWP-XK4",
+          "boolean_predicate_id": "A_winch_brake_certified",
+          "boolean_label": "Towing winch brake certified",
+          "hidden_predicate_id": "A_continuous_bollard_pull",
+          "threshold_label": "Certified continuous bollard pull",
+          "threshold_aliases": [
+            "Bollard pull rating",
+            "Static bollard pull capacity"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "t",
+          "partial_record_text": "MSM-TOWP-XK4: Twin-screw deep-sea salvage tug package.Twin-screw deep-sea salvage tug package: Towing winch brake certified = true .Source: Classification society annual survey certificate; Scope: Primary hydraulic towing winch drum brake mechanism; Measurement: Affirmative verification of static holding brake load certification.Twin-screw deep-sea salvage tug package: Auxiliary deck fuel bladder stock = 90 t.Source: Deck cargo manifest and fuel transfer log; Scope: Certified ISO containerized fuel bladders secured on aft working deck; Measurement: Net transferrable marine gas oil mass confirmed prior to harbor slip departure.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Certified continuous bollard pull is at most 400 t.",
+          "role_name": "Marine salvage master (MSM)",
+          "candidate_name": "Twin-screw deep-sea salvage tug package",
+          "other_candidate_names": [
+            "Anchor handling tug supply vessel package",
+            "Dual-escort emergency towing vessel package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_bunker_officer_A",
+          "role_id": "bunker_officer",
+          "candidate_id": "A",
+          "key": "SBO-BUNK-D11",
+          "hidden_predicate_id": "A_main_engine_fuel_stock",
+          "threshold_label": "Main engine bunker fuel stock",
+          "threshold_aliases": [
+            "Tug bunker fuel quantity",
+            "Main propulsion bunker inventory"
+          ],
+          "threshold_value": 510,
+          "threshold_unit": "t",
+          "partial_record_text": "SBO-BUNK-D11: Twin-screw deep-sea salvage tug package. The record covers Main engine bunker fuel stock. Bunker delivery note and dip sounding certificate; Dedicated low-sulfur marine gas oil storage double bottoms; Total verified soundings converted to mass at fifteen degrees Celsius.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main engine bunker fuel stock is at most 700 t.",
+          "role_name": "Salvage logistics bunker officer (SBO)",
+          "candidate_name": "Twin-screw deep-sea salvage tug package",
+          "other_candidate_names": [
+            "Anchor handling tug supply vessel package",
+            "Dual-escort emergency towing vessel package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architect_A",
+          "role_id": "naval_architect",
+          "candidate_id": "A",
+          "key": "CNA-HULL-53C",
+          "hidden_predicate_id": "A_mandated_transit_fuel_burn",
+          "threshold_label": "Mandated transit fuel consumption",
+          "threshold_aliases": [
+            "Passage fuel consumption allowance",
+            "Required towing voyage fuel burn"
+          ],
+          "threshold_value": 160,
+          "threshold_unit": "t",
+          "partial_record_text": "CNA-HULL-53C: Twin-screw deep-sea salvage tug package.Twin-screw deep-sea salvage tug package: Voyage data recorder telemetry active = true .Source: Naval architecture casualty communications checklist; Scope: Casualty-to-tug bridge encrypted satellite telemetry bridge; Measurement: Continuous live streaming of rudder position, heading, and towing bridle tension.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mandated transit fuel consumption is at most 400 t.",
+          "role_name": "Casualty naval architect (CNA)",
+          "candidate_name": "Twin-screw deep-sea salvage tug package",
+          "other_candidate_names": [
+            "Anchor handling tug supply vessel package",
+            "Dual-escort emergency towing vessel package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

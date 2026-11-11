@@ -1,0 +1,504 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_913",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrology_risk",
+        "public_health"
+      ],
+      "role_names": [
+        "Regional Hydrologist and Floodplain Surveyor (HYD)",
+        "Public Health Quarantine Officer (HLTH)"
+      ],
+      "directory": "number_expansion/misaligned/task_913/k2",
+      "error_profiles": [
+        {
+          "role_name": "Regional Hydrologist and Floodplain Surveyor (HYD)",
+          "target_key": "HYD-SURGE-OPW",
+          "alternate_key": "HYD-SILT-LQQ",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Savannah River Logistics and Fairgrounds Complex",
+          "other_candidates": [
+            "Coastal Carolina Multi-Purpose Exposition Center",
+            "Lowcountry Regional Aerodrome Support Depot"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "flood_barrier_certified",
+              "value": true,
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_barrier_certified",
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ]
+            },
+            {
+              "topic": "wind_uplift_rating",
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ]
+            },
+            {
+              "topic": "triage_decontamination_bay",
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ]
+            },
+            {
+              "topic": "auxiliary_switchgear_commissioned",
+              "label": "Auxiliary power switchgear commissioned",
+              "aliases": [
+                "Automatic transfer switchgear status",
+                "Generator transfer readiness"
+              ]
+            },
+            {
+              "topic": "potable_filtration_active",
+              "label": "Emergency potable filtration activated",
+              "aliases": [
+                "Potable water filtration readiness",
+                "Filtration skid activation"
+              ]
+            },
+            {
+              "topic": "potable_autonomy_duration",
+              "label": "Potable water autonomy duration",
+              "aliases": [
+                "Potable autonomy reserve",
+                "Emergency water self-sufficiency time"
+              ]
+            },
+            {
+              "topic": "daily_potable_distribution_volume",
+              "label": "Daily potable distribution volume",
+              "aliases": [
+                "Potable distribution capacity",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Public Health Quarantine Officer (HLTH)",
+          "target_key": "HLTH-MED-CNR",
+          "alternate_key": "HLTH-MED-ESV",
+          "target_context": "including dedicated wastewater runoff containment",
+          "alternate_context": "excluding dedicated wastewater runoff containment",
+          "candidate": "Savannah River Logistics and Fairgrounds Complex",
+          "other_candidates": [
+            "Coastal Carolina Multi-Purpose Exposition Center",
+            "Lowcountry Regional Aerodrome Support Depot"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_decontamination_bay",
+              "value": true,
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_barrier_certified",
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ]
+            },
+            {
+              "topic": "wind_uplift_rating",
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ]
+            },
+            {
+              "topic": "triage_decontamination_bay",
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ]
+            },
+            {
+              "topic": "auxiliary_switchgear_commissioned",
+              "label": "Auxiliary power switchgear commissioned",
+              "aliases": [
+                "Automatic transfer switchgear status",
+                "Generator transfer readiness"
+              ]
+            },
+            {
+              "topic": "potable_filtration_active",
+              "label": "Emergency potable filtration activated",
+              "aliases": [
+                "Potable water filtration readiness",
+                "Filtration skid activation"
+              ]
+            },
+            {
+              "topic": "potable_autonomy_duration",
+              "label": "Potable water autonomy duration",
+              "aliases": [
+                "Potable autonomy reserve",
+                "Emergency water self-sufficiency time"
+              ]
+            },
+            {
+              "topic": "daily_potable_distribution_volume",
+              "label": "Daily potable distribution volume",
+              "aliases": [
+                "Potable distribution capacity",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrology_risk",
+        "public_health",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Regional Hydrologist and Floodplain Surveyor (HYD)",
+        "Public Health Quarantine Officer (HLTH)",
+        "Civil and Structural Engineering Specialist (ENG)"
+      ],
+      "directory": "number_expansion/misaligned/task_913/k3",
+      "error_profiles": [
+        {
+          "role_name": "Regional Hydrologist and Floodplain Surveyor (HYD)",
+          "target_key": "HYD-SURGE-OPW",
+          "alternate_key": "HYD-SILT-LQQ",
+          "target_context": "United States",
+          "alternate_context": "Canada",
+          "candidate": "Savannah River Logistics and Fairgrounds Complex",
+          "other_candidates": [
+            "Coastal Carolina Multi-Purpose Exposition Center",
+            "Lowcountry Regional Aerodrome Support Depot"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "flood_barrier_certified",
+              "value": true,
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_barrier_certified",
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ]
+            },
+            {
+              "topic": "wind_uplift_rating",
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ]
+            },
+            {
+              "topic": "triage_decontamination_bay",
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ]
+            },
+            {
+              "topic": "auxiliary_switchgear_commissioned",
+              "label": "Auxiliary power switchgear commissioned",
+              "aliases": [
+                "Automatic transfer switchgear status",
+                "Generator transfer readiness"
+              ]
+            },
+            {
+              "topic": "potable_filtration_active",
+              "label": "Emergency potable filtration activated",
+              "aliases": [
+                "Potable water filtration readiness",
+                "Filtration skid activation"
+              ]
+            },
+            {
+              "topic": "potable_autonomy_duration",
+              "label": "Potable water autonomy duration",
+              "aliases": [
+                "Potable autonomy reserve",
+                "Emergency water self-sufficiency time"
+              ]
+            },
+            {
+              "topic": "daily_potable_distribution_volume",
+              "label": "Daily potable distribution volume",
+              "aliases": [
+                "Potable distribution capacity",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Public Health Quarantine Officer (HLTH)",
+          "target_key": "HLTH-MED-CNR",
+          "alternate_key": "HLTH-MED-ESV",
+          "target_context": "including dedicated wastewater runoff containment",
+          "alternate_context": "excluding dedicated wastewater runoff containment",
+          "candidate": "Savannah River Logistics and Fairgrounds Complex",
+          "other_candidates": [
+            "Coastal Carolina Multi-Purpose Exposition Center",
+            "Lowcountry Regional Aerodrome Support Depot"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_decontamination_bay",
+              "value": true,
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_barrier_certified",
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ]
+            },
+            {
+              "topic": "wind_uplift_rating",
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ]
+            },
+            {
+              "topic": "triage_decontamination_bay",
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ]
+            },
+            {
+              "topic": "auxiliary_switchgear_commissioned",
+              "label": "Auxiliary power switchgear commissioned",
+              "aliases": [
+                "Automatic transfer switchgear status",
+                "Generator transfer readiness"
+              ]
+            },
+            {
+              "topic": "potable_filtration_active",
+              "label": "Emergency potable filtration activated",
+              "aliases": [
+                "Potable water filtration readiness",
+                "Filtration skid activation"
+              ]
+            },
+            {
+              "topic": "potable_autonomy_duration",
+              "label": "Potable water autonomy duration",
+              "aliases": [
+                "Potable autonomy reserve",
+                "Emergency water self-sufficiency time"
+              ]
+            },
+            {
+              "topic": "daily_potable_distribution_volume",
+              "label": "Daily potable distribution volume",
+              "aliases": [
+                "Potable distribution capacity",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Civil and Structural Engineering Specialist (ENG)",
+          "target_key": "ENG-STRUC-1W5",
+          "alternate_key": "ENG-STRUC-JNN",
+          "target_context": "August 2025",
+          "alternate_context": "September 2025",
+          "candidate": "Savannah River Logistics and Fairgrounds Complex",
+          "other_candidates": [
+            "Coastal Carolina Multi-Purpose Exposition Center",
+            "Lowcountry Regional Aerodrome Support Depot"
+          ],
+          "numeric": [
+            {
+              "topic": "wind_uplift_rating",
+              "value": 270,
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ],
+              "unit": "km/h"
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "value": 1500,
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ],
+              "unit": "person"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_barrier_certified",
+              "label": "Primary flood barrier certification",
+              "aliases": [
+                "Flood barrier approval",
+                "Perimeter surge barrier status"
+              ]
+            },
+            {
+              "topic": "wind_uplift_rating",
+              "label": "Structural wind uplift resistance",
+              "aliases": [
+                "Wind resistance rating",
+                "Roof uplift tolerance"
+              ]
+            },
+            {
+              "topic": "triage_decontamination_bay",
+              "label": "Medical triage decontamination bay",
+              "aliases": [
+                "Triage decontamination facility",
+                "Decontamination station verification"
+              ]
+            },
+            {
+              "topic": "auxiliary_switchgear_commissioned",
+              "label": "Auxiliary power switchgear commissioned",
+              "aliases": [
+                "Automatic transfer switchgear status",
+                "Generator transfer readiness"
+              ]
+            },
+            {
+              "topic": "potable_filtration_active",
+              "label": "Emergency potable filtration activated",
+              "aliases": [
+                "Potable water filtration readiness",
+                "Filtration skid activation"
+              ]
+            },
+            {
+              "topic": "potable_autonomy_duration",
+              "label": "Potable water autonomy duration",
+              "aliases": [
+                "Potable autonomy reserve",
+                "Emergency water self-sufficiency time"
+              ]
+            },
+            {
+              "topic": "daily_potable_distribution_volume",
+              "label": "Daily potable distribution volume",
+              "aliases": [
+                "Potable distribution capacity",
+                "Daily drinking water production"
+              ]
+            },
+            {
+              "topic": "certified_shelter_headcount",
+              "label": "Certified emergency shelter capacity",
+              "aliases": [
+                "Shelter headcount limit",
+                "Maximum shelter occupancy"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

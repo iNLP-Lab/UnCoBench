@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_248",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "telemetry_monitoring",
+        "contract_procurement"
+      ],
+      "role_names": [
+        "Telemetry and monitoring lead (TELEM)",
+        "Commercial procurement manager (COMM)"
+      ],
+      "directory": "incomplete/task_248",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_monitoring_A",
+          "role_id": "telemetry_monitoring",
+          "candidate_id": "A",
+          "key": "TELEM-SENS-AP5",
+          "boolean_predicate_id": "A_automated_telemetry_active",
+          "boolean_label": "Active automated thermal telemetry",
+          "hidden_predicate_id": "A_excursion_notification_latency",
+          "threshold_label": "Average thermal excursion notification latency",
+          "threshold_aliases": [
+            "Excursion alert latency",
+            "Thermal breach notification time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "TELEM-SENS-AP5: Nordic CryoLogistics Group.Nordic CryoLogistics Group: Active automated thermal telemetry = true .Source: Telemetry architecture verification report; Scope: All active transit refrigerated compartments; Measurement: System confirmation that real-time continuous thermal telemetry logging is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Average thermal excursion notification latency is between 10 min and 70 min, inclusive.",
+          "role_name": "Telemetry and monitoring lead (TELEM)",
+          "candidate_name": "Nordic CryoLogistics Group",
+          "other_candidate_names": [
+            "Vanguard BioTrans Consortium",
+            "AeroCold Distribution Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_contract_procurement_A",
+          "role_id": "contract_procurement",
+          "candidate_id": "A",
+          "key": "COMM-TERM-V3O",
+          "hidden_predicate_id": "A_cargo_liability_coverage",
+          "threshold_label": "Cargo liability insurance coverage",
+          "threshold_aliases": [
+            "Cargo liability limit",
+            "Pharmaceutical transit insurance coverage"
+          ],
+          "threshold_value": 5000000,
+          "threshold_unit": "EUR",
+          "partial_record_text": "COMM-TERM-V3O: Nordic CryoLogistics Group.Nordic CryoLogistics Group: Guaranteed baseline fleet = 50 vehicles.Source: Logistics capacity schedule agreement; Scope: Primary distribution lane contract commitments; Measurement: Contractually committed baseline operational refrigerated vehicle count.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000000,
+            "upper": 20000000
+          },
+          "coarse_statement": "Cargo liability insurance coverage is between 2e+06 EUR and 2e+07 EUR, inclusive.",
+          "role_name": "Commercial procurement manager (COMM)",
+          "candidate_name": "Nordic CryoLogistics Group",
+          "other_candidate_names": [
+            "Vanguard BioTrans Consortium",
+            "AeroCold Distribution Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "telemetry_monitoring",
+        "contract_procurement",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Telemetry and monitoring lead (TELEM)",
+        "Commercial procurement manager (COMM)",
+        "Fleet logistics director (FLEET)"
+      ],
+      "directory": "incomplete/task_248",
+      "profiles": [
+        {
+          "record_id": "rec_telemetry_monitoring_A",
+          "role_id": "telemetry_monitoring",
+          "candidate_id": "A",
+          "key": "TELEM-SENS-AP5",
+          "boolean_predicate_id": "A_automated_telemetry_active",
+          "boolean_label": "Active automated thermal telemetry",
+          "hidden_predicate_id": "A_excursion_notification_latency",
+          "threshold_label": "Average thermal excursion notification latency",
+          "threshold_aliases": [
+            "Excursion alert latency",
+            "Thermal breach notification time"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "min",
+          "partial_record_text": "TELEM-SENS-AP5: Nordic CryoLogistics Group.Nordic CryoLogistics Group: Active automated thermal telemetry = true .Source: Telemetry architecture verification report; Scope: All active transit refrigerated compartments; Measurement: System confirmation that real-time continuous thermal telemetry logging is active.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 70
+          },
+          "coarse_statement": "Average thermal excursion notification latency is between 10 min and 70 min, inclusive.",
+          "role_name": "Telemetry and monitoring lead (TELEM)",
+          "candidate_name": "Nordic CryoLogistics Group",
+          "other_candidate_names": [
+            "Vanguard BioTrans Consortium",
+            "AeroCold Distribution Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_contract_procurement_A",
+          "role_id": "contract_procurement",
+          "candidate_id": "A",
+          "key": "COMM-TERM-V3O",
+          "hidden_predicate_id": "A_cargo_liability_coverage",
+          "threshold_label": "Cargo liability insurance coverage",
+          "threshold_aliases": [
+            "Cargo liability limit",
+            "Pharmaceutical transit insurance coverage"
+          ],
+          "threshold_value": 5000000,
+          "threshold_unit": "EUR",
+          "partial_record_text": "COMM-TERM-V3O: Nordic CryoLogistics Group.Nordic CryoLogistics Group: Guaranteed baseline fleet = 50 vehicles.Source: Logistics capacity schedule agreement; Scope: Primary distribution lane contract commitments; Measurement: Contractually committed baseline operational refrigerated vehicle count.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2000000,
+            "upper": 20000000
+          },
+          "coarse_statement": "Cargo liability insurance coverage is between 2e+06 EUR and 2e+07 EUR, inclusive.",
+          "role_name": "Commercial procurement manager (COMM)",
+          "candidate_name": "Nordic CryoLogistics Group",
+          "other_candidate_names": [
+            "Vanguard BioTrans Consortium",
+            "AeroCold Distribution Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_logistics_A",
+          "role_id": "fleet_logistics",
+          "candidate_id": "A",
+          "key": "FLEET-REEFER-2T9",
+          "hidden_predicate_id": "A_standby_reefer_fleet",
+          "threshold_label": "Allocated standby reefer fleet",
+          "threshold_aliases": [
+            "Standby reefer count",
+            "Reserve refrigerated vehicle fleet"
+          ],
+          "threshold_value": 12,
+          "threshold_unit": "vehicles",
+          "partial_record_text": "FLEET-REEFER-2T9: Nordic CryoLogistics Group.Nordic CryoLogistics Group: Depot preconditioning facility readiness = true .Source: Hub infrastructure audit sheet; Scope: Candidate primary logistics consolidation depots; Measurement: Formal validation of active temperature-controlled preconditioning staging bays.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Allocated standby reefer fleet is between 0 vehicles and 40 vehicles, inclusive.",
+          "role_name": "Fleet logistics director (FLEET)",
+          "candidate_name": "Nordic CryoLogistics Group",
+          "other_candidate_names": [
+            "Vanguard BioTrans Consortium",
+            "AeroCold Distribution Network"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

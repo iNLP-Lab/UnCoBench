@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_929",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "public_health",
+        "utility_operations"
+      ],
+      "role_names": [
+        "Public health and medical lead (MED)",
+        "Public utilities coordinator (UTL)"
+      ],
+      "directory": "incomplete/task_929",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "MED-CLIN-FZF",
+          "boolean_predicate_id": "A_medical_bay_established",
+          "boolean_label": "Dedicated emergency medical bay established",
+          "hidden_predicate_id": "A_medical_bed_count",
+          "threshold_label": "Emergency medical surge bed count",
+          "threshold_aliases": [
+            "Medical surge beds",
+            "Clinical treatment bed capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "MED-CLIN-FZF: Bayshore Civic Coliseum.Bayshore Civic Coliseum: Dedicated emergency medical bay established = true .Source: Public health clinical readiness charter; Scope: Designated triage and acute treatment area; Measurement: Formal physical establishment and electrical isolation of the emergency medical bay.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency medical surge bed count is between 5 beds and 40 beds, inclusive.",
+          "role_name": "Public health and medical lead (MED)",
+          "candidate_name": "Bayshore Civic Coliseum",
+          "other_candidate_names": [
+            "Pinecrest Regional Exposition Center",
+            "Magnolia Technical College Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_operations_A",
+          "role_id": "utility_operations",
+          "candidate_id": "A",
+          "key": "UTL-WATER-6I2",
+          "hidden_predicate_id": "A_dedicated_water_reserve",
+          "threshold_label": "Dedicated potable water reserve",
+          "threshold_aliases": [
+            "Potable water storage",
+            "Emergency water supply volume"
+          ],
+          "threshold_value": 120000,
+          "threshold_unit": "L",
+          "partial_record_text": "UTL-WATER-6I2: Bayshore Civic Coliseum. The record covers Dedicated potable water reserve. Municipal potable water tank inspection log; On-site secure potable water storage tanks; Total usable volume of chlorinated drinking water available exclusively during power outage.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated potable water reserve is between 0 L and 400000 L, inclusive.",
+          "role_name": "Public utilities coordinator (UTL)",
+          "candidate_name": "Bayshore Civic Coliseum",
+          "other_candidate_names": [
+            "Pinecrest Regional Exposition Center",
+            "Magnolia Technical College Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "public_health",
+        "utility_operations",
+        "human_services"
+      ],
+      "role_names": [
+        "Public health and medical lead (MED)",
+        "Public utilities coordinator (UTL)",
+        "Shelter intake manager (SOC)"
+      ],
+      "directory": "incomplete/task_929",
+      "profiles": [
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "MED-CLIN-FZF",
+          "boolean_predicate_id": "A_medical_bay_established",
+          "boolean_label": "Dedicated emergency medical bay established",
+          "hidden_predicate_id": "A_medical_bed_count",
+          "threshold_label": "Emergency medical surge bed count",
+          "threshold_aliases": [
+            "Medical surge beds",
+            "Clinical treatment bed capacity"
+          ],
+          "threshold_value": 20,
+          "threshold_unit": "beds",
+          "partial_record_text": "MED-CLIN-FZF: Bayshore Civic Coliseum.Bayshore Civic Coliseum: Dedicated emergency medical bay established = true .Source: Public health clinical readiness charter; Scope: Designated triage and acute treatment area; Measurement: Formal physical establishment and electrical isolation of the emergency medical bay.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 40
+          },
+          "coarse_statement": "Emergency medical surge bed count is between 5 beds and 40 beds, inclusive.",
+          "role_name": "Public health and medical lead (MED)",
+          "candidate_name": "Bayshore Civic Coliseum",
+          "other_candidate_names": [
+            "Pinecrest Regional Exposition Center",
+            "Magnolia Technical College Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utility_operations_A",
+          "role_id": "utility_operations",
+          "candidate_id": "A",
+          "key": "UTL-WATER-6I2",
+          "hidden_predicate_id": "A_dedicated_water_reserve",
+          "threshold_label": "Dedicated potable water reserve",
+          "threshold_aliases": [
+            "Potable water storage",
+            "Emergency water supply volume"
+          ],
+          "threshold_value": 120000,
+          "threshold_unit": "L",
+          "partial_record_text": "UTL-WATER-6I2: Bayshore Civic Coliseum. The record covers Dedicated potable water reserve. Municipal potable water tank inspection log; On-site secure potable water storage tanks; Total usable volume of chlorinated drinking water available exclusively during power outage.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated potable water reserve is between 0 L and 400000 L, inclusive.",
+          "role_name": "Public utilities coordinator (UTL)",
+          "candidate_name": "Bayshore Civic Coliseum",
+          "other_candidate_names": [
+            "Pinecrest Regional Exposition Center",
+            "Magnolia Technical College Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_human_services_A",
+          "role_id": "human_services",
+          "candidate_id": "A",
+          "key": "SOC-INTAKE-581",
+          "hidden_predicate_id": "A_evacuee_intake_capacity",
+          "threshold_label": "Certified evacuee intake capacity",
+          "threshold_aliases": [
+            "Evacuee intake capacity",
+            "Certified shelter population limit"
+          ],
+          "threshold_value": 3000,
+          "threshold_unit": "person",
+          "partial_record_text": "SOC-INTAKE-581: Bayshore Civic Coliseum. The record covers Certified evacuee intake capacity. Record context: sustained 72-hour operational window. Human services shelter occupancy certificate; Usable residential dormitory space; Maximum authorized sheltering occupancy based on 60 square feet per person emergency standard.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 1000,
+            "upper": 5000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Certified evacuee intake capacity is between 1000 person and 5000 person, inclusive.",
+          "role_name": "Shelter intake manager (SOC)",
+          "candidate_name": "Bayshore Civic Coliseum",
+          "other_candidate_names": [
+            "Pinecrest Regional Exposition Center",
+            "Magnolia Technical College Complex"
+          ],
+          "context_value": "sustained 72-hour operational window",
+          "other_context_values": [
+            "initial 24-hour surge window"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_697",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_power_director",
+        "sanitation_and_water_officer"
+      ],
+      "role_names": [
+        "Emergency Power Director (EPD)",
+        "Sanitation and Water Officer (SWO)"
+      ],
+      "directory": "incomplete/task_697",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_director_A",
+          "role_id": "emergency_power_director",
+          "candidate_id": "A",
+          "key": "EPD-GEN-Y2U",
+          "boolean_predicate_id": "A_generator_installed",
+          "boolean_label": "Stationary emergency generator installed",
+          "hidden_predicate_id": "A_backup_fuel_runtime",
+          "threshold_label": "Emergency generator fuel autonomy duration",
+          "threshold_aliases": [
+            "Backup fuel endurance",
+            "Generator continuous runtime"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "EPD-GEN-Y2U: Pelican Point Multipurpose Arena.Pelican Point Multipurpose Arena: Stationary emergency generator installed = true .Source: Electrical infrastructure register; Scope: Shelter physical electrical plant room; Measurement: Permanent on-site diesel backup generator operational deployment status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency generator fuel autonomy duration is at most 300 h.",
+          "role_name": "Emergency Power Director (EPD)",
+          "candidate_name": "Pelican Point Multipurpose Arena",
+          "other_candidate_names": [
+            "Biscayne Ridge Regional High School Complex",
+            "Harbor Bluffs Civic Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_and_water_officer_A",
+          "role_id": "sanitation_and_water_officer",
+          "candidate_id": "A",
+          "key": "SWO-WATR-DAC",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Emergency potable water autonomy",
+          "threshold_aliases": [
+            "Drinking water reserve endurance",
+            "On-site water autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "SWO-WATR-DAC: Pelican Point Multipurpose Arena. The record covers Emergency potable water autonomy. Municipal water utility shelter inspection; On-site pressurized treated potable cistern tanks; Hours of continuous supply meeting minimum 15 L per occupant per day standard.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency potable water autonomy is at most 110 h.",
+          "role_name": "Sanitation and Water Officer (SWO)",
+          "candidate_name": "Pelican Point Multipurpose Arena",
+          "other_candidate_names": [
+            "Biscayne Ridge Regional High School Complex",
+            "Harbor Bluffs Civic Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_power_director",
+        "sanitation_and_water_officer",
+        "civil_works_hydrologist"
+      ],
+      "role_names": [
+        "Emergency Power Director (EPD)",
+        "Sanitation and Water Officer (SWO)",
+        "Civil Works Hydrologist (CWH)"
+      ],
+      "directory": "incomplete/task_697",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_director_A",
+          "role_id": "emergency_power_director",
+          "candidate_id": "A",
+          "key": "EPD-GEN-Y2U",
+          "boolean_predicate_id": "A_generator_installed",
+          "boolean_label": "Stationary emergency generator installed",
+          "hidden_predicate_id": "A_backup_fuel_runtime",
+          "threshold_label": "Emergency generator fuel autonomy duration",
+          "threshold_aliases": [
+            "Backup fuel endurance",
+            "Generator continuous runtime"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "EPD-GEN-Y2U: Pelican Point Multipurpose Arena.Pelican Point Multipurpose Arena: Stationary emergency generator installed = true .Source: Electrical infrastructure register; Scope: Shelter physical electrical plant room; Measurement: Permanent on-site diesel backup generator operational deployment status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency generator fuel autonomy duration is at most 300 h.",
+          "role_name": "Emergency Power Director (EPD)",
+          "candidate_name": "Pelican Point Multipurpose Arena",
+          "other_candidate_names": [
+            "Biscayne Ridge Regional High School Complex",
+            "Harbor Bluffs Civic Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_and_water_officer_A",
+          "role_id": "sanitation_and_water_officer",
+          "candidate_id": "A",
+          "key": "SWO-WATR-DAC",
+          "hidden_predicate_id": "A_potable_water_autonomy",
+          "threshold_label": "Emergency potable water autonomy",
+          "threshold_aliases": [
+            "Drinking water reserve endurance",
+            "On-site water autonomy"
+          ],
+          "threshold_value": 72,
+          "threshold_unit": "h",
+          "partial_record_text": "SWO-WATR-DAC: Pelican Point Multipurpose Arena. The record covers Emergency potable water autonomy. Municipal water utility shelter inspection; On-site pressurized treated potable cistern tanks; Hours of continuous supply meeting minimum 15 L per occupant per day standard.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Emergency potable water autonomy is at most 110 h.",
+          "role_name": "Sanitation and Water Officer (SWO)",
+          "candidate_name": "Pelican Point Multipurpose Arena",
+          "other_candidate_names": [
+            "Biscayne Ridge Regional High School Complex",
+            "Harbor Bluffs Civic Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_works_hydrologist_A",
+          "role_id": "civil_works_hydrologist",
+          "candidate_id": "A",
+          "key": "CWH-SURGE-R0M",
+          "hidden_predicate_id": "A_finished_floor_elevation",
+          "threshold_label": "Finished floor elevation above 500-year flood level",
+          "threshold_aliases": [
+            "Surge floor clearance",
+            "Flood freeboard elevation"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "ft",
+          "partial_record_text": "CWH-SURGE-R0M: Pelican Point Multipurpose Arena. The record covers Finished floor elevation above 500-year flood level. FEMA flood benchmark elevation survey; Primary building ground habitable floor threshold; Vertical distance in feet above the municipal 500-year storm surge flood plain.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 5
+          },
+          "coarse_statement": "Finished floor elevation above 500-year flood level is at most 5 ft.",
+          "role_name": "Civil Works Hydrologist (CWH)",
+          "candidate_name": "Pelican Point Multipurpose Arena",
+          "other_candidate_names": [
+            "Biscayne Ridge Regional High School Complex",
+            "Harbor Bluffs Civic Exhibition Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

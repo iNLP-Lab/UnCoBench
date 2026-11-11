@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_937",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_sanitation",
+        "civil_infrastructure"
+      ],
+      "role_names": [
+        "Water and sanitation officer (WSO)",
+        "Civil infrastructure lead (CIL)"
+      ],
+      "directory": "incomplete/task_937",
+      "profiles": [
+        {
+          "record_id": "rec_water_sanitation_A",
+          "role_id": "water_sanitation",
+          "candidate_id": "A",
+          "key": "WSO-WASH-O03",
+          "boolean_predicate_id": "A_blackwater_hookup_ready",
+          "boolean_label": "Dedicated blackwater treatment hookup ready",
+          "hidden_predicate_id": "A_potable_water_flow",
+          "threshold_label": "Minimum potable water delivery flow",
+          "threshold_aliases": [
+            "Potable water supply rate",
+            "Drinking water inflow rate"
+          ],
+          "threshold_value": 230,
+          "threshold_unit": "L/min",
+          "partial_record_text": "WSO-WASH-O03: Moteo Valley Recreation Reserve.Moteo Valley Recreation Reserve: Dedicated blackwater treatment hookup ready = true .Source: Sanitary engineering inspection log; Scope: Temporary village wastewater collection manifold; Measurement: Verification that primary containment or municipal sewer tie-in is operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Minimum potable water delivery flow is at most 400 L/min.",
+          "role_name": "Water and sanitation officer (WSO)",
+          "candidate_name": "Moteo Valley Recreation Reserve",
+          "other_candidate_names": [
+            "Taradale Showgrounds Pavilion",
+            "Karamu Industrial Park Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIL-ELEC-STZ",
+          "hidden_predicate_id": "A_grid_feeder_capacity",
+          "threshold_label": "Minimum electrical grid feeder capacity",
+          "threshold_aliases": [
+            "Grid feeder rating",
+            "Utility electrical capacity"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "kVA",
+          "partial_record_text": "CIL-ELEC-STZ: Moteo Valley Recreation Reserve.Moteo Valley Recreation Reserve: Day-shift buffer distance = 60 m.Source: Perimeter civil layout survey; Scope: Northern and eastern perimeter setback zones; Measurement: Physical separation distance between residential modular units and exterior road traffic.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Minimum electrical grid feeder capacity is at most 500 kVA.",
+          "role_name": "Civil infrastructure lead (CIL)",
+          "candidate_name": "Moteo Valley Recreation Reserve",
+          "other_candidate_names": [
+            "Taradale Showgrounds Pavilion",
+            "Karamu Industrial Park Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_sanitation",
+        "civil_infrastructure",
+        "environmental_acoustics"
+      ],
+      "role_names": [
+        "Water and sanitation officer (WSO)",
+        "Civil infrastructure lead (CIL)",
+        "Environmental acoustics specialist (EAS)"
+      ],
+      "directory": "incomplete/task_937",
+      "profiles": [
+        {
+          "record_id": "rec_water_sanitation_A",
+          "role_id": "water_sanitation",
+          "candidate_id": "A",
+          "key": "WSO-WASH-O03",
+          "boolean_predicate_id": "A_blackwater_hookup_ready",
+          "boolean_label": "Dedicated blackwater treatment hookup ready",
+          "hidden_predicate_id": "A_potable_water_flow",
+          "threshold_label": "Minimum potable water delivery flow",
+          "threshold_aliases": [
+            "Potable water supply rate",
+            "Drinking water inflow rate"
+          ],
+          "threshold_value": 230,
+          "threshold_unit": "L/min",
+          "partial_record_text": "WSO-WASH-O03: Moteo Valley Recreation Reserve.Moteo Valley Recreation Reserve: Dedicated blackwater treatment hookup ready = true .Source: Sanitary engineering inspection log; Scope: Temporary village wastewater collection manifold; Measurement: Verification that primary containment or municipal sewer tie-in is operational.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Minimum potable water delivery flow is at most 400 L/min.",
+          "role_name": "Water and sanitation officer (WSO)",
+          "candidate_name": "Moteo Valley Recreation Reserve",
+          "other_candidate_names": [
+            "Taradale Showgrounds Pavilion",
+            "Karamu Industrial Park Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_civil_infrastructure_A",
+          "role_id": "civil_infrastructure",
+          "candidate_id": "A",
+          "key": "CIL-ELEC-STZ",
+          "hidden_predicate_id": "A_grid_feeder_capacity",
+          "threshold_label": "Minimum electrical grid feeder capacity",
+          "threshold_aliases": [
+            "Grid feeder rating",
+            "Utility electrical capacity"
+          ],
+          "threshold_value": 320,
+          "threshold_unit": "kVA",
+          "partial_record_text": "CIL-ELEC-STZ: Moteo Valley Recreation Reserve.Moteo Valley Recreation Reserve: Day-shift buffer distance = 60 m.Source: Perimeter civil layout survey; Scope: Northern and eastern perimeter setback zones; Measurement: Physical separation distance between residential modular units and exterior road traffic.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "coarse_statement": "Minimum electrical grid feeder capacity is at most 500 kVA.",
+          "role_name": "Civil infrastructure lead (CIL)",
+          "candidate_name": "Moteo Valley Recreation Reserve",
+          "other_candidate_names": [
+            "Taradale Showgrounds Pavilion",
+            "Karamu Industrial Park Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_acoustics_A",
+          "role_id": "environmental_acoustics",
+          "candidate_id": "A",
+          "key": "EAS-ACOU-238",
+          "hidden_predicate_id": "A_night_shift_buffer",
+          "threshold_label": "Night-shift buffer distance",
+          "threshold_aliases": [
+            "Nighttime acoustic setback",
+            "Night boundary clearance"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "m",
+          "partial_record_text": "EAS-ACOU-238: Moteo Valley Recreation Reserve. The record covers Night-shift buffer distance. Environmental acoustic attenuation model; Southern and western perimeter setback zones; Required physical separation distance to maintain interior ambient noise below 35 dBA at night.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Night-shift buffer distance is at most 300 m.",
+          "role_name": "Environmental acoustics specialist (EAS)",
+          "candidate_name": "Moteo Valley Recreation Reserve",
+          "other_candidate_names": [
+            "Taradale Showgrounds Pavilion",
+            "Karamu Industrial Park Depot"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

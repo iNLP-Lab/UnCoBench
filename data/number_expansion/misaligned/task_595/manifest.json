@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_595",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_compliance",
+        "berthing_office"
+      ],
+      "role_names": [
+        "Coastal Environmental Officer (ENV)",
+        "Berthing Allocation Registry (BRT)"
+      ],
+      "directory": "number_expansion/misaligned/task_595/k2",
+      "error_profiles": [
+        {
+          "role_name": "Coastal Environmental Officer (ENV)",
+          "target_key": "ENV-WTR-YAU",
+          "alternate_key": "ENV-BIRD-WVO",
+          "target_context": "United Kingdom",
+          "alternate_context": "France",
+          "candidate": "Portsmouth Historic Quayside",
+          "other_candidates": [
+            "Falmouth Outer Docks",
+            "Plymouth Millbay Basin"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "value": true,
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "minimum_low_tide_draft",
+              "label": "Minimum low-tide draft depth",
+              "aliases": [
+                "Low-tide draft",
+                "Minimum basin water depth"
+              ]
+            },
+            {
+              "topic": "heavy_crane_lift_certified",
+              "label": "Heavy-lift quayside crane certified",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy rig crane clearance"
+              ]
+            },
+            {
+              "topic": "tugboat_escort_protocol_active",
+              "label": "Tugboat escort protocol active",
+              "aliases": [
+                "Active tug escort charter",
+                "Tugboat support protocol"
+              ]
+            },
+            {
+              "topic": "channel_evacuation_clearance_time",
+              "label": "Emergency channel evacuation clearance time",
+              "aliases": [
+                "Channel clearance duration",
+                "Fairway evacuation time"
+              ]
+            },
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ]
+            },
+            {
+              "topic": "high_capacity_ferry_berth_ready",
+              "label": "High-capacity ferry berth readiness",
+              "aliases": [
+                "Ferry terminal readiness",
+                "Dedicated passenger ferry berth"
+              ]
+            },
+            {
+              "topic": "active_shore_power_berths",
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ]
+            },
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Berthing Allocation Registry (BRT)",
+          "target_key": "BRT-BERTH-Q6M",
+          "alternate_key": "BRT-BERTH-IG6",
+          "target_context": "after deducting emergency vessel reserves",
+          "alternate_context": "before deducting emergency vessel reserves",
+          "candidate": "Portsmouth Historic Quayside",
+          "other_candidates": [
+            "Falmouth Outer Docks",
+            "Plymouth Millbay Basin"
+          ],
+          "numeric": [
+            {
+              "topic": "active_shore_power_berths",
+              "value": 8,
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ],
+              "unit": "berth"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "minimum_low_tide_draft",
+              "label": "Minimum low-tide draft depth",
+              "aliases": [
+                "Low-tide draft",
+                "Minimum basin water depth"
+              ]
+            },
+            {
+              "topic": "heavy_crane_lift_certified",
+              "label": "Heavy-lift quayside crane certified",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy rig crane clearance"
+              ]
+            },
+            {
+              "topic": "tugboat_escort_protocol_active",
+              "label": "Tugboat escort protocol active",
+              "aliases": [
+                "Active tug escort charter",
+                "Tugboat support protocol"
+              ]
+            },
+            {
+              "topic": "channel_evacuation_clearance_time",
+              "label": "Emergency channel evacuation clearance time",
+              "aliases": [
+                "Channel clearance duration",
+                "Fairway evacuation time"
+              ]
+            },
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ]
+            },
+            {
+              "topic": "high_capacity_ferry_berth_ready",
+              "label": "High-capacity ferry berth readiness",
+              "aliases": [
+                "Ferry terminal readiness",
+                "Dedicated passenger ferry berth"
+              ]
+            },
+            {
+              "topic": "active_shore_power_berths",
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ]
+            },
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_compliance",
+        "berthing_office",
+        "electrical_engineering"
+      ],
+      "role_names": [
+        "Coastal Environmental Officer (ENV)",
+        "Berthing Allocation Registry (BRT)",
+        "Quayside Electrical Lead (ELEC)"
+      ],
+      "directory": "number_expansion/misaligned/task_595/k3",
+      "error_profiles": [
+        {
+          "role_name": "Coastal Environmental Officer (ENV)",
+          "target_key": "ENV-WTR-YAU",
+          "alternate_key": "ENV-BIRD-WVO",
+          "target_context": "United Kingdom",
+          "alternate_context": "France",
+          "candidate": "Portsmouth Historic Quayside",
+          "other_candidates": [
+            "Falmouth Outer Docks",
+            "Plymouth Millbay Basin"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "value": true,
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "minimum_low_tide_draft",
+              "label": "Minimum low-tide draft depth",
+              "aliases": [
+                "Low-tide draft",
+                "Minimum basin water depth"
+              ]
+            },
+            {
+              "topic": "heavy_crane_lift_certified",
+              "label": "Heavy-lift quayside crane certified",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy rig crane clearance"
+              ]
+            },
+            {
+              "topic": "tugboat_escort_protocol_active",
+              "label": "Tugboat escort protocol active",
+              "aliases": [
+                "Active tug escort charter",
+                "Tugboat support protocol"
+              ]
+            },
+            {
+              "topic": "channel_evacuation_clearance_time",
+              "label": "Emergency channel evacuation clearance time",
+              "aliases": [
+                "Channel clearance duration",
+                "Fairway evacuation time"
+              ]
+            },
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ]
+            },
+            {
+              "topic": "high_capacity_ferry_berth_ready",
+              "label": "High-capacity ferry berth readiness",
+              "aliases": [
+                "Ferry terminal readiness",
+                "Dedicated passenger ferry berth"
+              ]
+            },
+            {
+              "topic": "active_shore_power_berths",
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ]
+            },
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Berthing Allocation Registry (BRT)",
+          "target_key": "BRT-BERTH-Q6M",
+          "alternate_key": "BRT-BERTH-IG6",
+          "target_context": "after deducting emergency vessel reserves",
+          "alternate_context": "before deducting emergency vessel reserves",
+          "candidate": "Portsmouth Historic Quayside",
+          "other_candidates": [
+            "Falmouth Outer Docks",
+            "Plymouth Millbay Basin"
+          ],
+          "numeric": [
+            {
+              "topic": "active_shore_power_berths",
+              "value": 8,
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ],
+              "unit": "berth"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "minimum_low_tide_draft",
+              "label": "Minimum low-tide draft depth",
+              "aliases": [
+                "Low-tide draft",
+                "Minimum basin water depth"
+              ]
+            },
+            {
+              "topic": "heavy_crane_lift_certified",
+              "label": "Heavy-lift quayside crane certified",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy rig crane clearance"
+              ]
+            },
+            {
+              "topic": "tugboat_escort_protocol_active",
+              "label": "Tugboat escort protocol active",
+              "aliases": [
+                "Active tug escort charter",
+                "Tugboat support protocol"
+              ]
+            },
+            {
+              "topic": "channel_evacuation_clearance_time",
+              "label": "Emergency channel evacuation clearance time",
+              "aliases": [
+                "Channel clearance duration",
+                "Fairway evacuation time"
+              ]
+            },
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ]
+            },
+            {
+              "topic": "high_capacity_ferry_berth_ready",
+              "label": "High-capacity ferry berth readiness",
+              "aliases": [
+                "Ferry terminal readiness",
+                "Dedicated passenger ferry berth"
+              ]
+            },
+            {
+              "topic": "active_shore_power_berths",
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ]
+            },
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Quayside Electrical Lead (ELEC)",
+          "target_key": "ELEC-GRID-O6P",
+          "alternate_key": "ELEC-GRID-NXO",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "Portsmouth Historic Quayside",
+          "other_candidates": [
+            "Falmouth Outer Docks",
+            "Plymouth Millbay Basin"
+          ],
+          "numeric": [
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "value": 450,
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ],
+              "unit": "kWh/berth"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "minimum_low_tide_draft",
+              "label": "Minimum low-tide draft depth",
+              "aliases": [
+                "Low-tide draft",
+                "Minimum basin water depth"
+              ]
+            },
+            {
+              "topic": "heavy_crane_lift_certified",
+              "label": "Heavy-lift quayside crane certified",
+              "aliases": [
+                "Quayside crane certification",
+                "Heavy rig crane clearance"
+              ]
+            },
+            {
+              "topic": "tugboat_escort_protocol_active",
+              "label": "Tugboat escort protocol active",
+              "aliases": [
+                "Active tug escort charter",
+                "Tugboat support protocol"
+              ]
+            },
+            {
+              "topic": "channel_evacuation_clearance_time",
+              "label": "Emergency channel evacuation clearance time",
+              "aliases": [
+                "Channel clearance duration",
+                "Fairway evacuation time"
+              ]
+            },
+            {
+              "topic": "greywater_pumpout_system_operational",
+              "label": "Quayside greywater pumpout operational",
+              "aliases": [
+                "Effluent reception operational",
+                "Wastewater pumpout readiness"
+              ]
+            },
+            {
+              "topic": "high_capacity_ferry_berth_ready",
+              "label": "High-capacity ferry berth readiness",
+              "aliases": [
+                "Ferry terminal readiness",
+                "Dedicated passenger ferry berth"
+              ]
+            },
+            {
+              "topic": "active_shore_power_berths",
+              "label": "Active shore-power berths",
+              "aliases": [
+                "Hookup berths",
+                "Electrified tall ship berths"
+              ]
+            },
+            {
+              "topic": "daily_power_delivery_per_berth",
+              "label": "Daily power delivery per berth",
+              "aliases": [
+                "Berth power delivery rate",
+                "Average daily berth supply"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

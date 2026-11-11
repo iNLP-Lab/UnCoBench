@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_617",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "structural_engineer",
+        "sanitation_lead"
+      ],
+      "role_names": [
+        "Structural engineering officer (STRUC)",
+        "Public health and environmental sanitation coordinator (SAN)"
+      ],
+      "directory": "incomplete/task_617",
+      "profiles": [
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-WIND-VM1",
+          "boolean_predicate_id": "A_wind_retrofit_completed",
+          "boolean_label": "Windstorm structural retrofit completed",
+          "hidden_predicate_id": "A_roof_uplift_resistance",
+          "threshold_label": "Roof uplift resistance rating",
+          "threshold_aliases": [
+            "Roof suction resistance",
+            "Wind uplift design rating"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "psf",
+          "partial_record_text": "STRUC-WIND-VM1: St. Jude Community Civic Center.St. Jude Community Civic Center: Windstorm structural retrofit completed = true .Source: Structural engineering certificate; Scope: Main facility envelope and load-bearing framing; Measurement: Formal sign-off verifying installation of Category 5 hurricane windstorm tie-downs and impact shutters.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Roof uplift resistance rating is between 100 psf and 300 psf, inclusive.",
+          "role_name": "Structural engineering officer (STRUC)",
+          "candidate_name": "St. Jude Community Civic Center",
+          "other_candidate_names": [
+            "Mount Carmel Polytechnic Campus",
+            "Vanguard Regional Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_lead_A",
+          "role_id": "sanitation_lead",
+          "candidate_id": "A",
+          "key": "SAN-HYGN-0FF",
+          "hidden_predicate_id": "A_potable_water_reserve_days",
+          "threshold_label": "Autonomous potable water reserves",
+          "threshold_aliases": [
+            "Drinking water reserve duration",
+            "On-site water autonomy"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "d",
+          "partial_record_text": "SAN-HYGN-0FF: St. Jude Community Civic Center.St. Jude Community Civic Center: Dedicated isolation medical bay equipped = true .Source: Public health infrastructure checklist; Scope: On-site clinical ward and negative-pressure containment zone; Measurement: Verification of operational physical separation, separate HVAC exhaust, and sanitation lockouts.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 8
+          },
+          "coarse_statement": "Autonomous potable water reserves is between 2 d and 8 d, inclusive.",
+          "role_name": "Public health and environmental sanitation coordinator (SAN)",
+          "candidate_name": "St. Jude Community Civic Center",
+          "other_candidate_names": [
+            "Mount Carmel Polytechnic Campus",
+            "Vanguard Regional Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "structural_engineer",
+        "sanitation_lead",
+        "accessibility_lead"
+      ],
+      "role_names": [
+        "Structural engineering officer (STRUC)",
+        "Public health and environmental sanitation coordinator (SAN)",
+        "Universal access and vulnerable population specialist (ACC)"
+      ],
+      "directory": "incomplete/task_617",
+      "profiles": [
+        {
+          "record_id": "rec_structural_engineer_A",
+          "role_id": "structural_engineer",
+          "candidate_id": "A",
+          "key": "STRUC-WIND-VM1",
+          "boolean_predicate_id": "A_wind_retrofit_completed",
+          "boolean_label": "Windstorm structural retrofit completed",
+          "hidden_predicate_id": "A_roof_uplift_resistance",
+          "threshold_label": "Roof uplift resistance rating",
+          "threshold_aliases": [
+            "Roof suction resistance",
+            "Wind uplift design rating"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "psf",
+          "partial_record_text": "STRUC-WIND-VM1: St. Jude Community Civic Center.St. Jude Community Civic Center: Windstorm structural retrofit completed = true .Source: Structural engineering certificate; Scope: Main facility envelope and load-bearing framing; Measurement: Formal sign-off verifying installation of Category 5 hurricane windstorm tie-downs and impact shutters.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 300
+          },
+          "coarse_statement": "Roof uplift resistance rating is between 100 psf and 300 psf, inclusive.",
+          "role_name": "Structural engineering officer (STRUC)",
+          "candidate_name": "St. Jude Community Civic Center",
+          "other_candidate_names": [
+            "Mount Carmel Polytechnic Campus",
+            "Vanguard Regional Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_sanitation_lead_A",
+          "role_id": "sanitation_lead",
+          "candidate_id": "A",
+          "key": "SAN-HYGN-0FF",
+          "hidden_predicate_id": "A_potable_water_reserve_days",
+          "threshold_label": "Autonomous potable water reserves",
+          "threshold_aliases": [
+            "Drinking water reserve duration",
+            "On-site water autonomy"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "d",
+          "partial_record_text": "SAN-HYGN-0FF: St. Jude Community Civic Center.St. Jude Community Civic Center: Dedicated isolation medical bay equipped = true .Source: Public health infrastructure checklist; Scope: On-site clinical ward and negative-pressure containment zone; Measurement: Verification of operational physical separation, separate HVAC exhaust, and sanitation lockouts.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 8
+          },
+          "coarse_statement": "Autonomous potable water reserves is between 2 d and 8 d, inclusive.",
+          "role_name": "Public health and environmental sanitation coordinator (SAN)",
+          "candidate_name": "St. Jude Community Civic Center",
+          "other_candidate_names": [
+            "Mount Carmel Polytechnic Campus",
+            "Vanguard Regional Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_accessibility_lead_A",
+          "role_id": "accessibility_lead",
+          "candidate_id": "A",
+          "key": "ACC-INCL-7ZR",
+          "hidden_predicate_id": "A_special_care_staffing_hours",
+          "threshold_label": "Special-care caregiver coverage duration",
+          "threshold_aliases": [
+            "Medical caregiver coverage",
+            "Special needs attendant coverage"
+          ],
+          "threshold_value": 48,
+          "threshold_unit": "h",
+          "partial_record_text": "ACC-INCL-7ZR: St. Jude Community Civic Center.St. Jude Community Civic Center: Barrier-free universal accessibility compliance = true .Source: Universal accessibility audit; Scope: All entrances, refuge dormitories, sanitary facilities, and ramps; Measurement: Official municipal certification of step-free grade transitions and wheelchair-compliant infrastructure.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Special-care caregiver coverage duration is between 0 h and 300 h, inclusive.",
+          "role_name": "Universal access and vulnerable population specialist (ACC)",
+          "candidate_name": "St. Jude Community Civic Center",
+          "other_candidate_names": [
+            "Mount Carmel Polytechnic Campus",
+            "Vanguard Regional Sports Pavilion"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,527 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_902",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "laboratory_qa",
+        "utility_liaison"
+      ],
+      "role_names": [
+        "Analytical quality assurance chemist (LABQ)",
+        "Aquifer water utility liaison (UTIL)"
+      ],
+      "directory": "number_expansion/misaligned/task_902/k2",
+      "error_profiles": [
+        {
+          "role_name": "Analytical quality assurance chemist (LABQ)",
+          "target_key": "LABQ-CHEM-HXE",
+          "alternate_key": "LABQ-CALIB-YM1",
+          "target_context": "including split-sample retention blanks",
+          "alternate_context": "excluding split-sample retention blanks",
+          "candidate": "Partitioning interwell chemical tracer profile",
+          "other_candidates": [
+            "Multi-depth fluorescent dye push-pull injection",
+            "Noble gas isotopic diffusion assessment"
+          ],
+          "numeric": [
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "value": 35,
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fracture_model_validated",
+              "label": "Hydrogeologic fracture capture model validated",
+              "aliases": [
+                "Fracture capture model validation",
+                "Numerical tracer flow validation"
+              ]
+            },
+            {
+              "topic": "transit_monitoring_duration",
+              "label": "Tracer transit monitoring duration",
+              "aliases": [
+                "Observation period",
+                "Tracer breakthrough monitoring window"
+              ]
+            },
+            {
+              "topic": "injection_permit_approved",
+              "label": "State aquifer injection permit approved",
+              "aliases": [
+                "Underground injection authorization",
+                "Injection permit approval"
+              ]
+            },
+            {
+              "topic": "well_protection_zone_verified",
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ]
+            },
+            {
+              "topic": "drinking_well_buffer_distance",
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ]
+            },
+            {
+              "topic": "downhole_telemetry_active",
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ]
+            },
+            {
+              "topic": "gross_tracer_allocation",
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ]
+            },
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aquifer water utility liaison (UTIL)",
+          "target_key": "UTIL-WELL-6WS",
+          "alternate_key": "UTIL-WELL-3NH",
+          "target_context": "measured to the wellhead casing",
+          "alternate_context": "measured to the outer sanitary containment perimeter",
+          "candidate": "Partitioning interwell chemical tracer profile",
+          "other_candidates": [
+            "Multi-depth fluorescent dye push-pull injection",
+            "Noble gas isotopic diffusion assessment"
+          ],
+          "numeric": [
+            {
+              "topic": "drinking_well_buffer_distance",
+              "value": 500,
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "well_protection_zone_verified",
+              "value": true,
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fracture_model_validated",
+              "label": "Hydrogeologic fracture capture model validated",
+              "aliases": [
+                "Fracture capture model validation",
+                "Numerical tracer flow validation"
+              ]
+            },
+            {
+              "topic": "transit_monitoring_duration",
+              "label": "Tracer transit monitoring duration",
+              "aliases": [
+                "Observation period",
+                "Tracer breakthrough monitoring window"
+              ]
+            },
+            {
+              "topic": "injection_permit_approved",
+              "label": "State aquifer injection permit approved",
+              "aliases": [
+                "Underground injection authorization",
+                "Injection permit approval"
+              ]
+            },
+            {
+              "topic": "well_protection_zone_verified",
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ]
+            },
+            {
+              "topic": "drinking_well_buffer_distance",
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ]
+            },
+            {
+              "topic": "downhole_telemetry_active",
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ]
+            },
+            {
+              "topic": "gross_tracer_allocation",
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ]
+            },
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "laboratory_qa",
+        "utility_liaison",
+        "field_drilling_supervisor"
+      ],
+      "role_names": [
+        "Analytical quality assurance chemist (LABQ)",
+        "Aquifer water utility liaison (UTIL)",
+        "Field drilling and injection supervisor (DRILL)"
+      ],
+      "directory": "number_expansion/misaligned/task_902/k3",
+      "error_profiles": [
+        {
+          "role_name": "Analytical quality assurance chemist (LABQ)",
+          "target_key": "LABQ-CHEM-HXE",
+          "alternate_key": "LABQ-CALIB-YM1",
+          "target_context": "including split-sample retention blanks",
+          "alternate_context": "excluding split-sample retention blanks",
+          "candidate": "Partitioning interwell chemical tracer profile",
+          "other_candidates": [
+            "Multi-depth fluorescent dye push-pull injection",
+            "Noble gas isotopic diffusion assessment"
+          ],
+          "numeric": [
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "value": 35,
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fracture_model_validated",
+              "label": "Hydrogeologic fracture capture model validated",
+              "aliases": [
+                "Fracture capture model validation",
+                "Numerical tracer flow validation"
+              ]
+            },
+            {
+              "topic": "transit_monitoring_duration",
+              "label": "Tracer transit monitoring duration",
+              "aliases": [
+                "Observation period",
+                "Tracer breakthrough monitoring window"
+              ]
+            },
+            {
+              "topic": "injection_permit_approved",
+              "label": "State aquifer injection permit approved",
+              "aliases": [
+                "Underground injection authorization",
+                "Injection permit approval"
+              ]
+            },
+            {
+              "topic": "well_protection_zone_verified",
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ]
+            },
+            {
+              "topic": "drinking_well_buffer_distance",
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ]
+            },
+            {
+              "topic": "downhole_telemetry_active",
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ]
+            },
+            {
+              "topic": "gross_tracer_allocation",
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ]
+            },
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Aquifer water utility liaison (UTIL)",
+          "target_key": "UTIL-WELL-6WS",
+          "alternate_key": "UTIL-WELL-3NH",
+          "target_context": "measured to the wellhead casing",
+          "alternate_context": "measured to the outer sanitary containment perimeter",
+          "candidate": "Partitioning interwell chemical tracer profile",
+          "other_candidates": [
+            "Multi-depth fluorescent dye push-pull injection",
+            "Noble gas isotopic diffusion assessment"
+          ],
+          "numeric": [
+            {
+              "topic": "drinking_well_buffer_distance",
+              "value": 500,
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ],
+              "unit": "m"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "well_protection_zone_verified",
+              "value": true,
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fracture_model_validated",
+              "label": "Hydrogeologic fracture capture model validated",
+              "aliases": [
+                "Fracture capture model validation",
+                "Numerical tracer flow validation"
+              ]
+            },
+            {
+              "topic": "transit_monitoring_duration",
+              "label": "Tracer transit monitoring duration",
+              "aliases": [
+                "Observation period",
+                "Tracer breakthrough monitoring window"
+              ]
+            },
+            {
+              "topic": "injection_permit_approved",
+              "label": "State aquifer injection permit approved",
+              "aliases": [
+                "Underground injection authorization",
+                "Injection permit approval"
+              ]
+            },
+            {
+              "topic": "well_protection_zone_verified",
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ]
+            },
+            {
+              "topic": "drinking_well_buffer_distance",
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ]
+            },
+            {
+              "topic": "downhole_telemetry_active",
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ]
+            },
+            {
+              "topic": "gross_tracer_allocation",
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ]
+            },
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Field drilling and injection supervisor (DRILL)",
+          "target_key": "DRILL-INJ-1HA",
+          "alternate_key": "DRILL-INJ-6MR",
+          "target_context": "March 2025",
+          "alternate_context": "April 2025",
+          "candidate": "Partitioning interwell chemical tracer profile",
+          "other_candidates": [
+            "Multi-depth fluorescent dye push-pull injection",
+            "Noble gas isotopic diffusion assessment"
+          ],
+          "numeric": [
+            {
+              "topic": "gross_tracer_allocation",
+              "value": 180,
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ],
+              "unit": "kg"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "downhole_telemetry_active",
+              "value": true,
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "fracture_model_validated",
+              "label": "Hydrogeologic fracture capture model validated",
+              "aliases": [
+                "Fracture capture model validation",
+                "Numerical tracer flow validation"
+              ]
+            },
+            {
+              "topic": "transit_monitoring_duration",
+              "label": "Tracer transit monitoring duration",
+              "aliases": [
+                "Observation period",
+                "Tracer breakthrough monitoring window"
+              ]
+            },
+            {
+              "topic": "injection_permit_approved",
+              "label": "State aquifer injection permit approved",
+              "aliases": [
+                "Underground injection authorization",
+                "Injection permit approval"
+              ]
+            },
+            {
+              "topic": "well_protection_zone_verified",
+              "label": "Municipal wellhead protection zone verified",
+              "aliases": [
+                "Wellhead protection zone demarcation",
+                "Drinking water sanitary boundary verification"
+              ]
+            },
+            {
+              "topic": "drinking_well_buffer_distance",
+              "label": "Drinking water extraction well buffer distance",
+              "aliases": [
+                "Wellhead buffer setback",
+                "Extraction well setback distance"
+              ]
+            },
+            {
+              "topic": "downhole_telemetry_active",
+              "label": "Continuous downhole pressure telemetry operational",
+              "aliases": [
+                "Downhole pressure telemetry",
+                "Injection wellhead pressure logging"
+              ]
+            },
+            {
+              "topic": "gross_tracer_allocation",
+              "label": "Gross tracer mass allocation",
+              "aliases": [
+                "Bulk tracer delivery mass",
+                "Gross chemical tracer mass"
+              ]
+            },
+            {
+              "topic": "reserved_qa_tracer_mass",
+              "label": "Reserved quality-assurance reference mass",
+              "aliases": [
+                "QA laboratory reserve mass",
+                "Reference standard tracer reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

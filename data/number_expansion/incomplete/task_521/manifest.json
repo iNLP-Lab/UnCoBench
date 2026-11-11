@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_521",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "emergency_power",
+        "public_health"
+      ],
+      "role_names": [
+        "Emergency power officer (PWR)",
+        "Environmental health inspector (HLT)"
+      ],
+      "directory": "incomplete/task_521",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_A",
+          "role_id": "emergency_power",
+          "candidate_id": "A",
+          "key": "PWR-GEN-I1H",
+          "boolean_predicate_id": "A_emergency_generator_installed",
+          "boolean_label": "Emergency power generator installation",
+          "hidden_predicate_id": "A_generator_fuel_autonomy",
+          "threshold_label": "Generator fuel autonomy duration",
+          "threshold_aliases": [
+            "Reserve fuel run-time",
+            "Standby fuel endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GEN-I1H: Point Reyes Coastal Community Pavilion.Point Reyes Coastal Community Pavilion: Emergency power generator installation = true .Source: Facility electrical asset inventory; Scope: Shelter essential electrical sub-panel; Measurement: Physical presence of an active automatic-transfer standby diesel generator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Generator fuel autonomy duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency power officer (PWR)",
+          "candidate_name": "Point Reyes Coastal Community Pavilion",
+          "other_candidate_names": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLT-SANI-NJ6",
+          "hidden_predicate_id": "A_accessible_sanitation_ratio",
+          "threshold_label": "Accessible sanitary fixture allowance",
+          "threshold_aliases": [
+            "Sanitary fixture density",
+            "Accessible restroom fixture ratio"
+          ],
+          "threshold_value": 5.5,
+          "threshold_unit": "stalls/100 persons",
+          "partial_record_text": "HLT-SANI-NJ6: Point Reyes Coastal Community Pavilion.Operational environment: Production deployment environment.Point Reyes Coastal Community Pavilion: Potable water distribution clearance = true .Source: County environmental health water test report; Scope: Shelter municipal and backflow water connections; Measurement: Bacteriological and turbidity clearance satisfying state drinking water safety standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 7
+          },
+          "coarse_statement": "Accessible sanitary fixture allowance is between 2 stalls/100 persons and 7 stalls/100 persons, inclusive.",
+          "role_name": "Environmental health inspector (HLT)",
+          "candidate_name": "Point Reyes Coastal Community Pavilion",
+          "other_candidate_names": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "context_value": "Production deployment environment",
+          "other_context_values": [
+            "Drill exercise environment"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "emergency_power",
+        "public_health",
+        "mutual_aid"
+      ],
+      "role_names": [
+        "Emergency power officer (PWR)",
+        "Environmental health inspector (HLT)",
+        "Mutual aid liaison (AID)"
+      ],
+      "directory": "incomplete/task_521",
+      "profiles": [
+        {
+          "record_id": "rec_emergency_power_A",
+          "role_id": "emergency_power",
+          "candidate_id": "A",
+          "key": "PWR-GEN-I1H",
+          "boolean_predicate_id": "A_emergency_generator_installed",
+          "boolean_label": "Emergency power generator installation",
+          "hidden_predicate_id": "A_generator_fuel_autonomy",
+          "threshold_label": "Generator fuel autonomy duration",
+          "threshold_aliases": [
+            "Reserve fuel run-time",
+            "Standby fuel endurance"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-GEN-I1H: Point Reyes Coastal Community Pavilion.Point Reyes Coastal Community Pavilion: Emergency power generator installation = true .Source: Facility electrical asset inventory; Scope: Shelter essential electrical sub-panel; Measurement: Physical presence of an active automatic-transfer standby diesel generator.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 300
+          },
+          "coarse_statement": "Generator fuel autonomy duration is between 20 h and 300 h, inclusive.",
+          "role_name": "Emergency power officer (PWR)",
+          "candidate_name": "Point Reyes Coastal Community Pavilion",
+          "other_candidate_names": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_public_health_A",
+          "role_id": "public_health",
+          "candidate_id": "A",
+          "key": "HLT-SANI-NJ6",
+          "hidden_predicate_id": "A_accessible_sanitation_ratio",
+          "threshold_label": "Accessible sanitary fixture allowance",
+          "threshold_aliases": [
+            "Sanitary fixture density",
+            "Accessible restroom fixture ratio"
+          ],
+          "threshold_value": 5.5,
+          "threshold_unit": "stalls/100 persons",
+          "partial_record_text": "HLT-SANI-NJ6: Point Reyes Coastal Community Pavilion.Operational environment: Production deployment environment.Point Reyes Coastal Community Pavilion: Potable water distribution clearance = true .Source: County environmental health water test report; Scope: Shelter municipal and backflow water connections; Measurement: Bacteriological and turbidity clearance satisfying state drinking water safety standards.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 7
+          },
+          "coarse_statement": "Accessible sanitary fixture allowance is between 2 stalls/100 persons and 7 stalls/100 persons, inclusive.",
+          "role_name": "Environmental health inspector (HLT)",
+          "candidate_name": "Point Reyes Coastal Community Pavilion",
+          "other_candidate_names": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "context_value": "Production deployment environment",
+          "other_context_values": [
+            "Drill exercise environment"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_mutual_aid_A",
+          "role_id": "mutual_aid",
+          "candidate_id": "A",
+          "key": "AID-CATER-D00",
+          "hidden_predicate_id": "A_contracted_mobile_capacity",
+          "threshold_label": "Mobile relief kitchen delivery capacity",
+          "threshold_aliases": [
+            "Mobile catering dispatch capacity",
+            "Auxiliary food truck relief throughput"
+          ],
+          "threshold_value": 500,
+          "threshold_unit": "rations/d",
+          "partial_record_text": "AID-CATER-D00: Point Reyes Coastal Community Pavilion. The record covers Mobile relief kitchen delivery capacity. Emergency catering mutual-aid agreement; Contracted mobile disaster kitchen fleet; Guaranteed daily prepared hot meal delivery volume delivered to the shelter intake gate.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 800
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mobile relief kitchen delivery capacity is between 100 rations/d and 800 rations/d, inclusive.",
+          "role_name": "Mutual aid liaison (AID)",
+          "candidate_name": "Point Reyes Coastal Community Pavilion",
+          "other_candidate_names": [
+            "Inverness Ridge Civic Gymnasium",
+            "Bolinas Lagoon Regional Recreation Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

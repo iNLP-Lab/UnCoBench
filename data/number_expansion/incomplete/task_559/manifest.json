@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_559",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "flight_operations",
+        "airframe_engineering"
+      ],
+      "role_names": [
+        "Flight operations director (FLTOPS)",
+        "Airframe structural engineering lead (STRUCT)"
+      ],
+      "directory": "incomplete/task_559",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-OPS-BGX",
+          "boolean_predicate_id": "A_night_vision_enabled",
+          "boolean_label": "Night-vision drop capability enabled",
+          "hidden_predicate_id": "A_drop_speed_limit",
+          "threshold_label": "Retardant drop airspeed limit",
+          "threshold_aliases": [
+            "Safe drop release speed",
+            "Operational retardant drop airspeed"
+          ],
+          "threshold_value": 135,
+          "threshold_unit": "kn",
+          "partial_record_text": "FLTOPS-OPS-BGX: Dash 8 Q400AT Multi-Engine Tanker Group.Dash 8 Q400AT Multi-Engine Tanker Group: Night-vision drop capability enabled = true .Source: Tactical night flight certification manifest; Scope: Candidate air-tanker group avionics and crew NVG authorization; Measurement: Whether night-vision aerial firefighting operations are formally enabled.Dash 8 Q400AT Multi-Engine Tanker Group: Minimum seasonal flight hours = 200 h.Source: Mission flight scheduling schedule; Scope: 2026 contractual fire season guarantee window; Measurement: Minimum billable flight hours guaranteed under the seasonal deployment charter.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Retardant drop airspeed limit is at most 300 kn.",
+          "role_name": "Flight operations director (FLTOPS)",
+          "candidate_name": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidate_names": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-AERO-MAF",
+          "hidden_predicate_id": "A_fatigue_life_margin",
+          "threshold_label": "Airframe fatigue life margin",
+          "threshold_aliases": [
+            "Structural fatigue remaining life margin",
+            "Airframe service life reserve"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "%",
+          "partial_record_text": "STRUCT-AERO-MAF: Dash 8 Q400AT Multi-Engine Tanker Group. The record covers Airframe fatigue life margin. Airframe damage tolerance analysis; Wing center box and fuselage carry-through fittings; Remaining fatigue life margin expressed as a percentage above FAA structural baseline.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Airframe fatigue life margin is at most 40 %.",
+          "role_name": "Airframe structural engineering lead (STRUCT)",
+          "candidate_name": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidate_names": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "flight_operations",
+        "airframe_engineering",
+        "commercial_procurement"
+      ],
+      "role_names": [
+        "Flight operations director (FLTOPS)",
+        "Airframe structural engineering lead (STRUCT)",
+        "Aviation procurement officer (PROCUR)"
+      ],
+      "directory": "incomplete/task_559",
+      "profiles": [
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLTOPS-OPS-BGX",
+          "boolean_predicate_id": "A_night_vision_enabled",
+          "boolean_label": "Night-vision drop capability enabled",
+          "hidden_predicate_id": "A_drop_speed_limit",
+          "threshold_label": "Retardant drop airspeed limit",
+          "threshold_aliases": [
+            "Safe drop release speed",
+            "Operational retardant drop airspeed"
+          ],
+          "threshold_value": 135,
+          "threshold_unit": "kn",
+          "partial_record_text": "FLTOPS-OPS-BGX: Dash 8 Q400AT Multi-Engine Tanker Group.Dash 8 Q400AT Multi-Engine Tanker Group: Night-vision drop capability enabled = true .Source: Tactical night flight certification manifest; Scope: Candidate air-tanker group avionics and crew NVG authorization; Measurement: Whether night-vision aerial firefighting operations are formally enabled.Dash 8 Q400AT Multi-Engine Tanker Group: Minimum seasonal flight hours = 200 h.Source: Mission flight scheduling schedule; Scope: 2026 contractual fire season guarantee window; Measurement: Minimum billable flight hours guaranteed under the seasonal deployment charter.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Retardant drop airspeed limit is at most 300 kn.",
+          "role_name": "Flight operations director (FLTOPS)",
+          "candidate_name": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidate_names": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-AERO-MAF",
+          "hidden_predicate_id": "A_fatigue_life_margin",
+          "threshold_label": "Airframe fatigue life margin",
+          "threshold_aliases": [
+            "Structural fatigue remaining life margin",
+            "Airframe service life reserve"
+          ],
+          "threshold_value": 15,
+          "threshold_unit": "%",
+          "partial_record_text": "STRUCT-AERO-MAF: Dash 8 Q400AT Multi-Engine Tanker Group. The record covers Airframe fatigue life margin. Airframe damage tolerance analysis; Wing center box and fuselage carry-through fittings; Remaining fatigue life margin expressed as a percentage above FAA structural baseline.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Airframe fatigue life margin is at most 40 %.",
+          "role_name": "Airframe structural engineering lead (STRUCT)",
+          "candidate_name": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidate_names": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_procurement_A",
+          "role_id": "commercial_procurement",
+          "candidate_id": "A",
+          "key": "PROCUR-COMM-8SL",
+          "hidden_predicate_id": "A_contracted_hourly_rate",
+          "threshold_label": "Contracted hourly wet-lease rate",
+          "threshold_aliases": [
+            "Hourly wet-lease charter rate",
+            "Flight hour contract rate"
+          ],
+          "threshold_value": 11000,
+          "threshold_unit": "USD/h",
+          "partial_record_text": "PROCUR-COMM-8SL: Dash 8 Q400AT Multi-Engine Tanker Group. The record covers Contracted hourly wet-lease rate. Aviation charter rate sheet; 2026 fire season flight operations; Hourly flight rate inclusive of aircrew, fuel, and standard consumable surcharges.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Contracted hourly wet-lease rate is at most 30000 USD/h.",
+          "role_name": "Aviation procurement officer (PROCUR)",
+          "candidate_name": "Dash 8 Q400AT Multi-Engine Tanker Group",
+          "other_candidate_names": [
+            "RJ85 Airtanker Strike Wing",
+            "C-130H Hercules Airtanker Fleet"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

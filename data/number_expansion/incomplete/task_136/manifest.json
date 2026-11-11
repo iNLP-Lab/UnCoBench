@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_136",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "safety_compliance",
+        "project_controls"
+      ],
+      "role_names": [
+        "Fire and life safety lead (SAFE)",
+        "Commercial project controls lead (PROJ)"
+      ],
+      "directory": "incomplete/task_136",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-HAZARD-A2D",
+          "boolean_predicate_id": "A_thermal_mitigation_enabled",
+          "boolean_label": "Thermal runaway mitigation protocol verified",
+          "hidden_predicate_id": "A_suppression_latency",
+          "threshold_label": "Average cell thermal suppression latency",
+          "threshold_aliases": [
+            "Thermal suppression response time",
+            "Quench response latency"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "s",
+          "partial_record_text": "SAFE-HAZARD-A2D: Fluence Energy Gridstack Solution.Fluence Energy Gridstack Solution: Thermal runaway mitigation protocol verified = true .Source: Fire safety certification certificate; Scope: Modular enclosure active fire mitigation system; Measurement: Validation that automated thermal runaway exhaust and isolation protocol is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average cell thermal suppression latency is at most 40 s.",
+          "role_name": "Fire and life safety lead (SAFE)",
+          "candidate_name": "Fluence Energy Gridstack Solution",
+          "other_candidate_names": [
+            "Tesla Megapack 2XL Utility Package",
+            "Powin Energy Centipede Modular Array"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_project_controls_A",
+          "role_id": "project_controls",
+          "candidate_id": "A",
+          "key": "PROJ-SCHED-6NJ",
+          "hidden_predicate_id": "A_delivery_weeks",
+          "threshold_label": "Guaranteed project delivery timeline",
+          "threshold_aliases": [
+            "Project delivery schedule",
+            "Commissioning lead time"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "weeks",
+          "partial_record_text": "PROJ-SCHED-6NJ: Fluence Energy Gridstack Solution. The record covers Guaranteed project delivery timeline. Turnkey procurement binding schedule; Notice to proceed to commercial operation date; Total calendar weeks committed for manufacturing, installation, and site acceptance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Guaranteed project delivery timeline is at most 60 weeks.",
+          "role_name": "Commercial project controls lead (PROJ)",
+          "candidate_name": "Fluence Energy Gridstack Solution",
+          "other_candidate_names": [
+            "Tesla Megapack 2XL Utility Package",
+            "Powin Energy Centipede Modular Array"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "safety_compliance",
+        "project_controls",
+        "grid_operations"
+      ],
+      "role_names": [
+        "Fire and life safety lead (SAFE)",
+        "Commercial project controls lead (PROJ)",
+        "Power quality and grid integration lead (GRID)"
+      ],
+      "directory": "incomplete/task_136",
+      "profiles": [
+        {
+          "record_id": "rec_safety_compliance_A",
+          "role_id": "safety_compliance",
+          "candidate_id": "A",
+          "key": "SAFE-HAZARD-A2D",
+          "boolean_predicate_id": "A_thermal_mitigation_enabled",
+          "boolean_label": "Thermal runaway mitigation protocol verified",
+          "hidden_predicate_id": "A_suppression_latency",
+          "threshold_label": "Average cell thermal suppression latency",
+          "threshold_aliases": [
+            "Thermal suppression response time",
+            "Quench response latency"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "s",
+          "partial_record_text": "SAFE-HAZARD-A2D: Fluence Energy Gridstack Solution.Fluence Energy Gridstack Solution: Thermal runaway mitigation protocol verified = true .Source: Fire safety certification certificate; Scope: Modular enclosure active fire mitigation system; Measurement: Validation that automated thermal runaway exhaust and isolation protocol is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Average cell thermal suppression latency is at most 40 s.",
+          "role_name": "Fire and life safety lead (SAFE)",
+          "candidate_name": "Fluence Energy Gridstack Solution",
+          "other_candidate_names": [
+            "Tesla Megapack 2XL Utility Package",
+            "Powin Energy Centipede Modular Array"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_project_controls_A",
+          "role_id": "project_controls",
+          "candidate_id": "A",
+          "key": "PROJ-SCHED-6NJ",
+          "hidden_predicate_id": "A_delivery_weeks",
+          "threshold_label": "Guaranteed project delivery timeline",
+          "threshold_aliases": [
+            "Project delivery schedule",
+            "Commissioning lead time"
+          ],
+          "threshold_value": 40,
+          "threshold_unit": "weeks",
+          "partial_record_text": "PROJ-SCHED-6NJ: Fluence Energy Gridstack Solution. The record covers Guaranteed project delivery timeline. Turnkey procurement binding schedule; Notice to proceed to commercial operation date; Total calendar weeks committed for manufacturing, installation, and site acceptance.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 60
+          },
+          "coarse_statement": "Guaranteed project delivery timeline is at most 60 weeks.",
+          "role_name": "Commercial project controls lead (PROJ)",
+          "candidate_name": "Fluence Energy Gridstack Solution",
+          "other_candidate_names": [
+            "Tesla Megapack 2XL Utility Package",
+            "Powin Energy Centipede Modular Array"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_grid_operations_A",
+          "role_id": "grid_operations",
+          "candidate_id": "A",
+          "key": "GRID-PERF-J39",
+          "hidden_predicate_id": "A_round_trip_efficiency",
+          "threshold_label": "Round-trip energy efficiency",
+          "threshold_aliases": [
+            "Round-trip AC efficiency",
+            "RTE percentage"
+          ],
+          "threshold_value": 88,
+          "threshold_unit": "%",
+          "partial_record_text": "GRID-PERF-J39: Fluence Energy Gridstack Solution.Fluence Energy Gridstack Solution: Dedicated auxiliary parasitic load = 8 MW.Source: Auxiliary balance-of-plant load study; Scope: Chiller, HVAC, BMS, and controller power demand under maximum ambient summer conditions; Measurement: Continuous auxiliary electrical power consumed by balance-of-plant systems during full-load discharge.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "coarse_statement": "Round-trip energy efficiency is at most 100 %.",
+          "role_name": "Power quality and grid integration lead (GRID)",
+          "candidate_name": "Fluence Energy Gridstack Solution",
+          "other_candidate_names": [
+            "Tesla Megapack 2XL Utility Package",
+            "Powin Energy Centipede Modular Array"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

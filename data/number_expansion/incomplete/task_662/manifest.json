@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_662",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "survey_geophysics",
+        "subsea_robotics"
+      ],
+      "role_names": [
+        "Marine Geophysics and Acoustic Surveyor (GEOSURV)",
+        "Subsea Robotics Lead Engineer (ROVENG)"
+      ],
+      "directory": "incomplete/task_662",
+      "profiles": [
+        {
+          "record_id": "rec_survey_geophysics_A",
+          "role_id": "survey_geophysics",
+          "candidate_id": "A",
+          "key": "GEOSURV-ACOUSTIC-71G",
+          "boolean_predicate_id": "A_acoustic_localization_enabled",
+          "boolean_label": "Acoustic localization subsystem enabled",
+          "hidden_predicate_id": "A_acoustic_positioning_error",
+          "threshold_label": "Acoustic positioning circular error probable",
+          "threshold_aliases": [
+            "USBL positioning uncertainty",
+            "Acoustic tracking error margin"
+          ],
+          "threshold_value": 3.1,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOSURV-ACOUSTIC-71G: Celtic Sovereign Repair Fleet.Celtic Sovereign Repair Fleet: Acoustic localization subsystem enabled = true .Source: Subsea telemetry system pre-deployment checkout log; Scope: Vessel hull-mounted ultra-short baseline acoustic transceiver array; Measurement: Operational readiness and signal enablement of the acoustic localization subsystem.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "coarse_statement": "Acoustic positioning circular error probable is between 2 m and 6 m, inclusive.",
+          "role_name": "Marine Geophysics and Acoustic Surveyor (GEOSURV)",
+          "candidate_name": "Celtic Sovereign Repair Fleet",
+          "other_candidate_names": [
+            "Nordic Mariner Subsea Taskforce",
+            "Atlantic Seeker Cable Operations"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROVENG-TRENCH-WRQ",
+          "hidden_predicate_id": "A_trenching_depth_capability",
+          "threshold_label": "ROV burial trenching depth capability",
+          "threshold_aliases": [
+            "Subsea trenching depth",
+            "Cable burial jetting depth"
+          ],
+          "threshold_value": 1.6,
+          "threshold_unit": "m",
+          "partial_record_text": "ROVENG-TRENCH-WRQ: Celtic Sovereign Repair Fleet. The record covers ROV burial trenching depth capability. ROV sea trials commissioning record; Work-class ROV continuous hydraulic jetting sword assembly in sandy seabed silt; Demonstrated sustained trenching depth achieved below natural seabed datum.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "ROV burial trenching depth capability is between 1 m and 4 m, inclusive.",
+          "role_name": "Subsea Robotics Lead Engineer (ROVENG)",
+          "candidate_name": "Celtic Sovereign Repair Fleet",
+          "other_candidate_names": [
+            "Nordic Mariner Subsea Taskforce",
+            "Atlantic Seeker Cable Operations"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "survey_geophysics",
+        "subsea_robotics",
+        "cable_logistics"
+      ],
+      "role_names": [
+        "Marine Geophysics and Acoustic Surveyor (GEOSURV)",
+        "Subsea Robotics Lead Engineer (ROVENG)",
+        "Subsea Cable Operations Superintendent (CABLOG)"
+      ],
+      "directory": "incomplete/task_662",
+      "profiles": [
+        {
+          "record_id": "rec_survey_geophysics_A",
+          "role_id": "survey_geophysics",
+          "candidate_id": "A",
+          "key": "GEOSURV-ACOUSTIC-71G",
+          "boolean_predicate_id": "A_acoustic_localization_enabled",
+          "boolean_label": "Acoustic localization subsystem enabled",
+          "hidden_predicate_id": "A_acoustic_positioning_error",
+          "threshold_label": "Acoustic positioning circular error probable",
+          "threshold_aliases": [
+            "USBL positioning uncertainty",
+            "Acoustic tracking error margin"
+          ],
+          "threshold_value": 3.1,
+          "threshold_unit": "m",
+          "partial_record_text": "GEOSURV-ACOUSTIC-71G: Celtic Sovereign Repair Fleet.Celtic Sovereign Repair Fleet: Acoustic localization subsystem enabled = true .Source: Subsea telemetry system pre-deployment checkout log; Scope: Vessel hull-mounted ultra-short baseline acoustic transceiver array; Measurement: Operational readiness and signal enablement of the acoustic localization subsystem.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 2,
+            "upper": 6
+          },
+          "coarse_statement": "Acoustic positioning circular error probable is between 2 m and 6 m, inclusive.",
+          "role_name": "Marine Geophysics and Acoustic Surveyor (GEOSURV)",
+          "candidate_name": "Celtic Sovereign Repair Fleet",
+          "other_candidate_names": [
+            "Nordic Mariner Subsea Taskforce",
+            "Atlantic Seeker Cable Operations"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_subsea_robotics_A",
+          "role_id": "subsea_robotics",
+          "candidate_id": "A",
+          "key": "ROVENG-TRENCH-WRQ",
+          "hidden_predicate_id": "A_trenching_depth_capability",
+          "threshold_label": "ROV burial trenching depth capability",
+          "threshold_aliases": [
+            "Subsea trenching depth",
+            "Cable burial jetting depth"
+          ],
+          "threshold_value": 1.6,
+          "threshold_unit": "m",
+          "partial_record_text": "ROVENG-TRENCH-WRQ: Celtic Sovereign Repair Fleet. The record covers ROV burial trenching depth capability. ROV sea trials commissioning record; Work-class ROV continuous hydraulic jetting sword assembly in sandy seabed silt; Demonstrated sustained trenching depth achieved below natural seabed datum.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 4
+          },
+          "coarse_statement": "ROV burial trenching depth capability is between 1 m and 4 m, inclusive.",
+          "role_name": "Subsea Robotics Lead Engineer (ROVENG)",
+          "candidate_name": "Celtic Sovereign Repair Fleet",
+          "other_candidate_names": [
+            "Nordic Mariner Subsea Taskforce",
+            "Atlantic Seeker Cable Operations"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_cable_logistics_A",
+          "role_id": "cable_logistics",
+          "candidate_id": "A",
+          "key": "CABLOG-SPOOL-WBD",
+          "hidden_predicate_id": "A_mobilized_spool_weight",
+          "threshold_label": "Mobilized cable spool weight",
+          "threshold_aliases": [
+            "Spare cable spool gross weight",
+            "Loaded cable tank weight"
+          ],
+          "threshold_value": 580.0,
+          "threshold_unit": "t",
+          "partial_record_text": "CABLOG-SPOOL-WBD: Celtic Sovereign Repair Fleet. The record covers Mobilized cable spool weight. Cable loading manifest and weighbridge receipt; Spare armored transatlantic fiber-optic cable and transit basket assembly; Total gross weight of mobilized cable spool loaded onto the vessel.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 300,
+            "upper": 700
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Mobilized cable spool weight is between 300 t and 700 t, inclusive.",
+          "role_name": "Subsea Cable Operations Superintendent (CABLOG)",
+          "candidate_name": "Celtic Sovereign Repair Fleet",
+          "other_candidate_names": [
+            "Nordic Mariner Subsea Taskforce",
+            "Atlantic Seeker Cable Operations"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

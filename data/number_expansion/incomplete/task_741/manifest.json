@@ -1,0 +1,181 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_741",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "climate_conservation",
+        "vault_engineering"
+      ],
+      "role_names": [
+        "Preventive Conservation Lead (CON)",
+        "Vault Facilities Engineer (ENG)"
+      ],
+      "directory": "incomplete/task_741",
+      "profiles": [
+        {
+          "record_id": "rec_climate_conservation_A",
+          "role_id": "climate_conservation",
+          "candidate_id": "A",
+          "key": "CON-HYGRO-E5R",
+          "boolean_predicate_id": "A_continuous_hygrometric_logging_enabled",
+          "boolean_label": "Continuous hygrometric logging enabled",
+          "hidden_predicate_id": "A_relative_humidity_variance",
+          "threshold_label": "Annual relative humidity variance",
+          "threshold_aliases": [
+            "Relative humidity fluctuation",
+            "Hygrometric stability variance"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CON-HYGRO-E5R: Mount Ironwood Subterranean Repository.Mount Ironwood Subterranean Repository: Continuous hygrometric logging enabled = true .Source: Conservation instrumentation commissioning ledger; Scope: Target storage chambers; Measurement: Active status of continuous real-time multi-sensor hygrometric data acquisition.",
+          "role_name": "Preventive Conservation Lead (CON)",
+          "candidate_name": "Mount Ironwood Subterranean Repository",
+          "other_candidate_names": [
+            "St. Jude Sandstone Underground Archive",
+            "Blackridge Granite Geological Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vault_engineering_A",
+          "role_id": "vault_engineering",
+          "candidate_id": "A",
+          "key": "ENG-VOL-VG6",
+          "hidden_predicate_id": "A_gross_vault_volume",
+          "threshold_label": "Gross climate-controlled vault volume",
+          "threshold_aliases": [
+            "Gross vault volume",
+            "Total enclosed vault space"
+          ],
+          "threshold_value": 15000,
+          "threshold_unit": "m3",
+          "partial_record_text": "ENG-VOL-VG6: Mount Ironwood Subterranean Repository. The record covers Gross climate-controlled vault volume. As-built subterranean architectural survey; Primary underground archive cavern chamber; Total enclosed three-dimensional volume within internal perimeter rock walls.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Gross climate-controlled vault volume is at least 12000 m3.",
+          "role_name": "Vault Facilities Engineer (ENG)",
+          "candidate_name": "Mount Ironwood Subterranean Repository",
+          "other_candidate_names": [
+            "St. Jude Sandstone Underground Archive",
+            "Blackridge Granite Geological Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "climate_conservation",
+        "vault_engineering",
+        "spatial_planning"
+      ],
+      "role_names": [
+        "Preventive Conservation Lead (CON)",
+        "Vault Facilities Engineer (ENG)",
+        "Archival Spatial Planner (PLN)"
+      ],
+      "directory": "incomplete/task_741",
+      "profiles": [
+        {
+          "record_id": "rec_climate_conservation_A",
+          "role_id": "climate_conservation",
+          "candidate_id": "A",
+          "key": "CON-HYGRO-E5R",
+          "boolean_predicate_id": "A_continuous_hygrometric_logging_enabled",
+          "boolean_label": "Continuous hygrometric logging enabled",
+          "hidden_predicate_id": "A_relative_humidity_variance",
+          "threshold_label": "Annual relative humidity variance",
+          "threshold_aliases": [
+            "Relative humidity fluctuation",
+            "Hygrometric stability variance"
+          ],
+          "threshold_value": 4.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CON-HYGRO-E5R: Mount Ironwood Subterranean Repository.Mount Ironwood Subterranean Repository: Continuous hygrometric logging enabled = true .Source: Conservation instrumentation commissioning ledger; Scope: Target storage chambers; Measurement: Active status of continuous real-time multi-sensor hygrometric data acquisition.",
+          "role_name": "Preventive Conservation Lead (CON)",
+          "candidate_name": "Mount Ironwood Subterranean Repository",
+          "other_candidate_names": [
+            "St. Jude Sandstone Underground Archive",
+            "Blackridge Granite Geological Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_vault_engineering_A",
+          "role_id": "vault_engineering",
+          "candidate_id": "A",
+          "key": "ENG-VOL-VG6",
+          "hidden_predicate_id": "A_gross_vault_volume",
+          "threshold_label": "Gross climate-controlled vault volume",
+          "threshold_aliases": [
+            "Gross vault volume",
+            "Total enclosed vault space"
+          ],
+          "threshold_value": 15000,
+          "threshold_unit": "m3",
+          "partial_record_text": "ENG-VOL-VG6: Mount Ironwood Subterranean Repository. The record covers Gross climate-controlled vault volume. As-built subterranean architectural survey; Primary underground archive cavern chamber; Total enclosed three-dimensional volume within internal perimeter rock walls.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 12000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Gross climate-controlled vault volume is at least 12000 m3.",
+          "role_name": "Vault Facilities Engineer (ENG)",
+          "candidate_name": "Mount Ironwood Subterranean Repository",
+          "other_candidate_names": [
+            "St. Jude Sandstone Underground Archive",
+            "Blackridge Granite Geological Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_spatial_planning_A",
+          "role_id": "spatial_planning",
+          "candidate_id": "A",
+          "key": "PLN-BUFF-FJ8",
+          "hidden_predicate_id": "A_buffer_clearance_volume",
+          "threshold_label": "Perimeter structural buffer volume",
+          "threshold_aliases": [
+            "Structural buffer clearance",
+            "Perimeter standoff volume"
+          ],
+          "threshold_value": 3100,
+          "threshold_unit": "m3",
+          "partial_record_text": "PLN-BUFF-FJ8: Mount Ironwood Subterranean Repository. The record covers Perimeter structural buffer volume. Record context: including seismic displacement margins. Vault spatial partitioning plan; Required perimeter standoff and maintenance corridor buffer; Reserved non-storage volume dedicated to perimeter inspection access and air-circulation standoffs.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 1500,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Perimeter structural buffer volume is at least 1500 m3.",
+          "role_name": "Archival Spatial Planner (PLN)",
+          "candidate_name": "Mount Ironwood Subterranean Repository",
+          "other_candidate_names": [
+            "St. Jude Sandstone Underground Archive",
+            "Blackridge Granite Geological Vault"
+          ],
+          "context_value": "including seismic displacement margins",
+          "other_context_values": [
+            "excluding seismic displacement margins"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

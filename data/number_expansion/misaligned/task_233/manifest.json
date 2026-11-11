@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_233",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_engineering",
+        "security_operations"
+      ],
+      "role_names": [
+        "Facilities and power systems lead (FAC)",
+        "Physical security manager (SEC)"
+      ],
+      "directory": "number_expansion/misaligned/task_233/k2",
+      "error_profiles": [
+        {
+          "role_name": "Facilities and power systems lead (FAC)",
+          "target_key": "FAC-EPWR-CBG",
+          "alternate_key": "FAC-EPWR-QFN",
+          "target_context": "at 100% full rated electrical load",
+          "alternate_context": "at 75% average operational electrical load",
+          "candidate": "North Sea Cryogenic Bio-Vault",
+          "other_candidates": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "value": 96,
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "automated_ln2_manifold_active",
+              "label": "Automated LN2 manifold active",
+              "aliases": [
+                "Automated liquid nitrogen supply manifold",
+                "LN2 auto-fill manifold activation"
+              ]
+            },
+            {
+              "topic": "cryo_holding_autonomy_hours",
+              "label": "Continuous cryo holding autonomy",
+              "aliases": [
+                "Cryogenic thermal holding autonomy",
+                "Passive cryo storage autonomy duration"
+              ]
+            },
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ]
+            },
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ]
+            },
+            {
+              "topic": "chain_of_custody_electronic_logging",
+              "label": "Validated chain-of-custody electronic logging",
+              "aliases": [
+                "Electronic chain-of-custody audit trail",
+                "Automated specimen chain-of-custody logging"
+              ]
+            },
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ]
+            },
+            {
+              "topic": "gross_cryo_capacity",
+              "label": "Gross cryogenic storage capacity",
+              "aliases": [
+                "Gross cryogenic vial capacity",
+                "Total nominal cryo storage volume"
+              ]
+            },
+            {
+              "topic": "reserved_quarantine_capacity",
+              "label": "Reserved regulatory quarantine capacity",
+              "aliases": [
+                "Mandatory quarantine vial allocation",
+                "Regulatory reserve capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Physical security manager (SEC)",
+          "target_key": "SEC-ACCESS-8YR",
+          "alternate_key": "SEC-ACCESS-2N1",
+          "target_context": "Production environment",
+          "alternate_context": "Staging test environment",
+          "candidate": "North Sea Cryogenic Bio-Vault",
+          "other_candidates": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "value": true,
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "automated_ln2_manifold_active",
+              "label": "Automated LN2 manifold active",
+              "aliases": [
+                "Automated liquid nitrogen supply manifold",
+                "LN2 auto-fill manifold activation"
+              ]
+            },
+            {
+              "topic": "cryo_holding_autonomy_hours",
+              "label": "Continuous cryo holding autonomy",
+              "aliases": [
+                "Cryogenic thermal holding autonomy",
+                "Passive cryo storage autonomy duration"
+              ]
+            },
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ]
+            },
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ]
+            },
+            {
+              "topic": "chain_of_custody_electronic_logging",
+              "label": "Validated chain-of-custody electronic logging",
+              "aliases": [
+                "Electronic chain-of-custody audit trail",
+                "Automated specimen chain-of-custody logging"
+              ]
+            },
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ]
+            },
+            {
+              "topic": "gross_cryo_capacity",
+              "label": "Gross cryogenic storage capacity",
+              "aliases": [
+                "Gross cryogenic vial capacity",
+                "Total nominal cryo storage volume"
+              ]
+            },
+            {
+              "topic": "reserved_quarantine_capacity",
+              "label": "Reserved regulatory quarantine capacity",
+              "aliases": [
+                "Mandatory quarantine vial allocation",
+                "Regulatory reserve capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_engineering",
+        "security_operations",
+        "regulatory_compliance"
+      ],
+      "role_names": [
+        "Facilities and power systems lead (FAC)",
+        "Physical security manager (SEC)",
+        "Regulatory compliance officer (REG)"
+      ],
+      "directory": "number_expansion/misaligned/task_233/k3",
+      "error_profiles": [
+        {
+          "role_name": "Facilities and power systems lead (FAC)",
+          "target_key": "FAC-EPWR-CBG",
+          "alternate_key": "FAC-EPWR-QFN",
+          "target_context": "at 100% full rated electrical load",
+          "alternate_context": "at 75% average operational electrical load",
+          "candidate": "North Sea Cryogenic Bio-Vault",
+          "other_candidates": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "numeric": [
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "value": 96,
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ],
+              "unit": "h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "automated_ln2_manifold_active",
+              "label": "Automated LN2 manifold active",
+              "aliases": [
+                "Automated liquid nitrogen supply manifold",
+                "LN2 auto-fill manifold activation"
+              ]
+            },
+            {
+              "topic": "cryo_holding_autonomy_hours",
+              "label": "Continuous cryo holding autonomy",
+              "aliases": [
+                "Cryogenic thermal holding autonomy",
+                "Passive cryo storage autonomy duration"
+              ]
+            },
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ]
+            },
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ]
+            },
+            {
+              "topic": "chain_of_custody_electronic_logging",
+              "label": "Validated chain-of-custody electronic logging",
+              "aliases": [
+                "Electronic chain-of-custody audit trail",
+                "Automated specimen chain-of-custody logging"
+              ]
+            },
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ]
+            },
+            {
+              "topic": "gross_cryo_capacity",
+              "label": "Gross cryogenic storage capacity",
+              "aliases": [
+                "Gross cryogenic vial capacity",
+                "Total nominal cryo storage volume"
+              ]
+            },
+            {
+              "topic": "reserved_quarantine_capacity",
+              "label": "Reserved regulatory quarantine capacity",
+              "aliases": [
+                "Mandatory quarantine vial allocation",
+                "Regulatory reserve capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Physical security manager (SEC)",
+          "target_key": "SEC-ACCESS-8YR",
+          "alternate_key": "SEC-ACCESS-2N1",
+          "target_context": "Production environment",
+          "alternate_context": "Staging test environment",
+          "candidate": "North Sea Cryogenic Bio-Vault",
+          "other_candidates": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "value": true,
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "automated_ln2_manifold_active",
+              "label": "Automated LN2 manifold active",
+              "aliases": [
+                "Automated liquid nitrogen supply manifold",
+                "LN2 auto-fill manifold activation"
+              ]
+            },
+            {
+              "topic": "cryo_holding_autonomy_hours",
+              "label": "Continuous cryo holding autonomy",
+              "aliases": [
+                "Cryogenic thermal holding autonomy",
+                "Passive cryo storage autonomy duration"
+              ]
+            },
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ]
+            },
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ]
+            },
+            {
+              "topic": "chain_of_custody_electronic_logging",
+              "label": "Validated chain-of-custody electronic logging",
+              "aliases": [
+                "Electronic chain-of-custody audit trail",
+                "Automated specimen chain-of-custody logging"
+              ]
+            },
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ]
+            },
+            {
+              "topic": "gross_cryo_capacity",
+              "label": "Gross cryogenic storage capacity",
+              "aliases": [
+                "Gross cryogenic vial capacity",
+                "Total nominal cryo storage volume"
+              ]
+            },
+            {
+              "topic": "reserved_quarantine_capacity",
+              "label": "Reserved regulatory quarantine capacity",
+              "aliases": [
+                "Mandatory quarantine vial allocation",
+                "Regulatory reserve capacity"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Regulatory compliance officer (REG)",
+          "target_key": "REG-CGMP-7NQ",
+          "alternate_key": "REG-CGMP-ING",
+          "target_context": "July 2025",
+          "alternate_context": "August 2025",
+          "candidate": "North Sea Cryogenic Bio-Vault",
+          "other_candidates": [
+            "Bavarian Biomedical Storage Center",
+            "Rhine-Alpine Cryo-Repository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "value": true,
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "automated_ln2_manifold_active",
+              "label": "Automated LN2 manifold active",
+              "aliases": [
+                "Automated liquid nitrogen supply manifold",
+                "LN2 auto-fill manifold activation"
+              ]
+            },
+            {
+              "topic": "cryo_holding_autonomy_hours",
+              "label": "Continuous cryo holding autonomy",
+              "aliases": [
+                "Cryogenic thermal holding autonomy",
+                "Passive cryo storage autonomy duration"
+              ]
+            },
+            {
+              "topic": "emergency_generator_fuel_hours",
+              "label": "Emergency generator continuous fuel endurance",
+              "aliases": [
+                "Emergency backup power fuel duration",
+                "Dedicated generator fuel autonomy"
+              ]
+            },
+            {
+              "topic": "cgmp_biomaterial_licensed",
+              "label": "cGMP biological material licensing",
+              "aliases": [
+                "cGMP biobanking license",
+                "Good manufacturing practice biological storage license"
+              ]
+            },
+            {
+              "topic": "chain_of_custody_electronic_logging",
+              "label": "Validated chain-of-custody electronic logging",
+              "aliases": [
+                "Electronic chain-of-custody audit trail",
+                "Automated specimen chain-of-custody logging"
+              ]
+            },
+            {
+              "topic": "dual_factor_biometric_access_enabled",
+              "label": "Dual-factor biometric vault access",
+              "aliases": [
+                "Biometric dual-factor access control",
+                "Two-factor biometric entryway authentication"
+              ]
+            },
+            {
+              "topic": "gross_cryo_capacity",
+              "label": "Gross cryogenic storage capacity",
+              "aliases": [
+                "Gross cryogenic vial capacity",
+                "Total nominal cryo storage volume"
+              ]
+            },
+            {
+              "topic": "reserved_quarantine_capacity",
+              "label": "Reserved regulatory quarantine capacity",
+              "aliases": [
+                "Mandatory quarantine vial allocation",
+                "Regulatory reserve capacity"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

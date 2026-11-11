@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_391",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_engineering_lead",
+        "geotechnical_trenching_specialist"
+      ],
+      "role_names": [
+        "Marine engineering lead (ENG)",
+        "Geotechnical trenching specialist (GEO)"
+      ],
+      "directory": "incomplete/task_391",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_lead_A",
+          "role_id": "marine_engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-TEN-ZLL",
+          "boolean_predicate_id": "A_tension_monitoring_active",
+          "boolean_label": "Dynamic cable tension monitoring active",
+          "hidden_predicate_id": "A_max_pull_tension",
+          "threshold_label": "Maximum allowable pull-in tension",
+          "threshold_aliases": [
+            "Pull-in tension threshold",
+            "Cable tension limit"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "kN",
+          "partial_record_text": "ENG-TEN-ZLL: Nordic Trenching and Dynamic Cable Joint Venture.Nordic Trenching and Dynamic Cable Joint Venture: Dynamic cable tension monitoring active = true .Source: Cable lay control console log; Scope: Vessel main tensioner caterpillar tracks; Measurement: Real-time load cell telemetry system operational flag.Nordic Trenching and Dynamic Cable Joint Venture: Standard cable lay rate = 540 m/h.Source: Installation vessel sea-trial report; Scope: Open-water unburied carousel payout; Measurement: Nominal continuous cable payout speed under calm sea state.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Maximum allowable pull-in tension is at most 700 kN.",
+          "role_name": "Marine engineering lead (ENG)",
+          "candidate_name": "Nordic Trenching and Dynamic Cable Joint Venture",
+          "other_candidate_names": [
+            "Oceanic Seabed Solutions and Power Interconnect Group",
+            "Celtic Subsea Power and Marine Engineering Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_trenching_specialist_A",
+          "role_id": "geotechnical_trenching_specialist",
+          "candidate_id": "A",
+          "key": "GEO-TRENCH-NBB",
+          "hidden_predicate_id": "A_trenching_advance_rate",
+          "threshold_label": "Burial trenching advance rate",
+          "threshold_aliases": [
+            "Jet-trenching advance rate",
+            "Seabed burial rate"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "m/h",
+          "partial_record_text": "GEO-TRENCH-NBB: Nordic Trenching and Dynamic Cable Joint Venture. The record covers Burial trenching advance rate. Geotechnical ROV performance datasheet; Simultaneous lay-and-burial corridor in dense sand; Verified trench cutter progression speed per operational hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Burial trenching advance rate is at most 400 m/h.",
+          "role_name": "Geotechnical trenching specialist (GEO)",
+          "candidate_name": "Nordic Trenching and Dynamic Cable Joint Venture",
+          "other_candidate_names": [
+            "Oceanic Seabed Solutions and Power Interconnect Group",
+            "Celtic Subsea Power and Marine Engineering Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_engineering_lead",
+        "geotechnical_trenching_specialist",
+        "metocean_weather_analyst"
+      ],
+      "role_names": [
+        "Marine engineering lead (ENG)",
+        "Geotechnical trenching specialist (GEO)",
+        "Metocean weather analyst (MET)"
+      ],
+      "directory": "incomplete/task_391",
+      "profiles": [
+        {
+          "record_id": "rec_marine_engineering_lead_A",
+          "role_id": "marine_engineering_lead",
+          "candidate_id": "A",
+          "key": "ENG-TEN-ZLL",
+          "boolean_predicate_id": "A_tension_monitoring_active",
+          "boolean_label": "Dynamic cable tension monitoring active",
+          "hidden_predicate_id": "A_max_pull_tension",
+          "threshold_label": "Maximum allowable pull-in tension",
+          "threshold_aliases": [
+            "Pull-in tension threshold",
+            "Cable tension limit"
+          ],
+          "threshold_value": 450,
+          "threshold_unit": "kN",
+          "partial_record_text": "ENG-TEN-ZLL: Nordic Trenching and Dynamic Cable Joint Venture.Nordic Trenching and Dynamic Cable Joint Venture: Dynamic cable tension monitoring active = true .Source: Cable lay control console log; Scope: Vessel main tensioner caterpillar tracks; Measurement: Real-time load cell telemetry system operational flag.Nordic Trenching and Dynamic Cable Joint Venture: Standard cable lay rate = 540 m/h.Source: Installation vessel sea-trial report; Scope: Open-water unburied carousel payout; Measurement: Nominal continuous cable payout speed under calm sea state.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 700
+          },
+          "coarse_statement": "Maximum allowable pull-in tension is at most 700 kN.",
+          "role_name": "Marine engineering lead (ENG)",
+          "candidate_name": "Nordic Trenching and Dynamic Cable Joint Venture",
+          "other_candidate_names": [
+            "Oceanic Seabed Solutions and Power Interconnect Group",
+            "Celtic Subsea Power and Marine Engineering Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geotechnical_trenching_specialist_A",
+          "role_id": "geotechnical_trenching_specialist",
+          "candidate_id": "A",
+          "key": "GEO-TRENCH-NBB",
+          "hidden_predicate_id": "A_trenching_advance_rate",
+          "threshold_label": "Burial trenching advance rate",
+          "threshold_aliases": [
+            "Jet-trenching advance rate",
+            "Seabed burial rate"
+          ],
+          "threshold_value": 210,
+          "threshold_unit": "m/h",
+          "partial_record_text": "GEO-TRENCH-NBB: Nordic Trenching and Dynamic Cable Joint Venture. The record covers Burial trenching advance rate. Geotechnical ROV performance datasheet; Simultaneous lay-and-burial corridor in dense sand; Verified trench cutter progression speed per operational hour.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Burial trenching advance rate is at most 400 m/h.",
+          "role_name": "Geotechnical trenching specialist (GEO)",
+          "candidate_name": "Nordic Trenching and Dynamic Cable Joint Venture",
+          "other_candidate_names": [
+            "Oceanic Seabed Solutions and Power Interconnect Group",
+            "Celtic Subsea Power and Marine Engineering Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_metocean_weather_analyst_A",
+          "role_id": "metocean_weather_analyst",
+          "candidate_id": "A",
+          "key": "MET-WTHR-U50",
+          "hidden_predicate_id": "A_weather_contingency_rate",
+          "threshold_label": "Weather contingency buffer rate",
+          "threshold_aliases": [
+            "Metocean buffer deduction",
+            "Weather down-time adjustment"
+          ],
+          "threshold_value": 60,
+          "threshold_unit": "m/h",
+          "partial_record_text": "MET-WTHR-U50: Nordic Trenching and Dynamic Cable Joint Venture. The record covers Weather contingency buffer rate. Offshore weather risk mitigation schedule; Seasonal swell and wave window forecast; Deduction buffer applied to account for sea-state waiting-on-weather periods.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Weather contingency buffer rate is at most 300 m/h.",
+          "role_name": "Metocean weather analyst (MET)",
+          "candidate_name": "Nordic Trenching and Dynamic Cable Joint Venture",
+          "other_candidate_names": [
+            "Oceanic Seabed Solutions and Power Interconnect Group",
+            "Celtic Subsea Power and Marine Engineering Alliance"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_585",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "environmental_health",
+        "utilities_infrastructure"
+      ],
+      "role_names": [
+        "Environmental health officer (ENV)",
+        "Utilities and municipal infrastructure engineer (UTIL)"
+      ],
+      "directory": "incomplete/task_585",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "ENV-AIRTOX-68C",
+          "boolean_predicate_id": "A_cbrn_filtration_active",
+          "boolean_label": "Active CBRN air filtration system",
+          "hidden_predicate_id": "A_particulate_filtration_efficiency",
+          "threshold_label": "Air particulate filtration efficiency",
+          "threshold_aliases": [
+            "Filtration efficiency",
+            "Aerosol particulate capture rate"
+          ],
+          "threshold_value": 99.5,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-AIRTOX-68C: Caserta North Fairgrounds Complex.Caserta North Fairgrounds Complex: Active CBRN air filtration system = true .Source: Environmental containment commissioning log; Scope: Shelter positive-pressure air handling system; Measurement: Operational enablement of the automated chemical, biological, radiological, and nuclear air filtration unit.",
+          "role_name": "Environmental health officer (ENV)",
+          "candidate_name": "Caserta North Fairgrounds Complex",
+          "other_candidate_names": [
+            "Afragola Intermodal Logistics Terminal",
+            "Capua Airfield Civil Protection Cantonment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_infrastructure_A",
+          "role_id": "utilities_infrastructure",
+          "candidate_id": "A",
+          "key": "UTIL-GRID-S89",
+          "hidden_predicate_id": "A_water_reserve_autonomy",
+          "threshold_label": "Potable water reserve autonomy",
+          "threshold_aliases": [
+            "Water reserve autonomy",
+            "Drinking water storage endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-GRID-S89: Caserta North Fairgrounds Complex.Caserta North Fairgrounds Complex: Guaranteed auxiliary electrical generation capacity = 1200 kW.Source: Emergency electrical plant commissioning certificate; Scope: On-site prime-power diesel generator banks; Measurement: Continuous electrical power output sustainably deliverable under full island-mode operation.",
+          "role_name": "Utilities and municipal infrastructure engineer (UTIL)",
+          "candidate_name": "Caserta North Fairgrounds Complex",
+          "other_candidate_names": [
+            "Afragola Intermodal Logistics Terminal",
+            "Capua Airfield Civil Protection Cantonment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "environmental_health",
+        "utilities_infrastructure",
+        "medical_operations"
+      ],
+      "role_names": [
+        "Environmental health officer (ENV)",
+        "Utilities and municipal infrastructure engineer (UTIL)",
+        "Emergency medical services director (MED)"
+      ],
+      "directory": "incomplete/task_585",
+      "profiles": [
+        {
+          "record_id": "rec_environmental_health_A",
+          "role_id": "environmental_health",
+          "candidate_id": "A",
+          "key": "ENV-AIRTOX-68C",
+          "boolean_predicate_id": "A_cbrn_filtration_active",
+          "boolean_label": "Active CBRN air filtration system",
+          "hidden_predicate_id": "A_particulate_filtration_efficiency",
+          "threshold_label": "Air particulate filtration efficiency",
+          "threshold_aliases": [
+            "Filtration efficiency",
+            "Aerosol particulate capture rate"
+          ],
+          "threshold_value": 99.5,
+          "threshold_unit": "%",
+          "partial_record_text": "ENV-AIRTOX-68C: Caserta North Fairgrounds Complex.Caserta North Fairgrounds Complex: Active CBRN air filtration system = true .Source: Environmental containment commissioning log; Scope: Shelter positive-pressure air handling system; Measurement: Operational enablement of the automated chemical, biological, radiological, and nuclear air filtration unit.",
+          "role_name": "Environmental health officer (ENV)",
+          "candidate_name": "Caserta North Fairgrounds Complex",
+          "other_candidate_names": [
+            "Afragola Intermodal Logistics Terminal",
+            "Capua Airfield Civil Protection Cantonment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_utilities_infrastructure_A",
+          "role_id": "utilities_infrastructure",
+          "candidate_id": "A",
+          "key": "UTIL-GRID-S89",
+          "hidden_predicate_id": "A_water_reserve_autonomy",
+          "threshold_label": "Potable water reserve autonomy",
+          "threshold_aliases": [
+            "Water reserve autonomy",
+            "Drinking water storage endurance"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "UTIL-GRID-S89: Caserta North Fairgrounds Complex.Caserta North Fairgrounds Complex: Guaranteed auxiliary electrical generation capacity = 1200 kW.Source: Emergency electrical plant commissioning certificate; Scope: On-site prime-power diesel generator banks; Measurement: Continuous electrical power output sustainably deliverable under full island-mode operation.",
+          "role_name": "Utilities and municipal infrastructure engineer (UTIL)",
+          "candidate_name": "Caserta North Fairgrounds Complex",
+          "other_candidate_names": [
+            "Afragola Intermodal Logistics Terminal",
+            "Capua Airfield Civil Protection Cantonment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_medical_operations_A",
+          "role_id": "medical_operations",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-7KS",
+          "hidden_predicate_id": "A_peak_medical_power_demand",
+          "threshold_label": "Peak life-support electrical demand",
+          "threshold_aliases": [
+            "Peak medical electrical load",
+            "Critical medical power requirement"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "kW",
+          "partial_record_text": "MED-CLINIC-7KS: Caserta North Fairgrounds Complex. The record covers Peak life-support electrical demand. Emergency clinical infrastructure load schedule; Shelter field hospital triage bays, intensive care ventilators, and refrigeration units; Maximum simultaneous electrical power requirement during peak medical intake operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 750
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Peak life-support electrical demand is at most 750 kW.",
+          "role_name": "Emergency medical services director (MED)",
+          "candidate_name": "Caserta North Fairgrounds Complex",
+          "other_candidate_names": [
+            "Afragola Intermodal Logistics Terminal",
+            "Capua Airfield Civil Protection Cantonment"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

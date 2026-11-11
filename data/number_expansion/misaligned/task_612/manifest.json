@@ -1,0 +1,514 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_612",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "power_systems_lead",
+        "logistics_lead"
+      ],
+      "role_names": [
+        "Autonomous microgrid systems lead (PWR)",
+        "High-altitude logistics and aviation lead (LOG)"
+      ],
+      "directory": "number_expansion/misaligned/task_612/k2",
+      "error_profiles": [
+        {
+          "role_name": "Autonomous microgrid systems lead (PWR)",
+          "target_key": "PWR-SOLAR-W55",
+          "alternate_key": "PWR-SOLAR-JB5",
+          "target_context": "net output after auxiliary parasitic load deductions",
+          "alternate_context": "gross output before auxiliary parasitic load deductions",
+          "candidate": "Punta del Viento Ridge Station",
+          "other_candidates": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "numeric": [
+            {
+              "topic": "battery_autonomy_duration",
+              "value": 120,
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "value": 44,
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ],
+              "unit": "kWh"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "broadband_seismometer_deployed",
+              "label": "Broadband seismometer array deployed",
+              "aliases": [
+                "Seismometer array deployment",
+                "Broadband seismic sensor status"
+              ]
+            },
+            {
+              "topic": "telemetry_transmission_latency",
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ]
+            },
+            {
+              "topic": "multi_gas_station_active",
+              "label": "Active multi-gas geochemical station",
+              "aliases": [
+                "Multi-gas station operational status",
+                "Volcanic gas analyzer activation"
+              ]
+            },
+            {
+              "topic": "battery_autonomy_duration",
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ]
+            },
+            {
+              "topic": "heat_exchanger_certified",
+              "label": "Certified volcanic heat exchanger",
+              "aliases": [
+                "Heat exchanger corrosion clearance",
+                "Fumarolic thermal loop certification"
+              ]
+            },
+            {
+              "topic": "all_weather_helipad_certified",
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ]
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ]
+            },
+            {
+              "topic": "thermoelectric_daily_yield",
+              "label": "Thermoelectric generator daily yield",
+              "aliases": [
+                "Volcanic ground-heat generator daily yield",
+                "Thermoelectric auxiliary daily output"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "High-altitude logistics and aviation lead (LOG)",
+          "target_key": "LOG-HELI-1NT",
+          "alternate_key": "LOG-HELI-PG2",
+          "target_context": "Standard Version 3",
+          "alternate_context": "Standard Version 2",
+          "candidate": "Punta del Viento Ridge Station",
+          "other_candidates": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "all_weather_helipad_certified",
+              "value": true,
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "broadband_seismometer_deployed",
+              "label": "Broadband seismometer array deployed",
+              "aliases": [
+                "Seismometer array deployment",
+                "Broadband seismic sensor status"
+              ]
+            },
+            {
+              "topic": "telemetry_transmission_latency",
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ]
+            },
+            {
+              "topic": "multi_gas_station_active",
+              "label": "Active multi-gas geochemical station",
+              "aliases": [
+                "Multi-gas station operational status",
+                "Volcanic gas analyzer activation"
+              ]
+            },
+            {
+              "topic": "battery_autonomy_duration",
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ]
+            },
+            {
+              "topic": "heat_exchanger_certified",
+              "label": "Certified volcanic heat exchanger",
+              "aliases": [
+                "Heat exchanger corrosion clearance",
+                "Fumarolic thermal loop certification"
+              ]
+            },
+            {
+              "topic": "all_weather_helipad_certified",
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ]
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ]
+            },
+            {
+              "topic": "thermoelectric_daily_yield",
+              "label": "Thermoelectric generator daily yield",
+              "aliases": [
+                "Volcanic ground-heat generator daily yield",
+                "Thermoelectric auxiliary daily output"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "power_systems_lead",
+        "logistics_lead",
+        "geophysics_lead"
+      ],
+      "role_names": [
+        "Autonomous microgrid systems lead (PWR)",
+        "High-altitude logistics and aviation lead (LOG)",
+        "Geophysics and seismic monitoring lead (GEO)"
+      ],
+      "directory": "number_expansion/misaligned/task_612/k3",
+      "error_profiles": [
+        {
+          "role_name": "Autonomous microgrid systems lead (PWR)",
+          "target_key": "PWR-SOLAR-W55",
+          "alternate_key": "PWR-SOLAR-JB5",
+          "target_context": "net output after auxiliary parasitic load deductions",
+          "alternate_context": "gross output before auxiliary parasitic load deductions",
+          "candidate": "Punta del Viento Ridge Station",
+          "other_candidates": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "numeric": [
+            {
+              "topic": "battery_autonomy_duration",
+              "value": 120,
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "value": 44,
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ],
+              "unit": "kWh"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "broadband_seismometer_deployed",
+              "label": "Broadband seismometer array deployed",
+              "aliases": [
+                "Seismometer array deployment",
+                "Broadband seismic sensor status"
+              ]
+            },
+            {
+              "topic": "telemetry_transmission_latency",
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ]
+            },
+            {
+              "topic": "multi_gas_station_active",
+              "label": "Active multi-gas geochemical station",
+              "aliases": [
+                "Multi-gas station operational status",
+                "Volcanic gas analyzer activation"
+              ]
+            },
+            {
+              "topic": "battery_autonomy_duration",
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ]
+            },
+            {
+              "topic": "heat_exchanger_certified",
+              "label": "Certified volcanic heat exchanger",
+              "aliases": [
+                "Heat exchanger corrosion clearance",
+                "Fumarolic thermal loop certification"
+              ]
+            },
+            {
+              "topic": "all_weather_helipad_certified",
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ]
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ]
+            },
+            {
+              "topic": "thermoelectric_daily_yield",
+              "label": "Thermoelectric generator daily yield",
+              "aliases": [
+                "Volcanic ground-heat generator daily yield",
+                "Thermoelectric auxiliary daily output"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "High-altitude logistics and aviation lead (LOG)",
+          "target_key": "LOG-HELI-1NT",
+          "alternate_key": "LOG-HELI-PG2",
+          "target_context": "Standard Version 3",
+          "alternate_context": "Standard Version 2",
+          "candidate": "Punta del Viento Ridge Station",
+          "other_candidates": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "all_weather_helipad_certified",
+              "value": true,
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "broadband_seismometer_deployed",
+              "label": "Broadband seismometer array deployed",
+              "aliases": [
+                "Seismometer array deployment",
+                "Broadband seismic sensor status"
+              ]
+            },
+            {
+              "topic": "telemetry_transmission_latency",
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ]
+            },
+            {
+              "topic": "multi_gas_station_active",
+              "label": "Active multi-gas geochemical station",
+              "aliases": [
+                "Multi-gas station operational status",
+                "Volcanic gas analyzer activation"
+              ]
+            },
+            {
+              "topic": "battery_autonomy_duration",
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ]
+            },
+            {
+              "topic": "heat_exchanger_certified",
+              "label": "Certified volcanic heat exchanger",
+              "aliases": [
+                "Heat exchanger corrosion clearance",
+                "Fumarolic thermal loop certification"
+              ]
+            },
+            {
+              "topic": "all_weather_helipad_certified",
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ]
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ]
+            },
+            {
+              "topic": "thermoelectric_daily_yield",
+              "label": "Thermoelectric generator daily yield",
+              "aliases": [
+                "Volcanic ground-heat generator daily yield",
+                "Thermoelectric auxiliary daily output"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Geophysics and seismic monitoring lead (GEO)",
+          "target_key": "GEO-SEISM-U1B",
+          "alternate_key": "GEO-SEISM-SZI",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Punta del Viento Ridge Station",
+          "other_candidates": [
+            "Quebrada Brava Caldera Outpost",
+            "Meseta Blanca High-Plateau Base"
+          ],
+          "numeric": [
+            {
+              "topic": "telemetry_transmission_latency",
+              "value": 410,
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "broadband_seismometer_deployed",
+              "label": "Broadband seismometer array deployed",
+              "aliases": [
+                "Seismometer array deployment",
+                "Broadband seismic sensor status"
+              ]
+            },
+            {
+              "topic": "telemetry_transmission_latency",
+              "label": "Telemetry transmission latency",
+              "aliases": [
+                "Seismic packet latency",
+                "Data transmission delay"
+              ]
+            },
+            {
+              "topic": "multi_gas_station_active",
+              "label": "Active multi-gas geochemical station",
+              "aliases": [
+                "Multi-gas station operational status",
+                "Volcanic gas analyzer activation"
+              ]
+            },
+            {
+              "topic": "battery_autonomy_duration",
+              "label": "Battery autonomy duration",
+              "aliases": [
+                "Autonomous power endurance",
+                "Zero-recharge battery reserve"
+              ]
+            },
+            {
+              "topic": "heat_exchanger_certified",
+              "label": "Certified volcanic heat exchanger",
+              "aliases": [
+                "Heat exchanger corrosion clearance",
+                "Fumarolic thermal loop certification"
+              ]
+            },
+            {
+              "topic": "all_weather_helipad_certified",
+              "label": "Certified all-weather helipad",
+              "aliases": [
+                "Aviation landing pad certification",
+                "Emergency evacuation helipad clearance"
+              ]
+            },
+            {
+              "topic": "primary_microgrid_daily_yield",
+              "label": "Primary solar-hydrogen microgrid daily yield",
+              "aliases": [
+                "Solar microgrid daily energy generation",
+                "Primary daily renewable output"
+              ]
+            },
+            {
+              "topic": "thermoelectric_daily_yield",
+              "label": "Thermoelectric generator daily yield",
+              "aliases": [
+                "Volcanic ground-heat generator daily yield",
+                "Thermoelectric auxiliary daily output"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

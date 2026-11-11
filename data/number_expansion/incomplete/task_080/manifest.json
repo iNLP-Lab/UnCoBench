@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_080",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "quality_assurance_lead",
+        "ramp_ground_handling_coordinator"
+      ],
+      "role_names": [
+        "Quality assurance and pharmaceutical compliance manager (QAC)",
+        "Ground handling and apron transfer coordinator (RMP)"
+      ],
+      "directory": "incomplete/task_080",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_lead_A",
+          "role_id": "quality_assurance_lead",
+          "candidate_id": "A",
+          "key": "QAC-VAL-WMF",
+          "boolean_predicate_id": "A_sublimation_monitor_deployed",
+          "boolean_label": "Active dry-ice sublimation monitoring deployment",
+          "hidden_predicate_id": "A_temperature_excursion_duration",
+          "threshold_label": "Maximum en-route temperature excursion duration",
+          "threshold_aliases": [
+            "Permissible thermal excursion window",
+            "En-route temperature breach duration"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "QAC-VAL-WMF: AeroTrans Global Express Charter.AeroTrans Global Express Charter: IATA CEIV Pharma certification = true .Source: IATA global registry of validated entities; Scope: Charter carrier operational certificates as of current fiscal quarter; Measurement: Validation whether the carrier holds active Center of Excellence for Independent Validators in Pharmaceutical Logistics certification.AeroTrans Global Express Charter: Active dry-ice sublimation monitoring deployment = true .Source: Cargo holds telemetry readiness docket; Scope: Candidate aircraft cargo compartment environmental avionics; Measurement: Presence of active wireless carbon dioxide sublimation monitoring and cabin venting telemetry equipment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum en-route temperature excursion duration is between 5 min and 50 min, inclusive.",
+          "role_name": "Quality assurance and pharmaceutical compliance manager (QAC)",
+          "candidate_name": "AeroTrans Global Express Charter",
+          "other_candidate_names": [
+            "Polaris Heavy Cargo Air Bridge",
+            "Vanguard Intercontinental Logistics Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ramp_ground_handling_coordinator_A",
+          "role_id": "ramp_ground_handling_coordinator",
+          "candidate_id": "A",
+          "key": "RMP-RAMP-QKK",
+          "hidden_predicate_id": "A_ramp_transfer_duration",
+          "threshold_label": "Ramp cargo transfer duration",
+          "threshold_aliases": [
+            "Apron transfer time",
+            "Tarmac offload dwell duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "RMP-RAMP-QKK: AeroTrans Global Express Charter.AeroTrans Global Express Charter: Lower-deck climate-controlled pallet capacity = 16000 kg.Source: Lower cargo hold layout specification; Scope: Forward and aft lower-deck cargo compartments fitted with active ventilation; Measurement: Certified usable freight payload capacity for climate-controlled PMC pallets in the aircraft belly compartments.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Ramp cargo transfer duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Ground handling and apron transfer coordinator (RMP)",
+          "candidate_name": "AeroTrans Global Express Charter",
+          "other_candidate_names": [
+            "Polaris Heavy Cargo Air Bridge",
+            "Vanguard Intercontinental Logistics Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "quality_assurance_lead",
+        "ramp_ground_handling_coordinator",
+        "flight_operations_officer"
+      ],
+      "role_names": [
+        "Quality assurance and pharmaceutical compliance manager (QAC)",
+        "Ground handling and apron transfer coordinator (RMP)",
+        "Flight operations and regulatory clearance director (FOP)"
+      ],
+      "directory": "incomplete/task_080",
+      "profiles": [
+        {
+          "record_id": "rec_quality_assurance_lead_A",
+          "role_id": "quality_assurance_lead",
+          "candidate_id": "A",
+          "key": "QAC-VAL-WMF",
+          "boolean_predicate_id": "A_sublimation_monitor_deployed",
+          "boolean_label": "Active dry-ice sublimation monitoring deployment",
+          "hidden_predicate_id": "A_temperature_excursion_duration",
+          "threshold_label": "Maximum en-route temperature excursion duration",
+          "threshold_aliases": [
+            "Permissible thermal excursion window",
+            "En-route temperature breach duration"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "min",
+          "partial_record_text": "QAC-VAL-WMF: AeroTrans Global Express Charter.AeroTrans Global Express Charter: IATA CEIV Pharma certification = true .Source: IATA global registry of validated entities; Scope: Charter carrier operational certificates as of current fiscal quarter; Measurement: Validation whether the carrier holds active Center of Excellence for Independent Validators in Pharmaceutical Logistics certification.AeroTrans Global Express Charter: Active dry-ice sublimation monitoring deployment = true .Source: Cargo holds telemetry readiness docket; Scope: Candidate aircraft cargo compartment environmental avionics; Measurement: Presence of active wireless carbon dioxide sublimation monitoring and cabin venting telemetry equipment.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 50
+          },
+          "coarse_statement": "Maximum en-route temperature excursion duration is between 5 min and 50 min, inclusive.",
+          "role_name": "Quality assurance and pharmaceutical compliance manager (QAC)",
+          "candidate_name": "AeroTrans Global Express Charter",
+          "other_candidate_names": [
+            "Polaris Heavy Cargo Air Bridge",
+            "Vanguard Intercontinental Logistics Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ramp_ground_handling_coordinator_A",
+          "role_id": "ramp_ground_handling_coordinator",
+          "candidate_id": "A",
+          "key": "RMP-RAMP-QKK",
+          "hidden_predicate_id": "A_ramp_transfer_duration",
+          "threshold_label": "Ramp cargo transfer duration",
+          "threshold_aliases": [
+            "Apron transfer time",
+            "Tarmac offload dwell duration"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "min",
+          "partial_record_text": "RMP-RAMP-QKK: AeroTrans Global Express Charter.AeroTrans Global Express Charter: Lower-deck climate-controlled pallet capacity = 16000 kg.Source: Lower cargo hold layout specification; Scope: Forward and aft lower-deck cargo compartments fitted with active ventilation; Measurement: Certified usable freight payload capacity for climate-controlled PMC pallets in the aircraft belly compartments.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 90
+          },
+          "coarse_statement": "Ramp cargo transfer duration is between 20 min and 90 min, inclusive.",
+          "role_name": "Ground handling and apron transfer coordinator (RMP)",
+          "candidate_name": "AeroTrans Global Express Charter",
+          "other_candidate_names": [
+            "Polaris Heavy Cargo Air Bridge",
+            "Vanguard Intercontinental Logistics Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_officer_A",
+          "role_id": "flight_operations_officer",
+          "candidate_id": "A",
+          "key": "FOP-AIR-BUN",
+          "hidden_predicate_id": "A_main_deck_payload_capacity",
+          "threshold_label": "Main-deck refrigerated container capacity",
+          "threshold_aliases": [
+            "Main deck cold cargo capacity",
+            "Upper deck refrigerated payload"
+          ],
+          "threshold_value": 34000,
+          "threshold_unit": "kg",
+          "partial_record_text": "FOP-AIR-BUN: AeroTrans Global Express Charter.AeroTrans Global Express Charter: Civil aviation bilateral landing slot clearance = true .Source: International civil aviation authority permit register; Scope: Designated destination international gateway airports for the scheduled charter window; Measurement: Secured and irrevocable bilateral landing slot and apron arrival clearance status.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 10000,
+            "upper": 60000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Main-deck refrigerated container capacity is between 10000 kg and 60000 kg, inclusive.",
+          "role_name": "Flight operations and regulatory clearance director (FOP)",
+          "candidate_name": "AeroTrans Global Express Charter",
+          "other_candidate_names": [
+            "Polaris Heavy Cargo Air Bridge",
+            "Vanguard Intercontinental Logistics Consortium"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

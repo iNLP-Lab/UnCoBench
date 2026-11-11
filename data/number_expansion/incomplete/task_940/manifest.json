@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_940",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "instrumentation_lead",
+        "power_systems_lead"
+      ],
+      "role_names": [
+        "Instrumentation and telemetry lead (INST)",
+        "Off-grid power systems engineer (PWR)"
+      ],
+      "directory": "incomplete/task_940",
+      "profiles": [
+        {
+          "record_id": "rec_instrumentation_lead_A",
+          "role_id": "instrumentation_lead",
+          "candidate_id": "A",
+          "key": "INST-SENS-RWI",
+          "boolean_predicate_id": "A_sensor_grid_active",
+          "boolean_label": "Active microclimate sensor grid telemetry",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Sensor telemetry packet loss",
+          "threshold_aliases": [
+            "Telemetry transmission packet drop rate",
+            "Network packet loss percentage"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "INST-SENS-RWI: Monteverde Cloud Forest Enclave.Monteverde Cloud Forest Enclave: Active microclimate sensor grid telemetry = true .Source: Telemetry gateway status register; Scope: Canopy-to-ground automated microclimate sensor nodes; Measurement: System confirmation that real-time wireless telemetry uplink is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Sensor telemetry packet loss is at most 9 %.",
+          "role_name": "Instrumentation and telemetry lead (INST)",
+          "candidate_name": "Monteverde Cloud Forest Enclave",
+          "other_candidate_names": [
+            "Osa Peninsula Lowland Station",
+            "Sarapiquí Riparian Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "PWR-SOLAR-UOD",
+          "hidden_predicate_id": "A_solar_battery_autonomy",
+          "threshold_label": "Solar battery autonomy",
+          "threshold_aliases": [
+            "Continuous battery reserve duration",
+            "Off-grid power autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-SOLAR-UOD: Monteverde Cloud Forest Enclave. The record covers Solar battery autonomy. Battery discharge audit certificate; Station central lithium-iron-phosphate battery bank; Duration the battery bank maintains base scientific equipment loads without solar input.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Solar battery autonomy is at most 300 h.",
+          "role_name": "Off-grid power systems engineer (PWR)",
+          "candidate_name": "Monteverde Cloud Forest Enclave",
+          "other_candidate_names": [
+            "Osa Peninsula Lowland Station",
+            "Sarapiquí Riparian Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "instrumentation_lead",
+        "power_systems_lead",
+        "logistics_lead"
+      ],
+      "role_names": [
+        "Instrumentation and telemetry lead (INST)",
+        "Off-grid power systems engineer (PWR)",
+        "Field expedition logistics coordinator (LOG)"
+      ],
+      "directory": "incomplete/task_940",
+      "profiles": [
+        {
+          "record_id": "rec_instrumentation_lead_A",
+          "role_id": "instrumentation_lead",
+          "candidate_id": "A",
+          "key": "INST-SENS-RWI",
+          "boolean_predicate_id": "A_sensor_grid_active",
+          "boolean_label": "Active microclimate sensor grid telemetry",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Sensor telemetry packet loss",
+          "threshold_aliases": [
+            "Telemetry transmission packet drop rate",
+            "Network packet loss percentage"
+          ],
+          "threshold_value": 4,
+          "threshold_unit": "%",
+          "partial_record_text": "INST-SENS-RWI: Monteverde Cloud Forest Enclave.Monteverde Cloud Forest Enclave: Active microclimate sensor grid telemetry = true .Source: Telemetry gateway status register; Scope: Canopy-to-ground automated microclimate sensor nodes; Measurement: System confirmation that real-time wireless telemetry uplink is active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Sensor telemetry packet loss is at most 9 %.",
+          "role_name": "Instrumentation and telemetry lead (INST)",
+          "candidate_name": "Monteverde Cloud Forest Enclave",
+          "other_candidate_names": [
+            "Osa Peninsula Lowland Station",
+            "Sarapiquí Riparian Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_power_systems_lead_A",
+          "role_id": "power_systems_lead",
+          "candidate_id": "A",
+          "key": "PWR-SOLAR-UOD",
+          "hidden_predicate_id": "A_solar_battery_autonomy",
+          "threshold_label": "Solar battery autonomy",
+          "threshold_aliases": [
+            "Continuous battery reserve duration",
+            "Off-grid power autonomy"
+          ],
+          "threshold_value": 96,
+          "threshold_unit": "h",
+          "partial_record_text": "PWR-SOLAR-UOD: Monteverde Cloud Forest Enclave. The record covers Solar battery autonomy. Battery discharge audit certificate; Station central lithium-iron-phosphate battery bank; Duration the battery bank maintains base scientific equipment loads without solar input.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Solar battery autonomy is at most 300 h.",
+          "role_name": "Off-grid power systems engineer (PWR)",
+          "candidate_name": "Monteverde Cloud Forest Enclave",
+          "other_candidate_names": [
+            "Osa Peninsula Lowland Station",
+            "Sarapiquí Riparian Outpost"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_lead_A",
+          "role_id": "logistics_lead",
+          "candidate_id": "A",
+          "key": "LOG-EXPED-SIU",
+          "hidden_predicate_id": "A_seasonal_sampling_days",
+          "threshold_label": "Seasonal field sampling days",
+          "threshold_aliases": [
+            "Planned seasonal sampling duration",
+            "Scheduled active field campaign days"
+          ],
+          "threshold_value": 90,
+          "threshold_unit": "d",
+          "partial_record_text": "LOG-EXPED-SIU: Monteverde Cloud Forest Enclave. The record covers Seasonal field sampling days. Record context: Production deployment. Expedition schedule register; Wet-to-dry transition observation season; Total scheduled calendar days of active in-canopy scientific sampling.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 100
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Seasonal field sampling days is at most 100 d.",
+          "role_name": "Field expedition logistics coordinator (LOG)",
+          "candidate_name": "Monteverde Cloud Forest Enclave",
+          "other_candidate_names": [
+            "Osa Peninsula Lowland Station",
+            "Sarapiquí Riparian Outpost"
+          ],
+          "context_value": "Production deployment",
+          "other_context_values": [
+            "Staging testbed deployment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

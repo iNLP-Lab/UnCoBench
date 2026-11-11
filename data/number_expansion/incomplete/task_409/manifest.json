@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_409",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrographic_surveyor",
+        "maritime_operations_director"
+      ],
+      "role_names": [
+        "Hydrographic Survey Lead (HYD)",
+        "Maritime Operations Director (MOD)"
+      ],
+      "directory": "incomplete/task_409",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "HYD-BATHY-D0L",
+          "boolean_predicate_id": "A_profiling_active",
+          "boolean_label": "Active acoustic sea-floor profiling",
+          "hidden_predicate_id": "A_clearance_depth",
+          "threshold_label": "Shallowest channel clearance depth",
+          "threshold_aliases": [
+            "Controlling channel depth",
+            "Minimum navigable depth"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "m",
+          "partial_record_text": "HYD-BATHY-D0L: North Head Outer Passage.North Head Outer Passage: Active acoustic sea-floor profiling = true .Source: Hydrographic survey deployment register; Scope: Entire corridor navigation swath during the current season; Measurement: Active multibeam sonar profiling system operational status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Shallowest channel clearance depth is at most 30 m.",
+          "role_name": "Hydrographic Survey Lead (HYD)",
+          "candidate_name": "North Head Outer Passage",
+          "other_candidate_names": [
+            "Point Carmelo Inshore Channel",
+            "Shoalwater Deep Sound Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_operations_director_A",
+          "role_id": "maritime_operations_director",
+          "candidate_id": "A",
+          "key": "MOD-OPS-YDC",
+          "hidden_predicate_id": "A_surge_pilotage_capacity",
+          "threshold_label": "Surge pilotage capacity",
+          "threshold_aliases": [
+            "Auxiliary pilot escort capacity",
+            "Additional convoy throughput"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "vessel",
+          "partial_record_text": "MOD-OPS-YDC: North Head Outer Passage.North Head Outer Passage: Deep-water tug escort clearance = true .Source: Emergency fleet readiness register; Scope: Corridor transit safety envelope; Measurement: Pre-positioning authorization for high-bollard-pull emergency tugs.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Surge pilotage capacity is at most 40 vessel.",
+          "role_name": "Maritime Operations Director (MOD)",
+          "candidate_name": "North Head Outer Passage",
+          "other_candidate_names": [
+            "Point Carmelo Inshore Channel",
+            "Shoalwater Deep Sound Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrographic_surveyor",
+        "maritime_operations_director",
+        "harbor_traffic_coordinator"
+      ],
+      "role_names": [
+        "Hydrographic Survey Lead (HYD)",
+        "Maritime Operations Director (MOD)",
+        "Harbor Traffic Coordinator (HTC)"
+      ],
+      "directory": "incomplete/task_409",
+      "profiles": [
+        {
+          "record_id": "rec_hydrographic_surveyor_A",
+          "role_id": "hydrographic_surveyor",
+          "candidate_id": "A",
+          "key": "HYD-BATHY-D0L",
+          "boolean_predicate_id": "A_profiling_active",
+          "boolean_label": "Active acoustic sea-floor profiling",
+          "hidden_predicate_id": "A_clearance_depth",
+          "threshold_label": "Shallowest channel clearance depth",
+          "threshold_aliases": [
+            "Controlling channel depth",
+            "Minimum navigable depth"
+          ],
+          "threshold_value": 8.5,
+          "threshold_unit": "m",
+          "partial_record_text": "HYD-BATHY-D0L: North Head Outer Passage.North Head Outer Passage: Active acoustic sea-floor profiling = true .Source: Hydrographic survey deployment register; Scope: Entire corridor navigation swath during the current season; Measurement: Active multibeam sonar profiling system operational status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Shallowest channel clearance depth is at most 30 m.",
+          "role_name": "Hydrographic Survey Lead (HYD)",
+          "candidate_name": "North Head Outer Passage",
+          "other_candidate_names": [
+            "Point Carmelo Inshore Channel",
+            "Shoalwater Deep Sound Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_maritime_operations_director_A",
+          "role_id": "maritime_operations_director",
+          "candidate_id": "A",
+          "key": "MOD-OPS-YDC",
+          "hidden_predicate_id": "A_surge_pilotage_capacity",
+          "threshold_label": "Surge pilotage capacity",
+          "threshold_aliases": [
+            "Auxiliary pilot escort capacity",
+            "Additional convoy throughput"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "vessel",
+          "partial_record_text": "MOD-OPS-YDC: North Head Outer Passage.North Head Outer Passage: Deep-water tug escort clearance = true .Source: Emergency fleet readiness register; Scope: Corridor transit safety envelope; Measurement: Pre-positioning authorization for high-bollard-pull emergency tugs.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Surge pilotage capacity is at most 40 vessel.",
+          "role_name": "Maritime Operations Director (MOD)",
+          "candidate_name": "North Head Outer Passage",
+          "other_candidate_names": [
+            "Point Carmelo Inshore Channel",
+            "Shoalwater Deep Sound Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_harbor_traffic_coordinator_A",
+          "role_id": "harbor_traffic_coordinator",
+          "candidate_id": "A",
+          "key": "HTC-TRAF-TK0",
+          "hidden_predicate_id": "A_base_transit_capacity",
+          "threshold_label": "Base transit capacity",
+          "threshold_aliases": [
+            "Baseline evacuation vessel capacity",
+            "Standard channel transit throughput"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "vessel",
+          "partial_record_text": "HTC-TRAF-TK0: North Head Outer Passage.Maritime administrative region: Ningbo.North Head Outer Passage: Vessel traffic separation authorization = true .Source: Coast guard routing registry; Scope: Evacuation transit window; Measurement: Formal separation scheme validation for counter-flow emergency movement.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base transit capacity is at most 40 vessel.",
+          "role_name": "Harbor Traffic Coordinator (HTC)",
+          "candidate_name": "North Head Outer Passage",
+          "other_candidate_names": [
+            "Point Carmelo Inshore Channel",
+            "Shoalwater Deep Sound Route"
+          ],
+          "context_value": "Ningbo",
+          "other_context_values": [
+            "Qingdao"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

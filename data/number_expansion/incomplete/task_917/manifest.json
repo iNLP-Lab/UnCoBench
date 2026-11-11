@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_917",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "airframe_engineering",
+        "ground_logistics"
+      ],
+      "role_names": [
+        "Airframe Structures Lead (AED)",
+        "Hangar Facility Manager (GLTS)"
+      ],
+      "directory": "incomplete/task_917",
+      "profiles": [
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "AED-STRUC-6Y6",
+          "boolean_predicate_id": "A_ultrasound_phased_array_enabled",
+          "boolean_label": "Active phased array ultrasonic system",
+          "hidden_predicate_id": "A_composite_delamination_threshold",
+          "threshold_label": "Composite delamination detection threshold",
+          "threshold_aliases": [
+            "Delamination flaw resolution limit",
+            "Composite flaw detection resolution"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "AED-STRUC-6Y6: Shannon Aviation Maintenance Complex.Shannon Aviation Maintenance Complex: Active phased array ultrasonic system = true .Source: NDT equipment deployment registry; Scope: Heavy maintenance airframe overhaul line; Measurement: Confirmed availability and operational activation of multichannel phased array testing rigs.Shannon Aviation Maintenance Complex: Structural technician hourly rate = 85 USD/h.Source: Base maintenance commercial fee schedule; Scope: Dedicated structural modification and composite skin repair shifts; Measurement: Standard contracted hourly rate billed per certified sheet metal and composite technician.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 5
+          },
+          "coarse_statement": "Composite delamination detection threshold is between 1 mm and 5 mm, inclusive.",
+          "role_name": "Airframe Structures Lead (AED)",
+          "candidate_name": "Shannon Aviation Maintenance Complex",
+          "other_candidate_names": [
+            "Changi Heavy Aerostructures Facility",
+            "San Antonio Aerospace Overhaul Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "GLTS-HANGAR-3EO",
+          "hidden_predicate_id": "A_tail_dock_clearance_height",
+          "threshold_label": "Vertical tail dock clearance height",
+          "threshold_aliases": [
+            "Vertical empennage bay clearance",
+            "Hangar vertical clear height"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "m",
+          "partial_record_text": "GLTS-HANGAR-3EO: Shannon Aviation Maintenance Complex. The record covers Vertical tail dock clearance height. Hangar structural engineering bluebook; Dedicated widebody maintenance bay 1; Clear vertical distance from finished floor to the underside of the overhead tail dock enclosure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Vertical tail dock clearance height is between 10 m and 40 m, inclusive.",
+          "role_name": "Hangar Facility Manager (GLTS)",
+          "candidate_name": "Shannon Aviation Maintenance Complex",
+          "other_candidate_names": [
+            "Changi Heavy Aerostructures Facility",
+            "San Antonio Aerospace Overhaul Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "airframe_engineering",
+        "ground_logistics",
+        "environmental_safety"
+      ],
+      "role_names": [
+        "Airframe Structures Lead (AED)",
+        "Hangar Facility Manager (GLTS)",
+        "Environmental Safety Officer (ESHC)"
+      ],
+      "directory": "incomplete/task_917",
+      "profiles": [
+        {
+          "record_id": "rec_airframe_engineering_A",
+          "role_id": "airframe_engineering",
+          "candidate_id": "A",
+          "key": "AED-STRUC-6Y6",
+          "boolean_predicate_id": "A_ultrasound_phased_array_enabled",
+          "boolean_label": "Active phased array ultrasonic system",
+          "hidden_predicate_id": "A_composite_delamination_threshold",
+          "threshold_label": "Composite delamination detection threshold",
+          "threshold_aliases": [
+            "Delamination flaw resolution limit",
+            "Composite flaw detection resolution"
+          ],
+          "threshold_value": 1.5,
+          "threshold_unit": "mm",
+          "partial_record_text": "AED-STRUC-6Y6: Shannon Aviation Maintenance Complex.Shannon Aviation Maintenance Complex: Active phased array ultrasonic system = true .Source: NDT equipment deployment registry; Scope: Heavy maintenance airframe overhaul line; Measurement: Confirmed availability and operational activation of multichannel phased array testing rigs.Shannon Aviation Maintenance Complex: Structural technician hourly rate = 85 USD/h.Source: Base maintenance commercial fee schedule; Scope: Dedicated structural modification and composite skin repair shifts; Measurement: Standard contracted hourly rate billed per certified sheet metal and composite technician.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 5
+          },
+          "coarse_statement": "Composite delamination detection threshold is between 1 mm and 5 mm, inclusive.",
+          "role_name": "Airframe Structures Lead (AED)",
+          "candidate_name": "Shannon Aviation Maintenance Complex",
+          "other_candidate_names": [
+            "Changi Heavy Aerostructures Facility",
+            "San Antonio Aerospace Overhaul Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_ground_logistics_A",
+          "role_id": "ground_logistics",
+          "candidate_id": "A",
+          "key": "GLTS-HANGAR-3EO",
+          "hidden_predicate_id": "A_tail_dock_clearance_height",
+          "threshold_label": "Vertical tail dock clearance height",
+          "threshold_aliases": [
+            "Vertical empennage bay clearance",
+            "Hangar vertical clear height"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "m",
+          "partial_record_text": "GLTS-HANGAR-3EO: Shannon Aviation Maintenance Complex. The record covers Vertical tail dock clearance height. Hangar structural engineering bluebook; Dedicated widebody maintenance bay 1; Clear vertical distance from finished floor to the underside of the overhead tail dock enclosure.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 10,
+            "upper": 40
+          },
+          "coarse_statement": "Vertical tail dock clearance height is between 10 m and 40 m, inclusive.",
+          "role_name": "Hangar Facility Manager (GLTS)",
+          "candidate_name": "Shannon Aviation Maintenance Complex",
+          "other_candidate_names": [
+            "Changi Heavy Aerostructures Facility",
+            "San Antonio Aerospace Overhaul Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_environmental_safety_A",
+          "role_id": "environmental_safety",
+          "candidate_id": "A",
+          "key": "ESHC-ENVIR-PSX",
+          "hidden_predicate_id": "A_solvent_containment_efficiency",
+          "threshold_label": "Volatile solvent containment efficiency",
+          "threshold_aliases": [
+            "VOC vapor scrubbing efficiency",
+            "Paint booth solvent recovery rate"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "%",
+          "partial_record_text": "ESHC-ENVIR-PSX: Shannon Aviation Maintenance Complex. The record covers Volatile solvent containment efficiency. Environmental compliance emissions monitor; Enclosed widebody paint stripping and repainting ventilation scrubbers; Percentage of volatile organic solvents captured and neutralized during surface prep operations.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 100
+          },
+          "coarse_statement": "Volatile solvent containment efficiency is between 50 % and 100 %, inclusive.",
+          "role_name": "Environmental Safety Officer (ESHC)",
+          "candidate_name": "Shannon Aviation Maintenance Complex",
+          "other_candidate_names": [
+            "Changi Heavy Aerostructures Facility",
+            "San Antonio Aerospace Overhaul Center"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

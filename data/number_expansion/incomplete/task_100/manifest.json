@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_100",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "geophysics_monitoring_lead",
+        "drilling_engineering_lead"
+      ],
+      "role_names": [
+        "Geophysics monitoring lead (GEOPHYS)",
+        "Drilling engineering lead (DRILL)"
+      ],
+      "directory": "incomplete/task_100",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_monitoring_lead_A",
+          "role_id": "geophysics_monitoring_lead",
+          "candidate_id": "A",
+          "key": "GEOPHYS-SEIS-TCP",
+          "boolean_predicate_id": "A_telemetry_system_enabled",
+          "boolean_label": "Bedrock seismic monitoring telemetry enablement",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Telemetry data transmission packet loss",
+          "threshold_aliases": [
+            "Telemetry packet loss",
+            "Data transmission error rate"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "%",
+          "partial_record_text": "GEOPHYS-SEIS-TCP: Kohnen Ridge Sector C.Kohnen Ridge Sector C: Bedrock seismic monitoring telemetry enablement = true .Source: Telemetry station configuration record; Scope: Candidate borehole seismic sensor array; Measurement: Operational enablement state of automated bedrock sensor telemetry transmissions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Telemetry data transmission packet loss is at most 7 %.",
+          "role_name": "Geophysics monitoring lead (GEOPHYS)",
+          "candidate_name": "Kohnen Ridge Sector C",
+          "other_candidate_names": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_drilling_engineering_lead_A",
+          "role_id": "drilling_engineering_lead",
+          "candidate_id": "A",
+          "key": "DRILL-RIG-0QR",
+          "hidden_predicate_id": "A_core_barrel_diameter",
+          "threshold_label": "Ice-core extraction core barrel diameter",
+          "threshold_aliases": [
+            "Drill barrel diameter",
+            "Extracted core diameter"
+          ],
+          "threshold_value": 122,
+          "threshold_unit": "mm",
+          "partial_record_text": "DRILL-RIG-0QR: Kohnen Ridge Sector C.Kohnen Ridge Sector C: Thermal melt-head rig payload = 14 t.Source: Rig weight and balance manifesto; Scope: Candidate thermal drilling head and winch assembly; Measurement: Certified operational weight of thermal melt-head drilling components.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Ice-core extraction core barrel diameter is at most 300 mm.",
+          "role_name": "Drilling engineering lead (DRILL)",
+          "candidate_name": "Kohnen Ridge Sector C",
+          "other_candidate_names": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "geophysics_monitoring_lead",
+        "drilling_engineering_lead",
+        "polar_logistics_lead"
+      ],
+      "role_names": [
+        "Geophysics monitoring lead (GEOPHYS)",
+        "Drilling engineering lead (DRILL)",
+        "Polar logistics coordinator (LOGIST)"
+      ],
+      "directory": "incomplete/task_100",
+      "profiles": [
+        {
+          "record_id": "rec_geophysics_monitoring_lead_A",
+          "role_id": "geophysics_monitoring_lead",
+          "candidate_id": "A",
+          "key": "GEOPHYS-SEIS-TCP",
+          "boolean_predicate_id": "A_telemetry_system_enabled",
+          "boolean_label": "Bedrock seismic monitoring telemetry enablement",
+          "hidden_predicate_id": "A_telemetry_packet_loss",
+          "threshold_label": "Telemetry data transmission packet loss",
+          "threshold_aliases": [
+            "Telemetry packet loss",
+            "Data transmission error rate"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "%",
+          "partial_record_text": "GEOPHYS-SEIS-TCP: Kohnen Ridge Sector C.Kohnen Ridge Sector C: Bedrock seismic monitoring telemetry enablement = true .Source: Telemetry station configuration record; Scope: Candidate borehole seismic sensor array; Measurement: Operational enablement state of automated bedrock sensor telemetry transmissions.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 7
+          },
+          "coarse_statement": "Telemetry data transmission packet loss is at most 7 %.",
+          "role_name": "Geophysics monitoring lead (GEOPHYS)",
+          "candidate_name": "Kohnen Ridge Sector C",
+          "other_candidate_names": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_drilling_engineering_lead_A",
+          "role_id": "drilling_engineering_lead",
+          "candidate_id": "A",
+          "key": "DRILL-RIG-0QR",
+          "hidden_predicate_id": "A_core_barrel_diameter",
+          "threshold_label": "Ice-core extraction core barrel diameter",
+          "threshold_aliases": [
+            "Drill barrel diameter",
+            "Extracted core diameter"
+          ],
+          "threshold_value": 122,
+          "threshold_unit": "mm",
+          "partial_record_text": "DRILL-RIG-0QR: Kohnen Ridge Sector C.Kohnen Ridge Sector C: Thermal melt-head rig payload = 14 t.Source: Rig weight and balance manifesto; Scope: Candidate thermal drilling head and winch assembly; Measurement: Certified operational weight of thermal melt-head drilling components.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Ice-core extraction core barrel diameter is at most 300 mm.",
+          "role_name": "Drilling engineering lead (DRILL)",
+          "candidate_name": "Kohnen Ridge Sector C",
+          "other_candidate_names": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_polar_logistics_lead_A",
+          "role_id": "polar_logistics_lead",
+          "candidate_id": "A",
+          "key": "LOGIST-RUNWAY-S22",
+          "hidden_predicate_id": "A_electromechanical_drill_payload",
+          "threshold_label": "Electromechanical drill payload",
+          "threshold_aliases": [
+            "Mechanical drill payload weight",
+            "Coring drill rig payload"
+          ],
+          "threshold_value": 38,
+          "threshold_unit": "t",
+          "partial_record_text": "LOGIST-RUNWAY-S22: Kohnen Ridge Sector C.Kohnen Ridge Sector C: All-weather skiway landing clearance = true .Source: Aviation safety evaluation report; Scope: Candidate groomed skiway runway; Measurement: Certification that the skiway is cleared for LC-130 Hercules ski-landing operations.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Electromechanical drill payload is at most 50 t.",
+          "role_name": "Polar logistics coordinator (LOGIST)",
+          "candidate_name": "Kohnen Ridge Sector C",
+          "other_candidate_names": [
+            "Amundsen Escarpment Nunatak",
+            "Dome F Plateau North"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_097",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "marine_instrumentation",
+        "telecommunications"
+      ],
+      "role_names": [
+        "Marine science instrumentation lead (INST)",
+        "Communications and telemetry lead (TEL)"
+      ],
+      "directory": "incomplete/task_097",
+      "profiles": [
+        {
+          "record_id": "rec_marine_instrumentation_A",
+          "role_id": "marine_instrumentation",
+          "candidate_id": "A",
+          "key": "INST-ACOUST-NIS",
+          "boolean_predicate_id": "A_moonpool_ready",
+          "boolean_label": "Onboard moonpool deployment readiness",
+          "hidden_predicate_id": "A_acoustic_interference_level",
+          "threshold_label": "Acoustic baseline interference level",
+          "threshold_aliases": [
+            "Radiated noise interference",
+            "Sonar background acoustic interference"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "dB",
+          "partial_record_text": "INST-ACOUST-NIS: Polaris Endurance Icebreaker.Polaris Endurance Icebreaker: Onboard moonpool deployment readiness = true .Source: Technical readiness logbook; Scope: Internal sea-level instrument deployment moonpool; Measurement: Verified mechanical seal operation and opening clearance status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Acoustic baseline interference level is at most 70 dB.",
+          "role_name": "Marine science instrumentation lead (INST)",
+          "candidate_name": "Polaris Endurance Icebreaker",
+          "other_candidate_names": [
+            "Nordic Sentinel Multi-Purpose Vessel",
+            "Aurora Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecommunications_A",
+          "role_id": "telecommunications",
+          "candidate_id": "A",
+          "key": "TEL-SATCOM-OP9",
+          "hidden_predicate_id": "A_satellite_bandwidth",
+          "threshold_label": "Satellite communications bandwidth",
+          "threshold_aliases": [
+            "Polar satcom uplink rate",
+            "High-latitude data transmission rate"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "Mbps",
+          "partial_record_text": "TEL-SATCOM-OP9: Polaris Endurance Icebreaker. The record covers Satellite communications bandwidth. Record context: after deducting vessel safety and navigational telemetry reservations. Antarctic satellite link bench test; Dual steerable Ka/Ku-band radome terminals south of 65 degrees South; Sustained return-link data transfer throughput.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Satellite communications bandwidth is at most 400 Mbps.",
+          "role_name": "Communications and telemetry lead (TEL)",
+          "candidate_name": "Polaris Endurance Icebreaker",
+          "other_candidate_names": [
+            "Nordic Sentinel Multi-Purpose Vessel",
+            "Aurora Australis Explorer"
+          ],
+          "context_value": "after deducting vessel safety and navigational telemetry reservations",
+          "other_context_values": [
+            "before deducting vessel safety and navigational telemetry reservations"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "marine_instrumentation",
+        "telecommunications",
+        "logistics_payload"
+      ],
+      "role_names": [
+        "Marine science instrumentation lead (INST)",
+        "Communications and telemetry lead (TEL)",
+        "Scientific payload coordinator (PAY)"
+      ],
+      "directory": "incomplete/task_097",
+      "profiles": [
+        {
+          "record_id": "rec_marine_instrumentation_A",
+          "role_id": "marine_instrumentation",
+          "candidate_id": "A",
+          "key": "INST-ACOUST-NIS",
+          "boolean_predicate_id": "A_moonpool_ready",
+          "boolean_label": "Onboard moonpool deployment readiness",
+          "hidden_predicate_id": "A_acoustic_interference_level",
+          "threshold_label": "Acoustic baseline interference level",
+          "threshold_aliases": [
+            "Radiated noise interference",
+            "Sonar background acoustic interference"
+          ],
+          "threshold_value": 42,
+          "threshold_unit": "dB",
+          "partial_record_text": "INST-ACOUST-NIS: Polaris Endurance Icebreaker.Polaris Endurance Icebreaker: Onboard moonpool deployment readiness = true .Source: Technical readiness logbook; Scope: Internal sea-level instrument deployment moonpool; Measurement: Verified mechanical seal operation and opening clearance status.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70
+          },
+          "coarse_statement": "Acoustic baseline interference level is at most 70 dB.",
+          "role_name": "Marine science instrumentation lead (INST)",
+          "candidate_name": "Polaris Endurance Icebreaker",
+          "other_candidate_names": [
+            "Nordic Sentinel Multi-Purpose Vessel",
+            "Aurora Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_telecommunications_A",
+          "role_id": "telecommunications",
+          "candidate_id": "A",
+          "key": "TEL-SATCOM-OP9",
+          "hidden_predicate_id": "A_satellite_bandwidth",
+          "threshold_label": "Satellite communications bandwidth",
+          "threshold_aliases": [
+            "Polar satcom uplink rate",
+            "High-latitude data transmission rate"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "Mbps",
+          "partial_record_text": "TEL-SATCOM-OP9: Polaris Endurance Icebreaker. The record covers Satellite communications bandwidth. Record context: after deducting vessel safety and navigational telemetry reservations. Antarctic satellite link bench test; Dual steerable Ka/Ku-band radome terminals south of 65 degrees South; Sustained return-link data transfer throughput.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "coarse_statement": "Satellite communications bandwidth is at most 400 Mbps.",
+          "role_name": "Communications and telemetry lead (TEL)",
+          "candidate_name": "Polaris Endurance Icebreaker",
+          "other_candidate_names": [
+            "Nordic Sentinel Multi-Purpose Vessel",
+            "Aurora Australis Explorer"
+          ],
+          "context_value": "after deducting vessel safety and navigational telemetry reservations",
+          "other_context_values": [
+            "before deducting vessel safety and navigational telemetry reservations"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_logistics_payload_A",
+          "role_id": "logistics_payload",
+          "candidate_id": "A",
+          "key": "PAY-MODLAB-XH1",
+          "hidden_predicate_id": "A_lab_container_footprint",
+          "threshold_label": "Dedicated containerised laboratory footprint",
+          "threshold_aliases": [
+            "Modular container footprint",
+            "Mission laboratory deck footprint"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "m2",
+          "partial_record_text": "PAY-MODLAB-XH1: Polaris Endurance Icebreaker. The record covers Dedicated containerised laboratory footprint. Payload stowage plan; Standard twenty-foot mission laboratory vans; Total horizontal deck footprint reserved for container tie-down fittings.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated containerised laboratory footprint is at most 400 m2.",
+          "role_name": "Scientific payload coordinator (PAY)",
+          "candidate_name": "Polaris Endurance Icebreaker",
+          "other_candidate_names": [
+            "Nordic Sentinel Multi-Purpose Vessel",
+            "Aurora Australis Explorer"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_905",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "route_security_enforcement",
+        "highway_structural_safety"
+      ],
+      "role_names": [
+        "Route security and law enforcement commander (SEC)",
+        "Highway structural safety inspector (STRUCT)"
+      ],
+      "directory": "number_expansion/misaligned/task_905/k2",
+      "error_profiles": [
+        {
+          "role_name": "Route security and law enforcement commander (SEC)",
+          "target_key": "SEC-CHECK-JAN",
+          "alternate_key": "SEC-CHECK-44N",
+          "target_context": "including mutual-aid auxiliary forces",
+          "alternate_context": "excluding mutual-aid auxiliary forces",
+          "candidate": "Pelican Point Coastal Causeway",
+          "other_candidates": [
+            "Grand Pass Elevated Bypass",
+            "Bayou Barataria Parkway Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "checkpoint_crewing_secured",
+              "value": true,
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_gate_operational",
+              "label": "Storm-surge backflow flood barrier operational",
+              "aliases": [
+                "Flood barrier readiness",
+                "Backflow gate operational status"
+              ]
+            },
+            {
+              "topic": "minimum_viaduct_freeboard",
+              "label": "Minimum viaduct vertical freeboard",
+              "aliases": [
+                "Viaduct freeboard height",
+                "Clearance above surge peak"
+              ]
+            },
+            {
+              "topic": "culvert_inspection_certified",
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ]
+            },
+            {
+              "topic": "trauma_center_access_window",
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ]
+            },
+            {
+              "topic": "contraflow_signaling_ready",
+              "label": "Contraflow dynamic signage and barrier readiness",
+              "aliases": [
+                "Contraflow signaling verification",
+                "Reversible lane signaling readiness"
+              ]
+            },
+            {
+              "topic": "checkpoint_crewing_secured",
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ]
+            },
+            {
+              "topic": "primary_lane_capacity",
+              "label": "Primary travel lane design evacuation flow",
+              "aliases": [
+                "Primary lane capacity",
+                "Mainline traffic flow capacity"
+              ]
+            },
+            {
+              "topic": "shoulder_reserve_capacity",
+              "label": "Hardened shoulder auxiliary evacuation flow",
+              "aliases": [
+                "Shoulder auxiliary throughput",
+                "Emergency shoulder capacity"
+              ]
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Highway structural safety inspector (STRUCT)",
+          "target_key": "STRUCT-INSP-J4H",
+          "alternate_key": "STRUCT-INSP-4HM",
+          "target_context": "including submerged foundation scour inspection",
+          "alternate_context": "excluding submerged foundation scour inspection",
+          "candidate": "Pelican Point Coastal Causeway",
+          "other_candidates": [
+            "Grand Pass Elevated Bypass",
+            "Bayou Barataria Parkway Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "culvert_inspection_certified",
+              "value": true,
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_gate_operational",
+              "label": "Storm-surge backflow flood barrier operational",
+              "aliases": [
+                "Flood barrier readiness",
+                "Backflow gate operational status"
+              ]
+            },
+            {
+              "topic": "minimum_viaduct_freeboard",
+              "label": "Minimum viaduct vertical freeboard",
+              "aliases": [
+                "Viaduct freeboard height",
+                "Clearance above surge peak"
+              ]
+            },
+            {
+              "topic": "culvert_inspection_certified",
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ]
+            },
+            {
+              "topic": "trauma_center_access_window",
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ]
+            },
+            {
+              "topic": "contraflow_signaling_ready",
+              "label": "Contraflow dynamic signage and barrier readiness",
+              "aliases": [
+                "Contraflow signaling verification",
+                "Reversible lane signaling readiness"
+              ]
+            },
+            {
+              "topic": "checkpoint_crewing_secured",
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ]
+            },
+            {
+              "topic": "primary_lane_capacity",
+              "label": "Primary travel lane design evacuation flow",
+              "aliases": [
+                "Primary lane capacity",
+                "Mainline traffic flow capacity"
+              ]
+            },
+            {
+              "topic": "shoulder_reserve_capacity",
+              "label": "Hardened shoulder auxiliary evacuation flow",
+              "aliases": [
+                "Shoulder auxiliary throughput",
+                "Emergency shoulder capacity"
+              ]
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "route_security_enforcement",
+        "highway_structural_safety",
+        "emergency_medical_logistics"
+      ],
+      "role_names": [
+        "Route security and law enforcement commander (SEC)",
+        "Highway structural safety inspector (STRUCT)",
+        "Emergency medical logistics coordinator (MEDIC)"
+      ],
+      "directory": "number_expansion/misaligned/task_905/k3",
+      "error_profiles": [
+        {
+          "role_name": "Route security and law enforcement commander (SEC)",
+          "target_key": "SEC-CHECK-JAN",
+          "alternate_key": "SEC-CHECK-44N",
+          "target_context": "including mutual-aid auxiliary forces",
+          "alternate_context": "excluding mutual-aid auxiliary forces",
+          "candidate": "Pelican Point Coastal Causeway",
+          "other_candidates": [
+            "Grand Pass Elevated Bypass",
+            "Bayou Barataria Parkway Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "checkpoint_crewing_secured",
+              "value": true,
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_gate_operational",
+              "label": "Storm-surge backflow flood barrier operational",
+              "aliases": [
+                "Flood barrier readiness",
+                "Backflow gate operational status"
+              ]
+            },
+            {
+              "topic": "minimum_viaduct_freeboard",
+              "label": "Minimum viaduct vertical freeboard",
+              "aliases": [
+                "Viaduct freeboard height",
+                "Clearance above surge peak"
+              ]
+            },
+            {
+              "topic": "culvert_inspection_certified",
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ]
+            },
+            {
+              "topic": "trauma_center_access_window",
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ]
+            },
+            {
+              "topic": "contraflow_signaling_ready",
+              "label": "Contraflow dynamic signage and barrier readiness",
+              "aliases": [
+                "Contraflow signaling verification",
+                "Reversible lane signaling readiness"
+              ]
+            },
+            {
+              "topic": "checkpoint_crewing_secured",
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ]
+            },
+            {
+              "topic": "primary_lane_capacity",
+              "label": "Primary travel lane design evacuation flow",
+              "aliases": [
+                "Primary lane capacity",
+                "Mainline traffic flow capacity"
+              ]
+            },
+            {
+              "topic": "shoulder_reserve_capacity",
+              "label": "Hardened shoulder auxiliary evacuation flow",
+              "aliases": [
+                "Shoulder auxiliary throughput",
+                "Emergency shoulder capacity"
+              ]
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Highway structural safety inspector (STRUCT)",
+          "target_key": "STRUCT-INSP-J4H",
+          "alternate_key": "STRUCT-INSP-4HM",
+          "target_context": "including submerged foundation scour inspection",
+          "alternate_context": "excluding submerged foundation scour inspection",
+          "candidate": "Pelican Point Coastal Causeway",
+          "other_candidates": [
+            "Grand Pass Elevated Bypass",
+            "Bayou Barataria Parkway Corridor"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "culvert_inspection_certified",
+              "value": true,
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_gate_operational",
+              "label": "Storm-surge backflow flood barrier operational",
+              "aliases": [
+                "Flood barrier readiness",
+                "Backflow gate operational status"
+              ]
+            },
+            {
+              "topic": "minimum_viaduct_freeboard",
+              "label": "Minimum viaduct vertical freeboard",
+              "aliases": [
+                "Viaduct freeboard height",
+                "Clearance above surge peak"
+              ]
+            },
+            {
+              "topic": "culvert_inspection_certified",
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ]
+            },
+            {
+              "topic": "trauma_center_access_window",
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ]
+            },
+            {
+              "topic": "contraflow_signaling_ready",
+              "label": "Contraflow dynamic signage and barrier readiness",
+              "aliases": [
+                "Contraflow signaling verification",
+                "Reversible lane signaling readiness"
+              ]
+            },
+            {
+              "topic": "checkpoint_crewing_secured",
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ]
+            },
+            {
+              "topic": "primary_lane_capacity",
+              "label": "Primary travel lane design evacuation flow",
+              "aliases": [
+                "Primary lane capacity",
+                "Mainline traffic flow capacity"
+              ]
+            },
+            {
+              "topic": "shoulder_reserve_capacity",
+              "label": "Hardened shoulder auxiliary evacuation flow",
+              "aliases": [
+                "Shoulder auxiliary throughput",
+                "Emergency shoulder capacity"
+              ]
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency medical logistics coordinator (MEDIC)",
+          "target_key": "MEDIC-TRANS-JH1",
+          "alternate_key": "MEDIC-TRANS-XFE",
+          "target_context": "May 2025",
+          "alternate_context": "June 2025",
+          "candidate": "Pelican Point Coastal Causeway",
+          "other_candidates": [
+            "Grand Pass Elevated Bypass",
+            "Bayou Barataria Parkway Corridor"
+          ],
+          "numeric": [
+            {
+              "topic": "trauma_center_access_window",
+              "value": 25,
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ],
+              "unit": "min"
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "value": 400,
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ],
+              "unit": "vehicles/h"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "flood_gate_operational",
+              "label": "Storm-surge backflow flood barrier operational",
+              "aliases": [
+                "Flood barrier readiness",
+                "Backflow gate operational status"
+              ]
+            },
+            {
+              "topic": "minimum_viaduct_freeboard",
+              "label": "Minimum viaduct vertical freeboard",
+              "aliases": [
+                "Viaduct freeboard height",
+                "Clearance above surge peak"
+              ]
+            },
+            {
+              "topic": "culvert_inspection_certified",
+              "label": "Roadway culvert structural integrity certified",
+              "aliases": [
+                "Culvert structural certification",
+                "Drainage culvert inspection pass"
+              ]
+            },
+            {
+              "topic": "trauma_center_access_window",
+              "label": "Corridor emergency trauma transit time",
+              "aliases": [
+                "Trauma transport window",
+                "Hospital transit duration"
+              ]
+            },
+            {
+              "topic": "contraflow_signaling_ready",
+              "label": "Contraflow dynamic signage and barrier readiness",
+              "aliases": [
+                "Contraflow signaling verification",
+                "Reversible lane signaling readiness"
+              ]
+            },
+            {
+              "topic": "checkpoint_crewing_secured",
+              "label": "Law enforcement junction control crewing secured",
+              "aliases": [
+                "Checkpoint crewing readiness",
+                "Security officer staffing secured"
+              ]
+            },
+            {
+              "topic": "primary_lane_capacity",
+              "label": "Primary travel lane design evacuation flow",
+              "aliases": [
+                "Primary lane capacity",
+                "Mainline traffic flow capacity"
+              ]
+            },
+            {
+              "topic": "shoulder_reserve_capacity",
+              "label": "Hardened shoulder auxiliary evacuation flow",
+              "aliases": [
+                "Shoulder auxiliary throughput",
+                "Emergency shoulder capacity"
+              ]
+            },
+            {
+              "topic": "emergency_service_allowance",
+              "label": "Emergency service reserved vehicle allowance",
+              "aliases": [
+                "First responder vehicle buffer",
+                "Emergency vehicle reserve flow"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

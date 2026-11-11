@@ -1,0 +1,179 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_516",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "deck_operations",
+        "procurement"
+      ],
+      "role_names": [
+        "Scientific deck operations lead (DECK)",
+        "Commercial charter procurement lead (PROC)"
+      ],
+      "directory": "incomplete/task_516",
+      "profiles": [
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-WINCH-GJG",
+          "boolean_predicate_id": "A_heavy_winch_installed",
+          "boolean_label": "Heavy-duty deep-tow winch installation",
+          "hidden_predicate_id": "A_winch_tension_capacity",
+          "threshold_label": "Continuous deep-tow winch tension capacity",
+          "threshold_aliases": [
+            "Continuous winch tension rating",
+            "Winch pull capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "tonnes",
+          "partial_record_text": "DECK-WINCH-GJG: Autonomous robotic survey package.Autonomous robotic survey package: Heavy-duty deep-tow winch installation = true .Source: Deck machinery inspection registry; Scope: Candidate vessel deck configuration; Measurement: Physical installation and commissioning verification of a heavy-duty deep-tow oceanographic winch.",
+          "role_name": "Scientific deck operations lead (DECK)",
+          "candidate_name": "Autonomous robotic survey package",
+          "other_candidate_names": [
+            "Hybrid benthic coring package",
+            "Deep-tow acoustic mapping package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_procurement_A",
+          "role_id": "procurement",
+          "candidate_id": "A",
+          "key": "PROC-CHARTER-X1E",
+          "hidden_predicate_id": "A_daily_charter_rate",
+          "threshold_label": "Daily vessel charter rate",
+          "threshold_aliases": [
+            "Daily charter day rate",
+            "Base vessel day rate"
+          ],
+          "threshold_value": 26000,
+          "threshold_unit": "EUR/day",
+          "partial_record_text": "PROC-CHARTER-X1E: Autonomous robotic survey package. The record covers Daily vessel charter rate. Commercial charter tariff schedule; Celtic Deep survey charter agreement; Fixed daily maritime charter fee excluding variable port dues.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Daily vessel charter rate is at least 18000 EUR/day.",
+          "role_name": "Commercial charter procurement lead (PROC)",
+          "candidate_name": "Autonomous robotic survey package",
+          "other_candidate_names": [
+            "Hybrid benthic coring package",
+            "Deep-tow acoustic mapping package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "deck_operations",
+        "procurement",
+        "expedition_planning"
+      ],
+      "role_names": [
+        "Scientific deck operations lead (DECK)",
+        "Commercial charter procurement lead (PROC)",
+        "Expedition science planner (PLAN)"
+      ],
+      "directory": "incomplete/task_516",
+      "profiles": [
+        {
+          "record_id": "rec_deck_operations_A",
+          "role_id": "deck_operations",
+          "candidate_id": "A",
+          "key": "DECK-WINCH-GJG",
+          "boolean_predicate_id": "A_heavy_winch_installed",
+          "boolean_label": "Heavy-duty deep-tow winch installation",
+          "hidden_predicate_id": "A_winch_tension_capacity",
+          "threshold_label": "Continuous deep-tow winch tension capacity",
+          "threshold_aliases": [
+            "Continuous winch tension rating",
+            "Winch pull capacity"
+          ],
+          "threshold_value": 25,
+          "threshold_unit": "tonnes",
+          "partial_record_text": "DECK-WINCH-GJG: Autonomous robotic survey package.Autonomous robotic survey package: Heavy-duty deep-tow winch installation = true .Source: Deck machinery inspection registry; Scope: Candidate vessel deck configuration; Measurement: Physical installation and commissioning verification of a heavy-duty deep-tow oceanographic winch.",
+          "role_name": "Scientific deck operations lead (DECK)",
+          "candidate_name": "Autonomous robotic survey package",
+          "other_candidate_names": [
+            "Hybrid benthic coring package",
+            "Deep-tow acoustic mapping package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_procurement_A",
+          "role_id": "procurement",
+          "candidate_id": "A",
+          "key": "PROC-CHARTER-X1E",
+          "hidden_predicate_id": "A_daily_charter_rate",
+          "threshold_label": "Daily vessel charter rate",
+          "threshold_aliases": [
+            "Daily charter day rate",
+            "Base vessel day rate"
+          ],
+          "threshold_value": 26000,
+          "threshold_unit": "EUR/day",
+          "partial_record_text": "PROC-CHARTER-X1E: Autonomous robotic survey package. The record covers Daily vessel charter rate. Commercial charter tariff schedule; Celtic Deep survey charter agreement; Fixed daily maritime charter fee excluding variable port dues.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 18000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Daily vessel charter rate is at least 18000 EUR/day.",
+          "role_name": "Commercial charter procurement lead (PROC)",
+          "candidate_name": "Autonomous robotic survey package",
+          "other_candidate_names": [
+            "Hybrid benthic coring package",
+            "Deep-tow acoustic mapping package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_expedition_planning_A",
+          "role_id": "expedition_planning",
+          "candidate_id": "A",
+          "key": "PLAN-CRUISE-XXZ",
+          "hidden_predicate_id": "A_planned_survey_duration",
+          "threshold_label": "Planned survey duration",
+          "threshold_aliases": [
+            "Offshore survey sea days",
+            "Contracted operational sea time"
+          ],
+          "threshold_value": 21,
+          "threshold_unit": "day",
+          "partial_record_text": "PLAN-CRUISE-XXZ: Autonomous robotic survey package. The record covers Planned survey duration. Cruise operational campaign plan; Celtic Deep benthic habitat transect stations; Scheduled continuous operational sea days on survey station.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 14,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Planned survey duration is at least 14 day.",
+          "role_name": "Expedition science planner (PLAN)",
+          "candidate_name": "Autonomous robotic survey package",
+          "other_candidate_names": [
+            "Hybrid benthic coring package",
+            "Deep-tow acoustic mapping package"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

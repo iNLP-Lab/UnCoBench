@@ -1,0 +1,576 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_677",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "security_compliance",
+        "inert_gas_systems"
+      ],
+      "role_names": [
+        "Physical Security and Biometrics Lead (SEC)",
+        "Inert Gas and Suppression Systems Lead (GAS)"
+      ],
+      "directory": "number_expansion/misaligned/task_677/k2",
+      "error_profiles": [
+        {
+          "role_name": "Physical Security and Biometrics Lead (SEC)",
+          "target_key": "SEC-PHYS-UTW",
+          "alternate_key": "SEC-PHYS-MK8",
+          "target_context": "production environment",
+          "alternate_context": "staging environment",
+          "candidate": "Dresden Bedrock Reticle Sanctum",
+          "other_candidates": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "value": true,
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_cleanliness_certified",
+              "label": "ISO Class 1 cleanroom certified",
+              "aliases": [
+                "ISO Class 1 certification",
+                "Cleanroom ISO 1 compliance"
+              ]
+            },
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ]
+            },
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ]
+            },
+            {
+              "topic": "subterranean_depth_meters",
+              "label": "Subterranean vault depth",
+              "aliases": [
+                "Underground depth",
+                "Facility bedrock overburden"
+              ]
+            },
+            {
+              "topic": "blast_overpressure_resistance_certified",
+              "label": "Blast overpressure resistance certified",
+              "aliases": [
+                "Blast wave resistance certification",
+                "Hardened perimeter blast compliance"
+              ]
+            },
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ]
+            },
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ]
+            },
+            {
+              "topic": "recirculating_filtration_airflow",
+              "label": "Recirculating filtration airflow",
+              "aliases": [
+                "HEPA recirculating airflow rate",
+                "Cleanroom primary air circulation"
+              ]
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Inert Gas and Suppression Systems Lead (GAS)",
+          "target_key": "GAS-INERT-L2F",
+          "alternate_key": "GAS-INERT-PNT",
+          "target_context": "production environment",
+          "alternate_context": "commissioning test environment",
+          "candidate": "Dresden Bedrock Reticle Sanctum",
+          "other_candidates": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "numeric": [
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "value": 72,
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "value": 500,
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ],
+              "unit": "m3/h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "value": true,
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_cleanliness_certified",
+              "label": "ISO Class 1 cleanroom certified",
+              "aliases": [
+                "ISO Class 1 certification",
+                "Cleanroom ISO 1 compliance"
+              ]
+            },
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ]
+            },
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ]
+            },
+            {
+              "topic": "subterranean_depth_meters",
+              "label": "Subterranean vault depth",
+              "aliases": [
+                "Underground depth",
+                "Facility bedrock overburden"
+              ]
+            },
+            {
+              "topic": "blast_overpressure_resistance_certified",
+              "label": "Blast overpressure resistance certified",
+              "aliases": [
+                "Blast wave resistance certification",
+                "Hardened perimeter blast compliance"
+              ]
+            },
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ]
+            },
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ]
+            },
+            {
+              "topic": "recirculating_filtration_airflow",
+              "label": "Recirculating filtration airflow",
+              "aliases": [
+                "HEPA recirculating airflow rate",
+                "Cleanroom primary air circulation"
+              ]
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "security_compliance",
+        "inert_gas_systems",
+        "power_resilience"
+      ],
+      "role_names": [
+        "Physical Security and Biometrics Lead (SEC)",
+        "Inert Gas and Suppression Systems Lead (GAS)",
+        "Emergency Electrical Power Lead (PWR)"
+      ],
+      "directory": "number_expansion/misaligned/task_677/k3",
+      "error_profiles": [
+        {
+          "role_name": "Physical Security and Biometrics Lead (SEC)",
+          "target_key": "SEC-PHYS-UTW",
+          "alternate_key": "SEC-PHYS-MK8",
+          "target_context": "production environment",
+          "alternate_context": "staging environment",
+          "candidate": "Dresden Bedrock Reticle Sanctum",
+          "other_candidates": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "value": true,
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_cleanliness_certified",
+              "label": "ISO Class 1 cleanroom certified",
+              "aliases": [
+                "ISO Class 1 certification",
+                "Cleanroom ISO 1 compliance"
+              ]
+            },
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ]
+            },
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ]
+            },
+            {
+              "topic": "subterranean_depth_meters",
+              "label": "Subterranean vault depth",
+              "aliases": [
+                "Underground depth",
+                "Facility bedrock overburden"
+              ]
+            },
+            {
+              "topic": "blast_overpressure_resistance_certified",
+              "label": "Blast overpressure resistance certified",
+              "aliases": [
+                "Blast wave resistance certification",
+                "Hardened perimeter blast compliance"
+              ]
+            },
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ]
+            },
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ]
+            },
+            {
+              "topic": "recirculating_filtration_airflow",
+              "label": "Recirculating filtration airflow",
+              "aliases": [
+                "HEPA recirculating airflow rate",
+                "Cleanroom primary air circulation"
+              ]
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Inert Gas and Suppression Systems Lead (GAS)",
+          "target_key": "GAS-INERT-L2F",
+          "alternate_key": "GAS-INERT-PNT",
+          "target_context": "production environment",
+          "alternate_context": "commissioning test environment",
+          "candidate": "Dresden Bedrock Reticle Sanctum",
+          "other_candidates": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "numeric": [
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "value": 72,
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ],
+              "unit": "h"
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "value": 500,
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ],
+              "unit": "m3/h"
+            }
+          ],
+          "boolean": [
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "value": true,
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_cleanliness_certified",
+              "label": "ISO Class 1 cleanroom certified",
+              "aliases": [
+                "ISO Class 1 certification",
+                "Cleanroom ISO 1 compliance"
+              ]
+            },
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ]
+            },
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ]
+            },
+            {
+              "topic": "subterranean_depth_meters",
+              "label": "Subterranean vault depth",
+              "aliases": [
+                "Underground depth",
+                "Facility bedrock overburden"
+              ]
+            },
+            {
+              "topic": "blast_overpressure_resistance_certified",
+              "label": "Blast overpressure resistance certified",
+              "aliases": [
+                "Blast wave resistance certification",
+                "Hardened perimeter blast compliance"
+              ]
+            },
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ]
+            },
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ]
+            },
+            {
+              "topic": "recirculating_filtration_airflow",
+              "label": "Recirculating filtration airflow",
+              "aliases": [
+                "HEPA recirculating airflow rate",
+                "Cleanroom primary air circulation"
+              ]
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Emergency Electrical Power Lead (PWR)",
+          "target_key": "PWR-GRID-67X",
+          "alternate_key": "PWR-GRID-DC1",
+          "target_context": "October 2025",
+          "alternate_context": "November 2025",
+          "candidate": "Dresden Bedrock Reticle Sanctum",
+          "other_candidates": [
+            "Grenoble Alpine Subsurface Chamber",
+            "Eindhoven Fortified Lithography Depository"
+          ],
+          "numeric": [
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "value": 8,
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ],
+              "unit": "ms"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "cleanroom_cleanliness_certified",
+              "label": "ISO Class 1 cleanroom certified",
+              "aliases": [
+                "ISO Class 1 certification",
+                "Cleanroom ISO 1 compliance"
+              ]
+            },
+            {
+              "topic": "continuous_nitrogen_blanketing_enabled",
+              "label": "Continuous nitrogen blanketing enabled",
+              "aliases": [
+                "N2 blanketing active",
+                "Nitrogen purge atmosphere activation"
+              ]
+            },
+            {
+              "topic": "nitrogen_storage_autonomy_hours",
+              "label": "Nitrogen storage autonomy",
+              "aliases": [
+                "Liquid nitrogen reserve endurance",
+                "N2 autonomy duration"
+              ]
+            },
+            {
+              "topic": "subterranean_depth_meters",
+              "label": "Subterranean vault depth",
+              "aliases": [
+                "Underground depth",
+                "Facility bedrock overburden"
+              ]
+            },
+            {
+              "topic": "blast_overpressure_resistance_certified",
+              "label": "Blast overpressure resistance certified",
+              "aliases": [
+                "Blast wave resistance certification",
+                "Hardened perimeter blast compliance"
+              ]
+            },
+            {
+              "topic": "multi_factor_biometric_interlock_active",
+              "label": "Multi-factor biometric interlock active",
+              "aliases": [
+                "Biometric interlock enablement",
+                "Multi-modal biometric access active"
+              ]
+            },
+            {
+              "topic": "dual_microgrid_transfer_latency_ms",
+              "label": "Dual-microgrid transfer latency",
+              "aliases": [
+                "Power source transfer time",
+                "Microgrid automatic transfer duration"
+              ]
+            },
+            {
+              "topic": "recirculating_filtration_airflow",
+              "label": "Recirculating filtration airflow",
+              "aliases": [
+                "HEPA recirculating airflow rate",
+                "Cleanroom primary air circulation"
+              ]
+            },
+            {
+              "topic": "nitrogen_blanket_purge_rate",
+              "label": "Nitrogen blanket purge rate",
+              "aliases": [
+                "Inert N2 purge volumetric rate",
+                "Emergency nitrogen displacement rate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

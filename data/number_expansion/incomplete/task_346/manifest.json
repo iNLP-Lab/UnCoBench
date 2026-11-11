@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_346",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "medical_operations",
+        "naval_architecture"
+      ],
+      "role_names": [
+        "Maritime medical director (MED)",
+        "Naval architecture officer (NAV)"
+      ],
+      "directory": "incomplete/task_346",
+      "profiles": [
+        {
+          "record_id": "rec_medical_operations_A",
+          "role_id": "medical_operations",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-ONU",
+          "boolean_predicate_id": "A_trauma_unit_available",
+          "boolean_label": "Trauma stabilization unit onboard",
+          "hidden_predicate_id": "A_icu_preparation_time",
+          "threshold_label": "Intensive care bed preparation duration",
+          "threshold_aliases": [
+            "ICU setup time",
+            "Trauma bed readiness turnaround"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-CLINIC-ONU: Pacific Guardian Fast Rescue Cutter.Pacific Guardian Fast Rescue Cutter: Trauma stabilization unit onboard = true .Source: Onboard clinic inventory checklist; Scope: Candidate primary medical module; Measurement: Verification of an operable high-acuity trauma resuscitation suite.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Intensive care bed preparation duration is at most 40 min.",
+          "role_name": "Maritime medical director (MED)",
+          "candidate_name": "Pacific Guardian Fast Rescue Cutter",
+          "other_candidate_names": [
+            "Nordic Sentinel Multipurpose Vessel",
+            "Southern Cross Emergency Responder"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NAV-NAVAL-FDI",
+          "hidden_predicate_id": "A_gross_nautical_range",
+          "threshold_label": "Gross nautical operational range",
+          "threshold_aliases": [
+            "Cruising range",
+            "Operational transit range"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "nmi",
+          "partial_record_text": "NAV-NAVAL-FDI: Pacific Guardian Fast Rescue Cutter.Audit period: March 2026.Pacific Guardian Fast Rescue Cutter: Dynamic positioning class 2 compliance = true .Source: Classification society survey sheet; Scope: Candidate station-keeping redundancy systems; Measurement: Active DP-2 classification certificate issued by an accredited naval registrar.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross nautical operational range is at most 3000 nmi.",
+          "role_name": "Naval architecture officer (NAV)",
+          "candidate_name": "Pacific Guardian Fast Rescue Cutter",
+          "other_candidate_names": [
+            "Nordic Sentinel Multipurpose Vessel",
+            "Southern Cross Emergency Responder"
+          ],
+          "context_value": "March 2026",
+          "other_context_values": [
+            "April 2026"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "medical_operations",
+        "naval_architecture",
+        "port_logistics"
+      ],
+      "role_names": [
+        "Maritime medical director (MED)",
+        "Naval architecture officer (NAV)",
+        "Port operations coordinator (PRT)"
+      ],
+      "directory": "incomplete/task_346",
+      "profiles": [
+        {
+          "record_id": "rec_medical_operations_A",
+          "role_id": "medical_operations",
+          "candidate_id": "A",
+          "key": "MED-CLINIC-ONU",
+          "boolean_predicate_id": "A_trauma_unit_available",
+          "boolean_label": "Trauma stabilization unit onboard",
+          "hidden_predicate_id": "A_icu_preparation_time",
+          "threshold_label": "Intensive care bed preparation duration",
+          "threshold_aliases": [
+            "ICU setup time",
+            "Trauma bed readiness turnaround"
+          ],
+          "threshold_value": 18,
+          "threshold_unit": "min",
+          "partial_record_text": "MED-CLINIC-ONU: Pacific Guardian Fast Rescue Cutter.Pacific Guardian Fast Rescue Cutter: Trauma stabilization unit onboard = true .Source: Onboard clinic inventory checklist; Scope: Candidate primary medical module; Measurement: Verification of an operable high-acuity trauma resuscitation suite.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 40
+          },
+          "coarse_statement": "Intensive care bed preparation duration is at most 40 min.",
+          "role_name": "Maritime medical director (MED)",
+          "candidate_name": "Pacific Guardian Fast Rescue Cutter",
+          "other_candidate_names": [
+            "Nordic Sentinel Multipurpose Vessel",
+            "Southern Cross Emergency Responder"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_naval_architecture_A",
+          "role_id": "naval_architecture",
+          "candidate_id": "A",
+          "key": "NAV-NAVAL-FDI",
+          "hidden_predicate_id": "A_gross_nautical_range",
+          "threshold_label": "Gross nautical operational range",
+          "threshold_aliases": [
+            "Cruising range",
+            "Operational transit range"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "nmi",
+          "partial_record_text": "NAV-NAVAL-FDI: Pacific Guardian Fast Rescue Cutter.Audit period: March 2026.Pacific Guardian Fast Rescue Cutter: Dynamic positioning class 2 compliance = true .Source: Classification society survey sheet; Scope: Candidate station-keeping redundancy systems; Measurement: Active DP-2 classification certificate issued by an accredited naval registrar.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Gross nautical operational range is at most 3000 nmi.",
+          "role_name": "Naval architecture officer (NAV)",
+          "candidate_name": "Pacific Guardian Fast Rescue Cutter",
+          "other_candidate_names": [
+            "Nordic Sentinel Multipurpose Vessel",
+            "Southern Cross Emergency Responder"
+          ],
+          "context_value": "March 2026",
+          "other_context_values": [
+            "April 2026"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_port_logistics_A",
+          "role_id": "port_logistics",
+          "candidate_id": "A",
+          "key": "PRT-HARBOR-4EQ",
+          "hidden_predicate_id": "A_transit_fuel_consumption",
+          "threshold_label": "Transit fuel consumption",
+          "threshold_aliases": [
+            "Fuel bunker burn",
+            "Full voyage fuel burn"
+          ],
+          "threshold_value": 300,
+          "threshold_unit": "t",
+          "partial_record_text": "PRT-HARBOR-4EQ: Pacific Guardian Fast Rescue Cutter.Pacific Guardian Fast Rescue Cutter: Port berthing clearance = true .Source: Harbour master access register; Scope: Designated emergency relief dock; Measurement: Draft and beam compatibility clearance for rapid emergency berthing.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 500
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Transit fuel consumption is at most 500 t.",
+          "role_name": "Port operations coordinator (PRT)",
+          "candidate_name": "Pacific Guardian Fast Rescue Cutter",
+          "other_candidate_names": [
+            "Nordic Sentinel Multipurpose Vessel",
+            "Southern Cross Emergency Responder"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

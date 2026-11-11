@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_038",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "chemical_forensics_lead",
+        "field_drilling_supervisor"
+      ],
+      "role_names": [
+        "Chemical forensics analytical lead (CHEM)",
+        "Field drilling operations supervisor (DRILL)"
+      ],
+      "directory": "incomplete/task_038",
+      "profiles": [
+        {
+          "record_id": "rec_chemical_forensics_lead_A",
+          "role_id": "chemical_forensics_lead",
+          "candidate_id": "A",
+          "key": "CHEM-SPEC-C4Q",
+          "boolean_predicate_id": "A_vapor_monitoring_active",
+          "boolean_label": "Soil vapor extraction monitoring active",
+          "hidden_predicate_id": "A_baseline_detection_limit",
+          "threshold_label": "Baseline solvent detection limit",
+          "threshold_aliases": [
+            "Baseline detection limit",
+            "Solvent detection threshold"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "CHEM-SPEC-C4Q: Direct-push membrane interface sounding.Direct-push membrane interface sounding: Soil vapor extraction monitoring active = true .Source: Instrument sensor telemetry status; Scope: Continuous in-situ photoionization detector array; Measurement: Operational switch confirming whether real-time volatile solvent sniffing is energized.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 30
+          },
+          "coarse_statement": "Baseline solvent detection limit is between 1 ug/L and 30 ug/L, inclusive.",
+          "role_name": "Chemical forensics analytical lead (CHEM)",
+          "candidate_name": "Direct-push membrane interface sounding",
+          "other_candidate_names": [
+            "Multi-depth groundwater tracer tomography",
+            "Nested discrete-interval acoustic profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_drilling_supervisor_A",
+          "role_id": "field_drilling_supervisor",
+          "candidate_id": "A",
+          "key": "DRILL-RIG-3L2",
+          "hidden_predicate_id": "A_borehole_disturbance_diameter",
+          "threshold_label": "Borehole disturbance diameter",
+          "threshold_aliases": [
+            "Maximum borehole disturbance diameter",
+            "Surface disruption diameter"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "mm",
+          "partial_record_text": "DRILL-RIG-3L2: Direct-push membrane interface sounding. The record covers Borehole disturbance diameter. Drilling mechanical casing specification; Ground level surface penetration footprint; Outer diameter of primary drive casing and surrounding annulus disturbance.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Borehole disturbance diameter is between 50 mm and 300 mm, inclusive.",
+          "role_name": "Field drilling operations supervisor (DRILL)",
+          "candidate_name": "Direct-push membrane interface sounding",
+          "other_candidate_names": [
+            "Multi-depth groundwater tracer tomography",
+            "Nested discrete-interval acoustic profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "chemical_forensics_lead",
+        "field_drilling_supervisor",
+        "hydrogeology_lead"
+      ],
+      "role_names": [
+        "Chemical forensics analytical lead (CHEM)",
+        "Field drilling operations supervisor (DRILL)",
+        "Hydrogeological survey lead (GEO)"
+      ],
+      "directory": "incomplete/task_038",
+      "profiles": [
+        {
+          "record_id": "rec_chemical_forensics_lead_A",
+          "role_id": "chemical_forensics_lead",
+          "candidate_id": "A",
+          "key": "CHEM-SPEC-C4Q",
+          "boolean_predicate_id": "A_vapor_monitoring_active",
+          "boolean_label": "Soil vapor extraction monitoring active",
+          "hidden_predicate_id": "A_baseline_detection_limit",
+          "threshold_label": "Baseline solvent detection limit",
+          "threshold_aliases": [
+            "Baseline detection limit",
+            "Solvent detection threshold"
+          ],
+          "threshold_value": 5,
+          "threshold_unit": "ug/L",
+          "partial_record_text": "CHEM-SPEC-C4Q: Direct-push membrane interface sounding.Direct-push membrane interface sounding: Soil vapor extraction monitoring active = true .Source: Instrument sensor telemetry status; Scope: Continuous in-situ photoionization detector array; Measurement: Operational switch confirming whether real-time volatile solvent sniffing is energized.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 30
+          },
+          "coarse_statement": "Baseline solvent detection limit is between 1 ug/L and 30 ug/L, inclusive.",
+          "role_name": "Chemical forensics analytical lead (CHEM)",
+          "candidate_name": "Direct-push membrane interface sounding",
+          "other_candidate_names": [
+            "Multi-depth groundwater tracer tomography",
+            "Nested discrete-interval acoustic profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_field_drilling_supervisor_A",
+          "role_id": "field_drilling_supervisor",
+          "candidate_id": "A",
+          "key": "DRILL-RIG-3L2",
+          "hidden_predicate_id": "A_borehole_disturbance_diameter",
+          "threshold_label": "Borehole disturbance diameter",
+          "threshold_aliases": [
+            "Maximum borehole disturbance diameter",
+            "Surface disruption diameter"
+          ],
+          "threshold_value": 95,
+          "threshold_unit": "mm",
+          "partial_record_text": "DRILL-RIG-3L2: Direct-push membrane interface sounding. The record covers Borehole disturbance diameter. Drilling mechanical casing specification; Ground level surface penetration footprint; Outer diameter of primary drive casing and surrounding annulus disturbance.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 50,
+            "upper": 300
+          },
+          "coarse_statement": "Borehole disturbance diameter is between 50 mm and 300 mm, inclusive.",
+          "role_name": "Field drilling operations supervisor (DRILL)",
+          "candidate_name": "Direct-push membrane interface sounding",
+          "other_candidate_names": [
+            "Multi-depth groundwater tracer tomography",
+            "Nested discrete-interval acoustic profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_hydrogeology_lead_A",
+          "role_id": "hydrogeology_lead",
+          "candidate_id": "A",
+          "key": "GEO-AQUI-C5H",
+          "hidden_predicate_id": "A_primary_core_capacity",
+          "threshold_label": "Primary subsurface core sample capacity",
+          "threshold_aliases": [
+            "Subsurface core capacity",
+            "Core sampling capacity"
+          ],
+          "threshold_value": 45,
+          "threshold_unit": "samples",
+          "partial_record_text": "GEO-AQUI-C5H: Direct-push membrane interface sounding.Direct-push membrane interface sounding: Deep aquifer penetration clearance = true .Source: Stratigraphic penetration safety assessment; Scope: Lower confining aquitard layer at 35 m depth; Measurement: Formal clearance confirming the probe technique will not pierce the basal aquitard into pristine lower aquifers.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 30,
+            "upper": 90
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Primary subsurface core sample capacity is between 30 samples and 90 samples, inclusive.",
+          "role_name": "Hydrogeological survey lead (GEO)",
+          "candidate_name": "Direct-push membrane interface sounding",
+          "other_candidate_names": [
+            "Multi-depth groundwater tracer tomography",
+            "Nested discrete-interval acoustic profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

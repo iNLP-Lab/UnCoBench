@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_022",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "hydrochemistry_specialist",
+        "geological_surveyor"
+      ],
+      "role_names": [
+        "Hydrochemistry specialist (HYD)",
+        "Subsurface geological surveyor (GEO)"
+      ],
+      "directory": "incomplete/task_022",
+      "profiles": [
+        {
+          "record_id": "rec_hydrochemistry_specialist_A",
+          "role_id": "hydrochemistry_specialist",
+          "candidate_id": "A",
+          "key": "HYD-ISO-OUG",
+          "boolean_predicate_id": "A_isotopic_monitoring_enabled",
+          "boolean_label": "Continuous isotopic monitoring instrumentation",
+          "hidden_predicate_id": "A_turnaround_hours",
+          "threshold_label": "Maximum isotopic sample turnaround time",
+          "threshold_aliases": [
+            "Isotopic testing turnaround duration",
+            "Isotope lab latency"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "HYD-ISO-OUG: Multi-isotope hydrochemical fingerprinting.Multi-isotope hydrochemical fingerprinting: Continuous isotopic monitoring instrumentation = true .Source: Field instrumentation configuration sheet; Scope: Monitoring wellhead array; Measurement: Presence of an active in-line isotope analyzer on downhole return lines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum isotopic sample turnaround time is at most 90 h.",
+          "role_name": "Hydrochemistry specialist (HYD)",
+          "candidate_name": "Multi-isotope hydrochemical fingerprinting",
+          "other_candidate_names": [
+            "Fluorescent dye and particle tracking",
+            "High-resolution acoustic resistivity profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geological_surveyor_A",
+          "role_id": "geological_surveyor",
+          "candidate_id": "A",
+          "key": "GEO-FRAC-UBC",
+          "hidden_predicate_id": "A_sensor_allocation",
+          "threshold_label": "Sensor array deployment allocation",
+          "threshold_aliases": [
+            "Downhole probe deployment budget",
+            "Wellhead telemetry network allocation"
+          ],
+          "threshold_value": 31000,
+          "threshold_unit": "USD",
+          "partial_record_text": "GEO-FRAC-UBC: Multi-isotope hydrochemical fingerprinting.Multi-isotope hydrochemical fingerprinting: Cross-well tracer clearance = true .Source: Hydrogeology risk assessment signoff; Scope: Candidate tracer injection materials; Measurement: Verification of harmless environmental dispersal approval.Multi-isotope hydrochemical fingerprinting: Hydrogeological fracture mapping validation = true .Source: Stratigraphic interpretation dossier; Scope: Fractured dolomite aquifer zone; Measurement: Formal validation of 3D preferential contaminant pathway mapping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sensor array deployment allocation is at most 50000 USD.",
+          "role_name": "Subsurface geological surveyor (GEO)",
+          "candidate_name": "Multi-isotope hydrochemical fingerprinting",
+          "other_candidate_names": [
+            "Fluorescent dye and particle tracking",
+            "High-resolution acoustic resistivity profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "hydrochemistry_specialist",
+        "geological_surveyor",
+        "operations_comptroller"
+      ],
+      "role_names": [
+        "Hydrochemistry specialist (HYD)",
+        "Subsurface geological surveyor (GEO)",
+        "Investigation operations comptroller (FIN)"
+      ],
+      "directory": "incomplete/task_022",
+      "profiles": [
+        {
+          "record_id": "rec_hydrochemistry_specialist_A",
+          "role_id": "hydrochemistry_specialist",
+          "candidate_id": "A",
+          "key": "HYD-ISO-OUG",
+          "boolean_predicate_id": "A_isotopic_monitoring_enabled",
+          "boolean_label": "Continuous isotopic monitoring instrumentation",
+          "hidden_predicate_id": "A_turnaround_hours",
+          "threshold_label": "Maximum isotopic sample turnaround time",
+          "threshold_aliases": [
+            "Isotopic testing turnaround duration",
+            "Isotope lab latency"
+          ],
+          "threshold_value": 24,
+          "threshold_unit": "h",
+          "partial_record_text": "HYD-ISO-OUG: Multi-isotope hydrochemical fingerprinting.Multi-isotope hydrochemical fingerprinting: Continuous isotopic monitoring instrumentation = true .Source: Field instrumentation configuration sheet; Scope: Monitoring wellhead array; Measurement: Presence of an active in-line isotope analyzer on downhole return lines.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 90
+          },
+          "coarse_statement": "Maximum isotopic sample turnaround time is at most 90 h.",
+          "role_name": "Hydrochemistry specialist (HYD)",
+          "candidate_name": "Multi-isotope hydrochemical fingerprinting",
+          "other_candidate_names": [
+            "Fluorescent dye and particle tracking",
+            "High-resolution acoustic resistivity profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_geological_surveyor_A",
+          "role_id": "geological_surveyor",
+          "candidate_id": "A",
+          "key": "GEO-FRAC-UBC",
+          "hidden_predicate_id": "A_sensor_allocation",
+          "threshold_label": "Sensor array deployment allocation",
+          "threshold_aliases": [
+            "Downhole probe deployment budget",
+            "Wellhead telemetry network allocation"
+          ],
+          "threshold_value": 31000,
+          "threshold_unit": "USD",
+          "partial_record_text": "GEO-FRAC-UBC: Multi-isotope hydrochemical fingerprinting.Multi-isotope hydrochemical fingerprinting: Cross-well tracer clearance = true .Source: Hydrogeology risk assessment signoff; Scope: Candidate tracer injection materials; Measurement: Verification of harmless environmental dispersal approval.Multi-isotope hydrochemical fingerprinting: Hydrogeological fracture mapping validation = true .Source: Stratigraphic interpretation dossier; Scope: Fractured dolomite aquifer zone; Measurement: Formal validation of 3D preferential contaminant pathway mapping.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 50000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Sensor array deployment allocation is at most 50000 USD.",
+          "role_name": "Subsurface geological surveyor (GEO)",
+          "candidate_name": "Multi-isotope hydrochemical fingerprinting",
+          "other_candidate_names": [
+            "Fluorescent dye and particle tracking",
+            "High-resolution acoustic resistivity profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_operations_comptroller_A",
+          "role_id": "operations_comptroller",
+          "candidate_id": "A",
+          "key": "FIN-FND-J2S",
+          "hidden_predicate_id": "A_lab_allocation",
+          "threshold_label": "Base mobile laboratory allocation",
+          "threshold_aliases": [
+            "Mobile spectrometry unit cost",
+            "On-site lab rental allowance"
+          ],
+          "threshold_value": 52000,
+          "threshold_unit": "USD",
+          "partial_record_text": "FIN-FND-J2S: Multi-isotope hydrochemical fingerprinting. The record covers Base mobile laboratory allocation. Field contractor cost breakdown; Trailer-mounted field analytical facility for the four-week tracing campaign; Total contracted fee for on-site analytical instruments and technician labor.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 80000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Base mobile laboratory allocation is at most 80000 USD.",
+          "role_name": "Investigation operations comptroller (FIN)",
+          "candidate_name": "Multi-isotope hydrochemical fingerprinting",
+          "other_candidate_names": [
+            "Fluorescent dye and particle tracking",
+            "High-resolution acoustic resistivity profiling"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

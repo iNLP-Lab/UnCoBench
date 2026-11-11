@@ -1,0 +1,165 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_882",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "utility_infrastructure_coordinator",
+        "structural_bridge_engineering"
+      ],
+      "role_names": [
+        "Utility infrastructure coordinator (UIC)",
+        "Structural bridge engineer (SBE)"
+      ],
+      "directory": "incomplete/task_882",
+      "profiles": [
+        {
+          "record_id": "rec_utility_infrastructure_coordinator_A",
+          "role_id": "utility_infrastructure_coordinator",
+          "candidate_id": "A",
+          "key": "UIC-WIRE-4RQ",
+          "boolean_predicate_id": "A_wire_lifting_protocol_active",
+          "boolean_label": "Overhead utility wire lifting protocol active",
+          "hidden_predicate_id": "A_wire_lifting_duration",
+          "threshold_label": "Average overhead wire lifting duration",
+          "threshold_aliases": [
+            "Mean wire lift time",
+            "Wire crossing clearance time"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "min",
+          "partial_record_text": "UIC-WIRE-4RQ: River Barge and Southern Valley Bypass Corridor.River Barge and Southern Valley Bypass Corridor: Overhead utility wire lifting protocol active = true .Source: Power utility master service dispatch agreement; Scope: Candidate corridor electrical and telecommunication utility crossings; Measurement: Whether the specialized lineman crew wire-lifting escort protocol is active and confirmed.",
+          "role_name": "Utility infrastructure coordinator (UIC)",
+          "candidate_name": "River Barge and Southern Valley Bypass Corridor",
+          "other_candidate_names": [
+            "Coastal Rail Spur and Ridge Highway Corridor",
+            "Direct Northern Interstate Heavy Haul Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_bridge_engineering_A",
+          "role_id": "structural_bridge_engineering",
+          "candidate_id": "A",
+          "key": "SBE-STRUC-TY8",
+          "hidden_predicate_id": "A_bridge_clearance_margin",
+          "threshold_label": "Bridge overhead clearance margin",
+          "threshold_aliases": [
+            "Bridge clearance buffer",
+            "Overhead bridge margin"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "cm",
+          "partial_record_text": "SBE-STRUC-TY8: River Barge and Southern Valley Bypass Corridor.River Barge and Southern Valley Bypass Corridor: Route structural axle load compliance = true .Source: Department of Transportation bridge rating ledger; Scope: All classified bridges and culverts on candidate corridor; Measurement: Certification that calculated axle load distribution does not exceed structural weight limits.",
+          "role_name": "Structural bridge engineer (SBE)",
+          "candidate_name": "River Barge and Southern Valley Bypass Corridor",
+          "other_candidate_names": [
+            "Coastal Rail Spur and Ridge Highway Corridor",
+            "Direct Northern Interstate Heavy Haul Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "utility_infrastructure_coordinator",
+        "structural_bridge_engineering",
+        "fleet_operations_manager"
+      ],
+      "role_names": [
+        "Utility infrastructure coordinator (UIC)",
+        "Structural bridge engineer (SBE)",
+        "Heavy fleet operations manager (FOM)"
+      ],
+      "directory": "incomplete/task_882",
+      "profiles": [
+        {
+          "record_id": "rec_utility_infrastructure_coordinator_A",
+          "role_id": "utility_infrastructure_coordinator",
+          "candidate_id": "A",
+          "key": "UIC-WIRE-4RQ",
+          "boolean_predicate_id": "A_wire_lifting_protocol_active",
+          "boolean_label": "Overhead utility wire lifting protocol active",
+          "hidden_predicate_id": "A_wire_lifting_duration",
+          "threshold_label": "Average overhead wire lifting duration",
+          "threshold_aliases": [
+            "Mean wire lift time",
+            "Wire crossing clearance time"
+          ],
+          "threshold_value": 16,
+          "threshold_unit": "min",
+          "partial_record_text": "UIC-WIRE-4RQ: River Barge and Southern Valley Bypass Corridor.River Barge and Southern Valley Bypass Corridor: Overhead utility wire lifting protocol active = true .Source: Power utility master service dispatch agreement; Scope: Candidate corridor electrical and telecommunication utility crossings; Measurement: Whether the specialized lineman crew wire-lifting escort protocol is active and confirmed.",
+          "role_name": "Utility infrastructure coordinator (UIC)",
+          "candidate_name": "River Barge and Southern Valley Bypass Corridor",
+          "other_candidate_names": [
+            "Coastal Rail Spur and Ridge Highway Corridor",
+            "Direct Northern Interstate Heavy Haul Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_bridge_engineering_A",
+          "role_id": "structural_bridge_engineering",
+          "candidate_id": "A",
+          "key": "SBE-STRUC-TY8",
+          "hidden_predicate_id": "A_bridge_clearance_margin",
+          "threshold_label": "Bridge overhead clearance margin",
+          "threshold_aliases": [
+            "Bridge clearance buffer",
+            "Overhead bridge margin"
+          ],
+          "threshold_value": 35,
+          "threshold_unit": "cm",
+          "partial_record_text": "SBE-STRUC-TY8: River Barge and Southern Valley Bypass Corridor.River Barge and Southern Valley Bypass Corridor: Route structural axle load compliance = true .Source: Department of Transportation bridge rating ledger; Scope: All classified bridges and culverts on candidate corridor; Measurement: Certification that calculated axle load distribution does not exceed structural weight limits.",
+          "role_name": "Structural bridge engineer (SBE)",
+          "candidate_name": "River Barge and Southern Valley Bypass Corridor",
+          "other_candidate_names": [
+            "Coastal Rail Spur and Ridge Highway Corridor",
+            "Direct Northern Interstate Heavy Haul Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_fleet_operations_manager_A",
+          "role_id": "fleet_operations_manager",
+          "candidate_id": "A",
+          "key": "FOM-FLEET-G4S",
+          "hidden_predicate_id": "A_corridor_fuel_consumption",
+          "threshold_label": "Corridor heavy-haul diesel consumption",
+          "threshold_aliases": [
+            "Total prime mover diesel volume",
+            "Corridor diesel consumption"
+          ],
+          "threshold_value": 4000,
+          "threshold_unit": "L",
+          "partial_record_text": "FOM-FLEET-G4S: River Barge and Southern Valley Bypass Corridor. The record covers Corridor heavy-haul diesel consumption. Prime mover fuel telemetry model; Lead and pusher tractor units during full corridor transit; Projected total diesel fuel consumed under loaded heavy-haul transit conditions.",
+          "disclosure_mode": "lower_bound",
+          "disclosure_bounds": {
+            "lower": 3000,
+            "upper": null
+          },
+          "disclosure_version": "v9_extension_single_field_bound",
+          "coarse_statement": "Corridor heavy-haul diesel consumption is at least 3000 L.",
+          "role_name": "Heavy fleet operations manager (FOM)",
+          "candidate_name": "River Barge and Southern Valley Bypass Corridor",
+          "other_candidate_names": [
+            "Coastal Rail Spur and Ridge Highway Corridor",
+            "Direct Northern Interstate Heavy Haul Corridor"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

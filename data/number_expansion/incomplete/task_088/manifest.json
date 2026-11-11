@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_088",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "water_quality_compliance",
+        "process_engineering"
+      ],
+      "role_names": [
+        "Water quality compliance lead (WQC)",
+        "Process engineering lead (PEL)"
+      ],
+      "directory": "incomplete/task_088",
+      "profiles": [
+        {
+          "record_id": "rec_water_quality_compliance_A",
+          "role_id": "water_quality_compliance",
+          "candidate_id": "A",
+          "key": "WQC-TELEMETRY-IIT",
+          "boolean_predicate_id": "A_metal_telemetry_active",
+          "boolean_label": "Continuous online heavy metal monitoring enabled",
+          "hidden_predicate_id": "A_effluent_cod",
+          "threshold_label": "Effluent chemical oxygen demand",
+          "threshold_aliases": [
+            "Chemical oxygen demand level",
+            "Treated effluent COD"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "WQC-TELEMETRY-IIT: Northumbrian Industrial Effluent Alliance.Northumbrian Industrial Effluent Alliance: Continuous online heavy metal monitoring enabled = true .Source: Telemetry instrumentation verification log; Scope: Main intake and final effluent manifold; Measurement: Operational readiness status of automated X-ray fluorescence or voltammetric metal sensors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Effluent chemical oxygen demand is at most 300 mg/L.",
+          "role_name": "Water quality compliance lead (WQC)",
+          "candidate_name": "Northumbrian Industrial Effluent Alliance",
+          "other_candidate_names": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PEL-CAPSPEC-2KK",
+          "hidden_predicate_id": "A_dry_weather_capacity",
+          "threshold_label": "Dry-weather treatment capacity",
+          "threshold_aliases": [
+            "Hydraulic dry-weather flow rate",
+            "Baseline daily treatment throughput"
+          ],
+          "threshold_value": 45000,
+          "threshold_unit": "m3/d",
+          "partial_record_text": "PEL-CAPSPEC-2KK: Northumbrian Industrial Effluent Alliance.Northumbrian Industrial Effluent Alliance: Baseline aeration power consumption = 2000 MWh.Source: Process energy balance sheet; Scope: Quarterly aeration blower diffusers in activated sludge basins; Measurement: Projected quarterly electrical energy consumption for biological basin aeration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "coarse_statement": "Dry-weather treatment capacity is at most 70000 m3/d.",
+          "role_name": "Process engineering lead (PEL)",
+          "candidate_name": "Northumbrian Industrial Effluent Alliance",
+          "other_candidate_names": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "water_quality_compliance",
+        "process_engineering",
+        "commercial_contracts"
+      ],
+      "role_names": [
+        "Water quality compliance lead (WQC)",
+        "Process engineering lead (PEL)",
+        "Commercial contracts manager (CCM)"
+      ],
+      "directory": "incomplete/task_088",
+      "profiles": [
+        {
+          "record_id": "rec_water_quality_compliance_A",
+          "role_id": "water_quality_compliance",
+          "candidate_id": "A",
+          "key": "WQC-TELEMETRY-IIT",
+          "boolean_predicate_id": "A_metal_telemetry_active",
+          "boolean_label": "Continuous online heavy metal monitoring enabled",
+          "hidden_predicate_id": "A_effluent_cod",
+          "threshold_label": "Effluent chemical oxygen demand",
+          "threshold_aliases": [
+            "Chemical oxygen demand level",
+            "Treated effluent COD"
+          ],
+          "threshold_value": 110,
+          "threshold_unit": "mg/L",
+          "partial_record_text": "WQC-TELEMETRY-IIT: Northumbrian Industrial Effluent Alliance.Northumbrian Industrial Effluent Alliance: Continuous online heavy metal monitoring enabled = true .Source: Telemetry instrumentation verification log; Scope: Main intake and final effluent manifold; Measurement: Operational readiness status of automated X-ray fluorescence or voltammetric metal sensors.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Effluent chemical oxygen demand is at most 300 mg/L.",
+          "role_name": "Water quality compliance lead (WQC)",
+          "candidate_name": "Northumbrian Industrial Effluent Alliance",
+          "other_candidate_names": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_process_engineering_A",
+          "role_id": "process_engineering",
+          "candidate_id": "A",
+          "key": "PEL-CAPSPEC-2KK",
+          "hidden_predicate_id": "A_dry_weather_capacity",
+          "threshold_label": "Dry-weather treatment capacity",
+          "threshold_aliases": [
+            "Hydraulic dry-weather flow rate",
+            "Baseline daily treatment throughput"
+          ],
+          "threshold_value": 45000,
+          "threshold_unit": "m3/d",
+          "partial_record_text": "PEL-CAPSPEC-2KK: Northumbrian Industrial Effluent Alliance.Northumbrian Industrial Effluent Alliance: Baseline aeration power consumption = 2000 MWh.Source: Process energy balance sheet; Scope: Quarterly aeration blower diffusers in activated sludge basins; Measurement: Projected quarterly electrical energy consumption for biological basin aeration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 70000
+          },
+          "coarse_statement": "Dry-weather treatment capacity is at most 70000 m3/d.",
+          "role_name": "Process engineering lead (PEL)",
+          "candidate_name": "Northumbrian Industrial Effluent Alliance",
+          "other_candidate_names": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_commercial_contracts_A",
+          "role_id": "commercial_contracts",
+          "candidate_id": "A",
+          "key": "CCM-BONDUTL-C5J",
+          "hidden_predicate_id": "A_pumping_power",
+          "threshold_label": "Auxiliary pumping power consumption",
+          "threshold_aliases": [
+            "Auxiliary lifting pump energy usage",
+            "Intake and recirculation pumping electricity"
+          ],
+          "threshold_value": 1100,
+          "threshold_unit": "MWh",
+          "partial_record_text": "CCM-BONDUTL-C5J: Northumbrian Industrial Effluent Alliance.Operating environment: Production operating environment.Northumbrian Industrial Effluent Alliance: Performance bond deposit verified = true .Source: Tees Valley Combined Authority treasury receipt; Scope: Concession performance default indemnity; Measurement: Confirmation of unconditional standby letter of credit or cash bond execution.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Auxiliary pumping power consumption is at most 3000 MWh.",
+          "role_name": "Commercial contracts manager (CCM)",
+          "candidate_name": "Northumbrian Industrial Effluent Alliance",
+          "other_candidate_names": [
+            "Cleveland CleanWater Partnership",
+            "Tees Estuary Environmental Solutions"
+          ],
+          "context_value": "Production operating environment",
+          "other_context_values": [
+            "Commissioning trial environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

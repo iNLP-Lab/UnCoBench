@@ -1,0 +1,197 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_227",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "facilities_environmental",
+        "rigging_engineering"
+      ],
+      "role_names": [
+        "Facilities and environmental controls manager (FAC)",
+        "Production and structural rigging engineer (RIG)"
+      ],
+      "directory": "incomplete/task_227",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_environmental_A",
+          "role_id": "facilities_environmental",
+          "candidate_id": "A",
+          "key": "FAC-ENVIR-7HL",
+          "boolean_predicate_id": "A_indoor_air_monitoring_active",
+          "boolean_label": "Indoor air quality monitoring active",
+          "hidden_predicate_id": "A_air_renewal_rate",
+          "threshold_label": "Minimum air renewal rate",
+          "threshold_aliases": [
+            "HVAC fresh air exchange rate",
+            "Air changes per hour"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "ACH",
+          "partial_record_text": "FAC-ENVIR-7HL: Clyde Waterfront Congress Centre.Clyde Waterfront Congress Centre: Indoor air quality monitoring active = true .Source: Building management system dashboard; Scope: Plenary auditorium and breakout rooms; Measurement: Active telemetry reporting from continuous CO2 and particulate matter sensors.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum air renewal rate is between 5 ACH and 30 ACH, inclusive.",
+          "role_name": "Facilities and environmental controls manager (FAC)",
+          "candidate_name": "Clyde Waterfront Congress Centre",
+          "other_candidate_names": [
+            "Highland Exhibition & Conference Park",
+            "Lothian International Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rigging_engineering_A",
+          "role_id": "rigging_engineering",
+          "candidate_id": "A",
+          "key": "RIG-STRUCT-PC4",
+          "hidden_predicate_id": "A_rigging_point_load",
+          "threshold_label": "Ceiling rigging structural point load",
+          "threshold_aliases": [
+            "Rigging structural capacity",
+            "Ceiling load rating"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "kN",
+          "partial_record_text": "RIG-STRUCT-PC4: Clyde Waterfront Congress Centre. The record covers Ceiling rigging structural point load. Record context: Specification version 2.0. Structural engineering ceiling certification; Main plenary hall primary overhead truss nodes; Maximum certified safe working point load per overhead hanging position.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Ceiling rigging structural point load is between 20 kN and 70 kN, inclusive.",
+          "role_name": "Production and structural rigging engineer (RIG)",
+          "candidate_name": "Clyde Waterfront Congress Centre",
+          "other_candidate_names": [
+            "Highland Exhibition & Conference Park",
+            "Lothian International Arena Complex"
+          ],
+          "context_value": "Specification version 2.0",
+          "other_context_values": [
+            "Specification version 3.0"
+          ],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "facilities_environmental",
+        "rigging_engineering",
+        "technical_services"
+      ],
+      "role_names": [
+        "Facilities and environmental controls manager (FAC)",
+        "Production and structural rigging engineer (RIG)",
+        "Venue technical services and microgrid lead (TECH)"
+      ],
+      "directory": "incomplete/task_227",
+      "profiles": [
+        {
+          "record_id": "rec_facilities_environmental_A",
+          "role_id": "facilities_environmental",
+          "candidate_id": "A",
+          "key": "FAC-ENVIR-7HL",
+          "boolean_predicate_id": "A_indoor_air_monitoring_active",
+          "boolean_label": "Indoor air quality monitoring active",
+          "hidden_predicate_id": "A_air_renewal_rate",
+          "threshold_label": "Minimum air renewal rate",
+          "threshold_aliases": [
+            "HVAC fresh air exchange rate",
+            "Air changes per hour"
+          ],
+          "threshold_value": 10,
+          "threshold_unit": "ACH",
+          "partial_record_text": "FAC-ENVIR-7HL: Clyde Waterfront Congress Centre.Clyde Waterfront Congress Centre: Indoor air quality monitoring active = true .Source: Building management system dashboard; Scope: Plenary auditorium and breakout rooms; Measurement: Active telemetry reporting from continuous CO2 and particulate matter sensors.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 5,
+            "upper": 30
+          },
+          "coarse_statement": "Minimum air renewal rate is between 5 ACH and 30 ACH, inclusive.",
+          "role_name": "Facilities and environmental controls manager (FAC)",
+          "candidate_name": "Clyde Waterfront Congress Centre",
+          "other_candidate_names": [
+            "Highland Exhibition & Conference Park",
+            "Lothian International Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_rigging_engineering_A",
+          "role_id": "rigging_engineering",
+          "candidate_id": "A",
+          "key": "RIG-STRUCT-PC4",
+          "hidden_predicate_id": "A_rigging_point_load",
+          "threshold_label": "Ceiling rigging structural point load",
+          "threshold_aliases": [
+            "Rigging structural capacity",
+            "Ceiling load rating"
+          ],
+          "threshold_value": 55,
+          "threshold_unit": "kN",
+          "partial_record_text": "RIG-STRUCT-PC4: Clyde Waterfront Congress Centre. The record covers Ceiling rigging structural point load. Record context: Specification version 2.0. Structural engineering ceiling certification; Main plenary hall primary overhead truss nodes; Maximum certified safe working point load per overhead hanging position.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 20,
+            "upper": 70
+          },
+          "coarse_statement": "Ceiling rigging structural point load is between 20 kN and 70 kN, inclusive.",
+          "role_name": "Production and structural rigging engineer (RIG)",
+          "candidate_name": "Clyde Waterfront Congress Centre",
+          "other_candidate_names": [
+            "Highland Exhibition & Conference Park",
+            "Lothian International Arena Complex"
+          ],
+          "context_value": "Specification version 2.0",
+          "other_context_values": [
+            "Specification version 3.0"
+          ],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_technical_services_A",
+          "role_id": "technical_services",
+          "candidate_id": "A",
+          "key": "TECH-MICRO-UVJ",
+          "hidden_predicate_id": "A_standby_microgrid_capacity",
+          "threshold_label": "Dedicated standby microgrid capacity",
+          "threshold_aliases": [
+            "Standby generator capacity",
+            "Hydrogen microgrid capacity"
+          ],
+          "threshold_value": 800,
+          "threshold_unit": "kVA",
+          "partial_record_text": "TECH-MICRO-UVJ: Clyde Waterfront Congress Centre. The record covers Dedicated standby microgrid capacity. On-site generator test and inspection certificate; Zero-emission hydrogen fuel-cell and battery microgrid units; Maximum continuous emergency standby electrical output capacity.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 3000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Dedicated standby microgrid capacity is between 0 kVA and 3000 kVA, inclusive.",
+          "role_name": "Venue technical services and microgrid lead (TECH)",
+          "candidate_name": "Clyde Waterfront Congress Centre",
+          "other_candidate_names": [
+            "Highland Exhibition & Conference Park",
+            "Lothian International Arena Complex"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

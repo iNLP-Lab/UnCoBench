@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_821",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "climate_engineering",
+        "structural_safety"
+      ],
+      "role_names": [
+        "Climate engineering lead (CEL)",
+        "Structural safety surveyor (SSS)"
+      ],
+      "directory": "incomplete/task_821",
+      "profiles": [
+        {
+          "record_id": "rec_climate_engineering_A",
+          "role_id": "climate_engineering",
+          "candidate_id": "A",
+          "key": "CEL-CLIM-TTT",
+          "boolean_predicate_id": "A_hvac_climate_interlock_installed",
+          "boolean_label": "Climate interlock system installed",
+          "hidden_predicate_id": "A_max_relative_humidity_drift",
+          "threshold_label": "Diurnal relative humidity drift",
+          "threshold_aliases": [
+            "24-hour humidity fluctuation",
+            "Relative humidity variance"
+          ],
+          "threshold_value": 2.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CEL-CLIM-TTT: Bavarian Alpine Subterranean Vault.Bavarian Alpine Subterranean Vault: Climate interlock system installed = true .Source: Facility mechanical engineering audit; Scope: Depository vestibule and vault envelope airlocks; Measurement: Presence of an active dual-stage pressure and moisture interlock barrier.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 8
+          },
+          "coarse_statement": "Diurnal relative humidity drift is between 1 % and 8 %, inclusive.",
+          "role_name": "Climate engineering lead (CEL)",
+          "candidate_name": "Bavarian Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Rhine-Westphalia Salt Cavern Archive",
+            "Taunus Granite Fortress Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "SSS-STRU-ZE5",
+          "hidden_predicate_id": "A_structural_fire_rating",
+          "threshold_label": "Structural fire endurance",
+          "threshold_aliases": [
+            "Passive fire resistance duration",
+            "Fire wall endurance rating"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "min",
+          "partial_record_text": "SSS-STRU-ZE5: Bavarian Alpine Subterranean Vault. The record covers Structural fire endurance. Structural engineering fire resistance certification; Vault boundary walls, ceilings, and armored blast doors; Certified duration of thermal containment under standard fire curve testing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Structural fire endurance is between 100 min and 400 min, inclusive.",
+          "role_name": "Structural safety surveyor (SSS)",
+          "candidate_name": "Bavarian Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Rhine-Westphalia Salt Cavern Archive",
+            "Taunus Granite Fortress Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "climate_engineering",
+        "structural_safety",
+        "curatorial_conservation"
+      ],
+      "role_names": [
+        "Climate engineering lead (CEL)",
+        "Structural safety surveyor (SSS)",
+        "Curatorial conservation registrar (CCR)"
+      ],
+      "directory": "incomplete/task_821",
+      "profiles": [
+        {
+          "record_id": "rec_climate_engineering_A",
+          "role_id": "climate_engineering",
+          "candidate_id": "A",
+          "key": "CEL-CLIM-TTT",
+          "boolean_predicate_id": "A_hvac_climate_interlock_installed",
+          "boolean_label": "Climate interlock system installed",
+          "hidden_predicate_id": "A_max_relative_humidity_drift",
+          "threshold_label": "Diurnal relative humidity drift",
+          "threshold_aliases": [
+            "24-hour humidity fluctuation",
+            "Relative humidity variance"
+          ],
+          "threshold_value": 2.0,
+          "threshold_unit": "%",
+          "partial_record_text": "CEL-CLIM-TTT: Bavarian Alpine Subterranean Vault.Bavarian Alpine Subterranean Vault: Climate interlock system installed = true .Source: Facility mechanical engineering audit; Scope: Depository vestibule and vault envelope airlocks; Measurement: Presence of an active dual-stage pressure and moisture interlock barrier.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 1,
+            "upper": 8
+          },
+          "coarse_statement": "Diurnal relative humidity drift is between 1 % and 8 %, inclusive.",
+          "role_name": "Climate engineering lead (CEL)",
+          "candidate_name": "Bavarian Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Rhine-Westphalia Salt Cavern Archive",
+            "Taunus Granite Fortress Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_safety_A",
+          "role_id": "structural_safety",
+          "candidate_id": "A",
+          "key": "SSS-STRU-ZE5",
+          "hidden_predicate_id": "A_structural_fire_rating",
+          "threshold_label": "Structural fire endurance",
+          "threshold_aliases": [
+            "Passive fire resistance duration",
+            "Fire wall endurance rating"
+          ],
+          "threshold_value": 180,
+          "threshold_unit": "min",
+          "partial_record_text": "SSS-STRU-ZE5: Bavarian Alpine Subterranean Vault. The record covers Structural fire endurance. Structural engineering fire resistance certification; Vault boundary walls, ceilings, and armored blast doors; Certified duration of thermal containment under standard fire curve testing.",
+          "disclosure_mode": "interval",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": 100,
+            "upper": 400
+          },
+          "coarse_statement": "Structural fire endurance is between 100 min and 400 min, inclusive.",
+          "role_name": "Structural safety surveyor (SSS)",
+          "candidate_name": "Bavarian Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Rhine-Westphalia Salt Cavern Archive",
+            "Taunus Granite Fortress Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_curatorial_conservation_A",
+          "role_id": "curatorial_conservation",
+          "candidate_id": "A",
+          "key": "CCR-CURA-SKO",
+          "hidden_predicate_id": "A_quarantine_staging_area",
+          "threshold_label": "Designated quarantine staging area",
+          "threshold_aliases": [
+            "Condition assessment staging space",
+            "Triage and unpacking quarantine area"
+          ],
+          "threshold_value": 200,
+          "threshold_unit": "m2",
+          "partial_record_text": "CCR-CURA-SKO: Bavarian Alpine Subterranean Vault. The record covers Designated quarantine staging area. Conservation intake space allocation protocol; Airborne isolation and acclimatization holding rooms; Floor space reserved strictly for pest isolation and condition inspection.",
+          "disclosure_mode": "interval",
+          "disclosure_bounds": {
+            "lower": 0,
+            "upper": 400
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Designated quarantine staging area is between 0 m2 and 400 m2, inclusive.",
+          "role_name": "Curatorial conservation registrar (CCR)",
+          "candidate_name": "Bavarian Alpine Subterranean Vault",
+          "other_candidate_names": [
+            "Rhine-Westphalia Salt Cavern Archive",
+            "Taunus Granite Fortress Depository"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

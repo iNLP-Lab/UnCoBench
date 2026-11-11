@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_577",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "conservation_science",
+        "structural_engineering"
+      ],
+      "role_names": [
+        "Preventive conservation specialist (CONS)",
+        "Structural and geological survey lead (STRUCT)"
+      ],
+      "directory": "incomplete/task_577",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CONS-CLIM-4IM",
+          "boolean_predicate_id": "A_gas_suppression_installed",
+          "boolean_label": "Inert gas fire suppression installed",
+          "hidden_predicate_id": "A_humidity_fluctuation_range",
+          "threshold_label": "Daily ambient relative humidity fluctuation",
+          "threshold_aliases": [
+            "Diurnal RH variance",
+            "Microclimate relative humidity swing"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-CLIM-4IM: Highland Quarry Underground Complex.Highland Quarry Underground Complex: Inert gas fire suppression installed = true .Source: Fire protection commission audit; Scope: Main containment chambers and artifact transit corridors; Measurement: Presence of a fully commissioned total-flooding IG-541 or nitrogen suppression system.Highland Quarry Underground Complex: Mandatory quarantine crate allocation = 200 crates.Source: Integrated pest management protocol; Scope: Isolated negative-pressure containment rooms; Measurement: Dedicated crate positions sequestered for mandatory insect and fungal quarantine.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Daily ambient relative humidity fluctuation is at most 9 %.",
+          "role_name": "Preventive conservation specialist (CONS)",
+          "candidate_name": "Highland Quarry Underground Complex",
+          "other_candidate_names": [
+            "Blackwood Ridge Secure Archive",
+            "St. Jude Subterranean Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-HYDRO-WUX",
+          "hidden_predicate_id": "A_elevation_above_base_flood",
+          "threshold_label": "Elevation above base flood level",
+          "threshold_aliases": [
+            "Floodplain clearance elevation",
+            "Hydrologic base buffer"
+          ],
+          "threshold_value": 6.2,
+          "threshold_unit": "m",
+          "partial_record_text": "STRUCT-HYDRO-WUX: Highland Quarry Underground Complex. The record covers Elevation above base flood level. Hydraulic inundation modeling report; Lowest subterranean entry threshold and exhaust plenum; Vertical distance between facility ingress openings and the regional 500-year base flood elevation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Elevation above base flood level is at most 8 m.",
+          "role_name": "Structural and geological survey lead (STRUCT)",
+          "candidate_name": "Highland Quarry Underground Complex",
+          "other_candidate_names": [
+            "Blackwood Ridge Secure Archive",
+            "St. Jude Subterranean Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "conservation_science",
+        "structural_engineering",
+        "facility_operations"
+      ],
+      "role_names": [
+        "Preventive conservation specialist (CONS)",
+        "Structural and geological survey lead (STRUCT)",
+        "Archive facilities director (FAC)"
+      ],
+      "directory": "incomplete/task_577",
+      "profiles": [
+        {
+          "record_id": "rec_conservation_science_A",
+          "role_id": "conservation_science",
+          "candidate_id": "A",
+          "key": "CONS-CLIM-4IM",
+          "boolean_predicate_id": "A_gas_suppression_installed",
+          "boolean_label": "Inert gas fire suppression installed",
+          "hidden_predicate_id": "A_humidity_fluctuation_range",
+          "threshold_label": "Daily ambient relative humidity fluctuation",
+          "threshold_aliases": [
+            "Diurnal RH variance",
+            "Microclimate relative humidity swing"
+          ],
+          "threshold_value": 2,
+          "threshold_unit": "%",
+          "partial_record_text": "CONS-CLIM-4IM: Highland Quarry Underground Complex.Highland Quarry Underground Complex: Inert gas fire suppression installed = true .Source: Fire protection commission audit; Scope: Main containment chambers and artifact transit corridors; Measurement: Presence of a fully commissioned total-flooding IG-541 or nitrogen suppression system.Highland Quarry Underground Complex: Mandatory quarantine crate allocation = 200 crates.Source: Integrated pest management protocol; Scope: Isolated negative-pressure containment rooms; Measurement: Dedicated crate positions sequestered for mandatory insect and fungal quarantine.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 9
+          },
+          "coarse_statement": "Daily ambient relative humidity fluctuation is at most 9 %.",
+          "role_name": "Preventive conservation specialist (CONS)",
+          "candidate_name": "Highland Quarry Underground Complex",
+          "other_candidate_names": [
+            "Blackwood Ridge Secure Archive",
+            "St. Jude Subterranean Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_structural_engineering_A",
+          "role_id": "structural_engineering",
+          "candidate_id": "A",
+          "key": "STRUCT-HYDRO-WUX",
+          "hidden_predicate_id": "A_elevation_above_base_flood",
+          "threshold_label": "Elevation above base flood level",
+          "threshold_aliases": [
+            "Floodplain clearance elevation",
+            "Hydrologic base buffer"
+          ],
+          "threshold_value": 6.2,
+          "threshold_unit": "m",
+          "partial_record_text": "STRUCT-HYDRO-WUX: Highland Quarry Underground Complex. The record covers Elevation above base flood level. Hydraulic inundation modeling report; Lowest subterranean entry threshold and exhaust plenum; Vertical distance between facility ingress openings and the regional 500-year base flood elevation.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 8
+          },
+          "coarse_statement": "Elevation above base flood level is at most 8 m.",
+          "role_name": "Structural and geological survey lead (STRUCT)",
+          "candidate_name": "Highland Quarry Underground Complex",
+          "other_candidate_names": [
+            "Blackwood Ridge Secure Archive",
+            "St. Jude Subterranean Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_facility_operations_A",
+          "role_id": "facility_operations",
+          "candidate_id": "A",
+          "key": "FAC-POWER-SOY",
+          "hidden_predicate_id": "A_backup_generator_fuel_autonomy",
+          "threshold_label": "Emergency generator autonomous run time",
+          "threshold_aliases": [
+            "Generator fuel autonomy",
+            "Off-grid emergency power duration"
+          ],
+          "threshold_value": 120,
+          "threshold_unit": "h",
+          "partial_record_text": "FAC-POWER-SOY: Highland Quarry Underground Complex.Highland Quarry Underground Complex: Primary vault crate capacity = 1800 crates.Source: Facility floor loading plan; Scope: High-density subterranean vault racking bays; Measurement: Total standard museum archival crates accommodated under static load limits.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 300
+          },
+          "coarse_statement": "Emergency generator autonomous run time is at most 300 h.",
+          "role_name": "Archive facilities director (FAC)",
+          "candidate_name": "Highland Quarry Underground Complex",
+          "other_candidate_names": [
+            "Blackwood Ridge Secure Archive",
+            "St. Jude Subterranean Vault"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_247",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "aviation_compliance",
+        "executive_recruitment"
+      ],
+      "role_names": [
+        "Aeromedical regulatory compliance officer (AERO)",
+        "Executive recruitment search lead (EXEC)"
+      ],
+      "directory": "incomplete/task_247",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_compliance_A",
+          "role_id": "aviation_compliance",
+          "candidate_id": "A",
+          "key": "AERO-AVREG-SXQ",
+          "boolean_predicate_id": "A_flight_surgeon_accreditation",
+          "boolean_label": "Flight surgeon accreditation",
+          "hidden_predicate_id": "A_logged_flight_hours",
+          "threshold_label": "Logged aeromedical flight hours",
+          "threshold_aliases": [
+            "Rotorcraft retrieval flight time",
+            "Helicopter rescue flight hours"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "h",
+          "partial_record_text": "AERO-AVREG-SXQ: Dr. Alistair Vance.Dr. Alistair Vance: Flight surgeon accreditation = true .Source: Aviation regulatory registry; Scope: National civil aviation authority medical register; Measurement: Active status of the aeromedical examiner and flight surgeon certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Logged aeromedical flight hours is at most 3000 h.",
+          "role_name": "Aeromedical regulatory compliance officer (AERO)",
+          "candidate_name": "Dr. Alistair Vance",
+          "other_candidate_names": [
+            "Dr. Corinne Dupuis",
+            "Dr. Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_executive_recruitment_A",
+          "role_id": "executive_recruitment",
+          "candidate_id": "A",
+          "key": "EXEC-HEADHUNT-TL7",
+          "hidden_predicate_id": "A_triage_assessment_score",
+          "threshold_label": "Operational flight triage assessment score",
+          "threshold_aliases": [
+            "Retrieval dispatch triage score",
+            "Flight operations triage evaluation"
+          ],
+          "threshold_value": 92.0,
+          "threshold_unit": "pts",
+          "partial_record_text": "EXEC-HEADHUNT-TL7: Dr. Alistair Vance.Dr. Alistair Vance: Executive clinical leadership verified = true .Source: Executive vetting and credentials dossier; Scope: Prior appointments across accredited emergency hospital networks; Measurement: Documented completion of at least three years as clinical department head or medical director.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Operational flight triage assessment score is at most 110 pts.",
+          "role_name": "Executive recruitment search lead (EXEC)",
+          "candidate_name": "Dr. Alistair Vance",
+          "other_candidate_names": [
+            "Dr. Corinne Dupuis",
+            "Dr. Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "aviation_compliance",
+        "executive_recruitment",
+        "clinical_governance"
+      ],
+      "role_names": [
+        "Aeromedical regulatory compliance officer (AERO)",
+        "Executive recruitment search lead (EXEC)",
+        "Clinical governance board lead (CGB)"
+      ],
+      "directory": "incomplete/task_247",
+      "profiles": [
+        {
+          "record_id": "rec_aviation_compliance_A",
+          "role_id": "aviation_compliance",
+          "candidate_id": "A",
+          "key": "AERO-AVREG-SXQ",
+          "boolean_predicate_id": "A_flight_surgeon_accreditation",
+          "boolean_label": "Flight surgeon accreditation",
+          "hidden_predicate_id": "A_logged_flight_hours",
+          "threshold_label": "Logged aeromedical flight hours",
+          "threshold_aliases": [
+            "Rotorcraft retrieval flight time",
+            "Helicopter rescue flight hours"
+          ],
+          "threshold_value": 1200,
+          "threshold_unit": "h",
+          "partial_record_text": "AERO-AVREG-SXQ: Dr. Alistair Vance.Dr. Alistair Vance: Flight surgeon accreditation = true .Source: Aviation regulatory registry; Scope: National civil aviation authority medical register; Measurement: Active status of the aeromedical examiner and flight surgeon certificate.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 3000
+          },
+          "coarse_statement": "Logged aeromedical flight hours is at most 3000 h.",
+          "role_name": "Aeromedical regulatory compliance officer (AERO)",
+          "candidate_name": "Dr. Alistair Vance",
+          "other_candidate_names": [
+            "Dr. Corinne Dupuis",
+            "Dr. Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_executive_recruitment_A",
+          "role_id": "executive_recruitment",
+          "candidate_id": "A",
+          "key": "EXEC-HEADHUNT-TL7",
+          "hidden_predicate_id": "A_triage_assessment_score",
+          "threshold_label": "Operational flight triage assessment score",
+          "threshold_aliases": [
+            "Retrieval dispatch triage score",
+            "Flight operations triage evaluation"
+          ],
+          "threshold_value": 92.0,
+          "threshold_unit": "pts",
+          "partial_record_text": "EXEC-HEADHUNT-TL7: Dr. Alistair Vance.Dr. Alistair Vance: Executive clinical leadership verified = true .Source: Executive vetting and credentials dossier; Scope: Prior appointments across accredited emergency hospital networks; Measurement: Documented completion of at least three years as clinical department head or medical director.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Operational flight triage assessment score is at most 110 pts.",
+          "role_name": "Executive recruitment search lead (EXEC)",
+          "candidate_name": "Dr. Alistair Vance",
+          "other_candidate_names": [
+            "Dr. Corinne Dupuis",
+            "Dr. Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_clinical_governance_A",
+          "role_id": "clinical_governance",
+          "candidate_id": "A",
+          "key": "CGB-CLINGOV-Q5X",
+          "hidden_predicate_id": "A_crisis_simulation_score",
+          "threshold_label": "Clinical crisis simulation score",
+          "threshold_aliases": [
+            "Crisis resource management score",
+            "High-fidelity trauma simulation grade"
+          ],
+          "threshold_value": 89.0,
+          "threshold_unit": "pts",
+          "partial_record_text": "CGB-CLINGOV-Q5X: Dr. Alistair Vance.Dr. Alistair Vance: Trauma surgery board certification = true .Source: Medical subspecialty board registry; Scope: Current national medical specialty licensing register; Measurement: Active specialist certification in trauma surgery or emergency critical care.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Clinical crisis simulation score is at most 110 pts.",
+          "role_name": "Clinical governance board lead (CGB)",
+          "candidate_name": "Dr. Alistair Vance",
+          "other_candidate_names": [
+            "Dr. Corinne Dupuis",
+            "Dr. Marcus Thorne"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

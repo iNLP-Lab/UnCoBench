@@ -1,0 +1,195 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_943",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "licensing_credentials",
+        "flight_experience"
+      ],
+      "role_names": [
+        "Flight crew licensing director (FCLD)",
+        "Aeronautical experience registrar (AER)"
+      ],
+      "directory": "incomplete/task_943",
+      "profiles": [
+        {
+          "record_id": "rec_licensing_credentials_A",
+          "role_id": "licensing_credentials",
+          "candidate_id": "A",
+          "key": "FCLD-AUDIT-JA0",
+          "boolean_predicate_id": "A_audit_credential_active",
+          "boolean_label": "Flight safety audit credential active",
+          "hidden_predicate_id": "A_audit_exam_score",
+          "threshold_label": "Safety audit examination score",
+          "threshold_aliases": [
+            "Audit exam score",
+            "Operations inspector exam score"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "pts",
+          "partial_record_text": "FCLD-AUDIT-JA0: Commercial Airline Fleet Captain Profile.Commercial Airline Fleet Captain Profile: Flight safety audit credential active = true .Source: Civil Aviation Authority auditor register; Scope: Current regulatory fiscal cycle; Measurement: Confirmation that the flight operations safety auditor credential is fully active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Safety audit examination score is at most 110 pts.",
+          "role_name": "Flight crew licensing director (FCLD)",
+          "candidate_name": "Commercial Airline Fleet Captain Profile",
+          "other_candidate_names": [
+            "Military Flight Test Evaluator Profile",
+            "Heavy Cargo Operations Pilot Profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_experience_A",
+          "role_id": "flight_experience",
+          "candidate_id": "A",
+          "key": "AER-LOGS-GA9",
+          "hidden_predicate_id": "A_accident_free_years",
+          "threshold_label": "Accident-free commercial supervisory experience",
+          "threshold_aliases": [
+            "Incident-free flight years",
+            "Accident-free command duration"
+          ],
+          "threshold_value": 11,
+          "threshold_unit": "years",
+          "partial_record_text": "AER-LOGS-GA9: Commercial Airline Fleet Captain Profile.Commercial Airline Fleet Captain Profile: Verified pilot-in-command flight hours = 4500 h.Source: Aeronautical experience logbook audit; Scope: Lifetime authenticated civil transport and military command time; Measurement: Logged total pilot-in-command flight duration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Accident-free commercial supervisory experience is at most 30 years.",
+          "role_name": "Aeronautical experience registrar (AER)",
+          "candidate_name": "Commercial Airline Fleet Captain Profile",
+          "other_candidate_names": [
+            "Military Flight Test Evaluator Profile",
+            "Heavy Cargo Operations Pilot Profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "licensing_credentials",
+        "flight_experience",
+        "technical_simulation"
+      ],
+      "role_names": [
+        "Flight crew licensing director (FCLD)",
+        "Aeronautical experience registrar (AER)",
+        "Simulator evaluation examiner (SEE)"
+      ],
+      "directory": "incomplete/task_943",
+      "profiles": [
+        {
+          "record_id": "rec_licensing_credentials_A",
+          "role_id": "licensing_credentials",
+          "candidate_id": "A",
+          "key": "FCLD-AUDIT-JA0",
+          "boolean_predicate_id": "A_audit_credential_active",
+          "boolean_label": "Flight safety audit credential active",
+          "hidden_predicate_id": "A_audit_exam_score",
+          "threshold_label": "Safety audit examination score",
+          "threshold_aliases": [
+            "Audit exam score",
+            "Operations inspector exam score"
+          ],
+          "threshold_value": 92,
+          "threshold_unit": "pts",
+          "partial_record_text": "FCLD-AUDIT-JA0: Commercial Airline Fleet Captain Profile.Commercial Airline Fleet Captain Profile: Flight safety audit credential active = true .Source: Civil Aviation Authority auditor register; Scope: Current regulatory fiscal cycle; Measurement: Confirmation that the flight operations safety auditor credential is fully active.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 110
+          },
+          "coarse_statement": "Safety audit examination score is at most 110 pts.",
+          "role_name": "Flight crew licensing director (FCLD)",
+          "candidate_name": "Commercial Airline Fleet Captain Profile",
+          "other_candidate_names": [
+            "Military Flight Test Evaluator Profile",
+            "Heavy Cargo Operations Pilot Profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_experience_A",
+          "role_id": "flight_experience",
+          "candidate_id": "A",
+          "key": "AER-LOGS-GA9",
+          "hidden_predicate_id": "A_accident_free_years",
+          "threshold_label": "Accident-free commercial supervisory experience",
+          "threshold_aliases": [
+            "Incident-free flight years",
+            "Accident-free command duration"
+          ],
+          "threshold_value": 11,
+          "threshold_unit": "years",
+          "partial_record_text": "AER-LOGS-GA9: Commercial Airline Fleet Captain Profile.Commercial Airline Fleet Captain Profile: Verified pilot-in-command flight hours = 4500 h.Source: Aeronautical experience logbook audit; Scope: Lifetime authenticated civil transport and military command time; Measurement: Logged total pilot-in-command flight duration.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_version": "truthful_bounds_v3_domain_bounds",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 30
+          },
+          "coarse_statement": "Accident-free commercial supervisory experience is at most 30 years.",
+          "role_name": "Aeronautical experience registrar (AER)",
+          "candidate_name": "Commercial Airline Fleet Captain Profile",
+          "other_candidate_names": [
+            "Military Flight Test Evaluator Profile",
+            "Heavy Cargo Operations Pilot Profile"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_technical_simulation_A",
+          "role_id": "technical_simulation",
+          "candidate_id": "A",
+          "key": "SEE-SIM-0OQ",
+          "hidden_predicate_id": "A_multi_engine_hours",
+          "threshold_label": "Multi-engine turbine flight hours",
+          "threshold_aliases": [
+            "Multi-engine turbine hours",
+            "Turbine flight currency"
+          ],
+          "threshold_value": 2600,
+          "threshold_unit": "h",
+          "partial_record_text": "SEE-SIM-0OQ: Commercial Airline Fleet Captain Profile.Aggregation window: trailing 36-month window.Commercial Airline Fleet Captain Profile: Advanced emergency simulator assessment passed = true .Source: Flight simulator examiner practical grade sheet; Scope: Level D full-flight multi-engine simulator check; Measurement: Formal pass determination across extreme crosswind and asymmetric power failure profiles.",
+          "disclosure_mode": "upper_bound",
+          "disclosure_bounds": {
+            "lower": null,
+            "upper": 4000
+          },
+          "disclosure_version": "v9_extension_domain_bounds",
+          "coarse_statement": "Multi-engine turbine flight hours is at most 4000 h.",
+          "role_name": "Simulator evaluation examiner (SEE)",
+          "candidate_name": "Commercial Airline Fleet Captain Profile",
+          "other_candidate_names": [
+            "Military Flight Test Evaluator Profile",
+            "Heavy Cargo Operations Pilot Profile"
+          ],
+          "context_value": "trailing 36-month window",
+          "other_context_values": [
+            "career cumulative window"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

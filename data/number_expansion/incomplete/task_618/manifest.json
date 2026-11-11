@@ -1,0 +1,160 @@
+{
+  "setting": "incomplete",
+  "task_id": "task_618",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "mountain_avionics",
+        "flight_operations"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Flight operations director (FLT)"
+      ],
+      "directory": "incomplete/task_618",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_avionics_A",
+          "role_id": "mountain_avionics",
+          "candidate_id": "A",
+          "key": "MET-WEA-LW7",
+          "boolean_predicate_id": "A_telemetry_uplink_active",
+          "boolean_label": "En-route mountain telemetry uplink active",
+          "hidden_predicate_id": "A_icing_severity_index",
+          "threshold_label": "En-route icing severity index",
+          "threshold_aliases": [
+            "Airframe icing index",
+            "Atmospheric icing risk grade"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "grade",
+          "partial_record_text": "MET-WEA-LW7: Tasman Glacier Traverse.Tasman Glacier Traverse: En-route mountain telemetry uplink active = true .Source: Alpine weather data feed monitor; Scope: Corridor ridge telemetry transceivers; Measurement: Operational status of the continuous real-time mountain meteorological telemetry stream.",
+          "role_name": "Aviation meteorology specialist (MET)",
+          "candidate_name": "Tasman Glacier Traverse",
+          "other_candidate_names": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-APPR-3HV",
+          "hidden_predicate_id": "A_cruise_fuel_allowance",
+          "threshold_label": "Cruise fuel allowance",
+          "threshold_aliases": [
+            "Assigned mission fuel quantity",
+            "Rotorcraft departure fuel load"
+          ],
+          "threshold_value": 720,
+          "threshold_unit": "L",
+          "partial_record_text": "FLT-APPR-3HV: Tasman Glacier Traverse.Tasman Glacier Traverse: Certified instrument approach readiness = true .Source: Civil aviation flight procedure manifest; Scope: Designated alpine rescue corridor waypoint segment; Measurement: Whether corridor GPS waypoint sequence has active instrument approach authorization.",
+          "role_name": "Flight operations director (FLT)",
+          "candidate_name": "Tasman Glacier Traverse",
+          "other_candidate_names": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "mountain_avionics",
+        "flight_operations",
+        "air_traffic_control"
+      ],
+      "role_names": [
+        "Aviation meteorology specialist (MET)",
+        "Flight operations director (FLT)",
+        "Air traffic priority controller (ATC)"
+      ],
+      "directory": "incomplete/task_618",
+      "profiles": [
+        {
+          "record_id": "rec_mountain_avionics_A",
+          "role_id": "mountain_avionics",
+          "candidate_id": "A",
+          "key": "MET-WEA-LW7",
+          "boolean_predicate_id": "A_telemetry_uplink_active",
+          "boolean_label": "En-route mountain telemetry uplink active",
+          "hidden_predicate_id": "A_icing_severity_index",
+          "threshold_label": "En-route icing severity index",
+          "threshold_aliases": [
+            "Airframe icing index",
+            "Atmospheric icing risk grade"
+          ],
+          "threshold_value": 3,
+          "threshold_unit": "grade",
+          "partial_record_text": "MET-WEA-LW7: Tasman Glacier Traverse.Tasman Glacier Traverse: En-route mountain telemetry uplink active = true .Source: Alpine weather data feed monitor; Scope: Corridor ridge telemetry transceivers; Measurement: Operational status of the continuous real-time mountain meteorological telemetry stream.",
+          "role_name": "Aviation meteorology specialist (MET)",
+          "candidate_name": "Tasman Glacier Traverse",
+          "other_candidate_names": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_flight_operations_A",
+          "role_id": "flight_operations",
+          "candidate_id": "A",
+          "key": "FLT-APPR-3HV",
+          "hidden_predicate_id": "A_cruise_fuel_allowance",
+          "threshold_label": "Cruise fuel allowance",
+          "threshold_aliases": [
+            "Assigned mission fuel quantity",
+            "Rotorcraft departure fuel load"
+          ],
+          "threshold_value": 720,
+          "threshold_unit": "L",
+          "partial_record_text": "FLT-APPR-3HV: Tasman Glacier Traverse.Tasman Glacier Traverse: Certified instrument approach readiness = true .Source: Civil aviation flight procedure manifest; Scope: Designated alpine rescue corridor waypoint segment; Measurement: Whether corridor GPS waypoint sequence has active instrument approach authorization.",
+          "role_name": "Flight operations director (FLT)",
+          "candidate_name": "Tasman Glacier Traverse",
+          "other_candidate_names": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "context_value": null,
+          "other_context_values": [],
+          "language": "en"
+        },
+        {
+          "record_id": "rec_air_traffic_control_A",
+          "role_id": "air_traffic_control",
+          "candidate_id": "A",
+          "key": "ATC-SLOT-L56",
+          "hidden_predicate_id": "A_transit_burn_consumption",
+          "threshold_label": "Transit burn consumption",
+          "threshold_aliases": [
+            "Projected corridor fuel burn",
+            "Estimated flight consumption"
+          ],
+          "threshold_value": 400,
+          "threshold_unit": "L",
+          "partial_record_text": "ATC-SLOT-L56: Tasman Glacier Traverse.System deployment environment: Live operational environment.Tasman Glacier Traverse: Priority emergency airspace slot confirmation = true .Source: Regional airspace sector management register; Scope: Corridor transit altitude block for the rescue mission duration; Measurement: Exclusive aeromedical evacuation slot reservation confirmed by air traffic control.",
+          "role_name": "Air traffic priority controller (ATC)",
+          "candidate_name": "Tasman Glacier Traverse",
+          "other_candidate_names": [
+            "Mueller Ridge Bypass",
+            "Hooker Valley Low-Level Route"
+          ],
+          "context_value": "Live operational environment",
+          "other_context_values": [
+            "Simulation exercise environment"
+          ],
+          "language": "en"
+        }
+      ]
+    }
+  }
+}

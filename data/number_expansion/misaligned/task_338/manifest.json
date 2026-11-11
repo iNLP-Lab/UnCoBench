@@ -1,0 +1,494 @@
+{
+  "setting": "misaligned",
+  "task_id": "task_338",
+  "variants": {
+    "2": {
+      "role_ids": [
+        "triage_command",
+        "harbor_operations"
+      ],
+      "role_names": [
+        "Medical Triage Coordinator (MED)",
+        "Harbor Terminals Superintendent (HARB)"
+      ],
+      "directory": "number_expansion/misaligned/task_338/k2",
+      "error_profiles": [
+        {
+          "role_name": "Medical Triage Coordinator (MED)",
+          "target_key": "MED-TRIAGE-4SD",
+          "alternate_key": "MED-SUPPLY-W2R",
+          "target_context": "Zhejiang",
+          "alternate_context": "Fujian",
+          "candidate": "Pemberton Deep-Draft Seaway Corridor",
+          "other_candidates": [
+            "Malaspina Inshore Archipelago Route",
+            "Queen Charlotte Outer Bank Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_staging_ready",
+              "value": true,
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "channel_cleared",
+              "label": "Navigation channel clearance",
+              "aliases": [
+                "Channel clearance signoff",
+                "Fairway hazard clearance"
+              ]
+            },
+            {
+              "topic": "radar_beacon_active",
+              "label": "Active radar beacon coverage",
+              "aliases": [
+                "Racon operational status",
+                "Radar transponder activation"
+              ]
+            },
+            {
+              "topic": "beacon_effective_range_nmi",
+              "label": "Radar beacon transmission range",
+              "aliases": [
+                "Racon signal range",
+                "Navigational transponder coverage radius"
+              ]
+            },
+            {
+              "topic": "berthing_apron_available",
+              "label": "Emergency berthing apron availability",
+              "aliases": [
+                "Dockside apron availability",
+                "Quayside apron readiness"
+              ]
+            },
+            {
+              "topic": "total_certified_capacity",
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ]
+            },
+            {
+              "topic": "triage_staging_ready",
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ]
+            },
+            {
+              "topic": "safety_signoff",
+              "label": "Maritime safety authority signoff",
+              "aliases": [
+                "Coast guard regulatory approval",
+                "Emergency marine corridor certification"
+              ]
+            },
+            {
+              "topic": "crew_medical_reservation",
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Harbor Terminals Superintendent (HARB)",
+          "target_key": "HARB-DOCK-F6H",
+          "alternate_key": "HARB-DOCK-2I7",
+          "target_context": "including auxiliary deck passenger surge allowances",
+          "alternate_context": "excluding auxiliary deck passenger surge allowances",
+          "candidate": "Pemberton Deep-Draft Seaway Corridor",
+          "other_candidates": [
+            "Malaspina Inshore Archipelago Route",
+            "Queen Charlotte Outer Bank Channel"
+          ],
+          "numeric": [
+            {
+              "topic": "total_certified_capacity",
+              "value": 1350,
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ],
+              "unit": "persons"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "channel_cleared",
+              "label": "Navigation channel clearance",
+              "aliases": [
+                "Channel clearance signoff",
+                "Fairway hazard clearance"
+              ]
+            },
+            {
+              "topic": "radar_beacon_active",
+              "label": "Active radar beacon coverage",
+              "aliases": [
+                "Racon operational status",
+                "Radar transponder activation"
+              ]
+            },
+            {
+              "topic": "beacon_effective_range_nmi",
+              "label": "Radar beacon transmission range",
+              "aliases": [
+                "Racon signal range",
+                "Navigational transponder coverage radius"
+              ]
+            },
+            {
+              "topic": "berthing_apron_available",
+              "label": "Emergency berthing apron availability",
+              "aliases": [
+                "Dockside apron availability",
+                "Quayside apron readiness"
+              ]
+            },
+            {
+              "topic": "total_certified_capacity",
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ]
+            },
+            {
+              "topic": "triage_staging_ready",
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ]
+            },
+            {
+              "topic": "safety_signoff",
+              "label": "Maritime safety authority signoff",
+              "aliases": [
+                "Coast guard regulatory approval",
+                "Emergency marine corridor certification"
+              ]
+            },
+            {
+              "topic": "crew_medical_reservation",
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "role_ids": [
+        "triage_command",
+        "harbor_operations",
+        "fleet_logistics"
+      ],
+      "role_names": [
+        "Medical Triage Coordinator (MED)",
+        "Harbor Terminals Superintendent (HARB)",
+        "Marine Fleet Dispatcher (FLEET)"
+      ],
+      "directory": "number_expansion/misaligned/task_338/k3",
+      "error_profiles": [
+        {
+          "role_name": "Medical Triage Coordinator (MED)",
+          "target_key": "MED-TRIAGE-4SD",
+          "alternate_key": "MED-SUPPLY-W2R",
+          "target_context": "Zhejiang",
+          "alternate_context": "Fujian",
+          "candidate": "Pemberton Deep-Draft Seaway Corridor",
+          "other_candidates": [
+            "Malaspina Inshore Archipelago Route",
+            "Queen Charlotte Outer Bank Channel"
+          ],
+          "numeric": [],
+          "boolean": [
+            {
+              "topic": "triage_staging_ready",
+              "value": true,
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ],
+              "unit": ""
+            }
+          ],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "channel_cleared",
+              "label": "Navigation channel clearance",
+              "aliases": [
+                "Channel clearance signoff",
+                "Fairway hazard clearance"
+              ]
+            },
+            {
+              "topic": "radar_beacon_active",
+              "label": "Active radar beacon coverage",
+              "aliases": [
+                "Racon operational status",
+                "Radar transponder activation"
+              ]
+            },
+            {
+              "topic": "beacon_effective_range_nmi",
+              "label": "Radar beacon transmission range",
+              "aliases": [
+                "Racon signal range",
+                "Navigational transponder coverage radius"
+              ]
+            },
+            {
+              "topic": "berthing_apron_available",
+              "label": "Emergency berthing apron availability",
+              "aliases": [
+                "Dockside apron availability",
+                "Quayside apron readiness"
+              ]
+            },
+            {
+              "topic": "total_certified_capacity",
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ]
+            },
+            {
+              "topic": "triage_staging_ready",
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ]
+            },
+            {
+              "topic": "safety_signoff",
+              "label": "Maritime safety authority signoff",
+              "aliases": [
+                "Coast guard regulatory approval",
+                "Emergency marine corridor certification"
+              ]
+            },
+            {
+              "topic": "crew_medical_reservation",
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Harbor Terminals Superintendent (HARB)",
+          "target_key": "HARB-DOCK-F6H",
+          "alternate_key": "HARB-DOCK-2I7",
+          "target_context": "including auxiliary deck passenger surge allowances",
+          "alternate_context": "excluding auxiliary deck passenger surge allowances",
+          "candidate": "Pemberton Deep-Draft Seaway Corridor",
+          "other_candidates": [
+            "Malaspina Inshore Archipelago Route",
+            "Queen Charlotte Outer Bank Channel"
+          ],
+          "numeric": [
+            {
+              "topic": "total_certified_capacity",
+              "value": 1350,
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ],
+              "unit": "persons"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "channel_cleared",
+              "label": "Navigation channel clearance",
+              "aliases": [
+                "Channel clearance signoff",
+                "Fairway hazard clearance"
+              ]
+            },
+            {
+              "topic": "radar_beacon_active",
+              "label": "Active radar beacon coverage",
+              "aliases": [
+                "Racon operational status",
+                "Radar transponder activation"
+              ]
+            },
+            {
+              "topic": "beacon_effective_range_nmi",
+              "label": "Radar beacon transmission range",
+              "aliases": [
+                "Racon signal range",
+                "Navigational transponder coverage radius"
+              ]
+            },
+            {
+              "topic": "berthing_apron_available",
+              "label": "Emergency berthing apron availability",
+              "aliases": [
+                "Dockside apron availability",
+                "Quayside apron readiness"
+              ]
+            },
+            {
+              "topic": "total_certified_capacity",
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ]
+            },
+            {
+              "topic": "triage_staging_ready",
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ]
+            },
+            {
+              "topic": "safety_signoff",
+              "label": "Maritime safety authority signoff",
+              "aliases": [
+                "Coast guard regulatory approval",
+                "Emergency marine corridor certification"
+              ]
+            },
+            {
+              "topic": "crew_medical_reservation",
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ]
+            }
+          ]
+        },
+        {
+          "role_name": "Marine Fleet Dispatcher (FLEET)",
+          "target_key": "FLEET-CREW-56Z",
+          "alternate_key": "FLEET-CREW-RE5",
+          "target_context": "June 2025",
+          "alternate_context": "July 2025",
+          "candidate": "Pemberton Deep-Draft Seaway Corridor",
+          "other_candidates": [
+            "Malaspina Inshore Archipelago Route",
+            "Queen Charlotte Outer Bank Channel"
+          ],
+          "numeric": [
+            {
+              "topic": "crew_medical_reservation",
+              "value": 120,
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ],
+              "unit": "persons"
+            }
+          ],
+          "boolean": [],
+          "language": "en",
+          "facts": [
+            {
+              "topic": "channel_cleared",
+              "label": "Navigation channel clearance",
+              "aliases": [
+                "Channel clearance signoff",
+                "Fairway hazard clearance"
+              ]
+            },
+            {
+              "topic": "radar_beacon_active",
+              "label": "Active radar beacon coverage",
+              "aliases": [
+                "Racon operational status",
+                "Radar transponder activation"
+              ]
+            },
+            {
+              "topic": "beacon_effective_range_nmi",
+              "label": "Radar beacon transmission range",
+              "aliases": [
+                "Racon signal range",
+                "Navigational transponder coverage radius"
+              ]
+            },
+            {
+              "topic": "berthing_apron_available",
+              "label": "Emergency berthing apron availability",
+              "aliases": [
+                "Dockside apron availability",
+                "Quayside apron readiness"
+              ]
+            },
+            {
+              "topic": "total_certified_capacity",
+              "label": "Total certified passenger capacity",
+              "aliases": [
+                "Gross passenger evacuation limit",
+                "Total passenger rating"
+              ]
+            },
+            {
+              "topic": "triage_staging_ready",
+              "label": "Triage staging facility readiness",
+              "aliases": [
+                "Clinical triage readiness",
+                "Dockside medical reception staging readiness"
+              ]
+            },
+            {
+              "topic": "safety_signoff",
+              "label": "Maritime safety authority signoff",
+              "aliases": [
+                "Coast guard regulatory approval",
+                "Emergency marine corridor certification"
+              ]
+            },
+            {
+              "topic": "crew_medical_reservation",
+              "label": "Mandatory vessel crew and medical escort reservation",
+              "aliases": [
+                "Crew and medical staff allocation",
+                "Non-evacuee berth reservation"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
